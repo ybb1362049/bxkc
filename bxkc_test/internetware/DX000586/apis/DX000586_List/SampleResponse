@@ -1,0 +1,220 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>四川达陕、达万、巴达高速公路有限责任公司</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--头-->
+<div id="header">
+	<div class="header_cont">
+    	<div class="header_top">
+        	<div class="logo"><img src="images/logo.jpg" width="459" height="60" /></div>
+        </div>
+        <div id="nav">
+           <div class="nav_left"><img src="images/nav_left.jpg" width="10" height="40" /></div>
+           <div class="nav_cont">
+           	<a href="index.asp">网站首页</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=1">企业介绍</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=2">行业新闻</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=3">营运动态</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=4">党风廉政</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=5">制度管理</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=6">服务区</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=7">企业文化</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=8">营运风采</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=9">企业论坛</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.asp?clasid=10">通知公告</a>
+           </div>
+           <div class="nav_right"><img src="images/nav_right.jpg" width="10" height="40" /></div>
+        </div>
+    </div>
+</div> 
+
+<!--内容-->
+<div id="container">
+	<div class="banner"></div>
+<!--内-->
+	<div id="content" style="height:auto!important;min-height:500px;height:500px;" class="clearfix">
+    	<!--左-->
+    	<div id="content_left" style="float:right;">
+        	<div class="gg"><div style=" float:left; line-height:26px; width:165px; text-align:center;font-weight:bold; color:#064c8a;">
+	<SCRIPT language=JavaScript class=text-tiny>
+    <!--
+    // // Array of day names
+    var dayNames = new Array("日","一","二","三","四","五","六");
+    // Array of month Names
+    var time = new Date();
+    var month = time.getMonth()+1;
+    var date = time.getDate();
+    var year = time.getYear();
+    if (year<100) year ="19" + time.getYear();
+    else year = time.getYear();
+    var day = dayNames[time.getDay()];
+    document.writeln(year+"年"+month +"月" +date+"日 星期"+day);
+    // -->
+    </SCRIPT>
+</div><div style="float:left; height:26px; width:508px;">
+   <iframe src="http://www.tianqi123.com/small_page/chengshi_1823.html?c0=red&c1=000000&bg=d5f1ff&w=508&h=26&text=yes" width="508" height="26" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" align="center" id="url"></iframe>
+</div></div>
+       	  <div class="bian" style="margin-top:5px; margin-bottom:5px; width:673px; height:73px; background:url(images/banner_pic.jpg);font-family:'黑体'; color:#000; font-size:30px; line-height:73px; font-weight:bold;">&nbsp;&nbsp;通知公告</div>
+       	  <div class="bian about_cont" style="margin-bottom:5px;">
+   	    <h1><img src="images/053753234.gif" width="16" height="16" />通知公告</h1>
+                <div style="background:#fff; margin:0px 4px 0px; height:auto!important;min-height:488px;height:488px;">
+                
+<ul class="about_xinxi_list">
+
+    <li><a href="newsnr.asp?newsid=3316" target="_blank">
+    <font color=>达万、巴达路服务区施工改造工程达万、巴达路服务区施工改造工程</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2017-07-17</em></li>
+
+    <li><a href="newsnr.asp?newsid=3280" target="_blank">
+    <font color=>达陕公司财务决算聘请中介服务机构询价公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2017-07-05</em></li>
+
+    <li><a href="newsnr.asp?newsid=3267" target="_blank">
+    <font color=>四川巴达高速公路有限责任公司 提升达州西服务区服务品质聘请设计单位询价中标…</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2017-07-03</em></li>
+
+    <li><a href="newsnr.asp?newsid=3247" target="_blank">
+    <font color=>关于工程造价审核单位备选名单报名的公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2017-06-28</em></li>
+
+    <li><a href="newsnr.asp?newsid=3222" target="_blank">
+    <font color=>提升达州西服务区服务品质聘请设计单位询价公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2017-06-21</em></li>
+
+    <li><a href="newsnr.asp?newsid=3116" target="_blank">
+    <font color=>四川达万高速公路有限责任公司 提升达万路运营品质聘请设计单位询价中标候选人…</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2017-05-09</em></li>
+
+    <li><a href="newsnr.asp?newsid=3084" target="_blank">
+    <font color=>四川达万高速公路有限责任公司提升达万路运营品质聘请设计单位</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2017-04-28</em></li>
+
+    <li><a href="newsnr.asp?newsid=3041" target="_blank">
+    <font color=>2017年度防直击雷装置及浪涌保护器（SPD）检测询价中标候选人公示表</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2017-04-17</em></li>
+
+    <li><a href="newsnr.asp?newsid=3013" target="_blank">
+    <font color=>2017年度防直击雷装置及浪涌保护器（SPD）检测询价公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2017-04-06</em></li>
+
+    <li><a href="newsnr.asp?newsid=2731" target="_blank">
+    <font color=>四川达陕高速公路有限责任公司发电机维修保养材料供应定点单位中标候选人公示表</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-12-07</em></li>
+
+    <li><a href="newsnr.asp?newsid=2707" target="_blank">
+    <font color=>四川达陕高速公路有限责任公司发电机维修保养材料供应定点单位竞争性询价文件</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-11-23</em></li>
+
+    <li><a href="newsnr.asp?newsid=2646" target="_blank">
+    <font color=>四川巴达高速公路有限责任公司 平昌管理处办公楼吊顶装修及照明改造工程询价中…</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-11-03</em></li>
+
+    <li><a href="newsnr.asp?newsid=2639" target="_blank">
+    <font color=>四川达陕高速公路有限责任公司汽车维修定点单位竞争性询价中标候选人公示表</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-11-02</em></li>
+
+    <li><a href="newsnr.asp?newsid=2633" target="_blank">
+    <font color=>四川巴达高速公路有限责任公司35KV金石变电站定制改装高压柜真空断路器采购…</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-11-01</em></li>
+
+    <li><a href="newsnr.asp?newsid=2609" target="_blank">
+    <font color=>达陕公司汽车维修定点单位询价公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-10-21</em></li>
+
+    <li><a href="newsnr.asp?newsid=2550" target="_blank">
+    <font color=>达陕高速公路便携式桥梁外观综合检查系统采购项目中标候选人公示表</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-09-29</em></li>
+
+    <li><a href="newsnr.asp?newsid=2500" target="_blank">
+    <font color=>达陕高速公路便携式桥梁外观综合检查系统采购项目询价公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-09-20</em></li>
+
+    <li><a href="newsnr.asp?newsid=2465" target="_blank">
+    <font color=>达陕高速公路交通安全设施采购询价中标候选人公示表</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-09-06</em></li>
+
+    <li><a href="newsnr.asp?newsid=2453" target="_blank">
+    <font color=>达陕高速公路厂溪河特大桥数字化管养系统工程中标候选人公示表</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-09-01</em></li>
+
+    <li><a href="newsnr.asp?newsid=2438" target="_blank">
+    <font color=>达陕公司交通安全设施材料采购询价公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-08-25</em></li>
+
+    <li><a href="newsnr.asp?newsid=2439" target="_blank">
+    <font color=>达陕路厂溪特大桥数字化管养系统工程询价公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-08-24</em></li>
+
+    <li><a href="newsnr.asp?newsid=2406" target="_blank">
+    <font color=>达陕高速公路2016～2019年度10KV外场输电线路日常维护工程询价公示…</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-08-15</em></li>
+
+    <li><a href="newsnr.asp?newsid=2405" target="_blank">
+    <font color=>达陕高速公路2016～2019年度10KV外场输电线路日常维护工程询价中标…</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-08-15</em></li>
+
+    <li><a href="newsnr.asp?newsid=2402" target="_blank">
+    <font color=>四川省巴中至达州高速公路项目工程决算咨询服务比选公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-08-12</em></li>
+
+    <li><a href="newsnr.asp?newsid=2365" target="_blank">
+    <font color=>四川省巴中至达州高速公路项目工程决算咨询服务比选公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-07-26</em></li>
+
+    <li><a href="newsnr.asp?newsid=2362" target="_blank">
+    <font color=>四川省达州至万州（四川境）高速公路项目工程决算咨询服务比选公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-07-22</em></li>
+
+    <li><a href="newsnr.asp?newsid=2360" target="_blank">
+    <font color=>达陕高速公路2016～2019年度10KV外场输电线路日常维护工程询价公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-07-21</em></li>
+
+    <li><a href="newsnr.asp?newsid=2357" target="_blank">
+    <font color=>四川省万源（陕川界）至达州（徐家坝）高速公路项目工程决算咨询服务比选公告</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-07-20</em></li>
+
+    <li><a href="newsnr.asp?newsid=2273" target="_blank">
+    <font color=>中标公示（巴达万土地登记）</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-05-12</em></li>
+
+    <li><a href="newsnr.asp?newsid=2262" target="_blank">
+    <font color=>四川达陕高速公路有限责任公司收费岗位服装和礼仪服装制作招商询价中标候选人公…</font></a>
+    </a><!--img src="images/new.gif" width="28" height="9" /--><em>2016-05-05</em></li>
+           	
+</ul><div class="clear"></div>
+<div class="about_page">
+<form method=Post action="?clasid=10&claseid=0"><a href=?clasid=10&claseid=0&page=1>首页</a>&nbsp;<a href=?clasid=10&claseid=0&page=1>上一页</a>&nbsp;<a href=?clasid=10&claseid=0&page=3>下一页</a> <a href=?clasid=10&claseid=0&page=6>尾页</a>&nbsp;页次：<strong><font color=red>2</font>/6</strong>页 &nbsp;共<b><font color='#FF0000'>160</font></b>条记录 <b>30</b>条记录/页 转到：<input type='text' name='page' size=4 maxlength=10 class=input-text value=2> <input class=input-button type='submit'  value='go '  name='cndok'></span></p></form>
+</div>
+
+                </div>
+            </div>
+    </div>
+        <!--右-->
+        <div id="content_right" style="float:left;">
+        	
+        	<div class="right_cont">
+            	<h1><img src="images/h1.gif" width="16" height="16" />最新信息</h1>
+                <ul class=xx><li><a href='newsnr.asp?newsid=3891'>平昌管理处养护科召开2017年工作总结暨2018年…</a><em><font color=#ff0000>01-12</font></em></li><li><a href='newsnr.asp?newsid=3890'>市环保局到万源管理处四川收费站检查绿通查验设备辐射…</a><em><font color=#ff0000>01-11</font></em></li><li><a href='newsnr.asp?newsid=3889'>平昌管理处召开2017年度收费工作总结会暨2018…</a><em><font color=#ff0000>01-11</font></em></li><li><a href='newsnr.asp?newsid=3888'>平昌管理处路产管护与安全大队 对中铁隧道股份有限公…</a><em><font color=#ff0000>01-11</font></em></li><li><a href='newsnr.asp?newsid=3887'>达陕公司开展冬季“送温暖”慰问活动</a><em><font color=#ff0000>01-11</font></em></li><li><a href='newsnr.asp?newsid=3886'>平昌管理处路管大队召开2017年工作总结暨“战寒冬…</a><em><font color=#ff0000>01-11</font></em></li><li><a href='newsnr.asp?newsid=3885'>万源管理处黄金收费站热助司乘</a><em><font color=#ff0000>01-11</font></em></li></ul>           
+          	</div>
+            <div class="right_cont">
+            	<h1><img src="images/h1.gif" width="16" height="16" />热点信息</h1> 
+              <ul class=rr><li><a href='newsnr.asp?newsid=3095'>达万四川站践行“品牌收费站”创建工作 圆满完成“五…</a><em>05-02</em></li><li><a href='newsnr.asp?newsid=3171'>公司副总经理谢旺林到七里站调研指导工作</a><em>05-27</em></li><li><a href='newsnr.asp?newsid=1994'>川高公司监事会工作委员会赴达陕公司调研</a><em>11-16</em></li><li><a href='newsnr.asp?newsid=2979'>省交通工会主席陈光华赴达陕公司调研</a><em>03-23</em></li><li><a href='newsnr.asp?newsid=457'>达陕高速公路全线桥梁伸缩缝采购与安装SF2-SF4…</a><em>08-10</em></li><li><a href='newsnr.asp?newsid=2369'>公司副总经理谢旺林、兰富安赴平昌管理处检查安全工作…</a><em>07-27</em></li><li><a href='newsnr.asp?newsid=2973'>达陕公司组织召开达陕、达万、巴达高速公路竣工验收（…</a><em>03-23</em></li></ul>          
+          	</div>            
+      	</div> 
+		<div class="clearfloat"></div>
+    </div>
+
+		
+<!--底-->
+	<div id="footer" style="height:100px; padding-top:10px;line-height:20px; color:#024c89;"><p style="TEXT-ALIGN: center">版权所有&nbsp;&copy;&nbsp;2010&nbsp;四川达陕（达万、巴达）高速公路有限责任公司 <br />地址：成都市二环路西一段90号四川高速大厦11楼&nbsp;&nbsp;&nbsp;&nbsp;电话：028-66027891 <br />技术支持：陕西公众软件有限责任公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蜀ICP备09025580号</p></div> 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,907 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>政府采购</title>
+<meta  name="version" content="7.9.11"/>
+<meta  name="createDate" content="2018-01-14 19:04:05" />
+<meta  name="cacheclearDate" content="2018-01-14 19:04:00"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="ColumnName" content="政府采购" >
+<meta name="ColumnType"   content="1" >
+<meta name="SiteName" content="会东县"><!--网站名称-->
+<meta name="SiteDomain" content=""><!--网站域名-->
+<meta name="SiteIDCode" content="huidong"><!--网站标识-->
+<meta name="ColumnDescription" content="初始化频道：政府采购"><!--栏目描述-->
+<meta name="ColumnKeywords" content=""><!--栏目关键词--><link rel="stylesheet" type="text/css"  href="/eportal/uiFramework/huilan-jquery-ui/css/huilan-jquery-ui.css" />
+<script type="text/javascript" src="/eportal/uiFramework/huilan-jquery-ui/js/huilan-jquery-ui.js?self=true&skin=default"></script>
+ </head>
+ <body>
+  <link rel="stylesheet" type="text/css" media="screen" href="/eportal/fileDir/huidong/template/huidong.css" /> 
+  <link rel="stylesheet" type="text/css" media="screen" href="/eportal/fileDir/huidong/template/page/hdgsindex/skin.css" /> 
+  <script type="text/javascript" src="/eportal/fileDir/huidong/template/huidong.js"></script><div style="display:none" easysite="easysiteHiddenDiv">
+	<input id="contextPath" value="/eportal" type="hidden"/>
+	<input id="isOnlyUseCkeditorSourceMode" value="$isOnlyUseCkeditorSourceMode" type="hidden"/>
+	<input id="eprotalCurrentPageId" value="1436848" type="hidden"/>
+	<input id="eprotalCurrentSiteId" value="1424562" type="hidden"/>
+	<input id="eprotalCurrentSiteName" value="会东县" type="hidden"/>
+	<input id="eprotalCurrentSiteEnname" value="huidong" type="hidden"/>
+	<input id="eprotalCurrentSiteType" value="WEB" type="hidden"/>
+	<input id="eprotalCurrentSiteHideMaskLayer" value="$currentWebSite.hideMaskLayer" type="hidden"/>
+	<input id="eprotalCurrentArticleKey"  value=""  type="hidden"/>
+	<input id="eprotalCurrentColumnId"  value=""  type="hidden"/>
+	<input id="isStaticRequest" value="yes" type="hidden"/>
+	<input id="isOpenStaticPageList" value="yes" type="hidden"/>
+	<input id="defaultPublishPage" value="1" type="hidden"/>
+	<input type='hidden' id='eportalappPortletId' value="3">
+	<input type='hidden' id='epsPortletId' value="1">
+	<input type='hidden' id='portaltoolsPortletId' value="2">
+	<script type="text/javascript" src="/eportal/uiFramework/js/counting/chanelCounting.js"></script>
+	<input type="hidden" id="currentLoginMemberId"  value="" />
+	<input type="hidden" id="currentLoginMemberName"  value="" />
+	<input type="hidden" id="behaviourAnalysisSiteId"  value="1259204835" /> 
+			<input type="hidden" id="portalLastRequestUrl"  value="" />
+</div>  <div>
+    <style type="text/css">
+.hd_header{ height:250px; width:100%;}
+.hd_header_top{ height:27px; line-height:27px;background:#eae8e9; font-size:12px; }
+.hd_header_top ul{ float:right; position:relative;}
+.hd_header_top ul li{ float:left; margin-left:5px;}
+/*.head_bg{width:100%;height:223px;background:url(/eportal/fileDir/huidong/template/common/hdtop/logobg.jpg) no-repeat center center;}*/
+.hd_header_con{ height:223px; width:100%; margin:0 auto;/*background:url(/eportal/fileDir/huidong/template/common/hdtop/head.png) no-repeat center center;*/}
+.hd_header_con p{display:none;height:223px;width:100%;}
+.hd_header_con img{}
+.hd_header_con .block{display:block}
+</style>
+<div class="hd_header">
+  <div class="hd_header_top">
+    <div style="width:1000px; margin:0 auto;"><p style="float:left; overflow:hidden;"><span>今天是：</span><script type="text/javascript">document.write(date);</script></p>
+      <ul>
+        <li><a id="StranLink" title="點擊以繁體中文方式瀏覽"  href="javascript:StranBody()" name="StranLink">繁體中文</a></li>
+        <li>|</li>
+         <li><a href="/eportal/Assistants/index.html" target="_blank">无障碍版</a></li> <li>|</li>
+        <li><a href="http://ww.schd.gov.cn/English/" target="_blank">英文版</a></li>
+        <!--<li>|</li>
+        <li>|</li>
+        <li><a href="http://www.schd.gov.cn/AppDownload.htm" target="_blank">手机APP</a></li>
+        <li>|</li>
+        <li><a href="http://www.schd.gov.cn/mail/maillogin.htm" target="_blank">电子邮箱</a></li>
+         <li>|</li>
+        <li><a href="" target="_blank">微门户</a></li>
+        <li>|</li>
+        <li><a href=""  target="_blank">手机版</a></li>-->
+      </ul>
+      </div>
+  </div>
+  <div class="head_bg"><div class="hd_header_con">
+<p class="block" style="text-align:center;background:url('/eportal/fileDir/huidong/resource/cms/2017/11/2017111514391836909.jpg') no-repeat; background-size:100% 100%"></p>
+<p style="text-align:center;background:url('/eportal/fileDir/huidong/resource/cms/2017/11/2017111514391916060.jpg') no-repeat; background-size:100% 100%;" ></p>
+<p style="text-align:center;background:url('/eportal/fileDir/huidong/resource/cms/2017/11/2017111514392096801.jpg') no-repeat; background-size:100% 100%;"></p>
+<p style="text-align:center;background:url('/eportal/fileDir/huidong/resource/cms/2017/11/2017111514392330257.jpg') no-repeat; background-size:100% 100%;"></p>
+</div></div>
+</div>
+<script type="text/javascript" src="/eportal/fileDir/lszrmzf/template/common/top/fant.js"></script>
+<script>
+timer=setInterval(tack1,4000);
+var step=0;
+var imgNum=$('.hd_header_con p').length;
+function tack1(){
+$('.block').eq(0).removeClass('block').next().addClass('block');
+step++;
+if(step>=imgNum){$('.hd_header_con p').eq(0).addClass('block').siblings().removeClass('block');step=0;}
+/*$('.block').animate({opacity:1},500);
+$('.block').siblings().animate({opacity:0},500);*/
+}
+</script>  </div> 
+  <div>
+    <script language="javascript">
+    function globSearch(){
+       var sUrl = "http://dig.lsz.gov.cn/dig/search.action?ty=&w=false&f=&dr=true&p=1&sr=score+desc&fq=&advtime=&advrange=&q=";
+       //var sUrl ="http://ww.schd.gov.cn/search/SelectList.aspx?wd=";
+				var key = document.getElementById("search1016").value;
+				if(key == "" || key == "请输入关键字"){
+					alert("关键字不能为空!");
+					return false;
+				}
+
+				//key = encodeURI(key);
+				sUrl = sUrl + key + '&ext=siteid:1424562'
+				window.open(encodeURI(sUrl));
+    }
+</script>
+<style type="text/css">
+  .hd_header_nav{height:43px; width:100%; background:url(/eportal/fileDir/huidong/template/common/hd_header_nav/hdnavbg.jpg) repeat-x left top;}
+ .hd_header_nav ul{padding-left:6px;}
+  .hd_header_nav ul li{width:100px; line-height:43px; float:left;text-align:center;}
+  .hd_header_nav ul li a{color:#ffffff; font-size:16px; font-family:'华文中宋';font-weight:bold;}  
+  .hd_header_nav ul li#eps_banner4_current{background:url(/eportal/fileDir/huidong/template/common/hd_header_nav/hdnavhover.jpg) no-repeat left top;}
+ .hd_header_nav ul li#eps_banner4_current a{color:#cc0000;}
+  .hdleft_zhong{width:1016px;margin:0 auto;}
+  .hd_Rsearchh{width:210px;display:inline-block; padding:0;border-spacing:0; border-collapse:collapse;float:right;display:inline;overflow:hidden;margin-top:8px;}
+  .hd_ssb{outline:none;background:url(/eportal/fileDir/huidong/template/common/hd_header_nav/sb.png) no-repeat left top; height:26px;width:165px; padding-left:10px; line-height:26px;border:none;}
+  .hd_header_nav ul li a:hover{text-decoration: none;}
+</style>
+<div class="hd_header_nav">
+<div class="hdleft_zhong">
+    <ul>    </li>
+       <li>  <a href="/huidong/huidong_index/index.html" target="_parent">首页</a> 
+     </li> 
+      </li>
+       <li>  <a href="/huidong/zjhd/index.html" target="_parent">走进会东</a> 
+     </li> 
+      </li>
+       <li>  <a href="/huidong/zfld83/index.html" target="_parent">领导之窗</a> 
+     </li> 
+            <li id="eps_banner4_current"> <a href="/huidong/xxgk83/index.html" target="_parent">信息公开</a> 
+     </li> 
+      </li>
+       <li>  <a href="/huidong/zxfw16/index.html" target="_parent">在线服务</a> 
+     </li> 
+      </li>
+       <li>  <a href="/huidong/hdjl57/index.html" target="_parent">互动交流</a> 
+     </li> 
+      </li>
+       <li>  <a href="/huidong/tzhd/index.html" target="_parent">投资会东</a> 
+     </li> 
+        </ul>
+<table class="hd_Rsearchh" align="center">         
+            <tr>
+                <td valign="top">
+                    <input  class="hd_ssb" id="search1016" size="25" onkeydown="enterInput(event);" type="text" placeholder="请输入关键字" name="q"/>                
+                </td>
+                <td class="hd_ss"   id="aSearch"  onclick="return globSearch();"><img src="/eportal/fileDir/huidong/template/common/hdtop/ss.png"></td>
+            </tr>        
+          </table>
+</div>
+</div>
+</div>  </div> 
+  <div class="hd_main"> 
+   <div class="by-con"> 
+    <div class="positionbg">
+      当前位置:<span><a class='SkinObject' href='/huidong/huidong_index/index.html' target='_parent'>首页</a>&nbsp;&gt;&nbsp;<a class='SkinObject' href='/huidong/xxgk83/index.html' target='_parent'>信息公开</a>&nbsp;&gt;&nbsp;<a class='SkinObject' href='/huidong/xzql55/index.html' target='_parent'>重点领域信息公开</a>&nbsp;&gt;&nbsp;<a class='SkinObject' href='/huidong/ggzyjy/index.html' target='_parent'>公共资源配置</a>&nbsp;&gt;&nbsp;<a class='SkinObject' href='/huidong/zfcg60/index.html' target='_parent'>政府采购</a></span> 
+    </div> 
+    <table width="1000" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody> 
+      <!--<tr>
+                <td height="10"></td>
+            </tr>--> 
+      <tr> 
+       <td valign="top" width="230" id="oneleft" name="导航" runat="server" class=" column"> <link rel="stylesheet" type="text/css" media="screen" href="/eportal/fileDir/huidong/template/module/tree_mod/container.css" /> 
+<div class="left_mod portlet" id="15569" style="$portletStyle"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu"></span> 
+  <div id="submenu15569" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div class="left_mod_tit">
+   基本信息公开 
+ </div> 
+ <div class="left_mod_con">
+   <link href="/eportal/fileDir/huidong/template/page/tree/skin.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/eportal/fileDir/huidong/template/page/tree/jquery.ztree.core-3.5.js"></script><script type="text/javascript">
+<!--
+var setting = {
+    data: {
+        simpleData: {
+            enable: true
+        }
+    }
+};
+
+//id是唯一的
+var zNodes2 =[
+    { id:1435547, pId:0, name:"信息公开条例", url:"/huidong/xxgktl/index.html", target:"_self"},
+    { id:1435550, pId:0, name:"信息公开指南", url:"/huidong/xxgkznyml/index.html", target:"_self"},
+    { id:1435553, pId:0, name:"信息公开年报", url:"/huidong/xxgknb/index.html", target:"_self"},
+    { id:1435559, pId:0, name:"信息公开目录", url:"/huidong/xxgkyjx/index.html", target:"_self"},
+    { id:1435562, pId:0, name:"政府工作报告", url:"/huidong/xxgkzd/index.html", target:"_self"},
+    { id:1435556, pId:0, name:"依申请公开信息", url:"/huidong/ysqgkxx/index.html", target:"_self"},
+    { id:1622340, pId:0, name:"县政府工作部门及职责", url:"/huidong/xzfgzbmjzz/index.html", target:"_self"},
+    { id:2080191, pId:0, name:"信息公开监督保障机制", url:"/huidong/2080191/index.html", target:"_self"},
+    { id:1435467, pId:0, name:"法规公文", url:"/huidong/fggw73/index.html", target:"_self"},
+        { id:1435575, pId:1435467, name:"县政府文件", url:"/huidong/xzfwj/index.html", target:"_self"},
+        { id:1435578, pId:1435467, name:"县政府办文件", url:"/huidong/xzfbwj/index.html", target:"_self"},
+        { id:1435581, pId:1435467, name:"部门文件", url:"/huidong/bmwj/index.html", target:"_self"},
+
+    { id:1435470, pId:0, name:"规划计划", url:"/huidong/ghjh60/index.html", target:"_self"},
+        { id:1435591, pId:1435470, name:"“十二五”规划", url:"/huidong/sewgh76/index.html", target:"_self"},
+        { id:1435594, pId:1435470, name:"年度计划", url:"/huidong/ndjh/index.html", target:"_self"},
+        { id:1435597, pId:1435470, name:"专项规划", url:"/huidong/zxgh85/index.html", target:"_self"},
+
+    { id:1435473, pId:0, name:"重要会议", url:"/huidong/zyhy57/index.html", target:"_self"},
+        { id:1435609, pId:1435473, name:"政府常务会", url:"/huidong/zfcwh/index.html", target:"_self"},
+        { id:1435612, pId:1435473, name:"政府全体会", url:"/huidong/zfqth/index.html", target:"_self"},
+
+    { id:1435476, pId:0, name:"人事信息", url:"/huidong/rsxx72/index.html", target:"_self"},
+        { id:1435628, pId:1435476, name:"公务员招考", url:"/huidong/gwyzk/index.html", target:"_self"},
+        { id:1435625, pId:1435476, name:"人事任免", url:"/huidong/rsrm19/index.html", target:"_self"},
+        { id:1435631, pId:1435476, name:"事业单位考录", url:"/huidong/sydwkl/index.html", target:"_self"},
+
+    { id:1435479, pId:0, name:"统计信息", url:"/huidong/tjxx43/index.html", target:"_self"},
+        { id:1435641, pId:1435479, name:"月度数据", url:"/huidong/ydsj/index.html", target:"_self"},
+        { id:1435644, pId:1435479, name:"季度数据", url:"/huidong/jdsj/index.html", target:"_self"},
+        { id:1435647, pId:1435479, name:"年度数据", url:"/huidong/ndsj/index.html", target:"_self"},
+
+    { id:1435482, pId:0, name:"审计信息", url:"/huidong/sjxx/index.html", target:"_self"},
+        { id:1435656, pId:1435482, name:"审计计划", url:"/huidong/sjjh/index.html", target:"_self"},
+        { id:1435659, pId:1435482, name:"审计动态", url:"/huidong/sjdt/index.html", target:"_self"},
+
+    { id:1435485, pId:0, name:"应急管理", url:"/huidong/yjgl23/index.html", target:"_self"},
+        { id:1435668, pId:1435485, name:"应急预案", url:"/huidong/yjya7/index.html", target:"_self"},
+        { id:1435672, pId:1435485, name:"突发公共事件", url:"/huidong/tfggsj83/index.html", target:"_self"},
+        { id:2079190, pId:1435485, name:"避险自救知识", url:"/huidong/2079190/index.html", target:"_self"},
+        { id:1435676, pId:1435485, name:"突发公共事件应对", url:"/huidong/tfggsjyd83/index.html", target:"_self"},
+
+    { id:1435488, pId:0, name:"通知公告", url:"/huidong/tzgg26/index.html", target:"_self"},
+        { id:1435686, pId:1435488, name:"政务公告", url:"/huidong/zwgg2/index.html", target:"_self"},
+        { id:1435689, pId:1435488, name:"资质、资格、自学考试", url:"/huidong/zzzgzxks/index.html", target:"_self"},
+
+    { id:1435491, pId:0, name:"便民提示", url:"/huidong/bmts36/index.html", target:"_self"},
+        { id:1435698, pId:1435491, name:"停电计划", url:"/huidong/tdjh/index.html", target:"_self"},
+        { id:1435701, pId:1435491, name:"停水计划", url:"/huidong/tsjh/index.html", target:"_self"},
+        { id:1435704, pId:1435491, name:"天气预警", url:"/huidong/tqyj/index.html", target:"_self"}
+];
+
+$(document).ready(function(){
+    $.fn.zTree.init($("#treeDemo2"), setting, zNodes2);
+    var zTree = $.fn.zTree.getZTreeObj("treeDemo2");
+    var url = location.search; //获取url中"?"符后的字串
+    var nodes = zTree.getNodeByParam("id",url.substring(url.lastIndexOf('opentreeid', url.length) + 11, url.length),null);
+    //alert(nodes.length);
+    zTree.expandNode(nodes, true, false, true);
+});
+//-->
+</script><div class="zdlytree2" style="padding-bottom: 10px; overflow-y: auto; padding-left: 0px; padding-right: 0px; height: 300px; padding-top: 0px"><div class="left"><ul class="lsztree" id="treeDemo2">
+</ul>
+</div>
+</div>
+
+ 
+ </div> 
+</div>  <link rel="stylesheet" type="text/css" media="screen" href="/eportal/fileDir/huidong/template/module/left_mod/container.css" /> 
+<div class="left_mod portlet" id="15731" style="$portletStyle"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu"></span> 
+  <div id="submenu15731" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div class="left_mod_tit">
+   重点领域信息公开 
+ </div> 
+ <div class="left_mod_con">
+   <link href="/eportal/fileDir/huidong/template/page/tree/skin.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/eportal/fileDir/huidong/template/page/tree/jquery.ztree.core-3.5.js"></script><script type="text/javascript">
+<!--
+var setting = {
+    data: {
+        simpleData: {
+            enable: true
+        }
+    }
+};
+
+//id是唯一的
+var zNodes =[
+    { id:2084072, pId:0, name:"农机购置", url:"/huidong/2084072/index.html", target:"_self"},
+    
+    
+    { id:4217337, pId:0, name:"“五公开”专栏", url:"/huidong/wgkzl0/index.html", target:"_self"},    
+        { id:4217340, pId:4217337, name:"决策公开", url:"/huidong/jcgk8589/index.html", target:"_self"},
+        { id:4217343, pId:4217337, name:"执行公开", url:"/huidong/zxgk24/index.html", target:"_self"},
+        { id:4217346, pId:4217337, name:"管理公开", url:"/huidong/glgk50/index.html", target:"_self"},
+        { id:4217349, pId:4217337, name:"服务公开", url:"/huidong/fwgk32/index.html", target:"_self"},
+        { id:4217352, pId:4217337, name:"结果公开", url:"/huidong/jggk12/index.html", target:"_self"},
+
+    { id:1435494, pId:0, name:"行政权力", url:"/huidong/dtxx32/index.html", target:"_self"},    
+        { id:1436267, pId:1435494, name:"行权信息", url:"/huidong/dtxx32/index.html", target:"_self"},
+        { id:1436270, pId:1435494, name:"行权目录", url:"http://hd.lsz.gov.cn/huidong/hdxxjxzqlzrqdml/index.html", target:"_self"},
+    { id:1435497, pId:0, name:"财政资金", url:"/huidong/czzj/index.html", target:"_self"},
+        { id:1436510, pId:1435497, name:"“三公”经费", url:"/huidong/sgjf82/index.html", target:"_self"},
+        { id:1436513, pId:1435497, name:"财政预决算", url:"/huidong/czyjs58/index.html", target:"_self"},
+
+    { id:1435500, pId:0, name:"保障性住房", url:"/huidong/bzxzf63/index.html", target:"_self"},
+        { id:1436580, pId:1435500, name:"工作计划", url:"/huidong/gzjh9/index.html", target:"_self"},
+        { id:1436583, pId:1435500, name:"工作进展", url:"/huidong/gzjz26/index.html", target:"_self"},
+        { id:2062955, pId:1435500, name:"政策文件", url:"/huidong/2062955/index.html", target:"_self"},
+
+    { id:1435503, pId:0, name:"食品药品安全", url:"/huidong/spaq28/index.html", target:"_self"},
+        { id:1436592, pId:1435503, name:"工作信息", url:"/huidong/gzdt6/index.html", target:"_self"},
+        { id:1436595, pId:1435503, name:"监管信息", url:"/huidong/jgdt68/index.html", target:"_self"},
+        { id:1436598, pId:1435503, name:"案件查处", url:"/huidong/ajcc5/index.html", target:"_self"},
+
+    { id:1435506, pId:0, name:"环境保护", url:"/huidong/hjbh94/index.html", target:"_self"},
+        { id:1436609, pId:1435506, name:"工作信息", url:"/huidong/gzdt641/index.html", target:"_self"},
+        { id:1436618, pId:1435506, name:"环评公告", url:"/huidong/hpgg43/index.html", target:"_self"},
+        { id:2065779, pId:1435506, name:"专项治理", url:"/huidong/2065779/index.html", target:"_self"},
+        { id:2087786, pId:1435506, name:"空气质量", url:"/huidong/2087786/index.html", target:"_self"},
+        { id:2065777, pId:1435506, name:"重点减排工程建设项目", url:"/huidong/2065777/index.html", target:"_self"},
+
+
+    { id:1435509, pId:0, name:"安全生产", url:"/huidong/aqsc34/index.html", target:"_self"},
+        { id:1436700, pId:1435509, name:"工作信息", url:"/huidong/gzdt56/index.html", target:"_self"},
+        { id:1436703, pId:1435509, name:"专项治理", url:"/huidong/zxzl23/index.html", target:"_self"},
+        { id:1436706, pId:1435509, name:"隐患查处", url:"/huidong/yhcc91/index.html", target:"_self"},
+        { id:2065769, pId:1435509, name:"风险预警", url:"/huidong/2065769/index.html", target:"_self"},
+        { id:2065763, pId:1435509, name:"安全事故处置", url:"/huidong/2065763/index.html", target:"_self"},
+        { id:2065765, pId:1435509, name:"生产安全形势", url:"/huidong/2065765/index.html", target:"_self"},
+        { id:2065767, pId:1435509, name:"重大突发事件", url:"/huidong/2065767/index.html", target:"_self"},
+
+
+    { id:1435512, pId:0, name:"价格收费", url:"/huidong/jgsf82/index.html", target:"_self"},
+        { id:1436716, pId:1435512, name:"价格监管", url:"/huidong/jgjg38/index.html", target:"_self"},
+        { id:1436719, pId:1435512, name:"价格分析", url:"/huidong/jgfx28/index.html", target:"_self"},
+        { id:2065628, pId:1435512, name:"民生领域价格收费", url:"/huidong/2065628/index.html", target:"_self"},
+        { id:2065632, pId:1435512, name:"政府管理价格", url:"/huidong/2065632/index.html", target:"_self"},
+        { id:2065635, pId:1435512, name:"行政事业性收费", url:"/huidong/2065635/index.html", target:"_self"},
+        { id:1436722, pId:1435512, name:"价格收费热点", url:"/huidong/jgsfrd30/index.html", target:"_self"},
+
+    { id:1435515, pId:0, name:"土地出让", url:"/huidong/tdcr/index.html", target:"_self"},
+        { id:1436752, pId:1435515, name:"征地拆迁", url:"/huidong/zdcq74/index.html", target:"_self"},
+        { id:1436755, pId:1435515, name:"出让公告", url:"/huidong/crgg61/index.html", target:"_self"},
+        { id:2068999, pId:1435515, name:"成交公示", url:"/huidong/2068999/index.html", target:"_self"},
+
+    { id:1435518, pId:0, name:"公共资源交易", url:"/huidong/ggzyjy/index.html", target:"_self"},
+        { id:1436848, pId:1435518, name:"政府采购", url:"/huidong/zfcg60/index.html", target:"_self"},
+        { id:1443674, pId:1435518, name:"招标投标", url:"/huidong/zbtb2323/index.html", target:"_self"},
+    
+    { id:4217214, pId:0, name:"三张清单", url:"/huidong/szqd84/index.html", target:"_self"},
+        { id:4217217, pId:4217214, name:"权力清单", url:"/huidong/qlqd29/index.html", target:"_self"},
+        { id:4217220, pId:4217214, name:"责任清单", url:"/huidong/zrqd38/index.html", target:"_self"},
+        { id:4217223, pId:4217214, name:"负责清单", url:"/huidong/fzqd/index.html", target:"_self"},
+
+     { id:4217226, pId:0, name:"市场监管", url:"/huidong/scjg59/index.html", target:"_self"},
+        { id:4217229, pId:4217226, name:"监管信息", url:"/huidong/jgxx86/index.html", target:"_self"},
+        { id:4217232, pId:4217226, name:"执法信息", url:"/huidong/zfxx71/index.html", target:"_self"},
+
+    { id:4217253, pId:0, name:"重大项目", url:"/huidong/zdxm2015/index.html", target:"_self"},
+        { id:4217256, pId:4217253, name:"项目审批", url:"/huidong/xmsp/index.html", target:"_self"},
+        { id:4217259, pId:4217253, name:"实施信息", url:"/huidong/ssxx/index.html", target:"_self"},
+
+    { id:4217262, pId:0, name:"国企信息", url:"/huidong/gqxx46/index.html", target:"_self"},
+        
+    { id:4217271, pId:0, name:"脱贫攻坚", url:"/huidong/tpgj59/index.html", target:"_self"},
+        { id:4217274, pId:4217271, name:"扶贫政策", url:"/huidong/fpzc54/index.html", target:"_self"},
+        { id:4217277, pId:4217271, name:"扶贫信息", url:"/huidong/fpxx99/index.html", target:"_self"},
+
+    { id:4217280, pId:0, name:"社会救助", url:"/huidong/shjz49/index.html", target:"_self"},
+        { id:4217283, pId:4217280, name:"城乡低保", url:"/huidong/cxdb/index.html", target:"_self"},
+        { id:4217286, pId:4217280, name:"人员救助", url:"/huidong/ryjz/index.html", target:"_self"},
+
+    { id:4217289, pId:0, name:"教育信息", url:"/huidong/jyxx78/index.html", target:"_self"},
+        { id:4217292, pId:4217289, name:"工作进展", url:"/huidong/gzjz35/index.html", target:"_self"},
+        
+
+    { id:4217298, pId:0, name:"卫生防疫", url:"/huidong/wsfy88/index.html", target:"_self"},
+        { id:4217301, pId:4217298, name:"疫情公开", url:"/huidong/yqgk/index.html", target:"_self"},
+        { id:4217304, pId:4217298, name:"重大突发事件", url:"/huidong/zdtfsj/index.html", target:"_self"},
+
+    { id:4217307, pId:0, name:"督查审计", url:"/huidong/dcsj8/index.html", target:"_self"},
+        { id:4217310, pId:4217307, name:"工作动态", url:"/huidong/gzdt28/index.html", target:"_self"},
+        { id:4217313, pId:4217307, name:"督查审计成果", url:"/huidong/dcsjcg/index.html", target:"_self"},
+
+    { id:4217316, pId:0, name:"科技管理", url:"/huidong/kjgl20/index.html", target:"_self"},
+        { id:4217319, pId:4217316, name:"科技计划", url:"/huidong/kjjh37/index.html", target:"_self"},
+        { id:4217322, pId:4217316, name:"科技项目", url:"[pagevisitpath:4217322]", target:"_self"},
+        { id:4217325, pId:4217316, name:"科技经费", url:"[pagevisitpath:4217325]", target:"_self"},
+
+    { id:4217328, pId:0, name:"社会组织", url:"/huidong/shzz54/index.html", target:"_self"},
+        { id:4217331, pId:4217328, name:"组织目录", url:"/huidong/zzml/index.html", target:"_self"},
+        
+    { id:4217244, pId:0, name:"“双创”信息", url:"/huidong/scxx60/index.html", target:"_self"},
+        { id:4217247, pId:4217244, name:"政策措施", url:"/huidong/zccs78/index.html", target:"_self"},
+        { id:4217250, pId:4217244, name:"实施进展", url:"/huidong/ssjz/index.html", target:"_self"},  
+     { id:4217355, pId:0, name:"重要信息转载", url:"/huidong/zyxxzz51/index.html", target:"_self"},
+
+];
+
+$(document).ready(function(){
+    $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+    var zTree = $.fn.zTree.getZTreeObj("treeDemo");
+    var url = location.search; //获取url中"?"符后的字串
+    var nodes = zTree.getNodeByParam("id",url.substring(url.lastIndexOf('opentreeid', url.length) + 19, url.length),null);
+    //alert(nodes.length);
+    zTree.expandNode(nodes, true, false, true);
+});
+-->
+</script><div class="zdlytree" style="overflow: auto; height: 203px; padding-bottom: 10px"><div class="left"><ul class="lsztree" id="treeDemo">
+</ul>
+</div>
+</div>
+<br />
+
+ 
+ </div> 
+</div> </td> 
+       <td width="10"></td> 
+       <td valign="top" width="760" id="oneright" name="列表" runat="server" class=" column"> <link rel="stylesheet" type="text/css" media="screen" href="/eportal/fileDir/huidong/template/module/long_red/container.css" /> 
+<div id="16236" class=" portlet" style="$portletStyle"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu"></span> 
+  <div id="submenu16236" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div class="longred"> 
+  <div class="longred_tit"> 
+   <span class="titleft"></span> 
+   <span class="titmid">政府采购</span> 
+   <span class="titrig"></span> 
+  </div> 
+  <div class="longred_con">
+    
+
+
+<ul id="newlist" class="l_r_height" opentype="page"> 
+ <table cellspacing="0" cellpadding="0" border="0" align="center" class="all_cbf10"> 
+  <tbody> 
+   <tr> 
+    <td valign="top">
+     <table cellspacing="0" cellpadding="0" border="0" class="" style="width:100%;border-collapse:collapse;">
+      <tbody>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5537652/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县农牧局四川西部地区（会东县）松材虫病等林业有害生物防控体系项目招标结果公告公开招标中标公告" istitle="true">四川省凉山彝族自治州会东县农牧局四川西部地区（会东县）松材虫病等林业有害生物防控体系项目招标结果...</a></td> 
+             <td class="list_date12" align="right">2017-12-27</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5506473/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县国土资源局小坝心片区西向会客厅与城南保障性安居房PPP项目公开招标采购公告" istitle="true">四川省凉山彝族自治州会东县国土资源局小坝心片区西向会客厅与城南保障性安居房PPP项目公开招标采购公告</a></td> 
+             <td class="list_date12" align="right">2017-12-13</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5475435/index.html" onclick="void(0)" target="_blank" title="会东县政务中心拟单一来源采购行政行为电子监察系统的征求意见公示" istitle="true">会东县政务中心拟单一来源采购行政行为电子监察系统的征求意见公示</a></td> 
+             <td class="list_date12" align="right">2017-12-05</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5416600/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县城乡规划建设和住房保障局会东县供排水一体化PPP项目公开招标资格预审公告" istitle="true">四川省凉山彝族自治州会东县城乡规划建设和住房保障局会东县供排水一体化PPP项目公开招标资格预审公告</a></td> 
+             <td class="list_date12" align="right">2017-11-16</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5366045/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县文化广电新闻出版和体育旅游局2017年村级综合文化活动室建设设备采购结果公告公开招标废标、流标公告" istitle="true">四川省凉山彝族自治州会东县文化广电新闻出版和体育旅游局2017年村级综合文化活动室建设设备采购结果公...</a></td> 
+             <td class="list_date12" align="right">2017-11-08</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5324091/index.html" onclick="void(0)" target="_blank" title="会东县人民政府政务服务中心拟单一来源采购政务中心大厅前台的征求意见公示" istitle="true">会东县人民政府政务服务中心拟单一来源采购政务中心大厅前台的征求意见公示</a></td> 
+             <td class="list_date12" align="right">2017-11-01</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5297647/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县直属小学教师工作服采购招标公告公开招标采购公告" istitle="true">四川省凉山彝族自治州会东县直属小学教师工作服采购招标公告公开招标采购公告</a></td> 
+             <td class="list_date12" align="right">2017-10-30</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5182683/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县中医医院医疗设备采购项目公开招标中标公告" istitle="true">四川省凉山彝族自治州会东县中医医院医疗设备采购项目公开招标中标公告</a></td> 
+             <td class="list_date12" align="right">2017-10-17</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5057019/index.html" onclick="void(0)" target="_blank" title="会东县森林公安局拟单一来源采购视频指挥调度系统的征求意见公示" istitle="true">会东县森林公安局拟单一来源采购视频指挥调度系统的征求意见公示</a></td> 
+             <td class="list_date12" align="right">2017-10-11</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/5020187/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县公安局等办公设备询价结果公告" istitle="true">四川省凉山彝族自治州会东县公安局等办公设备询价结果公告</a></td> 
+             <td class="list_date12" align="right">2017-09-28</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/4875481/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县中医医院医疗设备采购项目公开招标采购公告" istitle="true">四川省凉山彝族自治州会东县中医医院医疗设备采购项目公开招标采购公告</a></td> 
+             <td class="list_date12" align="right">2017-09-11</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/4829992/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县国土资源局小坝心西向会客厅与保障性安居房PPP项目咨询服务采购结果公告竞争性磋商结果公告" istitle="true">四川省凉山彝族自治州会东县国土资源局小坝心西向会客厅与保障性安居房PPP项目咨询服务采购结果公告竞争...</a></td> 
+             <td class="list_date12" align="right">2017-09-05</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/4736611/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县地方税务局空调询价结果公告" istitle="true">四川省凉山彝族自治州会东县地方税务局空调询价结果公告</a></td> 
+             <td class="list_date12" align="right">2017-08-22</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/4736562/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县地方税务局厨房设备" istitle="true">四川省凉山彝族自治州会东县地方税务局厨房设备</a></td> 
+             <td class="list_date12" align="right">2017-08-22</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/4736465/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县地方税务局厨房设备" istitle="true">四川省凉山彝族自治州会东县地方税务局厨房设备</a></td> 
+             <td class="list_date12" align="right">2017-08-22</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/4736411/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县地方税务局空调询价采购" istitle="true">四川省凉山彝族自治州会东县地方税务局空调询价采购</a></td> 
+             <td class="list_date12" align="right">2017-08-22</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+       <tr class="">
+        <td><li> 
+          <table cellspacing="0" cellpadding="0" border="0" class="all_list" width="100%"> 
+           <tbody> 
+            <tr> 
+             <td style="text-align:center; list-style-type: none; width: 21px;"><img src="/eportal/fileDir/huidong/resource/cms/2014/11/2014110514542870729.jpg" border="0" /></td> 
+             <td class="list_tit12"><a href="/huidong/zfcg60/4561063/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州会东县教育局学生营养餐饮用奶采购招标" istitle="true">四川省凉山彝族自治州会东县教育局学生营养餐饮用奶采购招标</a></td> 
+             <td class="list_date12" align="right">2017-06-29</td> 
+            </tr> 
+           </tbody> 
+          </table> </li></td>
+       </tr>
+      </tbody>
+     </table></td> 
+   </tr> 
+   <tr> 
+    <td height="10"></td> 
+   </tr> 
+   <tr> 
+    <td align="center"> 
+     <div style="width:100%; font-family: Tahoma,Arial,Helvetica;font-size: 12px;font-weight: normal;"> 
+      <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td nowrap="true" align="notset" valign="middle" style="width:60%;"> <a tagname="[HOMEPAGE]" class="">首页</a> <span style="width:5px;display:inline-block;"></span> <a tagname="[PREVIOUSPAGE]" class="">上一页</a> <span style="width:5px;display:inline-block;"></span> <span style="width:5px;"></span> <a style="cursor:pointer" onclick="queryArticleByCondition(this,'/eportal/ui?pageId=1436848&currentPage=2&moduleId=16236&staticRequest=yes')" tagname="/eportal/ui?pageId=1436848&currentPage=2&moduleId=16236&staticRequest=yes" class="pagingNormal">下一页</a> <span style="width:5px;display:inline-block;"></span> <a style="cursor:pointer" onclick="queryArticleByCondition(this,'/eportal/ui?pageId=1436848&currentPage=35&moduleId=16236&staticRequest=yes')" tagname="/eportal/ui?pageId=1436848&currentPage=35&moduleId=16236&staticRequest=yes" class="pagingNormal">尾页</a> <span style="width:5px;display:inline-block;"></span> </td> 
+         <td nowrap="true" align="left" valign="middle" style="width:40%;line-height:23px;" class="Normal"> 总记录数:595,每页显示17条记录,当前页: <font color="red" style="font-family:雅黑,宋体">1</font> /35 <span style="width:5px;display:inline-block;"></span> 跳转至第<input type="text" size="2" onkeydown="jumpToPage(event,this,'35','1','/eportal/ui?pageId=1436848&currentPage=%1&moduleId=16236||/huidong/zfcg60/16236-%1.html')" value="1" />页 <input type="button" onclick="jumpTo(this,'35','1','/eportal/ui?pageId=1436848&currentPage=%1&moduleId=16236||/huidong/zfcg60/16236-%1.html')" value="跳转" style="background: none repeat scroll 0 0 #006699;border: 1px solid #D2F3FD;color: white;cursor: pointer;font-size: 1em;height: 23px;padding: 2px 5px;vertical-align: middle;" /> </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> <br /><input type="hidden" name="article_paging_list_hidden" moduleid="16236" modulekey="16236" totalpage="35" /></td> 
+   </tr> 
+  </tbody> 
+ </table> 
+</ul> 
+  </div> 
+ </div> 
+</div> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <div style="height: 10px"></div> 
+   </div> 
+  </div> 
+  <div>
+    <script>
+function s_click(nums){    
+     var num = 0;
+	 var sele=document.getElementById("select"+nums);
+	 for(var i=0;i<sele.options.length;i++){
+		 if(sele.options[i].selected==true){                
+		 num++;         
+         }   
+		 }     
+		 if(num==1){        
+		 var url = sele.options[sele.selectedIndex].value;    
+		 window.open(url);//这里修改打开连接方式  
+		 }
+		 }
+
+
+</script>
+<style type="text/css">
+.hd_yq_contbgg{width:1016px;margin:0 auto;background:url(/eportal/fileDir/huidong/template/common/hdyq/conbg.jpg) repeat-y left top;}
+.hd_yq_cont{width:980px;margin:0 auto;height:30px;}
+.hd_yq_cont select.selects{width:210px; margin:5px; height:20px; float:left; display:inline; border:1px solid #dedede;}
+</style>
+<div class="hd_yq_contbgg">
+<div class="hd_yq_cont">
+	<select class="selects" id="select0" onchange="s_click(0)">
+<option selected="selected">中央政府和部委网站</option>
+<option value="http://www.saac.gov.cn/" >档案局</option>
+<option value="http://www.safe.gov.cn" >外汇局</option>
+<option value="http://www.satcm.gov.cn/" >中医药局</option>
+<option value="http://www.sach.gov.cn/" >文物局</option>
+<option value="http://www.spb.gov.cn/" >邮政局</option>
+<option value="http://www.sbsm.gov.cn/" >测绘局</option>
+<option value="http://www.soa.gov.cn/" >海洋局</option>
+<option value="http://www.safea.gov.cn/" >外专局</option>
+<option value="http://www.tobacco.gov.cn/html/" >烟草局</option>
+<option value="http://www.chinagrain.gov.cn/" >粮食局</option>
+<option value="http://www.gjxfj.gov.cn/" >信访局</option>
+<option value="http://www.nsfc.gov.cn/" >自然科学基金会</option>
+<option value="http://www.ssf.gov.cn/" >社保基金会</option>
+<option value="http://www.circ.gov.cn/" >保监会</option>
+<option value="http://www.csrc.gov.cn/" >证监会</option>
+<option value="http://www.cbrc.gov.cn/" >银监会</option>
+<option value="http://www.cma.gov.cn/" >气象局</option>
+<option value="http://www.cea.gov.cn/" >地震局</option>
+<option value="http://www.nsa.gov.cn/" >行政学院</option>
+<option value="http://www.drc.gov.cn/" >发展研究中心</option>
+<option value="http://www.cae.cn/" >工程院</option>
+<option value="http://cass.cssn.cn/" >社科院</option>
+<option value="http://www.cas.cn/" >中科院</option>
+<option value="http://www.xinhuanet.com/" >新华社</option>
+<option value="http://www.scio.gov.cn/" >新闻办</option>
+<option value="http://www.gwytb.gov.cn/" >台办</option>
+<option value="http://www.chinalaw.gov.cn/" >法制办</option>
+<option value="http://www.hmo.gov.cn/" >港澳办</option>
+<option value="http://www.gqb.gov.cn/" >侨办</option>
+<option value="http://www.ggj.gov.cn/" >国管局</option>
+<option value="http://www.counsellor.gov.cn/" >参事室</option>
+<option value="http://www.sara.gov.cn/" >国家宗教事务局</option>
+<option value="http://www.cnta.gov.cn/" >旅游局</option>
+<option value="http://www.sipo.gov.cn/" >知识产权局</option>
+<option value="http://www.sda.gov.cn/" >食品药品监管局</option>
+<option value="http://www.forestry.gov.cn/" >林业局</option>
+<option value="http://www.stats.gov.cn/" >统计局</option>
+<option value="http://www.chinasafety.gov.cn/" >安全监管总局</option>
+<option value="http://www.sport.gov.cn/" >体育总局</option>
+<option value="http://www.gapp.gov.cn/" >新闻出版总署(版权局)</option>
+<option value="http://www.chinasarft.gov.cn/" >广电总局</option>
+<option value="http://www.caac.gov.cn/" >民航总局</option>
+<option value="http://www.zhb.gov.cn/" >环保总局</option>
+<option value="http://www.aqsiq.gov.cn/" >质检总局</option>
+<option value="http://www.saic.gov.cn/" >工商总局</option>
+<option value="http://www.chinatax.gov.cn/" >税务总局</option>
+<option value="http://www.customs.gov.cn/" >海关总署</option>
+<option value="http://www.sasac.gov.cn/" >国资委</option>
+<option value="http://www.audit.gov.cn/" >审计署</option>
+<option value="http://www.pbc.gov.cn/" >人民银行</option>
+<option value="http://www.nhfpc.gov.cn/" >卫生部</option>
+<option value="http://www.mcprc.gov.cn/" >文化部</option>
+<option value="http://www.mofcom.gov.cn/" >商务部</option>
+<option value="http://www.agri.gov.cn/" >农业部</option>
+<option value="http://www.mwr.gov.cn/" >水利部</option>
+<option value="http://www.miit.gov.cn/" >信息产业部</option>
+<option value="http://www.mot.gov.cn/" >交通部</option>
+<option value="http://www.nra.gov.cn/" >铁道部</option>
+<option value="http://www.mohurd.gov.cn/" >建设部</option>
+<option value="http://www.mlr.gov.cn/" >国土资源部</option>
+<option value="http://www.mohrss.gov.cn/" >人力资源和社会保障部</option>
+<option value="http://www.mof.gov.cn" >财政部</option>
+<option value="http://www.moj.gov.cn/" >司法部</option>
+<option value="http://www.mca.gov.cn" >民政部</option>
+<option value="http://www.mos.gov.cn" >监察部</option>
+<option value="http://www.mps.gov.cn" >公安部</option>
+<option value="http://www.mohrss.gov.cn/" >国家民委</option>
+<option value="http://www.sastind.gov.cn/" >国防科工局</option>
+<option value="http://www.most.gov.cn" >科技部</option>
+<option value="http://www.moe.gov.cn" >教育部</option>
+<option value="http://www.ndrc.gov.cn" >发展改革委</option>
+<option value="http://www.mfa.gov.cn" >外交部</option>
+</select> 
+
+<select class="selects" id="select1" onchange="s_click(1)">
+<option selected="selected">省级政府网站</option>
+<option value="http://www.beijing.gov.cn">北京</option>
+<option value="http://www.shanghai.gov.cn">上海</option>
+<option value="http://www.tj.gov.cn">天津</option>
+<option value="http://www.cq.gov.cn">重庆</option>
+<option value="http://www.henan.gov.cn">河南</option>
+<option value="http://www.hebei.gov.cn">河北</option>
+<option value="http://www.shanxi.gov.cn">山西</option>
+<option value="http://www.ln.gov.cn">辽宁</option>
+<option value="http://www.jl.gov.cn">吉林</option>
+<option value="http://www.hlj.gov.cn">黑龙江</option>
+<option value="http://www.shandong.gov.cn">山东</option>
+<option value="http://www.jiangsu.gov.cn">江苏</option>
+<option value="http://www.zhejiang.gov.cn">浙江</option>
+<option value="http://www.ah.gov.cn">安徽</option>
+<option value="http://www.fujian.gov.cn">福建</option>
+<option value="http://www.jiangxi.gov.cn">江西</option>
+<option value="http://www.henan.gov.cn">河南</option>
+<option value="http://www.hubei.gov.cn">湖北</option>
+<option value="http://www.hunan.gov.cn">湖南</option>
+<option value="http://www.gd.gov.cn">广东</option>
+<option value="http://www.hainan.gov.cn">海南</option>
+<option value="http://www.sc.gov.cn">四川</option>
+<option value="http://www.gzgov.gov.cn">贵州</option>
+<option value="http://www.yn.gov.cn">云南</option>
+<option value="http://www.shaanxi.gov.cn">陕西</option>
+<option value="http://www.gansu.gov.cn">甘肃</option>
+<option value="http://www.qh.gov.cn">青海</option>
+<option value="http://www.chinataiwan.org">台湾</option>
+<option value="http://www.nmg.gov.cn">内蒙古</option>
+<option value="http://www.nx.gov.cn/">宁夏</option>
+<option value="http://www.gxzf.gov.cn/">广西</option>
+<option value="http://www.xizang.gov.cn/">西藏</option>
+<option value="http://www.xinjiang.gov.cn">新疆</option>
+<option value="https://www.gov.hk/sc/residents/">香港</option>
+<option value="http://portal.gov.mo/web/guest/citizen">澳门</option>
+</select> 
+<select class="selects" id="select2" onchange="s_click(2)">
+<option selected="selected">市、州政府网站</option>
+<option value="http://www.chengdu.gov.cn/" >成都市</option>
+<option value="http://www.zg.gov.cn/">自贡市</option>
+<option value="http://www.panzhihua.gov.cn/" >攀枝花市</option>
+<option value="http://www.luzhou.gov.cn" >泸州市</option>
+<option value="http://www.deyang.gov.cn" >德阳市</option>
+<option value="http://www.my.gov.cn/" >绵阳市</option>
+<option value="http://www.cngy.gov.cn/" >广元市</option>
+<option value="http://www.suining.gov.cn/" >遂宁市</option>
+<option value="http://www.neijiang.gov.cn/" >内江市</option>
+<option value="http://www.leshan.gov.cn" >乐山市</option>
+<option value="http://www.nanchong.gov.cn/" >南充市</option>
+<option value="http://www.yb.gov.cn/" >宜宾市</option>
+<option value="http://www.guang-an.gov.cn/" >广安市</option>
+<option value="http://www.dazhou.gov.cn/" >达州市</option>
+<option value="http://www.cnbz.gov.cn/" >巴中市</option>
+<option value="http://www.yaan.gov.cn/" >雅安市</option>
+<option value="http://www.ms.gov.cn/" >眉山市</option>
+<option value="http://www.ziyang.gov.cn/" >资阳市</option>
+<option value="http://www.abazhou.gov.cn/" >阿坝州</option>
+<option value="http://www.gzz.gov.cn/" >甘孜州</option>
+<option value="http://www.lsz.gov.cn/" >凉山州</option>
+</select> 
+
+<select class="selects" id="select3" onchange="s_click(3)">
+<option selected="selected">州内市县网站</option>
+<option value="http://www.xichang.gov.cn/" >西昌市</option>
+<option value="http://dc.lsz.gov.cn/" >德昌县</option>
+<option value="http://hl.lsz.gov.cn/" >会理县</option>
+<option value="http://nn.lsz.gov.cn/" >宁南县</option>
+<option value="http://pg.lsz.gov.cn/" >普格县</option>
+<option value="http://bt.lsz.gov.cn/" >布拖县</option>
+<option value="http://zj.lsz.gov.cn/" >昭觉县</option>
+<option value="http://jy.lsz.gov.cn/" >金阳县</option>
+<option value="http://lb.lsz.gov.cn/" >雷波县</option>
+<option value="http://mg.lsz.gov.cn/" >美姑县</option>
+<option value="http://gl.lsz.gov.cn/" >甘洛县</option>
+<option value="http://www.scyx.gov.cn/" >越西县</option>
+<option value="http://xd.lsz.gov.cn/" >喜德县</option>
+<option value="http://mn.lsz.gov.cn/" >冕宁县</option>
+<option value="http://yy.lsz.gov.cn/" >盐源县</option>
+<option value="http://ml.lsz.gov.cn/" >木里县</option>
+</select>
+
+</div>
+</div>  </div> 
+  <div>
+    <style type="text/css">
+    .hd_foot{ width:1016px;height:205px; text-align:center;margin:0 auto; background:url(/eportal/fileDir/huidong/template/common/hdfooter/conbg.jpg) repeat-y;}
+    .hd_footer_txt1{ display:inline-block; margin:20px auto;line-height:20px;height:20px; width:320px; }
+    .hd_footer_txt1 li{ float:left;margin-left:6px;}
+    .hd_footer_txt1 li a{color:#484848; font-family:'微软雅黑'; font-size:16px;}
+    .hd_footer_txt2{ font-size:12px; color:#000; width:59%; margin:0 auto;}
+    .hd_footer_txt3{ font-size:12px; color:#000; width:70%; margin:0 auto; margin-top:20px;}
+   
+</style>
+<div class="hd_foot">
+        <ul class="hd_footer_txt1">
+          <li><a href="/huidong/zddt/index.html" target="_blank">站点地图</a></li>
+          <li>|</li>
+          <li><a href="/huidong/bqsm/index.html" target="_blank">版权声明</a></li>
+          <li>|</li>
+          <li><a href="/huidong/lxwm/index.html" target="_blank">联系我们</a></li>
+          <li>|</li>
+          <li><a href="/huidong/gywm/index.html" target="_blank">使用帮助</a></li>
+
+        </ul>
+      <div class="hd_footer_txt2">主办：中共会东县委 会东县人民政府  承办：中共会东县委办公室 会东县人民政府办公室 中共会东县委宣传部</div> 
+      <div class="hd_footer_txt3"> 建设与维护：会东县电子政务办公室   网站标识码:5134260002    (蜀ICP备08104344号) (公安机关备案号51340003000858)</div>
+
+<div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51342602000015" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/eportal/fileDir/huidong/resource/cms/2017/09/2017092116215991561.jpg" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">川公网安备 51342602000015号</p></a>
+		 	</div>
+
+      <div class="clearfloat" style="width:200px;overflow:hidden;margin:0 auto;">
+         <div class="fl"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/353/1980/41642571/CA233531980416425710003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+         </div>
+        <div class="fl" style="margin-top:10px;margin-left:10px;"><script id="_jiucuo_" sitecode='5134260002' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></div>
+           
+      </div>
+       
+<div style="float:right;margin-right:10px;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261208313'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1261208313%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></div>
+</div>  </div><div style="display:none" easysite="easysiteHiddenDiv">
+<input type="hidden"  id="currentLoginUserLoginName"/>
+<input type="hidden"  id="currentLoginUserLoginId"/>
+<input type="hidden"  id="currentLoginUserIsSuperAdmin"/>
+</div>
+ </body>
+</html>

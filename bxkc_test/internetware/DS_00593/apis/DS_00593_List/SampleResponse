@@ -1,0 +1,384 @@
+<script src="/Areas/JyWeb/Content/Scripts/main.js"></script>
+
+<link href="/Areas/JyWeb/Content/App_Themes/Default/Styles/main.css" rel="stylesheet"/>
+
+<link href="/Areas/JyWeb/Content/App_Themes/Default/Styles/LocalStyle.css" rel="stylesheet"/>
+
+<script src="/Areas/NewCommon/Content/easyui/js/jquery.easyui.min.js"></script>
+
+<script src="/bundles/main/js?v=cXSQBHKkR9joqGOztkCqotLH0E0UpBnnCbHzvcM85T41"></script>
+
+
+<h3>选取公告</h3>
+
+
+    <div class="shoushou">
+        <select id="YiJi" style="width: 150px">
+            <option value="请选择" selected="selected">资质类别</option>
+                <option value="02205769-f7a8-49af-8996-741a7c3abdbf">地质灾害危险性评估</option>
+                <option value="050ab283-7024-48a8-8851-cd6cade9c3cb">施工图审查</option>
+                <option value="0f370ed3-3b73-49e9-9cab-363d2dcda164">会计师事务所</option>
+                <option value="1c94d458-3a98-410a-8f2b-89360edb311e">工程造价咨询</option>
+                <option value="2bc2de3c-f44a-4557-a8f8-5527df0d8f03">律师事务所</option>
+                <option value="3623bc3e-e77f-4849-a1dc-5de03563f8d9">测绘</option>
+                <option value="3ab8eca3-92ac-4b1e-90a2-42485ec6c18e">工程勘察</option>
+                <option value="4abd58cd-e3b5-4869-9ff0-9132e1d69daa">工程监理</option>
+                <option value="4b97cd90-9ae1-4e76-b6cf-4154412f1109">资产评估</option>
+                <option value="4fda327e-eb60-4591-ae71-13a120b05c07">环境影响评价</option>
+                <option value="567223fb-a514-4dbf-b5a5-87cbc1e5503d">拍卖</option>
+                <option value="6393d864-3688-422a-920b-e385bbb8a94b">城乡规划编制</option>
+                <option value="63e4c23a-82f6-4e94-8793-dae5d72315bf">水资源论证编制</option>
+                <option value="665000c6-8c4d-45db-935f-12723c48b2ac">工程招标代理</option>
+                <option value="6e767aef-3fe6-4dda-9c4e-bfbc7ff84aec">信息工程监理</option>
+                <option value="6fba3230-ab14-4fc2-abc5-32d9bd49728a">公证处</option>
+                <option value="8de14e24-2c72-4490-a1be-a25155ee7083">土地评估</option>
+                <option value="8fa8afb2-535e-40a6-a45e-a845851ade0e">人防监理</option>
+                <option value="b95ed76b-3ba6-413b-995b-2be7457f6476">水土保持编制</option>
+                <option value="ba7cbe52-2464-4446-821c-88a4de85b54b">房地产评估</option>
+                <option value="c482e8d8-214c-4ebb-9e85-17761fb5094e">工程设计</option>
+                <option value="c67e99d1-4677-4dd5-bf0d-7c4099f6dd0c">基层法律服务所</option>
+                <option value="c7c7aee1-407b-4376-98fb-eda35c5f83ad">司法鉴定</option>
+                <option value="d8d14454-9b8c-4dfa-aa38-cb7ffa509996">工程项目咨询</option>
+                <option value="ea53aebb-fb94-4900-9fb6-feb20e060521">水利工程监理</option>
+                <option value="fbdf6c50-767d-4b09-8143-0b289d36c35e">交通工程监理</option>
+        </select>
+        <select style="width: 150px; display: none" id="ErJi">
+        </select>
+        <select style="width: 150px; display: none" id="SanJi">
+        </select>
+        <label>项目名称 </label>
+        <input style="width:350px;" name="textfield" type="input" class="input_1" id="txtSearch" onchange="addHref()" />
+		<span id="btnSearch" class="shousuo"> 
+			<a href="javascript:void(0)" style="width:57px;height:28px" id="aBtnSearch" data-ajax-update="#divContent" data-ajax-mode="replace" data-ajax="true"><span id="spanBtn">查询</span></a>
+        </span>
+    </div>
+    <div class="infotexta_1" style="min-height:540px;height:auto!important;_height:540px;width:99%">
+        <table style="width:100%;">
+            <tr style="line-height: 30px;">
+						<th style="padding-left:10px; width:auto">项目名称</th>
+						<th style="width: 200px;text-align:left;" class="">业主或委托单位</th>
+						<th style="width: 100px" class="">资质类别</th>
+						<th style="width: 120px" class="">报名状态</th>
+						<th style="width: 120px; text-align: center" class="">发布时间</th>
+
+            </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=6328688c-0bcb-44f0-93c9-e1cbe4608cc5" title="大兴顺路社区服务中心-可研评审（雅中介(2018)00046号）">大兴顺路社区服务中心-可研评审（雅中介(2018)0004...<span class="NEWstyle"></span></a></td>
+                        <td style="text-align: left;" class="" title="雅安城投建筑工程有限公司"><span title="雅安城投建筑工程有限公司">雅安城投建筑工程有限公司</span></td>
+                        <td style="text-align: center;" class="" title="工程项目咨询--综合经济">工程项目咨询-...</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-10</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=67d44e85-70ef-454c-b0d1-13efe8210297" title="大兴顺路社区服务中心-可研编制（雅中介(2018)00047号）">大兴顺路社区服务中心-可研编制（雅中介(2018)0004...<span class="NEWstyle"></span></a></td>
+                        <td style="text-align: left;" class="" title="雅安城投建筑工程有限公司"><span title="雅安城投建筑工程有限公司">雅安城投建筑工程有限公司</span></td>
+                        <td style="text-align: center;" class="" title="工程项目咨询--综合经济">工程项目咨询-...</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-10</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=a422db49-9d8f-4ccf-8558-90981f458f39" title="荥经县龙苍沟镇卫生院维修工程（雅中介(2018)00040号）">荥经县龙苍沟镇卫生院维修工程（雅中介(2018)00040...<span class="NEWstyle"></span></a></td>
+                        <td style="text-align: left;" class="" title="荥经县卫生和计划生育局"><span title="荥经县卫生和计划生育局">荥经县卫生和计划生育局</span></td>
+                        <td style="text-align: center;" class="" title="工程设计--建筑--建筑工程">工程设计--建...</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-10</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=6c59d799-1aa5-4d8d-aa0a-2ee954524bad" title="荥经县龙苍沟、大田坝、荥河乡卫生院维修工程（雅中介(2018)00037号）">荥经县龙苍沟、大田坝、荥河乡卫生院维修工程（雅...<span class="NEWstyle"></span></a></td>
+                        <td style="text-align: left;" class="" title="荥经县卫生和计划生育局"><span title="荥经县卫生和计划生育局">荥经县卫生和计划生育局</span></td>
+                        <td style="text-align: center;" class="" title="工程造价咨询">工程造价咨询</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-10</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=4fad3afb-8f20-4ae1-817f-7b744ffdf4e7" title="荥经县龙苍沟镇卫生院维修工程（雅中介(2018)00039号）">荥经县龙苍沟镇卫生院维修工程（雅中介(2018)00039...<span class="NEWstyle"></span></a></td>
+                        <td style="text-align: left;" class="" title="荥经县卫生和计划生育局"><span title="荥经县卫生和计划生育局">荥经县卫生和计划生育局</span></td>
+                        <td style="text-align: center;" class="" title="施工图审查">施工图审查</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-10</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=572847e0-74a5-4650-b6a1-e39e8ff84a23" title="雨城区县道雅赵路水毁恢复整治工程（雅中介(2018)00048号）">雨城区县道雅赵路水毁恢复整治工程（雅中介(2018)0...<span class="NEWstyle"></span></a></td>
+                        <td style="text-align: left;" class="" title="雅安市雨城区公路养护管理段"><span title="雅安市雨城区公路养护管理段">雅安市雨城区公路养护管理段</span></td>
+                        <td style="text-align: center;" class="" title="交通工程监理--公路工程专业监理">交通工程监理-...</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-10</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=0de6ef9c-d934-42d5-b7ea-b51685684668" title="芦山县体育公园（雅中介(2018)00038号）">芦山县体育公园（雅中介(2018)00038号）<span class="NEWstyle"></span></a></td>
+                        <td style="text-align: left;" class="" title="芦山县体育局"><span title="芦山县体育局">芦山县体育局</span></td>
+                        <td style="text-align: center;" class="" title="工程造价咨询">工程造价咨询</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-09</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=302337fa-b815-45b8-9e61-728807f47387" title="四川蜀通运业有限责任公司2017年年报审计（雅中介(2018)00026号）">四川蜀通运业有限责任公司2017年年报审计（雅中介(...</a></td>
+                        <td style="text-align: left;" class="" title="四川蜀通运业有限责任公司"><span title="四川蜀通运业有限责任公司">四川蜀通运业有限责任公司</span></td>
+                        <td style="text-align: center;" class="" title="会计师事务所">会计师事务所</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-09</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=0d0e8f16-a481-4d06-91d3-eab61b5526a9" title="芦山县体育公园（雅中介(2018)00033号）">芦山县体育公园（雅中介(2018)00033号）</a></td>
+                        <td style="text-align: left;" class="" title="芦山县体育局"><span title="芦山县体育局">芦山县体育局</span></td>
+                        <td style="text-align: center;" class="" title="施工图审查">施工图审查</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-09</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=35ecc40b-d48f-4a35-8cea-55506cd59651" title="宝兴发展投资有限责任公司年度报表审计（雅中介(2018)00034号）">宝兴发展投资有限责任公司年度报表审计（雅中介(20...</a></td>
+                        <td style="text-align: left;" class="" title="宝兴发展投资有限责任公司"><span title="宝兴发展投资有限责任公司">宝兴发展投资有限责任公司</span></td>
+                        <td style="text-align: center;" class="" title="会计师事务所">会计师事务所</td>
+                        <td style="text-align: center;" class=""><font style='color:red;'>报名进行中</font></td>
+                        <td style="text-align: center;"><span class="">2018-01-09</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=ca299da3-2f27-4273-936e-eb1dc7f0cb31" title="天全县仁义乡张家村两室建设项目（雅中介(2018)00036号）">天全县仁义乡张家村两室建设项目（雅中介(2018)000...</a></td>
+                        <td style="text-align: left;" class="" title="天全县仁义乡人民政府"><span title="天全县仁义乡人民政府">天全县仁义乡人民政府</span></td>
+                        <td style="text-align: center;" class="" title="工程造价咨询">工程造价咨询</td>
+                        <td style="text-align: center;" class="">报名已截止</td>
+                        <td style="text-align: center;"><span class="">2018-01-08</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=83afb0e5-45b8-41bf-bbaa-10cac8eb8552" title="天全县仁义乡张家村两室建设项目（雅中介(2018)00035号）">天全县仁义乡张家村两室建设项目（雅中介(2018)000...</a></td>
+                        <td style="text-align: left;" class="" title="天全县仁义乡人民政府"><span title="天全县仁义乡人民政府">天全县仁义乡人民政府</span></td>
+                        <td style="text-align: center;" class="" title="施工图审查">施工图审查</td>
+                        <td style="text-align: center;" class="">报名已截止</td>
+                        <td style="text-align: center;"><span class="">2018-01-08</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=049b423e-cba4-48f0-ab0c-3e86e8ef1f9b" title="四川省石棉县2017年移民后扶资金中药材苗木繁育基地建设项目（雅中介(2018)00031号）">四川省石棉县2017年移民后扶资金中药材苗木繁育基...</a></td>
+                        <td style="text-align: left;" class="" title="石棉县农业局"><span title="石棉县农业局">石棉县农业局</span></td>
+                        <td style="text-align: center;" class="" title="施工图审查">施工图审查</td>
+                        <td style="text-align: center;" class="">报名已截止</td>
+                        <td style="text-align: center;"><span class="">2018-01-05</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=de687ea3-7de1-4aba-8876-e0de39b8c992" title="大熊猫放归适应场建设项目勘察设计（雅中介(2018)00030号）">大熊猫放归适应场建设项目勘察设计（雅中介(2018)0...</a></td>
+                        <td style="text-align: left;" class="" title="四川栗子坪国家级自然保护区管理局"><span title="四川栗子坪国家级自然保护区管理局">四川栗子坪国家级自然保护区...</span></td>
+                        <td style="text-align: center;" class="" title="工程设计--建筑--建筑行业">工程设计--建...</td>
+                        <td style="text-align: center;" class="">报名已截止</td>
+                        <td style="text-align: center;"><span class="">2018-01-05</span></td>
+
+                </tr>
+                <tr style="line-height: 30px;">
+                        <td><a target="_blank" href="/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=d57da9f7-bc63-4a72-b4ae-8d69224a1185" title=" 雅安市城乡生活垃圾收运系统建设项目（雅中介(2018)00032号）"> 雅安市城乡生活垃圾收运系统建设项目（雅中介(201...</a></td>
+                        <td style="text-align: left;" class="" title="雅安市城乡规划建设和住房保障局"><span title="雅安市城乡规划建设和住房保障局">雅安市城乡规划建设和住房保障局</span></td>
+                        <td style="text-align: center;" class="" title="工程项目咨询--生态建设和环境工程">工程项目咨询-...</td>
+                        <td style="text-align: center;" class="">报名已截止</td>
+                        <td style="text-align: center;"><span class="">2018-01-05</span></td>
+
+                </tr>
+        </table>
+    </div>
+    <div class="gcxxfy">    <div class="mmggxlh">
+<a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/ZJJGXQ/GetZJJGXQList?PageIndex=1&amp;PageSize=15&amp;type=80010">首页</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/ZJJGXQ/GetZJJGXQList?PageIndex=1&amp;PageSize=15&amp;type=80010">上一页</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/ZJJGXQ/GetZJJGXQList?PageIndex=1&amp;PageSize=15&amp;type=80010">1</a><a class="one" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" disabled="disabled" href="/JyWeb/ZJJGXQ/GetZJJGXQList?PageIndex=2&amp;PageSize=15&amp;type=80010">2</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/ZJJGXQ/GetZJJGXQList?PageIndex=3&amp;PageSize=15&amp;type=80010">3</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/ZJJGXQ/GetZJJGXQList?PageIndex=4&amp;PageSize=15&amp;type=80010">4</a>            <span class="dian">....</span>
+<a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/ZJJGXQ/GetZJJGXQList?PageIndex=3&amp;PageSize=15&amp;type=80010">下一页</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/ZJJGXQ/GetZJJGXQList?PageIndex=137&amp;PageSize=15&amp;type=80010">末页</a>            <span class="dian">共137页2045条记录</span>
+            <span class="dian">转到</span>
+            <input type="text" onkeypress="javascript:if(event.keyCode == '13'){Ajax_GoPage();}" id="txtAjax_PageIndex" class="mmggkuan"><span class="dian">页</span><span id="mmgganue"><a href="javascript:Ajax_GoPage()">确定</a></span>
+
+    </div>
+<script>
+    function Ajax_GoPage() {
+
+        var obj = $("#txtAjax_PageIndex");
+
+        var reg = new RegExp("^\\d+$");
+        if (!reg.test(obj.val()) || (obj.val() <= 0 || obj.val() > parseInt("137"))) {
+            alert("请输入正确的页码！");
+            obj.focus();
+            obj.select();
+            return;
+        }
+        var strUrl = "/JyWeb/ZJJGXQ/GetZJJGXQList?PageSize=15&type=80010" + "&pageIndex=" + obj.val();
+        $.ajax({
+            url: strUrl,
+            type: "post",
+            success: function (rData) {
+                if ($("#divContent")) {
+                    $("#divContent").html(rData);
+                }
+            }
+        });
+    }
+</script>
+</div>
+
+
+
+<script type="text/javascript">
+    
+
+    $("#YiJi").change(function () {
+        yijiChange();
+        getSearchList();
+    })
+    function yijiChange()
+    {
+        $.ajax({
+            type: 'post',
+            url: '/JyWeb/ZJJGXQ/GetErJiList?YiJiGuid=' + $("#YiJi").val(),
+            async:false,
+            dataType: 'json',
+            success: function (data)
+            {
+                if (data.length > 0) {
+                    $("#ErJi").show();
+                    var erji = "<option value='请选择' selected='selected'>请选择</option>"
+                    for (var i = 0; i < data.length; i++) {
+                        erji += "<option value='" + data[i].ZiZhi_LeiBie_Guid + "'>" + data[i].ZiZhi_LeiBie_Name + "</option>";
+                    }
+                    $("#ErJi").html(erji);
+                }
+                else {
+                    $("#ErJi").html("");
+                    $("#ErJi").hide();
+                    $("#SanJi").html("");
+                    $("#SanJi").hide();
+                }                
+            }
+        });
+    }
+
+
+
+    $("#ErJi").change(function () {
+        erjiChange();
+        getSearchList();
+    })
+
+    function erjiChange() {
+        $.ajax({
+            type: 'post',
+            url: '/JyWeb/ZJJGXQ/GetSanJiList?ErJiGuid=' + $("#ErJi").val(),
+            dataType: 'json',
+            async: false,
+            success: function (data) {
+            	if (data.length > 0)
+            	{
+                    $("#SanJi").show();
+                    var erji = "<option value='' selected='selected'>请选择</option>"
+                    for (var i = 0; i < data.length; i++) {
+                        erji += "<option value='" + data[i].ZiZhi_LeiBie_Guid + "'>" + data[i].ZiZhi_LeiBie_Name + "</option>";
+                    }
+                    $("#SanJi").html(erji);
+                }
+                else {
+                    $("#SanJi").html("");
+                    $("#SanJi").hide();
+                }                
+            }
+        });
+    }
+
+    $("#SanJi").change(function () {        
+        getSearchList();
+    })
+
+
+
+    $("#aBtnSearch").mousemove(function ()
+    {
+    	var YiJi = $("#YiJi").val();
+    	var ErJi = $("#ErJi").val();
+    	var SanJi = $("#SanJi").val();
+    	if (YiJi == "请选择")
+    	{
+    		YiJi = null
+    	}
+    	if (ErJi == "请选择")
+    	{
+    		ErJi = null
+    	}
+    	if (SanJi == "请选择")
+    	{
+    		SanJi = null
+    	}
+    	$("#aBtnSearch").attr("href", "/JyWeb/ZJJGXQ/GetZJJGXQList" + "?type=80010&XinXi_Title=" + escape($("#txtSearch").val()) + "&YiJi=" + YiJi + "&ErJi=" + ErJi + "&SanJi=" + SanJi);
+    });
+	function getSearchList()
+	{
+    	var YiJi = $("#YiJi").val();
+    	var ErJi = $("#ErJi").val();
+    	var SanJi = $("#SanJi").val();
+    	if (YiJi == "请选择")
+    	{
+    		YiJi = null
+    	}
+    	if (ErJi == "请选择")
+    	{
+    		ErJi = null
+    	}
+    	if (SanJi == "请选择")
+    	{
+    		SanJi = null
+    	}
+    	$("#aBtnSearch").attr("href", "/JyWeb/ZJJGXQ/GetZJJGXQList" + "?type=80010&XinXi_Title=" + escape($("#txtSearch").val()) + "&YiJi=" + YiJi + "&ErJi=" + ErJi + "&SanJi=" + SanJi);
+		$("#spanBtn").click();
+    }
+	function addHref()
+	{
+		var YiJi = $("#YiJi").val();
+		var ErJi = $("#ErJi").val();
+		var SanJi = $("#SanJi").val();
+		if (YiJi == "请选择")
+		{
+			YiJi = null
+		}
+		if (ErJi == "请选择")
+		{
+			ErJi = null
+		}
+		if (SanJi == "请选择")
+		{
+			SanJi = null
+		}
+		$("#aBtnSearch").attr("href", "/JyWeb/ZJJGXQ/GetZJJGXQList" + "?type=80010&XinXi_Title=" + escape($("#txtSearch").val()) + "&YiJi=" + YiJi + "&ErJi=" + ErJi + "&SanJi=" + SanJi);
+	}
+
+	$(function ()
+	{
+		//设置导航栏样式
+		showTitleStyule("a中介机构选取");
+		var YiJi = '';
+		var ErJi = '';
+		var SanJi = '';
+		if (YiJi == "请选择")
+		{
+			YiJi = null
+		}
+		if (YiJi != "" && YiJi != null)
+		{
+			$("#YiJi").val(YiJi);
+			yijiChange();
+			// $("#YiJi").trigger("change");
+		}
+		if (ErJi != "null" && ErJi != null && ErJi != '')
+		{
+			$("#ErJi").show();
+			$("#ErJi").val(ErJi);
+			// $("#ErJi").trigger("change");
+			erjiChange();
+		}
+		if (SanJi != "null" && SanJi != null && SanJi != '')
+		{
+			$("#SanJi").show();
+			$("#SanJi").val(SanJi);
+			//$("#SanJi").trigger("change");
+		}
+		$("#aBtnSearch").attr("href", "/JyWeb/ZJJGXQ/GetZJJGXQList" + "?type=80010&XinXi_Title=" + escape($("#txtSearch").val()) + "&YiJi=" +  YiJi + "&ErJi=" + ErJi + "&SanJi=" + SanJi);
+	});
+</script>

@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>招标信息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="Power By" content="smaxit.cn|重庆讯迈科技发展有限公司" />
+<meta name="Keywords" content="招标信息" />
+<meta name="Description" content="招标信息" />
+<script src="/www/js/ajaxserver.js" type="text/javascript"></script>
+<script src="/www/js/jquery-1.4.4.min.js" type="text/javascript"></script>
+<script src="/www/js/move.js" type="text/javascript"></script>
+<script src="/www/js/YlFloat.js" type="text/javascript"></script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="/templates/site3/css/default.css"/>
+<link rel="stylesheet" type="text/css" href="/templates/site3/css/page.css"/>
+<div id="banner" class="cen">
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1004" height="245">
+    <param name="wmode" value="transparent" />
+    <param name="movie" value="/templates/201510/20151009104855370.swf" />
+    <param name="quality" value="high" />
+    <embed src="/templates/201510/20151009104855370.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1004" height="245"></embed>
+  </object>
+  
+</div>
+<div id="top_nav" class="cen">
+	<ul id="nav" class="cen">                                               
+	 <li><a href="/index.html">网站首页</a></li><li><a href="/index_23.html">部门首页</a></li><li><a href="/html/23/znzz/">职能职责</a></li><li><a href="/html/23/zbxx/">招标信息</a></li><li><a href="/html/23/zbgs/">中标公示</a></li><li><a href="/html/23/gzdt/">工作动态</a></li><li><a href="/html/23/tzgg/">通知公告</a></li><li><a href="/html/23/xzzx/">下载中心</a></li>
+	</ul>
+</div>
+<div id="message" class="cen">
+  <form name="searchform" action="/search.asp" method="post">
+	<ul class="cen">
+   	  <li class="wellcome"><script src="/www/js/GetWeather.asp"></script></li>
+      <li class="search"><strong>站内搜索：</strong></li>
+	  <li class="ipt"><input class="keyword" name="key" type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}"  /></li>
+      <li class="btn"><input type="submit" style="width:57px; height:21px;background:url(/templates/site3/images/search1.jpg) no-repeat; border:none;" value="" width="57" height="21" border="0" /></li>
+    </ul>
+    </form>
+</div>
+<div id="container" class="cen">
+  <div id="colL">
+    <dl class="nav">
+      <dt>招标信息</dt>
+      <dd>
+        <ul>
+          
+        </ul>
+      </dd>
+    </dl>
+    <dl class="lastlist">
+      <dt>最新信息</dt>
+      <dd>
+        <ul>
+          <script src="/www/js/GetLastNews.asp?SID=23" type="text/javascript"></script>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="lastlist">
+      <dt>热门信息</dt>
+      <dd>
+        <ul>
+          <script src="/www/js/GetHotNews.asp?SID=23" type="text/javascript"></script>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+  <div id="colR">
+    <div id="position">当前位置：<a href="/">首页</a>  &gt;  <a href="/html/23/zbxx/">招标信息</a> &gt; 列表</div>
+    <div class="sortlist">
+           <dl>
+<dd>
+<ul><li><span>2017-04-24</span>·<a href="/html/23/zbxx/17/04/6296.html" style="font-size:13px" target="_blank" title="学生活动中心建设全过程跟踪审计招标公告">学生活动中心建设全过程跟踪审计招标公告</font></a></li><li><span>2017-04-21</span>·<a href="/html/23/zbxx/17/04/6289.html" style="font-size:13px" target="_blank" title="关于遴选交通车外包服务单位（第二次）补遗公告">关于遴选交通车外包服务单位（第二次）补遗公告</font></a></li><li><span>2017-04-18</span>·<a href="/html/23/zbxx/17/04/6270.html" style="font-size:13px" target="_blank" title="关于遴选交通车外包服务单位（第二次）公告">关于遴选交通车外包服务单位（第二次）公告</font></a></li><li><span>2017-04-10</span>·<a href="/html/23/zbxx/17/04/6203.html" style="font-size:13px" target="_blank" title="关于遴选交通车外包服务单位公告">关于遴选交通车外包服务单位公告</font></a></li><li><span>2017-03-14</span>·<a href="/html/23/zbxx/17/03/5931.html" style="font-size:13px" target="_blank" title="学生公寓污水治理抢险工程补遗公告">学生公寓污水治理抢险工程补遗公告</font></a></li><li><span>2017-03-13</span>·<a href="/html/23/zbxx/17/03/5911.html" style="font-size:13px" target="_blank" title="床上用品招标采购公告">床上用品招标采购公告</font></a></li><li><span>2017-03-10</span>·<a href="/html/23/zbxx/17/03/5900.html" style="font-size:13px" target="_blank" title="学生公寓污水治理抢险工程招标公告">学生公寓污水治理抢险工程招标公告</font></a></li><li><span>2016-12-29</span>·<a href="/html/23/zbxx/16/12/5590.html" style="font-size:13px" target="_blank" title="附属医院医疗综合大楼广告工程招标公告">附属医院医疗综合大楼广告工程招标公告</font></a></li><li><span>2016-12-15</span>·<a href="/html/23/zbxx/16/12/5479.html" style="font-size:13px" target="_blank" title="附属医院医疗综合大楼外墙灯饰工程（第二次）">附属医院医疗综合大楼外墙灯饰工程（第二次）</font></a></li><li><span>2016-12-06</span>·<a href="/html/23/zbxx/16/12/5383.html" style="font-size:13px" target="_blank" title="校园一卡通(NFC)项目招标公告">校园一卡通(NFC)项目招标公告</font></a></li><li><span>2016-11-21</span>·<a href="/html/23/zbxx/16/11/5228.html" style="font-size:13px" target="_blank" title="附属医院医疗综合大楼外墙灯饰工程">附属医院医疗综合大楼外墙灯饰工程</font></a></li><li><span>2016-11-17</span>·<a href="/html/23/zbxx/16/11/5198.html" style="font-size:13px" target="_blank" title="实训室及教室维修（第二次）">实训室及教室维修（第二次）</font></a></li><li><span>2016-11-14</span>·<a href="/html/23/zbxx/16/11/5153.html" style="font-size:13px" target="_blank" title="校园扩建工程-场坪、道路及管网工程建设全过程跟踪审计（第二次）招标公告">校园扩建工程-场坪、道路及管网工程建设全过程跟踪审计（第二次）招标公告</font></a></li><li><span>2016-11-08</span>·<a href="/html/23/zbxx/16/11/5086.html" style="font-size:13px" target="_blank" title="实训室及教室维修">实训室及教室维修</font></a></li><li><span>2016-11-02</span>·<a href="/html/23/zbxx/16/11/5027.html" style="font-size:13px" target="_blank" title="校园扩建工程-场坪、道路及管网工程建设全过程跟踪审计">校园扩建工程-场坪、道路及管网工程建设全过程跟踪审计</font></a></li><li><span>2016-10-25</span>·<a href="/html/23/zbxx/16/10/4785.html" style="font-size:13px" target="_blank" title="图书馆信息化系统及弱电系统设计工程">图书馆信息化系统及弱电系统设计工程</font></a></li><li><span>2016-10-18</span>·<a href="/html/23/zbxx/16/10/4727.html" style="font-size:13px" target="_blank" title="学生超市经营服务">学生超市经营服务</font></a></li><li><span>2016-10-12</span>·<a href="/html/23/zbxx/16/10/4666.html" style="font-size:13px" target="_blank" title="学生活动中心建设工程项目招标代理机构补遗公告">学生活动中心建设工程项目招标代理机构补遗公告</font></a></li><li><span>2016-10-09</span>·<a href="/html/23/zbxx/16/10/4617.html" style="font-size:13px" target="_blank" title="学生活动中心建设工程项目招标代理机构">学生活动中心建设工程项目招标代理机构</font></a></li><li><span>2016-10-08</span>·<a href="/html/23/zbxx/16/10/4615.html" style="font-size:13px" target="_blank" title="校园路灯整改工程">校园路灯整改工程</font></a></li></ul><div class="page"><a href="Index.html">首页</a><a href="Index.html">上一页</a><a href="Index.html">1</a><span class="strong">2</span><a href="List_3.html">3</a><a href="List_4.html">4</a><a href="List_3.html">下一页</a><a href="List_4.html">尾页</a><span>共 4 页</span></div></dd>
+</dl>
+
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div id="bottom" class="cen">
+  <div id="links" class="cen">
+    <div class="left"><img src="/templates/site3/images/link.jpg" border="0" /></div>
+    <div class="right">
+      无相关数据！
+    <select onchange="if(this.value!='')window.open(this.value);this.options[0].selected=true" size="1"><option value="" selected>大专院校网站</option>
+</select>
+    <select onchange="if(this.value!='')window.open(this.value);this.options[0].selected=true" size="1"><option value="" selected>医院网站</option>
+<option value=http://www.sxyyc.net/index_40.html>三峡医药高等专科学校附属医院</option>
+</select>
+    <select onchange="if(this.value!='')window.open(this.value);this.options[0].selected=true" size="1"><option value="" selected>其它链接</option>
+</select>
+    </div>
+  </div>
+  <div id="help" class="cen"> <a href="#">网站首页</a> | <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a  href="javascript:void(0)" onclick="addFavorite('重庆三峡医药高等专科学校','http://')">加入收藏</a> </div>
+  <div id="copyright" class="cen">
+    <div class="left"><img src="/templates/site3/images/sy.jpg" /></div>
+    <div class="center">重庆三峡医药高等专科学校 版权所有 渝ICP备12002276 <br />
+      学校地址：重庆市万州区百安坝天星路366号 部门电话:023-58561575  邮编：404120 <br />
+      技术支持：<a href="http://www.smaxit.cn/" target="_blank">讯迈科技</a><br />
+    </div>
+    <div class="right"><img src="/templates/site3/images/110.jpg" width="57" height="71" />&nbsp;<img src="/templates/site3/images/wb.jpg" /></div>
+  </div>
+</div>
+</body>
+</html>

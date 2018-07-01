@@ -1,0 +1,1107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="baidu-site-verification" content="chTDPNYS6F" />
+<title>公告公示</title>
+<link href="../../images/index_style.css" rel="stylesheet" type="text/css" />
+<link href="../../images/conf_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../../images/wy_style.css" />
+<link rel="shortcut icon" type="image/x-icon" href="../../images/scwst.ico" media="screen" />
+<script src="../../images/jquery.min.js"></script>
+<script src="../../images/jquery.SuperSlide.2.1.1.js"></script>
+<script src="../../images/menu_min.js"></script>
+<script src="../../images/top.js"></script>
+<script src="../../images/tab.js"></script>
+<script src="../../images/currpage.js"></script>
+<script type="text/javascript">
+$(document).ready(function (){ 
+  
+  $(".p_menu ul li").menu();
+  
+}); 
+</script>
+<!--[if IE 6]>
+<script src="../../images/iepngfx.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="top" id="top">
+  <div class="content center-block">
+    <div class="top-event">
+      <div class="hd">
+        <ul id="dt_hd">
+
+        </ul>
+      </div>
+      <div class="bd">
+        <ul id="dt_bd">
+			
+                                  <script>
+                                    
+                                  </script>
+			
+        </ul>
+      </div>
+<script>
+ var dt_li = $("#dt_bd li");
+ for(var i=0;i<dt_li.length;i++){
+   $("#dt_hd").append("<li></li>")
+ }
+</script>
+
+      <a class="next" href="javascript:void(0)"></a> </div>
+    <a href="#" class="close"></a> </div>
+</div>
+    <script type="text/javascript">
+	jQuery(".top-event").slide({ mainCell:".bd ul",effect:"fold",autoPlay:true,delayTime:200 });
+    </script>
+
+<!--头部-->
+<div class="top_link">
+  <div class="link_rd fr white">热点</div>
+  <div class="link_wb fr">
+    <ul>
+      <li class="t4 li-hover">
+        <div class="pic fl"><img src="../../images/bgxt.png" width="19" height="19" /></div>
+        <div class="text fontWr"><a href="http://www.ctnma.cn/"   target="_blank" >办公系统</a></div>
+      </li>
+      <li class="t3 li-hover">
+        <div class="pic fl"><img src="../../images/weib.png" width="26" height="19" /></div>
+        <div class="text fontWr"><a  href="http://weibo.com/u/3754192351?is_hot=1" target="_blank">官方微博</a></div>
+      
+      </li>
+    
+       <li class="t1 li-hover">
+        <div class="pic fl content"><img src="../../images/wx.png" width="26" height="19" /></div>
+        <div class="text fontWr"><a href="javascript:void(0)">官方微信</a></div>
+        <div class="weix li-img"> 
+         
+          <img src="../../qtyy/gfwx/201611/W020170628626060764920.jpg" width="87" height="87" />
+           
+         </div>
+      </li>
+      <li class="t2 li-hover">
+        <div class="pic fl"><img src="../../images/mobile.png" width="26" height="19" /></div>
+        <div class="text fontWr"><a href="javascript:void(0)">手机APP</a></div>
+        <div class="App li-img">
+             
+           <img src="../../qtyy/app/201609/W020170628621619007489.png" width="87" height="87" /> 
+           
+         </div>
+      </li>
+
+      <li>
+        <div class="pic fl"><img src="../../images/imac.png" width="26" height="19" /></div>
+        <div class="text fontWr"><a href="/Assistants/">无障碍浏览</a></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">
+ 
+  $('.top_link ul li.li-hover').each(function(){
+	  $(this).hover((function() {
+		  $(this).find('.li-img').css('display','block');
+	  }), (function() {
+		  $(this).find('.li-img').css('display','none');
+	  }));
+  })
+</script>
+<script>
+ var redian="";
+ if(redian !="" && redian != null){
+ $(".link_rd").click(function(){
+    $("#top").slideToggle();
+  });
+$(".close").click(function(){
+    $("#top").slideToggle();
+   }); 
+}
+</script>
+
+<div class="logo"><img src="../../images/logo.png" width="989" height="109" /></div>
+<!--头部结束-->
+<!--nav-->
+<div id="nav">
+  <div class="navWiap">
+    <div class="navCont fl">
+      <ul>
+        <li class="navLi">
+          <h2 class="white f18 fontNb"><a href="../../">首页</a></h2>
+        </li>
+        <li class="navLi">
+          <h2 class="white f18 fontNb"><a href="javascript:void(0)">机构</a></h2>
+          <div class="contMain">
+            <div class="pic fl"><img src="../../jg/images/P020160927539522745445.jpg" width="227" height="145" /></div>
+            <div class="fl f16 fontB i_jssz">
+              <ul>
+                <li><a href="../../jg/jgsz/" target="_blank">机构设置</a></li>
+                <li><a href="../../jg/zlzz/" target="_blank">职能职责</a></li>
+                <li><a href="../../jg/ldjs/" target="_blank">领导介绍</a></li>
+              </ul>
+            </div>
+            <div class="i_cspd fl">
+               <div class="title f16 fontB fl" align="left">处室设置</div>
+              <table width="610" border="0" style="line-height:24px;" class="fr">
+                <tr align="left">
+                  <td width="152"><a href="../../jg/jgsz/cspd/bgs/" target="_blank">办公室（信访处）</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/gcc/" target="_blank">规划财务处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/xtc/" target="_blank">信息统计处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/zfc/" target="_blank">政策法规处</a></td>
+                </tr>
+                 <tr align="left">
+                  <td width="152"><a href="../../jg/jgsz/cspd/tgc/" target="_blank">体制改革处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/spc/" target="_blank">行政审批处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/jdc/" target="_blank">综合监督处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/yjb/" target="_blank">卫生应急办</a></td>
+                </tr>
+                 <tr align="left">
+                  <td width="152"><a href="../../jg/jgsz/cspd/jkc/" target="_blank">疾病预防控制处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/zcc/" target="_blank">重大传染病防治处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/jwc/" target="_blank">基层卫生处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/mwc/" target="_blank">民族卫生处</a></td>
+                </tr>
+                 <tr align="left">
+                  <td width="152"><a href="../../jg/jgsz/cspd/fyc/" target="_blank">妇幼健康服务处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/yzygc/" target="_blank">医政医管处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/yzc/" target="_blank">药物政策处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/shipc/" target="_blank">食品安全处</a></td>
+                </tr>
+                 <tr align="left">
+                  <td width="152"><a href="../../jg/jgsz/cspd/zdc/" target="_blank">计生指导处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/jtc/" target="_blank">计生家庭处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/ldrkc/" target="_blank">流动人口处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/xcc/" target="_blank">宣传处</a></td>
+                </tr>
+                 <tr align="left">
+                  <td width="152"><a href="../../jg/jgsz/cspd/ghc/" target="_blank">国际合作处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/gbbjc/" target="_blank">干部保健处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/gbylc/" target="_blank">干部医疗处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/rskjc/" target="_blank">人事科教处</a></td>
+                </tr>
+                <tr align="left">
+                  <td width="152"><a href="../../jg/jgsz/cspd/ltc/" target="_blank">离退工作处</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/jgdb/" target="_blank">机关党办</a></td>
+                  <td width="152"><a href="../../jg/jgsz/cspd/jcs/" target="_blank">省纪委驻委纪检组</a></td>
+                  <td width="152"><a href="#"></a></td>
+                </tr>
+		
+              </table>
+            </div>
+          </div>
+        </li>
+        <li class="navLi">
+          <h2 class="white f18 fontNb"><a href="javascript:void(0)">信息</a></h2>
+          <div class="contMain">
+            <div class="pic fl"><img src="../images/P020160927540032166323.jpg" width="227" height="145" /></div>
+            <div class="i_ghjh fl" >
+              <div class="title  fontB f16" align="left">基本信息</div>
+              <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="50%"><a href="../ghjh/" target="_blank">规划计划</a></td>
+                  <td width="50%"><a href="../jjjc/" target="_blank">纪检信息</a></td>
+                </tr>
+                <tr>
+                  <td><a href="../rsxx/" target="_blank">人事信息</a></td>
+                  <td><a href="../zwyqhy/" target="_blank">政务舆情回应</a></td>
+                </tr>
+                <tr>
+                  <td><a href="../tjxx/" target="_blank">统计信息</a></td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><a href="../wsjszhjd/" target="_blank">卫生计生综合监督</a></td>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+            </div>
+            <div class="i_gkzd fl">
+              <div class="title  fontB f16" align="left"><a href="../zdgzgk/" target="_blank">重点工作公开</a></div>
+              <ul>
+                
+		    <li><a href="../zdgzgk/xzql/" target="_blank">行政权力</a></li>
+		
+		    <li><a href="../zdgzgk/czzj/" target="_blank">财政资金</a></li>
+		
+		    <li><a href="../zdgzgk/msgc/" target="_blank">民生工程</a></li>
+		
+		    <li><a href="../zdgzgk/aqws/" target="_blank">安全卫生</a></li>
+		
+		    <li><a href="../zdgzgk/ggqsybs/" target="_blank">公共企事业办事</a></li>
+		
+		    <li><a href="../zdgzgk/shbx/" target="_blank">新农合</a></li>
+		
+		    <li><a href="../zdgzgk/ylwsly/" target="_blank">医疗卫生领域</a></li>
+		
+		    <li><a href="../zdgzgk/zdjsxm/" target="_blank">重大建设项目</a></li>
+		
+                    <li><a href="../wgktjqk/" target="_blank">“五公开”推进情况</a></li>
+              </ul>
+            </div>
+            <div class="i_zfml fl">
+              <div class="title fontB f16"><a href="../zfxxgkml/" target="_blank">政府信息公开</a></div>
+              <ul>
+                 <li><a href="../zfxxgkml/xxgkzl/" target="_blank">信息公开指南</a></li>
+                <li><a href="../zfxxgkml/xxgkgd/" target="_blank">信息公开规定</a></li>
+                <li><a href="../zfxxgkml/xxgknb/" target="_blank">信息公开年报</a></li>
+               <li><a href="../zfxxgkml/xxgkml/" target="_blank">信息公开目录</a></li>
+                <li><a href="../zfxxgkml/ysqgk/" target="_blank">依申请公开</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="navLi">
+          <h2 class="white f18 fontNb"><a href="javascript:void(0)">文件</a></h2>
+          <div class="contMain">
+            <div class="pic fl"><img src="../../wj/images/P020160927541146016747.png" width="227" height="145" /></div>
+            <div class="i_fljd fl" align="left">
+              <div class="title fontB f16">政策文件及解读</div>
+              <ul>
+                <li><a href="http://www.gov.cn/zhengce/xxgkzl.htm" target="_blank">转载国务院文件</a></li>
+                <li><a href="../../wj/zcwjjjd/zcwj/" target="_blank">政策文件</a></li>
+                <li><a href="../../wj/zcwjjjd/zcjd/" target="_blank">政策解读</a></li>
+              </ul>
+            </div>
+            <div class="i_fljd fl" align="left">
+              <div class="title fontB f16">法律法规</div>
+              <ul>
+                <li><a href="../../wj/flfgwjjjd/" target="_blank">法律法规</a></li>
+               <!-- <li></li> -->
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="navLi">
+          <h2 class="white f18 fontNb"><a href="javascript:void(0)">服务</a></h2>
+          <div class="contMain">
+            <div class="pic fl"><img src="../../fw/images/P020160927540978209251.png" width="227" height="145" /></div>
+            <div class="i_xzxk fl" align="left">
+              <div class="title fontB f16">行政许可</div>
+              <ul>
+				
+					 <li><a href="../../fw/xzxk/xzxkfw/" target="_blank">行政许可服务</a></li>
+				
+					 <li><a href="../../fw/xzxk/xzxkxm/" target="_blank">行政许可项目</a></li>
+				
+					 <li><a href="../../fw/xzxk/xzxkzn/" target="_blank">行政许可指南</a></li>
+				
+					 <li><a href="http://sgzj.sc.gov.cn:48080/agent/public" target="_blank">行政审批中介</a></li>
+				
+					 <li><a href="../../fw/xzxk/bgzlxz/" target="_blank">表格资料下载</a></li>
+				
+              </ul>
+            </div>
+              <div class="i_cjfw fl">
+              <div class="title  fontB f16" align="left"><span class="fl"><a href="../../fw/cxfw/" target="_blank">办事服务</a></span><span class="fr title_cj"><a href="../../fw/cjsfw/" target="_blank">场景式服务</a></span></div>
+            <table width="570" border="0" cellpadding="0" cellspacing="0">
+                 <tr align="left">
+                   <td width="135"><a href="../../fw/cxfw/yljgcx/" target="_blank">医疗机构查询</a></td>
+                  <td width="120"><a href="../../fw/cxfw/jbyffw/" target="_blank">疾病预防服务</a></td>
+                  <td><a href="../../fw/cxfw/fybjfw/" target="_blank">妇幼健康服务</a></td>
+                </tr>
+                <tr align="left">
+                 <td><a href="../../fw/cxfw/jhsyfw/" target="_blank">计划生育服务</a></td>
+                  <td><a href="../../fw/cxfw/syfwzbl/" target="_blank">生育服务证办理</a></td>
+                  <td><a href="../../fw/cxfw/xxnchzylbxfw/" target="_blank">新农合服务</a></td>
+                </tr>
+                <tr align="left">
+                  <td width="135"><a href="../../fw/cxfw/ydypfw/" target="_blank">药械服务</a></td>
+                   <td width="120"><a href="../../fw/cxfw/wsjdfw/" target="_blank">职业病诊断服务</a></td>
+                  <td><a href="../../fw/cxfw/mzzyfwylxmsfcx/" target="_blank">健康四川 就诊服务</a></td> 
+                </tr>
+                <tr align="left">
+                  <td width="155"><a href="../../fw/cxfw/bceyxjdfwjg/" target="_blank">病残儿医学鉴定服务机构</a></td>
+                  <td width="120"></td>
+                  <td></td>
+                </tr> 
+             </table>
+            </div>
+           
+           
+          </div>
+        </li>
+        <li class="bg navLi">
+          <h2 class="white f18 fontNb"><a href="javascript:void(0)">互动</a></h2>
+          <div class="contMain">
+            <div class="pic fl"><img src="../../hd/images/P020160927540702855865.png" width="227" height="145" /></div>
+            <div class="i_hdxx fl f16 fontB">
+              <ul>
+                <li><a href="../../hd/zrxx/" target="_blank">主任信箱</a></li>
+                <li><a href="../../hd/zxts/" target="_blank">咨询投诉</a></li>
+                <li><a href="../../hd/yjzj/" target="_blank">意见征集</a></li>
+                <li><a href="../../hd/wsdc/" target="_blank">网上调查</a></li>
+                 <li><a href="../../hd/wsjb/" target="_blank">网上举报</a></li>
+                <li><a href="../../hd/zxft/" target="_blank">在线访谈</a></li>
+                <li><a href="../../hd/cjwthb/" target="_blank">常见问题汇编</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="navSer fr">
+      <ul>
+        <li class="t1">
+          <input name="dockeywords" id="dockeywords" type="text" />
+        </li>
+        <li class="t2">
+          <input type="button" onclick="searchBy();" />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script>
+function searchBy(){
+
+	   searchPage = 1;//默认第一页
+	    var queryString = "";
+ 		var pageSize = 10;
+
+		var dockeywords    = $("#dockeywords").val(); 
+		if(dockeywords==null||dockeywords==""){
+			window.open("/cptqt/web/search/index.jsp");
+		}else{		
+		queryString += "&dockeywords="+dockeywords;	
+	 	var searchData = queryString;//保存搜索条件
+	 	var formData=searchData.replace(/&/g,"}");//替换特殊字符，在地址栏传输
+		formData = decodeURIComponent(formData, true);
+	 	window.open("/cptqt/web/search/resuilt.jsp?formData="+formData+"}dockeyonewords=}keytitle=1}&pageSize="+pageSize,'_blank');
+	}
+}
+</script>
+  <script id="jsID" type="text/javascript">
+  jQuery("#nav").slide({ type:"menu", titCell:".navLi", targetCell:".contMain",effect:"slideDown",delayTime:300,triggerTime:0,defaultPlay:false,returnDefault:true})
+  </script>
+</div>
+<div class="clear"></div>
+<div class="blankH20"></div>
+<div class="p_fw_xz">
+ <div class="contL fl"> 
+<div class="p_menu">
+      <div class="title2 white fontB">信息</div>
+      <div class="contMain">
+        <ul id="list_channels">
+		
+          <li><span>
+		  	<a href="../xwdt/">新闻动态</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                     var channl = '<a href="../xwdt/gzdt/">工作动态</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../xwdt/szyw/">时政要闻</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../xwdt/tpxw/">图片新闻</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../xwdt/mtxw/">媒体报道</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../xwdt/szzsdw/">市州、直属单位动态</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="./">公告公示</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../ghjh/">规划计划</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../rsxx/">人事信息</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../tjxx/">统计信息</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                     var channl = '<a href="../tjxx/tjnj/">年鉴公报</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../tjxx/wszy/">卫生资源</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../tjxx/ylfw/">医疗服务</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../tjxx/rktj/">人口统计</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../tjxx/zxdc/">专项调查</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../zdgzgk/">重点工作公开</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                     var channl = '<a href="../zdgzgk/xzql/">行政权力</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zdgzgk/czzj/">财政资金</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zdgzgk/msgc/">民生工程</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zdgzgk/aqws/">安全卫生</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zdgzgk/ggqsybs/">公共企事业办事</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zdgzgk/shbx/">新农合</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zdgzgk/ylwsly/">医疗卫生领域</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zdgzgk/zdjsxm/">重大建设项目</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../wgktjqk/">“五公开”推进情况</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../xwfb/">新闻发布</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../zwyqhy/">政务舆情回应</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../jjjc/">纪检信息</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../wsjszhjd/">卫生计生综合监督</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="../zfxxgkml/">政府信息公开</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                     var channl = '<a href="../zfxxgkml/xxgkzl/">信息公开指南</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zfxxgkml/xxgkgd/">信息公开规定</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zfxxgkml/xxgknb/">信息公开年报</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zfxxgkml/xxgkml/">信息公开目录</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                     var channl = '<a href="../zfxxgkml/ysqgk/">依申请公开</a>';
+                      document.write("<li><span>"+channl+"</span></li>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+          <li><span>
+		  	<a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>
+		  </span>
+              <script>
+           var childs = '<a href="../xwdt/">新闻动态</a><a href="./">公告公示</a><a href="../ghjh/">规划计划</a><a href="../rsxx/">人事信息</a><a href="../tjxx/">统计信息</a><a href="../zdgzgk/">重点工作公开</a><a href="../wgktjqk/">“五公开”推进情况</a><a href="../xwfb/">新闻发布</a><a href="../zwyqhy/">政务舆情回应</a><a href="../jjjc/">纪检信息</a><a href="../wsjszhjd/">卫生计生综合监督</a><a href="../zfxxgkml/">政府信息公开</a><a href="http://dzzwdt.sc.gov.cn/portal/pc/pages22/egov_openness/power/list.jsp?dept=34">行政职权目录</a>';
+		   var arry=$("#list_channels li");
+		   var childname;
+		 	for(var j=0;j<arry.length;j++){
+				childname = $(arry[j]).children("span").children("a").text();
+			}
+            if(childs !=null&&childs !=''&& childname != '领导介绍' && childname!='机构设置'&& 
+			childname!='政府信息公开目录'&& childname!='重点公开工作'){
+                document.write("<ul>");
+               
+                document.write("</ul>");
+           	 }
+		
+          </script>
+          </li>
+	
+        </ul>
+      </div>
+    </div>
+  </div>
+<script>
+ var liNodes = $("#list_channels li");
+var preContent = '公告公示';
+for(var i=0;i<liNodes.length;i++){
+  var text = $(liNodes[i]).children("span").children("a").text();
+  if(preContent == text){
+          if(text.length>8){
+              $(liNodes[i]).children("span").addClass("sel2"); 
+              $(liNodes[i]).parent().css("display","block").siblings("span").addClass("active"); 
+            }else{
+             $(liNodes[i]).children("span").addClass("sel"); 
+              $(liNodes[i]).parent().css("display","block").siblings("span").addClass("active");   
+            } 
+  }
+}
+</script>
+  <div class="contR fl">
+<script>
+$(function(){
+//当前位置修改
+//remove
+   var ArrObjct=($("#currentPos").html()).split("&nbsp;&gt;&nbsp;");
+      ArrObjct.splice(2,1)
+   var Tmp = ArrObjct[ArrObjct.length-1].split(">");
+   var Tmptext = Tmp[1].split("<");
+   var displayInfo="";
+   for(var i=0,length=ArrObjct.length;i<length;i++)
+   {
+    if(i!=length-1)
+    {
+     displayInfo+=ArrObjct[i]+"&nbsp;&gt;&nbsp;";
+    }
+    else
+    {
+      displayInfo+= Tmptext[0];
+     }
+
+    }
+    $("#currentPos").html(displayInfo);
+  });
+</script>
+    <div class="wy_dqwz f12">您的位置：<span id="currentPos"><a href="../../" target="_self" title="首页" class="CurrChnlCls">首页</a>&nbsp;>&nbsp;<a href="../" target="_self" title="信息" class="CurrChnlCls">信息</a>&nbsp;>&nbsp;<a href="./" target="_self" title="公告公示" class="CurrChnlCls">公告公示</a></span></div>
+    <div class="wy_list">
+      <div class="wy_title f18 blue fontB">公告公示 </div>
+      <div class="blankH10"></div>
+      <div class="wy_contMain fontSt">
+        <ul>
+           
+              <li><span>2018-01-11</span>·<a href="./201801/t20180111_14571.html" target="_blank" title="四川省医师资格考试领导小组公告">四川省医师资格考试领导小组公告</a></li>
+          
+              <li><span>2018-01-09</span>·<a href="./201801/t20180109_14538.html" target="_blank" title="四川省卫生和计划生育委员会关于开展“把健康带回家”流动人口卫生计生关怀关爱专项行动暨“健康幸福过大年”宣传活动的通知">四川省卫生和计划生育委员会关于开展“把健康带回家”流动人口卫生计生关怀关爱专项...</a></li>
+          
+              <li><span>2018-01-09</span>·<a href="./201801/t20180109_14537.html" target="_blank" title="四川省爱卫办关于对2017年拟命名和重新确认的四川省卫生城市（县城、区）、乡镇（街道）、村（社区）、单位和无烟单位的公示">四川省爱卫办关于对2017年拟命名和重新确认的四川省卫生城市（县城、区）、乡镇（街...</a></li>
+          
+              <li><span>2018-01-08</span>·<a href="./201801/t20180108_14534.html" target="_blank" title="2017年四川省卫生高级职称评审结果公示">2017年四川省卫生高级职称评审结果公示</a></li>
+          
+              <li><span>2017-12-28</span>·<a href="./201712/t20171228_14480.html" target="_blank" title="四川省卫生计生委政府信息主动公开基本目录">四川省卫生计生委政府信息主动公开基本目录</a></li>
+          
+              <li><span>2017-12-27</span>·<a href="./201712/t20171227_14469.html" target="_blank" title="四川省卫生和计划生育委员会 四川省食品药品监督管理局关于发布《苦荞茶》食品安全地方标准的公告">四川省卫生和计划生育委员会 四川省食品药品监督管理局关于发布《苦荞茶》食品安全地...</a></li>
+          
+              <li><span>2017-12-22</span>·<a href="./201712/t20171222_14394.html" target="_blank" title="2017年四川省民族地区基层卫生优秀人才奖励基金获得者公示">2017年四川省民族地区基层卫生优秀人才奖励基金获得者公示</a></li>
+          
+              <li><span>2017-12-15</span>·<a href="./201712/t20171215_14369.html" target="_blank" title="四川省卫生和计划生育委员会关于公开征求《四川省单采血浆站设置规划（2018-2020）（征求意见稿）》意见的函">四川省卫生和计划生育委员会关于公开征求《四川省单采血浆站设置规划（2018-2020）（...</a></li>
+          
+              <li><span>2017-12-13</span>·<a href="./201712/t20171213_14365.html" target="_blank" title="公示">公示</a></li>
+          
+              <li><span>2017-12-13</span>·<a href="./201712/t20171213_14362.html" target="_blank" title="2017年11月四川省法定传染病疫情概况">2017年11月四川省法定传染病疫情概况</a></li>
+          
+              <li><span>2017-12-11</span>·<a href="./201712/t20171211_14356.html" target="_blank" title="四川省卫生计生委卫生创建助推乡村振兴战略研究机构遴选公告">四川省卫生计生委卫生创建助推乡村振兴战略研究机构遴选公告</a></li>
+          
+              <li><span>2017-12-11</span>·<a href="./201712/t20171211_14355.html" target="_blank" title="四川省卫生计生委四川艾滋病互联网+主动健康管理项目研究机构遴选公告">四川省卫生计生委四川艾滋病互联网+主动健康管理项目研究机构遴选公告</a></li>
+          
+              <li><span>2017-12-06</span>·<a href="./201712/t20171206_14344.html" target="_blank" title="关于四川省卫生计生系统食品安全首席专家的公示">关于四川省卫生计生系统食品安全首席专家的公示</a></li>
+          
+              <li><span>2017-12-04</span>·<a href="./201712/t20171204_14333.html" target="_blank" title="关于暂停职业健康检查机构审批工作的公告">关于暂停职业健康检查机构审批工作的公告</a></li>
+          
+              <li><span>2017-12-04</span>·<a href="./201712/t20171204_14332.html" target="_blank" title="公示">公示</a></li>
+          
+              <li><span>2017-11-27</span>·<a href="./201711/t20171127_14297.html" target="_blank" title="四川省卫生计生委卫生总费用研究机构遴选公告">四川省卫生计生委卫生总费用研究机构遴选公告</a></li>
+          
+              <li><span>2017-11-24</span>·<a href="./201711/t20171124_14287.html" target="_blank" title="四川省爱国卫生先进集体和先进个人拟表彰对象公示">四川省爱国卫生先进集体和先进个人拟表彰对象公示</a></li>
+          
+              <li><span>2017-11-21</span>·<a href="./201711/t20171121_14254.html" target="_blank" title="四川省卫生计生委关于公示四川省艾滋病治疗质量控制中心挂靠医疗机构的通知">四川省卫生计生委关于公示四川省艾滋病治疗质量控制中心挂靠医疗机构的通知</a></li>
+          
+              <li><span>2017-11-10</span>·<a href="./201711/t20171110_14234.html" target="_blank" title="2017年10月四川省法定传染病疫情概况">2017年10月四川省法定传染病疫情概况</a></li>
+          
+        </ul>
+      </div>
+      <div align="center" class="fontSt">
+        <table border="0" cellspacing="0" cellpadding="0" style="width:500px; height:44px">
+          <tr>
+               <td align="center"><div class="p_next">
+             <script>
+                 createPageHTML(27, 0, "index", "html");
+                </script>
+            </div></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="blankH10"></div>
+</div>
+<div class="blankH18"></div>
+<div id="bot_link">
+  <div style="border:2px solid #5b9bd4"></div>
+  <div class="link_pic">
+  	<dl>
+    	<dd><a href="http://www.gov.cn/" target="_blank"><img src="../../images/link_pic_03.png" width="316" height="45" /></a></dd>
+        <dd class="t2"><a href="http://www.sc.gov.cn/" target="_blank"><img src="../../images/link_pic_01.png" width="316" height="45" /></a></dd>
+        <dd><a href="http://www.nhfpc.gov.cn/" target="_blank"><img src="../../images/link_pic_02.png" width="316" height="45" /></a></dd>
+    </dl>
+  </div>
+  <div class="blankH10"></div>
+  <div class="bot_link f14 white">
+    <div class="title f12 hd">
+      <ul>
+	<li>省（区、市）卫生计生部门</li>
+        <li>市（州）卫生计生部门</li>
+        <li>直属单位</li>
+      </ul>
+    </div>
+    <div class="bd">
+
+        <div class="contMain f12">
+         <div id="boxscroll_1">
+          <dl>
+           
+				<dd>·<a href="http://www.bjchfp.gov.cn/" target="_blank">北京市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.tjwsj.gov.cn/html/WSJn/portal/index/index.htm" target="_blank">天津市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.hebwsjs.gov.cn/index.do?templet=index" target="_blank">河北省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.sxwsjs.gov.cn/" target="_blank">山西省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.nmgwjw.gov.cn/" target="_blank">内蒙古自治区卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.lndoh.gov.cn/" target="_blank">辽宁省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://wsjsw.jl.gov.cn/" target="_blank">吉林省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.hljhfpc.gov.cn/" target="_blank">黑龙江省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.wsjsw.gov.cn/" target="_blank">上海市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.jswst.gov.cn/" target="_blank">江苏省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.zjwst.gov.cn/" target="_blank">浙江省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.ahwjw.gov.cn/" target="_blank">安徽省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.fjhfpc.gov.cn/" target="_blank">福建省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.jxwst.gov.cn/" target="_blank">江西省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.sdwsjs.gov.cn/" target="_blank">山东省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.hnwsjsw.gov.cn/" target="_blank">河南省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.hbwsjs.gov.cn/" target="_blank">湖北省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.hunanwst.gov.cn/" target="_blank">湖南省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.gdwst.gov.cn/" target="_blank">广东省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.gxhfpc.gov.cn/" target="_blank">广西壮族自治区卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.wst.hainan.gov.cn/" target="_blank">海南省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.cqwsjsw.gov.cn/" target="_blank">重庆市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.gzhfpc.gov.cn/" target="_blank">贵州省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.pbh.yn.gov.cn/" target="_blank">云南省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.sxwjw.gov.cn" target="_blank">陕西省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.gsws.gov.cn/" target="_blank">甘肃省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.qhwst.gov.cn/" target="_blank">青海省卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.nxws.gov.cn/" target="_blank">宁夏回族自治区卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.xjhfpc.gov.cn/" target="_blank">新疆维吾尔自治区卫生计生委</a></dd>
+			
+				<dd>·<a href="http://wsj.xjbt.gov.cn/" target="_blank">新疆生产建设兵团卫生局</a></dd>
+			
+				<dd>·<a href="http://jsw.xjbt.gov.cn/" target="_blank">新疆生产建设兵团人口计生委</a></dd>
+			
+				<dd>·<a href="http://www.dlhfpc.dl.gov.cn/" target="_blank">大连市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.qdwsjsw.gov.cn/" target="_blank">青岛市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.nbwjw.gov.cn/" target="_blank">宁波市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.xmhealth.gov.cn/" target="_blank">厦门市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.szhfpc.gov.cn/" target="_blank">深圳市卫生计生委</a></dd>
+			
+          </dl>
+        </div>
+        </div>
+
+        <div class="contMain f12">
+          <div id="boxscroll_2">
+            <dl>        
+	 	 	
+				<dd>·<a href="http://www.cdwjw.gov.cn/" target="_blank">成都市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.dyws.gov.cn/" target="_blank">德阳市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://wsj.my.gov.cn/" target="_blank">绵阳市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.msws.gov.cn/" target="_blank">眉山市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://wjw.luzhou.gov.cn/" target="_blank">泸州市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.ncwjw.gov.cn//" target="_blank">南充市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.zg.gov.cn/web/swsjsw" target="_blank">自贡市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://wsj.neijiang.gov.cn/" target="_blank">内江市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.ybws.gov.cn/" target="_blank">宜宾市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.lshb.gov.cn/" target="_blank">乐山市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.yawsj.gov.cn/" target="_blank">雅安市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://lsws.lsz.gov.cn" target="_blank">凉山州卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.snwsj.gov.cn/" target="_blank">遂宁市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.dzswsjsw.gov.cn" target="_blank">达州市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.bzswjw.gov.cn/index.html" target="_blank">巴中市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.gyswsj.gov.cn" target="_blank">广元市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.gawsj.gov.cn" target="_blank">广安市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.zywjw.gov.cn/" target="_blank">资阳市卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.abws.gov.cn/index.action" target="_blank">阿坝州卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.gzzwjw.gov.cn/index.jhtml" target="_blank">甘孜州卫生计生委</a></dd>
+			
+				<dd>·<a href="http://www.pzhws.gov.cn" target="_blank">攀枝花市卫生计生委</a></dd>
+			
+            </dl>
+          </div>
+        </div>
+
+        <div class="contMain f12">
+          <div id="boxscroll_3">
+          <dl>
+           
+		  	<dd>·<a href="http://www.samsph.com/index.asp" target="_blank">四川省医学科学院·四川省人民医院</a></dd>
+		
+		  	<dd>·<a href="http://www.sccdpc.gov.cn" target="_blank">四川省疾病预防控制中心</a></dd>
+		
+		  	<dd>·<a href="http://www.cnsnvc.com/" target="_blank">四川护理职业学院</a></dd>
+		
+		  	<dd>·<a href="http://www.sichuancancer.org" target="_blank">四川省肿瘤医院</a></dd>
+		
+		  	<dd>·<a href="http://www.fybj.net" target="_blank">四川省妇幼保健院</a></dd>
+		
+		  	<dd>·<a href="http://www.scwsjd.com" target="_blank">四川省卫生和计划生育监督执法总队</a></dd>
+		
+		  	<dd>·<a href="http://www.scsvvx.com/" target="_blank">四川省卫生学校</a></dd>
+		
+		  	<dd>·<a href="http://www.sc4h.com/" target="_blank">四川省第四人民医院</a></dd>
+		
+		  	<dd>·<a href="http://www.ahswmu.cn" target="_blank">西南医科大学附属医院</a></dd>
+		
+		  	<dd>·<a href="http://www.hospital-nsmc.com.cn" target="_blank">川北医学院附属医院</a></dd>
+		
+		  	<dd>·<a href="http://www.cyfyy.cn/" target="_blank">成都医学院第一附属医院</a></dd>
+		
+		  	<dd>·<a href="http://www.xnykdkq.com/" target="_blank">西南医科大学附属口腔医院</a></dd>
+		
+		  	<dd>·<a href="http://www.shzyfy.com/" target="_blank">四川护理职业学院附属医院</a></dd>
+		
+		  	<dd>·<a href="http://www.sccsh.cn/" target="_blank">四川省人工晶体研究所</a></dd>
+		
+		  	<dd>·<a href="http://www.scihe.cn/" target="_blank">四川省卫生和计划生育委员会国际交流中心</a></dd>
+		
+		  	<dd>·<a href="http://www.scyx.org.cn/" target="_blank">四川省医疗卫生服务指导中心</a></dd>
+		
+		  	<dd>·<a href="http://www.scwjxx.cn/" target="_blank">四川省卫生和计划生育信息中心</a></dd>
+		
+		  	<dd>·<a href="https://www.scbid.gov.cn/" target="_blank">四川省药械集中采购服务中心</a></dd>
+		
+          </dl>
+         </div>
+        </div>
+
+    </div>
+    <script type="text/javascript">jQuery(".bot_link").slide({targetCell:".contMain",defaultPlay:false,returnDefault:true })</script> 
+  </div>
+<script type="text/javascript" src="../../images/jquery.slimscroll.js"></script> 
+  <script type="text/javascript">
+    $(function() {
+			$('#boxscroll_1').slimscroll({
+             height: 'auto'
+             });
+			});
+			$(function() {
+			$('#boxscroll_2').slimscroll({
+             height: 'auto'
+             });
+			});
+			$(function() {
+			$('#boxscroll_3').slimscroll({
+             height: 'auto'
+             });
+			});
+			$(function() {
+			$('#boxscroll_4').slimscroll({
+             height: 'auto'
+             });
+			});
+			$(function() {
+			$('#boxscroll_5').slimscroll({
+             height: 'auto'
+             });
+			});
+			$(function() {
+			$('#boxscroll_6').slimscroll({
+             height: 'auto'
+             });
+			});
+			$(function() {
+			$('#boxscroll_7').slimscroll({
+             height: 'auto'
+             });
+			});
+			$(function() {
+			$('#boxscroll_8').slimscroll({
+             height: 'auto'
+             });
+			});
+  </script>
+
+  <div id="bot_cont">
+    <div class="bot_ico fl" align="right" style="width:220px">
+ <table border="0" cellspacing="0" cellpadding="0" width="200">
+  <tr> 
+    <td> <img src="../../images/bot_ico.png" width="54" height="66" /></td>
+    <td><script id="_jiucuo_" sitecode='5100000053' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script> </td>
+  </tr>
+</table>
+   </div>
+
+   
+
+    <div class="contMain fl blue4 fontSt f12"><a href="../../qtyy/lxwm/" target="_blank">联系我们</a> | 
+	<a href="../../qtyy/wzdt/" target="_blank">网站地图</a> | <a href="../../qtyy/sybz/" target="_blank">使用帮助</a> | <a href="../../qtyy/wzsm/" target="_blank">网站说明</a> | <a href="../../qtyy/mzsm/" target="_blank">免责说明</a></span><br />
+      主办：四川省卫生和计划生育委员会    地址：成都市上汪家拐街39号    邮编：610041    电话：028-86139136<br />
+      蜀ICP备15013137号-1    您是第 9374002 位访问者
+     </div>
+
+    
+
+  </div>
+</div>
+</div>
+ <SCRIPT LANGUAGE='JavaScript' id='site' src=/webstat/js/stat.js?siteid=32></SCRIPT>
+ <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?043a0ff6e2bd5c24d1530e2649718f4f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<!-- <div class="service">
+  	<ul>
+    	<li><a href="#"><img src="../../images/ser_pic.png" width="115" height="161" /></a></li>
+    </ul>
+  </div>-->
+</body>
+</html>

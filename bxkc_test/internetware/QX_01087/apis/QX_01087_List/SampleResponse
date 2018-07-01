@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="SiteName" content="武侯区人民政府门户网站">
+<meta name="SiteDomain" content="www.cdwh.gov.cn">
+<meta name="SiteIDCode" content="5101070001">
+<meta name="ColumnName" content="招标公告">
+<meta name="ColumnDescription" content="招标公告">
+<meta name="ColumnKeywords" content="招标公告">
+<meta name="ColumnType" content="招标公告">  
+<title>招标公告</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" media="screen" />
+	<link href="http://www.cdwh.gov.cn/wuhou/xhtml/css/base.css" type="text/css" rel="stylesheet" />
+	<link href="http://www.cdwh.gov.cn/wuhou/xhtml/css/index.css" type="text/css" rel="stylesheet" />
+	<link href="http://www.cdwh.gov.cn/wuhou/xhtml/css/public.css" type="text/css" rel="stylesheet" />
+    <link href="http://www.cdwh.gov.cn/wuhou/xhtml/css/neirong.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="http://www.cdwh.gov.cn/wuhou/xhtml/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="http://www.cdwh.gov.cn/wuhou/xhtml/js/frontend.js"></script>
+	<script type="text/javascript" src="http://www.cdwh.gov.cn/wuhou/xhtml/js/work.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			//menu js
+			
+				var muls = $("#menu ul li").size();
+				for (var i = 0; i < muls; i++) {
+					$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 14px 15px no-repeat");
+					if(i == (muls - 1)){ 
+						$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 12px 15px no-repeat");
+					}
+					
+				};
+		
+		
+		})
+	</script>
+</head>
+<body>
+	<div class="container">
+		<!--头部-->
+		<script type="text/javascript" src="/wuhou/xhtml/js/search.js"></script>
+
+<!--头部-->
+		<div class="header">
+			<div class="top">
+				<div class="inner">
+					<span>成都市武侯区人民政府门户网站</span>
+					<ul>
+						<li><a href="javascript:;" onclick="javascript:window.location.href='http:/'+'/'+'www.cdwh.gov.cn'">简体中文</a>|</li>
+						<li><a href="javascript:;" onclick="javascript:window.location.href='http:/'+'/'+'www.cdwh.gov.cn:81'">繁体中文</a>|</li>
+						<li><a href="/wuhou/WuHou/en_home.shtml" target="_blank">English</a>|</li>
+						<li><a href="http://www.cdwh.gov.cn/accessibility/web" id="wza">无障碍版</a>|</li>
+						<li><a href="/wuhou/c106403/phone_download.shtml" target="_blank">移动版</a></li>
+					</ul>
+				</div><script type="text/javascript">
+               var url = window.parent.location.href;
+    if(url == 'http://www.cdwh.gov.cn/accessibility/web')
+    {
+    
+     document.getElementById("wza").href = "javascript:;"; 
+    }
+</script>
+			</div>
+			<div class="logo">
+				<div class="search">
+                  <form name="searchForm" id="searchForm"  action="" method="post" target="_blank" onsubmit="return checksearch();">
+					<input type="text"  name="qt" value="请输入关键字查询" class="searchText" id="searchText" />
+					<input type="submit" name="" value="" class="searchBtn" />
+                    </form>
+				</div>				
+             
+       <iframe id="tq" width="387" scrolling="no" height="15" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=11&color=%23&icon=1&py=wuhouqu&site=12"></iframe>
+              
+			</div>
+			<div class="menu" id="menu">
+				<ul>
+					<li><a href="/wuhou/index.shtml#0"  target="_self" title='武侯资讯' >武侯资讯</a></li>
+					<li><a href="/wuhou/index.shtml#1"  target="_self" title='政务公开' >政务公开</a></li>
+					<li><a href="/wuhou/index.shtml#2"  target="_self" title='办事服务' >办事服务</a></li>
+					<li><a href="/wuhou/index.shtml#3"  target="_self" title='公众参与' >公众参与</a></li>
+					<li><a href="/wuhou/index.shtml#4"  target="_self" title='投资服务' >投资服务</a></li>
+					<li><a href="/wuhou/index.shtml#5"  target="_self" title='机构目录' >机构目录</a></li>
+					<li><a href="/wuhou/index.shtml#6"  target="_self" title='认识武侯' >认识武侯</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--/头部end-->
+	<script type="text/javascript">
+		$(function(){
+			//搜索框
+			var seach = $(".searchText");
+			var oldVal = seach.val();
+			seach.focus(function(){   //获取光标
+				if($(this).val()==oldVal){
+					$(this).val('');
+				}
+				$(this).css("color","#000");
+			});
+			seach.blur(function(){   //失去光标
+				if($(this).val()==""){
+				   $(this).val(oldVal);
+				   $(this).css("color","#b8b8b8");
+				}
+			})
+
+		});
+	</script> 
+		<!--头部-->
+		<div class="wzd"  id="current" >
+			当前位置:<a href="http://www.day.gov.cn">首页</a>&nbsp;&gt;&nbsp;招标公告
+		</div>
+
+		<!--main-->
+			<div class="main">
+           <div class="zhongjian fn-clear">
+               
+               <div class="zwfwr shadowr" style="width:100%;"> 
+
+                  <ul class="listBoxs moreLists">
+                  	 
+                    
+                        <li>
+                            <span>2018-05-02</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-05/02/content_1ccf2688bd174ee8907e251ca3d8ba1c.shtml" target="_blank" title="办公用房招租第三次公告">办公用房招租第三次公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-26</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/26/content_ae622d6b7efa41e18ef308da1847a2e4.shtml" target="_blank" title="清水河体育公园工程环境影响评价">清水河体育公园工程环境影响评价</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-26</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/26/content_dfe6bb1875b443e1b71b28c2d2b5abd9.shtml" target="_blank" title="清水河体育公园工程水土保持比选">清水河体育公园工程水土保持比选</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-24</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/24/content_b33394d08f0f4836bea66a5abb1ebb17.shtml" target="_blank" title="招租公告">招租公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-23</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/23/content_459374aad03142c1a6bad2ef79d29278.shtml" target="_blank" title="办公用房招租第二次公告">办公用房招租第二次公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-20</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/20/content_e2e17c69a4764c649eda8d5f53ca004c.shtml" target="_blank" title="天府芙蓉园一期景观喷泉磋商公告">天府芙蓉园一期景观喷泉磋商公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-20</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/20/content_24093fb5415f42eeb9753a95ec4512af.shtml" target="_blank" title="天府芙蓉园一期景观亮化项目磋商公告">天府芙蓉园一期景观亮化项目磋商公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-20</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/20/content_af9885c23e7d407fa3d607a3c40297fa.shtml" target="_blank" title="业兴北路（北起武青西二路，南止武青西三路段）及武兴四路（北起武青西三路，南止武青西四路段）道路工程-涵洞工程监理标段招标公告">业兴北路（北起武青西二路，南止武青西三路段）及武兴四路（北起武青西三路，南止武青西四路段）道路工程-涵洞工程监理标段招标公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-20</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/20/content_1fc591e70a4f4460a494e6060aca08a5.shtml" target="_blank" title="业兴北路（北起武青西二路，南止武青西三路段）及武兴四路（北起武青西三路，南止武青西四路段）道路工程-涵洞工程施工标段招标公告">业兴北路（北起武青西二路，南止武青西三路段）及武兴四路（北起武青西三路，南止武青西四路段）道路工程-涵洞工程施工标段招标公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-19</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/19/content_a39f0548f2184ddb8ffc7075ec611854.shtml" target="_blank" title="天府芙蓉园（赏花基地）一期配套工程监理招标公告">天府芙蓉园（赏花基地）一期配套工程监理招标公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-18</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/18/content_f9b7c0fd3e294680a746b4e8f58bea61.shtml" target="_blank" title="智远大道（武兴路至七里大道段）绿化工程水土保持比选公告">智远大道（武兴路至七里大道段）绿化工程水土保持比选公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-18</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/18/content_7c625d0e5bec4495944e516cfd485a70.shtml" target="_blank" title="武侯大健康科技产业园工程水土保持（第二次）比选公告">武侯大健康科技产业园工程水土保持（第二次）比选公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-18</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/18/content_f0c4cab073c14312bfe646f9186130a4.shtml" target="_blank" title="智远大道（武兴路至七里大道段）绿化工程环境影响评价">智远大道（武兴路至七里大道段）绿化工程环境影响评价</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-17</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/17/content_b50b9d7b34634ba1b789471bd9c60210.shtml" target="_blank" title="成都武侯资本集团二级子公司武侯高新公司VI系统设计及企业宣传画册设计比选公告">成都武侯资本集团二级子公司武侯高新公司VI系统设计及企业宣传画册设计比选公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-16</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/16/content_c1d7bb4aae2a47f1a7aa7032932f7f49.shtml" target="_blank" title="办公用房招租公告">办公用房招租公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-13</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/13/content_fa7b3bb07b4d4c459d5504e15781938c.shtml" target="_blank" title="金花桥城中村金凤街南段道路、排水及电力浅沟工程及其附属工程监理补遗书">金花桥城中村金凤街南段道路、排水及电力浅沟工程及其附属工程监理补遗书</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-13</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/13/content_110e5f4876b14ae08a34a2a8d37307ec.shtml" target="_blank" title="金花桥城中村金凤街南段道路、排水及电力浅沟工程及其附属工程施工补遗书">金花桥城中村金凤街南段道路、排水及电力浅沟工程及其附属工程施工补遗书</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-12</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/12/content_7e0ee7cff7c8490996a22d03e8ca663f.shtml" target="_blank" title="金花桥城中村金凤街南段道路、排水及电力浅沟工程及其附属工程施工标段招标公告">金花桥城中村金凤街南段道路、排水及电力浅沟工程及其附属工程施工标段招标公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-12</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/12/content_4153734415b8408e92cadd1df402b1e3.shtml" target="_blank" title="金花桥城中村金凤街南段道路、排水及电力浅沟工程及其附属工程监理标段招标公告">金花桥城中村金凤街南段道路、排水及电力浅沟工程及其附属工程监理标段招标公告</a>
+                        </li>
+                    
+                        <li>
+                            <span>2018-04-11</span>
+                            <a href="http://www.cdwh.gov.cn/wuhou/c109345/2018-04/11/content_18dde853b36042d983e4654b7ee4e508.shtml" target="_blank" title="玉林一巷社区综合体与周边地铁站点地下空间一体化实施论证比选公告">玉林一巷社区综合体与周边地铁站点地下空间一体化实施论证比选公告</a>
+                        </li>
+                    
+                 	
+				</ul>
+                <div class="page">
+                    	<div id="page_div">
+                         <span class="pagination-first">
+                            <a class="pagination-index" href="/es-search/search/5b65f37586a940db95bec117651f9b1a?_isAgg=0&amp;_pageSize=20&amp;_template=wuhou_list&amp;_channelName=%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=1">首页</a>
+                             
+                                
+                                    
+                                
+                                
+                                
+                                
+                                    
+                                        <a class="pagination-num hover">1</a>
+                                    
+                                    
+                                        <a class="pagination-num" href="/es-search/search/5b65f37586a940db95bec117651f9b1a?_isAgg=0&amp;_pageSize=20&amp;_template=wuhou_list&amp;_channelName=%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=2">2</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/5b65f37586a940db95bec117651f9b1a?_isAgg=0&amp;_pageSize=20&amp;_template=wuhou_list&amp;_channelName=%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=3">3</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/5b65f37586a940db95bec117651f9b1a?_isAgg=0&amp;_pageSize=20&amp;_template=wuhou_list&amp;_channelName=%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=4">4</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/5b65f37586a940db95bec117651f9b1a?_isAgg=0&amp;_pageSize=20&amp;_template=wuhou_list&amp;_channelName=%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=5">5</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/5b65f37586a940db95bec117651f9b1a?_isAgg=0&amp;_pageSize=20&amp;_template=wuhou_list&amp;_channelName=%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=6">6</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/5b65f37586a940db95bec117651f9b1a?_isAgg=0&amp;_pageSize=20&amp;_template=wuhou_list&amp;_channelName=%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=7">7</a>
+                                
+                             
+                            <a class="pagination-index" href="/es-search/search/5b65f37586a940db95bec117651f9b1a?_isAgg=0&amp;_pageSize=20&amp;_template=wuhou_list&amp;_channelName=%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=51">末页</a>
+                            <span class="pagination-last">	<span>当前第 1 页</span>	<span>跳转至</span>	<input id="pagination-input" type="text"value=2>	<span>页</span>	<a href="javascript:void(0);" onclick="page_go()">跳转</a>	<span>共 51 页</span>	<span>共 1014 条</span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                      <script type="text/javascript">
+              function page_go(){
+                var locationUrl = "/es-search/search/5b65f37586a940db95bec117651f9b1a?_isAgg=0&amp;_pageSize=20&amp;_template=wuhou_list&amp;_channelName=%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=";
+                var total="51";
+                var inputV = $("#pagination-input").val();
+                if(parseInt(inputV) > parseInt(total)){
+                	alert('请输入正确的跳转页码！');
+                }else{
+                window.location.href = locationUrl.replace(/&amp;/g, "&") + $("#pagination-input").val();
+                }
+              }
+            </script>
+               </div>
+		   </div>
+		</div>
+		<!--main end-->
+		<!--底部-->
+		<div class="footer">
+	 <div class="footerBox">
+			<div class="footerMenu">
+				<a href="javascript:void(0)" onclick="if(document.all){this.style.behavior='url(#default#homepage)';this.setHomePage('http://'+document.location.host);}else{setHomePage('http://'+document.location.host)}">设为首页</a>|
+				<a href="javascript:void(0)" onclick="AddFavor()">加入收藏</a>|
+				<a href="/wuhou/c106398/site_map.shtml"  target="_blank" title='网站地图' >网站地图</a>|
+				<a href="/wuhou/c106399/cont.shtml"  target="_blank" title='使用帮助' >使用帮助</a>|
+				<a href="http://cdxinfang.gov.cn/suggest.html"  target="_blank" title='意见建议' >意见建议</a>|
+				<a href="/wuhou/c106401/cont.shtml"  target="_blank" title='联系我们' >联系我们</a>|
+				<a href="http://www.cdjubao.gov.cn/"  target="_blank" title='信息举报' >信息举报</a>|
+				<a href="/wuhou/c106403/phone_download.shtml"  target="_blank" title='手机APP' >手机APP</a>|
+           <a href="/wuhou/c106403/phone_download.shtml" target="_blank">移动版</a>
+			</div>
+		<p>成都市武侯区人民政府 主办 武侯区行政审批局 承办 版权所有：武侯区政府</p>
+	    <p> 电子邮箱：xzspj@cdwh.gov.cn 蜀ICP备10207067号-2 公安备510116990291号  &nbsp;&nbsp;&nbsp;&nbsp;网站标识码：5101070001</p>
+	    <div class="jiucuo"><script id="_jiucuo_" sitecode='5101070001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></div>
+	    <div class="dzjg">
+	    	<a href="http://www.cdnet110.com/"><img src="/wuhou/xhtml/images/index_15.png"  class="wj"  /></a>
+	    	<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/333/1994/40512783/CA233331994405127830002.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+	   </div>
+</div>
+
+<!-- PHPStat Start -->
+<script language="JavaScript">var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="phpstat_js_id_10000066" src="//182.150.40.157:8080/phpstat/count/10000066/10000066.js"></script><noscript><img src="//182.150.40.157:8080/phpstat/count/10000066/10000066.php" alt="PHPStat Analytics"/></noscript>
+<!--/PHPStat End --> 
+		<!--/底部-->
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			var iChild=$('#children a').length;
+			if(iChild<1){
+				$("#children").hide();
+			}
+		  function fns(agr){
+		var codeName="<CMSPRO_CHANNEL CODE='' FIELD='channelName'></CMSPRO_CHANNEL>";
+		  $(agr).each(function(e){
+			if($(this).text()==codeName){
+				$(this).addClass("zwfwl1");
+			 }
+		  });
+		 }
+		  fns('#lanM ul li');
+		  
+		  var nums=$('.listBoxs li').length;
+		  for(var i=0;i<=nums;i++){
+		  	if(((i+1)%5) == 0){
+		  		$('.listBoxs li').eq(i).addClass('uli');
+		  		$('.listBoxs li').eq(i+1).addClass('uli1');
+		  	}
+		  }
+		  
+		  var  sText = $('#current').text();
+		  var  aText = sText.split('>');
+		  var  sStr=$.trim(aText[1]);
+		  $('#menu ul li').each(function(e){
+		  	if($(this).text()==sStr){
+				$(this).addClass("active");
+				var muls = $("#menu ul li").size();
+				for (var i = 0; i < muls; i++) {
+					$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 14px 15px no-repeat");
+					if(i == (muls - 1)){ 
+						$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 12px 15px no-repeat");
+					}
+					
+				};
+			 }
+		  });
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script language="Javascript">
+function DrawImage(ImgD){ 
+	var maxwid = 800;
+	if (ImgD.width > maxwid) {
+		ImgD.height = ImgD.height * maxwid / ImgD.width;
+		ImgD.width = maxwid;
+	}
+}
+</script>
+<title>淮上区人民政府</title>
+<meta name="keywords" content="淮上区人民政府">
+<meta name="description" content="淮上区人民政府">
+<SCRIPT language=JavaScript>
+function doZoom(size){
+ document.getElementById('zoom').style.fontSize=size+'px'
+}
+// -->
+</SCRIPT>
+<link rel="stylesheet" type="text/css" href="/tmp/css/lonsun.css" >
+<script language="JavaScript" src='/TMP/js/cookie.js'></script>
+<SCRIPT type=text/javascript src="/tmp/js/nav.js"></SCRIPT>
+<script language="JavaScript" src='/TMP/js/fj.js'></script>
+</head>
+<body onLoad="TransFor()">
+<DIV id=container>
+ <DIV id=rightcontent>
+<div class="bg">
+<DIV id=header></DIV>
+<div class="top">
+<div class="left qlink"><a href="javascript:void(null);" onClick="SetCookie1('zone','s');window.location.reload();">简体</a>|<a href="javascript:void(null);" onClick="SetCookie1('zone','t');window.location.reload();">繁体</a>|<a href="/UserData/SortHtml/1/86181618700.html" target="_blank"><span>RSS</span></a>|<a href="javascript:void()" onclick="javascript:kqNav();">无障碍浏览</a>|<a href="/tmp/zhengwu.html"  title="电子政务" target="_blank">电子政务</a>|<a href="/tmp/ditu.shtml">网站地图</a></div>
+<div class="right quickl" style=" width:378px;">
+    <ul>
+    <li><a href="http://www.bengbu.gov.cn" target="_blank">中国·蚌埠</a></li>
+    <li class="qw"><a href="/UserData/SortHtml/1/51489540786.html" target="_blank">区委</a></li>
+    <li><a href="/UserData/SortHtml/1/26811501787.html" target="_blank">区人大</a></li>
+    <li><a href="javascript:void(0);">区政府</a></li>
+    <li class="qzx"><a href="/UserData/SortHtml/1/44901863788.html" target="_blank">区政协</a></li><div class="clear"></div>
+    </ul>
+  </div>
+  <div class="clear"></div>
+  </div>
+<div class="banner-w"><div id="banner">
+<ul><li><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1002" height="111"><param name="movie" value="/UserData/UploadFile/1/2017/8/7/20178725674416.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><embed src="/UserData/UploadFile/1/2017/8/7/20178725674416.swf" quality="high" width="1002" height="111" type="application/x-shockwave-flash" wmode="transparent"></embed></object></li></ul>
+<div class="btns"><a href="/UserData/SortHtml/1/2617017457.html"><img src="/tmp/images/top_btn_sm.png" border="0" /></a>
+<a href="/UserData/SortHtml/1/7473386458.html"><img src="/tmp/images/top_btn_qy.png" border="0" /></a>
+</div>
+  </div></div>
+  <div class="menu">
+    <div class="menu_body"><div class="left menulist">
+      <ul>
+        <li onmouseover="swapimg(0);showtr(0)"><a href="/index.html"  >首 页</a></li>
+        <li class="mb"></li>
+        <li onmouseover="swapimg(1);showtr(1)"><a href="/Tmp/Nav_zoujinhuaishangzhuye.shtml?ss_id=2" >走进淮上</a></li>
+        <li class="mb"></li>
+        <li onmouseover="swapimg(2);showtr(2)"><a href="/Tmp/Nav_zhengwuzhuye.shtml?ss_id=4" >政务公开</a></li>
+        <li class="mb"></li>
+        <li onmouseover="swapimg(3);showtr(3)"><a href="/Tmp/Nav_xinwenzhuye.shtml?ss_id=3" class="active">新闻中心</a></li>
+        <li class="mb"></li>
+        <li onmouseover="swapimg(4);showtr(4)"><a href="/UserData/SortHtml/1/172108236.html" >互动交流</a></li>
+        <li class="mb"></li>
+        <li onmouseover="swapimg(5);showtr(5)"><a href="/Tmp/Nav_banshidating1.shtml?ss_id=7" >办事大厅</a></li>
+        <li class="mb"></li>
+        <li onmouseover="swapimg(6);showtr(6)"><a href="/UserData/SortHtml/1/731792998.html" >投资淮上</a></li><div class="clear"></div>
+      </ul>
+    </div>
+    <div class="left search">
+      <form action="/tmp/search.shtml" method="get" name="SearchDoc" id="SearchDoc">
+          <input name="SearchWords" type="text" id="SearchWords" onFocus="javascript:if (this.value=='请输入搜索关键字') this.value='';this.style.color='#333333';" onBlur="javascript:if (this.value=='') {this.value='';this.style.color='#cccccc'}" value="请输入搜索关键字" class="left searchin" >
+          <input name="submit" type="image" src="/tmp/images/search.gif"  value="搜索" / style=" float:left;border: none;" />
+      </form>
+      <div class="clear"></div>
+    </div>
+    <div class="left" style="margin-top:5px;"><a href="/TMP/s_sr.shtml"><img src="/tmp/images/gjss.gif" border="0" /></a></div>
+    <div class="clear"></div>
+  </div>
+  <div class="sub">
+  <table border="0" align="center" onMouseOut="restoreinit()" cellpadding="0" cellspacing="0" height="23" width="992">
+  <tr id="tr0" onMouseOver="swapimg(0);showtr(0)">
+    <td height="23"><table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="236">今天是：<script language="javascript" src="/tmp/indate.shtml"></script></td>
+    <td width="64">天气预报：</td>
+    <td width="246" id="tianqi"></td>
+    <td >今日空气质量：优良</td>
+  </tr>
+</table></td>
+    </tr>
+    <tr id="tr1"  onMouseOver="swapimg(1);showtr(1)" onMouseOut="restoreinit()" style="display:none">
+    <td height="23"><span style="padding-left:50px;"><a href="/UserData/SortHtml/1/2603833810.html" style="padding-left:7px; padding-right:7px">领导致辞</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/7609479611.html" style="padding-left:7px; padding-right:7px">淮上简介</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/9002408663.html" style="padding-left:7px; padding-right:7px">自然气候</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/2277127912.html" style="padding-left:7px; padding-right:7px">组织机构</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/5296720218.html" style="padding-left:7px; padding-right:7px">图片淮上</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/51052834327.html" style="padding-left:7px; padding-right:7px">行政区域</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/28923622329.html" style="padding-left:7px; padding-right:7px">自然地理</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/99844490328.html" style="padding-left:7px; padding-right:7px">规划淮上</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/51489540786.html" style="padding-left:7px; padding-right:7px">区委</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/26811501787.html" style="padding-left:7px; padding-right:7px">区人大</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/44901863788.html" style="padding-left:7px; padding-right:7px">区政协</a></span></td>
+    </tr>
+    <tr id="tr2" onMouseOver="swapimg(2);showtr(2)" onMouseOut="restoreinit()" style="display:none">
+    <td height="23" align="left"><span  style="padding-left:130px;"><a href="/UserData/SortHtml/1/2500013031.html" style="padding-left:7px; padding-right:7px">信息公开</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/4698651926.html" style="padding-left:7px; padding-right:7px">政务动态</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/2444257427.html" style="padding-left:7px; padding-right:7px">政府公文</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/70914742564.html" style="padding-left:7px; padding-right:7px">工作报告</a></span></td>
+    </tr>
+    <tr id="tr3" onMouseOver="swapimg(3);showtr(3)" onMouseOut="restoreinit()" style="display:none">
+    <td height="23"><span style="padding-left:150px;"><a href="/UserData/SortHtml/1/7079801220.html" style="padding-left:7px; padding-right:7px">今日淮上</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/5386945421.html" style="padding-left:7px; padding-right:7px">部门工作</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/4407788922.html" style="padding-left:7px; padding-right:7px">乡镇动态</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/1748960124.html" style="padding-left:7px; padding-right:7px">公告公示</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/2423108725.html" style="padding-left:7px; padding-right:7px">专题专栏</a></span></td>
+    </tr>
+    <tr id="tr4" onMouseOver="swapimg(4);showtr(4)" onMouseOut="restoreinit()" style="display:none">
+    <td height="23"><a href="/UserData/SortHtml/1/39879738338.html" style="padding-left:3px; padding-right:3px">领导信箱</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/15495583163.html" style="padding-left:3px; padding-right:3px">制度建设</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/22065407168.html" style="padding-left:3px; padding-right:3px">信访接待</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/57341133173.html" style="padding-left:3px; padding-right:3px">意见征集</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/Tmp/Nav_hudongjiaoliu.shtml?SS_ID=337" style="padding-left:3px; padding-right:3px">网上调查</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/Tmp/Nav_hudongjiaoliu.shtml?SS_ID=330" style="padding-left:3px; padding-right:3px">12345政府服务直通车</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/21809975561.html" style="padding-left:3px; padding-right:3px">政府服务直通车使用说明</a></td>
+    </tr>
+    <tr id="tr5" onMouseOver="swapimg(5);showtr(5)" onMouseOut="restoreinit()" style="display:none">
+    <td height="23" style="padding-left:300px;"><a href="/UserData/SortHtml/1/2617017457.html" style="padding-left:7px; padding-right:7px">市民办事</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/7473386458.html" style="padding-left:7px; padding-right:7px">企业办事</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/1360044176.html" style="padding-left:7px; padding-right:7px">重点领域服务</a></td>
+    </tr>
+     <tr id="tr6" onMouseOver="swapimg(6);showtr(6)" onMouseOut="restoreinit()" style="display:none">
+    <td height="23"><a href="/UserData/SortHtml/1/9140012447.html" style="padding-left:7px; padding-right:7px">投资动态</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/86166512722.html" style="padding-left:7px; padding-right:7px">投资指南</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/3782392250.html" style="padding-left:7px; padding-right:7px">优惠政策</a>&nbsp;<img src="/Tmp/images/line.gif" align="absmiddle" >&nbsp;<a href="/UserData/SortHtml/1/4102780953.html" style="padding-left:7px; padding-right:7px">重大项目</a></td>
+    </tr>
+    </table>
+  </div>
+  </div>
+<script type="text/javascript">
+<!--
+var redArray = new Array();
+var whiteArray = new Array();
+
+redArray[0]	= '/Tmp/images/menu1.jpg';
+whiteArray[0] = '/Tmp/images/menu01.jpg';
+redArray[1]	= '/Tmp/images/menu2.jpg';
+whiteArray[1] = '/Tmp/images/menu02.jpg';
+redArray[2]	= '/Tmp/images/menu3.jpg';
+whiteArray[2] = '/Tmp/images/menu03.jpg';
+redArray[3]	= '/Tmp/images/menu4.jpg';
+whiteArray[3] = '/Tmp/images/menu04.jpg';
+redArray[4]	= '/Tmp/images/menu5.jpg';
+whiteArray[4] = '/Tmp/images/menu05.jpg';
+redArray[5]	= '/Tmp/images/menu6.jpg';
+whiteArray[5] = '/Tmp/images/menu06.jpg';
+redArray[6]	= '/Tmp/images/menu7.jpg';
+whiteArray[6] = '/Tmp/images/menu07.jpg';
+function swapimg(x) {
+var nowimg = document.all('Image' + x);
+if(!nowimg) return;
+restoreimg();
+nowimg.src = whiteArray[x];
+}
+
+function restoreimg() {
+for(var i=0;i<7;i++) {
+document.all('Image' + i).src = redArray[i];
+}
+}
+
+function showtr(y) {
+var nowtr = document.all('tr' + y);
+if (!nowtr) return;
+hidalltr();
+nowtr.style.display = 'block';
+}
+
+function hidalltr() {
+for(var i=0;i<7;i++) {
+document.all('tr' + i).style.display = 'none';
+}
+}
+//-->
+</script>  
+  <script language="JavaScript" type="text/javascript">
+function restoreinit() {
+swapimg(0);showtr(0);
+}
+restoreinit();
+</script>
+
+<script type="text/javascript" src="/tmp/js/Lonsun.page.iframe.min.js"></script>
+<script type="text/javascript">
+	 Lonsun.page.iframe.create("tianqi","http://m.weather.com.cn/m/pn3/weather.htm?id=101220201T",225,20);  
+</script>
+	<div class="navcon">
+    <div class="border" style="border-top: 2px solid #2976C4;">
+    	<div class="navtop">您当前所在的位置：<a href="/index.html">首页</a> > <a href=/UserData/SortHtml/1/156136863.html>新闻中心</a> > <a href=/UserData/SortHtml/1/1748960124.html>公告公示</a></div>
+        <div class="wenzhang" id="color_printsssss">
+        <div id="wz_change">背景颜色：
+           	    <input type="button" style="border:1px solid #999999; background-color:#EDF0F5; width:10px; height:10px;" onClick="document.all('color_printsssss').style.backgroundColor='#EDF0F5';">&nbsp;<input type="button" style="border:1px solid #999999; background-color:#FAFBE6; width:10px; height:10px;" onClick="document.all('color_printsssss').style.backgroundColor='#FAFBE6';">&nbsp;<input type="button" style="border:1px solid #999999; background-color:#FFF2E2; width:10px; height:10px;" onClick="document.all('color_printsssss').style.backgroundColor='#FFF2E2';">&nbsp;<input type="button" style="border:1px solid #999999; background-color:#FDE6E0; width:10px; height:10px;" onClick="document.all('color_printsssss').style.backgroundColor='#FDE6E0';">&nbsp;<input type="button" style="border:1px solid #999999; background-color:#F3FFE1; width:10px; height:10px;" onClick="document.all('color_printsssss').style.backgroundColor='#F3FFE1';">&nbsp;<input type="button" style="border:1px solid #999999; background-color:#DAFAF3; width:10px; height:10px;" onClick="document.all('color_printsssss').style.backgroundColor='#DAFAF3';">&nbsp;<input type="button" style="border:1px solid #999999; background-color:#EAEAEF; width:10px; height:10px;" onClick="document.all('color_printsssss').style.backgroundColor='#EAEAEF';">&nbsp;<input type="button" style="border:1px solid #999999; background-color:#FFFFFF; width:10px; height:10px;" onClick="document.all('color_printsssss').style.backgroundColor='#FFFFFF';"></div>
+          <div class="wztit"><b>安徽金硅光伏新材料有限公司年产20万吨石英砂提纯项目环境影响报告书全本公示</b></div>
+        <div class="wzfbt"></div>
+        <div class="wzbjxx">字体[ <A 
+ href="javascript:doZoom(16)">大</A> <A 
+ href="javascript:doZoom(14)">中</A> <A 
+ href="javascript:doZoom(12)">小</A> ]&nbsp;&nbsp;日期：2017-9-20&nbsp;&nbsp;编辑：淮上区环保局&nbsp;&nbsp;阅读次数：<script language="javascript" src="/System/sys0_inc_dochit.shtml?d_ID=27243"></script>&nbsp;&nbsp;<a href="javascript:window.close();">[ 关 闭 ]</a></div>
+        <div class="wz_content" id="zoom"><P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">（一）报告书信息公示说明</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体" lang=EN-US><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">安徽金硅光伏新材料有限公司拟计划在蚌埠市沫河口工业园区</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt; mso-ascii-font-family: Calibri; mso-font-kerning: 0pt">金浍路（西）</SPAN><SPAN style="LINE-HEIGHT: 150%; COLOR: black; FONT-SIZE: 12pt; mso-hansi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><FONT face=Calibri>2-3</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt; mso-ascii-font-family: Calibri; mso-font-kerning: 0pt">院内东车间</SPAN><SPAN style="LINE-HEIGHT: 150%; COLOR: black; FONT-SIZE: 12pt; mso-hansi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><FONT face=Calibri>1</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt; mso-ascii-font-family: Calibri; mso-font-kerning: 0pt">号、</SPAN><SPAN style="LINE-HEIGHT: 150%; COLOR: black; FONT-SIZE: 12pt; mso-hansi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><FONT face=Calibri>2</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt; mso-ascii-font-family: Calibri; mso-font-kerning: 0pt">号库</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">新建年产<SPAN lang=EN-US>20</SPAN>万吨石英砂提纯项目，总投资<SPAN lang=EN-US>1506.2</SPAN>万元。</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体" lang=EN-US><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">该项目环境影响评价报告书已由安徽通济环保科技有限公司编制完成，准备上报审批。根据“建设项目环境影响评价政府信息公开指南（试行）”中要求，建设单位在向环境保护主管部门提交建设项目环境影响报告书、表前，应依法主动公开建设项目环境影响报告书、表全本信息，现安徽金硅光伏新材料有限公司年产<SPAN lang=EN-US>20</SPAN>万吨石英砂提纯项目环境影响报告书全本信息，详见附件。</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体" lang=EN-US><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">（二）公众提出意见的主要方式<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">公众可通过电话、传真、信函、电子邮件等方式与项目单位或环评单位进行联系，联系方式如下：<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体" lang=EN-US>1</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">、建设项目的建设单位的名称和联系方式<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">建设单位：安徽金硅光伏新材料有限公司；<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">单位地址：蚌埠市淮上区沫河口工业园区</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt; mso-ascii-font-family: Calibri; mso-font-kerning: 0pt">金浍路（西）</SPAN><SPAN style="LINE-HEIGHT: 150%; COLOR: black; FONT-SIZE: 12pt; mso-hansi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><FONT face=Calibri>2-3</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt; mso-ascii-font-family: Calibri; mso-font-kerning: 0pt">院内东车间</SPAN><SPAN style="LINE-HEIGHT: 150%; COLOR: black; FONT-SIZE: 12pt; mso-hansi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><FONT face=Calibri>1</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt; mso-ascii-font-family: Calibri; mso-font-kerning: 0pt">号、</SPAN><SPAN style="LINE-HEIGHT: 150%; COLOR: black; FONT-SIZE: 12pt; mso-hansi-font-family: 宋体; mso-font-kerning: 0pt" lang=EN-US><FONT face=Calibri>2</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt; mso-ascii-font-family: Calibri; mso-font-kerning: 0pt">号库；</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体" lang=EN-US><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">联 系 人：周总<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">电<SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN></SPAN>话：<SPAN lang=EN-US>13093320808<o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体" lang=EN-US>2</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">、承担评价工作的环境影响评价机构的名称和联系方式<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">评价机构：安徽通济环保科技有限公司<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">单位地址：安徽省宿州市淮河西路<SPAN lang=EN-US>88</SPAN>号<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">联 系 人：杨工<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=left><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">电<SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN></SPAN>话：<SPAN lang=EN-US>0557-3920476<o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: right; LINE-HEIGHT: 150%; TEXT-INDENT: 24.1pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-pagination: widow-orphan" class=MsoNormal align=right><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-bidi-font-family: 宋体" lang=EN-US><o:p>&nbsp;</o:p></SPAN></P>
+<P style="TEXT-ALIGN: right; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=right><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体" lang=EN-US>2017</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">年<SPAN lang=EN-US>9</SPAN>月<SPAN lang=EN-US>20</SPAN>日<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P style="TEXT-ALIGN: right; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=right><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">安徽金硅光伏新材料有限公司</SPAN></P>
+<P style="TEXT-ALIGN: right; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; BACKGROUND: white; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" class=MsoNormal align=right><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt; mso-font-kerning: 0pt; mso-bidi-language: AR; mso-bidi-font-family: 宋体">附件：<img onClick="window.open(this.src)" style="cursor:hand" onload="DrawImage(this)" border=0 src="/System/SysImage/file/pdf.gif"><A href="/UserData/UploadFile/1/2017/9/21/2017921103314744.pdf" target=_blank>安徽金硅光伏新材料有限公司年产20万吨石英砂提纯项目环境影响评价报告书 -公示版.pdf</A><SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P></div>
+        <div style="text-align:right; padding-right:20px;">【<a href="#" onClick="javascript:window.print() ">打印</a>】</div>
+        <div></div>
+        <div style="margin-top:5px; margin-bottom:5px;"></div>
+      <div class="wzbot"><script language="javascript" src="/system/sys0_inc_docnav.shtml?d_ID=27243"></script></div></div>
+    </div></div>
+    <div class="foot mt" style="position:relative;">版权所有：淮上区人民政府　主办：淮上区人民政府　承办：淮上区人民政府政务网络信息中心　<a href="/System/sys_login_ex6.shtml" target="_blank" style="color:#999999;">[管理员登陆]</a><br />
+  地址：蚌埠市淮上大道淮上区行政办公中心　邮编：<span>233020</span>　电话：<span>0552-2829306</span>　传真：<span>0552-2829306</span>　邮箱：<a href="mailto:huaishangqu@163.com" style="font-family:Arial, Helvetica, sans-serif">huaishangqu@163.com</a> <br />
+ <a href="/UserData/SortHtml/1/96201149723.html">网站帮助</a> <a href="http://www.miibeian.gov.cn/" target="_blank" style="font-family:Arial; text-decoration:underline; color:#999999;">皖ICP备11003950号-1</a> <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34030002000599"><img src="/tmp/images/gah.png" style="vertical-align:middle; padding-right:0.5em;" />皖公网安备 34030002000599号</a> |  技术支持：<a href="http://www.lonsun.cn" target="_blank">龙讯科技</a>&nbsp;&nbsp;<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253076064'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1253076064%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><br />
+ 网站标识码：3403110003
+ <div class="jc_ico" style="position:absolute; left:10px; top:10px;"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='http://dcs.conac.cn/js/13/202/1492/60004381/CA132021492600043810000.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+ <div class="jc_ico" style="position:absolute; right:10px; top:10px;"><script id="_jiucuo_" sitecode='3403110003' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></div>
+</div>
+
+    </div>
+   </DIV></DIV>
+</body>
+</html>

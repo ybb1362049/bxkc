@@ -1,0 +1,364 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>雅安市中介超市</title>
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=8;IE=EmulateIE9" />
+    <meta content="雅安市中介超市,筑龙信息,筑龙软件,筑龙企业交易平台,Truelore information" name="Description" />
+    <meta content="雅安市中介超市,筑龙信息,筑龙软件,筑龙企业交易平台,招投标软件,在线招投标全流程网上服务平台,全流程电子招投标公共平台,招标、投标、开标、评标、定标、标书,公共资源交易中心,电子招投标交易平台,第三方招投标平台,public resource trading center, seaouvision,seaou,bidding & Tendering Platform,Truelore information" name="Keywords" />
+    <script src="/bundles/jquery?v=wBUqTIMTmGl9Hj0haQMeRbd8CoM3UaGnAwp4uDEKfnM1"></script>
+
+    <script src="/bundles/jqueryval?v=iOiqZD9y1GNUYAjhHT7_cwnDGatGx0O4bI6hI-dm-Pg1"></script>
+
+    <script src="/Areas/JyWeb/Content/Scripts/jquery.js"></script>
+
+    <script src="/Areas/NewCommon/Content/Scripts/jquery.switchable.js"></script>
+
+    <script src="/Areas/JyWeb/Content/Scripts/TitleShow.js"></script>
+
+    <script src="/Areas/JyWeb/Content/Scripts/main.js"></script>
+
+    <script src="/bundles/common/js?v=P4jmqhDDf3LioYWZNmLjyX-IxY_QAV62CNBnsIQRK0c1"></script>
+
+    
+    <link href="/Areas/JyWeb/Content/App_Themes/Default/Styles/basic.css" rel="stylesheet"/>
+
+    <link href="/Areas/JyWeb/Content/App_Themes/Default/Styles/home.css" rel="stylesheet"/>
+
+    <link href="/Areas/JyWeb/Content/App_Themes/Default/Styles/main.css" rel="stylesheet"/>
+
+      
+    
+   
+
+    <script type="text/javascript">
+        var uploadType = 0; //上传文件类型
+        var sub_System_Guid = "D73A5F08-CAF4-49EB-9BD8-F6BC9439BD09";
+        var fileRootUrl = "http://ggzy.yazw.gov.cn:8011/";//上传根目录
+        var ZhongJie_JiGou_Guid = "";
+
+        var downCheckUrl = fileRootUrl + "WJGL/FileDownLoadCheckRemote?user_Guid=";//下载检查url
+        var uploadUrl = fileRootUrl + "?user_Guid=&user_Name=&sub_System_Guid=D73A5F08-CAF4-49EB-9BD8-F6BC9439BD09";//上传的url
+
+        var AttacthFileRootUrl = "http://ggzy.yazw.gov.cn:8011/UploadFiles/";
+    </script>
+</head>
+<body>
+    <!--下载用框架-->
+    <iframe id="downIframe" style="display: none"></iframe>
+    <div class="topleft" style="position:fixed;z-index:100; border:0px solid red; width:100%;background-color:#F7F7F7;">
+        <div class="w980">
+            <div id="user_regist">
+                <a href="http://ggzy.yazw.gov.cn:8017/">请登录</a><a href="/Home/XiangMuYeZhuRegister"> 项目业主注册</a><a href="/Home/Register">中介机构注册</a>
+            </div> 
+            <div id="user_quit" style="display:none;">
+                您好，<label id="user_name"></label>&nbsp;&nbsp;&nbsp;<a style="color:blue;" href="javascript:quit();">退出</a>
+            </div>
+        </div>
+    </div>
+    <div class="top_head">
+        <div class="w980" style="position: relative;">
+            
+            <div class="clear"></div>
+            <div class="logo" style="margin-top:70px;">
+                <img src="/Areas/JyWeb/Content/App_Themes/Default/Images/logo.png" alt="" />
+            </div>
+            <div id="search" style="margin-top:80px;">
+                <span>
+                    <input type="text" id="s" placeholder="请输入关键字" class="swap_value" /></span>
+                <span  onclick="Search()" class="sos" style="cursor:pointer;">搜&nbsp;索</span>
+            </div>
+        </div>
+    </div>
+    <div class="top_nav ">
+        <ul class="w980">
+            <li><a id="lihead" class="" href="/Home/Index">首 页</a></li>
+            <li><a id="a通知公告" href="/JyWeb/XXGK/XXGKList?SubType=30&SubType2=0&Type=%e4%bf%a1%e6%81%af%e5%85%ac%e5%bc%80"><span>通知公告</span></a></li>
+            <li><a id="a中介机构选取" href="/JyWeb/ZJJGXQ/ZJJGXQList?type=80010">中介机构选取</a></li>
+            <li><a id="a政策法规" href="/JyWeb/XXGK/XXGKList?SubType=90&SubType2=0&Type=%e4%bf%a1%e6%81%af%e5%85%ac%e5%bc%80">政策法规</a></li>
+            <li><a id="a下载专区" href="/JyWeb/XXGK/XXGKList?SubType=50&SubType2=50010&Type=%e4%bf%a1%e6%81%af%e5%85%ac%e5%bc%80">下载专区 </a></li>
+            <li><a id="a中介服务查询" href="/JyWeb/XXGK/ZhongJieFuWuChaXunList?SubType=40">中介服务查询</a></li>
+            <li><a id="a服务指南" href="/JyWeb/XXGK/XXGKList?SubType=40&SubType2=40010&Type=%e4%bf%a1%e6%81%af%e5%85%ac%e5%bc%80">服务指南</a></li>
+        </ul>
+    </div>
+    <div class="w980 maign_top">
+        
+<script src="/Areas/JyWeb/Content/Scripts/main.js"></script>
+
+<link href="/Areas/JyWeb/Content/App_Themes/Default/Styles/main.css" rel="stylesheet"/>
+
+<link href="/Areas/JyWeb/Content/App_Themes/Default/Styles/LocalStyle.css" rel="stylesheet"/>
+
+<script src="/Areas/NewCommon/Content/easyui/js/jquery.easyui.min.js"></script>
+
+<script src="/bundles/main/js?v=cXSQBHKkR9joqGOztkCqotLH0E0UpBnnCbHzvcM85T41"></script>
+
+
+<div class="w980 maign_top">
+    <div class="xxym">
+        <h3>
+            <span style="float: left;">您当前的位置：中介机构选取<label>></label>
+                <a href="/JyWeb/ZJJGXQ/ZJJGXQList?type=80010">选取公告</a>
+            </span>
+                <span style="float: right;">已有<font class="red">0</font> 家中介机构报名</span>
+        </h3>
+
+        <div class="page_contect bai_bg">
+            <h4 class="detail_t">石棉县2012-2015保障性住房配套基础设施建设工程（工程造价咨询）中介机构选取公告</h4>
+            <p>发布时间：2018-01-12<span style="padding-left: 20px;">阅读次数：27</span></p>
+                <div>
+                    <table width="100%" border="0" class="de_tab1">
+                        <tr>
+                            <td class="bg_td">项目编号：</td>
+                            <td class="bg_td_fild">雅中介(2018)00060号</td>
+                            <td class="bg_td">项目名称：</td>
+                            <td class="bg_td_fild">石棉县2012-2015保障性住房配套基础设施建设工程</td>
+                        </tr>
+                        <tr>
+                            <td class="bg_td">业主或委托单位：</td>
+                            <td>石棉县城乡规划建设和住房保障局</td>
+                            <td class="bg_td">项目所在地：</td>
+                            <td>石棉县</td>
+                        </tr>
+                        <tr>
+
+                                <td class="bg_td">资质类别：</td>
+                                <td>工程造价咨询</td>
+                                <td class="bg_td">等级：</td>
+                                <td>乙级及以上</td>
+                        </tr>
+                        <tr>
+                            <td class="bg_td">服务类别：</td>
+                            <td colspan="3">工程竣工结算</td>
+                        </tr>
+                        <tr>
+
+                            <td class="bg_td">中介服务费：</td>
+                            <td>收费标准参照《四川省物价局、四川省建设厅关于〈工程造价咨询服务收费标准〉的通知》（川价发〔2008〕141号）文件规定执行（总价不超过20万）</td>
+                            <td class="bg_td">咨询电话：</td>
+                            <td>0835-8863432</td>
+                        </tr>
+                        <tr>
+                            <td class="bg_td">服务金额说明：</td>
+                            <td colspan="3">收费标准参照《四川省物价局、四川省建设厅关于〈工程造价咨询服务收费标准〉的通知》（川价发〔2008〕141号）文件规定执行，其基本费下浮&nbsp;30&nbsp;%，效益费按审减审增品迭后净审减金额的&nbsp;&nbsp;5%&nbsp;&nbsp;收取。经审计机关复核增加的审减金额不得作为中介机构审减效益费计费。总费用不超过20万，超过20万按照20万结算，不足20万按实际结算。</td>
+                        </tr>
+                        <tr>
+                            <td class="bg_td">中介机构服务内容：</td>
+                            <td colspan="3">1、工程造价、投资控制情况；2、项目执行基本建设程序情况；3、涉及结算审核中与建设项目直接有关的勘察、设计、施工、监理、供货等单位取得建设项目资金的真实性、合法性情况；4、参建各方履行合同约定和主管部门履行职责情况；5、法律法规规定的其他事项。</td>
+                        </tr>
+                        <tr>
+                            <td class="bg_td">选取中介方式：</td>
+
+                            <td>随机抽取</td>
+                            <td class="bg_td">抽取方式：</td>
+                            <td>系统抽取</td>
+                        </tr>
+                        <tr>
+                            <td class="bg_td">报名开始时间：</td>
+                            <td>2018-01-15 09:00:00</td>
+                            <td class="bg_td">报名截止时间：</td>
+                            <td>2018-01-17 17:00:00</td>
+                        </tr>
+                            <tr>
+                                <td class="bg_td">选取开始时间：</td>
+                                <td colspan="3">2018-01-18 10:00:00</td>
+                            </tr>
+                        <tr>
+                            <td class="bg_td">中介机构需求书：</td>
+                            <td colspan="3"><a href='javascript:downFile(&#39;be719efb-9937-4abd-93e1-c519f2500812&#39;)' class="blue">2012-2015保障性住房.pdf</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bg_td">备注：</td>
+                            <td colspan="3"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" align="right" class="bian">雅安市人民政府政务服务和公共资源交易服务中心<br />
+                                2018年01月12日
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="bshare-custom">
+						<span style="width:210px">
+						<a style="float:left;background:grey;" href="javascript:BaoMing();" disabled=&#39;disabled&#39;>报名未开始</a>
+												<a style="float:left;margin-left:10px;width:50px;"  href="javascript:void(0)" onclick="Back_OnClick()">返回</a>
+						</span>
+
+                    </div>
+                </div>
+            <div class="prev_next">
+                <div class="prev"><span>上一条：</span>没有上一条了</div>
+                <div class="next"><span>下一条：</span><a title='雅安市名山区中医医院业务用房改建项目（雅中介(2018)00061号）' href="http://ggzy.yazw.gov.cn:8016/JyWeb/ZJJGXQ/XuanQuGongGaoView?guid=a4a73d06-42af-42da-83c3-bcfd63ae0df6">雅安市名山区中医医院业务用房改建项目（雅中介(2018)00061号）</a></div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        if ("0" == "1") {
+            addFJ();
+        }
+        showTitleStyule("a中介机构选取");
+    })
+
+    var common_uploader_url = "/NewCommon/Common/GetUploaderHtml?1=1";
+    //获取上传信息
+    function getUploadInfo(guid, oldName, newName, clientId, upload_endtime) {
+        var strTrHtml = "<tr><td style='width:10%;text-align:right;'><img alt='' src='/Areas/JyWeb/Content/App_Themes/Default/Images/下载按钮2.png' style='padding-top:7px;padding-right:2px;'>附件：</td><td style='line-height:100%;padding-left:0;'><a  style=\"color: blue\" id='downfile" + guid + "' href=\"javascript:downFile('" + guid + "')\">" + oldName + "</a></td></tr>"
+        $("#test").append(strTrHtml);
+    }
+    function addFJ() {
+        var xxguid = "";
+        xxguid = "39a80a79-2370-4a71-af07-da591fc9eaf8";
+        $.ajax({
+            url: "/JyWeb/XXGK/GetVW_XXGK_FJ_List?guid=" + xxguid,
+            type: "post",
+            dataType: "json",
+            success: function (data) {
+                for (var i = 0; i < data.length; i++) {
+                    getUploadInfo(data[i].Attach_Guid, data[i].Attach_Client_FileName, data[i].Attach_Server_FileName, "", data[i].Upload_EndTime);
+                }
+            }
+        });
+    }
+
+    function Back_OnClick() {
+        window.location.href = "/JyWeb/ZJJGXQ/ZJJGXQList?type=80010";
+    }
+    //当前登录人
+    function BaoMing() {
+        if (ZhongJie_JiGou_Guid != "") {
+           // window.open("http://ggzy.yazw.gov.cn:8017/" + "JYGL/Home/Index?urlType=1&guid=39a80a79-2370-4a71-af07-da591fc9eaf8");
+            window.open("http://ggzy.yazw.gov.cn:8017/" + "JYGL/Home/Index?urlType=1&guid=39a80a79-2370-4a71-af07-da591fc9eaf8"+"&BaoMing=1"); 
+        } else {
+            window.open("http://ggzy.yazw.gov.cn:8017/" + "Login/Login_Index?user_type=-1&urlType=0");
+        }
+    }
+
+</script>
+
+    </div>
+    <div class="footer" style="margin-top:20px;">
+        主办单位：雅安市人民政府政务服务和公共资源交易服务中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ICP备案：蜀ICP备12021855号<br />
+        
+        数字证书（CA）办理咨询：18180008131&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;四川数字证书（CA）服务电话：400-867-6868<br />
+        技术支持：北京筑龙信息技术有限责任公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务电话：400-9618-998<br />
+        为获得更好浏览效果，建议您使用IE8.0以上版本浏览器登陆本网站<br />
+    </div>
+    <script type="text/javascript">
+        var uploadType = 0; //上传文件类型
+        var sub_System_Guid = "D73A5F08-CAF4-49EB-9BD8-F6BC9439BD09";
+        var fileRootUrl = "http://ggzy.yazw.gov.cn:8011/";//上传根目录
+        var ZhongJie_JiGou_Guid = "";
+        var downCheckUrl = fileRootUrl + "WJGL/FileDownLoadCheckRemote?user_Guid=";//下载检查url
+        var uploadUrl = fileRootUrl + "?user_Guid=&user_Name=&sub_System_Guid=D73A5F08-CAF4-49EB-9BD8-F6BC9439BD09";//上传的url
+        var AttacthFileRootUrl = "http://ggzy.yazw.gov.cn:8011/UploadFiles/";
+        var CaiGouXiTongUrl = "http://ggzy.yazw.gov.cn:8017/";
+
+        //登陆
+        function login() {
+            window.location = CaiGouXiTongUrl;
+        }
+
+        //当前登录人
+        $(function () {
+            $("#user_quit").hide();
+            //获取当前登陆人
+            getLoginZJJGRemote(function (ZJJG) {
+                if (ZJJG == null) {  
+                    $("#user_regist").show();
+                    $("#user_quit").hide();
+                }
+                else {
+                    //$("#user_regist").hide();
+                    //$("#user_quit").show();                   
+                    //$("#user_name").text(ZJJG.ZhongJie_JiGou_Name, 1);
+                    //if (ZJJG.ZhongJie_JiGou_Type == "1") {
+                    //    ZhongJie_JiGou_Guid = ZJJG.ZhongJie_JiGou_Guid;
+                    //}
+                }
+            });           
+        });
+
+
+        function Search()
+        {          
+        	if ($("#s").val()=="")
+        	{
+        		alert("请输入搜索的关键字！");
+        		return;
+        	}
+            window.open('/Home/Search?key=' + $("#s").val());
+        }
+
+
+        //获取登陆的供应商 远程
+        function getLoginZJJGRemote(recall) {
+            $.ajax({
+                type: 'post',
+                dataType: 'jsonp',
+                jsonp: 'jsonpCallback',
+                async: false,
+                url: CaiGouXiTongUrl + "Home/getLoginZJJGRemote",
+                success: function (rData) {
+                    if (rData.success) {
+                        if (recall != undefined) {
+                            recall(rData.entity);
+                        }
+                    }
+                    else {
+                        recall(null);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    //alert(xhr.responseText);
+                }
+            });
+        }
+
+        //获取登陆的供应商 远程
+        function quit() {
+            
+            if(confirm('确认要退出雅安市中介超市吗？') == true)
+            {
+                    // 退出操作;
+                    $.ajax({
+                        type: 'post',
+                        dataType: 'jsonp',
+                        jsonp: 'jsonpCallback',
+                        async: false,
+                        url: CaiGouXiTongUrl + "Home/LogoutRemote",
+                        success: function (rData) {
+                            if (rData.success) {
+                                location.reload();
+                            }
+                            else {
+                                alert(rData.msg);
+                            }
+                        },
+                        error: function (xhr, status, error) {
+                            //alert(xhr.responseText);
+                        }
+                    });
+             }            
+        }
+
+
+        var preSelected = $("#lihead")[0];
+        function showTitleStyule(TitleId) {
+            if (preSelected) {
+                preSelected.className = "";
+            }
+            var title = $("#" + TitleId)[0];
+            preSelected = title;
+            if (preSelected == undefined) {
+                return;
+            }
+            preSelected.className = "current";
+        }
+    </script>
+</body>
+</html>

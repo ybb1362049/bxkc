@@ -1,0 +1,354 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>成都物业-物业服务招投标信息平台-</title><meta name="KEYWORDS" content="成都物业-物业服务招投标信息平台-">
+		<meta name="GENERATOR" Content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" Content="C#">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<link href="../css/index.css" rel="stylesheet" type="text/css">
+		<link href="../css/qcwy.css" rel="stylesheet" type="text/css" />
+	</HEAD>
+	<body>
+		 <form name="form1" method="post" action="ViewInfo.aspx?ID=24585" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+			<!--begin-->
+			<div id='divPage'>
+				<div class="cdwy">
+					
+<script type="text/javascript"  language="javascript">
+
+function ShowCurrentDate()
+{
+	calendar = new Date();
+day = calendar.getDay();
+month = calendar.getMonth();
+date = calendar.getDate();
+year = calendar.getYear();
+if (year< 1000) year = 1900 + year;
+cent = parseInt(year/100);
+g = year % 19;
+k = parseInt((cent - 17)/25);
+i = (cent - parseInt(cent/4) - parseInt((cent - k)/3) + 19*g + 15) % 30;
+i = i - parseInt(i/28)*(1 - parseInt(i/28)*parseInt(29/(i+1))*parseInt((21-g)/11));
+j = (year + parseInt(year/4) + i + 2 - cent + parseInt(cent/4)) % 7;
+l = i - j;
+emonth = 3 + parseInt((l + 40)/44);
+edate = l + 28 - 31*parseInt((emonth/4));
+emonth--;
+var dayname = new Array ("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+var monthname = 
+new Array ("1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月" );
+document.write("<font style='color:#B00000;text-align:center;font-size:12px'>"+year +"年");
+document.write(monthname[month]);
+document.write(date + "日");
+document.write(dayname[day]+" "+"</font>");
+
+// January(1月份节日，以下同。)
+
+if ((month == 1) && (date == 1)) document.write("<font color=FFffff style='font-size:12px'>元旦</font>");
+if ((month == 4) && (date == 1)) document.write("<font color=FFffff style='font-size:12px'>劳动节</font>");
+if ((month == 4) && (date == 4)) document.write("<font color=FFffff style='font-size:12px'>青年节</font>");
+if ((month == 11) && (date == 15)) document.write("<font  color=ffffff style='font-size:11px' >儿童节</font>");
+if ((month == 12) && (date == 25)) document.write("<font color=ffffff style='font-size:12px'>圣诞节</font>"); 
+
+document.write("</font>");
+
+}
+</script>
+<div class="top">
+						<div class="logos"></div>
+						<div class="logo_rig"><a href="../Association/ApplyNavigate.aspx"><img src="../images/cdwg3_08.jpg" border="0" usemap="#Map"></a><map name="Map" id="Map">
+								<area shape="RECT" coords="452,22,520,88" href="#">
+							</map>
+						</div>
+					</div>
+					<!--banlen结束-->
+					<div class="top2">
+					<div class="time_top"></div>
+						<div class="time">今天是<SCRIPT language=javascript>ShowCurrentDate();</SCRIPT><FONT id="myWeather" color="#a85808"></FONT>&nbsp;</div>
+					</div>
+					<!--FORM结束-->
+					<div class="nav">
+						<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title></title>
+<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+<meta name=ProgId content=VisualStudio.HTML>
+<meta name=Originator content="Microsoft Visual Studio .NET 7.1">
+</head>
+<body>
+<!--old
+ <ul class="nav1">
+	 <li><a href="../Default.aspx">首&nbsp;&nbsp;页</a>&nbsp;|&nbsp;</li>
+	 <li><a href="../Tissue/Default.aspx">协会之窗</a>|</li>
+	 <li><a href="../News/Default.aspx">新闻中心</a>|</li>
+	 <li><a href="../Zcfg/Default.aspx">政策法规</a>|</li>
+	 <li><a href="http://www.fcxy.com.cn/RealtyCredit/CreditSearch/default.aspx" target='_blank'>信用档案</a>|</li>
+	 <li><a href="../Xmzb/Default.aspx">项目招标</a>|</li>
+	 <li><a href="#">专家在线</a>|</li>
+	 <li><a href="../NewsPaper/Default.aspx">电子杂志</a>|</li>
+	 <li><a href="../TissueDown/DownLoad.aspx">相关下载</a>|</li><br />
+	 <li><a href="../Learning/Default.aspx">物业百科</a>|</li>
+	 <li><a href="../job/Default.aspx">人才天地</a>|</li>
+	 <li><a href="../House/index.aspx">房屋租售</a>|</li>
+	 <li><a href="../FormBrand/Default.aspx">物业商城</a>|</li>
+	 <li><a href="http://www.very-home.com/" target='_blank'>居家信息</a>|</li>
+	 <li><a href="../VipCenter/Default.aspx">会员之家</a>|</li>
+	 <li><a href="../complain/default.aspx">网上投诉</a>|</li>
+	 <li><a href="../Evaluate/Default.aspx">评估中心</a>|</li>
+	 <li><a href="../../bbs">论&nbsp;&nbsp;&nbsp;&nbsp;坛</a>|</li>
+</ul>
+-->
+
+<TABLE id="Table71"  width="781" cellSpacing="0" cellPadding="0" align="center" border="0">
+				 
+				<TR>
+					<TD noWrap align="center" width="70" height="20">
+						<a href="../Default.aspx">首&nbsp;&nbsp;页</a></TD>
+					<TD noWrap align="center" width="15" height="20">|</TD>
+					<TD noWrap align="center" width="70" height="20">
+						<a href="../Tissue/Default.aspx">协会之窗</a></TD>
+					<TD noWrap align="center" width="15" height="20">|</TD>
+					<TD noWrap align="center" width="70" height="20">
+						<a href="../News/Default.aspx">新闻中心</a></TD>
+					<TD noWrap align="center" width="15" height="20">|</TD>
+					<TD noWrap align="center" width="70" height="20">
+						<a href="../Zcfg/Default.aspx">政策法规</a></TD>
+					<TD noWrap align="center" width="15" height="20">|</TD>
+					<TD noWrap align="center" width="70" height="20">
+						<a href="http://fcxy.cdfgj.gov.cn/publicweb/WebController/fowardWeb" target='_blank'>信用档案</a></TD>
+					<TD noWrap align="center" width="15" height="20">|</TD>
+					<TD noWrap align="center" width="70" height="20">
+						<a href="../Tender/Index.aspx">项目招标</a></TD>
+					<TD noWrap align="center" width="15" height="20">|</TD>
+					<TD noWrap align="center" width="70" height="20">
+								<a href="../News/More.aspx?Code=000001005">通知公告</a></TD>
+					<TD noWrap align="center" width="15" height="20">|</TD>
+					<TD noWrap align="center" width="70" height="20" >
+						<a href="../NewsPaper/Default.aspx">电子杂志</a></TD>
+					<TD noWrap align="center" width="15" height="20">|</TD>
+					<TD noWrap align="center"  height="20" width='70'>
+						<a href="../TissueDown/DownLoad.aspx">相关下载</a></TD>
+					
+				</TR>
+				<TR>
+					<TD noWrap align="center" height="20">
+						<a href="../Learning/Default.aspx">物业百科</a></TD>
+					<TD noWrap align="center" height="20">|</TD>
+					<TD noWrap align="center" height="20">
+						<a href="../job/Default.aspx">人才天地</a></TD>
+					<TD noWrap align="center" height="20">|</TD>
+					<TD noWrap align="center" height="20">
+						<a href="../House/index.aspx">房屋租售</a></TD>
+					<TD noWrap align="center" height="20">|</TD>
+					<TD noWrap align="center" height="20">
+						<a href="../FormBrand/Default.aspx">物业商城</a></TD>
+					<TD noWrap align="center" height="20">|</TD>
+					<TD noWrap align="center" height="20">
+						<a href="../Service/More.aspx?Code=000006001" >居家信息</a></TD>
+					<TD noWrap align="center" height="20">|</TD>
+					<TD noWrap align="center" height="20">
+						<a href="../VipCenter/Default.aspx">会员之家</a></TD>
+					<TD noWrap align="center" height="20">|</TD>
+					<TD noWrap align="center" height="20">
+						<a href="../complain/Hotline.aspx">网上投诉</a></TD>
+					<TD noWrap align="center" height="20">|</TD>
+					<TD noWrap align="center" height="20"><!--http://www.mapcd.cn/building/default.aspx-->
+						<a href="map.htm" target='_blank'>电子地图</a></TD>
+					<TD noWrap align="center" height="20">|</TD>
+					<TD noWrap align="center" height="20">
+						<!--<a href="../../bbs">论&nbsp;&nbsp;&nbsp;&nbsp;坛</a>-->
+					<a href="http://www.cdpma.com.cn/bbs">论&nbsp;&nbsp;&nbsp;&nbsp;坛</a>
+					</TD>
+				</TR>
+			</TABLE>
+</body>
+</html>
+
+					</div>
+					<!--nav结束-->
+					<IFRAME src="/Estate/winWeather.aspx" height="0"></IFRAME>
+					<div class="wyfy_ban"></div>
+					<!--content begin-->
+						<div class="divDetail">
+						
+<script language="javascript">
+	function fontZoom(size)
+	{
+		document.getElementById ("ucNewsView_lblContent").style.fontSize = size + "pt";
+	}
+</script>
+<FONT face="宋体"><br><span id="ucNewsView_lblMainTitle" style="display:inline-block;font-size:14pt;font-weight:bold;width:90%;">淮口镇综合市场片区旧城改造项目前期物业服务招标公告</span>
+	<TABLE id="Table3" height="100%" cellSpacing="2" cellPadding="0" width="90%" border="0"
+		style="TABLE-LAYOUT:fixed;WORD-BREAK:break-all;WORD-WRAP:break-word">
+		
+		
+		<TR>
+			<TD align="center">
+				<span id="ucNewsView_lblDeputyTitle" style="font-weight:bold;"></span></TD>
+		</TR>
+		<TR>
+			<TD vAlign="bottom" align="center" height="22">
+				<TABLE id="Table5" cellSpacing="0" cellPadding="0" width="100%" border="0">
+					<TR>
+						<TD background="../_images/new_02.gif"><IMG src="../_Images/New_01.gif"></TD>
+						<TD background="../_images/new_02.gif">
+							<TABLE id="Table4" cellSpacing="1" cellPadding="0" width="100%" border="0">
+								<TR>
+									<TD>日期：
+										<span id="ucNewsView_lblPubDate">2017年12月11日</span></TD>
+									<TD>编辑：
+										<span id="ucNewsView_lblWriter">无</span></TD>
+									<TD>来源：
+										<span id="ucNewsView_lblSource">无</span></TD>
+									<TD align="right">
+										
+										<A onclick="javascript:print()" href="#">【打印】</A><A onclick="window.close()" href="#">【关闭】</A></TD>
+								</TR>
+							</TABLE>
+						</TD>
+						<TD align="right" background="../_images/new_02.gif"><IMG src="../_Images/New_03.gif"></TD>
+					</TR>
+				</TABLE>
+			</TD>
+		</TR>
+		<TR>
+			<TD height="10"></TD>
+		</TR>
+		<TR>
+			<TD vAlign="top" style="LINE-HEIGHT: 120%">
+				<span id="ucNewsView_lblContent" class="newsmessage" style="font-size:10pt;"><DIV>根据《成都市物业管理招标投标暂行办法》的规定，四川鑫合力房地产开发有限公司决定对淮口镇综合市场片区旧城改造项目采取邀请招标的方式选聘物业服务企业，有关事项公告如下：</DIV>
+<DIV>一、物业概况</DIV>
+<DIV>淮口镇综合市场片区旧城改造项目位于淮口镇解放路46号。</DIV>
+<DIV>本建筑区划四周范围：东至：规划道路，西至：解放路，北至：规划道路，南至：淮三路。</DIV>
+<DIV>本项目规划设计的物业类型为：住宅、商业。</DIV>
+<DIV>本项目规划总建筑面积33392.78平方米，</DIV>
+<DIV>（一）住宅建筑面积18345.01平方米，非住宅建筑面积2999.54平方米，地下建筑面积11869.02平方米，机动车位309辆（含二期165个），非机动车位269辆。</DIV>
+<DIV>（二）容积率2.22，总建筑密度33.84﹪，总绿地率30%，</DIV>
+<DIV>（三）物业用房147.19平方米（含30平方米业主委员会议事用房）位于13栋1楼。<A name=_GoBack></A></DIV>
+<DIV>&nbsp; 二、投标资格</DIV>
+<DIV>物业服务的主体为依法设立、从事物业服务活动、具有独立法人资格、取得叁级资质（含暂定叁级）证书及以上的企业，且符合：</DIV>
+<DIV>（一）企业资质等级与承接的建筑区划建筑面积相对应；</DIV>
+<DIV>（二）为建筑区划配备的物业服务力量与本市物业服务力量配置指导标准相对应；</DIV>
+<DIV>（三）建立了企业及从业人员的信用信息，且上年度信用记分累计高于80分。</DIV>
+<DIV>三、投标邀请</DIV>
+<DIV>&nbsp;&nbsp;&nbsp;&nbsp; 凡符合上述要求的企业请于2017年12月13日前报名，经审查并且收到招标方投标邀请函的物业公司，有资格参与本次投标，并可按照投标邀请函中确定的时间、地方和方式获取招标文件。</DIV>
+<DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 四川鑫合力房地产开发有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </DIV>2017年 12月&nbsp; 11日</span></TD>
+		</TR>
+		<TR>
+			<TD vAlign="top" align="left">
+				</TD>
+		</TR>
+		<TR>
+			<TD align="right" height="10"></TD>
+		</TR>
+		<TR>
+			<TD align="left">
+				</TD>
+		</TR>
+		<TR>
+			<TD align="right">【文字大小：<A onclick="fontZoom(14)" href="#">大</A> <A onclick="fontZoom(12)" href="#">
+					中</A> <A onclick="fontZoom(10)" href="#">小</A>】<A onclick="javascript:print()" href="#">【打印】</A><A onclick="window.close()" href="#">【关闭】</A></TD>
+		</TR>
+		<TR>
+			<TD align="left" height="10"></TD>
+		</TR>
+		<TR>
+			<TD align="left">
+				</TD>
+		</TR>
+		<TR>
+			<TD align="left" height="10"><A name="a1"></A></TD>
+		</TR>
+	</TABLE>
+</FONT>
+
+						</div>
+						<!--content end--><br>
+					<!--footer -->
+					
+<div class="mxyg"><div class="mxyg_top">
+      <div class="xhdd_wz">友情链接</div>
+	  <div class="xhdd_mo"></div>
+	</div>
+	<div class="yqpk">
+	 <TABLE id="Table61" cellSpacing="0" cellPadding="0" width="770" align="center" border="0">
+							<TR>
+								<TD noWrap align="center" height="40"><FONT face="宋体">
+										<a id="UcFoot_HyperLink1" title="成都市房管局" href="http://www.cdfgj.gov.cn/" target="_blank"><img title="成都市房管局" src="../_adpic/Link01.jpg" alt="成都市房管局" style="border-width:0px;" /></a></FONT></TD>
+								<TD noWrap align="center" height="40"><FONT face="宋体"></FONT><a href="http://cd.focus.cn"><img width="88" src="/Estate/_adpic/jdfdcw.gif" border="0"></a></TD>
+								<TD noWrap align="center" height="40"><FONT face="宋体">
+										<a id="UcFoot_HyperLink3" title="成都市人民政府" href="http://www.chengdu.gov.cn/" target="_blank"><img title="成都市人民政府" src="../_adpic/Link03.gif" alt="成都市人民政府" style="border-width:0px;" /></a></FONT></TD>
+								<TD noWrap align="center" height="40"><FONT face="宋体">
+										<a id="UcFoot_HyperLink4" title="中国物业管理协会" href="http://www.ecpmi.org.cn/" target="_blank"><img title="中国物业管理协会" src="../_adpic/Link04.gif" alt="中国物业管理协会" style="border-width:0px;" /></a></FONT></TD>
+								<TD noWrap align="center" height="40"><FONT face="宋体">
+										<a id="UcFoot_HyperLink5" title="广州市物业管理协会" href="http://www.gzpma.com/" target="_blank"><img title="广州市物业管理协会" src="../_adpic/Link05.gif" alt="广州市物业管理协会" style="border-width:0px;" /></a></FONT></TD>
+								<TD noWrap align="center" height="40"><FONT face="宋体">
+										<a id="UcFoot_HyperLink6" title="搜房资讯中心" href="http://news.cd.soufun.com/" target="_blank"><img title="搜房资讯中心" src="../_adpic/Link06.gif" alt="搜房资讯中心" style="border-width:0px;" /></a></FONT></TD>
+								<TD noWrap align="center" height="40"><FONT face="宋体">
+										<a id="UcFoot_HyperLink7" title="广州物业管理信息网" href="http://www.gzpm.net/" target="_blank"><img title="广州物业管理信息网" src="../_adpic/Link07.gif" alt="广州物业管理信息网" style="border-width:0px;" /></a></FONT></TD>
+								<TD noWrap align="center" height="40"><FONT face="宋体">
+										<a id="UcFoot_HyperLink8" title="深圳市物业管理协会" href="http://www.szpmi.org/" target="_blank"><img title="深圳市物业管理协会" src="../_adpic/Link08.gif" alt="深圳市物业管理协会" style="border-width:0px;" /></a></FONT></TD>
+							</TR>
+							<TR>
+								<TD noWrap align="center" height="40"><FONT face="宋体">
+										<a id="UcFoot_HyperLink9" title="福建物业管理信息网" href="http://www.fjwygl.org.cn/" target="_blank"><img title="福建物业管理信息网" src="../_adpic/Link09.gif" alt="福建物业管理信息网" style="border-width:0px;" /></a></FONT></TD>
+								
+								<TD noWrap align="center"><FONT face="宋体">
+										<a id="UcFoot_HyperLink11" title="重庆物业管理协会" href="http://www.cqpma.com/" target="_blank"><img title="重庆物业管理协会" src="../_adpic/Link11.gif" alt="重庆物业管理协会" style="border-width:0px;" /></a></FONT></TD>
+								<TD noWrap align="center"><FONT face="宋体">
+										<a id="UcFoot_HyperLink12" title="武汉物业管理协会" href="http://www.warpm.cn/" target="_blank"><img title="武汉物业管理协会" src="../_adpic/Link12.gif" alt="武汉物业管理协会" style="border-width:0px;" /></a></FONT></TD>
+								<TD noWrap align="center">
+									<a id="UcFoot_HyperLink13" href="http://www.028cbd.com" target="_blank"><img src="../_adpic/cbd.gif" style="border-width:0px;" /></a></TD>
+								<TD noWrap align="center" height="40"><FONT face="宋体">
+										<a id="UcFoot_Hyperlink17" href="http://www.cspmi.com.cn/" target="_blank"><img src="../_adpic/Linkcdyz.jpg" style="border-width:0px;" /></a></FONT></TD>
+								<TD noWrap align="center"><a href="http://www.nnpma.com/" target="_blank"><img width="110" src="/Estate/_adpic/nnwg.jpg" border="0" height="40"></a></TD>
+								<TD noWrap align="center" style="display:none;"><a href="http://www.88888881.com/" target="_blank"><img src="/Estate/_adpic/jblogo.bmp" border="0" height="39" width="90"></a></TD>
+<TD noWrap align="center"><a href="http://www.shwy.org.cn/wuye/" target="_blank"><img src="/Estate/_adpic/shwy.gif" border="0" height="39" width="90"></a></TD>
+							</TR>
+							<!--
+							<TR>
+								<TD noWrap align="center"></TD>						
+								<TD noWrap align="center"></TD>
+								<TD noWrap align="center"></TD>
+								<TD noWrap align="center"></TD>
+								<TD noWrap align="center"></TD>
+								<TD noWrap align="center"></TD>
+								<TD noWrap align="center"></TD>
+								<TD noWrap align="center"></TD>
+							</TR>								
+							-->
+						</TABLE>
+  </div> 
+  </div>
+ <div class="bottom">
+ 主办单位：成都市物业管理协会(CDPMA) <br/>
+地址：成都市红牌楼长益路11号长益商业寓所5-22  &nbsp;&nbsp;&nbsp;电话：61515315<br>
+支持单位：<a href='http://www.cd-hitcrown.com/' target='_blank'>成都哈工大科软信息有限责任公司</a> 广告服务 法律顾问:四川选择律师事务所 <br>
+
+声明：未经书面协议或本协会书面许可，任何单位和个人禁止下载、打印、建立镜像。<br />
+蜀ICP备08003320号—— Copyright 2009 ——
+<br>
+<script src='http://s54.cnzz.com/stat.php?id=207109&amp;web_id=207109&amp;show=pic2' language='JavaScript'
+				charset='gb2312'></script>
+ </div>
+					<!--footer end-->
+					<!--page end-->
+				</div>
+			</div>
+			<!--end-->
+		</form>
+
+	</body>
+</HTML>

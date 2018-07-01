@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>招标动态  /  招标公告-四川信源工程项目管理有限公司官网</title>
+<link href="/templets/css/css_whir.css" rel="stylesheet"
+        type="text/css" />
+</head>
+
+<body>
+<div class="bgbt"> 
+  <script type="text/javascript">
+
+<!--
+
+function MM_showHideLayers() { //v9.0
+
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+
+  for (i=0; i<(args.length-2); i+=3) 
+
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+
+    obj.visibility=v; }
+
+}
+
+//-->
+
+</script> 
+  <div id="head">
+  <div> 
+    <script language='javascript'>
+linkarr = new Array();
+picarr = new Array();
+textarr = new Array();
+var swf_width=1002;
+var swf_height=329;
+//文字颜色|文字位置|文字背景颜色|文字背景透明度|按键文字颜色|按键默认颜色|按键当前颜色|自动播放时间|图片过渡效果|是否显示按钮|打开方式
+var configtg='|0x3FA61F|5|0xffffff|0xC5DDBC|0x000033|2|3|1|_blank';
+var files = "";
+var links = "";
+var texts = "";
+//这里设置调用标记
+picarr[1]  = "/uploads/flash/1610181106593904.jpg";
+textarr[1] = "四川信源工程项目管理有限公司";picarr[2]  = "/uploads/flash/1610181111115413.jpg";
+textarr[2] = "四川信源工程项目管理有限公司";picarr[3]  = "/uploads/flash/1610141306386849.jpg";
+textarr[3] = "四川信源工程项目管理有限公司";
+for(i=1;i<picarr.length;i++){
+if(files=="") files = picarr[i];
+else files += "|"+picarr[i];
+}
+for(i=1;i<linkarr.length;i++){
+if(links=="") links = linkarr[i];
+else links += "|"+linkarr[i];
+}
+for(i=1;i<textarr.length;i++){
+if(texts=="") texts = textarr[i];
+else texts += "|"+textarr[i];
+}
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="/templets/default/images/bcastr3.swf"><param name="quality" value="high">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'">');
+document.write('<embed src="/templets/default/images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'&menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>');
+</script> 
+  </div>
+  <div class="nav">
+  <ul class="f1">
+    <li><a href="/">首&nbsp;&nbsp;&nbsp;页</a></li>
+    <li><a href="/gsgk/">公司概况</a>
+      <ul class="f2">
+        
+      <li><a href='/gsgk/dsczc/'>董事长致辞</a></li>
+      
+      <li><a href='/gsgk/gsjj/'>公司简介</a></li>
+      
+      <li><a href='/gsgk/glzd/'>管理制度</a></li>
+      
+      <li><a href='/gsgk/gszz/'>公司资质</a></li>
+      
+      <li><a href='/gsgk/zzjg/'>组织架构</a></li>
+      
+      <li><a href='/gsgk/gsry/'>公司荣誉</a></li>
+      
+      <li><a href='/gsgk/tdnj/'>团队凝聚</a></li>
+      
+      <li><a href='/gsgk/wyhd/'>文娱活动</a></li>
+      
+      </ul>
+    </li><li><a href="/zbdt/">招标动态</a>
+      <ul class="f2">
+        
+      <li><a href='/zjdt/zbgg/'>招标公告</a></li>
+      
+      <li><a href='/zjdt/zbyb/'>招标预报</a></li>
+      
+      <li><a href='/zjdt/zhongbgs/'>中标公示</a></li>
+      
+      <li><a href='/zjdt/zbbgdy/'>招标变更答疑</a></li>
+      
+      <li><a href='/zjdt/xjcggg/'>询价采购公告</a></li>
+      
+      </ul>
+    </li><li><a href="/zjdt/">造价动态</a>
+      <ul class="f2">
+        
+      <li><a href='/zbdt/zjxm/'>造价项目</a></li>
+      
+      <li><a href='/zbdt/zjsj/'>造价审计</a></li>
+      
+      </ul>
+    </li><li><a href="/xwdt/">新闻动态</a>
+      <ul class="f2">
+        
+      <li><a href='/xwdt/gsxw/'>公司新闻</a></li>
+      
+      <li><a href='/xwdt/xykx/'>行业快讯</a></li>
+      
+      <li><a href='/xwdt/mtbd/'>媒体报道</a></li>
+      
+      <li><a href='/xwdt/PPPxmzl/'>PPP项目专栏</a></li>
+      
+      </ul>
+    </li><li><a href="/xxyd/">学习园地</a>
+      <ul class="f2">
+        
+      <li><a href='/xxyd/jbfg/'>基本法规</a></li>
+      
+      <li><a href='/xxyd/xgfg/'>相关法规</a></li>
+      
+      <li><a href='/xxyd/alfx/'>案例分析</a></li>
+      
+      <li><a href='/xxyd/tz/'>通知</a></li>
+      
+      </ul>
+    </li><li><a href="/xzzx/">下载中心</a>
+      <ul class="f2">
+        
+      <li><a href='/xzzx/zbwjxz/'>招标文件下载</a></li>
+      
+      <li><a href='/xzzx/dybgxz/'>答疑变更下载</a></li>
+      
+      <li><a href='/xzzx/ztbhd/'>招投标互动</a></li>
+      
+      <li><a href='/xzzx/zjsq/'>专家申请</a></li>
+      
+      <li><a href='/xzzx/gsbfyj/'>公司部分业绩</a></li>
+      
+      </ul>
+    </li><li><a href="/zfcg/">政府采购</a>
+      <ul class="f2">
+        
+      </ul>
+    </li><li><a href="/lxwm/">联系我们</a>
+      <ul class="f2">
+        
+      </ul>
+    </li>
+  </ul>
+</div>
+  <div class="bg_notice">
+    <dl>
+      <dt>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="32"> 今天是：2017年 12月 27日  星期三 </td>
+            <form action="/plus/search.php" method="post">
+              <td align="right" valign="middle"><input name="submit" type="image" src="/templets/images/icon_search.jpg" /></td>
+              <td width="220" valign="middle"><input name="q" type="text" class="text_input" value=" 请输入关键字" onfocus="this.value=''" id="txtkey"/></td>
+              <td width="52" valign="middle"><input type="image" name="imageField" src="/templets/images/btn_1.jpg" /></td>
+            </form>
+          </tr>
+        </table>
+      </dt>
+    </dl>
+  </div>
+</div>
+  <div class="mainsub">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="208" height="450" valign="top" class="bg_bidding"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <h1 class="title_s1">招标动态</h1>
+<div class="menu"> <h2><a href='/zjdt/zbgg/' class='on' >招标公告</a></h2>
+  <h2><a href="/zjdt/zbyb/" >招标预报</a></h2>
+  
+  <h2><a href="/zjdt/zhongbgs/" >中标公示</a></h2>
+  
+  <h2><a href="/zjdt/zbbgdy/" >招标变更答疑</a></h2>
+  
+  <h2><a href="/zjdt/xjcggg/" >询价采购公告</a></h2>
+   </div>
+ </td>
+        <td width="12"></td>
+        <td valign="top" class="bg_right"><div class="position"> <span class="rwz"> <em> 你现在的位置： </em> <a href='http://www.xyxmgl.com/'>主页</a> > <a href='/zbdt/'>招标动态</a> > <a href='/zjdt/zbgg/'>招标公告</a> >  </span>
+            <h1> 招标公告 </h1>
+          </div>
+          <ul class=list_news>
+            <li> <span> 2017-12-26 </span> <a href="/zjdt/zbgg/332.html" target=_blank> 松湖星光综合服务大楼施工招标公告 </a> </li><li> <span> 2017-12-18 </span> <a href="/zjdt/zbgg/327.html" target=_blank> 2016年池州市海绵城市建设道路交通设施工程招标 </a> </li><li> <span> 2017-12-13 </span> <a href="/zjdt/zbgg/326.html" target=_blank> 宿州城市综合运营管理中心一期采购项目招标公 </a> </li><li> <span> 2017-11-24 </span> <a href="/zjdt/zbgg/319.html" target=_blank> 池州市九华山机场改扩建工程-土石方工程 </a> </li><li> <span> 2017-11-24 </span> <a href="/zjdt/zbgg/318.html" target=_blank> 池州市九华山机场改扩建工程-土石方工程监理 </a> </li><li> <span> 2017-11-22 </span> <a href="/zjdt/zbgg/316.html" target=_blank> 萧县马井镇2017年一事一议财政奖补水泥路项目（ </a> </li><li> <span> 2017-11-10 </span> <a href="/zjdt/zbgg/311.html" target=_blank> 南雄市综合训练馆改扩建项目 </a> </li><li> <span> 2017-11-08 </span> <a href="/zjdt/zbgg/310.html" target=_blank>   黄江镇北岸一路排水箱涵工程施工招标公告 </a> </li><li> <span> 2017-11-08 </span> <a href="/zjdt/zbgg/309.html" target=_blank> 东莞市黄江中学校园安全改造工程（项目名称） </a> </li><li> <span> 2017-11-08 </span> <a href="/zjdt/zbgg/308.html" target=_blank> 招 标 公 告    东莞市黄江中学校园安全改造工程 </a> </li><li> <span> 2017-10-26 </span> <a href="/zjdt/zbgg/307.html" target=_blank> 潮州市新桥路改造提升工程监理项目 </a> </li><li> <span> 2017-10-24 </span> <a href="/zjdt/zbgg/305.html" target=_blank> 宿州市高新区智慧村地质勘察 </a> </li><li> <span> 2017-10-24 </span> <a href="/zjdt/zbgg/303.html" target=_blank> 宿州市S101合相路路面大中修工程等项目工程检测 </a> </li><li> <span> 2017-10-23 </span> <a href="/zjdt/zbgg/306.html" target=_blank> 池州府学巷室外工程综合改造工程 </a> </li><li> <span> 2017-10-16 </span> <a href="/zjdt/zbgg/301.html" target=_blank> 潮州市城区道路“黑底化”改造提升工程（一期 </a> </li><li> <span> 2017-10-12 </span> <a href="/zjdt/zbgg/300.html" target=_blank> 潮州市新桥路改造提升工程项目设计施工总承包 </a> </li><li> <span> 2017-09-28 </span> <a href="/zjdt/zbgg/296.html" target=_blank> 2017年度中国传统村落保护一事一议财政奖补项目 </a> </li><li> <span> 2017-09-28 </span> <a href="/zjdt/zbgg/295.html" target=_blank> 沧源县糯良乡班考村十七组美丽村庄建设项目 </a> </li><li> <span> 2017-09-28 </span> <a href="/zjdt/zbgg/294.html" target=_blank> 大姚县昙华乡中心幼儿园教学及辅助用房建设项 </a> </li><li> <span> 2017-09-28 </span> <a href="/zjdt/zbgg/293.html" target=_blank> 楚雄市八角镇中心幼儿园幼儿活动综合楼建设项 </a> </li>
+          </ul>
+          <style type="text/css">
+<!--
+.nav li {                   
+ display: inline;     
+ }
+-->
+</style>
+          <div class="nav" style="text-align:center";> <li>首页</li>
+<li class="thisclass">1</li>
+<li><a href='list_14_2.html'>2</a></li>
+<li><a href='list_14_3.html'>3</a></li>
+<li><a href='list_14_4.html'>4</a></li>
+<li><a href='list_14_5.html'>5</a></li>
+<li><a href='list_14_2.html'>下一页</a></li>
+<li><a href='list_14_5.html'>末页</a></li>
+ </div></td>
+      </tr>
+      <tr>
+        <td><img src="/templets/images/point_sub1.gif" width="208"
+                            height="6" /></td>
+        <td></td>
+        <td><img src="/templets/images/point_sub01.gif" width="772"
+                            height="6" /></td>
+      </tr>
+    </table>
+  </div>
+  <div id="foot">
+  <div class="bottom"><a href="http://www.xyxmgl.com">首页</a>   |   <a href="/xwdt/gsxw/">公司动态</a>   |   <a href="/zjdt/zbgg/">招标公告</a>   |   <a href="/zfcg/">政府采购</a>   |   <a href="/zjdt/zhongbgs/">中标公示</a>   |    <a href="/lxwm/">联系我们</a>   |   <a href="/data/sitemap.html">网站导航</a> </div>
+  <div class="bottom2">Copyright &copy; 2016 四川信源工程项目管理有限公司 版权所有&nbsp;&nbsp;蜀ICP备16025771号-1</br>
+ 四川地址：成都市温江区柳城街办永兴路338号    联系电话：028-82760228  联系手机：15281029233  邮   箱：<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5c2f3f24253b3f1c6d6a6f723f3331">[email&#160;protected]</a> </br>
+   安徽地址：合肥市高新区长江西路669号拓基城市广场金座A幢810室
+
+    联系电话：13956078821     </br>
+    <br />
+    <table   border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td><!--可信网站图片LOGO安装开始--> 
+          
+          
+          
+          <!--可信网站图片LOGO安装结束--></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<script src="/cdn-cgi/scripts/0e574bed/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+ <!--
+//公共脚本文件 main.js
+function addEvent(obj,evtType,func,cap){
+    cap=cap||false;
+ if(obj.addEventListener){
+     obj.addEventListener(evtType,func,cap);
+  return true;
+ }else if(obj.attachEvent){
+        if(cap){
+         obj.setCapture();
+         return true;
+     }else{
+      return obj.attachEvent("on" + evtType,func);
+  }
+ }else{
+  return false;
+    }
+}
+function getPageScroll(){
+    var xScroll,yScroll;
+ if (self.pageXOffset) {
+  xScroll = self.pageXOffset;
+ } else if (document.documentElement && document.documentElement.scrollLeft){
+  xScroll = document.documentElement.scrollLeft;
+ } else if (document.body) {
+  xScroll = document.body.scrollLeft;
+ }
+ if (self.pageYOffset) {
+  yScroll = self.pageYOffset;
+ } else if (document.documentElement && document.documentElement.scrollTop){
+  yScroll = document.documentElement.scrollTop;
+ } else if (document.body) {
+  yScroll = document.body.scrollTop;
+ }
+ arrayPageScroll = new Array(xScroll,yScroll);
+ return arrayPageScroll;
+}
+function GetPageSize(){
+    var xScroll, yScroll;
+    if (window.innerHeight && window.scrollMaxY) { 
+        xScroll = document.body.scrollWidth;
+        yScroll = window.innerHeight + window.scrollMaxY;
+    } else if (document.body.scrollHeight > document.body.offsetHeight){
+        xScroll = document.body.scrollWidth;
+        yScroll = document.body.scrollHeight;
+    } else {
+        xScroll = document.body.offsetWidth;
+        yScroll = document.body.offsetHeight;
+    }
+    var windowWidth, windowHeight;
+    if (self.innerHeight) {
+        windowWidth = self.innerWidth;
+        windowHeight = self.innerHeight;
+    } else if (document.documentElement && document.documentElement.clientHeight) {
+        windowWidth = document.documentElement.clientWidth;
+        windowHeight = document.documentElement.clientHeight;
+    } else if (document.body) {
+        windowWidth = document.body.clientWidth;
+        windowHeight = document.body.clientHeight;
+    } 
+    if(yScroll < windowHeight){
+        pageHeight = windowHeight;
+    } else { 
+        pageHeight = yScroll;
+    }
+    if(xScroll < windowWidth){ 
+        pageWidth = windowWidth;
+    } else {
+        pageWidth = xScroll;
+    }
+    arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight) 
+    return arrayPageSize;
+}
+//广告脚本文件 AdMove.js
+/*
+例子
+<div id="Div2">
+    ***** content ******
+</div>
+var ad=new AdMove("Div2");
+ad.Run();
+*/
+////////////////////////////////////////////////////////
+var AdMoveConfig=new Object();
+AdMoveConfig.IsInitialized=false;
+AdMoveConfig.ScrollX=0;
+AdMoveConfig.ScrollY=0;
+AdMoveConfig.MoveWidth=0;
+AdMoveConfig.MoveHeight=0;
+AdMoveConfig.Resize=function(){
+    var winsize=GetPageSize();
+    AdMoveConfig.MoveWidth=winsize[2];
+    AdMoveConfig.MoveHeight=winsize[3];
+    AdMoveConfig.Scroll();
+}
+AdMoveConfig.Scroll=function(){
+    var winscroll=getPageScroll();
+    AdMoveConfig.ScrollX=winscroll[0];
+    AdMoveConfig.ScrollY=winscroll[1];
+}
+addEvent(window,"resize",AdMoveConfig.Resize);
+addEvent(window,"scroll",AdMoveConfig.Scroll);
+function AdMove(id){
+    if(!AdMoveConfig.IsInitialized){
+        AdMoveConfig.Resize();
+        AdMoveConfig.IsInitialized=true;
+    }
+    var obj=document.getElementById(id);
+    obj.style.position="absolute";
+    var W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+    var H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+    var x = W*Math.random(),y = H*Math.random();
+    var rad=(Math.random()+1)*Math.PI/6;
+    var kx=Math.sin(rad),ky=Math.cos(rad);
+    var dirx = (Math.random()<0.5?1:-1), diry = (Math.random()<0.5?1:-1);
+    var step = 1;
+    var interval;
+    this.SetLocation=function(vx,vy){x=vx;y=vy;}
+    this.SetDirection=function(vx,vy){dirx=vx;diry=vy;}
+    obj.CustomMethod=function(){
+        obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+        obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+        rad=(Math.random()+1)*Math.PI/6;
+        W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+        H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+        x = x + step*kx*dirx;
+        if (x < 0){dirx = 1;x = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (x > W){dirx = -1;x = W;kx=Math.sin(rad);ky=Math.cos(rad);}
+        y = y + step*ky*diry;
+        if (y < 0){diry = 1;y = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (y > H){diry = -1;y = H;kx=Math.sin(rad);ky=Math.cos(rad);}
+    }
+    this.Run=function(){
+        var delay = 10;
+        interval=setInterval(obj.CustomMethod,delay);
+        obj.onmouseover=function(){clearInterval(interval);}
+        obj.onmouseout=function(){interval=setInterval(obj.CustomMethod, delay);}
+    }
+}
+ //-->
+ </script> 
+ 
+  <!-- 广告位：右下角漂浮 --> 
+</div>
+<script type="text/javascript"  src="//idm-su.baidu.com/su.js"></script>
+</body>
+</html>

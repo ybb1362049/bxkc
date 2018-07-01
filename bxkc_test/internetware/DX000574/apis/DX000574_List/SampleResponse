@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+<meta name="renderer" content="webkit">
+<meta charset="utf-8">
+<title>公告公示 - 广南高速</title>
+<meta name="keywords" content="广南高速">
+<meta name="description" content="广南高速">
+<link rel="stylesheet" type="text/css" href="/skin/css/style.css" />   
+<script type="text/javascript" src="/skin/js/jquery.js"></script> 
+<script type="text/javascript" src="/skin/js/banner.js"></script>
+<script type="text/javascript" src="/skin/js/jcarousellite.js"></script>
+</head>
+
+<body style="background:#FFF;">
+<div class="WebTop">
+<div class="w1200">
+<div class="fl logo"><a href="/" title="logo"><img src="/skin/images/img2.png" width="575" height="133" alt="logo"/></a></div>
+
+<div class="cb"></div>
+</div>
+</div>
+<div class="WebNav">
+<div class="w1200">
+<div class="fl TopNav"><a href="/" title="首页">首 页</a></div>
+<div class="fl TopNav">
+<a title="关于我们" href="/index.php?m=content&c=index&a=lists&catid=2">关于我们</a>
+<div class="TopNavSan">
+<div class="Tns_list"><a title="公司概况" href="/index.php?m=content&c=index&a=lists&catid=2">公司概况</a></div>
+<div class="Tns_list"><a title="领导团队" href="/index.php?m=content&c=index&a=lists&catid=3">领导团队</a></div>
+<div class="Tns_list"><a title="机构设置" href="/index.php?m=content&c=index&a=lists&catid=4">机构设置</a></div>
+<div class="Tns_list"><a title="部门职责" href="/index.php?m=content&c=index&a=lists&catid=5">部门职责</a></div>
+</div>
+</div>
+<div class="fl TopNav TopNavNet">
+<a title="新闻中心" href="/index.php?m=content&c=index&a=lists&catid=7">新闻中心</a>
+<div class="TopNavSan">
+<div class="Tns_list"><a title="公司信息" href="/index.php?m=content&c=index&a=lists&catid=7">公司信息</a></div>
+<div class="Tns_list"><a title="图片新闻" href="/index.php?m=content&c=index&a=lists&catid=8">图片新闻</a></div>
+<div class="Tns_list"><a title="公告公示" href="/index.php?m=content&c=index&a=lists&catid=9">公告公示</a></div>
+</div>
+</div>
+<div class="fl TopNav">
+<a title="党群建设" href="/index.php?m=content&c=index&a=lists&catid=44">党群建设</a>
+<div class="TopNavSan">
+<div class="Tns_list"><a title="十九大学习专栏" href="/index.php?m=content&c=index&a=lists&catid=44">十九大学习专栏</a></div>
+<div class="Tns_list"><a title="党建工作" href="/index.php?m=content&c=index&a=lists&catid=17">党建工作</a></div>
+<div class="Tns_list"><a title="党风廉政" href="/index.php?m=content&c=index&a=lists&catid=16">党风廉政</a></div>
+<div class="Tns_list"><a title="团建工作" href="/index.php?m=content&c=index&a=lists&catid=19">团建工作</a></div>
+<div class="Tns_list"><a title="工会工作" href="/index.php?m=content&c=index&a=lists&catid=18">工会工作</a></div>
+</div>
+</div>
+<div class="fl TopNav">
+<a title="运营管理" href="/index.php?m=content&c=index&a=lists&catid=11">运营管理</a>
+<div class="TopNavSan">
+<div class="Tns_list"><a title="收费管理" href="/index.php?m=content&c=index&a=lists&catid=11">收费管理</a></div>
+<div class="Tns_list"><a title="稽查管理" href="/index.php?m=content&c=index&a=lists&catid=12">稽查管理</a></div>
+<div class="Tns_list"><a title="经营开发部" href="/index.php?m=content&c=index&a=lists&catid=14">经营开发部</a></div>
+</div>
+</div>
+<div class="fl TopNav">
+<a title="安全管理" href="/index.php?m=content&c=index&a=lists&catid=30">安全管理</a>
+<div class="TopNavSan">
+<div class="Tns_list"><a title="路产维护" href="/index.php?m=content&c=index&a=lists&catid=30">路产维护</a></div>
+<div class="Tns_list"><a title="安全生产" href="/index.php?m=content&c=index&a=lists&catid=31">安全生产</a></div>
+</div>
+</div>
+<div class="fl TopNav">
+<a title="养护管理" href="/index.php?m=content&c=index&a=lists&catid=33">养护管理</a>
+<div class="TopNavSan">
+<div class="Tns_list"><a title="日常养护" href="/index.php?m=content&c=index&a=lists&catid=33">日常养护</a></div>
+<div class="Tns_list"><a title="专项工程" href="/index.php?m=content&c=index&a=lists&catid=34">专项工程</a></div>
+</div>
+</div>
+<div class="fl TopNav">
+<a title="企业文化" href="/index.php?m=content&c=index&a=lists&catid=21">企业文化</a>
+<div class="TopNavSan">
+<div class="Tns_list"><a title="公司活动" href="/index.php?m=content&c=index&a=lists&catid=21">公司活动</a></div>
+<div class="Tns_list"><a title="职工天地" href="/index.php?m=content&c=index&a=lists&catid=22">职工天地</a></div>
+<div class="Tns_list"><a title="荣誉栏" href="/index.php?m=content&c=index&a=lists&catid=23">荣誉栏</a></div>
+<div class="Tns_list"><a title="企业内刊" href="/index.php?m=content&c=index&a=lists&catid=24">企业内刊</a></div>
+</div>
+</div>
+<div class="fl TopNav">
+<a title="服务咨询" href="/index.php?m=content&c=index&a=lists&catid=40">服务咨询</a>
+<div class="TopNavSan">
+<div class="Tns_list"><a title="收费标准" href="/index.php?m=content&c=index&a=lists&catid=40">收费标准</a></div>
+<div class="Tns_list"><a title="服务区指引" href="/index.php?m=content&c=index&a=lists&catid=27">服务区指引</a></div>
+<div class="Tns_list"><a title="旅游资源" href="/index.php?m=content&c=index&a=lists&catid=28">旅游资源</a></div>
+</div>
+</div>
+<div class="fl TopNav">
+<a title="联系我们" href="/index.php?m=content&c=index&a=lists&catid=36">联系我们</a>
+<div class="TopNavSan">
+<div class="Tns_list"><a title="联系方式" href="/index.php?m=content&c=index&a=lists&catid=36">联系方式</a></div>
+<div class="Tns_list"><a title="在线留言" href="/index.php?m=content&c=index&a=lists&catid=37">在线留言</a></div>
+</div>
+</div>
+<div class="cb"></div>
+</div>
+</div><div class="Nybanner">
+<img src="/uploadfile/2017/0419/20170419042857134.jpg"/>
+</div><div class="w1200">
+<div class="NyUpper">
+<div class="NyUpper_Abs">
+<div class="NyUpper_AbsIcon"></div>
+<div class="NyUpper_AbsTitle">新闻中心</div>
+<div class="NyUpper_AbsCrumbs"><a href="/">首页</a> &gt; <a>新闻中心</a> &gt; <a href="/index.php?m=content&c=index&a=lists&catid=9">公告公示</a></div>
+<div class="NyUpper_Abstwoclass">
+<a href="/index.php?m=content&c=index&a=lists&catid=7" title="公司信息">公司信息</a>
+<a href="/index.php?m=content&c=index&a=lists&catid=8" title="图片新闻">图片新闻</a>
+<a href="/index.php?m=content&c=index&a=lists&catid=9" title="公告公示" class="UpNet">公告公示</a>
+</div>
+</div>
+</div><div class="NyContent">
+<div class="NyNewsTop">
+<div class="fl NyNewsTop_Img"><a href="/index.php?m=content&c=index&a=show&catid=9&id=151" title="广南高速公路清排障备用轮胎及易耗物品采购比选公告"><img src="/skin/images/No.jpg" width="258" height="208"/></a></div>
+<div class="fr NyNewsTop_Intr">
+<div class="NyNewsTop_Intr_a">
+<div class="fl"><a href="/index.php?m=content&c=index&a=show&catid=9&id=151" title="广南高速公路清排障备用轮胎及易耗物品采购比选公告">广南高速公路清排障备用轮胎及易耗物品采购比选公告</a></div>
+<div class="fr NiaTime">2017-03-17</div>
+<div class="cb"></div>
+</div>
+<div class="NyNewsTop_Intr_b">
+一、项目概况广南高速公路路线起于广元市罗家沟，止于南充市秦家沟，路线全长201公里，全线主线桥梁178座，隧道23座，互通式立交12座，其中：特大桥4座，大桥138座，中桥29座，小桥7座，特长遂道1座，长隧道4座，桥隧比例为31.3%。南充至阆中段</div>
+<div class="NyNewsTop_Intr_c"><a href="/index.php?m=content&c=index&a=show&catid=9&id=151" title="广南高速公路清排障备用轮胎及易耗物品采购比选公告">详细信息</a></div>
+</div>
+<div class="cb"></div>
+</div>
+<div class="NyNewsBot">
+<div class="fl NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>12-21</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=367" title="广南高速公路三大系统及隧道机电备品备件 询价比选结果公告">广南高速公路三大系统及隧道机电备品备件 询价比选结...</a></p>
+<p>一、比选概况 广南公司以总价比选、单价调差的方式选取广南高速公路三大系统及隧道机电备品备件供货商，比选人为四川广南高速公...</p>
+</div>
+<div class="cb"></div>
+</div>
+<div class="fr NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>12-14</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=362" title="广南高速公路隧道机电备品备件 询价比选公告">广南高速公路隧道机电备品备件 询价比选公告</a></p>
+<p>一、项目概况 广南高速公路路线起于广元市罗家沟，止于南充市秦家沟，路线全长201公里，全线主线桥梁178座，隧道23座，...</p>
+</div>
+<div class="cb"></div>
+</div>
+<div class="fl NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>12-11</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=361" title="四川广南高速公路有限责任公司特种车辆采购项目 招标公示">四川广南高速公路有限责任公司特种车辆采购项目 招标...</a></p>
+<p></p>
+</div>
+<div class="cb"></div>
+</div>
+<div class="fr NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>11-30</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=351" title="广南高速公路三大系统备品备件 询价比选公告">广南高速公路三大系统备品备件 询价比选公告</a></p>
+<p>一、项目概况广南高速公路路线起于广元市罗家沟，止于南充市秦家沟，路线全长201公里，全线主线桥梁178座，隧道23座，互...</p>
+</div>
+<div class="cb"></div>
+</div>
+<div class="fl NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>11-28</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=350" title="广南高速公路办公设施设备采购比选公告">广南高速公路办公设施设备采购比选公告</a></p>
+<p>一、项目概况广南高速公路路线起于广元市罗家沟，止于南充市秦家沟，路线全长201公里，全线主线桥梁178座，隧道23座，互...</p>
+</div>
+<div class="cb"></div>
+</div>
+<div class="fr NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>11-23</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=343" title="比选候选人公示表">比选候选人公示表</a></p>
+<p>比选项目名称广南高速</p>
+</div>
+<div class="cb"></div>
+</div>
+<div class="fl NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>11-20</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=334" title="广南高速公路南充管理处办公楼一楼大厅LED显示屏供应及安装比选公告">广南高速公路南充管理处办公楼一楼大厅LED显示屏供...</a></p>
+<p>一、项目概况 广南高速公路路线起于广元市罗家沟，止于南充市秦家沟，路线全长201公里，全线主线桥梁178座，隧道23座，...</p>
+</div>
+<div class="cb"></div>
+</div>
+<div class="fr NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>11-14</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=329" title="四川广南高速公路有限责任公司特种车辆采购项目 招标公告">四川广南高速公路有限责任公司特种车辆采购项目 招标...</a></p>
+<p>1. 招标条件 四川广南高速公路有限责任公司特种车辆采购项目由四川高速公路建设开发总公司《关于同意广南高速公路有限责任公...</p>
+</div>
+<div class="cb"></div>
+</div>
+<div class="fl NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>11-02</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=319" title="比选候选人公示表">比选候选人公示表</a></p>
+<p> 比选项目名称  广南高速公路南充管理处一、二楼线路改造工程 比选</p>
+</div>
+<div class="cb"></div>
+</div>
+<div class="fr NyNewsBotList">
+<div class="fl NyNewsBotList_time">
+<p>2017</p>
+<p>11-02</p>
+</div>
+<div class="fr NyNewsBotList_rigt">
+<p><a href="/index.php?m=content&c=index&a=show&catid=9&id=318" title="比选候选人公示表">比选候选人公示表</a></p>
+<p>比选项目名称广南高速公路档案室设备采购项目‍‍‍‍‍‍‍‍‍‍比选</p>
+</div>
+<div class="cb"></div>
+</div>
+
+<div class="cb"></div>
+</div>
+<div class="n_fy">
+ <a href="index.php?m=content&c=index&a=lists&catid=9" class="fy_left"></a> <a class="fy_nuw">1</a> <a href="index.php?m=content&c=index&a=lists&catid=9&page=2">2</a> <a href="index.php?m=content&c=index&a=lists&catid=9&page=2" class="fy_right"></a></div>
+</div>
+</div>
+<div class="footer">
+<div class="w1200">
+<div class="footer_nav">
+<a href="/">首 页</a>
+ | <a title="关于我们" href="/index.php?m=content&c=index&a=lists&catid=2">关于我们</a>
+ | <a title="新闻中心" href="/index.php?m=content&c=index&a=lists&catid=7">新闻中心</a>
+ | <a title="党群建设" href="/index.php?m=content&c=index&a=lists&catid=44">党群建设</a>
+ | <a title="运营管理" href="/index.php?m=content&c=index&a=lists&catid=11">运营管理</a>
+ | <a title="安全管理" href="/index.php?m=content&c=index&a=lists&catid=30">安全管理</a>
+ | <a title="养护管理" href="/index.php?m=content&c=index&a=lists&catid=33">养护管理</a>
+ | <a title="企业文化" href="/index.php?m=content&c=index&a=lists&catid=21">企业文化</a>
+ | <a title="服务咨询" href="/index.php?m=content&c=index&a=lists&catid=40">服务咨询</a>
+ | <a title="联系我们" href="/index.php?m=content&c=index&a=lists&catid=36">联系我们</a>
+</div>
+<div class="footer_txt">
+<p>地址：南充市顺庆区油缘路30号石油大学第二实验楼4楼 &nbsp; &nbsp;联系电话：0817-2337227</p><p>版权所有：四川广南高速公路有限责任公司 &nbsp; 蜀ICP备蜀ICP备15019320号-1</p><p>技术支持：<a href="http://www.cdajcx.com">爱聚诚讯</a></p></div>
+</div>
+</div>
+<script language="JavaScript" src="/api.php?op=count&id=&modelid=46"></script>
+
+</body>
+</html>

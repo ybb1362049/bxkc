@@ -1,0 +1,679 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>政府信息公开-南溪区人民政府</title>
+		
+</head>
+
+<body width="100%">
+	
+
+
+
+<script src="/r/cms/jquery.js" type="text/javascript"></script>
+		<script src="/r/cms/front.js" type="text/javascript"></script>
+		<link href="/r/cms/front.css" rel="stylesheet" type="text/css" />
+
+		<link href="/r/cms/mainhost/default/zhengwu/css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="/r/cms/mainhost/default/zhengwu/js/js_index.js"></script>
+		
+		
+			
+	<link type="text/css" rel="stylesheet" href="/r/jspv/css/style.css">
+	<link type="text/css" rel="stylesheet" href="/r/jspv/css/main.css">
+
+
+
+
+
+
+
+
+
+
+<link href="/r/cms/top.css" rel="stylesheet" type="text/css" />
+<div class="top">
+  <div class="topbox">
+  	<span class="fr flbox">
+  	<a target="_blank" href="/news/index.jhtml"><img src="/r/cms/mainhost/default/xinwen/images/icon_xw.jpg"></a>
+  	<a target="_blank" href="/gov/index.jhtml"><img src="/r/cms/mainhost/default/xinwen/images/icon_zw.jpg"></a> 
+  	 <a target="_blank" href="/invest/index.jhtml"><img src="/r/cms/mainhost/default/xinwen/images/icon_tz.jpg"></a>
+<a target="_blank" href="/life/index.jhtml"><img src="/r/cms/mainhost/default/xinwen/images/icon_sh.jpg"></a> </span>
+    <div id="loginCsiDiv" class="logbox">欢迎您: admin &nbsp; 
+<a target="blank" href="/admin/index.do">后台管理</a> &nbsp; 
+ <a href="/member/index.jspx">个人中心</a>  &nbsp; 
+<a href="/logout.jspx?returnUrl=http://www.zgnx.gov.cn/gov/zwgk/tongzhigonggao/index.jhtml" id="__logoutlink">退出登录</a>
+</div>    
+    <script>
+	$(function(){
+		Cms.loginCsi("","loginCsiDiv",{"returnUrl":"http://www.zgnx.gov.cn/gov/zwgk/tongzhigonggao/index.jhtml"});
+		Cms.siteFlow("", location.href, document.referrer);
+	});
+	</script>
+  </div>
+</div>
+
+<div class="menu">
+  <div class="menubox">
+    <ul class="menunav">
+			<li class="rounded"><a id="177" href="/gov/index.jhtml">频道首页</a></li>
+		<li class="navbox_a">
+			<a id="178" href="javascript:void(0);" class="tit">走进南溪</a>
+			<div class="subnav">
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/nxgk.jhtml">南溪概况</a>
+				<a style="width:67px" target="_blank" href="/ld_main.jspv">党政之窗</a>
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/gjmr/index.jhtml">南溪名人</a>
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/ljzy.jhtml">历届政要</a>
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/whnx/index.jhtml">文化南溪</a>
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/nxmp/index.jhtml">南溪名片</a>
+				<a style="width:67px" target="_blank" href="http://www.zgnx.gov.cn/nxtx/paperindex.htm">南溪通讯</a>
+				<a style="width:67px" target="_blank" href="http://www.zgnx.gov.cn/nxwy/paperindex.htm">南溪文艺</a>
+			</div>
+		</li>
+		<li class="navbox_a">
+			<a id="282" href="javascript:void(0);" class="tit">政务公开</a>
+			<div class="subnav">
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_104.jspv">政府文件</a>
+				<a style="width:112px;" target="_blank" href="/zfxxgk_list_1.jspv">政府常务会议</a>
+				<a style="width:67px" target="_blank" href="/gov/zwgk/tongzhigonggao/index.jhtml">通知公告</a>
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_81.jspv">规划计划</a>
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_82.jspv">统计信息</a>
+				<a style="width:67px" target="_blank" href="/gov/zwgk/rsrm/index.jhtml">人事任免</a>
+				<!-- <a style="width:67px" target="_blank" href="/gov/zwgk/zxgk/index.jhtml">专项公开</a> -->
+				<a style="width:112px;" href="/zfxxgk_list_241.jspv">区委工作报告</a>
+				<a style="width:112px;" target="_blank" href="/zfxxgk_list_161.jspv">政府工作报告</a>
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_124.jspv">政策解读</a>
+				<a style="width:67px" target="_blank" href="/gov/zwgk/zwkb/index.jhtml">政务参考</a>
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_141.jspv">人才招聘 </a>
+			</div>
+		</li>
+		<li class="navbox_a">
+			<a id="315" href="javascript:void(0);" class="tit">网上办事</a>
+			<div class="subnav">
+				<div style="padding-right:200px;">
+				<a style="width:67px" target="_blank" href="/bszn_main.jspv">办事服务</a>
+				<a style="width:67px" target="_blank" href="/gov/wsbs/ztfw/index.jhtml">主题服务</a>
+				</div>
+			</div>
+		</li>
+		<li class="navbox_a">
+			<a id="1448" href="javascript:void(0);" class="tit">资源交易</a>
+			<div class="subnav">
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_86.jspv">政府采购</a>
+				<a style="width:112px;" href="/zfxxgk_list_87.jspv">建设工程招投标</a>
+				<a style="width:112px;" href="/zfxxgk_list_88.jspv">国有资产资源交易</a>
+			</div>
+		</li>
+	<!-- <li class="navbox_a">
+		<a href="/gov/zyjy/zfcg/index.jhtml" >政府采购</a>
+		<dl class="subnav">
+			<dd><a href="/gov/zyjy/zfcg/zbgg/index.jhtml" target="_blank">招标公告</a></dd>
+			<dd><a href="/gov/zyjy/zfcg/zbgg/index.jhtml" target="_blank">中标公告</a></dd>
+			<dd><a href="http://www.zgnx.gov.cn/s/bmxygh/index.jhtml" target="_blank">协议供货</a></dd>
+		</dl>
+	</li> -->
+	<li class="navbox_a">
+		<a href="javascript:void(0);">公众参与</a>
+		<div class="subnav">
+			<a target="_blank" href="/app_nxqw/guestbook/sjxx/index_1412.jhtml">书记信箱</a>
+			<a target="_blank" href="/app_nxqw/guestbook/sjxx/index_1411.jhtml">区长信箱</a>
+			<a target="_blank" href="/app_nxqw/guestbook/yjjy/index_1531.jhtml">意见建议</a>
+			<a target="_blank" href="/app_nxqw/guestbook/tsjb/index_1930.jhtml">投诉举报</a>
+			<a target="_blank" href="/app_nxqw/guestbook/flzx/index_1931.jhtml">法律咨询</a>
+			<a target="_blank" href="/app_nxqw/wjdc/tiaozhuan.jhtml">在线调查</a>
+		</div>
+	</li>
+	<li class="rounded"><a target="_blank" href="http://www.zgnx.gov.cn/gov/nxfb.jhtml">新媒体</a></li>	
+	<!--
+	<li class="rounded"><a href="javascript:void(0);">南溪论坛</a></li> -->
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="banner">
+  <div class="bannerbox">
+    <div class="banner_box rounded">
+      <div class="flash">
+        <ul style="margin: 0px; padding: 0px; list-style: outside none none; overflow: hidden;">
+          <li style="position: absolute; z-index: 8; opacity: 1;" class=""><img width="995" height="187" src="/r/cms/mainhost/default/zhengwu/images/banner_01.jpg"></li>
+           <li style="position: absolute; opacity: 1; z-index: 10;" class="active"><a href="http://www.zgnx.gov.cn/app_nxqw/guestbook/yjjy/write_1531.jhtml"><img width="995" height="187" src="http://www.zgnx.gov.cn/u/cms/mainhost/201505/19181155d7it.jpg"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="searchbox">
+      <div class="search_box rounded">
+        <div class="hot_new fl">今天是：<script>Cms.now();</script><iframe width="255" height="20" frameborder="0" scrolling="no" vspace="0" hspace="0" marginheight="0" marginwidth="0" src="http://weather.news.sina.com.cn/chajian/iframe/weatherStyle0.html?city=%E5%8D%97%E6%BA%AA" allowtransparency="true"></iframe></div>
+        <div class="n_time fl"></div>
+        <form target="_blank" method="get" action="/ssjg_1.jhtml" onsubmit="return func()">
+        <div class="searchtxt fl">
+          <input type="text" name="q" class="input_search mt8" id="input">
+          <input type="hidden" value="177" name="channelId" id="channelId">
+        </div>
+        <div style="width:105px;padding-top:8px;" class="fl">
+          <select style="height: 27px;line-height: 27px;" name="searchScope" id="id">
+    		<option value="ttl">标题搜索</option>
+    		<option selected="" value="bsfw">办事服务搜索</option>
+    		<option value="all">全文搜索</option>
+    	</select>
+        </div>
+        <div class="searchbtn fl">
+          <input type="image" src="/r/cms/mainhost/default/zhengwu/images/search_btn.jpg" class="input_s_b mt8">
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+   
+   
+<script type="text/javascript">
+    function a(){
+	
+	var key=document.getElementById("input").value;
+	
+	  window.location.href="/bszn_list_ser.jspv?serKey="+key;
+
+       
+	
+    
+	
+   }
+   
+   function func(){
+   var val=$("#id").val();
+    
+  
+    if(val=="bsfw"){
+	  a();
+	  return false;
+	}
+    
+   return true;
+   }
+   </script>
+	
+	
+	
+	
+	
+	<div class="con_box">
+<div class="con_01">
+<h3 class="title_07"><span class="title_01_c">正文</span><span class="map">您当前所在位置：<a target="_blank" href="/">首页</a> » <a href="/gov/index.jhtml">政务公开 </a> » <a href="/zfxxgk_list_86.jspv">政府采购</a> » 正文</span></h3>
+  <div class="con_01 box_bg_06 pt10 pl10 pr10">
+  <div class="main_newscontent">
+        <h1>四川省宜宾市南溪区公安分局行政效能机房改造项目（第二次）竞争性谈判采购公告</h1>
+		
+        <div class="main_info">
+        	<span class="time">2018年01月12日 08:52:06 </span>
+        	信息来源：区政务中心
+        	<div style="position: absolute; right: 0px; top: 0px;"><div class="bshare-custom"><div class="bsPromo bsPromo2"></div><a class="bshare-qzone" title="分享到QQ空间"></a><a class="bshare-sinaminiblog" title="分享到新浪微博"></a><a class="bshare-renren" title="分享到人人网"></a><a class="bshare-qqmb" title="分享到腾讯微博"></a><a class="bshare-neteasemb" title="分享到网易微博"></a><a class="bshare-more bshare-more-icon more-style-addthis" title="更多平台"></a><span class="BSHARE_COUNT bshare-share-count" style="float: none;">0</span></div><script src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh" charset="utf-8" type="text/javascript"></script><script src="http://static.bshare.cn/b/bshareC0.js" charset="utf-8" type="text/javascript"></script></div>
+        </div>
+        <div class="con_01"> 
+		<table style="width:100%"><tbody><tr><td>
+			 	<table id="table_main">
+	<tbody>
+		<tr>
+			<td class="leftwidth tdwidth bordertt" width="280">
+				采购项目名称
+			</td>
+			<td class="bordertt confont" width="584">
+				四川省宜宾市南溪区公安分局行政效能机房改造项目（第二次）
+			</td>
+		</tr>
+		<tr>
+			<td class="tdwidth bordertt" width="169">
+				采购项目编号
+			</td>
+			<td class="bordertt confont" width="158">
+				5115222018000006
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采购方式
+			</td>
+			<td class="bordertt confont">
+				竞争性谈判
+			</td>
+		</tr>
+		<tr>
+			<td class="tdwidth bordertt">
+				行政区划
+			</td>
+			<td class="bordertt confont">
+				四川省宜宾市南溪区
+			</td>
+		</tr>
+		<tr>
+			<td class="tdwidth bordertt">
+				公告发布时间
+			</td>
+			<td class="bordertt confont">
+				2018-01-11 17:19
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采 购 人
+			</td>
+			<td class="bordertt confont">
+				四川省宜宾市南溪区公安分局
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采购人地址和联系方式
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				地址：宜宾市公安局南溪区分局，联系方式：温女士，15181173138
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采购代理机构名称
+			</td>
+			<td class="bordertt confont">
+				宜宾市政府采购中心南溪区分中心
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采购代理机构地址和联系方式
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				地址：宜宾市南溪区正信路政务中心4楼，联系方式：何老师，0831-3323280
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采购项目联系人姓名和电话
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				联系人：温女士，电话：15181173138
+			</td>
+		</tr>
+		<tr>
+			<td class="tdwidth bordertt">
+				项目包个数
+			</td>
+			<td class="bordertt confont">
+				1
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				各包描述
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				<br />
+			</td>
+		</tr>
+		<tr>
+			<td id="add" class="leftwidth tdwidth bordertt">
+				供应商参加谈判应当具备的资格条件和应当提供的相关证明材料
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				（1）具有独立承担民事责任的能力；（2）具有良好的商业信誉和健全的财务会计制度；（3）具有履行合同所必须的设备和专业技术能力；（4）具有依法缴纳税收和社会保障资金的良好记录；（5）参加本次政府采购活动前三年内，在经营活动中没有重大违法违规记录； 
+(6)法律、行政法规规定的其他条件； (7)其他要求： 详见谈判文件第四、五章
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				获取谈判文件地点
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				登录宜宾市公共资源交易信息网首页（网址：ggzy.yibin.gov.cn）首页右侧“电子交易平台”，点击“投标人”，再点击“政府采购交易会员注册及登陆”栏目后进入宜宾市政府采购电子交易系统，并按网上提示交纳电子交易平台技术服务费（以下简称技术服务费）和下载谈判文件。谈判文件只在网上发布，不再提供其他发布方式。首次参与宜宾市政府采购电子化交易活动的供应商在办理了数字证书后须先下载数字证书驱动安装并注册，相关技术问题请咨询7×24小时服务电话：4009618998。
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				获取谈判文件的开始时间
+			</td>
+			<td class="bordertt confont">
+				2018-01-11 17:30
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				获取谈判文件的结束时间
+			</td>
+			<td class="bordertt confont">
+				2018-01-18 16:00
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				谈判文件起售时间
+			</td>
+			<td class="bordertt confont">
+				2018-01-11 17:30
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				谈判文件止售时间
+			</td>
+			<td class="bordertt confont">
+				2018-01-18 16:00
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				谈判响应文件递交截止时间
+			</td>
+			<td class="bordertt confont">
+				2018-01-19 14:00
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				谈判响应文件开启时间
+			</td>
+			<td class="bordertt confont">
+				2018-01-19 14:00
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				谈判时间
+			</td>
+			<td class="bordertt confont">
+				2018-01-19 14:00
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				谈判响应文件递交地点
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				登录宜宾市公共资源交易信息网首页（网址：ggzy.yibin.gov.cn）首页右侧“电子交易平台”，点击“投标人”，再点击“政府采购交易会员注册及登陆”栏目后进入宜宾市政府采购电子交易系统，并按网上提示交纳电子交易平台技术服务费（以下简称技术服务费）和下载谈判文件。谈判文件只在网上发布，不再提供其他发布方式。首次参与宜宾市政府采购电子化交易活动的供应商在办理了数字证书后须先下载数字证书驱动安装并注册，相关技术问题请咨询7×24小时服务电话：4009618998。
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				谈判响应文件开启地点
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				宜宾市政府采购中心南溪区分中心开标室（宜宾市南溪区正信路政务中心4楼）
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				获取谈判文件方式
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				登录宜宾市公共资源交易信息网首页（网址：ggzy.yibin.gov.cn）首页右侧“电子交易平台”，点击“投标人”，再点击“政府采购交易会员注册及登陆”栏目后进入宜宾市政府采购电子交易系统，并按网上提示交纳电子交易平台技术服务费（以下简称技术服务费）和下载谈判文件。谈判文件只在网上发布，不再提供其他发布方式。首次参与宜宾市政府采购电子化交易活动的供应商在办理了数字证书后须先下载数字证书驱动安装并注册，相关技术问题请咨询7×24小时服务电话：4009618998。
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				获取谈判文件售价
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				100
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				供应商交纳谈判保证金的金额和缴纳方式
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				3500.00元（按附件谈判文件要求缴纳）
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				预算金额（元）
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				193298.00
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采购品目名称
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采购项目的名称、数量、简要规格描述或项目基本概况介绍
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				行政效能机房改造
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采购项目需要落实的政府采购政策
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				详见谈判文件
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				<p>
+					备注
+				</p>
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				采购预公告连接
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				<a href=""></a>
+			</td>
+		</tr>
+		<tr>
+			<td class="leftwidth tdwidth bordertt">
+				PPP项目标识
+			</td>
+			<td class="rowheight rightwidth bordertt confont" colspan="3">
+				否
+			</td>
+		</tr>
+	</tbody>
+</table>
+			 </td></tr></tbody></table>
+        
+        </div>
+<ul class="dowbox">
+		</ul>
+
+<h3><a onclick="$('#__jc_form__').toggle();" href="javascript:void(0)" style="color:red;float:right;">我来完善</a></h3><div class="clear"></div>
+<form method="post" onsubmit="return chkJcSub();" action="/app_nxqw/guestbook/jcxx/save.jhtml" target="_blank" style="display: none;" id="__jc_form__">
+			<script>
+			function chkJcSub(){
+	         	var userName= $("#userName").val();
+	         	var userPhone= $("#userPhone").val();
+	         	var title= $("#title").val();
+	         	var content= $("#content").val();
+	         	if(title.length&lt;1){
+	         		alert("标题不能为空");
+	         		return false;
+	         	}
+	         	if(userName.length&lt;1){
+	         		alert("姓名不能为空");
+	         		return false;
+	         	}else if(userName.length&gt;15){
+	         		alert("姓名长度超出限制");
+	         		return false;
+	         	}
+	         	if(userPhone.length&lt;1){
+	         		alert("电话不能为空");
+	         		return false;
+	         	}else if(isNaN(userPhone)){
+	         		alert("电话只能是数字");
+	         		return false;
+	         	}else if(userPhone.length&gt;15){
+	         		alert("电话长度超出限制");
+	         		return false;
+	         	}
+	         	
+	         	if(content.length&lt;1){
+	         		alert("内容不能为空");
+	         		return false;
+	         	}
+	         	return true;
+	          }   
+			</script>
+			
+			
+			<input type="hidden" value="187679" name="contentId">
+			<input type="hidden" value="?cid=303" id="curl" name="contentUrl">
+			
+			<script>
+			 var url=window.location.href;
+			 var kswz=url.indexOf("?");
+			 $("#curl").val(url.substring(kswz,url.lenght));
+			</script>
+			<style>
+				.table_99{padding-top: 5px;border-top: 2px solid #CCCCCC;margin-top: 5px;}
+				.table_99 tr td{padding: 4px 0px;}
+				.table_99 tr th{color: #666666;}
+				.input_01,textarea{border: 1px solid #dedede;padding: 3px 5px;}
+			</style>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="table_99">
+			  <tbody><tr>
+			    <th width="14%" align="right">标题<font color="red">*</font>：</th>
+			    <td width="86%"><input type="text" class="input_01" style="width:430px;" name="title" value="纠错:四川省宜宾市南溪区公安分局行政效能机房改造项目（第二次）竞争性谈判采购公告" id="title"></td>
+			  </tr>
+			  <tr>
+			    <th align="right">姓名<font color="red">*</font>：</th>
+			    <td><input type="text" class="input_01" style="width:430px;" value="" name="userName" id="userName"></td>
+			  </tr>
+			   <tr>
+			    <th align="right">联系电话<font color="red">*</font>：</th>
+			    <td><input type="text" class="input_01" style="width:430px;" name="userPhone" id="userPhone"></td>
+			  </tr>
+			  <tr>
+			    <th align="right">性别：</th>
+			    <td><input type="radio" name="userSex" value="1" checked="checked">男 <input type="radio" name="userSex" value="0">女</td>
+			  </tr>
+<!-- 			  <tr> -->
+<!-- 			    <th align="right">职业：</th> -->
+<!-- 			    <td><input type="text" name="userZy" style="width:430px;" class="input_01"></td> -->
+<!-- 			  </tr> -->
+			 
+<!-- 			  <tr> -->
+<!-- 			    <th align="right">地址：</th> -->
+<!-- 			    <td><input type="text" name="userAddr" style="width:430px;" class="input_01"></td> -->
+<!-- 			  </tr> -->
+<!-- 			  <tr> -->
+<!-- 			    <th align="right">邮编：</th> -->
+<!-- 			    <td><input type="text" name="userZip" style="width:430px;" class="input_01"></td> -->
+<!-- 			  </tr> -->
+			  <tr>
+			    <th align="right">电子邮件：</th>
+			    <td><input type="text" class="input_01" style="width:430px;" name="userEmail"></td>
+			  </tr>
+			  <tr>
+			    <th align="right">完善内容<font color="red">*</font>：</th>
+			    <td><textarea name="content" id="content" cols="" rows="" style="width:590px; height:75px;"></textarea></td>
+			  </tr>
+<!-- 			  <tr> -->
+<!-- 			    <th>类型：</th> -->
+<!-- 			    <td> -->
+<!-- 			    	<select name="mailType"> -->
+			    		
+<!-- 							<option value="0">投诉 </option> -->
+						
+<!-- 							<option value="1">求助 </option> -->
+						
+<!-- 							<option value="2">建议 </option> -->
+						
+<!-- 							<option value="3">意见 </option> -->
+						
+<!-- 							<option value="4">惠民帮助 </option> -->
+						
+<!-- 							<option value="5">举报 </option> -->
+						
+<!-- 							<option value="6">咨询 </option> -->
+						
+<!-- 							<option value="7">其他 </option> -->
+						
+<!-- 			    	</select> -->
+<!-- 			  </td></tr> -->
+<!-- 			  <tr> -->
+<!-- 			    <th>是否公开：</th> -->
+<!-- 			    <td><input type="radio" checked="checked" value="1" name="isOpen">是 <input type="radio" value="0" name="isOpen">否</td> -->
+<!-- 			  </tr> -->
+
+			<tr>
+			    <th align="right">验证码：</th>
+			    <td><input type="text" class="input_01" name="captcha" id="captcha"></td>
+			  </tr>
+			     <tr>
+			        <td height="30" align="right">&nbsp;</td>
+			        <td colspan="2"><img width="100" height="35" onclick="this.src='/app_nxqw/captcha.svl?d='+new Date()*1" src="/app_nxqw/captcha.svl" id="capimg"></td>
+			 </tr>	
+			  <tr>
+			    <th></th>
+			    <td>
+			    <input type="hidden" value="3239" name="YGuestbookCtg.guestbookCtgId">
+    			<input type="hidden" value="jcxx" name="path">
+			    <input type="submit" value="提交"> 
+			    </td>
+			  </tr>
+			</tbody></table>
+
+
+
+			
+		</form>        
+        </div>
+  </div>
+   <div class="box_foot_06">
+   </div>
+    </div>
+</div>
+	
+	
+	
+
+
+
+<div class="foot mt8">
+			<div class="footbox">
+				<div class="footmenu"><a href="/">返回首页</a> |
+					<a target="_blank" href="/wzdt.jhtml">网站地图</a> |
+					<a target="_blank" href="http://xxgk.zgnx.gov.cn">信息公开</a> |
+					<a target="_blank" href="/gov/wsbs/bsfw/index.jhtml">办事服务</a> |
+					<a target="_blank" href="/app_nxqw/zmhd/list_4005.jhtml">政民互动</a></div>
+				<div class="foot_p"> 主办：中共南溪区委、南溪区人民政府 承办：南溪区信息中心 联系电话：0831-3328007 电子邮件：nxtx08@vip.163.com QQ群：81882731
+					<br> 版权所有：南溪区门户网，未经授权不得转载！备案序号：蜀ICP备10200820号-1 宜宾市公安局网监支队备案号：5115000390
+					<br> 技术支持：
+					<a href="http://www.kingsod.net/"><font color="blue">四川景硕德科技有限责任公司</font></a>
+				</div>
+			</div>
+		</div>
+		
+		<div align="center">
+			<span id="_ideConac">
+<a href="//bszs.conac.cn/sitename?method=show&amp;id=0E15E0CB521E6586E053012819AC966A" target="_blank">
+<img vspace="0" border="0" hspace="0" src="http://dcs.conac.cn/image/red.png" data-bd-imgshare-binded="1" id="imgConac">
+</a>
+</span>
+		</div>
+</body>
+</html>

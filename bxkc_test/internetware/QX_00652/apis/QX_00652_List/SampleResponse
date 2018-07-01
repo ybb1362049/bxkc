@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="gb2312">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta name="renderer" content="webkit">
+    <title>通城县公共资源电子交易平台</title>
+    <link rel="stylesheet" href="/tcweb/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/tcweb/Template/Default/css/about.css">
+</head>
+
+<body class="bg">
+	<!doctype html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="gb2312">
+	<!-- 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="renderer" content="webkit">
+	-->
+	<title>通城县公共资源电子交易平台</title>
+	<link rel="stylesheet" href="/tcweb/Template/Default/css/common.css">
+	<link rel="stylesheet" href="/tcweb/Template/Default/css/index.css">
+	<script src="/tcweb/Template/Default/js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body class="bg">
+	<!-- header -->
+	<div class="header">
+		<div class="header-banner">
+			<img src="/tcweb/Template/Default/images/top.jpg" alt="" />
+		</div>
+	</div>
+	<!-- nav -->
+	<div class="nav-area">
+		<ul class="nav">
+			<li>
+				<a href="/tcweb/Template/Default/../../" target="_top">网站首页</a>
+			</li>
+			<li>
+				<a href="/tcweb/Template/Default/../../tzgg" target="_top">通知公告</a>
+			</li>
+			<li>
+				<a href="/tcweb/Template/Default/../../jyxx" target="_top">交易信息</a>
+			</li>
+            <li>
+				<a href="/tcweb/Template/Default/../../wfwgxx" target="_top">违法违规信息</a>
+			</li>
+			<li>
+				<a href="/tcweb/Template/Default/../../bzzx" target="_top">帮助中心</a>
+			</li>
+            <li>
+				<a href="http://www.tcggzy.com/" target="_top">旧版网站</a>
+			</li>
+		</ul>
+	</div>
+	
+</body>
+
+</html>
+    <!-- main-->
+    <div class="container whitebg mt10">
+         <div class="tab978 clearfix">
+             <div class="s-l">
+                 <div class="s-l-hd">招标公告</div>
+                 <div class="s-l-bd" style="overflow-x:hidden;overflow-y:auto;">
+                 <ul class="stextlist">
+                     <TABLE  cellSpacing="0" cellPadding="0" width="211" border="0">
+<TR><td height=37  onclick="OpenDiv('TD005001');" class="LeftMenu"  background="/tcweb/Template/Default/images/leftmenu.gif"><font color=#ec6c2d>房屋建筑与基础设施工程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</font></a></td></TR>
+<TR><td style="padding-left:50px;" class="LeftMenuSubBg"  id="TD005001"><table border=0 width="100%">
+<TR><td class="LeftMenuSubOver" height=37 background="/tcweb/Template/Default/images/leftmenu_hover.jpg" ><a href="/tcweb/jyxx/005001" target="_self"><font color=#0d8fe7>招标公告</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005001/005001002" target="_self">
+<font color=#333>澄清修改通知</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005001/005001003" target="_self">
+<font color=#333>评标公示</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005001/005001004" target="_self">
+<font color=#333>中标结果公告</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=37  onclick="OpenDiv('TD005002');" class="LeftMenu"  background="/tcweb/Template/Default/images/leftmenu.gif"><font color=#333>交通工程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</font></a></td></TR>
+<TR><td style="padding-left:50px;display:none" class="LeftMenuSubBg" id="TD005002"><table border=0 width="100%">
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005002/005002002" target="_self">
+<font color=#333>澄清修改通知</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005002/005002003" target="_self">
+<font color=#333>评标结果公示</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005002/005002004" target="_self">
+<font color=#333>中标结果公告</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=37  onclick="OpenDiv('TD005003');" class="LeftMenu"  background="/tcweb/Template/Default/images/leftmenu.gif"><font color=#333>水利工程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</font></a></td></TR>
+<TR><td style="padding-left:50px;display:none" class="LeftMenuSubBg" id="TD005003"><table border=0 width="100%">
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005003/005003001" target="_self">
+<font color=#333>招标公告</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005003/005003002" target="_self">
+<font color=#333>澄清修改通知</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005003/005003003" target="_self">
+<font color=#333>评标结果公示</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005003/005003004" target="_self">
+<font color=#333>中标结果公告</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=37  onclick="OpenDiv('TD005004');" class="LeftMenu"  background="/tcweb/Template/Default/images/leftmenu.gif"><font color=#333>政府采购&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</font></a></td></TR>
+<TR><td style="padding-left:50px;display:none" class="LeftMenuSubBg" id="TD005004"><table border=0 width="100%">
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005004/005004001" target="_self">
+<font color=#333>招标公告</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005004/005004002" target="_self">
+<font color=#333>澄清修改通知</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005004/005004003" target="_self">
+<font color=#333>中标结果公告</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=37  onclick="OpenDiv('TD005005');" class="LeftMenu"  background="/tcweb/Template/Default/images/leftmenu.gif"><font color=#333>土地出让&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</font></a></td></TR>
+<TR><td style="padding-left:50px;display:none" class="LeftMenuSubBg" id="TD005005"><table border=0 width="100%">
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005005/005005001" target="_self">
+<font color=#333>招拍挂公告</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005005/005005002" target="_self">
+<font color=#333>成交公示</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=37  onclick="OpenDiv('TD005006');" class="LeftMenu"  background="/tcweb/Template/Default/images/leftmenu.gif"><font color=#333>产权交易&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</font></a></td></TR>
+<TR><td style="padding-left:50px;display:none" class="LeftMenuSubBg" id="TD005006"><table border=0 width="100%">
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005006/005006001" target="_self">
+<font color=#333>产权交易公告</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005006/005006002" target="_self">
+<font color=#333>成交结果公示</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=37  onclick="OpenDiv('TD005007');" class="LeftMenu"  background="/tcweb/Template/Default/images/leftmenu.gif"><font color=#333>其它工程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</font></a></td></TR>
+<TR><td style="padding-left:50px;display:none" class="LeftMenuSubBg" id="TD005007"><table border=0 width="100%">
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005007/005007001" target="_self">
+<font color=#333>招标公告</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005007/005007002" target="_self">
+<font color=#333>澄清修改通知</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005007/005007003" target="_self">
+<font color=#333>评标结果公示</font></a></td></TR>
+<TR><td class="LeftMenuSub"  height=37 ><a href="/tcweb/jyxx/005007/005007004" target="_self">
+<font color=#333>中标结果公告</font></a></td></TR>
+</table></TD></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script>
+                     </ul>
+                 </div>
+             </div>
+             <div class="s-r">
+                 <div class="tab714">
+                     <div class="now"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#252525" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/tcweb/'><FONT color="#252525" class=currentpostionfont>首页</FONT></A><FONT color="#252525"> >> <a href='/tcweb/jyxx'><FONT color="#252525" class=currentpostionfont>交易信息</font></a> >> <a href='/tcweb/jyxx/005001'><FONT color="#252525" class=currentpostionfont>房屋建筑与基础设施工程</font></a> >> <a href='/tcweb/jyxx/005001/005001001'><FONT color="#252525" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table></div>
+                     <div class="s-tt">招标公告</div>
+                     <div class="s-tt-bd" style="overflow-x:hidden;overflow-y:auto;"><div style="height:500px;font-size:13.5px;"><TABLE  cellSpacing=3 cellPadding=0 width=100% align=center border=0 valign=top>
+<TR height=25>
+<TD align=center width=20><img src="/tcweb/images/dots/dot30.jpg"></TD>
+<TD  align="left"><a href="/tcweb/infodetail/?infoid=f0d1383f-ac4c-4055-92f6-8e5614dea015&categoryNum=005001001" target="_blank" title="通城县秀水公园景观绿化工程">通城县秀水公园景观绿化工程</a></TD>
+<td  align=right><font color="#000000">2017-12-01</font></td>
+<TD  width="5px"></TD>
+</TR><TR height=25>
+<TD align=center width=20><img src="/tcweb/images/dots/dot30.jpg"></TD>
+<TD  align="left"><a href="/tcweb/infodetail/?infoid=17711a31-df49-4921-a07a-df47737424e4&categoryNum=005001001" target="_blank" title="通城县乡镇污水处理厂及配套管网建设工程监理项目">通城县乡镇污水处理厂及配套管网建设工程监理项目</a></TD>
+<td  align=right><font color="#000000">2017-11-30</font></td>
+<TD  width="5px"></TD>
+</TR><TR height=25>
+<TD align=center width=20><img src="/tcweb/images/dots/dot30.jpg"></TD>
+<TD  align="left"><a href="/tcweb/infodetail/?infoid=8e2a5c63-53b1-4a40-8369-fd630973e4d1&categoryNum=005001001" target="_blank" title="通城县坪山孵化园公共租赁住房建设项目一期">通城县坪山孵化园公共租赁住房建设项目一期</a></TD>
+<td  align=right><font color="#000000">2017-11-06</font></td>
+<TD  width="5px"></TD>
+</TR><TR height=25>
+<TD align=center width=20><img src="/tcweb/images/dots/dot30.jpg"></TD>
+<TD  align="left"><a href="/tcweb/infodetail/?infoid=81b45f9d-ba9b-4960-96bd-fc5c952ab5b1&categoryNum=005001001" target="_blank" title="通城县五里大道（谌家桥至五里牌互通段）道路改造等4个工程PPP项目社会资本采购通城县五里大道（谌家桥至五里牌互通段）道路改造等4个工程PPP项目资格预审">通城县五里大道（谌家桥至五里牌互通段）道路改造等4个工程PPP项目社会资本...</a></TD>
+<td  align=right><font color="#000000">2017-11-05</font></td>
+<TD  width="5px"></TD>
+</TR><TR height=25>
+<TD align=center width=20><img src="/tcweb/images/dots/dot30.jpg"></TD>
+<TD  align="left"><a href="/tcweb/infodetail/?infoid=6ec78775-8531-4764-b21a-3ee59ca937f5&categoryNum=005001001" target="_blank" title="通城县马港镇界上村东山屋场美丽乡村建设工程">通城县马港镇界上村东山屋场美丽乡村建设工程</a></TD>
+<td  align=right><font color="#000000">2017-10-26</font></td>
+<TD  width="5px"></TD>
+</TR><TR height=25>
+<TD align=center width=20><img src="/tcweb/images/dots/dot30.jpg"></TD>
+<TD  align="left"><a href="/tcweb/infodetail/?infoid=dbdb0f67-c113-49e8-92d3-ae07104eb96a&categoryNum=005001001" target="_blank" title="通城县“宝塔光电”公共租赁住房建设项目">通城县“宝塔光电”公共租赁住房建设项目</a></TD>
+<td  align=right><font color="#000000">2017-10-20</font></td>
+<TD  width="5px"></TD>
+</TR><TR height=25>
+<TD align=center width=20><img src="/tcweb/images/dots/dot30.jpg"></TD>
+<TD  align="left"><a href="/tcweb/infodetail/?infoid=ee3cc7ac-f31e-402b-a700-da5d74d4a32f&categoryNum=005001001" target="_blank" title="通城县冷塅村美丽乡村工程">通城县冷塅村美丽乡村工程</a></TD>
+<td  align=right><font color="#000000">2017-10-19</font></td>
+<TD  width="5px"></TD>
+</TR><TR height=25>
+<TD align=center width=20><img src="/tcweb/images/dots/dot30.jpg"></TD>
+<TD  align="left"><a href="/tcweb/infodetail/?infoid=f3b8f35b-10f3-46c1-88dc-1f2ba460faf0&categoryNum=005001001" target="_blank" title="通城县湘汉南路升级改造工程项目通城县隽水镇湘汉南路升级改造项目">通城县湘汉南路升级改造工程项目通城县隽水镇湘汉南路升级改造项目</a></TD>
+<td  align=right><font color="#000000">2017-10-19</font></td>
+<TD  width="5px"></TD>
+</TR><TR height=25>
+<TD align=center width=20><img src="/tcweb/images/dots/dot30.jpg"></TD>
+<TD  align="left"><a href="/tcweb/infodetail/?infoid=21b598ff-97d8-4191-a102-55e006efadd4&categoryNum=005001001" target="_blank" title="通城县大中型水库移民避险解困项目(一期)">通城县大中型水库移民避险解困项目(一期)</a></TD>
+<td  align=right><font color="#000000">2017-09-09</font></td>
+<TD  width="5px"></TD>
+</TR></table></div><div id="Paging" ><style>.pagemargin{margin:20px}.margintop{margin-top:15px}.yahei{font-family:"Microsoft YaHei",微软雅黑; font-size:14px;}.yaheigo{font-family:"Microsoft YaHei",微软雅黑; font-size:12px}.redfont{color:red}.bordercolor{border:solid 1px #dfdfdf}.huifont{color:#666666}.songti{font-size:12px}.weight{font-weight:bold}.pageover{ background-color:#999999; border:solid 1px #999999; font-size:12px; color:#FFFFFF;cursor:pointer}.pageout{border:solid 1px #dedede;font-size:12px;color:#666666;cursor:pointer;}.numberover{background-color:#999999; border:solid 1px #999999;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#FFFFFF;cursor:pointer;width:36px}.numberout{border:solid 1px #dedede;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#666666;cursor:pointer;width:36px}.goover{border:solid 1px #dfdfdf;background-color:#999999;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:#FFFFFF;cursor:pointer}.goout{border:solid 1px #dfdfdf;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:666666;cursor:pointer}</style><script>var totalPageNums = 1;function GoToPaging() {var Gtno = document.getElementById('GoToPagingNo');var no = Gtno.value;if (!isNaN(no)) {no = parseInt(no);no = Math.abs(no);if (no <= totalPageNums) {window.location.href='./?Paging='+no;} else {alert("最大分页为" + totalPageNums + ",请重新输入页码！");Gtno.value='';Gtno.focus();}} else {alert("请重新输入数字页码！");Gtno.value='';Gtno.focus();}}</script><div class="pagemargin"><div style="height:22px"><table border='0' cellpadding='0' cellspacing='0'><tr><td  width="60" align="center" class="pageout" >首页</td><td width="4"></td><td  width="60" align="center" class="pageout" >&lt; 上页</td><td width="4"></td><td  width="36" align="center" class="yahei redfont" >1</td><td width="4"></td><td  width="60" align="center" class="pageout" >下页 &gt;</td><td width="4"></td><td  width="60" align="center" class="pageout" >末页</td><td width="20"></td><td class="huifont">1/1</td><td width="10"></td><td class="songti huifont">转到</td><td width="6"></td><td><input type="text" id="GoToPagingNo" class="bordercolor"  style="line-height:22px;width:40px; height:22px" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"  onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'0')}else{this.value=this.value.replace(/\D/g,'')}" /></td><td width="6"></td><td width="30" align="center" class="goout" onclick="GoToPaging();" onmouseover="this.className='goover';" onmouseout="this.className='goout';">GO</td></td></tr></table></div></div></div>
+</div>
+</div>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <!-- footer -->
+    <!-- footer -->
+    	<!doctype html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="gb2312">
+	<!-- 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="renderer" content="webkit">
+	-->
+	<title>通城县公共资源电子交易平台</title>
+	<link rel="stylesheet" href="/tcweb/Template/Default/css/common.css">
+	<link rel="stylesheet" href="/tcweb/Template/Default/css/index.css">
+	<script src="/tcweb/Template/Default/js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+	<!-- footer -->
+	<div class="footer">
+		<div class="footer-foot">
+			<a href="#" onClick="this.style.behavior='url(#default#homepage)';this.sethomepage(top.location);return false;"
+                                target="_top">网站首页</a>
+			|
+			<a href="javascript:window.external.AddFavorite(location.href,document.title)"
+                                    title="将本站加入到您的收藏夹" target="_top">收藏网站</a>
+			|
+			<a href="/tcweb/Template/Default/../../lxwm" target="_top">联系我们</a>
+		</div>
+		<div class="coyright">
+			<p>
+				版权所有：通城县公共资源交易网  电话：0715--4354085
+				<br/>
+				地址：通城县便民服务大厅五楼(银山广场旁边)  邮编：437300  鄂ICP备12018445号
+<br/>
+				Copyright?2004-2009 www.tcggzy.com All rights reserved
+			</p>
+		</div>
+		<div class="footer-link">
+			<ul>
+			  <li class="ml316">
+			  	<a href="#">
+			  		<img src="/tcweb/Template/Default/images/f1.jpg" alt="" />
+			  	</a>
+			  </li>
+			  <li>
+			  	<a href="#">
+			  		<img src="/tcweb/Template/Default/images/f2.jpg" alt="" />
+			  	</a>
+			  </li>
+			  <li>
+			  	<a href="#">
+			  		<img src="/tcweb/Template/Default/images/f3.jpg" alt="" />
+			  	</a>
+			  </li>
+			</ul>
+		</div>
+	</div>
+</body>
+
+</html>
+</body>
+
+</html>

@@ -1,0 +1,880 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta content=杭州市公共交通集团有限公司 name="description"/>
+<meta content=杭州市公共交通集团有限公司 杭州公交　杭州公交集团 name="keywords" />
+<title>
+	杭州市公共交通集团有限公司
+</title><link href="style/css.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="JS/head_inc.js" ></script>
+</head>
+
+<body>
+    <form name="main" method="post" action="news_list.aspx?c_kind=25&amp;c_kind2=137&amp;c_kind3=1030" id="main">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script language="Javascript"><!--
+
+--></script>
+    <div>
+
+    <table width="943" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="366" rowspan="2"><img src="images/logo.GIF" width="366" height="64" /></td>
+    <td width="577" height="50" valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td align="right" valign="middle"></td>
+      </tr>
+      <tr>
+        <td align="right" valign="middle" style="display:none"><a href="#" class="about1">网站导航</a> &gt; <a href="index.aspx" class="about1">中文</a> &gt; <span style="font-family:Arial; font-size:10px"><a href="#" class="about1">English</a></span> &gt;</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="bottom"><img src="images/top01.GIF" width="577" height="13" /></td>
+  </tr>
+</table>
+
+
+
+<script type="text/javascript"> 
+function sAlert(str,stitle){ 
+var msgw,msgh,bordercolor; 
+msgw=300;//提示窗口的宽度 
+msgh=100;//提示窗口的高度 
+titleheight=25 //提示窗口标题高度 
+bordercolor="#336699";//提示窗口的边框颜色 
+titlecolor="#99CCFF";//提示窗口的标题颜色 
+
+var sWidth,sHeight; 
+sWidth=document.body.offsetWidth;//浏览器工作区域内页面宽度 
+sHeight=screen.height;//屏幕高度（垂直分辨率） 
+
+
+//背景层（大小与窗口有效区域相同，即当弹出对话框时，背景显示为放射状透明灰色） 
+var bgObj=document.createElement("div");//创建一个div对象（背景层） 
+//定义div属性，即相当于 
+//<div id="bgDiv" style="position:absolute; top:0; background-color:#777; filter:progid:DXImagesTransform.Microsoft.Alpha(style=3,opacity=25,finishOpacity=75); opacity:0.6; left:0; width:918px; height:768px; z-index:10000;"></div> 
+bgObj.setAttribute('id','bgDiv'); 
+bgObj.style.position="absolute"; 
+bgObj.style.top="0"; 
+bgObj.style.display="block"; 
+bgObj.style.background="#777"; 
+bgObj.style.filter="progid:DXImageTransform.Microsoft.Alpha(style=2,opacity=25,finishOpacity=75"; 
+bgObj.style.opacity="0.6"; 
+bgObj.style.left="0"; 
+bgObj.style.width=sWidth + "px"; 
+bgObj.style.height=sHeight*2 + "px"; 
+bgObj.style.zIndex = "10000"; 
+document.body.appendChild(bgObj);//在body内添加该div对象 
+
+//定义LoginForm_的属性并显示 
+document.getElementById("LoginForm_").style.left=(sWidth-392)/2;
+document.getElementById("LoginForm_").style.display="block";
+
+
+
+
+
+
+
+
+} 
+function removeObj(){//点击标题栏触发的事件
+document.getElementById("bgDiv").style.display="none";//删除背景层Div 
+document.getElementById("LoginForm_").style.display="none";//删除提示框
+window.location.reload();
+} 
+</script> 
+<script> 
+function ddd(obj, sType) { 
+var oDiv = document.getElementById(obj); 
+if (sType == 'show') { oDiv.style.display = 'block';} 
+if (sType == 'hide') { oDiv.style.display = 'none';} 
+
+
+} 
+</script>  
+<div id="LoginForm_" style="position:absolute; display:none; z-index:10001; top:20%;" align="center">
+<table width="392" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="276" align="left" valign="top" class="login1"><table width="366" border="0" cellspacing="0" cellpadding="0" style="margin:10px 0 0 16px;">
+      <tr>
+        <td align="left" valign="top"><table width="366" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="20" align="left" valign="middle" class="login2">本栏目只有登录用户才能查看！</td>
+            <td align="right" valign="middle"><a onClick="removeObj()" style="cursor:pointer;"><img src="images/login_03.jpg" width="15" height="15" border="0" /></a></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0" style="margin:25px 0 0 72px;">
+          <tr>
+            <td height="38" colspan="2" align="left" valign="middle" class="login3"><table width="197" border="0" cellspacing="0" cellpadding="0" style="margin-left:28px;">
+              <tr>
+                <td><table id="Daohang_hylx" class="index_dl_ys" border="0">
+	<tr>
+		<td><input id="Daohang_hylx_0" type="radio" name="Daohang$hylx" value="1" /><label for="Daohang_hylx_0">会员登录       </label></td><td><input id="Daohang_hylx_1" type="radio" name="Daohang$hylx" value="0" checked="checked" /><label for="Daohang_hylx_1">员工登录</label></td>
+	</tr>
+</table> </td>
+              </tr>
+            </table></td>
+            </tr>
+		            <tr>
+            <td width="67" height="33" align="left" valign="middle" class="login3">用户名： </td>
+            <td align="left" valign="middle" class="bdbg"><input name="Daohang$USER_NAME2" type="text" id="Daohang_USER_NAME2" style="width:155px;color:#333; background-color:transparent; border:0;" /></td>
+          </tr>
+          <tr>
+            <td height="33" align="left" valign="middle" class="login3">密&nbsp;&nbsp;&nbsp;码：</td>
+            <td align="left" valign="middle" class="bdbg"><input name="Daohang$USER_PWD2" type="password" id="Daohang_USER_PWD2" style="width:155px;color:#333; background-color:transparent; border:0;" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0" style="margin:10px 0 0 154px;">
+          <tr>
+            <td align="left" valign="middle"><input type="image" name="Daohang$Button1" id="Daohang_Button1" src="images/login_01.jpg" border="0" src="" style="height:24px;width:70px;border-width:0px;" /></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="37" align="left" valign="bottom" style="padding:0 0 0 85px;"><a href="#" onClick="window.open ('HZBUSYGZCXZ.aspx','newwindow','height=400,width=630,top=0,left=0,toolbar=no,menubar=no,scrollbars=2, resizable=no,location=no, status=no')" class="login4">还没有注册， 快看看怎么注册吧 ！</a></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+    </div>
+<table width="943" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    
+	
+	<td width="706" align="right" valign="middle"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+                <td align="left" valign="bottom"><a href="index.aspx" ><img src="images/index_10.jpg" name="Image2" width="41" height="15" border="0" id="Image2" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/over_index_10.jpg',1)"/></a></td>
+                <td align="left" valign="bottom"><a href="about.aspx?c_kind=22" onMouseOver="ddd('00', 'show');" onMouseOut="ddd('00', 'hide');" ><img src="images/index_11.jpg" name="Image3" width="79" height="15" border="0" id="Image3" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/over_index_11.jpg',1)"/></a></td>
+                <td align="left" valign="bottom"><a href="about.aspx?c_kind=30" onMouseOver="ddd('aa', 'show');" onMouseOut="ddd('aa', 'hide');" ><img src="images/index2_13.jpg" name="Image10" width="75" height="15" border="0" id="Image10" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','images/over_index2_13.jpg',1)"/></a></td>
+                <td align="left" valign="bottom"><a href="news_list.aspx?c_kind=1" onMouseOver="ddd('bb', 'show');" onMouseOut="ddd('bb', 'hide');"><img src="images/index_12.jpg" name="Image4" width="80" height="15" border="0" id="Image4" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/over_index_12.jpg',1)"/></a></td>
+                <td align="left" valign="bottom"><a href="about.aspx?c_kind=21&c_kind2=117" onMouseOver="ddd('cc', 'show');" onMouseOut="ddd('cc', 'hide');"><img src="images/index_13.jpg" name="Image5" width="80" height="15" border="0" id="Image5" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/over_index_13.jpg',1)"/></a></td>
+                <td align="left" valign="bottom"><a href="http://www.96225.com/" target=_blank onMouseOver="ddd('ddg', 'show');" onMouseOut="ddd('ddg', 'hide');"><img src="images/index_14.jpg" name="Image6" width="80" height="15" border="0" id="Image6" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','images/over_index_14.jpg',1)"/></a></td>
+                <td align="left" valign="bottom"><a href="about.aspx?c_kind=24" onMouseOver="ddd('ee', 'show');" onMouseOut="ddd('ee', 'hide');"><img src="images/index2_11.jpg" name="Image7" width="80" height="15" border="0" id="Image7" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','images/over_index2_11.jpg',1)"/></a></td>
+                <td align="left" valign="bottom"><a href="news_list.aspx?c_kind=25" onMouseOver="ddd('ff', 'show');" onMouseOut="ddd('ff', 'hide');"><img src="images/over_index_16.jpg" name="Image8" width="78" height="15" border="0" id="Image8" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','images/over_index_16.jpg',1)"/></a></td>
+                <td align="left" valign="bottom"><a href="javascript:sAlert('index_117.jpg','登录');" ><img src="images/index_17.jpg" name="Image9" width="74" height="15" border="0" id="Image9" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','images/over_index_17.jpg',1)"/></a></td>
+              </tr>
+    </table>
+	<div style="position:relative; z-index:299; text-align:left;">
+		<div class="busNav1" style="position:absolute; left:394px; top:-10px; display:none;" id="ddg" onmouseover="ddd('ddg', 'show');" onmouseout="ddd('ddg', 'hide');">
+<table width="120" border="0" cellspacing="0" cellpadding="0" style="margin-top:17px;">
+  <tr>
+    <td height="4"><img src="images/hzbusNavTop_03.jpg" width="120"></td>
+  </tr>
+  
+</table>
+</div>
+<div class="busNavS1" style="position:absolute; left:78px; top:-10px; display:none;" id="00" onmouseover="ddd('00', 'show');" onmouseout="ddd('00', 'hide');">
+<table width="80" border="0" cellspacing="0" cellpadding="0" style="margin-top:17px;">
+  <tr>
+    <td height="4"><img src="images/hzbusDtop_03.jpg"></td>
+  </tr>
+   
+  <tr>
+    <td height="24" class="busNavD1"><a href="about.aspx?c_kind=22&c_kind2=29" >公交概况</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="about.aspx?c_kind=22&c_kind2=906" >特色线路</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="about.aspx?c_kind=22&c_kind2=31" >人力资源</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="kjss.aspx?c_kind=22&c_kind2=32" >科技设施</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="gjdj_list.aspx?c_kind=22&c_kind2=33" target="_blank">公交党建</a></td>
+  </tr>
+  
+</table>
+</div>
+		<div class="busNavS" style="position:absolute; left:159px; top:-10px; display:none;" id="aa" onmouseover="ddd('aa', 'show');" onmouseout="ddd('aa', 'hide');">
+<table width="100" border="0" cellspacing="0" cellpadding="0" style="margin-top:17px;">
+  <tr>
+    <td height="4"><img src="images/hzbusNavTop_03.jpg" width="100"></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="about.aspx?c_kind=30&c_kind2=77" >文化建设</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="qyry.aspx?c_kind=30&c_kind2=78" >企业荣誉</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="laomo.aspx?c_kind=30&c_kind2=80" >员工风采</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="netbook.aspx?c_kind=30&c_kind2=81" >电子版公交报</a></td>
+  </tr>
+  
+</table>
+</div>
+<div class="busNavS1" style="position:absolute; left:234px; top:-10px; display:none;" id="bb" onmouseover="ddd('bb', 'show');" onmouseout="ddd('bb', 'hide');">
+<table width="80" border="0" cellspacing="0" cellpadding="0" style="margin-top:17px;">
+  <tr>
+    <td height="4"><img src="images/hzbusDtop_03.jpg"></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="news_list.aspx?c_kind=1&c_kind2=108" >服务信息</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="news_list.aspx?c_kind=1&c_kind2=109" >集团动态</a></td>
+  </tr>
+  
+</table>
+</div>
+<div class="busNavS" style="position:absolute; left:314px; top:-10px; display:none;" id="cc" onmouseover="ddd('cc', 'show');" onmouseout="ddd('cc', 'hide');">
+<table width="120" border="0" cellspacing="0" cellpadding="0" style="margin-top:17px;">
+  <tr>
+    <td height="4"><img src="images/hzbusNavTop_03.jpg" width="120"></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="about.aspx?c_kind=21&c_kind2=1033" >免责公告</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="about1.aspx?c_kind=21&c_kind2=1086" >文字查询</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="http://old.hzbus.cn/content/column.jsp?column_code=005005006" target="_blank">电子版乘车指南</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="ygfc_2.aspx?c_kind=21&c_kind2=118" >政策法规</a></td>
+  </tr>
+  
+</table>
+</div>
+<div class="busNavS" style="position:absolute; left:474px; top:-10px; display:none;" id="ee" onmouseover="ddd('ee', 'show');" onmouseout="ddd('ee', 'hide');">
+<table width="120" border="0" cellspacing="0" cellpadding="0" style="margin-top:17px;">
+  <tr>
+    <td height="4"><img src="images/hzbusNavTop_03.jpg" width="120"></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="about.aspx?c_kind=24&c_kind2=131" >服务热线</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="gm_mail.aspx?c_kind=24&c_kind2=132" >总经理信箱</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="lost_list.aspx?c_kind=24&c_kind2=135" >失物招领</a></td>
+  </tr>
+  
+</table>
+</div>
+<div class="busNavS1" style="position:absolute; left:554px; top:-10px; display:none;" id="ff" onmouseover="ddd('ff', 'show');" onmouseout="ddd('ff', 'hide');">
+<table width="80" border="0" cellspacing="0" cellpadding="0" style="margin-top:17px;">
+  <tr>
+    <td height="4"><img src="images/hzbusDtop_03.jpg"></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="news_list.aspx?c_kind=25&c_kind2=137" >招标信息</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="baoche.aspx?c_kind=25&c_kind2=138" >包车服务</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="send_water.aspx?c_kind=25&c_kind2=142" >矿泉水配送</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="about.aspx?c_kind=25&c_kind2=161" >广告业务</a></td>
+  </tr>
+  
+</table>
+</div>
+<div class="busNavS1" style="position:absolute; left:632px; top:-10px; display:none;" id="gg" onmouseover="ddd('gg', 'show');" onmouseout="ddd('gg', 'hide');">
+<table width="80" border="0" cellspacing="0" cellpadding="0" style="margin-top:17px;">
+  <tr>
+    <td height="4"><img src="images/hzbusDtop_03.jpg"></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="ygfc.aspx?c_kind=26&c_kind2=162" >厂务信息</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="jyts.aspx?c_kind=26&c_kind2=163" >建议投诉</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="bbs_list.aspx?c_kind=26&c_kind2=164" target="_blank">员工聊天室</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="ygdd_form.aspx?c_kind=26&c_kind2=169" >员工调动</a></td>
+  </tr>
+  
+  <tr>
+    <td height="24" class="busNavD1"><a href="bbs_list.aspx?c_kind=26&c_kind2=461" >记者聊天室</a></td>
+  </tr>
+  
+</table>
+</div>
+	  </div>
+	</td>
+	<td width="237" align="right"><a onClick="window.open ('http://www.hzbus.com.cn/about1.aspx?c_kind=21&c_kind2=115','mapsite')" style="cursor:pointer;"><img src="images/dh09.GIF" width="237" height="31" border="0" /></a></td>
+  </tr>
+</table>
+
+<table width="943" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/top02.GIF" width="943" height="43" /></td>
+  </tr>
+</table>
+
+
+<table width="943" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="188" height="689" valign="top" style="background: url('images/frame_24.jpg') no-repeat bottom;">
+<table width="188" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top" background="images/aboutleftbj.GIF"><table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/Left_F_25.GIF" width="188" height="26" /></td>
+  </tr>
+</table>
+<table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="9"></td>
+  </tr>
+</table>
+<table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td class="left_menu_bg3"><a href="news_list.aspx?c_kind=25&c_kind2=137" class="lanc_12hover" >招标信息</a></td>
+    </tr>
+    
+  <tr>
+    <td><img src="images/aboutleft02.GIF" width="188" height="1" /></td>
+  </tr>
+ 
+  <tr>
+    <td><table width="185" border="0" align="right" cellpadding="0" cellspacing="0" class="left1">
+      <tr>
+        <td height="10"></td>
+      </tr>
+      
+      <tr>
+        <td height="25" class="left_menu_bg1"><a href="news_list.aspx?c_kind=25&c_kind2=137&c_kind3=1030" class="left_bg_h">招标公告</a></td>
+      </tr>
+      
+      <tr>
+        <td height="25" class="left_menu_bg2" onmouseover="this.className='left_menu_bg1'" onmouseout="this.className='left_menu_bg2'"><a href="news_list.aspx?c_kind=25&c_kind2=137&c_kind3=1031" class="left_hjh">中标候选人公示</a></td>
+      </tr>
+      
+      <tr>
+        <td height="25" class="left_menu_bg2" onmouseover="this.className='left_menu_bg1'" onmouseout="this.className='left_menu_bg2'"><a href="news_list.aspx?c_kind=25&c_kind2=137&c_kind3=1032" class="left_hjh">中标结果</a></td>
+      </tr>
+      
+     
+    </table></td>
+    </tr>
+  
+  <tr>
+    <td class="left_menu_bg3"><a href="baoche.aspx?c_kind=25&c_kind2=138" class="lanc_12h" >包车服务</a></td>
+    </tr>
+    
+  <tr>
+    <td><img src="images/aboutleft02.GIF" width="188" height="1" /></td>
+  </tr>
+ 
+  <tr>
+    <td class="left_menu_bg3"><a href="send_water.aspx?c_kind=25&c_kind2=142" class="lanc_12h" >矿泉水配送</a></td>
+    </tr>
+    
+  <tr>
+    <td><img src="images/aboutleft02.GIF" width="188" height="1" /></td>
+  </tr>
+ 
+  <tr>
+    <td class="left_menu_bg3"><a href="about.aspx?c_kind=25&c_kind2=161" class="lanc_12h" >广告业务</a></td>
+    </tr>
+    
+  <tr>
+    <td><img src="images/aboutleft02.GIF" width="188" height="1" /></td>
+  </tr>
+ 	
+ </table>
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="30"></td>
+            </tr>
+          </table>
+          <table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="29"><img src="images/left_001.jpg" width="187" height="29" /></td>
+  </tr>
+  <tr>
+    <td height="130" align="left" valign="top" style="background:url(images/left_002.jpg) no-repeat">
+	<table  width="187" height="130" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="2">
+			<img src="images/left_002_01.jpg" width="187" height="27" alt=""></td>
+	</tr>
+	<tr>
+		<td><a href="http://www.hzbus.com.cn/about1.aspx?c_kind=21&c_kind2=115" target="_blank" style="margin-left:45px">
+			<img onMouseOver="this.src='images/left_002_02-b.jpg'" onMouseOut="this.src='images/left_002_02.jpg'" src="images/left_002_02.jpg" width="84" height="19" alt="" border="0"></a></td>
+		<!--<td>
+			<a onClick="window.open ('http://www.hzbus.cn','mapsite')" style="cursor:pointer;"><img onMouseOver="this.src='images/left_002_03-b.jpg'" onMouseOut="this.src='images/left_002_03.jpg'" src="images/left_002_03.jpg" width="103" height="19" alt="" border="0"></a></td>-->
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/left_002_04.jpg" width="187" height="9" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<a onClick="window.open ('http://www.hzsggzxc.com/index.aspx','mapsite')" style="cursor:pointer;"><img onMouseOver="this.src='images/left_002_05-b.jpg'" onMouseOut="this.src='images/left_002_05.jpg'" src="images/left_002_05.jpg" width="187" height="18" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/left_002_06.jpg" width="187" height="11" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<a onClick="window.open ('http://www.96225.com/','mapsite')" style="cursor:pointer;"><img onMouseOver="this.src='images/left_002_07-b.jpg'" onMouseOut="this.src='images/left_002_07.jpg'" src="images/left_002_07.jpg" width="187" height="17" alt="" border="0"></a></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/left_002_08.jpg" width="187" height="29" alt=""></td>
+	</tr>
+</table>
+	
+	</td>
+  </tr>
+</table></td>
+      </tr>
+    </table></td>
+
+    <td width="742" align="right" valign="top" class="left2"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="left2">
+      <tr>
+        <td height="3"></td>
+      </tr>
+    </table>
+      
+<table width="743" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="743" align="center" valign="top"><img src="images/guanggaoyw_11.JPG" width="742" height="102" /></td>
+        </tr>
+      </table>
+      
+   <table width="742" border="0" cellpadding="0" cellspacing="0" background="images/aboutright02.GIF">
+        <tr>
+          <td align="left" width="32"><img src="images/path_p_left.gif" width="32" border="0" /> </td>
+		<td align="left"><span style="font-family:微软雅黑; color:#1B5798; font-weight:bold; font-size:14px;">招标公告</span></td>
+          <td style="width:270px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="38" valign="bottom"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="555" height="21" align="right" valign="middle"  style="color:#666666"><img src="images/aboutrightdian.GIF" width="10" height="8" /> 您所在的位置：<a href="index.aspx" class="about2">首页</a> &gt; 
+                      
+                <a href="news_list.aspx?c_kind=25&c_kind2=137&c_kind3=1030" class="about2_h">招标公告</a>
+         </td>
+                  <td width="10"></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="14"></td>
+                  <td valign="bottom"><div align="right"><img src="images/aboutright03.GIF" width="58" height="14" style="display:none;" /></div></td>
+                </tr>
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+      <table width="717" border="0" cellspacing="0" cellpadding="0" style="margin-top:11px; margin-left:26px">
+        <tr>
+          <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:38px">
+            
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-08-09</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8046&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">10KV/400KVA箱式变压器工程二次招标公告 </a></td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-08-07</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8041&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">杭州公交一分公司零星维修单位招标公告 </a></td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-08-07</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8043&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">杭州市公共自行车交通服务发展有限公司景观整治工程... </a></td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-08-07</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8042&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">杭州公交一分公司站房整治单位招标公告 </a></td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-08-03</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8032&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">杭州金通汽车修理有限公司汽配物资供应商选择招标公... </a></td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-31</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8020&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">转塘保养场迁建及区域调度中心工程项目跟踪审计机构... </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-31</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8021&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">石桥修理分公司2017年职工工作服招标公告 </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-28</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8019&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">萧山公交2017年度64辆纯电动空调客车招标公告 </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-27</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8017&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">玉龙水厂改造工程招标公告 </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-27</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8013&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">旧出租车转让交易二次招标公告 </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-27</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8016&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">杭州市公共自行车交通服务发展有限公司2017年职... </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-27</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8018&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">公交转塘停保基地监控存储扩容项目招标公告 </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-26</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8011&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">萧山公交2017年汽配物资（辅助材料）二次招标公... </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-25</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8009&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">电车分公司拱康场区办公行政主楼内部整修招标公告 </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-21</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=8001&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">杭州公共交通下沙有限公司公交客车汽配物资采购招标... </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="newzx3">
+                <tr>
+                  <td width="14" align="center" valign="middle"><img src="images/newzx3.jpg" width="3" height="5" /></td>
+                  <td width="70"><span class="inter4">2017-07-18</span></td>
+                  <td align="left" valign="bottom"><a href="news_detail.aspx?ID=7999&p_kind=&c_kind=25&c_kind2=137&c_kind3=1030" class="newzx1">杭州市公共自行车服务点零星户外灯箱等画面制作安装... </a>(该信息已过期)</td>
+                </tr>
+              </table></td>
+              </tr>
+              
+        
+         
+        
+            
+          </table></td>
+          <td width="207" rowspan="3" align="right" valign="top"><table width="178" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="177" height="245" align="left" valign="top" background="images/newzx4.jpg">
+<table width="166" border="0" cellspacing="0" cellpadding="0" style="margin-top:73px;margin-left:10px;">
+                  
+                  <tr>
+                    <td width="8" align="left" valign="middle"><img src="images/newzx5.jpg" width="3" height="3" /></td>
+                    <td><a href="news_detail.aspx?ID=8050&c_kind=1&c_kind2=108" title="焦家村站点改造  公交调整线路" class="newzx2">焦家村站点改造  公交调 </a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td width="8" align="left" valign="middle"><img src="images/newzx5.jpg" width="3" height="3" /></td>
+                    <td><a href="news_detail.aspx?ID=8040&c_kind=1&c_kind2=108" title="双菱路施工结束 公交调整相关线路" class="newzx2">双菱路施工结束 公交调整 </a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td width="8" align="left" valign="middle"><img src="images/newzx5.jpg" width="3" height="3" /></td>
+                    <td><a href="news_detail.aspx?ID=8035&c_kind=1&c_kind2=108" title="公交63、209路等线路调整走向" class="newzx2">公交63、209路等线路 </a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td width="8" align="left" valign="middle"><img src="images/newzx5.jpg" width="3" height="3" /></td>
+                    <td><a href="news_detail.aspx?ID=8010&c_kind=1&c_kind2=108" title="优化调整线路  方便市民出行" class="newzx2">优化调整线路  方便市民 </a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td width="8" align="left" valign="middle"><img src="images/newzx5.jpg" width="3" height="3" /></td>
+                    <td><a href="news_detail.aspx?ID=8007&c_kind=1&c_kind2=108" title="地铁城市之星站施工  公交调整相关线路" class="newzx2">地铁城市之星站施工  公 </a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td width="8" align="left" valign="middle"><img src="images/newzx5.jpg" width="3" height="3" /></td>
+                    <td><a href="news_detail.aspx?ID=8003&c_kind=1&c_kind2=108" title="凤起路（武林路-延安路）恢复双向通行  公交调整相关线路" class="newzx2">凤起路（武林路-延安路） </a></td>
+                  </tr>
+                  
+              </table>
+              </td>
+            </tr>
+            <tr>
+              <td><table width="100%" height="10" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td></td>
+                  </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td width="167" height="173" align="left" valign="top"><table width="177" height="174" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="177">
+<table width="100%" height="174" border="0" cellpadding="0" cellspacing="0" background="images/dashi_4_03_03.jpg">
+                        <tr>
+                          <td width="6%">&nbsp;</td>
+                          <td width="89%" class="lanc12">真情服务每一天</td>
+                          <td width="5%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td height="39">&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td align="left" valign="middle"><table width="100%" height="10" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td></td>
+                              </tr>
+                            </table>
+                              <table width="100%" height="54" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td valign="bottom" class="rightzi">提供导乘和服务咨询<br />
+                                    帮助寻找失物等而设置的服务机构&nbsp;</td>
+                                </tr>
+                            </table></td>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td height="25" colspan="2" style="padding-left:1px"><a href="about.aspx?c_kind=24&c_kind2=131"><img src="images/dashi_right3.jpg" width="74" height="21" border="0" /></a></td>
+                          <td>&nbsp;</td>
+                        </tr>
+                    </table></td>
+                  </tr>
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td height="1"  align="left" valign="top" style="background:url(images/newzx6.jpg);"></td>
+        </tr>
+        <tr >
+          <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0">
+            
+          <tr>
+            <td height="47" align="left"><table width="450" height="13" border="0" cellpadding="0" cellspacing="0" style="margin-left:15px; margin-top:15px; margin-bottom:15px">
+              <tr>
+                <td width="450" align="left" class="page2">
+<!-- AspNetPager V7.0.2 for VS2005 & VS2008  Copyright:2003-2007 Webdiyer (www.webdiyer.com) -->
+<div id="AspNetPager1">
+<div style="float:left;width:27%;">
+	<span class="fanye_tt">共有966记录，共61页</span>
+</div><div style="width:73%;float:left;">
+	<a disabled="disabled" style="margin-right:5px;">首页</a><a disabled="disabled" style="margin-right:5px;">上一页</a><span style="margin-right:5px;font-weight:Bold;color:red;">1</span><a href="javascript:__doPostBack('AspNetPager1','2')" style="margin-right:5px;">2</a><a href="javascript:__doPostBack('AspNetPager1','3')" style="margin-right:5px;">3</a><a href="javascript:__doPostBack('AspNetPager1','4')" style="margin-right:5px;">4</a><a href="javascript:__doPostBack('AspNetPager1','5')" style="margin-right:5px;">5</a><span style="margin-right:5px;"><a href="javascript:__doPostBack('AspNetPager1','6')">...</a></span><a href="javascript:__doPostBack('AspNetPager1','2')" style="margin-right:5px;">下一页</a><a href="javascript:__doPostBack('AspNetPager1','61')" style="margin-right:5px;">尾页</a>&nbsp;&nbsp;<select name="AspNetPager1_input" id="AspNetPager1_input" onchange="__doPostBack('AspNetPager1','')">
+		<option value="1" selected="true">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option><option value="49">49</option><option value="50">50</option><option value="51">51</option><option value="52">52</option><option value="53">53</option><option value="54">54</option><option value="55">55</option><option value="56">56</option><option value="57">57</option><option value="58">58</option><option value="59">59</option><option value="60">60</option><option value="61">61</option>
+	</select>
+</div>
+</div>
+<!-- AspNetPager V7.0.2 for VS2005 & VS2008 End -->
+
+</td>
+                                    <td width="5"><img src="images/pro_35.jpg" width="5" height="36" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          
+          </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+<table width="943" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="4"><img src="images/bottom01.GIF" width="943" height="16" /></td>
+  </tr>
+  <tr>
+    <td width="286" height="68"><img src="images/bottom02.GIF" width="286" height="52" /></td>
+    <td width="7"><img src="images/bottom03.GIF" width="7" height="52" /></td>
+    <td width="14">&nbsp;</td>
+    <td width="636" class="gaihui" style="font-family:Arial">&copy; 2009 杭州市公共交通集团有限公司 版权所有<br />
+    <table>
+<tr>
+<td>技术支持：</td>
+<td><ul id="mq" onMouseOut="iScrollAmount=1" onMouseOver="iScrollAmount=0" style="width:160px; height:22px; overflow:hidden; line-height:22px; text-align:left">
+                    <li><a href="http://www.mountor.cn" target="_blank">蒙特</a>信息&middot;专业构筑品质网站</li>
+                    <li><a href="http://www.mountor.cn/wzsj" target="_blank">网站设计</a>由蒙特信息提供</li>
+                    <li><a href="http://www.mountor.cn/wzjspd" target="_blank"> 网站建设</a>由蒙特信息提供</li>
+                    <li><a href="http://www.mountor.cn/wzzz" target="_blank"> 网站制作</a>由蒙特信息提供</li>
+                    <li><a href="http://www.mountor.cn" target="_blank"> 杭州网站建设</a>由蒙特信息提供</li>
+                    <li><a href="http://www.mountor.cn" target="_blank">杭州网站设计</a>由蒙特信息提供</li>
+                    <li><a href="http://www.mountor.cn" target="_blank">杭州网站制作</a>由蒙特信息提供</li>
+                    <li><a href="http://www.hzhanbo.com" target="_blank">网站托管</a>由杭州汉博提供</li>
+                    <li><a href="http://www.hzhanbo.com" target="_blank">网站维保</a>由杭州汉博提供</li>
+                    <li><a href="http://www.hzhanbo.com" target="_blank">网站安全</a>由杭州汉博提供</li>
+                    <li><a href="http://www.hzhanbo.com" target="_blank">虚拟主机</a>由杭州汉博提供</li>
+                    <li><a href="http://www.hzhanbo.com" target="_blank">杭州汉博</a>提供网站备案</li>
+               </ul></td>
+             
+              
+<script language="javascript">
+var oMarquee = document.getElementById("mq"); //滚动对象
+var iLineHeight = 22; //单行高度，像素
+var iLineCount = 5; //实际行数
+var iScrollAmount = 1; //每次滚动高度，像素
+function run() {
+oMarquee.scrollTop += iScrollAmount;
+if ( oMarquee.scrollTop == iLineCount * iLineHeight )
+oMarquee.scrollTop = 0;
+if ( oMarquee.scrollTop % iLineHeight == 0 ) {
+window.setTimeout( "run()", 2000 );
+} else {
+window.setTimeout( "run()", 50 );
+}
+}
+oMarquee.innerHTML += oMarquee.innerHTML;
+window.setTimeout( "run()", 2000 );
+</script> <td>&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank" style="color:#777777; text-decoration:none">浙ICP备07024123号</a> </td></tr>
+</table></td>
+  </tr>
+</table><script src="/count/mystat.aspx"></script>
+    </div>
+    
+<div>
+
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBwKmuPDCBALQovyNCQLPovyNCQLfzdbjBQL2yO6HDgK55NymAgKF2ZLsAg==" />
+</div>
+<script type="text/javascript">
+<!--
+var theForm = document.forms['main'];
+if (!theForm) {
+    theForm = document.main;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+</form>
+</body>
+</html>

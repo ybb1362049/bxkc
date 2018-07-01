@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中建三局安装集采平台</title>
+<link type="text/css" href="/pms/res/index/css.css" rel="stylesheet"/>
+<script type="text/javascript" src="/pms/res/index/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/pms/res/index/js/jquery.SuperSlide.2.1.js"></script>
+
+<!--[if lte IE 6]>
+<script type="text/javascript" src="/pms/res/index/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">
+        DD_belatedPNG.fix('.pic');
+        DD_belatedPNG.fix('.logo');
+        DD_belatedPNG.fix('.line');
+</script>
+<![endif]-->
+<script type="text/javascript">
+if (self != top) {
+	top.location = self.location;
+}
+
+$(function(){
+	$(".imgs-box").slide({ titCell:".num ul" , mainCell:".pic-li" , effect:"fold", autoPlay:true, delayTime:700 , autoPage:true });
+});
+</script>
+</head>
+<body>
+<!--top start-->
+<div class="top">
+    <img class="logo" src="/pms/res/index/images/logo.png" />
+    </div>
+<!--top end-->
+
+<!--menu start-->
+<div class="memu">
+		<ul>
+		<li><a href="/pms/custom/index/index.do">首页</a></li>
+		<li><a href="more.do?articleColumnCode=INVITE_NOTICE" class="actived" >招标公告</a></li>
+		<li><a href="more.do?articleColumnCode=QUAERE_NOTICE"  >询价公告</a></li>
+		<li><a href="more.do?articleColumnCode=BIDDING_NOTICE"  >中标公告</a></li>
+		<li><a href="link.do">联系我们</a></li>
+	</ul>
+	<div class="time">
+		<font color="#ffffff" style="line-height:31px;font-size:12px;font-family:Microsoft Yahei;">
+			</font>
+	</div>
+</div>
+<!--menu end-->
+
+<!--banner start-->
+<div class="imgs-box">
+	<ul class="pic-li">
+		<li><img src="/pms/res/index/images/banner.png" /></li>
+	    <li><img src="/pms/res/index/images/banner1.png" /></li>
+		<li><img src="/pms/res/index/images/banner2.png" /></li>
+	</ul>
+</div>
+<!--banner end-->
+
+<div class="child-con">
+	<div class="child-l">
+		 <div class="l-c">
+			 <div class="l-t"><p>采购项目公告</p></div>
+			 <div class="tab-box">
+		     <div class="tab1"><img src="/pms/res/index/images/arrow1.png" /><a href="more.do?articleColumnCode=INVITE_NOTICE">招标公告</a></div>
+			 <div class="tab1"><img src="/pms/res/index/images/arrow1.png" /><a href="more.do?articleColumnCode=QUAERE_NOTICE">询价公告</a></div>
+			 </div>
+			 </div>
+		 <div class="l-c">
+		 <div class="l-t"><p>综合信息查询</p></div>
+		 <div class="form-c">
+		 <form id="form" action="more.do" method="post">
+		 	<input class="input-t" type="text" name="articleName" value="" placeholder="输入关键字" />
+		 	<div class="l-a"><button type="submit" class="d-c">查询</button></div>
+		 </form>
+		 </div>
+		 </div>
+	</div>
+
+	<div class="child-r">
+		<div class="title">
+			<p class="t-p2">
+				招标公告</p>
+			<img src="/pms/res/index/images/title-bg1.png" />
+		</div>
+		<div class="list-box">
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=e34bdcfbaf3b4bea94279797f37f59be" target="_blank">
+						<p class="p-text">南方经理部华侨城大厦工程防火门监控系统物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月09日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=3da59acecf104d5dbd8d95397cb7c999" target="_blank">
+						<p class="p-text">西北经理部呼和浩特司法强制制隔离戒毒所扩建工程配电箱物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月09日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=ffa512d59b39437a9b171c23cc76711d" target="_blank">
+						<p class="p-text">南方经理部华侨城、中电工程镀锌钢板物资联合集采招标公告</p>
+						<p class="p-time">
+							2017年08月09日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=e9ceba15b4db4979a3eb22043267ed31" target="_blank">
+						<p class="p-text">中建三局安装事业部南方经理部坪山河项目工程闸门物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月09日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=86865f859fd44992bd6204a93549697b" target="_blank">
+						<p class="p-text">华东经理部杭州理想银泰城、杭州深蓝国际项目、温州生物材料与工程研究所、温州白麓城铸铁管采购招标公告</p>
+						<p class="p-time">
+							2017年08月08日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=16c54af2c7014997a0354b4f73d83cb8" target="_blank">
+						<p class="p-text">北京经理部潞河医院四期工程配电箱采购招标公告</p>
+						<p class="p-time">
+							2017年08月08日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=663e022a50214dd0a695987548316ebe" target="_blank">
+						<p class="p-text">北京经理部热源厂集中供热工程预制直埋保温管采购招标公告</p>
+						<p class="p-time">
+							2017年08月08日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=5ac335b27ef64812971033356bd4ce56" target="_blank">
+						<p class="p-text">南方经理部华侨城大厦工程防火门监控系统物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月07日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=2bbf5d4b48a64781882d1ff6c23374d8" target="_blank">
+						<p class="p-text">华东经理部2017年钢塑管集采招标公告</p>
+						<p class="p-time">
+							2017年08月07日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=4a380a4229374ad39db2d996e983a502" target="_blank">
+						<p class="p-text">华东经理部2017年PPR管集采招标公告</p>
+						<p class="p-time">
+							2017年08月07日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=8049ba25f7b249609406b305658bb13f" target="_blank">
+						<p class="p-text">华东经理部2017年钢塑管管件集采招标公告</p>
+						<p class="p-time">
+							2017年08月07日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=81b6af78fa4f43ef8153818cca4c9006" target="_blank">
+						<p class="p-text">成都经理部2017年度消防水炮物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月07日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=cf2247df0f244446b3a1a52b5d818c42" target="_blank">
+						<p class="p-text">西北经理部西安管廊项目干粉灭火装置采购招标公告</p>
+						<p class="p-time">
+							2017年08月07日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=f289ca9eaa17471f8dc7e3fc84f38a08" target="_blank">
+						<p class="p-text">工业经理部御景星城工程定压补水装置、真空脱气机、旁流水处理器物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月05日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=328a67d8bf8c48389af4411282073dfd" target="_blank">
+						<p class="p-text">南方经理部中电长城项目工程桥架物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月04日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=ca7e3d263d524d8db70d0cfe7a81dad2" target="_blank">
+						<p class="p-text">钢结构经理部盘锦忠旺止水螺杆、止水钢板、方管物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月04日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=b6646ed421a54e06baad0f43c11a716e" target="_blank">
+						<p class="p-text">北京经理部首创丽泽、中国尊项目电伴热采购招标公告</p>
+						<p class="p-time">
+							2017年08月04日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=458b552e28af403094c13987e9c76c28" target="_blank">
+						<p class="p-text">成都经理部来福士项目F1标段气体灭火物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月03日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=5edcc87220804902b801be333b0c395e" target="_blank">
+						<p class="p-text">工业经理部（十堰人防、御景星城）风口风阀物资联合采购招标公告</p>
+						<p class="p-time">
+							2017年08月02日</p>
+					</a>
+				</div>
+			<div class="list-t">
+					<img src="/pms/res/index/images/arrow.png" />
+					<a href="show.do?articleId=6a1ce7722a7c4612857a64da61308b59" target="_blank">
+						<p class="p-text">工业经理部御景星城工程水泵物资采购招标公告</p>
+						<p class="p-time">
+							2017年08月02日</p>
+					</a>
+				</div>
+			</div>
+
+		<div class="turn">
+<p class="">当前&nbsp;&nbsp;1&nbsp;/&nbsp;24&nbsp;&nbsp;页</p>
+<a class="turn-l">上一页</a>
+<a class="turn-l" href="http://jc.cscec3bmep.com/pms/custom/index/more.do?articleColumnCode=INVITE_NOTICE&pi.page=2">下一页</a>
+</div>
+</div>
+
+</div>
+<div class="footer">
+		<p class="foot-p">
+			中建三局安装工程有限公司 版权所有 
+			<br /> <a target="_blank" href="http://www.miitbeian.gov.cn">鄂ICP备13002725号</a>
+			<br /> 客服电话：+86-027-87136026  客服邮箱：wzglb@cscec3bmep.com
+			<a href="/pms/system/index/init.do" target="_blank">后台管理</a>
+		</p>
+	</div>
+</body>
+</html>

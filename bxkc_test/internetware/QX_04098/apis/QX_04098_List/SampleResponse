@@ -1,0 +1,657 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>招标投标</title>
+<meta  name="version" content="7.9.11"/>
+<meta  name="createDate" content="2018-01-12 10:17:07" />
+<meta  name="cacheclearDate" content="2018-01-12 09:04:00"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="ColumnName" content="招标投标" >
+<meta name="ColumnType"   content="1" >
+<meta name="SiteName" content="木里县"><!--网站名称-->
+<meta name="SiteDomain" content=""><!--网站域名-->
+<meta name="SiteIDCode" content="muli"><!--网站标识-->
+<meta name="ColumnDescription" content="初始化频道：通知公告"><!--栏目描述-->
+<meta name="ColumnKeywords" content=""><!--栏目关键词--><link rel="stylesheet" type="text/css"  href="/eportal/uiFramework/huilan-jquery-ui/css/huilan-jquery-ui.css" />
+<script type="text/javascript" src="/eportal/uiFramework/huilan-jquery-ui/js/huilan-jquery-ui.js?self=true&skin=default"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="/eportal/fileDir/muli/template/muli.css" />
+  <script type="text/javascript" src="/eportal/fileDir/muli/template/muli.js"></script>
+ </head>
+ <body>
+  <link rel="stylesheet" type="text/css" media="screen" href="/eportal/fileDir/muli/template/page/list/skin.css" /><div style="display:none" easysite="easysiteHiddenDiv">
+	<input id="contextPath" value="/eportal" type="hidden"/>
+	<input id="isOnlyUseCkeditorSourceMode" value="$isOnlyUseCkeditorSourceMode" type="hidden"/>
+	<input id="eprotalCurrentPageId" value="2604778" type="hidden"/>
+	<input id="eprotalCurrentSiteId" value="2552079" type="hidden"/>
+	<input id="eprotalCurrentSiteName" value="木里县" type="hidden"/>
+	<input id="eprotalCurrentSiteEnname" value="muli" type="hidden"/>
+	<input id="eprotalCurrentSiteType" value="WEB" type="hidden"/>
+	<input id="eprotalCurrentSiteHideMaskLayer" value="$currentWebSite.hideMaskLayer" type="hidden"/>
+	<input id="eprotalCurrentArticleKey"  value=""  type="hidden"/>
+	<input id="eprotalCurrentColumnId"  value=""  type="hidden"/>
+	<input id="isStaticRequest" value="yes" type="hidden"/>
+	<input id="isOpenStaticPageList" value="yes" type="hidden"/>
+	<input id="defaultPublishPage" value="1" type="hidden"/>
+	<input type='hidden' id='eportalappPortletId' value="3">
+	<input type='hidden' id='epsPortletId' value="1">
+	<input type='hidden' id='portaltoolsPortletId' value="2">
+	<script type="text/javascript" src="/eportal/uiFramework/js/counting/chanelCounting.js"></script>
+	<input type="hidden" id="currentLoginMemberId"  value="" />
+	<input type="hidden" id="currentLoginMemberName"  value="" />
+	<input type="hidden" id="behaviourAnalysisSiteId"  value="1259204835" /> 
+			<input type="hidden" id="portalLastRequestUrl"  value="" />
+</div>  <div>
+    <div class="topbox">
+    <div class="logobox">
+        <table>
+        <tr>
+            <td colspan="2">
+                <ul>
+                    <li><iframe width="750" scrolling="no" height="27" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=1&icon=1&py=muli&wind=1&num=2"></iframe></li>
+                    <li><a href="/eportal/Assistants/index.html" target="_blank">无障碍版 丨 </a></li>
+                    <li><a id="StranLink" title="點擊以繁體中文方式瀏覽"  href="javascript:StranBody()" name="StranLink">繁体中文 丨 </a></li>
+                    <li><a href="http://ml.lsz.gov.cn/mlphone/2785635/index.html">手机版 丨 </a></li>
+                    <li> <a href="/muli/2784976/index.html" target="_blank"> 微门户 </a></li>
+                </ul>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td><img src="/eportal/fileDir/muli/template/common/top/logo.png" alt=""></td>
+            <td><img src="/eportal/fileDir/muli/template/common/top/topic.png" alt="" width="540" style="margin-top:65px;"></td>
+        </tr> -->
+        <tr>
+            <td colspan="2"><embed src="/eportal/fileDir/muli/template/common/indextop/top.swf" quality=high width=1170 height=291 wmode=transparent type='application/x-shockwave-flash'></embed></td>
+        </tr>
+        </table>
+    </div>
+    <div class="navbox">
+        <div class="navi">
+        <table>
+            <tr>
+                <td width="140"></td>
+                <td>
+                    <div class="navbg">
+                     <table width="99%" border="0" cellspacing="0" cellpadding="0">       
+                      <tr>  </td>
+                         <td>  <a href="/muli/index/index.html" target="_parent">首 页</a></td>
+                            </td>
+                         <td>  <a href="/muli/_2553538/index.html" target="_parent">走进木里</a></td>
+                            </td>
+                         <td>  <a href="/muli/_2553582/index.html" target="_parent">政府机构</a></td>
+                            </td>
+                         <td>  <a href="/muli/_2553634/index.html" target="_parent">木里动态</a></td>
+                                                     <td class="eps_banner4_current"> <a href="/muli/_2553662/index.html" target="_parent">信息公开</a></td>
+                            </td>
+                         <td>  <a href="/muli/_2553806/index.html" target="_parent">办事服务</a></td>
+                            </td>
+                         <td>  <a href="/muli/_2554066/index.html" target="_parent">互动交流</a></td>
+                            </td>
+                         <td>  <a href="/muli/_2554098/index.html" target="_parent">藏区建设</a></td>
+                            </td>
+                         <td>  <a href="/muli/mlly7/index.html" target="_parent">行游木里</a></td>
+                                                 </tr>
+                     </table>
+                   </div>
+                </td>
+                <td>
+                    <script language="javascript">
+                        function globSearch(){
+                           var sUrl = "http://dig.lsz.gov.cn/dig/search.action?ty=&w=false&f=&dr=true&p=1&sr=score+desc&fq=&advtime=&advrange=&q=";
+                                    var key = document.getElementById("search1016").value;
+                                    if(key == "" || key == "请输入关键字"){
+                                        ;
+                                        return false;
+                                    }
+                                    key = encodeURI(key);
+                                    sUrl = sUrl + key + '&ext=siteid:2552079'
+                                  window.open(sUrl);
+                        }
+                    </script>
+                    <div class="ajsb">
+                     <input  id="search1016"onkeydown="enterInput(event);" type="text" placeholder="请输入关键字" name="q"/ >
+                        <a href="javascript:void(0);"  id="aSearch"  onclick="return globSearch();">
+                            <img style="float:right;" src="/eportal/fileDir/muli/template/common/top/ssbtn.png">
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/eportal/fileDir/lszrmzf/template/common/top/fant.js"></script>  </div> 
+  <div class="mainbox"> 
+   <div class="main"> 
+    <!-- <div class="position"><span style="color:#232323;line-height:30px;margin-left:10px;">当前位置:</span><span><a class='SkinObject' href='/muli/index/index.html' target='_parent'>首 页</a> > <a class='SkinObject' href='/muli/_2553662/index.html' target='_parent'>信息公开</a> > <a class='SkinObject' href='/muli/_2553706/index.html' target='_parent'>分类导航</a> > <a class='SkinObject' href='/muli/2604778/index.html' target='_parent'>招标投标</a></span></div> --> 
+    <div id="main_left" runat="server" name="左侧导航" class=" column">
+       <link rel="stylesheet" type="text/css" media="screen" href="/eportal/fileDir/muli/template/module/list_mod03/container.css" /> 
+<div class="list_mod03 portlet" id="787c467b318443e8befcd00d14532c61" style="$portletStyle" pagemoduleid="ab8dde712cb746bab364f167d7a01ff8"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu"></span> 
+  <div id="submenu787c467b318443e8befcd00d14532c61" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div class="mod03_tit"> 
+  <div class="mod03_tl"> 
+   <img src="/eportal/fileDir/muli/template/module/list_mod03/imgl.png" /> 
+  </div> 
+  <span>分类导航</span> 
+  <div class="mod03_tr"> 
+   <img src="/eportal/fileDir/muli/template/module/list_mod03/imgr.png" /> 
+  </div> 
+ </div> 
+ <div class="smod03_cont">
+   <style type="text/css">
+  .leftnav_zsyz{ width:210px; margin:0 auto; overflow:hidden;}
+  .leftnav_zsyz ul{ width:100%; overflow:hidden;}
+  .leftnav_zsyz ul li{ height:30px; line-height:30px; overflow:hidden; float:left; width:100%;font-size:14px; margin-top:10px;}
+  .leftnav_zsyz ul li a{ display:block;line-height:32px;}
+  .leftnav_zsyz ul li.class_A{ background:url(/eportal/fileDir/muli/template/navigation/leftnav_zwfw/leftnavzsyz02.jpg) no-repeat top center; text-indent:30px; font-weight:bold;}
+  .leftnav_zsyz ul li.class_A a{ color:#ffffff;}
+  .leftnav_zsyz ul li.class_B{ background:url(/eportal/fileDir/muli/template/navigation/leftnav_zwfw/dianred.jpg) no-repeat 30px center; text-indent:40px; border-bottom:1px solid #cccccc; margin-top:0px;}
+  .leftnav_zsyz ul li.class_B a{ color:red;}
+  .leftnav_zsyz ul li.class_B1{ background:url(/eportal/fileDir/muli/template/navigation/leftnav_zwfw/dian.jpg) no-repeat 30px center;margin-top:0; text-indent:40px; border-bottom:1px dashed #cccccc;}
+  .leftnav_zsyz ul li.class_B1 a:hover{ color:red;}
+  .leftnav_zsyz ul li.class_A1{ background:url(/eportal/fileDir/muli/template/navigation/leftnav_zwfw/leftnavzsyz03.jpg) no-repeat top center; text-indent:30px;}
+  .leftnav_zsyz ul li.class_A1 a{ color:#836160;}
+  .leftnav_zsyz ul li.class_A1 a:hover{ font-weight:bold;}
+  .leftnav_zsyz ul li.class_C{margin:0px;text-indent:53px;line-height:25px;height:25px}
+  .leftnav_zsyz ul li.class_C a{font-weight:bold;}
+  .leftnav_zsyz ul li.class_C1 a:hover{color:#113979;font-weight:bold;}
+  .leftnav_zsyz ul li.class_C1{text-indent:53px;margin:0;line-height:25px;height:25px}
+</style>
+<div class="leftnav_zsyz">
+<div class="left_zhong"><ul>
+	             	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2620869/index.html" target="_parent">政府领导</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2620970/index.html" target="_parent">政府机构</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2553722/index.html" target="_parent">法规公文</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2553738/index.html" target="_parent">政府常务会</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/rsrm90/index.html" target="_parent">人事信息</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/ndjh74/index.html" target="_parent">规划计划</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/ydsj3/index.html" target="_parent">统计信息</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2553754/index.html" target="_parent">行政权力</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/sgjf8896/index.html" target="_parent">财政资金</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/2846155/index.html" target="_parent">保障性住房</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2553766/index.html" target="_parent">重大项目</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2553770/index.html" target="_parent">国企信息</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/2846176/index.html" target="_parent">环境保护</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/gzdt46/index.html" target="_parent">食品药品</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/aqjc/index.html" target="_parent">安全生产</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/jgfx42/index.html" target="_parent">价格和收费</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/yjya12/index.html" target="_parent">应急管理</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2553794/index.html" target="_parent">审计公开</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2553798/index.html" target="_parent">新闻发布</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/_2553802/index.html" target="_parent">通知公告</a></li>
+                       <li class="class_A"><a href="/muli/2604778/index.html" target="_parent">招标投标</a></li>
+            	                 	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/2604853/index.html" target="_parent">政府工作报告</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/zdcq35/index.html" target="_parent">征地拆迁</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="javascript:void(0)" target="_parent">便民提示</a></li>
+                     	<li class="class_A1" onmouseover="switchstyle01(this)" onmouseout="switchstyle02(this)">
+      	<a href="/muli/2887519/index.html" target="_parent">社会组织和中介机构</a></li>
+        </ul>
+</div>
+</div>
+<div class="height10"></div>
+ 
+ </div> 
+</div>     </div> 
+    <div id="mainright"> 
+     <table> 
+      <tbody> 
+       <tr> 
+        <td id="erjileft" name="左一" runat="server" valign="top" width="460" class=" column"></td> 
+        <td width="20"></td> 
+        <td id="erjiright" name="右一" runat="server" valign="top" width="460" class=" column"></td> 
+       </tr> 
+       <tr> 
+        <td colspan="3" id="main_right" runat="server" name="右通栏一" class=" column"> <link rel="stylesheet" type="text/css" media="screen" href="/eportal/fileDir/muli/template/module/list_modlb/container.css" /> 
+<div class="list_modlb portlet" id="43ced63d2cb4410abe3d029e8a39f2dd" style="$portletStyle" pagemoduleid="ebf72b8692ad46bfb697c7ac2997339a"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu"></span> 
+  <div id="submenu43ced63d2cb4410abe3d029e8a39f2dd" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div class="modlb_tit"> 
+  <div class="modlb_img"> 
+   <img src="/eportal/fileDir/muli/template/module/list_modlb/modl.jpg" /> 
+  </div> 
+  <div class="modlb_tt"> 
+   <span>招标投标</span> 
+  </div> 
+  <div class="modlb_tc"> 
+   <img src="/eportal/fileDir/muli/template/module/list_modlb/titr.jpg" alt="" /> 
+  </div> 
+  <!-- <div class="modlb_tr"> <a href="" target="_blank"><img src="/eportal/fileDir/muli/template/module/list_modlb/modr.jpg" alt=""></a></div> --> 
+ </div> 
+ <div class="smodlb_cont">
+   
+
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" opentype="page"> 
+ <tbody> 
+  <tr> 
+   <td style="margin: 10px auto;">
+    <table cellspacing="0" cellpadding="0" border="0" class="" style="width:100%;border-collapse:collapse;">
+     <tbody>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4571304/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县人民法院等办公设备询价采购预公告更正公告" istitle="true">四川省凉山彝族自治州木里藏族自治县人民法院等办公设备询价采购预公告更正公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-22</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4571275/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县文广体育旅游局“村村响”工程及广电建设采购项目询价采购公告更正公告" istitle="true">四川省凉山彝族自治州木里藏族自治县文广体育旅游局“村村响”工程及广电建设采购项目...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-22</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4571240/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县县委党校迷彩服及军用床上用品套装采购竞争性磋商采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县县委党校迷彩服及军用床上用品套装采购竞争性磋商...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-22</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4571232/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县文广体育旅游局“村村响”工程及广电建设采购项目询价采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县文广体育旅游局“村村响”工程及广电建设采购项目...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-22</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4571215/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县城关小学学生校服公开招标结果公告" istitle="true">四川省凉山彝族自治州木里藏族自治县城关小学学生校服公开招标结果公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-21</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519306/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县农牧局等电器设备项目采购询价采购公告更正公告" istitle="true">四川省凉山彝族自治州木里藏族自治县农牧局等电器设备项目采购询价采购公告更正公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-20</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519302/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县文广体育旅游局健身器材设备采购项目公开招标采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县文广体育旅游局健身器材设备采购项目公开招标采购...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-20</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519298/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县人民法院安检设备采购询价采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县人民法院安检设备采购询价采购公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-19</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519294/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县教育和知识产权局少年设备采购公开招标采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县教育和知识产权局少年设备采购公开招标采购公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-19</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519290/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县教育和科学技术知识产权局办公设备及办公家具询价采购公告更正公告" istitle="true">四川省凉山彝族自治州木里藏族自治县教育和科学技术知识产权局办公设备及办公家具询价...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-17</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519286/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县人民法院等办公设备询价采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县人民法院等办公设备询价采购公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-14</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519282/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县教育和科学技术知识产权局办公设备及办公家具询价结果公告" istitle="true">四川省凉山彝族自治州木里藏族自治县教育和科学技术知识产权局办公设备及办公家具询价...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-14</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519278/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县公路运输管理所等办公设备二次采购询价结果公告" istitle="true">四川省凉山彝族自治州木里藏族自治县公路运输管理所等办公设备二次采购询价结果公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-13</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519274/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县博科乡小学等校服及床上用品采购询价采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县博科乡小学等校服及床上用品采购询价采购公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-13</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519268/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县博科乡小学少年宫设备项目询价采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县博科乡小学少年宫设备项目询价采购公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-13</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519264/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县教育和科学技术知识产权局办公设备及办公家具询价采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县教育和科学技术知识产权局办公设备及办公家具询价...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-13</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519260/index.html" onclick="void(0)" target="_blank" title="木里县发改和经信局农户科学小粮仓采购项目需求论证" istitle="true">木里县发改和经信局农户科学小粮仓采购项目需求论证</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-12</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519256/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县农牧局包虫病物资采购项目 公开招标采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县农牧局包虫病物资采购项目 公开招标采购公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-12</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519252/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县长海食品有限责任公司污水处理设备公开招标采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县长海食品有限责任公司污水处理设备公开招标采购公...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-12</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519248/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县农牧局等电器设备采购询价采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县农牧局等电器设备采购询价采购公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-12</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519244/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县人民医院医疗设备公开招标采购公告更正公告" istitle="true">四川省凉山彝族自治州木里藏族自治县人民医院医疗设备公开招标采购公告更正公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-09</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519232/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县人民医院医疗设备公开招标采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县人民医院医疗设备公开招标采购公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519240/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县规划建设和住房保障局垃圾车辆采购项目公开招标采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县规划建设和住房保障局垃圾车辆采购项目公开招标采...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-06</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4519236/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县公路管理局洒水车辆采购项目公开招标采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县公路管理局洒水车辆采购项目公开招标采购公告</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-06</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2015082515151073170.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/muli/2604778/4467674/index.html" onclick="void(0)" target="_blank" title="四川省凉山彝族自治州木里藏族自治县公路运输管理所等办公设备二次询价采购询价采购公告" istitle="true">四川省凉山彝族自治州木里藏族自治县公路运输管理所等办公设备二次询价采购询价采购公...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-06-02</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+     </tbody>
+    </table></td> 
+  </tr> 
+  <tr> 
+   <td style="line-height: 25px; margin: 0px auto; width: 400px;"> 
+    <div style="width:100%; font-family: Tahoma,Arial,Helvetica;font-size: 12px;font-weight: normal;"> 
+     <table cellspacing="0" cellpadding="0" border="0" width="100%"> 
+      <tbody> 
+       <tr> 
+        <td nowrap="true" align="notset" valign="bottom" style="width:60%;"> <a style="cursor:pointer" onclick="queryArticleByCondition(this,'/muli/2604778/43ced63d-1.html')" tagname="/muli/2604778/43ced63d-1.html" class="pagingNormal">首页</a> <span style="width:5px;display:inline-block;"></span> <a style="cursor:pointer" onclick="queryArticleByCondition(this,'/eportal/ui?pageId=2604778&currentPage=5&moduleId=43ced63d2cb4410abe3d029e8a39f2dd&staticRequest=yes')" tagname="/eportal/ui?pageId=2604778&currentPage=5&moduleId=43ced63d2cb4410abe3d029e8a39f2dd&staticRequest=yes" class="pagingNormal">上一页</a> <span style="width:5px;display:inline-block;"></span> <span style="width:5px;"></span> <a style="cursor:pointer" onclick="queryArticleByCondition(this,'/eportal/ui?pageId=2604778&currentPage=7&moduleId=43ced63d2cb4410abe3d029e8a39f2dd&staticRequest=yes')" tagname="/eportal/ui?pageId=2604778&currentPage=7&moduleId=43ced63d2cb4410abe3d029e8a39f2dd&staticRequest=yes" class="pagingNormal">下一页</a> <span style="width:5px;display:inline-block;"></span> <a style="cursor:pointer" onclick="queryArticleByCondition(this,'/eportal/ui?pageId=2604778&currentPage=27&moduleId=43ced63d2cb4410abe3d029e8a39f2dd&staticRequest=yes')" tagname="/eportal/ui?pageId=2604778&currentPage=27&moduleId=43ced63d2cb4410abe3d029e8a39f2dd&staticRequest=yes" class="pagingNormal">尾页</a> <span style="width:5px;display:inline-block;"></span> </td> 
+        <td nowrap="true" align="left" valign="bottom" style="width:40%;line-height:23px;" class="Normal"> 总记录数:675,每页显示25条记录,当前页: <font color="red" style="font-family:雅黑,宋体">6</font> /27 <span style="width:5px;display:inline-block;"></span> 跳转至第<input type="text" size="2" onkeydown="jumpToPage(event,this,'27','6','/eportal/ui?pageId=2604778&currentPage=%1&moduleId=43ced63d2cb4410abe3d029e8a39f2dd||/muli/2604778/43ced63d-%1.html')" value="6" />页 <input type="button" onclick="jumpTo(this,'27','6','/eportal/ui?pageId=2604778&currentPage=%1&moduleId=43ced63d2cb4410abe3d029e8a39f2dd||/muli/2604778/43ced63d-%1.html')" value="跳转" style="background: none repeat scroll 0 0 #006699;border: 1px solid #D2F3FD;color: white;cursor: pointer;font-size: 1em;height: 23px;padding: 2px 5px;vertical-align: middle;" /> </td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div><input type="hidden" name="article_paging_list_hidden" moduleid="43ced63d2cb4410abe3d029e8a39f2dd" modulekey="43ced63d2cb4410abe3d029e8a39f2dd" totalpage="27" /></td> 
+  </tr> 
+ </tbody> 
+</table> 
+ </div> 
+</div> </td> 
+       </tr> 
+       <tr> 
+        <td id="erji_left" name="左二" runat="server" valign="top" width="460" class=" column"></td> 
+        <td width="20"></td> 
+        <td id="erji_right" name="右二" runat="server" valign="top" width="460" class=" column"></td> 
+       </tr> 
+       <tr> 
+        <td colspan="3" id="main-right" runat="server" name="右通栏二" class=" column"></td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div> 
+    <div style="clear:both;"></div> 
+    <div id="tonglan" runat="server" name="通栏" class=" column">
+          </div> 
+    <div id="main_left1" runat="server" name="下左" class=" column">
+          </div> 
+    <div id="mainright1" runat="server" name="下右" class=" column">
+          </div> 
+    <div style="clear:both;"></div> 
+   </div> 
+  </div> 
+  <div>
+    <div class="footbox">
+    <table class="foot">
+       <!-- <tr>
+            <td colspan="3">
+                <script>
+                  function s_click(nums){    
+                     var num = 0;
+                     var sele=document.getElementById("select"+nums);
+                     for(var i=0;i<sele.options.length;i++){
+                         if(sele.options[i].selected==true){                
+                         num++;         
+                         }   
+                         }     
+                         if(num==1){        
+                         var url = sele.options[sele.selectedIndex].value;    
+                         window.;//这里修改打开连接方式  
+                         }
+                         } 
+                </script>
+         
+            </td>
+        </tr>-->
+        <tr>
+            <td width="440" style="text-align:right;line-height:30px;" class="font12">
+                <p>版权所有：木里藏族自治县人民政府</p> 
+                <p><a href="/muli/_2554118/index.html" target="_blank">网站地图</a> | 
+                <a href="/muli/_2554126/index.html" target="_blank">网站申明</a> | 
+                <!--<a href="#" target="_blank">网站流量统计</a> | -->
+                <a href="/muli/_2554134/index.html" target="_blank">联系我们</a></p>
+            </td>
+            <td width="20"></td>
+            <td width="440" style="text-align:left;line-height:30px;">
+                <p>制作维护：木里藏族自治县人民政府办公室</p>
+                <p>蜀ICP备05005182号 公安机关备案号：51342202000103 网站标识码 5134220001 </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;"><script id="_jiucuo_" sitecode='5134220001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></td>
+            <td style="text-align:center;">
+                <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/353/1992/60040542/CA233531992600405420001.js'type='text/javascript'%3E%3C/script%3E"));</script>
+            </td>
+        </tr>
+    </table>
+  
+
+<div style="float:right"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"););</script></div>
+</div>  </div><div style="display:none" easysite="easysiteHiddenDiv">
+<input type="hidden"  id="currentLoginUserLoginName"/>
+<input type="hidden"  id="currentLoginUserLoginId"/>
+<input type="hidden"  id="currentLoginUserIsSuperAdmin"/>
+</div>
+ </body>
+</html>

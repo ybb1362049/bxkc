@@ -1,0 +1,166 @@
+
+
+
+
+
+ 
+<script>var _ctx="http://218.2.208.144:8094/EBTS";</script>
+
+
+
+
+<!-- <script>var _ctx="http://192.168.3.182:8080/EBTS";</script>  -->
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+    
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/util/sessionOut.js"></script>
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/signature/signature.js"></script>
+<link rel="stylesheet" type="text/css"	href="http://218.2.208.144:8094/EBTS/styles/common.css" />
+<link rel="stylesheet" type="text/css"	href="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css"	href="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/themes/icon.css">
+
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery-1.6.4.min.js"></script>
+<script type="text/javascript"	src="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript"	src="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/locale/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript"	src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery.validate.js"></script>
+<script type="text/javascript"	src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery.metadata.js"></script>
+<script type="text/javascript"	src="http://218.2.208.144:8094/EBTS/scripts/jquery/message_cn.js"></script>
+<script type="text/javascript"	src="http://218.2.208.144:8094/EBTS/scripts/datePicker/WdatePicker.js"></script>
+
+<script type="text/javascript">
+function doShowReport(tender_id,re_bid_number,tb_unit_id){
+	var menuType = "1";		//Read only
+	var open_link = window.open('','_newtab');
+	open_link.location =  "http://218.2.208.144:8094/EBTS/publish/list?searchFlgMenu=" + "0" +
+		"&menuType=" + menuType +
+		"&tender_id=" + tender_id +
+		"&re_bid_number=" + re_bid_number +
+		"&tb_unit_id=" + tb_unit_id +
+		"&fromFlg=9";
+}
+function question(){
+	alert("请用ca在招标投标管理系统里登录后再进行质疑或者投诉");
+	return;
+}
+</script>
+</head>
+<body>
+	<div  id="body" style="width: 90%; padding-left: 0px;">
+	<input type="hidden" name="menuType" id ="menuType" value="">
+		<table width="81%" cellpadding="0" cellspacing="5">
+			<tr>
+				<td valign=top>
+						<input type="button" class="button-css"style="width: 100px; height: 25px" value='返回' onclick="javascript:history.back(-1);">
+						<input type="button" class="button-css"style="width: 100px; height: 25px" value='质疑' onclick="question();">
+						<input type="button" class="button-css"style="width: 100px; height: 25px" value='投诉' onclick="question();">
+				</td>
+			<tr>
+			<tr>
+				<td colspan="2"><div>
+						<p align="center" class="title">南京港龙潭港区汽车滚装码头工程项目评标结果公示</p>
+						<p align="center">
+						<!--//20141106  谷冠威    BUG：EBTS-174   Chg  Start-->
+							<span class="title">发布部门：</span>南京港江盛汽车码头有限公司&nbsp;&nbsp;
+							<span class="title">发布时间：</span>2017-07-14&nbsp; 
+							<span class="title">公告性质：</span>正常
+						</p>
+					</div></td>
+			</tr>
+			<tr>
+				<td align="left">
+					<div >
+			 		<img src="../images/u44_line.png"  width="800px" style="color: #0066FF;height: 4px"/>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div style="padding-left: 40px;">
+						<span  class="title">项目基本信息：</span> <br /> <br /> 
+						<span  class="title">项目名称：&nbsp;</span>南京港龙潭港区汽车滚装码头工程
+						<br /> <br /> <span class="title">项目编号：&nbsp;</span>2016320113QT0124
+						<br /> <br /> <span class="title">标段名称：&nbsp;</span>水工码头及陆域工程监理
+						<br /> <br /> <span class="title">标段编号：&nbsp;</span>2016320113QT0124004 <br />
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					<div style="padding-left: 70px">
+						<p><font color="blue">详细说明：</font></p>
+						
+						
+						<span style="padding-left: 40px" class="tdLabel">经评标委员会评审,南京港龙潭港区汽车滚装码头工程项目,水工码头及陆域工程监理标段：</span>
+						<table style="padding-left: 55px">
+							 
+							 <tr>
+								<td class="tdLabel">第一中标候选人：
+								<a href='#'   onclick='doShowReport("0310c9be85bf4a11bb9de24dd76386aa","0","38f0d2f515b4487997b1236fc0adeb30");'>连云港科谊工程建设咨询有限公司</a>
+								，预期中标价格1140000(元(价格) 或 %(费率)).项目负责人：李大楼</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">第二中标候选人：
+								<a href='#'   onclick='doShowReport("0310c9be85bf4a11bb9de24dd76386aa","0","4b7e4f32c3674d72a78176890fa9a65a");'>南京公正工程监理有限公司</a>
+								，预期中标价格1244500(元(价格) 或 %(费率)).项目负责人：管鸣明</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">第三中标候选人：
+								<a href='#'   onclick='doShowReport("0310c9be85bf4a11bb9de24dd76386aa","0","a9db975c0c864de3a555901c5309e1c9");'>日照港建设监理有限公司</a>
+								，预期中标价格1083000(元(价格) 或 %(费率)).项目负责人：丁济森</td>
+							</tr>
+							 
+						</table>
+						 <span style="padding-left: 40px" class="tdLabel">共有<font color="red">0</font>家单位被废标，废标原因分别如下：</span>
+						<table style="padding-left: 55px">
+							 
+						</table>
+						<span  style="padding-left:40px;color: red">&nbsp;&nbsp;若对评标结果有异议，请在2017-07-15日到2017-07-19日内向招标人(南京港江盛汽车码头有限公司)书面提出；如无异议，招标人将从上述候选人中依法选定中标人。</span>
+					
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div style="padding-left: 70px;">
+						
+							
+							
+								<p><span class="title">异议联系人：&nbsp;</span>陈晓君&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="title">联系电话：</span>13817286137</p>
+							
+						
+						<p><span class="title">发布时间：&nbsp;</span>2017-07-14</p>
+						<p><span class="title">评标地点：&nbsp;</span>南京市公共资源交易中心1264（主中心），扬州市交通运输招标评标中心</p>
+						<p><span class="title">评标完成日期：&nbsp;</span>2017-07-14</p>
+						
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<div>
+					<img src="http://218.2.208.144:8094/EBTS//images/u44_line.png"  width="800px" style="color: #0066FF;height: 4px"/>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

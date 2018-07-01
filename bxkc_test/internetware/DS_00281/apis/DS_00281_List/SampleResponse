@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/TPFront/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/TPFront/Template/Default/css/secondary.css">
+    <script src="/TPFront/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <title>南充公共资源交易中心</title>
+	<script>
+ $(document).ready(function () {
+ //document.getElementById("sp60").style.height=$("#heghtnormal").innerHeight()+200;
+ $("#sp60").innerHeight($("#heghtnormal").innerHeight()+70);
+ $("#totaltop").innerHeight($("#heghtnormal").innerHeight()+70);
+ 
+}
+
+)
+
+</script>
+</head>
+<body class="body">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="renderer" content="webkit">
+<link rel="stylesheet" href="/TPFront/Template/Default/css/common.css">
+<link rel="stylesheet" href="/TPFront/Template/Default/css/index.css">
+<script src="/TPFront/Template/Default/js/jquery-1.11.0.min.js"></script>
+<title>南充公共资源交易中心</title>
+<script type="text/javascript">
+    function search() {
+        if (document.all.keyword.value == ''||document.all.keyword.value == '站内搜索') {
+            alert('搜索字段不能为空！');
+        } else {
+            var openUrl = '/TPFront/showinfo/searchresult.aspx?CategoryNum=&keyword=';
+            openUrl += escape(document.all.keyword.value);
+            openUrl += '&searchtype=' + escape(document.getElementById('selectop').value);
+
+            window.open(openUrl, 'search', '', '');
+        }
+    }
+	function CheckSearch()
+		{
+			if(event.keyCode=="13")
+			{   
+				if(document.all.txtKey.value!="")
+				{
+					search();
+				}
+				else
+				{
+					alert("搜索字段不能为空！");
+				}
+			}
+		}
+		function Clear() {
+             document.all.txtKeys.value = ""
+}
+
+</script>
+</head>
+<body class="body">
+<!-- 顶部logo -->
+<div class="container logo"> <img src="/TPFront/Template/Default/images/logo.png" class="" alt=""> </div>
+<!-- 导航 -->
+<div class="container menu">
+		<ul class="menu-list clearfix">
+				<li class="menu-item "> <a href="/TPFront/Template/Default/../../" class="menu-link width110" target="_top">首页</a> </li>
+				<li class="menu-item"> <a href="/TPFront/Template/Default/../../front_jgjs" class="menu-link" target="_top">机构介绍</a> </li>
+				<li class="menu-item"> <a href="/TPFront/Template/Default/../../front_xwdt" class="menu-link" target="_top">新闻动态</a> </li>
+				<li class="menu-item"> <a href="../../front_zfcg?categoryno=0710&category=" class="menu-link"  target="_top">政府采购</a> </li>
+				<li class="menu-item"> <a href="../../front_gcjs?categoryno=0720&category=" class="menu-link" target="_top">工程建设</a> </li>
+				<li class="menu-item"> <a href="../../front_tdkc?categoryno=0730&category=" class="menu-link" target="_top">土地矿产</a> </li>
+				<li class="menu-item"> <a href="../../front_cqjy?categoryno=0740&category=" class="menu-link" target="_top">产权交易</a> </li>
+				<li class="menu-item"> <a href="/TPFront/Template/Default/../../front_bszn" class="menu-link" target="_top">办事指南</a> </li>
+				<li class="menu-item"> <a href="/TPFront/Template/Default/../../front_zlxz" class="menu-link" target="_top">资料下载</a> </li>
+		</ul>
+</div>
+
+<!-- 天气和搜索框 -->
+<div class="total">
+		<div class="container wea"> <span class="wea-span">今天是：
+				<script type="text/javascript">
+
+                                           today = new Date();
+                                           var hours = today.getHours();
+                                           var minutes = today.getMinutes();
+                                           var seconds = today.getSeconds();
+                                           var timeValue = "<FONT COLOR=red>" + ((hours > 12) ? hours - 12 : hours); timeValue += ((minutes < 10) ? "<BLINK><FONT COLOR=red>:</FONT></BLINK>0" : "<BLINK><FONT COLOR=red>:</FONT></BLINK>") + minutes + "</FONT></FONT>";
+                                           timeValue += (hours >= 12) ? "<FONT COLOR=red><I><B>pm</B></I></FONT>" : "<FONT COLOR=red><B><I>am</I></B></FONT>";
+
+                                           function initArray() {
+                                               this.length = initArray.arguments.length
+                                               for (var i = 0; i < this.length; i++)
+                                                   this[i + 1] = initArray.arguments[i]
+                                           }
+
+                                           var d = new initArray("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+                                           document.write(today.getFullYear(), "年", today.getMonth() + 1, "月", today.getDate(), "日&nbsp;&nbsp;&nbsp;", d[today.getDay() + 1]);       </script>
+				</span> <span class="wea-span">
+				<iframe allowtransparency="true" frameborder="0" width="200" height="30" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=0&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=1&c=54511&w=180&h=36&align=left" style="float:right;margin-left:50px; position: absolute;top:265px;"></iframe>
+				</span>
+				<div class="search">
+						<input type="text" class="sea-text" value="站内搜索"  id="keyword" style="color:#333" onFocus="value=''" onBlur="if(!value)value=defaultValue" onClick="Clear()" onKeyDown="CheckSearch()" >
+						<input id="btnsearch" type="button" class="sea-btn" style="cursor:pointer; border-style:none;" onClick="search()"  />
+				</div>
+				<div style="display:none">
+				<select class="sea-span" id="selectop" style="border:none; border-bottom-style:none" style="color:#CCCCCC">
+						<option>标题搜索</option>
+						
+				</select>
+				</div>
+				
+		</div>
+</div>
+</body>
+</html>
+
+<!-- 主体内容 -->
+ <div class="total" id="totaltop">
+        <div class="container main">
+            <!-- 新闻动态 -->
+            <div class="span6">
+                <div class="normal"  id="sp60">
+                    <div class="main" >
+                        <span class="new-title">政府采购</span>
+                        <a href="/TPFront/front_zfcg/071002" target="_self" class='new-kind'>采购公告</a>
+<a href="/TPFront/front_zfcg/071003" target="_self" class='new-kind onlive'>变更公告</a>
+<a href="/TPFront/front_zfcg/071005" target="_self" class='new-kind'>结果公告</a>
+<a href="/TPFront/front_zfcg/071006" target="_self" class='new-kind'>质疑答复</a>
+<a href="/TPFront/front_zfcg/071007" target="_self" class='new-kind'>合同公示</a>
+<a href="/TPFront/front_zfcg/071008" target="_self" class='new-kind'>区县公告</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="span18 ml10">
+                <div class="localposition">
+                    <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="left"><FONT color="#000000" class=currentpostionfont>您现在的位置：</FONT><A href='/TPFront/'><FONT color="#000000" class="currentpostionfont">首页</FONT></A><FONT color="#ff6600"> > <a href='/TPFront/front_zfcg'><FONT color="#ff6600" class="currentpostionfont">政府采购</font></a> > <a href='/TPFront/front_zfcg/071003'><FONT color="#ff6600" class="currentpostionfont">变更公告</font></a></FONT></TD></TR></table>
+                </div>
+					<iframe  frameborder=0  width="746" height="30" scrolling="no" id="joinasp"></iframe>
+                <div class="normal height577" id="heghtnormal">
+                    	<form name="ctl00" method="post" action="./moreinfo.aspx?Paging=2" id="ctl00">
+<div>
+<input type="hidden" name="__CSRFTOKEN" id="__CSRFTOKEN" value="/wEFJGM4NmMzY2NhLTI5NTktNDNlNy04ZjU3LWU5OGM0YTBkMmJmYw==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU4MzUzNjg5NA9kFgICAQ9kFgJmDw8WCB4LYmdDbGFzc05hbWUFCE1pZGRsZUJnHgtjYXRlZ29yeU51bQUGMDcxMDAzHgZzaXRlaWQCAR4ITWVudUh0bWwFwGc8dWwgY2xhc3M9Imxpc3QtdWwiPg0KIDxsaSBjbGFzcz0ibGlzdC1saSI+DQo8YSAgY2xhc3M9Imxpc3QtYSInPjxzcGFuIGNsYXNzPSJsaXN0LWNvbiI+PGEgaHJlZj0iL1RQRnJvbnQvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPWVhNjgwNDZjLTg5M2ItNGU1MS04YzFiLTg3ZTM3ZmI2OTY0YiZDYXRlZ29yeU51bT0wNzEwMDMiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5Y2X5YWF5biC5bm/5pKt55S16KeG5Y+w6Ziz5YWJ6Zeu6LSj6aG555uu6K6+5aSH5Y+K5a6J6KOF5pS/5bqc6YeH6LSt5pu05q2j5YWs5ZGKIj7ljZflhYXluILlub/mkq3nlLXop4blj7DpmLPlhYnpl67otKPpobnnm67orr7lpIflj4rlronoo4XmlL/lupzph4fotK3mm7TmraPlhazlkYo8L2E+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0aW1lIj4yMDE3LTA2LTIwPC9zcGFuPjwvYT48L2xpPiA8bGkgY2xhc3M9Imxpc3QtbGkiPg0KPGEgIGNsYXNzPSJsaXN0LWEiJz48c3BhbiBjbGFzcz0ibGlzdC1jb24iPjxhIGhyZWY9Ii9UUEZyb250L0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD0wZmM3ZTJmOC0wYzgwLTQ3YTYtYmQ3Zi0wMDY3MzBlOGQ5ODUmQ2F0ZWdvcnlOdW09MDcxMDAzIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuWbm+W3neecgeWNl+WFhemrmOe6p+S4reWtpuWtpueUn+WFrOWvk+iuvuWkh+WPiuWimemdoue/u+aWsOaUv+W6nOmHh+i0reWPmOabtOWFrOWRiiI+5Zub5bed55yB5Y2X5YWF6auY57qn5Lit5a2m5a2m55Sf5YWs5a+T6K6+5aSH5Y+K5aKZ6Z2i57+75paw5pS/5bqc6YeH6LSt5Y+Y5pu05YWs5ZGKPC9hPjwvc3Bhbj48c3BhbiBjbGFzcz0idGltZSI+MjAxNy0wNi0wODwvc3Bhbj48L2E+PC9saT4gPGxpIGNsYXNzPSJsaXN0LWxpIj4NCjxhICBjbGFzcz0ibGlzdC1hIic+PHNwYW4gY2xhc3M9Imxpc3QtY29uIj48YSBocmVmPSIvVFBGcm9udC9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9OWExNTJkMGQtODYwMC00Y2RjLWI3ZDEtMGIzOTJhODczOTlhJkNhdGVnb3J5TnVtPTA3MTAwMyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLljZflhYXluILkuqTpgJrlsYDlhazot6/lt6XnqIvor5Xpqozmo4DmtYvkuK3lv4Plhazot6/lt6XnqIvor5Xpqozmo4DmtYvorr7lpIfmlL/lupzph4fotK3lj5jmm7TlhazlkYoiPuWNl+WFheW4guS6pOmAmuWxgOWFrOi3r+W3peeoi+ivlemqjOajgOa1i+S4reW/g+WFrOi3r+W3peeoi+ivlemqjOajgOa1i+iuvuWkh+aUv+W6nOmHh+i0reWPmOabtOWFrOWRijwvYT48L3NwYW4+PHNwYW4gY2xhc3M9InRpbWUiPjIwMTctMDYtMDc8L3NwYW4+PC9hPjwvbGk+IDxsaSBjbGFzcz0ibGlzdC1saSI+DQo8YSAgY2xhc3M9Imxpc3QtYSInPjxzcGFuIGNsYXNzPSJsaXN0LWNvbiI+PGEgaHJlZj0iL1RQRnJvbnQvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTcxYWNkYWNhLWExNWUtNGYwYi1hODYzLTE0NzI0MTgyMzhlOCZDYXRlZ29yeU51bT0wNzEwMDMiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5Zub5bed55yB6JqV5Lid5a2m5qCh5Lya6K6h5LiT5Lia5pWZ5a2m6L2v5Lu25pS/5bqc6YeH6LSt5Y+Y5pu05YWs5ZGKIj7lm5vlt53nnIHompXkuJ3lrabmoKHkvJrorqHkuJPkuJrmlZnlrabova/ku7bmlL/lupzph4fotK3lj5jmm7TlhazlkYo8L2E+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0aW1lIj4yMDE3LTA2LTA2PC9zcGFuPjwvYT48L2xpPiA8bGkgY2xhc3M9Imxpc3QtbGkiPg0KPGEgIGNsYXNzPSJsaXN0LWEiJz48c3BhbiBjbGFzcz0ibGlzdC1jb24iPjxhIGhyZWY9Ii9UUEZyb250L0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD02MjdmOGU5NS1iN2I3LTQ5ZmQtYWE4Yi1iMDYxODI3ZTgyYTEmQ2F0ZWdvcnlOdW09MDcxMDAzIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuWNl+WFheW4guesrOS6jOekvuS8muemj+WIqemZouepuuiwg+aUv+W6nOmHh+i0reWPmOabtOWFrOWRiiI+5Y2X5YWF5biC56ys5LqM56S+5Lya56aP5Yip6Zmi56m66LCD5pS/5bqc6YeH6LSt5Y+Y5pu05YWs5ZGKPC9hPjwvc3Bhbj48c3BhbiBjbGFzcz0idGltZSI+MjAxNy0wNi0wMTwvc3Bhbj48L2E+PC9saT4gPGxpIGNsYXNzPSJsaXN0LWxpIj4NCjxhICBjbGFzcz0ibGlzdC1hIic+PHNwYW4gY2xhc3M9Imxpc3QtY29uIj48YSBocmVmPSIvVFBGcm9udC9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9ZDk3ZmYwMmQtZTc2Ny00MTk4LTg5YTgtM2NhNGIyOWZkZmFjJkNhdGVnb3J5TnVtPTA3MTAwMyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLljZflhYXluILkuK3nuqfkurrmsJHms5XpmaLmoaPmoYjmlbDlrZfljJbmnI3liqHmlL/lupzph4fotK3lj5jmm7TlhazlkYoiPuWNl+WFheW4guS4ree6p+S6uuawkeazlemZouaho+ahiOaVsOWtl+WMluacjeWKoeaUv+W6nOmHh+i0reWPmOabtOWFrOWRijwvYT48L3NwYW4+PHNwYW4gY2xhc3M9InRpbWUiPjIwMTctMDUtMjc8L3NwYW4+PC9hPjwvbGk+IDxsaSBjbGFzcz0ibGlzdC1saSI+DQo8YSAgY2xhc3M9Imxpc3QtYSInPjxzcGFuIGNsYXNzPSJsaXN0LWNvbiI+PGEgaHJlZj0iL1RQRnJvbnQvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTQ2YmJkMGY2LWMyMzEtNDg4ZC05OWEyLTE1YjYxOTM4YWRkNCZDYXRlZ29yeU51bT0wNzEwMDMiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5Y2X5YWF5biC5Lit57qn5Lq65rCR5rOV6Zmi5qGj5qGI5pWw5a2X5YyW5pyN5Yqh5pS/5bqc6YeH6LSt5Y+Y5pu05YWs5ZGKIj7ljZflhYXluILkuK3nuqfkurrmsJHms5XpmaLmoaPmoYjmlbDlrZfljJbmnI3liqHmlL/lupzph4fotK3lj5jmm7TlhazlkYo8L2E+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0aW1lIj4yMDE3LTA1LTI0PC9zcGFuPjwvYT48L2xpPiA8bGkgY2xhc3M9Imxpc3QtbGkiPg0KPGEgIGNsYXNzPSJsaXN0LWEiJz48c3BhbiBjbGFzcz0ibGlzdC1jb24iPjxhIGhyZWY9Ii9UUEZyb250L0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD1hOTU1YTY5Ni03M2E5LTQ1ZDAtOTU2MS1hN2Y3MWRhZmM2ODEmQ2F0ZWdvcnlOdW09MDcxMDAzIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuWbm+W3neecgeWNl+WFhemrmOe6p+S4reWtpuWtpueUn+WFrOWvk+mSoumXqOeql+abtOaNouWPiuWuieijheaUv+W6nOmHh+i0reWPmOabtOWFrOWRiiI+5Zub5bed55yB5Y2X5YWF6auY57qn5Lit5a2m5a2m55Sf5YWs5a+T6ZKi6Zeo56qX5pu05o2i5Y+K5a6J6KOF5pS/5bqc6YeH6LSt5Y+Y5pu05YWs5ZGKPC9hPjwvc3Bhbj48c3BhbiBjbGFzcz0idGltZSI+MjAxNy0wNS0yMjwvc3Bhbj48L2E+PC9saT4gPGxpIGNsYXNzPSJsaXN0LWxpIj4NCjxhICBjbGFzcz0ibGlzdC1hIic+PHNwYW4gY2xhc3M9Imxpc3QtY29uIj48YSBocmVmPSIvVFBGcm9udC9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9Zjc1ZjQzMDQtMDVjMi00M2M5LWI5MzctZTg2ZmMwYTE1YzQyJkNhdGVnb3J5TnVtPTA3MTAwMyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLljZflhYXluILlm73lnJ/otYTmupDlsYDkuI3liqjkuqfnmbvorrDmlbDmja7mlbTlkIjmnI3liqHmlL/lupzph4fotK3lj5jmm7TlhazlkYoiPuWNl+WFheW4guWbveWcn+i1hOa6kOWxgOS4jeWKqOS6p+eZu+iusOaVsOaNruaVtOWQiOacjeWKoeaUv+W6nOmHh+i0reWPmOabtOWFrOWRijwvYT48L3NwYW4+PHNwYW4gY2xhc3M9InRpbWUiPjIwMTctMDUtMjI8L3NwYW4+PC9hPjwvbGk+IDxsaSBjbGFzcz0ibGlzdC1saSI+DQo8YSAgY2xhc3M9Imxpc3QtYSInPjxzcGFuIGNsYXNzPSJsaXN0LWNvbiI+PGEgaHJlZj0iL1RQRnJvbnQvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTQ1ZmZlYmQyLTJmMzctNGY5NS05NzI4LTdmZjM4NTdiNjIzOCZDYXRlZ29yeU51bT0wNzEwMDMiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5Y2X5YWF5biC5pS/5bqc5Zu95pyJ6LWE5Lqn55uR552j566h55CG5aeU5ZGY5Lya5Zu95pyJ6LWE5Lqn55uR566h5L+h5oGv5YyW5bmz5Y+w5bu66K6+5pS/5bqc6YeH6LSt5Y+Y5pu05YWs5ZGKIj7ljZflhYXluILmlL/lupzlm73mnInotYTkuqfnm5HnnaPnrqHnkIblp5TlkZjkvJrlm73mnInotYTkuqfnm5HnrqHkv6Hmga/ljJblubPlj7Dlu7rorr7mlL/lupzph4fotK3lj5jmm7TlhazlkYo8L2E+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0aW1lIj4yMDE3LTA1LTIyPC9zcGFuPjwvYT48L2xpPiA8bGkgY2xhc3M9Imxpc3QtbGkiPg0KPGEgIGNsYXNzPSJsaXN0LWEiJz48c3BhbiBjbGFzcz0ibGlzdC1jb24iPjxhIGhyZWY9Ii9UUEZyb250L0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD0xZDE1NzBiOS1jY2I0LTQ0MDktODdhMS02OTZkZDNjZDBhYTAmQ2F0ZWdvcnlOdW09MDcxMDAzIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuWNl+WFheW4guS6uuawkeaUv+W6nOWKnuWFrOWupOW4guajgOWvn+mZouaXp+WKnuWFrOWkp+alvOijheS/ruaUuemAoOW3peeoi+aUv+W6nOmHh+i0rea+hOa4heWFrOWRiiI+5Y2X5YWF5biC5Lq65rCR5pS/5bqc5Yqe5YWs5a6k5biC5qOA5a+f6Zmi5pen5Yqe5YWs5aSn5qW86KOF5L+u5pS56YCg5bel56iL5pS/5bqc6YeH6LSt5r6E5riF5YWs5ZGKPC9hPjwvc3Bhbj48c3BhbiBjbGFzcz0idGltZSI+MjAxNy0wNS0yMjwvc3Bhbj48L2E+PC9saT4gPGxpIGNsYXNzPSJsaXN0LWxpIj4NCjxhICBjbGFzcz0ibGlzdC1hIic+PHNwYW4gY2xhc3M9Imxpc3QtY29uIj48YSBocmVmPSIvVFBGcm9udC9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9MGU4NmZiOTgtMzVmZS00NDc5LTg1ZDQtYzhhYjEyNDI3MDI2JkNhdGVnb3J5TnVtPTA3MTAwMyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLlm5vlt53nnIHljZflhYXpq5jnuqfkuK3lrablrabnlJ/lhazlr5PpkqLpl6jnqpfmm7TmjaLlj4rlronoo4XmlL/lupzph4fotK3mvoTmuIXlhazlkYoiPuWbm+W3neecgeWNl+WFhemrmOe6p+S4reWtpuWtpueUn+WFrOWvk+mSoumXqOeql+abtOaNouWPiuWuieijheaUv+W6nOmHh+i0rea+hOa4heWFrOWRijwvYT48L3NwYW4+PHNwYW4gY2xhc3M9InRpbWUiPjIwMTctMDUtMTI8L3NwYW4+PC9hPjwvbGk+IDxsaSBjbGFzcz0ibGlzdC1saSI+DQo8YSAgY2xhc3M9Imxpc3QtYSInPjxzcGFuIGNsYXNzPSJsaXN0LWNvbiI+PGEgaHJlZj0iL1RQRnJvbnQvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTVlOTYxM2Q3LTIxYzQtNGYxYS1hNGUxLWM0ZmYyYzUyY2JkYyZDYXRlZ29yeU51bT0wNzEwMDMiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5Y2X5YWF5biC5YWs5a6J5bGA57uP5rWO5byA5Y+R5Yy65YiG5bGA5omn5rOV5Yqe5qGI5Zy65omA5Yqe5YWs6Ieq5Yqo5YyW6K6+5aSH6YeH6LSt5pu05q2j5YWs5ZGKIj7ljZflhYXluILlhazlronlsYDnu4/mtY7lvIDlj5HljLrliIblsYDmiafms5Xlip7moYjlnLrmiYDlip7lhazoh6rliqjljJborr7lpIfph4fotK3mm7TmraPlhazlkYo8L2E+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0aW1lIj4yMDE3LTA1LTA5PC9zcGFuPjwvYT48L2xpPiA8bGkgY2xhc3M9Imxpc3QtbGkiPg0KPGEgIGNsYXNzPSJsaXN0LWEiJz48c3BhbiBjbGFzcz0ibGlzdC1jb24iPjxhIGhyZWY9Ii9UUEZyb250L0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD03ZmY2YzVmYS01Yjc1LTQxNmYtOWJkNC0xMGQxNTdlY2E0MGYmQ2F0ZWdvcnlOdW09MDcxMDAzIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuS4reWbveWFseS6p+WFmuWNl+WFheW4guWnlOWRmOS8muWFmuagoeOAgeWNl+WFheW4guS4ree6p+S6uuawkeazlemZouWKnuWFrOiHquWKqOWMluiuvuWkh+aUv+W6nOmHh+i0reWPmOabtOWFrOWRiiI+5Lit5Zu95YWx5Lqn5YWa5Y2X5YWF5biC5aeU5ZGY5Lya5YWa5qCh44CB5Y2X5YWF5biC5Lit57qn5Lq65rCR5rOV6Zmi5Yqe5YWs6Ieq5Yqo5YyW6K6+5aSH5pS/5bqc6YeH6LSt5Y+Y5pu05YWs5ZGKPC9hPjwvc3Bhbj48c3BhbiBjbGFzcz0idGltZSI+MjAxNy0wNS0wODwvc3Bhbj48L2E+PC9saT4gPGxpIGNsYXNzPSJsaXN0LWxpIj4NCjxhICBjbGFzcz0ibGlzdC1hIic+PHNwYW4gY2xhc3M9Imxpc3QtY29uIj48YSBocmVmPSIvVFBGcm9udC9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9N2E1MDIyMzUtMmUxMy00ZmY2LWI5ZDgtMmM4Y2E4ODc2MTg1JkNhdGVnb3J5TnVtPTA3MTAwMyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLnrKzkuozlsYrljZflhYXlm73pmYXmnKjlgbboibrmnK/lkajmnKjlgbbnmq7lvbHlmInlubTljY7miafooYzmnI3liqHmlL/lupzph4fotK3lj5jmm7TlhazlkYoiPuesrOS6jOWxiuWNl+WFheWbvemZheacqOWBtuiJuuacr+WRqOacqOWBtuearuW9seWYieW5tOWNjuaJp+ihjOacjeWKoeaUv+W6nOmHh+i0reWPmOabtOWFrOWRijwvYT48L3NwYW4+PHNwYW4gY2xhc3M9InRpbWUiPjIwMTctMDUtMDg8L3NwYW4+PC9hPjwvbGk+IDxsaSBjbGFzcz0ibGlzdC1saSI+DQo8YSAgY2xhc3M9Imxpc3QtYSInPjxzcGFuIGNsYXNzPSJsaXN0LWNvbiI+PGEgaHJlZj0iL1RQRnJvbnQvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTk0ZjU3OWVjLWI4MDEtNDNkYS1iOGY3LTgzY2I0NWU3ODk4NSZDYXRlZ29yeU51bT0wNzEwMDMiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5Zub5bed55yB5Y2X5YWF57K+56We5Y2r55Sf5Lit5b+D5Y2r55Sf5L+d5rSB44CB5L+d5a6J5pyN5Yqh5pS/5bqc6YeH6LSt5Y+Y5pu05YWs5ZGKIj7lm5vlt53nnIHljZflhYXnsr7npZ7ljavnlJ/kuK3lv4PljavnlJ/kv53mtIHjgIHkv53lronmnI3liqHmlL/lupzph4fotK3lj5jmm7TlhazlkYo8L2E+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0aW1lIj4yMDE3LTA1LTA1PC9zcGFuPjwvYT48L2xpPiA8bGkgY2xhc3M9Imxpc3QtbGkiPg0KPGEgIGNsYXNzPSJsaXN0LWEiJz48c3BhbiBjbGFzcz0ibGlzdC1jb24iPjxhIGhyZWY9Ii9UUEZyb250L0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD1iNDZmZDgzZC1jNTdkLTRhNWYtYjg2NS1hYzRlNDIyYjJhYzcmQ2F0ZWdvcnlOdW09MDcxMDAzIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuWNl+WFheW4guS6pOmAmuitpuWvn+aUr+mYn+i9pui+huS6i+aVheaKgOacr+mJtOWumuacjeWKoeaUv+W6nOmHh+i0reabtOato+WFrOWRiiI+5Y2X5YWF5biC5Lqk6YCa6K2m5a+f5pSv6Zif6L2m6L6G5LqL5pWF5oqA5pyv6Ym05a6a5pyN5Yqh5pS/5bqc6YeH6LSt5pu05q2j5YWs5ZGKPC9hPjwvc3Bhbj48c3BhbiBjbGFzcz0idGltZSI+MjAxNy0wNS0wMzwvc3Bhbj48L2E+PC9saT4gPGxpIGNsYXNzPSJsaXN0LWxpIj4NCjxhICBjbGFzcz0ibGlzdC1hIic+PHNwYW4gY2xhc3M9Imxpc3QtY29uIj48YSBocmVmPSIvVFBGcm9udC9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9Y2M1OGEzZjAtYTZlNi00NmJjLWI2ZmMtMGY1NTU0NTNlYzUzJkNhdGVnb3J5TnVtPTA3MTAwMyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLljZflhYXluILkurrmsJHmlL/lupzmlL/liqHmnI3liqHkuK3lv4PmnLrmiL/mlLnpgKDlj4rooYzmlL/mlYjog73op4bpopHnm5Hlr5/ns7vnu5/ljYfnuqfmlL/lupzph4fotK3lj5jmm7TlhazlkYoiPuWNl+WFheW4guS6uuawkeaUv+W6nOaUv+WKoeacjeWKoeS4reW/g+acuuaIv+aUuemAoOWPiuihjOaUv+aViOiDveinhumikeebkeWvn+ezu+e7n+WNh+e6p+aUv+W6nOmHh+i0reWPmOabtOWFrOWRijwvYT48L3NwYW4+PHNwYW4gY2xhc3M9InRpbWUiPjIwMTctMDUtMDI8L3NwYW4+PC9hPjwvbGk+IDxsaSBjbGFzcz0ibGlzdC1saSI+DQo8YSAgY2xhc3M9Imxpc3QtYSInPjxzcGFuIGNsYXNzPSJsaXN0LWNvbiI+PGEgaHJlZj0iL1RQRnJvbnQvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTMwODI3YjE5LWUwNmItNGMyYS1hOWJhLTlhNjczNDY4NmRmYSZDYXRlZ29yeU51bT0wNzEwMDMiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5Y2X5YWF5biC5YWs5a6J5bGA57uP5rWO5byA5Y+R5Yy65YiG5bGA5aSp572R5bu66K6+5pS/5bqc6YeH6LSt5Y+Y5pu05YWs5ZGKIj7ljZflhYXluILlhazlronlsYDnu4/mtY7lvIDlj5HljLrliIblsYDlpKnnvZHlu7rorr7mlL/lupzph4fotK3lj5jmm7TlhazlkYo8L2E+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0aW1lIj4yMDE3LTA1LTAyPC9zcGFuPjwvYT48L2xpPiA8bGkgY2xhc3M9Imxpc3QtbGkiPg0KPGEgIGNsYXNzPSJsaXN0LWEiJz48c3BhbiBjbGFzcz0ibGlzdC1jb24iPjxhIGhyZWY9Ii9UUEZyb250L0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD1iYTFlNzM4MC01Y2VjLTRmYzYtYTUwMS1lNTIzNjk5NThiZTImQ2F0ZWdvcnlOdW09MDcxMDAzIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuWNl+WFheW4guWbveWcn+i1hOa6kOWxgOacuuaIv0lU6K6+5aSH5Y+K5a6J6KOF5pS/5bqc6YeH6LSt5bu25pyf5byA5qCH5YWs5ZGKIj7ljZflhYXluILlm73lnJ/otYTmupDlsYDmnLrmiL9JVOiuvuWkh+WPiuWuieijheaUv+W6nOmHh+i0reW7tuacn+W8gOagh+WFrOWRijwvYT48L3NwYW4+PHNwYW4gY2xhc3M9InRpbWUiPjIwMTctMDUtMDI8L3NwYW4+PC9hPjwvbGk+PC91bD48VEFCTEUgIGNlbGxTcGFjaW5nPTAgY2VsbFBhZGRpbmc9MCB3aWR0aD0xMDAlIGFsaWduPWNlbnRlciBib3JkZXI9MCB2YWxpZ249dG9wPg0KPFRSIGhlaWdodD0xMD48dGQgY29sc3Bhbj0iNyI+PC90ZD48L3RyPg0KPFRSPjx0ZCBjb2xzcGFuPSI3IiBpZD0iUGFnaW5nIiBzdHlsZT0id2lkdGg6NzMwcHg7aGVpZ2h0OjMwcHg7ZmxvYXQ6bGVmdDsiPjxzdHlsZT4ucGFnZW1hcmdpbnttYXJnaW46MHB4fS5tYXJnaW50b3B7bWFyZ2luLXRvcDoxNXB4fS55YWhlaXtmb250LWZhbWlseToiTWljcm9zb2Z0IFlhSGVpIizlvq7ova/pm4Xpu5E7IGZvbnQtc2l6ZToxNHB4OyBmb250LXdlaWdodDpib2xkfS55YWhlaWdve2ZvbnQtZmFtaWx5OiJNaWNyb3NvZnQgWWFIZWkiLOW+rui9r+mbhem7kTsgZm9udC1zaXplOjEycHh9LnJlZGZvbnR7Y29sb3I6cmVkfS5ib3JkZXJjb2xvcntib3JkZXI6c29saWQgMXB4ICNkZmRmZGZ9Lmh1aWZvbnR7Y29sb3I6IzY2NjY2Nn0uc29uZ3Rpe2ZvbnQtc2l6ZToxMnB4fS53ZWlnaHR7Zm9udC13ZWlnaHQ6Ym9sZH0ucGFnZW92ZXJ7IGJhY2tncm91bmQtY29sb3I6Izk5OTk5OTsgYm9yZGVyOnNvbGlkIDFweCAjOTk5OTk5OyBmb250LXNpemU6MTJweDsgY29sb3I6I0ZGRkZGRjtjdXJzb3I6cG9pbnRlcn0ucGFnZW91dHtib3JkZXI6c29saWQgMXB4ICNkZWRlZGU7Zm9udC1zaXplOjEycHg7Y29sb3I6IzY2NjY2NjtjdXJzb3I6cG9pbnRlcn0ubnVtYmVyb3ZlcntiYWNrZ3JvdW5kLWNvbG9yOiM5OTk5OTk7IGJvcmRlcjpzb2xpZCAxcHggIzk5OTk5OTtmb250LWZhbWlseToiTWljcm9zb2Z0IFlhSGVpIizlvq7ova/pm4Xpu5E7IGZvbnQtc2l6ZToxNHB4O2NvbG9yOiNGRkZGRkY7Y3Vyc29yOnBvaW50ZXI7d2lkdGg6MzZweH0ubnVtYmVyb3V0e2JvcmRlcjpzb2xpZCAxcHggI2RlZGVkZTtmb250LWZhbWlseToiTWljcm9zb2Z0IFlhSGVpIizlvq7ova/pm4Xpu5E7IGZvbnQtc2l6ZToxNHB4OyBmb250LXdlaWdodDpib2xkO2NvbG9yOiM2NjY2NjY7Y3Vyc29yOnBvaW50ZXI7d2lkdGg6MzZweH0uZ29vdmVye2JvcmRlcjpzb2xpZCAxcHggI2RmZGZkZjtiYWNrZ3JvdW5kLWNvbG9yOiM5OTk5OTk7Zm9udC1mYW1pbHk6Ik1pY3Jvc29mdCBZYUhlaSIs5b6u6L2v6ZuF6buROyBmb250LXNpemU6MTJweDtjb2xvcjojRkZGRkZGO2N1cnNvcjpwb2ludGVyfS5nb291dHtib3JkZXI6c29saWQgMXB4ICNkZmRmZGY7Zm9udC1mYW1pbHk6Ik1pY3Jvc29mdCBZYUhlaSIs5b6u6L2v6ZuF6buROyBmb250LXNpemU6MTJweDtjb2xvcjo2NjY2NjY7Y3Vyc29yOnBvaW50ZXJ9PC9zdHlsZT48c2NyaXB0IHR5cGU9J3RleHQvamF2YXNjcmlwdCcgc3JjPScvVFBGcm9udC90ZW1wbGF0ZS9kZWZhdWx0L2pzL2pxdWVyeS0xLjkuMS5taW4uanMnPjwvc2NyaXB0PjxzY3JpcHQ+dmFyIHRvdGFsUGFnZU51bXMgPSA2O2Z1bmN0aW9uIEdvVG9QYWdpbmcoKSB7dmFyIG5vID0gKCQoIiNHb1RvUGFnaW5nTm8iKS52YWwoKSk7aWYgKCQuaXNOdW1lcmljKG5vKSkge25vID0gcGFyc2VJbnQobm8pO2lmIChubyA8PSB0b3RhbFBhZ2VOdW1zKSB7U2hvd05ld1BhZ2UoJ21vcmVpbmZvLmFzcHg/UGFnaW5nPScrbm8pO30gZWxzZSB7YWxlcnQoIuacgOWkp+WIhumhteS4uiIgKyB0b3RhbFBhZ2VOdW1zICsgIizor7fph43mlrDovpPlhaXpobXnoIHvvIEiKTskKCIjR29Ub1BhZ2luZ05vIikudmFsKCIiKTskKCIjR29Ub1BhZ2luZ05vIikuZm9jdXMoKTt9fSBlbHNlIHthbGVydCgi6K+36YeN5paw6L6T5YWl5pWw5a2X6aG156CB77yBIik7JCgiI0dvVG9QYWdpbmdObyIpLnZhbCgiIik7JCgiI0dvVG9QYWdpbmdObyIpLmZvY3VzKCk7fX1mdW5jdGlvbiB0YWIoKSB7aWYgKGV2ZW50LmtleUNvZGUgPT0gMTMpeyBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgic3VibWl0MiIpLmNsaWNrKCl9fSAkKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbiAoKSB7ICQoIi5wYWdpbmF0b3IgYSIpLmVhY2goZnVuY3Rpb24gKCkge3ZhciBlbGxpcHNpcyA9ICQodGhpcykudGV4dCgpO2lmIChlbGxpcHNpcyA9PSAiLi4uIikgeyQodGhpcykuY3NzKCJib3JkZXIiLCAiMCIpO319KTt9KTtmdW5jdGlvbiBTaG93TmV3UGFnZShwYWdldXJsKXt3aW5kb3cub3BlbihwYWdldXJsLCdfc2VsZicpfTwvc2NyaXB0PjxkaXYgY2xhc3M9InBhZ2VtYXJnaW4iIHN0eWxlPSIgbWFyZ2luLWxlZnQ6MzBweDsiPjxkaXYgc3R5bGU9ImhlaWdodDoyNnB4O3dpZHRoPTQ5NHB4Ij48dGFibGUgYm9yZGVyPScwJyBjZWxscGFkZGluZz0nMCcgY2VsbHNwYWNpbmc9JzAnPjx0cj48dGQgb25jbGljaz0iU2hvd05ld1BhZ2UoJ21vcmVpbmZvLmFzcHg/UGFnaW5nPTEnKTsiIHRpdGxlPSfovazliLDnrKwx6aG1JyB3aWR0aD0iNjAiIGFsaWduPSJjZW50ZXIiIGNsYXNzPSJwYWdlb3V0IiBvbm1vdXNlb3Zlcj0idGhpcy5jbGFzc05hbWU9J3BhZ2VvdmVyJzsiIG9ubW91c2VvdXQ9InRoaXMuY2xhc3NOYW1lPSdwYWdlb3V0JzsiPummlumhtTwvdGQ+PHRkIHdpZHRoPSI0Ij48L3RkPjx0ZCBvbmNsaWNrPSJTaG93TmV3UGFnZSgnbW9yZWluZm8uYXNweD9QYWdpbmc9MScpOyIgdGl0bGU9J+i9rOWIsOesrDHpobUnIHdpZHRoPSI2MCIgYWxpZ249ImNlbnRlciIgY2xhc3M9InBhZ2VvdXQiIG9ubW91c2VvdmVyPSJ0aGlzLmNsYXNzTmFtZT0ncGFnZW92ZXInOyIgb25tb3VzZW91dD0idGhpcy5jbGFzc05hbWU9J3BhZ2VvdXQnOyI+Jmx0OyDkuIrpobUgPC90ZD48dGQgd2lkdGg9IjQiPjwvdGQ+PHRkIG9uY2xpY2s9IlNob3dOZXdQYWdlKCdtb3JlaW5mby5hc3B4P1BhZ2luZz0xJyk7IiB0aXRsZT0n6L2s5Yiw56ysMemhtScgd2lkdGg9IjM2IiBhbGlnbj0iY2VudGVyIiBjbGFzcz0ibnVtYmVyb3V0IiBvbm1vdXNlb3Zlcj0idGhpcy5jbGFzc05hbWU9J251bWJlcm92ZXInOyIgb25tb3VzZW91dD0idGhpcy5jbGFzc05hbWU9J251bWJlcm91dCc7Ij4xPC90ZD48dGQgd2lkdGg9IjQiPjwvdGQ+PHRkICB3aWR0aD0iMzYiIGFsaWduPSJjZW50ZXIiIGNsYXNzPSJ5YWhlaSByZWRmb250IiA+MjwvdGQ+PHRkIHdpZHRoPSI0Ij48L3RkPjx0ZCBvbmNsaWNrPSJTaG93TmV3UGFnZSgnbW9yZWluZm8uYXNweD9QYWdpbmc9MycpOyIgdGl0bGU9J+i9rOWIsOesrDPpobUnIHdpZHRoPSIzNiIgYWxpZ249ImNlbnRlciIgY2xhc3M9Im51bWJlcm91dCIgb25tb3VzZW92ZXI9InRoaXMuY2xhc3NOYW1lPSdudW1iZXJvdmVyJzsiIG9ubW91c2VvdXQ9InRoaXMuY2xhc3NOYW1lPSdudW1iZXJvdXQnOyI+MzwvdGQ+PHRkIHdpZHRoPSI0Ij48L3RkPjx0ZCBvbmNsaWNrPSJTaG93TmV3UGFnZSgnbW9yZWluZm8uYXNweD9QYWdpbmc9NCcpOyIgdGl0bGU9J+i9rOWIsOesrDTpobUnIHdpZHRoPSIzNiIgYWxpZ249ImNlbnRlciIgY2xhc3M9Im51bWJlcm91dCIgb25tb3VzZW92ZXI9InRoaXMuY2xhc3NOYW1lPSdudW1iZXJvdmVyJzsiIG9ubW91c2VvdXQ9InRoaXMuY2xhc3NOYW1lPSdudW1iZXJvdXQnOyI+NDwvdGQ+PHRkIHdpZHRoPSI0Ij48L3RkPjx0ZCBvbmNsaWNrPSJTaG93TmV3UGFnZSgnbW9yZWluZm8uYXNweD9QYWdpbmc9NScpOyIgdGl0bGU9J+i9rOWIsOesrDXpobUnIHdpZHRoPSIzNiIgYWxpZ249ImNlbnRlciIgY2xhc3M9Im51bWJlcm91dCIgb25tb3VzZW92ZXI9InRoaXMuY2xhc3NOYW1lPSdudW1iZXJvdmVyJzsiIG9ubW91c2VvdXQ9InRoaXMuY2xhc3NOYW1lPSdudW1iZXJvdXQnOyI+NTwvdGQ+PHRkIHdpZHRoPSI0Ij48L3RkPjx0ZCBvbmNsaWNrPSJTaG93TmV3UGFnZSgnbW9yZWluZm8uYXNweD9QYWdpbmc9MycpOyIgdGl0bGU9J+i9rOWIsOesrDPpobUnIHdpZHRoPSI2MCIgYWxpZ249ImNlbnRlciIgY2xhc3M9InBhZ2VvdXQiIG9ubW91c2VvdmVyPSJ0aGlzLmNsYXNzTmFtZT0ncGFnZW92ZXInOyIgb25tb3VzZW91dD0idGhpcy5jbGFzc05hbWU9J3BhZ2VvdXQnOyI+5LiL6aG1ICZndDs8L3RkPjx0ZCB3aWR0aD0iNCI+PC90ZD48dGQgb25jbGljaz0iU2hvd05ld1BhZ2UoJ21vcmVpbmZvLmFzcHg/UGFnaW5nPTYnKTsiIHRpdGxlPSfovazliLDnrKw26aG1JyB3aWR0aD0iNjAiIGFsaWduPSJjZW50ZXIiIGNsYXNzPSJwYWdlb3V0IiBvbm1vdXNlb3Zlcj0idGhpcy5jbGFzc05hbWU9J3BhZ2VvdmVyJzsiIG9ubW91c2VvdXQ9InRoaXMuY2xhc3NOYW1lPSdwYWdlb3V0JzsiPuacq+mhtTwvdGQ+PHRkIHdpZHRoPSIyMCI+PC90ZD48dGQgY2xhc3M9Imh1aWZvbnQiPjIvNjwvdGQ+PHRkIHdpZHRoPSIxMCI+PC90ZD48dGQgY2xhc3M9InNvbmd0aSBodWlmb250Ij7ovaw8L3RkPjx0ZCB3aWR0aD0iNiI+PC90ZD48dGQ+PGlucHV0IHR5cGU9InRleHQiIGlkPSJHb1RvUGFnaW5nTm8iIG9ua2V5ZG93bj0idGFiKCkiICBjbGFzcz0iYm9yZGVyY29sb3IiICBzdHlsZT0ibGluZS1oZWlnaHQ6MjZweDt3aWR0aDo0MHB4OyBoZWlnaHQ6MjZweCIgLz48L3RkPjx0ZCB3aWR0aD0iNiI+PC90ZD48dGQgd2lkdGg9IjMwIiBhbGlnbj0iY2VudGVyIiBjbGFzcz0iZ29vdXQiIGlkPSJzdWJtaXQyIiBvbmNsaWNrPSJHb1RvUGFnaW5nKCk7IiBvbm1vdXNlb3Zlcj0idGhpcy5jbGFzc05hbWU9J2dvb3Zlcic7IiBvbm1vdXNlb3V0PSJ0aGlzLmNsYXNzTmFtZT0nZ29vdXQnOyI+R088L3RkPjwvdGQ+PC90cj48L3RhYmxlPjwvZGl2PjwvZGl2PjwvZGl2Pg0KPC90ZD48L3RyPg0KPC90YWJsZT5kFgJmD2QWAgICD2QWAmYPZBYCAgEPPCsACwEBPCsABQECPCsABAEAFgIeB1Zpc2libGVnZGQvimPjfi55L3fPE2GdrEhvqldIDw==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="EF261C32" />
+</div><table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr style="display: none;">
+		<td id="MoreInfoList1_tdTitle" valign="top" height="22">
+            <span id="MoreInfoList1_lblcategory"></span>
+        </td>
+	</tr>
+	<tr style="display: none;">
+		<td height="8">
+        </td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%">
+            
+        </td>
+	</tr>
+	<tr>
+		<td height="8">
+        </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+        </td>
+	</tr>
+	<tr>
+		<td align="left" height="25">
+            <ul class="list-ul">
+ <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=ea68046c-893b-4e51-8c1b-87e37fb6964b&CategoryNum=071003" target="_blank" title="南充市广播电视台阳光问责项目设备及安装政府采购更正公告">南充市广播电视台阳光问责项目设备及安装政府采购更正公告</a></span><span class="time">2017-06-20</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=0fc7e2f8-0c80-47a6-bd7f-006730e8d985&CategoryNum=071003" target="_blank" title="四川省南充高级中学学生公寓设备及墙面翻新政府采购变更公告">四川省南充高级中学学生公寓设备及墙面翻新政府采购变更公告</a></span><span class="time">2017-06-08</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=9a152d0d-8600-4cdc-b7d1-0b392a87399a&CategoryNum=071003" target="_blank" title="南充市交通局公路工程试验检测中心公路工程试验检测设备政府采购变更公告">南充市交通局公路工程试验检测中心公路工程试验检测设备政府采购变更公告</a></span><span class="time">2017-06-07</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=71acdaca-a15e-4f0b-a863-1472418238e8&CategoryNum=071003" target="_blank" title="四川省蚕丝学校会计专业教学软件政府采购变更公告">四川省蚕丝学校会计专业教学软件政府采购变更公告</a></span><span class="time">2017-06-06</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=627f8e95-b7b7-49fd-aa8b-b061827e82a1&CategoryNum=071003" target="_blank" title="南充市第二社会福利院空调政府采购变更公告">南充市第二社会福利院空调政府采购变更公告</a></span><span class="time">2017-06-01</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=d97ff02d-e767-4198-89a8-3ca4b29fdfac&CategoryNum=071003" target="_blank" title="南充市中级人民法院档案数字化服务政府采购变更公告">南充市中级人民法院档案数字化服务政府采购变更公告</a></span><span class="time">2017-05-27</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=46bbd0f6-c231-488d-99a2-15b61938add4&CategoryNum=071003" target="_blank" title="南充市中级人民法院档案数字化服务政府采购变更公告">南充市中级人民法院档案数字化服务政府采购变更公告</a></span><span class="time">2017-05-24</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=a955a696-73a9-45d0-9561-a7f71dafc681&CategoryNum=071003" target="_blank" title="四川省南充高级中学学生公寓钢门窗更换及安装政府采购变更公告">四川省南充高级中学学生公寓钢门窗更换及安装政府采购变更公告</a></span><span class="time">2017-05-22</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=f75f4304-05c2-43c9-b937-e86fc0a15c42&CategoryNum=071003" target="_blank" title="南充市国土资源局不动产登记数据整合服务政府采购变更公告">南充市国土资源局不动产登记数据整合服务政府采购变更公告</a></span><span class="time">2017-05-22</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=45ffebd2-2f37-4f95-9728-7ff3857b6238&CategoryNum=071003" target="_blank" title="南充市政府国有资产监督管理委员会国有资产监管信息化平台建设政府采购变更公告">南充市政府国有资产监督管理委员会国有资产监管信息化平台建设政府采购变更公告</a></span><span class="time">2017-05-22</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=1d1570b9-ccb4-4409-87a1-696dd3cd0aa0&CategoryNum=071003" target="_blank" title="南充市人民政府办公室市检察院旧办公大楼装修改造工程政府采购澄清公告">南充市人民政府办公室市检察院旧办公大楼装修改造工程政府采购澄清公告</a></span><span class="time">2017-05-22</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=0e86fb98-35fe-4479-85d4-c8ab12427026&CategoryNum=071003" target="_blank" title="四川省南充高级中学学生公寓钢门窗更换及安装政府采购澄清公告">四川省南充高级中学学生公寓钢门窗更换及安装政府采购澄清公告</a></span><span class="time">2017-05-12</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=5e9613d7-21c4-4f1a-a4e1-c4ff2c52cbdc&CategoryNum=071003" target="_blank" title="南充市公安局经济开发区分局执法办案场所办公自动化设备采购更正公告">南充市公安局经济开发区分局执法办案场所办公自动化设备采购更正公告</a></span><span class="time">2017-05-09</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=7ff6c5fa-5b75-416f-9bd4-10d157eca40f&CategoryNum=071003" target="_blank" title="中国共产党南充市委员会党校、南充市中级人民法院办公自动化设备政府采购变更公告">中国共产党南充市委员会党校、南充市中级人民法院办公自动化设备政府采购变更公告</a></span><span class="time">2017-05-08</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=7a502235-2e13-4ff6-b9d8-2c8ca8876185&CategoryNum=071003" target="_blank" title="第二届南充国际木偶艺术周木偶皮影嘉年华执行服务政府采购变更公告">第二届南充国际木偶艺术周木偶皮影嘉年华执行服务政府采购变更公告</a></span><span class="time">2017-05-08</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=94f579ec-b801-43da-b8f7-83cb45e78985&CategoryNum=071003" target="_blank" title="四川省南充精神卫生中心卫生保洁、保安服务政府采购变更公告">四川省南充精神卫生中心卫生保洁、保安服务政府采购变更公告</a></span><span class="time">2017-05-05</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=b46fd83d-c57d-4a5f-b865-ac4e422b2ac7&CategoryNum=071003" target="_blank" title="南充市交通警察支队车辆事故技术鉴定服务政府采购更正公告">南充市交通警察支队车辆事故技术鉴定服务政府采购更正公告</a></span><span class="time">2017-05-03</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=cc58a3f0-a6e6-46bc-b6fc-0f555453ec53&CategoryNum=071003" target="_blank" title="南充市人民政府政务服务中心机房改造及行政效能视频监察系统升级政府采购变更公告">南充市人民政府政务服务中心机房改造及行政效能视频监察系统升级政府采购变更公告</a></span><span class="time">2017-05-02</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=30827b19-e06b-4c2a-a9ba-9a6734686dfa&CategoryNum=071003" target="_blank" title="南充市公安局经济开发区分局天网建设政府采购变更公告">南充市公安局经济开发区分局天网建设政府采购变更公告</a></span><span class="time">2017-05-02</span></a></li> <li class="list-li">
+<a  class="list-a"'><span class="list-con"><a href="/TPFront/InfoDetail/Default.aspx?InfoID=ba1e7380-5cec-4fc6-a501-e52369958be2&CategoryNum=071003" target="_blank" title="南充市国土资源局机房IT设备及安装政府采购延期开标公告">南充市国土资源局机房IT设备及安装政府采购延期开标公告</a></span><span class="time">2017-05-02</span></a></li></ul><TABLE  cellSpacing=0 cellPadding=0 width=100% align=center border=0 valign=top>
+<TR height=10><td colspan="7"></td></tr>
+<TR><td colspan="7" id="Paging" style="width:730px;height:30px;float:left;"><style>.pagemargin{margin:0px}.margintop{margin-top:15px}.yahei{font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold}.yaheigo{font-family:"Microsoft YaHei",微软雅黑; font-size:12px}.redfont{color:red}.bordercolor{border:solid 1px #dfdfdf}.huifont{color:#666666}.songti{font-size:12px}.weight{font-weight:bold}.pageover{ background-color:#999999; border:solid 1px #999999; font-size:12px; color:#FFFFFF;cursor:pointer}.pageout{border:solid 1px #dedede;font-size:12px;color:#666666;cursor:pointer}.numberover{background-color:#999999; border:solid 1px #999999;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#FFFFFF;cursor:pointer;width:36px}.numberout{border:solid 1px #dedede;font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold;color:#666666;cursor:pointer;width:36px}.goover{border:solid 1px #dfdfdf;background-color:#999999;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:#FFFFFF;cursor:pointer}.goout{border:solid 1px #dfdfdf;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:666666;cursor:pointer}</style><script type='text/javascript' src='/TPFront/template/default/js/jquery-1.9.1.min.js'></script><script>var totalPageNums = 6;function GoToPaging() {var no = ($("#GoToPagingNo").val());if ($.isNumeric(no)) {no = parseInt(no);if (no <= totalPageNums) {ShowNewPage('moreinfo.aspx?Paging='+no);} else {alert("最大分页为" + totalPageNums + ",请重新输入页码！");$("#GoToPagingNo").val("");$("#GoToPagingNo").focus();}} else {alert("请重新输入数字页码！");$("#GoToPagingNo").val("");$("#GoToPagingNo").focus();}}function tab() {if (event.keyCode == 13){ document.getElementById("submit2").click()}} $(document).ready(function () { $(".paginator a").each(function () {var ellipsis = $(this).text();if (ellipsis == "...") {$(this).css("border", "0");}});});function ShowNewPage(pageurl){window.open(pageurl,'_self')}</script><div class="pagemargin" style=" margin-left:30px;"><div style="height:26px;width=494px"><table border='0' cellpadding='0' cellspacing='0'><tr><td onclick="ShowNewPage('moreinfo.aspx?Paging=1');" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">首页</td><td width="4"></td><td onclick="ShowNewPage('moreinfo.aspx?Paging=1');" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">&lt; 上页 </td><td width="4"></td><td onclick="ShowNewPage('moreinfo.aspx?Paging=1');" title='转到第1页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">1</td><td width="4"></td><td  width="36" align="center" class="yahei redfont" >2</td><td width="4"></td><td onclick="ShowNewPage('moreinfo.aspx?Paging=3');" title='转到第3页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">3</td><td width="4"></td><td onclick="ShowNewPage('moreinfo.aspx?Paging=4');" title='转到第4页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">4</td><td width="4"></td><td onclick="ShowNewPage('moreinfo.aspx?Paging=5');" title='转到第5页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">5</td><td width="4"></td><td onclick="ShowNewPage('moreinfo.aspx?Paging=3');" title='转到第3页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">下页 &gt;</td><td width="4"></td><td onclick="ShowNewPage('moreinfo.aspx?Paging=6');" title='转到第6页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">末页</td><td width="20"></td><td class="huifont">2/6</td><td width="10"></td><td class="songti huifont">转</td><td width="6"></td><td><input type="text" id="GoToPagingNo" onkeydown="tab()"  class="bordercolor"  style="line-height:26px;width:40px; height:26px" /></td><td width="6"></td><td width="30" align="center" class="goout" id="submit2" onclick="GoToPaging();" onmouseover="this.className='goover';" onmouseout="this.className='goout';">GO</td></td></tr></table></div></div></div>
+</td></tr>
+</table>
+        </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+        </td>
+	</tr>
+</table>
+
+<script>
+    var Tdname = 'MoreInfoList1' + "_tdcontent";
+    document.getElementById(Tdname).className = 'MiddleBg'
+</script>
+</form>
+                </div>
+				
+            </div>
+			
+        </div>
+		
+    </div>
+<div id="buttomTop"><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="renderer" content="webkit">
+<link rel="stylesheet" href="/TPFront/Template/Default/css/common.css">
+<link rel="stylesheet" href="/TPFront/Template/Default/css/index.css">
+<script src="/TPFront/Template/Default/js/jquery-1.11.0.min.js"></script>
+<title>南充公共资源交易中心</title>
+	 <script type="text/javascript" language="javascript">
+
+        //加入收藏
+
+        function AddFavorite(sURL, sTitle) {
+
+            sURL = encodeURI(sURL);
+            try {
+
+                window.external.addFavorite(sURL, sTitle);
+
+            } catch (e) {
+
+                try {
+
+                    window.sidebar.addPanel(sTitle, sURL, "");
+
+                } catch (e) {
+
+                    alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置");
+
+                }
+
+            }
+
+        }
+
+        //设为首页
+
+        function SetHome(url) {
+
+            if (document.all) {
+
+                document.body.style.behavior = 'url(#default#homepage)';
+
+                document.body.setHomePage(url);
+
+            } else {
+
+                alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+
+            }
+
+
+        }
+		
+		function setHomepage(){
+ var url = 'http://ml.lemongame.net'; if (document.all){ document.body.style.behavior='url(#default#homepage)'; document.body.setHomePage(url); }else if (window.sidebar){ if(window.netscape){ try{ netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); }catch (e){ } } var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch); prefs.setCharPref('browser.startup.homepage',url); }else{ } }
+
+    </script>
+	</head>
+<body >
+     
+	 <!-- 底部菜单 -->
+    <div class="container foot-menu mt10">
+        <p class="foot-item">
+            <a href="#" class="foot-link" onClick="SetHome(parent.window.location)" href="javascript:void(0)">设为首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#" class="foot-link" a onClick="AddFavorite(parent.window.location,document.title)">加入收藏</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="/TPFront/Template/Default/../../front_lxwm" class="foot-link">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="/TPFront/Template/Default/../../front_cjwt" class="foot-link">常见问题</a>
+        </p>
+    </div>
+    <!-- 底部文字 -->
+    <div class="container">
+        <p class="message">
+            南充市公共资源交易网&nbsp;&nbsp;&nbsp;  版权所有&nbsp;&nbsp;&nbsp; 蜀ICP备10001680号
+            <br/> 地址：南充市涪江路19号&nbsp;&nbsp;&nbsp;E-mail：nczwzx@qq.com
+            <br/> 制作维护：江苏国泰新点软件有限公司
+            <br/> 您是第<span class="spe"><script src="/TPFront/Template/Default/../../count.aspx"></script></span>访问者
+        </p>
+    </div>
+    <script src="/TPFront/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/TPFront/Template/Default/js/tabview.js"></script>
+    <script src="/TPFront/Template/Default/js/index.js"></script>
+</body>
+</html>
+</div>
+
+
+<script>
+function getQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]); return null;
+        }
+        var categoryno = getQueryString("categoryno");		
+		var category = getQueryString("category");
+		
+		if(category==null)
+		{
+		    var url=document.location.href.replace("http://","");
+			var arrayurl=url.split("/");
+			category=arrayurl[arrayurl.length-2];
+		}
+		
+		
+		document.getElementById("joinasp").src="http://www.scncggzy.com.cn/TPFront/join.aspx?categoryno="+categoryno+"&category="+category;
+</script>
+</body>
+
+</html>

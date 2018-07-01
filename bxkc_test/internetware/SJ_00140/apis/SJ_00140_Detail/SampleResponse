@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<link rel="SHORTCUT ICON" href="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/images/bidder.ico" />
+<title>广西壮族自治区招标投标公共服务平台</title>
+<meta name="keywords"content="中国招标投标公共服务平台,招标投标公共服务平台,招投标公共服务平台,电子招标,电子招投标,中国招标,中国投标,公共服务平台,公共平台,招标公告,评标公示,中标公告,招投标法规,行政监督,平台互联。">
+<meta name="description"content="中国招标投标公共服务平台为招标投标交易平台和当事人提供市场公共信息服务，实现市场信息汇集、共享、动态、公开，为调控和监督市场秩序和配合社会进行社会监督提供数据支持。"> 	
+<link type="text/css" rel="stylesheet" href="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/css/style.css"/>
+<script type="text/javascript" src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/js/jquery-2.0.0.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/DatePicker/calendar.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/DatePicker/WdatePicker.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/js/jq_scroll.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/js/flexpaper_flash.js"></script>
+<script type="text/javascript" src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/layer/layer.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#scrollDiv").Scroll({line:1,speed:500,timer:2000,up:"but_up",down:"but_down"});
+	});
+	</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?da6ebc493961b944c4bf10a22517a198";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>	
+	Date.prototype.Format = function(fmt)
+	{
+		//author: meizz
+		var o =
+			{
+				"M+" : this.getMonth() + 1, //月份
+				"d+" : this.getDate(), //日
+				"H+" : this.getHours(), //小时
+				"m+" : this.getMinutes(), //分
+				"s+" : this.getSeconds(), //秒
+				"q+" : Math.floor((this.getMonth() + 3) / 3), //季度
+				"S" : this.getMilliseconds() //毫秒
+			};
+		if (/(y+)/.test(fmt))
+			fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+		for (var k in o)
+			if (new RegExp("(" + k + ")").test(fmt))
+				fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+		return fmt;
+	}
+
+	Date.prototype.addDays = function(d)
+	{
+		this.setDate(this.getDate() + d);
+	};
+
+	Date.prototype.minusDays = function(d)
+	{
+		if(d==3||d==7){
+			this.setDate(this.getDate() - d+1);
+		}else{
+			this.setDate(this.getDate() - d);
+		}
+	};	
+
+	Date.prototype.addWeeks = function(w)
+	{
+		this.addDays(w * 7);
+	};
+
+	Date.prototype.addMonths= function(m)
+	{
+		var d = this.getDate();
+		this.setMonth(this.getMonth() + m);
+		if (this.getDate() < d)
+			this.setDate(0);
+	};
+
+	Date.prototype.minusMonths= function(m)
+	{
+		var d = this.getDate();
+		this.setMonth(this.getMonth() - m);
+		if (this.getDate() < d)
+			this.setDate(0);
+	};
+
+	Date.prototype.addYears = function(y)
+	{
+		var m = this.getMonth();
+		this.setFullYear(this.getFullYear() + y);
+		if (m < this.getMonth())
+		{
+			this.setDate(0);
+		}
+	};
+</script> 
+	</head>
+
+	<body>
+		<!--top begin-->
+		<div class="top">
+	<div class="contents clear">
+		<div class="topl fl">
+		</div>
+		<div class="topr fr">
+			<p><a href="http://www.cebpubservice.com/" target="_blank">首页</a><span>&nbsp;|&nbsp;</span>
+				   <a href="">收藏</a><span>&nbsp;|&nbsp;</span>
+				   <a href="http://www.cebpubservice.com/low/company/index.shtml">关于我们</a>
+			</p>
+		</div>
+	</div>
+</div>
+ 
+		<!--top end-->
+		<!--banner begin-->
+		<div class="banner">
+	 <img src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/images/banner.png"/>
+</div>
+<div class="banner_btn_pos">
+	<div class="banner_btn">
+		<a href="http://zbtb.gxi.gov.cn:9000/service/" target="_blank"><img src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/images/login_btn.jpg"/></a>
+		<a href="http://zbtb.gxi.gov.cn:9000/service/userRegister.do?goAdd" target="_blank"><img src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/images/registered_btn.jpg"/></a>
+	</div>
+</div>
+ 
+		<!--banner end-->
+		<!--nav begin-->
+		<div class="nav">
+	<div class="contents">
+		<ul class="clear">
+			<li><a href="http://zbtb.gxi.gov.cn:9000/" class="on">专栏首页</a></li>
+			<li><a href="http://zbtb.gxi.gov.cn:9000/xxfbcms/guide.html">发布指南</a></li>					
+			<li><a href="http://zbtb.gxi.gov.cn:9000/xxfbcms/tools.html">发布工具</a></li>
+			<li><a href="http://zbtb.gxi.gov.cn:9000/xxfbcms/media.html">发布媒介</a></li>
+			<li><a href="http://zbtb.gxi.gov.cn:9000/xxfbcms/consult.html">咨询服务</a></li>
+		</ul>
+	</div>
+</div>
+ 
+		<!--nav end-->
+		
+		<!--content begin-->
+		<div class="con contents">
+			<div class="local_tit">
+				<p>
+				   <span>专栏首页</span>
+				   > 
+		              招标公告
+				</p>
+			</div>
+			<div class="mian_list">
+				<!--<div class="mian_list_01">
+					<h3>玉林市玉东新区实验小学建设项目质量检测（项目编号：YDGK2018023）招标公告</h3>
+					<p><span>招标项目编号：Z4501001924G00037</span><span>来源渠道：发布工具</span></p>
+						<div class="digital_label">
+							<ul class="clear">
+								<li class="digital_label_on"><span class="digital_label_one">1</span></li>
+								<li><span>2</span></li>
+								<li><span>3</span></li>
+							</ul>
+						</div>
+						<div class="digital_label_text">
+							<ul class="clear">
+								<li>招标公告</li>
+								<li>中标候选人公示</li>
+								<li>中标结果公示</li>
+							</ul>
+						</div>
+				</div>-->
+				<div class="mian_list_02">
+						<h3>玉林市玉东新区实验小学建设项目质量检测（项目编号：YDGK2018023）招标公告</h3>
+						<p>
+							<span>发布日期：<a href="">2018年04月24日</a></span>
+							<span>发布媒介：<a href="" target="_blank">广西招标投标公共服务平台</a></span>
+							<span>来源渠道：<a href="" target="_blank">发布工具</a></span>
+							<span><a href="" class="link_01" target="_blank">原文链接地址</a></span>
+							<!---->
+						</p>
+				</div>
+				<div class="mian_list_03" style="padding:16px 16px;">
+					<div class="tit_bt1">
+						<p><i>01</i>&nbsp;&nbsp;公告内容<img src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/images/line_01.png"/></p>
+					</div>	
+					<a id="viewerPlaceHolder" style="width: 100%; height: 660px; display: block"></a>
+					<script type="text/javascript">
+						var fp = new FlexPaperViewer(
+							'http://bulletin.cebpubservice.com/FlexPaperViewer',
+							'viewerPlaceHolder', {
+								config : {
+									SwfFile : escape('http://zbtb.gxi.gov.cn:9000/project//2018-04/noticeFile/Z4501001924G00037001/5af05a1c10df495c9ba06bc08de46f4f.swf'),
+									EncodeURI : true,
+									Scale : 0.6,
+									ZoomTransition : 'easeOut',
+									ZoomTime : 0.5,
+									ZoomInterval : 0.2,
+									FitPageOnLoad : true,
+									FitWidthOnLoad : true,
+									PrintEnabled: false,//是否支持打印
+									FullScreenAsMaxWindow : false,
+									ProgressiveLoading : true,
+									MinZoomSize : 0.2,
+									MaxZoomSize : 5,
+									SearchMatchAll : false,
+									InitViewMode : 'Portrait',
+									ViewModeToolsVisible : true,
+									ZoomToolsVisible : true,
+									NavToolsVisible : true,
+									CursorToolsVisible : true,
+									SearchToolsVisible : true,
+									localeChain : 'zh_CN'
+								}
+							});
+					</script>				
+				</div>
+				<div class="mian_list_04">
+					<div class="tit_bt1">
+						<p><i>02</i>&nbsp;&nbsp;监督部门<img src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/images/line_01.png"/></p>
+						<p class="mian_list_04_text"><span>玉林市玉东新区行政审批局</span></p>
+					</div>
+				</div>				
+			</div>
+		</div>
+		<!--content end-->
+		
+		<!--footer begin-->
+		<div class="footer contents">
+	<div class="fastNav clear">
+		<h3 class="fl">快速导航</h3>
+		<div class="nav_1 fl">
+			<select onchange="if(this.options[this.selectedIndex].value!=1){window.open(this.options[this.selectedIndex].value)}"> 
+				<option value="1">--指导单位--</option>
+				<option value="http://fgs.ndrc.gov.cn/">国家发展和改革委员会法规司</option>
+				<option value="http://www.ctba.org.cn/">中国招标投标协会</option>
+			</select>
+		</div>
+		<div class="nav_1 fl">
+			<select onchange="if(this.options[this.selectedIndex].value!=1){window.open(this.options[this.selectedIndex].value)}">
+				<option value="1">--国家部委--</option>
+				<option value="http://www.miit.gov.cn/">中华人民共和国工业和信息化部</option>
+				<option value="http://www.ccdi.gov.cn/">中华人民共和国监察部</option>
+				<option value="http://www.mohurd.gov.cn/">中华人民共和国住房和城乡建设部</option>
+				<option value="http://www.moc.gov.cn/">中华人民共和国交通运输部</option>
+				<option value="http://www.mwr.gov.cn/">中华人民共和国水利部</option>
+				<option value="http://www.mofcom.gov.cn/">中华人民共和国商务部</option>
+			</select>
+		</div>
+		<div class="nav_1 fl">
+			<select onchange="if(this.options[this.selectedIndex].value!=1){window.open(this.options[this.selectedIndex].value)}">
+				<option value="1">--交易平台--</option>
+				<option value="http://www.ah-inter.com/">安徽省招标集团股份有限公司</option>
+				<option value="http://www.bitbid.cn/">比比网电子招标投标交易平台</option>
+				<option value="http://www.caiyunzb.com/">彩云电子招标采购平台</option>
+				<option value="http://jyzx.dfmbidding.com/">东风招投标交易中心</option>
+				<option value="http://www.gsebidding.com/">甘肃省政府投资项目电子招投标交易平台</option>
+				<option value="http://www.e-bidding.org/">国信阳光电子招投标平台</option>
+				<option value="http://www.ebidding.com/">国义招标采购平台</option>
+				<option value="http://www.sunbidding.com/">河南阳光电子招标采购交易平台</option>
+				<option value="http://www.hbggzy.cn/">湖北省公共资源电子交易平台</option>
+				<option value="http://www.szyc99.cn/index/transaction/">江苏省机电设备招标投标交易平台</option>
+				<option value="http://www.jociec.com/">江苏海外招标业务管理系统</option>
+				<option value="http://www.lyos.com.cn/">洛阳市服务外包公共信息平台</option>
+				<option value="http://www.njhwzbb.com/Supervision/SupervisionLogin">南京市货物招标投标监督平台</option>
+				<option value="http://www.sxdzzb.com/">山西伟拓电子招标投标交易平台</option>
+				<option value="http://bidshanxiarea.youliannet.com/">陕西诚信达</option>
+				<option value="http://www.tzztb.com/">台州公共资源交易中心网</option>
+				<option value="http://www.wiscobidding.com.cn/">武钢电子招标投标平台</option>
+				<option value="http://www.jy.whzbtb.com/">武汉市建设工程招标投标交易平台</option>
+				<option value="http://sspmc.ebidding.net.cn/">西南项管电子招标投标系统</option>
+				<option value="http://xzitc.ebidding.net.cn/">西招国际电子招标投标系统</option>
+				<option value="http://www.ebidding.cn/">阳光高采</option>
+				<option value="http://www.etrading.cn/">阳光云采</option>
+				<option value="http://www.youzhicai.com/">优质采电子交易平台</option>
+				<option value="http://www.zcjb.com.cn/">招采进宝平台</option>
+				<option value="http://www.zhaotx.cn/">招天下全流程电子招标采购平台</option>
+				<option value="http://www.cpeinet.com.cn/">中国电力设备信息网电子商务平台</option>
+				<option value="http://ebidding.sinopec.com/">中国石化电子招标投标交易网</option>
+				<option value="http://www.westebidding.com/">中国西部公共资源交易网</option>
+				<option value="http://www.coc-ebidding.com/ZHJ_Web/">中海建公共资源电子招投标交易网</option>
+				<option value="http://bid.aited.cn/">中航招标网</option>
+				<option value="http://www.zmzb.com/">中煤招标网</option>
+				<option value="http://www.jtsww.com/">建投商务网</option>
+				<option value="http://www.zybtp.com">中原招采网</option>				
+			</select>
+		</div>
+		<div class="nav_1 fl">
+			<select onchange="if(this.options[this.selectedIndex].value!=1){window.open(this.options[this.selectedIndex].value)}">
+				<option value="1">--友情链接--</option>
+				<option value="http://www.ggzy.gov.cn/">全国公共资源交易平台</option>
+				<option value="http://www.zbsonline.com/">招标师在线</option>
+				<option value="http://www.chinabidding.com.cn/">中国采购与招标网</option>
+				<option value="http://www.caigou2003.com/">政府采购信息网</option>
+				<option value="http://www.crd.net.cn/">中国改革报</option>
+				<option value="http://www.ctw.net.cn/">中国招标周刊</option>
+				<option value="http://www.cfen.com.cn/web/meyw/node_7710.htm">中国政府采购报</option>
+				<option value="http://zbcggl.ctba.org.cn/">招标采购管理</option>
+				<option value="http://www.100njz.com">百年建筑</option>
+			</select>
+		</div>
+	</div>
+
+	<ul class="bomLink clear">
+		<li><a href="#">平台简介</a>|</li>
+		<li><a href="#">联系我们</a>|</li>
+		<li><a href="#">广告服务</a>|</li>
+		<li><a href="#">招聘信息</a>|</li>
+		<li><a href="#">网站地图</a>|</li>
+		<li><a href="#">版权声明</a>|</li>
+		<li><a target="_blank" href="https://weibo.com/u/5883637562">公司微博</a>|</li>
+		<li><a target="_blank" href="http://blog.sina.com.cn/u/5883637562">公司博客</a></li>
+	</ul>
+	
+	<div class="ft">
+		<p>
+			<span>公司总机：010-88484118</span>
+			<span>传真：010-88484119</span>
+		</p>
+		<p>
+			<a href=""><img src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/images/ghs.png"/><span class="ghs_icon">京公网安备 11010802020185号</span></a>
+			<span>京ICP备15011138号</span>
+			<span>版权所有：中国招标公共服务平台有限公司</span>
+			<span><img src="http://zbtb.gxi.gov.cn:9000/resource/site_2//ceb/images/pic.gif"/></span>
+		</p>
+	</div>
+</div>
+ 
+		<!--footer end-->
+	</body>
+</html>

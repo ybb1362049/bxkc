@@ -1,0 +1,1175 @@
+ <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>采购询价_【湖南水口山有色金属集团有限公司阳光购销平台】</title>
+    <link href="http://120.77.218.152/template/default/Res/styles/main.css" rel="stylesheet" />
+    <script src="http://120.77.218.152/template/default/Res/js/jquery.js"></script>
+    <script src="http://120.77.218.152/template/default/Res/js/jquery.cycle2.js?1"></script>
+</head>
+<body>
+    <div class="m-warp">
+        <div class="m-body">
+            
+            <!-- head开始 -->
+            <div class="m-head">
+                <div class="m-container">
+                    <a href="http://120.77.218.152/" class="head-logo g-left">
+                        <img src="http://120.77.218.152/template/default/Res/images/logo/logohead.jpg" />
+                    </a>
+                    <div class="head-search g-right" style="display:none;">
+                        <div class="m-search">
+                           <form id="form2" name="form2" method="post" action="http://120.77.218.152/search/search.php?lang=cn">
+                            <div class="g-left">
+                                <select class="ui-select search-select" name="search">
+                                    <option value="all">所有栏目</option>
+						        	<option value="1">招标项目</option>
+						        	<option value="2">采购询价</option>
+						        	<option value="3">中标公告</option>
+						        	<option value="6">服务指南</option>
+                                </select>
+                            </div>
+                            <input type="text" placeholder=""  class="search-text g-left" name="key" id="key" onfocus="if(this.value == '输入关键字') {this.value='';}" onblur="if(this.value == '') {this.value='输入关键字';}" />
+                            <input type="submit" value="搜 索" class="search-btn g-left" />
+                          </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- head结束 -->
+            <!-- nav开始 -->
+            <div class="m-nav">
+                <div class="m-container">
+                    <ul>
+                        <li><a href="http://120.77.218.152/" >平台首页</a></li>
+<!--                         <li> -->
+<!--                             <a href="#" class="icon-bg">招标项目</a> -->
+<!--                             <dl> -->
+<!--                                 <dd><a href="#">子导航</a></dd> -->
+<!--                                 <dd><a href="#">子导航</a></dd> -->
+<!--                                 <dd><a href="#">子导航</a></dd> -->
+<!--                                 <dd><a href="#">子导航</a></dd> -->
+<!--                             </dl> -->
+<!--                         </li> -->
+															            <li><a href="http://120.77.218.152/invite_notice/invite_notice.php?id=1"> 招标项目</a></li>
+			            			            									        	<li><a href="http://120.77.218.152/inquire_notice/inquire_notice.php?id=2" class="on">采购询价</a></li>
+			        				            									            <li><a href="http://120.77.218.152/article/article.php?id=3"> 中标公告</a></li>
+			            			            									            <li><a href="/alone/alone.php?id=12"> 管理规范</a></li>
+			            			            									            <li><a href="http://120.77.218.152/article/article.php?id=6"> 服务指南</a></li>
+			            			            									            <li><a href="http://120.77.218.152/alone/alone.php?id=7"> 联系方式</a></li>
+			            			            									            <li><a href="http://120.77.218.152/mx_form/mx_form.php?id=8"> 投诉建议</a></li>
+			            			                                    
+                    </ul>
+                </div>
+            </div>
+            <!-- nav结束 -->            <!-- banner开始 -->
+            
+            <!-- banner开始 -->
+            <div class="m-banner cycle-slideshow" data-cycle-slides=".banner-img">
+                <a class="banner-img" style="background:url(http://120.77.218.152/template/default/Res/images/test/ad001.jpg) no-repeat center;"></a>
+                <a class="banner-img" style="background:url(http://120.77.218.152/template/default/Res/images/test/ad002.jpg) no-repeat center;display:none;"></a>
+                <a class="banner-img" style="background:url(http://120.77.218.152/template/default/Res/images/test/ad003.jpg) no-repeat center;display:none;"></a>
+                <div class="cycle-pager"></div>
+                <div class="m-container">
+                    <div class="m-inxlogin" style="display:none;">
+                        <div class="login-box">
+                            <ul>
+                                <li>
+                                    <span class="g-left icon-bg icon-zy">项目数</span>
+                                    <span class="g-right"><strong>662</strong>条</span>
+                                </li>
+                                <li>
+                                    <span class="g-left icon-bg icon-head">供应商</span>
+                                    <span class="g-right"><strong>1465</strong>家</span>
+                                </li>
+                                <li>
+                                    <span class="g-left icon-bg icon-head">客商</span>
+                                    <span class="g-right"><strong>213</strong>家</span>
+                                </li>
+                            </ul>
+                            <div class="login-style">
+                            	                            <a href="http://120.77.218.152/member/member.php?action=login" class="icon-bg login-gys">供应商中心</a>
+	                            <a href="http://120.77.218.152/member/member_ks.php?action=login" class="icon-bg login-ks">客商中心</a>
+                                                        </div>
+<!--                             <a href="#" class="login-kj">快捷登录</a> -->
+                        </div>
+                        <div class="login-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner结束 -->            <!-- banner结束 -->
+            <!-- 主体内容开始 -->
+            <div class="m-container pb40">
+                <div class="t-title03 mt45">
+                    <h2>金信汽修车间前牙包等汽车配件询价采购<span></span></h2>
+                    <div class="title-line"><span></span></div>
+                </div>
+                <div class="mt45" style=" box-shadow: 0px 0px 5px #e2e2e2;padding: 20px;">
+	                <div style="margin-bottom:16px" >
+	                   <span>发布时间：2018-01-12</span>&nbsp;&nbsp;
+	                   <span>浏览次数：<script language="javascript" src="http://120.77.218.152/includes/hits.php?id=886"></script></span></h1>
+	                 </div>
+	                            	<div>
+						请各供方在截止日期内报价！<br/>
+						询价物资明细:
+					</div>
+					
+					<table class="sjs"  border="1" cellspacing="0" cellpadding="0" width="100%">
+						<tr style="background-color: #f5fafa"> 
+							<td width="5%" class="alt"  align="center" height="50">序号</td>
+							<td width="10%" class="alt"  align="center">物资编码</td>
+							<td width="15%" class="alt"  align="center">物资名称</td>
+							<td width="25%" class="alt"  align="center">规格型号 </td>
+							<td width="5%" class="alt"  align="center">单位 </td>				
+							<td width="5%" class="alt"  align="center">采购量 </td>	
+							<td width="7%" class="alt"  align="center">仓库</td>	
+							<td width="7%" class="alt"  align="center">备注</td>
+							<td width="7%" class="alt"  align="center">需求时间</td>
+							<td width="20%" class="alt"  align="center">报价截止时间</td>
+					   	</tr>
+											<tr >		
+							<td  class="dat"  align="center">1 </td>
+							<td  class="dat"  align="center">320202030015725 </td>
+							<td  class="dat"  align="center">前牙包 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工942装载机</td>
+							<td  class="dat"  align="center">个</td>
+							<td  class="dat"  align="center">1 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">2 </td>
+							<td  class="dat"  align="center">320202035007300 </td>
+							<td  class="dat"  align="center">活塞 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">406307E 厦工951装载机</td>
+							<td  class="dat"  align="center">件</td>
+							<td  class="dat"  align="center">6 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">3 </td>
+							<td  class="dat"  align="center">290501045004090 </td>
+							<td  class="dat"  align="center">机油滤清器总成 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">上柴6135</td>
+							<td  class="dat"  align="center">个</td>
+							<td  class="dat"  align="center">1 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">4 </td>
+							<td  class="dat"  align="center">320202035005750 </td>
+							<td  class="dat"  align="center">差速器总成 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">504320A 厦工951装载机</td>
+							<td  class="dat"  align="center">件</td>
+							<td  class="dat"  align="center">1 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">5 </td>
+							<td  class="dat"  align="center">290501045004050 </td>
+							<td  class="dat"  align="center">机油冷却器 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">上柴6135</td>
+							<td  class="dat"  align="center">件</td>
+							<td  class="dat"  align="center">2 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">6 </td>
+							<td  class="dat"  align="center">320202060000450 </td>
+							<td  class="dat"  align="center">多路阀 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">ZL50D/23.5-15 厦工ZL50D</td>
+							<td  class="dat"  align="center">根</td>
+							<td  class="dat"  align="center">3 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">7 </td>
+							<td  class="dat"  align="center">320202035011355 </td>
+							<td  class="dat"  align="center">齿轮泵 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工951装载机    3160</td>
+							<td  class="dat"  align="center">台</td>
+							<td  class="dat"  align="center">2 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">8 </td>
+							<td  class="dat"  align="center">290501055005570 </td>
+							<td  class="dat"  align="center">齿轮泵 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">2100</td>
+							<td  class="dat"  align="center">台</td>
+							<td  class="dat"  align="center">2 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">9 </td>
+							<td  class="dat"  align="center">320202015005950 </td>
+							<td  class="dat"  align="center">变速箱直接挡总成 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">柳工ZL50C装载机</td>
+							<td  class="dat"  align="center">件</td>
+							<td  class="dat"  align="center">1 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">10 </td>
+							<td  class="dat"  align="center">320202062000200 </td>
+							<td  class="dat"  align="center">转向缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工ZL50E</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">11 </td>
+							<td  class="dat"  align="center">320202010013265 </td>
+							<td  class="dat"  align="center">转向缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">柳工ZL40B</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">12 </td>
+							<td  class="dat"  align="center">320202062000200 </td>
+							<td  class="dat"  align="center">转向缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工ZL50E</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">13 </td>
+							<td  class="dat"  align="center">320202058000205 </td>
+							<td  class="dat"  align="center">动臂缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工ZL40E</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">14 </td>
+							<td  class="dat"  align="center">320202030005700 </td>
+							<td  class="dat"  align="center">后传动轴 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">404200B 厦工942装载机</td>
+							<td  class="dat"  align="center">件</td>
+							<td  class="dat"  align="center">2 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">320202040009500 </td>
+							<td  class="dat"  align="center">空气加力泵 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">XM60A 厦工952装载机</td>
+							<td  class="dat"  align="center">件</td>
+							<td  class="dat"  align="center">10 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">16 </td>
+							<td  class="dat"  align="center">320202020000890 </td>
+							<td  class="dat"  align="center">卸荷阀 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">柳州ZL30E装载机</td>
+							<td  class="dat"  align="center">个</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">17 </td>
+							<td  class="dat"  align="center">320202061000200 </td>
+							<td  class="dat"  align="center">转斗缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工开拓者    50</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">18 </td>
+							<td  class="dat"  align="center">320202058000205 </td>
+							<td  class="dat"  align="center">动臂缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工ZL40E</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">19 </td>
+							<td  class="dat"  align="center">320202058000205 </td>
+							<td  class="dat"  align="center">动臂缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工ZL40E</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">20 </td>
+							<td  class="dat"  align="center">320202061000205 </td>
+							<td  class="dat"  align="center">转向缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工ZL50D开拓者</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">21 </td>
+							<td  class="dat"  align="center">320202061000200 </td>
+							<td  class="dat"  align="center">转斗缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工开拓者    50</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">22 </td>
+							<td  class="dat"  align="center">320202010013260 </td>
+							<td  class="dat"  align="center">转斗缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">柳工ZL40B</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">23 </td>
+							<td  class="dat"  align="center">320202058000215 </td>
+							<td  class="dat"  align="center">转斗缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工40E</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">24 </td>
+							<td  class="dat"  align="center">320202020000270 </td>
+							<td  class="dat"  align="center">举升缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">柳州ZL30E装载机</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">25 </td>
+							<td  class="dat"  align="center">320202020000280 </td>
+							<td  class="dat"  align="center">翻斗缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">柳州ZL30E装载机</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">26 </td>
+							<td  class="dat"  align="center">320202020000290 </td>
+							<td  class="dat"  align="center">转向缸油封 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">柳州ZL30E装载机</td>
+							<td  class="dat"  align="center">套</td>
+							<td  class="dat"  align="center">15 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">27 </td>
+							<td  class="dat"  align="center">320101020000200 </td>
+							<td  class="dat"  align="center">定量泵 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">铲运机</td>
+							<td  class="dat"  align="center">个</td>
+							<td  class="dat"  align="center">2 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">28 </td>
+							<td  class="dat"  align="center">320202060000400 </td>
+							<td  class="dat"  align="center">操纵软轴 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">厦工ZL50D装载机</td>
+							<td  class="dat"  align="center">根</td>
+							<td  class="dat"  align="center">6 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">29 </td>
+							<td  class="dat"  align="center">320202015019000 </td>
+							<td  class="dat"  align="center">操纵软轴 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">柳工ZL50C装载机</td>
+							<td  class="dat"  align="center">个</td>
+							<td  class="dat"  align="center">6 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">320202060001260 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">6MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">31 </td>
+							<td  class="dat"  align="center">320202060001265 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">12MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">32 </td>
+							<td  class="dat"  align="center">320202060001270 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">16mm</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">33 </td>
+							<td  class="dat"  align="center">320202060001275 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center"></td>
+							<td  class="dat"  align="center">根</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">34 </td>
+							<td  class="dat"  align="center">320202060001280 </td>
+							<td  class="dat"  align="center">耐油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">30MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">35 </td>
+							<td  class="dat"  align="center">320202060001285 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">18MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">36 </td>
+							<td  class="dat"  align="center">320202060001290 </td>
+							<td  class="dat"  align="center">耐油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">45MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">37 </td>
+							<td  class="dat"  align="center">320202060001295 </td>
+							<td  class="dat"  align="center">耐油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">13MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">38 </td>
+							<td  class="dat"  align="center">320202060001300 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">32MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">39 </td>
+							<td  class="dat"  align="center">320202060001305 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">19MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">40 </td>
+							<td  class="dat"  align="center">320202060001310 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">13MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">41 </td>
+							<td  class="dat"  align="center">320202060001315 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">25MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">42 </td>
+							<td  class="dat"  align="center">320202060001320 </td>
+							<td  class="dat"  align="center">高压油管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">38MM</td>
+							<td  class="dat"  align="center">米</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">43 </td>
+							<td  class="dat"  align="center">320202060001190 </td>
+							<td  class="dat"  align="center">弯头带O型圈 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">12MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">44 </td>
+							<td  class="dat"  align="center">320202060001195 </td>
+							<td  class="dat"  align="center">铆壳 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center"></td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">45 </td>
+							<td  class="dat"  align="center">320202060001200 </td>
+							<td  class="dat"  align="center">锥口带O型圈 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">10MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">46 </td>
+							<td  class="dat"  align="center">320202060001245 </td>
+							<td  class="dat"  align="center">普接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">13MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">47 </td>
+							<td  class="dat"  align="center">320202060001210 </td>
+							<td  class="dat"  align="center">锥口弯接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">13MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">48 </td>
+							<td  class="dat"  align="center">320202060001215 </td>
+							<td  class="dat"  align="center">锥口带O型圈 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">20MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">49 </td>
+							<td  class="dat"  align="center">320202060001220 </td>
+							<td  class="dat"  align="center">普接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">25MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">320202060001225 </td>
+							<td  class="dat"  align="center">锥口直接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">16MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">51 </td>
+							<td  class="dat"  align="center">320202060001230 </td>
+							<td  class="dat"  align="center">喇叭口弯接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">25MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">52 </td>
+							<td  class="dat"  align="center">320202060001235 </td>
+							<td  class="dat"  align="center">锥口大弯接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">25MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">53 </td>
+							<td  class="dat"  align="center">320202060001240 </td>
+							<td  class="dat"  align="center">锥口直接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">33MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">54 </td>
+							<td  class="dat"  align="center">320202060001205 </td>
+							<td  class="dat"  align="center">普接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">0.8MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">55 </td>
+							<td  class="dat"  align="center">320202060001250 </td>
+							<td  class="dat"  align="center">平口直接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">20MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">56 </td>
+							<td  class="dat"  align="center">320202060001255 </td>
+							<td  class="dat"  align="center">锥口直接 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">25MM</td>
+							<td  class="dat"  align="center">只</td>
+							<td  class="dat"  align="center">30 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						<tr >		
+							<td  class="dat"  align="center">57 </td>
+							<td  class="dat"  align="center">320202020000630 </td>
+							<td  class="dat"  align="center">刹车铜管 </td>
+				<!--			<td class="tr"  align="right">150400000454 </td>-->
+							<td  class="dat"  align="center">柳州ZL30E装载机</td>
+							<td  class="dat"  align="center">根</td>
+							<td  class="dat"  align="center">50 </td>
+							<td  class="dat"  align="center">金信汽修车间 </td>
+							<td  class="dat"  align="center">  </td>
+							<td  class="dat"  align="center"> 按买方通知送货时间 </td>
+							<td  class="dat"  align="center"> 2018-01-15 09:00 </td>
+					  
+					   	</tr>
+					 						
+						
+					</table>
+					<table style="margin-top:10px;" border="1" cellspacing="0" cellpadding="0" width="100%">
+					<tr > 
+						<td style="font-size:16px;font-weight:800;" align="center">询价项目说明</td>
+					   	</tr>
+						<tr > 
+						<td align="left">&nbsp;&nbsp;&nbsp;&nbsp;1、报价为最终价格，且每项都必须填报，保留到小数点后两位，并包含相应国家地方规定的税费，一票制，税率17%。2、按国家标准、行业标准和需方技术要求验收。 3、报价方承诺采购量内和供应期内不调整价格。4、本次业务联系人及电话：</td>
+					   	</tr>
+					
+						
+						
+					</table>
+					<table style="margin-top:10px;" border="1" cellspacing="0" cellpadding="0" width="100%">
+					<tr > 
+						<td style="font-size:16px;font-weight:800;" align="center">其他信息</td>
+					</tr>
+					<tr > 
+						<td>
+							<div style="padding-left: 15px; padding-right: 15px;overflow-x: scroll;">
+																	无
+															</div>
+						</td>
+					 </tr>	
+					</table>
+                   
+                </div>
+                <div class="m-newspage g-ohide mt25">
+                                    <a href="show_inquire_notice?id=885" class="g-left">上一篇：
+                    [<span class="c-cblue">询价</span>]                                        金信汽修车间六配套等汽车配件询价采购</a>
+                                                    <a href="javascript:;" class="g-right">下一篇：没有下一篇了</a>
+                               </div>
+                <div class="t-title03 mt45">
+                    <h2>热门排行<span>HOT</span></h2>
+                    <div class="title-line"><span></span></div>
+                </div>
+                <div class="m-hotrank g-ohide mt20">
+                    <ul class="m-newslist g-left">
+                                            <li>
+                            <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=886" class="g-left">
+                                <span>· </span>
+                    [<span class="c-cblue">询价</span>]                    金信汽修车间前牙包等汽车配件询价采购                            </a>
+                            <span class="time g-right">2018-01-12</span>
+                        </li>
+                                            <li>
+                            <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=885" class="g-left">
+                                <span>· </span>
+                    [<span class="c-cblue">询价</span>]                    金信汽修车间六配套等汽车配件询价采购                            </a>
+                            <span class="time g-right">2018-01-12</span>
+                        </li>
+                                            <li>
+                            <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=884" class="g-left">
+                                <span>· </span>
+                    [<span class="c-cblue">询价</span>]                    金信生产室电磁换向阀询价采购                            </a>
+                            <span class="time g-right">2018-01-12</span>
+                        </li>
+                                            <li>
+                            <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=883" class="g-left">
+                                <span>· </span>
+                    [<span class="c-cblue">询价</span>]                    金信生产室电磁换向阀询价采购                            </a>
+                            <span class="time g-right">2018-01-12</span>
+                        </li>
+                                        </ul>
+                    <ul class="m-newslist g-right">
+                                            <li>
+                            <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=882" class="g-left">
+                                <span>· </span>
+                    [<span class="c-cblue">询价</span>]                    金信生产室电磁换向阀询价采购                            </a>
+                            <span class="time g-right">2018-01-12</span>
+                        </li>
+                                            <li>
+                            <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=881" class="g-left">
+                                <span>· </span>
+                    [<span class="c-cblue">询价</span>]                    金信生产室计量泵等询价采购                            </a>
+                            <span class="time g-right">2018-01-12</span>
+                        </li>
+                                            <li>
+                            <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=880" class="g-left">
+                                <span>· </span>
+                    [<span class="c-cblue">询价</span>]                    金信生产室轴承座、水套总成询价采购                            </a>
+                            <span class="time g-right">2018-01-12</span>
+                        </li>
+                                            <li>
+                            <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=859" class="g-left">
+                                <span>· </span>
+                    [<span class="c-cblue">询价</span>]                    金信生产室单向调速阀等询价采购                            </a>
+                            <span class="time g-right">2018-01-10</span>
+                        </li>
+                                        </ul>
+                </div>
+<!--                 <div class="m-infobox g-ohide mt25"> -->
+<!--                     <div class="g-left"> -->
+<!--                         <h3>中国铅锌基地 绿色冶炼先锋</h3> -->
+<!--                         <p>水口山集团阳光购销平台</p> -->
+<!--                     </div> -->
+<!--                     <span class="g-right">咨询热线：0734-7582629</span> -->
+<!--                 </div> -->
+            </div>
+            <!-- 主体内容结束 -->
+        </div>
+        ﻿<!-- 尾部 -->
+        <div class="m-footer m-abfooter">
+           <div class="m-container">
+               <div class="footer-one">
+                   <img src="http://120.77.218.152/template/default/Res/images/logo/logofooter.png" class="g-left footer-logo" />
+                   <div class="g-left footer-nav">
+                       <span>
+                           <a href="http://120.77.218.152/" class="c-cblue">首页</a>|
+                           <a href="http://120.77.218.152/article/article.php?id=6">服务指南</a>|
+                           <a href="mx_form/mx_form.php?id=8">投诉建议</a>|
+                           <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261816493'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1261816493' type='text/javascript'%3E%3C/script%3E"));</script>
+                       </span>
+                       <p>湖南水口山有色金属集团有限公司阳光购销平台</p>
+                   </div>
+                  <div class="g-right footer-icon">
+                      <a href="#"><i class="qq"></i></a>
+                      <a href="#">
+                          <i class="wx"></i>
+                          <span>
+                              <img src="http://120.77.218.152/template/default/Res/images/info/erweima.jpg" />
+                          </span>
+                      </a>
+                      <a href="#"><i class="wb"></i></a>
+                  </div>
+               </div>
+               <div class="g-ohide footer-two">
+                   <i class="icon-bg g-left"></i>
+                   <div class="g-left">
+                       <p class="phone">咨询热线&nbsp;&nbsp;0734-7582629&nbsp;&nbsp;&nbsp;&nbsp;公司地址：  湖南省常宁水口山镇　 </p>
+                       <p>
+                           Copyright © 水口山有色金属集团有限公司 版权所有　湘ICP备05000118号
+                       </p>
+                   </div>
+                   <div class="g-right g-fright">                       
+                       <p>技术支持：<a href="http://www.5mt.com.cn/" target="_blank"><font color=blue>湖南腾网互联科技有限公司</font></a></p>
+                       <p>联系方式：黄先生15573335373 0731-82070380</p>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+    
+    
+<LINK rel=stylesheet type=text/css href="http://120.77.218.152/template/default/kefu/css/css.css">
+<div id="xixi" onmouseover="toBig()" onmouseout="toSmall()" style="top: 100px; left: -152px; position: absolute;z-index:1000;">
+<table style="FLOAT: left" border="0" cellspacing="0" cellpadding="0" width="157">
+  <tbody>
+  <tr>
+    <td class="main_head" height="39" valign="top">&nbsp;</td></tr>
+  <tr>
+    <td class="info" valign="top">
+      <table class="qqtable" border="0" cellspacing="0" cellpadding="0" width="120" align="center">
+        <tbody>
+        <tr>
+          <td align="center"><a href="javascript:;" target="_blank"><img border="0" src="http://120.77.218.152/template/default/kefu/images/kefu_head.gif"></a> </td>
+        </tr>
+        <tr>
+          <td height="5"></td></tr>
+        <tr>
+          <td height="30" align="middle"><span>Tel:07347582629</span></td></tr>
+        <tr>
+          <td height="30" align="middle"><span>QQ群:273632396</span></td></tr>
+        <tr>
+          <td height="5"></td></tr>
+        <tr>
+          <td height="35" valign="top" align="middle">
+	          <a href="http://120.77.218.152/member/member.php?action=regist" target="_blank">
+	          	<img border="0" src="http://120.77.218.152/template/default/kefu/images/img3-5-btn1.gif" width="90" height="25">
+	          </a>
+          </td>
+        </tr>
+        <tr>
+          <td height="38" valign="top" align="middle">
+	          <a href="http://120.77.218.152/member/member_ks.php?action=regist&amp;lang=cn" target="_blank">
+	          	<img border="0" src="http://120.77.218.152/template/default/kefu/images/img3-5-btn2.gif" width="90" height="25">
+	          </a>
+          </td>
+        </tr>
+        <tr>
+          <td align="middle">
+            <div class="qun"><font color="red">&nbsp;&nbsp;┈公告┈ &nbsp;&nbsp;阳光购销平台业务自2017年5月2日正式试运行，敬请水口山合格客商尽快完善基本信息资料，参与投标，感谢您的关注！</font><br><span></span></div></td></tr>
+        <tr>
+          <td align="middle">
+            
+          </td><td align="middle">&nbsp;</td></tr></tbody></table></td></tr>
+  <tr>
+    <td class="down_kefu" valign="top"></td></tr></tbody></table>
+<div class="Obtn"></div></div>
+
+
+<SCRIPT language=javascript> 
+			lastScrollY=0; 
+			
+			var InterTime = 1;
+			var maxWidth=-1;
+			var minWidth=-152;
+			var numInter = 8;
+			
+			var BigInter ;
+			var SmallInter ;
+			
+			var o =  document.getElementById("xixi");
+				var i = parseInt(o.style.left);
+				function Big()
+				{
+					if(parseInt(o.style.left)<maxWidth)
+					{
+						i = parseInt(o.style.left);
+						i += numInter;	
+						o.style.left=i+"px";	
+						if(i==maxWidth)
+							clearInterval(BigInter);
+					}
+				}
+				function toBig()
+				{
+					clearInterval(SmallInter);
+					clearInterval(BigInter);
+						BigInter = setInterval(Big,InterTime);
+				}
+				function Small()
+				{
+					if(parseInt(o.style.left)>minWidth)
+					{
+						i = parseInt(o.style.left);
+						i -= numInter;
+						o.style.left=i+"px";
+						
+						if(i==minWidth)
+							clearInterval(SmallInter);
+					}
+				}
+				function toSmall()
+				{
+					clearInterval(SmallInter);
+					clearInterval(BigInter);
+					SmallInter = setInterval(Small,InterTime);
+					
+				}
+				
+</SCRIPT>    </div>
+    <script src="http://120.77.218.152/template/default/Res/js/ui-select.js"></script>
+    <script src="http://120.77.218.152/template/default/Res/js/main.js"></script>
+
+</body>
+</html>
+

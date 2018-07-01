@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML><HEAD><TITLE>招标采购-华蓥市人民政府门户网站</TITLE>
+
+
+
+
+<META content="IE=7.0000" http-equiv="X-UA-Compatible">
+<META content="text/html; charset=UTF-8" http-equiv="Content-Type"><LINK rel="stylesheet" type="text/css" href="css/css.css"><script type="text/javascript" src="js/tab.js"></script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="/_sitegray/_sitegray_d.css" />
+<script language="javascript" src="/_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747647565352544703030000 -->
+<link rel="stylesheet" type="text/css" href="/ZWGK_info_list.vsb.css" />
+<META Name="keywords" Content="政府 门户网站 政务公开 政民互动 网上办事 办事指南 魅力华蓥 旅游 招商,招标采购" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1330,'/ZWGK_info_list.jsp',-1,1028143393)</script>
+</HEAD>
+<BODY ><!--  整站头部顶 start -->
+<DIV class="headTopWrap">
+<DIV class="headTop">
+<DIV class="headTopLeft"><A href="http://www.gov.cn/">中央政府门户网站</A> <A href="http://www.sc.gov.cn/">四川省政府门户网站</A></DIV>
+<DIV class="headTopRight"><A class="home" href="http://www.hys.gov.cn" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hys.gov.cn/');return(false);">设为首页</A> <A class="star" href="javascript:window.external.addFavorite(%27http://www.hys.gov.cn%27,%27华蓥市人民政府门户网站%27);">收藏本站</A> </DIV></DIV></DIV><!--  整站头部顶 end --><!--  整站头部 start -->
+<DIV class="headWrap">
+<DIV class="head"></DIV></DIV><!--  整站头部 end --><!--  整站导航 start -->
+<DIV class="mainNavWrap">
+<DIV class="mainNav"><!--#begineditable clone="0" namechanged="0" order="0" ispublic="0" tagname="整站_网站导航" viewid="1001" contype="" stylesysid="" layout="" action="" name="整站_网站导航"-->
+
+
+<script language="javascript">
+/* 以下脚本不用修改 开始*/
+    function nav_menufun_2_switch(o)
+    {
+        var lis = o.parentNode.parentNode.getElementsByTagName("A");
+        var pos = 0;
+        for(var i = 0; i < lis.length; i++)
+        {
+            if(lis[i] == o)
+            {
+                lis[i].className="nav_on"
+                pos = i;
+            }
+            else
+            {
+                lis[i].className=""
+            }
+        }
+    
+        
+        var div2 = o.parentNode.parentNode.parentNode.nextSibling;
+        while(div2.nodeType == 3)
+        {
+            div2 = div2.nextSibling;
+        }
+        
+        var divs = div2.childNodes;
+        
+        i = 0;
+        for(var j = 0; j < divs.length; j++)
+        {
+            if(divs[j].nodeType == 3)
+                continue;
+    
+            if(i == pos)
+                divs[j].className = "nav_on";
+            else
+                divs[j].className = "";
+            i++;
+        }
+    }
+    
+    function nav_menufun_2_recover(o)
+    {
+        try
+        {
+            nav_menufun_2_cleartimeout(o);
+            
+            
+            var divs = o.getElementsByTagName("DIV");
+            for(var i = 0; i < divs.length; i++)
+            {
+                //menu1
+                if(divs[i].className=="menu1")
+                {
+                    var lis = o.parentNode.parentNode.getElementsByTagName("A");
+        
+                    for(var j = 0; j < lis.length; j++)
+                    {
+                        if(lis[j].getAttribute("isFocus") == "true")
+                        {
+                            lis[j].className="nav_on"
+                        }
+                        else
+                        {
+                            lis[j].className=""
+                        }
+                    }
+                }
+                //menu2
+                if(divs[i].className=="menu2")
+                {
+                    var menu2divs = divs[i].childNodes;
+                    
+                    for(var j = 0; j < menu2divs.length; j++)
+                    {
+                        if(menu2divs[j].nodeType == 3)
+                            continue;
+                        if(menu2divs[j].getAttribute("isFocus") == "true")
+                            menu2divs[j].className = "nav_on";
+                        else
+                            menu2divs[j].className = "";
+                    }
+                }
+            }
+        }
+        catch(e)
+        {
+        }
+    }
+    
+    function nav_menufun_2_settimeout(o, rms)
+    {
+        o.setAttribute("rTimerID", window.setTimeout(function(){nav_menufun_2_recover(o);}, rms));
+    }
+    
+    function nav_menufun_2_cleartimeout(o)
+    {
+        var rTimerID = o.getAttribute("rTimerID");
+        if(rTimerID != null)
+        {
+            window.clearTimeout(rTimerID);
+            o.removeAttribute("rTimerID");
+        }
+    }
+    
+    function nav_menufun_2_mouseover(o)
+    {
+        nav_menufun_2_cleartimeout(o);
+    }
+    
+    //rms为鼠标移开后关闭的时间， 默认50
+    function nav_menufun_2_mouseout(o, rms)
+    {
+        nav_menufun_2_cleartimeout(o);
+        nav_menufun_2_settimeout(o, rms);
+    }
+/* 以上脚本不用修改 结束*/
+</script>
+<div class="nav_menustyle_2_2" onmouseover="nav_menufun_2_mouseover(this);" onmouseout="nav_menufun_2_mouseout(this, 50);"><div class="menu_all_inc1001"><div class="menu_allc1001">
+    <div class="menu1">
+        <ul>
+            <li><a href="/index.htm"  onmouseover="nav_menufun_2_switch(this)" ><span>首页</span></a></li>
+            <li class=menu_line></li>
+            <li><a href="/xwzx.htm"  onmouseover="nav_menufun_2_switch(this)" ><span>新闻中心</span></a></li>
+            <li class=menu_line></li>
+            <li><a href="/mlhy.htm"  onmouseover="nav_menufun_2_switch(this)" ><span>魅力华蓥</span></a></li>
+            <li class=menu_line></li>
+            <li><a href="/ldzc.htm"  onmouseover="nav_menufun_2_switch(this)" ><span>政府领导</span></a></li>
+            <li class=menu_line></li>
+            <li><a href="/zwgk.htm"  onmouseover="nav_menufun_2_switch(this)" class="nav_on" isFocus="true"><span>政务公开</span></a></li>
+            <li class=menu_line></li>
+            <li><a href="/wsbs.htm"  onmouseover="nav_menufun_2_switch(this)" ><span>办事服务</span></a></li>
+            <li class=menu_line></li>
+            <li><a href="/hyly.htm"  onmouseover="nav_menufun_2_switch(this)" ><span>华蓥旅游</span></a></li>
+            <li class=menu_line></li>
+            <li><a href="/wllz.htm"  onmouseover="nav_menufun_2_switch(this)" ><span>网络理政</span></a></li>
+            
+        </ul>
+    </div>
+    <div class="menu2">
+        <div >
+            <div class="nav_welcome">欢迎光临本网站！</div>
+        </div>
+        <div >
+            <ul>
+                <li><a href="/xwzx/rdjj.htm"  ><span>热点聚焦</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/sgszl.htm"  ><span>双公示专栏</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/gwyxx.htm"  ><span>国务院信息</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/ldhd.htm"  ><span>政务要闻</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/bdxx.htm"  ><span>华蓥要闻</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/bmdt.htm"  ><span>部门动态</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/xzlx.htm"  ><span>乡镇连线</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/zkxx.htm"  ><span>招考信息</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/hyxwlb.htm"  ><span>华蓥新闻联播</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/rsrm.htm"  ><span>人事任免</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/xwzx/gsgg.htm"  ><span>公示公告</span></a></li>
+            
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li><a href="/mlhy/jzyg.htm"  ><span>建制沿革</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/mlhy/whjd.htm"  ><span>文化积淀</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/mlhy/zrjd.htm"  ><span>自然资源</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/mlhy/msfq.htm"  ><span>民俗风情</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/mlhy/hyfg.htm"  ><span>华蓥风光</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/mlhy/spxw.htm"  ><span>精品影视</span></a></li>
+            
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li><a href="/ldzc/xyb.htm"  ><span>谢洋波</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ldzc/lxy.htm"  ><span>李晓瑜</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ldzc/tjw.htm"  ><span>唐家文</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ldzc/ffj.htm"  ><span>方飞剑</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ldzc/ft.htm"  ><span>冯涛</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ldzc/dzq.htm"  ><span>刁志强</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ldzc/zqy.htm"  ><span>周其彦</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ldzc/qk.htm"  ><span>卿堃</span></a></li>
+            
+            </ul>
+        </div>
+        <div class="nav_on" isFocus="true">
+            <ul>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1328"  ><span>工作动态</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1339"  ><span>政府文件</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/zwgk/cwhy.htm"  ><span>政府常务会议</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/zwgk/zwxx.htm"  ><span>政务信息</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/zwgk/zcjd.htm"  ><span>政策解读</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1326"  ><span>机构职能</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1329"  ><span>人事信息</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1337"  ><span>财政信息</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1332"  ><span>应急管理</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1330"  class="nav_on" isFocus="true"><span>招标采购</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1336"  ><span>计划规划</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1334"  ><span>统计数据</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1335"  ><span>重大项目</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/zwgk/xzqlgk.htm"  ><span>行政权力运行</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1338"  ><span>征地拆迁</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1341"  ><span>环境保护</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1387"  ><span>公共资源配置</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1394"  ><span>行政权力</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1391"  ><span>安全生产</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1392"  ><span>价格收费</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1388"  ><span>保障性住房</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1389"  ><span>食品药品安全</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1393"  ><span>公共企事业单位</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/zwgk/zdwj.htm"  ><span>制度文件</span></a></li>
+            
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li><a href="/wsbs/smfw.htm"  ><span>市民服务</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/wsbs/qyfw.htm"  ><span>企业服务</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/wsbs/zdbsfw.htm"  ><span>重点办事服务</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/wsbs/zwsjkfpt.htm"  ><span>政务数据开放平台</span></a></li>
+            
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li><a href="/hyly/lydt.htm"  ><span>旅游动态</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/hyly/lyjd.htm"  ><span>旅游景点</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/hyly/jqhd.htm"  ><span>节庆活动</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/hyly/lyxl.htm"  ><span>旅游线路</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/hyly/lygh.htm"  ><span>旅游规划</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/hyly/lyfw.htm"  ><span>旅游服务</span></a></li>
+            
+            </ul>
+        </div>
+        <div >
+            <ul>
+                <li><a href="http://mail.hys.gov.cn:8050/login"  ><span>市长信箱</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/wllz/xnjs.htm"  ><span>效能建设</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/wllz/wsdc.htm"  ><span>网上调查</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/wllz/myzj.htm"  ><span>民意征集</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/wllz/zxft.htm"  ><span>在线访谈</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/wllz/bxgz.htm"  ><span>百姓关注</span></a></li>
+            <li class=menu_line></li>
+                <li><a href="/ZMHD_bm_mail_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1304"  ><span>咨询建议</span></a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div></div></div>
+<div class="newsiteInfo">
+<div style="width: 1000px;float: right;background-color: #fff;">
+<script language="javascript"
+    src="/system/resource/js/newcalendar/WdatePicker.js"></script>
+<script>
+function subsearchdataa1001a()
+{ 
+    if(checkDataa1001a(document.a1001a))
+    {
+       return true;  
+    }
+    return false;
+}       
+</script>
+
+    <script language='JavaScript' src='/_dwr/engine.js'></script>
+    <script language='JavaScript' src='/_dwr/util.js'></script>
+    <script language='JavaScript'
+        src='/_dwr/interface/NewsSearchDWR.js'></script>
+    <script language='JavaScript'
+        src='/system/resource/js/vsb_news_search.js'></script>
+    <script language='JavaScript'
+        src='/system/resource/js/vsb_news_search_entry.js'></script>                
+    <script language='JavaScript' src='/system/resource/js/language.js'></script>
+    <script language='JavaScript' src='/system/resource/js/base64.js'></script>
+    <script language='JavaScript' src='/system/resource/js/formfunc.js'></script> 
+    
+    <script>    
+    news_searcha1001a = new vsb_news_search();
+    news_searcha1001a.isShowCode=false;
+    news_searcha1001a.tooltipid = 'tooltipa1001a';
+    news_searcha1001a.apptag = 'intextspana1001a';
+    news_searcha1001a.frametag = 'intextframea1001a';
+    news_search_entrya1001a = new vsb_news_search_entry();
+    news_search_entrya1001a.formname = "a1001a";
+    news_search_entrya1001a.news_search_obj = news_searcha1001a; 
+    news_search_entrya1001a.querytxtsize = 155
+    news_search_entrya1001a.yzmts ="您的查询过于频繁，请输入验证码后继续查询";
+    news_search_entrya1001a.qdstyle ="";
+    news_search_entrya1001a.qdname = "确定";
+    news_search_entrya1001a.qxstyle = "";
+    news_search_entrya1001a.qxname = "取消";
+    
+    
+    function checkDataa1001a(formname)
+    {    
+        return news_search_entrya1001a.checkdata(formname);   
+    }
+    </script>
+
+<form action="/News_s_list.jsp?wbtreeid=1330" method="post" name="a1001a" target="_blank" onsubmit="return subsearchdataa1001a()">
+     <input type='hidden' name='Find' value='find'><input type='hidden' name='entrymode' value='1'><input type='hidden' id='INTEXT2'  name='INTEXT2' value=''><input type='hidden' name='news_search_code'>
+    <table class="detailFrame" width=980px align="center" border="0"
+        cellspacing="0" cellpadding="5"
+        style="border-collapse: collapse; border: 0px #FFFFFF solid;">
+        <tr>
+            <td align="right" nowrap="nowrap" style="border: 0px #FFFFFF solid;" width="50">
+                <span style="COLOR: #333333; FONT-FAMILY: 宋体; FONT-SIZE: 9pt;">关键字：</span>
+            </td>
+            <td align="left">
+                <span id="intextspana1001a"></span>
+                <input type="text" name="INTEXT" id="INTEXT" size=20
+                    style="height: 20px; width: 170px; COLOR: #222222; FONT-SIZE: 10pt; BORDER-TOP: #878787 1px solid; BORDER-RIGHT: #878787 1px solid; BORDER-LEFT: #878787 1px solid; FONT-FAMILY: 宋体; HEIGHT: 22px; POSITION: relative; PADDING-TOP: 3px; BORDER-BOTTOM: #878787 1px solid;">
+            </td>
+            <td align="right">
+                <span style="COLOR: #333333; FONT-FAMILY: 宋体; FONT-SIZE: 9pt;">栏目：</span>
+            </td>
+            <td align="left">
+                <select name="condition"
+                    style="width: 170px; COLOR: #222222; FONT-SIZE: 10pt; BORDER-TOP: #878787 1px solid; BORDER-RIGHT: #878787 1px solid; BORDER-LEFT: #878787 1px solid; FONT-FAMILY: 宋体; HEIGHT: 22px; POSITION: relative; PADDING-TOP: 3px; BORDER-BOTTOM: #878787 1px solid;">
+                    <option value='0'>华蓥市...</option><option value='1001'>┝━首页</option><option value='1002'>┝━新闻中心</option><option value='1003'>┝━━热点聚焦</option><option value='2629'>┝━━双公示专栏</option><option value='2028'>┝━━国务院信息</option><option value='1005'>┝━━政务要闻</option><option value='1697'>┝━━华蓥要闻</option><option value='1006'>┝━━部门动态</option><option value='1007'>┝━━乡镇连线</option><option value='1403'>┝━━招考信息</option><option value='1009'>┝━━华蓥新...</option><option value='1788'>┝━━人事任免</option><option value='1008'>┝━━公示公告</option><option value='1024'>┝━魅力华蓥</option><option value='1025'>┝━━建制沿革</option><option value='1689'>┝━━文化积淀</option><option value='1030'>┝━━自然资源</option><option value='1690'>┝━━民俗风情</option><option value='1031'>┝━━华蓥风光</option><option value='1010'>┝━━精品影视</option><option value='1316'>┝━政府领导</option><option value='2026'>┝━━谢洋波</option><option value='1377'>┝━━李晓瑜</option><option value='2037'>┝━━唐家文</option><option value='1694'>┝━━方飞剑</option><option value='2019'>┝━━冯涛</option><option value='1346'>┝━━刁志强</option><option value='1321'>┝━━周其彦</option><option value='2039'>┝━━卿堃</option><option value='1315'>┝━政务公开</option><option value='1328'>┝━━工作动态</option><option value='1339'>┝━━政府文件</option><option value='1371'>┝━━政府常...</option><option value='1789'>┝━━政务信息</option><option value='1898'>┝━━政策解读</option><option value='1326'>┝━━机构职能</option><option value='1329'>┝━━人事信息</option><option value='1337'>┝━━财政信息</option><option value='1332'>┝━━应急管理</option><option value='1330'>┝━━招标采购</option><option value='1336'>┝━━计划规划</option><option value='1334'>┝━━统计数据</option><option value='1335'>┝━━重大项目</option><option value='2538'>┝━━行政权...</option><option value='1338'>┝━━征地拆迁</option><option value='1341'>┝━━环境保护</option><option value='1387'>┝━━公共资...</option><option value='1394'>┝━━行政权力</option><option value='1391'>┝━━安全生产</option><option value='1392'>┝━━价格收费</option><option value='1388'>┝━━保障性住房</option><option value='1389'>┝━━食品药...</option><option value='1393'>┝━━公共企...</option><option value='1370'>┝━━制度文件</option><option value='1219'>┝━办事服务</option><option value='1580'>┝━━市民服务</option><option value='1581'>┝━━企业服务</option><option value='1905'>┝━━重点办...</option><option value='2581'>┝━━政务数...</option><option value='1351'>┝━华蓥旅游</option><option value='1361'>┝━━旅游动态</option><option value='1362'>┝━━旅游景点</option><option value='1363'>┝━━节庆活动</option><option value='1364'>┝━━旅游线路</option><option value='1365'>┝━━旅游规划</option><option value='1366'>┝━━旅游服务</option><option value='1303'>┝━网络理政</option><option value='2543'>┝━━市长信箱</option><option value='1307'>┝━━效能建设</option><option value='1314'>┝━━网上调查</option><option value='1342'>┝━━民意征集</option><option value='1900'>┝━━在线访谈</option><option value='1313'>┝━━百姓关注</option><option value='1304'>┝━━咨询建议</option>
+                </select>
+            </td>
+            <td align="right">
+                <span style="COLOR: #333333; FONT-FAMILY: 宋体; FONT-SIZE: 9pt;">日期：</span>
+            </td>
+            <td align="left">
+                <input type=text class="Wdate" size="15" value="2017-07-15 "
+                    name=fromtime  id=fromtime readonly
+                    onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'totime\')}'})"
+                    style="height: 18px; width: 83px; FONT-FAMILY: 宋体; border: 1 solid #BDDBF7; font-size: 9pt;">
+                <input type=text class="Wdate" size="15" value="2018-01-11 "
+                    name=totime id=totime readonly
+                    onfocus="WdatePicker({minDate:'#F{$dp.$D(\'fromtime\')}'})"
+                    style="height: 18px; width: 83px; FONT-FAMILY: 宋体; border: 1 solid #BDDBF7; font-size: 9pt;">
+            </td>
+            <td valign="middle" align="right">
+                <span style="COLOR: #333333; FONT-FAMILY: 宋体; FONT-SIZE: 9pt;">
+                    范围：
+                </span>
+            </td>
+            <td valign="middle" align="left">
+                <select name="wbnewsfield"
+                    style="width: 170px; COLOR: #222222; FONT-SIZE: 10pt; BORDER-TOP: #878787 1px solid; BORDER-RIGHT: #878787 1px solid; BORDER-LEFT: #878787 1px solid; FONT-FAMILY: 宋体; HEIGHT: 22px; POSITION: relative; PADDING-TOP: 3px; BORDER-BOTTOM: #878787 1px solid;">
+                     <option value='all'>全部</option><option value='wbtitle'>标题</option><option value='wbsubtitle'>子标题</option><option value='wbkeyword'>关键字</option>
+                </select>
+            </td>
+            <Td>
+                &nbsp;
+            </Td>
+            <td valign="middle" align="left">
+                <input type="image"
+                    src="/system/resource/images/research/seach22.gif"
+                    align="absmiddle" valign="bottom" style="cursor: hand">
+            </td>
+        </tr>
+    </table>
+</form>
+</div>
+</div><script language='javascript' src='/system/resource/js/base64.js'></script><script language='javascript' src='/system/resource/js/formfunc.js'></script> <!--#endeditable-->&nbsp;</DIV></DIV><!--  整站导航 end --><!--  整站导航 start -->
+<DIV class="mainBodyWrap">
+<DIV class="mainBody" style="padding-bottom: 10px;padding-top: 10px;padding-left: 10px;padding-right: 10px">
+<DIV class="preAd"></DIV></DIV></DIV><!--  整站导航 end --><!--  网站主体部分 start -->
+<DIV class="mainBodyWrap">
+<DIV class="mainBody">
+<DIV class="ZWGKLeft">
+<DIV class="ZWGKLeftTel"><IMG src="images/zwgk_1.jpg"></DIV>
+<DIV class="ZWGKLeftBoxWrap">
+<DIV class="ZWGKLeftBox">
+<DIV class="ZWGKLeftTitle"><IMG src="images/zwgk_2.gif"></DIV>
+<DIV class="ZWGKLeftContent1"><A href="http://www.hys.gov.cn:1911/t.aspx?i=20141217182457-492837-00-000" target="_blank">政府信息公开指南</A> <A href="http://www.hys.gov.cn:1911/Gpi.aspx">政府信息公开目录</A> <A href="http://www.hys.gov.cn:1911/Search.aspx?columnId=30001" target="_blank">政府信息公开年报</A> <A href="http://www.hys.gov.cn:1911/t.aspx?i=20150630210105-126433-00-000" target="_blank">依申请公开</A> <A href="/zwgk/zdwj.htm" target="_blank">制度文件</A>
+</DIV>
+<DIV class="ZWGKLeftTitle"><IMG src="images/zwgk_3.gif"></DIV>
+<DIV class="ZWGKLeftContent2"><!--#begineditable clone="0" namechanged="0" order="1" ispublic="0" tagname="政务公开_子栏目网站导航" viewid="1333" contype="" stylesysid="" layout="" action="" name="政务公开_子栏目网站导航"--><style type="text/css">
+td.b1_1_{FONT-SIZE:9pt;}
+td.b2_1_{FONT-SIZE:9pt;}
+td.b3_1_{FONT-SIZE:9pt;BORDER-BOTTOM: #cccccc 1px solid;BACKGROUND-COLOR: #eeeeee;BORDER-RIGHT: #cccccc 1px solid;; }
+td.b4_1_{FONT-SIZE:9pt;BORDER-BOTTOM: #cccccc 1px solid;BACKGROUND-COLOR: #eeeeee;BORDER-RIGHT: #cccccc 1px solid;; }
+a.menu0_1_:link {TEXT-DECORATION: none; };
+a.menu0_1_:visited { TEXT-DECORATION: none;};
+a.menu0_1_:hover {TEXT-DECORATION: none;};
+a.menu0_1_:active {TEXT-DECORATION: none;};
+table.tb1_1_{FONT-SIZE:9pt;border:0;}
+span.s1_1_{LINE-HEIGHT: 160%;FONT-FAMILY: 宋体;FONT-SIZE: 14pt;}
+span.s2_1_{LINE-HEIGHT: 160%;FONT-FAMILY: 宋体;COLOR: #cc0000;FONT-SIZE: 11pt;TEXT-DECORATION: none;}
+span.s10_1_{LINE-HEIGHT: 160%;FONT-FAMILY: 黑体;COLOR: #226899;FONT-SIZE: 12pt;}
+span.s20_1_{LINE-HEIGHT: 160%;FONT-FAMILY: 宋体;COLOR: #000000;FONT-SIZE: 11pt;TEXT-DECORATION: none;}
+</style>
+<SCRIPT language=javascript> 
+ var showfix_1_ = 1;
+ var isvertical_1_ = false;
+</SCRIPT>
+<script language='javascript' src='/system/resource/js/menu/text.js'></script>
+<TABLE id="t1_1_" cellSpacing=0 cellPadding=0 border=0 height=0 width=0><TR><TD valign=center></TD><TD valign=middle height=0 width=0 nowrap class=b1_1_ align=center id=a_1_1328 onmouseover="tshowLayers('1328','b2_1_', '_1_')"  onmouseout="thideLayers('1328','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1328'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;工作动态&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1339 onmouseover="tshowLayers('1339','b2_1_', '_1_')"  onmouseout="thideLayers('1339','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1339'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;政府文件&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1371 onmouseover="tshowLayers('1371','b2_1_', '_1_')"  onmouseout="thideLayers('1371','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/zwgk/cwhy.htm'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;政府常务会议&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1789 onmouseover="tshowLayers('1789','b2_1_', '_1_')"  onmouseout="thideLayers('1789','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/zwgk/zwxx.htm'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;政务信息&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1898 onmouseover="tshowLayers('1898','b2_1_', '_1_')"  onmouseout="thideLayers('1898','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/zwgk/zcjd.htm'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;政策解读&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1326 onmouseover="tshowLayers('1326','b2_1_', '_1_')"  onmouseout="thideLayers('1326','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1326'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;机构职能&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1329 onmouseover="tshowLayers('1329','b2_1_', '_1_')"  onmouseout="thideLayers('1329','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1329'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;人事信息&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1337 onmouseover="tshowLayers('1337','b2_1_', '_1_')"  onmouseout="thideLayers('1337','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1337'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;财政信息&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1332 onmouseover="tshowLayers('1332','b2_1_', '_1_')"  onmouseout="thideLayers('1332','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1332'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;应急管理&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1330 onmouseover="tshowLayers('1330','b2_1_', '_1_')"  onmouseout="thideLayers('1330','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1330'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;招标采购&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1336 onmouseover="tshowLayers('1336','b2_1_', '_1_')"  onmouseout="thideLayers('1336','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1336'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;计划规划&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1334 onmouseover="tshowLayers('1334','b2_1_', '_1_')"  onmouseout="thideLayers('1334','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1334'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;统计数据&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1335 onmouseover="tshowLayers('1335','b2_1_', '_1_')"  onmouseout="thideLayers('1335','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1335'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;重大项目&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_2538 onmouseover="tshowLayers('2538','b2_1_', '_1_')"  onmouseout="thideLayers('2538','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/zwgk/xzqlgk.htm'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;行政权力运行&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1338 onmouseover="tshowLayers('1338','b2_1_', '_1_')"  onmouseout="thideLayers('1338','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1338'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;征地拆迁&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1341 onmouseover="tshowLayers('1341','b2_1_', '_1_')"  onmouseout="thideLayers('1341','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1341'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;环境保护&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1387 onmouseover="tshowLayers('1387','b2_1_', '_1_')"  onmouseout="thideLayers('1387','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1387'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;公共资源配置&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1394 onmouseover="tshowLayers('1394','b2_1_', '_1_')"  onmouseout="thideLayers('1394','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1394'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;行政权力&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1391 onmouseover="tshowLayers('1391','b2_1_', '_1_')"  onmouseout="thideLayers('1391','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1391'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;安全生产&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1392 onmouseover="tshowLayers('1392','b2_1_', '_1_')"  onmouseout="thideLayers('1392','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1392'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;价格收费&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1388 onmouseover="tshowLayers('1388','b2_1_', '_1_')"  onmouseout="thideLayers('1388','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1388'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;保障性住房&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1389 onmouseover="tshowLayers('1389','b2_1_', '_1_')"  onmouseout="thideLayers('1389','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1389'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;食品药品安全&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1393 onmouseover="tshowLayers('1393','b2_1_', '_1_')"  onmouseout="thideLayers('1393','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1393'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;公共企事业单位&nbsp;</span></a></TD></TR><TR><TD valign=center></TD><TD valign=middle width=0 nowrap class=b1_1_ align=center id=a_1_1370 onmouseover="tshowLayers('1370','b2_1_', '_1_')"  onmouseout="thideLayers('1370','b1_1_', '_1_','true','true')"><a class=menu0_1_ href='/zwgk/zdwj.htm'><span ><img src="/images/dx_ico_01.gif" border=0></span><span  class="fontstyle1333" >&nbsp;制度文件&nbsp;</span></a></TD></TR></TR></table><!--#endeditable--></DIV></DIV></DIV></DIV>
+<DIV class="ZWGKRight">
+<DIV id="zwgk_r_t_dqwz"><!--#begineditable clone="0" namechanged="0" order="2" ispublic="0" tagname="整站_政务公开_当前位置" viewid="1334" contype="" stylesysid="" layout="" action="" name="整站_政务公开_当前位置"-->  
+<table  class="winstyle1334"  cellspacing=0 cellpadding=0><tr><td nowrap>当前位置：   
+<a href="/index.htm"><span  class="fontstyle1334" >首页</span></a><span  class="splitflagstyle1334" >>></span><a href="/zwgk.htm"><span  class="fontstyle1334" >政务公开</span></a><span  class="splitflagstyle1334" >>></span><a href="/ZWGK_info_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1330"><span  class="fontstyle1334" >招标采购</span></a></td></tr></table><!--#endeditable--></DIV>
+<DIV class="ZWGKRightBox1"><!--#begineditable clone="0" namechanged="0" order="3" ispublic="0" tagname="检索组件" viewid="1444" contype="" stylesysid="" layout="" action="" name="检索组件"-->
+
+
+
+
+<div style="padding-left:10px">
+<form action="/ZWGK_info_s_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1379" id="form0" method="post">
+    <table width="626"  border="0" cellpadding="1" cellspacing="0" style=" border-collapse:collapse;">
+        <tr height="20px">
+            <td width="90" align="right">信息名称：</td>
+            <td width="174"><input type="text" value="" id="wbtitle" name="wbtitle" /></td>
+            <td width="92" align="right">发布机构：</td>
+            <td width="185"><input type="text" value="" id="wbdept" name="wbdept" /></td>
+            <td width="73" rowspan="3" align="center">
+            <INPUT style="CURSOR: hand" src="/system/resource/images/default/anniu_cx2.jpg" type=image valign="bottom">
+            </td>
+        </tr>
+        <tr height="20px">
+            <td align="right">索引号：</td>
+            <td><input type="text" value="" id="wbsuoyinhao" name="wbsuoyinhao" /></td>
+            <td align="right">文　　号：</td>
+            <td><input type="text" value="" id="wbwenhao" name="wbwenhao" /></td>
+        </tr>
+        <tr height="20px">
+            <td align="right">关键字：</td>
+            <td><input type="text" value="" id="wbguanjianzi" name="wbguanjianzi" /></td>
+            <td align="right">公开方式：</td>
+            <td><input type="text" value="" id="wbgongkaifangshi" name="wbgongkaifangshi" /></td>
+        </tr>
+    </table>
+</form></div>
+<!--#endeditable--></DIV>
+<DIV class="WSBSLeftList">
+<DIV class="WSBSLeftListContent"><!--#begineditable clone="0" namechanged="0" order="4" ispublic="0" tagname="信息公开翻页列表" viewid="1442" contype="" stylesysid="" layout="" action="" name="信息公开翻页列表"-->
+
+
+
+
+
+
+<style type="text/css">
+    .tableclass{
+    }
+    .tdclass{
+        border-bottom: 1px #f0f0f0 solid;
+        border-right: 1px #f0f0f0 solid;
+        font-size: 10pt;
+           }
+</style>
+<table width="720px" border="1" cellpadding="5" cellspacing="0"  class="tableclass" bordercolor="#f0f0f0" style="border-collapse: collapse">
+    <tr style="line-height: 28px;height:28px;  ">
+        <td class="tdclass" align="center"  width=150 bgcolor="#F0F0F0" style="overflow: hidden;">索引号</td>
+        <td class="tdclass" align="center"  width=380 bgcolor="#F0F0F0">标题</td>
+        <td class="tdclass" align="center"  width=100 bgcolor="#F0F0F0">发布机构</td>
+        <td class="tdclass" align="center"  width=80  bgcolor="#F0F0F0">公开方式</td>
+    </tr>
+            <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2018-00001">45219626X/2018-00001</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2018-00001">华蓥市城市管理局环卫垃圾车采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00176">45219626X/2017-00176</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00176">华蓥市人民医院私有云数据中心安全建设采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00175">45219626X/2017-00175</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00175">华蓥市农业局办公及动物疫病防控建设设备采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00174">45219626X/2017-00174</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00174">华蓥市城市管理局环卫电瓶三轮收运车及环卫设施采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00173">45219626X/2017-00173</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00173">华蓥市文化广电新闻出版局社区图书及音像制品等采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00172">45219626X/2017-00172</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00172">华蓥市妇幼保健计划生育服务中心全自动生化分析仪等医疗设备采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00171">45219626X/2017-00171</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00171">华蓥市第一中学交互式触控一体机及空调等设备采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00170">45219626X/2017-00170</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00170">华蓥市天池镇人民政府环卫垃圾车采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00169">45219626X/2017-00169</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00169">四川省广安市华蓥市人民医院彩色多普勒超声诊断仪采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00168">45219626X/2017-00168</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00168">四川省广安市华蓥市人民医院尿动力学检测仪等设备采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00167">45219626X/2017-00167</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00167">四川省广安市华蓥市图书馆自动化设备采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00166">45219626X/2017-00166</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00166">四川省广安市华蓥市中共华蓥市委党校空调、电视采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00165">45219626X/2017-00165</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00165">四川省广安市华蓥市人民法院审判业务设备信息化升级采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00164">45219626X/2017-00164</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00164">华蓥市人民医院后勤服务外包采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+        <tr height="38px">
+            <td class="tdclass" align="center" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00163">45219626X/2017-00163</a></td>
+            <td class="tdclass" align="left" style="color: #003377"><a href="/ZWGK_info_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1382&syh=45219626X/2017-00163">华蓥市人民法院审判业务设备信息化升级采购项目</a></td>
+            <td class="tdclass" align="center" >资源交易中心</td>
+            <td class="tdclass" align="center" >主动公开</td>
+        </tr>
+</table>
+<form id='sysadmin' name='sysadmin' method='post'><table><TR><td colspan=8><table cellspacing=0 class=headStyle1n23b4hvoq width="100%" cellpadding=1><tr valign=middle><TD nowrap align=left width=1% >共259条&nbsp;每页<SELECT class="SelectList" align=absmiddle name=sysadminCountNo size=1 onchange="if(document.forms['sysadmin'].sysadminCountNo2 && document.forms['sysadmin'].sysadminCountNo2.value != document.forms['sysadmin'].sysadminCountNo.value)document.forms['sysadmin'].sysadminCountNo2.value=document.forms['sysadmin'].sysadminCountNo.value;document.forms['sysadmin'].actiontype.value='Find';document.forms['sysadmin'].submit();"><OPTION value=1>1</OPTION><OPTION value=2>2</OPTION><OPTION value=3>3</OPTION><OPTION value=4>4</OPTION><OPTION value=5>5</OPTION><OPTION value=6>6</OPTION><OPTION value=7>7</OPTION><OPTION value=8>8</OPTION><OPTION value=9>9</OPTION><OPTION value=10>10</OPTION><OPTION value=15 SELECTED >15</OPTION><OPTION value=20>20</OPTION><OPTION value=50>50</OPTION><OPTION value=99>99</OPTION></SELECT>条&nbsp;1/18&nbsp;</td><td nowrap align=left><div><span class=PrevDisabled>上页</span><span class=this-page>1</span><a href="javascript:document.forms['sysadmin'].sysadminNOWPAGE.value=2;document.forms['sysadmin'].submit();">2</a><a href="javascript:document.forms['sysadmin'].sysadminNOWPAGE.value=3;document.forms['sysadmin'].submit();">3</a><a href="javascript:document.forms['sysadmin'].sysadminNOWPAGE.value=4;document.forms['sysadmin'].submit();">4</a><a href="javascript:document.forms['sysadmin'].sysadminNOWPAGE.value=5;document.forms['sysadmin'].submit();">5</a><a href="javascript:document.forms['sysadmin'].sysadminNOWPAGE.value=6;document.forms['sysadmin'].submit();">6</a><span class=break>..</span><a href="javascript:document.forms['sysadmin'].sysadminNOWPAGE.value=18;document.forms['sysadmin'].submit();">18</a><a href="javascript:document.forms['sysadmin'].actiontype.value='NextPage';document.forms['sysadmin'].submit()" class="Next">下页</a>&nbsp;&nbsp;<input  align=absmiddle type=button class=defaultButtonStyle id=find name=sysadminFind value="转到"  onclick="javascript:if(document.forms['sysadmin'].sysadminGOPAGE.value!='') document.forms['sysadmin'].sysadminNOWPAGE.value=document.forms['sysadmin'].sysadminGOPAGE.value;document.forms['sysadmin'].actiontype.value='Find';document.forms['sysadmin'].submit();"><INPUT size=2  align=absmiddle  class="defaultInputStyle" style="margin-left:1px;margin-right:1px" NAME=sysadminGOPAGE onpropertychange="if(document.forms['sysadmin'].sysadminGOPAGE2 && document.forms['sysadmin'].sysadminGOPAGE2.value!=document.forms['sysadmin'].sysadminGOPAGE.value)document.forms['sysadmin'].sysadminGOPAGE2.value=document.forms['sysadmin'].sysadminGOPAGE.value;" VALUE="">页</div></td><TD nowrap align=right></td><INPUT TYPE=hidden NAME=sysadminNOWPAGE VALUE=''><INPUT TYPE=hidden NAME=sysadminPAGE VALUE="0"><INPUT TYPE=Hidden NAME=sysadminrowCount VALUE="259"></tr></table></td></tr></table><table style='display: none'><TR class=listTitle><INPUT TYPE=hidden NAME=sysadminCURURI VALUE="345F562FCB05B81C22DF4292803EF333"><INPUT TYPE=hidden NAME=sysadminKEYTYPES VALUE="12,12,12,12,-1,12,12,4"><INPUT TYPE=hidden NAME=actiontype VALUE=""><input type=hidden name=sysadminORDER value="desc"><input type=hidden name=sysadminORDERKEY value="pubtime">
+<style type="text/css">
+.headStyle1n23b4hvoq, .headStyle1n23b4hvoq td, .headStyle1n23b4hvoq div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}
+.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: hand; line-height:14px;}
+.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}
+.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}
+.headStyle1n23b4hvoq a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1n23b4hvoq a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}
+.headStyle1n23b4hvoq .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff; color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1n23b4hvoq .SelectList {font-size: 12px;font-family:宋体; height:16px;line-height:14px;}
+.headStyle1n23b4hvoq .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}
+.headStyle1n23b4hvoq .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}
+.headStyle1n23b4hvoq .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px; }
+.headStyle1n23b4hvoq .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}
+.headStyle1n23b4hvoq .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1n23b4hvoq a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}
+.headStyle1n23b4hvoq a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}
+.headStyle1n23b4hvoq a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}
+</style><TD nowrap align=middle class=colHeader width="" >
+<script language="JavaScript">
+<!--
+function Checkchka2enj76dvoqAll(form){ if(form("Title") == null) return; no = 0; for(var i = 0; i < form.elements.length; i ++){ if(form.elements[i].name == "Title" && no ++ > 1) break;} if(no == 1) form("Title").checked = form.chkallchka2enj76dvoq.checked; else for (var i=0;i<form("Title").length;i++){     var e = form("Title")[i];     e.checked = form.chkallchka2enj76dvoq.checked;}}
+//-->
+</script>
+<input type="checkbox" name="chkallchka2enj76dvoq" onclick="Checkchka2enj76dvoqAll(this.form)"></TD></TR></table><input type="hidden" value="" name="wbtitle"/><input type="hidden" value="" name="wbdept"/><input type="hidden" value="" name="wbsuoyinhao"/><input type="hidden" value="" name="wbwenhao"/><input type="hidden" value="" name="wbguanjianzi"/><input type="hidden" value="" name="wbgongkaifangshi"/></form>
+
+<!--#endeditable--></DIV>
+<DIV class="WSBSLeftListContent"></DIV></DIV></DIV></DIV></DIV><!--  网站主体部分 end --><!--  网站友底部 start-->
+<DIV class="footerWrap">
+<DIV class="footer">
+<DIV class="dx_i_copyright_Nav">
+<UL>
+<LI><A href="/info/1001/16726.htm" target="_blank">关于我们</A> 
+<LI>| 
+<LI><A href="/wzdt.htm" target="_blank">网站地图</A> 
+<LI>| 
+<LI><A href="/info/1001/16727.htm" target="_blank">法律声明</A> 
+<LI>| 
+<LI><A href="http://www.hys.gov.cn/kfxxlm_ws_/wztj.htm" target="_blank">访问统计</A> 
+<LI>| 
+<LI><A href="http://www.hys.gov.cn:8080/lg" target="_blank">管理登陆</A></LI></UL></DIV>
+<DIV class="footerleft"><IMG src="images_index/wb.gif"></DIV>
+<DIV class="footerp">四川省华蓥市人民政府 华蓥市人民政府办公室 <BR>主办 政府办公室信息中心负责具体管理 电话：0826-4821313<BR>地址：四川省华蓥市红星路30号 <BR>邮编：638600 ICP备案号：蜀ICP备10205844号<BR></DIV>
+<DIV class="footerright"><IMG src="images_index/wx.gif"></DIV></DIV></DIV>
+
+</BODY></HTML>

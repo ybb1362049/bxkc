@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无锡市公共资源交易中心</title>
+
+
+<meta name="keywords" content="无锡市公共资源交易中心" />
+<meta name="description" content="无锡市公共资源交易中心" />
+<link rel="stylesheet" type="text/css" href="/wxsggzyjyzx/static/css/style.css" />
+<script language="javascript" type="text/javascript" src="/wxsggzyjyzx/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="/wxsggzyjyzx/static/js/jquery.roll.js"></script>
+<script type="text/javascript" src="/wxsggzyjyzx/static/js/jquery.tab.js"></script>
+<script type="text/javascript" src="/wxsggzyjyzx/static/js/jquery.SuperSlide.2.1.1.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c792aa4ac1f78272705e6b06439b3a9a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+  <!--[if lte IE 6]>
+  <script src="/static/js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+      <script type="text/javascript">
+          DD_belatedPNG.fix('*');
+      </script>
+  <![endif]--> 
+  <!--[if lte IE 7]>
+  <![endif]--> 
+<script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+function navReplace(str){
+	var nav = str.replace('<a href="/ztzl/12345zfggfwrx/index.shtml">专题专栏</a> &gt; <a href="/ztzl/wxsggzyjyzx/index.shtml">无锡市公共资源交易专栏</a> &gt;',"");
+    $('#navFont').html(nav);
+}
+
+$(function(){
+	navReplace('<a href="/ztzl/12345zfggfwrx/index.shtml">专题专栏</a> &gt; <a href="/ztzl/wxsggzyjyzx/index.shtml">无锡市公共资源交易专栏</a> &gt; <a href="/ztzl/wxsggzyjyzx/jsgc/index.shtml">建设工程</a> &gt; <a href="/ztzl/wxsggzyjyzx/jsgc/zbgg/gcl/index.shtml">招标公告</a> &gt; <a href="/ztzl/wxsggzyjyzx/jsgc/zbgg/gcl/index.shtml">工程类</a>');
+})
+</script>
+</head>
+<body>
+
+
+<div id="head">
+
+	<div class="logosearch clearfix">
+    	<h1 class="logo fl">无锡市公共资源交易中心</h1>
+        
+    
+    
+<!--检索-->          
+		      <ul class="search_ul fr clearfix">
+			      <li><input class="ipt" name="" type="text" onFocus="return refocus();"  onkeydown="EnterSub(event);" onBlur="return reblur();" id="query" value="请输入搜索关键字"/></li>
+				  <li><input class="btn" name="" type="button" onclick="javascript:sub();return false;"/></li>
+                  </ul>
+			  </div>
+              </div>
+              
+ 
+   <script type="text/javascript">
+ 
+ function refocus(){     
+     var getquery=document.getElementById("query");
+     getquery.value="";
+	 getquery.autocomplete="off";
+	 getquery.focus(); 
+	 
+  } 
+ 
+ 
+ 
+  function reblur(){
+     var getquery=document.getElementById("query");
+	 if (getquery.value==""){
+        getquery.value="请输入搜索关键字";	 
+	 }
+  }   
+String.prototype.trim=function(){
+	return this.replace(/(^\s*)|(\s*$)/g,"");
+}
+
+//站内提交方法
+function sub(){
+	//必需，先将文本转换为utf-8
+	document.charset = "utf-8";	
+	var fixvalue = document.getElementById("query").value;
+	fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g,"");
+    var dst = "无锡市政务服务管理办公室";
+	if(fixvalue.trim()=="" || fixvalue.trim()=="请输入搜索关键字"){
+		document.getElementById("query").value = "";
+		alert("关键字不能为空！");
+        document.getElementById("query").focus();
+		return false;
+	}
+	else{
+       window.open("http://bot.wuxi.gov.cn/ss/search?searchTarget=self&dsId=xzfw.wuxi.gov.cn&dsText="+encodeURIComponent(dst)+"&q="+encodeURIComponent(fixvalue));
+       //window.open("/ztzl/wxsggzyjyzx/ztfzlm/ztznjs/?query="+encodeURIComponent(fixvalue));
+	}
+	//必需，最后将文本转换为gb2312
+	document.charset="gb2312"
+	return false;
+}
+
+
+//站内回车提交方法
+function EnterSub(){
+		var len=arguments.length;
+		var event;
+		if(len==1){
+			event = arguments[0];
+		}
+		var evt = event ? event : (window.event ? window.event : null);
+		if (evt.keyCode == 13)    {
+        	//必需，先将文本转换为utf-8
+			document.charset = "utf-8";	
+			var fixvalue = document.getElementById("query").value;
+			fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g,"");
+            var dst = "无锡市政务服务管理办公室";
+			if(fixvalue.trim()=="" || fixvalue.trim()=="请输入搜索关键字"){
+				document.getElementById("query").value = "";
+				alert("关键字不能为空！");
+              document.getElementById("query").focus();
+				return false;
+			}
+			else{
+              window.open("http://bot.wuxi.gov.cn/ss/search?searchTarget=self&dsId=xzfw.wuxi.gov.cn&dsText="+encodeURIComponent(dst)+"&q="+encodeURIComponent(fixvalue));
+              //window.open("/ztzl/wxsggzyjyzx/ztfzlm/ztznjs/?query="+encodeURIComponent(fixvalue));
+
+			}
+			document.charset="gb2312"
+			return false;
+    	}
+	}
+
+
+</script>
+
+<!--检索-->    
+    
+    
+    
+    
+    
+    
+    
+    <div id="slideBox" class="slideBox02">	
+            <div class="hd">
+              <ul>
+                              <li></li>
+                <li></li>
+              </ul>
+            </div>
+            
+            
+             
+            
+            <div class="bd">
+              <ul>
+              
+                <li>
+                  <img src="/uploadfiles/201606/28/2016062810585455947675.png" />
+                  <dl>
+                    <dt><a href="/doc/2016/06/24/1082939.shtml" target="_blank" title="2">2</a></dt>
+                  </dl>
+                </li>
+                <li>
+                  <img src="/uploadfiles/201606/24/2016062417313741304516.jpg" />
+                  <dl>
+                    <dt><a href="/doc/2016/06/24/1082938.shtml" target="_blank" title="1">1</a></dt>
+                  </dl>
+                </li>
+               
+              </ul>
+            </div>
+            
+      </div>	
+      
+      
+    <script type="text/javascript">jQuery(".slideBox02").slide( { mainCell:".bd ul",effect:"fade",interTime:8000,autoPlay:true} );</script>
+    <script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+  </script>
+  
+  
+  
+  
+  
+    <ul id="jsddm">
+    <li><a href="http://xzfw.wuxi.gov.cn/ztzl/wxsggzyjyzx/index.shtml">首页</a></li>
+    <li><a href="/ztzl/wxsggzyjyzx/zxjj/zxjj1/index.shtml"><span>中心简介</span></a></li>
+    <li><a href="/ztzl/wxsggzyjyzx/zcfg/index.shtml"><span>政策法规</span></a>
+      <ul>
+      </ul>
+    </li>
+    <li><a href="/ztzl/wxsggzyjyzx/gzdt/index.shtml">工作动态</a></li>
+    <li><a href="/ztzl/wxsggzyjyzx/tzl/index.shtml">公告公示</a></li>
+    
+    <li><a href="http://xzfw.wuxi.gov.cn/ztzl/wxsggzyjyzx/ztfzlm/hdjlgny/lxblgny/xjlb/index.shtml">咨询建议</a></li>
+    
+    <!--
+    <li><a href="http://www.wxqsy.cn/entInfoPub/entInfoPub/service/entInfoPub.enterpriseDetail.do?mechanistid=1476817358026&industryid=AE5CAE2582A44178A87707FF323E37DA">公共服务</a></li>
+    -->
+    
+
+    
+    
+    <!--
+    <li class="xl" style="background:none;"><a href="/ztzl/wxsggzyjyzx/zlxz/index.shtml"><span>资料下载</span></a>
+      <ul>
+        <li><a href="/ztzl/wxsggzyjyzx/zlxz/jsgc/index.shtml" title="建设工程">建设工程</a></li>
+        <li><a href="/ztzl/wxsggzyjyzx/zlxz/zfcg/index.shtml" title="政府采购">政府采购</a></li>
+      </ul>
+    </li>
+    
+    <li class="xl"><a href="/ztzl/wxsggzyjyzx/bszn/index.shtml"><span>操作须知</span></a>
+      <ul>
+        <li><a href="/ztzl/wxsggzyjyzx/bszn/gcjy/index.shtml" title="建设工程">建设工程</a></li>
+        <li><a href="/ztzl/wxsggzyjyzx/bszn/zfcg/index.shtml" title="政府采购">政府采购</a></li>
+        <li><a href="/ztzl/wxsggzyjyzx/bszn/gtzy/index.shtml" title="国土资源">国土资源</a></li>
+      </ul>
+    </li>
+    -->
+    
+    
+    
+    
+    
+  </ul>
+  
+  
+</div>
+
+
+<div class="container">
+	<div class="box03 clearfix">
+    
+    <div class="w270 fl">
+        	<dl class="sidenav">
+            
+            
+            
+            
+            
+             
+            <dt class="white">招标公告</dt>
+            
+            
+            
+            
+            
+             
+             <dd style="border:none"> <div class="jjj" style="overflow:hidden;zoom:1">
+          <p><a href="http://61.160.74.107/wxztbPB/pages/loginssl.aspx" target="_blank">
+                <img src="/wxsggzyjyzx/static/images/icon_wsztb.gif" /></a></p>
+            <p><a href="http://58.213.119.197/bzbpw/" target="_blank">
+               <img src="/wxsggzyjyzx/static/images/icon_pwsb.gif" /></a></p>
+               <p><a href="http://61.160.74.107/wxztbhy/JSGCZtbMis2_WuXi/Pages/ZtbInfo/MoreSGDW.aspx" target="_blank">
+               <img src="/wxsggzyjyzx/static/images/icon_cxsjkgszl.gif" /></a></p>
+            </div>
+           </dd> 
+           
+           
+           
+           
+           
+           
+            <dd class="cur"><a href="/ztzl/wxsggzyjyzx/jsgc/zbgg/gcl/index.shtml"><span class="fl">工程类</span><em class="fr"></em></a></dd>
+            <dd><a href="/ztzl/wxsggzyjyzx/jsgc/zbgg/fgcl/index.shtml"><span class="fl">非工程类</span><em class="fr"></em></a></dd>
+            
+            
+             
+            
+            
+            
+            
+       <!-- Channel 获取当前栏目的对象 
+            getParent()获取父级栏目对象 
+            get('')获取栏目对象的属性  
+            Channel.getParent().get('name')结合起来就是 获取当前栏目的父栏目的name名字  == 用来判断是否相等
+            id="parent" 获取父栏目属性
+            var="item" 给集合定义变量 
+            if item.get('name')==Channel.get('name') 判断集合里获取的栏目名 是不是等于 Channel当前栏目 
+            
+       
+        
+        
+            
+             <dt class="white">政策法规</dt>
+             
+             
+            
+            
+            
+            
+             -->
+            </dl>
+            <ul class="list03">
+            <li><a href="/ztzl/wxsggzyjyzx/jsgc/index.shtml">
+            <img src="/wxsggzyjyzx/static/images/icon04.gif" /></a></li>
+            <li><a href="/ztzl/wxsggzyjyzx/zfcg/index.shtml">
+            <img src="/wxsggzyjyzx/static/images/icon05.gif" /></a></li>
+            <li><a href="/ztzl/wxsggzyjyzx/cqjy/index.shtml">
+            <img src="/wxsggzyjyzx/static/images/icon07.gif" /></a></li>
+            <li><a href="/ztzl/wxsggzyjyzx/gtzy/index.shtml">
+            <img src="/wxsggzyjyzx/static/images/icon06.gif" /></a></li>
+            <li><a href="/ztzl/wxsggzyjyzx/ztfzlm/qtjy/index.shtml">
+            <img src="/wxsggzyjyzx/static/images/icon08.gif" /></a></li>
+            
+            </ul>
+        </div>
+    	
+        <div class="w898 fr">
+              <div id="ny_cg01" class="box04">
+            	<h2><dl><dt>工程类</dt></dl></h2>
+                
+                
+                <div class="box04_con">
+                	<span class="more"><a href="/ztzl/wxsggzyjyzx/index.shtml">首页</a> > <font id="navFont"></font></span>
+                    
+                    
+                    <ul class="list02 list02_sp lh28">
+                    
+                    
+                    <li><span class="b fr">2017-05-12</span><em class="b">·</em><a href="/doc/2017/05/12/1321301.shtml" target="_blank" title="[WXS201403004-W09]江南大学附属医院（无锡市第四人民医院易地建设）项目人防地下室战时安装工程">[WXS201403004-W09]江南大学附属医院（无锡市第四人民医院易地建设）项目人防地下室战时安装工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-11</span><em class="b">·</em><a href="/doc/2017/05/11/1320149.shtml" target="_blank" title="[WXXS201705002-W01]荷花池头卢巷上雨污水管道项目东港镇黄土塘村荷花池头、卢巷上雨污水管道工程">[WXXS201705002-W01]荷花池头卢巷上雨污水管道项目东港镇黄土塘村荷花池头、卢巷上雨污水管道工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-11</span><em class="b">·</em><a href="/doc/2017/05/11/1320419.shtml" target="_blank" title="[WXS201312005-W03]工业用布厂地块征地拆迁安置房项目景观绿化工程">[WXS201312005-W03]工业用布厂地块征地拆迁安置房项目景观绿化工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-11</span><em class="b">·</em><a href="/doc/2017/05/11/1320447.shtml" target="_blank" title="[WXXQ201612006-W02]梅村街道特色小镇地块土地回填平整项目梅村街道特色小镇地块土地回填平整工程二标段">[WXXQ201612006-W02]梅村街道特色小镇地块土地回填平整项目梅村街道特色小镇地块土地回填平整工程二标段</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-11</span><em class="b">·</em><a href="/doc/2017/05/11/1320481.shtml" target="_blank" title="[WXXQ201704018-W01]童趣贝贝幼儿园加固工程童趣贝贝幼儿园加固及修复工程">[WXXQ201704018-W01]童趣贝贝幼儿园加固工程童趣贝贝幼儿园加固及修复工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-11</span><em class="b">·</em><a href="/doc/2017/05/11/1320434.shtml" target="_blank" title="[WXXQ201612006-W01]梅村街道特色小镇地块土地回填平整项目梅村街道特色小镇地块土地回填平整工程一标段">[WXXQ201612006-W01]梅村街道特色小镇地块土地回填平整项目梅村街道特色小镇地块土地回填平整工程一标段</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-11</span><em class="b">·</em><a href="/doc/2017/05/11/1320446.shtml" target="_blank" title="[WXXQ201612006-W03]梅村街道特色小镇地块土地回填平整项目梅村街道特色小镇地块土地回填平整工程三标段">[WXXQ201612006-W03]梅村街道特色小镇地块土地回填平整项目梅村街道特色小镇地块土地回填平整工程三标段</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-11</span><em class="b">·</em><a href="/doc/2017/05/11/1320528.shtml" target="_blank" title="[WXS200812014-W20]无锡市轨道交通一、二号线工程无锡地铁1号线太湖广场地下空间开发改造工程">[WXS200812014-W20]无锡市轨道交通一、二号线工程无锡地铁1号线太湖广场地下空间开发改造工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-10</span><em class="b">·</em><a href="/doc/2017/05/10/1319778.shtml" target="_blank" title="[WXHS201705001-W01]洛社粮食管理所灾后重建仓库维修改造工程施工">[WXHS201705001-W01]洛社粮食管理所灾后重建仓库维修改造工程施工</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-10</span><em class="b">·</em><a href="/doc/2017/05/10/1319763.shtml" target="_blank" title="[WXXS201704013-W01]2017年度润东公司绿化零星移植工程2017年度润东公司绿化零星移植工程">[WXXS201704013-W01]2017年度润东公司绿化零星移植工程2017年度润东公司绿化零星移植工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-05</span><em class="b">·</em><a href="/doc/2017/05/05/1318085.shtml" target="_blank" title="[WXHS201610002-W04]中惠路（惠明路～惠际路）改造项目锡昌线中惠路段蒸汽管道改造工程">[WXHS201610002-W04]中惠路（惠明路～惠际路）改造项目锡昌线中惠路段蒸汽管道改造工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-05</span><em class="b">·</em><a href="/doc/2017/05/05/1316926.shtml" target="_blank" title="[WXXS201704008-W01]创融大厦Google Adwords无锡体验中心室内装饰工程创融大厦Google Adwords无锡体验中心室内装饰工程">[WXXS201704008-W01]创融大厦Google Adwords无锡体验中心室内装饰工程创融大厦Google Adwords无锡体验中心室内...</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-05</span><em class="b">·</em><a href="/doc/2017/05/05/1316929.shtml" target="_blank" title="[WXXS201705001-W01]羊尖镇景观河桥梁新建工程羊尖镇景观河桥梁新建工程">[WXXS201705001-W01]羊尖镇景观河桥梁新建工程羊尖镇景观河桥梁新建工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-05</span><em class="b">·</em><a href="/doc/2017/05/05/1317932.shtml" target="_blank" title="[WXXQ201610001-W03]XDG(XQ)-2009-25号房地产开发项目XDG(XQ)-2009-25号房地产开发项目B地块地源热泵空调系统">[WXXQ201610001-W03]XDG(XQ)-2009-25号房地产开发项目XDG(XQ)-2009-25号房地产开发项目B地块地源热泵空调系统</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-05</span><em class="b">·</em><a href="/doc/2017/05/05/1316229.shtml" target="_blank" title="[WXHS201704005-W01]上汽排涝站新建项目项目施工">[WXHS201704005-W01]上汽排涝站新建项目项目施工</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-04</span><em class="b">·</em><a href="/doc/2017/05/04/1316009.shtml" target="_blank" title="[WXXS201704009-W01]同惠街（广诚路-丹山路）新建工程同惠街（广诚路-丹山路）新建工程">[WXXS201704009-W01]同惠街（广诚路-丹山路）新建工程同惠街（广诚路-丹山路）新建工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-04</span><em class="b">·</em><a href="/doc/2017/05/04/1316023.shtml" target="_blank" title="[WXXS201704010-W01]无锡市锡山区人民检察院业务用房修缮工程业务用房修缮工程">[WXXS201704010-W01]无锡市锡山区人民检察院业务用房修缮工程业务用房修缮工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-03</span><em class="b">·</em><a href="/doc/2017/05/03/1315384.shtml" target="_blank" title="[WXXS201704004-W01]无锡市甘露中心幼儿园改扩建工程无锡市甘露中心幼儿园改扩建工程施工总承包一标段">[WXXS201704004-W01]无锡市甘露中心幼儿园改扩建工程无锡市甘露中心幼儿园改扩建工程施工总承包一标段</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-05-02</span><em class="b">·</em><a href="/doc/2017/05/02/1314157.shtml" target="_blank" title="[WXXQ201704011-W01]2017年地块平整工程亚太科技D26号地块场地平整工程">[WXXQ201704011-W01]2017年地块平整工程亚太科技D26号地块场地平整工程</a></li>
+                    
+                    
+                    <li><span class="b fr">2017-04-28</span><em class="b">·</em><a href="/doc/2017/04/28/1314220.shtml" target="_blank" title="[WXS201704001-W01]五湖大道地下人行通道完善工程五湖大道地下人行通道完善工程施工">[WXS201704001-W01]五湖大道地下人行通道完善工程五湖大道地下人行通道完善工程施工</a></li>
+                    
+                    
+                    </ul>
+                    
+                    
+                    <div class="pages-pages clearfix" id="pages"> 
+                   
+      </div>
+      
+      
+      
+      
+      
+      <script type="text/javascript">
+     
+     
+     $(function(){
+       regClick(new Object({"pageIndex":"2","pageCount":"20","pageSize":"20"}));
+     })
+     
+    
+     
+  function regClick(nav) {
+        
+          var search_page = $('#pages').empty();//清空这个标签里的内容
+          var str="共有"+nav.pageCount+"页 ",indexpage='/ztzl/wxsggzyjyzx/jsgc/zbgg/gcl/index.shtml';
+          var num=nav.pageIndex;//当前页数
+		
+    if(nav.pageIndex==1){
+              str+='<a href="javascript:void(0)" target="_self" class="prev">上一页</a>';
+    }
+    else{
+      str+='<a class="prev" href="'+indexpage.replace("/index.",("/index_"+(Number(nav.pageIndex)-1+".")).replace("/index_1.",("/index.")))+'"  >上一页</a>';
+    }
+    
+    
+
+    
+    
+    for(var i=1;i<=7;i++){
+				if(i==1){
+					var k=3;
+					/*----------------------处理起始分页------------------------*/
+					if(num-3<1)
+					k=3-(1-(num-3));
+					if(nav.pageCount-num<3 && nav.pageCount-num>=0 && nav.pageCount>7){
+						var j=3-(nav.pageCount-num);
+						if(j>0)
+						k=k+j;
+					}
+					var a=num-k;//起始分页
+					if(nav.pageCount<7)a=1;
+				}
+				
+				if(a!=num){
+					
+                  
+                  
+                  str+='<a href="'+indexpage.replace("/index.",("/index_"+a+".")).replace("/index_1.",("/index."))+'">'+a+'</a>';
+                  
+                  
+				}else{
+                  
+                  
+                  str+="<a class=\"this\">"+num+"</a>";//当前页
+                  
+                  
+				}
+				if(a==nav.pageCount)break;
+				a++;
+				
+			}
+    
+        
+    if(nav.pageIndex==nav.pageCount || nav.pageCount==1){
+              str+='<a class="next" href="javascript:void(0)">下一页</a>';
+    }else{
+            str+='<a class="next" href="'+indexpage.replace("/index.",("/index_"+(Number(nav.pageIndex)+1)+".")).replace("/index_1.",("/index."))+'"  >下一页</a>';
+    }
+    
+
+    
+         str+='&nbsp;&nbsp;&nbsp;跳转到 <input id="pnum"  type="text" size="1" value="1"><input id="pageSubmit" type="button" value="GO" style="cursor: pointer;">';
+    
+    
+         $('#pages').append(str);
+    
+    $('#pageSubmit').click(function(){
+      var num = Number($('#pnum').val());
+      if(num<=nav.pageCount){
+        if(num!=nav.pageIndex){
+             	window.location.href=indexpage.replace("/index.",("/index_"+$('#pnum').val()+".")).replace("/index_1.",("/index.")); ;
+        }
+      }else{
+        alert("您输入的页码大于总页数！");
+        $('#search_page').focus();
+      }
+    })
+   
+    
+    
+   
+    
+      }
+  
+  </script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<div class="footer font12 white clearfix">
+    <p class="fl" style="display:inline; margin:18px 0 0 25px;">无锡市公共资源交易专栏  版权所有<br />无锡市公共资源交易专栏  主办</p>
+    <p class="fr" style="display:inline; margin:18px 25px 0 0;">技术支持：<a href="#">泰得利通</a>&nbsp;网络支持：无锡移动<br />苏ICP备09024546号&nbsp; 浏览次数：<span  id="siteClickCount"></span><span  onclick="collect();" style="cursor:pointer" ></p>
+    
+    <script language="javascript" >
+  
+              $.ajax({
+				type : "post",
+                url:"/intertidwebapp/counter/count",
+                data: {
+                  'contentID':5,
+                  'siteName':'无锡市公共资源交易中心',
+                  'siteID':5
+                },
+                success:function(data){
+                    $('#siteClickCount').html(data);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    
+                }
+            });	
+  </script>
+    
+</div>
+<style>
+.box04 h2 dl dt {
+    width: auto;
+}
+</style>
+
+</body>
+</html>
+
+
+<!-- Generated By TurboECM v2.1.5 2017-05-22 09:30:10 -->

@@ -1,0 +1,239 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	公司公告 - 成都蜀鸿置业有限公司
+</title>
+    <meta name="keywords" content="成都蜀鸿置业有限公司" />
+    <meta name="description" content="成都蜀鸿置业有限公司  " />
+</head>
+<body id="about">
+  <div class="cont center">
+    
+<link href="css/Global.css" rel="stylesheet" />
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/slide.js"></script>
+<script type="text/javascript">function SetHome(obj, vrl) { try { obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl) } catch (e) { if (window.netscape) { try { netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect") } catch (e) { alert("此操作被浏览器拒绝！请在浏览器地址栏输入'about:config'并回车然后将 [signed.applets.codebase_principal_support]设置为true") } var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); prefs.setCharPref('browser.startup.homepage', vrl) } else { alert("抱歉，您所使用的浏览器无法完成此操作。\n您需要手动将【" + vrl + "】设置为首页。") } } } function AddFavorite(sURL, sTitle) { try { window.external.addFavorite(sURL, sTitle) } catch (e) { try { window.sidebar.addPanel(sTitle, sURL) } catch (e) { alert("加入收藏失败，请使用Ctrl+D进行添加") } } }</script>
+<div class="toplog">
+            <div class="tophome"><a href='#' onclick='SetHome(this,window.location)'>设为首页</a> | <a href='#' onclick='AddFavorite(window.location,document.title)'>加入收藏</a> | <a href="/about.aspx?mid=58">联系我们</a></div>
+            <div id="Meun">
+        	<ul id="nav">
+                    <li class="mainlevel" ><a href="index.aspx">网站首页<br /><span>HOME</span></a>
+                    </li>
+                    <li class="mainlivbg"></li>
+                    <li class="mainlevel" ><a href="about.aspx?mid=38&sid=">关于蜀鸿<br /><span>ABOUT US</span></a>
+                        <ul class="lavaLamp" id="sub_02">
+                             
+                                 <li><a href="about.aspx?mid=38&sid= ">
+                                        公司简介</a></li>
+                                
+                                 <li><a href="about.aspx?mid=145&sid= ">
+                                        领导致辞</a></li>
+                                
+                                 <li><a href="about.aspx?mid=155&sid= ">
+                                        管理团队</a></li>
+                                
+                                 <li><a href="about.aspx?mid=144&sid= ">
+                                        资质荣誉</a></li>
+                                
+                                 <li><a href="about.aspx?mid=40&sid= ">
+                                        组织机构</a></li>
+                                
+                                 <li><a href="about.aspx?mid=101&sid= ">
+                                        发展历程</a></li>
+                                
+                                 <li><a href="about.aspx?mid=143&sid= ">
+                                        下属公司</a></li>
+                                
+                                 <li><a href="about.aspx?mid=103&sid= ">
+                                        合作伙伴</a></li>
+                                
+                        </ul>
+                    </li>
+                    <li class="mainlivbg"></li>
+                    <li class="mainlevel" ><a href="news.aspx?mid=44">新闻中心<br /><span>NEWS</span></a>
+                        <ul id="sub_03">
+                             
+                                 <li><a href="news.aspx?mid=44&sid= ">
+                                        公司新闻</a></li>
+                                
+                                 <li><a href="news.aspx?mid=43&sid= ">
+                                        行业动态</a></li>
+                                
+                                 <li><a href="news.aspx?mid=146&sid= ">
+                                        公司公告</a></li>
+                                
+                        </ul>
+                    </li>
+                    <li class="mainlivbg"></li>
+                    <li class="mainlevel"id="main1" ><a href="/productshow.aspx?mid=157&sid=32">投资建设<br /><span>PRODUCT</span></a>
+                        <ul id="sub_04">
+                            
+                                 <li><a href="productshow.aspx?mid=157&sid=32&ssid=34 ">
+                                        投资项目</a></li>
+                                
+                                 <li><a href="productshow.aspx?mid=157&sid=33&ssid=36 ">
+                                        施工项目</a></li>
+                                
+                        </ul>
+                    </li>
+                    <li class="mainlivbg"></li>
+                    <li class="mainlevel" ><a href="news.aspx?mid=130">党群工作<br /><span>PARTY</span></a>
+                        <ul id="sub_05">
+                             
+                                 <li><a href="news.aspx?mid=153&sid= ">
+                                        党建工作</a></li>
+                                
+                                 <li><a href="news.aspx?mid=113&sid= ">
+                                        工会工作</a></li>
+                                
+                                 <li><a href="news.aspx?mid=136&sid= ">
+                                        群团工作</a></li>
+                                
+                                 <li><a href="news.aspx?mid=130&sid= ">
+                                        廉政建设</a></li>
+                                
+                        </ul>
+                    </li>
+                    <li class="mainlivbg"></li>
+                    <li class="mainlevel"><a href="about.aspx?mid=128">企业文化<br /><span>CULTURE</span></a>
+                        <ul id="Ul2">
+                             
+                                 <li><a href="about.aspx?mid=156&sid= ">
+                                        企业规划</a></li>
+                                
+                                 <li><a href="about.aspx?mid=128&sid= ">
+                                        员工风采</a></li>
+                                
+                                 <li><a href="news.aspx?mid=135&sid= ">
+                                        员工文学</a></li>
+                                
+                                 <li><a href="video.aspx?mid=150&sid= ">
+                                        视频欣赏</a></li>
+                                
+                        </ul>
+                    </li>
+                     <li class="mainlivbg"></li>
+                     <li class="mainlevel" ><a href="about.aspx?mid=143&sid=">蜀锐建筑<br /><span>BUILDING</span></a></li>
+                    <li class="mainlivbg"></li>
+                     <li class="mainlevel" ><a href="about.aspx?mid=58">联系我们<br /><span>CONTACT US</span></a>
+                        <ul class="lavaLamp" id="Ul3">
+                            
+                                 <li><a href="about.aspx?mid=58&sid= ">
+                                        联系我们</a></li>
+                                
+                                 <li><a href="guestbook.aspx?mid=121&sid= ">
+                                        在线留言</a></li>
+                                
+                        </ul>
+                    </li>
+            </ul>
+        </div>
+        </div>
+
+    <div class="abanner">
+            <img src="images/aboutpic.png" />
+        </div>
+        
+<div class="aleft fl">
+            <div class="al1">
+                  新闻动态<span class="absit"> / About</span>
+                </div>
+                     <ul>
+                           <li class='navLi'><a  id=44 href="news.aspx?mid=44&sid=" style="z-index:2;" title=公司新闻>公司新闻</a></li> <li class='navLi'><a  id=43 href="news.aspx?mid=43&sid=" style="z-index:2;" title=行业动态>行业动态</a></li> <li class='navLi'><a  id=146 href="news.aspx?mid=146&sid=" style="z-index:2;" title=公司公告>公司公告</a></li>
+                     </ul> 
+        </div>
+<!--中间左边-->
+
+<script type="text/javascript">
+    $(document).ready(function () {
+      //$('.picture').css("background", "url(/images/31.jpg) no-repeat");
+        $('.31').css("");
+        $('#146').css({ "background-position-y": "0px", "color": "#c0121c" });
+        
+        $('.absit').html(" / News ");
+        
+       
+    });
+    
+</script>
+
+
+
+
+
+
+        <div class="aright fr">
+            <div class="swite"><div class="bor">公司公告</div>  <div class="weizhi fr">您现在的位置： 首页 &gt; 新闻动态 &gt; 公司公告</div></div>
+            <div class="aboutext">
+                <div id="text">
+                    
+<ul class="news1">
+    <li>
+    <h1><span style="float:right;">2017-8-22</span><a href="newshow.aspx?mid=146&id=899"  target="_blank" title="资阳娇子大道综合整治项目材料采购招标公告">资阳娇子大道综合整治项目材料采购招标公告</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2017-7-17</span><a href="newshow.aspx?mid=146&id=892"  target="_blank" title="比选公告">比选公告</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2017-7-6</span><a href="newshow.aspx?mid=146&id=889"  target="_blank" title="比选公告">比选公告</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2017-7-3</span><a href="newshow.aspx?mid=146&id=888"  target="_blank" title="询价公告">询价公告</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2017-6-30</span><a href="newshow.aspx?mid=146&id=885"  target="_blank" title="商品混凝土材料采购 比选公告">商品混凝土材料采购 比选公告</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2017-6-21</span><a href="newshow.aspx?mid=146&id=880"  target="_blank" title="劳务比选公告">劳务比选公告</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2017-3-10</span><a href="newshow.aspx?mid=146&id=848"  target="_blank" title="G353线会东县城段绕城改线公路工程可行性研究报告编制及协助工可阶段相关专业报件的编制和报批工作询价公告">G353线会东县城段绕城改线公路工程可行性研究报告编制及协助工可阶段相关专业报件的编制和报批工作询价公告</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2017-3-2</span><a href="newshow.aspx?mid=146&id=847"  target="_blank" title="中标候选人公示">中标候选人公示</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2017-2-24</span><a href="newshow.aspx?mid=146&id=846"  target="_blank" title="仁寿鸿瑞嘉苑建设工程设计项目比选公告">仁寿鸿瑞嘉苑建设工程设计项目比选公告</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2017-2-10</span><a href="newshow.aspx?mid=146&id=867"  target="_blank" title="仁寿鸿瑞广场建设工程项目比选公告">仁寿鸿瑞广场建设工程项目比选公告</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2016-12-22</span><a href="newshow.aspx?mid=146&id=837"  target="_blank" title="中标候选人公示">中标候选人公示</a></h1>
+    </li>
+    <li>
+    <h1><span style="float:right;">2016-12-15</span><a href="newshow.aspx?mid=146&id=835"  target="_blank" title="比选公告">比选公告</a></h1>
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+<div id="文章1_isshowpager" style="text-align: center; clear:both;">
+  <span id="文章1_Pager1_pagelab"><div class="SplitPage" align="center"><span class='pagecount'> 总共30条记录  </span><span class='allpage'> 第2/3页 </span><a href='http://www.cdshzy.com/news.aspx?mid=146&page=1'>|&lt;</a> <a href='http://www.cdshzy.com/news.aspx?mid=146&page=1'>&lt;&lt;</a>  <a href='http://www.cdshzy.com/news.aspx?mid=146&page=1'> 1 </a> <span class='nowpage'> 2 </span> <a href='http://www.cdshzy.com/news.aspx?mid=146&page=3'> 3 </a>  <a href='http://www.cdshzy.com/news.aspx?mid=146&page=3'>&gt;&gt;</a>  <a href='http://www.cdshzy.com/news.aspx?mid=146&page=3'>&gt;|</a> </div>
+</span>
+
+</div>
+
+                </div>
+              </div>
+        </div>
+	    <div class="clear"></div>
+        </div>
+    
+<!--页底-->
+<div class="clear"></div>
+    <div class="foot center">
+        版权所有 ? 2014 成都蜀鸿置业有限公司  <a class="" href="http://www.miitbeian.gov.cn">蜀ICP备14015352号</a>  技术支持：<a target="_blank" href="http://www.mingtengnet.com/">明腾-西部商务网</a><br />地址：成都市二环路南四段51号莱蒙都会3栋907　电话：028-85537112 邮编：
+    </div>
+</body>
+</html>
+               

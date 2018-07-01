@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>六枝特区疾病预防控制中心迁建项目环境影响报告书第二次公示</title>
+		<script id="allmobilize" charset="utf-8" src="http://a.yunshipei.com/f222da8802aae562bf2f00bd672eda50/allmobilize.min.js"></script> 
+    <meta http-equiv="Cache-Control" content="no-siteapp" /> 
+    <link rel="alternate" media="handheld" href="#" />
+
+<script src="/images/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/images/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="/images/big5.js" type="text/javascript" charset="utf-8"></script>
+<script src="/images/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	//改变背景图片
+	jQuery(document).ready(function() {
+		jQuery('#treeContainer a').click(function() {
+			var Index = jQuery('#treeContainer a').index(this);
+			jQuery('#treeContainer a').css("color", "");
+			jQuery(this).css("color", "red").siblings().css("color", "");
+		});
+		jQuery(".ny_nav li:nth-child(11n)").css("margin-right", "0px");
+		jQuery(".ny_nav ul li").removeClass("on");
+		var str = location.pathname.substring(1, 5);
+		var str1 = location.pathname.substring(0, 16);
+		//alert(str1);
+		if(str == "" || str == "home") {
+			jQuery('body').css("background", "url(/images/sy_banner.jpg) center top no-repeat");
+			jQuery(".icon1").addClass("on");
+		} else if(str == "zwdt") {
+			jQuery('body').css("background", "url(/images/xw_banner.jpg) center top no-repeat");
+			jQuery(".icon2").addClass("on");
+		} else if(str == "zwgk") {
+			jQuery('body').css("background", "url(/images/zw_banner.jpg) center top no-repeat");
+			jQuery(".icon3").addClass("on");
+		} else if(str == "zxfw") {
+			jQuery('body').css("background", "url(/images/zxfw_banner.jpg) center top no-repeat");
+			if(str1!="/zxfw/ggfw/lzly/"&&str1!="/zxfw/ggfw/snfw/"&&str1!="/zxfw/ggfw/xfzs/"){
+				jQuery(".icon4").addClass("on");
+			}
+			else if(str1=="/zxfw/ggfw/lzly/"){
+				jQuery(".icon8").addClass("on");
+			}
+			else if(str1=="/zxfw/ggfw/snfw/"){
+				jQuery(".icon9").addClass("on");
+			}else if(str1=="/zxfw/ggfw/xfzs/"){
+				jQuery(".icon10").addClass("on");
+			}
+		} else if(str == "gzcy") {
+			jQuery('body').css("background", "url(/images/gzcy_banner.jpg) center top no-repeat");
+			jQuery(".icon5").addClass("on");
+		} else if(str == "xylz") {
+			jQuery('body').css("background", "url(/images/sy_banner.jpg) center top no-repeat");
+			jQuery(".icon6").addClass("on");
+		} else if(str == "ztzl") {
+			jQuery('body').css("background", "url(/images/sy_banner.jpg) center top no-repeat");
+			jQuery(".icon7").addClass("on");
+		} else if(str == "syqt") {
+			jQuery('body').css("background", "url(/images/sy_banner.jpg) center top no-repeat");
+		}
+	});
+</script>
+<script type="text/javascript">
+	// 设置为主页 
+	function SetHome(obj, vrl) {
+		try {
+			obj.style.behavior = 'url(#default#homepage)';
+			obj.setHomePage(vrl);
+		} catch(e) {
+			if(window.netscape) {
+				try {
+					netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+				} catch(e) {
+					alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+				}
+				var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+				prefs.setCharPref('browser.startup.homepage', vrl);
+			} else {
+				alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：" + vrl + "点击确定。");
+			}
+		}
+	}
+	// 加入收藏 兼容360和IE6 
+	function shoucang(sTitle, sURL) {
+		try {
+			window.external.addFavorite(sURL, sTitle);
+		} catch(e) {
+			try {
+				window.sidebar.addPanel(sTitle, sURL, "");
+			} catch(e) {
+				alert("加入收藏失败，请使用Ctrl+D进行添加");
+			}
+		}
+	}
+</script>
+<script type="text/javascript">
+	function refocus() {
+		var getquery = document.getElementById("keyword");
+		getquery.value = "";
+		getquery.autocomplete = "off";
+		getquery.focus();
+
+	}
+
+	function reblur() {
+		var getquery = document.getElementById("keyword");
+		if(getquery.value == "") {
+			getquery.value = "请输入搜索关键字";
+		}
+	}
+	String.prototype.trim = function() {
+		return this.replace(/(^\s*)|(\s*$)/g, "");
+	}
+
+	function sub() {
+		//必需，先将文本转换为utf-8
+		document.charset = "utf-8";
+		var fixvalue = document.getElementById("keyword").value;
+		fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g, "");
+		if(fixvalue.trim() == "") {
+			document.getElementById("keyword").value = "";
+			alert("关键字不能为空！");
+			return false;
+		} else {
+			window.open('/search.html?keyword=' + encodeURI(fixvalue)); //传入参数
+		}
+		return false;
+	}
+	//回车提交方法
+	function EnterSub() {
+		var len = arguments.length;
+		var event;
+		if(len == 1) {
+			event = arguments[0];
+		}
+		var evt = event ? event : (window.event ? window.event : null);
+		if(evt.keyCode == 13) {
+			//必需，先将文本转换为utf-8
+			document.charset = "utf-8";
+			var fixvalue = document.getElementById("keyword").value;
+			fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g, "");
+			if(fixvalue.trim() == "") {
+				document.getElementById("keyword").value = "";
+				alert("关键字不能为空！");
+				return false;
+			} else {
+				window.open('/search.html?keyword=' + encodeURI(fixvalue)); //传入参数
+			}
+			return false;
+		}
+	}
+</script><!--回到顶部-->
+<script type="text/javascript">
+	$(function() {
+		$.fn.manhuatoTop = function(options) {
+			var defaults = {
+				showHeight: 150,
+				speed: 1000
+			};
+			var options = $.extend(defaults, options);
+			$("body").prepend("<div id='totop'><a>返回顶部</a></div>");
+			var $toTop = $(this);
+			var $top = $("#totop");
+			var $ta = $("#totop a");
+			$toTop.scroll(function() {
+				var scrolltop = $(this).scrollTop();
+				if(scrolltop >= options.showHeight) {
+					$top.show();
+				} else {
+					$top.hide();
+				}
+			});
+			$ta.hover(function() {
+				$(this).addClass("cur");
+			}, function() {
+				$(this).removeClass("cur");
+			});
+			$top.click(function() {
+				$("html,body").animate({
+					scrollTop: 0
+				}, options.speed);
+			});
+		}
+	});
+</script>
+<script type="text/javascript">
+	$(function() {
+		$(window).manhuatoTop({
+			showHeight: 100, //设置滚动高度时显示
+			speed: 500 //返回顶部的速度以毫秒为单位
+		});
+	});
+</script>
+<script type="text/javascript">
+	function GetQueryString(name) {
+		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+		var r = window.location.search.substr(1).match(reg);
+		if(r != null) return(r[2]);
+		return null;
+	}
+</script>
+		<link rel="stylesheet" type="text/css" href="../../../../../../images/nry.css" />
+		<script src="/images/content_js.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--底部背景-->
+		<div class="nynr_bj">
+			<!--顶部-->
+ <!--顶部-->
+<div class="ny_dbbj">
+	<div class="ny_dbnr">
+		<ul>
+			<li class="f_l">
+				<a href="http://www.gov.cn/" target="_blank">中央人民政府</a>|
+				<a href="http://www.gzgov.gov.cn/" target="_blank">贵州省人民政府</a>|
+				<a href="http://www.gzlps.gov.cn/" target="_blank">六盘水市人民政府</a>
+			</li>
+			<li class="f_r" style=" position: relative;">
+				<div id="2016ydbb" style="display: none; z-index: 10000; position: absolute;top:36px;left:0px;">
+				<img src="/images/liuzhi_ewm.png" width="110" height="110" />
+			</div><a href="javascript:;" onmouseover="ShowDiv('2016ydbb')" onmouseout="HinDiv('2016ydbb')">移动版本</a>|
+				<a title="返回引导页"  href="/">返回引导页</a>|<a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a>|
+				<a href="javascript:void(0)" onclick="shoucang(document.title,window.location)">加入收藏</a>|
+				<a href="http://www.liuzhi.gov.cn/syqt/rssdy/">RSS订阅</a>|
+				<a href="http://www.liuzhi.gov.cn/syqt/lxwm/">联系我们</a>|<a title="微信公众平台"  href="http://www.liuzhi.gov.cn/syqt/wxgzpt/">微信公众平台</a>
+				<!--script language="JavaScript" src="/images/language.js" ignoreapd="1"></script-->
+				<!--繁简体-->
+				|<!--script language="JavaScript" src="/images/language.js" ignoreapd="1"></script-->
+<a title="點擊以繁體中文方式浏覽" name="StranLink" id="btn-s2t" href="#">简体</a>
+<!--a title="點擊以繁體中文方式浏覽" name="StranLink" id="StranLink" href="#">繁體中文</a-->
+			</li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+							//弹出隐藏层
+							function ShowDiv(show_div) {
+								document.getElementById(show_div).style.display = 'block';
+							}
+
+							function HinDiv(show_div) {
+								document.getElementById(show_div).style.display = 'none';
+							}
+						</script>
+
+<!--logo   搜索-->
+	<div class="log_sous">
+		<!--logo-->
+		<div class="ny_logo f_l"><a href="/"><img src="/images/logo.png" /></a></div>
+		<!--搜索-->
+		<div class="ny_sous f_r">
+<div class="y_logo"><a href="/"><img src="/images/logo_y.png" /></a></div>
+			<dl>
+				<dt><input id="keyword" name="keyword" type="text" class="ssk_ny" value="请输入搜索关键字" onfocus="return refocus();" onkeydown="EnterSub(event);" onblur="return reblur();" autocomplete="off" />
+					<a  href="javascript:;" onclick="sub();"></a></dt>
+					<dd>
+					<ul>
+						<li><span>搜索热词:</span></li>
+						
+		<li>
+			<a TARGET="_blank" title="画廊六枝"  onClick="return SearchSub('画廊六枝');" style="cursor:pointer; " >
+			画廊六枝
+			</a>
+			</li>
+
+		<li>
+			<a TARGET="_blank" title="六枝"  onClick="return SearchSub('六枝');" style="cursor:pointer; " >
+			六枝
+			</a>
+			</li>
+
+		<li>
+			<a TARGET="_blank" title="网上服务"  onClick="return SearchSub('网上服务');" style="cursor:pointer; " >
+			网上服务
+			</a>
+			</li>
+
+		<li>
+			<a TARGET="_blank" title="政务公开"  onClick="return SearchSub('政务公开');" style="cursor:pointer; " >
+			政务公开
+			</a>
+			</li>
+
+<script type="text/javascript">
+	function  SearchSub(key)
+		{
+			//必需，先将文本转换为utf-8
+	        document.charset = "utf-8";
+	        var keyword= key;
+	        keyword = keyword.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g, "");
+		    window.open('/search.html?keyword=' + encodeURI(keyword)); //传入参数
+		}
+</script>
+						</ul>
+						</dd>
+			</dl>
+		</div>
+	</div>
+
+<!--导航-->
+	<div class="ny_nav">
+		<ul>
+			<li class="icon1"><a href="http://www.liuzhi.gov.cn/home/"><em></em>网站首页</a></li>
+			<li class="icon2"><a href="http://www.liuzhi.gov.cn/zwdt/"><em></em>政务动态</a></li>
+			<li class="icon3"><a href="http://www.liuzhi.gov.cn/zwgk/"><em></em>政务公开</a></li>
+			<li class="icon4"><a href="http://www.liuzhi.gov.cn/zxfw/"><em></em>在线服务</a></li>
+			<li class="icon5"><a href="http://www.liuzhi.gov.cn/gzcy/"><em></em>公众参与</a></li>
+			<li class="icon6"><a href="http://www.liuzhi.gov.cn/xylz/"><em></em>相约六枝</a></li>
+			<li class="icon7"><a href="http://www.liuzhi.gov.cn/ztzl/"><em></em>专题专栏</a></li>
+            <li class="icon8"><a href="http://www.liuzhi.gov.cn/zxfw/ggfw/lzly/"><em></em>六枝旅游</a></li>
+            <li class="icon9"><a href="http://www.liuzhi.gov.cn/zxfw/ggfw/snfw/"><em></em>三农工作</a></li>
+            <li class="icon10"><a href="http://www.liuzhi.gov.cn/zxfw/ggfw/xfzs/"><em></em>幸福招商</a></li>
+            <li class="icon11"><a href="http://www.liuzhi.gov.cn/xylz/lzmp/"><em></em>六枝名片</a></li>
+		</ul>
+	</div>
+		<!--主体内容-->
+		<div class="ny_nr">
+			<div class="path">
+				您当前所在位置：<a href="../../../../../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&raquo;&nbsp;<a href="../../../../../" title="政务公开" class="CurrChnlCls">政务公开</a>&nbsp;&raquo;&nbsp;<a href="../../../../" title="信息公开目录" class="CurrChnlCls">信息公开目录</a>&nbsp;&raquo;&nbsp;<a href="../../../" title="重点领域信息" class="CurrChnlCls">重点领域信息</a>&nbsp;&raquo;&nbsp;<a href="../../" title="政府采购" class="CurrChnlCls">政府采购</a>&nbsp;&raquo;&nbsp;<a href="../" title="公告公示" class="CurrChnlCls">公告公示</a>
+			</div>
+				<div class="article" id="c">
+					  <div class="Article_xx">
+                	<table width="100%" align="center" border="0" cellpadding="3" cellspacing="1" bgcolor="#C9C9C9">
+						<tbody>
+							<tr>
+								<td width="80" align="right" bgcolor="#FFFFFF"><strong>索 引 号：</strong></td>
+								<td width="275" bgcolor="#FFFFFF" style="padding-left: 5px;">GZ000001/2017-01496</td>
+								<td width="80" align="right" bgcolor="#FFFFFF"><strong>是否有效：</strong></td>
+								<td bgcolor="#FFFFFF" style="padding-left: 5px;">
+									<script type="text/javascript">
+										var str_sfyx = "是";
+										if(str_sfyx == "") {
+											document.write("是");
+										} else {
+											document.write(str_sfyx);
+										}
+									</script>
+								</td>
+							</tr>
+							<tr>
+								<td align="right" bgcolor="#FFFFFF"><strong>发布机构：</strong></td>
+								<td bgcolor="#FFFFFF" style="padding-left: 5px;">
+									<script type="text/javascript">
+										var str = "";
+										var str_1 = "六枝特区人民政府网";
+										if(str == "") {
+											document.write(str_1);
+										} else {
+											document.write(str);
+										}
+									</script>
+								</td>
+								<td align="right" bgcolor="#FFFFFF"><strong>发文日期：</strong></td>
+								<td bgcolor="#FFFFFF" style="padding-left: 5px;">
+									<script type="text/javascript">
+										var str = "";
+										var str_1 = "2017年11月27日";
+										if(str == "") {
+											document.write(str_1);
+										} else {
+											document.write(str);
+										}
+									</script>
+								</td>
+							</tr>
+							<tr>
+								<td align="right" bgcolor="#FFFFFF"><strong>名　　称：</strong></td>
+								<td colspan="3" bgcolor="#FFFFFF" style="padding-left: 5px;">
+									六枝特区疾病预防控制中心迁建项目环境影响报告书第二次公示
+								</td>
+							</tr>
+							<tr>
+								<td width="80" align="right" bgcolor="#FFFFFF"><strong>文　　号：</strong></td>
+								<td width="275" bgcolor="#FFFFFF" colspan="3" style="padding-left: 5px;">
+									
+								</td>
+							</tr>
+						</tbody>
+					</table>
+                </div>    
+				<div class="Article_bt">六枝特区疾病预防控制中心迁建项目环境影响报告书第二次公示</div>
+				<div class="Article_fbt"></div>
+				<div class="Article_ly">
+				<span><script type="text/javascript">
+					var  pubdata='2017-11-27';
+					if(pubdata!=''){
+					document.write('日期：'+pubdata+'&emsp;');
+					}
+				 </script></span>
+				 <span>
+						<script type="text/javascript">
+					var wzly='';
+					if(wzly==''){
+					wzly='六枝特区人民政府网';
+					}
+					document.write('来源：'+wzly+'&emsp;');
+				 </script>
+				</span> 
+<span>
+						<script type="text/javascript">
+					var zz='';
+					if(zz==''){
+					zz='六枝特区人民政府网';
+					}
+					document.write('作者：'+zz+'&emsp;');
+				 </script>
+ <span>
+<span>
+						<script type="text/javascript">
+					var wzly='';
+					if(wzly!=''){
+					document.write('编辑：'+wzly+'&emsp;');
+					}
+					
+				 </script>
+				</span>
+				<span id="fwtj"></span>&emsp;
+				字号：[<span class="smallFont">小</span><span class="medFont">中</span><span class="largeFont">大</span>]&emsp;
+					<span class="artprint"><a href="javascript:window.print();">[我要打印]</a></span>&emsp;
+					<span class="close"><a href="javascript:window.close()">[关闭]</a></span>
+					<i style="padding-left:10px;">视力保护色： <input onclick="ChangeColor('#F9F6AF')" type="image" name="bgcolor" src="../../../../../../images/110827103140057.gif" height="13" width="13" align="absmiddle" />
+		<input onclick="ChangeColor('#9DDBF4')" type="image" name="bgcolor22" src="../../../../../../images/110827103140099.gif" height="13" width="13" align="absmiddle" />
+		<input onclick="ChangeColor('#DEDEDE')" type="image" name="bgcolor2" src="../../../../../../images/110827103140184.gif" height="13" width="13" align="absmiddle" /> 
+	    <input onclick="ChangeColor('#F9D1D9')" type="image" name="bgcolor2" src="../../../../../../images/110827103140215.gif" height="13" width="13" align="absmiddle" /> 
+	    <input onclick="ChangeColor('#E4C8F8')" type="image" name="bgcolor2" src="../../../../../../images/110827103140245.gif" height="13" width="13" align="absmiddle" />	
+		<input onclick="ChangeColor('#ffffff')" type="image" name="bgcolor2" height="13" src="../../../../../../images/110827103140292.gif" width="13" align="absmiddle" />
+</i>
+				</div>
+				<div class="Article_zw">
+					<!--视频开始-->
+				<p style="text-algin:center;"> 
+					<div class="video" id="sp">
+				    <!--视频开始-->
+					    
+					      
+					    
+					    <!--视频结束-->
+						</div>
+					</p>
+					<!--视频结束-->
+				   <font id="Zoom"><p style="text-align:center"><br/></p><p style="text-indent: 28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">按照《中华人民共和国环境影响评价法》和国务院第</span>253<span style="font-family:宋体">号令《建设项目环境保护管理条例》的有关规定</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">，现将</span></span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">六枝特区计划生育妇幼保健站建设项目</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">环境影响评价的有关内容及评价结果第二次公示，向公众公开本次环境评价的初步结果，并征求公众对本项目在环境影响方面的意见和建议。公告内容如下：</span></span></p><p style="text-indent:28px"><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">一、建设项目名称及概况：</span></span></strong></p><p style="text-indent: 28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">1<span style="font-family:宋体">、建设项目名称：</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">六枝特区疾病预防控制中心迁建项目</span></span></p><p style=";text-indent:28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">2<span style="font-family:宋体">、建设地点：</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">六枝特区</span></span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">九龙街道</span></span></p><p style="text-indent: 28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">3<span style="font-family:宋体">、项目概况</span></span></p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">项目总投资</span>2965<span style="font-family:宋体">万元，</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">本项目占地</span></span><span style=";font-family:宋体;font-size:14px">8.6<span style="font-family:宋体">亩，总建筑面积</span><span style="font-family:Times New Roman">7080</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">m</span><sup><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px;vertical-align:super">2</span></sup><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">（其中六枝特区疾病预防控制中心建设项目建筑面积</span>1700</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">m</span><sup><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px;vertical-align:super">2</span></sup><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">），建设内容为：实验用房、业务用房、保障用房、行政用房寄附属设施。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">项目</span></span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">总用地面积</span>5743.57</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">&nbsp;m</span><sup><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px;vertical-align:super">2</span></sup><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">，</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">总建筑面积</span></span><span style=";font-family:宋体;font-size:14px">7080.39</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">m</span><sup><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px;vertical-align:super">2</span></sup><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">，其中地上建筑面积</span></span><span style=";font-family:宋体;font-size:14px">6049.4</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">m</span><sup><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px;vertical-align:super">2</span></sup><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">，地下建筑面积</span></span><span style=";font-family:宋体;font-size:14px">1900.99</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">m</span><sup><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px;vertical-align:super">2</span></sup><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">。建筑地上</span></span><span style=";font-family:宋体;font-size:14px">5</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">层，地下</span></span><span style=";font-family:宋体;font-size:14px">1</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">层</span></span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">，建筑高度</span>19.8m</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">。</span></span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">本项目</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">容积率</span></span><span style=";font-family:宋体;font-size:14px">1.05</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">，建筑密度</span>2</span><span style=";font-family:宋体;font-size:14px">1.06</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">%<span style="font-family:宋体">，地上机动车停车位</span></span><span style=";font-family:宋体;font-size:14px">5</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">辆，地下机动车停车位</span></span><span style=";font-family:宋体;font-size:14px">46</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">辆。</span></span></p><p style="text-indent:28px"><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">二、建设项目对环境可能造成的影响</span></span></strong></p><p style="text-indent: 28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">（</span>1<span style="font-family:宋体">）施工期</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">产生的扬尘、噪声、生产废水、生活污水、弃土石方、建筑垃圾、生活垃圾等对会对环境产生一定影响。</span></span></p><p style="text-indent: 28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">（</span>2<span style="font-family:宋体">）运营期的生活污水、医疗废水；污水处理站臭气、汽车尾气；生活垃圾、</span></span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">实验室</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">废物、污水处理站污泥；汽车进出停车场的噪声及污水处理站水泵噪声等对周围环境的影响。</span></span></p><p style="text-indent:28px"><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">三、预防或减轻不良影响的对策和措施的要点</span></span></strong></p><p style="text-indent: 21px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">（</span>1<span style="font-family:宋体">）施工期环境保护措施</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px">①</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">大气环境：工程原材料（水泥、砂石）以及弃土、废石渣的运输、堆放过程产生的扬尘、泥土等可采取封闭运输、湿润喷洒以及清扫车轮泥土的措施来降低其对大气产生的影响。</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px">②</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">声环境：施工设备在必须符合国家规定噪声标准的前提下，还应加强管理和合理安排高噪设备的施工时段，遵守有关管理部门规定的施工时间，降低其噪声影响。</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px">③</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">水环境：施工期生产废水，全部回用。项目设置</span></span><span style=";font-family:宋体;font-size:14px">1<span style="font-family:宋体">处</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">施工营地，施工人员使用周边生活设施，如厕废水排入市政管网。</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px">④</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">固体废物：为防止施工固体废物对环境带来的不利影响，尽量移挖作填，减少弃方量，建筑垃圾运往指定的建筑固废渣场堆放。施工人员的生活垃圾，采取垃圾集中收集后由当地环卫部门统一处置。</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px">⑤</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">生态环境：施工时尽量移挖作填，尽量不破坏原有的树木，施工后及时复种草植树。通过有效管理达到保护项目区环境的目的。</span></span></p><p style="text-indent: 28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">（</span>2<span style="font-family:宋体">）营运期环境保护措施</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px">①</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">污水处理措施：</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">实验室准备和操作中产生的含有病原微生物的废水均收集于实验室专配的带盖不锈钢容器中，添加含氯消毒液浸泡</span>24<span style="font-family:宋体">小时进行化学灭菌后、在立式自动高压灭菌器内灭活、通过传递窗传递至准备间、经双扉高压锅</span><span style="font-family:Times New Roman">121</span></span><span style=";font-family:宋体;font-size:14px">℃</span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">高温消毒</span>15min<span style="font-family:宋体">以上灭活，经灭活的废水与清洗间、淋浴废水一并排入实验室废水池，在实验室废水池再次添加次氯酸钠消毒共</span><span style="font-family:Times New Roman">36</span><span style="font-family:宋体">小时，汇入疾控中心内部管网，与中心其他部分废水经二级生化处理达到相应标准后，确保废水中无活的病原微生物，最后排入市政污水管网，进入六枝特区污水处理厂。</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px">②</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">废气：</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">实验室废气经高效过滤装置处理后排放，排气筒的高度及位置满足环保要求；</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">污水处理站产生的臭气由离心式通风机送入紫外线消毒和活性炭吸附除臭设施，气体经过有效处理后用管道沿墙面敷设至屋顶排放，高度不低于</span>15m<span style="font-family:宋体">，确保污水处理站周边空气中污染物达标。且在污水处理站周边种植高大、能吸收臭气、有净化空气作用的绿化隔离带。</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px">③</span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">噪声</span></span></p><p style="text-indent: 25px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">疾控中心采用独立空调，主机设置在室外，在采购时选用低噪声环保型空调，由于空调设置较少、分布不密集，空调室外机产生的噪声容易扩散，经过墙体吸音、隔离后对疾控中心内部环境影响较小。</span></span></p><p style="text-indent: 25px"><span style=";font-family:宋体;font-size:14px">④固体废物</span></p><p style="text-indent: 25px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">疾控中心产生的生活垃圾经收集后，统一交环卫部门清运至垃圾转运站，统一集中处置；实验室废物、废液等严格按照环保要求进行分类收集，并采用专用容器封装，委托有资质的单位统一收集后，妥善处置；污水处理站产生的污泥经消毒后一起交由有资质单位处理。</span></span></p><p style="text-indent:28px"><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">四、环境影响评价结论要点</span></span></strong></p><p style="text-indent:28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">本项目符合国家产业政策及当地规划，建成后为当地主力医疗机构。建设单位严格按照有关法律法规及本评价提出的要求落实污染防治措施，按照</span>“<span style="font-family:宋体">三同时</span><span style="font-family:Times New Roman">”</span><span style="font-family:宋体">要求进行建设，从环保的角度看，本项目的建设是可行的。</span></span></p><p style="text-indent:28px"><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">五、征求公众意见的形式</span></span></strong></p><p style="text-indent: 28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">1<span style="font-family:宋体">、发布第二次公告（现场公示、网站公示）</span></span></p><p style="text-indent:28px"><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">六、征求公众意见的范围</span></span></strong></p><p style="text-indent: 28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">建设项目所在地周边单位和群众。</span></span></p><p style="text-indent:28px"><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">七、公众查阅环评相关信息的方式和期限</span></span></strong></p><p style="text-indent: 21px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">1<span style="font-family:宋体">、期限：</span><span style="font-family:Times New Roman">2017</span><span style="font-family:宋体">年</span></span><span style=";font-family:宋体;font-size:14px">1</span><span style=";font-family:宋体;font-size:14px">1</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">月</span>2</span><span style=";font-family:宋体;font-size:14px">7</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">日</span>-2017<span style="font-family:宋体">年</span></span><span style=";font-family:宋体;font-size:14px">1</span><span style=";font-family:宋体;font-size:14px">2</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">月</span></span><span style=";font-family:宋体;font-size:14px">6</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">日。</span></span></p><p style="text-indent: 21px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">2<span style="font-family:宋体">、征求意见主要事项</span></span></p><p style="text-indent: 14px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">（</span>1<span style="font-family:宋体">）项目建成后，公众最关心的当地环境问题（大气、水、噪声、固体废物等污染）；</span></span></p><p style="text-indent: 14px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">（</span>2<span style="font-family:宋体">）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">建设项目采取的环境影响预防和减缓措施</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">是否可行；</span></span></p><p style="text-indent: 14px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">（</span>3<span style="font-family:宋体">）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">建设项目</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">的环境影响是否可以接受；</span></span></p><p style="text-indent: 14px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">（</span>4<span style="font-family:宋体">）公众对</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">建设项目</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">有益影响的确认（发展经济、保护环境等）；</span></span></p><p style="text-indent: 14px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">（</span>5<span style="font-family:宋体">）其它意见和建议。</span></span></p><p style="text-indent:28px"><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">八、公众提出意见的主要方式</span></span></strong></p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">建设单位名称：</span></span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">六枝特区达济医疗投资有限公司</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">联系方式：电话：</span>15885902555</span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">联系人：黄总</span></span></p><p style="text-indent: 28px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px"><span style="font-family:宋体">环境影响评价单位名称：</span></span><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">四川省国环环境工程咨询有限公司</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">联系方式：</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">联系人：朱工</span></span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">电话：</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">028-83395555 &nbsp;&nbsp;</span></p><p style="text-indent: 28px"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">邮箱：</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:14px">61590711@qq.com</span></p><p style="text-indent: 28px"><br/></p><p style="text-indent:28px;text-align:right"><span style=";font-family:宋体;font-size:14px"><span style="font-family:宋体">六枝特区达济医疗投资有限公司</span></span></p><p style="text-indent:28px;text-align:right"><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px">2017<span style="font-family:宋体">年</span></span></strong><strong><span style="font-family: 宋体;font-size: 14px">1</span></strong><strong><span style="font-family: 宋体;font-size: 14px">1</span></strong><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">月</span>2</span></strong><strong><span style="font-family: 宋体;font-size: 14px">7</span></strong><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 14px"><span style="font-family:宋体">日</span></span></strong></p><p><br/></p><p><br/></p></font>
+				</div>
+				<div  class="share_jiucuo">
+					<div class="share"> 
+					<span class="fx">分享到：</span>
+					<div class="bshare-custom"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="../../../../../../images/bshareC0.js"></script>	
+				    </div>
+					<div class="jiucuo">
+					<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?url=http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927650.html&to=qqmail&desc=&summary=&title=六枝特区疾病预防控制中心迁建项目环境影响报告书第二次公示&site=&pics="><img src="../../../../../../images/tuijian.jpg" border="0" /></a>
+					<a href="javascript:GoTo(); " target="_blank"><img src="../../../../../../images/jiucuo.jpg" border="0" /></a>
+					<a href="/" target="_blank" ><img src="../../../../../../images/goindex.jpg" border="0" /></a>
+					<a href="javascript:window.print();" ><img src="../../../../../../images/print.jpg" border="0" /></a>
+					<a href="javascript:close();"><img src="../../../../../../images/close.jpg" border="0" /></a>
+					<a href="javascript:scroll(0,0)" style="font-size:9pt"><img src="../../../../../../images/fhdb.jpg" border="0" /></a>
+					</div>	
+				</div>
+				<!--上一篇下一篇-->
+				<div class="page">
+				<div class="prevpage">
+					<span>上一篇：</span><a  href="javascript:;" id="no1">无</a>
+					
+						<script type="text/javascript">
+							var  str="";
+							var str_1 = "./t20171228_2927639.html";
+							var str_4 = '贵州省牂牁江国际旅游云上牂牁建设项目招标代理比选招标中标公示';
+							if(str_4!="")
+							{
+							jQuery("#no1").hide();
+							if (str=="") {
+							document.write('<a  href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a>');
+							} else {
+							document.write('<a  href="'+str+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a>');
+							}
+							}
+						</script>
+					
+				</div>
+				<div class="nextpage">
+					<span>下一篇：</span><a  href="javascript:;" id="no2">无</a>
+					
+						<script type="text/javascript">
+							var  str="";
+							var str_1 = "./t20171228_2927649.html";
+							var str_4 = '六枝特区疾病预防控制中心迁建项目水土保持招标竞争性谈判结果公示';
+							if(str_4!="")
+							{
+							jQuery("#no2").hide();
+							if (str=="") {
+							document.write('<a  href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a>');
+							} else {
+							document.write('<a  href="'+str+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a>');
+							}
+							}
+						</script>
+					
+				</div>
+			</div>
+				<div class="information">
+				<h1><span>相关信息</span></h1>
+				<ul>
+					<script type="text/javascript">
+						var key="";
+						if(key!=''&&key!='null'){
+							
+						}else{
+								
+								document.write('<li>');
+								var  str="";
+								var str_1 = "../201711/t20171120_2852048.html";
+								var str_4 = '六枝特区银壶社区卫生服务中心4、5、6层病房装修项目竞争性谈判招标公告';
+								var str_2 = '2017-11-20';
+								if (str=="") {
+									document.write('<a TARGET="_blank"   href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								} else {
+									document.write('<a TARGET="_blank"   href="'+str+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								}
+								document.write('</li>');
+								
+								document.write('<li>');
+								var  str="";
+								var str_1 = "../201711/t20171120_2852047.html";
+								var str_4 = '六枝特区塔山社区卫生服务中心三年服务能力提升建设设备购置竞争性谈判公告';
+								var str_2 = '2017-11-20';
+								if (str=="") {
+									document.write('<a TARGET="_blank"   href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								} else {
+									document.write('<a TARGET="_blank"   href="'+str+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								}
+								document.write('</li>');
+								
+								document.write('<li>');
+								var  str="";
+								var str_1 = "../201711/t20171120_2852045.html";
+								var str_4 = '六枝特区岩脚镇卫生院数字化预防接种门诊、医共体改造装修项目竞争性谈判招标公告';
+								var str_2 = '2017-11-20';
+								if (str=="") {
+									document.write('<a TARGET="_blank"   href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								} else {
+									document.write('<a TARGET="_blank"   href="'+str+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								}
+								document.write('</li>');
+								
+								document.write('<li>');
+								var  str="";
+								var str_1 = "../201711/t20171120_2852046.html";
+								var str_4 = '六枝特区新场乡卫生院数字化预防接种门诊装修项目竞争性谈判招标公告';
+								var str_2 = '2017-11-20';
+								if (str=="") {
+									document.write('<a TARGET="_blank"   href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								} else {
+									document.write('<a TARGET="_blank"   href="'+str+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								}
+								document.write('</li>');
+								
+								document.write('<li>');
+								var  str="";
+								var str_1 = "../201711/t20171120_2852044.html";
+								var str_4 = '六枝特区塔山社区卫生服务中心数字化预防门诊、中医馆装修项目竞争性谈判招标公告';
+								var str_2 = '2017-11-20';
+								if (str=="") {
+									document.write('<a TARGET="_blank"   href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								} else {
+									document.write('<a TARGET="_blank"   href="'+str+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span class="f_r">'+str_2+'</span>');
+								}
+								document.write('</li>');
+							
+						}
+					 </script>
+				</ul>
+			</div>
+
+			</div>
+		
+		</div>
+		<!--底部-->
+	<!--底部-->
+<div class="ny_dib">
+	<!--友情链接-->
+	<div class="yqlj">
+		<div class="f_l yqlj_zb"></div>
+		<div class="yqlj_yb f_r">
+			        <select onChange=gotoLink(this); name="select1">
+					<option>中央政府部门网站</option>
+						
+         <option value="http://www.gov.cn/" >
+         中国政府网
+         </option>
+         	
+         <option value="http://www.mlr.gov.cn/" >
+         国土资源部
+         </option>
+         	
+         <option value="http://www.chinatax.gov.cn/" >
+         税务总局
+         </option>
+         	
+         <option value="http://www.audit.gov.cn/" >
+         审计署
+         </option>
+         	
+         <option value="http://www.cnta.gov.cn/" >
+         旅游局
+         </option>
+         	
+         <option value="http://www.sipo.gov.cn/" >
+         知识产权局
+         </option>
+         	
+         <option value="http://www.counsellor.gov.cn/" >
+         国务院参事室
+         </option>
+         	
+         <option value="http://www.mcprc.gov.cn/" >
+         文化部
+         </option>
+         	
+         <option value="http://www.mca.gov.cn/" >
+         民政部
+         </option>
+         	
+         <option value="http://www.mohrss.gov.cn/" >
+         人力资源和社会保障部
+         </option>
+         	
+         <option value="http://www.mps.gov.cn/" >
+         公安部
+         </option>
+         	
+         <option value="http://www.ncac.gov.cn/" >
+         版权局
+         </option>
+         	
+         <option value="http://www.agri.cn/" >
+         农业部
+         </option>
+         	
+         <option value="http://www.mot.gov.cn/" >
+         交通部
+         </option>
+         	
+         <option value="http://www.miit.gov.cn/newweb/" >
+         工信部
+         </option>
+         	
+         <option value="http://www.mfa.gov.cn/web/" >
+         外交部
+         </option>
+         
+				</select>
+                                  <select onChange=gotoLink(this); name="select5">
+					<option>省级部门网站</option>
+						
+         <option value="http://gzhm.gzsnjg.com/FirstPage1.html" >
+         贵州省惠民政策项目资金信息公开平台
+         </option>
+         	
+         <option value="http://www.gzgov.gov.cn/" >
+         贵州省人民政府
+         </option>
+         
+				</select>
+				<select  onChange=gotoLink(this); name="select2">
+					<option>市州政府网站</option>
+						
+         <option value="http://www.gzlps.gov.cn/dcview.html?method=viewQuestionnaireDetailPrv&questionnaireId=1034" >
+         六盘水市全民国防教育问卷调查链接
+         </option>
+         	
+         <option value="http://www.gzlps.gov.cn/" >
+         六盘水市人民政府门户网
+         </option>
+         
+				</select>
+				<select  onChange=gotoLink(this); name="select3">
+					<option>县区政府网站</option>
+						
+         <option value="http://zsjjkfq.gzlps.gov.cn/" >
+         钟山经济开发区
+         </option>
+         	
+         <option value="http://www.gzzs.gov.cn/" >
+         钟山区人民政府
+         </option>
+         	
+         <option value="http://www.panxian.gov.cn/" >
+         盘州市人民政府
+         </option>
+         	
+         <option value="http://www.shuicheng.gov.cn/" >
+         水城县人民政府网
+         </option>
+         
+				</select>
+				<select  onChange=gotoLink(this); name="select4">
+					<option>其他网站</option>
+						
+         <option value="http://www.liupanshui360.cn/" >
+         六盘水市第四届旅游文化产业发展大会专题网站
+         </option>
+         	
+         <option value="http://58.16.65.139:8088/gzwsxf/gzlogin.jsp?orgid=135" >
+         六枝特区信访局
+         </option>
+         	
+         <option value="http://www.lztqjw.gov.cn/" >
+         中共六枝特区纪委网站
+         </option>
+         	
+         <option value="http://www.lzlndx.com/" >
+         六枝特区老年大学网站
+         </option>
+         	
+         <option value="http://www.lztqzx.gov.cn/" >
+         六枝特区政协
+         </option>
+         	
+         <option value="http://www.553402.com/" >
+         六枝文明网
+         </option>
+         	
+         <option value="http://www.lzzzb.gov.cn/" >
+         六枝党建网
+         </option>
+         
+				</select>
+				
+		</div>
+	</div>
+	<script language="JavaScript">
+function gotoLink(theValue) 
+{
+   if (theValue.value != "no") 
+  {
+    window.open(theValue.value,"","")
+  }
+}   
+</script>
+<!--辅助信息-->
+<div class="dib_fz">
+	<p class="fz_xx">
+		<a href="http://www.liuzhi.gov.cn/syqt/wzbz/">网站帮助</a>|
+		<a href="http://www.liuzhi.gov.cn/syqt/wzdt/">网站地图</a>|
+		<a href="http://www.liuzhi.gov.cn/syqt/gywm/">关于我们</a>|
+		<a href="http://www.liuzhi.gov.cn/syqt/lxfs/">联系方式</a>
+	</p>
+	 <p>主  办：六枝特区人民政府        承  办：六枝特区人民政府办公室</p>
+	<p>信息维护：六枝特区电子政务办公室      联系电话：0858-5324658     邮箱：liuzhigov@163.com</p>
+	<p>备案信息：<a href="http://www.miitbeian.gov.cn" target="_blank">黔ICP备17007817号-1</a>   技术支持：<a href="http://www.gogbh.cn/" target="_blank" style="font-size: 13px;" target="_blank">贵州多彩博虹科技有限公司</a></p>
+<p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52020302000005" target="_blank"><img src="/images/160512094228434.jpg" />贵公网安备 52020302000005</a><span>
+<span>  政府网站标识码：5202030007</span></p>
+	<p style="margin-top: 15px;">
+		<a href="javascript:;" class="foot2"><script id="_jiucuo_" sitecode='5202030007' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></a>
+		<a href="http://bszs.conac.cn/sitename?method=show&id=0544661CEA9C57BEE053012819AC7A17" class="foot1"><img src="/images/dz_jg.png" /></a>
+		
+	</p>
+</div>
+</div>
+<script type="text/javascript">
+	  var bodyIsFt = $.cookie("bodyIsFt");
+	  $('#btn-s2t').click(function () {
+		  // to simplified
+		  if (bodyIsFt == "1") {
+			  $.cookie("bodyIsFt", 0, { expires: 365, path: '/' });
+			  bodyIsFt = "0";
+			  $('#btn-s2t').text('简体');
+			  $(document.body).t2s();
+		  } else {
+			  // to traditional
+			  $.cookie("bodyIsFt", 1, { expires: 365, path: '/' });
+			  bodyIsFt = "1";
+			  $('#btn-s2t').text('繁體');
+			  $(document.body).s2t();
+		  }
+	  });
+</script>
+<script language="JavaScript">var _trackDataType = "web";var _trackData = _trackData || [];</script><script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10000699" src="//fxsjcj.kaipuyun.cn/count/10000699/10000699.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            for (var i = 0; i < document.links.length; i++) {
+                var url = document.links[i].href.toLowerCase();
+                if (url.indexOf("http://localhost") == -1 && url.indexOf("liuzhi.gov.cn") == -1 && url.indexOf("javascript:") == -1 && url != "#" && !document.links[i].onclick) {
+                    document.links[i].onclick = function () {
+                        return confirm("您即将离开六枝特区人民政府网，是否继续!")
+                    };
+
+                }
+            }
+        });
+    </script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=1315" async="async" defer="defer"></script>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$("#Zoom").find("table").each(function(){
+					$(this).css("border-collapse","inherit").css("margin","0 auto").css("padding","0").attr("align","center");
+				})
+			})
+		</script>
+			<span id="tj_csl" style="display: none;"><script src="/count/index?id=2927650&siteid=192"></script></span>
+	
+	</body>
+</html>

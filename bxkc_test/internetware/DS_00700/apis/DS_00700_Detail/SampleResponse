@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>关于抚州市市本级财政投资评审项目工程造价咨询机构选定招标公告</title>
+<link href="../../../../images/UI.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<SCRIPT language=javascript>
+<!--
+
+function searchform_onsubmit() {
+	var SQLTitle,SQLContent,SQL,Relation;
+
+	doctitle=SQLContent=SQLTitle=SQLKeyword=SQL=Relation="";
+	
+		Relation=" OR ";
+		  
+    if(document.searchform.title.value!="") 
+		SQLTitle="DOCTITLE='%"+ document.searchform.title.value +"%'"+ Relation;;
+  
+      if(document.searchform.randcode.value!="")
+		SQLContent= "INFONUMBER='"+ document.searchform.randcode.value +"'"+ Relation;;
+
+    
+  	SQL=SQLTitle+ SQLContent; 
+	
+	var	Length=SQL.length;
+
+	SQL=SQL.substring(0,Length-4);
+   	if(SQL=="")
+	{
+		alert("检索词不能为空!");
+		return false;
+	}
+	//alert(SQL);
+	document.searchform.searchword.value= SQL;
+	//document.searchform.submit();
+		
+}
+//-->
+</SCRIPT>
+<script src="../../../../images/AC_RunActiveContent.js" type="text/javascript"></script>
+
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#FFFFFF">
+  <tr>
+    <td height="145" align="right" background="../../../../images/top.jpg"> </td>
+  </tr>
+  <tr>
+    <td background="../../../../images/top_04.jpg">
+      <table width="100%" height="34" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="toplinkfont"><a href="/">　首　页</a></td>
+        <td width="3"><img src="../../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/xwzx/">新闻中心</a></td>
+        <td width="3"><img src="../../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/index_628.htm">招标公告</a></td>
+        <td width="3"><img src="../../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/index_629.htm">中标公示</a></td>
+        <td width="3"><img src="../../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/zcfg/">政策法规</a></td>
+        <td width="3"><img src="../../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/bszn/">办事指南</a></td>
+        <td width="3"><img src="../../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/rcap/">日程安排</a></td>
+        <td width="3"><img src="../../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/wszx/">建言献策</a></td>
+        <td width="3"><img src="../../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/wstb/">网上通报</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="1" bgcolor="#CCCCCC"></td>
+  </tr>
+  <tr>
+    <td><table width="1002" border="0" align="center" cellpadding="0" cellspacing="5">
+      <tr>
+        <td width="200" align="center" class="tableblue"><!--****************时间日历开始****************-->
+<SCRIPT language=JavaScript src="../../../../images/times.js"> </SCRIPT>
+<!--****************时间日历结束****************--></td>
+        <td width="345" class="tableblue"><table width="100%" border="0" cellpadding="0" cellspacing="3">
+            <form name="searchform" method="post" action="http://app.jxfz.gov.cn/was40/search">
+<input type='hidden' id='channelid' name='channelid' value='9377' />
+            <tr>
+              <td width="65" align="center" class="bluefont">站内搜索</td>
+              <td><input name="searchword" type="text" size="20" /></td>
+              <td><select name="sss" 
+            size="1" class="input2">
+                  <option>本站</option>
+              </select></td>
+              <td align="center"><input name="Submit4" type="image" value='开始检索' src="../../../../images/search.jpg" /></td>
+            </tr>
+            </form>
+          </table></td>
+        <td class="tableblue"><iframe src="http://m.weather.com.cn/m/p2/weather1.htm?id=101240401T " marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" width="98%" height="19" scrolling="no"></iframe></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="1" bgcolor="#CCCCCC"></td>
+  </tr>
+</table>
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="5">
+  <tr>
+    <td align="center" valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="28" align="left" bgcolor="#EEEDED">　当前位置： <a href="../../../../" target="_blank" class="CurrChnlCls">首页</a><span class=cy02>&nbsp;&gt;&nbsp;</span><a href="../../../" target="_blank" class="CurrChnlCls">政府采购交易</a><span class=cy02>&nbsp;&gt;&nbsp;</span><a href="../../" target="_blank" class="CurrChnlCls">招标公告</a><span class=cy02>&nbsp;&gt;&nbsp;</span><a href="../" target="_blank" class="CurrChnlCls">公开招标</a></td>
+      </tr>
+      <tr>
+        <td height="2" bgcolor="#D4D4D4"></td>
+      </tr>
+    </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="5" bgcolor="#FFFFFF"></td>
+          </tr>
+        </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="70" align="center" bgcolor="#F3F3F3"><span class="news_title">关于抚州市市本级财政投资评审项目工程造价咨询机构选定招标公告</span></td>
+                </tr>
+                
+                <tr>
+                  <td align="center">&nbsp;</td>
+                </tr>
+              </table>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="center" bgcolor="#FFFFFF"><table width="85%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="61%" align="right">来源 :    时间：2016-09-27 11:20:00</td>
+                          <td width="39%" align="right"> 字体：<a class="xinwen-2" onclick="Zoom2.style.fontSize='16px';Javascript:return false;" href="#">大</a>　<a class="xinwen-2" onclick="Zoom2.style.fontSize='14px';Javascript:return false;" href="#">中</a>　<a class="xinwen-2" onclick="Zoom2.style.fontSize='12px';Javascript:return false;" href="#">小</a>　</td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                </table>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="5">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="5" align="center"><table width="93%" border="0" cellspacing="0" cellpadding="5">
+                        <tr>
+                          <td align="left" id='Zoom2'><div class=TRS_Editor>&nbsp;<span style="font-size: 12pt;">受抚州市财政局（以下简称“采购人”）委托，江西建红工程项目管理有限公司（以下简称“招标代理机构”）就抚州市市本级财政投资评审项目工程造价咨询机构选定</span><span lang="EN-US" style="font-size: 12pt;">(</span><span style="font-size: 12pt;">招标编号：<span lang="EN-US">FZJH-2016-G030)</span></span><span style="font-size: 12pt;">进行公开招标，欢迎合格投标人前来参与投标。</span>
+<p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;line-height:&#10;20.0pt;mso-line-height-rule:exactly;mso-list:l0 level1 lfo1;tab-stops:list 18.0pt"><!--[if !supportLists]--><b><span lang="EN-US" style="font-size: 12pt;">1．<span style="font-variant-numeric: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;"> </span></span></b><!--[endif]--><b><span style="font-size: 12pt;">招标项目内容、数量：<span lang="EN-US"> <o:p></o:p></span></span></b></p>
+<p class="MsoNormal" style="text-indent:30.0pt;mso-char-indent-count:2.5;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span style="font-size: 12pt;">通过公开招标确定<span lang="EN-US">12</span>家工程造价咨询机构（其中：甲级工程造价咨询机构<span lang="EN-US">10</span>家，乙级造价咨询机构<span lang="EN-US">2</span>家），承担由抚州市财政局根据工作需要委托的市本级政府投资项目预（结）算审核服务。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p class="MsoNormal" style="text-indent:24.0pt;mso-char-indent-count:2.0;&#10;line-height:20.0pt;mso-line-height-rule:exactly;mso-layout-grid-align:none;&#10;text-autospace:none"><span style="font-size: 12pt;">服务期限：2年（从签订协议之日起计算）。<o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height:20.0pt;mso-line-height-rule:exactly"><b><span lang="EN-US" style="font-size: 12pt;">2.</span></b><b><span style="font-size: 12pt;">投标人须具备以下资格标准：<span lang="EN-US"><o:p></o:p></span></span></b></p>
+<p class="MsoNormal" style="text-indent:30.0pt;mso-char-indent-count:2.5;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">1</span><span style="font-size: 12pt;">）必须符合《政府采购法》第二十二条之规定；</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:30.0pt;mso-char-indent-count:2.5;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">2</span><span style="font-size: 12pt;">）具有主管部门依法批准的工程造价咨询甲级资质或乙级资质</span><span style="font-size: 12pt;">（不含乙级暂定资质）；<span lang="EN-US"><o:p></o:p></span></span></p>
+<p class="MsoNormal" style="text-indent:30.0pt;mso-char-indent-count:2.5;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">3</span><span style="font-size: 12pt;">）本项目不接受联合体投标报名。</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:30.0pt;mso-char-indent-count:2.5;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span style="font-size: 12pt;">特别提醒：投标人具有企业营业执照、税务登记证、组织机构代码、工程造价咨询资质证书、法定代表人证书或授权书委托书及本人身份证等证件；</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:24.0pt;line-height:150%"><b>（</b><b>开标时以上资料均需提供原件，开标时专家审查）</b><span lang="EN-US" style="font-size: 12pt; line-height: 150%;"><o:p></o:p></span></p>
+<p class="MsoNormal" align="left" style="line-height: 20pt;"><b><span lang="EN-US" style="font-size: 12pt;">3. </span></b><b>获取招标文件方式：</b><span style="font-size: 12pt;">投标人自行在抚州市公共资源交易网上</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">http://www.fzztb.gov.cn/</span><span style="font-size: 12pt;">下载招标文件</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">,</span><span style="font-size: 12pt;">资料费</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">300</span><span style="font-size: 12pt;">元</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">/</span><span style="font-size: 12pt;">份（不退）在开标前现场缴纳。</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:23.6pt;text-indent:-23.6pt;mso-char-indent-count:&#10;-1.96;line-height:20.0pt;mso-line-height-rule:exactly"><b><span lang="EN-US" style="font-size: 12pt;">4.&nbsp; </span></b><b>递交投标文件截止时间：</b><span style="font-size: 12pt;">所<b>有投标文件应于</b></span><b><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">2016</span></b><b>年</b><b><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">10</span></b><b>月</b><b><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">21</span></b><b>日上午</b><b><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">9</span></b><b>：</b><b><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">30</span></b><b>（北京时间</b><span style="font-size: 12pt;">）之前递交到抚州市公共资源交易中心（</span><span style="font-size: 12pt;">抚州市城市规划艺术展示中心四楼</span><span style="font-size: 12pt;">）开标厅；</span><span lang="EN-US" style="font-size:12.0pt;&#10;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:23.6pt;text-indent:-23.6pt;mso-char-indent-count:&#10;-1.96;line-height:20.0pt;mso-line-height-rule:exactly"><b><span lang="EN-US" style="font-size: 12pt;">5.&nbsp; </span></b><b>开标时间：</b><b>定于</b><b><span lang="EN-US" style="font-size:12.0pt;&#10;mso-bidi-font-size:10.5pt">2016</span></b><b>年</b><b><span lang="EN-US" style="font-size:12.0pt;&#10;mso-bidi-font-size:10.5pt">10</span></b><b>月</b><b><span lang="EN-US" style="font-size:12.0pt;&#10;mso-bidi-font-size:10.5pt">21</span></b><b>日上午</b><b><span lang="EN-US" style="font-size:12.0pt;&#10;mso-bidi-font-size:10.5pt">9</span></b><b>：</b><b><span lang="EN-US" style="font-size:12.0pt;&#10;mso-bidi-font-size:10.5pt">30</span></b><b>（北京时间）之前递交</b><span style="font-size: 12pt;">到抚州市公共资源交易中心（</span><span style="font-size: 12pt;">抚州市城市规划艺术展示中心四楼</span><span style="font-size: 12pt;">）开标厅举行开标仪式。届时各投标人代表出席开标仪式；同时，提交纸质投标文件（一正四副）。</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:23.6pt;text-indent:-23.6pt;mso-char-indent-count:&#10;-1.96;line-height:20.0pt;mso-line-height-rule:exactly"><b><span lang="EN-US" style="font-size: 12pt;">6.&nbsp; </span></b><span style="font-size: 12pt;">采购人：</span><span style="font-size: 12pt;">抚州市财政局</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:23.3pt;mso-para-margin-left:2.22gd;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span style="font-size: 12pt;">采购人地址：抚州市迎宾大道</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">777</span><span style="font-size: 12pt;">号</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:23.3pt;mso-para-margin-left:2.22gd;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span style="font-size: 12pt;">联系人：梁先生</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:23.3pt;mso-para-margin-left:2.22gd;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span style="font-size: 12pt;">联系电话：</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">13879496390<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:23.5pt;text-indent:-23.5pt;mso-char-indent-count:&#10;-1.96;line-height:20.0pt;mso-line-height-rule:exactly"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">&nbsp;&nbsp;&nbsp; </span><span style="font-size: 12pt;">采购代理机构名称：江西建红工程项目管理有限公司</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:24.0pt;mso-char-indent-count:2.0;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span style="font-size: 12pt;">采购代理机构办公地点：抚州市赣东大道</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">1533</span><span style="font-size: 12pt;">号锦绣华庭小区</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">5</span><span style="font-size: 12pt;">号楼</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">2</span><span style="font-size: 12pt;">单元</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">301</span><span style="font-size: 12pt;">室</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:24.0pt;mso-char-indent-count:2.0;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span style="font-size: 12pt;">开标仪式详细地址：抚州市公共资源交易中心（</span><span style="font-size: 12pt;">抚州市城市规划艺术展示中心四楼</span><span style="font-size: 12pt;">）</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:26.15pt;mso-para-margin-left:2.49gd;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span style="font-size: 12pt;">联</span><span style="font-size:12.0pt;&#10;mso-bidi-font-size:10.5pt"> </span><span style="font-size: 12pt;">系</span><span style="font-size:12.0pt;mso-bidi-font-size:&#10;10.5pt"> </span><span style="font-size: 12pt;">人：<st1:personname productid="刘" w:st="on">刘</st1:personname>女士</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt"> <o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:26.15pt;mso-para-margin-left:2.49gd;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span style="font-size: 12pt;">电</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">&nbsp;&nbsp;&nbsp; </span><span style="font-size: 12pt;">话：</span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.5pt">0794-8735788<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:21.0pt;mso-char-indent-count:2.0;&#10;line-height:20.0pt;mso-line-height-rule:exactly"><span lang="EN-US">&nbsp;</span></p></div>
+                          
+                          	<br />
+                            <br />                          </td>
+                        </tr>
+                        <tr>
+                            	<td align="left" bgcolor="#F3F3F3" class="redfont"><span>相关附件：<a href="./P020160927408744539640.doc" target="_blank">招标文件.doc</a></span></td>
+                      </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="85%">&nbsp;</td>
+                          <td width="15%">【<a href="javascript:window.print()" class="xinwen-1">打印</a>】　【<a href="javascript:close()" class="xinwen-1">关闭</a>】</td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="3">&nbsp;</td>
+                  </tr>
+              </table></td>
+          </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td background="../../../../images/top_01.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="23" align="center" class="blafont">县区公共资源网：<a href="http://www.crzbtb.cn" target="_blank">崇仁</a>、<a href="http://www.dxztb.cn" target="_blank">东乡</a>、<a href="http://www.jxgc.gov.cn/gcztb" target="_blank">广昌</a>、<a href="http://www.yhztb.com.cn" target="_blank">宜黄</a>、<a href="http://www.jxlean.gov.cn/ztb" target="_blank">乐安</a>、<a href="http://www.lcztb.cn/index.asp" target="_blank">黎川</a>、<a href="http://www.ncztb.com/" target="_blank">南城</a>、<a href="http://nfztb.jxnf.gov.cn/" target="_blank">南丰</a>、<a href="http://ggzy.jinxi.gov.cn/jxggzy/default.aspx" target="_blank">金溪</a>、<a href="http://www.zxztbw.com/" target="_blank">资溪</a>。</td>
+        </tr>
+      </table></td>
+        <td width="32"><img src="../../../../images/top_02.jpg" width="32" height="31" /></td>
+        <td width="80" bgcolor="#0055D4" class="toplinkfont"><a href="#">设为首页</a></td>
+        <td width="80" bgcolor="#0055D4" class="toplinkfont"><a href="#">加入收藏</a></td>
+        <td width="80" bgcolor="#0055D4" class="toplinkfont"><a href="#">联系站长</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="120" align="center" background="../../../../images/end_bg.jpg">版权所有：抚州公共资源交易网 <a href="http://www.miibeian.gov.cn" target="_blank">赣ICP备05001171号</a> <br />
+      技术支持：<a href="http://www.acomjx.cn" target="_blank"></a>抚州市信息中心<a href="http://sighttp.qq.com/cgi-bin/check?sigkey=72d35736d0c176d2533b9c98a2bb2257f801f9daff0549a04a02ab6478dbc42f581487b32485f1ad042248a5c740ceca7ab8c4db7405493bcf5af957b815b7d60c7a8fb71a930369"; target=_blank; onclick="var tempSrc='http://sighttp.qq.com/wpa.js?rantime='+Math.random()+'&sigkey=72d35736d0c176d2533b9c98a2bb2257f801f9daff0549a04a02ab6478dbc42f581487b32485f1ad042248a5c740ceca7ab8c4db7405493bcf5af957b815b7d60c7a8fb71a930369';var oldscript=document.getElementById('testJs');var newscript=document.createElement('script');newscript.setAttribute('type','text/javascript'); newscript.setAttribute('id', 'testJs');newscript.setAttribute('src',tempSrc);if(oldscript == null){document.body.appendChild(newscript);}else{oldscript.parentNode.replaceChild(newscript, oldscript);}return false;"><img border="0" SRC='http://wpa.qq.com/pa?p=1:1071059269:1' alt="有事请留言" /></a> <!--信箱：<a href="mailto:fzztb@sohu.com">fzztb@sohu.com</a>--><br />
+    建议使用1024*768显示及IE4.0或以上版本浏览器 </td>
+  </tr>
+</table>
+</body>
+</html>

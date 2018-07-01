@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>招标信息 - 四川遂广遂西高速公路有限责任公司</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+ <link href="/css/common.css" type="text/css" rel="stylesheet" /><link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="/js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="/js/slide.js"></script>
+    <!--Banner-->
+    <link href="/css/foucs.css" rel="stylesheet" />
+    <script src="/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.foucs.js" type="text/javascript"></script>
+    <!--Banner-->
+
+      <script type="text/javascript">
+        // 设置为主页 
+        function SetHome(obj, vrl) {
+            try {
+                obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+            }
+            catch (e) {
+                if (window.netscape) {
+                    try {
+                        netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                    }
+                    catch (e) {
+                        alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入"about:config"并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                    }
+                    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                    prefs.setCharPref('browser.startup.homepage', vrl);
+                } else {
+                    alert("您的浏览器不支持，请按照下面步骤操作：\n1.打开浏览器设置。\n2.点击设置网页。\n3.输入：" + vrl + "点击确定。");
+                }
+            }
+        }
+        // 加入收藏 兼容360和IE6 
+        function shoucang(sTitle, sURL) {
+            try {
+                window.external.addFavorite(sURL, sTitle);
+            }
+            catch (e) {
+                try {
+                    window.sidebar.addPanel(sTitle, sURL, "");
+                }
+                catch (e) {
+                    alert("加入收藏失败，请使用Ctrl+D进行添加");
+                }
+            }
+        } 
+        
+        function ckv() {
+            if (document.getElementById("search_txt").value.length <= 1 || document.getElementById("search_txt").value=="输入关键词进行搜索") {
+                alert("请至少输入2个有效字符");
+                return false;
+            }
+        }
+        
+    </script>
+    </head>
+    <body>
+<div class="top">
+      <div class="tc mag">
+    <div class="welcome fl"> 您好，欢迎您访问本网站 今天是： 
+          <script language="JavaScript" type="text/javascript"> 
+<!--
+                        calendar = new Date();  //得到当前日期
+                        day = calendar.getDay();  //当前多数号
+                        month = calendar.getMonth(); //当前月份
+                        date = calendar.getDate();  //当前星期
+                        year = calendar.getFullYear();  //年份
+                        if (year < 100) year = 1900 + year;
+                        cent = parseInt(year / 100);
+                        g = year % 19;
+                        k = parseInt((cent - 17) / 25);
+                        i = (cent - parseInt(cent / 4) - parseInt((cent - k) / 3) + 19 * g + 15) % 30;
+                        i = i - parseInt(i / 28) * (1 - parseInt(i / 28) * parseInt(29 / (i + 1)) * parseInt((21 - g) / 11));
+                        j = (year + parseInt(year / 4) + i + 2 - cent + parseInt(cent / 4)) % 7;
+                        l = i - j;
+                        emonth = 3 + parseInt((l + 40) / 44);
+                        edate = l + 28 - 31 * parseInt((emonth / 4));
+                        emonth--;
+                        var dayname = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+                        var monthname =
+new Array("1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月");
+                        document.write(year + "年");
+                        document.write(monthname[month]);
+                        document.write(date + "日" + " ");
+                        document.write(dayname[day]); 
+//-->   
+
+  <!--   
+  function   fmove(){   
+    var   e=event.srcElement;   
+	
+    if(e.tagName=="TD"){   
+      e.parentNode.style.backgroundColor="#f2f2f2";   
+	 	
+      }   
+  }   
+  function   fout(){   
+    var   e=event.srcElement;   
+    if(e.tagName=="TD"){   
+      e.parentNode.style.backgroundColor="white";   
+      }   
+  }   
+  //-->   
+
+
+                </script></div>
+    <span class="content"><span class="turn_top"><a name="tr_t" id="tr_t"></a></span> </span>
+    <div class="sz fr">
+          <p> <a  href="javascript:void(0)" onClick="SetHome(this,window.location)" style="background: url(images/shouye.png) no-repeat left center">设为首页</a> <a  href="javascript:void(0)" onClick="shoucang(document.title,window.location)" style="background: url(images/shoucang.png) no-repeat left center">加入收藏</a> <a href="#" style="background: url(images/email.png) no-repeat left center">邮箱登陆</a> </p>
+         
+        </div>
+  </div>
+    </div>
+<div class="nav">
+      <ul class="big_n mag fm">
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/" class="bl">首页</a></li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/gk/" class="bl">公司概况</a>
+          <ul id="sub_01">
+        <li><a href="/jj/">公司简介</a></li>
+        <li><a href="/a/jigoushezhi/">组织机构</a></li>
+        <li><a href="/gk/gongsiwenhua/">公司文化</a></li>
+        <li><a href="/gk/dashijiyao/">大事记要</a></li>
+        <li><a href="/gk/yuangongfengmao/">员工风貌</a></li>
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/xinwenzhongxin/" class="bl">新闻中心</a>
+          <ul id="sub_01">
+        <li><a href="/a/xinwenzhongxin/xinwengonggao/">新闻公告</a></li>
+        <li><a href="/a/xinwenzhongxin/gonggaotongzhi/">公告通知</a></li>
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/gongchengjianshe/" class="bl">工程建设</a>
+          <ul id="sub_01">
+        <li><a href="/a/gongchengjianshe/gongchenggaikuang/">工程概况</a></li>
+        <li><a href="/a/gongchengjianshe/jianshedongtai/">建设动态</a></li>
+        <li><a href="/a/gongchengjianshe/gongchengfengmao/">工程风貌</a></li>
+      </ul>
+        </li>
+    <!-- <li class="mainlevel fl" id="Li1"><a href="/a/xingxiangjindu/" class="bl">形象进度</a>
+          <ul id="Ul1">
+        <li><a href="/a/xingxiangjindu/xingxiangjindu/">总体形象进度</a></li>
+        <li><a href="/a/xingxiangjindu/zongtixingxiangjindu/">动态形象进度</a></li>
+      </ul>
+        </li> -->
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/dangjianlianzheng/" class="bl">党建廉政</a>
+          <ul id="sub_01">
+        <li><a href="/a/dangjianlianzheng/zuzhihuodong/">组织活动</a></li>
+        <li><a href="/a/dangjianlianzheng/lianzhengguiding/">廉政规定</a></li>
+        <li><a href="/a/dangjianlianzheng/lianzhengdongtai/">廉政动态</a></li>
+        <li><a href="/a/dangjianlianzheng/jubaoxinxiang/">举报信箱</a></li>        
+<li><a href="/a/dangjianlianzheng/liangxueyizuo">两学一做</a></li>
+
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/zhaobiaoxinxi/" class="bl">招标信息</a>
+          <ul id="sub_01">
+        <li><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/">招标信息</a></li>
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/anquanguanli/" class="bl">安全管理</a>
+          <ul id="sub_01">
+        <li><a href="/a/anquanguanli/anquanguanli/">安全管理</a></li>
+            </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/zhuantihuodong/" class="bl">党群工作</a>
+          <ul id="sub_01">
+        <li><a href="/a/zhuantihuodong/">党群工作</a></li>
+
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="news.aspx?mid=182&all=" class="bl">工程创优</a>
+          <ul id="sub_01">
+        <li><a href="news.aspx?mid=182&sid= ">科研概况</a></li>
+        <li><a href="news.aspx?mid=226&sid= ">论文收录</a></li>
+        <li><a href="news.aspx?mid=212&sid= ">创优咨询</a></li>
+        <li><a href="news.aspx?mid=212&sid= ">建设亮点</a></li>
+        <li><a href="http://www.scsgsx.com/a/chuangyou/qikan/index.html">《遂广遂西》专刊</a></li>
+      </ul>
+        </li>
+  </ul>
+    </div><div class="banner"> 
+      <!-- 代码 开始 -->
+      <div id="main">
+    <div id="index_b_hero">
+          <div class="hero-wrap">
+        <ul class="heros clearfix">
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner06.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner07.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner08.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner09.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner10.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner11.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner12.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner13.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner14.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+            </ul>
+      </div>
+          <div class="helper">
+        <div class="mask-left"> </div>
+        <div class="mask-right"> </div>
+        <a href="#" class="prev icon-arrow-a-left"></a> <a href="#" class="next icon-arrow-a-right"></a> </div>
+        </div>
+  </div>
+      <script type="text/javascript">
+        $.foucs({ direction: 'right' });
+    </script> 
+      <!-- 代码 结束 --> 
+    </div>
+    <div class="content">
+        <div class="cc mag">
+
+            <div class="cont_box" id="news">
+                
+<div class="left fl">
+    <h3 class="fm">
+        招标信息</h3>
+       <ul>
+<li class="l_m"><a title="招标信息" class="leftchanged" href="/a/zhaobiaoxinxi/zhaobiaoxinxi/" style="z-index:2;">招标信息</a></li>    </ul>
+
+</div>
+
+                <div class="right fl">
+                 
+                    <p class="name"><span class="fl fm">招标信息</span><em class="fr">您现在的位置： <a href='http://www.scsgsx.com//'>主页</a> > <a href='/a/zhaobiaoxinxi/'>招标信息</a> > <a href='/a/zhaobiaoxinxi/zhaobiaoxinxi/'>招标信息</a> > </em></p>
+                    <div class="mycontent">
+                        
+        <ul class="an_n_list">
+    <li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1228/1180.html"
+                    target="_blank">
+                    遂宁至广安、遂宁至西充高速公路工程决算和竣工（财务）决算文件</a></em><span class="fr" style="text-align:left">&#160;2017-12-27 09:45:00</span></div>
+        </li><li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1222/1178.html"
+                    target="_blank">
+                    中选候选人公示表</a></em><span class="fr" style="text-align:left">&#160;2017-12-21 15:00:00</span></div>
+        </li><li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1219/1176.html"
+                    target="_blank">
+                    遂广遂西高速公路环保设施工程施工监理比选公告</a></em><span class="fr" style="text-align:left">&#160;2017-12-19 17:00:10</span></div>
+        </li><li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1218/1175.html"
+                    target="_blank">
+                    遂宁至西充高速公路环境影响评价备案报告 编制及技术服务比选公</a></em><span class="fr" style="text-align:left">&#160;2017-12-18 12:43:27</span></div>
+        </li><li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1220/1177.html"
+                    target="_blank">
+                    广安管理处和沿口收费站篮球场询价招标中选候选人公示表</a></em><span class="fr" style="text-align:left">&#160;2017-12-18 09:32:00</span></div>
+        </li><li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1214/1169.html"
+                    target="_blank">
+                    遂广遂西公司遂宁管理处综合体育馆中选候选人公示表</a></em><span class="fr" style="text-align:left">&#160;2017-12-14 09:24:35</span></div>
+        </li><li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1214/1168.html"
+                    target="_blank">
+                    遂广遂西公司遂宁管理处环形跑道中选候选人公示表</a></em><span class="fr" style="text-align:left">&#160;2017-12-14 09:20:21</span></div>
+        </li><li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1214/1170.html"
+                    target="_blank">
+                    遂宁至广安高速公路环境影响评价备案报告编制及技术服务比选公告</a></em><span class="fr" style="text-align:left">&#160;2017-12-13 12:42:00</span></div>
+        </li><li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1205/1161.html"
+                    target="_blank">
+                    四川遂广遂西高速公路有限责任公司遂宁管理处综合体育馆施工比选</a></em><span class="fr" style="text-align:left">&#160;2017-12-07 17:09:58</span></div>
+        </li><li>
+            <div>
+                <em class="fm f18 fl"><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/2017/1205/1163.html"
+                    target="_blank">
+                    四川遂广遂西高速公路有限责任公司广安管理处和沿口收费站篮球场</a></em><span class="fr" style="text-align:left">&#160;2017-12-05 17:39:37</span></div>
+        </li>
+    
+        </ul>
+    
+<div class="fpage" style="text-align: center; clear: both; padding-top: 30px;">
+    
+<!-- AspNetPager V7.2 for VS2005 & VS2008  Copyright:2003-2008 Webdiyer (www.webdiyer.com) -->
+<div id="ctl00_ContentPlaceHolder1_index_pro1_pagger">
+首页
+<li class="thisclass">1</li>
+<a href='list_29_2.html' style='margin-right:5px;'>2</a>
+<a href='list_29_3.html' style='margin-right:5px;'>3</a>
+<a href='list_29_4.html' style='margin-right:5px;'>4</a>
+<a href='list_29_5.html' style='margin-right:5px;'>5</a>
+<a href='list_29_6.html' style='margin-right:5px;'>6</a>
+<a href='list_29_7.html' style='margin-right:5px;'>7</a>
+<a href='list_29_8.html' style='margin-right:5px;'>8</a>
+<a href='list_29_9.html' style='margin-right:5px;'>9</a>
+<a href='list_29_2.html' style='margin-right:5px;'>下一页</a>
+<a href='list_29_9.html' style='margin-right:5px;'>末页</a>
+<select name='sldd' style='width:36px' onchange='location.href=this.options[this.selectedIndex].value;'>
+<option value='list_29_1.html' selected>1</option>
+<option value='list_29_2.html'>2</option>
+<option value='list_29_3.html'>3</option>
+<option value='list_29_4.html'>4</option>
+<option value='list_29_5.html'>5</option>
+<option value='list_29_6.html'>6</option>
+<option value='list_29_7.html'>7</option>
+<option value='list_29_8.html'>8</option>
+<option value='list_29_9.html'>9</option>
+</select>
+
+</div>
+<!-- AspNetPager V7.2 for VS2005 & VS2008 End -->
+
+
+</div>
+
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+
+  <div class="footer">
+
+      <div class="fc mag">
+    <p>四川遂广遂西高速公路有限责任公司&nbsp;&nbsp;版权所有 地址：遂宁市河东新区五彩缤纷路奥城玫瑰花园临江商业房6栋302、303号&nbsp;&nbsp;邮编：629000</p>
+    <p class="back">蜀ICP备12027527号  |  技术支持：<a href="http://www.zonwi.com" target="_blank" style="color:#9EC3E8; text-decoration:none ">中唯公司</a> </p>
+    <p>Copyright  2015 （scsgsx.com）, All Rights Reserved</p>
+  </div>
+    </div>
+<script type="text/javascript">
+    $(function () {
+        $(".tabs_1").each(function (index) {
+            $(this).click(function () {
+                $(".tabs_1").removeClass("tab1_alr");
+                $(".tabs_1:eq(" + index + ")").addClass("tab1_alr");
+                $(".tab1_cont").css("display", "none");
+                $(".tab1_cont:eq(" + index + ")").css("display", "block");
+            });
+        });
+    });
+    $(function () {
+        $(".tabs_2").each(function (index) {
+            $(this).click(function () {
+                $(".tabs_2").removeClass("tab2_alr");
+                $(".tabs_2:eq(" + index + ")").addClass("tab2_alr");
+                $(".tab2_cont").css("display", "none");
+                $(".tab2_cont:eq(" + index + ")").css("display", "block");
+            });
+        });
+    });
+    $(function () {
+        $(".tabs_3").each(function (index) {
+            $(this).click(function () {
+                $(".tabs_3").removeClass("tab3_alr");
+                $(".tabs_3:eq(" + index + ")").addClass("tab3_alr");
+                $(".tab3_cont").css("display", "none");
+                $(".tab3_cont:eq(" + index + ")").css("display", "block");
+            });
+        });
+    });
+    </script>
+
+</body>
+</html>

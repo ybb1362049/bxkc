@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content='chrome=1 IE=Edge' />
+    <meta name="SiteName" content="郫都区人民政府门户网站">
+	<meta name="SiteDomain" content="www.pidu.gov.cn">
+	<meta name="SiteIDCode" content="5101240002">
+	<meta name="ColumnName" content="通知公告">
+	<meta name="ColumnDescription" content="通知公告">
+	<meta name="ColumnKeywords" content="通知公告">
+	<meta name="ColumnType" content="通知公告">
+	<title>通知公告</title>
+    <link rel="stylesheet" href="http://www.pidu.gov.cn/pidu/xhtml/css/reset.css">
+    <link rel="stylesheet" href="http://www.pidu.gov.cn/pidu/xhtml/css/common.css">
+    <link rel="stylesheet" href="http://www.pidu.gov.cn/pidu/xhtml/css/list.css">
+    <script src="http://www.pidu.gov.cn/pidu/xhtml/js/jquery-1.11.0.min.js"></script>
+    <script src="http://www.pidu.gov.cn/pidu/xhtml/js/work.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://www.pidu.gov.cn/pidu/xhtml/js/html5shiv.min.js"></script>
+    <script src="http://www.pidu.gov.cn/pidu/xhtml/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <!--头部开始-->
+      <!--header start-->
+<div class="header">
+  <div class="innerBox">
+    <div class="h40_fl">
+      <ul>
+        <li><a href="javascript:;" onclick="javascript:window.location.href='http:/'+'/'+'www.pidu.gov.cn'">简体版</a></li>
+        <li><a href="javascript:;" onclick="javascript:window.location.href='http:/'+'/'+'www.pidu.gov.cn:81'">繁体版</a></li>
+        <li><a href="/pidu/enPiduqu/home.shtml"  target="_blank" title='英文版' >英文版</a></li>
+        <li><a href="/pidu/wapHome/wapPage.shtml"  target="_blank" title='Wap版' >Wap版</a></li>
+        <li class="last" id="wzaBox"><a href="http://www.pidu.gov.cn/accessibility/web" target="_blank">无障碍版</a></li>
+      </ul>
+    </div>
+    <div class="h40_fr">
+      <span id="weather"></span>
+      <span class="qrd"><a href="http://www.pxrd.gov.cn/"  target="_blank" title='区人大' >区人大</a></span>
+      <span class="qzx"><a href="http://182.151.203.87:8025/"  target="_blank" title='区政协' >区政协</a></span>
+    </div>
+  </div>
+</div>
+<!--header end-->
+<!--logo & search start-->
+<div class="logBox innerBox">
+  <div class="logo"><img src="/pidu/xhtml/images/home_10.png" alt=""></div>
+  <div class="searchBox">
+    <div class="search">
+      <form action='' name="searchForm" id="searchForm" method="post" target="_blank" onsubmit="return checksearch();">
+        <span>
+          <input type="text" name="qt" placeholder="请输入关键字查询"/>
+          <i></i>
+        </span>
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+    <div class="hotMsg">
+      <p>热门搜索：</p>
+      <ul>
+        <li><a href="">区长信箱</a></li>
+        <li><a href="">居住证</a></li>
+        <li><a href="">落户</a></li>
+        <li><a href="">限购</a></li>
+        <li><a href="">人才落户</a></li>
+        <li class="last"><a href="">公积金</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--logo & search end-->
+<!--header end-->
+
+<!--导航菜单 start-->
+<div class="nav innerBox">
+  <ul>
+    <li class="li_01"><a href="/pidu/c125552/xwzx.shtml"  target="_self" title='新闻中心' >新闻中心</a></li>
+    <li class="li_02"><a href="/pidu/c125569/zwgk.shtml"  target="_self" title='政务公开' >政务公开</a></li>
+    <li class="li_03"><a href="/pidu/c125779/bsfw.shtml"  target="_self" title='办事服务' >办事服务</a></li>
+    <li class="li_04"><a href="/pidu/c125973/wllz.shtml"  target="_self" title='网络理政' >网络理政</a></li>
+    <li class="li_05"><a href="/pidu/c125987/tzpd.shtml"  target="_self" title='投资郫都' >投资郫都</a></li>
+    <li class="li_06"><a href="/pidu/c126013/pdxy.shtml"  target="_self" title='郫都印象' >郫都印象</a></li>
+    <li class="li_07"><a href='http://data.pidu.gov.cn/index.php?m=Opendata' target="_blank">数据开放</a></li>
+  </ul>
+  <p class="showCon">
+    <span class="hideBtn"><a href="/pidu/index.shtml" target="_blank"><img src="/pidu/xhtml/images/backHome.png"/></a></span>
+  </p>
+</div>
+<!--导航菜单 start-->
+      <!--头部结束-->
+    <!--main start-->
+    <div class="main">
+        <div class="curr_wz">
+            <span>当前位置：<a href="http://www.pidu.gov.cn">首页</a>&nbsp;&gt;&nbsp;通知公告</span>
+        </div>
+        <div class="list" style="width:100%;">
+            <ul>
+				
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/26/content_fe4559a21722427a84065bf56c221581.shtml" target="_blank" title="万寿桥等8座2018年（第二批）饮用水源保护区域内桥梁检测项目比选公告" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">万寿桥等8座2018年（第二批）饮用水源保护区域内桥梁检测项目比选公告</a>
+								<span class="xxly">来源：</span>
+								<span class="time">发布时间：2018-06-26</span>
+                            
+						</li>
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/21/content_baa2c445fabf4af7913cdfa5a9d314fc.shtml" target="_blank" title="关于犀团路改造工程建设计划公告" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">关于犀团路改造工程建设计划公告</a>
+								<span class="xxly">来源：</span>
+								<span class="time">发布时间：2018-06-21</span>
+                            
+						</li>
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/19/content_d9ac01400e0c4dabb669cae4fe0ad5de.shtml" target="_blank" title="郫都区灌区轮作与林盘保护配套道路建设项目造价咨询评选结果公示" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">郫都区灌区轮作与林盘保护配套道路建设项目造价咨询评选结果公示</a>
+								<span class="xxly">来源：</span>
+								<span class="time">发布时间：2018-06-19</span>
+                            
+						</li>
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/26/content_957d8dc739db41c5a71d310260886a47.shtml" target="_blank" title="锦城绿道安靖区域城中村改造拆除项目（赛驰村）比选公告" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">锦城绿道安靖区域城中村改造拆除项目（赛驰村）比选公告</a>
+								<span class="xxly">来源：</span>
+								<span class="time">发布时间：2018-06-26</span>
+                            
+						</li>
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/26/content_486c076035344156b1be50907f64fa37.shtml" target="_blank" title="成都市郫都区人力资源和社会保障局关于进一步做好在蓉高校毕业生求职创业补贴发放情况公示" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">成都市郫都区人力资源和社会保障局关于进一步做好在蓉高校毕业生求职创业补贴发放情况公示</a>
+								<span class="xxly">来源：区人社局</span>
+								<span class="time">发布时间：2018-06-26</span>
+                            
+						</li>
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/26/content_67735b87af254e388ed4ae2addc0f089.shtml" target="_blank" title="成都市郫都区人力资源和社会保障局就业见习基地申报就业见习补贴发放情况公示" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">成都市郫都区人力资源和社会保障局就业见习基地申报就业见习补贴发放情况公示</a>
+								<span class="xxly">来源：区人社局</span>
+								<span class="time">发布时间：2018-06-26</span>
+                            
+						</li>
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/26/content_e3914ffc6e1e43b3afb3807a6f5e2550.shtml" target="_blank" title="比选公告（棋田村卫生站、日间照料中心）" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">比选公告（棋田村卫生站、日间照料中心）</a>
+								<span class="xxly">来源：</span>
+								<span class="time">发布时间：2018-06-26</span>
+                            
+						</li>
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/26/content_559e76d9dced42928b8e926574c1fbb7.shtml" target="_blank" title="成都市郫都区城市管理局2018年办公耗材采购项目评选公告" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">成都市郫都区城市管理局2018年办公耗材采购项目评选公告</a>
+								<span class="xxly">来源：</span>
+								<span class="time">发布时间：2018-06-26</span>
+                            
+						</li>
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/26/content_e99402956a3741779f5949517fa9725e.shtml" target="_blank" title="成都市郫都区城市管理局2018年办公用品采购项目评选公告" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">成都市郫都区城市管理局2018年办公用品采购项目评选公告</a>
+								<span class="xxly">来源：</span>
+								<span class="time">发布时间：2018-06-26</span>
+                            
+						</li>
+                    
+						<li>
+							
+                                <a href="http://www.pidu.gov.cn/pidu/c125577/2018-06/26/content_b4b29185db1042af8d67c17579a6ffa0.shtml" target="_blank" title="郫公资土拍告【2018】02号拍卖结果一览表" style="white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;">郫公资土拍告【2018】02号拍卖结果一览表</a>
+								<span class="xxly">来源：</span>
+								<span class="time">发布时间：2018-06-26</span>
+                            
+						</li>
+                    
+                
+            </ul>
+            <div class="page">
+                <div id="page_div">
+                         <span class="pagination-first">
+                            <a class="pagination-index" href="/es-search/search/d668d727a9514ad7b0c766e506170170?_isAgg=0&amp;_pageSize=10&amp;_template=pidu_list&amp;_channelName=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=1">首页</a>
+                             
+                                
+                                    
+                                
+                                
+                                
+                                
+                                    
+                                        <a class="pagination-num hover">1</a>
+                                    
+                                    
+                                        <a class="pagination-num" href="/es-search/search/d668d727a9514ad7b0c766e506170170?_isAgg=0&amp;_pageSize=10&amp;_template=pidu_list&amp;_channelName=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=2">2</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/d668d727a9514ad7b0c766e506170170?_isAgg=0&amp;_pageSize=10&amp;_template=pidu_list&amp;_channelName=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=3">3</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/d668d727a9514ad7b0c766e506170170?_isAgg=0&amp;_pageSize=10&amp;_template=pidu_list&amp;_channelName=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=4">4</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/d668d727a9514ad7b0c766e506170170?_isAgg=0&amp;_pageSize=10&amp;_template=pidu_list&amp;_channelName=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=5">5</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/d668d727a9514ad7b0c766e506170170?_isAgg=0&amp;_pageSize=10&amp;_template=pidu_list&amp;_channelName=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=6">6</a>
+                                
+                                    
+                                        <a class="pagination-num" href="/es-search/search/d668d727a9514ad7b0c766e506170170?_isAgg=0&amp;_pageSize=10&amp;_template=pidu_list&amp;_channelName=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=7">7</a>
+                                
+                             
+                            <a class="pagination-index" href="/es-search/search/d668d727a9514ad7b0c766e506170170?_isAgg=0&amp;_pageSize=10&amp;_template=pidu_list&amp;_channelName=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=800">末页</a>
+                            <span class="pagination-last">	<span>当前第 1 页</span>	<span>跳转至</span>	<input id="pagination-input" type="text"value=2>	<span>页</span>	<a href="javascript:void(0);" onclick="page_go()">跳转</a>	<span>共 800 页</span>	<span>共 7996 条</span>
+                            </span>
+                        </span>
+                    </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!--main end-->
+</div>
+	<!--尾部开始-->
+    <div class="footer">
+  <div class="friend">
+    <select name="select0" onchange="slectOpen(this)">
+      <option>国家及部委网站</option>
+ 
+
+        <option value="http://www.mohrss.gov.cn/">
+          人力资源和社会保障部
+        </option>
+
+        <option value="http://www.fmprc.gov.cn/mfa_chn/">
+          外交部
+        </option>
+
+        <option value="http://www.moe.edu.cn/">
+          教育部
+        </option>
+
+    </select>
+    <select name="select0" onchange="slectOpen(this)">
+      <option>各省市网站</option>
+ 
+
+        <option value="http://www.shanghai.gov.cn/">
+          上海市
+        </option>
+
+        <option value="http://www.tianjin.gov.cn/">
+          天津市
+        </option>
+
+        <option value="http://www.beijing.gov.cn/">
+          北京市
+        </option>
+
+        <option value="http://www.cq.gov.cn/">
+          重庆市
+        </option>
+
+        <option value="http://www.sc.gov.cn/">
+          四川省
+        </option>
+
+        <option value="http://www.chengdu.gov.cn/">
+          成都市
+        </option>
+
+        <option value="http://www.hangzhou.gov.cn/">
+          杭州市
+        </option>
+
+    </select>
+    <select name="select0" onchange="slectOpen(this)">
+      <option>成都区市县网站</option>
+ 
+
+        <option value="http://www.qbj.gov.cn/">
+          青白江区公众信息网
+        </option>
+
+        <option value="http://www.xinjin.gov.cn/">
+          新津公众信息网
+        </option>
+
+        <option value="http://www.djy.gov.cn/">
+          都江堰
+        </option>
+
+        <option value="http://www.shuangliu.gov.cn/">
+          双流区公众信息网
+        </option>
+
+        <option value="http://www.xindu.gov.cn/">
+          新都区公众信息网
+        </option>
+
+        <option value="http://www.pujiang.gov.cn/">
+          蒲江县公众信息网
+        </option>
+
+        <option value="http://www.day.gov.cn/">
+          大邑县公众信息网
+        </option>
+
+        <option value="http://www.chongzhou.gov.cn/">
+          崇州市公众信息网
+        </option>
+
+        <option value="http://www.chenghua.gov.cn/">
+          成华区公众信息网
+        </option>
+
+        <option value="http://www.cdwh.gov.cn/">
+          武侯区公众信息网
+        </option>
+
+        <option value="http://www.jinniu.gov.cn/">
+          金牛区公众信息网
+        </option>
+
+        <option value="http://www.longquanyi.gov.cn/">
+          龙泉驿区公众信息网
+        </option>
+
+        <option value="http://www.wenjiang.gov.cn/">
+          温江区公众信息网
+        </option>
+
+        <option value="http://www.jintang.gov.cn/">
+          金堂县公众信息网
+        </option>
+
+        <option value="http://www.cdht.gov.cn/">
+          高新区公众信息网
+        </option>
+
+        <option value="http://www.scjy.gov.cn/">
+          简阳市
+        </option>
+
+        <option value="http://www.cdjinjiang.gov.cn/">
+          锦江公众信息网
+        </option>
+
+        <option value="http://www.cdqingyang.gov.cn/">
+          青羊区公众信息网
+        </option>
+
+    </select>
+    <select name="select0" onchange="slectOpen(this)">
+      <option>党群网站</option>
+ 
+
+        <option value="http://www.pxzg.gov.cn/">
+          区委组织部
+        </option>
+
+        <option value="http://www.pixianredcross.org/">
+          区红十字会
+        </option>
+
+        <option value="http://www.pidu.gov.cn/pidu/c135120/qnl.shtml">
+          三农信息网
+        </option>
+
+        <option value="http://www.cdggzy.com/pidu/?cid=000100030003">
+          区公共资源交易服务中心
+        </option>
+
+        <option value="http://www.pidu.gov.cn/pidu/c135122/qtc.shtml">
+          区投促局
+        </option>
+
+        <option value="http://px.cds.sc.qnzs.youth.cn/index/index/s/28852/l/1">
+          团委
+        </option>
+
+        <option value="http://wangcong.tv/">
+          郫都区电视台
+        </option>
+
+    </select>
+    <select name="select0" onchange="slectOpen(this)">
+      <option>辖区高校</option>
+ 
+
+        <option value="http://www.yjxschool.com">
+          成都市技师学院
+        </option>
+
+        <option value="http://www.ntjx.org/">
+          内江铁路机械学校
+        </option>
+
+        <option value="http://www.scetop.com/">
+          四川托普信息技术职业学院
+        </option>
+
+        <option value="http://www.cdysxy.com/">
+          四川理工大学广播影视学院
+        </option>
+
+        <option value="http://www.chcedu.cn/">
+          成都信息工程学院
+        </option>
+
+        <option value="http://www.cdtc.edu.cn/">
+          成都纺织高等专科学校
+        </option>
+
+        <option value="http://www.uestc.edu.cn/">
+          电子科技大学清水河校区
+        </option>
+
+        <option value="http://www.cisisu.edu.cn/">
+          四川外国语大学成都学院
+        </option>
+
+        <option value="http://www.scujcc.com.cn/">
+          四川大学锦城学院
+        </option>
+
+        <option value="http://www.cdxy.edu.cn/">
+          四川师范大学成都学院
+        </option>
+
+        <option value="http://www.scstc.cn/">
+          四川科技职业学院
+        </option>
+
+        <option value="http://www.cdtu.edu.cn/">
+          成都工业学院
+        </option>
+
+        <option value="http://www.xhu.edu.cn/">
+          西华大学
+        </option>
+
+    </select>
+    <select name="select0" onchange="slectOpen(this)">
+      <option>其他网站</option>
+ 
+
+    </select>
+  </div>
+  <div class="msg innerBox">
+    <i class="i_01"><script id="_jiucuo_" sitecode='5101240002' src='/pidu/xhtml/js/jiucuo.js'></script></i>
+    <i class="i_02"><a href="http://bszs.conac.cn/sitename?method=show&id=16F44380F3EA3E5DE053022819ACCFFA" target="_blank"><img src="/pidu/xhtml/images/red.png" alt=""></a></i>
+    <i class="i_03"><a href="http://www.cdnet110.com/" target="_blank"><img src="/pidu/xhtml/images/index_15.png" alt=""></a></i>
+    <p>
+      <a href="javascript:;" onclick="SetHome(this,location.href);">设为首页</a>&nbsp;|&nbsp;
+      <a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">加入收藏</a>&nbsp;|&nbsp;
+      <a href="/pidu/c126047/pdsm.shtml"  target="_blank" title='隐私声明' >隐私声明</a>&nbsp;|&nbsp;
+      <a href="/pidu/c126048/pdsm.shtml"  target="_blank" title='网站申明' >网站申明</a>&nbsp;|&nbsp;
+      <a href="/pidu/c126049/wzdt.shtml"  target="_blank" title='网站地图' >网站地图</a>&nbsp;|&nbsp;
+      <a href="/pidu/c126051/pdsm.shtml"  target="_blank" title='使用帮助' >使用帮助</a>
+    </p>
+    <p>
+      <span>主办：郫都区人民政府</span>&nbsp;
+      <span>管理维护：郫都区信息数据中心，电话：69066862 蜀ICP备17004821号</span>&nbsp;
+      <span><img src="/pidu/xhtml/images/beian.png" alt="">川公网安备51012402000226号</span>&nbsp;
+      <span>网站标识码：5101240002</span>
+    </p>
+    <p>
+      技术支持：<a href="http://www.yzgov.com/" target="_blank">成都朝发信息工程技术有限公司</a>
+    </p>
+  </div>
+</div>
+<div class="bj"></div>
+<div class="qwfwml">
+  <div class="qw_nav">
+    <div class="smB2g">
+      <p class="qw_title">市民服务</p>
+      <ul>
+ 
+
+          <li>
+            <a href="/pidu/c125781/jyfw.shtml"  target="_blank" title='教育服务' >教育服务</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125792/ylws.shtml"  target="_blank" title='医疗卫生' >医疗卫生</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125801/jtfw.shtml"  target="_blank" title='交通服务' >交通服务</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125815/shbz.shtml"  target="_blank" title='社会保障' >社会保障</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125836/zfly.shtml"  target="_blank" title='住房领域' >住房领域</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125846/jiuYe.shtml"  target="_blank" title='就业服务' >就业服务</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125853/hysy.shtml"  target="_blank" title='婚姻收养' >婚姻收养</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125868/gysy.shtml"  target="_blank" title='公用事业' >公用事业</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125882/zjbl.shtml"  target="_blank" title='证件办理' >证件办理</a>
+          </li>
+
+        <p class="clearfix"></p>
+      </ul>
+    </div>
+    <div class="qyB2g">
+      <p class="qw_title">企业服务</p>
+      <ul>
+ 
+
+          <li>
+            <a href="/pidu/c125894/qykb.shtml"  target="_blank" title='企业开办' >企业开办</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125914/jyns.shtml"  target="_blank" title='经营纳税' >经营纳税</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125987/tzpd.shtml"  target="_blank" title='招商引资' >招商引资</a>
+          </li>
+
+        <p class="clearfix"></p>
+      </ul>
+    </div>
+    <div class="zdbsfw">
+      <p class="qw_title">重点办事服务</p>
+      <ul>
+ 
+
+          <li>
+            <a href="/pidu/c125936/list.shtml"  target="_blank" title='身份证办理' >身份证办理</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125937/list.shtml"  target="_blank" title='户籍办理' >户籍办理</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125938/list.shtml"  target="_blank" title='生育服务证办理' >生育服务证办理</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125839/pdgj.shtml"  target="_blank" title='保障性住房' >保障性住房</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c111106/zfly_list.shtml"  target="_blank" title='房屋产权登记' >房屋产权登记</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c111110/zfly_list.shtml"  target="_blank" title='公积金贷款' >公积金贷款</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125886/list.shtml"  target="_blank" title='港澳通行证办理' >港澳通行证办理</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125822/ysj_list.shtml"  target="_blank" title='老年人福利' >老年人福利</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125825/list.shtml"  target="_blank" title='残疾人服务' >残疾人服务</a>
+          </li>
+
+          <li>
+            <a href="/pidu/c125945/pdgj.shtml"  target="_blank" title='企业优惠扶持' >企业优惠扶持</a>
+          </li>
+
+        <p class="clearfix"></p>
+      </ul>
+    </div>
+  </div>
+  <div class="navBtn">
+    全网服务导航
+  </div>
+</div>
+<div class="share_box">
+  <ul>
+    <li><a href="/pidu/index.shtml"><img src="/pidu/xhtml/images/home_16.png" alt=""></a></li>
+    <li><a href="/pidu/c125980/weChat.shtml" target="_blank"><img src="/pidu/xhtml/images/home_25.png" alt=""></a></li>
+    <li>
+      <a href="javascript:void(0);"><img src="/pidu/xhtml/images/home_29.png" alt=""></a>
+      <div class="weChat">
+        郫都区政府网
+        <img src="/pidu/xhtml/images/weix.gif" alt="">
+        扫描二维码
+        <p>关注郫都政务微信</p>
+      </div>
+    </li>
+    <li><a href="http://www.pidu.gov.cn/accessibility/web" target="_blank"><img src="/pidu/xhtml/images/home_31.png" alt=""></a></li>
+    <li><a href="/pidu/wapHome/wapPage.shtml" target="_blank"><img src="/pidu/xhtml/images/home_34.png" alt=""></a></li>
+    <li><a href="/pidu/c125690/jgml.shtml" target="_blank"><img src="/pidu/xhtml/images/home_36.png" alt=""></a></li>
+  </ul>
+</div>
+<!-- PHPStat Start -->
+<script language="JavaScript">var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="phpstat_js_id_10000066" src="//182.150.40.157:8080/phpstat/count/10000066/10000066.js"></script><noscript><img src="//182.150.40.157:8080/phpstat/count/10000066/10000066.php" alt="PHPStat Analytics"/></noscript>
+<!--/PHPStat End -->
+
+<script>
+  $('.navBtn').hover(function () {
+    $(this).parent('.qwfwml').animate({
+      left:0
+    });
+  });
+  $('.qwfwml').mouseleave(function () {
+    $(this).animate({
+      left:-238
+    },500) ;
+  });
+  $('.share_box>ul>li').mouseenter(function () {
+    $(this).children('div').show();
+    $(this).siblings('li').children('div').hide();
+  }).mouseleave(function () {
+    $(this).children('div').hide();
+    $(this).siblings('li').children('div').hide();
+  });
+</script>
+<script>
+  $(function(){
+    document.searchForm.action = "/search/s?siteCode=5101240002";   
+  })
+</script>
+<script src="/pidu/xhtml/js/work.js"></script>
+<script src='/pidu/xhtml/js/alert.min.js'></script>
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-820065-C31490/gs.js'></script>
+    <!--尾部结束-->
+<div class="bj"></div>
+<script type="text/javascript">
+  function page_go(){
+	var locationUrl = "/es-search/search/d668d727a9514ad7b0c766e506170170?_isAgg=0&amp;_pageSize=10&amp;_template=pidu_list&amp;_channelName=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A&amp;_allNum=0&amp;page=";
+	var total="800";
+	var inputV=$("#pagination-input").val();
+	console.log(inputV);
+	if(parseInt(inputV) <= parseInt(total) ){
+		window.location.href = locationUrl.replace(/&amp;/g, "&") + $("#pagination-input").val();
+	}else{
+	alert('请输入正确的跳转页码！');
+	}
+  }
+</script>
+</body>
+</html>

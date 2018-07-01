@@ -1,0 +1,285 @@
+
+
+
+
+
+
+
+
+
+
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<link href="http://mzj.bengbu.gov.cn/css/css_whir.css" rel="stylesheet" type="text/css" />
+<title>蚌埠市民政局</title>
+<base href='http://mzj.bengbu.gov.cn/' />
+<meta NAME="keywords" CONTENT="">
+<meta NAME="description" CONTENT="">
+<script>
+function pageNum(Id,pageTotalCount){
+   if(IsObjById(Id)){
+	  var textValue = document.getElementById(Id).value;
+	  if(alltrim(textValue) !='' && alltrim(pageTotalCount) !=''){
+		 if(parseInt(textValue) > parseInt(pageTotalCount)){setValue(Id,pageTotalCount);}
+	  }else{setValue(Id,"1");}
+   }
+}
+function pageJump(Id,showstr,gotoUrl){
+  if(IsObjById(Id)){
+	 if(alltrim(document.getElementById(Id).value) ==''){alert(showstr);}
+	 else{window.location.href=gotoUrl;}
+  }
+}
+function setValue(Id,Value){
+   if(IsObjById(Id)){
+      document.getElementById(Id).value = Value;
+   }
+}
+function checkNum(Id,returnValue){   
+  if(IsObjById(Id)){
+	 if(isNaN(alltrim(document.getElementById(Id).value))){
+		if(returnValue != null && returnValue != ""){setValue(Id,returnValue);} 
+	 }
+  }
+}
+function IsObjById(Id){
+  return (document.getElementById(Id))?true:false;
+}
+function alltrim(tt){
+  return tt.replace(/(^\s*)|(\s*$)/g, "");
+}
+</script>
+</head>
+<body>
+<!--头部开始-->
+<script type="text/javascript">
+	function deleteTextvalue(){
+		document.getElementById("keyword").value = "";
+	}
+	
+	// 键盘enter事件
+	function checkEnter(){
+		// 查询内容
+		var keyword = document.getElementById("keyword").value;
+		keyword = all_trim(keyword);
+		document.getElementById("searchfmOfAtic").action = "system/common/searchResult.jsp?keyword="+encodeURIComponent(keyword);
+	}
+
+	function click(){
+		document.all.formsubmit.submit();
+	}
+</script>
+<div id="head">
+<div class="top"><div class="welcome"><a href="http://www.bengbu.gov.cn/" target="_blank">中国·蚌埠</a></div>
+<div class="topnav">
+<ul><li>·<script language="javascript" type="text/javascript" src="script/language.js"></script></li><li>·<a href="javascript:void(0)" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://mzj.bengbu.gov.cn/');return(false);">设为主页</a></li><li>·<a href="javascript:window.external.AddFavorite('http://mzj.bengbu.gov.cn/','蚌埠市民政局')">加入收藏</a></li><li>·<a href="lxwm/">联系我们</a></li></ul></div>
+</div>
+  <div style="width:1002px; margin:0 auto;"><embed height=249 type=application/x-shockwave-flash width="1002" src="media/banner2.swf" wmode="transparent"></embed> </div>
+<!--导航-->
+  <div id="nav">
+    <ul>
+      <li><a href="index.jsp" class="on"><span>网站首页</span></a></li>
+      <li><a href="mzyw"><span>民政要闻</span></a></li>
+      <li><a href="shjz"><span>社会救助</span></a></li>
+      <li><a href="mjzz"><span>民间组织</span></a></li>
+      <li><a href="yfaz"><span>优抚安置</span></a></li>
+      <li><a href="shfl"><span>社会福利</span></a></li>
+      <li><a href="shsw"><span>社会事务</span></a></li>
+      <li><a href="syll"><span>双拥联络</span></a></li>
+      <li><a href="jzjj"><span>救灾救济</span></a></li>
+      <li><a href="jczq"><span>基层政权</span></a></li>
+      <li><a href="qhdm"><span>区划地名</span></a></li>
+      <li  class="nobg"><a href="advice.jsp?gbookId=240406453"><span>政民互动</span></a></li>
+    </ul>
+  </div>
+<!--天气and搜索-->
+  <div class="weather">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="205"><script language=JavaScript>
+<!--
+var enabled = 0; today = new Date();
+var day; var date;
+if(today.getDay()==0) day = " 星期日"
+if(today.getDay()==1) day = " 星期一"
+if(today.getDay()==2) day = " 星期二"
+if(today.getDay()==3) day = " 星期三"
+if(today.getDay()==4) day = " 星期四"
+if(today.getDay()==5) day = " 星期五"
+if(today.getDay()==6) day = " 星期六"
+document.fgColor = "000000";
+date = "今天是:" + (today.getFullYear()) + "年" + (today.getMonth() + 1 ) + "月" + today.getDate() + "日" + day +"";
+document.write(date);
+// -->
+</script> 
+          &nbsp;&nbsp;</td>
+        <td><script type="text/javascript" src="http://ext.weather.com.cn/82872.js"></script></td>
+        <td align="right">
+		<form name="formsubmit" method="POST" action="searchResult.jsp">
+			<input name="keyword" id="keyword" type="text" class="input_search" value="输入关键字" onfocus="deleteTextvalue();" />
+			<input type="image" name="imageField" src="images/btn_search.jpg" onclick="click()"/>
+		</form></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!--头部结束-->
+<div class="mainbox">
+  <table width="994" border="0" align="center" cellpadding="0" cellspacing="0" class="bgsub">
+    <tr>
+      <td width="229" height="380" valign="top" class="line_b bgleft">
+	  
+
+<div class="menubox">
+<div class="title">
+ 通知公告
+</div>
+  <ul>
+  
+
+  </ul>
+</div>
+
+         
+
+		</td>
+      <td width="10">&nbsp;</td>
+      <td valign="top" class="line_b">
+	 <div class="position">
+          <div class="rp"></div>
+          <div class="lp"></div>
+          <span class="wz">当前位置：<a href="index.jsp">首页</a> > <em class="f_blue">
+<a href="http://mzj.bengbu.gov.cn/tzgg/" class=""   target='' >通知公告</a>
+</em></span> </div>
+
+        <ul class="list_news">
+		
+
+          <li><span>2018-01-09</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1541998667" class="" title=""   target='_blank' >2017年市民政局政风和效能建设情况</a> 
+</li>
+		  
+
+          <li><span>2018-01-09</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1541986011" class="" title=""   target='_blank' >关于落实安徽省启动IV级救灾应急响应各项工作的紧急通知</a> 
+</li>
+		  
+
+          <li><span>2018-01-09</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1541473451" class="" title=""   target='_blank' >蚌埠市双拥工委关于扎实做好2018年新年春节期间拥军优属拥政爱民工作的通知</a> 
+</li>
+		  
+
+          <li><span>2018-01-05</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1535953837" class="" title=""   target='_blank' >蚌埠市民政局关于公布权责清单的通告</a> 
+</li>
+		  
+
+          <li><span>2018-01-05</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1535600041" class="" title=""   target='_blank' >蚌埠市民政局政务服务目录</a> 
+</li>
+		  
+
+          <li><span>2018-01-05</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1535600044" class="" title=""   target='_blank' >蚌埠市民政局公共服务清单</a> 
+</li>
+		  
+
+          <li><span>2018-01-04</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1534613115" class="" title=""   target='_blank' >2017年12月份蚌埠市医疗救助情况</a> 
+</li>
+		  
+
+          <li><span>2018-01-04</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1534609810" class="" title=""   target='_blank' >蚌埠市2017年1-12月份临时救助情况</a> 
+</li>
+		  
+
+          <li><span>2018-01-04</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1534171653" class="" title=""   target='_blank' >2017年12月生活无着人员社会救助统计表</a> 
+</li>
+		  
+
+          <li><span>2018-01-04</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1534171658" class="" title=""   target='_blank' >2017年12月蚌埠市孤儿基本生活情况统计表</a> 
+</li>
+		  
+
+          <li><span>2018-01-04</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1534108379" class="" title=""   target='_blank' >2017年12月蚌埠市城乡低保救助情况</a> 
+</li>
+		  
+
+          <li><span>2018-01-03</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1532937693" class="" title=""   target='_blank' >蚌埠市人民政府办公室关于印发蚌埠市社会救助部门联席会议制度的通知</a> 
+</li>
+		  
+
+          <li><span>2018-01-03</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1532937255" class="" title=""   target='_blank' >蚌埠市人民政府办公室转发市民政局等部门关于做好农村最低生活保障制度与扶贫开发政策...</a> 
+</li>
+		  
+
+          <li><span>2018-01-03</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1532922252" class="" title=""   target='_blank' >关于做好当前低温雨雪天气防范应对工作的紧急通知</a> 
+</li>
+		  
+
+          <li><span>2018-01-03</span>
+		  <a href="http://mzj.bengbu.gov.cn/tzgg/article.jsp?articleId=1532915434" class="" title=""   target='_blank' >关于印发《安徽省临时救助工作操作规程》的通知</a> 
+</li>
+		  
+
+        </ul>
+		 
+
+		<div class="page">共353条 
+		当前第 1 / 24 页&nbsp;&nbsp;
+		
+第一页
+&nbsp;&nbsp;
+			
+上一页
+&nbsp;&nbsp;
+			
+
+<a href="tzgg/index.jsp?pageNumber=2">下一页</a>
+&nbsp;&nbsp;
+			
+
+<a href="tzgg/index.jsp?pageNumber=24">尾页</a>
+&nbsp;&nbsp;跳转 
+		  <input type="text" name="textfield2" id="page" class="input"  onblur="checkNum(this.id,'1');pageNum(this.id,'24');" />
+		  <input type="submit" name="Submit2" value="GO" class="btn" onclick="pageJump('page','跳转请输入合法的数字!','?pageNumber='+document.getElementById('page').value);" />
+		</div>
+		
+		</td>
+    </tr>
+  </table>
+  <div class="clear"></div>
+</div>
+<!--底部开始-->
+<div id="foot" style="position:relative">
+  <div class="bnav"><a href="gywm/">关于我们</a> | <a href="lxwm">联系我们</a> | <a href="wzdh">网站导航</a> | <a href="wzbz/">网站帮助</a></div>
+    <div style="position:absolute; left:35px; top:50px;"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/13/202/0000/40644743/CA132020000406447430002.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+      <div style="position:absolute; right:35px; top:55px;"><a href="http://pucha.kaipuyun.cn/exposure/jiucuo.html?site_code=3403000058&url=http%3A%2F%2Fmzj.bengbu.gov.cn%2F" target="_blank"><img border="0" src="upload/html/jiucuo.png"></a></div>
+  <dl>
+    主办单位：蚌埠市民政局<br />
+    地址：蚌埠市东海大道3888号&nbsp;&nbsp;&nbsp;&nbsp;联系电话：0552-3715011<br />
+    网站标识码：3403000058&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank">皖ICP备05002940号-2</a><br />
+    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34030002000320" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.bbmz.gov.cn/upload/html/bagh.png" style="float:left;"/>皖公网安备 34030002000320号</a>
+<br />
+  </dl>
+</div>
+
+<!--底部结束-->
+</body>
+</html>
+<script type="text/javascript" src="script/Std_StranJF.Js"></script>
+

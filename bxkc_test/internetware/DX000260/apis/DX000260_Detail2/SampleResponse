@@ -1,0 +1,437 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>华新招选平台-主页</title>
+    <meta name="Keywords" content="华新商务平台,华新网上招选"/>
+    <meta name="Description" content="华新商务平台网上招选系统"/>
+    <meta name="author" content="huaxincem.com"/>
+
+    <script type="text/javascript" src="/hxbiz/html/common/themes/system/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/hxbiz/html/common/themes/default/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/hxbiz/html/common/themes/default/js/jqMain.js"></script>
+
+    <link href="/hxbiz/html/common/themes/system/css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/tpl.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/icon.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/user.css" rel="stylesheet" type="text/css"/>
+
+    
+    
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<link rel="shortcut icon" href="/hxbiz/html/images/favicon.ico">
+
+<link rel="stylesheet" href="/hxbiz/html/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/hxbiz/html/bootstrap/css/bootstrap-theme.min.css">
+
+<script src="/hxbiz/html/bootstrap/jquery-1.10.2.min.js"></script>
+<script src="/hxbiz/html/bootstrap/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="/hxbiz/html/bootstrap/html5shiv.min.js"></script>
+<script src="/hxbiz/html/bootstrap/respond.js"></script>
+<![endif]-->
+<script>var CONTEXT_PATH = "";</script>
+    
+<link rel="stylesheet" type="text/css" href="/hxbiz/html/easyui/themes/bootstrap/easyui.sample.min.css">
+<link rel="stylesheet" type="text/css" href="/hxbiz/html/easyui/themes/icon.css">
+<script type="text/javascript" src="/hxbiz/html/easyui/easyui.sample.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/hxbiz/html/haf/ui/css/flow.min.css?ver=">
+<script type="text/javascript" src="/hxbiz/html/haf/ui/js/flow.min.js?ver="></script>
+
+<script>
+    //设置HAF基础路径（根路径）
+    HAF.basePath("");
+</script>
+
+    <!-- 采购报价明细表格 -->
+    <style type="text/css">
+        .detail{
+            border-collapse: collapse;
+        }
+        .detail td,.detail th{
+            border: 1px #808080 solid;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+<div id="wrapper">
+    
+
+
+
+
+
+
+
+
+
+
+
+<div id="top"></div>
+<!--head-->
+<div id="header" class="fn-clear sl-hvalign-cnt">
+    <div class="sl-valign-cnt-inner">
+        <div id="logo" class="fn-left">
+            <a href="#"><img src="/hxbiz/html/common/themes/default/images/logo.png"/></a>
+        </div>
+        <div class="fn-right" id="headernav">
+            <div class="headernav-item">
+                
+                
+                    <a href="/hxbiz/login.do" class="headernav-item-btn"><span class="icon-16 icon-16-login"></span>登录</a>
+                    <a href="/hxbiz/supplier/register.do" class="headernav-item-btn"><span class="icon-16 icon-16-register"></span>注册</a>
+                
+                <span class="ui-divide-bar-v-gray"></span>
+                <a href="#" class="headernav-item-btn"><span class="icon-16 icon-16-help"></span>帮助</a>
+                <a href="#" class="headernav-item-btn"><span class="icon-16 icon-16-sitemap"></span>导航</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!--end head-->
+<div id="menu" class="fn-clear">
+    <ul class="ui-nav">
+        <li class="ui-nav-item">
+            <a href="/hxbiz/bid/home.do">招选主页</a>
+        </li>
+        <li class="ui-nav-item">
+            <a href="/hxbiz/bid/project/index.do?type=NotWL">采购招选</a>
+        </li>
+        <li class="ui-nav-item">
+
+            <a href="/hxbiz/bid/project/index.do?type=WL">销售物流招标</a>
+        </li>
+
+      <!--
+        <li class="ui-nav-item">
+            <a href="/hxbiz/bid/project/index.do?type=GC">工程招选</a>
+        </li>
+        <li class="ui-nav-item">
+            <a href="/hxbiz/bid/project/index.do?type=FW">服务招选</a>
+        </li>
+      -->
+        <li class="ui-nav-item">
+            <a href="/hxbiz/auction/index.do">竞买竞卖</a>
+        </li>
+
+        <li class="ui-nav-item">
+            <a href="http://www.huaxincem.com">华新主网站</a>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">
+
+    var PATH = "/hxbiz";
+
+    $(document).ready(function(){
+        String.prototype.Right = function(i) { //为String对象增加一个Right方法
+            return this.slice(this.length - i,this.length);
+            //返回值为 以“该字符串长度减i”为起始 到 该字符串末尾 的截取字符串
+        };
+        //取得上一个页面的url
+        var location = parent.location;
+        var loc=location.toString();
+        if(loc.Right(24)=="project/index.do?type=MM"){
+            $("a[href='/hxbiz/bid/project/index.do?type=MM']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(24)=="project/index.do?type=GC"){
+            $("a[href='/hxbiz/bid/project/index.do?type=GC']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(24)=="project/index.do?type=WL"){
+            $("a[href='/hxbiz/bid/project/index.do?type=WL']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(27)=="project/index.do?type=NotWL"){
+            $("a[href='/hxbiz/bid/project/index.do?type=NotWL']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(24)=="project/index.do?type=FW"){
+            $("a[href='/hxbiz/bid/project/index.do?type=FW']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(7)=="home.do"){
+            $("a[href='/hxbiz/bid/home.do']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(16)=="auction/index.do"){
+            $("a[href='/hxbiz/auction/index.do']").parent().removeClass("ui-nav-item-current");
+        }
+    })
+
+
+    String.prototype.startWith=function(str){
+        var reg=new RegExp("^"+str);
+        return reg.test(this);
+    }
+
+    String.prototype.endWith=function(str){
+        var reg=new RegExp(str+"$");
+        return reg.test(this);
+    }
+</script>
+
+
+
+    
+<!--content-->
+<div id="content" class="main-content fn-clear">
+
+    <ul class="ui-path fn-clear">
+        <li class="ui-path-item"><a href="/">首页</a></li>
+        <li class="ui-path-item">
+            <a href="#">
+                
+                
+                
+                服务
+            </a>
+        </li>
+        <li class="ui-path-item">
+            招选
+            
+            
+        </li>
+    </ul>
+
+    <div class="ui-detail fn-clear">
+        <!--main-->
+        <div class="main" style="width: 100%;">
+            
+
+            <div class="ui-item-detail" style="clear: both">
+                <div class="ui-item-detail-title">华新水泥股份有限公司湖北东区事业部2016年年度维修施工单位招标-中选公告</div>
+                <div class="ui-item-detail-edit">
+                    <TABLE>
+<TBODY>
+<TR>
+<TD style="WIDTH: 100px">项目编号：</TD>
+<TD>HX-采-CEM_ED-2016-00308</TD></TR>
+<TR>
+<TD style="WIDTH: 100px">发起单位：</TD>
+<TD>华新水泥黄石分公司</TD></TR>
+<TR>
+<TD style="WIDTH: 100px">中标信息：</TD>
+<TD id=temp_bidedMsg>
+<TABLE class=detail>
+<TBODY>
+<TR>
+<TH>物料</TH>
+<TH>物料组</TH>
+<TH>品牌</TH>
+<TH>工厂</TH>
+<TH>单位</TH>
+<TH>数量</TH>
+<TH>供应商</TH></TR>
+<TR>
+<TD>服务\维修服务\机械设备维护</TD>
+<TD>机械设备维护</TD>
+<TD></TD>
+<TD>CN11</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>鄢陵县富康矿山机械设备配件修配厂</TD></TR>
+<TR>
+<TD>服务\维修服务\机械设备维护</TD>
+<TD>机械设备维护</TD>
+<TD></TD>
+<TD>CN10</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>鄢陵县富康矿山机械设备配件修配厂</TD></TR>
+<TR>
+<TD>服务\维修服务\相关生产服务</TD>
+<TD>相关生产服务</TD>
+<TD></TD>
+<TD>CN42</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>黄石市顺祥工程机械有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\相关生产服务</TD>
+<TD>相关生产服务</TD>
+<TD></TD>
+<TD>CNE2</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>黄石市顺祥工程机械有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\相关生产服务</TD>
+<TD>相关生产服务</TD>
+<TD></TD>
+<TD>CNE3</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>黄石市顺祥工程机械有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\机械设备维护</TD>
+<TD>机械设备维护</TD>
+<TD></TD>
+<TD>CN10</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>河北博强机电设备安装有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\机械设备维护</TD>
+<TD>机械设备维护</TD>
+<TD></TD>
+<TD>CN11</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>河北博强机电设备安装有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\机械设备维护</TD>
+<TD>机械设备维护</TD>
+<TD></TD>
+<TD>CN12</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>河北博强机电设备安装有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\机械设备维护</TD>
+<TD>机械设备维护</TD>
+<TD></TD>
+<TD>CN13</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>河北博强机电设备安装有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\机械设备维护</TD>
+<TD>机械设备维护</TD>
+<TD></TD>
+<TD>CN20</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>河北博强机电设备安装有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\机械设备维护</TD>
+<TD>机械设备维护</TD>
+<TD></TD>
+<TD>CN21</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>河北博强机电设备安装有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\机械设备维护</TD>
+<TD>机械设备维护</TD>
+<TD></TD>
+<TD>CN24</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>河北博强机电设备安装有限公司</TD></TR>
+<TR>
+<TD>服务\维修服务\相关生产服务</TD>
+<TD>相关生产服务</TD>
+<TD></TD>
+<TD>CN21</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>中石机电</TD></TR>
+<TR>
+<TD>服务\维修服务\相关生产服务</TD>
+<TD>相关生产服务</TD>
+<TD></TD>
+<TD>CN24</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>中石机电</TD></TR>
+<TR>
+<TD>服务\维修服务\相关生产服务</TD>
+<TD>相关生产服务</TD>
+<TD></TD>
+<TD>CN42</TD>
+<TD>CI</TD>
+<TD>1.0</TD>
+<TD>中石机电</TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="WIDTH: 100px">中标理由：</TD>
+<TD id=temp_bidedRemarks>“华新水泥股份有限公司湖北东区事业部2016年年度维修施工单位招标“工作，始于7月15日，止于8月19日，历时一个多月完成。招选过程中，应选单位42家，经评审委员会专家评议及入围维修单位确认结算方式，最后确认中选单位33家。中选单位均同意按“2016年华新水泥东区事业部维修定额”，并与“华新水泥股份有限公司维修分公司2016年维修定额（主机部分）”相结合，就低不就高，进行维修结算。。现公布中选单位如下：黄石金星机电设备有限公司、武汉宇皓天地实业有限公司、黄石宏申工程技术有限公司、湖北华定机电有限公司、鄢陵县富康矿山机械设备配件修配厂、许昌宇瑞换热设备技术有限公司、黄石市顺祥工程机械有限公司、湖北中工机械有限公司、黄石海阳商贸有限公司、河北博强机电设备安装有限公司、黄石市天云环保设备有限公司、鄂州市隆平机械设备有限公司、湖北海佳机械有限公司、黄石市华顺机电股份有限公司、黄石杨城机械工程有限公司、黄石成林机械工程有限公司、滕州市运达机电有限公司、黄石市中石机电设备制造安装有限公司、黄石中平机电设备制造安装有限公司、咸宁恒博机械有限公司、湖北天宇机电工程有限公司、武汉钢铁集团宏信置业发展有限公司、湖北好乐喜环保科技有限公司、石家庄华蒂橡胶有限公司、黄石卫润机械设备维修有限公司、湖北良信建筑安装有限公司、黄石市城乡建设工程有限公司、北龙建设集团有限公司、浠水建材建设工程公司、湖北全信建设工程有限公司、成都京龙科技有限公司、山东弘盛水泥技术发展有限公司、诸暨恒达电机维修有限公司。</TD></TR>
+<TR>
+<TD style="WIDTH: 100px">联系人：</TD>
+<TD id=temp_principal>陈国俊</TD></TR>
+<TR>
+<TD style="WIDTH: 100px">联系电话：</TD>
+<TD id=temp_phone>13995979255 69255</TD></TR>
+<TR>
+<TD style="WIDTH: 100px">日期：</TD>
+<TD id=temp_date>2016-09-01</TD></TR></TBODY></TABLE>
+                </div>
+            </div>
+            <div class="fn-clear"></div>
+
+            <!-- 价格产看链接 -->
+            
+                <div style="padding: 5px;">
+                    <span style="margin: 15px;">
+                        <a href="/hxbiz/nbid/notice/readBidedPrice.do?bidId=339c3c1a3ac747edaa3d94c867e4edb1" style="color: green;font-weight: bolder" target="_blank">查看中标价格信息</a>
+                    </span>
+                </div>
+            
+
+
+                <div style="padding-left: 20px;text-align: left">
+                    
+                    <input id="storObject" value="{"principal":"陈国俊","phone":"13995979255       69255"}" />
+                </div>
+
+
+
+        </div>
+        <!--end main-->
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        HAF.basePath("/hxbiz")
+        HAF.form("uploadify",{
+            renderTo: "#storObject",	//控件绑定的元素
+            backdrop:"static",  //是否显示弹框遮罩
+            href:"/oa/service/attach/download.do",
+            editable: false,    //是否允许编辑（上传，删除）
+            allowTypes:["jpg","txt","xls","xlsx", "doc", "docx", "pdf", "rar", "zip"],      //允许的文件类型["jpg","txt","rar","..."]
+            enableSelect:true, //是否允许充附件库中选择
+            enableUsed:true,   //是否允许选择已使用过的附件
+            singleSelect:true   //单选/多选
+        });
+    })
+</script>
+<!--end content-->
+
+    
+<div id="footer">
+    <div class="foot fn-clear">
+        <div class="foot-logo fn-left"><a href="#"><img src="/hxbiz/html/common/themes/default/images/foot-logo.png"/></a></div>
+        <div class="foot-con fn-right">
+            <address>业务中心地址：湖北省武汉市关山二路特1号国际企业中心5号楼</address>
+            <p class="copyright">版权所有　华新水泥股份有限公司　　地址：中国-湖北-黄石-黄石大道897号　　鄂ICP备09010176号</p>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    $("a[href='#']").attr("href","javascript:void(0);");
+    $("#header a,#menu a,.ui-tabs-btn a,a:empty,a:has(img,span)").focus(function(){$(this).blur();});
+</script>
+</body>
+</html>

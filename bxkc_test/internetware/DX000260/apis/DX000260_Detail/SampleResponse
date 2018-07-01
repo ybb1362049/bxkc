@@ -1,0 +1,486 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>华新招选平台-主页</title>
+    <meta name="Keywords" content="华新商务平台,华新网上招选"/>
+    <meta name="Description" content="华新商务平台网上招选系统"/>
+    <meta name="author" content="huaxincem.com"/>
+
+    <script type="text/javascript" src="/hxbiz/html/common/themes/system/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/hxbiz/html/common/themes/default/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/hxbiz/html/common/themes/default/js/jqMain.js"></script>
+
+    <link href="/hxbiz/html/common/themes/system/css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/tpl.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/icon.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/user.css" rel="stylesheet" type="text/css"/>
+
+    <link href="/hxbiz/html/nbid/css/style_lc.css" rel="stylesheet" type="text/css"/>
+
+    
+    
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<link rel="shortcut icon" href="/hxbiz/html/images/favicon.ico">
+
+<link rel="stylesheet" href="/hxbiz/html/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/hxbiz/html/bootstrap/css/bootstrap-theme.min.css">
+
+<script src="/hxbiz/html/bootstrap/jquery-1.10.2.min.js"></script>
+<script src="/hxbiz/html/bootstrap/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="/hxbiz/html/bootstrap/html5shiv.min.js"></script>
+<script src="/hxbiz/html/bootstrap/respond.js"></script>
+<![endif]-->
+<script>var CONTEXT_PATH = "";</script>
+    
+<link rel="stylesheet" type="text/css" href="/hxbiz/html/easyui/themes/bootstrap/easyui.sample.min.css">
+<link rel="stylesheet" type="text/css" href="/hxbiz/html/easyui/themes/icon.css">
+<script type="text/javascript" src="/hxbiz/html/easyui/easyui.sample.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/hxbiz/html/haf/ui/css/form.min.css?ver=">
+<script type="text/javascript" src="/hxbiz/html/haf/ui/js/form.min.js?ver="></script>
+<script>
+    //设置HAF基础路径（根路径）
+    HAF.basePath("");
+</script>
+
+
+    <style type="text/css">
+
+        .ui-item-detail-edit table{
+            border: 0px;
+            font-size: 13px;
+        }
+        .ui-item-detail-edit tr,td,th {
+            border: 0px;
+            padding: 5px;
+        }
+
+        .notice_th{
+            font-weight: bolder;
+        }
+
+        #bj_material_table{
+            border-collapse: collapse;
+            margin: 10px;
+        }
+        #bj_material_table tr,#bj_material_table th,#bj_material_table td{
+            border: 1px #696969 solid;
+            padding: 5px;
+        }
+
+        #link-message-table{
+            border: none;
+        }
+        #link-message-table th,#link-message-table td{
+            border: none;
+            padding: 2px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(function(){
+            detailInvoke();
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="wrapper">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="h_banner">
+    <div class="header">
+        <div class="title">
+            日喀则二期项目工艺阀门招选-华新装备工程有限公司
+        </div>
+        <!--流程图-->
+        <div class="order">
+            
+                <div class="load01">
+                    <dl>
+                        <dd num='1' class="load_01">发布公告</dd>
+                        <dd num='2' class="load_0002">应选</dd>
+                        <dd num='3' class="load_0002">资质审核</dd>
+                        <dd num='4' class="load_0002">报价</dd>
+                        <dd num='5' class="load_0002">开标</dd>
+                        <dd num='6' class="load_0002">评审</dd>
+                        <dd num='7' class="load_0002">发布结果</dd>
+                        <dd num='8' class="load_0003">查看结果</dd>
+                    </dl>
+                    <div class="clear"></div>
+                </div>
+            
+
+            
+
+        </div>
+    </div>
+</div>
+<input type="hidden" id="head-status" value="1"/>
+<input type="hidden" id="head-oaStatus" value="3"/>
+<input type="hidden" id="head-bidMode" value="ZB"/>
+
+<script type="text/javascript">
+
+    var PATH = "/hxbiz";
+
+    var head_status;
+    var head_oaStatus;
+    var head_bidMode;
+
+    function getStatus(){
+
+        head_status = $("#head-status").val();
+        head_oaStatus = $("#head-oaStatus").val();
+        head_bidMode = $("#head-bidMode").val();
+    }
+
+
+
+    function detailInvoke(){
+        getStatus();
+        if(head_bidMode == "ZB"){
+            if(head_status == 0){
+                $(".load01 dd[num = '1']").removeClass("load_01").addClass("load_0001");
+            }
+            if(head_status >= 1){
+                $(".load01 dd[num = '2']").removeClass("load_0002").addClass("load_02");
+                $(".load01 dd[num = '3']").removeClass("load_0002").addClass("load_02");
+                $(".load01 dd[num = '4']").removeClass("load_0002").addClass("load_02");
+            }
+            if(head_status >= 2){
+                $(".load01 dd[num = '5']").removeClass("load_0002").addClass("load_02");
+                $(".load01 dd[num = '6']").removeClass("load_0002").addClass("load_02");
+            }
+            if(head_status >= 3){
+                $(".load01 dd[num = '7']").removeClass("load_0002").addClass("load_02");
+                $(".load01 dd[num = '8']").removeClass("load_0003").addClass("load_03");
+            }
+        }
+        if((head_bidMode == "YB") || (head_bidMode == "BJ")){
+            if(head_status == 0){
+                $(".load dd[num = '1']").removeClass("load_1").addClass("load_001");
+            }
+            if(head_status >= 1){
+                $(".load dd[num = '2']").removeClass("load_002").addClass("load_2");
+            }
+            if(head_status >= 2){
+                $(".load dd[num = '3']").removeClass("load_002").addClass("load_2");
+            }
+            if(head_status >= 3){
+                $(".load dd[num = '4']").removeClass("load_002").addClass("load_2");
+                $(".load dd[num = '5']").removeClass("load_003").addClass("load_3");
+            }
+        }
+    }
+
+    function responseInvoke(){
+        getStatus();
+        if(head_bidMode == "ZB"){
+            $(".load01 dd[num = '2']").removeClass("load_0002").addClass("load_02");
+        }
+
+        if((head_bidMode == "YB") || (head_bidMode == "BJ")){
+            $(".load dd[num = '2']").removeClass("load_002").addClass("load_2");
+        }
+    }
+
+    function bidInvoke(){
+        getStatus();
+        if(head_bidMode == "ZB"){
+            $(".load01 dd[num = '2']").removeClass("load_0002").addClass("load_02");
+            $(".load01 dd[num = '3']").removeClass("load_0002").addClass("load_02");
+            $(".load01 dd[num = '4']").removeClass("load_0002").addClass("load_02");
+        }
+        if((head_bidMode == "YB") || (head_bidMode == "BJ")){
+            $(".load dd[num = '2']").removeClass("load_002").addClass("load_2");
+        }
+    }
+</script>
+
+
+
+    
+<!--content-->
+<div id="content" class="main-content fn-clear">
+
+    <ul class="ui-path fn-clear">
+        <li class="ui-path-item"><a href="/hxbiz/home.do">首页</a></li>
+        <li class="ui-path-item">
+            <a href="#">
+                工程
+                
+                
+                
+            </a>
+        </li>
+        <li class="ui-path-item">
+            招选
+            
+            
+        </li>
+    </ul>
+
+    <div class="ui-detail fn-clear">
+        <!--main-->
+        <div class="main">
+            <div class="ui-item-detail">
+                
+                <div class="ui-item-detail-edit">
+                    <TABLE>
+<TBODY>
+<TR>
+<TD width=100 class=notice_th>公司简介</TD>
+<TD width=540>华新水泥股份有限公司始创于1907年，被誉为“中国水泥工业的摇篮”。在一百多年的发展历程中，不论历史风云如何变幻，华新始终站在行业的前端，引领着中国水泥工业的发展，为国家和地方经济建设作出了突出贡献。 <SPAN class=wz_xq><A style="COLOR: green" href="http://www.huaxincem.com/about-huaxin/about-us/company-intro/" target=_blank>查看详细</A></SPAN> </TD></TR>
+<TR>
+<TD width=100 class=notice_th>资质要求</TD>
+<TD width=540>
+<P class=wz1>1、投标申请人必须是在中国国内正式注册，具有独立法人地位的公司（企业）；</P>
+<P class=wz1>2、投标单位必须持有《企业法人营业执照》、《税务登记证》、《组织机构代码证》.</P></TD></TR>
+<TR>
+<TD width=100 class=notice_th>注意事项</TD>
+<TD width=540>
+<P class=wz1>请各投标单位提供以上资格要求的证明文件的复印件，且须加盖投标单位公章后方为有效。提供的所有资质文件必须真实、有效，保证合同执行期间有关证件、文件处于有效期。发现虚假文件或内容，无论多么微小，将取消其投标资格。只有经过资格预审合格的投标申请人才能参加本项目的投标。</P></TD></TR>
+<TR>
+<TD width=100 class=notice_th>招选范围</TD>
+<TD width=540 id=temp_usedScope>华新装备工程有限公司</TD></TR>
+<TR>
+<TD width=100 class=notice_th>招选物资清单</TD>
+<TD width=540><A id=downLoadWl style="COLOR: green" href="javascript:void(0)" target=_blank>点击下载</A> </TD></TR>
+<TR>
+<TD width=100 class=notice_th>应选要求</TD>
+<TD width=540>
+<P>1、业务类型:</P>
+<P id=temp_contractType style="MARGIN-BOTTOM: 5px; PADDING-LEFT: 10px">标准业务</P>
+<P>2、结算方式:</P>
+<P id=temp_settlementType style="MARGIN-BOTTOM: 5px; PADDING-LEFT: 10px">一票结算</P>
+<P>3、品牌/生产厂家说明:</P>
+<P id=temp_breedAndCj style="MARGIN-BOTTOM: 5px; PADDING-LEFT: 10px">必须是生产厂家</P>
+<P>4、标书公共内容下载:</P>
+<P style="PADDING-LEFT: 10px"><A id=YSS style="COLOR: green" href="#" target=_blank>应选书</A>&nbsp;&nbsp; <A id=CNS style="COLOR: green" href="#" target=_blank>承诺书</A>&nbsp;&nbsp; <A id=FRSQS style="COLOR: green" href="#" target=_blank>法人授权委托书</A>&nbsp;&nbsp; <SPAN id=temp_contractTerms><INPUT id=attachment></SPAN> </P></TD></TR>
+<TR>
+<TD width=100 class=notice_th>招选时间</TD>
+<TD width=540>
+<P class=wz>投标起止时间:<SPAN id=temp_beginDate>2017-12-20 11:23:00</SPAN> 至 <SPAN id=temp_endDate>2017-12-29 14:00:00</SPAN> </P>
+<P class=wz1>开标定标时间:<SPAN id=temp_openDate>2017-12-29 14:01:00</SPAN></P></TD></TR>
+<TR>
+<TD width=100 class=notice_th>联系人</TD>
+<TD width=540 id=temp_linkMessagePerson>张勤聚</TD></TR>
+<TR>
+<TD width=100 class=notice_th>联系方式</TD>
+<TD width=540 id=temp_linkMessage>13720296813</TD></TR>
+<TR>
+<TD width=100 class=notice_th>其他说明</TD>
+<TD width=540 id=temp_remarks>1、投标流程：华新官网-供应商平台-招选公告-我要投标（应标）-资质审核-下载标书-投标，所有应标及投标等均从招标公告进入；
+2、应标资料除三证外，仍需提供安全生产许可证和业绩等资料</TD></TR>
+<TR>
+<TD width=100 class=notice_th>招选单位</TD>
+<TD width=540 id=temp_depart>华新水泥股份有限公司</TD></TR></TBODY></TABLE>
+                        <table>
+                            <tr>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+            <div class="fn-clear"></div>
+        </div>
+        <!--end main-->
+
+        <!--sidebar-->
+        <div id="sidebar" class="fn-right">
+
+            <div class="ui-bidding-information">
+                <h4 class="ui-bidding-title">
+                    <b>项目信息</b><i>Bidding Information</i>
+                </h4>
+                <table class="ui-sd-table">
+                    <tr>
+                        <td width="66">
+                            <div align="center"><strong>项目编号</strong></div>
+                        </td>
+                        <td width="138">
+                            <div align="center" class="STYLE1">HX-采-CND3-2017-44853</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="66">
+                            <div align="center"><strong>标 次</strong></div>
+                        </td>
+                        <td width="138" class="ui-sd-table-record">
+                            <div align="center" class="STYLE1">1</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div align="center"><strong>类型</strong></div>
+                        </td>
+                        <td>
+                            <div align="center" class="STYLE1">
+                                招选
+                                
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div align="center"><strong>起始时间</strong></div>
+                        </td>
+                        <td>
+                            <div align="center" class="STYLE1">
+                                
+                                2017-12-20 11:23:00
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div align="center"><strong>结束时间</strong></div>
+                        </td>
+                        <td>
+                            <div align="center" class="STYLE1">
+                                
+                                2017-12-29 14:00:00
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div align="center"><strong>发布时间</strong></div>
+                        </td>
+                        <td>
+                            <div align="center" class="STYLE1">
+                                
+                                2017-12-20 11:37:37
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div align="center"><strong>报价状态</strong></div>
+                        </td>
+                        <td>
+                            <div align="center" class="STYLE1">
+                                
+                                    <img src="/hxbiz/html/common/themes/default/images/icon-on.png"/>
+                                
+                                </div>
+                        </td>
+                    </tr>
+
+
+                </table>
+            </div>
+
+            
+
+            <div class="ui-tender">
+
+                
+                    <a target="_blank"
+                       href="/hxbiz/nbid/bid/gc.do?bidId=9da701824df6486cae185fd1a34c3999&activeId=0c9495cb2a8840a2a2b11c23e018d5a2"
+                       class="ui-tender-click">点击下载招选文件</a>
+                
+                
+                    <strong>您还未登录，请<a
+                            href="/hxbiz/nbid/bid/gc.do?bidId=9da701824df6486cae185fd1a34c3999&activeId=0c9495cb2a8840a2a2b11c23e018d5a2">登录</a>投标</strong>
+                
+            </div>
+
+
+
+        </div>
+        <!--end sidebar-->
+    </div>
+</div>
+<input id="bid" type="hidden" value="9da701824df6486cae185fd1a34c3999"/>
+<input id="type" type="hidden" value="BPJ"/>
+<script type="text/javascript">
+    $(function(){
+        //HAF.basePath("/hxbiz");
+        $("#downLoadWl").attr("href","downLoadWl.do?bid="+$("#bid").val()+"&type="+$("#type").val());
+        $("#YSS").attr("href","/hxbiz/html/bid/public/YingXuanShu.xls");
+        $("#CNS").attr("href","/hxbiz/html/bid/public/ChengNuoShu.xls");
+        $("#FRSQS").attr("href","/hxbiz/html/bid/public/FaRenShouQuanShu.xls");
+        $("[id$='attachment']").hide();
+        if( $("[id$='attachment']").val() != ""){
+            var json = eval("(" +  $("[id$='attachment']").val() + ")");
+            for(i=0; i < json.length; i++){
+                var id = json[i].id;
+                var name = json[i].originalName;
+                var a ="<a id = 'attachmentdown"+ i + "'></a>"
+                $("#temp_contractTerms").append(a);
+                $("#attachmentdown" + i).attr("href","/hxbiz/oa/service/attach/download.do?id=" + id);
+                $("#attachmentdown" + i).text(name);
+            }
+        }
+        /*HAF.form("uploadify",{
+            renderTo: "#attachment",	//控件绑定的元素
+            href:HAF.basePath()+"/bid/admin/attahcment/download.do",
+            backdrop:"static",  //是否显示弹框遮罩
+            editable: false    //是否允许编辑（上传，删除）
+        });*/
+    });
+
+
+</script>
+<!--end content-->
+
+    
+<div id="footer">
+    <div class="foot fn-clear">
+        <div class="foot-logo fn-left"><a href="#"><img src="/hxbiz/html/common/themes/default/images/foot-logo.png"/></a></div>
+        <div class="foot-con fn-right">
+            <address>业务中心地址：湖北省武汉市关山二路特1号国际企业中心5号楼</address>
+            <p class="copyright">版权所有　华新水泥股份有限公司　　地址：中国-湖北-黄石-黄石大道897号　　鄂ICP备09010176号</p>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    $("a[href='#']").attr("href","javascript:void(0);");
+    $("#header a,#menu a,.ui-tabs-btn a,a:empty,a:has(img,span)").focus(function(){$(this).blur();});
+</script>
+</body>
+</html>

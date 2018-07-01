@@ -1,0 +1,566 @@
+﻿﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>四川省川南高等级公路开发股份有限公司</title>
+<LINK rel=stylesheet type=text/css href="/templets/skins/gov/css/public.css">
+<LINK rel=stylesheet type=text/css href="/templets/skins/gov/css/article.css">
+<link href="/images/style.css" rel="stylesheet" type="text/css" />
+<!--切换-->
+<script>
+<!--
+/*第一种形式 第二种形式 更换显示样式*/
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){
+var menu=document.getElementById(name+i);
+var con=document.getElementById("con_"+name+"_"+i);
+menu.className=i==cursel?"hover":"";
+con.style.display=i==cursel?"block":"none";
+}
+}
+//-->
+</script>
+<!--切换-->
+</head>
+<body>
+<!--top-->
+<div class="top_bg" align=center>
+ <div class="log_ss"><a href="http://www.sccngs.com/">设为首页</a> | <a href="http://www.sccngs.com/">加入收藏</a></div>
+</div>
+<!--top-->
+<!--nav-->
+<div class="nav_bg" align=center>
+ <div class="nav_nav">
+  <ul>
+   <li><a href="/index.php" target="_blank">首页</a></li>         
+   <li><a href="/plus/list.php?tid=6" target="_blank">公司概况</a></li>           
+   <li><a href="/plus/list.php?tid=12" target="_blank"">行业服务</a></li>         
+   <li><a href="/plus/list.php?tid=18" target="_blank"">养护管理</a></li>     
+   <li><a href="/plus/list.php?tid=40" target="_blank"">安全生产</a></li>         
+   <li><a href="/plus/list.php?tid=22" target="_blank"">党建工作</a></li>            
+   <li><a href="/plus/list.php?tid=44" target="_blank"">服 务 区</a></li>     
+   <li><a href="http://124.161.255.72/" target="_blank"">网络办公</a></li>          
+   <li><a href="/plus/list.php?tid=28" target="_blank"">员工天地</a></li>      
+   <li><a href="/plus/list.php?tid=11" target="_blank"">企业文化</a></li>          
+   <li><a href="/plus/list.php?tid=32" target="_blank"">友情链接</a></li>           
+   <li class="pp"><a href="#">留言板</a></li>
+  </ul>
+ </div>
+</div>
+<!--nav-->
+<!--falsh-->
+<div class="falsh_bg" align=center>
+ <div class="falsh"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="936" height="223">
+     <param name="movie" value="/images/top.swf">
+     <param name="quality" value="high">
+     <embed src="/images/top.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="936" height="223"></embed>
+   </object>
+</div>
+</div>
+<!--falsh-->
+<!--main-->
+<div class="main_bg">
+  <!--inf-->
+  <div class="inf_main">
+    <!--left-->
+    <div class="pest_left">
+      <div class="lu_inf_top">
+        <p>栏目导航</p>
+        <span></span> </div>
+      <div  class="loc" align="left">
+        <div class="hd" align="left">
+          <div class="bd" align="left">
+            <ul align="left">
+              
+              <li align="left"><a href='/plus/list.php?tid=34'>公司新闻</a></li>
+              
+              <li align="left"><a href='/plus/list.php?tid=35'>行业动态</a></li>
+              
+              <li align="left"><a href='/plus/list.php?tid=36'>信息短波</a></li>
+              
+              <li align="left"><a href='/plus/list.php?tid=37'>公告通知</a></li>
+              
+              <li align="left"><a href='/plus/list.php?tid=38'>图片新闻</a></li>
+              
+              <li align="left"><a href='/plus/list.php?tid=39'>路况信息</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="lu_inf_top">
+        <p>最新推荐</p>
+        <span></span> </div>
+      <div class="news_inf3">
+        <ol>
+  <UL>
+<LI class=first>
+  <DIV class=thumb><A href="/plus/view.php?aid=1133" target=_blank><IMG border=0 alt=内江至宜宾以及隆   src="/uploads/allimg/150313/2-150313101156225-lp.png" width=86 height=66></A></DIV>
+  <H4><A href="/plus/view.php?aid=1133">内江至宜宾以及隆</A></H4>
+  <P>比选文件(第二册-工程量清单）<A href="/plus/view.php?aid=1133"  target=_blank>[详细]</A></P></LI></UL>
+
+        </ol>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="ad_inf">
+        <ul>
+          <li><a href="/plus/list.php?tid=11" target="_blank"><img src="/images/t1.jpg" alt="企业文化" /></a></li>
+          <li><a href="/plus/list.php?tid=9" target="_blank"><img src="/images/t2.jpg" alt="组织机构" /></a></li>
+          <li><a href="#"><img src="/images/t3.jpg" /></a></li>
+          <li><a href="/plus/list.php?tid=41" target="_blank"><img src="/images/t4.jpg" alt="资料下载" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--left-->
+    <!--right-->
+    <div class="pest_right">
+      <div class="pest_right_top"> <strong>公告通知</strong>
+          <p><a href='http://www.sccngs.com//'>主页</a> > <a href='/plus/list.php?tid=33'>新闻中心</a> > <a href='/plus/list.php?tid=37'>公告通知</a> > </p>
+      </div>
+      <div class="bt1">
+        <table width="580" border="0" cellpadding="0" cellspacing="0"><tr><td align="center"><h2>四川省川南高等级公路开发股份有限公司关于2017年养护工程交工检测竞争性询价公告</h2></td></tr></table>
+        <p>来源：工程养护部  作者：sccngs 编辑：sccngs 点击：<script src="/plus/count.php?view=yes&aid=1995&mid=2" type='text/javascript' language="javascript"></script></p>
+      </div>
+      <div class="con1"> <p class="MsoNormal" style="text-indent:39.35pt;">
+	为了推动内宜路<span>2017</span>年养护工程交工验收工作，根据《高速公路养护管理暂行管理办法》（川交投【<span>2012</span>】<span>80</span>号）以及《高速公路养护工行才能验收管理暂行管理办法》（川交投发【<span>2014</span>】<span>21</span>号）的规定，川南公司拟准备对内宜路<span>2017</span>年养护工程进行交工检测。经川南公司研究，决定采取竞争性询价的方式选择检测单位，现就有关问题公告如下：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:39.5pt;">
+	<b>一、工程概况。</b>本次交工检测涉及有桥梁三类构件维修、边坡维修、桥梁径流系统等，详见附后附件<span>2017</span>年养护工程交工检测明细表。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:39.5pt;">
+	<b>二、询价单位要求。<span></span></b>
+</p>
+<p class="MsoNormal" style="text-indent:39.35pt;">
+	1、具有独立法人资格、持有有效营业执照、基本帐户开户许可证；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:39.35pt;">
+	2、具有省级及以上交通主管部门颁发的公路工程试验检测综合乙级及以上等级证书，并取得了省级及以上技术监督部门颁发的计量认证证书；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:39.5pt;">
+	<b>三、报价文件要求：</b>报价清单、授权委托书、营业执照、基本帐户开户许可证、资质等级证书、计量认证证书复印件盖公司鲜章装订成册，密封装入没有任何标记的信封。报价清单及授权书见附后询价文件格式（见附件<span>2</span>）<span></span>
+</p>
+<p class="MsoPlainText" style="text-indent:40.15pt;">
+	<b>四、报价文件提交方式。</b>凡有意者持单位介绍信、检测资质证书复印件以及委托授权书在<span>2017</span>年<span>12</span>月<span>10</span>日<span>10</span>点前，将报价文件递交四川省川南高等级公路股份有限公司第二会议室。逾期送达的或者未送达指定地点或未要求密封的报价文件，不予受理。<span></span>
+</p>
+<p class="MsoPlainText" style="text-indent:40.15pt;">
+	<b>五、检测项目限价。</b>按照审批的施工预算，交工检测费限价为<span>8.18</span>万元，包含工程交工检测所有涉及的检测项目以及为完成交工检测工作所有辅助工作、税金、利润等所有费用的总和。超过本项目限价的报价文件将被否决。<span></span>
+</p>
+<p class="MsoPlainText" style="text-indent:40.15pt;">
+	<b>六、合同的授予：</b>本次询价采用经评审最低标价法。依据评标价由低到高的推荐报价人。经川南公司招投标领导审定，由报价者最低者实施并签订检测合同。<span></span>
+</p>
+<p class="MsoPlainText" style="text-indent:32.15pt;">
+	<b>七、价款支付：</b>川南公司不支付动员预付款，待检测单位完成检测任务，并经川南公司审定，符合交工检测要求，一次性支付。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:32.15pt;">
+	<b>八、招标人信息<span></span></b>
+</p>
+<p class="MsoNormal" style="text-indent:32.0pt;">
+	招标人：四川省川南高等级公路开发股份有限公司<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:32.0pt;">
+	招标人地址：四川省自贡市汇东新区丹桂大街<span>228</span>号<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:32.0pt;">
+	邮<span>&nbsp; </span>编：<span>643000</span>
+</p>
+<p class="MsoNormal" style="text-indent:32.0pt;">
+	电<span>&nbsp; </span>话：<span>0813-8104500&nbsp; 0813-2101806</span>
+</p>
+<p class="MsoNormal" style="text-indent:32.0pt;">
+	传<span>&nbsp; </span>真： <span>0813-8104500&nbsp; </span>
+</p>
+<p class="MsoNormal" style="text-indent:32.0pt;">
+	联系人：张先生<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:32.0pt;">
+	网<span>&nbsp; </span>站：（<span><a href="http://www.yaxigaosu.com/">http://www.sccngs.com/</a></span>）<span></span>
+</p>
+<p class="MsoNormal" align="right" style="text-align:right;text-indent:32.0pt;">
+	2017年<span>12</span>月<span>5</span>日
+</p>
+<p class="MsoNormal">
+	附件<span>1</span>：<span></span>
+</p>
+<table class="MsoNormalTable ke-zeroborder" border="0" cellspacing="0" cellpadding="0" width="624" style="width:468pt;">
+	<tbody>
+		<tr>
+			<td width="624" colspan="6" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:14.0pt;font-family:宋体;">2017</span></b><b><span style="font-size:14.0pt;font-family:宋体;">年养护工程交工检测明细表<span></span></span></b>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:none;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:10.0pt;font-family:宋体;">分类<span></span></span></b>
+				</p>
+			</td>
+			<td width="188" style="border:none;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:10.0pt;font-family:宋体;">分类明细<span></span></span></b>
+				</p>
+			</td>
+			<td width="94" style="border:none;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:10.0pt;font-family:宋体;">项目总投资<span></span></span></b>
+				</p>
+			</td>
+			<td width="67" style="border:none;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:10.0pt;font-family:宋体;">实体工程量建安费<span></span></span></b>
+				</p>
+			</td>
+			<td width="72" style="border:none;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:10.0pt;font-family:宋体;">交（竣）工验收试验检测费限价<span></span></span></b>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:10.0pt;font-family:宋体;">工程摘要<span></span></span></b>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">1</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9pt;font-family:宋体;">岷江二桥新增径流系统工程<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">236.34 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">199.75 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">0.38 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:8.0pt;font-family:宋体;">对岷江二桥安装径流系统，主要涉及管道和污水池检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">2</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9pt;font-family:宋体;">G85</span><span style="font-size:9pt;font-family:宋体;">渝昆高速（内宜）<span>K227+764</span>松树嘴大桥桥台加固抢险工程<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">165.95 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">136.80 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">2.00 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:8.0pt;font-family:宋体;">对该桥台压浆和对桥台侧墙进行加固，涉及混凝土检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">3</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9pt;font-family:宋体;">冠英停车区污水处理安装工程<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">70.97 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">54.87 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">0.30 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:8.0pt;font-family:宋体;">对污水设备基础、管道进行检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">4</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9pt;font-family:宋体;">K203+040-K203+285</span><span style="font-size:9pt;font-family:宋体;">右侧边坡病害处治工程<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">191.32 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">161.45 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">0.30 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:8.0pt;font-family:宋体;">对混凝土坡面厚度、强度等进行检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">5</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9pt;font-family:宋体;">K206+600-800</span><span style="font-size:9pt;font-family:宋体;">边坡抢险处治<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">145.66 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">123.91 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">0.30 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:8.0pt;font-family:宋体;">对混凝土坡面厚度、强度等进行检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">6</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9pt;font-family:宋体;">K210+800</span><span style="font-size:9pt;font-family:宋体;">边坡抢险处治<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">145.37 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">125.21 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">0.30 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:8.0pt;font-family:宋体;">对混凝土坡面厚度、强度等进行检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">7</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9pt;font-family:宋体;">K224+690-785</span><span style="font-size:9pt;font-family:宋体;">左侧边坡病害处治工程<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">68.29 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">66.06 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">0.30 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:8.0pt;font-family:宋体;">对混凝土坡面厚度、强度等进行检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">8</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9pt;font-family:宋体;">K227+300(K227+160)</span><span style="font-size:9pt;font-family:宋体;">边坡抢险处治<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">231.18 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">197.84 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">0.30 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:8.0pt;font-family:宋体;">对混凝土坡面厚度、强度等进行检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">9</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9pt;font-family:宋体;">K185+922</span><span style="font-size:9pt;font-family:宋体;">方碑桥病害处治<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">206.52 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">153.48 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">2.00 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:6.0pt;font-family:宋体;">对坡面混凝土厚度、强度、框架梁以及桥梁修补等检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="38" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9.0pt;font-family:宋体;">10</span>
+				</p>
+			</td>
+			<td width="188" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:9.0pt;font-family:宋体;">桥梁三类构件维修工程<span></span></span>
+				</p>
+			</td>
+			<td width="94" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9.0pt;font-family:宋体;">508.99 </span>
+				</p>
+			</td>
+			<td width="67" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">407.81 </span>
+				</p>
+			</td>
+			<td width="72" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:8.0pt;font-family:Arial;">2.00 </span>
+				</p>
+			</td>
+			<td width="165" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-size:8.0pt;font-family:宋体;">主要桥梁铺装修补、裂缝修补、碳纤维布等检测<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="226" colspan="2" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:9pt;font-family:宋体;">合计<span></div>
+      <div class="fenpian1">
+        <ul>
+          <li>上一篇：<a href='/plus/view.php?aid=1991'>G85渝昆高速（内宜）2018—2020年度养护专项工程 施工监理（含监理试验室）项目补遗书 （第2号）</a> </li>
+          <li>下一篇：<a href='/plus/view.php?aid=1996'>四川省川南高等级公路开发股份有限公司关于2017年养护工程交工检测竞争性询价公告</a> </li>
+        </ul>
+      </div>
+    </div>
+    <!--inf-->
+</div>
+ <div class="copyright" align=center>
+ 地址：四川省自贡市汇东新区丹桂大街168号　备案序号:蜀ICP备11012884号<br />
+© 2007-2014 四川省川南高等级公路开发股份有限公司 技术支持:<a href="http://www.lzwebs.com" target="_blank">泸州网新</a> </div>
+ <!--版权--> 
+</body>
+</html>

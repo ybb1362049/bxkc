@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width" />
+<!--
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+-->
+
+<SCRIPT language=javascript src="include/function.js"></SCRIPT>
+
+<SCRIPT language=javascript src="include/productsort.js"></SCRIPT>
+
+<SCRIPT language=javascript src="include/pageturn.js"></SCRIPT>
+<!--
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+-->
+
+<style type="text/css">
+.iframe{nifm2:expression(this.src='about:blank',this.outerHTML='');}
+.script{no2js:expression((this.src.toLowerCase().indexOf('http')==0)?document.close():'');}
+</style>
+
+
+  
+<title>广西北部湾宏亚建设管理有限公司</title>
+<meta name="keywords" content="广西北部湾宏亚建设管理有限公司" />
+<meta name="description" content="广西北部湾宏亚建设管理有限公司" />
+<link href="Content/pagecss/pagerstyles.css" rel="stylesheet" />
+<link href="Content/css/style.css" rel="stylesheet" type="text/css" />
+<link href="Content/css/css.css" rel="stylesheet" type="text/css" />
+<script src="Content/js/common2.js" type="text/javascript"></script>
+<script src="Content/js/public2.js" type="text/javascript"></script>
+<script src="Content/js/js_noeorr.js" type="text/javascript"></script>
+<script src="Content/js/unitpngfix.js" type="text/javascript"></script>
+<script src="Content/js/MSClass.js" type="text/javascript"></script>
+<script type="text/javascript" src="Content/js/jquery.js"></script>
+<script type="text/javascript" src="Content/js/jquery.vticker-min.js"></script>
+<script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+    </script>
+<script type="text/javascript">
+        // 选项卡
+        $(function () {
+            $(".tab dl dt>a:first").addClass("tabActive");
+            $(".tab dl dd ul").not(":first").hide();
+            $(".tab dl dt>a").unbind("mouseover").bind("mouseover", function () {
+                $(this).siblings("a").removeClass("tabActive").end().addClass("tabActive");
+                var index = $(".tab dl dt>a").index($(this));
+                $(".tab dl dd ul").eq(index).siblings(".tab dl dd ul").hide().end().fadeIn("slow");
+            });
+            //滚动新闻条
+            //$('#scrolldiv1').vTicker({
+            //    speed: 700,
+            //    pause: 100,
+            //    showItems: 6,
+            //    animation: 'fade',
+            //    mousePause: true,
+            //    height: 0,
+            //    direction: 'down'
+            //});
+            //$('#scrolldiv2').vTicker({
+            //    speed: 500,
+            //    pause: 3000,
+            //    showItems: 6,
+            //    animation: 'fade',
+            //    mousePause: true,
+            //    height: 300,
+            //    direction: 'up'
+            //});
+        });
+    </script>
+</head>
+<body>
+<div id="main_form">
+   <div><!--<div id="top_form">-->
+    <!--<div id="top_banner">
+      <embed src="top_banner.swf" width="975" height="145"></embed>
+    </div>-->
+	<div style="width:975px; height:240px;"><img src="Content/images/toppic.jpg" /></div>
+    <div id="imenu">
+      <ul class="imenu">
+        <li><a href="index.asp">首  页</a></li>
+        <li><a href="about.asp?bid=115">公司简介</a></li>
+        <li><a href="news.asp?cid=4&nid=154">采购公告</a></li>
+        <li><a href="news.asp?cid=4&nid=155">更改通知</a></li>
+        <li><a href="news.asp?cid=4&nid=156"> 中标公告</a></li>
+        <li><a href="news.asp?cid=4&nid=158"> 政策法规</a></li>
+        <li><a href="news.asp?cid=4&nid=159"> 理论实践</a></li>
+        <li><a href="job.asp">人才招聘</a></li>
+        <li><a href="about.asp?bid=120"> 联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+  <style type="text/css">
+    .left_top div{margin:10px;}
+</style>
+<!--<div style="width:960px; margin:0 auto; height:200px;margin-bottom:10px;"><img src="Content/images/top_bg.jpg"></div>-->
+<div id="top_bannera"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id=scriptmain name=scriptmain codebase="http://download.macromedia.com/pub/shockwave/cabs/
+flash/swflash.cab#version=6,0,29,0" width="975" height="260">
+      <param name="movie" value="bcastr.swf?bcastr_xml_url=xml/bcastr.asp">
+      <param name="quality" value="high">
+      <param name=scale value=noscale>
+      <param name="LOOP" value="false">
+      <param name="menu" value="false">
+      <param name="wmode" value="transparent">
+      <embed src="bcastr.swf?bcastr_xml_url=xml/bcastr.asp" width="975" height="260" loop="false" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" salign="T" name="scriptmain" menu="false" wmode="transparent"></embed>
+    </object></div><div id="ilmenu">
+    <div id="ilmenu_ltit">公司简介</div>
+    <div id="ilmenu_bg">
+      
+      <div style="width:230px; margin:0 auto; height:178px; text-align:left; font-size:12px;"><div style="padding:10px; line-height:25px;"><p style="text-align:left;text-indent:0pt;margin-left:0pt;">
+	<span style="font-family:宋体;font-size:14px;font-weight:normal;">广西北部湾宏亚建设管理有限公司</span><span style="font-family:宋体;font-size:14px;font-weight:normal;">成立于</span><span style="font-family:宋体;font-size:14px;font-weight:normal;">2014年3月3日。</span><span style="font-family:宋体;font-size:14px;font-weight:normal;">主要</span><span style="font-family:宋体;font-size:14px;font-weight:normal;">从事工程招标代理、政府采购代理、工程造价咨询</span><span style="font-family:宋体;font-size:14px;font-weight:normal;">、工程项目管理，建设</span><span style="font-family:宋体;font-size:14px;font-weight:normal;">工程监理</span><span style="font-family:宋体;font-size:14px;font-weight:normal;">、项目全过程管理、综合性建设管理的现代建设服务公司。</span><span style="font-family:宋体;font-size:14pt;font-weight:normal;"></span> 
+</p>
+<p style="text-align:left;text-indent:0pt;margin-left:0pt;">
+	<span style="font-family:宋体;font-size:14pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+	<p style="text-align:left;text-indent:0pt;margin-left:0pt;">
+		<span style="font-family:宋体;font-size:14pt;font-weight:normal;"></span>
+	</p>
+	<p style="text-align:left;text-indent:0pt;">
+		<span style="font-family:宋体;font-size:14pt;font-weight:normal;"></span>
+	</p>
+	<p style="text-align:left;text-indent:0pt;">
+		<span style="font-family:宋体;font-size:14pt;font-weight:normal;"></span>
+	</p>
+	<p style="text-align:left;text-indent:0pt;">
+		<span style="font-family:宋体;font-size:14pt;font-weight:normal;"></span>
+	</p>
+<span style="font-family:宋体;font-size:14pt;font-weight:normal;"></span> 
+	<p>
+		<br />
+	</p>...&nbsp;&nbsp; <a href="about.asp" style="color:#FF0000">MORE>></a></div></div>
+      <div id="iabout_link">
+        <ul>
+          <li><a href="about.asp?bid=115" target="_blank"><img src="Content/images/icon_01.gif" />公司简介</a></li>
+          <li><a href="honor.asp" target="_blank"><img src="Content/images/icon_02.gif" />公司资质</a></li>
+          <li><a href="about.asp?bid=123" target="_blank"><img src="Content/images/icon_03.gif" />业务流程</a></li>
+          <li><a href="yeji.asp" target="_blank"><img src="Content/images/icon_04.gif" />业绩展示</a></li>
+        </ul>
+      </div>
+      <br />
+      <div class="clear_both"></div>
+      <div class="form_ray">
+        <div class="formtit"><span class="mtit">服务项目</span></div>
+        <div class="cblist">
+          <ul>
+            
+            <li><a href="#">政府采购招标代理</a></li>
+            
+            <li><a href="#">工程招标代理</a></li>
+            
+          </ul>
+          <select name="jumpMenu" id="jumpMenu" style="margin:10px; width:150px; text-align:center;" onChange="MM_jumpMenu('parent',this,1)">
+            <option style="text-align:center;">——::友情链接::——</option>
+			
+            <option style="text-align:center;" value="http://www.ccgp.gov.cn/">&#20013;&#22269;&#25919;&#24220;&#37319;&#36141;&#32593;</option>
+			
+            <option style="text-align:center;" value="http://www.gxzfcg.gov.cn/">&#24191;&#35199;&#25919;&#24220;&#37319;&#36141;&#32593;</option>
+			
+            <option style="text-align:center;" value="http://www.chinabidding.com.cn/">&#20013;&#22269;&#37319;&#36141;&#19982;&#25307;&#26631;&#32593;</option>
+			
+            
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+
+
+<div id="imright">
+    <div id="ser_form">
+      <div class="ser_l"></div>
+      <div class="ser_bg">
+        <form name="form1" method="get" action="news.asp" target="_blank">
+          <table width="600" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="392" height="22"><label>
+                <input class="sreach_input" name="key" type="text" id="key" value="">
+                </label>
+              </td>
+              <td width="60"><label>
+                <input name="pp" type="checkbox" id="checktitle" value="YES" checked />
+                </label>
+                标题 </td>
+              <td width="55"><input name="pp_id" type="checkbox" id="checkcontent" value="YES" />
+                内容 </td>
+              <td width="83" align="center"><label>
+                <input name="button2" type="submit" class="sreach_btn" id="button2" value="" />
+                </label>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="ser_r"></div>
+    </div>
+    <!---->
+    <div id="sub_acon">
+      <div id="sub_tit" style="text-align:left;"><span class="fbtit">采购公告</span></div>
+      <div id="sub_scon">
+        <ul class="snew">
+		
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1185" target="_blank">广西北部湾宏亚建设管理有限公司 便携式车辆识别系统采购（HYAD2J2018005)竞争性谈判公告</a> <span style="color:#AAA;font-size:12px;">2018-1-9</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1182" target="_blank">广西北部湾宏亚建设管理有限公司 博白供电分公司城东大道10kV四回路转接负荷工程用电缆及线采购（HYZBCG-2018-001） 询价公告</a> <span style="color:#AAA;font-size:12px;">2018-1-3</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1181" target="_blank">广西北部湾宏亚建设管理有限公司 北海市区农村信用合作联社湖海路分社宿舍楼装修工程（HYED3J2017183）竞争性谈判公告</a> <span style="color:#AAA;font-size:12px;">2018-1-2</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1175" target="_blank">广西北部湾宏亚建设管理有限公司北海市区农村信用合作联社地角分社临时办公室装修工程（HYED3J2017179）竞争性谈判公告</a> <span style="color:#AAA;font-size:12px;">2017-12-20</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1173" target="_blank">广西北部湾宏亚建设管理有限公司 北海市区农村信用合作联社后勤中心顶楼铁棚工程（HYED3J2017178）竞争性谈判公告</a> <span style="color:#AAA;font-size:12px;">2017-12-20</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1171" target="_blank">广西北部湾宏亚建设管理有限公司广西公安厅警卫局屯兵楼钢结构雨棚施工工程（HYED3J2017139）竞争性谈判公告</a> <span style="color:#AAA;font-size:12px;">2017-12-10</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1168" target="_blank">广西北部湾宏亚建设管理有限公司 博白县城区污水处理工程第二阶段管网——人民南路、兴民路及石禾塘雨污分流改造工程监理（HYZBCG-2017-051） 竞争性谈判公告</a> <span style="color:#AAA;font-size:12px;">2017-11-27</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1165" target="_blank">武警崇左市支队（基层中队）3D网上史馆建设项目竞争性磋商公告</a> <span style="color:#AAA;font-size:12px;">2017-11-21</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1160" target="_blank">广西北部湾宏亚建设管理有限公司 金川冶炼固废镍铁渣、铜渣综合利用项目生产设备采购 单一来源采购征求意见公示</a> <span style="color:#AAA;font-size:12px;">2017-11-2</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1159" target="_blank"> 广西北部湾宏亚建设管理有限公司 武警崇左市支队3D网上史馆建设项目竞争性磋商公告</a> <span style="color:#AAA;font-size:12px;">2017-11-1</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1155" target="_blank">广西北部湾宏亚建设管理有限公司关于贵港市港北区人民医院医疗设备采购（项目编号：HYRZ2G2017020）公开招标公告</a> <span style="color:#AAA;font-size:12px;">2017-10-15</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1141" target="_blank">广西北部湾宏亚建设管理有限公司医疗设备采购公开招标公告</a> <span style="color:#AAA;font-size:12px;">2017-9-18</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1140" target="_blank">广西北部湾宏亚建设管理有限公司 《博白县客家书香小镇风情商贸城项目》使用林地可行性报告编制 （项目编号：HYZBCG-2017-049） 竞争性谈判公告</a> <span style="color:#AAA;font-size:12px;">2017-9-18</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1139" target="_blank">广西北部湾宏亚建设管理有限公司 《博白县客家书香小镇工艺品交易中心项目》使用林地可行性报告编制（项目编号：HYZBCG-2017-048） 竞争性谈判公告</a> <span style="color:#AAA;font-size:12px;">2017-9-18</span> </li>
+          
+          <li style="border-bottom:1px dashed #ccc;"> <a href="news_d.asp?id=1131" target="_blank">广西北部湾宏亚建设管理有限公司关于贵港市港北区人民医院医疗设备采购(HYRZ2J2017015)竞争性谈判采购公告 </a> <span style="color:#AAA;font-size:12px;">2017-9-10</span> </li>
+          
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div style="clear:both;width:700px;  margin:0 auto; height:50px; line-height:50px;  text-align:center"> <table height=40 border="0" cellpadding="0" cellspacing="0" align=center><form method=Get name=myform><tr><td class="font999">
+<input type='hidden' name='pp' value=>
+<input type='hidden' name='pp_id' value=>
+<input type='hidden' name='nclassid' value=>
+<input type='hidden' name='nId' value=154>
+<input type='hidden' name='cId' value=4>
+<input type='hidden' name='cid1' value=>
+<input type='hidden' name='idc' value=>
+<input type='hidden' name='key' value=>
+[第一页] [上一页] 
+[<a href=javascript:PageNext() class="font999">下一页</a>] 
+[<a href=javascript:PageLast() class="font999">最后一页</a>] 
+&nbsp;每页15条记录&nbsp;&nbsp;
+第<select name=mypage onchange='PageCurrent()'>
+<option selected>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>页/共10页 共142条记录
+</td></tr></form></table>
+</div>
+    </div>
+    <!---->
+  </div>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="clear_both"></div>
+</div>
+<div id="bottom_form">
+  <div id="bottom_info">
+    <div id="bottom_lcon">
+      <div>
+	Copyright © 2014 - 2016 广西北部湾宏亚建设管理有限公司 版权所有
+</div>
+<div>
+	&nbsp;&nbsp;综合管理部：0773928915&nbsp;&nbsp;业务部：0779-3928925、0779-3928925（Fax）
+</div>
+<div>
+	E-Mail：<a href="mailto:gxbbwhy@126.com">gxbbwhy@126.com</a>&nbsp;
+</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

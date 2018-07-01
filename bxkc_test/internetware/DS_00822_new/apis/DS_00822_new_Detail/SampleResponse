@@ -1,0 +1,802 @@
+
+ 
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../template/default/css/common.css">
+    <link rel="stylesheet" href="../template/default/css/about.css">
+    <script src="jquery-1.11.0.min.js"></script>
+    <title>南平市公共资源网</title>
+<style>
+        .menub6_1 {
+	float: left;
+	margin-left: -16px;
+	width: 206px;
+	height: 38px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background: url(images/process-bg22.png) repeat-x center;
+	cursor: pointer;
+	font-family:"宋体";
+	line-height: 38px;
+}
+.menub6_2 {
+
+	float: left;
+	margin-left: -16px;
+	width: 206px;
+	height: 38px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background: url(images/process-bg2.png) repeat-x center;
+	cursor: pointer;
+	font-family:"宋体";
+	line-height: 38px;
+
+	}
+.menub6_3 {
+
+	float: left;
+	margin-left: -16px;
+	width: 206px;
+	height: 38px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background: url(images/process-bg33.png) repeat-x center;
+	cursor: pointer;
+	font-family:"宋体";
+	line-height: 38px;
+
+	}
+.menub6_4 {
+
+	float: left;
+	margin-left: -16px;
+	width: 206px;
+	height: 38px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background: url(images/process-bg1.png) repeat-x center;
+	cursor: pointer;
+	font-family:"宋体";
+	line-height: 38px;
+
+	}
+
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+<script  type="text/javascript">
+    function Search() {
+        var t = document.getElementById("txtKey").value;
+        if (t.indexOf("<") > -1 || t.indexOf(">") > -1 || t.indexOf("'") > -1 || t.indexOf("_") > -1) {
+            alert("请勿在关键字中输入非法字符!");
+            return;
+        }
+        if (document.all.txtKey.value == "" || document.all.txtKey.value == "请输入关键字") {
+            alert("搜索字段不能为空！");
+        }
+        else {
+            var openUrl = '/npztb/showinfo/searchresult.aspx?keyword=';
+            openUrl += escape(document.all.txtKey.value);
+            window.open(openUrl, "Search", "", "");
+        }
+
+    }
+    function CheckSearch() {
+        if (event.keyCode == "13") {
+            if (document.all.txtKey.value != "") {
+                Search();
+            }
+            else {
+                alert("搜索字段不能为空！");
+            }
+        }
+    }
+</script>
+<script>
+   window.onload = function () {
+        var timeContainer = document.getElementById('showtime');
+        setInterval(function () {
+            timeContainer.innerHTML = ShowTime();
+        }, 100);
+        if (document.getElementById('qikan') != null) {
+            getmyuri();
+        }
+
+    } 
+function ShowTime() {
+       var myDate = new Date();
+        var month = myDate.getMonth() + 1;
+        var myweekday = myDate.getDay();
+		var myhour = myDate.getHours();
+		var myminute = myDate.getMinutes();
+		var mysecond = myDate.getSeconds();
+        if (myweekday == 0)
+            weekday = "   星期日 ";
+        else if (myweekday == 1)
+            weekday = "   星期一 ";
+        else if (myweekday == 2)
+            weekday = "   星期二 ";
+        else if (myweekday == 3)
+            weekday = "   星期三 ";
+        else if (myweekday == 4)
+            weekday = "   星期四 ";
+        else if (myweekday == 5)
+            weekday = "   星期五 ";
+        else if (myweekday == 6)
+            weekday = "   星期六 ";
+
+
+       return str = '&nbsp;'+'&nbsp;'+'&nbsp;'+'今天是'+ myDate.getFullYear() + '年' + month + '月' + myDate.getDate() + '日'+ '&nbsp; '+ weekday; 
+    }
+</script>
+   <div class="ewb-header">
+        <!-- banner -->
+        <div class="ewb-header-banner"></div>
+        <!-- nav -->
+        <div class="ewb-header-nav">
+            <div class="ewb-container">
+                <ul class="ewb-nav-items clearfix">
+                    <li class="ewb-nav-item current l">
+                        <a href="../" class="ewb-nav-link">
+                            首页
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="../zxjj" class="ewb-nav-link">
+                            中心简介
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="../zcfg" class="ewb-nav-link">
+                            政策法规
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="../zxdt" class="ewb-nav-link">
+                            中心动态
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="../hdpt" class="ewb-nav-link">
+                            互动平台
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="../zwgk" class="ewb-nav-link">
+                            政务公开
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="../bszn" class="ewb-nav-link">
+                            办事指南
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="../lxwm" class="ewb-nav-link">
+                            联系我们
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- state -->
+        <div class="ewb-header-state">
+            <div class="ewb-container clearfix">
+                <div class="ewb-state-date l" id="showtime"></div>
+                <div class="ewb-state-weather l"><iframe allowtransparency="true" frameborder="0" width="180" height="30" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=0&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=1&c=57083&w=180&h=36&align=center"></iframe></div>
+                <!-- search -->
+                <div class="ewb-state-search r">
+                    <input id="txtKey" type="text" placeholder="站内搜索" class="ewb-search-input l" onKeyDown="CheckSearch();">
+                    <button class="ewb-search-btn r" onClick="Search();"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main -->
+    <div class="ewb-container clearfix mixed ">
+        <div class="">
+            <h4 class="main-content-title">
+                             <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#FF7E00" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/npztb/'><FONT color="#FF7E00" class=currentpostionfont>首页</FONT></A><FONT color="#FF7E00"> >> <a href='/npztb/jsgc'><FONT color="#FF7E00" class=currentpostionfont>建设工程</font></a> >> <a href='/npztb/jsgc/010001'><FONT color="#FF7E00" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table>  
+            </h4>
+            <div class="main-subcontent">
+                    <table style="width: 988px; border-collapse: collapse;" border="0">
+
+                    <tr>
+                        <td style="padding-left: 14px; padding-right: 14px">
+                                 <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="center" style="padding-left: 10px; padding-right: 0px; padding-top: 10px;">
+                            
+                            <div class="menub6_1" id="menu_6_1" onmouseover="showtabs6(6,1,5);">
+                                招标公告
+                            </div>
+                            <div class="line">
+                            </div>
+                            <div class="menub6_2" id="menu_6_2" onmouseover="showtabs6(6,2,5);">
+                                补充通知 
+                            </div>
+                            <div class="line">
+                            </div>
+                            <div class="menub6_2" id="menu_6_3" onmouseover="showtabs6(6,3,5);">
+                                答疑变更
+                            </div>
+                            <div class="line">
+                            </div>
+                            <div class="menub6_2" id="menu_6_4" onmouseover="showtabs6(6,4,5);">
+                                中标候选人公示
+                            </div>
+                            <div class="line">
+                            </div>
+                            <div class="menub6_2" id="menu_6_5" onmouseover="showtabs6(6,5,5);">
+                                中标公示
+                            </div>
+                            
+                         
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 32px; padding-right: 32px; padding-top: 10px; min-height:400px;">
+                            <div id="menutab_6_1">
+                               
+<link href="../Template/Default/ztbzx/css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript"  src="../Template/Default/ztbzx/js/jquery-1.9.1.min.js">
+    function iFrameHeight() {
+        var total = document.getElementById("ZtbggxxDetail_LblCount").innerHTML;
+    for(var i=0;i<parseInt(total);i++)
+    {
+        var ifm = document.getElementById("iframejjgz"+i.toString());
+        var subWeb = document.frames ? document.frames["iframejjgz"+i.toString()].document : ifm.contentDocument;
+        if (ifm != null && subWeb != null) {
+            ifm.height = subWeb.body.scrollHeight;
+        }
+    }}
+   
+ </script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="display:none">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; display:none;">
+            <div id="JszbggDetail1_Div1">
+            </div>
+            <span id="JszbggDetail1_LblCount">1</span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="color: #eb2826; font-size: 16px; font-weight: bold; height: 30px; line-height: 30px;" align="center">
+            <span id="JszbggDetail1_title">南平市延平区X808水南大桥段至西城大桥段三级公路改建工程</span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; text-align:left;">
+            <div id="JszbggDetail1_content">
+            <p> </p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph" align="center"><span style="FONT-FAMILY: 宋体">招标公告</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph" align="center"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">招标编号：</span><span style="FONT-SIZE: 12pt">FJZFNP-2017011</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">号</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">一、招标条件</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">本招标项目<u>　南平市延平区</u></span></span><span><u><span style="FONT-SIZE: 12pt">X808</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">水南大桥段至西城大桥段三级公路改建工程</span></u></span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">已由<u>延平区交通运输局</u>以</span></span><span><u><span style="FONT-SIZE: 12pt">&nbsp; </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">延交路【</span></u></span><span><u><span style="FONT-SIZE: 12pt">2017</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">】</span></u></span><span><u><span style="FONT-SIZE: 12pt">246</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">号</span></u></span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">批准建设，建设资金来自<u>财政性资金</u>。招标人为<u>南平市延平区国有资产运营有限责任公司</u>。招标代理机构：<u>福建省中福工程建设监理有限公司</u>。项目已具备招标条件，现对该项目的施工进行<u>公开</u>招标。本次招标采用资格后审。</span></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">二、项目概况与招标范围</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">2.1</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">．项目建设地点：<u>位于南平市延平区</u></span></span><span><u><span style="FONT-SIZE: 12pt">X808</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">水南大桥段至西城大桥段</span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">2.2</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">．<span style="LETTER-SPACING: -0.2pt">项目建设规模</span>：<u>本项目工程投资额约</u></span></span><span><u><span style="FONT-SIZE: 12pt">1198</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">万元，路线起点</span></u></span><span><u><span style="FONT-SIZE: 12pt">K0+000</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">位于水南大桥右侧与下行匝道相接，终点桩号</span></u></span><span><u><span style="FONT-SIZE: 12pt">K4+789.996</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">在西城大桥段，接现状道路，实际里程</span></u></span><span><u><span style="FONT-SIZE: 12pt">4.790</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">公里。道路为水泥砼路面<span style="COLOR: black">，具体以招标人发布的工程量清单为准</span></span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">2.3</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">．计划工期：本项目施工计划工期为</span><span><u><span style="FONT-SIZE: 12pt"> 150 </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">日历天，交工验收与缺陷责任期为</span><span><u><span style="FONT-SIZE: 12pt"> 24&nbsp; </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">个月。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">2.4</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">．标段划分：本项目标段划分为</span><span><u><span style="FONT-SIZE: 12pt">&nbsp;&nbsp; </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">一</span></u></span><span><u><span style="FONT-SIZE: 12pt">&nbsp; </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">个合同标段。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">2.5.</span><span> </span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">质量要求：<u>符合交通部《公路工程质量检验评定标准》（</u></span></span><span><u><span style="FONT-SIZE: 12pt">JTG F80/1-2004</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）合格标准</span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">三、投标人资格要求</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">3.1 </span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">本次招标要求投标人须具备以下条件：</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">（</span><span style="FONT-SIZE: 12pt">1</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）具有南平市行政区域内注册登记的独立法人资格</span><span style="FONT-SIZE: 12pt">,</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">具备有效的行政主管部门核发的<u>公路工程施工总承包三级及以上资质或市政公用工程施工总承包三级及以上资质</u>和《施工安全生产许可证》</span></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">（</span><span style="FONT-SIZE: 12pt">2</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）投标人业绩条件：</span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'"> </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">无</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'"> </span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">　（</span><span style="FONT-SIZE: 12pt">3</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）人员、设备、资金等方面具备相应的施工能力：</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-FAMILY: 宋体">①</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">投标人拟担任本招标项目的项目负责人须具备有效的不低于<i><u>　</u></i><u>贰<i>　</i></u>级<u>公路工程或市政公用工程</u></span></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">专业注册建造师执业资格（或建造师临时执业资格），并持有建设或交通行政主管部门核发的安全生产考核合格证书（</span><span style="FONT-SIZE: 12pt">B</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">证）。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">注：<u><span style="COLOR: #21201e">依据闽建筑函〔</span></u></span></span><span><u><span style="FONT-SIZE: 12pt; COLOR: #21201e">2014</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">〕</span></u></span><span><u><span style="FONT-SIZE: 12pt; COLOR: #21201e">6</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">号文规定：（</span></u></span><span><u><span style="FONT-SIZE: 12pt; COLOR: #21201e">1</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">）一级建造师临时执业证书人员已按规定在</span></u></span><span><u><span style="FONT-SIZE: 12pt; COLOR: #21201e">2014</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">年</span></u></span><span><u><span style="FONT-SIZE: 12pt; COLOR: #21201e">2</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">月</span></u></span><span><u><span style="FONT-SIZE: 12pt; COLOR: #21201e">28</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">日前提出延续注册申请或者已办理完延续注册的一级建造师临时执业证书人员；（</span></u></span><span><u><span style="FONT-SIZE: 12pt; COLOR: #21201e">2</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">）已提出申请但还未办理完成延续注册的一级建造师临时执业证书人员，投标人应在投标文件中附有省住房和城乡建设厅行政服务中心出具的延续注册受理单，否则按资格审查不合格处理。依据闽建许〔</span></u></span><span><u><span style="FONT-SIZE: 12pt; COLOR: #21201e">2015</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">〕</span></u></span><span><u><span style="FONT-SIZE: 12pt; COLOR: #21201e">274</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">号文规定：若为一级建造师，投标人因办理相关注册业务无法提供注册证书原件的，应在投标文件中附有省住房和城乡建设厅行政服务中心出具的《福建省建设类执业资格注册证书有效性证明》，否则按资格审查不合格处理。</span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">3.2.</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; LETTER-SPACING: -0.2pt">本次招标<u>不接受</u>联合体投标。</span></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">3.3.</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">具有投资参股关系的关联企业，或具有直接管理和被管理关系的母子公司，或同一母公司的子公司，或法定代表人为同一人的两个及两个以上法人不得同时对同一标段投标，否则均按废标处理。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">国务院国有资产监督管理机构直接监管的中央企业均不属于本条规定的“母公司”，其一级子公司可同时对同一标段投标，但同属一个子公司的二级子公司不得同时对同一标段投标。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">四、招标文件的获取</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">4.1</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">本招标项目<u>采用</u>电子招投标。其执行的文件为：<u>南平市公共资源交易管理工作联席会议关于印发《南平市公共资源电子交易平台运行暂行管理规定》的通知（南发改法规〔</u></span></span><span><u><span style="FONT-SIZE: 12pt">2017</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">〕</span></u></span><span><u><span style="FONT-SIZE: 12pt">1</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">号）。</span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">4.2</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">凡有意参加投标者，请于</span><span><u><span style="FONT-SIZE: 12pt">2017&nbsp; </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">年</span><span><u><span style="FONT-SIZE: 12pt">&nbsp; 7 </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">月</span><span><u><span style="FONT-SIZE: 12pt"> 6 </span></u></span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">日<u>　</u></span></span><span><u><span style="FONT-SIZE: 12pt">9</span></u></span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">时<u>　</u></span></span><span><u><span style="FONT-SIZE: 12pt">00</span></u></span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">分至<span style="COLOR: #21201e">投标截止时间前</span>，通过<u>登录南平市公共资源电子交易平台（</u></span></span><span><u><span style="FONT-SIZE: 12pt">www.npggzy.gov.cn</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">利用已经激活并审核通过的</span><span style="FONT-SIZE: 12pt">CA</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">证书进行招标文件的免费下载或招标公告中直接获取，招标人不再另行出售纸质招标文件。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">4.3</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">．投标人必须在投标截止前通过网上银行在南平市公共资源电子交易平台的网上支付平台进行支付（电子交易平台使用费），才能参与投标。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">五、</span><span style="FONT-SIZE: 7pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp; </span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">评标办法</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">本招标项目采用的评标办法：<u>合理低价法（</u></span></span><span><u><span style="FONT-SIZE: 12pt">5%</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Arial','sans-serif'">≤K≤</span></u></span><span><u><span style="FONT-SIZE: 12pt">7% </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）</span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">六、</span><span style="FONT-SIZE: 7pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp; </span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">投标保证金的提交</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">6.1</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">投标保证金提交的时间：<u>在投标截止时间前　</u></span></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">6.2</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">投标保证金提交的方式：<u>或（</u></span></span><span><u><span style="FONT-SIZE: 12pt">1</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）从投标人企业基本帐户以转账或电汇形式汇达到招标公告指明的投标保证金帐户，并应在银行转账单或电汇单上的注明“</span></u></span><span><u><span style="FONT-SIZE: 12pt">FJZFNP-2017011</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">号</span></u></span><span><u><span style="FONT-SIZE: 12pt">X808</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">公路改建”</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">或（</span></u></span><span><u><span style="FONT-SIZE: 12pt">2</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）：<span style="COLOR: #21201e">福建省年度投标保证金：投标人可按闽建筑</span></span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; COLOR: #21201e">[2014]33</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">号文要求提交年度投标保证金。凡缴存年度投标保证金的龙头企业，凭福建省公共资源交易中心</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">出具的使用期限内的<span style="COLOR: #21201e">《福建省房建和市政工程年度投标保证金收讫证明》可参与本项目的投标。或（</span></span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; COLOR: #21201e">3</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">）</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">：<span style="COLOR: #21201e">按</span><span style="COLOR: black">《南平市住房和城乡建设局关于实施建设工程招标投标年度投标保证金制度的通知》（南建筑〔</span></span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; COLOR: black">2016</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">〕</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; COLOR: black">3</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">号）</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">文规定交存年度投标保证，</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #333333">已缴交年度投标保证金的施工企业，凭南平市</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: #21201e">公共资源交易中心</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">出具<span style="COLOR: #333333">的</span>使用期限内<span style="COLOR: #333333">《南平市建设工程年度投标保证金收讫证明》可参与本项目的投标；</span>或</span></u></span><span><u><span style="FONT-SIZE: 12pt">4</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">：按闽建筑（</span></u></span><span><u><span style="FONT-SIZE: 12pt">2015</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）</span></u></span><span><u><span style="FONT-SIZE: 12pt">29</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">号文的规定提交银行保函或建设工程投标保证保险</span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">；</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">6.3</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">投标保证金提交的金额：<u>人民币贰拾万元整（￥</u></span></span><span><u><span style="FONT-SIZE: 12pt">200000</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">元）</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">7</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">、投标文件的递交及相关事宜</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">7.1</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">本工程招标人不组织工程现场踏勘和召开投标预备会。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt">7.2</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">投标文件递交的截止时间（投标截止时间，下同）为</span><span><u><span style="FONT-SIZE: 12pt"> 2017</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">年</span></u></span><span><u><span style="FONT-SIZE: 12pt">7</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">月</span></u></span><span><u><span style="FONT-SIZE: 12pt">28</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">日</span></u></span><span><u><span style="FONT-SIZE: 12pt">9</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">时</span></u></span><span><u><span style="FONT-SIZE: 12pt">00</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">分</span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">，</span><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">提交地点：<u>南平市公共资源交易中心（地址：<span style="COLOR: black">南平亿发商贸城</span></u></span></span><span><u><span style="FONT-SIZE: 12pt; COLOR: black">7</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">号楼</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）</span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">在递交投标文件时，投标人的项目经理须持授权委托书原件、注册建造师证书（或注册建造师临时执业证书）原件、身份证原件、投标保证金凭证原件，并提交相应证件的复印件（加盖投标人公章），同时随身携带已经激活并审核通过的</span><span style="FONT-SIZE: 12pt">CA</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">到南平市公共资源交易中心核验登记，并提交一份备用电子投标文件。备用投标文件应刻录到光盘中，用信封密封并加盖投标人公章。不符合上述要求的，招标人可不予接受。解密投标文件时未随身携带已经激活并审核通过的</span><span style="FONT-SIZE: 12pt">CA</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">到场的视为撤销其投标文件。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">招标人或其委托的招标代理机构将对所有投标人参加开标会议的有关人员（按招标文件规定应到位开标的项目经理）进行身份证件识别和摄像留存，并做记录；应到位而未到位或弄虚作假的依招标投标法律论处。</span><span style="FONT-SIZE: 12pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">八、发布公告的媒介</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">本次招标公告同时在<u>福建招标与采购网（</u></span></span><span><u><span style="FONT-SIZE: 12pt">http://www.fjbid.gov.cn</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">）、南平市公共资源交易中心</span></u></span><span><u><span style="FONT-SIZE: 12pt">(</span></u></span><a href="http://www.npggzy.gov.cn/npzx/eWebEditor/%20http:/www.npggzy.gov.cn/%20/"><span style="FONT-FAMILY: 'Times New Roman','serif'; COLOR: blue"> http://www.npggzy.gov.cn/ /</span></a><span><u><span style="FONT-SIZE: 12pt">)</span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">（发布公告的媒介名称）上发布。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">九、联系方式</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">招标人：</span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp;</span></u></span><span><u><span style="FONT-SIZE: 12pt">&nbsp;&nbsp;&nbsp; </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">南平市延平区国有资产运营有限责任公司</span></u></span><span><u><span style="FONT-SIZE: 12pt">&nbsp;&nbsp;&nbsp; </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp;&nbsp;</span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">地</span><span style="FONT-SIZE: 12pt">&nbsp; </span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">址：</span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">南平市延平区朱熹路</span></u></span><span><u><span style="FONT-SIZE: 12pt">58</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">号永森·湖岸观邸</span></u></span><span><u><span style="FONT-SIZE: 12pt">2</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">号楼</span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">，邮编：</span><span><u><span style="FONT-SIZE: 12pt">&nbsp; 353000&nbsp;&nbsp; </span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">电话：</span><span><u><span style="FONT-SIZE: 12pt">&nbsp; 0599-8060903 </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;</span></u></span><span><u><span style="FONT-SIZE: 12pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span><span style="FONT-SIZE: 12pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">联系人：</span><span style="FONT-SIZE: 12pt"> </span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">李先生</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp;</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span style="FONT-SIZE: 12pt">&nbsp;&nbsp;</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">招标代理机构：</span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">福建省中福工程建设监理有限公司</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">地址：</span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">南平市玉屏北路</span></u></span><span><u><span style="FONT-SIZE: 12pt">1</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">号</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp;</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">，邮编：</span><span><u><span style="FONT-SIZE: 12pt"> 353000</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;</span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">电话：</span><span><u><span style="FONT-SIZE: 12pt"> 0599-8723032</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp;&nbsp;</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">传真：</span><span><u><span style="FONT-SIZE: 12pt"> 0599-8728017 </span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">联系人：</span><span style="FONT-SIZE: 12pt"> </span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp;</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">黄栋卿</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp;</span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">投标保证金银行帐号：</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">开户银行：<u>中国银行南平分行营业部</u></span></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">开户名称：<u>南平市公共资源交易中心</u></span></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">帐号：</span><span><u><span style="FONT-SIZE: 12pt; COLOR: black">4091&nbsp;5838&nbsp;8194</span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">招标投标交易场所名称：</span><span><u><span style="FONT-SIZE: 12pt">&nbsp;&nbsp; </span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">南平市公共资源交易中心</span></u></span><span><u><span style="FONT-SIZE: 12pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">地址：<u><span style="COLOR: black">南平亿发商贸城</span></u></span></span><span><u><span style="FONT-SIZE: 12pt; COLOR: black">7</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">号楼</span></u></span><span><u><span style="FONT-SIZE: 12pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">监督部门：<u><span style="COLOR: black">南平市延平区交通运输局</span></u></span></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: black">地址：</span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">南平市延平区鼓楼街</span></u></span><span><u><span style="FONT-SIZE: 12pt">22</span></u></span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">号</span></u></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">电话：</span><span><u><span style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; COLOR: black">0599-8832024</span></u></span><span><u><span style="FONT-SIZE: 12pt"> </span></u></span><span style="FONT-SIZE: 12pt">_</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体">注：</span><span style="FONT-FAMILY: 宋体">友情提示：</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-FAMILY: 宋体">①</span><span style="FONT-SIZE: 7pt; FONT-FAMILY: 'Times New Roman','serif'">&nbsp;&nbsp; </span><span style="FONT-FAMILY: 宋体">关于电子标书制作请登陆南平市公共资源交易中心网“资源下载”新点投标文件制作软件</span><span>(</span><span style="FONT-FAMILY: 宋体">南平版</span><span>)</span><span style="FONT-FAMILY: 宋体">软件安装包及相应操作手册，如有疑问请咨询江苏国泰新点软件有限公司，联系电话：</span><span>0512-58173200</span><span style="FONT-FAMILY: 宋体">、</span><span>400-850-3300, 0599-8317118</span><span style="FONT-FAMILY: 宋体">。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-FAMILY: 宋体">②如果未办理</span><span>CA</span><span style="FONT-FAMILY: 宋体">证书的企业请尽快办理，办理方式请查看南平市公共资源交易中心网【工作动态】中的“南平市公共资源交易中心关于</span><span>CA</span><span style="FONT-FAMILY: 宋体">数字证书及电子印章办理、激活事项的通知”，如果已办理证书，请检查数字证书是否可用。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-FAMILY: 宋体">③开标日当天，投标人须携带生成投标文件的</span><span>CA</span><span style="FONT-FAMILY: 宋体">数字证书到开标现场，各投标人法定代表人或委托代理人均要到前台（解密机）输入各自数字证书的密码，进行解密。为了不影响工程开标、评标流程，请各投标人法定代表人或委托代理人记住数字证书密码。解密完成后，由招标代理在进行最终解密及导入投标文件。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri','sans-serif'; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-FAMILY: 宋体">④在递交投标文件时，同时还应提供一份“</span><span>.nNPTF</span><span style="FONT-FAMILY: 宋体">”格式的电子投标文件（光盘），否则招标人（招标代理机构）将拒收投标资料。</span></p><br/><table id='filedown' cellSpacing='1' cellPadding='1' width='100%' border='0' runat='server'>
+				<TR>
+					<TD Align='top'>附件：<br><a href='/npztb//AttachStorage/ZTBFileStorage/201707/J070/4ac60d06-2239-4804-aa8f-fd5378797c6d/ZJWJ/招标文件.doc'>
+									<font color='blue'>
+										招标文件.doc
+									</font></a><br><a href='/npztb//AttachStorage/ZTBFileStorage/201707/J070/4ac60d06-2239-4804-aa8f-fd5378797c6d/[E3507000701000235001001]南平市延平区X808水南大桥段至西城大桥段三级公路改建工程.NPZF'>
+									<font color='blue'>
+										[E3507000701000235001001]南平市延平区X808水南大桥段至西城大桥段三级公路改建工程.NPZF
+									</font></a><br><a href='/npztb//AttachStorage/ZTBFileStorage/201707/J081/7d5d2e1a-3bfc-448c-9ec6-e6843f2a7414/工程量清单.rar'>
+									<font color='blue'>
+										工程量清单.rar
+									</font></a></TD>
+				</TR>
+			</table><table cellSpacing='1' cellPadding='1' width='100%' border='0'>
+				<TR>
+                    <td align='center' style='border:0;'> 
+                         <a href='http://www.npggzy.gov.cn/nphy/login.aspx?ReturnUrl=%2fnphy' target='_blank'><img src='../Template/Default/images/hybm.jpg'/></a>
+                    </td>
+                </TR>
+			</table><div style="height:30px;"></div></div>
+        </td>
+    </tr>
+</table>
+ 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>
+            <div id="JszbggDetail1_Attach" align="center">
+            </div>
+        </td>
+    </tr>
+</table>
+
+                            </div>
+                            <div id="menutab_6_2"  style="display: none">
+                               
+<link href="../Template/Default/ztbzx/css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript"  src="../Template/Default/ztbzx/js/jquery-1.9.1.min.js">
+    function iFrameHeight() {
+        var total = document.getElementById("ZtbggxxDetail_LblCount").innerHTML;
+    for(var i=0;i<parseInt(total);i++)
+    {
+        var ifm = document.getElementById("iframejjgz"+i.toString());
+        var subWeb = document.frames ? document.frames["iframejjgz"+i.toString()].document : ifm.contentDocument;
+        if (ifm != null && subWeb != null) {
+            ifm.height = subWeb.body.scrollHeight;
+        }
+    }}
+   
+ </script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="display:none">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; display:none;">
+            <div id="JsbctzDetail1_Div1">
+            </div>
+            <span id="JsbctzDetail1_LblCount">1</span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="color: #eb2826; font-size: 16px; font-weight: bold; height: 30px; line-height: 30px; " align="center">
+            <span id="JsbctzDetail1_title"></span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; text-align:left;">
+            <div id="JsbctzDetail1_content">
+            没有相关公告！</div>
+        </td>
+    </tr>
+</table>
+ 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>
+            <div id="JsbctzDetail1_Attach" align="center">
+            </div>
+        </td>
+    </tr>
+</table>
+
+                            </div>
+                            <div id="menutab_6_3"  style="display: none">
+                               
+<link href="../Template/Default/ztbzx/css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript"  src="../Template/Default/ztbzx/js/jquery-1.9.1.min.js">
+    function iFrameHeight() {
+        var total = document.getElementById("ZtbggxxDetail_LblCount").innerHTML;
+    for(var i=0;i<parseInt(total);i++)
+    {
+        var ifm = document.getElementById("iframejjgz"+i.toString());
+        var subWeb = document.frames ? document.frames["iframejjgz"+i.toString()].document : ifm.contentDocument;
+        if (ifm != null && subWeb != null) {
+            ifm.height = subWeb.body.scrollHeight;
+        }
+    }}
+   
+ </script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="display:none">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; display:none;">
+            <div id="JsbgggDetail1_Div1">
+            </div>
+            <span id="JsbgggDetail1_LblCount">1</span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="color: #eb2826; font-size: 16px; font-weight: bold; height: 30px; line-height: 30px; " align="center">
+            <span id="JsbgggDetail1_title">南平市延平区X808水南大桥段至西城大桥段三级公路改建工程答疑纪要</span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; text-align:left;">
+            <div id="JsbgggDetail1_content">
+            <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 18pt;">南平市延平区<span>X808</span>水南大桥段至西城大桥段</span></p>
+<p align="center" style='margin: 0cm 0cm 0pt; text-align: center; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 18pt;">三级公路改建工程补遗书<span>2</span></span></p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 20pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 12pt;">各投标人：</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 12pt;">南平市延平区<span>X808</span>水南大桥段至西城大桥段三级公路改建工程</span><span style="font-family: 宋体; font-size: 12pt;">（招标编号：<span>FJZFNP-2017011</span>号）有关招标人对招标文件补充、修改的通知如下：</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 12pt;">一、本项目建设资金修改为：除按省、市公路补助定额补助外，其余的资金均由建设业主自行解决。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 12pt;">二、招标文件<span>P17</span>页原附录<span>5 </span>资格审查条件（</span><span style="font-family: 宋体; font-size: 12pt;">项目经理和技术负责人最低要求</span><span style="font-family: 宋体; font-size: 12pt;">）说明<span>3</span>中的“</span><span style="font-family: 宋体; font-size: 12pt;">项目总工（技术负责人）须提交职称证、安全生产考核合格证、身份证的原件扫描件</span><span style="font-family: 宋体; font-size: 12pt;">”</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24.1pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><b><span style="font-family: 宋体; font-size: 12pt;">现修改为：“</span></b><b><span style="font-family: 宋体; font-size: 12pt;">项目总工（技术负责人）须提交职称证、身份证的原件扫描件</span></b><b><span style="font-family: 宋体; font-size: 12pt;">”。</span></b></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 12pt;">三、</span><span style="font-family: 宋体; font-size: 12pt;">招标文件<span>P23</span>页“详细评审”中的第<span>3.2.1</span>条款和<span>3.2.2</span>条款删除。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 12pt;">四、</span><span style="font-family: 宋体; font-size: 12pt;">招标文件<span>P63</span>页第<span>2.7</span>条款修改为：“</span><b><span style="font-family: 宋体; font-size: 12pt;">暂列金额（不含计日工总额）：<span>1089144</span>元，投标报价时不优惠不下浮</span></b><span style="font-family: 宋体; font-size: 12pt;">”。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 12pt;">五、</span><span style="font-family: 宋体; font-size: 12pt;">招标文件<span>P63</span>页第<span>2.10</span>条款中原“</span><span style="font-family: 宋体; font-size: 12pt;">投标人在投标报价时不得低于招标人公布的安全生产费</span><u><span style="font-size: 12pt;"><span>&nbsp;
+</span>30000<span>&nbsp; </span></span></u><span style="font-family: 宋体; font-size: 12pt;">元，</span><span style="font-family: 宋体; font-size: 12pt;">否则按废标处理</span><span style="font-family: 宋体; font-size: 12pt;">”<b> </b></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24.1pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><b><span style="font-family: 宋体; font-size: 12pt;">现修改为：“</span></b><b><span style="font-family: 宋体; font-size: 12pt;">投标人在投标报价时不得低于招标人公布的安全生产费</span></b><b><u><span style="font-size: 12pt;"><span>&nbsp; </span>158922</span></u></b><b><span style="font-family: 宋体; font-size: 12pt;">元，</span></b><b><span style="font-family: 宋体; font-size: 12pt;">否则按废标处理</span></b><b><span style="font-family: 宋体; font-size: 12pt;">”。</span></b></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 12pt;">六、招标文件<span>P70</span>页目录中原“<span>5</span>、</span><span style="font-family: 宋体; font-size: 12pt;">拟在本合同工程任职的主要人员简历表”</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 20pt; text-indent: 24.1pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><b><span style="font-family: 宋体; font-size: 12pt;">现修改为“</span></b><b><span style="font-family: 宋体; font-size: 12pt;">5</span></b><b><span style="font-family: 宋体; font-size: 12pt;">、</span></b><b><span style="font-family: 宋体; font-size: 12pt;">拟委任的项目经理和技术负责人资质表”</span></b></p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 20pt; text-indent: 24pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 12pt;">七、</span><span style="font-family: 宋体; font-size: 12pt;">招标文件<span>P76</span>页<b>“</b></span><b><span style="font-family: 宋体; font-size: 12pt;">拟委任的项目经理和技术负责人资质表”修改为</span></b><span style="font-family: 宋体;">：</span></p>
+<p align="left" style='margin: 0cm 23pt 0pt 0cm; text-align: left; line-height: 20pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体;"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span>&nbsp;&nbsp;&nbsp;</span></span><span style="font-family: 宋体;">五、 </span><span style="font-family: 宋体; font-size: 12pt;">拟委任的项目经理和技术负责人资质表</span></p>
+<p style='margin: 0cm 23pt 0pt 0cm; text-align: justify; line-height: 20pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体;">投标人名称：<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span>（盖单位公章）<span>&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>序号：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span></p>
+<p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 12pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'>&nbsp;</p>
+<div align="center">
+<table style="border: currentColor; border-image: none; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr style="height: 31.6pt;">
+      <td width="605" style="border-width: 1.5pt 1.5pt 1pt; border-style: solid; border-color: windowtext; padding: 0cm 5.4pt; border-image: none; width: 454.1pt; height: 31.6pt;" colspan="7">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">拟在本工程担任项目经理</span></p>
+      </td>
+    </tr>
+    <tr style="height: 36pt;">
+      <td width="70" style="border-width: medium 1pt 1pt 1.5pt; border-style: none solid solid; border-color: currentColor windowtext windowtext; padding: 0cm 5.4pt; width: 52.75pt; height: 36pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">姓名</span></p>
+      </td>
+      <td width="125" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 94.1pt; height: 36pt;" colspan="2">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'>&nbsp;</p>
+      </td>
+      <td width="69" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 51.95pt; height: 36pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">年龄</span></p>
+      </td>
+      <td width="81" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 61.05pt; height: 36pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'>&nbsp;</p>
+      </td>
+      <td width="82" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 61.3pt; height: 36pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">职称及证书编号</span></p>
+      </td>
+      <td width="177" style="border-width: medium 1.5pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 132.95pt; height: 36pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'>&nbsp;</p>
+      </td>
+    </tr>
+    <tr style="height: 29.3pt;">
+      <td width="124" style="border-width: medium 1pt 1pt 1.5pt; border-style: none solid solid; border-color: currentColor windowtext windowtext; padding: 0cm 5.4pt; width: 93.35pt; height: 29.3pt;" colspan="2">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">建造师证书注册编号<span>(</span>含临时<span>)</span></span></p>
+      </td>
+      <td width="141" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 105.45pt; height: 29.3pt;" colspan="2">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'>&nbsp;</p>
+      </td>
+      <td width="163" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 122.35pt; height: 29.3pt;" colspan="2">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">安全生产考核合格证书编号</span></p>
+      </td>
+      <td width="177" style="border-width: medium 1.5pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 132.95pt; height: 29.3pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'>&nbsp;</p>
+      </td>
+    </tr>
+    <tr style="height: 31.8pt;">
+      <td width="605" style="border-width: medium 1.5pt 1pt; border-style: none solid solid; border-color: currentColor windowtext windowtext; padding: 0cm 5.4pt; width: 454.1pt; height: 31.8pt;" colspan="7">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">拟在本工程担任技术负责人</span></p>
+      </td>
+    </tr>
+    <tr style="height: 36pt;">
+      <td width="70" style="border-width: medium 1pt 1pt 1.5pt; border-style: none solid solid; border-color: currentColor windowtext windowtext; padding: 0cm 5.4pt; width: 52.75pt; height: 36pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">姓名</span></p>
+      </td>
+      <td width="125" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 94.1pt; height: 36pt;" colspan="2">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'>&nbsp;</p>
+      </td>
+      <td width="69" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 51.95pt; height: 36pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">年龄</span></p>
+      </td>
+      <td width="81" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 61.05pt; height: 36pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'>&nbsp;</p>
+      </td>
+      <td width="82" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 61.3pt; height: 36pt;">
+      <p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">职称及证书编号</span></p>
+      </td>
+      <td width="177" style="border-width: medium 1.5pt 1pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 132.95pt; height: 36pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'>&nbsp;</p>
+      </td>
+    </tr>
+    <tr style="height: 49.15pt;">
+      <td width="70" style="border-width: medium 1pt 1.5pt 1.5pt; border-style: none solid solid; border-color: currentColor windowtext windowtext; padding: 0cm 5.4pt; width: 52.75pt; height: 49.15pt;">
+      <p align="center" style='margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph; punctuation-trim: leading;'><span style="font-family: 宋体;">备注</span></p>
+      </td>
+      <td width="535" style="border-width: medium 1.5pt 1.5pt medium; border-style: none solid solid none; border-color: currentColor windowtext windowtext currentColor; padding: 0cm 5.4pt; width: 401.35pt; height: 49.15pt;" colspan="6">
+      <p style="margin: 0cm 0cm 0pt; text-align: center; line-height: 18pt; font-family: 仿宋_GB2312; font-size: 10.5pt; punctuation-trim: leading;">&nbsp;</p>
+      </td>
+    </tr>
+    <tr height="0">
+      <td width="70" style="border: currentColor; border-image: none;"></td>
+      <td width="54" style="border: currentColor; border-image: none;"></td>
+      <td width="71" style="border: currentColor; border-image: none;"></td>
+      <td width="69" style="border: currentColor; border-image: none;"></td>
+      <td width="81" style="border: currentColor; border-image: none;"></td>
+      <td width="82" style="border: currentColor; border-image: none;"></td>
+      <td width="177" style="border: currentColor; border-image: none;"></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p style='margin: 6pt 0cm 0pt; text-align: justify; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体;">注：<span>1</span>、申请人应按后附表的格式要求分别填写所列人员的资历。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 18pt; text-indent: 21pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体;">2</span><span style="font-family: 宋体;">、<b>项目经理</b>须提交注册建造师证、安全生产考核合格证、身份证的原件扫描件；</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 18pt; text-indent: 21pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体;">3</span><span style="font-family: 宋体;">、<b>项目总工（技术负责人）</b>须提交职称证、身份证的原件扫描件。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 25pt; text-indent: 15.75pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span><span>&nbsp;</span>4</span><span style="font-family: 宋体;">、项目经理和技术负责人必须为投标人自有人员。项目经理以注册建造师证书的注册单位为准。技术负责人以职称证书上的单位为准，</span><span style="font-family: 宋体;">若不符则提供建设或交通<span>行政主管部门颁发的注册执业证书</span></span><span style="font-family: 宋体;">原件扫描件</span><span style="font-family: 宋体;">或<span>社保管理部门出具的在法定媒介发布招标公告之日前连续缴费六个月及以上的社保缴费证明</span></span><span style="font-family: 宋体;">件扫描件</span><span style="font-family: 宋体;">所署单位为准。社保由上级单位统筹缴纳的，还应提供上级单位出具的统筹缴纳证明<b>。</b></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 25pt; text-indent: 24pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="color: rgb(78, 78, 78); font-family: 宋体; font-size: 12pt;">八、</span><span style="color: rgb(78, 78, 78); font-family: 宋体; font-size: 12pt;">当招标文件、招标文件的澄清、修改、补充等在同一内容的表述上不一致时，以最后发出的文件为准。本《补遗书</span><span style="color: rgb(78, 78, 78); font-size: 12pt;">2</span><span style="color: rgb(78, 78, 78); font-family: 宋体; font-size: 12pt;">》内容为招标文件的组成部分，与《招标文件》具有同等法律效力。</span></p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; text-indent: 17.85pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'>&nbsp;</p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; text-indent: 17.85pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'>&nbsp;</p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; text-indent: 17.85pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'>&nbsp;</p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; text-indent: 17.85pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 12pt;">招<span>&nbsp;&nbsp;
+</span>标<span>&nbsp;&nbsp; </span>人：</span><span style="font-family: 宋体; font-size: 12pt;">南平市延平区国有资产运营有限责任公司</span></p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; text-indent: 17.85pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 12pt;">招标代理机构：</span><span style="color: black; font-family: 宋体; font-size: 12pt;">福建省中福工程建设监理有限公司</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 25pt; text-indent: 17.85pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="color: black; font-family: 宋体; font-size: 12pt;">日<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>期：</span><span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 12pt;">二〇一七年七月十二日</span></p><br/><table cellSpacing='1' cellPadding='1' width='100%' border='0'>
+				<TR>
+                    <td align='center' style='border:0;'> 
+                         <a href='http://www.npggzy.gov.cn/nphy/login.aspx?ReturnUrl=%2fnphy' target='_blank'><img src='../Template/Default/images/hybm.jpg'/></a>
+                    </td>
+                </TR>
+			</table><div style="height:30px;"></div><p align="center" style='margin: 0cm 0cm 0pt; text-align: center; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 18pt;">南平市延平区<span>X808</span>水南大桥段至西城大桥段</span></p>
+<p align="center" style='margin: 0cm 0cm 0pt; text-align: center; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span><span style="font-family: 宋体; font-size: 18pt;">三级公路改建工程补遗书<span>1</span></span></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'>&nbsp;</p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">各投标人：</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 25pt; text-indent: 28pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span><span style="font-family: 宋体; font-size: 14pt;">南平市延平区<span>X808</span>水南大桥段至西城大桥段三级公路改建工程</span></span><span><span style="font-family: 宋体; font-size: 14pt;">（招标编号：<span>FJZFNP-2017011</span>号）有关招标人对招标文件补充的通知如下：</span></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 25pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span><span style="font-size: 14pt;"><span>&nbsp;&nbsp; </span></span></span><span><span style="font-family: 宋体; font-size: 14pt;"><span>&nbsp;&nbsp;</span></span></span><span style="font-family: 宋体; font-size: 14pt;">一、本项目采用电子招投标，投标人的已标价工程量清单以</span><span style="font-family: 宋体; font-size: 14pt;">Excel</span><span style="font-family: 宋体; font-size: 14pt;">表格形式上传到电子平台系统中，并将已标价工程量清单</span><span style="font-family: 宋体; font-size: 14pt;">Excel</span><span style="font-family: 宋体; font-size: 14pt;">表刻录到备用文件光盘中。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 25pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span><span style="font-family: 宋体; font-size: 14pt;"><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span style="font-family: 宋体; font-size: 14pt;">二、</span><span style="color: rgb(78, 78, 78); font-family: 宋体; font-size: 14pt;">请各投标人到</span><span><span style="font-family: 宋体; font-size: 14pt;">南平市公共资源电子交易平台（<span>www.npggzy.gov.cn</span>）“招标答疑纪要”栏中本项目的补遗书<span>1</span>下载招标人公布的工程量清单</span></span><span style="color: rgb(78, 78, 78); font-family: 宋体; font-size: 14pt;">。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 25pt; text-indent: 35pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="color: rgb(78, 78, 78); font-family: 宋体; font-size: 14pt;">三、投标人在制作电子投标文件时，电子系统中的资格审查文件为招标文件的商务文件，商务文件为招标文件的投标报价和工程量清单文件。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 25pt; text-indent: 35pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">四、《</span><span><span style="font-family: 宋体; font-size: 14pt;">补遗书<span>1</span></span></span><span style="font-family: 宋体; font-size: 14pt;">》与《招标文件》等有抵触之处，以本《</span><span><span style="font-family: 宋体; font-size: 14pt;">补遗书<span>1</span></span></span><span style="font-family: 宋体; font-size: 14pt;">》为准。</span></p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; text-indent: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'>&nbsp;</p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; text-indent: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'>&nbsp;</p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; text-indent: 17.85pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span><span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 14pt;">招<span>&nbsp;&nbsp; </span>标<span>&nbsp;&nbsp;
+</span>人：</span></span><span style="font-family: 宋体; font-size: 14pt;">南平市延平区国有资产运营有限责任公司</span></p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 25pt; text-indent: 17.85pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 14pt;">招标代理机构：</span><span style="color: black; font-family: 宋体; font-size: 14pt;">福建省中福工程建设监理有限公司</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; line-height: 25pt; text-indent: 17.85pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span><span style="color: black; font-family: 宋体; font-size: 14pt;">日<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>期：</span></span><span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 14pt;">二〇一七年七月六日</span></p>
+<p>
+<br>
+</p><br/><table id='filedown' cellSpacing='1' cellPadding='1' width='100%' border='0' runat='server'>
+				<TR>
+					<TD Align='top'>附件：<br><a href='/npztb//AttachStorage/ZTBFileStorage/201707/J081/7d5d2e1a-3bfc-448c-9ec6-e6843f2a7414/工程量清单.rar'>
+									<font color='blue'>
+										工程量清单.rar
+									</font></a></TD>
+				</TR>
+			</table><table cellSpacing='1' cellPadding='1' width='100%' border='0'>
+				<TR>
+                    <td align='center' style='border:0;'> 
+                         <a href='http://www.npggzy.gov.cn/nphy/login.aspx?ReturnUrl=%2fnphy' target='_blank'><img src='../Template/Default/images/hybm.jpg'/></a>
+                    </td>
+                </TR>
+			</table><div style="height:30px;"></div></div>
+        </td>
+    </tr>
+</table>
+ 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>
+            <div id="JsbgggDetail1_Attach" align="center">
+            </div>
+        </td>
+    </tr>
+</table>
+
+                            </div>
+                            <div id="menutab_6_4" style="display: none">
+                               
+<link href="../Template/Default/ztbzx/css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript"  src="../Template/Default/ztbzx/js/jquery-1.9.1.min.js">
+    function iFrameHeight() {
+        var total = document.getElementById("ZtbggxxDetail_LblCount").innerHTML;
+    for(var i=0;i<parseInt(total);i++)
+    {
+        var ifm = document.getElementById("iframejjgz"+i.toString());
+        var subWeb = document.frames ? document.frames["iframejjgz"+i.toString()].document : ifm.contentDocument;
+        if (ifm != null && subWeb != null) {
+            ifm.height = subWeb.body.scrollHeight;
+        }
+    }}
+   
+ </script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="display:none">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; display:none;">
+            <div id="JshxrgsDetail1_Div1">
+            </div>
+            <span id="JshxrgsDetail1_LblCount">1</span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="color: #eb2826; font-size: 16px; font-weight: bold; height: 30px; line-height: 30px; " align="center">
+            <span id="JshxrgsDetail1_title"></span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; text-align:left;">
+            <div id="JshxrgsDetail1_content">
+            没有相关公告！</div>
+        </td>
+    </tr>
+</table>
+ 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>
+            <div id="JshxrgsDetail1_Attach" align="center">
+            </div>
+        </td>
+    </tr>
+</table>
+
+                            </div>
+                            <div id="menutab_6_5"  style="display: none">
+                                 
+<link href="../Template/Default/ztbzx/css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript"  src="../Template/Default/ztbzx/js/jquery-1.9.1.min.js">
+    function iFrameHeight() {
+        var total = document.getElementById("ZtbggxxDetail_LblCount").innerHTML;
+    for(var i=0;i<parseInt(total);i++)
+    {
+        var ifm = document.getElementById("iframejjgz"+i.toString());
+        var subWeb = document.frames ? document.frames["iframejjgz"+i.toString()].document : ifm.contentDocument;
+        if (ifm != null && subWeb != null) {
+            ifm.height = subWeb.body.scrollHeight;
+        }
+    }}
+   
+ </script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="display:none">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; display:none;">
+            <div id="JszbgsDetail1_Div1">
+            </div>
+            <span id="JszbgsDetail1_LblCount">1</span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="color: #eb2826; font-size: 16px; font-weight: bold; height: 30px; line-height: 30px;" align="center">
+            <span id="JszbgsDetail1_title"></span>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="line-height: 25px; color: #4e4e4e; text-align:left;">
+            <div id="JszbgsDetail1_content">
+            没有相关公告！</div>
+        </td>
+    </tr>
+</table>
+ 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>
+            <div id="JszbgsDetail1_Attach" align="center">
+            </div>
+        </td>
+    </tr>
+</table>
+
+                            </div>
+                            
+                        </td>
+                    </tr>
+                </table>
+           
+    <script type="text/javascript">
+        var type=1;
+        ChangeTabs(type);
+      
+		   </script>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 10px;"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="ewb-footer">
+        <!-- guide -->
+        <div class="ewb-footer-guide">
+            <a href="../gybz">关于本站</a>
+            <span>|</span>
+            <a href="../wzdt">网站地图</a>
+            <span>|</span>
+            <a href="../flsm">法律声明</a>
+            <span>|</span>
+            <a href="../lxwm">联系我们</a>
+        </div>
+        <!-- copyright -->
+        <div class="ewb-footer-copyright">
+            <div class="ewb-container ewb-footer-wrap">
+                <div class="ewb-footer-notice">
+                    <p>南平市公安局
+                        <br/>网络报警处置中心</p>
+                    <i></i>
+                </div>
+                <p>
+                    版权所有 Copyright<span class="ewb-footer-ico">©</span>2011-2016 南平市公共资源交易中心
+                    <br/>建议使用：IE6以上浏览器 1024*768分辨率浏览本站 苏ICP备061254456号
+                    <br/> 技术支持：江苏国泰新点软件有限公司 您是<script src="../Count.aspx"></script>位访问者
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="../template/default/js/jquery.placeholder.min.js"></script>
+    <script src="../template/default/js/about.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+                    

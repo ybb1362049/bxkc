@@ -1,0 +1,266 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="author" content="设计维护：天成网络(www.txwl.cn)" /> 
+<meta name="Keywords" content="福建省投资开发集团有限责任公司" />
+<link href="css/normal.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/tab.js"></script>
+<script type="text/javascript" src="js/menus.js"></script>
+<script type="text/javascript" src="js/Msclass.js"></script>
+<meta name="robots" content="all" />
+<title>福建省投资开发集团有限责任公司</title>
+<link href="css/fjtz.css" rel="stylesheet" type="text/css" />
+<style>
+ #sub_menu {position:absolute; top:119px; font-size:12px; line-height:2em; z-index:99}
+ #sub_menu #sub_1{
+ 	margin-left:150px;
+	width:320px;
+	display: block;
+	height: 24px;
+	clear: both;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #F7F7F7;
+	filter: alpha(opacity=80); -moz-opacity: 0.80; opacity: 0.80; -khtml-opacity: 0.80;
+ }
+ #sub_menu #sub_2{
+ 	margin-left:250px;
+	width:250px;
+	height: 24px;
+	clear: both;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #F7F7F7;
+	filter: alpha(opacity=80); -moz-opacity: 0.80; opacity: 0.80; -khtml-opacity: 0.80;
+ }
+ #sub_menu #sub_3{
+	margin-left:355px;
+	width:200px;
+	height: 24px;
+	clear: both;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #F7F7F7;
+	filter: alpha(opacity=80); -moz-opacity: 0.80; opacity: 0.80; -khtml-opacity: 0.80;
+ }
+ #sub_menu #sub_4{
+ 	margin-left:465px;
+	width:200px;
+	height: 24px;
+	clear: both;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #F7F7F7;
+	filter: alpha(opacity=80); -moz-opacity: 0.80; opacity: 0.80; -khtml-opacity: 0.80;
+ }
+ #sub_menu #sub_5{
+  	margin-left:570px;
+	width:250px;
+	height: 24px;
+	clear: both;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #F7F7F7;
+	filter: alpha(opacity=80); -moz-opacity: 0.80; opacity: 0.80; -khtml-opacity: 0.80;
+ }
+ #sub_menu #sub_6{
+    margin-left:680px;
+	width:250px;
+	height: 24px;
+	clear: both;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #F7F7F7;
+	filter: alpha(opacity=80); -moz-opacity: 0.80; opacity: 0.80; -khtml-opacity: 0.80;
+	}
+ #sub_menu #sub_7{
+ 	margin-left:790px;
+	height: 24px;
+	clear: both;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #F7F7F7;
+	filter: alpha(opacity=80); -moz-opacity: 0.80; opacity: 0.80; -khtml-opacity: 0.80;
+ }
+ #sub_menu #sub_8{
+    margin-left:900px;
+	height: 24px;
+	clear: both;
+	border: 1px solid #ccc;
+	text-align:center;
+	background: #F7F7F7;
+	filter: alpha(opacity=80); -moz-opacity: 0.80; opacity: 0.80; -khtml-opacity: 0.80;
+ }
+</style>
+<script>
+function ChangClass(num)
+{   
+	for(i=1; i<7; i++)
+	{
+	  if (i==num )
+	  { 
+	  	  document.getElementById("sub_"+i+"").style.display="block";
+	  }
+	  else
+	  {
+		  document.getElementById("sub_"+i+"").style.display="none";
+	  }
+	} 
+}
+</script>
+</head>
+<body>
+<div id="box">
+<table width="1003" height="80" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top" width="500" style="padding:3px 0 0 7px;"><a href="index.asp"><img src="images/logo.jpg" width="375" height="71"/></a></td>
+    <td align="right" width="800" class="yx" style=" font-size:13px; padding:15px 0 0 0;"><a href="http://mail.fidc.com.cn">邮箱登录</a>&nbsp;/&nbsp;搜索：</td>
+    <td align="left" width="180"><div class="boxSearch">
+      <form name="searchform" action="searchurl.asp" method="post"><input class="inputSearch" name="keywords"/>&nbsp;<input src="images/search_btn.jpg" type="image"/></form>
+    </div></td>
+    <td style="padding:3px 0 0 7px;"><img src="images/smallgzh.jpg" width="153" height="80"/></a></td>
+  </tr>
+</table>
+
+<table width="1003" height="39" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+	<div class="nav" id="nav">
+		<ul>
+			<li><a href="index.asp">首　　页</a></li>
+			<li><a href="about.asp" onmouseover="ChangClass(1)" >关于我们</a></li>
+			<li><a href="xwzx.asp" onmouseover="ChangClass(2)">新闻中心</a></li>
+			<li><a href="ywgj.asp" onmouseover="ChangClass(3)">业务构架</a></li>
+			<li><a href="qsgs.asp" onmouseover="ChangClass(4)">权属公司</a></li>
+			<li><a href="culture.asp" onmouseover="ChangClass(5)">党的建设</a></li>
+			<li><a href="human.asp"  onmouseover="ChangClass(6)">人才战略</a></li>
+			<li><a href="contact.asp"  >联系我们</a></li>
+			<li class="bgNone"><a href="download.asp"  >下载园地</a></li>
+	   </ul>
+  </div>
+ <div id="sub_menu">
+ 	<div id="sub_1" style="display:none" >&nbsp;<a href="about.asp?ctlgid=8" >集团简介</a>&nbsp;<a href="about.asp?ctlgid=9" >领导致辞</a>&nbsp;<a href="about.asp?ctlgid=10" >组织机构</a>&nbsp;</div>
+ 	<div id="sub_2" style="display:none" >&nbsp;<a href="xwzx.asp?ctlgid=13" >集团要闻</a>&nbsp;<a href="xwzx.asp?ctlgid=153" >媒体聚焦</a>&nbsp;<a href="xwzx.asp?ctlgid=14" >项目动态</a>&nbsp;<a href="xwzx.asp?ctlgid=15" >图片报道</a>&nbsp;<a href="xwzx.asp?ctlgid=51" >通知公告</a>&nbsp;<a href="xwzx.asp?ctlgid=134" >招标信息</a>&nbsp;</div>
+    <div id="sub_3" style="display:none" >&nbsp;<a href="ywgj.asp?ctlgid=16" >实    业</a>&nbsp;<a href="ywgj.asp?ctlgid=21" >金融及金融服务业</a>&nbsp;</div>
+    <div id="sub_4" style="display:none" >&nbsp;<a href="qsgs.asp?ctlgid=27" >全资子公司</a>&nbsp;<a href="qsgs.asp?ctlgid=33" >控股公司</a>&nbsp;<a href="qsgs.asp?ctlgid=38" >参股公司</a>&nbsp;<a href="qsgs.asp?ctlgid=135" >上市公司</a>&nbsp;</div>
+    <div id="sub_5" style="display:none" >&nbsp;<a href="culture.asp?ctlgid=42" >理念宗旨</a>&nbsp;<a href="culture.asp?ctlgid=43" >党建工作</a>&nbsp;<a href="culture.asp?ctlgid=44" >文化生活</a>&nbsp;<a href="culture.asp?ctlgid=45" >社会责任</a>&nbsp;</div>
+    <div id="sub_6" style="display:none" >&nbsp;<a href="human.asp?ctlgid=47" >人才理念</a>&nbsp;<a href="human.asp?ctlgid=48" >培训资讯</a>&nbsp;<a href="human.asp?ctlgid=49" >招聘信息</a>&nbsp;</div>
+<!--	<div id="sub_7" style="display:none" >&nbsp;</div>
+	<div id="sub_8" style="display:none" >&nbsp;</div>-->
+ </div>  
+</td>
+  </tr>
+</table>
+<div><img src="images/banner2.jpg" /></div>
+<div><img src="images/bg6.jpg" /></div>
+
+<div class="main" style="padding-bottom:25px;">
+<table border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td valign="top">
+	
+ <div class="left">
+  <div><img src="images/xwzx_left.jpg" /></div>
+  <div class="left_list">
+    <ul>
+	<li  ><a href="xwzx.asp?ctlgid=13" >集团要闻</a></li><li  ><a href="xwzx.asp?ctlgid=153" >媒体聚焦</a></li><li  ><a href="xwzx.asp?ctlgid=14" >项目动态</a></li><li  ><a href="xwzx.asp?ctlgid=15" >图片报道</a></li><li  ><a href="xwzx.asp?ctlgid=51" >通知公告</a></li><li  ><a href="xwzx.asp?ctlgid=134" >招标信息</a></li>
+	</ul>   
+  </div> 
+  
+  <div style="padding-top:22px"><img src="images/xwph.jpg" /></div>
+	<tag:新闻排行版> 
+  <div class="xwph">
+	 <ul>
+	 
+	    <li><a href="xwzx.asp?id=690&ctlgid=15">福建投资集团总经理人</a>(23015)</li>
+	 
+	    <li><a href="xwzx.asp?id=243&ctlgid=13">福建投资集团（福清）</a>(17569)</li>
+	 
+	    <li><a href="xwzx.asp?id=272&ctlgid=51">福建中闽能源投资有限</a>(11350)</li>
+	 
+	    <li><a href="xwzx.asp?id=125&ctlgid=15">海西宁德工业区——国</a>(9776)</li>
+	 
+	    <li><a href="xwzx.asp?id=242&ctlgid=51">关于选派平潭综合实验</a>(8856)</li>
+	 
+	    <li><a href="xwzx.asp?id=207&ctlgid=13">福建投资集团企业内部</a>(8194)</li>
+	 
+	    <li><a href="xwzx.asp?id=300&ctlgid=51">关于选派平潭综合实验</a>(7811)</li>
+	 
+	    <li><a href="xwzx.asp?id=153&ctlgid=15">福建投资集团举办20</a>(7413)</li>
+	 
+	 </ul>	   
+  </div>
+</tag:新闻排行版>
+   </div></td>
+    <td width="33" align="center" valign="top" style="background:url(../images/pic11.jpg) repeat-y center;">&nbsp;</td>
+    <td valign="top" width="725"><table width="725" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" ><div class="mian_title">招标信息</div></td>
+        <td align="right" class="dqwz">您当前的位置：<a href="index.asp">首页</a>－<a href="xwzx.asp">新闻中心</a>－<span>招标信息</span></td>
+      </tr>
+    </table>
+	  <div class="boxmain">
+   
+	<tag:信息列表> 
+  <div class="xw_listbox">
+  <table width="100%">
+	<tr>
+	    <li><span>2017-02-09</span><a href="?id=5032&ctlgid=134">平海湾海上风电场二期项目第一批风电机组及附属设备采购（重新招标）招标公告</a></li>
+	 </tr>
+	    <li><span>2017-01-16</span><a href="?id=4959&ctlgid=134">平海湾海上风电场二期项目第一批风电机组及附属设备采购流标公示</a></li>
+	 </tr>
+	    <li><span>2017-01-11</span><a href="?id=4947&ctlgid=134">闽投营运中心桩基和地下连续墙工程施工总承包补充通知</a></li>
+	 </tr>
+	    <li><span>2017-01-04</span><a href="?id=4935&ctlgid=134">邵武市大乾水库饮用水源原水管道Ⅰ标段(涉铁工程段)（施工）（重新招标）</a></li>
+	 </tr>
+	    <li><span>2016-12-28</span><a href="?id=4925&ctlgid=134">闽投营运中心项目建设（监理）</a></li>
+	 </tr>
+	    <li><span>2016-12-28</span><a href="?id=4924&ctlgid=134">闽投营运中心桩基和地下连续墙工程施工总承包</a></li>
+	 </tr>
+	    <li><span>2016-12-28</span><a href="?id=4923&ctlgid=134">福清市观音埔水厂工程（清水输水主干管）中标结果</a></li>
+	 </tr>
+	    <li><span>2016-12-23</span><a href="?id=4907&ctlgid=134">邵武市大乾水库饮用水源原水管道Ⅰ标段(涉铁工程段)（施工）流标公示</a></li>
+	 </tr>
+	    <li><span>2016-12-20</span><a href="?id=4900&ctlgid=134">福建莆田平海湾海上风电场二期项目升压变电站土建及机电设备安装工程中标结果</a></li>
+	 </tr>
+	    <li><span>2016-12-07</span><a href="?id=4869&ctlgid=134">福清市观音埔水厂工程（清水输水主干管）中标公示</a></li>
+	 </tr>
+    	<tr ><td class="boxPage" style="padding-top:20px;"> 第<b>1</b>/12页 <a href="javascript:" class="pageNum"><<</a> <a href="javascript:" class="pageNum">< 上一页</a> <a href="/xwzx.asp?ctlgid=134&page=1"><b class="t-y">1</b></a> <a href="/xwzx.asp?ctlgid=134&page=2" class="pageNum">2</a> <a href="/xwzx.asp?ctlgid=134&page=3" class="pageNum">3</a> <a href="/xwzx.asp?ctlgid=134&page=4" class="pageNum">4</a> <a href="/xwzx.asp?ctlgid=134&page=5" class="pageNum">5</a> <a href="/xwzx.asp?ctlgid=134&page=2" class="pageNum">下一页 ></a> <a href="/xwzx.asp?ctlgid=134&page=12" class="pageNum">>></a></td></tr>
+    
+	</table>
+  </div>
+</tag:信息列表>	</div></td>
+  </tr>
+</table>
+</div>
+<link href="css/fjtz.css" rel="stylesheet" type="text/css" />
+<title></title><div class="pitch1"></div>
+<table width="1003" height="65" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="bo1" height="30"><a href="#">可访问性声明</a>&nbsp;|&nbsp;<a href="#">隐私声明</a>&nbsp;|&nbsp;<a href="#">使用条款</a>&nbsp;|&nbsp;<a href="contact.asp">联系我们</a>&nbsp;<!--|&nbsp;<a href="msb.asp">投诉建议</a>-->&nbsp;&nbsp;<!--访问计数：
+      <script language="JavaScript" src="TcwlByCounter/counter.asp" type="text/javascript"></script> 位来宾--></td>
+    <td class="yq_list"  height="30" align="right"><select name=select onChange='window.open(this.options[this.selectedIndex].value);' style='width:237;overflow:hidden'><option value=www.fidc.com.cn>友情链接</option><option value=http://www.fj.gov.cn/>福建省人民政府</option><option value=http://www.fjgzw.gov.cn>福建省人民政府国有资产监督管理委员会</option><option value=http://www.fjcz.gov.cn/>福建省财政厅</option><option value=http://www.fjdpc.gov.cn/>福建省发展和改革委员会</option></select></td>
+  </tr>
+  <tr>
+    <td class="copyright" height="35">版权所有：福建省投资开发集团有限责任公司&nbsp;<span>&copy;  2010&nbsp;&nbsp;Fujian&nbsp;Investment &&nbsp;Development&nbsp;Group Co.,Ltd.</span></td>
+    <td class="ba" align="right" valign="top"  height="35" style="line-height:30px;">
+	  <table border="0" cellspacing="0" cellpadding="0" style="padding-top:7px;">
+  <tr>
+    <td><img src="images/jc.jpg" width="21" height="21"/>&nbsp;</td>
+    <td><a href="http://www.miitbeian.gov.cn" target="_parent
+">闽ICP备05006975&nbsp;&nbsp;</a></td>
+  </tr>
+</table>
+
+	</td>
+  </tr>
+</table>
+<div style="width:300px;margin:0 auto; padding:20px 0;">
+	<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010202000097" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="images/备案图标.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">闽公网安备 35010202000097号</p></a>
+</div>
+</div>
+</body>
+</html>

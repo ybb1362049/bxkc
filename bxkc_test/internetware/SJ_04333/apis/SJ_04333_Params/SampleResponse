@@ -1,0 +1,459 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><link href="images/style.css" rel="stylesheet" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="images/style.css" rel="stylesheet" type="text/css" /><title>
+	广西同泽工程项目管理有限责任公司
+</title>
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    
+
+<script language="javascript">
+
+function Setdisplay(name)
+{
+    if(document.getElementById(name).style.display == "none")
+    {
+        document.getElementById(name).style.display = "block";
+        //document.getElementById("dl5").className = "current_2";
+    }
+    else
+    {
+        //document.getElementById("dl5").className = "current";
+        document.getElementById(name).style.display = "none";
+    }
+}   
+
+
+</script>
+
+
+    
+    <script language="JavaScript">
+    <!--
+    //图片按比例缩放
+    var flag=false;
+    function DrawImage(ImgD,iwidth,iheight){
+        //参数(图片,允许的宽度,允许的高度)
+         var image=new Image();
+         image.src=ImgD.src;
+        if(image.width>0 && image.height>0){
+         flag=true;
+        if(image.width/image.height>= iwidth/iheight){
+            if(image.width>iwidth){  
+             ImgD.width=iwidth;
+             ImgD.height=(image.height*iwidth)/image.width;
+             }else{
+             ImgD.width=image.width;  
+             ImgD.height=image.height;
+             }
+             ImgD.alt=image.width+"×"+image.height;
+             }
+        else{
+            if(image.height>iheight){  
+             ImgD.height=iheight;
+             ImgD.width=(image.width*iheight)/image.height;        
+             }else{
+             ImgD.width=image.width;  
+             ImgD.height=image.height;
+             }
+             ImgD.alt=image.width+"×"+image.height;
+             }
+         }
+    } 
+    //-->
+    
+    /*常规弹出窗口*/
+    function opdlg(_title,_page,_width,_height)
+    {
+        var dlg = new J.ui.dialog({title:_title, page:_page, width:_width, height:_height,cover:true,btns:false});
+        dlg.ShowDialog();
+    }
+    </script>
+
+<script language="javascript">
+function SetHome(obj,vrl){
+        try{
+                obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+                NavClickStat(1);
+        }
+        catch(e){
+                if(window.netscape) {
+                        try {
+                                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");  
+                        }  
+                        catch (e) 
+ { 
+                                alert("抱歉！您的浏览器不支持直接设为首页。请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为“true”，点击“加入收藏”后忽略安全提示，即可设置成功。");  
+                        }
+                        var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                        prefs.setCharPref('browser.startup.homepage',vrl);
+                 }
+        }
+}
+function IMG1_onclick() {
+    
+    var txt = document.getElementById("textfield").value;
+   
+    window.open("search.aspx?SearchTxt=" + txt);
+}
+
+</script>
+
+</head>
+<body>
+<form name="aspnetForm" method="post" action="Service.aspx?TypeID=36" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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sOWFrOi3r+Wkp+ahpeWKoOWbuue7tOS/ruiuvuiuoe+8iEdYVFotWkItMjAxN+esrO+8iDAxMjAz77yJ5Y+377yJIOernuS6ieaAp+eji+WVhuWFrOWRinvlub/opb/lkIzms73lt6XnqIvpobnnm67nrqHnkIbogqHku73mnInpmZDlhazlj7gg5aSn5YyW55G25peP6Ieq5rK75Y6/5bu65Liw5YWs6Lev5aSn5qGl5Yqg5Zu657u05L+u6K6+6K6h77yIR1hUWi1aQi0yMDEuLi5kAgcPZBYCZg8VBgoyMDE3LTEwLTE3BDQxNTMCMzYArgHlub/opb/lkIzms73lt6XnqIvpobnnm67nrqHnkIbogqHku73mnInpmZDlhazlj7gg5bKR5rqq5biC6K+a6LCP6ZWH6buO5Z6M5p2R5piT5Zyw5om26LSr5pCs6L+B5a6J572u54K56aG555uuLeaYk+WcsOaQrOi/geaIt+S9j+WuhealvOW3peeoi1RaQ1gyRy0yMDE3LTAzNyDmlr3lt6Xmi5vmoIflhazlkYqPAeW5v+ilv+WQjOazveW3peeoi+mhueebrueuoeeQhuiCoeS7veaciemZkOWFrOWPuCDlspHmuqrluILor5rosI/plYfpu47lnozmnZHmmJPlnLDmibbotKvmkKzov4Hlronnva7ngrnpobnnm64t5piT5Zyw5pCs6L+B5oi35L2P5a6F5qW85bel56iLLi4uZAIID2QWAmYPFQYKMjAxNy0xMC0xNwQ0MTUyAjM2AK4B5bm/6KW/5ZCM5rO95bel56iL6aG555uu566h55CG6IKh5Lu95pyJ6ZmQ5YWs5Y+4IOWykea6quW4guivmuiwj+mVh+aymeeUsOadkeaYk+WcsOaJtui0q+aQrOi/geWuiee9rueCuemhueebri3mmJPlnLDmkKzov4HmiLfkvY/lroXmpbzlt6XnqItUWkNYMkctMjAxNy0wMzYg5pa95bel5oub5qCH5YWs5ZGKjwHlub/opb/lkIzms73lt6XnqIvpobnnm67nrqHnkIbogqHku73mnInpmZDlhazlj7gg5bKR5rqq5biC6K+a6LCP6ZWH5rKZ55Sw5p2R5piT5Zyw5om26LSr5pCs6L+B5a6J572u54K56aG555uuLeaYk+WcsOaQrOi/geaIt+S9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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F20EDA95" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWDgKAwevDAQKbluGwAgLzqr/bDQKpnbbHCQKZ97EJAov37TIC98u0lg8C+tnN/wMCk5aooA8CrOGpsQkC6a+ewA8CiPaL0g8Ck5a8wwwCrOGVzwLI/Zoj9dhU1MO1+cY2ZNElaz5BKg==" />
+</div>
+
+<div id="index">
+  <div id="index-left"><img src="images/index_left.gif" width="4" height="1169" /></div>
+  <!--end index-left-->
+  <div id="index-right"><img src="images/index_right.gif" width="4" height="1169" /></div>
+  <!--end index-right-->
+  <div id="contaiter">
+    <div id="header">
+      <div id="logo"><img src="images/logo.jpg" /></div>
+      <div id="home">
+        <div id="info"> <a href="javascript:void(0)" onClick="SetHome(this,window.location)" target="_top">设为首页</a>
+         | <a href="javascript:void(0)" onClick="window.external.addFavorite(window.location,'广西同泽工程造价咨询有限责任公司')" >添加收藏</a> | 
+         <a href="Contact.aspx">联系我们</a> </div>
+        <div id="search">
+            <input type="text" name="textfield" id="textfield" value="" onkeydown= "if(event.keyCode   ==   13)   return   false; "  class="txt-input"/> 
+        </div>
+        <div id="btn"><a href="javascript:void(0)" onclick="return IMG1_onclick()"><img src="images/sear_btn.gif" width="28" height="25" id="IMG1"  /></a></div>
+      </div>
+      <!--end home-->
+    </div>
+    <!--end header-->
+    <div id="menu">
+      <ul>
+        <li><a href="/Default.aspx">首页</a></li>
+        <li><a href="About.aspx">公司概况</a></li>
+        <li><a href="Notice.aspx">通知公告</a></li>
+        <li><a href="News.aspx">公司动态</a></li>
+        <li><a href="Service.aspx">服务领域</a></li>
+        <li><a href="ProjectSuccess.aspx">工程业绩</a></li>
+        <li><a href="Job.aspx">人力资源</a></li>
+        
+        
+        <li><a href="DownCleCled.aspx">资料下载</a></li>
+        
+       
+        
+      </ul>
+    </div>
+    <!--end menu-->
+
+
+
+    <div id="banner"> <img src="images/service_banner.jpg" width="980" height="180" /></div>
+    <!--end banner-->
+    
+    <div class="clear"></div>
+    <div id="main">
+      <div class="maincont">
+        <div id="sidebar">
+          <div id="sidebar_tit">
+            <h2>服务领域</h2>
+          </div>
+          <div id="sidebar_cont">
+            <div id="column"> 
+                        <a href="Service.aspx?TypeID=31" class="current" id="dl31" title="服务领域造价咨询">造价咨询</a> 
+                    
+            	        <a href="javascript:void(0)" class="current" id="dl32" title="招标代理" onclick="Setdisplay('dlMenu')">招标代理</a>             	       
+            	        <div id="dlMenu" style="display:none">
+            	        <a href="Service.aspx?TypeID=36" class="current" id="dl36" title="招标公告">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;招标公告</a> 
+                    
+            	        <a href="Service.aspx?TypeID=37" class="current" id="dl37" title="中标公告">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中标公告</a> 
+                    
+            	        <a href="Service.aspx?TypeID=38" class="current" id="dl38" title="修改通知">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修改通知</a> 
+                        </div>
+                        
+                        
+                        <a href="Service.aspx?TypeID=33" class="current" id="dl33" title="工程监理">工程监理</a>
+                        
+                        <a href="Service.aspx?TypeID=34" class="current" id="dl34" title="工程咨询">工程咨询</a>
+                        
+                        <a href="Service.aspx?TypeID=35" class="current" id="dl35" title="政府采购">政府采购</a>
+                        
+<input type="hidden" name="ctl00$cphBannerAndMain$hdfTypeID" id="ctl00_cphBannerAndMain_hdfTypeID" value="36" />
+<script language="javascript">
+
+function loadmenu()
+{
+    var typeID= parseInt(document.getElementById("ctl00_cphBannerAndMain_hdfTypeID").value);
+    var dl = "dl" + typeID;
+    if( typeID != 31 &&typeID<39)
+    {
+        document.getElementById(dl).className = "current_2";
+        if( typeID == 36 || typeID == 37 || typeID == 38 )
+            document.getElementById("dlMenu").style.display = "block";
+        
+    }
+    else if( typeID == 31)
+    {
+        document.getElementById("dl31").className = "current_2"; 
+    }
+}
+
+loadmenu();
+
+</script>
+            	        
+            
+                
+              
+            </div>
+            <!--end column-->
+            
+              
+<div id="contact_cont">
+
+
+    <div id="login_ed" style="display:none">
+    
+    <div id="login_tit"><img src="images/login.jpg" width="204" height="40" /></div>
+    
+        <table width="100%" border="0" cellspacing="2" >
+        <tr>
+          <td height="30" align="right">用户名：</td>
+            <td> <span id="ctl00_cphBannerAndMain_Wuc_Down_Job_Cont1_lblAccout" style="color:#FF8A00;font-size:14px;font-weight:bold;"></span></td>
+        </tr>
+        <tr>
+          <td height="30" align="right">姓&nbsp;&nbsp;&nbsp;&nbsp;名：</td>
+            <td> <span id="ctl00_cphBannerAndMain_Wuc_Down_Job_Cont1_lblName" style="color:#FF8A00;font-size:14px;font-weight:bold;"></span></td>
+        </tr>
+        <tr>
+          <td height="30" ><a onclick="return confirm('确认退出登陆吗？');" id="ctl00_cphBannerAndMain_Wuc_Down_Job_Cont1_LinkButton1" href="javascript:__doPostBack('ctl00$cphBannerAndMain$Wuc_Down_Job_Cont1$LinkButton1','')" style="color:#004E8A;">安全退出</a>
+            </td>
+            <td> 
+                <a id="ctl00_cphBannerAndMain_Wuc_Down_Job_Cont1_lbtnAdmin" href="javascript:__doPostBack('ctl00$cphBannerAndMain$Wuc_Down_Job_Cont1$lbtnAdmin','')" style="color:#004E8A;">登录后台</a>
+            </td>
+        </tr>
+        
+        </table>
+       
+    
+    <p style="margin-left:-13px"><a href="downCleCled.aspx"><img src="images/download.jpg" width="200" height="58" alt="资料下载" /></a></p>
+    
+    </div>
+    
+
+    <div id = "vistor" style="display:block; margin-left:-13px">
+      <p><a href="job.aspx"><img src="images/job.jpg" width="200" height="56" /></a></p>
+      <p><a href="Contact.aspx"><img src="images/contact.jpg" width="200" height="58" /></a></p>
+      <p style="margin-left:0px"><a href="service.aspx"><img src="images/server.jpg" width="200" height="100" /></a></p>
+    </div>         
+
+<script language="javascript">
+    var aID = '0';
+    //alert(aID);
+    if(aID != "0")
+    {
+        document.getElementById("login_ed").style.display = "block";
+    }
+    else
+    {
+        //document.getElementById("vistor").style.display = "block";
+    }
+</script>
+
+
+ </div>
+              
+          </div>
+          <!--end sidebar_cont-->
+        </div>
+        <!--end sidebar-->
+        <div id="content">
+          <div id="about">
+            <div id="about_nav">当前位置：<a href="Default.aspx">首页</a> > <a href="Service.aspx">服务领域</a> &gt;<strong>招标公告</strong></div>
+            <div id="about_cont">
+              
+              
+                
+                              
+             <div class="clear"></div>
+             <div id="page1" class="page" style=" display:none">
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+        <td>
+&nbsp;<span
+    style="font-size: 12px">第</span><span id="ctl00_cphBannerAndMain_PageControls1_labPage" style="font-size:12px;">1</span><span
+    style="font-size: 12px">页/</span><span
+    style="font-size: 12px">共</span><span id="ctl00_cphBannerAndMain_PageControls1_labBackPage" style="font-size:12px;">0</span><span
+    style="font-size: 12px">页</span>
+&nbsp;&nbsp;<span
+    style="font-size: 12px">共</span><span id="ctl00_cphBannerAndMain_PageControls1_labCount" style="font-size:12px;">0</span><span
+    style="font-size: 12px">条</span>&nbsp;
+<a id="ctl00_cphBannerAndMain_PageControls1_lnkbtnOne" href="javascript:__doPostBack('ctl00$cphBannerAndMain$PageControls1$lnkbtnOne','')" style="display:inline-block;color:Black;font-size:12px;text-decoration:none;width:24px;">首页</a>&nbsp;
+<a id="ctl00_cphBannerAndMain_PageControls1_lnkbtnUp" href="javascript:__doPostBack('ctl00$cphBannerAndMain$PageControls1$lnkbtnUp','')" style="color:Black;font-size:12px;text-decoration:none;">上一页</a>&nbsp;
+<a id="ctl00_cphBannerAndMain_PageControls1_lnkbtnNext" href="javascript:__doPostBack('ctl00$cphBannerAndMain$PageControls1$lnkbtnNext','')" style="color:Black;font-size:12px;text-decoration:none;">下一页</a>&nbsp;
+<a id="ctl00_cphBannerAndMain_PageControls1_lnkbtnBack" href="javascript:__doPostBack('ctl00$cphBannerAndMain$PageControls1$lnkbtnBack','')" style="color:Black;font-size:12px;text-decoration:none;">尾页</a>&nbsp;
+<input name="ctl00$cphBannerAndMain$PageControls1$txtGoPage" type="text" id="ctl00_cphBannerAndMain_PageControls1_txtGoPage" class="txt" style="color:Black;font-size:12px;width:30px;" />
+            <input type="submit" name="ctl00$cphBannerAndMain$PageControls1$btnGo" value="跳转" id="ctl00_cphBannerAndMain_PageControls1_btnGo" style="font-size:12px;height:20px;" />
+        </td>
+    </tr>
+</table>
+                  </div><!--分页样式-->
+
+            <ul class="newslist">
+                
+                        <li><span>2018-01-05</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4292&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司关于圣达名城10KV专变工程（重）【项目编号：GXTZ-ZB-2017第（00807）号（重）】施工邀请招标公告">广西同泽工程项目管理股份有限公司关于圣达名城10KV专变工程（重）【项目编号：GXTZ-ZB-2...</a></li>
+                    
+                        <li><span>2017-12-18</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4237&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 财务数据咨询项目 TZCX3J-2017-026竞标公告">广西同泽工程项目管理股份有限公司 财务数据咨询项目 TZCX3J-2017-026竞标公告</a></li>
+                    
+                        <li><span>2017-11-22</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4203&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 公司投入资金情况审计项目TZCX3J-2017-027 竞争性谈判公告">广西同泽工程项目管理股份有限公司 公司投入资金情况审计项目TZCX3J-2017-027 竞争性...</a></li>
+                    
+                        <li><span>2017-11-17</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4193&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 岑溪市筋竹镇镇区旧房屋综合改造-3-基础配套设施工程TZCX2G-2017-038 施工招标公告">广西同泽工程项目管理股份有限公司 岑溪市筋竹镇镇区旧房屋综合改造-3-基础配套设施工程TZCX2...</a></li>
+                    
+                        <li><span>2017-11-09</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4183&TypeID=36 " style=" color:;"  title="教育路3号住宅小区危旧房改造项目一户一表供电安装工程设计施工总承包（GXTZ-ZB-2017第（00872）号）招标公告">教育路3号住宅小区危旧房改造项目一户一表供电安装工程设计施工总承包（GXTZ-ZB-2017第（...</a></li>
+                    
+                        <li><span>2017-10-24</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4163&TypeID=36 " style=" color:;"  title="路桥•锦绣新城项目园林景观绿化设计（重）招标公告">路桥•锦绣新城项目园林景观绿化设计（重）招标公告</a></li>
+                    
+                        <li><span>2017-10-20</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4161&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 大化瑶族自治县建丰公路大桥加固维修设计（GXTZ-ZB-2017第（01203）号） 竞争性磋商公告">广西同泽工程项目管理股份有限公司 大化瑶族自治县建丰公路大桥加固维修设计（GXTZ-ZB-201...</a></li>
+                    
+                        <li><span>2017-10-17</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4153&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 岑溪市诚谏镇黎垌村易地扶贫搬迁安置点项目-易地搬迁户住宅楼工程TZCX2G-2017-037 施工招标公告">广西同泽工程项目管理股份有限公司 岑溪市诚谏镇黎垌村易地扶贫搬迁安置点项目-易地搬迁户住宅楼工程...</a></li>
+                    
+                        <li><span>2017-10-17</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4152&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 岑溪市诚谏镇沙田村易地扶贫搬迁安置点项目-易地搬迁户住宅楼工程TZCX2G-2017-036 施工招标公告">广西同泽工程项目管理股份有限公司 岑溪市诚谏镇沙田村易地扶贫搬迁安置点项目-易地搬迁户住宅楼工程...</a></li>
+                    
+                        <li><span>2017-09-26</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4127&TypeID=36 " style=" color:;"  title="路桥•锦绣新城项目园林景观绿化设计招标公告">路桥•锦绣新城项目园林景观绿化设计招标公告</a></li>
+                    
+                        <li><span>2017-09-25</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4124&TypeID=36 " style=" color:;"  title="路桥•锦绣新城项目工程施工监理服务招标公告">路桥•锦绣新城项目工程施工监理服务招标公告</a></li>
+                    
+                        <li><span>2017-09-24</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4123&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 架床采购【GXZC2017-X1-207-TZ】 询价公告">广西同泽工程项目管理股份有限公司 架床采购【GXZC2017-X1-207-TZ】 询价公告</a></li>
+                    
+                        <li><span>2017-09-21</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4118&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 岑溪市宏盛投资建设有限公司企业OA平台项目TZCX1J-2017-034 竞争性谈判公告">广西同泽工程项目管理股份有限公司 岑溪市宏盛投资建设有限公司企业OA平台项目TZCX1J-201...</a></li>
+                    
+                        <li><span>2017-09-18</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4112&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司关于圣达名城10KV专变工程【项目编号：GXTZ-ZB-2017第（00807）号】施工邀请招标公告">广西同泽工程项目管理股份有限公司关于圣达名城10KV专变工程【项目编号：GXTZ-ZB-2017...</a></li>
+                    
+                        <li><span>2017-09-05</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4096&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 多媒体教室设备采购TZCX1X-2017-032 询价采购公告">广西同泽工程项目管理股份有限公司 多媒体教室设备采购TZCX1X-2017-032 询价采购公告</a></li>
+                    
+                        <li><span>2017-09-04</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4091&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 岑溪市大业西部农民创业园土石方工程在建工程价格评估项目TZCX3J-2017-025竞标公告">广西同泽工程项目管理股份有限公司 岑溪市大业西部农民创业园土石方工程在建工程价格评估项目TZCX...</a></li>
+                    
+                        <li><span>2017-09-03</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4090&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司    教学设备采购（GXZC2017-X1-210-TZ） 询价公告">广西同泽工程项目管理股份有限公司    教学设备采购（GXZC2017-X1-210-TZ） 询...</a></li>
+                    
+                        <li><span>2017-08-21</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4073&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司关于圣达名城小区道路绿化工程">广西同泽工程项目管理股份有限公司关于圣达名城小区道路绿化工程</a></li>
+                    
+                        <li><span>2017-08-17</span> 
+                        <a href="ServiceAShow.aspx?ArticleID=4068&TypeID=36 " style=" color:;"  title="广西同泽工程项目管理股份有限公司 岑溪市产业战略与园区升级咨询服务项目 TZCX3G-2017-021(重)招标公告">广西同泽工程项目管理股份有限公司 岑溪市产业战略与园区升级咨询服务项目 TZCX3G-2017-...</a></li>
+                    
+              
+              
+            </ul>
+            <div id="page2" class="page" style=" display:none">
+                
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+        <td>
+&nbsp;<span
+    style="font-size: 12px">第</span><span id="ctl00_cphBannerAndMain_PageControls2_labPage" style="font-size:12px;">1</span><span
+    style="font-size: 12px">页/</span><span
+    style="font-size: 12px">共</span><span id="ctl00_cphBannerAndMain_PageControls2_labBackPage" style="font-size:12px;">81</span><span
+    style="font-size: 12px">页</span>
+&nbsp;&nbsp;<span
+    style="font-size: 12px">共</span><span id="ctl00_cphBannerAndMain_PageControls2_labCount" style="font-size:12px;">1522</span><span
+    style="font-size: 12px">条</span>&nbsp;
+<a id="ctl00_cphBannerAndMain_PageControls2_lnkbtnOne" disabled="disabled" style="display:inline-block;color:Black;font-size:12px;text-decoration:none;width:24px;">首页</a>&nbsp;
+<a id="ctl00_cphBannerAndMain_PageControls2_lnkbtnUp" disabled="disabled" style="color:Black;font-size:12px;text-decoration:none;">上一页</a>&nbsp;
+<a id="ctl00_cphBannerAndMain_PageControls2_lnkbtnNext" href="javascript:__doPostBack('ctl00$cphBannerAndMain$PageControls2$lnkbtnNext','')" style="color:Black;font-size:12px;text-decoration:none;">下一页</a>&nbsp;
+<a id="ctl00_cphBannerAndMain_PageControls2_lnkbtnBack" href="javascript:__doPostBack('ctl00$cphBannerAndMain$PageControls2$lnkbtnBack','')" style="color:Black;font-size:12px;text-decoration:none;">尾页</a>&nbsp;
+<input name="ctl00$cphBannerAndMain$PageControls2$txtGoPage" type="text" id="ctl00_cphBannerAndMain_PageControls2_txtGoPage" class="txt" style="color:Black;font-size:12px;width:30px;" />
+            <input type="submit" name="ctl00$cphBannerAndMain$PageControls2$btnGo" value="跳转" id="ctl00_cphBannerAndMain_PageControls2_btnGo" style="font-size:12px;height:20px;" />
+        </td>
+    </tr>
+</table>
+                
+            </div>
+<script language="javascript">
+
+function loadDivPage()
+{
+    var typeID= parseInt(document.getElementById("ctl00_cphBannerAndMain_hdfTypeID").value);
+   
+//    if( typeID == 31 )
+//    {
+//        document.getElementById("page1").style.display = "block";
+//    } 
+    //else
+        document.getElementById("page2").style.display = "block";
+}
+loadDivPage();
+
+</script>
+            </div>
+            <!--end about_cont-->
+          </div>
+          <!--end about-->
+        </div>
+        <!--end content-->
+      </div>
+      <!--end maincont-->
+    </div>
+    <!--end main-->
+
+
+    
+    <div class="clear"></div>
+    <div id="footer">
+      <p>Copyright @ 2011 Corporation, All Rights Reserved 版权所有 广西同泽工程项目管理有限责任公司</p>
+    </div>
+    <!--end footer-->
+  </div>
+  <!--end contaiter-->
+  <div class="clear"></div>
+  <div id="index-bottom"><img src="images/index_bot.gif" width="988" height="22" /></div>
+  <!--end index-bottom-->
+</div>
+<!--end index-->
+
+</form>
+</body>
+</html>

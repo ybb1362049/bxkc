@@ -1,0 +1,427 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  
+ <title>四川广巴高速公路有限责任公司</title>
+<meta name="Keywords" content="四川广巴高速公路有限责任公司"/>
+<meta name="description" content="四川广巴高速公路有限责任公司" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" href="css/font-awesome.css"/>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css"/>
+<link rel=stylesheet type=text/css href="css/slider.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.hoverdelay.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.js"></script>	
+<script type="text/javascript" src="js/int.js"></script>
+</head>
+
+<body>
+<div id="header">
+	<div class="wrapper">
+		<!--
+		<div class="logo"><a href="/"><img src="/Public/images/logo.png" alt="四川铁投城乡投资建设集团有限责任公司" /></a></div>
+		-->
+		<div class="nav">
+		  <h2><strong><a href="index.asp">首页</a></strong></h2>
+			<ul>
+				
+											
+			  <li>
+					<strong><a href="about.asp?nb_id=84&ns_id=187">项目简介</a></strong>
+										<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=84&ns_id=187">公司简介</a></dd>
+														
+				  </dl>
+					</div>
+			</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=85&ns_id=188">站内新闻</a></strong>
+					<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=85&ns_id=188">站内新闻</a></dd>
+						
+						<dd><a href="about.asp?nb_id=85&ns_id=197">广元管理处</a></dd>
+						
+						<dd><a href="about.asp?nb_id=85&ns_id=198">巴中管理处</a></dd>
+														
+				  </dl>
+					</div>
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=86&ns_id=189">行业新闻</a></strong>
+					<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=86&ns_id=189">行业新闻</a></dd>
+														
+				  </dl>
+					</div>					
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=87&ns_id=190">工程动态</a></strong>
+									<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=87&ns_id=190">工程动态</a></dd>
+														
+				  </dl>
+					</div>		
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=88&ns_id=191">招标信息</a></strong>
+									<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=88&ns_id=191">招标信息</a></dd>
+														
+				  </dl>
+					</div>		
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=89&ns_id=192">党群活动</a></strong>
+									<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=89&ns_id=192">党群活动</a></dd>
+						
+						<dd><a href="about.asp?nb_id=89&ns_id=196">“两学一做”学习教育</a></dd>
+						
+						<dd><a href="about.asp?nb_id=89&ns_id=199">廉政建设</a></dd>
+						
+						<dd><a href="about.asp?nb_id=89&ns_id=200">学习贯彻十九大</a></dd>
+														
+				  </dl>
+					</div>		
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=90&ns_id=193">图片活动</a></strong>
+                    <div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=90&ns_id=193">图片活动</a></dd>
+														
+				  </dl>
+					</div>	
+									</li>
+              <li>
+					<strong><a href="about.asp?nb_id=91&ns_id=194">依法治企</a></strong>
+                    <div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=91&ns_id=194">依法治企</a></dd>
+														
+				  </dl>
+					</div>	
+									</li>
+                                    <li>
+					<strong><a href="about.asp?nb_id=92&ns_id=195">企业文化</a></strong>
+                    <div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=92&ns_id=195">企业文化</a></dd>
+														
+				  </dl>
+					</div>	
+									</li>
+              
+		  </ul>
+		</div>
+		
+	</div>
+</div>
+<!--内容start-->
+<div id="page-banner">
+	<div class="logo"><a href="/"><img src="images/new-logo.png" width="600"/></a></div>
+	<div class="banner-slider">
+    <ul><li>
+    <img src="images/png-wd1.png" /> </li></ul></div>
+</div>
+<div id="location">您现在的位置：<a href="index.asp">首页</a><span>&raquo;</span>招标信息<span>&raquo;</span>招标信息</div>
+
+<div id="page">
+	<div id="page-left">
+		<div class="page-top">
+				<h2>招标信息<!--<em>News</em>--></h2>
+			</div>	
+		<ul>
+			
+						<li ><a href="about.asp?nb_id=88&ns_id=191"  class="current" >招标信息</a></li>
+						
+                        
+						
+					</ul>
+		<div class="contact-info">
+			<p style="margin-top:70px">地址：四川省广元市利州区</p><p>电话：</p><p>传真：</p>
+		</div>
+
+	</div>
+  <div id="page-right">
+		<div class="page-main">
+			<div class="page-top">
+				<strong>招标信息</strong>
+			</div>	
+            <!--详情开始-->
+            
+            <div class="news-view">
+				<h1>四川广巴高速公路有限责任公司三大系统备品备件询价中标候选人公示表</h1>
+				<p class="news-info">发布时间：<b>2017-12-14</b></p>
+				<!--<script type="text/javascript" src="/index.php?g=Api&m=Count&a=index&modelid=17&id=115"></script>-->
+								<div class="about-content">
+					<p>
+<STYLE>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-alt:SimHei;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:841.9pt 595.3pt;
+	mso-page-orientation:landscape;
+	margin:90.0pt 72.0pt 90.0pt 72.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</STYLE>
+
+<STYLE>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</STYLE>
+<!--StartFragment-->
+<P class=MsoNormal style="TEXT-ALIGN: center; LINE-HEIGHT: 30pt; TEXT-AUTOSPACE: ideograph-numeric; mso-line-height-rule: exactly" align=center><B style="mso-bidi-font-weight: normal"><SPAN style="FONT-SIZE: 18pt; FONT-FAMILY: 黑体; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin">四川广巴高速公路有限责任公司三大系统备品备件询价中标候选人公示表</SPAN></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: center; LINE-HEIGHT: 30pt; TEXT-AUTOSPACE: ideograph-numeric; mso-line-height-rule: exactly" align=center><B style="mso-bidi-font-weight: normal"></B></P>
+<DIV align=center>
+<TABLE class=MsoNormalTable style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-table-layout-alt: fixed; mso-border-alt: solid windowtext .25pt; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .25pt solid windowtext; mso-border-insidev: .25pt solid windowtext" cellSpacing=0 cellPadding=0 width=895 border=1>
+<THEAD>
+<TR style="HEIGHT: 35.1pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+<TD style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 35.1pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 115.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt" width=154>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">项</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">目</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">名</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">称</SPAN></P></TD>
+<TD style="BORDER-TOP: windowtext 1pt solid; HEIGHT: 35.1pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 555.45pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt" width=741 colSpan=6>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">四川广巴高速公路有限责任公司三大系统备品备件</SPAN></P></TD></TR>
+<TR style="HEIGHT: 25.7pt; mso-yfti-irow: 1">
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.7pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 115.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=154>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">项</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">目</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">业</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">主</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.7pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 291.6pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=389 colSpan=2>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">四川广巴高速公路有限责任公司</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.7pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 113.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=151 colSpan=2>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">项目业主联系电话</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.7pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 150.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=201 colSpan=2>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN lang=EN-US style="mso-bidi-font-size: 10.5pt">0839-3311872</SPAN></P></TD></TR>
+<TR style="HEIGHT: 25.7pt; mso-yfti-irow: 2">
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.7pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 115.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=154>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">询</SPAN><SPAN lang=EN-US style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"><SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">价</SPAN><SPAN lang=EN-US style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"><SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">人</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.7pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 291.6pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=389 colSpan=2>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">四川广巴高速公路有限责任公司</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.7pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 113.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=151 colSpan=2>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">询价人联系电话</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.7pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 150.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=201 colSpan=2>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN lang=EN-US style="mso-bidi-font-size: 10.5pt">0839-3311872</SPAN></P></TD></TR>
+<TR style="HEIGHT: 29.45pt; mso-yfti-irow: 3">
+<TD style="BORDER-TOP: medium none; HEIGHT: 29.45pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 115.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=154>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">开</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">标</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">地</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">点</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 29.45pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 291.6pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=389 colSpan=2>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">广元市利州区水柜村东坝收费站办公楼三楼</SPAN><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">301</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">办公室</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 29.45pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 113.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=151 colSpan=2>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">开</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">标</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">时</SPAN><SPAN style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"> </SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">间</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 29.45pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 150.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=201 colSpan=2>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">2017</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">年</SPAN><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">12</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">月</SPAN><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">13</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">日</SPAN></P></TD></TR>
+<TR style="HEIGHT: 31.2pt; mso-yfti-irow: 4">
+<TD style="BORDER-TOP: medium none; HEIGHT: 31.2pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 115.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=154>
+<P class=MsoNormal style="mso-pagination: widow-orphan"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">公</SPAN><SPAN lang=EN-US style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"><SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">示</SPAN><SPAN lang=EN-US style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt"><SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">期</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 31.2pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 291.6pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=389 colSpan=2>
+<P class=MsoNormal><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">2017</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">年</SPAN><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">12</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">月</SPAN><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">14</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">日</SPAN><SPAN style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt"> </SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">至</SPAN><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">2017</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">年</SPAN><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">12</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">月</SPAN><SPAN lang=EN-US style="mso-bidi-font-weight: bold; mso-bidi-font-size: 10.5pt">16</SPAN><SPAN style="FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">日</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 31.2pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 113.2pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=151 colSpan=2>
+<P class=MsoNormal><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">投标最高限价（元）</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 31.2pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 150.65pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=201 colSpan=2>
+<P class=MsoNormal><SPAN lang=EN-US style="FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-size: 11.0pt; mso-font-kerning: 0pt">235000</SPAN></P></TD></TR>
+<TR style="HEIGHT: 31.95pt; mso-yfti-irow: 5; mso-row-margin-right: .6pt">
+<TD style="BORDER-TOP: medium none; HEIGHT: 31.95pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 115.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=154>
+<P class=MsoNormal style="TEXT-ALIGN: center; LINE-HEIGHT: 19pt; mso-line-height-rule: exactly; mso-pagination: widow-orphan" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">中标候选人及排序</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 31.95pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 212.6pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=283>
+<P class=MsoNormal style="TEXT-ALIGN: center; mso-pagination: widow-orphan" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">中标候选人名称</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 31.95pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 174.7pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=233 colSpan=2>
+<P class=MsoNormal style="TEXT-ALIGN: center; mso-pagination: widow-orphan" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">投标报价（元）</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 31.95pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 167.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=223 colSpan=2>
+<P class=MsoNormal style="TEXT-ALIGN: center; LINE-HEIGHT: 19pt; mso-line-height-rule: exactly" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">经评审的投标价（元）</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-cell-special: placeholder" width=1>
+<P class=MsoNormal>&nbsp;</P></TD></TR>
+<TR style="HEIGHT: 26.25pt; mso-yfti-irow: 6; mso-row-margin-right: .6pt">
+<TD style="BORDER-TOP: medium none; HEIGHT: 26.25pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 115.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=154>
+<P class=MsoNormal style="TEXT-ALIGN: center; mso-pagination: widow-orphan" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">第一名</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 26.25pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 212.6pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=283>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char"><SPAN style="FONT-FAMILY: 宋体; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">成都茵联安科技有限公司</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 26.25pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 174.7pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=233 colSpan=2>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: center" align=center><SPAN lang=EN-US>228880</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 26.25pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 167.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=223 colSpan=2>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: center" align=center><SPAN lang=EN-US>228880</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-cell-special: placeholder" width=1>
+<P class=MsoNormal>&nbsp;</P></TD></TR>
+<TR style="HEIGHT: 25.5pt; mso-yfti-irow: 7; mso-row-margin-right: .6pt">
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.5pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 115.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=154>
+<P class=MsoNormal style="TEXT-ALIGN: center; mso-pagination: widow-orphan" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">第二名</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.5pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 212.6pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=283>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char"><SPAN style="FONT-FAMILY: 宋体; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">四川赛唯莱特电子科技有限公司</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.5pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 174.7pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=233 colSpan=2>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: center" align=center><SPAN lang=EN-US>230000</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 25.5pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 167.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=223 colSpan=2>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: center" align=center><SPAN lang=EN-US>230000</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-cell-special: placeholder" width=1>
+<P class=MsoNormal>&nbsp;</P></TD></TR>
+<TR style="HEIGHT: 26.5pt; mso-yfti-irow: 8; mso-row-margin-right: .6pt; mso-yfti-lastrow: yes">
+<TD style="BORDER-TOP: medium none; HEIGHT: 26.5pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 115.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=154>
+<P class=MsoNormal style="TEXT-ALIGN: center; mso-pagination: widow-orphan" align=center><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-weight: bold; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-size: 11.0pt; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-font-kerning: 0pt">第三名</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 26.5pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 212.6pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=283>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char"><SPAN style="FONT-FAMILY: 宋体; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast">成都亚瑟鼎创科技有限公司</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 26.5pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 174.7pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=233 colSpan=2>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: center" align=center><SPAN lang=EN-US>230135</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; HEIGHT: 26.5pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 167.55pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .25pt; mso-border-left-alt: solid windowtext .25pt; mso-border-top-alt: solid windowtext .25pt" width=223 colSpan=2>
+<P class=MsoNormal style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: center" align=center><SPAN lang=EN-US>230135</SPAN></P></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-cell-special: placeholder" width=1>
+<P class=MsoNormal>&nbsp;</P></TD></TR></THEAD>
+<TBODY>
+<TR>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" width=154></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" width=283></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" width=105></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" width=128></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" width=23></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" width=200></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" width=1></TD></TR></TBODY></TABLE></DIV>
+<P class=MsoNormal></P><!--EndFragment--></p>
+
+<p style="text-indent:2em;">
+	<br>
+</p>
+				</div>
+			</div>
+            
+           <!--详情结束-->
+           <div class="prenext">
+				上一篇：<font color=red>没有上一条记录</font></br>下一篇：<a href="?nb_id=88&ns_id=191&nws_id=839">四川广巴高速公路有限责任公司购置收费站净水设施询价中标候选人公示表</a></div>
+          </div>
+	</div>
+	<div class="clearit"></div>
+</div>
+
+
+
+
+<!--内容end-->
+
+<div id="footer">
+	<div class="wrapper">
+		<div class="copyright">Copyright @ 四川广巴高速公路有限责任公司 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51080202000195" target="_blank"><img src="images/ba.png" width="20" />蜀ICP备06010468号川公网安备 51080202000195号</a>&nbsp;&nbsp;&nbsp;&nbsp;友情链接:<a href="#"> 陕西公众软件有限责任公司</a></b></div>
+
+
+</div>
+</body>
+</html>		

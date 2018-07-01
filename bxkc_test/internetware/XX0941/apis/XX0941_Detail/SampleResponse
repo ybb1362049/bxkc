@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>重庆文理学院</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/SITE_RES/www2017_cqwu_net/images/cqwu_icon.png">
+    <link rel="shortcut icon" href="/SITE_RES/www2017_cqwu_net/images/cqwu_icon.ico">
+    <link rel="stylesheet" href="/SITE_RES/www2017_cqwu_net/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/SITE_RES/www2017_cqwu_net/css/iconfont.css">
+    <link rel="stylesheet" href="/SITE_RES/www2017_cqwu_net/css/animate.css">
+    <link rel="stylesheet" href="/SITE_RES/www2017_cqwu_net/css/slide.css">
+    <link rel="stylesheet" href="/SITE_RES/www2017_cqwu_net/css/public.css">
+    <link rel="stylesheet" href="/SITE_RES/www2017_cqwu_net/css/newsDetail.css">
+    <link rel="stylesheet" href="/SITE_RES/www2017_cqwu_net/css/userType.css">
+    <!--[if lt IE 9]>
+    <script src="/SITE_RES/www2017_cqwu_net/js/respond.js"></script>
+    <script src="/SITE_RES/www2017_cqwu_net/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--[if lt IE 8]>
+<div class="ie_title">
+    <span class="btn_close" type="button">×</span>
+    <div class="am-container">
+        温馨提醒：你的浏览器太古董了，赶紧换一个吧！
+        <a href="http://browsehappy.com/" target="_blank">
+            速速点击换一个
+        </a>
+    </div>
+</div>
+<![endif]-->
+<div class="navbar my_nav">
+    <div class="container top_navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand visible-xs visible-sm" href="#">
+                重庆文理学院
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav col-xs-4 visible-xs visible-sm">
+                <li><a href="channel.html?id=7586">学校概况</a></li>
+                <li><a href="channel.html?id=7981">院系设置</a></li>
+                <li><a href="channel.html?id=7562">人才培养</a></li>
+                <li><a href="channel.html?id=7641">科学研究</a></li>
+                <li><a href="channel.html?id=7643">招生就业</a></li>
+                <li><a href="channel.html?id=7668">校园文化</a></li>
+                <li><a href="channel.html?id=7585">合作交流</a></li>
+                <li><a href="channel.html?id=7654">信息公开</a></li>
+            </ul>
+            <ul class="nav navbar-nav col-xs-4 col-md-5 col-lg-6">
+                <li><a href="/">首页</a></li>
+                <li><a href="/channel.html?id=8061">学生</a></li>
+                <li><a href="/channel.html?id=7831">教职工</a></li>
+                <li><a href="/channel.html?id=7901">考生</a></li>
+                <li><a href="channel.html?id=8021">校友</a></li>
+                <li class="visible-lg">
+                  <!-- 站内检索 -->
+<form id="searchForm" action="/search.html" method="post">
+    <input id="searchKey" name="searchKey" type="text" class="search-input" onkeypress="if(event.keyCode==13){searchFormSubmit();return false;}" autocomplete="off">
+    <button class="glyphicon glyphicon-search search-btn" type="button" name="Submit" onclick="searchFormSubmit();"></button>
+</form>
+<!-- 站内检索 -->
+<script>
+  function searchFormSubmit() {
+    if(document.getElementById('searchKey').value==''){
+        alert('请输入搜索内容');
+        return false;
+    }
+    document.getElementById('searchForm').submit();
+}
+</script>                  <!--<input type="text" class="search-input"><button class="glyphicon glyphicon-search search-btn"></button>-->
+              </li>
+            </ul>
+            <ul class="nav navbar-nav col-xs-4 col-md-7 col-lg-6 navbar-right right-nav">
+                <li><a href="http://portal.cqwu.edu.cn/" target="_blank">登录</a></li>
+                <li><a href="channel.html?id=8541" target="_blank">教务网</a></li>
+                <li><a href="http://lib.cqwu.net/" target="_blank">图书</a></li>
+                <li><a href="http://mail.cqwu.edu.cn" target="_blank">邮箱</a></li>
+                <li><a href="channel.html?id=8203" target="_blank">招聘</a></li>
+                <li><a href="http://stu.cqwu.edu.cn/bid/" target="_blank">招标</a></li>
+                <li><a href="http://cuas.cqwu.edu.cn/" target="_blank">English</a></li>
+              	<li><a href="http://www2016.cqwu.edu.cn/" target="_blank">旧版</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="top_box">
+        <div class="top_img">
+            <div class="container">
+              <a href="/">
+                <img class="hidden-xs" src="/SITE_RES/www2017_cqwu_net/images/logo3.png" alt="">
+                <img class="visible-xs" src="/SITE_RES/www2017_cqwu_net/images/logo2.jpg" alt="">
+              </a>
+            </div>
+        </div>
+        <div class="main-nav">
+        <div class="container visible-lg visible-md">
+             <ul class="nav navbar-nav top_nav">
+              <li>
+                <a href="channel.html?id=7586" class="dropdown-link">学校概况</a>    
+                 <div class="dropdown-menu">
+                   <div class="container">
+                    <ul class="list-inline"> 
+                     <li><a href="channel.html?id=7586">学校简介</a></li>
+                     <li><a href="channel.html?id=7601">发展历程</a></li>
+                     <li><a href="channel.html?id=7564">现任领导</a></li>
+                     <li><a href="channel.html?id=7565">组织机构</a></li>
+                	 <li><a href="channel.html?id=7781">学校标识</a></li>
+                     <li><a href="channel.html?id=7566">校园风光</a></li>
+                    </ul>
+                   </div>
+                 </div>                              
+              </li>
+              <li>
+                <a href="channel.html?id=7981" class="dropdown-link">院系设置</a>    
+                 <div class="dropdown-menu">
+                   <div class="container">
+                <ul class="list-inline yxsz-ul"> 
+                 <li><a href="http://chinese.cqwu.net/" target="_blank">文化与传媒学院</a></li>
+                                <li><a href="http://math.cqwu.net/" target="_blank">数学与财经学院</a></li>
+                                <li><a href="http://material.cqwu.net/" target="_blank">材料与化工学院</a></li>
+                                <li><a href="http://jdxy.cqwu.net" target="_blank" title="机器人工程学院/机电工程学院">机器人工程学院/机电工程学院</a></li>
+                                <li><a href="http://biologyt.cqwu.net/" target="_blank">林学与生命科学学院</a></li>
+                                <li><a href="http://dzdq.cqwu.net/" target="_blank">电子电气工程学院</a></li>
+                                <li><a href="http://computer.cqwu.net/" target="_blank" title="重庆服务外包学院/软件工程学院">重庆服务外包学院/软件工程学院</a></li>
+                                <li><a href="http://jgxy.cqwu.net/" target="_blank" title="经济管理学院/建筑工程学院">经济管理学院/建筑工程学院</a></li>
+                                <li><a href="http://tourism.cqwu.net/" target="_blank">旅游学院</a></li>
+                                <li><a href="http://zfxy.cqwu.net/" target="_blank">公共管理学院</a></li>
+                                <!--<li><a href="http://mks.cqwu.net/" target="_blank">马克思主义学院</a></li>-->
+                                <li><a href="http://jy.cqwu.net/" target="_blank">教育学院</a></li>
+                                <li><a href="http://english.cqwu.net/" target="_blank">外国语学院</a></li>
+                                <li><a href="http://music.cqwu.net/" target="_blank">音乐学院</a></li>
+                                <li><a href="http://ty.cqwu.net/" target="_blank">体育学院</a></li>
+                                <li><a href="http://art.cqwu.net/" target="_blank">美术与设计学院</a></li>
+                                <li><a href="http://cchc.cqwu.net/" target="_blank">重庆文化遗产学院</a></li>
+                                <li><a href="http://iss.cqwu.net/" target="_blank">国际学院</a></li>
+                       <li><a href="http://jj.cqwu.net/" target="_blank" title="继续教育学院/培训学院">继续教育学院/培训学院</a></li>
+                </ul>
+                   </div>
+                 </div>                              
+              </li>
+              <li>
+                <a href="channel.html?id=7562" class="dropdown-link">人才培养</a>    
+                   <div class="dropdown-menu">
+                     <div class="container">
+                  <ul class="list-inline"> 
+                   <li><a href="http://jxb.cqwu.net/" target="_blank">本科生教育</a></li>
+                   <li><a href="http://kjb.cqwu.net/channel.html?id=2249" target="_blank">研究生教育</a></li>
+                   <li><a href="http://iss.cqwu.net/" target="_blank">留学生教育</a></li>
+                   <li><a href="http://jj.cqwu.net/" target="_blank">继续教育</a></li>
+                  </ul>
+                     </div>
+                   </div>                              
+              </li>
+              <li>
+                <a href="channel.html?id=7641" class="dropdown-link">科学研究</a>    
+                 <div class="dropdown-menu">
+                   <div class="container">
+                <ul class="list-inline"> 
+                 <li><a href="channel.html?id=7641">科研机构</a></li>
+                 <li><a href="http://kjb.cqwu.net/" target="_blank">科研管理</a></li>
+                 <li><a href="http://kjb.cqwu.net/channel.html?id=2227" target="_blank">学科建设</a></li>
+                 <li><a href="/channel.html?id=7662">学术期刊</a></li>
+                 <li><a href="http://www.csti.cn/" target="_blank">重庆科技资源共享平台</a></li>
+                </ul>
+                   </div>
+                 </div>                              
+
+              </li>
+              <li>
+                  <a href="channel.html?id=7643" class="dropdown-link">招生就业</a>    
+                   <div class="dropdown-menu">
+                     <div class="container">
+                      <ul class="list-inline"> 
+                       <li><a href="http://zb.cqwu.net/channel.html?id=302" target="_blank">招生政策</a></li>
+                       <li><a href="channel.html?id=7643">专业目录</a></li>
+                        <li><a href="channel.html?id=7802">招生计划</a></li>
+            		    <li><a href="channel.html?id=7663">历年分数</a></li>
+                       <li><a href="channel.html?id=7645">录取查询</a></li>
+                       <li><a href="http://stu.cqwu.edu.cn/" target="_blank">新生通道</a></li>
+                       <li><a href="http://zb.cqwu.net/" target="_blank">招生信息网</a></li>
+                       <li><a href="http://wljy.cqwu.net/" target="_blank">就业信息网</a></li>
+                      </ul>
+                     </div>
+               </div>                              
+
+              </li>
+              <li>
+                <a href="channel.html?id=7668" class="dropdown-link">校园文化</a>    
+                 <div class="dropdown-menu">
+                   <div class="container">
+                    <ul class="list-inline text-right"> 
+                     <li><a href="channel.html?id=7668">学生社团</a></li>
+                     <li><a href="http://gh.cqwu.net/" target="_blank">教工之家</a></li>
+                     <li><a href="channel.html?id=7648">品牌活动</a></li>
+                     <li><a href="channel.html?id=7649">文理记忆</a></li>
+                     <!--<li><a href="channel.html?id=7650">校园景观</a></li>-->
+                    </ul>
+                   </div>
+                 </div>                              
+
+              </li>
+              <li>
+                <a href="channel.html?id=7585">合作交流</a>    
+                 <div class="dropdown-menu">
+                   <div class="container">
+                    <ul class="list-inline text-right"> 
+                     <li><a href="http://gjc.cqwu.net/" target="_blank">国际交流合作</a></li>
+                     <li><a href="http://hfb.cqwu.net/" target="_blank">内地交流合作</a></li>
+                     <li><a href="http://gjc.cqwu.net/" target="_blank">港澳台事务</a></li>
+                    </ul>
+                   </div>
+                 </div>                              
+
+              </li>
+              <li>
+                <a href="channel.html?id=7654" class="dropdown-link">信息公开</a>    
+                 <div class="dropdown-menu">
+                   <div class="container">
+                    <ul class="list-inline text-right"> 
+                     <li><a href="channel.html?id=7654">一周会议通知</a></li>
+                     <li><a href="channel.html?id=7655">领导机构</a></li>
+                     <li><a href="channel.html?id=7670">实施办法</a></li>
+                     <li><a href="channel.html?id=7656">指南与目录</a></li>
+                     <!--<li><a href="http://oa.cqwu.edu.cn/OA/" target="_blank">规章制度</a></li>-->
+                     <li><a href="channel.html?id=7672">年度报告</a></li>
+                    </ul>
+                   </div>
+                 </div>                              
+
+              </li>
+			</ul>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+        <div class="container alone-content">
+          <header class="alone-head">
+             <b>通知公告</b>
+             <span class="pull-right">当前位置：<a href="/">首页</a>  > <a href='channel.html?id=7721'>通知公告</a></span>
+           </header>
+           <div class="news-info alone-body">
+             <!--<div class="text-right content-top">
+                         <Script Language='Javascript' src='/articleLike.html?articleid=227828&type=0'></Script>
+             </div>-->
+             <div class="text-center">
+              <h4>关于2017年第4次申报政府采购计划的通知</h4>
+              <div class="news-date">
+                  发布时间：2017-11-03 14:36 浏览：<Script Language='Javascript' src='/visitcount.html?articleid=227828'></Script>次 来源：资产部
+              </div>
+             </div>
+             <p>&nbsp;</p><p style="TEXT-ALIGN: left"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">校内各单位：</span></p><p style="TEXT-ALIGN: left"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 19px">&nbsp;&nbsp;</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">为更好地满足各单位对教学科研行政物资和服务的需求，全面实行批量集中采购，现将2017年第三次申报政府采购计划的相关事宜通知如下：</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 19px">一、申报时间 </span></strong></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">2017</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">年11月6日-11月9日。</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 19px">二、申报范围</span></strong></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 39px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">校内各单位使用财政资金、学校资金及其他资金（科研经费、捐赠等），以有偿方式取得货物（设备、家具、原材料、资料等）和服务（软件开发、审计、印刷、设计、劳务等）的行为，包括购买、租赁、委托等，均应申报。</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 19px">三、申报要求</span></strong></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">1.</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">科研类采购计划申报只限于有设备和耗材预算的科研项目，申请的设备和耗材须符合相关规定，申请金额不得超过项目预算。</span><span style="FONT-FAMILY: 仿宋; BACKGROUND: white; COLOR: black; FONT-SIZE: 19px">请各部门将拟采购科研设备、耗材汇总在1张表单上。</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 39px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">2.</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">相机、投影机（多媒体教室参照学校配置标准）、笔记本电脑等设备请在重庆政府采购网协议商品（<a href="qq://txfile/"><span style="COLOR: windowtext; text-underline: none">http://www.gec123.com</span></a>）中选型，<strong>选型时请核实产品是否停售</strong>；空调、计算机、打印机、办公家具等按附件2选型申报，资产部汇总后将按统一规格进行采购。</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">各使用部门采购办公电脑（含显示器）的预算金额应控制在4700元以内，打印机（A4）应控制在1200元以内。</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">3.</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">各部门填报的2017年政府采购申报计划表（附件1），须经分管领导签字并加盖公章，同时在网上报账系统进行资金冻结，冻结资金操作方法见附件3。各部门请于11月9日下午5点前将申报计划表纸质版和电子版（文件名请用“单位+物资用途”，例如“音乐学院+办公物资”）、资金冻结单据等按以下要求送主控部门审核：</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">1)</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">行政办公类送资产部资产科（恪勤楼110室 电话49891786联系人：罗老师 邮箱：375151914@qq.com）</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">2)</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">教学实验仪器设备、批量教学实训耗材、图书、数据库、网络建设等送教学部实验室建设科（恪勤楼215室 电话49891937&nbsp; 联系人：李老师 邮箱：645773619@qq.com）&nbsp; </span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">3)</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">科研类送科技部（恪勤楼605室&nbsp; 电话：49891793&nbsp; 联系人：张老师 邮箱：kjb605@126.com）</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">4)</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">后勤物资设备类送总务部后勤质量管理科（恪勤楼209室，电话49582596 联系人：袁老师 邮箱:11726014@qq.com ）</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">5)</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">教授和人才引进工作电脑送教工部（恪勤楼3<span style="COLOR: black">15</span><span style="COLOR: black">室，电话49891713 &nbsp;联系人：王老师 </span>邮箱:4<span style="COLOR: black">9564917</span>@qq.com<span style="COLOR: black">）。</span></span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">请主控部门审核后于11月10日下午4点前把采购申报计划表纸质版和汇总后的电子版交资产部采购科（恪勤楼110室），联系人：廖老师，联系电话：49891783。</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 37px"><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 19px">四、申报说明</span></strong></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 39px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">1.</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">已申报的正在采购过程中的项目不需再申报。各单位核实好采购预算，</span><span style="FONT-FAMILY: 仿宋; BACKGROUND: white; COLOR: black; FONT-SIZE: 19px">若以前申报的采购项目经费不足，</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">超支部分将在各部门自有经费或科研项目负责人津贴中支付。</span></p><p style="TEXT-ALIGN: left"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">　　2.已列为办公用品和耗材目录内的不需申报，请联系协议供货商议价后购买。</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 42px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">3.</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">本次申报非定制产品预计到货期为2018年1月。</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 42px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">4.</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">下次申报时间为2018年3月，<strong>在此期间不再接收任何采购计划申报。</strong></span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 42px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">5.</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">请相关人员申请加入文理采购QQ群：283352338，以便及时了解、传递相关采购信息。</span></p><p style="TEXT-ALIGN: right; TEXT-INDENT: 233px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">　资产部</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 19px">&nbsp;</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">科技部</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 19px">&nbsp;</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">教学部 教工部</span></p><p style="TEXT-ALIGN: left; TEXT-INDENT: 338px"><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2017</span><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">年11月3日</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 19px">&nbsp;</span></p><p style="TEXT-ALIGN: left"><strong><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">附件</span></strong><span style="FONT-FAMILY: 仿宋; FONT-SIZE: 19px">：</span></p><p style="LINE-HEIGHT: 16px"><img style="VERTICAL-ALIGN: middle; MARGIN-RIGHT: 2px" src="/admin/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif"/><a style="COLOR: #0066cc; FONT-SIZE: 12px" title="附件1：2017年第四次政府采购计划申报表.xls" href="/SITE_RES/tm_cqwu_edu_cn/upload/file/20171103/1509690900583082994.xls">附件1：2017年第四次政府采购计划申报表.xls</a></p><p style="LINE-HEIGHT: 16px"><img style="VERTICAL-ALIGN: middle; MARGIN-RIGHT: 2px" src="/admin/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif"/><a style="COLOR: #0066cc; FONT-SIZE: 12px" title="附件2：行政办公设备、家具参考目录.xls" href="/SITE_RES/tm_cqwu_edu_cn/upload/file/20171103/1509690903473029877.xls">附件2：行政办公设备、家具参考目录.xls</a></p><p style="LINE-HEIGHT: 16px"><img style="VERTICAL-ALIGN: middle; MARGIN-RIGHT: 2px" src="/admin/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif"/><a style="COLOR: #0066cc; FONT-SIZE: 12px" title="附件3：网上报账冻结资金操作方法.doc" href="/SITE_RES/tm_cqwu_edu_cn/upload/file/20171103/1509690921312016913.doc">附件3：网上报账冻结资金操作方法.doc</a></p><p>&nbsp;</p>
+           </div>
+        </div>
+    </div>
+<footer id="lianxi">
+        <div class="container top_footer">
+            <div class="col-sm-3 col-sm-offset-1 hidden-xs left-link ">
+                <img src="/SITE_RES/www2017_cqwu_net/images/sentrybox.gif" alt="">
+              <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/04/000/0000/40683467/CA040000000406834670002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+             
+                <!--<a href="http://bszs.conac.cn/sitename?method=show&id=5017D4199FC517C5E053012819AC62D6" target="_blank">
+                    <img src="/SITE_RES/www2017_cqwu_net/images/blue_error.png" alt="">
+                </a>-->
+                <p>
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011802010053" target="_blank">
+                        <img src="/SITE_RES/www2017_cqwu_net/images/beian.png" alt=""> 渝公网安备 50011802010053号
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4 center-footer">
+                <h4><span>联系方式</span></h4>
+                <a href="javascript:void(0)" title="红河校区：重庆市永川区红河大道319号">红河校区：重庆市永川区红河大道319号</a>
+                <a href="javascript:void(0)" title="星湖校区：重庆市永川卫星湖文化旅游区">星湖校区：重庆市永川卫星湖文化旅游区</a>
+                <p>邮编：402160</p>
+                <!--<a href="tel:023-49891910">电话：023-49891910</a>
+                <a href="javascript:void(0)">传真：023-49891917</a>-->
+                <!--<a href="javascript:void(0)" title="招办电话：023-49891968、49891969">招办电话：023-49891968、49891969</a>-->
+            </div>
+            <div class="col-xs-4 col-md-3 hidden-xs">
+                <h4><span>友情链接</span></h4>
+                <a href="http://www.moe.gov.cn/" target="_blank">中华人民共和国教育部</a>
+                <a href="http://www.cq.gov.cn/" target="_blank">重庆市人民政府网</a>
+                <a href="http://www.cqjw.gov.cn/" target="_blank">重庆市教育委员会公众信息网</a>
+                <a href="http://www.edu.cn/" target="_blank">中国教育和科研计算机网</a>
+                <a href="http://www.hep.edu.cn/" target="_blank">高等教育出版社</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container text-center">
+                Copyright © Chongqing University Of Arts And Sciences All Rights Reserved | 渝ICP备05001037号 | 技术支持：现代教育技术中心
+                <!--webmaster@cqwu.edu.cn-->
+            </div>
+        </div>
+    </footer>
+
+<div class="right_menu hidden-xs">
+    <ul class="list-unstyled">
+        <li class="go_top">
+            <a href="#">
+                <span class="iconfont icon-shangsanjiao"></span>
+                TOP
+            </a>
+        </li>
+        <li class="address">
+            <a href="http://222.179.99.143:8080/selfservice/" target="_blank">
+                <span class="iconfont icon-shejiaowangluo"></span>
+                校园网自助服务
+            </a>
+        </li>
+        <!-- <li class="robot">
+             <a href="#">
+                 <span class="iconfont icon-jiqiren"></span>
+                 智能机器人
+             </a>
+         </li>-->
+        <li class="phone">
+            <a href="#">
+                <span class="iconfont icon-shiliangzhinengduixiang"></span>
+                023-49891910
+            </a>
+        </li>
+        <li class="weibo">
+            <a href="http://weibo.com/u/2659651143?topnav=1&wvr=6&topsug=1&is_hot=1" target="_blank">
+                <span class="iconfont icon-unie61d"></span>
+                重庆文理学院微博协会
+            </a>
+        </li>
+        <li class="weixin">
+            <a href="#">
+                <span class="iconfont icon-weixin1"></span>
+                微信号
+            </a>
+            <div class="erweima animated bounceInRight">
+                <div>
+                    <img src="/SITE_RES/www2017_cqwu_net/images/erweima.png" alt="">
+                    <p>学校公众号</p>
+                </div>
+                <div>
+                    <img src="/SITE_RES/www2017_cqwu_net/images/jobwx.jpg" alt="">
+                    <p>重文理就业</p>
+                </div> <div>
+                <img src="/SITE_RES/www2017_cqwu_net/images/zcwx.png" alt="">
+                <p>众创与合作发展</p>
+            </div>
+            </div>
+        </li>
+        <li class="talk">
+            <a href="http://218.194.176.12/" target="_blank">
+                <span class="iconfont icon-zaixianfuwu"></span>
+                网络在线交流
+            </a>
+        </li>
+        <li class="siteMap">
+            <a href="channel.html?id=8521">
+                <span class="iconfont icon-ditu1"></span>
+                站点地图
+            </a>
+        </li>
+        <!--<li class="app">
+            <a href="#">
+                <span>APP</span>
+                APP下载
+            </a>
+        </li>-->
+    </ul>
+</div>
+
+   
+<script src="/js/site_jquery.js"></script>
+<script src="/SITE_RES/www2017_cqwu_net/js/bootstrap.min.js"></script>
+<script src="/SITE_RES/www2017_cqwu_net/js/slide.js"></script>
+<script src="/SITE_RES/www2017_cqwu_net/js/public.js"></script>
+</body>
+</html>

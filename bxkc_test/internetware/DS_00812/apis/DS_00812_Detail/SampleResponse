@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>鄂尔多斯公共资源交易网</title>
+    <link rel="stylesheet" type="text/css" href="/TPFront/Template/Default/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/TPFront/Template/Default/css/index.css">
+    <link rel="shortcut icon" href="/TPFront/Template/Default/images/ordos_favicon.ico" />
+    <!--[if IE 6]><script type="text/javascript" src="/TPFront/Template/Default/js/dd_belatedpng.js"></script><![endif]-->
+</head>
+
+<body>
+    <!--header-->
+    
+<iframe width="100%" height="60px" frameborder="0" scrolling="no" src="http://dwlm.12371.cn/daohang/index.shtml"></iframe>
+<table border=0 cellspacing=0 cellpadding=0 width="100%" height="43" style="background:url(/TPFront/Template/Default/images/w020150820559611246704.jpg) repeat-x; overflow:hidden">
+    <tr>
+        <td align="center">
+            <table border="0" cellpadding="0" cellspacing="0" height="43" width="957" background="/TPFront/Template/Default/images/w020150820559611252616.jpg">
+                <tr>
+                    <td align="right" valign="bottom"><span style=" display: block; width: 960px; margin-bottom: 5px;"><a href="http://dwlm.12371.cn/" target="_blank">返回联盟首页</a>  |  <a href="http://www.12371.cn/" target="_blank">共产党员网</a></span></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<div class="top">
+    <div class="top-inner">
+        <div class="time">
+            当前时间： <span id="time">
+                <script>
+                    function times() {
+                        var mydate = new Date();
+                        var year = mydate.getFullYear();
+                        var mon = mydate.getMonth() + 1;
+                        var day = mydate.getDate();
+                        var week = mydate.getDay();
+                        var arr = new Array(" 星期日", " 星期一", " 星期二", " 星期三", " 星期四", " 星期五", " 星期六");
+                        var str = year + "年" + mon + "月" + day + "日";
+                        document.getElementById("time").innerHTML = str + arr[week];
+                        setTimeout("times()", 1000);
+                    }
+                    times();
+                </script>
+            </span>
+        </div>
+        <div class="weather2">今日天气：</div>
+        <div class="weather" style="width:170px">
+            <iframe style="padding-top:0px" allowtransparency="true" frameborder="0" width="180" height="36" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&z=3&t=1&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=0&c=71109&w=180&h=36&align=left"></iframe>
+        </div>
+        <div class="weather2"><a href="/TPFront/Template/Default/../../showinfo/phoneapp.aspx" style="color:red">手机APP下载</a></div>
+        <div class="search">
+            <div class="s-option"><span>全站</span></div>
+            <div class="s-input">
+                <input class="s-input" type="text" onkeydown="tab()" size="12" name="txt" id="txt" value="请输入关键词" onfocus="value=''" onblur="if(!value)value=defaultValue" />
+            </div>
+            <div class="s-button"> <img src="/TPFront/Template/Default/images/search-btn.jpg" class="btn" id="submit" onclick="search()" /> </div>
+        </div>
+        <div class="login4">
+            <div><a href="http://www.ordosggzyjy.org.cn:8080/EpointEedsdzjc/" class="l-button3" target="_blank"></a></div>
+        </div>
+        <div class="login3">
+            <div><a href="http://www.ordosggzyjy.org.cn/TPBidder/login.aspx?Type=3" class="l-button4" target="_blank"></a></div>
+        </div>
+        <div class="login2">
+            <div><a href="http://www.ordosggzyjy.org.cn/TPBidder" class="l-button2" target="_blank"></a></div>
+        </div>
+        <div class="login">
+            <div><a href="http://www.ordosggzyjy.org.cn/TPframe" class="l-button" target="_blank"></a></div>
+        </div>
+        
+    </div>
+</div>
+<div class="logo">
+    <embed src="/TPFront/Template/Default/images/eeds2.swf"
+           width="100%" height="158" wmode="transparent" align="center"></embed>
+</div>
+<div style="position: absolute; right:150px; top:180px"><a style="font-weight:bold; font-size:16pt; color:yellow" target="_blank" href="http://110.19.109.35/eedszbtb/">老版网站入口</a></div>
+<script type="text/javascript">
+    function selclick() {
+        var obj = document.getElementById("choose");
+        window.open(obj.options[obj.selectedIndex].value, "_blank");
+    }
+</script>
+
+
+
+    <!--main-->
+    <div id="main" class="clearFix">
+        <div class="">
+            <table width="1186" border="0" cellspacing="0" cellpadding="0" class="tab" align="center">
+                <tr>
+                    <td width="1186" valign="top" align="center">
+                        <table width="1186" height="670" border="0" cellspacing="0" cellpadding="0" style="background-color:#fff;">
+                            <tr>
+                                <td height="9"></td>
+                            </tr>
+                            <tr>
+                                <td height="37">
+                                    <table width="98%" height="37" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td class="blue" style="border-bottom:1px dashed #d9d9d9" align="left"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#F93" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/TPFront/'><FONT color="#F93" class=currentpostionfont>首页</FONT></A><FONT color="red"> >> <a href='/TPFront/zfcg'><FONT color="red" class=currentpostionfont>政府采购</font></a> >> <a href='/TPFront/zfcg/010001'><FONT color="red" class=currentpostionfont>采购公告</font></a></FONT></TD></TR></table></td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" height="100%" width="1186">
+                                    <table width="1186" height="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td valign="top">
+                                                <div style="padding:20px;">
+                                                    <!--正文开始-->
+                                                    
+                                                    <table id="tblInfo" cellspacing="1" cellpadding="1" width="100%" align="center" border="0" runat="server">
+                                                        <tr>
+                                                            <td height="8"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td id="tdTitle" align="center" runat="server" height="50px;" style="line-height:34px">
+                                                                <font color="
+                                                                    " style="font-size: 25px"><b>
+                                                                        东胜区交通运输局采购东胜东火车站前广场建设公开招标公告（第三次）
+                                                                    </b>
+                                                                </font> <br />
+                                                                <br />
+
+                                                                
+
+                                                                <hr size="1" />
+                                                                <font color="#666666" class="webfont">
+                                                                    【信息时间：
+                                                                    2017/11/14
+                                                                    &nbsp;&nbsp;阅读次数：
+                                                                    <script src="/TPFront/Upclicktimes.aspx?InfoID=45514730-c5e8-46ca-a8a5-b30fccd2cc93"></script>
+                                                                    】<a href="javascript:void(0)" onclick="window.print();"><font color="#666666" class="webfont">【我要打印】</font></a><span color="#666666" class="webfont" onclick="window.opener=null;window.open('','_self');window.close();">【关闭】</span><font color="#000000">
+                                                                        
+                                                                    </font>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top" id="TDContent" align="left">
+                                                                <div class="infodetail">
+                                                                    <!--EpointContent-->
+                                                                    <p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>&nbsp; <a name="OLE_LINK2">鄂尔多斯市</a></span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区公共资源交易</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>中心受鄂尔多斯</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>市东</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>胜区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>交通运输局</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>的</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>委托，采用公开招标，采购</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜东火车站前广场建设</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>。欢迎符合资格条件的供应商前来</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>报名参加。</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p16" style="line-height: 1.5; margin-bottom: 0pt;"><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'>一、&nbsp;</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'>项目概述</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p16" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; font-weight: normal; mso-spacerun: "yes";'>1、&nbsp;</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>名称与编号</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>项目名称：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>胜区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>交通运输局</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>采购</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜东火车站前广场建设</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>批准文件编号：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>财购准字</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>[201</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>7</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>]</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>第</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>364</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>号</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>采购文件编号：</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>CG201</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>7</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>GGK</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>478</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>2、内容及分包情况（技术规格、参数及要求）</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<table style="padding: 0pt 5.4pt; width: 446pt; margin-left: 7.65pt; border-collapse: collapse; mso-table-layout-alt: fixed;">
+  <tbody>
+    <tr style="height: 21.95pt;">
+      <td width="73" valign="center" style="padding: 0pt 5.4pt; border: 0.5pt solid rgb(0, 0, 0); border-image: none; width: 36.55pt; mso-border-left-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-right-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-top-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-bottom-alt: 0.5000pt solid rgb(0, 0, 0);">
+      <p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold; mso-spacerun: "yes";'>包号</span><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold;'><o:p></o:p></span></p>
+      </td>
+      <td width="307" valign="center" style="border-width: 0.5pt 0.5pt 0.5pt medium; border-style: solid solid solid none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) currentColor; padding: 0pt 5.4pt; width: 153.95pt; mso-border-left-alt: none; mso-border-right-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-top-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-bottom-alt: 0.5000pt solid rgb(0, 0, 0);">
+      <p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold; mso-spacerun: "yes";'>货物服务名称</span><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold;'><o:p></o:p></span></p>
+      </td>
+      <td width="346" valign="center" style="border-width: 0.5pt 0.5pt 0.5pt medium; border-style: solid solid solid none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) currentColor; padding: 0pt 5.4pt; width: 173pt; mso-border-left-alt: none; mso-border-right-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-top-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-bottom-alt: 0.5000pt solid rgb(0, 0, 0);">
+      <p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold; mso-spacerun: "yes";'>技术规格、数量</span><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold;'>、</span><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold; mso-spacerun: "yes";'>参数及要求</span><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold;'><o:p></o:p></span></p>
+      </td>
+      <td width="165" valign="center" style="border-width: 0.5pt 0.5pt 0.5pt medium; border-style: solid solid solid none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) currentColor; padding: 0pt 5.4pt; width: 82.5pt; mso-border-left-alt: none; mso-border-right-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-top-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-bottom-alt: 0.5000pt solid rgb(0, 0, 0);">
+      <p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold; mso-spacerun: "yes";'>预算金额</span><span style='font-family: "宋体"; font-size: 12pt; font-weight: bold;'><o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr style="height: 22.6pt;">
+      <td width="73" valign="center" style="border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentColor rgb(0, 0, 0) rgb(0, 0, 0); padding: 0pt 5.4pt; width: 36.55pt; mso-border-left-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-right-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-top-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-bottom-alt: 0.5000pt solid rgb(0, 0, 0);">
+      <p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 12pt;'>1</span><span style='font-family: "宋体"; font-size: 12pt;'><o:p></o:p></span></p>
+      </td>
+      <td width="307" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor rgb(0, 0, 0) rgb(0, 0, 0) currentColor; padding: 0pt 5.4pt; width: 153.95pt; mso-border-left-alt: none; mso-border-right-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-top-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-bottom-alt: 0.5000pt solid rgb(0, 0, 0);">
+      <p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 12pt; mso-spacerun: "yes";'>东胜东火车站前广场建设</span><span style='font-family: "宋体"; font-size: 12pt;'><o:p></o:p></span></p>
+      </td>
+      <td width="346" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor rgb(0, 0, 0) rgb(0, 0, 0) currentColor; padding: 0pt 5.4pt; width: 173pt; mso-border-left-alt: none; mso-border-right-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-top-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-bottom-alt: 0.5000pt solid rgb(0, 0, 0);">
+      <p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 12pt; mso-spacerun: "yes";'>详见招标文件</span><span style='font-family: "宋体"; font-size: 12pt; mso-spacerun: "yes";'>第四章</span><span style='font-family: "宋体"; font-size: 12pt;'><o:p></o:p></span></p>
+      </td>
+      <td width="165" valign="center" style="border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentColor rgb(0, 0, 0) rgb(0, 0, 0) currentColor; padding: 0pt 5.4pt; width: 82.5pt; mso-border-left-alt: none; mso-border-right-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-top-alt: 0.5000pt solid rgb(0, 0, 0); mso-border-bottom-alt: 0.5000pt solid rgb(0, 0, 0);">
+      <p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 12pt; mso-spacerun: "yes";'>1997.82万元</span><span style='font-family: "宋体"; font-size: 12pt;'><o:p></o:p></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p16" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'>二、&nbsp;</span><span style='font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'>供应商的资格要求&nbsp;</span><span style='font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>1.</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>供应商应符合《中华人民共和国政府采购法》第二十二条规定的条件；</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>2.</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>供应商应符合</span><span><a href="https://www.baidu.com/s?wd=%E3%80%8A%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E6%96%BD%E5%B7%A5%E6%8B%9B%E6%A0%87%E6%8A%95%E6%A0%87%E5%8A%9E%E6%B3%95%E3%80%8B&tn=44039180_cpr&fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1YvPWfzmvDsmWwhmHb3Pj-h0ZwV5Hcvrjm3rH6sPfKWUMw85HfYnjn4nH6sgvPsT6KdThsqpZwYTjCEQLGCpyw9Uz4Bmy-bIi4WUvYETgN-TLwGUv3EnH0YPWDsn1DvrHRdnHcYP1T1rf"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>《工程建设项目施工招标投标办法》</span></a></span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>第20条规定</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>的</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>条件</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>；</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>3</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>.投标供应商开标时需提供营业执照、组织机构代码证、税务登记证原件检验（三证合一仅提供营业执照副本）；</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>4</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>.</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>供应商须在投标文件中提供检察机关出具的无行贿犯罪记录证明（在有效期范围内）</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>；</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>5.</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>投标供应商须提供</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>市政公用工程施工总承包贰级及以上资质</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>，</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>拟派项目经理具备市政公用工程贰级及以上注册建造师（不含临时），具备有效的安全生产考核合格证书</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>，开标时提供原件查验</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>。</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'>三、获取招标文件的时间、地点、方式</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>1.本次招标不收取标书费；</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>2.拟投标人</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>可以</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>通过网络浏览</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>查询</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>招标</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>信息</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>，招标</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>信息</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>浏览网址：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>内蒙古自治区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>政府采购网（</span><span style='font-family: "Times New Roman"; font-size: 14pt; text-decoration: underline; mso-spacerun: "yes";'>http://www.</span><span style='font-family: "宋体"; font-size: 14pt; text-decoration: underline; mso-spacerun: "yes";'>nmg</span><span style='font-family: "Times New Roman"; font-size: 14pt; text-decoration: underline; mso-spacerun: "yes";'>p.gov.cn</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>）</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>、鄂尔多斯市公共资源交易网（</span><span><a href="http://www.ordosggzyjy.com/"><span style='font-family: "宋体"; font-size: 14pt; text-decoration: underline; mso-spacerun: "yes";'>http://www.ordosggzyjy.org.cn</span></a></span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>）、鄂尔多斯市政府采购信息网（</span><span style='font-family: "宋体"; font-size: 14pt; text-decoration: underline; mso-spacerun: "yes";'>http://cg.ordos.cn</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>）</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>、东胜区公共资源交易网（</span><span style='font-family: "Times New Roman"; font-size: 14pt; text-decoration: underline; mso-spacerun: "yes";'>http://www.dsggzyjyzx.com</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>）</span><span style='font-family: "宋体"; font-size: 14pt; font-weight: bold; mso-spacerun: "yes";'>；</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>3.登录鄂尔多斯市公共资源交易网（</span><span><a href="http://www.ordosggzyjy.com/"><span style='font-family: "宋体"; font-size: 14pt; text-decoration: underline; mso-spacerun: "yes";'>http://www.ordosggzyjy.org.cn</span></a></span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>）、</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区公共资源交易网（</span><span style='font-family: "Times New Roman"; font-size: 14pt; text-decoration: underline; mso-spacerun: "yes";'>http://www.dsggzyjyzx.com</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>）</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>可以下载招标文件，登录后点击“政府采购”中的信息公告栏，即可浏览采购信息，下载招标文件请点击页面左下角“附件”即可；</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>4.</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>报名方式及报名时间详见招标文件第</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>一</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>章“报名须知”。</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'>四</span><span style='font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'>、递交投标（响应）文件截止时间、开标时间及地点</span><span style='font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>递交投标（响应）文件截止时间：201</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>7</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>年</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>12</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>月</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>6</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>日</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>上</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>午</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>9</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>时整</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>投标地点：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>鄂尔多斯市</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>公共资源交易中心</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>八</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>楼开标室（</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>鄂尔多斯市</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>铁西</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>联邦大厦银座</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>八</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>楼）</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>开标时间：201</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>7</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>年</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>12</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>月</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>6</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>日</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>上</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>午</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>9</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>时整</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>开标地点：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>鄂尔多斯市</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>公共资源交易中心</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>八</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>楼开标室（</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>鄂尔多斯市</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>铁西</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>联邦大厦银座</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>八</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>楼）</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'>五</span><span style='font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'>、联系方式</span><span style='font-family: "宋体"; font-size: 16pt; font-weight: bold; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>1.</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>采购代理机构</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>名称：鄂尔多斯市</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区公共资源交易</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>中心</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>地址：</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>鄂尔多斯市</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>公共资源交易中心九楼9</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>00</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>5室（鄂尔多斯市</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>铁西</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>联邦大厦银座九楼</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>）</span><span style='color: rgb(0, 0, 0); font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>邮政编码：017000</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>联系人：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>溚</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>&nbsp;</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>娜</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>联系电话：0477-</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>8169166</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>2.投标保证金</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>账户名称：鄂尔多斯市东胜区公共资源交易中心</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>开户行：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>中国建设银行股份有限公司鄂尔多斯东环路支行</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>账号：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>15050110089900000051</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>行号：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>105205008995</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>联系人：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>谢娅丽&nbsp;&nbsp;&nbsp;&nbsp;0477</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>-</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>8169176</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>3.</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>采购单位</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>名称：鄂尔多斯</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>市东胜区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>交通运输局</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>地址：鄂尔多斯市</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>邮政编码：017000</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>联系人：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>闫震宇</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>联系电话：</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>1</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>3904774950</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p>&nbsp;</o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>东胜区公共资源交</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>易</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>中心</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+<p class="p0" style="line-height: 1.5; margin-bottom: 0pt;"><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>201</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>7</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>年</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>11</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>月</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>14</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'>日</span><span style='font-family: "宋体"; font-size: 14pt; mso-spacerun: "yes";'><o:p></o:p></span></p>
+                                                                    <!--EpointContent-->
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr id="trAttach" runat="server">
+                                                            <td align="left">
+                                                                <table id="filedown" cellspacing="1" cellpadding="1" width="100%" border="0" runat="server">
+                                                                    <tr>
+                                                                        <td valign="top">附件：<a href=/TPFront/ReadAttachFile.aspx?AttachID=c69116f9-f230-d461-efe5-90e715168ece target='_blank'><font color='red'>工程量清单--东胜区交通运输局采购东胜东火车站广场建设.doc</font></a></br>附件：<a href=/TPFront/ReadAttachFile.aspx?AttachID=25e1230a-ae40-424a-a682-696d017531e3 target='_blank'><font color='red'>东胜区交通运输局采购东胜东火车站前广场建设公开招标文件（三次）.docx</font></a></br></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" style="padding-top:20px"><table><tr><td align="center" width="300"><a href="/TPFront/WebXXFBZtbMis/Pages/ZFCGFHYBaoMing/BaoMingDetail.aspx?GongGaoGuid=45514730-c5e8-46ca-a8a5-b30fccd2cc93&BMRType=1"><img src="/TPFront/template/default/images/wybm_qy.jpg"></a></td><td align="center" width="300"><a href="/TPFront/WebXXFBZtbMis/Pages/ZFCGFHYBaoMing/BaoMingDetail.aspx?GongGaoGuid=45514730-c5e8-46ca-a8a5-b30fccd2cc93&BMRType=2"><img src="/TPFront/template/default/images/wybm_zrr.jpg"></a></td><td align="center" width="300"><a href="/TPFront/WebXXFBZtbMis/Pages/ZFCGFHYBaoMing/LoginBaoJia.aspx?GongGaoGuid=45514730-c5e8-46ca-a8a5-b30fccd2cc93"><img src="/TPFront/template/default/images/hzmdl.jpg"></a></td></tr></table></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td></td>
+                                                        </tr>
+                                                    </table>
+                                                    <!--正文结束-->
+                                                </div>
+                                            </td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--footer-->
+    <!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>鄂尔多斯公共资源交易网</title>
+    <link rel="stylesheet" type="text/css" href="/TPFront/Template/Default/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/TPFront/Template/Default/css/index.css">
+    <link rel="shortcut icon" href="/TPFront/Template/Default/images/ordos_favicon.ico" />
+    <!--[if IE 6]><script type="text/javascript" src="/TPFront/Template/Default/js/dd_belatedpng.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="footer">
+    <div class="footlogo">
+        <script type="text/javascript">    document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/07/136/0000/60188868/CA071360000601888680001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+    <div class="footerp">
+        主办单位：鄂尔多斯市公共资源交易综合管理办公室&nbsp;&nbsp;技术支持：江苏国泰新点软件有限公司 <br />
+        您是第
+        <script src="/TPFront/Template/Default/../../count.aspx"></script>位访问者&nbsp;&nbsp;蒙ICP备11003131号-1 <br /><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15060302000176" style="color:#fff;" target="_blank"><img src="/TPFront/Template/Default/images/ba.png">蒙公网安备 15060302000176号</a>
+    </div>
+    <div class="footerwx"><img src="/TPFront/Template/Default/images/erw.jpg" width="65" height="65" /></div>
+    <div class="footerfg"><a href="http://www.gov.cn/pushinfo/v150203/" target="_blank"><img src="/TPFront/Template/Default/images/guowuyuan.jpg"/></a></div>
+    <div class="footerzc">
+        <script id="_jiucuo_" sitecode='1506000018' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+    </div>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>

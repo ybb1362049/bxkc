@@ -1,0 +1,355 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	关于遂渝路、南渝路UPS及UPS电池组更换工程询价公告 - 招投标公告 - 四川成南高速公路有限责任公司
+</title>
+<meta name="keywords" content="四川成南高速公路有限责任公司" />
+<meta name="description" content="四川成南高速公路有限责任公司  " />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/banner.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/skdslider.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('#demo3').skdslider({ 'delay': 5000, 'animationSpeed': 2000, 'showNextPrev': true, 'showPlayButton': true, 'autoSlide': true, 'animationType': 'fading' });
+
+        jQuery('#responsive').change(function () {
+            $('#responsive_wrapper').width(jQuery(this).val());
+        });
+
+    });
+</script>
+
+<script type="text/javascript">
+try {
+var urlhash = window.location.hash;
+if (!urlhash.match("fromapp"))
+{
+if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i)))
+{
+window.location="/m/";
+}
+}
+}
+catch(err)
+{
+}</script>
+</head>
+<body>
+    
+<!--head开始-->
+
+ <script type="text/javascript">
+     // 设置为主页 
+     function SetHome(obj, vrl) {
+         try {
+             obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+         }
+         catch (e) {
+             if (window.netscape) {
+                 try {
+                     netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                 }
+                 catch (e) {
+                     alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                 }
+                 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                 prefs.setCharPref('browser.startup.homepage', vrl);
+             } else {
+                 alert("您的浏览器不支持，请按照下面步骤操作：\n1.打开浏览器设置。\n2.点击设置网页。\n3.输入：" + vrl + "点击确定。");
+             }
+         }
+     }
+     // 加入收藏 兼容360和IE6 
+     function shoucang(sTitle, sURL) {
+         try {
+             window.external.addFavorite(sURL, sTitle);
+         }
+         catch (e) {
+             try {
+                 window.sidebar.addPanel(sTitle, sURL, "");
+             }
+             catch (e) {
+                 alert("加入收藏失败，请使用Ctrl+D进行添加");
+             }
+         }
+     }
+
+     function ckv() {
+         if (document.getElementById("keyCode").value.length == 0 ) {
+             alert("请输入关键词");
+             return false;
+         }
+         document.getElementById("re").submit();
+     }
+        
+    </script>
+
+
+
+<div class="top wid">
+    <div class="logo fl">
+        <a href="/">
+            <img src="images/logo.png" width="515" height="53" /></a></div>
+    <div class="top-r fr">
+        <div class="home">
+            <div class="home-img fl">
+             <a href="about.aspx?mid=256&sid="><img src="images/ico02.png" /></a><a href="/about.aspx?mid=252"><img src="images/ico04.png" /></a></div>
+            <div class="home-txt fl">
+                <a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a>|<a href="javascript:void(0)" onclick="shoucang(document.title,window.location)" >收藏</a></div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="ser" style="">
+        <form id="re" method="post" action="SearchPage.aspx">
+            <img src="images/bg001.png" width="15" height="23" class="img" />
+            <input id="keyCode" name="keyCode" maxlength="6" type="text" class="put" placeholder="输入关键词" />
+            <input name="" type="button" class="btn"   onclick="return ckv()" />
+            </form>
+        </div>
+    </div>
+</div>
+<div class="clear">
+</div>
+<div class="nav-box">
+    <ul class="nav">
+        <li style="width: 104px;"><a href="/index.aspx">首页</a></li>
+        <li><a href="/about.aspx?mid=115">公司介绍</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="about.aspx?mid=115 ">
+                            公司简介</a>
+                    
+                        <a href="about.aspx?mid=253 ">
+                            管理团队</a>
+                    
+                        <a href="about.aspx?mid=182 ">
+                            部门架构</a>
+                    
+                        <a href="about.aspx?mid=221 ">
+                            所辖高速公路简介</a>
+                    
+                        <a href="news.aspx?mid=220 ">
+                            大事记</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=80">新闻中心</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=80 ">
+                            公司要闻</a>
+                    
+                        <a href="news.aspx?mid=206 ">
+                            基层动态</a>
+                    
+                        <a href="news.aspx?mid=257 ">
+                            上级动态</a>
+                    
+                        <a href="news.aspx?mid=236 ">
+                            高速信息</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=174">政务公告</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=174 ">
+                            公告公示</a>
+                    
+                        <a href="news.aspx?mid=181 ">
+                            招投标公告</a>
+                    
+                        <a href="news.aspx?mid=243 ">
+                            养护施工信息</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=170">党群工作</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=170 ">
+                            党建工作</a>
+                    
+                        <a href="news.aspx?mid=179 ">
+                            党团活动</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=166">廉政建设</a>
+           
+        </li>
+        <li><a href="/news.aspx?mid=245">运营管理</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=245 ">
+                            收费管理</a>
+                    
+                        <a href="news.aspx?mid=246 ">
+                            养护管理</a>
+                    
+                        <a href="news.aspx?mid=247 ">
+                            安全管理</a>
+                    
+                        <a href="news.aspx?mid=248 ">
+                            稽查监控</a>
+                    
+                        <a href="news.aspx?mid=249 ">
+                            服务区管理</a>
+                    
+            </div>
+        </li>
+        <li><a href="/about.aspx?mid=213">高速服务</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="about.aspx?mid=213 ">
+                            行车指南</a>
+                    
+                        <a href="about.aspx?mid=202 ">
+                            通行费查询</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=234">专题报道</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=234 ">
+                            两学一做</a>
+                    
+                        <a href="news.aspx?mid=237 ">
+                            党的群众路线</a>
+                    
+            </div>
+        </li>
+        <li><a href="/about.aspx?mid=250">企业文化</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="about.aspx?mid=250 ">
+                            奖项荣誉</a>
+                    
+                        <a href="product.aspx?mid=251 ">
+                            高速风采</a>
+                    
+                        <a href="about.aspx?mid=252 ">
+                            微信公众号</a>
+                    
+                        <a href="about.aspx?mid=256 ">
+                            微官网</a>
+                    
+            </div>
+        </li>
+        <li><a href="/about.aspx?mid=190">联系我们</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="about.aspx?mid=190 ">
+                            联系信息</a>
+                    
+                        <a href="guestbook.aspx?mid=35 ">
+                            留言板</a>
+                    
+            </div>
+        </li>
+    </ul>
+</div>
+<!--//head结束-->
+
+<!--ad开始-->
+<div class="ads" style="background: url(images/ad01.jpg) no-repeat center top;">
+</div>
+
+
+
+<!--//ad结束-->
+
+    <!--main开始-->
+    <div class="clear">
+    </div>
+    <div class="main">
+        
+<div class="left fl">
+    <div class="title2">
+        政务公告</div>
+    <ul class="list4">
+        <li><a  title='公告公示'   href="news.aspx?mid=174&sid=" >公告公示</a></li> <li class="on"><a title='招投标公告'   href="news.aspx?mid=181&sid=" >招投标公告</a></li><li><a  title='养护施工信息'   href="news.aspx?mid=243&sid=" >养护施工信息</a></li>
+    </ul>
+</div>
+
+        <div class="right fl">
+            <div class="title3">
+                <div class="tit3-limg fl">
+                </div>
+                <div class="tit3-c fl">
+                    招投标公告</div>
+                <div class="posi fr">
+                    <a href="/">首页</a> >
+                    <a href='news.aspx?mid=174'>政务公告</a>
+                    > <span>
+                        招投标公告</span></div>
+            </div>
+            <div class="clear">
+            </div>
+            <div class="con">
+                
+                        <script language="JavaScript" type="text/javascript" src="/Inc/Search.js"></script>
+                        <center>
+                            <div id="about_ctl00_proTit">
+                                <h1 style="color: #666">
+                                    <b>
+                                        关于遂渝路、南渝路UPS及UPS电池组更换工程询价公告</b></h1>
+                            </div>
+                            <br />
+                            <div id="about_ctl00_proInfo" style="font-size: 12px; width: 100%; line-height: 30px; margin-top: 10px;
+                                height: 34px; padding-top: 8px; border-bottom: 1px solid #f1f1f1; border-top: 1px solid #f1f1f1;">
+                                <span>来源：</span>
+                                &nbsp; &nbsp; &nbsp; <span>发布时间:</span>2017-6-27 16:06:08&nbsp; &nbsp; &nbsp;<span>点击率:</span><span
+                                    id="CCdiv">150</span>
+                            </div>
+                        </center>
+                        <script language="JavaScript" type="text/javascript"> ClickCount("CCdiv/news/2083/11");
+                        </script>
+                        <br />
+                        <div style="line-height: 24px; color: #666">
+                            <br />
+                            <p style="line-height: 2em; text-indent: 2em;">四川成南高速公路有限责任公司&nbsp;(以下简称“询价人”)作为成南高速公路、遂渝高速公路、遂回高速公路、南渝高速公路营运管理单位，现决定对遂渝路、南渝路UPS及UPS电池组更换工程进行公开询价，请有意向的单位按照本公告规定的内容参加报价。</p><p style="line-height: 2em; text-indent: 2em;">一、工程概况</p><p style="line-height: 2em; text-indent: 2em;">本项目包含：武胜收费站、坪滩收费站、南充南收费站、高坪收费站、兴山收费站、街子收费站、永安隧道、玛瑙山隧道、大通收费站、南充收费站、西眉收费站、遂宁南收费站、南渝四川收费站现有一批UPS设备及蓄电池组、通信机柜蓄电池组（详见附件1：《原有设备品牌型号统计表》）更换安装调试至正常使用。</p><p style="line-height: 2em; text-indent: 2em;">二、本次询价工程量</p><p style="line-height: 2em; text-indent: 2em;">1.具体站点、容量/功率、数量（详见附件2：《工程量清单》）。</p><p style="line-height: 2em; text-indent: 2em;">2.对原有UPS设备进行拆除，更换原有蓄电池组（包含通信机柜蓄电池组）拆除、更换、回收及清运。</p><p style="line-height: 2em; text-indent: 2em;">三、报价要求</p><p style="line-height: 2em; text-indent: 2em;">1、参照交通部颁发的《公路工程质量检验评定标准（第二册 机电工程）JFG F80/2 -2004》、《公路工程竣(交)工验收办法》(交通部令2004年第3号)和《四川省重点公路工程竣(交)工验收办法实施细则(试行)》 (川交函 [2006]110号)进行质量检查、评定和交工验收。</p><p style="line-height: 2em; text-indent: 2em;">2、报价人参与报价所提供的设备必须是满足高速公路收费站、隧道不间断电源使用要求的UPS设备，并且报价人所提供的设备能够完全在使用功能、参数设置、运行条件、维护使用方面替代现有产品（详细技术参数要求见附件3）。</p><p style="line-height: 2em; text-indent: 2em;">3、除遂宁南收费站UPS设备有特殊要求外，报价人所提供的所有设备必须是同一品牌。</p><p style="line-height: 2em; text-indent: 2em;">4、遂宁南站的原有UPS设备及配套的UPS蓄电池组不拆除更换，报价人须在保障所有设备质量和所有设备统一性的前提下，提供给遂宁南一处的设备能与原有设备兼容联机（遂宁南站原有设备品牌型号见附件1中所列）。</p><p style="line-height: 2em; text-indent: 2em;">5、报价人参与报价的UPS设备所配置的蓄电池组必须是经国家检测合格、全新、免维护蓄电池（质保期三年）。</p><p style="line-height: 2em; text-indent: 2em;">6、报价人须在报价文件中须附产品检验合格证、报价人营业执照彩色影印件并加盖鲜章、报价人对所供设备的代理授权证明的彩色影印件并加盖鲜章。</p><p style="line-height: 2em; text-indent: 2em;">7、报价人对原有蓄电池进行折价回收，所产生应支付给业主的费用，用于抵扣设备采购的费用。</p><p style="line-height: 2em; text-indent: 2em;">8、报价人所提供的UPS设备，其品牌须在四川设立相应的售后服务点，并提供售后服务点的营业执照彩色影印件并加盖鲜章。</p><p style="line-height: 2em; text-indent: 2em;">四、合同工期</p><p style="line-height: 2em; text-indent: 2em;">遂渝路、南渝路UPS及UPS电池组更换工程合同工期为&nbsp;20&nbsp;天，从合同签订之日算起，合同工期内完成检测并提交检测报告。</p><p style="line-height: 2em; text-indent: 2em;">三、报价须知</p><p style="line-height: 2em; text-indent: 2em;">1、依据上级主管部门的批复，遂渝路、南渝路UPS及UPS电池组更换工程所有费用（含原旧电池回收抵价）为￥980000元(大写：玖拾捌万元整)，该金额作为本工程报价最高限价，报价人报价总额不得超过总金额的最高限价。若报价人的报价超出限价将被拒绝。</p><p style="line-height: 2em; text-indent: 2em;">2、合同金额中已包括为实施和完成本工程所需的劳务、材料、机械、质检(自检)、安装、调试、缺陷修复、安全维护、交通安全管制、车辆通行费、临时工程设施、管理、保险、税费、利润等应包括的各项费用，以及合同明示或暗示的所有责任、义务和一般风险。</p><p style="line-height: 2em; text-indent: 2em;">3、承包人应足额投保第三方责任险、人身意外伤害险、财产保险等，报价人应自行承担实施养护维修作业造成的人身伤亡或伤残，或财产(设备)的损失或损害以及与此有关的一切索赔、诉讼和赔偿费用及其他开支。</p><p style="line-height: 2em; text-indent: 2em;">4、本工程的无开工预付款。</p><p style="line-height: 2em; text-indent: 2em;">5、在工程完工验收合格后，按承包人实际完成的数量和工程量清单的单价计量核算后，业主支付合同总价的90%，剩余10%作为质保金，分为两部分，即：UPS设备质保金（占合同总价5%）部分和蓄电池组质保金（占合同总价5%）部分。</p><p style="line-height: 2em; text-indent: 2em;">UPS设备部分缺陷责任期一年：在缺陷责任期满一年（自完工验收合格之日起开始计算缺陷责任期）后，由双方按照“质保金支付条件” 协商支付合同总价剩余5%。</p><p style="line-height: 2em; text-indent: 2em;">质保金支付条件：⑴一年缺陷责任期内，若由于工程本身所涉及的安装质量、设备性能所造成的故障次数少于5次（不含5次），质保期满后，甲方全额退还质保金；</p><p style="line-height: 2em; text-indent: 2em;">⑵上述因素造成的故障次数达5—8次（含8次）的，一年缺陷责任期满后，扣除质保金总额的50%；</p><p style="line-height: 2em; text-indent: 2em;">⑶上述因素造成的故障次数达9次（含9次）及以上的，一年缺陷责任期满后，扣除全部质保金。</p><p style="line-height: 2em; text-indent: 2em;">蓄电池组部分缺陷责任期三年：在缺陷责任期满三年（自完工验收合格之日起开始计算缺陷责任期）后，由双方按照“质保金支付条件” 协商支付合同总价剩余5%。</p><p style="line-height: 2em; text-indent: 2em;">质保金支付条件：⑴三年缺陷责任期内，若由于工程本身所涉及的安装质量、设备性能所造成的故障次数少于5次（不含5次），质保期满后，甲方全额退还质保金；</p><p style="line-height: 2em; text-indent: 2em;">⑵上述因素造成的故障次数达5—8次（含8次）的，三年缺陷责任期满后，扣除质保金总额的50%；</p><p style="line-height: 2em; text-indent: 2em;">⑶上述因素造成的故障次数达9次（含9次）及以上的，三年缺陷责任期满后，扣除全部质保金。</p><p style="line-height: 2em; text-indent: 2em;">6、计量规则按照《公路工程国内招标文件范本》(2009年版)执行。工程变更按照《四川省交投集团公司关于印发&lt;高速公路养护管理暂行办法&gt;的通知》(川交投发[2012]80号)及上级主管单位的规定办理。</p><p style="line-height: 2em; text-indent: 2em;">7、承包人合同执行应遵守相关法令规定，详见《公路工程国内招标文件范本》(2009年版)之规定。</p><p style="line-height: 2em; text-indent: 2em;">四、现场考察</p><p style="line-height: 2em; text-indent: 2em;">由各报价人自行组织现场考察，如需询价人协助，可电话联系，询价人将予以协助，报价人应自行承担考察费用及安全责任。</p><p style="line-height: 2em; text-indent: 2em;">五、报价文件的密封、标记和送交</p><p style="line-height: 2em; text-indent: 2em;">1．报价文件应包含以下内容：</p><p style="line-height: 2em; text-indent: 2em;">a. 报价书</p><p style="line-height: 2em; text-indent: 2em;">b. 工程量清单</p><p style="line-height: 2em; text-indent: 2em;">c．报价人单位营业执照、组织机构代码证、税务登记证（三证均需要彩色影印件并加盖鲜章）。</p><p style="line-height: 2em; text-indent: 2em;">d. 所供设备在四川售后服务点营业执照彩色影印件并加盖鲜章。</p><p style="line-height: 2em; text-indent: 2em;">e. 质保期及售后服务承诺书（加盖鲜章）。</p><p style="line-height: 2em; text-indent: 2em;">f. 所供设备的厂商授权书、代理证书、产品合格证书等（彩色影印件并加盖鲜章）。</p><p style="line-height: 2em; text-indent: 2em;">g. 报价人法人代表资格证明、授权委托书（加盖鲜章）。</p><p style="line-height: 2em; text-indent: 2em;">2.报价文件应用外封套包装，并加盖密封条或密封章，未密封的报价文件将不予签收。</p><p style="line-height: 2em; text-indent: 2em;">3.外封套上应写明：</p><p style="line-height: 2em; text-indent: 2em;">a.询价人全称</p><p style="line-height: 2em; text-indent: 2em;">b.项目名称</p><p style="line-height: 2em; text-indent: 2em;">c.在2017&nbsp;年 7月21日&nbsp;&nbsp;10：30时前不得开封。</p><p style="line-height: 2em; text-indent: 2em;">4.报价文件送交的时间为2017年　7&nbsp;月　 21&nbsp;日上午9：30～10：30时(北京时间)，截止时间为2017年　 7 &nbsp;月　21&nbsp;日上午10：30时(北京时间)，报价文件必须在截止时间以前送交至四川成南高速公路有限责任公司会议室，迟到的报价文件将被拒绝。</p><p style="line-height: 2em; text-indent: 2em;">六、确认承包人</p><p style="line-height: 2em; text-indent: 2em;">1.遂渝路、南渝路UPS及UPS电池组更换工程将授予参与本次报价中限价以内、满足《工程量清单》各项要求且报价最低的报价人。</p><p style="line-height: 2em; text-indent: 2em;">2.如遇多个报价人对该工程报价相同时，提供质保期更长的报价人确定为承包人；价格相同、质保期相同时承诺故障维修响应时间短的报价人确定为承包人。（质保期及维修响应时间承诺书，报价文件中须附所供UPS设备品牌在四川售后服务点营业执照证明）</p><p style="line-height: 2em; text-indent: 2em;">七、联系方式</p><p style="line-height: 2em; text-indent: 2em;">如有意参与遂渝路、南渝路UPS及UPS电池组更换工程的报价人对本询价公告的内容有疑问可来人来电联系咨询。</p><p style="line-height: 2em; text-indent: 2em;">询价人地址：四川成南高速公路有限责任公司(由于近期办公地址会发生变动具体地址可咨询联系人)</p><p style="line-height: 2em; text-indent: 2em;">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编：610052</p><p style="line-height: 2em; text-indent: 2em;">电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：13981717109</p><p style="line-height: 2em; text-indent: 2em;">联&nbsp;&nbsp;系&nbsp;&nbsp;人： 王先生</p><p style="line-height: 2em; text-align: right; text-indent: 0em;">四川成南高速公路有限责任公司</p><p style="line-height: 2em; text-align: right; text-indent: 0em;"><span style="line-height: 2em; text-indent: 0em;">2017年6月27日</span></p><p style="line-height: 2em; text-align: left; text-indent: 2em;"><strong><span style="line-height: 2em; text-indent: 0em; color: rgb(0, 0, 0);">附件：</span></strong><img src="http://cngs.wm29.mingtengnet.com/inc/editor/dialogs/attachment/fileTypeImages/icon_pdf.gif" style="line-height: 16px; vertical-align: middle; margin-right: 2px;"/><span style="line-height: 16px; color: rgb(0, 102, 204); font-size: 16px; text-decoration: underline;"><a href="/upload/file/2017-06-27/6363417779587500008054112.pdf" title="南渝遂渝UPS挂网询价 (1).pdf" style="line-height: 16px; color: rgb(0, 102, 204); font-size: 16px; text-decoration: underline;">南渝遂渝UPS挂网询价 (1).pdf</a></span></p>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="clearfix">
+                        </div>
+                        <div class="con-bot">
+                            <div class="last">
+                                上一篇：<a href='newshow.aspx?mid=181&id=2095'>淮口服务区视频监控系统改造工程招标邀请</a></div>
+                            <div class="next">
+                                下一篇：<a href='newshow.aspx?mid=181&id=2079'>复式收费项目收费亭采购询价文件</a></div>
+                        </div>
+                    
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <!--//main结束-->
+    
+<!--foot开始-->
+<div class="clear"></div>
+<div class="foot">
+<div class="wid">
+     <div class="foot-nav"><a href="/about.aspx?mid=217">网站地图</a>|<a href="/about.aspx?mid=218">版权声明</a>|<a href="/about.aspx?mid=190">联系我们</a></div>
+     <div class="copy">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;地址：四川省成都市成华区崔家店路582号&nbsp;&nbsp;&nbsp;&nbsp;传真：028-84121610&nbsp;&nbsp;&nbsp;&nbsp;邮编：610051 </p>
+          <p>Copyright 2005 - 2016 Sichuan Chengnan Expressway Co.,Ltd. All rights reserved  &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn" target="_blank" style="color:#FFFFFF">蜀ICP备11018155号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;技术支持：<a href="http://www.mingtengnet.com" target="_blank" style="color:#FFFFFF">明腾-西部商务网</a></p>
+          <div style="margin-top: 10px;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259895375'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259895375%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+<!--可信网站图片LOGO安装开始-->
+<script src="http://kxlogo.knet.cn/seallogo.dll?sn=e171124510100698811nyk000000&size=0"></script>
+<!--可信网站图片LOGO安装结束--></div>
+    </div>
+</div>
+</div>
+<!--//foot结束-->
+
+</body>
+</html>

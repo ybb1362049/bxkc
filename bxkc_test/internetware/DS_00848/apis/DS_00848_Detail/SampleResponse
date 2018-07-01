@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<title>CDZ01[2018]022-承德市城市出租车管理处出租汽车监管信息交互平台项目二次采购-承德市公共资源交易平台</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<!-- 初始化easyui -->
+<link rel="stylesheet" type="text/css" href="/static/ui/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="/static/ui/themes/icon.css" />
+<script type="text/javascript" src="/static/ui/jquery.min.js"></script>
+<script type="text/javascript" src="/static/ui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/static/ui/locale/easyui-lang-zh_CN.js"></script>
+<!-- 加载css -->
+<link rel="stylesheet" type="text/css" href="/static/css/comm.css"/>
+<link rel="stylesheet" type="text/css" href="/static/css/home.css"/>
+<!-- 加载js -->
+<script type="text/javascript" src="/static/js/comm.js"></script>
+<script type="text/javascript" src="/static/js/home.js"></script>
+<script type="text/javascript" src="/static/js/jquery.adv.js"></script>
+</head>
+<body>
+<div class="g-head s-bgc-white f-m0">
+    <div class="m-flash f-m0 f-oh">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1006" height="190">
+            <param name="movie" value="/uploads/home/flash/top-flash.swf">
+            <param name="quality" value="high">
+            <param name="wmode" value="transparent">
+            <embed src="/uploads/home/flash/top-flash.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" width="1006" height="190">
+        </object>
+    </div>
+
+    <div class="m-search f-m0 f-oh">
+        <div class="f-fl f-ml10">
+            今天是：<span style="color:#bf0000">2018年01月24日 星期三</span>
+        </div>
+        <div class="f-fr f-mr10">
+            <label for="search">本站搜索：</label>
+            <input name="q" type="text" class="search-ipt" value="项目编号/项目名称的关键词" onfocus="this.value=''" onblur="if(this.value==''){this.value='项目编号/项目名称的关键词'}">
+            <button class="search-btn" onclick="searchInfo()">搜索</button>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+function searchInfo(){
+    var q = $('input[name=q]').val();
+    if(!q || q == "项目编号/项目名称的关键词"){
+        alert("请输入搜索关键词！");
+        return false;
+    }
+
+    $.post('/index/searchinfo.shtml', {q:q}, function(rsp){
+        if(rsp.status){
+            window.location.href = '/deal/'+rsp.data.bidid+'.shtml';
+        }else{
+            alert(rsp.msg);
+            return false;
+        }
+    });
+}
+</script>
+<div class="g-main s-bgc-white f-m0 f-pb10">
+	<div class="position f-m0 ">
+		<span>您现在的位置：</span><a href="/">首页</a><i></i><a href="/deallist/2.shtml">政府采购</a><i></i>项目信息
+	</div>
+	<div class="ainfo f-m0">
+    	<div class="detail">
+    		<table cellspacing="0" cellpadding="0" border="1" width="100%">
+		        <col width="20%" />
+		        <col width="30%" />
+		        <col width="20%" />
+		        <col width="30%" />
+		        <tr>
+		            <td>项目编号</td>
+		            <td>CDZ01[2018]022</td>
+		            <td>所属地区</td>
+		            <td>承德市</td>
+		        </tr>
+		        <tr>
+		            <td>项目名称</td>
+		            <td colspan="3">承德市城市出租车管理处出租汽车监管信息交互平台项目二次采购</td>
+		        </tr>
+		        <tr>
+		            <td>交易类型</td>
+		            <td>政府采购</td>
+		            <td>交易方式</td>
+		            <td>公开招标</td>
+		        </tr>
+		        <tr>
+		            <td>发售文件开始时间</td>
+		            <td>2018-01-23</td>
+		            <td>发售文件截止时间</td>
+		            <td>2018-01-30 17:00</td>
+		        </tr>
+		        <tr>
+		            <td>保证金开始时间</td>
+		            <td>2018-01-23</td>
+		            <td>保证金截止时间</td>
+		            <td>2018-02-27 09:30</td>
+		        </tr>
+		        <tr>
+		            <td>开标时间</td>
+		            <td>2018-02-27 09:30</td>
+		            <td>开标地点</td>
+		            <td>政务服务中心四层</td>
+		        </tr>
+		        <tr>
+		            <td>代理公司</td>
+		            <td colspan="3">承德市政府采购中心</td>
+		        </tr>
+		        <tr>
+		            <td>联系人</td>
+		            <td>王志滨</td>
+		            <td>联系电话</td>
+		            <td>03142528892</td>
+		        </tr>
+		        <tr>
+		            <td>招标公告</td>
+		            <td colspan="3">
+		            	<a href="/deal/1/4a1bg81a81f.shtml" class="s-blue" target="_blank">点击查看</a>
+		            </td>
+		        </tr>		        		        		        		        		        		        		        		    </table>
+    	</div>
+	</div>
+</div>
+<div class="g-foot f-ptb10 s-bgc-white">
+    <div class="m-copy f-tac f-m0">
+        <p>承德市公共资源交易中心 版权所有</p>
+        <p>地址：承德市武烈路153-1号政务服务中心四层</p>
+        <p>备案/许可证号：冀ICP备13018715号</p>
+        <p>您是第 <span class="u-visit">486289</span> 位访问者</p>
+        <p><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260920002'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260920002%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script></p>
+    </div>
+</div>
+
+<div class="g-service">
+	<ul>
+		<li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2058775287&site=qq&menu=yes" ><div class="servicebox"><img src="/static/img/service/icon04.png">在线咨询</div></a></li>
+		<li style="border:none;"><a href="javascript:goTop();" class="servicetop"><img src="/static/img/service/icon05.png"></a></li>
+	</ul>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".g-service ul li").hover(function(){
+		$(this).find(".servicebox").stop().animate({"width":"124px"},200).css({"opacity":"1","filter":"Alpha(opacity=100)","background":"#ae1c1c"})	
+	},function(){
+		$(this).find(".servicebox").stop().animate({"width":"54px"},200).css({"opacity":"0.8","filter":"Alpha(opacity=80)","background":"#000"})	
+	});
+});
+
+//回到顶部
+function goTop(){
+	$('html,body').animate({'scrollTop':0},600);
+}
+</script>
+</body>
+</html>

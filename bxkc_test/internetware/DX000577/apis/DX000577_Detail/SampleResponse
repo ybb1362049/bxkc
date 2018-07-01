@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+ <title>四川仁沐高速公路有限责任公司</title>
+<meta name="Keywords" content="四川仁沐高速公路有限责任公司"/>
+<meta name="description" content="四川仁沐高速公路有限责任公司" />
+<link href="css/inside_css.css" rel="stylesheet">
+<link href="css/slideshow.css" rel="stylesheet" />
+</head>
+
+<body>
+   
+   <div id="top">
+      <div id="top1">
+         <div id="top1_left"></div>
+         <div id="top1_right">
+            <div id="search">
+            <form name="form"  method="post" action="search.asp">
+                  <input name="keyword"   value=" " id="txtSearch" class="txt" />
+                  <input type="submit" name="btnSearch" value="" id="btnSearch" class="btn" />
+            </form>
+            </div>
+            <div id="jrsc"><a style="cursor:hand" onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://127.0.0.1');">设为首页</a> | <a style="CURSOR: hand;" onClick="window.external.addFavorite('http://127.0.0.1','四川仁沐高速公路有限责任公司')">加入收藏</a></div>
+         </div>
+      </div>
+   </div>
+   <div style="clear:both;"></div>
+   
+   
+   <div id="banner">
+    <!-- 代码 开始 -->
+    <script src="js/foucs.js" type="text/javascript"></script>
+           <div id="img"> 
+            <a href="#"><img src="images/slider1.jpg" border="0" /></a>
+            <a href="#"><img src="images/slider2.jpg" border="0" /></a>
+            <a href="#"><img src="images/slider3.jpg" border="0" /></a>
+           </div>
+    <!-- 代码 结束 -->
+   </div>
+   <div style="clear:both;"></div>
+   
+   <div id="nav">
+      <div id="nav_1">
+        <div id="nav1">
+            <ul>
+              <li><a href="index.asp">网站首页</a></li><div id="line_sys"></div>
+              <li><a href="about.asp?nb_id=84&ns_id=195">公司概况</a></li><div id="line_sys"></div>
+              <li><a href="zdjs.asp?nb_id=85&ns_id=196">十九大专栏</a>
+<!--                  <ul>
+                    <li><a href="#">密码登陆</a></li>
+                  </ul>-->
+              </li>
+              <div id="line_sys"></div>
+              <li><a href="new_list.asp?nb_id=86&ns_id=197">企业文化</a></li><div id="line_sys"></div>
+              <li><a href="new_list.asp?nb_id=87&ns_id=198">党群工作</a></li><div id="line_sys"></div>
+              <li><a class="hide1" href="new_pic.asp?nb_id=88&ns_id=190">建设风采</a>
+                 <ul>
+                 
+							<li><a href="new_pic.asp?nb_id=88&ns_id=187">项目简介</a></li>
+                            
+							<li><a href="new_pic.asp?nb_id=88&ns_id=188">建设信息</a></li>
+                            
+							<li><a href="new_pic.asp?nb_id=88&ns_id=189">安全管理</a></li>
+                            
+							<li><a href="new_pic.asp?nb_id=88&ns_id=190">工地掠影</a></li>
+                            
+							<li><a href="new_pic.asp?nb_id=88&ns_id=191">建设文苑</a></li>
+                            
+                 </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+   </div>
+   <div style="clear:both;"></div>
+<div id="zxbb">
+       <div id="zxbb1"></div>
+       <div id="zxbb2">
+         <marquee  scrollamount=3>
+         
+       <span id="text_ts"><a href="new_list.asp?nb_id=89&ns_id=199&nws_id=595">2016年第三季度信用评价</a></span>  <span id="times">2016-10-26</span> <span style="color:#97002F;">|</span> 
+       <span id="text_ts"><a href="new_list.asp?nb_id=89&ns_id=199&nws_id=589">四川省仁寿经沐川至屏山新市（含马边支线）…</a></span>  <span id="times">2016-9-30</span> <span style="color:#97002F;">|</span> 
+       <span id="text_ts"><a href="new_list.asp?nb_id=89&ns_id=199&nws_id=588">四川省仁寿经沐川至屏山新市（含马边支线）…</a></span>  <span id="times">2016-9-30</span>
+         </marquee>
+       </div>
+   </div>
+   <div style="clear:both;"></div>  
+   <div id="inside_LR">
+       <div id="inside_left">
+          <!-------------------------------通知公告---------------------------------------->
+            <div id="tzgg_yer">
+                <div id="tzgg_yer1"><span>通知公告</span></div>
+                <div id="tzgg_yer2">
+                   <ul>
+                   
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=89&ns_id=194&nws_id=793">四川省高速公路建设从业单位20</a></span><span id="tzgg_times">2017-12-27</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=89&ns_id=194&nws_id=787">四川仁沐高速公路有限责任公司仁</a></span><span id="tzgg_times">2017-12-25</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=89&ns_id=194&nws_id=786">关于四川仁沐高速公路有限责任公</a></span><span id="tzgg_times">2017-12-22</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=89&ns_id=194&nws_id=782">四川仁沐高速公路有限责任公司营</a></span><span id="tzgg_times">2017-12-18</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=89&ns_id=194&nws_id=779">四川省仁寿至屏山新市公路仁寿至</a></span><span id="tzgg_times">2017-12-14</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=89&ns_id=194&nws_id=778">仁沐高速仁井段竣工资料询价文件</a></span><span id="tzgg_times">2017-12-14</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=89&ns_id=194&nws_id=762">四川仁沐高速公路有限责任公司工</a></span><span id="tzgg_times">2017-12-1</span></li>                       
+
+                   </ul>
+                   <div style="clear:both;"></div>
+                   <div id="more_a" style=" font:13px/30px 宋体; color:#333333;float:right;margin-right:20px;"><a href="new_list.asp?nb_id=89&ns_id=194">更多>></a></div>
+                </div>
+            </div>
+            <!-------------------------------通知公告---------------------------------------->
+            
+            <!-------------------------------管理系统---------------------------------------->
+            <div id="system_ter"><a href="#"><img src="images/rmgs_system.jpg"></a></div>
+            <div id="system_ter"><a href="#"><img src="images/rmgs_bgoa.jpg"></a></div>
+            <!-------------------------------管理系统---------------------------------------->
+            
+            <!-------------------------------党群工作---------------------------------------->
+            <div id="dqgz_yer">
+                <div id="dqgz_yer1"><span>党群工作</span></div>
+                <div id="dqgz_yer2">
+                   <ul> 
+                    
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=87&ns_id=198&nws_id=726">仁沐公司党总支第二次党员</a></span><span id="tzgg_times">2017-10-19</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=87&ns_id=198&nws_id=717">四川省仁寿至屏山新市公路</a></span><span id="tzgg_times">2017-9-22</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=87&ns_id=198&nws_id=716">中共四川仁沐高速公路有限</a></span><span id="tzgg_times">2017-9-22</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=87&ns_id=198&nws_id=715">中共四川仁沐高速公路有限</a></span><span id="tzgg_times">2017-9-22</span></li>                       
+
+<li><span id="tzgg_text">&middot;<a href="NewPage.asp?nb_id=87&ns_id=198&nws_id=633">仁沐公司党总支召开“两学</a></span><span id="tzgg_times">2017-3-1</span></li>                       
+
+                   </ul>
+                   <div style="clear:both;"></div>
+                   <div id="more_a" style=" font:13px/30px 宋体; color:#333333;float:right;margin-right:20px;"><a href="new_list.asp?nb_id=87&ns_id=198">更多>></a></div>
+                </div>
+            </div>
+            <!-------------------------------党群工作---------------------------------------->
+       </div>
+     <div id="inside_right">
+             <div id="inside_gsgs">
+                  <div id="inside_gsgs1"><span><a href="index.asp">网站首页</a> >> <a>新闻动态</a></span></div>
+                  <div id="inside_gsgs2">
+                      <div id="inside_texts">
+                      
+                       <h3 align="center" style="border-bottom:1px dotted #CCC;">四川省仁寿至屏山新市公路井研至新市段（含马边支线）环境监测招标公告</h3>
+                       <p><IMG border=0 src="/Htmledit/sysimage/icon16/pdf.gif"><A href="/uploadfiles/content/20171026115444411.pdf" target=_blank>四川省仁寿至屏山新市公路井研至新市段（含马边支线）环境监测招标公告.pdf</A></p>
+                        
+                      </div>
+                  </div>
+             </div>       
+       </div>
+   </div> 
+   <div style="clear:both;"></div>
+   <div id="bottom">
+    <br>Copyright  &copy; 2009-2013  四川仁沐高速公路有限责任公司  版权所有<br>
+     
+     地址：成都市武侯区二环路西一段90号四川高速大厦A505-3 
+ </div>
+</body>
+</html>

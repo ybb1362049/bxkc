@@ -1,0 +1,500 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie6" lang="zh-cn"><![endif]-->
+<!--[if IE 7 ]><html class="ie7" lang="zh-cn"><![endif]-->
+<!--[if IE 8 ]><html class="ie8" lang="zh-cn"><![endif]-->
+<!--[if IE 9 ]><html class="ie9" lang="zh-cn"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="" lang="zh-cn"><!--<![endif]-->
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	资阳市公共资源交易网
+</title><meta name="keywords" /><meta name="description" /><meta name="renderer" content="webkit" /><link type="text/css" rel="stylesheet" href="/Style/Default/Css/default.css" /><link type="text/css" rel="stylesheet" href="/Style/Ziyang_OldStyle/Css/default.width.css" ><link type="text/css" rel="stylesheet" href="/Style/Ziyang_OldStyle/Css/default.css" ><link href="/Css/Js.css" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 8]>
+	<script src="/Js/json2.js" type="text/javascript"></script>
+	<![endif]-->
+    <script src="/Js/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Js/Js.js"></script>
+    <script type="text/javascript" src="/Js/string.js"></script>
+    
+    <META   HTTP-EQUIV="Pragma"   CONTENT="no-cache">    
+  <META   HTTP-EQUIV="Cache-Control"   CONTENT="no-cache">    
+  <META   HTTP-EQUIV="Expires"   CONTENT="0">    
+    <style type="text/css">
+        /*重置浏览器标准*/
+        table { border-collapse:collapse;}
+        table td,table th { border:1px solid #c0c0c0; padding:6px 4px; }
+        table th { font-weight:700;}
+        img{max-width:840px;}/*登录*/
+        .mini-uis-box-login{background: url(/Images/logo_w_modal_bg.png) no-repeat -6px -5px;}
+    </style>
+    <style type='text/css'>.pc-left{display:none;}.pc-center{margin-left:0;}</style>
+
+    <script type="text/javascript">
+        var serverDateTime = new Date("2017-08-21 09:22:25");
+        var serverDateTimeIndex = 1;
+    </script>
+
+</head>
+<body>
+    <form method="post" action="23995" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMzYxMDE5OTk0ZGSwzHnDr89qbVcat/3knsSOfqIKuuho6I1BGvBL1TXp9w==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0CFF670F" />
+</div>
+        
+    
+<div class="toolbar Ziyang_OldStyle-toolbar">
+	<div class="layout">
+		<span class="tool-title">资阳市公共资源交易中心欢迎您！</span>
+        
+		<div class="fr">
+            
+		</div>
+	</div>
+</div>
+
+        <div class="swfbar">
+			<div class="layout swf-layout">
+				<div class="swf-file">
+					<div style="position:absolute;top:71px;right:150px;z-index:9;">
+						<object id="Object5" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="379" height="93">
+							<param name="movie" value="">
+							<param name="quality" value="high">
+							<param name="wmode" value="transparent">
+							<param name="swfversion" value="6.0.65.0">
+							<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+							<param name="expressinstall" value="../../Scripts/expressInstall.swf">
+							<!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+							<!--[if !IE]>-->
+							<object type="application/x-shockwave-flash" data="./Style/Ziyang/Images/nkwz.swf" width="379" height="93">
+								<!--<![endif]-->
+								<param name="quality" value="high">
+								<param name="wmode" value="transparent">
+								<param name="swfversion" value="6.0.65.0">
+								<param name="expressinstall" value="../../Scripts/expressInstall.swf">
+								<!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+								<div>
+									<h4>
+										此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+									<p>
+										<a href="http://www.adobe.com/go/getflashplayer">
+											<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33">
+										</a>
+									</p>
+								</div>
+								<!--[if !IE]>-->
+							</object>
+							<!--<![endif]-->
+						</object>
+					</div>
+				</div>
+			</div>
+		</div>
+    
+
+
+<!-- Navbar -->
+   
+        <div class="navbar">
+            <div class="nav">
+                <ul class="nav-group songti">
+                    <li class="nav-active first"><a href="/">首页</a></li>
+                    <li class="    "><a href="/Content/800_1">机构概况</a></li>
+                    <li class="    "><a href="/Content/56_1">工作动态</a></li>
+                    <li class="    "><a href="/Content/36_1">政策法规</a></li>
+                    <li class="    "><a href="/Content/35_1">办事指南</a></li>
+                    <li class="    "><a href="/Content/37_1">下载中心</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+    
+    <div style="background-color:#fff;padding-top:12px;">
+    <div class="layout">
+		<div id="web_pohf_box songti" class="web-pof">
+            <span id="ctl00_web_pohf"> 当前位置：<a href="/">首页</a>&nbsp;&gt;&nbsp;<a class="" href="/Content/600_1">采购公告</a>&nbsp;&gt;&nbsp;<a class="" href="/Content/603_1">采购公告</a>&nbsp;&gt;&nbsp;<a class="active" href="/Content/603_1">采购公告</a>
+        </div>
+        
+		<div class="box-frame box-frame-detail  mt12" style="border-top:0;">
+			<div class="box-header" style="text-align:left;border-left:0;border-right:0;"></div>
+			<div class="box-container" style="border-left:0;border-right:0;">
+				<div style="padding:21px 8px;text-align:center;">
+                 
+                    <div class="notice-title" style="font-size:22px;line-height:41px; color:#F00;margin-left:50px;margin-right:50px;">
+                        资阳市公安局雁江区分局采购高清多点控制及电视电话会议终端设备
+                    </div>
+                    <div class="notice-publish-info" style="height:32px;line-height:32px;color:#5d5d5d;background-color:#d9d9d9;margin:0 65px;">
+                            
+                            <span>发布时间：2017年06月22日</span>
+
+                        <span style="padding-left:30px;">阅读次数：1011</span>
+                    </div>
+                    <div style="color:#5d5d5d;padding:0 65px 66px 65px;text-align:left;">
+                        <div style="font-size:14px;text-align:left;padding-bottom:10px;padding-left:10px;">
+                            <span id="23995_INFO_GZ"></span>
+                        </div>
+                            <div class="sdfsdfdsfdsfdsf">
+                            <!--begin-->
+
+<style type='text/css'>
+    .SingleetTable_CG
+    {
+        width: 98%;
+        border-collapse: collapse;
+        margin-left: 1%;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .SingleetTable_CG th
+    {
+        width: 23%;
+        text-align: right;
+        padding-right: 2px;
+        border: 1px solid #DDDDDD;
+        font-family: 宋体;
+        font-size: 13px;
+        font-weight: normal;
+        padding: 6px;
+        overflow: inherit;
+        position: inherit;
+    }
+    .SingleetTable_CG td
+    {
+        width: 77%;
+        text-align: left;
+        padding-left: 2px;
+        border: 1px solid #DDDDDD;
+        color: #2A91C4;
+        padding: 6px;
+        font-size: 13px;
+    }
+</style>
+<div style="overflow:auto;"><table class="SingleetTable_CG" style="border:0;border-collapse:collapse;">
+    <tbody>
+        
+                
+                <tr style=""><th>招标编号</th><td>ZYZFCG（2017）044</td></tr>
+            
+                
+                <tr style=""><th>采购方式</th><td>竞争性谈判     </td></tr>
+            
+                
+                <tr style=""><th>公告时间</th><td>2017年06月22日 16时43分</td></tr>
+            
+                
+                <tr style=""><th>谈判文件发售方式</th><td>电子报名/网上发售,供应商登录资阳市公共资源网上竞价平台(http://web.ebid.zyjyw.cn)下载招标文件。具体操作说明请下载使用手册。                                               </td></tr>
+            
+                
+                <tr style="display:none;"><th>谈判文件是否整体发售</th><td>是</td></tr>
+            
+                
+                <tr style=""><th>整体发售价格(元)</th><td>免费报名</td></tr>
+            
+                
+                <tr style=""><th>谈判文件发售开始时间</th><td>2017年06月23日 08时30分</td></tr>
+            
+                
+                <tr style=""><th>谈判文件发售截止时间</th><td>2017年06月27日 18时00分</td></tr>
+            
+                
+                <tr style=""><th>保证金缴纳方式</th><td>网上缴纳：供应商登录资阳市公共资源交易网(http://web.ebid.zyjyw.cn)网上缴纳保证金。具体操作说明请下载使用手册。                                           </td></tr>
+            
+                
+                <tr style="display:none;"><th>是否整体缴纳投标保证金</th><td>是</td></tr>
+            
+                
+                <tr style=""><th>整体保证金金额(元)</th><td>4000</td></tr>
+            
+                
+                <tr style=""><th>保证金缴纳截止时间</th><td>2017年06月27日 18时00分</td></tr>
+            
+                
+                <tr style=""><th>响应文件递交地点</th><td>资阳市公共资源交易中心开标室                              </td></tr>
+            
+                
+                <tr style=""><th>响应文件递交截止时间</th><td>2017年07月03日 09时30分</td></tr>
+            
+                
+                <tr style=""><th>谈判时间</th><td>2017年07月03日 14时30分</td></tr>
+            
+                
+                <tr style=""><th>谈判地点</th><td>资阳市公共资源交易中心开标室                              </td></tr>
+            
+                
+                <tr style=""><th>采购代理机构联系方式</th><td>采购科（标书内容咨询、质疑受理）028-26630927；综合科（保证金收退咨询）028-26630188；</br>如需咨询政府采购缴纳投标保证金相关操作，请随时拔打028-85186230转812、813、816技术服务电话                                                                            </td></tr>
+            
+                
+                <tr style=""><th>备注</th><td>（1）为促进充分竞争，尽可能降低交易成本，切实方便广大投标人投标，资阳市公共资源交易中心政府采购活动现已实行网上报名（资阳市公共资源交易网www.zyjyw.cn电子交易平台）。具体操作手册请在资阳市公共资源交易网下载中心查阅，或电话联系我们：采购科（标书内容咨询、质疑受理）028-26630927；综合科（保证金收退咨询）028-26630188；如需咨询政府采购缴纳谈判保证金相关操作，请拨打028-85186230转812、813、816技术服务电话。
+（2）采购人对已发出的招标文件进行澄清或者修改，一律通过四川政府采购网公开发布，相关澄清或者修改的内容，均为招标文件的组成部分，务请广大投标人注意及时了解和下载。投标人因自身原因未及时查阅、下载而带来的一切后果，均应自行负责。）
+</td></tr>
+            
+    </tbody>
+</table></div>
+
+<!--begin legalnoticeaddress--><div style='padding-left:20px;'><b>本公告内容若与四川省政府采购网（http://www.sczfcg.com）公告内容不符，以四川省政府采购网公告内容为准。</b></div><div style='padding-left:20px;'><b>法定媒体公告地址：<a target="_blank" href="http://www.sczfcg.com/view/staticpags/shiji_jzxtpcg/402886875c5c048e015ccede0fad0464.html">http://www.sczfcg.com/view/staticpags/shiji_jzxtpcg/402886875c5c048e015ccede0fad0464.html</a></b></div><!--end legalnoticeaddress-->
+                            </div>
+                    </div>
+                    <style type="text/css">
+                        /*修正样式*/
+                        .div_content {width:auto;}
+                    </style>
+                    <script type="text/javascript">
+                        $.ajax({
+                            type: "GET",
+                            contentType: "application/json",
+                            url: ("/Handler/Project.ashx?Flag=GetBidNoticeCorrectionNotice&noticeids=" + 23995),
+                            success: function (data) {
+                                var a = data.split(",");
+                                for (var i = 0; i < a.length; i++) {
+                                    var b = a[i].split("-");
+
+                                    if (b.length > 1) {
+                                        $("#" + b[0] + "_INFO_GZ").html('<a target="_blank" style="color:#2A61CB;" href="/Content/' + b[1] + '_1/' + b[2] + '">查看更正公告</a>');
+                                    }
+                                }
+
+                            },
+                            error: function (e) {
+                                js.screen(false);
+                            }
+                        });
+                    </script>
+                   
+                </div>
+                <div>
+                    
+<style type="text/css">
+    .button-controls { padding: 4px 0px; }
+    .button-look, .button-addserver { border: 0; background-color: #ffffff; }
+    .button-controls .button { cursor: pointer; border: 1px solid #49b8f1; padding: 8px 14px; font-size: 14px; font-weight: 700; margin-right: 12px; }
+    .button-controls .button-look, .button-controls .button-addserver { color: #49b8f1; }
+    .button-controls .button-none { border-color: #fff; background-color: #fff; color: #fff; text-shadow: none; }
+    .button-controls .button-failure { border-color: #f0f0f0; background-color: #f0f0f0; color: #cccccc; }
+</style>
+<script type="text/javascript">
+    //查看标书
+    function LookTendens() {
+        var dUrl = '';
+        window.open(dUrl);
+        return false;
+    }
+
+    function UserApply() {
+        $.post("/Handler/Project.ashx", { Flag: "UserApply", nrid: "23995" }, function (data) {
+            alert(data);
+            if (/操作成功/.test(data)) {
+                location.reload();
+            }
+        });
+    }
+</script>
+<script type="text/javascript">
+    var checkDown = false;
+    function DownLoadCheck(check) {
+        var signMark = "false" == "true";
+        var signPlayProjectLink = '/Bank/BankList.aspx?MenuMark=1&mark=3&key=&djid=22542';
+        if (signMark) {
+            window.location.href = signPlayProjectLink;
+            return false;
+        }
+
+        js.gomsg("当前未登陆，请登录后再继续操作。", "/AccountLogin.aspx?methods=center,buss,supp&type=supp&ReturnUrl=" + signPlayProjectLink.replace("?", "_s7_").replace(/\&/g, "_s7s7_"));
+    }
+
+</script>
+<script type="text/javascript">
+    function PlayProject() {
+        $('#sign_submit_control').hide();
+        js.ajaxsubmit("/Handler/Handler.ashx?Flag=DownloadDocumentsInfo", { pid: '23995' }, function (data) {
+            if (/登录后再试/.test(data)) {
+                $('#sign_submit_control').show();
+                js.screen(false);
+                return;
+            }
+
+            var msg = data.toString();
+            if (msg.toString().indexOf("|") == -1) {
+                js.alert(msg);
+            } else {
+                var array = msg.toString().split("|");
+                js.gomsg(array[0], array[1]);
+            }
+            js.demindMode = "default";
+        });
+    }
+</script>
+<div class="button-controls" style="text-align:center;">
+    
+    
+    <input type='button' class='button button-addserver' title='招投标' value='我要报名' onclick="return DownLoadCheck();">
+    
+</div>
+
+<div id="sign_submit_control" style="position:relative;display:none;">
+<div style="position: fixed;left:40%;top:30%;">
+<div style="width:260px;margin:0 auto;border:1px solid #555;">
+	<div class="mini-uis-box mini-uis-box-login" style="width: 260px;height:203px; overflow: hidden;display:block;margin:0 auto;background-position:-6px -10px;">
+		<div class="uisc" style="padding:0;margin:16px 0 0 30px;width:205px;height:168px;">
+			<style type="text/css">
+				.nav-login .text{background:none;display:block;line-height:16px;padding:6px 0; width:100%;outline:0;font-size:14px;border:0;}
+				.nl-forms{padding:4px 5px 4px 4px;margin-bottom:4px;}
+				.nl-control{padding-left:40px;border:1px solid #c0c0c0;}
+				.nl-forms-focus{background:url(/Images/logo_w_text_edit.gif) no-repeat;}
+				.nl-forms-focus .nl-control{border-color:#59baff;}
+				.nl-forms-edit .text{background:#fff;}
+			</style>
+			<div id="nav_login" class="nav-login">
+				<div class="nl-forms">
+					<div class="nl-control">
+						<input id="txtbsn" type="text" class="text">
+					</div>
+				</div>
+				<div class="nl-forms">
+					<div class="nl-control">
+						<input id="txtygzh" autocomplete="off"  type="text" class="text">
+					</div>
+				</div>
+				<div class="nl-forms">
+					<div class="nl-control">
+						<input id="txtpass" autocomplete="off" type="password" class="text">
+					</div>
+				</div>
+				<div class="nl-forms" style="padding:8px 0 0 4px;">
+					<button type="button" style="width: 196px;height:34px;border:0;background:none;" onclick="Login()"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script type="text/javascript">
+        function focus_text() {
+            var t = $(this), tp = t.parent().parent();
+            tp.addClass("nl-forms-edit").addClass("nl-forms-focus");
+        }
+        function blur_text() {
+            var t = $(this), tp = t.parent().parent();
+            tp.removeClass("nl-forms-focus");
+            if (t.val().trim().length == 0)
+                tp.removeClass("nl-forms-edit");
+        }
+        $(function () {
+            $("#txtbsn,#txtygzh,#txtpass").keydown(function () {
+                if (event.keyCode == 13) {
+                    var _txtBossName = $("#txtbsn").val(), _txtUserName = $("#txtygzh").val(), _txtUserPwd = $("#txtpass").val(), _code = $("#txtyzm").val();
+                    if ($.trim(_txtBossName) == "") {
+                        js.alert("BOSS号（单位账号）不能为空。", 5000, 1);
+                    }
+                    else if ($.trim(_txtUserName) == "") {
+                        js.alert("员工账号不能为空。", 5000, 1);
+                    }
+                    else if ($.trim(_txtUserPwd) == "") {
+                        js.alert("登录密码不能为空。", 5000, 1);
+                    }
+                    else
+                        Login();
+                }
+            });
+            $("#h_title a").click(function () {
+                $(this).parent().children().removeClass("active");
+                $(this).addClass("active");
+            });
+            $("#nav_login").find(".text").focus(focus_text).blur(blur_text);
+        });
+            var refurl = "/";
+        function Login() {
+            var _isC = /#Center_Login/.test(window.location.href) == true;
+
+            js.screen(true);
+            js.alert("正在验证登录信息...", -1, 1);
+
+            var _txtBossName = $("#txtbsn").val()
+                                      , _txtUserName = $("#txtygzh").val()
+                                      , _txtUserPwd = $("#txtpass").val()
+                                      , _code = $("#txtyzm").val();
+
+            js.ajaxsubmit("/Ajax/Sign.ashx?Flag=Login"
+                , { loginMethod: (_isC ? "egp" : "supplier"), txtbossh: _txtBossName, txtygzh: _txtUserName, txtygmm: _txtUserPwd, code: _code, refurl: refurl, type: (_isC ? "center" : "supp") }
+                , function (msg) {
+                    if (/登录成功/.test(msg)) {
+                        var array = msg.toString().split("|");
+
+                        var array2 = msg.toString().split("#");
+                        if (array2.length > 1) {
+                            alert(array2[1]);
+                        }
+                        if (window.PlayProject)
+                            window.PlayProject(true,msg);
+                        else {
+                            js.gomsg("登录成功", array[1], 1);
+                        }
+                    }
+                    else {
+                        if (window.PlayProject) { 
+                            window.PlayProject(false,msg);
+                        }
+                        else {
+                            var array = msg.toString().split("|");
+                            if (array.length > 1)
+                                js.gomsg(array[0], array[1], 1);
+                            else
+                                js.alert(msg);
+                            js.screen(false); 
+                        }
+                    }
+                    js.demindMode = "default";
+                });
+        }
+    </script>
+</div>
+</div>
+</div>
+
+                    <div style="height:20px;"></div>
+                </div>
+			</div>
+		</div>
+	</div>
+    </div>
+    
+<div class="copyright-info copyrightbar mt12">
+	<div class="layout" style="text-align:center;padding:0;">
+        <div style="width:1140px;margin:0 auto;">
+            <div class="center-pic">
+                <img class="fl" src="/Style/Ziyang_OldStyle/Images/foot_logo.jpg" title="四川省资阳市公共资源交易中心" />
+                <img class="fr" style="width:1px;height:120px;" src="/Style/Ziyang_OldStyle/Images/foot_jg.jpg"/>
+            </div>
+            <div class="fl ta-left" style="line-height:20px;">
+                <div style="padding-top:20px;padding-left:10px;color:#000;">资阳市公共资源交易中心主办 邮政编码：641300，电话：028-26630937；传真：028-26630937</br>
+                Copyright 2010-2011 资阳市公共资源交易中心主办 All Rights Reserved</br>
+                建议分辨率 1024*768
+                </div>
+            </div>
+            <div class="fr" style="padding-top:25px;">
+                <div>
+                    <img src="/Style/Ziyang_OldStyle/Images/ga.gif" />
+                    <img src="/Style/Ziyang_OldStyle/Images/ico3.gif" />
+                </div>
+                <div class="fs14 yahei" style="color:#0055aa;">
+                    蜀ICP备05030988号
+                </div>
+            </div>
+                 <div  style="display:inline;margin-top: 16px; float: right;"><script type="text/javascript">
+                 document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/350/0000/60496064/CA233500000604960640002.js ' type='text/javascript'%3E%3C/script%3E"));</script>
+                 </div>
+	</div>
+</div>
+
+
+    <style type="text/css">
+    .SingleetTable_CG th{text-align:left;}
+    .small_tab_2 th{padding-left:0;padding-right:0;text-align:center;}
+    .small_tab_2 td{padding-left:3px;padding-right:3px;text-align:center;}
+    </style>
+    
+
+    </form>
+</body>
+</html>

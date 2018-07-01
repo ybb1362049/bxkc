@@ -1,0 +1,227 @@
+
+<!doctype html>
+<html>
+<head><meta charset="utf-8" /><title>
+	公告公示 - 四川雅西高速公路有限责任公司
+</title><meta name="format-detection" content="telephone=no" /><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta target="_blank" name="keywords" content="四川雅西高速公路有限责任公司,雅西高速，高速公路，雅西高速公路" />
+<meta target="_blank" name="description" content="四川雅西高速公路有限责任公司正在实施的项目――雅泸高速公路――属亚行贷款项目，是国家高速公路网七条首都放射线中北京至昆明的一段，是国家规划的西部大通道甘肃兰州至云南磨憨口岸公路的重要组成部分，位于四川省西南部的雅安市、凉山州境内，是成雅高速公路和泸黄高速公路的衔接路段，建成后即可贯通成都至西昌至攀枝花，通达云南，使西部地区与启动的中国—东盟经济区相连。项目的建设，对完善四川省总体路网规划布局，促进项目区经济发展具有重要意义，也有利于沿线少数民族加强与外界的经济和文化交流，加快少数民族地区社会经济全面发展。" />
+<link rel="stylesheet" type="text/css" href="css/style.css" /><link rel="stylesheet" type="text/css" href="css/responsive.css" /><link rel="stylesheet" type="text/css" href="css/slick.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<link rel="shortcut icon" href=" /favicon.ico" /></head>
+
+<body>
+
+<!--head-->
+<div class="site-head">
+  <div class="w clearfix"> <a href="index.aspx" class="logo fl"><img src="images/logo.png"></a>
+    <div class="search fr">
+        <form method="get" action="news.aspx?mid=288">
+            <input type="text" class="inpt" name="key" placeholder="请输入关键词进行查询">
+      <input type="submit" value="" class="btn">
+        </form>
+      
+    </div>
+	 <div class="menuBtn" id="menu-handler"><span class="burger burger-1"></span><span class="burger burger-2"></span><span class="burger burger-3"></span></div>
+  </div>
+</div>
+   <!--手机导航-->
+<div class="menu-mark"></div>
+<div class="menu-fix">
+  <ul class="menu-list">
+	 <li> <a href="index.aspx">首页</a> </li>
+	<li><a href="about.aspx?mid=299">公司介绍</a></li>
+	<li><a href="news.aspx?mid=288">新闻中心</a></li>
+	<li><a href="news.aspx?mid=315">高速服务</a></li>
+	<li><a href="news.aspx?mid=335">公示公告</a></li>
+	<li><a href="news.aspx?mid=320">党纪工团</a></li>
+	<li><a href="news.aspx?mid=332">企业文化</a></li>
+	 <li><a href="news.aspx?mid=330">专题报道</a></li>
+  </ul>
+</div>
+<!--手机导航 End--> 
+
+<div class="site-nav">
+  <ul class="w clearfix">
+    <li> <a href="index.aspx" class="far">首页</a> </li>
+    <li><a href="about.aspx?mid=299" class="far">公司介绍</a>
+
+      <dl>
+            
+                    <a  href="about.aspx?mid=299">公司介绍</a>
+                
+                    <a  href="about.aspx?mid=334">组织架构</a>
+                
+                    <a  href="about.aspx?mid=314">企业荣誉</a>
+                     
+      </dl>
+    </li>
+    <li><a href="news.aspx?mid=288" class="far">新闻中心</a>
+           <dl>
+            
+                    <a  href="news.aspx?mid=288">公司新闻</a>
+                
+                    <a  href="news.aspx?mid=289">媒体报道</a>
+                
+                    <a  href="news.aspx?mid=307">行业关注</a>
+                
+                    <a  href="news.aspx?mid=331">视频新闻</a>
+                     
+      </dl>
+    </li>
+    <li><a href="news.aspx?mid=315" class="far">高速服务</a>
+           <dl>
+            
+                    <a  href="news.aspx?mid=315">路况信息</a>
+                
+                    <a  href="news.aspx?mid=339">便民服务</a>
+                     
+      </dl>
+    </li>
+    <li><a href="news.aspx?mid=335" class="far">公示公告</a>
+           <dl>
+            
+                    <a  href="news.aspx?mid=335">招标公告</a>
+                
+                    <a  href="news.aspx?mid=336">信息公开</a>
+                
+                    <a  href="news.aspx?mid=337">安全工作</a>
+                     
+      </dl>
+    </li>
+    <li><a href="news.aspx?mid=320" class="far">党纪工团</a>
+           <dl>
+            
+                    <a  href="news.aspx?mid=320">党建工作</a>
+                
+                    <a  href="news.aspx?mid=321">廉洁建设</a>
+                
+                    <a  href="news.aspx?mid=322">群团工作</a>
+                     
+      </dl>
+    </li>
+    <li><a href="news.aspx?mid=332" class="far">企业文化</a>
+           <dl>
+            
+                    <a  href="news.aspx?mid=332">员工风采</a>
+                
+                    <a  href="product.aspx?mid=325">最美雅西</a>
+                
+                    <a  href="news.aspx?mid=327">依法治企</a>
+                
+                    <a  href="news.aspx?mid=328">三项制度改革</a>
+                     
+      </dl>
+    </li>
+    <li><a href="news.aspx?mid=330" class="far">专题报道</a>
+           <dl>
+            
+                    <a  href="news.aspx?mid=330">两学一做</a>
+                
+                    <a  href="news.aspx?mid=340">十九大</a>
+                     
+      </dl>
+    </li>
+  </ul>
+</div>
+    
+  
+    
+    
+<!--banner-->
+<div class="nybanner" style="background-image:url(images/信息公开.png);">
+ 
+</div>
+<!--main-->
+<div class="ny-main">
+  <div class="w  clearfix"> 
+      
+<!--left-->
+    <div class="left fl">
+      <h3 class="left-top"> 公告公示</h3>
+      <div class="left-menu">
+          
+           
+                    <a  class="active"   href="news.aspx?mid=335" title="招标公告">招标公告</a>
+                
+                    <a  class=""   href="news.aspx?mid=336" title="信息公开">信息公开</a>
+                
+                    <a  class=""   href="news.aspx?mid=337" title="安全工作">安全工作</a>
+                     </div>
+      <ul class="inTool">
+        <li><a target="_blank" href="http://218.89.222.217:8089/login.php">协同办公系统</a></li>
+        <li><a href="#">建设管理系统</a></li>
+        <li><a href="#">建设管理系统</a></li>
+      </ul>
+    </div>
+    <!--left--> 
+    <!--right-->
+    <div class="right fr">
+        
+  <div class="right-top clearfix">
+        <h3 class="tit fl">招标公告</h3>
+        <div class="pos fr"> 首页 &gt;&gt; 公告公示 &gt;&gt; 招标公告</div>
+      </div>
+        
+      <ul class="right-news">
+          
+                      <li>
+          <div class="date">
+            <p class="p1">03日</p>
+            <p class="p2">2018年01月</p>
+          </div>
+          <div class="word">
+            <h3 class="t"><a href="newshow.aspx?mid=335&&id=4689">雅西高速公路皮卡车、轮胎采购询价公告</a></h3>
+            <div class="c">雅西高速公路皮卡车、轮胎采购询价公告</div>
+          </div>
+        </li>
+              
+                      <li>
+          <div class="date">
+            <p class="p1">03日</p>
+            <p class="p2">2018年01月</p>
+          </div>
+          <div class="word">
+            <h3 class="t"><a href="newshow.aspx?mid=335&&id=4688">雅西高速公路50型装载机等设备采购询价公告</a></h3>
+            <div class="c"></div>
+          </div>
+        </li>
+              
+                      <li>
+          <div class="date">
+            <p class="p1">13日</p>
+            <p class="p2">2017年12月</p>
+          </div>
+          <div class="word">
+            <h3 class="t"><a href="newshow.aspx?mid=335&&id=4567">川高系统2018-2020年桥梁定期检查项目招标公告</a></h3>
+            <div class="c">川高系统2018-2020年桥梁定期检查项目（以下简称“本项目”）由四川高速公路建设开发总公司以《关于川高系统2018-2020年度桥梁定期检查招标方案的批复》 川高路函【2017】692号文批准实施，资金来源为各营运高速公路...</div>
+          </div>
+        </li>
+              
+    
+      </ul>
+      <!--page-->
+      <div class="right-page"> 
+          <span id="ctl00_ContentPlaceHolder1_pager1_pagelab"><div class="SplitPage" align="center"><a href='http://www.yaxigaosu.com/news.aspx?mid=335&page=1'>首页</a> <a href='http://www.yaxigaosu.com/news.aspx?mid=335&page=1'>上一页</a> <span class='nowpage'> 1 </span> <a href='http://www.yaxigaosu.com/news.aspx?mid=335&page=1'>下一页</a>  <a href='http://www.yaxigaosu.com/news.aspx?mid=335&page=1'>尾页</a> </div>
+</span>
+
+   
+      </div>
+      <!--page End--> 
+    </div>
+    <!--right End--> 
+  </div>
+</div>
+
+
+<!--footer-->
+<div class="footer">
+  <p><a href="about.aspx?mid=303">联系我们</a> </p>
+  <p>版权所有©四川雅西高速公路有限责任公司 <a style="color:white" href="http://www.miitbeian.gov.cn" target="_blank">蜀ICP备17033761号</a></p>
+  <p>技术支持：<a style="color:white" href="http://www.mingtengnet.com/" target="_blank">明腾网络</a>  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspanid='cnzz_stat_icon_1271483912'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D1271483912%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></p>
+</div>
+<div class="return-top" title="返回顶部"></div>
+</body>
+</html>

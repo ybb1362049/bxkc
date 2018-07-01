@@ -1,0 +1,1402 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="Keywords" content="安徽招标网 安徽招标咨询网 招标网 招标咨询网 安徽招标投标信息网" /><meta name="description" content="安徽招标咨询网 安徽招标网 安徽招标投标网 招投标网 安徽省招标信息最全面 更新最及时 项目信息最权威的招标网 安徽中技工程咨询有限公司" />
+<title>长丰县阳光电力维修工程有限责任公司下塘镇街道（下塘路、振兴路）架空线入地改造工程所需电缆采购招标公告-安徽招标咨询网 www.ahbc.com.cn</title>
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<link type="text/css" rel="stylesheet" href="css/firstlevel.css" />
+<link type="text/css" rel="stylesheet" href="css/thirdlevel.css" />
+<link type="text/css" rel="Stylesheet" href="css/alertcss.css" />
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/jsnow.js"></script>
+<script type="text/javascript" src="js/dropmenu.js"></script>
+<script type="text/javascript" src="js/ShowBox.js"></script>
+<style type="text/css">
+html{ height:100%;}
+body{ height:100%;}
+</style>
+
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG.js"></script>
+<script>
+  DD_belatedPNG.fix('.main_ss_bg,.login_intro ul li,.project_list ul li,.Price_arr01 a,.Price_arr02 a,.link_list,.download_list,.download_list ul li,.project_list_s ul li,.bot_01,.top_logbtn02 ul li span,.second_nav_00,.second_nav ul li a:hover,.vipicon img,.project_list02 ul li,.fastnav_list ul li ul li,.side_qa_list ul li,.list_title ul li');
+</script>
+<![endif]-->
+<script type="text/javascript">
+    function MM_swapImgRestore() { //v3.0
+        var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+    function MM_preloadImages() { //v3.0
+        var d = document; if (d.images) {
+            if (!d.MM_p) d.MM_p = new Array();
+            var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; } 
+        }
+    }
+
+    function MM_findObj(n, d) { //v4.01
+        var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+            d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+        if (!x && d.getElementById) x = d.getElementById(n); return x;
+    }
+
+    function MM_swapImage() { //v3.0
+        var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+            if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+    }
+
+//    document.oncontextmenu = new Function('event.returnValue=false;');
+
+//    document.onselectstart = new Function('event.returnValue=false;');
+
+
+
+    function ShowMessage(txt, msgtype) {
+        var imgurl = "images/";
+        switch (msgtype) {
+            case "success":
+                imgurl = imgurl + "dialog_right.png";
+                break;
+            case "fib":
+                imgurl = imgurl + "dialog_forbidden.png";
+                break;
+            default:
+                imgurl = imgurl + "dialog_forbidden.png";
+                break;
+
+        }
+
+        new Alert('but', 'box', {
+            title: '提示信息',
+            content: '<div class="size"><div class="info_area"><img style="width:32px;height:32px;" align="absmiddle"  src=' + imgurl + '  /><span class="text_area">' + txt + '</span></div></div><div class="but"><button class="button">确定</button></div>',
+            width: '',
+            height: '180',
+            top: '300px',
+            left: '',
+            fixed: '',
+            close: 'close'
+        });
+
+        document.getElementById('but').click();
+
+
+    }
+
+
+    function ShowVisitMethod() {
+
+
+        new Alert('but', 'box', {
+            title: '提示信息',
+            content: '<div class="size"><div class="info_area"><img style="width:32px;height:32px;" align="absmiddle"  src=' + imgurl + '  /><span class="text_area">' + txt + '</span></div></div><div class="but"><button class="button">确定</button></div>',
+            width: '',
+            height: '180',
+            top: '300px',
+            left: '',
+            fixed: '',
+            close: 'close'
+        });
+
+        document.getElementById('but').click();
+
+
+
+    }
+
+
+    function RedirectUrl(url) {
+        window.location.href = url;
+
+    }
+
+    function VipSignUpLink(type, links) {
+
+
+        $('#divAd').hide();
+        var infohtml = "";
+
+        var height = "200px";
+        if (type == "1") {
+            infohtml = $('#feivip').html();
+        } else {
+            infohtml = $('#isvip').html();
+            infohtml = infohtml.replace('#rlink', links);
+        }
+
+
+        new Alert('but', 'box', {
+            title: '报名通道',
+            content: '<div class="size">' + infohtml + '</div>',
+            width: '300px',
+            height: height,
+            top: '300px',
+            left: '',
+            fixed: '',
+            close: 'close'
+        });
+
+        document.getElementById('but').click();
+
+
+
+    }
+
+
+    function SignUpInfoHide() {
+        document.getElementById('L_Close').click();
+    }
+
+
+  
+</script>
+</head>
+
+<body>
+<form method="post" action="./TenderInfo.aspx?clientin=DE386AB5FED2C197" id="ctl00">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzkyMDI4NTYyZGRtY2DmJyStbdl9DtIr6RFbLw/PEOkT3k/kt/SCjOhH+A==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B17C2E7A" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAN19t44z9+Oi51ZzYpqLzwWzfg78Z8BXhXifTCAVkevd8VB7sljjYcoOigI9BHAMPHNJnZ5XCM0ZqRkeumYYeoEhlyuclPjc3/VKWxOjw+mFw==" />
+</div>
+<div style=" display:none;"><input type="button" id="but" /> </div>
+
+
+
+
+
+
+<div id="header">
+  <div id="top_login">
+    <div class='top_login_btn'><div class='top_logbtn02'> <ul> <li>    <a href='serviceCenter.aspx' style='padding-right:2px;'>服务中心</a> <ul class='top_servnav'> <li><a href='serviceCenter.aspx'>关于我们</a></li> <li><a href='visitorsGuide.aspx'>访客引导</a></li><li><a href='advertising.aspx'>广告合作</a></li><li><a href='faq.aspx'>常见问题</a></li><li style='border-bottom:0;'><a href='feedBack.aspx'>意见反馈</a></li></ul><span ></span></li> <li><a href='map.aspx'>网站地图</a></li> <li><a href='contactUs.aspx'>联系我们</a></li>  <li><a href='myCommission.aspx'>信息订阅</a></li>   </ul>  </div><div class='top_logbtn01'><a href='login.aspx?backurl=http://www.ahbc.com.cn/TenderInfo.aspx?clientin=DE386AB5FED2C197'>登录</a> | <a href='register.aspx?backurl=http://www.ahbc.com.cn/TenderInfo.aspx?clientin=DE386AB5FED2C197'>注册</a></div></div>
+
+      <div id="top_service"></div>
+  </div>
+  <div id="nav">
+    <div id="logo"><a href="index.aspx"><img src="images/index_14.png"  style="border:none"/></a></div>
+    <div id="main-nav">
+      <ul id="topnav">
+        <li><a href="index.aspx">首页</a></li>
+        <li><span><a href="bulletin.aspx"  class="navhover" style="color:#b11113;">招采公告</a></span>
+          <ul class="subnav">
+            <li><a href="djfb.aspx">独家发布</a></li>
+            <li><a href="TenderList.aspx">省级招标</a></li>
+            <li><a href="CCTenderList.aspx">市县招标</a></li>
+            <li><a href="LandTransactions.aspx">土地交易</a></li>
+            <li><a href="propertyTransactions.aspx">产权交易</a></li>
+            <li><a href="changeNotice.aspx">变更通知</a></li>
+            <li><a href="ContractAward.aspx">中标公示</a></li>
+            <li><a href="MemberRelList.aspx">会员发布</a></li>
+            <li style="border:0;"><a href="download.aspx">文件下载</a></li>
+          </ul>
+        </li>
+        <li><span><a href="projects.aspx">项目信息</a></span>
+          <ul class="subnav">
+          <li><a href="willBeConstructed.aspx?Type=NJ">拟建项目</a></li>
+            <li><a href="track.aspx">项目跟踪</a></li>
+            <li><a href="willBeConstructed.aspx?Type=ZJ">在建项目</a></li>
+            <li><a href="ProjectApp.aspx">立项审批</a></li>
+            <li><a href="priceInfor.aspx">价格信息</a></li>
+            <li><a href="projectPlanning.aspx">项目规划</a></li>
+             <li style="border:0;"><a href="HiTechResult.aspx" target="_blank">技术成果</a></li> <li style="border:0;"><a href="HiTechDemand.aspx" target="_blank">技术需求</a></li>
+
+          </ul>
+        </li>
+        <li><span><a href="news.aspx">资讯中心</a></span>
+          <ul class="subnav">
+           <li style="border:0;"><a href="ProjectInformation.aspx" target="_blank">项目资讯</a></li>
+           <li style="border:0;"><a href="ProjectManage.aspx" target="_blank">项目管理</a></li>
+            <li><a href="theoreticalStudy.aspx">理论研究</a></li>
+            <li style="border:0;"><a href="FeaturedStories.aspx" target="_blank">精选案例</a></li>
+            <li style="border:0;"><a href="ExamInformation.aspx" target="_blank">考试资讯</a></li>
+            <li style="border:0;"><a href="creditRecords.aspx">诚信记录</a></li>
+          </ul>
+        </li>
+        <li><a href="regulations.aspx">政策法规</a></li>
+        <li><a href="ComList.aspx">企业展区</a></li>
+        <li><span><a href="memberCenter.aspx">会员中心</a></span>
+          <ul class="subnav">
+            <li><a href="vipDedicated.aspx">VIP专享</a></li>
+            <li><a href="privilege.aspx">特权介绍</a></li>
+            <li style="border:0;"><a href="defray.aspx">支付中心</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="container">
+  <div id="mainbg">
+    <div class="column_title">
+      <div class="today_new_2" style="background:none;">
+        <h2>招采公告</h2>
+      </div>
+    </div>
+
+    
+    <div id="main_search">
+      <div class="main_ss_bg">
+        <div id="jump" >
+          <div class="quanbu"><a id="newstype">全部</a></div>
+          <span><a href="#"></a></span>
+          <ul class="searchnav" >
+          <li><a href="javascript:void(0);" onclick="SetNewsType('全部')">全部</a></li>
+            <li><a href="javascript:void(0);" onclick="SetNewsType('招采公告')">招采公告</a></li>
+            <li><a href="javascript:void(0);" onclick="SetNewsType('项目信息')">项目信息</a></li>
+            <li><a href="javascript:void(0);" onclick="SetNewsType('资讯中心')">资讯中心</a></li>
+            <li><a href="javascript:void(0);" onclick="SetNewsType('专家答疑')">专家答疑</a></li>
+            <li><a href="javascript:void(0);" onclick="SetNewsType('政策法规')">政策法规</a></li>
+            <li><a href="javascript:void(0);" onclick="SetNewsType('企业展区')">企业展区</a></li>
+            <li><a href="javascript:void(0);" onclick="SetNewsType('会员中心')">会员中心</a></li>
+          </ul>
+        </div>
+        <input name="searchword" type="text" value="请输入搜索内容，多个关键字用空格隔开" style="color:#999;" id="searchword" onblur="Blur_SWord()" onfocus="Focus_SWord()" />
+        <div class="ssbtn"><a href="Search.aspx" id="CommonSearch"  target="_blank" >搜 索</a></div>
+        <div class="gj_ssbtn"><a href="Advanced_Search.aspx" id="AdvancedSearch"  target="_blank" >高级搜索</a></div>
+      </div>
+        <div style=" margin-top:85px; color:White;padding-left:5px; font:14px/20px; font-family:'Microsoft YaHei',微软雅黑;">官方QQ群：192194388(满),198418089</div>
+    </div>
+
+    <div class="content">
+      <div class="second_nav">  
+        <ul>
+            <li><a href="bulletin.aspx">首页</a></li>
+            <li class="vipnav"><a href="djfb.aspx"  target='_self'>独家发布</a></li>
+            <li ><a href="TenderList.aspx"  target='_self'>省级招标</a></li>
+            <li><a href="CCTenderList.aspx"  target='_self'>市县招标</a></li>
+            <li><a href="LandTransactions.aspx"  target='_self'>土地交易</a></li>
+            <li><a href="propertyTransactions.aspx"  target='_self'>产权交易</a></li>
+            <li><a href="changeNotice.aspx"  target='_self'>变更通知</a></li>
+            <li><a href="ContractAward.aspx"  target='_self'>中标公示</a></li>
+            <li><a href="MemberRelList.aspx"  target='_self'>会员发布</a></li>
+          </ul>
+          <div class="vipicon01"><img src="images/vipicon.png" /></div>
+      </div>
+      <div class="box">
+        <div class="left_content">
+
+        
+
+
+          <div class="breadcrumb"><a href="Index.aspx" target="_self"><strong>首页</strong></a><p>></p><a href='CCTenderList.aspx' target='_self'>市县招标</a><p>></p><span>详细信息</span></div>
+          
+          <div class="provincial_content">
+              <div class="content_title">长丰县阳光电力维修工程有限责任公司下塘镇街道（下塘路、振兴路）架空线入地改造工程所需电缆采购招标公告</div>
+         
+              <div class="content_time">
+              <div style=" width:550px; float:left;">
+              发布时间： 2017-08-08&nbsp;&nbsp;&nbsp;&nbsp;浏览次数：164次
+              </div>
+              <div style="  float:right; width:105px;  line-height:30px; height:30px; ">
+              <a class="Fav_a" style="color:#999;cursor:pointer; text-decoration:none;" target="_self" href="FavouriteAdd.aspx?clientin=DE386AB5FED2C197&clienttype=981962AA50050E0E&backurl=http://www.ahbc.com.cn/TenderInfo.aspx?clientin=DE386AB5FED2C197"><img src="images/MyFavourite.gif" style=" margin-top:4px;" align="absmiddle" /> </a>
+              </div>
+              </div>
+            
+              <div class="content_article">
+           
+           <!--广告开始-->
+               
+                
+                
+                
+                
+                   <div  id="divAd" style="width:600px; margin-left:30px; position:absolute; z-index:99;">
+                   <div id="Div3" style="" class="top_info" >  
+                  <span style="padding-right:20px;">广告倒计时<span id="timetick">8</span>秒</span>
+          <span style=" padding-right:5px;">会员<a href="Login.aspx?backurl=http://www.ahbc.com.cn/TenderInfo.aspx?clientin=DE386AB5FED2C197" style="color:#F60;" target="_self">登录</a>可去广告</span>   </div>
+                   
+                   <script language="javascript">
+                       var value =8;
+                       var itl = setInterval("SetValue()", 1000)
+                       function SetValue() {
+                           value = value - 1;
+                           if (value <= 0) {
+                               clearInterval(itl);
+                               $("#divAd").hide();
+                           }
+                           $("#timetick").html("");
+                           $("#timetick").html(value);
+
+                       }
+                       
+                       
+                      
+                   </script>
+                   
+                   
+    <div id="divAd" style="" >
+    <a href="AhbcadView.aspx?pos=2&id=28&linkurl=http://www.ahbc.com.cn/Ad_stwh.aspx" style="cursor:pointer;" target="_blank">
+    <img width="600px" src="UpLoadFile/AdFiles/2015040711160849208.GIF" />
+    </a>
+    </div>     
+    </div>
+                
+                
+                
+
+
+
+            <!--广告结束-->
+
+
+
+            <!--主题内容开始-->
+
+            
+
+
+
+
+
+             <!--主题内容开始-->
+
+
+
+             <div class='NewsContent'><p>
+	安徽中技工程咨询有限公司受长丰县阳光电力维修工程有限责任公司的委托，对下塘镇街道（下塘路、振兴路）架空线入地改造工程所需电缆采购进行国内公开招标。有意向参与此项目投标的投标人须在&ldquo;安徽中技工程咨询有限公司电子招投标平台&rdquo;（以下简称&ldquo;平台&rdquo;）中完成会员注册，方可报名及获取招标文件。</p>
+<p>
+	一、招标内容</p>
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>
+				<p>
+					品目</p>
+			</td>
+			<td>
+				<p>
+					货物名称</p>
+			</td>
+			<td>
+				<p>
+					规格型号</p>
+			</td>
+			<td>
+				<p>
+					单位</p>
+			</td>
+			<td>
+				<p>
+					数量</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					1</p>
+			</td>
+			<td>
+				<p>
+					高压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-8.5/15-3*240</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					929</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					2</p>
+			</td>
+			<td>
+				<p>
+					高压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-8.5/15-3*70</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					859</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					3</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-4*240</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					237</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					4</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-4*185</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					404</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					5</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-4*150</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					111</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					6</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-4*120</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					909</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					7</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-4*95</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					929</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					8</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-4*70</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					818</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					9</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-5*185</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					45</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					10</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-5*150</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					30</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					11</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-5*120</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					61</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					12</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-5*95</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					81</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					13</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-5*70</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					323</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					14</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-5*50</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					81</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					15</p>
+			</td>
+			<td>
+				<p>
+					低压电缆</p>
+			</td>
+			<td>
+				<p>
+					YJV22-0.6/1-5*35</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					3737</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					16</p>
+			</td>
+			<td>
+				<p>
+					高压绝缘导线</p>
+			</td>
+			<td>
+				<p>
+					JKLYJ-10/240</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					3245</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					17</p>
+			</td>
+			<td>
+				<p>
+					低压绝缘导线</p>
+			</td>
+			<td>
+				<p>
+					BS1-JKLYJ-70/1KV</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					216</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					18</p>
+			</td>
+			<td>
+				<p>
+					低压绝缘导线</p>
+			</td>
+			<td>
+				<p>
+					BVV-1/6,芯数：2</p>
+			</td>
+			<td>
+				<p>
+					米</p>
+			</td>
+			<td>
+				<p>
+					25544</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5">
+				<p>
+					备注：①表中拟定采购数量均为暂定数量，最终以实际使用为准；</p>
+				<p>
+					②投标人须对上列所有货物进行投标，不得只对部分货物投标，否则投标将被否决。</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<div>
+	&nbsp;</div>
+<p>
+	二、采购方式：公开招标</p>
+<p>
+	三、投标人资格要求</p>
+<p>
+	1、投标人为具有独立法人资格的相应货物的制造商，具有相应货物的生产能力；</p>
+<p>
+	2、投标人须取得国家法律、法规、部门规章及规范标准规定的有效生产许可证。</p>
+<p>
+	3、投标人须取得有国际权威机构或者国家授权、许可产品检验检测机构出具的有效的YJV22-8.5/15-3*240、YJV22-0.6/1-4*240或高于上述规格的同类电缆的检验报告。</p>
+<p>
+	4、投标人近三年（2014年1月1日至今，以销售合同签订时间为准）须具有YJV22-8.5/15-3*240、YJV22-0.6/1-4*240或高于上述规格的同类电缆的供货业绩（上述两种电缆可不在同一合同内）。</p>
+<p>
+	5、所投同类货物未因该货物原因出现过事故；或出现过事故，但已采取了有效的整改措施及善后处理，并得到国家电网公司系统的验证；</p>
+<p>
+	6、所投货物在国内货物供货合同执行过程中，未因严重质量问题而造成批量退货（退货量占合同金额10%及以上）或严重影响施工；或出现过其它重大问题，但已采取了有效的整改及善后处理措施，并得到国家电网公司系统的验证；</p>
+<p>
+	7、所投货物在国内货物供货合同执行过程中，未因货物或投标人图纸的交付拖延问题而严重影响施工和工程进度；或出现过其它重大问题，但已采取了有效的整改措施及善后处理，并得到国家电网公司系统的验证；</p>
+<p>
+	8、在国内货物招投标活动、供货合同履行、售后服务及产品运行过程中，未受到国家电网公司、其所属单位的质量或履约服务投诉；</p>
+<p>
+	9、投标人在项目单位以往招标活动中无不良记录；</p>
+<p>
+	10、投标人须具有良好的财务状况和商业信用；</p>
+<p>
+	11、本项目不允许联合体投标。</p>
+<p>
+	四、报名时间、地点及招标文件获取方式</p>
+<p>
+	1、报名时间：2017年8月8日9:00至2017年8月14日17:00（北京时间）；</p>
+<p>
+	2、报名地点：完成会员注册的投标人须登录平台（网址：http://e.ahbc.com.cn）报名；</p>
+<p>
+	3、招标文件获取方式：完成会员注册的投标人在平台上报名成功，并交纳招标资料费用（招标文件售价：&yen;500元，售后不退）后，可以直接在平台中下载招标文件及其它资料（含技术规范书、图纸、修改文件、澄清文件等），招标人不另行书面发布上述内容。投标人应及时关注查询平台上发布的上述相关内容，否则责任自负。</p>
+<p>
+	五、项目联系方式</p>
+<p>
+	招标代理机构：安徽中技工程咨询有限公司</p>
+<p>
+	地 址：合肥市合作化南路27号</p>
+<p>
+	项目联系人：陈振、崔屹</p>
+<p>
+	电 话： 0551-65149581、65149582-833、829</p>
+<p>
+	六、会员注册手续</p>
+<p>
+	1、本项目仅接受在平台中完成会员注册的企业报名。非会员企业可以登录平台（http://e.ahbc.com.cn），按照流程办理注册,并在平台中完善企业主体信息及上传相关附件后，携带相应的原件至安徽中技工程咨询有限公司进行审核，审核通过即完成会员注册。投标人在办理会员注册手续过程中,安徽中技工程咨询有限公司不收取任何审核费用。</p>
+<p>
+	2、完成会员注册手续的投标人，方可登录平台（http://e.ahbc.com.cn）报名；</p>
+<p>
+	3、会员注册成功后，如有相关注册信息发生变更，应及时递交书面盖章变更申请，否则责任自负。</p>
+<p>
+	审核地点：安徽中技工程咨询有限公司网络部</p>
+<p>
+	审核人：罗欣欣</p>
+<p>
+	审核时间：每工作日上午9:30-11:00,下午13:30-16:00.</p>
+<p>
+	注册咨询联系电话：0551-65149582/83/85-857。</p>
+<p>
+	安徽中技工程咨询有限公司</p>
+<p>
+	2017年8月8日</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</div>
+
+
+	       
+	       <div style="clear:both">
+	        </div>
+	       <br /><br />
+   
+              </div>
+
+<div style="width:320px; height:350px; margin-left:170px;  padding-bottom:60px; background-color:white; float:left;"  > 
+
+   <div style='width:320px; '  >
+   <div style='height:350px;'>
+    <img src='images/Weixin.JPG'  height='350px' /> 
+   
+     </div>
+      </div>
+       <div style='height:25px;font: 12px/30px 微软雅黑, Arial; color:#666; text-align:center;'  >
+ <span> 关注安徽招标咨询网微信，随时随地获取最新招标信息</span> 
+  
+   </div>  
+        </div>
+
+         <div style="clear:both">
+	        </div>
+
+              <div class="content_share">
+              
+              <!-- JiaThis Button BEGIN -->
+                <div class="jiathis_style_24x24">
+	                <a class="jiathis_button_qzone"></a>
+	                <a class="jiathis_button_tsina"></a>
+	                <a class="jiathis_button_tqq"></a>
+	                <a class="jiathis_button_weixin"></a>
+	                <a class="jiathis_button_renren"></a>
+	                <a href="http://www.jiathis.com/share?uid=1677186" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	                <a class="jiathis_counter_style"></a>
+                </div>
+                <script type="text/javascript">
+                    var jiathis_config = { data_track_clickback: 'true' };
+                </script>
+                <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1677186" charset="utf-8"></script>
+                <!-- JiaThis Button END -->
+              
+              </div>
+          </div>
+          
+        </div>
+        <div style="clear:none;"></div>
+        <div class="right_content">
+          
+                <div class='right_login'><div class='rig_loginbox'><div class='login_btn'><a href='Login.aspx?backurl=http://www.ahbc.com.cn/TenderInfo.aspx?clientin=DE386AB5FED2C197' target='_self'>会员登录</a></div><div class='register_btn'><a href='register.aspx' target='_blank'>免费注册</a></div></div><p><a href='forgotPassword.aspx' target='_self'>忘记登录密码？</a></p><div class='login_intro'> <ul>  <li><a href='privilege.aspx' target='_blank'>会员级别及权益</a></li>  <li><a href='vipDedicated.aspx' target='_blank'>我们的服务能为您带来哪些利益</a></li>  <li><a href='vipGuide.aspx' target='_blank'>如何成我们的会员</a></li>  </ul> </div> </div>
+
+
+            <div class="related_infor">
+                <div class="outline_related">
+                    <div class="related_title">相关信息</div>
+                    <div class="related_top"></div>
+                  <ul>
+                       
+                               
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=8E2EADF82C6E550C">安徽工程大学教学实验楼C座... </a> </li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=5358B18356C5A629">中车浦镇庞巴迪运输系统有限... </a> </li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=7C954E9277A861E6">凤阳宁国现代产业园污水干管... </a> </li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=5C6263802D123C19">国泰君安证券安徽分公司室内... </a> </li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=4421974AFD4E86F3">安徽省烟草公司淮北市公司卷... </a> </li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=91C6FB26413F0509">中国农业银行淮南分行本部办... </a> </li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=9E2B83057822C36E">中国银行宿州分行灵璧支行营... </a> </li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=A90F258DB4974FC9">安徽农业大学西区文化广场名... </a> </li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=A0A21B887420E41A">安徽国际商务职业学院图书馆... </a> </li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="TenderInfo.aspx?clientin=8FC5F6A9EF0939EE">安徽华茂纺织股份有限公司细... </a> </li>
+                
+                
+                
+                
+                
+
+                    </ul>
+                    <div class="related_bot"></div>
+                </div>
+            </div>
+            <div class="side_blue" style="padding-top:0;">
+
+
+            <div class="downloadbox" style="width:225px;padding-left:10px;">
+                <div class="outline" style="width:223px;">
+                  <div class="download_title" style="color:#124ba9; width:215px;">资料下载</div>
+                  <div class="download_list" style="background:url(images/zlxzbg_s.gif) no-repeat;">
+                  <ul style="width:210px; overflow:hidden;">
+
+                         <li><a href='DownLoadInfo.aspx?clientin=F5DBFA6237AE8289' target='_blank' title='宿州学院实习实训楼附属景观工程跟踪审计项目采购文件'>宿州学院实习实训楼附属景观...</a></li>  <li><a href='DownLoadInfo.aspx?clientin=050BCE6A554FAEE1' target='_blank' title='宿州学院后勤管理智能平台（零星维护保修系统）项目（二次）'>宿州学院后勤管理智能平台（...</a></li>  <li><a href='DownLoadInfo.aspx?clientin=6E32C74156171FBA' target='_blank' title='实训室改造项目采购文件（二次发布定稿）'>实训室改造项目采购文件（二...</a></li>  <li><a href='DownLoadInfo.aspx?clientin=4F7F7E70774F62D1' target='_blank' title='2016年宿州学院二级学院实习实训室改造项目采购文件（发布定稿）'>2016年宿州学院二级学院...</a></li>
+
+         
+                  </ul>
+                </div>
+                </div>
+                <div class="more_download_s"><a href="download.aspx"><img src="images/index_105.gif" style="border:none;"></a></div>
+              </div>
+              
+          </div>  
+
+        </div>
+      </div>
+      
+      <div class="A1" id="B2"><span class="A1"><a href="vipGuide.aspx" target="_blank"><img src="images/b2.jpg" style="border:none;" /></a></span></div>
+      
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <link rel="Stylesheet" href="css/common.css" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+       <script type="text/javascript" src="js/kefu.js"></script>
+        <script type="text/javascript" src="js/CookieOperate.js"></script>
+       <style>
+       
+       .TC_EWM{ text-decoration:none; cursor:pointer; color:Red;}
+        .TC_EWM:hover{ text-decoration:none;}
+       </style>
+</head>
+<body>
+       <br />
+           
+   
+
+<DIV id="floatTools" class="float0831">
+  <DIV class=floatL>
+  <A style="DISPLAY: block" id=aFloatTools_Show class=btnOpen 
+title="查看在线客服" 
+onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.ahbc.com.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A>
+ <A id=aFloatTools_Hide class="btnCtn" style="display:none;"
+title="关闭在线客服" 
+onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.ahbc.com.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> 
+</DIV>
+  <DIV id=divFloatToolsView class="floatR" style=" display:none;" >
+    <DIV class=tp></DIV>
+    <DIV class=cn>
+      <UL>
+        <LI class=top>
+          <H3 class=titZx>QQ咨询</H3>
+        </LI>
+        <LI><SPAN class=icoZx>在线咨询</SPAN> </LI>
+        <LI><a class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=2207403329&amp;site=qq&amp;menu=yes" target="_blank">客服A</a>  </LI>
+        <LI class=bot> <a class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1832979310&amp;site=qq&amp;menu=yes" target="_blank">客服B</a> </LI>
+  
+      </UL>
+ 
+      <UL>
+        <LI>
+          <H3 class=titDh>电话咨询</H3>
+        </LI>
+        <LI><SPAN class=icoTl>0551-65840581</SPAN> </LI>
+     
+      </UL>
+    </DIV>
+  </DIV>
+</DIV>
+
+
+<div id="bottom">
+    <div class="bot_01">
+        <div class="bot_01_btn" id="bottombtn"><a href="#"><img src="images/bot01.gif" style="border:none;"/></a></div>
+    </div>
+    <div class="bot_02">
+      <div class="bot_list">
+        <div class="bot_list01">
+          <p><a href="bulletin.aspx" target="_blank">招采公告</a></p>
+
+
+          <ul>
+              <li><a href="ContractAward.aspx" target="_blank">中标公示</a></li>
+              <li><a href="MemberRelList.aspx" target="_blank">会员招标</a></li>
+              <li><a href="download.aspx" target="_blank">文件下载</a></li>
+          </ul>
+        </div>
+        <div class="bot_list01">
+          <p><a href="projects.aspx" target="_blank">项目信息</a></p>
+          <ul>
+              <li><a href="willBeConstructed.aspx" target="_blank">拟在建项目</a></li>
+              <li><a href="track.aspx" target="_blank">项目跟踪</a></li>
+              <li><a href="ProjectReport.aspx"  target="_blank">项目进展报告</a></li>
+              <li><a href="ProjectApp.aspx"  target="_blank">立项审批</a></li>
+              <li><a href="priceInfor.aspx">价格信息</a></li>
+          </ul>
+          <ul>
+              <li><a href="projectPlanning.aspx" target="_blank">项目规划</a></li>
+              <li><a href="HiTechResult.aspx" target="_blank">高新技术需求</a></li>
+          </ul>
+        </div>
+        <div class="bot_list01">
+          <p><a href="news.aspx" target="_blank">资讯中心</a></p>
+          <ul>
+              <li><a href="ProjectInformation.aspx" target="_blank">项目资讯</a></li>
+              <li><a href="ProjectManage.aspx" target="_blank">项目管理</a></li>
+              <li><a href="theoreticalStudy.aspx" target="_blank">理论研究</a></li>
+              <li><a  href="FeaturedStories.aspx" target="_blank">精选案例</a></li>
+              <li><a href="ExamInformation.aspx" target="_blank">考试资讯</a></li>
+          </ul>
+          <ul>
+              <li><a href="creditRecords.aspx" target="_blank">诚信记录</a></li>
+          </ul>
+        </div>   
+        <div class="bot_list02">
+          <p><a href="ComList.aspx" target="_blank">企业展区</a></p>
+          <p style="padding-top:40px;"><a href="#">政策法规</a></p>
+        </div>
+        <div class="bot_list02">
+          <p><a href="memberCenter.aspx" target="_blank">会员中心</a></p>
+          <ul>
+              <li><a href="vipDedicated.aspx" target="_blank">VIP专属</a></li>
+              <li><a href="privilege.aspx" target="_blank">特权介绍</a></li>
+              <li><a href="defray.aspx" target="_blank">支付中心</a></li>
+          </ul>
+        </div>
+        <div class="bot_list02">
+          <p><a href="serviceCenter.aspx" target="_blank">服务中心</a></p>
+          <ul>
+              <li><a href="visitorsGuide.aspx" target="_blank">访客引导</a></li>
+              <li><a href="advertising.aspx" target="_blank">广告合作</a></li>
+              <li><a href="faq.aspx" target="_blank">常见问题</a></li>
+              <li><a href="contactUs.aspx" target="_blank">联系我们</a></li>
+              <li><a href="feedBack.aspx" target="_blank">意见反馈</a></li>
+          </ul>
+        </div>
+        
+      </div>  
+    </div>
+    <script type="text/javascript">
+
+       //设为首页
+
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+        }
+        catch (e) {
+         
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            
+        }
+    }
+    </script>
+
+    <div class="bot_03">
+        <div class="bot_list03">
+        <a href="javascript:void();" onclick="SetHome(this,window.location)">设为首页</a> |  <a href="serviceCenter.aspx">关于我们</a> |  <a href="map.aspx">网站地图</a> |  <a href="advertising.aspx">广告服务</a> |  <a href="siteinfoLegal.aspx">版权声明</a>  |  <a href="contactUs.aspx">联系我们</a></div>
+        <div class="copyright">版权所有 © 安徽招标咨询网 Copyright® Ahbc.com.cn Inc.All right reserved <a href="http://www.miibeian.gov.cn" style="color:#7eaee2;" target="_blank">皖ICP备14008272</a> 经营许可证号：皖B2-20100008<br />联系电话：0551-65840581  65840582  65149583   传真：0551-65149580<br />本站中文网址：安徽招标咨询网.com  安徽招标咨询网.cn  安徽招标咨询网.net   本站通用网址：安徽招标咨询网</div>
+    </div>
+</div>
+<div style=" display:none;">
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F962cd978eb33880c71c6f79fab797e13' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+
+  
+
+
+
+
+
+
+      <!--左侧广告  -->
+ <script language="javascript"  type="text/javascript" >
+
+ var height = window.screen.availHeight;
+   var height = document.documentElement.clientHeight;
+    var top_ad = height - 700;
+    document.write("<div style='position: fixed;width:90px; height:200px;left:0px;z-index:8000; top:245px;'><a href='http://221.130.124.244:8066/ZbrRegister/ZbrRegisterMsg.aspx' target='_blank' style='cursor:pointer;'><img src='images/jssy_led1.jpg' width='200px' height='190px'></a></div>");
+
+
+
+
+
+     //元旦
+
+//     if (getCookie("WelYD") == null || getCookie("WelYD") == "") {
+//         var height_yd = document.documentElement.clientHeight;
+//         var top_td = (height_yd - 625) / 2 > 0 ? (height_yd - 625) / 2 : 0;
+
+//         var width_yd = document.documentElement.clientWidth;
+//         var right_yd = (width_yd - 1000) / 2 > 0 ? (width_yd - 1000) / 2 : 0;
+
+//         document.write("<div style=' position: fixed; width:1000px; height:625px;right:" + right_yd + "px; top:" + top_td + "px;z-index:999;' id='div_yd' > <img src='images/hqcj.jpg'  usemap ='#closeYD' style='border:none;'  /><map name='closeYD'> <area shape='circle' coords='501,573,18' style='cursor:pointer;' onclick='CloseYD()' alt='关闭' /></map>   </div>");
+
+//         addCookie("WelYD", new Date().toDateString(), 2);
+//     }
+//     function CloseYD() {
+
+//         $('#div_yd').hide();
+//     }  
+//   
+
+ 
+
+     function OperateEWM(type) {
+
+         switch (type) {
+             case 0: //隐藏二维码
+
+                 $("#div_control").animate({
+                     right: '0px'
+                 });
+
+                 $("#div_ewm").animate({
+                     right: '-456px'
+                 });
+
+                 $('#con_hide').hide();
+                 $('#con_show').show();
+                 break;
+
+             case 1: //显示二维码
+                 $("#div_control").animate({
+                     right: '455px'
+                 });
+
+                 $("#div_ewm").animate({
+                     right: '0px'
+                 });
+
+                 $('#con_hide').show();
+                 $('#con_show').hide();
+
+                 break;
+
+         }
+
+     }
+
+
+
+
+     /*官方服务号  */
+
+     var height_con =  document.documentElement.clientHeight;
+     var top_ad_con = height_con - 192;
+     document.write("<div style=' position: fixed; width:32px; height:175px;right:0px; top:" + top_ad_con + "px;' id='div_control' >  <img src='images/con_hide.png' onclick='OperateEWM(0)' id='con_hide' style=' display:none;' />  <img src='images/con_show.png' onclick='OperateEWM(1)' id='con_show'   /> </div>");
+     document.write("<div style='position: fixed; width:455px; height:190px;right:-456px; background-color:white; border-left:none; border:#329cd6 1px solid; top:" + top_ad_con + "px;' id='div_ewm' > <div style='height:25px;font: 12px/30px 宋体, Arial; color:#666; text-align:center;'>扫描关注网站官方平台，获<span style='color:red;'> 500 </span> 积分奖励   </div>  <div style='width:455px; float:right;'><div style='height:165px;'> <img src='images/Weixin.JPG' height='160px' />  <img src='images/sina.jpg' height='160px' /> <img src='images/QQ_qun.jpg' height='160px' /> </div> </div> </div>");
+
+
+   
+ 
+  </script>
+
+
+</body>
+
+</html>
+
+
+<div style="display:none">
+<input type="submit" name="Button1" value="提交" id="Button1" />
+           </div>               
+
+<div style="display:none">
+<div id="feivip">
+<div id="title" style=" height:25px; line-height:25px; color:#F60; width:280px; background-color:#FDEBD9; text-align:center; margin:0 auto;margin-top:40px; ">网上报名快速通道仅向VIP会员提供</div>
+<div style='margin-top:40px;'><button  class='button' >确 定</button> </div>
+</div>
+
+<div id="isvip">
+<div style=" height:25px; line-height:25px; color:#F60; width:280px; background-color:#FDEBD9; text-align:center; margin:0 auto; margin-top:30px;">系统将为您转入相应网上报名页面...</div>
+<div style='margin-top:30px; height:28px;'> <a href="#rlink" target="_blank" class='button' style=" display:inline-block; text-decoration:none; color:White;"  onclick="SignUpInfoHide()" >继 续</a>   <button style="width:80px;height:28px;text-align:center;line-height:28px;background:url(images/btn_cancel.png) no-repeat;border:none;display:inline;margin:0 0px;cursor:pointer;font-family: 'Microsoft YaHei' ! important;"  id="L_Close" >取 消</button></div>
+
+</div>
+</div>
+
+
+
+   <script type="text/javascript">
+
+       function SubmitPay() {
+
+           $('#hid_PaySelect').val($('input[name="paymethod"]:checked').attr("id"));
+           document.getElementById("Button1").click();
+       }
+
+
+       function HideDivTC() {
+
+           $('em').click();
+       }
+
+       function ShowInformation(url) {
+           if (document.getElementById("box") == null) {
+               new Alert('but', 'box', {
+                   title: '信息提示',
+                   content: '<div><div style="margin-top:10px; width:490px;font:12px/20px 宋体, Arial;"> <div style="height:125px;"><div style=" float:left; width:139px; text-align:right;"><img src="images/qb_fk.jpg" /> </div> <div style=" float:right; width:350px;"> <div style=" margin-top:10px; margin-left:10px;">此操作需要您在<font color="red">登陆后</font>操作，请确保账户有足够的金币或者积分，是否继续?</div>'+
+    '<div style=" margin:10px; color:#666; margin-left:10px; ">注：1元人民币兑换1金币；1金币兑换50积分</div>'+
+     '<div style=" margin:10px; margin-left:10px;">' + 
+       '<input  class="PayButton" value="继 续" onclick=Continue("'+url+'") />  <a  onclick="HideDivTC()"  style=" color:#666; cursor:pointer;">返 回 ></a> </div>  </div>   </div>'+ 
+     '<div style=" width:430px; margin-left:auto; margin-right:auto; height:30px; line-height:30px; background-color:#edeff0; text-align:center; margin-top:10px; margin-bottom:10px;">如您尚未注册，请先<a href="register.aspx" style=" color:#62abd7;">注册会员</a>   </div>'+
+       '</div> </div>',
+                   width: '495',
+                   height: '240',
+                   top: '300px',
+                   left: '',
+                   fixed: '',
+                   close: 'close'
+               });
+
+               document.getElementById('but').click();
+           }
+
+
+
+
+
+       }
+
+       function Continue(url) {
+
+           location.href = url;
+       }
+
+
+
+       function ShowPayMethod(usergold, userintegral, needgold) {
+           if (document.getElementById("box") == null) {
+               new Alert('but', 'box', {
+                   title: '权限不足，您可以选择以下方式查看',
+                   content: '<div><div style=" margin-top:10px;"> <div style="margin-left:40px">账户余额：<a href="myGold.aspx" target="_blank" style="color:#ea6e00;" >充值>></a> </div><div style="margin-left:40px"><span style="color:red;">' + usergold + '</span>金币 &nbsp; <span style="color:red;">' + userintegral + '</span>积分 </div></div>    <div style=" margin-top:10px;"> <div style=" margin-left:40px;">支付方式：</div><div style=" margin-left:40px;"> <input type="radio" name="paymethod" id="gold_pay" checked="true" value="' + needgold + '金币" />' + needgold + '金币 &nbsp; <input type="radio" name="paymethod" id="jf_pay" value="' + parseInt(needgold) * 50 + '积分" />' + parseInt(needgold) * 50 + '积分 </div></div>         <div  style="text-align:center; margin-top:10px;"><input type="button" onclick="SubmitPay()"  class="PayButton" value="兑换"/> <button class="button">关闭</button></div>',
+                   width: '350',
+                   height: '180',
+                   top: '300px',
+                   left: '',
+                   fixed: '',
+                   close: 'close'
+               });
+
+               document.getElementById('but').click();
+           }
+
+       }
+  </script>
+
+  <input name="hid_PaySelect" type="hidden" id="hid_PaySelect" />
+
+
+  
+
+
+
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,1633 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>政务服务中心</title>
+<SCRIPT language=JavaScript src="../js/stm31.js" 
+type=text/javascript></SCRIPT>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+ <!--页面头文件-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="keywords" contect="通辽政务服务中心,通辽行政服务中心,通辽,政务中心,行政服务中心,政务,政务服务,行政审批,审批,办证,办证大厅,通辽市办证大厅,投诉,咨询,通辽办事咨询,办事咨询,办事投诉,审批投诉,网上申报,公共资源交易,招投,投标,审批大厅,行政大厅,网上投诉,网上评议,政府评议,中心动态,中心领导,通辽职权,职权划分,政策法规,政务公开,办事指南,办事公示,行政业务公司,举报信箱,领导举报,办事举报,中心公告,招标公示,中标公示,办事业务,办事咨询"/>
+<meta name="description" contect="该网站是关于通辽政务服务中心的情况介绍！"/> 
+<meta name="robots" contect="none"/>
+<meta name="author" contect= "www.zhuofansoft.com" /> 
+<title>政务服务中心</title>
+<link href="../css_new/index.css" rel="stylesheet" />
+<script src="../js_new/jquery.js" type=text/javascript></script>
+<script type="text/javascript" src="../js/ztree/js/jquery.ztreeshow.core-3.5.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+
+document.onclick = mclose; 
+
+</script>
+
+<body>
+<div class="top">
+   <div class="all">
+      <div class="weather">   
+	 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><span style=" background:url(images/time.gif) left center no-repeat; padding:4px 10px 2px 20px; " id="nowtime">
+		<script language="javascript">
+				function initArray(){		
+					for(i=0;i<initArray.arguments.length;i++)		
+					this[i]=initArray.arguments[i];
+				}	
+				var isnMonths=new initArray("1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月");	
+				var isnDays=new initArray("星期日","星期一","星期二","星期三","星期四","星期五","星期六","星期日");	
+				today=new Date();	
+				hrs=today.getHours();	
+				min=today.getMinutes();	
+				sec=today.getSeconds();	
+				clckh=""+((hrs>12)?hrs-12:hrs);		
+				clckm=((min<10)?"0":"")+min;	
+				clcks=((sec<10)?"0":"")+sec;	
+				clck=(hrs>=12)?"下午":"上午";	
+				var stnr="";	
+				var ns="0123456789";	
+				var a=""; 	
+				function getFullYear(d){	//d is a date object		
+				yr=d.getYear();		
+				if(yr<1000)
+				yr+=1900;		
+				return yr;	} 	
+				document.write(getFullYear(today)+"年"+isnMonths[today.getMonth()]+""+today.getDate()+"日 "+isnDays[today.getDay()]);
+		</script>
+			</span>
+		</td>
+		<td><iframe id="weather" name="weather" src="http://m.weather.com.cn/n/pn2/weather.htm?id=101080501T" width="200" height="20" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency></iframe>
+</td>
+	</tr>
+</table>
+	 
+	  </div>
+   </div>
+</div>
+<!--top结束-->
+<div class="all">
+<object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1100" height="227">
+<param name="movie" value="../images/top.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="opaque" />
+<param name="swfversion" value="6.0.65.0" />
+<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+<param name="expressinstall" value="Scripts/expressInstall.swf" />
+<!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+<!--[if !IE]>-->
+<object type="application/x-shockwave-flash" data="../images/top.swf" width="1100" height="227">
+<!--<![endif]-->
+<param name="quality" value="high" />
+<param name="wmode" value="opaque" />
+<param name="swfversion" value="6.0.65.0" />
+<param name="expressinstall" value="Scripts/expressInstall.swf" />
+<!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+<div>
+<h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+</div>
+<!--[if !IE]>-->
+</object>
+<!--<![endif]-->
+</object></div>
+<!--banner结束-->
+<div class="all">
+ <div class="dh">
+ <ul id="sddm">
+	<li><a href="../index/showIndex.action" onmouseover="mopen('m1')" onmouseout="mclosetime()">首页</a>
+		<div style="border:none" id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">政务公开</a>
+		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"style="z-index:99999;">
+		<a href="showInfoListByMiddle.action?infoPid=143">中心简介</a>
+		<a href="showInfoListByMiddle.action?infoPid=115">机构设置</a>
+		<a href="showInfoListByMiddle.action?infoPid=144">中心文件</a>
+		<a href="showInfoListByMiddle.action?infoPid=145">规章制度</a>
+		<a href="showInfoListByMiddle.action?infoPid=124">项目流程</a>
+		<a href="showServiceDeptListNew.action">办事电话</a>
+<!-- 		<a href="showInfoListByMiddle.action?infoPid=172">中心机构</a> -->
+	
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">工作动态</a>
+		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showInfoListByMiddle.action?infoPid=7">中心简报</a>
+		<a href="showInfoListByMiddle.action?infoPid=162">动态新闻</a>
+		<a href="showInfoListByMiddle.action?infoPid=162&infoMid=1139193557027">大事记</a>
+		<a href="showInfoListByMiddle.action?infoPid=162&infoMid=1139193557028">影音视频</a>
+		<a href="showInfoListByMiddle.action?infoPid=10">经验交流</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">政策法规</a>
+		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showInfoListByMiddle.action?infoPid=151">国家法律</a>
+		<a href="showInfoListByMiddle.action?infoPid=152">部门法规</a>
+		<a href="showInfoListByMiddle.action?infoPid=153">政府文件</a>
+		<!-- <a href="showInfoListByMiddle.action?infoPid=6">投资政策</a> -->
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">廉政之窗</a>
+		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showInfoListByMiddle.action?infoPid=157&infoMid=1139193557024" >廉政文化</a>
+		<a href="showInfoListByMiddle.action?infoPid=157&infoMid=1139193557025" >典型案例</a>
+		<a href="showInfoListByMiddle.action?infoPid=157&infoMid=1139193557026">他山之石</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()">办事指南</a>
+		<div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showDeptList_guide.action?orgId=25872">办事向导</a>
+		<!-- <a href="showInfoListByMiddle.action?infoPid=158">表格下载</a> -->
+		</div>
+	</li>
+	<li><a href="http://ggzy.tlzw.net/indexPage.action?columnId=402881ee4debedd8014debf8d0570004" onmouseover="mopen('m7')" onmouseout="mclosetime()" target="_blank">公共资源交易</a>
+		<div id="m7" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showNoticeInfoList.action?noticeOid=01">政府采购</a>
+		<a href="showNoticeInfoList.action?noticeOid=04">建设工程交易</a>
+		<a href="showNoticeInfoList.action?noticeOid=02">土地交易</a>
+		<a href="showNoticeInfoList.action?noticeOid=05">矿业权交易</a>
+		<a href="showNoticeInfoList.action?noticeOid=03">产权交易</a>
+		<!-- <a href="showNoticeInfoList.action?noticeOid=11">其他</a> -->
+		</div>
+	</li>
+	<li><a href="onlineService.action" onmouseover="mopen('m8')" onmouseout="mclosetime()">网上办事</a>
+		<div id="m8" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showConsultInput.action" target="_blank">网上咨询</a>
+		<a href="http://10.21.221.223:8089/zwpt/netLogin.action" target="_blank">网上申报</a>
+		<a href="wangshangPingyi.action">网上评议</a>
+		<a href="http://www.tlzw.net/xzts/welcomeComplain.action" target="_blank">网上投诉</a>
+		<!-- <a href="mailto:hbxzzxszh@163.com">主任信箱</a> -->
+		</div>
+	</li>
+</ul>
+ </div>
+</div>
+
+</body>
+</html>
+ <!---->
+ <div class="all">
+ <table border="0" cellspacing="0" cellpadding="0" align="center" class="TableSet">
+  <tr>
+    <td class="TdLeft">
+<div class="Title">
+	<img src="../images/title_left2.gif" class="fl" />
+	<span class="fl">公共资源交易</span>
+	<img src="../images/title_right2.gif" class="fr" />
+</div>
+<div style="padding:10px;">
+  <a class="Link" href="showNoticeInfoList.action?noticeOid=01">政府采购</a>
+    <a class="Link" href="showNoticeInfoList.action?noticeOid=04">建设工程</a>
+     <a class="Link" href="showNoticeInfoList.action?noticeOid=02">土地交易</a>
+    <a class="Link" href="showNoticeInfoList.action?noticeOid=03">产权交易</a>
+    <a class="Link" href="showNoticeInfoList.action?noticeOid=05">矿业权交易</a>
+    <a class="Link" href="showNoticeInfoList.action?noticeOid=11">其他</a>	
+</div></td>
+    <td class="TdRight">
+		<div class="Title">
+			<img src="../images/title_ico1.gif" class="fl" />
+			<span class="fl">招标公告&nbsp;>&nbsp;建设工程</span>
+			<input name="CmdCancel" type="image" onClick="javascript:history.go(-1)" src="../images/back.gif" class="fr" />
+		</div>
+		<h2>建设工程</h2>
+       	<table width="100%" border="0" align="center" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC" id="info">
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197605">
+			    阿日昆都楞镇“十个全覆盖”街巷硬化工程建设项目
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-18</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197603">
+			    科左中旗保康镇孝庄文广场改造工程施工监理二次招标公告(ZG2017A0115037)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-18</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197600">
+			    科左中旗妇幼保健所综合楼建设项目招标公告(ZG2017A0105041)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-18</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197595">
+			    阿日昆都楞镇人民政府“十个全覆盖”延伸增加工程建设项目
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-17</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197587">
+			    通辽市公安局停车场—升降横移式停车设备工程招标公告(TG2017A010034)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-17</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197583">
+			    阿日昆都楞镇“十个全覆盖”街巷硬化工程建设项目招标公告(ZQJY2017-10)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-17</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197582">
+			    科左中旗新城区四个场馆建设项目施工及监理招标公告(ZG2017A01038)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-17</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197572">
+			    奈曼旗2017年通村水泥路、巴嘎波日和至苇莲苏公路改造工程施工及监理 中标公示-更正公示
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-17</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197566">
+			    科左中旗保康镇孝庄文广场改造工程施工监理废标公告（项目编号：ZG2017A0115037）
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-15</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197558">
+			    镜湖南苑便民服务市场工程招标公告(HG2017CJ-0053)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-14</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197546">
+			    2017年农业环境突出问题治理专项奈曼旗东北黑土地保护试点项目变更公告
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-14</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197538">
+			    一年生花卉栽植工程招标公告(HG2017CJ-0043)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-14</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197537">
+			    霍林郭勒市全民健身中心工程监理招标公告(HG2017CJ-0050)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-14</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197527">
+			    科左中旗保康镇如意湖生态体育公园绿化工程中标结果公告标题更正公告
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-14</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197520">
+			    科左后旗常胜镇中心学校综合楼建设项目招标公告(HG2017B-030)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-14</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197519">
+			    通辽蒙古族中学校园内道路硬化、绿化、及其他配套设施改造工程施工图纸设计
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-14</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197517">
+			    常胜镇初级中学教学楼建设项目招标公告(HG2017B-031)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-13</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197497">
+			    科左后旗金宝屯镇蒙古族初级中学综合楼建设项目招标公告(HG2017B-028)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-13</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197496">
+			    科尔沁左翼后旗金宝屯镇布敦中心学校综合楼建设项目招标公告(HG2017B-029)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-13</td>
+			  </tr>
+			  
+			  <tr>
+				<td bgcolor="#FFFFFF">
+				<img src="../images/webnews/index_icon.gif">
+				<a href="viewInfoTcontent.action?infoId=1170058197492">
+			    2017年农业环境突出问题治理专项奈曼旗东北黑土地保护试点项目招标公告(NGD2017A060018GK0018)
+				</a>
+				</td>
+				<td width="100" align="center" bgcolor="#FFFFFF">2017-04-13</td>
+			  </tr>
+			  
+		  </table>
+		
+		<div style="text-align:center">
+
+
+				
+				
+		
+			
+			<a href='/index/showInfoListJiaoyiNew.action?infoPid=24&infoMid=1139193556883&page=1'><<</a>
+			
+			
+			[<a href='/index/showInfoListJiaoyiNew.action?infoPid=24&infoMid=1139193556883&page=1'>1</a>]
+			
+			
+				
+				
+		
+			<font color="#ff0000">[2]</font>
+				
+				
+				
+				
+		
+			
+			
+			[<a href='/index/showInfoListJiaoyiNew.action?infoPid=24&infoMid=1139193556883&page=3'>3</a>]
+			
+			
+				
+				
+				
+		
+			
+			
+			[<a href='/index/showInfoListJiaoyiNew.action?infoPid=24&infoMid=1139193556883&page=4'>4</a>]
+			
+			
+				
+				
+				
+		
+			
+			
+			[<a href='/index/showInfoListJiaoyiNew.action?infoPid=24&infoMid=1139193556883&page=5'>5</a>]
+			
+			
+				
+				
+				
+		
+			
+			
+			[<a href='/index/showInfoListJiaoyiNew.action?infoPid=24&infoMid=1139193556883&page=6'>6</a>]
+			
+			
+				
+				
+				
+		
+			
+			
+			[<a href='/index/showInfoListJiaoyiNew.action?infoPid=24&infoMid=1139193556883&page=7'>7</a>]
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+				
+				
+				
+		
+			
+			
+			
+			<a href='/index/showInfoListJiaoyiNew.action?infoPid=24&infoMid=1139193556883&page=159'>>></a>
+			
+				
+
+</div>
+	</td>
+  </tr>
+</table>
+
+<!--页面尾文件-->
+
+  
+ 	
+	
+<div class="all foot">
+
+
+	
+	<table width="100%"><tr>
+	<td  colspan="1" align="right">
+		<script type="text/javascript">
+	document.write(unescape("%3Cspan id='_ideConac' class='footr_img' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/07/131/0000/60713764/CA071310000607137640006.js' type='text/javascript'%3E%3C/script%3E"));
+	
+	</script>
+	</td>
+	<td colspan="1" align="center" width="470px;">
+	您是本站第
+	<script type="text/javascript">
+	cnum = 849396;
+	849396;
+	cl = "849396".length;
+	for(i=0;i<8-cl;i++){
+		document.write("<img src='../images/c0.gif'>");
+	}
+	var strnum = "849396";
+	for(i=0;i<cl;i++){
+		document.write("<img src='../images/c"+strnum.substring(i,i+1)+".gif'>");
+	}
+	</script>位访问者，欢迎您的到来!<br />
+			通辽市政务服务中心版权所有 蒙ICP备11001188号<br />
+			地址：通辽市科尔沁区胜利路北段科尔沁体育中心北侧&nbsp;&nbsp;邮编：028000<br />
+技术支持服务：上海卓繁信息技术股份有限公司<br />
+本网站所刊登的新闻﹑信息和各种专题专栏资料， 未经协议授权，禁止下载使用。<br /></td>
+<td align="left">
+	<script id="_jiucuo_" sitecode='1505000006' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+</td>
+</tr></table>
+
+<style>
+.footr_img1{  position: relative; bottom: 100px; right: 260px;}
+</style>
+
+	
+</div>
+ <!---->
+ </div>
+</body>
+</html>

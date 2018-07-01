@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无锡市公共资源交易中心</title>
+
+<meta name="keywords" content="无锡市公共资源交易中心" />
+<meta name="description" content="无锡市公共资源交易中心" />
+<link rel="stylesheet" type="text/css" href="/wxsggzyjyzx/static/css/style.css" />
+<script language="javascript" type="text/javascript" src="/wxsggzyjyzx/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="/wxsggzyjyzx/static/js/jquery.roll.js"></script>
+<script type="text/javascript" src="/wxsggzyjyzx/static/js/jquery.tab.js"></script>
+<script type="text/javascript" src="/wxsggzyjyzx/static/js/jquery.SuperSlide.2.1.1.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c792aa4ac1f78272705e6b06439b3a9a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<!--[if lte IE 6]>
+<script src="/static/js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('*');
+    </script>
+<![endif]--> 
+<!--[if lte IE 7]>
+<![endif]--> 
+<script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+
+//<a href="/ztzl/12345zfggfwrx/index.shtml">专题专栏</a> &gt; <a href="/ztzl/wxsggzyjyzx/index.shtml">无锡市公共资源交易专栏</a> &gt; <a href="/ztzl/wxsggzyjyzx/jsgc/index.shtml">建设工程</a> &gt; <a href="/ztzl/wxsggzyjyzx/jsgc/zbgg/gcl/index.shtml">招标公告</a> &gt; <a href="/ztzl/wxsggzyjyzx/jsgc/zbgg/gcl/index.shtml">工程类</a> 这个就是获取导航的指标 
+
+$(function(){
+var str = '<a href="/ztzl/12345zfggfwrx/index.shtml">专题专栏</a> &gt; <a href="/ztzl/wxsggzyjyzx/index.shtml">无锡市公共资源交易专栏</a> &gt; <a href="/ztzl/wxsggzyjyzx/jsgc/index.shtml">建设工程</a> &gt; <a href="/ztzl/wxsggzyjyzx/jsgc/zbgg/gcl/index.shtml">招标公告</a> &gt; <a href="/ztzl/wxsggzyjyzx/jsgc/zbgg/gcl/index.shtml">工程类</a>';
+var nav = str.replace('<a href="/ztzl/12345zfggfwrx/index.shtml">专题专栏</a> &gt; <a href="/ztzl/wxsggzyjyzx/index.shtml">无锡市公共资源交易中心</a> &gt;',"");
+
+
+$('#navStr').html(nav);
+})
+
+</script>
+
+<style>
+.more {
+    left: 13px;
+}
+</style>
+</head>
+<body>
+
+<div id="head">
+
+	<div class="logosearch clearfix">
+    	<h1 class="logo fl">无锡市公共资源交易中心</h1>
+        
+    
+    
+<!--检索-->          
+		      <ul class="search_ul fr clearfix">
+			      <li><input class="ipt" name="" type="text" onFocus="return refocus();"  onkeydown="EnterSub(event);" onBlur="return reblur();" id="query" value="请输入搜索关键字"/></li>
+				  <li><input class="btn" name="" type="button" onclick="javascript:sub();return false;"/></li>
+                  </ul>
+			  </div>
+              </div>
+              
+ 
+   <script type="text/javascript">
+ 
+ function refocus(){     
+     var getquery=document.getElementById("query");
+     getquery.value="";
+	 getquery.autocomplete="off";
+	 getquery.focus(); 
+	 
+  } 
+ 
+ 
+ 
+  function reblur(){
+     var getquery=document.getElementById("query");
+	 if (getquery.value==""){
+        getquery.value="请输入搜索关键字";	 
+	 }
+  }   
+String.prototype.trim=function(){
+	return this.replace(/(^\s*)|(\s*$)/g,"");
+}
+
+//站内提交方法
+function sub(){
+	//必需，先将文本转换为utf-8
+	document.charset = "utf-8";	
+	var fixvalue = document.getElementById("query").value;
+	fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g,"");
+    var dst = "无锡市政务服务管理办公室";
+	if(fixvalue.trim()=="" || fixvalue.trim()=="请输入搜索关键字"){
+		document.getElementById("query").value = "";
+		alert("关键字不能为空！");
+        document.getElementById("query").focus();
+		return false;
+	}
+	else{
+       window.open("http://bot.wuxi.gov.cn/ss/search?searchTarget=self&dsId=xzfw.wuxi.gov.cn&dsText="+encodeURIComponent(dst)+"&q="+encodeURIComponent(fixvalue));
+       //window.open("/ztzl/wxsggzyjyzx/ztfzlm/ztznjs/?query="+encodeURIComponent(fixvalue));
+	}
+	//必需，最后将文本转换为gb2312
+	document.charset="gb2312"
+	return false;
+}
+
+
+//站内回车提交方法
+function EnterSub(){
+		var len=arguments.length;
+		var event;
+		if(len==1){
+			event = arguments[0];
+		}
+		var evt = event ? event : (window.event ? window.event : null);
+		if (evt.keyCode == 13)    {
+        	//必需，先将文本转换为utf-8
+			document.charset = "utf-8";	
+			var fixvalue = document.getElementById("query").value;
+			fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g,"");
+            var dst = "无锡市政务服务管理办公室";
+			if(fixvalue.trim()=="" || fixvalue.trim()=="请输入搜索关键字"){
+				document.getElementById("query").value = "";
+				alert("关键字不能为空！");
+              document.getElementById("query").focus();
+				return false;
+			}
+			else{
+              window.open("http://bot.wuxi.gov.cn/ss/search?searchTarget=self&dsId=xzfw.wuxi.gov.cn&dsText="+encodeURIComponent(dst)+"&q="+encodeURIComponent(fixvalue));
+              //window.open("/ztzl/wxsggzyjyzx/ztfzlm/ztznjs/?query="+encodeURIComponent(fixvalue));
+
+			}
+			document.charset="gb2312"
+			return false;
+    	}
+	}
+
+
+</script>
+
+<!--检索-->    
+    
+    
+    
+    
+    
+    
+    
+    <div id="slideBox" class="slideBox02">	
+            <div class="hd">
+              <ul>
+                              <li></li>
+                <li></li>
+              </ul>
+            </div>
+            
+            
+             
+            
+            <div class="bd">
+              <ul>
+              
+                <li>
+                  <img src="/uploadfiles/201606/28/2016062810585455947675.png" />
+                  <dl>
+                    <dt><a href="/doc/2016/06/24/1082939.shtml" target="_blank" title="2">2</a></dt>
+                  </dl>
+                </li>
+                <li>
+                  <img src="/uploadfiles/201606/24/2016062417313741304516.jpg" />
+                  <dl>
+                    <dt><a href="/doc/2016/06/24/1082938.shtml" target="_blank" title="1">1</a></dt>
+                  </dl>
+                </li>
+               
+              </ul>
+            </div>
+            
+      </div>	
+      
+      
+    <script type="text/javascript">jQuery(".slideBox02").slide( { mainCell:".bd ul",effect:"fade",interTime:8000,autoPlay:true} );</script>
+    <script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+  </script>
+  
+  
+  
+  
+  
+    <ul id="jsddm">
+    <li><a href="http://xzfw.wuxi.gov.cn/ztzl/wxsggzyjyzx/index.shtml">首页</a></li>
+    <li><a href="/ztzl/wxsggzyjyzx/zxjj/zxjj1/index.shtml"><span>中心简介</span></a></li>
+    <li><a href="/ztzl/wxsggzyjyzx/zcfg/index.shtml"><span>政策法规</span></a>
+      <ul>
+      </ul>
+    </li>
+    <li><a href="/ztzl/wxsggzyjyzx/gzdt/index.shtml">工作动态</a></li>
+    <li><a href="/ztzl/wxsggzyjyzx/tzl/index.shtml">公告公示</a></li>
+    
+    <li><a href="http://xzfw.wuxi.gov.cn/ztzl/wxsggzyjyzx/ztfzlm/hdjlgny/lxblgny/xjlb/index.shtml">咨询建议</a></li>
+    
+    <!--
+    <li><a href="http://www.wxqsy.cn/entInfoPub/entInfoPub/service/entInfoPub.enterpriseDetail.do?mechanistid=1476817358026&industryid=AE5CAE2582A44178A87707FF323E37DA">公共服务</a></li>
+    -->
+    
+
+    
+    
+    <!--
+    <li class="xl" style="background:none;"><a href="/ztzl/wxsggzyjyzx/zlxz/index.shtml"><span>资料下载</span></a>
+      <ul>
+        <li><a href="/ztzl/wxsggzyjyzx/zlxz/jsgc/index.shtml" title="建设工程">建设工程</a></li>
+        <li><a href="/ztzl/wxsggzyjyzx/zlxz/zfcg/index.shtml" title="政府采购">政府采购</a></li>
+      </ul>
+    </li>
+    
+    <li class="xl"><a href="/ztzl/wxsggzyjyzx/bszn/index.shtml"><span>操作须知</span></a>
+      <ul>
+        <li><a href="/ztzl/wxsggzyjyzx/bszn/gcjy/index.shtml" title="建设工程">建设工程</a></li>
+        <li><a href="/ztzl/wxsggzyjyzx/bszn/zfcg/index.shtml" title="政府采购">政府采购</a></li>
+        <li><a href="/ztzl/wxsggzyjyzx/bszn/gtzy/index.shtml" title="国土资源">国土资源</a></li>
+      </ul>
+    </li>
+    -->
+    
+    
+    
+    
+    
+  </ul>
+  
+  
+</div>
+
+<div class="container">
+	<div id="ny_cg01" class="box04" style="background:#ffffff">
+        <h2></h2>
+        <div class="box04_con">
+            <span class="more"><a href="/ztzl/wxsggzyjyzx/index.shtml">首页</a> > <font id="navStr"></font></span>
+            
+            
+            
+            <div class="mainCont">
+      <h1>[WXS201403004-W09]江南大学附属医院（无锡市第四人民医院易地建设）项目人防地下室战时安装工程</h1>
+      
+      <p class="explain"> 时间：2017-05-12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览次数：&nbsp; <span  id="clickCount"></span><span  onclick="collect();" style="cursor:pointer" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来源： <span></span>
+              
+              <script language="javascript" >
+  
+              $.ajax({
+				type : "post",
+                url:"/intertidwebapp/counter/count",
+                data: {
+                  'contentID':1321301,
+                  'siteName':'政务服务管理办公室',
+                  'siteID':5
+                },
+                success:function(data){
+                    $('#clickCount').html(data);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    
+                }
+            });	
+  </script>
+      
+      
+      
+      
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;字号：[ <span class="Big"><font  onClick="Zoom.style.fontSize='16px';" style="cursor:pointer" class="list12s">大</font></span> <span class="Middle"><font onClick="Zoom.style.fontSize='14px';" class="list12s" style="cursor:pointer">中</font></span> <span class="Small"><font onClick="Zoom.style.fontSize='12px';" style="cursor:pointer" class="list12s">小</font></span> ]</p>
+      
+      
+      
+
+      <div id="Zoom"> 
+        <!--<$[CONTENT]>start-->
+<EpointForm>		<a name="Sheet1"></a>	<table id="_Sheet1" align="center" CellPadding="0" CellSpacing="0" style="table-layout: fixed;font-family:宋体;font-size:12pt;color:#000000;border-collapse:collapse;" border="0" Width="690">	<tr Height="0px" style="font-size: 0px;line-height:0px;">		<td Width="43px" style="border-left:#0000 0px solid;border-right:#0000  1px solid;">&nbsp;</td>		<td Width="94px" style="border-right:#0000  1px solid;">&nbsp;</td>		<td Width="73px" style="border-right:#0000  1px solid;">&nbsp;</td>		<td Width="75px" style="border-right:#0000  1px solid;">&nbsp;</td>		<td Width="43px" style="border-right:#0000  1px solid;">&nbsp;</td>		<td Width="25px" style="border-right:#0000  1px solid;">&nbsp;</td>		<td Width="123px" style="border-right:#0000  1px solid;">&nbsp;</td>		<td Width="62px" style="border-right:#0000  1px solid;">&nbsp;</td>		<td Width="67px" style="border-right:#0000  1px solid;">&nbsp;</td>		<td Width="87px" style="border-right:#0000 0px solid;">&nbsp;</td>	</tr>	<tr Height="75px">		<td style="font-size:26pt;padding:2px;text-align:center" ColSpan="10">招标公告</td>	</tr>	<tr Height="35px">		<td style="font-size:16pt;padding:2px;text-align:center" ColSpan="10">（采用资格后审方式）</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>	</tr>	<tr>		<td style="font-size:10.5pt;padding:2px;text-align:center" ColSpan="10">	<P><Span style="font-size:14pt;text-decoration:underline;">江南大学附属医院（无锡市第四人民医院易地建设）项目</Span><Span style="font-size:14pt;">(项目名称)</Span><Span style="font-size:14pt;text-decoration:underline;">人防地下室战时安装工程</Span><Span style="font-size:14pt;">标段施工招标公告</Span>&nbsp;	</P>		</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>	</tr>	<tr Height="25px">		<td style="text-align:left;font-size:14pt;padding:2px;" ColSpan="10">1、招标条件</td>	</tr>	<tr>		<td style="text-align:left;font-size:10.5pt;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;本招标项目<Span style="text-decoration:underline;">江南大学附属医院（无锡市第四人民医院易地建设）项目</Span>(项目名称)已由<Span style="text-decoration:underline;">无锡市发展和改革委员会</Span>		(项目审批、核准或备案机关名称)以<Span style="text-decoration:underline;">关于江南大学附属医院（无锡市第四人民医院易地建设）项目立项（建议书）的批复&nbsp;锡发改许社[2013]260号</Span>(批文名称及编号)批准建设，项目业主为<Span style="text-decoration:underline;">无锡市第四人民医院</Span>，建设资金来自<Span style="text-decoration:underline;">财政</Span>(资金来源)，项目出资比例为<Span style="text-decoration:underline;">国有资金100.00%、私有资金0.00%、外国政府及组织投资0.00%、境外私人投资0.00%</Span>，招标人为<Span style="text-decoration:underline;">无锡城市发展集团有限公司</Span>，招标代理机构为<Span style="text-decoration:underline;">江苏普信工程项目管理有限公司</Span>。项目已具备招标条件，现对该项目的施工进行公开招标。本项目为网上电子投标。&nbsp;	</P>		</td>	</tr>	<tr Height="25px">		<td style="text-align:left;font-size:14pt;padding:2px;" ColSpan="10">2、项目概况与招标范围</td>	</tr>	<tr>		<td style="text-align:left;font-size:10.5pt;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;建设地点：&nbsp;<Span style="text-decoration:underline;">蠡湖大道以东、和风路以北、万顺道以西、吴都路以南地块</Span>&nbsp;&nbsp;	</P>	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;工程规模：&nbsp;<Span style="text-decoration:underline;">&nbsp;</Span><Span style="text-decoration:underline;">江南大学附属医院（无锡市第四人民医院易地建设）项目人防地下室战时安装工程，包括人防地下室及救护站战时强电、战时给水、战时排水及人防通风等，估算价约450万元</Span>&nbsp;	</P>	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;计划工期：&nbsp;<Span style="text-decoration:underline;">&nbsp;150&nbsp;</Span>日历天。&nbsp;	</P>	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;合同估算价：&nbsp;<Span style="text-decoration:underline;">450</Span>万元&nbsp;	</P>	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;招标范围：&nbsp;<Span style="text-decoration:underline;">江南大学附属医院（无锡市第四人民医院易地建设）项目人防地下室战时安装工程，包括人防地下室及救护站战时强电、战时给水、战时排水及人防通风等</Span>&nbsp;&nbsp;	</P>	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;标段划分：&nbsp;&nbsp;<Span style="text-decoration:underline;">&nbsp;本项目设一个标段&nbsp;</Span>&nbsp;	</P>	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;质量标准：合格&nbsp;&nbsp;&nbsp;	</P>		</td>	</tr>	<tr Height="25px">		<td style="text-align:left;font-size:14pt;padding:2px;" ColSpan="10">3、投标人资格要求</td>	</tr>	<tr Height="30px">		<td style="text-align:left;padding:2px;" ColSpan="10">3.1&nbsp;本次招标要求投标人应满足以下要求：</td>	</tr>	<tr>		<td style="text-align:left;font-size:10.5pt;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;3.1.1资质条件：<Span style="text-decoration:underline;">[机电工程(2015新标准)三级](含)以上或者[建筑机电安装工程(2015新标准)三级](含)以上</Span>&nbsp;&nbsp;&nbsp;&nbsp;	</P>	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;3.1.2财务要求：<Span style="text-decoration:underline;">2013年</Span>至<Span style="text-decoration:underline;">2015</Span>年财务会计报表（如投标人成立时间不足要求的年份，则提供自成立以来的财务会计报表）&nbsp;	</P>	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;3.1.3业绩要求：<Span style="text-decoration:underline;">/</Span>&nbsp;&nbsp;&nbsp;&nbsp;	</P>	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;3.1.4信誉要求：<Span style="text-decoration:underline;">/</Span>&nbsp;&nbsp;&nbsp;&nbsp;	</P>		</td>	</tr>	<tr Height="29px">		<td style="text-align:left;padding:2px;" ColSpan="10">&nbsp;&nbsp;&nbsp;&nbsp;3.1.5拟派项目经理须具备以下条件：</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px"><Span style="font-size:12pt;">&nbsp;&nbsp;&nbsp;&nbsp;3.1.5.1</Span><Span style="font-size:12pt;text-decoration:underline;">[机电安装工程注册建造师二级](含)以上</Span>	</P>		</td>	</tr>	<tr>		<td style="text-align:left;font-size:10.5pt;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px"><Span style="font-size:12pt;">&nbsp;&nbsp;&nbsp;&nbsp;3.1.5.2如果投标人拟派项目经理具备xx专业xx级及以上注册建造师执业资格或小型项目管理师资质，则必须具备有效的安全生产考核合格证书，并在本公司注册满3个月；如果投标人拟派项目经理具备其他资质，则必须提供与申请人签订的劳动合同，养老保险证明（内附近三个月交费清单的《职工养老保险手册》或由社保机构出具的近三个月交费证明。近三个月为连续三个月交费且交费时间在招标公告发布当月的前三个月，例如：某工程在2011年5月份发布招标公告，则拟派项目经理需提供2011年2至4月份的养老保险交费证明）。&nbsp;</Span>&nbsp;	</P>		</td>	</tr>	<tr Height="30px">		<td style="text-align:left;padding:2px;" ColSpan="10">&nbsp;&nbsp;&nbsp;&nbsp;3.1.6拟派项目经理无在建工程的要求必须满足下列条件之一：</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px"><Span style="font-size:12pt;">&nbsp;&nbsp;&nbsp;&nbsp;3.1.6.1拟派项目经理是非变更后无在建工程的。</Span>&nbsp;	</P>		</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px"><Span style="font-size:12pt;">&nbsp;&nbsp;&nbsp;&nbsp;3.1.6.2拟派项目经理是变更后无在建工程的,并且：原合同工期已满且变更备案之日已满6个月；或者，因非承包方原因致使工程项目停工超过120天，且经建设单位同意并已经办理项目经理变更手续的。</Span>&nbsp;	</P>		</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px"><Span style="font-size:12pt;">&nbsp;&nbsp;&nbsp;&nbsp;3.1.6.3拟派项目经理有在建工程，但该在建工程与本次招标的工程属于同一工程项目、同一项目批文、同一施工地点分段发包或分期施工的情况。</Span>&nbsp;	</P>		</td>	</tr>	<tr>		<td style="text-align:left;font-size:10.5pt;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px">3.2&nbsp;本次招标<Span style="text-decoration:underline;">不接受</Span>联合体投标。联合体投标的，应满足下列要求：<Span style="text-decoration:underline;">/</Span>	</P>		</td>	</tr>	<tr>		<td style="text-align:left;font-size:10.5pt;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px">3.3&nbsp;各投标人均可就上述标段中的<Span style="text-decoration:underline;">&nbsp;1&nbsp;</Span>（具体数量）个标段投标，但最多允许中标<Span style="text-decoration:underline;">&nbsp;1&nbsp;</Span>(具体数量)个标段(适用于分标段的招标项目)。&nbsp;	</P>		</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;" ColSpan="10">3.4本工程对投标人的资格审查采用资格后审方式，主要资格审查标准和内容详见招标文件中的</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;" ColSpan="10">投标人资格要求，只有资格审查合格的投标人才有可能被授予合同。</td>	</tr>	<tr Height="25px">		<td style="text-align:left;font-size:14pt;padding:2px;" ColSpan="10">4、招标文件的获取</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px">4.1&nbsp;凡有意参加投标者，请于2017年05月12日&nbsp;<Span style="text-decoration:underline;">&nbsp;9:00&nbsp;</Span>时至<Span style="text-decoration:underline;">2017年05月16日</Span>&nbsp;<Span style="text-decoration:underline;">&nbsp;16:00&nbsp;</Span>时在无锡市建设工程招标网购买并下载招标文件，逾期不再出售，招标文件每套售价<Span style="text-decoration:underline;">&nbsp;250.00&nbsp;</Span>元(≤250元)，售后不退。&nbsp;	</P>		</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px">4.2&nbsp;本项目不办理招标文件的邮购。&nbsp;	</P>		</td>	</tr>	<tr Height="25px">		<td style="text-align:left;font-size:14pt;padding:2px;" ColSpan="10">5.&nbsp;投标文件的递交</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px">5.1&nbsp;投标文件递交的截止时间（投标截止时间，下同）为&nbsp;<Span style="text-decoration:underline;">2017年06月06日</Span><Span style="text-decoration:underline;">&nbsp;9&nbsp;</Span>时<Span style="text-decoration:underline;">&nbsp;30&nbsp;</Span>分，地点为<Span style="text-decoration:underline;">&nbsp;无锡市公共资源交易中心开标5&nbsp;室（观山路199号，市民中心12号2楼）&nbsp;</Span>。投标文件递交的具体要求详见招标文件规定。&nbsp;	</P>	<P style="LINE-HEIGHT:25px">5.2&nbsp;逾期送达的或者未送达指定地点的投标文件，招标人不予受理。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	</P>		</td>	</tr>	<tr Height="25px">		<td style="text-align:left;font-size:16pt;padding:2px;" ColSpan="10">6.&nbsp;发布公告的媒介</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;" ColSpan="10">	<P style="LINE-HEIGHT:25px">&nbsp;&nbsp;&nbsp;&nbsp;本次招标公告同时在<Span style="text-decoration:underline;">交易中心、无锡市建设工程招标网、江苏省建设工程招标网</Span>上发布。&nbsp;	</P>		</td>	</tr>	<tr Height="25px">		<td style="text-align:left;font-size:16pt;padding:2px;" ColSpan="10">7、联系方式</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">招&nbsp;标&nbsp;人：</td>		<td style="border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">无锡城市发展集团有限公司、无锡市第四人民医院</td>		<td style="text-align:left;padding:2px;">招标代理机构：</td>		<td style="border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">江苏普信工程项目管理有限公司</td>	</tr>	<tr>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">无锡市健康路77号、无锡市惠河路200号</td>		<td style="text-align:left;padding:2px;">地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">无锡市人民中路37号</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">邮&nbsp;&nbsp;&nbsp;&nbsp;编：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">&nbsp;</td>		<td style="text-align:left;padding:2px;">邮&nbsp;&nbsp;&nbsp;&nbsp;编：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">&nbsp;</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">联&nbsp;系&nbsp;人：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">范吉婴</td>		<td style="text-align:left;padding:2px;">联&nbsp;系&nbsp;人：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">杨阳、刘罗英</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">电&nbsp;&nbsp;&nbsp;&nbsp;话：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">0510-82307055</td>		<td style="text-align:left;padding:2px;">电&nbsp;&nbsp;&nbsp;&nbsp;话：		</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">0510-82703504</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">传&nbsp;&nbsp;&nbsp;&nbsp;真：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">&nbsp;</td>		<td style="text-align:left;padding:2px;">传&nbsp;&nbsp;&nbsp;&nbsp;真：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">0510-82703504</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">电子邮件：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">&nbsp;</td>		<td style="text-align:left;padding:2px;">电子邮件：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">wxpxzbb@yahoo.com,cn</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">网&nbsp;&nbsp;&nbsp;&nbsp;址：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">&nbsp;</td>		<td style="text-align:left;padding:2px;">网&nbsp;&nbsp;&nbsp;&nbsp;址：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">&nbsp;</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">开户银行：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">&nbsp;</td>		<td style="text-align:left;padding:2px;">开户银行：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">&nbsp;</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">账&nbsp;&nbsp;&nbsp;&nbsp;号：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="4">&nbsp;</td>		<td style="text-align:left;padding:2px;">账&nbsp;&nbsp;&nbsp;&nbsp;号：</td>		<td style="border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;" ColSpan="3">&nbsp;</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="border-top:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>		<td style="border-top:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>		<td style="border-top:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>		<td style="border-top:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="border-top:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>		<td style="border-top:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>		<td style="border-top:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>	</tr>	<tr Height="25px">		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>		<td style="text-align:left;padding:2px;" ColSpan="3">&nbsp;</td>		<td style="text-align:left;padding:2px;">&nbsp;</td>	</tr>	</table></EpointForm><p style="text-align:left"><img src="/uploadfiles/201705/11/2017051115395357336339.gif"/><img src="/uploadfiles/201705/11/2017051115395379346790.gif"/></p></Br>附件：<a href ="/uploadfiles/201705/11/2017051115395320932634.pdf">评标办法.pdf</a></Br>        <!--<$[CONTENT]>end--> 
+      </div>
+      
+
+      
+      <p class="arc_pages">
+      本篇文章共有<em>1</em>页 当前为第 <em>1</em> 页
+       
+      </p>
+      <div class="others clearfix">
+      
+      <p style="text-align:center"><a href="http://61.160.74.107/wxztbhy/login.aspx">
+<img src="/wxsggzyjyzx/static/images/anniu.jpg"></a></p>  
+      
+        <p class="Close"><span>关闭窗口</span></p>
+      </div>
+<script type="text/javascript">
+$(".Big").click(function() {
+	$("#Zoom").css({"font-size": "16px", "line-height": "28px"});
+});
+$(".Middle").click(function() {
+	$("#Zoom").css({"font-size": "14px", "line-height": "24px"});
+});
+$(".Small").click(function() {
+	$("#Zoom").css({"font-size": "12px", "line-height": "22px"});
+});
+$(".Print, .print").click(function(){
+	window.print();
+});
+$(".Close, .close").click(function(){
+	window.close();
+});
+$(".Favorite").click(function(){
+	try {
+		window.external.AddFavorite(location.href, document.title);
+	}
+	catch (e) {
+		try {
+			window.sidebar.addPanel(document.title, location.href, "");
+		}
+		catch (e) {
+			alert("对不起，您的浏览器不支持收藏功能！")
+		}
+	}			});
+</script> 
+    </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer font12 white clearfix">
+    <p class="fl" style="display:inline; margin:18px 0 0 25px;">无锡市公共资源交易专栏  版权所有<br />无锡市公共资源交易专栏  主办</p>
+    <p class="fr" style="display:inline; margin:18px 25px 0 0;">技术支持：<a href="#">泰得利通</a>&nbsp;网络支持：无锡移动<br />苏ICP备09024546号&nbsp; 浏览次数：<span  id="siteClickCount"></span><span  onclick="collect();" style="cursor:pointer" ></p>
+    
+    <script language="javascript" >
+  
+              $.ajax({
+				type : "post",
+                url:"/intertidwebapp/counter/count",
+                data: {
+                  'contentID':5,
+                  'siteName':'无锡市公共资源交易中心',
+                  'siteID':5
+                },
+                success:function(data){
+                    $('#siteClickCount').html(data);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    
+                }
+            });	
+  </script>
+    
+</div>
+
+</body>
+</html>
+
+
+<!-- Generated By TurboECM v2.1.5 2017-05-12 09:00:25 -->

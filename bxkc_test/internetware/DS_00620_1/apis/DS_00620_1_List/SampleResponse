@@ -1,0 +1,1698 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>竞价采购系统</title>
+	<link href="view/srplatform/portal/logo.ico" type="image/ico" rel="shortcut icon"/> 
+	
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/common/plug_in.css"/>
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/sysicon/sysicon.css"/>
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/default/listDetail.css"/>
+
+<script type="text/javascript" src="/gpms/view/resource/scripts/json/json.js"></script>
+
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.ui.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/jquery.wresize.js" ></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.autoHeight.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.form.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.jPrintArea.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/FusionChart/JSClass/FusionCharts.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/FusionChart/JSClass/FusionChartsExportComponent.js"></script>
+
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/flexigrid/flexigrid.js"></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/dataTables/media/js/jquery.dataTables.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/dhtmlxTree/dhtmlxcommon.js"></script>  
+<script type="text/javascript" src="/gpms/view/resource/plug-in/dhtmlxTree/dhtmlxtree.js"></script>
+<SCRIPT type="text/javascript" src="/gpms/view/resource/plug-in/jquery/autocomplete/jquery.autocomplete.js"></SCRIPT>
+<script type="text/javascript" src="/gpms/view/resource/scripts/jquery/epsValidate/jquery.validate.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/select/jQuery.CascadingSelect.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/select/jQuery.FillOptions.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/select/jquery.dxCombobox.js"></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/progressbar/jquery.progressbar.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/jquery.bxGallery.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/ajaxpager/jquery.ajaxpager.js"></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/imgPlay/imgPlay.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.scrollto.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.qtip-1.0.0-rc3.js'></script>
+
+<script type="text/javascript" src='/gpms/view/resource/scripts/jquery/epsDatepicker/epsDatepicker.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/jquery/epsDialog/epsDialog.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/jquery/epsContentMenu/epsContentMenu.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/json/json-eps.js"></script>
+<!--  <script type="text/javascript" src="/gpms/view/resource/scripts/json/json.js"></script>-->
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/obj2str.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/dateUtil.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/select.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/listTree.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/treeUtil.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/tabSet.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/otherUtils.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/paramBind.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/loadPage.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/sysTools.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/date.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/changeSkin.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/sysInfo.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/evaluate.js"></script>
+<script type="text/javascript" charset="utf-8" src='/gpms/view/resource/plug-in/kindeditor-4.1.7/kindeditor.js'></script>
+<script type="text/javascript" charset="utf-8" src='/gpms/view/resource/plug-in/kindeditor-4.1.7/lang/zh_CN.js'></script>
+
+	
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/default/listDetail.css" />
+	<style type="text/css">
+	.selectCategory { background: none repeat scroll 0 0 #F2F2F2; border: 1px solid #CCCCCC; height: 25px; margin-bottom: 4px; overflow: hidden; position: relative; }
+	.selectCategory .choosed { float: left; line-height: 21px; margin-top: 2px; width: 610px; }
+	.selectCategory .choosed h3 { display: inline; float: left; font-size: 12px; }
+	.selectCategory .choosed a { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #E6E6E6; color: #404040; display: inline; float: left; line-height: 19px; margin-left: 5px; padding: 0 20px 0 5px; position: relative; white-space: nowrap; }
+	.selectCategory .choosed b { background: url("view/resource/skin/skin07/img/delete.gif") no-repeat scroll 0 0 transparent; }
+	.selectCategory .choosed b { background-position: 0 0px; height: 18px; position: absolute; right: 2px; top: 1px; width: 21px; }
+	</style>
+	<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/default/main.css" />
+	<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/skin07/css/three.css"/>
+	<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/home/index.css" />
+	<!--JS-->
+	<script type="text/javascript" src='/gpms/view/srplatform/portal/include/common.js'></script>
+	<script type="text/javascript" src='/gpms/view/agreement/showbulletin/show_bulletin_list.js'></script>
+</head>
+<body>
+<div id="container">
+	
+
+	<!-- 头部开始 -->
+	<div class="header">
+     	<!-- 页面参数 -->
+		<input type="hidden" id="initPath" value="/gpms" />
+		<input type="hidden" id="isNeedNavigation" value="null" />
+		<input type="hidden" id="returnUrl" value="" />
+		<input type="hidden" id="hrefUrl" value=""/>
+		<input type="hidden" id="roleType" value="null" />
+		<input type="hidden" id="globleOrg" value="null" />
+		<input type="hidden" id="currentTab" value="0"/>
+   
+     	<!--网站导航 开始-->
+	    <div class="top-nav">
+	      <div class="top-info">
+	      <p class="userInfo">
+	      
+			  您好，欢迎来竞价采购系统！<a href="javascript:void(0);" onclick="common.goToLogin();return false;">登录</a>
+			 <a title="免费注册成为会员享受更多服务" href="javascript:void(0);" id="regBtn">免费注册</a>
+	       
+	  	  </p>
+	      <ul class="quickMenu">
+		  	<li><span><i class="icon-cog"></i><a class="ebidHome" href="/gpms/IndexViewController.do?method=index">首页</a></span></li>
+	        
+	  	    
+	  	  </ul>
+	  	  </div>
+	    </div>
+    
+	    <!--网站导航 结束--> 
+	    <!--网站基础信息 开始-->
+	    <div class="banner" style="width:1000px;">
+		   <div class="logo"><img src="/gpms/view/resource/images/banner.jpg" /></div>
+		   <!--主导航菜单 开始-->
+	       <div class="nav">
+	           
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="menu">
+	<li id="goToIndex1"><a id="goToIndex" href="javascript:void(0);" title="首页">首页</a></li>
+	<li id="notice1"><a id="notice" href="/gpms/view/staticpags/notice/notice.jsp" title="通知公告">通知公告</a></li>
+	<li id="purBulletin1"><a id="purBulletin" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=12&tenderMethod=06&rp=21&page=1" title="竞价公告">竞价公告</a></li>
+	<li id="purBulletin2"><a id="purBulletin2" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=12&tenderMethod=21&rp=21&page=1" title="直购公告">直购公告</a></li>
+	<li id="dealBulletin1"><a id="dealBulletin" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=13&tenderMethod=00&rp=21&page=1" title="成交公告">成交公告</a></li>
+	<li id="correctBulletin1"><a id="correctBulletin" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=15&tenderMethod=03&rp=21&page=1" title="已取消成交公告">已取消成交公告</a></li>
+	<li id="goodsLib1"><a id="goodsLib" href="/gpms/GoodsShowController.do?method=toShowGoodsIndexView" title="商品库">商品库</a></li>
+	<li id="supplierLib"><a id="supplierLib" href="/gpms/SupplierShowController.do?method=toSupplierList&rp=20&page=1&districtLevel=1" title="供应商库">供应商库</a></li>
+	<li id="supplierBlackInfo"><a id="supplierBlackInfo" href="/gpms/SupplierShowController.do?method=toSupplierBlackInfoList&rp=10&page=1&districtLevel=1" title="供应商曝光台">供应商曝光台</a></li>
+
+	
+</ul>
+		   </div>
+	       <!--主导航菜单 结束-->
+	    </div>
+    	<!--网站基础信息 结束--> 
+    
+    	<div class="searchBox">
+		    <!--网站搜索 开始-->
+		    <div class="search">
+		       <input type="hidden" id="searchType" value="1"  />
+		       <span class="fdj"><img src="/gpms/view/resource/skin/themes/default/img/changeBig.png" width="14" height="14" /></span>
+		       <label >
+		          <select id="seachKey">
+		             <option value="1" selected="selected">找商品</option>
+		             <option value="2">找公告</option>
+		             <option value="3">找供应商</option>
+		          </select>
+		       </label>
+		       <span><input id="keyWords" type="text" /></span>
+		       <span><a href="#" title="搜索" onclick="keyWordSearch();return false;"><img src="/gpms/view/resource/skin/themes/default/img/seach.png" width="44" height="21" border="0" style="margin-top:3px"/></a></span>
+		    </div>
+		    <!--网站搜索 结束-->
+    	</div>
+  	</div>
+  	
+
+<!--[if IE 6]>
+<div class="userTips">
+	<p>尊敬的用户，您好！您使用的浏览器版本过低，请升级到较高版本，以获得更好的安全性及操作、视觉体验。<a href="http://www.microsoft.com/china/windows/internet-explorer/worldwide-sites.aspx" title="点击下载IE8浏览器安装文件">下载IE8浏览器</a></p>
+</div>
+<![endif]-->
+<noscript>
+<div class="userTips">
+  <p>尊敬的用户，您好！您使用的浏览器不支持或禁用JavaScript脚本。请使用支持JavaScript脚本的浏览器或启用浏览器JavaScript脚本功能。</p>
+  <p>如有任何疑问或需要帮助，请<a href="http://www.gpcsoft.com" target="_blank" title="珠海政采软件技术有限公司 技术支持">与我们联系</a>。</p>
+</div>
+</noscript>
+	<!-- 头部结束-->
+	
+	<!--主要内容 开始-->
+	<div id="sysContent" class="page_notice">
+		<input type="hidden" id="districtId" value=""/>
+		<input type="hidden" id="purCategoryId" value=""/>
+		<input type="hidden" id="tenderMethod" value="06"/>
+		<input type="hidden" id="bulletinType" value="12"/>
+		<input type="hidden" id="currentTime" value="Mon Jan 15 10:23:26 CST 2018"/>
+		
+		<div id="contentSub" class="hidden"></div>
+		<div id="contentMain" class="index2paL" style="width:100%">
+		 	<div id="conTitle">
+		      	<div class="navCurrent">采购项目展示</div>
+		    </div>
+		    <!--功能页内容-->
+		    <div id="conBody">
+		    	<!--已选择采购品目 开始 -->
+		    	
+				<!--已选择采购品目 结束-->
+			    
+		    	<!-- 搜索条件 开始 -->
+				<div id="ListSubCategory">
+					<div class="SubCategoryBox">
+						<div class="FindByHint"><img src="view/resource/skin/sysicon/16/bullet_go.png">按预算采购金额选择：</div>
+						<ul class="CategoryListTableLevel1 expand" id="moreProp2">
+							<div id="propDisp1">
+								<li>
+									<a href="javascript:void(0);" name="" >金额不限</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="0,1000" >&lt;1000元</a><i>(69)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="1000,5000">1000-5000元</a><i>(540)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="5000,10000">5000-1万元</a><i>(602)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="10000,50000">1万-5万元</a><i>(2269)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="50000,100000">5万-10万元</a><i>(353)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="100000,500000">10万-50万元</a><i>(136)</i>
+								</li>
+							</div>
+						</ul>
+					</div>
+					<div class="SubCategoryBox">
+						<div class="FindByHint"><img src="view/resource/skin/sysicon/16/bullet_go.png">按所在地选择：</div>
+						<ul class="CategoryListTableLevel1 expand" id="moreProp2">
+							<div id="propDisp2">
+								
+								
+									<li><a name="-1" href="javascript:void(0);" onclick="show_list.changeDistrict('-1');return false;">全部地区</a></li>
+									
+										<li><a  name="510000" href="javascript:void(0);" onclick="show_list.changeDistrict('510000');return false;"
+												
+											>四川省</a><i>(11)</i></li>
+									
+										<li><a  name="510800" href="javascript:void(0);" onclick="show_list.changeDistrict('510800');return false;"
+												
+											>广元市</a><i>(11)</i></li>
+									
+										<li><a  name="510801" href="javascript:void(0);" onclick="show_list.changeDistrict('510801');return false;"
+												
+											>市本级</a><i>(1)</i></li>
+									
+										<li><a  name="510802" href="javascript:void(0);" onclick="show_list.changeDistrict('510802');return false;"
+												
+											>利州区</a><i>(6)</i></li>
+									
+										<li><a  name="510822" href="javascript:void(0);" onclick="show_list.changeDistrict('510822');return false;"
+												
+											>青川县</a><i>(4)</i></li>
+									
+								
+							</div>
+						</ul>
+						
+					</div>
+					<div class="SubCategoryBox">
+						<div class="FindByHint"><img src="view/resource/skin/sysicon/16/bullet_go.png">按采购品目选择：</div>
+						<ul class="CategoryListTableLevel1 expand" id="moreProp1">
+							<div id="propDisp3">
+								
+								
+									<li><a name="-1" href="javascript:void(0);" onclick="show_list.changePurCategory('-1');return false;">全部分类</a></li>
+									 
+									<li>
+										<a name="A0201" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201');return false;" 
+										>计算机设备及软件</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A020101" href="javascript:void(0);" onclick="show_list.changePurCategory('A020101');return false;" 
+										>计算机设备</a>
+										<i>(13)</i>
+									</li>
+									 
+									<li>
+										<a name="A02010103" href="javascript:void(0);" onclick="show_list.changePurCategory('A02010103');return false;" 
+										>服务器</a>
+										<i>(13)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201010301" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201010301');return false;" 
+										>PC服务器</a>
+										<i>(47)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201010302" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201010302');return false;" 
+										>小型机</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201010303" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201010303');return false;" 
+										>并行运算服务器</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201010399" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201010399');return false;" 
+										>其他服务器</a>
+										<i>(15)</i>
+									</li>
+									 
+									<li>
+										<a name="A02010104" href="javascript:void(0);" onclick="show_list.changePurCategory('A02010104');return false;" 
+										>台式计算机</a>
+										<i>(1000)</i>
+									</li>
+									 
+									<li>
+										<a name="A02010105" href="javascript:void(0);" onclick="show_list.changePurCategory('A02010105');return false;" 
+										>便携式计算机</a>
+										<i>(373)</i>
+									</li>
+									 
+									<li>
+										<a name="A020102" href="javascript:void(0);" onclick="show_list.changePurCategory('A020102');return false;" 
+										>计算机网络设备</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A02010201" href="javascript:void(0);" onclick="show_list.changePurCategory('A02010201');return false;" 
+										>路由器</a>
+										<i>(7)</i>
+									</li>
+									 
+									<li>
+										<a name="A02010202" href="javascript:void(0);" onclick="show_list.changePurCategory('A02010202');return false;" 
+										>交换设备</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201020201" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201020201');return false;" 
+										>以太网交换机</a>
+										<i>(30)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201020299" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201020299');return false;" 
+										>其他交换设备</a>
+										<i>(20)</i>
+									</li>
+									 
+									<li>
+										<a name="A02010601" href="javascript:void(0);" onclick="show_list.changePurCategory('A02010601');return false;" 
+										>打印设备</a>
+										<i>(10)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060101" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060101');return false;" 
+										>喷墨打印机</a>
+										<i>(30)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060102" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060102');return false;" 
+										>激光打印机</a>
+										<i>(183)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060103" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060103');return false;" 
+										>热式打印机</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060104" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060104');return false;" 
+										>针式打印机</a>
+										<i>(48)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060199" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060199');return false;" 
+										>其他打印设备</a>
+										<i>(28)</i>
+									</li>
+									 
+									<li>
+										<a name="A02010604" href="javascript:void(0);" onclick="show_list.changePurCategory('A02010604');return false;" 
+										>显示设备</a>
+										<i>(8)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060401" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060401');return false;" 
+										>液晶显示器</a>
+										<i>(8)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060499" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060499');return false;" 
+										>其他显示器</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060901" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060901');return false;" 
+										>扫描仪</a>
+										<i>(17)</i>
+									</li>
+									 
+									<li>
+										<a name="A020201" href="javascript:void(0);" onclick="show_list.changePurCategory('A020201');return false;" 
+										>复印机</a>
+										<i>(152)</i>
+									</li>
+									 
+									<li>
+										<a name="A020202" href="javascript:void(0);" onclick="show_list.changePurCategory('A020202');return false;" 
+										>投影仪</a>
+										<i>(57)</i>
+									</li>
+									 
+									<li>
+										<a name="A020203" href="javascript:void(0);" onclick="show_list.changePurCategory('A020203');return false;" 
+										>多功能一体机</a>
+										<i>(162)</i>
+									</li>
+									 
+									<li>
+										<a name="A020204" href="javascript:void(0);" onclick="show_list.changePurCategory('A020204');return false;" 
+										>照相机及器材</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A02020401" href="javascript:void(0);" onclick="show_list.changePurCategory('A02020401');return false;" 
+										>照相机</a>
+										<i>(11)</i>
+									</li>
+									 
+									<li>
+										<a name="A0202040101" href="javascript:void(0);" onclick="show_list.changePurCategory('A0202040101');return false;" 
+										>数字照相机</a>
+										<i>(63)</i>
+									</li>
+									 
+									<li>
+										<a name="A0202040102" href="javascript:void(0);" onclick="show_list.changePurCategory('A0202040102');return false;" 
+										>通用照相机</a>
+										<i>(52)</i>
+									</li>
+									 
+									<li>
+										<a name="A0202040104" href="javascript:void(0);" onclick="show_list.changePurCategory('A0202040104');return false;" 
+										>专用照相机</a>
+										<i>(38)</i>
+									</li>
+									 
+									<li>
+										<a name="A0202040105" href="javascript:void(0);" onclick="show_list.changePurCategory('A0202040105');return false;" 
+										>特殊照相机</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A02020402" href="javascript:void(0);" onclick="show_list.changePurCategory('A02020402');return false;" 
+										>镜头及器材</a>
+										<i>(30)</i>
+									</li>
+									 
+									<li>
+										<a name="A02020901" href="javascript:void(0);" onclick="show_list.changePurCategory('A02020901');return false;" 
+										>速印机</a>
+										<i>(24)</i>
+									</li>
+									 
+									<li>
+										<a name="A02021001" href="javascript:void(0);" onclick="show_list.changePurCategory('A02021001');return false;" 
+										>碎纸机</a>
+										<i>(19)</i>
+									</li>
+									 
+									<li>
+										<a name="A0203" href="javascript:void(0);" onclick="show_list.changePurCategory('A0203');return false;" 
+										>车辆</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A02030502" href="javascript:void(0);" onclick="show_list.changePurCategory('A02030502');return false;" 
+										>越野车</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A02030503" href="javascript:void(0);" onclick="show_list.changePurCategory('A02030503');return false;" 
+										>商务车</a>
+										<i>(5)</i>
+									</li>
+									 
+									<li>
+										<a name="A02030602" href="javascript:void(0);" onclick="show_list.changePurCategory('A02030602');return false;" 
+										>大中型客车</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A02030701" href="javascript:void(0);" onclick="show_list.changePurCategory('A02030701');return false;" 
+										>厢式专用汽车</a>
+										<i>(4)</i>
+									</li>
+									 
+									<li>
+										<a name="A02030720" href="javascript:void(0);" onclick="show_list.changePurCategory('A02030720');return false;" 
+										>抢险车</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A020618" href="javascript:void(0);" onclick="show_list.changePurCategory('A020618');return false;" 
+										>生活用电器</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A0206180203" href="javascript:void(0);" onclick="show_list.changePurCategory('A0206180203');return false;" 
+										>空调机</a>
+										<i>(555)</i>
+									</li>
+									 
+									<li>
+										<a name="A0208" href="javascript:void(0);" onclick="show_list.changePurCategory('A0208');return false;" 
+										>通信设备</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A02081001" href="javascript:void(0);" onclick="show_list.changePurCategory('A02081001');return false;" 
+										>传真通信设备</a>
+										<i>(10)</i>
+									</li>
+									 
+									<li>
+										<a name="A0209" href="javascript:void(0);" onclick="show_list.changePurCategory('A0209');return false;" 
+										>广播、电视、电影设备</a>
+										<i>(4)</i>
+									</li>
+									 
+									<li>
+										<a name="A020910" href="javascript:void(0);" onclick="show_list.changePurCategory('A020910');return false;" 
+										>电视设备</a>
+										<i>(4)</i>
+									</li>
+									 
+									<li>
+										<a name="A02091001" href="javascript:void(0);" onclick="show_list.changePurCategory('A02091001');return false;" 
+										>普通电视设备（电视机）</a>
+										<i>(88)</i>
+									</li>
+									 
+									<li>
+										<a name="A020911" href="javascript:void(0);" onclick="show_list.changePurCategory('A020911');return false;" 
+										>视频设备</a>
+										<i>(7)</i>
+									</li>
+									 
+									<li>
+										<a name="A02091102" href="javascript:void(0);" onclick="show_list.changePurCategory('A02091102');return false;" 
+										>通用摄像机</a>
+										<i>(61)</i>
+									</li>
+									 
+									<li>
+										<a name="A06" href="javascript:void(0);" onclick="show_list.changePurCategory('A06');return false;" 
+										>家具用具</a>
+										<i>(492)</i>
+									</li>
+									 
+									<li>
+										<a name="A060101" href="javascript:void(0);" onclick="show_list.changePurCategory('A060101');return false;" 
+										>钢木床类</a>
+										<i>(11)</i>
+									</li>
+									 
+									<li>
+										<a name="A060103" href="javascript:void(0);" onclick="show_list.changePurCategory('A060103');return false;" 
+										>轻金属床类</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A060104" href="javascript:void(0);" onclick="show_list.changePurCategory('A060104');return false;" 
+										>木制床类</a>
+										<i>(15)</i>
+									</li>
+									 
+									<li>
+										<a name="A060199" href="javascript:void(0);" onclick="show_list.changePurCategory('A060199');return false;" 
+										>其他床类</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A0602" href="javascript:void(0);" onclick="show_list.changePurCategory('A0602');return false;" 
+										>台、桌类</a>
+										<i>(24)</i>
+									</li>
+									 
+									<li>
+										<a name="A060201" href="javascript:void(0);" onclick="show_list.changePurCategory('A060201');return false;" 
+										>钢木台、桌类</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A060205" href="javascript:void(0);" onclick="show_list.changePurCategory('A060205');return false;" 
+										>木制台、桌类</a>
+										<i>(15)</i>
+									</li>
+									 
+									<li>
+										<a name="A060299" href="javascript:void(0);" onclick="show_list.changePurCategory('A060299');return false;" 
+										>其他台、桌类</a>
+										<i>(6)</i>
+									</li>
+									 
+									<li>
+										<a name="A0603" href="javascript:void(0);" onclick="show_list.changePurCategory('A0603');return false;" 
+										>椅凳类</a>
+										<i>(21)</i>
+									</li>
+									 
+									<li>
+										<a name="A060302" href="javascript:void(0);" onclick="show_list.changePurCategory('A060302');return false;" 
+										>木骨架为主的椅凳类</a>
+										<i>(4)</i>
+									</li>
+									 
+									<li>
+										<a name="A060399" href="javascript:void(0);" onclick="show_list.changePurCategory('A060399');return false;" 
+										>其他椅凳类</a>
+										<i>(11)</i>
+									</li>
+									 
+									<li>
+										<a name="A060402" href="javascript:void(0);" onclick="show_list.changePurCategory('A060402');return false;" 
+										>木骨架沙发类</a>
+										<i>(5)</i>
+									</li>
+									 
+									<li>
+										<a name="A060499" href="javascript:void(0);" onclick="show_list.changePurCategory('A060499');return false;" 
+										>其他沙发类</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A0605" href="javascript:void(0);" onclick="show_list.changePurCategory('A0605');return false;" 
+										>柜类</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A060501" href="javascript:void(0);" onclick="show_list.changePurCategory('A060501');return false;" 
+										>文件柜</a>
+										<i>(29)</i>
+									</li>
+									 
+									<li>
+										<a name="A060599" href="javascript:void(0);" onclick="show_list.changePurCategory('A060599');return false;" 
+										>其他柜类</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A0699" href="javascript:void(0);" onclick="show_list.changePurCategory('A0699');return false;" 
+										>其他家具用具</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A09" href="javascript:void(0);" onclick="show_list.changePurCategory('A09');return false;" 
+										>办公消耗用品及类似物品</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A090101" href="javascript:void(0);" onclick="show_list.changePurCategory('A090101');return false;" 
+										>复印纸</a>
+										<i>(95)</i>
+									</li>
+									
+								
+							</div>
+						</ul>
+						
+							<div class="expandOpen">
+								<a href="javascript:void(0);" onclick="common.showOrHiddenMore('expandProp1','moreProp1','分类');return false;">
+									<span class="sysicon siDownGray" id="expandProp1">显示全部分类</span>
+								</a>
+							</div>
+						
+					</div>
+				</div>
+				<!-- 搜索条件 结束 -->
+				
+				<!--详细搜索条件 开始 -->
+				<div class="SubCategoryBox">
+					<div class="FindByHint"><img src="view/resource/skin/sysicon/16/bullet_go.png">更多筛选条件：</div>
+					<form id="bulletinFilter">
+		   			<table>
+						<tbody>
+							<tr>
+							
+								<td id="xmjd" style="display:none; width:200px;">项目进度：
+									<select name="projectProcess" style="width: 80px;">
+										<option value="all">全部</option>
+										<option value="bargaining" >进行中</option>
+										<option value="bargained" >已结束</option>
+									</select>
+								</td>
+								<td style="width:220px;">关键字：<input type="text" name="keyWord" value="" id="keyWord"></td>
+								<td class="operationBtnDiv l"></td>
+								<td style="width:400px;">
+									公告发布时间：
+									<input id="startDate" value="" style="width:80px"/>~<input id="endDate" value="" style="width:80px"/>
+									<button type="button" onclick="show_list.makeSearchData('restart')"><span>确定</span></button>
+									<script>
+										$("#startDate").epsDatepicker({timeShow:false});
+										$("#endDate").epsDatepicker({timeShow:false});
+									</script>
+								</td>
+								
+								
+								
+								
+							</tr>
+						</tbody>
+					</table>
+					</form>
+				</div>
+				<!--详细搜索条件 结束 -->
+				
+		    	<!--排序方式 开始-->
+			    <div class="conrank">
+					<ul>
+						<li class="displayBy"><em>排序方式：</em>
+							<span class="supplierSort sysicon" id="budgetMoneySort" ><a href="javascript:void(0);">采购金额</a></span>
+							<span class="supplierSort sysicon" id="createTimeSort" ><a href="javascript:void(0);">创建时间</a></span>
+						</li>
+						<li class="" style="float:right; margin-right:30px;">共&nbsp;<strong style="color:#ff6501;font-weight: bold;"><span id="totalAmount">4639</span></strong>&nbsp;个采购项目</li>
+					</ul>
+			    </div>
+				<!--排序方式 结束-->
+				<!--产品信息 开始--> 
+				<div id="showSuppListAndPic">
+					
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//比较两个时间的大小
+function cha(timeStr1, timeStr2){
+	var time1 = new Date(Date.parse(timeStr1));
+	var time2 = new Date(Date.parse(timeStr2));
+	return time1.getTime() - time2.getTime();
+}
+$(document).ready(function(){
+	var currentTime = $("#currentTime1").val();
+	currentTime = new Date(Date.parse(currentTime.replace(/-/g,"/")));
+	
+	$("#bulletinListDetail").find(".photo").each(function(i, domEle){
+		var tenderMethod = '06';
+		var bulletinType = $(domEle).find("input[name=bulletinType]").val(); //公告类型
+		var projImplStatus = $(domEle).find("input[name=projImplStatus]").val();
+		var projProcessStatus = $(domEle).find("input[name=projProcessStatus]").val();
+		var startTime = ''; //开始时间
+		var endTime = ''; //结束时间
+		
+		//招标公告
+		if(bulletinType == '12'){
+			startTime = $(domEle).find("input[name=evalStartTime]").val();
+			endTime = $(domEle).find("input[name=evalEndTime]").val();
+			
+			startTime = new Date(Date.parse(startTime.replace(/-/g,"/")));
+			endTime = new Date(Date.parse(endTime.replace(/-/g,"/")));
+		}
+		var imgName = 'notes.png';
+		if(bulletinType == '13'){
+			var ebuyMethod = $('#ebuyMethod').val();
+			if(ebuyMethod == '06'){
+				imgName = 'notes_jj.png'
+			}
+			if(ebuyMethod == '21'){
+				imgName = 'notes_zg.png'
+			}
+		}
+
+		//竞价
+		if(bulletinType == '12' && tenderMethod == '06') {
+			
+			//未开始  开始时间 > 当前时间  并且不等于终止
+			//进行中  开始时间 < 当前时间 < 结束时间  并且不等于终止 
+			//已完成  当前时间 > 结束时间   或者已终止
+
+			if(startTime > currentTime && projImplStatus != '02') {
+				imgName='nostart.png';
+			} else if(startTime < currentTime && currentTime < endTime && projImplStatus != '02' && projProcessStatus != '200') {
+				imgName='being.png';
+			} else if(currentTime > endTime || projImplStatus == '02' || projProcessStatus == '200') {
+				imgName='over.png';
+			}
+			
+		}
+
+		//直购
+		if(bulletinType == '12' && tenderMethod == '21') {
+			if(projImplStatus == '03') {
+				imgName='being.png';
+			} else if(projImplStatus == '04' || projImplStatus == '02') {
+				imgName='over.png';
+			}
+		}
+		
+		$(domEle).find("span").html('<img src="view/resource/skin/pubservice/img/'+imgName+';jsessionid=yDyHhcQp18V4Bn7KhwMQJ2bpK6C96X5hK5WDdYWPj6HyYKJ7pG51!-1790893622">');
+	});
+});
+</script>
+<input id="currentTime1" type="hidden" name="currentTime" value="2018-1-15 10:23:26">
+<div class="list-content" id="bulletinListDetail">
+	<ul class="list-view hlisting sell">
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160f36b5b69253f','12','06');return false;">剑阁县剑门关镇人民政府JGCZ20171213011台式计算机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-15 14:33:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-18 14:33:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160f36b5b69253f','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：剑阁县剑门关镇人民政府
+					<br/>
+					报价时间：<font color="red">2018-01-15 14:33 ~ 2018-01-18 14:33</font>
+					
+		        	<br/>发布时间：2018-01-14 14:46:27
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160f74541522577','12','06');return false;">广元市利州区卫生和计划生育监督执法大队lzq2018011201台式计算机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-15 8:38:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-17 8:38:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160f74541522577','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市利州区卫生和计划生育监督执法大队
+					<br/>
+					报价时间：<font color="red">2018-01-15 08:38 ~ 2018-01-17 08:38</font>
+					
+		        	<br/>发布时间：2018-01-15 08:43:19
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160f3cf94f2255a','12','06');return false;">广元市体育局SBJ2018010401台式计算机网上竞价项目(第3次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-14 16:29:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-15 16:29:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160f3cf94f2255a','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市体育局
+					<br/>
+					报价时间：<font color="red">2018-01-14 16:29 ~ 2018-01-15 16:29</font>
+					
+		        	<br/>发布时间：2018-01-14 16:35:55
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e8b6efaa2369','12','06');return false;">广元市朝天区平溪乡人民政府广朝竞价〔2018〕001号垃圾车网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-12 14:30:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-19 14:30:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e8b6efaa2369','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市朝天区平溪乡人民政府
+					<br/>
+					报价时间：<font color="red">2018-01-12 14:30 ~ 2018-01-19 14:30</font>
+					
+		        	<br/>发布时间：2018-01-12 12:53:11
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e854705a22bd','12','06');return false;">四川省广元市树人中学SBJ2018011002多功能一体机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-12 10:36:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-15 10:36:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e854705a22bd','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：四川省广元市树人中学
+					<br/>
+					报价时间：<font color="red">2018-01-12 10:36 ~ 2018-01-15 10:36</font>
+					
+		        	<br/>发布时间：2018-01-12 11:05:36
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e84ea2062291','12','06');return false;">广元市司法局SBJ2018010803普通电视设备（电视机）网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-12 10:38:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-15 10:38:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e84ea2062291','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市司法局
+					<br/>
+					报价时间：<font color="red">2018-01-12 10:38 ~ 2018-01-15 10:38</font>
+					
+		        	<br/>发布时间：2018-01-12 10:59:15
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d9cb308b11c5','12','06');return false;">青川县卫生执法监督大队QCJJ2017257001台式计算机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-9 14:42:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-16 14:42:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d9cb308b11c5','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：青川县卫生执法监督大队
+					<br/>
+					报价时间：<font color="red">2018-01-09 14:42 ~ 2018-01-16 14:42</font>
+					
+		        	<br/>发布时间：2018-01-09 15:21:00
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d44e5e190c28','12','06');return false;">广元市体育局SBJ2018010402家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-15 10:22:55">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-15 13:22:55"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d44e5e190c28','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市体育局
+					<br/>
+					报价时间：<font color="red">2018-01-15 10:22 ~ 2018-01-15 13:22</font>
+					
+		        	<br/>发布时间：2018-01-08 13:46:33
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e97229f523e0','12','06');return false;">广元市林业和园林局SBJ2018010408台式计算机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-12 16:13:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-14 16:13:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e97229f523e0','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市林业和园林局
+					<br/>
+					报价时间：<font color="red">2018-01-12 16:13 ~ 2018-01-14 16:13</font>
+					
+		        	<br/>发布时间：2018-01-12 16:17:41
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e96dda4123cb','12','06');return false;">广元市林业和园林局SBJ2018010409便携式计算机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-12 16:11:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-14 16:11:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e96dda4123cb','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市林业和园林局
+					<br/>
+					报价时间：<font color="red">2018-01-12 16:11 ~ 2018-01-14 16:11</font>
+					
+		        	<br/>发布时间：2018-01-12 16:12:58
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e42bedca20d4','12','06');return false;">广元市林业和园林局SBJ2018010411家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-11 15:39:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-14 15:39:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e42bedca20d4','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市林业和园林局
+					<br/>
+					报价时间：<font color="red">2018-01-11 15:39 ~ 2018-01-14 15:39</font>
+					
+		        	<br/>发布时间：2018-01-11 15:42:52
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e427d46220b7','12','06');return false;">广元市林业和园林局SBJ2018010412家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-11 15:36:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-14 15:36:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e427d46220b7','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市林业和园林局
+					<br/>
+					报价时间：<font color="red">2018-01-11 15:36 ~ 2018-01-14 15:36</font>
+					
+		        	<br/>发布时间：2018-01-11 15:38:23
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e2d4a4511f1d','12','06');return false;">广元市昭化区黄龙乡人民政府20180110002家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-11 9:25:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-14 9:25:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e2d4a4511f1d','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市昭化区黄龙乡人民政府
+					<br/>
+					报价时间：<font color="red">2018-01-11 09:25 ~ 2018-01-14 09:25</font>
+					
+		        	<br/>发布时间：2018-01-11 09:27:54
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e2d227561f07','12','06');return false;">广元市昭化区黄龙乡人民政府20180110002家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-11 9:19:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-14 9:19:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e2d227561f07','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市昭化区黄龙乡人民政府
+					<br/>
+					报价时间：<font color="red">2018-01-11 09:19 ~ 2018-01-14 09:19</font>
+					
+		        	<br/>发布时间：2018-01-11 09:25:11
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e2c42dc01ee3','12','06');return false;">广元市昭化区黄龙乡人民政府20180110001台式计算机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-11 9:02:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-14 9:02:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160e2c42dc01ee3','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市昭化区黄龙乡人民政府
+					<br/>
+					报价时间：<font color="red">2018-01-11 09:02 ~ 2018-01-14 09:02</font>
+					
+		        	<br/>发布时间：2018-01-11 09:09:55
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160decda2e81536','12','06');return false;">广元市体育局SBJ2018010403专用照相机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-10 15:00:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-12 10:00:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160decda2e81536','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市体育局
+					<br/>
+					报价时间：<font color="red">2018-01-10 15:00 ~ 2018-01-12 10:00</font>
+					
+		        	<br/>发布时间：2018-01-10 14:41:46
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160dec11a1d14dd','12','06');return false;">广元市体育局SBJ2018010401台式计算机网上竞价项目(第2次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-10 14:40:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-11 14:50:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160dec11a1d14dd','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市体育局
+					<br/>
+					报价时间：<font color="red">2018-01-10 14:40 ~ 2018-01-11 14:50</font>
+					
+		        	<br/>发布时间：2018-01-10 14:28:05
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d8dcbcd80fb3','12','06');return false;">广元市第一人民医院HHSBJ201701100301台式计算机网上竞价项目(第2次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-9 11:00:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-10 14:00:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d8dcbcd80fb3','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市第一人民医院
+					<br/>
+					报价时间：<font color="red">2018-01-09 11:00 ~ 2018-01-10 14:00</font>
+					
+		        	<br/>发布时间：2018-01-09 11:00:33
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d50852220cc0','12','06');return false;">广元市昭化区统计局20171229003液晶显示器网上竞价项目(第2次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-8 17:25:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-9 17:30:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d50852220cc0','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市昭化区统计局
+					<br/>
+					报价时间：<font color="red">2018-01-08 17:25 ~ 2018-01-09 17:30</font>
+					
+		        	<br/>发布时间：2018-01-08 17:09:40
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d3fcd7d20bef','12','06');return false;">广元市体育局SBJ2018010401台式计算机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-8 12:25:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-10 12:30:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d3fcd7d20bef','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：广元市体育局
+					<br/>
+					报价时间：<font color="red">2018-01-08 12:25 ~ 2018-01-10 12:30</font>
+					
+		        	<br/>发布时间：2018-01-08 12:17:31
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d3e537b40bd6','12','06');return false;">四川青川地震遗迹国家地质公园管理局QCJJ2017272001空调机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2018-1-8 11:40:00">
+		 			<input type="hidden" name="evalEndTime" value="2018-1-11 11:40:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c9f168a6030b7270160d3e537b40bd6','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：四川青川地震遗迹国家地质公园管理局
+					<br/>
+					报价时间：<font color="red">2018-01-08 11:40 ~ 2018-01-11 11:40</font>
+					
+		        	<br/>发布时间：2018-01-08 11:51:42
+		        </p>
+		    </li>
+		
+	</ul>
+</div>
+<div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="page" name="page" value="1"/>
+<input type="hidden" id="rp" name="rp" value="21"/>
+<input type="hidden" id="totalPageNum" name="totalPageNum" value="221"/>
+<input type="hidden" id="totalRowNum" name="totalRowNum" value="4639"/>
+
+<div class="dataTables_paginate paging_full_numbers" id="QuotaList_paginate">
+
+	
+		
+		
+			
+				
+					<span class="paginate_active" onclick="pageDirection.jump('1')">1</span>
+				
+				
+			
+		
+			
+				
+				
+					<span class="paginate_button" onclick="pageDirection.jump('2')">2</span>
+				
+			
+		
+			
+				
+				
+					<span class="paginate_button" onclick="pageDirection.jump('3')">3</span>
+				
+			
+		
+			
+				
+				
+					<span class="paginate_button" onclick="pageDirection.jump('4')">4</span>
+				
+			
+		
+		
+			<span class="next paginate_button" id="QuotaList_next">下一页</span>
+			<span class="last paginate_button" id="QuotaList_last">最后页</span>
+		
+		<span class="totalNum">共221页/4639条记录</span>
+	
+	
+
+</div>
+
+<script>
+var pageDirection = {};
+//跳转
+pageDirection.jump = function(page){
+	$("#page").val(page);
+	show_list.makeSearchData();
+}
+
+$(document).ready(function(){
+	//第一页点击
+	$("#QuotaList_first").click(function(){
+		pageDirection.jump('1');
+	});
+	
+	//上一页点击
+	$("#QuotaList_previous").click(function(){
+		pageDirection.jump(parseInt($("#page").val())-1);
+	});
+	
+	//下一页点击
+	$("#QuotaList_next").click(function(){
+		pageDirection.jump(parseInt($("#page").val())+1);
+	});
+	
+	//最后页点击
+	$("#QuotaList_last").click(function(){
+		pageDirection.jump($("#totalPageNum").val());
+	});
+	$("[name=myShow]").each(function(){
+       if(""!=$(this).attr("scores")){
+    	   var imgsrc = getShows($(this).attr("scores"));
+    	   $(this).append(imgsrc);
+       }
+	});
+});
+//级别开始
+function getShows(score){
+	
+    var alls = "";
+	var imgsrczhuan= '<img src="view/resource/images/zhuan.gif"/>';
+	var imgsrchuanguan= '<img src="view/resource/images/jinguan.gif"/>';
+	var scorestring = score+"";
+	if(null==scorestring||''==scorestring||'undefined'==scorestring){
+		scorestring='0';
+	}
+	var scores = scorestring.split(".");
+	if(Number(scores[0])>=5500){//10级
+		for(var k=1;k<=10;k++){
+			alls+=imgsrchuanguan;
+		}
+	}else if(Number(scores[0])>=4500){//9级
+		for(var k=1;k<=9;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-4500)/100)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=3600){//8级
+		for(var k=1;k<=8;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-3600)/90)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=2800){//7级
+		for(var k=1;k<=7;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-2800)/80)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=2100){//6级
+		for(var k=1;k<=6;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-2100)/70)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=1500){//5级
+		for(var k=1;k<=5;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-1500)/60)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=1000){//4级
+		for(var k=1;k<=4;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-1000)/50)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=600){//3级
+		for(var k=1;k<=3;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-600)/40)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=300){//2级
+		for(var k=1;k<=2;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-300)/30)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=100){//1级
+		for(var k=1;k<=1;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-100)/20)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])<100){//0级
+		var num = Math.floor((Number(scores[0]))/10)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}
+    return alls;
+}
+</script>
+</div>
+					
+					
+					
+				</div>
+				<!--产品信息 结束-->
+			</div>
+		</div>
+	</div>
+	<!--主要内容 结束-->
+	<!-- 脚开始 -->
+	<div class="footer">
+	    
+
+<script>
+/*加载系统信息*/
+$.sysInfo_load();
+</script>
+
+<p style="display:none" class="footerNav">
+				<a href="javascript:void(0)" title="合作伙伴" class="cmsHref_blank" id="/view/staticpags/foot/ff8080812ea2d882012ec2becd4e0fad.jsp">合作伙伴</a> 
+				<a href="javascript:void(0)" title="网站地图" class="cmsHref_blank" id="/view/staticpags/foot/ff8080812ea2d882012ec2bf09fd0faf.jsp">网站地图</a> 
+				<a href="javascript:void(0)" title="版权说明" class="cmsHref_blank" id="/view/staticpags/foot/ff8080812ea2d882012ec2bf5afd0fb3.jsp">版权说明</a> 
+				<a href="javascript:void(0)" title="友情链接" class="cmsHref_blank" id="/view/staticpags/foot/ff8080813249c676013260ce5a151eb7.jsp">友情链接</a> 
+				<a href="javascript:void(0)" title="帮助中心" class="cmsHref_blank" id="/view/staticpags/foot/ff8080813249c6760132612b3a2e274e.jsp">帮助中心</a> 
+</p>
+<p class="copyright">©&nbsp;2005-2015&nbsp;Copyright&nbsp;版权所有：四川省财政厅&nbsp;技术支持：珠海政采软件技术有限公司</p>
+<div align="center"> 
+
+</div>
+	</div>
+	<!-- 脚结束 -->
+	<!--在线客服开始-->
+	
+<!-- 
+<div id="sidebar-sugg">
+	<div class="s-main">
+		<a href="http://www9.kf99.com/kf99/kf99.jsp?siteid=guoxinshangtong&style=1&language=&lytype=0&charset=GBK&kflist=off&kf=&zdkf_type=1&referer=http://www.ebid360.com/&keyword=&tpl=crystal_blue" target="_blank">
+        	我需要帮助，请访问<font style="color: red;">在线客服</font>
+		</a>
+	</div>
+</div> -->
+	<!--在线客服结束-->
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	var pageType=12;
+	var tenderMethod1=06;
+	if(pageType=='13'){
+		$("#menu li").removeClass();
+		$("#dealBulletin1").addClass("selected");
+	}
+	if(pageType=='12'){
+		if(tenderMethod1=='6'){
+			$("#menu li").removeClass();
+			$("#purBulletin1").addClass("selected");
+		}
+		if(tenderMethod1=='21'){
+			$("#menu li").removeClass();
+			$("#purBulletin2").addClass("selected");
+		}
+		if(tenderMethod1=='3'){
+			$("#menu li").removeClass();
+			$("#correctBulletin1").addClass("selected");
+		}
+	}
+	if(pageType=='15'){
+		$("#menu li").removeClass();
+		$("#correctBulletin1").addClass("selected");
+	}
+})
+</script>
+
+</body>
+</html>
+	

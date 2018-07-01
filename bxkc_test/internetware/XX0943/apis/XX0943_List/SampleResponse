@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>通知公告 - 对外主页</title>
+<meta http-equiv="keywords" content=""/>
+<meta http-equiv="description" content=""/>
+
+<link href="/site_resource/cms/front.css" rel="stylesheet" type="text/css"/>
+<script src="/site_resource/cms/jquery.js" type="text/javascript"></script>
+<script src="/site_resource/cms/front.js" type="text/javascript"></script>
+<link href="/site_resource/cms/www/default/css/layout.css" rel="stylesheet" type="text/css">
+<link href="/site_resource/cms/www/default/css/css.css" rel="stylesheet" media="screen" />
+<link href="/site_resource/cms/www/default/css/index.css" rel="stylesheet" type="text/css">
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+	var lh =$("#left").height();
+	var rh =$("#right").height();
+	if(lh>rh){
+		$("#right").height(lh);
+	}
+						   
+})
+</script>
+<style>
+#a_demo{visibility:hidden}
+</style>
+</head>
+
+<body>
+<!--头部flash部分-->
+<!--头部flash部分-->
+<script src="/site_resource/cms/www/default/Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+    function ridrect(){
+          if(form.slecet[0].checked){
+             alert("请确认你是来自电信的用户！");
+              document.form.action="http://nwmh.cqyygz.com/login.jspx";
+          }
+         if(form.slecet[1].checked){
+               alert("请确认你是来自联通的用户！");
+             document.form.action="http://nwmh.cqyygza.com/login.jspx";
+         }
+   }
+</script>
+
+<div class="top">
+<div class="topflash">
+
+  <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','980','height','245','src','/site_resource/cms/www/default/images/index','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','/site_resource/cms/www/default/images/index' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="980" height="245">
+    <param name="movie" value="/site_resource/cms/www/default/images/index.swf" />
+    <param name="quality" value="high" />
+<param name="wmode" value="opaque">
+    <embed src="/site_resource/cms/www/default/images/index.swf" quality="high" wmode="opaque" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="980" height="245"></embed>
+  </object></noscript>
+</div>
+</div>
+<!--导航条部分-->
+<div class="daohang">
+<div class="menu">
+
+<ul>
+    <li><a href="/" >网站首页</a></li>
+    <li><a href="/xxgk.jhtml" >校情总览</a></li>
+    <li><a href="/jgsz.jhtml" >机构设置</a></li>
+    <li><a href="/jxyx/index.jhtml" >教育教学</a></li>
+    <li><a href="/rczp/index.jhtml" >人力资源</a></li>
+    <li><a href="/xgzzd/index.jhtml" >学生工作</a></li>
+    <li><a href="/zsxx/index.jhtml" >招生就业</a></li>
+    <li><a href="/kygl/index.jhtml" >科研外事</a></li>
+    <li><a href="/dzjy.jhtml" >教育培训</a></li>
+    <li><a href="/qnzyz/index.jhtml" >校园文化</a></li>
+    <li><a href="http://tsg.cqyygz.com  " >图书馆</a></li>
+<li><a href="http://tsg.cqyygz.com"  class="noline">图书馆</a></li>
+</ul>
+</div>
+</div>
+<!--内容部分--><!--内页内容-->
+<div class="page_nr">
+<div class="page_nrleft fl">
+<!--左边开始-->
+<!--左边开始-->
+<div class="zixun_right marginzhi">
+<div class="yuanjiao1">&nbsp;</div>
+<div class="youzhunr">
+<div class="kuaijietitle">热点排行</div>
+
+
+
+<div class="dh_item1"><p class="hoverbold1"><a href="/tzgg/26121.jhtml" title="移动校园网登陆客户端下载地址" target="_blank">移动校园网登陆客户端下载地址</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/jyxx/81317.jhtml" title="重庆医药高等专科学校2018届毕业生就业“双选会”活动毕业生需求函" target="_blank">重庆医药高等专科学校2018届毕</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/jyxx/81315.jhtml" title="重庆医药高等专科学校 二O一八届毕业生就业“双选会”邀请函" target="_blank">重庆医药高等专科学校 二O一八</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/zsxx/81054.jhtml" title="重庆医药高等专科学校2017年（秋季）普通专科分省分专业分科类招生计划表" target="_blank">重庆医药高等专科学校2017年（</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/zsxx/81399.jhtml" title="重庆医药高等专科学校2017年重庆市普通专科补录公示名单" target="_blank">重庆医药高等专科学校2017年重</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/zsxx/80991.jhtml" title="重庆医药高等专科学校2017年招生章程" target="_blank">重庆医药高等专科学校2017年招</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/tzgg/80738.jhtml" title="2018届毕业生顶岗实习暨2017届毕业生就业“双选会”邀请函" target="_blank">2018届毕业生顶岗实习暨2017届</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/tzgg/80838.jhtml" title="重庆医药高等专科学校2017年上半年公开招聘工作人员简章" target="_blank">重庆医药高等专科学校2017年上</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/xwdt/81431.jhtml" title="产教融合促双赢，校企合作谱新章——我校与重庆希尔安药业有限公司联合办学" target="_blank">产教融合促双赢，校企合作谱新</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/zsxx/81388.jhtml" title="重庆医药高等专科学校二○一七级普通专科补录新生入学须知" target="_blank">重庆医药高等专科学校二○一七</a></p></div>
+
+
+                          	 
+</div>
+
+<div class="yuanjiao2">&nbsp;</div>
+</div><!--校园-->
+
+<!--校园-->
+<div class="pageleftzixun fr">
+<div class="zixunr1">
+<div class="yuanjiao1">&nbsp;</div>
+<div class="youzhunr1">
+<div class="youindextitle">数字化校园</div>
+
+<div class="dl">
+<form id="jvForm" name="form" action="http://nwmh.cqyygz.com/login.jspx" onsubmit="javascript:ridrect();" method="post">
+<div class="login">
+<div class="leftname fl">用户名:</div>
+<div class="rightinput fl"><input type="text" class="rightinps" id="username" name="username" /></div>
+</div>
+
+<div class="login">
+<div class="leftname fl">密  码:</div>
+<div class="rightinput fl"><input id="password" name="password" type="password" class="rightinps" /></div>
+</div>
+
+
+<div class="login">
+<div class="leftname fl">链&nbsp;&nbsp;路:</div>
+
+<div class="rightinput1 fl"><input name="slecet" type="radio" checked="checked" />电信</div>
+<div class="rightpic fl"><input type="radio" name="slecet"/>联通</div>
+</div>
+
+
+</div>
+<div class="btn fr">
+<div class="ld fl"><input class="dlanl" type="submit" value="" /></div>
+<div class="wjmm fl"><input type="button" class="wjmima" value=""/></div>
+</form>
+</div>
+
+</div>
+<div class="yuanjiao2">&nbsp;</div>
+</div>
+
+
+</div>
+<div style="height:10px; clear:both; display:block;">&nbsp;</div>
+<!--全站搜索-->
+<div class="zixun_right1 fr">
+<div class="pageleftzixun">
+<div class="yuanjiao1">&nbsp;</div>
+<div class="youzhunr1">
+<div class="youindextitle quanzhanss">全站搜索</div>
+
+<form action="/search.jspx" target="_blank">
+<p class="ssinput1 fl"><input name="q" class="inputset inputset1" value="请输入关键词" type="text"  onfocus="if(this.value=='请输入关键词')this.value=''" onblur="if(this.value=='')this.value='请输入关键词'"  autocomplete="off" /></p>
+ <p class="ssbtn paddingset fr"><input name="" type="submit"   class="btnset"  value="搜索"  /></p> 
+</form>
+
+
+</div>
+<div class="yuanjiao2">&nbsp;</div>
+</div>
+
+<!--导航开始-->
+<link href="/site_resource/cms/www/default/css/links.css" rel="stylesheet" media="screen" />
+<script src="/site_resource/cms/www/default/js/links.js" type="text/javascript"></script>
+
+<div class="links">
+<dl class="dropdown">
+  <dt id="one-ddheader" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)">-----  院系导航  ----</dt>
+  <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+    <ul>
+       <li><a href="http://hlx.cqyygz.com/" class="underline" >护理系</a></li>  
+       <li><a href="http://lcyx.cqyygz.com" class="underline" >临床医学系</a></li>  
+       <li><a href="http://jcb.cqyygz.com" class="underline" >基础部</a></li>  
+       <li><a href="http://yxjs.cqyygz.com" class="underline" >医学技术系</a></li>  
+       <li><a href="http://tsg.cqyygz.com  " class="underline" >图书馆</a></li>  
+    </ul>
+  </dd>
+</dl>
+</div>
+<div class="links">
+ <dl class="dropdown">
+  <dt id="two-ddheader" onmouseover="ddMenu('two',1)" onmouseout="ddMenu('two',-1)">-----  友情链接  ----</dt>
+  <dd id="two-ddcontent" onmouseover="cancelHide('two')" onmouseout="ddMenu('two',-1)">
+    <ul>
+       <li><a href="http://www.edu.cn/" class="underline"  >教育网</a></li>  
+       <li><a href="http://wllm.ncss.org.cn" class="underline"  >全国高校毕业生就业网络联盟</a></li>  
+       <li><a href="http://www.ncss.org.cn/" class="underline"  >全国大学生就业公共服务立体化平台-新职业</a></li>  
+       <li><a href="http://job.ncss.org.cn/login" class="underline"  >大学生就业1站式服务系统</a></li>  
+       <li><a href="http://www.cqbys.com/" class="underline"  >重庆高校毕业生就业信息网</a></li>  
+       <li><a href="http://cy.cqbys.com/" class="underline"  >重庆市大学生创业服务网</a></li>  
+       <li><a href="http://dxsjy.cqhrss.gov.cn/u/dxsjy/" class="underline"  >重庆市人力资源和社会保障局</a></li>  
+    </ul>
+  </dd>
+</dl>
+</div>
+<!--导航结束-->
+
+
+
+</div>
+
+</div>
+<!--右边开始-->
+<div class="page_nrright fr">
+<div class="pagenrbufen">
+<div class="pagenrtitle">
+<p class="fl nrtitleset">通知公告</p>
+<p class="position fr">您所在的位置：<a href="/">首页</a> &raquo; <a href="/tzgg/index.jhtml" target="_blank">通知公告</a> </p>
+</div>
+
+<div class="pagenrset">
+
+<ul class="newslists">
+
+<div class="c1-body">
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81434.jhtml" title="重庆医药高等专科学校实训中心配置实验台柜第二次采购结果公示" target="_blank"><span style="">重庆医药高等专科学校实训中心配置实验台柜第二次采购结果公示</span></a></div><div class="gray f-right">2017-10-13</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81433.jhtml" title="重庆医药高等专科学校法律顾问招聘项目中标结果公示" target="_blank"><span style="">重庆医药高等专科学校法律顾问招聘项目中标结果公示</span></a></div><div class="gray f-right">2017-10-13</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81426.jhtml" title="重庆医药高等专科学校排球柱及篮球架采购招标补遗公告" target="_blank"><span style="">重庆医药高等专科学校排球柱及篮球架采购招标补遗公告</span></a></div><div class="gray f-right">2017-10-12</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81425.jhtml" title="重庆医药高等专科学校2016-2017学年国家奖学金及“十佳学生”评审答辩结果公示" target="_blank"><span style="">重庆医药高等专科学校2016-2017学年国家奖学金及“十佳学生”评审答辩结果公示</span></a></div><div class="gray f-right">2017-10-11</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81424.jhtml" title="新校区西北角地块景观工程设计招标公告" target="_blank"><span style="">新校区西北角地块景观工程设计招标公告</span></a></div><div class="gray f-right">2017-10-11</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81420.jhtml" title="重庆医药高等专科学校排球柱及篮球架采购招标公告" target="_blank"><span style="">重庆医药高等专科学校排球柱及篮球架采购招标公告</span></a></div><div class="gray f-right">2017-10-10</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81411.jhtml" title="重庆医药高等专科学校招标室监控设备采购中标结果公示" target="_blank"><span style="">重庆医药高等专科学校招标室监控设备采购中标结果公示</span></a></div><div class="gray f-right">2017-09-30</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81410.jhtml" title="重庆医药高等专科学校实训中心配置实验台柜第二次招标公告" target="_blank"><span style="">重庆医药高等专科学校实训中心配置实验台柜第二次招标公告</span></a></div><div class="gray f-right">2017-09-30</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81409.jhtml" title="重庆医药高等专科学校法律顾问招聘项目招标公告" target="_blank"><span style="">重庆医药高等专科学校法律顾问招聘项目招标公告</span></a></div><div class="gray f-right">2017-09-30</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81408.jhtml" title="重庆医药高等专科学校实训中心配置实验台柜招标流标公告" target="_blank"><span style="">重庆医药高等专科学校实训中心配置实验台柜招标流标公告</span></a></div><div class="gray f-right">2017-09-30</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81405.jhtml" title="重庆医药高等专科学校青少年视觉保护科普示范活动设备采购中标结果公示" target="_blank"><span style="">重庆医药高等专科学校青少年视觉保护科普示范活动设备采购中标结果公示</span></a></div><div class="gray f-right">2017-09-29</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81400.jhtml" title="重庆医药高等专科学校技能竞赛高清摄像装置采购中标结果公示" target="_blank"><span style="">重庆医药高等专科学校技能竞赛高清摄像装置采购中标结果公示</span></a></div><div class="gray f-right">2017-09-28</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81398.jhtml" title="重庆医药高等专科学校实训中心配置实验台柜招标公告补遗公告" target="_blank"><span style="">重庆医药高等专科学校实训中心配置实验台柜招标公告补遗公告</span></a></div><div class="gray f-right">2017-09-28</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81392.jhtml" title="重庆医药高等专科学校进口科研设备招标结果公告" target="_blank"><span style="">重庆医药高等专科学校进口科研设备招标结果公告</span></a></div><div class="gray f-right">2017-09-27</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81385.jhtml" title="重庆医药高等专科学校招标室监控设备采购" target="_blank"><span style="">重庆医药高等专科学校招标室监控设备采购</span></a></div><div class="gray f-right">2017-09-26</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81383.jhtml" title="重庆医药高等专科学校实训中心配置实验台柜招标公告" target="_blank"><span style="">重庆医药高等专科学校实训中心配置实验台柜招标公告</span></a></div><div class="gray f-right">2017-09-26</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81382.jhtml" title="重庆医药高等专科学校2017-2018年学生实验服采购中标公示" target="_blank"><span style="">重庆医药高等专科学校2017-2018年学生实验服采购中标公示</span></a></div><div class="gray f-right">2017-09-26</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81381.jhtml" title="  重庆医药高等专科学校图书馆负一楼铅酸蓄电池采购中标结果公示" target="_blank"><span style="">  重庆医药高等专科学校图书馆负一楼铅酸蓄电池采购中标结果公示</span></a></div><div class="gray f-right">2017-09-26</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81368.jhtml" title="重庆医药高等专科学校技能竞赛高清摄像装置采购招标公告" target="_blank"><span style="">重庆医药高等专科学校技能竞赛高清摄像装置采购招标公告</span></a></div><div class="gray f-right">2017-09-22</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:10px 0;"><div class="f-left"><img src="/site_resource/cms/head-mark4.gif" align="middle" class="img-vm" border="0"/> <a href="/tzgg/index.jhtml" class="red" target="_blank">[通知公告]</a> <a href="/tzgg/81365.jhtml" title="重庆医药高等专科学校2017-2018年学生实验服招标公告补遗" target="_blank"><span style="">重庆医药高等专科学校2017-2018年学生实验服招标公告补遗</span></a></div><div class="gray f-right">2017-09-21</div><div class="clear"></div></div>
+</div>
+
+<div class="pagination">
+共877条记录 2/44页
+&nbsp;<a href="index.jhtml">首页</a> <a href="index.jhtml">上一页</a>&nbsp;<a href="index_3.jhtml">下一页</a> <a href="index_44.jhtml">尾页</a>
+&nbsp;第<select onChange="if(this.value==1){location='index.jhtml'}else{location='index_'+this.value+'.jhtml'}this.disabled='disabled'">
+  <option value="1" >1</option>
+  <option value="2" selected="selected">2</option>
+  <option value="3" >3</option>
+  <option value="4" >4</option>
+  <option value="5" >5</option>
+  <option value="6" >6</option>
+  <option value="7" >7</option>
+  <option value="8" >8</option>
+  <option value="9" >9</option>
+  <option value="10" >10</option>
+  <option value="11" >11</option>
+  <option value="12" >12</option>
+  <option value="13" >13</option>
+  <option value="14" >14</option>
+  <option value="15" >15</option>
+  <option value="16" >16</option>
+  <option value="17" >17</option>
+  <option value="18" >18</option>
+  <option value="19" >19</option>
+  <option value="20" >20</option>
+  <option value="21" >21</option>
+  <option value="22" >22</option>
+  <option value="23" >23</option>
+  <option value="24" >24</option>
+  <option value="25" >25</option>
+  <option value="26" >26</option>
+  <option value="27" >27</option>
+  <option value="28" >28</option>
+  <option value="29" >29</option>
+  <option value="30" >30</option>
+  <option value="31" >31</option>
+  <option value="32" >32</option>
+  <option value="33" >33</option>
+  <option value="34" >34</option>
+  <option value="35" >35</option>
+  <option value="36" >36</option>
+  <option value="37" >37</option>
+  <option value="38" >38</option>
+  <option value="39" >39</option>
+  <option value="40" >40</option>
+  <option value="41" >41</option>
+  <option value="42" >42</option>
+  <option value="43" >43</option>
+  <option value="44" >44</option>
+</select>页
+</div>
+</ul>
+
+ </div>
+</div>
+</div>
+
+<div class="bottombg">&nbsp;</div>
+
+</div>
+<!--右边结束-->
+<div style="height:1px; display:block; clear:both"></div>
+</div>
+<!--内页内容end-->
+
+
+<!--版权信息部分-->
+<!--版权信息部分-->
+<div class="footer"> Copyright联系方式：61969012 联系地址：重庆市沙坪坝区大学城中路82号 <!--cqyygz.com All Rights Reserved --> 版权所有·重庆医药高等专科学校 <a href="http://www.miitbeian.gov.cn">渝ICP备11007800号</a> &nbsp;&nbsp;
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259482445'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1259482445%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+<!-- <a href="http://www.cqyygz.com/admin/cms/login.do?returnUrl=/admin/cms/index.do">后台管理</a> --></div>
+
+<div><center><table width="266" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="82" align="center"><a href="http://www.cqwa.gov.cn" rel="nofollow"><img src="http://www.cqyygz.com/site_resource/cms/www/sentrybox.gif" border="0"></a></td>
+    <td width="94" align="center"><a href="http://beian.cqnet110.gov.cn/open/showRecord?id=50010601500774" rel="nofollow"><img src="/site_resource/cms/www/50010601500774.gif" border="0"></a></td>
+ 		 	<div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50010602500345" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">渝公网安备 50010602500345号</p></a>
+		 	<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/04/000/0000/40399359/CA040000000403993590001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+                   </div>
+</tr>
+</table>
+</center>
+</div></body>
+</html>

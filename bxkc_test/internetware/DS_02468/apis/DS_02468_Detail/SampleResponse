@@ -1,0 +1,135 @@
+
+
+
+
+
+
+
+
+
+
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<link href="http://mzj.bengbu.gov.cn/css/css_whir.css" rel="stylesheet" type="text/css" />
+<title>蚌埠市民政局</title>
+<base href='http://mzj.bengbu.gov.cn/' />
+<meta NAME="keywords" CONTENT="">
+<meta NAME="description" CONTENT="">
+</head>
+<body>
+<!--头部开始-->
+<script type="text/javascript">
+	function deleteTextvalue(){
+		document.getElementById("keyword").value = "";
+	}
+	
+	// 键盘enter事件
+	function checkEnter(){
+		// 查询内容
+		var keyword = document.getElementById("keyword").value;
+		keyword = all_trim(keyword);
+		document.getElementById("searchfmOfAtic").action = "system/common/searchResult.jsp?keyword="+encodeURIComponent(keyword);
+	}
+
+	function click(){
+		document.all.formsubmit.submit();
+	}
+</script>
+<div id="head">
+<div class="top"><div class="welcome"><a href="http://www.bengbu.gov.cn/" target="_blank">中国·蚌埠</a></div>
+<div class="topnav">
+<ul><li>·<script language="javascript" type="text/javascript" src="script/language.js"></script></li><li>·<a href="javascript:void(0)" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://mzj.bengbu.gov.cn/');return(false);">设为主页</a></li><li>·<a href="javascript:window.external.AddFavorite('http://mzj.bengbu.gov.cn/','蚌埠市民政局')">加入收藏</a></li><li>·<a href="lxwm/">联系我们</a></li></ul></div>
+</div>
+  <div style="width:1002px; margin:0 auto;"><embed height=249 type=application/x-shockwave-flash width="1002" src="media/banner2.swf" wmode="transparent"></embed> </div>
+<!--导航-->
+  <div id="nav">
+    <ul>
+      <li><a href="index.jsp" class="on"><span>网站首页</span></a></li>
+      <li><a href="mzyw"><span>民政要闻</span></a></li>
+      <li><a href="shjz"><span>社会救助</span></a></li>
+      <li><a href="mjzz"><span>民间组织</span></a></li>
+      <li><a href="yfaz"><span>优抚安置</span></a></li>
+      <li><a href="shfl"><span>社会福利</span></a></li>
+      <li><a href="shsw"><span>社会事务</span></a></li>
+      <li><a href="syll"><span>双拥联络</span></a></li>
+      <li><a href="jzjj"><span>救灾救济</span></a></li>
+      <li><a href="jczq"><span>基层政权</span></a></li>
+      <li><a href="qhdm"><span>区划地名</span></a></li>
+      <li  class="nobg"><a href="advice.jsp?gbookId=240406453"><span>政民互动</span></a></li>
+    </ul>
+  </div>
+<!--天气and搜索-->
+  <div class="weather">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="205"><script language=JavaScript>
+<!--
+var enabled = 0; today = new Date();
+var day; var date;
+if(today.getDay()==0) day = " 星期日"
+if(today.getDay()==1) day = " 星期一"
+if(today.getDay()==2) day = " 星期二"
+if(today.getDay()==3) day = " 星期三"
+if(today.getDay()==4) day = " 星期四"
+if(today.getDay()==5) day = " 星期五"
+if(today.getDay()==6) day = " 星期六"
+document.fgColor = "000000";
+date = "今天是:" + (today.getFullYear()) + "年" + (today.getMonth() + 1 ) + "月" + today.getDate() + "日" + day +"";
+document.write(date);
+// -->
+</script> 
+          &nbsp;&nbsp;</td>
+        <td><script type="text/javascript" src="http://ext.weather.com.cn/82872.js"></script></td>
+        <td align="right">
+		<form name="formsubmit" method="POST" action="searchResult.jsp">
+			<input name="keyword" id="keyword" type="text" class="input_search" value="输入关键字" onfocus="deleteTextvalue();" />
+			<input type="image" name="imageField" src="images/btn_search.jpg" onclick="click()"/>
+		</form></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!--头部结束-->
+<div class="mainbox">
+  <div style="text-align:center;"><img src="images/point_dis1.gif" /></div>
+  <div class="display">
+    <div class="position2"><a href="index.jsp">首页</a> > 
+<a href="http://mzj.bengbu.gov.cn/tzgg/" class=""   target='' >通知公告</a>
+</div>
+	<div class="cen">2017年市民政局政风和效能建设情况</div>
+	<div class="titleinfo">来源：
+	查阅次数：35 
+	发布日期：2018-01-09</div>
+	<div class="content_news">
+	  <P>&nbsp;</P>
+<P>2017年以来，市民政局以党的十九大精神和习近平新时代中国特色社会主义思想为指导，深入开展“两学一做”常态化学习教育和“讲重做”专项警示教育要求，坚持以制度创新、效能考评和问责为抓手，以规范权力运行、降低行政成本、提高办事效率、优化投资环境为目标，认真抓好各制度的贯彻落实,机关工作效能明显提高，服务态度明显改善，有力地推动了各项民政事业又好又快发展。 <BR>&nbsp;&nbsp;&nbsp; 一、坚持抓作风建设不放松，促进民政服务和发展环境进一步优化 <BR>&nbsp;&nbsp;&nbsp; 1、领导带头积极推进。坚持认真贯彻落实中央八项规定和省、市委、市政府及市效能办的文件精神和工作部署，深入推进机关效能建设活动向纵深发展。结合民政工作实际，制订印发《市民政局关于落实纵深推进机关效能建设工作实施意见的任务分解》和《2017年市民政局机关效能建设工作实施意见》等文件，局领导干部带头发挥表率作用，做到坚持原则、敢于碰硬、勇于担当，自觉践行民政工作宗旨，为各级干部当好表率。 <BR>&nbsp;&nbsp;&nbsp; 2、以行风建设示范单位创建活动为重点，全面推进和深化民政系统行风建设。一是统一思想，提高认识。二是建立健全工作体制机制，并配套建立考核评定机制、明察暗访机制、激励约束机制、监督评议机制、整改落实机制等。三是联系民政工作实际，在巩固提高上下功夫。四是在细节上下功夫，实行人性化服务，不断提升服务质量和服务水平。五是抓好创建局系统行风建设示范单位组织领导、提升素质、规范管理、设施建设和监督检查五个方面工作。六是严格标准，提升水平，切实发挥示范单位带动辐射作用。 <BR>&nbsp;&nbsp;&nbsp; 3、认真做好“政风行风热线”上线办理工作。一是坚持认真做好群众反映问题办理结果反馈工作，实行限时反馈制。二是参与部门要做好记录，对群众反映的问题，要做到“件件有着落，事事有回音”。三是参与部门对群众反映的问题，当场无法答复的要作好记录并落实责任制。四是对于确实难以一时解决的，向反映人说明原因，并将办理结果及时上报市“政风行风”办。今年以来市民政局共上线9次，共办理上线咨询和反映问题90件，及时反馈上报办结率100%。 <BR>&nbsp;&nbsp;&nbsp; 4、严格贯彻执行市效能办有关工作要求。一是及时报送参评科室服务台帐。二是认真组织学习《蚌埠市机关干部正负面言行激励+提醒》。做到局机关工作人员人手一本《激励+提醒》宣传手册，每间办公室都张贴《激励+提醒》宣传画和办公桌摆放工作台历。同时，通过党员大会、支部会议、民政微信群等向党员干部宣传学习《激励+提醒》有关内容，局效能办不定时对党员干部学习贯彻情况进行随机抽查。三是在全局系统开展“文明言行，美在珠城”征文比赛，共收集征文21篇，择优向市效能办报送6篇。 <BR>&nbsp;&nbsp;&nbsp; 二、坚持抓依法行政不放松，社会管理服务体系建设取得新进展 <BR>&nbsp;&nbsp;&nbsp; 一是重视社区建设。印发《关于加强城乡社区协商示范点建设全面推进社区协商工作的通知》，在11个街道（乡镇），31个社区（村）开展社区协商市级示范点建设。推进全国和谐社区示范单位创建活动，提高社区工作人员重点绩效工资，明确9个精品示范社区创建目标任务，在179个村开展农村社区建设试点。确定20个“村改居”名单，目前已完成5个。指导县区为每个村制定符合本地实际的工作方案和推进计划表。完成第二次全国地名普查验收，我市被确定为全省地名地址数据库建设试点城市。命名道路46条，住宅小区11个，维护路名牌1600余块，灯箱式路名牌广告全部更换为公益广告。 <BR>&nbsp;&nbsp;&nbsp; 二是重视社会组织建设。新登记市级社会组织44个，75%的存量社会组织完成统一社会组织信用代码转换，310个社会组织通过网上年检。举办首届蚌埠市社会组织公益创投项目大赛。开展农村留守儿童“合力监护、相伴成长”关爱保护专项行动，设立儿童保护督导员75人，儿童保护专干1200余人，发放困境儿童基本生活费719万元，怀远县被确定为全省农村留守儿童关爱保护工作示范县区。开展不文明祭祀行为集中整治行动，清明节祭扫安全有序。市级羊山公益性公墓进展顺利，建成农村公益性公墓243个，发放惠民殡葬救助金36.5万元。办理结婚登记18868对，协议离婚登记5972对，收养登记5件，合格率100%。 <BR>&nbsp;&nbsp;&nbsp; 三、坚持抓制度落实不放松，民政公共服务水平明显提升 <BR>&nbsp;&nbsp;&nbsp; (一)坚持认真落实效能建设一次性告知制、服务承诺制等“十项”制度，实行一站式服务。坚持将行政许可项目的内容、程序、办理时限、责任人和承办人等信息全部在局域网和政府信息网进行公开，广泛接受社会各界和群众的监督。建立政务、党务公开查询点平台，实现了与民政信息网站资源共享，推进电子政务公开信息化建设。行政审批严格实行首席代表制，审批事项所涉及的审核、签批、办事结果等主要环节均在中心完成。今年以来，共受理办结社会组织年检444件，注销登记4个，变更登记31个，收养登记3个、地名命名变更19&nbsp;个，答复群众咨询千余人次。承诺件提前办结率达100%，群众满意率100%。收到锦旗2面。 <BR>&nbsp;&nbsp;&nbsp; （二）进一步完善退役士兵安置服务管理工作。在全省率先启动退役军人安置服务改革，出台《关于进一步加强退役士兵安置服务管理工作的实施意见》（蚌改办发〔2017〕9号）和《蚌埠市退役士兵培训实施办法》（蚌民〔2017〕83号），投入245.7万元，建成县级退役军人服务中心8个，举办退役士兵专场招聘会2场，培训退役士兵524人，完成年度计划57%，维护了退役军人合法权益。 <BR>&nbsp;&nbsp;&nbsp; 四、坚持抓效能建设不放松，行政执行力和任务落实力显著增强 <BR>&nbsp;&nbsp;&nbsp; （一）社会救助福利体系进一步健全 <BR>&nbsp;&nbsp;&nbsp; 一是实施社保扶贫和健康脱贫工程，对困难群体实行政策性兜底保障。1月1日起，城市低保标准提高至528元/月，市辖区农村低保标准提高至4100元/年，三县农村低保标准提高至3818/年元；农村五保分散供养标准提高至5420元/年、集中供养标准提高至8060元/年。1-5月，累计支出各类社会救助资金2.5亿元，保障困难群众65.5万人次。 <BR>&nbsp;&nbsp;&nbsp; 二是做大做强市救急难基金会，建立多元、开放资金筹措机制，接收爱心捐款56万元，开展急难救助10例，发放救助金30.5万元。我市入选全省唯一社会救助信息化综合服务平台建设试点城市，与国土、司法等10个部门实现居民家庭经济状况信息数据实时共享，实施核对91543户次，161727人次,发出预警6875人次，新增低保对象606户，退出583户。 <BR>&nbsp;&nbsp;&nbsp; （二）社会养老服务体系进一步完善 <BR>&nbsp;&nbsp;&nbsp; 市民政园项目和中科蚌埠皖北生态养老示范园项目进展顺利，新办民办养老机构6家，新增床位400张。发放高龄津贴1450万元，居家养老服务补贴1982万元，残疾人生活护理补贴1851万元。与上海三胞集团安康通、常州世轩科技等有技术、有资金、有运作实践经验、有线下运行团队的上市公司合作，在龙子湖区和蚌山区试点运用互联网＋技术建设市县两级社区居家养老信息平台。与百寿居文竹托老所和嘉和路安养院合作，在高新区和禹会区试点委托专业养老机构运营社区居家养老服务活动中心和农村敬老院等公办养老机构，推动居家养老服务标准化、规范化建设。 <BR>&nbsp;&nbsp;&nbsp; 五、坚持监督检查不放松，强化执纪问责力度 <BR>&nbsp;&nbsp;&nbsp; 一是强化效能责任意识。认真组织学习、及时转发市效能办每月明察暗访情况通报和《蚌埠市机关效能建设基本规范》，坚持机关指纹考勤管理，做到机关内部工作制度健全、纪律严明；工作人员做到时时处处重实际、说实话、办实事、求实效；做到不弄虚作假，不搞形式主义、官僚主义。重点围绕局党委书记、局长刘军波强调的“和气、干事、正派、规矩”、“正风肃纪、争先创新、人人有责”和“规矩意识、底线意识、创新意识、监督意识”抓作风建设和效能建设。 <BR>&nbsp;&nbsp;&nbsp; 二是结合贯彻中央八项规定开展效能监督检查。2017年上半年，结合贯彻中央八项规定，采取各单位自查和局效能办暗访相结合的方式开展监督检查。在局属单位自查的基础上，由局领导带队分别对12家局属单位落实效能建设“十项制度”、中央“八项规定”、廉洁过节、人员在岗、公车使用、效能建设等进行专门检查。针对存在问题，责令及时整改。 <BR>&nbsp;&nbsp;&nbsp; 三是强化执纪问责力度。认真执行机关效能建设明察暗访督查办法。通过明察暗访，着力解决民政系统服务意识不强、工作效率不高、办事推诿扯皮、失职渎职、滥用职权等问题，促进各单位自觉改进作风，努力提高服务开放、服务发展、服务群众的工作热情，形成人人讲效能、处处创效能、事事高效能的浓厚氛围，共同营造守纪律、讲规矩的政治生态。 <BR>&nbsp;&nbsp;&nbsp; 六、存在的不足 <BR>&nbsp;&nbsp;&nbsp; (一)落实效能建设“十项制度”、《蚌埠市机关效能建设基本规范》要求不够严格，在市效能办明察暗访中仍发现局属单位个别同志在上班期间玩手机游戏的现象。 <BR>&nbsp;&nbsp;&nbsp; (二)效能督查只注重日常工作秩序，未能向方便群众办事上延伸。 <BR>&nbsp;&nbsp;&nbsp; (三)效能建设工作开展不平衡，创新机制、创新动能不够。 <BR>&nbsp;&nbsp;&nbsp; 七、2018年工作打算 <BR>&nbsp;&nbsp;&nbsp; （一）进一步提高效能建设的工作合力。狠抓中央“八项规定”和省、市有关文件精神贯彻落实。紧紧围绕“以人为本、为民服务、为民解困” 这条主线，督促局效能建设领导小组成员单位要增强责任意识，加强协调配合，努力形成推进效能建设的整体合力。 <BR>&nbsp;&nbsp;&nbsp; （二）进一步营造廉洁高效的政务环境。要深化行政审批制度改革。精简审批程序，减少审批环节，缩短审批时间，规范审批行为。要深化政务公开。对与群众利益密切相关的重大事项，只要不涉密的，都要通过政府(局)网站、政务公开栏、新闻媒体等形式向社会公开。要加强民政服务窗口建设。实行“一窗式”受理、“一站式”办理、“一条龙”服务。 <BR>&nbsp;&nbsp;&nbsp; （三）进一步推动政风和效能建设向纵深延伸。采取多种方式和手段，增加明察暗访的频次，扩大督查范围，将效能建设从规范工作秩序向提高办事效率上延伸，拓宽督查覆盖面。 <BR>&nbsp;&nbsp;&nbsp; （四）进一步拓展政风和效能投诉渠道。认真对市长热线、政风行风热线、市民心声、网络留言、效能投诉、问卷调查、走访和各类座谈会所反映的问题进行梳理分类，找准产生问题的原因，确定解决方案，以解决问题的导向推动效能建设深入开展。 <BR>&nbsp;&nbsp;&nbsp; （五）进一步探索建立政风和效能建设的长效机制。研究制订机关干部绩效考核办法。通过组织考评、民主评议等方式，实施对机关干部有效管理和科学考核。强化效能奖惩机制。将政风和效能建设成果纳入机关科室工作目标责任制和干部考核体系，褒奖先进，鞭策后进，推动政风和效能建设各项制度和局重点工作的落实，促进我局政风和效能建设取得新的明显成效。&nbsp;<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018年1月8日</P>
+	</div>
+  </div>
+  <div style="text-align:center;"><img src="images/point_dis2.gif" /></div>
+  <div class="clear"></div>
+</div>
+<!--底部开始-->
+<div id="foot" style="position:relative">
+  <div class="bnav"><a href="gywm/">关于我们</a> | <a href="lxwm">联系我们</a> | <a href="wzdh">网站导航</a> | <a href="wzbz/">网站帮助</a></div>
+    <div style="position:absolute; left:35px; top:50px;"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/13/202/0000/40644743/CA132020000406447430002.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+      <div style="position:absolute; right:35px; top:55px;"><a href="http://pucha.kaipuyun.cn/exposure/jiucuo.html?site_code=3403000058&url=http%3A%2F%2Fmzj.bengbu.gov.cn%2F" target="_blank"><img border="0" src="upload/html/jiucuo.png"></a></div>
+  <dl>
+    主办单位：蚌埠市民政局<br />
+    地址：蚌埠市东海大道3888号&nbsp;&nbsp;&nbsp;&nbsp;联系电话：0552-3715011<br />
+    网站标识码：3403000058&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank">皖ICP备05002940号-2</a><br />
+    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34030002000320" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.bbmz.gov.cn/upload/html/bagh.png" style="float:left;"/>皖公网安备 34030002000320号</a>
+<br />
+  </dl>
+</div>
+
+<!--底部结束-->
+</body>
+</html>
+<script type="text/javascript" src="script/Std_StranJF.Js"></script>
+

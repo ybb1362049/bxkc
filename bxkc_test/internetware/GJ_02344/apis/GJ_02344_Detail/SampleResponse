@@ -1,0 +1,313 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<HEAD><TITLE>招投标信息-湖南智埔建设有限公司-专业提供招标代理、工程监理、工程造价、工程咨询、政府采购等项目服务</TITLE>
+<META  name=keywords content="湖南招标代理|湖南工程监理|湖南工程造价|湖南市政工程|湖南政府采购|湖南路桥|工程咨询">
+<META  name=description content="湖南智埔建设有限公司是一家具有国家甲级招标代理资质/政府采购资质/工程监理资质，乙级工程造价资质，工程咨询资质的专业服务公司。咨询电话:0731-82769804/84157356">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/koala.min.1.5.js"></script>
+<SCRIPT type="text/javascript" src="js/jquery-1.4.4.min.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/jsqh_tongyong.js"></SCRIPT>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/superslide.2.1.js"></script>
+<script type="text/javascript">
+function setTab(m,n){
+var menu=document.getElementById("tab"
++m).getElementsByTagName("li");  
+var div=document.getElementById("tablist"
++m).getElementsByTagName("div");
+var showdiv=[];
+for (i=0; j=div[i]; i++){
+if ((" "+div[i].className+" ").indexOf(" tablist ")!=-1){
+showdiv.push(div[i]);}}
+for(i=0;i<menu.length;i++){
+menu[i].className=i==n?"now":"";
+showdiv[i].style.display=i==n?"block":"none";}}
+</script>
+<script>
+function MM_jumpMenu2(){ //v3.0
+  eval("location.href='"+document.link2.menu2.value+"'");
+}
+function MM_jumpMenu1(){ //v3.0
+  eval("location.href='"+document.link1.menu1.value+"'");
+}
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;}
+</script>
+</head>
+<body>
+
+<div class="head">
+<div class="top"><div class="tlj"><a href="javascript:;" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.keypower.net.cn/');return false;" target="_self">• 设为首页</a><a href="/system/index.asp">• 管理入口</a><a href="/system/indexjl.asp">• 项目部管理入口</a></div></div>
+<div class="nav" id=navMenu>
+<ul>
+<li><a href="index.asp">首页</a></li>
+<li><a href="about.asp">关于智埔</a></li>
+<li><a href="about1.asp">专业服务</a></li>
+<li><a href="news.asp?fid=6">相关业绩</a></li>
+<li><a href="news.asp?fid=5">招标公告</a></li>
+<li><a href="news.asp?fid=18">产品介绍</a></li>
+<li><a href="news.asp?fid=1">政策法规及文件</a></li>
+<li><a href="news.asp?fid=3">新闻中心</a></li>
+<li><a href="question.asp">留言与回复</a></li>
+</ul>
+
+</div>
+</div>
+
+<div class="fullSlide">
+	<div class="bd">
+		<ul>
+			<li _src="url(/images/a1.jpg)" style="background:#fff center 0 no-repeat;"><a href="index.asp"></a></li>
+			<li _src="url(/images/a2.jpg)" style="background:#fff center 0 no-repeat;"><a href="index.asp"></a></li>
+			<li _src="url(/images/a3.jpg)" style="background:#fff center 0 no-repeat;"><a href="index.asp"></a></li>
+			<li _src="url(/images/a4.jpg)" style="background:#fff center 0 no-repeat;"><a href="index.asp"></a></li>
+			<li _src="url(/images/a5.jpg)" style="background:#fff center 0 no-repeat;"><a href="index.asp"></a></li>
+		</ul>
+	</div>
+	<div class="hd"><ul></ul></div>
+
+</div><!--fullSlide end-->
+ <script type="text/javascript">
+$(".fullSlide").hover(function(){
+    $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function(){
+    $(this).find(".prev,.next").fadeOut()
+});
+$(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
+</script>
+ <div class="ggl">
+<div class="div1">
+<marquee direction="left" align="bottom" height="45" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3905" title="中国中山留学人员创业园智慧园区办公信息化管理云服务项目招标公告">中国中山留学人员创业园智慧园区办公信息化管理云服务项目招标公告</a><span> [2018-01-12]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3904" title="中国中山留学人员创业园智慧园区办公信息化管理云服务项目">中国中山留学人员创业园智慧园区办公信息化管理云服务项目</a><span> [2018-01-12]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3903" title="中山火炬职业技术学院信息系统网络安全服务采购项目成交结果公告">中山火炬职业技术学院信息系统网络安全服务采购项目成交结果公告</a><span> [2018-01-11]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3902" title="沙田镇民田安置小区（一期工程）三标">沙田镇民田安置小区（一期工程）三标</a><span> [2018-01-11]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3900" title="河源市土地整理开发中心2017年度挂钩耕地指标勘查复核管理项目竞争性磋商公告">河源市土地整理开发中心2017年度挂钩耕地指标勘查复核管理项目竞争性磋商公告</a><span> [2018-01-11]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3899" title="邵阳市双清区2017年云水铺乡高桥村高标准农田建设（农村土地整治）项目">邵阳市双清区2017年云水铺乡高桥村高标准农田建设（农村土地整治）项目</a><span> [2018-01-10]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3898" title="儋州市2017年市级财政办理人大代表建议预留经费 老区村庄道路建设项目">儋州市2017年市级财政办理人大代表建议预留经费 老区村庄道路建设项目</a><span> [2018-01-10]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3897" title="儋州市2017年第二批革命老区转移支付资金项目">儋州市2017年第二批革命老区转移支付资金项目</a><span> [2018-01-10]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3896" title="中华人民共和国中山海事局视频数据传输专用网光纤租赁服务采购项目磋商公告">中华人民共和国中山海事局视频数据传输专用网光纤租赁服务采购项目磋商公告</a><span> [2018-01-09]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3895" title="源监狱“十二五”项目施工期间配套安防设施建设公开招标公告">源监狱“十二五”项目施工期间配套安防设施建设公开招标公告</a><span> [2018-01-09]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3894" title="协合乡插分公路环境整治项目">协合乡插分公路环境整治项目</a><span> [2018-01-08]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3893" title="中山市小榄人民医院饭堂宿舍改造翻新工程成交结果公告">中山市小榄人民医院饭堂宿舍改造翻新工程成交结果公告</a><span> [2018-01-08]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3892" title="江东新区临江镇、古竹镇专职消防队灭火装备器材采购项目公开招标公告">江东新区临江镇、古竹镇专职消防队灭火装备器材采购项目公开招标公告</a><span> [2018-01-08]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3891" title="中山市林业植物检疫对象监测项目延期公告二">中山市林业植物检疫对象监测项目延期公告二</a><span> [2018-01-05]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3890" title="中山火炬高技术创业中心有限公司留创园人才公寓家具家电项目招标公告">中山火炬高技术创业中心有限公司留创园人才公寓家具家电项目招标公告</a><span> [2018-01-04]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3889" title="中山火炬高技术创业中心有限公司留创园人才公寓家具家电项目">中山火炬高技术创业中心有限公司留创园人才公寓家具家电项目</a><span> [2018-01-03]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3888" title="河源市城乡投资发展有限公司引车员服务采购项目（科目三）公开招标公告">河源市城乡投资发展有限公司引车员服务采购项目（科目三）公开招标公告</a><span> [2018-01-03]</span></div>
+ 
+<div class="div2"><A href="news_show.asp?fid=5&id=3887" title="中山市陈星海医院后勤管理与设备运行维保服务项目招标公告">中山市陈星海医院后勤管理与设备运行维保服务项目招标公告</a><span> [2018-01-02]</span></div>
+ 
+
+</marquee>
+</div>
+ 
+<a class="gd" href="news.asp?fid=4">更多>></a>
+</div>
+<div class="body">
+  <div class="left">
+    <div class="ndh">
+      <div class="ndhs">新闻中心</div>
+      <div class="ndhz">
+        <ul>
+          
+                   
+          <li><a href="news.asp?fid=1" >政策法规</a></li>
+         
+                   
+          <li><a href="news.asp?fid=2" >行业新闻</a></li>
+         
+                   
+          <li><a href="news.asp?fid=3" >公司新闻</a></li>
+         
+                   
+          <li><a href="news.asp?fid=4" >通知公告</a></li>
+         
+                   
+          <li><a href="news.asp?fid=5" >招投标信息</a></li>
+         
+                   
+          <li><a href="news.asp?fid=6" >项目业绩</a></li>
+         
+                   
+          <li><a href="news.asp?fid=7" >学习评论</a></li>
+         
+                   
+          <li><a href="news.asp?fid=18" >产品介绍</a></li>
+         
+        </ul>
+      </div>
+      <div class="ndhx"></div>
+    </div>
+    <div class="xglj">
+      <div class="xbt">相关链接</div>
+<a href="about1.asp?id=1"><img src="images/1.jpg" width="240" height="46" /></a>
+<a href="about1.asp?id=5"><img src="images/2.jpg" width="240" height="46" /></a>
+<a href="about1.asp?id=3"><img src="images/3.jpg" width="240" height="46" /></a>
+<a href="about1.asp?id=4"><img src="images/4.jpg" width="240" height="46" /></a>
+<a href="about1.asp?id=2"><img src="images/5.jpg" width="240" height="46" /></a>
+<a href="about1.asp?id=6"><img src="images/6.jpg" width="240" height="46" /></a>
+<a href="about1.asp?id=7"><img src="images/7.jpg" width="240" height="46" /></a>
+<img src="images/8.jpg" width="240" height="46" /> </div>
+<div class="xglj" style="margin-top:10px;">
+      <div class="lxbt">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="16%"><img src="images/dh.jpg" width="23" height="23" /></td>
+            <td width="84%">联系我们</td>
+          </tr>
+        </table>
+      </div>
+      <table width="240" border="0" align="center" cellpadding="0" cellspacing="0" style="line-height:24px;">
+        <tr>
+          <td height="110" valign="middle">总机：0731-89670260<br />
+            传真：0731-89670274 <br />
+            地址：长沙市高新区麓谷企业广场B5栋5楼<br />
+            邮箱：1141882332@qq.com<br /></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="right">
+    <div class="bt"><strong>招投标信息</strong>
+      <div class="dqwz">当前位置：<a href="/">网站首页</a> &gt; 招投标信息</div>
+    </div>
+    <div class="nyxwlb">
+     
+      
+      <div class="wznr" style="line-height:30px;">
+	  <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+            <tr>
+            <td height="38" align="center" bgcolor="#EFEFEF" style="line-height:30px;font-size:20px;font-weight:bold">中国中山留学人员创业园智慧园区办公信息化管理云服务项目招标公告</td>
+          </tr>
+           <tr>
+            <td align="center" style="line-height:30px;">来源：湖南智埔建设有限公司&nbsp; 时间：2018/1/12 10:43:43&nbsp; 查看次数：38</td>
+          </tr>
+           <tr>
+            <td style="line-height:30px;"><P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt; mso-char-indent-count: 2.0000" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>湖南智埔建设有限公司中山分公司</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><FONT face=宋体>（以下简称</FONT>“招标代理机构”）受中山火炬高技术创业中心有限公司（以下简称“招标人”）的委托</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>，</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><FONT face=宋体>就中国中山留学人员创业园智慧园区办公信息化管理云服务项目</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>进行公开招标，</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><FONT face=宋体>邀请合格的国内投标人提交密封投标。有关事项如下：</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt; mso-pagination: widow-orphan" class=MsoNormal><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>一、招标项目的名称、招标编号、项目内容</FONT></SPAN></B><B><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>：</FONT></SPAN></B><B><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></B></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">1、项目名称：</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><FONT face=宋体>中国中山留学人员创业园智慧园区办公信息化管理云服务项目</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">2、招标编号：</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt">ZP-GK2017-1204</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><FONT face=宋体>、备案号：湘智采字</FONT>[2018]第0115号</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt">3、资金来源：企业自筹</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt">4、</SPAN><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>上限价：</FONT>1572000元</SPAN></B><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">5、项目内容：</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><FONT face=宋体>办公信息化管理云服务招标</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><FONT face=宋体>，数量：</FONT>1<FONT face=宋体>项，</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>详见招标文件用户需求书</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><FONT face=宋体>。</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 14.0000pt"><FONT face=宋体>（</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>投标人应对品目内全部招标内容进行投标，不允许只对品目内部分内容进行报价。</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>）</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt; mso-pagination: widow-orphan" class=MsoNormal><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>二、合格投标人资格要求：</FONT></SPAN></B><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></B></P>
+<P style="LINE-HEIGHT: 135%; TEXT-INDENT: -21pt; MARGIN: 0pt -0.45pt 0pt 21pt; mso-pagination: widow-orphan; mso-list: l0 level1 lfo1" class=MsoNormal><FONT face=宋体><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-font-kerning: 14.0000pt"><SPAN style="mso-list: Ignore"><FONT size=3>1、<SPAN>&nbsp;</SPAN></FONT></SPAN></SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-font-kerning: 14.0000pt">投标人须具有独立承担民事责任的能力的，在中华人民共和国境内注册的法人或其他组织，并独立于招标人和招标代理机构；</SPAN></FONT><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-font-kerning: 14.0000pt; mso-hansi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 135%; TEXT-INDENT: -21pt; MARGIN: 0pt -0.45pt 0pt 21pt; mso-pagination: widow-orphan; mso-list: l0 level1 lfo1" class=MsoNormal><FONT face=宋体><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-font-kerning: 14.0000pt"><SPAN style="mso-list: Ignore"><FONT size=3>2、<SPAN>&nbsp;</SPAN></FONT></SPAN></SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-font-kerning: 14.0000pt">投标人</SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">近三年来在政府招标活动中没有违法、违规和其他不良记录；</SPAN></FONT><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 135%; TEXT-INDENT: -21pt; MARGIN: 0pt -0.45pt 0pt 21pt; mso-pagination: widow-orphan; mso-list: l0 level1 lfo1" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><SPAN style="mso-list: Ignore"><FONT size=3><FONT face=宋体>3、<SPAN>&nbsp;</SPAN></FONT></FONT></SPAN></SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">投标人在公告发布之日前3年内无行贿犯罪记录。由投标人营业执照住所地或业务发生地人民检察院出具《行贿犯罪档案查询告知函》的原件，《行贿犯罪档案查询告知函》的出具时间不得早于本项目招标公告发布时间；</SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 135%; TEXT-INDENT: -21pt; MARGIN: 0pt -0.45pt 0pt 21pt; mso-pagination: widow-orphan; mso-list: l0 level1 lfo1" class=MsoNormal><FONT face=宋体><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 'Times New Roman'"><SPAN style="mso-list: Ignore"><FONT size=3>4、<SPAN>&nbsp;</SPAN></FONT></SPAN></SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 'Times New Roman'">投标人未在“信用中国”网站（www.creditchina.gov.cn）被列为失信被执行人，提供</SPAN></FONT><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">《信用中国》网站“失信被执行人”的下载的信用报告；</SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 135%; TEXT-INDENT: -21pt; MARGIN: 0pt -0.45pt 0pt 21pt; mso-pagination: widow-orphan; mso-list: l0 level1 lfo1" class=MsoNormal><FONT face=宋体><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-font-kerning: 14.0000pt"><SPAN style="mso-list: Ignore"><FONT size=3>5、<SPAN>&nbsp;</SPAN></FONT></SPAN></SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-font-kerning: 14.0000pt">投标人</SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">必须在招标代理机构报名登记且购买招标文件；</SPAN></FONT><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 135%; TEXT-INDENT: -21pt; MARGIN: 0pt -0.45pt 0pt 21pt; mso-pagination: widow-orphan; mso-list: l0 level1 lfo1" class=MsoNormal><FONT face=宋体><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><SPAN style="mso-list: Ignore"><FONT size=3>6、<SPAN>&nbsp;</SPAN></FONT></SPAN></SPAN><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">本项目不接受联合体投标。</SPAN></FONT><SPAN style="LINE-HEIGHT: 135%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: -8.95pt; MARGIN: 0pt 0pt 0pt 0.05pt; mso-char-indent-count: -0.8500; mso-pagination: widow-orphan; mso-para-margin-left: -0.8500gd" class=MsoNormal><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>三、获取招标文件的时间（北京时间）、地点、方式及招标文件售价：</FONT></SPAN></B><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></B></P>
+<P style="LINE-HEIGHT: 23pt; MARGIN: 0pt; mso-line-height-rule: exactly" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">1、获取招标文件时间：2018年01月15日至2018年01月19日每天上午8:30～11：30，下午2：30～5：30（公休节假日除外）。 &nbsp;</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 23pt; MARGIN: 0pt; mso-line-height-rule: exactly" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">2、获取招标文件地点：</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>中山市兴中道</FONT>5号颐和中心四楼3A06卡</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>（湖南智埔建设有限公司中山分公司）。</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 23pt; MARGIN: 0pt; mso-line-height-rule: exactly" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">3、获取招标文件方式：报名购买。</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 23pt; MARGIN: 0pt; mso-line-height-rule: exactly" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">4、招标文件售价：人民币300元/套，售后不退。</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: -10.5pt; MARGIN: 0pt 0pt 0pt 10.5pt; mso-char-indent-count: -1.0000; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">5、</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>购买招标文件时请提交</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>以下资料复印件并</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>加盖单位公章：</FONT>1）</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>有效法人或者其他组织的营业执照复印件；</FONT>2）购买人身份证。（购买招标文件的单位，均被视为已充分理解本公告的有关要求，招标人及招标代理机构均无责任承担其是否符合合格投标人条件而引起的一切后果。）</SPAN><B><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></B></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">6、购买招标文件时请自带U盘拷贝本项目招标文件电子版。</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: -20.65pt; MARGIN: 0pt 0pt 0pt 20.65pt; mso-char-indent-count: -1.9600" class=MsoNormal><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>四、</FONT></SPAN></B><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; LETTER-SPACING: 0.25pt; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt"><FONT face=宋体>答疑时间</FONT></SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; LETTER-SPACING: 0.25pt; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt"><FONT face=宋体>：投标人如有疑问，请于</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">2018年01月23日</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; LETTER-SPACING: 0.25pt; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt"><FONT face=宋体>下午</FONT>5：00前传真和发邮件至招标代理机构，将由招标人或招标代理机构答复后统一回传至各投标人。</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; LETTER-SPACING: 0.25pt; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: -20.65pt; MARGIN: 0pt 0pt 0pt 20.65pt; mso-char-indent-count: -1.9600" class=MsoNormal><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>五、投标保证金。</FONT></SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>投标人必须按招标文件规定的方式提交投标保证金，投标保证金的有关事项按投标人须知的相关规定执行。</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: -15.5pt; MARGIN: 0pt 0pt 0pt 15.5pt; mso-char-indent-count: -1.4700" class=MsoNormal><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>六、开标要求。</FONT></SPAN></B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>本次招标在本招标文件规定的时间和地点公开开标，投标人法定代表或其授权代表人必须携带本人身份证原件出席开标会。</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0pt" class=MsoNormal><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>七、投标截止时间、开标时间及地点：</FONT></SPAN></B><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></B></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt 0pt 0pt 5.25pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">1、递交投标文件时间：2018年02月0</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">8</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>日上午</FONT>9：00～9：30。</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt 0pt 0pt 5.25pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">2、投标截止时间：2018年02月0</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">8</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>日上午</FONT>9：30。</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt 0pt 0pt 5.25pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">3、开标时间：2018年02月0</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">8</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>日上午</FONT>9：30。</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt 0pt 0pt 5.25pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">4、开标地点：</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>湖南智埔建设有限公司中山分公司（</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>中山市兴中道</FONT>5号颐和中心四楼3A06卡</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>）</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>。</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0pt" class=MsoNormal><B><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>八、</FONT></SPAN></B><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>招标人和招标代理机构将不承担投标人准备投标文件和递交投标文件以及参加本次投标活动所发生的任何成本或费用。</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0pt" class=MsoNormal><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>九、招标人、招标代理机构的名称、地址和联系方式：</FONT></SPAN></B><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></B></P>
+<P style="TEXT-ALIGN: left; LINE-HEIGHT: 150%; MARGIN: 0pt; mso-pagination: widow-orphan" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">1、招标人联系方式</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>招标人名称：</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>中山火炬高技术创业中心有限公司</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt; VERTICAL-ALIGN: bottom" class=MsoNormal><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>联系人：陆先生</FONT></SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt; VERTICAL-ALIGN: bottom" class=MsoNormal><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>电</FONT> &nbsp;<FONT face=宋体>话：</FONT> 0760-85316969</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt; VERTICAL-ALIGN: bottom" class=MsoNormal><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>地</FONT> &nbsp;<FONT face=宋体>址：中山市火炬开发区会展东路</FONT>16号数码大厦1801号房</SPAN><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt; VERTICAL-ALIGN: bottom" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">E-mail:</SPAN><SPAN style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt; mso-fareast-font-family: 宋体">&nbsp;</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">12423646@qq.com</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0pt; VERTICAL-ALIGN: bottom" class=MsoNormal><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">2、</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>招标代理机构联系方式</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>招标代理机构名称：湖南智埔建设有限公司中山分公司</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>联系人：黄小姐</FONT></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>电话：</FONT>0760-88665226 &nbsp;</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>传真：</FONT>0760-88665236 </SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>地址：中山市兴中道</FONT>5号颐和中心四楼3A06卡</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">&nbsp;E-mail: </SPAN><SPAN><A href="mailto:zszhipu@163.com"><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><FONT color=#0000ff>zszhipu@163.com</FONT></SPAN></A></SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P style="LINE-HEIGHT: 150%; MARGIN: 0pt 21pt 0pt 35pt" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><FONT face=宋体>湖南智埔建设有限公司中山分公司</FONT></SPAN><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></B></P>
+<P style="LINE-HEIGHT: 150%; TEXT-INDENT: 297.75pt; MARGIN: 0pt 21pt 0pt 34.95pt; mso-char-indent-count: 28.3600; mso-para-margin-left: 3.3300gd" class=MsoNormal><SPAN style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt">2018年01月12日</SPAN><B><SPAN style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0000pt"><o:p></o:p></SPAN></B></P>
+<P style="MARGIN: 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt; mso-fareast-font-family: 宋体"><o:p>&nbsp;</o:p></SPAN></P><!--EndFragment--></td>
+          </tr>
+           <tr><td height="35" align="left"  style="font-size:14px"><strong>上一篇：</strong> </td>
+			</tr>
+			<tr>
+			<td height="35" align="left"  style="font-size:14px"><strong>下一篇：</strong></td>
+			</tr>
+            <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+      </div>
+      
+    </div>
+  </div>
+  <div class="clr"></div>
+</div>
+
+<style type="text/css">
+<!--
+.STYLE1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+-->
+</style>
+ 
+<div class="dfoot">
+
+<div class="xfoot">
+  <div class="xfootx">版权所有:湖南智埔建设有限公司  具有国家甲级资质专业提供全国招标代理 工程监理 工程造价 中央投资 建筑施工 政府采购服务　<a href=" http://www.miitbeian.gov.cn/" class="STYLE1">湘ICP备16021394号-1</a> 联系电话：0731-89670261  传真：0731-89670274 </div>
+</div>
+
+</div>
+</body>
+
+</html>
+

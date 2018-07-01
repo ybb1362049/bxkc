@@ -1,0 +1,547 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>黄石新兴招标采购网</title>
+<link rel="stylesheet" type="text/css" href="yui/build/container/assets/skins/sam/container.css">
+<link rel="stylesheet" type="text/css" href="yui/build/resize/assets/skins/sam/resize.css">
+<link rel="stylesheet" type="text/css" href="phpcss/hspub9.css">
+<script type="text/javascript" src="yui/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="yui/build/utilities/utilities.js"></script>
+<script type="text/javascript" src="yui/build/json/json-min.js"></script>
+<script type="text/javascript" src="yui/build/container/container-min.js"></script>
+<script type="text/javascript" src="yui/build/datasource/datasource-min.js"></script>
+<script type="text/javascript" src="yui/build/resize/resize-min.js"></script>
+<script type="text/javascript">
+var EW_LANGUAGE_ID = "cn";
+var EW_DATE_SEPARATOR = "-" || "/"; // Default date separator
+var EW_DECIMAL_POINT = ".";
+var EW_THOUSANDS_SEP = "";
+var EW_UPLOAD_ALLOWED_FILE_EXT = "gif,jpg,jpeg,bmp,png,doc,xls,pdf,zip"; // Allowed upload file extension
+
+// Ajax settings
+var EW_RECORD_DELIMITER = "\r";
+var EW_FIELD_DELIMITER = "|";
+var EW_LOOKUP_FILE_NAME = "ewlookup9.php"; // Lookup file name
+var EW_AUTO_SUGGEST_MAX_ENTRIES = 10; // Auto-Suggest max entries
+
+// Common JavaScript messages
+var EW_ADDOPT_BUTTON_SUBMIT_TEXT = "  确认  ";
+var EW_EMAIL_EXPORT_BUTTON_SUBMIT_TEXT = "  发送  ";
+var EW_BUTTON_CANCEL_TEXT = "  取消  ";
+var EW_DISABLE_BUTTON_ON_SUBMIT = true;
+var EW_IMAGE_FOLDER = "phpimages/"; // Image folder
+</script>
+<script type="text/javascript" src="phpjs/jsrender.js"></script>
+<script type="text/javascript" src="phpjs/ewp9.js"></script>
+<script type="text/javascript" src="phpjs/userfn9.js"></script>
+<script type="text/javascript">
+var ewLanguage = new ew_Language({"deleteconfirmmsg":"确认删除词条记录吗?","deletemulticonfirmmsg":"确定删除选定记录?","enternewpassword":"请输入新口令","enteroldpassword":"请输入原口令","enterpassword":"请输入口令","enterpwd":"请输入口令","enterrequiredfield":"请输入必需的字段","enterusername":"请输入用户名","entervalidatecode":"请输入验证码","entersenderemail":"请输入发送人邮箱","enterpropersenderemail":"Exceed maximum sender email count or email address incorrect","enterrecipientemail":"Please enter recipient email","enterproperrecipientemail":"Exceed maximum recipient email count or email address incorrect","enterproperccemail":"Exceed maximum cc email count or email address incorrect","enterproperbccemail":"Exceed maximum bcc email count or email address incorrect","entersubject":"Please enter subject","enteruid":"请输入用户帐号","entervalidemail":"请输入有效的邮件地址!","exporttoemail":"Email","hidehighlight":"隐藏高光","incorrectemail":"错误的邮件地址","incorrectfield":"错误的字段","incorrectfloat":"错误的浮点数值","incorrectguid":"错误的 GUID","incorrectinteger":"错误的 integer","incorrectphone":"错误的电话号码","incorrectregexp":"正则表达式不匹配","incorrectrange":"数字范围必须在 %1 and %2","incorrectssn":"错误的社会保险号码","incorrecttime":"错误码的时间 (hh:mm:ss)","incorrectzip":"错误的邮政编码","insertfailed":"添加失败","invalidrecord":"无效记录！主键是空值","loading":"加载...","messageok":"成功","mismatchpassword":"密码不匹配","noaddrecord":"没有添加新记录","nofieldselected":"未选择更新字段","norecordselected":"没有选定记录","pleasewait":"请等待...","sendemailsuccess":"邮件发送成功","showhighlight":"高亮显示","uploading":"上传...","userleveladministratorname":"用户级别为 -1 的名称必须是 'Administrator'","userlevelidinteger":"用户级别编号必须是整型数","userleveldefaultname":"用户级别为 0 的名称必须是 'Default'","userlevelidincorrect":"用户定义的级别ID必须大于 0","userlevelnameincorrect":"用户定义的级别名称不能为 'Administrator' 或者 'Default'","wrongfiletype":"文件类型不允许。"});</script>
+<script type="text/javascript">
+
+// Write your client script here, no need to add script tags.
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head>
+<body class="yui-skin-sam">
+<div class="ewLayout">
+	
+<style type="text/css">
+    div{margin: 0;border: 0;padding: 0;}
+body {
+	margin:0;
+	padding:0;
+	color:#000;
+        font-size:12px ;
+	font-family:  Arial, Helvetica, Verdana, Sans-serif;
+}
+#top {
+	height:8px;
+	border-bottom:1px dotted #000;
+	background:#65a9e6;
+	overflow:hidden;
+}
+#header {
+	width:976px;
+	height:250px;
+	margin:0 auto 0px auto;
+}
+#header #logoarea {
+	float:left;
+	width:974px;
+        margin: auto;
+	background:#fff;
+}
+#header #logoarea #logo {
+	float:left;
+	width:330px;
+	height:62px;
+	margin-top:9px;
+	background:url(../images/logo.jpg) no-repeat 0 0;
+}
+#header #logoarea #logo a {
+	display:none;
+}
+
+#Logo-left {
+float: left;
+width: 460px;
+margin-top:4px;
+margin-left:2px;
+height:45px;
+/*background: green;*/
+}
+#Menu-right {
+float: right;
+width: 310px;
+height:45px;
+margin-top:4px;
+/*background: green;*/
+}
+#Content-CnEnLink {
+width:310px;
+height:15px;
+font-size : 9pt;
+/*background:blue;*/
+}
+#Content-MenuLink {
+width:305px;
+margin-top:0px;
+margin-right:0px;
+font-size:10pt;
+}
+
+#Content-MenuLink td{
+	vertical-align:	bottom;
+	text-align: center;
+}
+#Interval-DivMenu {
+width: 310px;
+}
+
+.b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b{display:block;overflow:hidden;}
+.b1,.b2,.b3,.b1b,.b2b,.b3b{height:1px;}
+.b2,.b3,.b4,.b2b,.b3b,.b4b,.b{border-left:1px solid #959494;border-right:1px solid #959494;}
+.b1,.b1b{margin:0 5px;background:#959494;}
+.b2,.b2b{margin:0 3px;border-width:2px;}
+.b3,.b3b{margin:0 2px;}
+.b4,.b4b{height:2px;margin:0 1px;}
+.d1{background:#FfFfFf;}
+.d2{background:#EFEFCE;}
+div.RoundedCorner{
+	background: #D4EEFF;
+ 	width:100%;
+ 	margin: 0px auto auto auto;
+}
+b.rtop, b.rbottom{display:block;background: #FFF}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #D4EEFF}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+
+.c1,.c2,.c3,.c4,.c1b,.c2b,.c3b,.c4b,.c{display:block;overflow:hidden;}
+.c1,.c2,.c3,.c1b,.c2b,.c3b{height:1px;}
+.c2,.c3,.c4,.c2b,.c3b,.c4b,.c{border-left:1px solid #ffffff;border-right:1px solid #ffffff;}
+.c1,.c1b{margin:0 5px;background:#ffffff;}
+.c2,.c2b{margin:0 3px;border-width:2px;}
+.c3,.c3b{margin:0 2px;}
+.c4,.c4b{height:2px;margin:0 1px;}
+.e1{background:#e6e6e6;}
+
+
+#header #banner {
+	float:left;
+	width:974px;
+	height:245px;
+	background:#fff;
+}
+#main {
+	width:976px;
+	margin:4px auto 0 auto;
+}
+#main #container {
+	float:left;
+	width:974px;
+	margin-bottom:18px;
+	background:url(../images/container_bg_a.gif) no-repeat left bottom;
+}
+#main #container h1 {
+	width:720px;
+	height:36px;
+	margin:0;
+	padding:0 20px;
+	background:url(../images/container_bg_a.gif) no-repeat left top;
+	overflow:hidden;
+}
+#main #container h1 a {
+	line-height:42px;
+	font-size:15px;
+	color:#f60;
+	text-decoration:none;
+}
+#main #container h1 a:hover {
+	color:#03c;
+	text-decoration:underline;
+}
+#main #container p {
+	width:720px;
+	margin:0 auto 8px auto;
+	text-indent:2em;
+	line-height:20px;
+	font-size:12px;
+	color:#333;
+}
+#main #container p a {
+	color:#03c;
+	text-decoration:none;
+}
+#main #container p a:hover {
+	text-decoration:underline;
+}
+#main #linkarea {
+	float:left;
+	width:974px;
+        height:350px;
+}
+.left-cont3{width:360px;height:350px;background:white;float:left;margin-bottom:0px;margin-left: 7px;margin-top: 4px;}
+.left-cont4{width:240px;height:350px;background:white;float:left;margin-bottom:0px;margin-top: 4px;}
+.title{height:30px;background:url(../images/ak18.jpg) repeat-x;margin:0px 0px 0px 0px;}
+.title span{height:30px;line-height:30px;}
+.title a{float:right;margin-right:5px;}
+.title img{float:right;}
+.title a:hover{color:red;}
+.title2{float:left;height:30px;background:url(../images/ak15.jpg) no-repeat;}
+.title5{float:left;height:30px;background:url(../images/ak17a.jpg) no-repeat;}
+.title2 strong{font-size:14px;font-weight:bold;color:#0C729C;margin-left:28px;}
+
+.cont3-a{height:90px;width:338px;padding:10px;border:1px solid #D4D6D4;border-top:0px;margin-top: 0px;margin-left: 0px;}
+.cont3-a li{list-style:none;height:23px;background:url(../images/ak13.jpg) 0 4px no-repeat;text-align: left;}
+.cont3-a a{margin-left:8px;color:#343434;line-height:16px;}
+.cont3-a a:hover{color:red;}
+
+.cont6-a{height:131px;width:338px;padding:10px;border:1px solid #D4D6D4;border-top:0px;margin-top: 0px;margin-left: 0px;}
+.cont6-a li{list-style:none;height:23px;background:url(../images/ak13.jpg) 0 4px no-repeat;text-align: left;}
+.cont6-a a{margin-left:8px;color:#343434;line-height:16px;}
+.cont6-a a:hover{color:red;}
+
+.cont7-a{height:290px;width:338px;padding:10px;border:1px solid #D4D6D4;border-top:0px;margin-top: 0px;margin-left: 0px;}
+.cont7-a li{list-style:none;height:23px;background:url(../images/ak13.jpg) 0 4px no-repeat;text-align: left;}
+.cont7-a a{margin-left:8px;color:#343434;line-height:16px;}
+.cont7-a a:hover{color:red;}
+
+.cont8-a{height:105px;width:298px;padding:10px;border:1px solid #D4D6D4;border-top:0px;margin-top: 0px;margin-left: 0px;}
+.cont8-a li{list-style:none;height:23px;text-align: left;}
+.cont8-a-a a{margin-left:8px;color:#343434;line-height:16px;}
+.cont8-a a:hover{color:red;}
+
+.right-cont9{background:white;width: 232px;height: 160px;margin-bottom:8px;border:1px solid #C4E2FC;overflow:hidden;}
+.right-cont2{background:white;width: 232px;height: 120px;margin-bottom:8px;border:1px solid #C4E2FC;overflow:hidden;padding-top: 2px;padding-bottom: 2px;}
+.right-title1{height:33px;width:232px; text-align: left;background:url(../images/ak19.jpg) repeat-x;margin-top: 0px;}
+.right-title1 span{float:left;height:30px;line-height:30px;margin-left:5px;font-size:14px;font-weight:bold;color:#DC0204;}
+.title1{float:left;height:30px;line-height:30px;margin-left:5px;font-size:14px;font-weight:bold;color:#0C729C;}
+.right-title2{height:33px;background:url(../images/ak19.jpg) repeat-x;}
+.right-title2 span{float:left;height:30px;line-height:30px;margin-left:5px;font-size:14px;font-weight:bold;color:#0C729C;}
+
+.content1-a{width:710px;margin:0px auto;background:#f9f9f9;border-top:1px solid #f3f3f3;}
+.content1-a1 p{font-size: 12px;}
+.content1-a1{width:710px;margin:0 auto;font-size: 12px;}
+.content1-a1 h3{font-size:18px;text-align:center;color:#C00;margin:10px 0;}
+.content1-a2{height:29px;background:#f0f0f0;border-top:1px solid #d8d8d8;}
+.content1-a2 ul{width:440px;margin:0 auto;padding-top:6px;}
+.content1-a2 li{list-style:none;float:left;text-align:center;padding-left:20px;}
+.content1-a2 a{color:black;}
+.content1-a2 a:hover{color:red;}
+.content1-a3{font-size:22px;font-weight:bold;text-align:center;margin-top:5px;}
+
+#main #linkarea dl {
+	float:left;
+	width:240px;
+	margin:0 20px 0 0;
+	background:url(../images/link_con_bg.gif) no-repeat left bottom;
+}
+#main #linkarea dl#template {
+	margin:0;
+}
+#main #linkarea dl dt {
+	width:210px;
+	padding:15px 15px 0 15px;
+	background:url(../images/link_con_bg.gif) no-repeat left top;
+}
+#main #linkarea dl dt a img {
+	border:0;
+}
+#main #linkarea dl dd {
+	width:204px;
+	margin:8px auto 12px auto;
+	line-height:17px;
+	text-indent:2em;
+	font-size:12px;
+	color:#666;
+}
+#main #linkarea dl dd a {
+	color:#333;
+	text-decoration:none;
+}
+#main #linkarea dl dd a:hover {
+	color:#03c;
+	text-decoration:underline;
+}
+#footer {
+	width:976px;
+	height:80px;
+	margin:0px auto 0 auto;
+}
+#footer p {
+	line-height:40px;
+	text-align:center;
+	font-size:13px;
+	color:#03c;
+}
+#footer p a {
+	color:#03c;
+	text-decoration:none;
+}
+#footer p a:hover {
+	text-decoration:underline;
+}
+
+.clear{ clear: both; font-size:1px; width:1px; visibility: hidden; }
+
+a:link {
+	text-decoration: none;
+    FONT-SIZE: 9pt;
+color: #000;
+    }
+    a:visited {
+    	text-decoration: none;
+    FONT-SIZE: 9pt;
+	color: #000;
+    }
+    a:hover {
+    	text-decoration: none;
+    FONT-SIZE: 9pt;
+	color: #000;
+    }
+    a:active {
+    	text-decoration: none;
+    FONT-SIZE: 9pt;
+color: #DDD;
+    }
+    
+     .right-cont1{width:229px;height:80px;}
+    .right-cont1-b{width:229px;height:80px;}
+.right-cont1-b li{list-style:none;height:28px;width:229px;text-align: left;margin-left: 0px;}
+.right-cont1-b img{border:0px;}
+</style>
+<SCRIPT language=javascript  src="../phpjs/flash.js" type=text/javascript></SCRIPT>
+
+<script type="text/javascript">
+var flogin = new ew_Form("flogin");
+
+// Validate function
+flogin.Validate = function()
+{
+	var fobj = this.Form;
+	if (!this.ValidateRequired)
+		return true; // Ignore validation
+	if (!ew_HasValue(fobj.username))
+		return this.OnError(fobj.username, ewLanguage.Phrase("EnterUid"));
+	if (!ew_HasValue(fobj.password))
+		return this.OnError(fobj.password, ewLanguage.Phrase("EnterPwd"));
+
+	// Call Form Custom Validate event
+	if (!this.Form_CustomValidate(fobj)) return false;
+	return true;
+}
+
+// Form_CustomValidate function
+flogin.Form_CustomValidate = 
+ function(fobj) { // DO NOT CHANGE THIS LINE!
+
+ 	// Your custom validation code here, return false if invalid. 
+ 	return true;
+ }
+
+// Requires js validation
+flogin.ValidateRequired = true;
+</script>
+</head>
+<body id="home">
+<div id="top"></div>
+<div id="header">
+	<div id="logoarea">
+		<div id="Logo-left">
+                    <img border="0" src="../images/Logo.jpg" align="left">
+		</div> 
+                
+		<!--中文 英文 及菜单栏 -->
+		<div id="Menu-right">
+
+				<!--中文 英文 -->
+				<div id="Content-CnEnLink">  
+						<table border="0" cellpadding="0"  width="279"  height="15" cellspacing="0"   >
+							<tr  >
+							  <td width="140"  ></td>
+							  <td width="65" valign="middle" align="center"></td>
+							  <td width="9"  valign="middle"></td>
+							  <td width="65"  valign="middle" align="center"></td>
+							</tr>
+					  </table>
+				</div>
+
+				<!--菜单栏 -->
+				<div   id="Interval-DivMenu">
+				<b class="c1"></b><b class="c2 e1"></b><b class="c3 e1"></b><b class="c4 e1"></b>
+				<div class="c e1">
+						<div id="Content-MenuLink">
+							<table border="0" cellpadding="0"  width="305"  height="20" cellspacing="0" >
+										<tr  >
+										  <td width="28"  ></td>
+										  <td width="70"><a href="vgonggao1list.php"><font  color="#000000" >通知公告</font></a></td>
+										  <td width="2"><font color="#000000" size=3>|</font></td>
+										  <td width="70"><a href="vgonggao2list.php"><font  color="#000000">招标公告</font></a></td>
+										  <td width="2"><font color="#000000" size=3>|</font></td>
+										  <td width="70"><a href="vtenderpublist.php"><font  color="#000000">电子招标</font></a></td>
+										  
+										  <td width="2" ><font color="#000000" size=3>|</font></td>
+										  <td width="70" ><a href="gaoshi/zb2_gonggaoview.php?id=3"><font  color="#000000">联系我们</font></a></td>
+										</tr>
+							</table>
+
+						</div>
+				</div>
+				<b class="c4b e1"></b><b class="c3b e1"></b><b class="c2b e1"></b><b class="c1b"></b>
+				</div>
+	</div>
+	<div id="banner">
+            <SCRIPT language=javascript type=text/javascript>
+			writeflashhtml("_swf=../images/6766.swf", "_width=974", "_height=245" ,"_wmode=transparent");
+		</SCRIPT>
+        </div>
+</div>
+    </div>
+
+	<!-- content (begin) -->
+	<table cellspacing="0" style="margin:0 auto 0px auto;width:974px;">
+		<tr>	
+			
+                    <td class="ewContentColumn" style="margin-left: 0px;padding-left: 0px;margin-top: 0px;padding-top: 0px;">
+			<!-- right column (begin) -->
+				
+<script type="text/javascript">
+
+// Page object
+var vgonggao2_view = new ew_Page("vgonggao2_view");
+vgonggao2_view.PageID = "view"; // Page ID
+var EW_PAGE_ID = vgonggao2_view.PageID; // For backward compatibility
+
+// Form object
+var fvgonggao2view = new ew_Form("fvgonggao2view");
+
+// Form_CustomValidate event
+fvgonggao2view.Form_CustomValidate = 
+ function(fobj) { // DO NOT CHANGE THIS LINE!
+
+ 	// Your custom validation code here, return false if invalid. 
+ 	return true;
+ }
+
+// Use JavaScript validation or not
+fvgonggao2view.ValidateRequired = true;
+
+// Dynamic selection lists
+// Form object for search
+
+</script>
+<script type="text/javascript">
+
+// Write your client script here, no need to add script tags.
+</script>
+
+<table  style="margin-top: 10px;"><tr><td class="ewGridContent">
+<div class="ewGridMiddlePanel">
+<table style="width:700px;">
+
+
+	<tr id="r_title">
+		<td class="ewTableHeader">
+                    <div class="content1-a">
+			<div class="content1-a1">
+				<h3>印刷品承包项目招标 </h3>
+				<div class="content1-a2">
+					<ul>
+						<li>发表时间:2018-01-09 11:56:22</li>
+						<li></li>
+						<li><a href="#" onclick="javascript:window.print();" class="lx">[打 印]</a></li>
+						<li><a href="#"></a><a href="#" onclick="javascript:window.close();" class="lx">[关 闭]</a></li>
+						<div style="clear:both;"></div>
+					</ul>
+                                </div><br><div>
+				<p style="TEXT-ALIGN: center; LINE-HEIGHT: 18px; MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px"><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 24px; FONT-WEIGHT: bold">招标公告</span></p><p style="TEXT-ALIGN: left; LINE-HEIGHT: 18px; MARGIN-TOP: 10px; TEXT-INDENT: 32px; MARGIN-BOTTOM: 10px"><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: normal">我司拟计划于201</span><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: normal">8</span><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: normal">年</span><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: normal">1</span><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: normal">月进行</span><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: normal">“印刷品承包</span><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: normal">”</span><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: normal">招标，决定面向社会实行公开招标，具体事项和要求如下：</span></p><p style="TEXT-ALIGN: left; LINE-HEIGHT: 18px; MARGIN-TOP: 10px; TEXT-INDENT: 32px; MARGIN-BOTTOM: 10px"><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: bold">一、</span><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: bold">招标项</span><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: bold">目：</span></p><p style="TEXT-ALIGN: left; LINE-HEIGHT: 18px; MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px"><span style="FONT-STYLE: normal; FONT-FAMILY: '宋体'; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: bold"><span style="FONT-FAMILY: 宋体">&nbsp;&nbsp;&nbsp; 印刷品承包项目招标</span></span></p><table width="655" uetable="null"><tbody><tr style="HEIGHT: 28px" class="firstRow"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: windowtext 1px solid; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">序号</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: windowtext 1px solid; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">名 &nbsp;称</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: windowtext 1px solid; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">规 &nbsp;格</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: windowtext 1px solid; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">纸 &nbsp;张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: windowtext 1px solid; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">数 &nbsp;量</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: windowtext 1px solid; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">色 &nbsp;次</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: windowtext 1px solid; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">价格</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: windowtext 1px solid; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"><p style="TEXT-ALIGN: left"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">备注</span></p></td></tr><tr style="HEIGHT: 42px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">1</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">名片</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: rgb(255,255,255) 43px; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">128K</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">250g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">铜版卡</span><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;240g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">荷兰白卡</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">2</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">盒</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">彩色</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">2</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">常用普通信封</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">120*230</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">80g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">牛皮纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">1000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">个</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">空白</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">3</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">100g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">牛皮纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">1000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">个</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">三色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">4</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">信纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">16K</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">60g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">双胶纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">250</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">本</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">单色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">5</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">便笺</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">32K</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">60 g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">双胶纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">300</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">本</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">单色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">6</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">暗格材料纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">16K</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">70g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">双胶纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">250</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">本</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">单色</span><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">&nbsp;</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">打暗格</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">7</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">文件红头</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">A4</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">80g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">双胶纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">500</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">单色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">8</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">1000~5000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">9</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">档案袋</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">　</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">120 g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">牛皮纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">500</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">个</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">专色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">10</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">技术档案资料袋（安全部用）</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">A4</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">120 g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">牛皮纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">500</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">个</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">单色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">11</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">纸杯</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">92mm</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">280g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">环保卡</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">30000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">个</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">三色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">12</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">材料明细帐页</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">A4</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">140g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">双胶</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">2000~5000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">正反二色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">13</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">凭证纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">270*142</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">140g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">双胶</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">5000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND: rgb(255,255,255); BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">　</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND: rgb(255,255,255); BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">14</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">新兴快报</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">8K</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">157g铜板</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">300份</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">正反四色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">15</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">电脑压感打印纸（印字）</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">241</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">无碳复写纸</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">5</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">箱</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">二色联单</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">16</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">5~10</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">箱</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">五色联单</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">17</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="12" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">各类表格 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;各类表格 &nbsp;&nbsp;&nbsp;</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">正</span><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">32K</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">70g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">双胶</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">500</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">单色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">18</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">1000-2000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">19</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="4" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">大</span><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">32K</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="3" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">70g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">双胶</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">500</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="4" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">单色</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">20</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">1000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">21</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">2000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张以上</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">22</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">230g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">白卡</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">2000</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="top" width="53"></td></tr><tr style="HEIGHT: 21px"><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: windowtext 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="64"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">23</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="72"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">A4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">（大</span><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">16K</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">）</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" rowspan="2" width="119"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">70g</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">双胶</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: rgb(255,255,255) 43px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-TOP: rgb(255,255,255) 43px; BORDER-RIGHT: windowtext 1px solid; PADDING-TOP: 0px" valign="center" width="87"><p style="TEXT-ALIGN: center"><span style="FONT-FAMILY: 黑体; FONT-SIZE: 13px">200-500</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 13px">张</span></p></td><td style="BORDER-BOTTOM: windowtext 1px solid; BORDER-LEFT: #ece9d8; PADDING-B</div>
+				</div>
+			</div>
+                   </td>
+	</tr>
+</table>
+</div>
+</td></tr></table>
+</form>
+<br>
+<script type="text/javascript">
+fvgonggao2view.Init();
+</script>
+<script type="text/javascript">
+
+// Write your table-specific startup script here
+// document.write("page loaded");
+
+</script>
+				<p>&nbsp;</p>			
+			<!-- right column (end) -->
+				    </td>
+            <td style="vertical-align:top;">
+                <div class="right-cont1" style="margin-top: 10px;height: 120px;border: solid 1px;border-color:#D4EEFF ">
+				<div class="right-title1">
+					<span><img src="../images/ak25.jpg"></span>
+					<span>栏目导航</span>
+				</div>
+				<ul class="right-cont2-a">
+					<li><a href="vgonggao1list.php">通知公告</a></li>
+                                        <li><a href="vgonggao2list.php">招标公告</a></li>
+                                        <li><a href="vtenderpublist.php">电子招标</a></li>
+                                        <li><a href="../gonggao1.php">返回首页</a></li>
+				</ul>
+			</div>
+            </td>
+		</tr>
+	</table>
+	<!-- content (end) -->
+	<!-- footer (begin) --><!-- *** Note: Only licensed users are allowed to remove or change the following copyright statement. *** -->
+	<div id="footer">
+	<table width="974" border="0"  bgcolor="#D4EEFF" >
+		<tr>
+			<td width="974"    height="30" align="center" ><font size="2" color="#000066">公司地址：湖北省黄石市新下陆169号(435005)</font></td>
+		</tr>
+		<tr>
+			<td width="974"    height="30" align="center"><font size="2" color="#000066">Copyright(c)2015 
+						Xinxing Ductile&nbsp; Iron Pipes Co.ltd All rights reserved&nbsp;&nbsp;&nbsp;冀ICP备05010695号</font></td>
+			</tr>    
+	</table>
+</div>
+	<!-- footer (end) -->	
+</div>
+<div class="yui-tt" id="ewTooltipDiv" style="visibility: hidden; border: 0px;"></div>
+<script type="text/javascript">
+ew_Select("table." + EW_TABLE_CLASSNAME, document, ew_SetupTable); // Init tables
+ew_Select("table." + EW_GRID_CLASSNAME, document, ew_SetupGrid); // Init grids
+ew_InitTooltipDiv(); // init tooltip div
+</script>
+<script type="text/javascript">
+
+// Write your global startup script here
+// document.write("page loaded");
+
+</script>
+</body>
+</html>

@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+
+</title>
+    <style>
+        .dropL {
+        line-height:22px;
+        height:22px;
+        border:1px solid #fff;
+        }
+        body,table,th,td,div,ul,li,dl,dt,dd,p,h1,h2,h3,h4,form,input,button{margin:0;padding:0}
+        body{
+	        font:14px/24px "微软雅黑";
+	        color:#0d203d;
+       }
+       img{border:0}
+       a{text-decoration:none;color:#0d203d; cursor:pointer}
+       .btn_img {
+        height:35px;
+        width:115px;
+        background-image:url(../template/default/images/r1_c3.jpg);
+        border:none;
+    }
+       .csscalss{ border:none;}
+        .inputtxt { height:22px; line-height:22px; width:40px; }
+    </style>
+</head>
+<body style="background-color:none; background-image:none;">
+    <form name="form1" method="post" action="./MoreListSqhb.aspx?CategoryNum=009001" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/TPFront/WebResource.axd?d=Cr6NY1haBII3CUWgTf-vRxkAVYzK1FJ6XORbJp5zHXYb1faJ2WnIXBUQYE-i4nGMszzp_Bd8NNpxf0uVdI32lDKWS0A1&amp;t=635793315765829480" type="text/javascript"></script>
+
+
+<script src="/TPFront/WebResource.axd?d=SNhGNua5bytowQD_ES8ruTO4SCXXbtwK-lJPxXcl8mOmp64T4XpO5IObsf1rP-ugdukaf6Id84UYZkzqgspHp55pLaY1&amp;t=635793315765829480" type="text/javascript"></script><script language="Javascript" type="text/javascript"><!--
+function ANP_checkInput(bid,mv){var el=document.getElementById(bid);var r=new RegExp("^\\s*(\\d+)\\s*$");
+if(r.test(el.value)){if(RegExp.$1<1||RegExp.$1>mv){alert("页索引超出范围！");el.focus();el.select();return false;}
+return true;}alert("页索引不是有效的数值！");el.focus();el.select();return false;}
+function ANP_keydown(e,btnId){
+var kcode;
+if(window.event){kcode=e.keyCode;}
+else if(e.which){kcode=e.which;}
+var validKey=(kcode==8||kcode==46||kcode==37||kcode==39||(kcode>=48&&kcode<=57)||(kcode>=96&&kcode<=105));
+if(!validKey){
+if(kcode==13) document.getElementById(btnId).click();
+if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
+}
+}
+--></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E4CE10A9" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABSWta69VeBKfZhoIIjmCn9hj3T8lnqzMQcTcMmoZA8obpR6TJ/ki79+mehBZKyNhUSM4uHRbE6kTKr45wyZi+wVg8I/g/hqfq7edYORJIs1oAxMxPihpC9su3814tI+b4Iznfg5nhHb0ncBLECUwKZ/R9JdkdnaIObt3DKdFQuPyxYCOEIrP2+S5xYTC4wbjBlCxVtZCdQRKWeh2Dawb9INrGcEgAN9AHWByinZbJMLKh2JHWq9AaV8CC9jXkw59BTrOxRfhXiJTIMi50fsLJtqdtQqtxocObvsdCiCSh8SDB9bBfh/N7Vn9lEQ8TyGHBWlTHPQIcp/9VcKojjpVNG0kaJLzeA6pDl0i2jAuGgk0tDucC9v2lOagQC05WITa5Ign+1MfHCt3gweNQE6i/lNzfg78Z8BXhXifTCAVkevd9Yrtq0Ju2YTeNeRm4ig1I6/vFMm" />
+</div>
+    <div style="width:740px;">
+        <table id="moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr style="display: none;">
+		<td id="tdTitle" valign="top" height="22">
+            <span id="lblcategory"></span>
+        </td>
+	</tr>
+	<tr>
+		<td style="line-height:30px; height:30px; background-color:#f7e3e2;">
+           <table>
+               <tr>
+                   <td>
+                       <select name="DropDownListType" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;DropDownListType\&#39;,\&#39;\&#39;)&#39;, 0)" id="DropDownListType" class="dropL" style="height:32px;width:180px;">
+			<option selected="selected" value="业务发布">业务发布</option>
+			<option value="网站发布">网站发布</option>
+
+		</select>
+                   </td>
+                   <td>
+                       <select name="DropDownList1" id="DropDownList1" class="dropL" style="height:32px;width:180px;">
+			<option selected="selected" value="不限">不限</option>
+			<option value="150601">市辖区</option>
+			<option value="150626">乌审旗</option>
+			<option value="150602">东胜区</option>
+			<option value="150625">杭锦旗</option>
+			<option value="150622">准格尔旗</option>
+			<option value="150621">达拉特旗</option>
+			<option value="150624">鄂托克旗</option>
+			<option value="150627">伊金霍洛旗</option>
+			<option value="150623">鄂托克前旗</option>
+			<option value="150603">康把什新区</option>
+
+		</select>
+                   </td>
+                   <td style="width:180px" align="right" colspan="2">
+                        <input name="ProjectName" type="text" id="ProjectName" size="12" placeholder="请输入招标项目名称" style="width:280px; line-height:30px; height:30px;" />
+                   </td>
+               </tr>
+                <tr>
+                   <td>
+                       <input name="ProjectNo" type="text" id="ProjectNo" size="12" placeholder="请输入招标项目编号" style="width:160px; line-height:30px; height:30px;" />
+                   </td>
+                   <td style="width:180px" align="left">
+                        <input name="BiaoDuanName" type="text" id="BiaoDuanName" size="12" placeholder="请输入标段(包)名称" style="width:160px; line-height:30px; height:30px;" />
+                   </td>
+                   <td style="width:180px" align="left">
+                       <input name="BiaoDuanNo" type="text" id="BiaoDuanNo" size="12" placeholder="请输入标段(包)编号" style="width:160px; line-height:30px; height:30px;" />
+                   </td>
+                   <td>
+                       <input type="submit" name="Button1" value="" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="Button1" class="btn_img" />
+                   </td>
+               </tr>
+               <tr>
+                   <td colspan="4">
+                       <span id="RegularExpressionValidator1" style="color:Red;visibility:hidden;">您的输入含特殊字符！</span> &nbsp;
+                       <span id="RegularExpressionValidator2" style="color:Red;visibility:hidden;">您的输入含特殊字符！</span> &nbsp;
+                       <span id="RegularExpressionValidator3" style="color:Red;visibility:hidden;">您的输入含特殊字符！</span> &nbsp;
+                       <span id="RegularExpressionValidator4" style="color:Red;visibility:hidden;">您的输入含特殊字符！</span>
+                   </td>
+               </tr>
+           </table>
+       </td>
+	</tr>
+	<tr>
+		<td id="tdcontent" valign="top" height="100%">
+            <table cellspacing="0" align="Center" rules="all" border="0" id="DataGrid1" style="border-width:0px;width:100%;border-collapse:collapse;">
+			<tr class="csscalss" valign="top" style="height:27px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[鄂托克旗]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=f9658ca0-36f8-48a1-a32d-332efb888ad3&CategoryNum=009001" target="_blank" title="国家水土保持重点工程（2017年度）鄂托克旗布日都生态清洁小流域水土保持综合治理工程施工一标段、施工二标段、施工三标段招标公告">国家水土保持重点工程（2017年度）鄂托克旗布日都生态清洁小流...</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-09
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[东胜区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=fc4f1e83-ab12-44d6-8785-b9bc55c2ea11&CategoryNum=009001" target="_blank" title="京津风沙源治理二期工程鄂尔多斯市东胜区水利水保项目（2017年度）施工二标段招标公告">京津风沙源治理二期工程鄂尔多斯市东胜区水利水保项目（2017年...</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-09
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:27px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[东胜区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=dbc4ae2b-81ce-43a7-96d0-58ff05d5ca4b&CategoryNum=009001" target="_blank" title="京津风沙源治理二期工程鄂尔多斯市东胜区水利水保项目（2017年度）施工一标段招标公告">京津风沙源治理二期工程鄂尔多斯市东胜区水利水保项目（2017年...</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-09
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[市辖区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=31b36185-17aa-4258-b708-7dc10048ea6b&CategoryNum=009001" target="_blank" title="测试更新（请勿报名）元/m、元/km招标公告">测试更新（请勿报名）元/m、元/km招标公告</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-08
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:27px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[达拉特旗]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=b8ca66d7-7334-4e2f-b0b4-5ce47526ea6a&CategoryNum=009001" target="_blank" title="恩格贝镇蒲圪卜移民新村0.4KV低压配电工程设计施工总承包标段招标公告">恩格贝镇蒲圪卜移民新村0.4KV低压配电工程设计施工总承包标段...</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-08
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[市辖区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=31d6853f-6841-4481-8bd6-6c0c2cc6988c&CategoryNum=009001" target="_blank" title="测试全流程（请勿报名）测试一标段招标公告">测试全流程（请勿报名）测试一标段招标公告</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-07
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:27px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[市辖区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=fa4fe50f-a833-4362-8c21-2f92d32baeda&CategoryNum=009001" target="_blank" title="测试更新（请勿报名）测试标段（请勿报名）招标公告">测试更新（请勿报名）测试标段（请勿报名）招标公告</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-07
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[市辖区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=d0cdc5b5-a90d-417f-92be-3ddb76d3530e&CategoryNum=009001" target="_blank" title="测试解密机测试仪表到招标公告">测试解密机测试仪表到招标公告</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-07
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:27px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[市辖区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=3c2c4c7a-c280-40fa-9575-d8b04a03773e&CategoryNum=009001" target="_blank" title="测试解密机（请勿报名）解密标段一（测试）招标公告">测试解密机（请勿报名）解密标段一（测试）招标公告</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-07
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[市辖区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=0892ecca-b05c-4428-a55b-63131d58e4cf&CategoryNum=009001" target="_blank" title="鄂尔多斯市水土保持返还治理精品工程伊金霍洛旗江苏工业园区绿化项目施工标段招标公告">鄂尔多斯市水土保持返还治理精品工程伊金霍洛旗江苏工业园区绿...</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-07
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:27px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[准格尔旗]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=fb7c51f7-cae6-4c38-84ed-f423de33a965&CategoryNum=009001" target="_blank" title="国家农业综合开发2017年准格尔旗裕润合作社实施高标准农田建设项目施工标段招标公告">国家农业综合开发2017年准格尔旗裕润合作社实施高标准农田建设...</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-06
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[市辖区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=31121509-f762-4dad-a10c-b700533f9378&CategoryNum=009001" target="_blank" title="康巴什新区污水处理厂提标改造一期工程缺氧池等建设项目设备采购与安装标段招标公告(二次)">康巴什新区污水处理厂提标改造一期工程缺氧池等建设项目设备采...</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-02
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:27px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[杭锦旗]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=28414912-a544-4eb1-b2a0-ff15491bf48d&CategoryNum=009001" target="_blank" title="杭锦旗农业综合开发现代农业园区试点项目2017年度高标准农田建设项目施工一标段招标公告">杭锦旗农业综合开发现代农业园区试点项目2017年度高标准农田建...</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-02
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[杭锦旗]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=481a6bb6-cc59-46a3-bda7-95787b827333&CategoryNum=009001" target="_blank" title="2017年杭锦旗9项安全生命防护工程设计标段招标公告">2017年杭锦旗9项安全生命防护工程设计标段招标公告</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-01
+                        </td>
+			</tr><tr class="csscalss" valign="top" style="height:27px;">
+				<td align="center" valign="middle" style="border-style:None;width:20px;">
+                            <img src="/TPFront/images/dots/dot1.gif">
+                        </td><td align="center" valign="middle" style="border-style:None;width:91px;">
+                            <font color=#808080>[报名结束]</font>
+                        </td><td align="left" valign="middle" style="border-style:None;">
+                            <span style="color:blue">[市辖区]</span><a href="/TPFront/InfoDetail/Default.aspx?InfoID=24c174ce-523e-4db7-aefa-8cad09b410b0&CategoryNum=009001" target="_blank" title="准格尔旗薛家湾第十一小学建设项目监理标段招标公告">准格尔旗薛家湾第十一小学建设项目监理标段招标公告</a>
+                        </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                            2017-11-01
+                        </td>
+			</tr>
+		</table>
+        </td>
+	</tr>
+	<tr>
+		<td height="8">
+        </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+        </td>
+	</tr>
+	<tr>
+		<td align="right" height="25" valign="top">
+           
+		<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+		<div id="Pager" InputBoxClass="inputtxt">
+<div align="left" style="width:40%;float:left;">
+	记录总数：<font color="blue"><b>3920</b></font> 总页数：<font color="blue"><b>262</b></font> 当前页：<font color="red"><b>2</b></font>
+</div><div align="left" style="width:60%;float:left;">
+	<a href="javascript:__doPostBack('Pager','1')" style="margin-right:5px;"><img src="/TPFront/Images/page/firstn.gif" border="0" /></a><a href="javascript:__doPostBack('Pager','1')" style="margin-right:5px;"><img src="/TPFront/Images/page/prevn.gif" border="0" /></a><a href="javascript:__doPostBack('Pager','1')" style="margin-right:5px;"><img src="/TPFront/Images/page/1n.gif" border="0" /></a><span style="margin-right:5px;"><img src="/TPFront/Images/page/2r.gif" border="0" /></span><a href="javascript:__doPostBack('Pager','3')" style="margin-right:5px;"><img src="/TPFront/Images/page/3n.gif" border="0" /></a><a href="javascript:__doPostBack('Pager','4')" style="margin-right:5px;"><img src="/TPFront/Images/page/4n.gif" border="0" /></a><a href="javascript:__doPostBack('Pager','5')" style="margin-right:5px;"><img src="/TPFront/Images/page/5n.gif" border="0" /></a><a href="javascript:__doPostBack('Pager','6')" style="margin-right:5px;"><img src="/TPFront/Images/page/moren.gif" border="0" /></a><a href="javascript:__doPostBack('Pager','3')" style="margin-right:5px;"><img src="/TPFront/Images/page/nextn.gif" border="0" /></a><a href="javascript:__doPostBack('Pager','262')" style="margin-right:5px;"><img src="/TPFront/Images/page/lastn.gif" border="0" /></a>&nbsp;&nbsp;<input type="text" value="2" name="Pager_input" id="Pager_input" onkeydown="ANP_keydown(event,&#39;Pager_btn&#39;);" style="width:30px;" /><input type="submit" value="go" name="Pager" id="Pager_btn" class="backendbtn22" onclick="if(ANP_checkInput(&#39;Pager_input&#39;,262)){__doPostBack(&#39;Pager&#39;,&#39;&#39;)} else{return false}" />
+</div>
+</div>
+<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+
+
+        </td>
+</tr>
+<tr>
+	<td class="Xline2" height="3">
+        </td>
+</tr>
+</table>
+
+
+        
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("RegularExpressionValidator1"), document.getElementById("RegularExpressionValidator2"), document.getElementById("RegularExpressionValidator3"), document.getElementById("RegularExpressionValidator4"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var RegularExpressionValidator1 = document.all ? document.all["RegularExpressionValidator1"] : document.getElementById("RegularExpressionValidator1");
+RegularExpressionValidator1.controltovalidate = "ProjectName";
+RegularExpressionValidator1.errormessage = "您的输入含特殊字符！";
+RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator1.validationexpression = "[^%&\'\',;=?$*<>]+";
+var RegularExpressionValidator2 = document.all ? document.all["RegularExpressionValidator2"] : document.getElementById("RegularExpressionValidator2");
+RegularExpressionValidator2.controltovalidate = "ProjectNo";
+RegularExpressionValidator2.errormessage = "您的输入含特殊字符！";
+RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator2.validationexpression = "[^%&\'\',;=?$*<>]+";
+var RegularExpressionValidator3 = document.all ? document.all["RegularExpressionValidator3"] : document.getElementById("RegularExpressionValidator3");
+RegularExpressionValidator3.controltovalidate = "BiaoDuanName";
+RegularExpressionValidator3.errormessage = "您的输入含特殊字符！";
+RegularExpressionValidator3.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator3.validationexpression = "[^%&\'\',;=?$*<>]+";
+var RegularExpressionValidator4 = document.all ? document.all["RegularExpressionValidator4"] : document.getElementById("RegularExpressionValidator4");
+RegularExpressionValidator4.controltovalidate = "BiaoDuanNo";
+RegularExpressionValidator4.errormessage = "您的输入含特殊字符！";
+RegularExpressionValidator4.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator4.validationexpression = "[^%&\'\',;=?$*<>]+";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+</body>
+</html>

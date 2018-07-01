@@ -1,0 +1,483 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>招标公告_甘肃经济信息网欢迎您！</title>
+<meta name="keywords" content="政府方案" />
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="http://www.gsei.com.cn/skin/gansu01/cms/../core/common.css" />
+<link rel="stylesheet" type="text/css" href="http://www.gsei.com.cn/skin/gansu01/cms/../core/head_foot/style.css" />
+<link rel="stylesheet" type="text/css" href="http://www.gsei.com.cn/skin/label/label.css" />
+<link rel="Shortcut Icon" href="favicon.ico">
+<script type="text/javascript" src="http://www.gsei.com.cn/js/config.js"></script>
+<script type="text/javascript" src="http://www.gsei.com.cn/js/util.js"></script>
+<script type="text/javascript" src="http://www.gsei.com.cn/js/lang/core/zh-cn.js"></script>
+<script type="text/javascript" src="http://www.gsei.com.cn/js/lang/cms/zh-cn.js"></script>
+<script type="text/javascript">
+P8CONFIG.RESOURCE = 'http://www.gsei.com.cn';
+var SYSTEM = 'cms',
+MODULE = 'item',
+ACTION = 'list',
+LABEL_URL = 'http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-1.shtml?',
+$this_router = P8CONFIG.URI[SYSTEM][MODULE].controller,
+$this_url = $this_router +'-'+ ACTION,
+SKIN = 'http://www.gsei.com.cn/skin/gansu01/cms/',
+TEMPLATE = 'gansu01';
+mobile_status= '1',
+mobile_auto_jump='1',
+mobile_url = 'http://www.gsei.com.cn/m';
+if(mobile_status=='1'){
+if(browser.versions.android || browser.versions.iPhone || browser.versions.iPad){
+if(mobile_auto_jump=='1' && mobile_url!=P8CONFIG.RESOURCE){
+var this_url = location.href;
+if(this_url.indexOf(mobile_url)==-1 && this_url.indexOf('s.php')==-1 && this_url.indexOf('u.php')==-1 && this_url.indexOf('admin.php')==-1){
+this_url = this_url.replace(P8CONFIG.RESOURCE, mobile_url);
+location.href = this_url;
+}
+}
+}
+}document.domain = 'gsei.com.cn';document.base_domain = 'gsei.com.cn';
+</script>
+</head>
+<body class="index">
+<div class="head_bg"><style style="text/css">
+#play_8666 { width:100%px;position: relative;z-index: -2;margin:0 auto;}
+#play_8666 .clearfix li {display: none;position: absolute;overflow: hidden;width:100%px;	height:612px;}
+#play_8666 .clearfix li img {margin: auto; width:100%px;	height:612px;overflow: hidden;}
+#play_8666 .jsNav { position:absolute;right:700px;bottom:240px;z-index:999;display:none;}
+#play_8666 .jsNav li { background-color:#b8eff4;cursor:pointer;display: inline-block;float: left;    height: 10px;    line-height: 0;    margin-left: 5px;    text-indent: -9999px;    width: 40px;   z-index: 999; }
+#play_8666 .jsNav li.over { background-color:#FFF; z-index: 999;}
+</style>
+<div id="play_8666">
+<ul class="clearfix">
+<li><a href=""><img src="http://www.gsei.com.cn/attachment/core/label/2016_04/05_10/d3d0fc55e453b2ea.jpg" width="100%" height="612"></a></li>
+<li><a href=""><img src="http://www.gsei.com.cn/attachment/core/label/2016_04/05_10/9c99031e57daa7ed.jpg" width="100%" height="612"></a></li>
+<li><a href=""><img src="http://www.gsei.com.cn/attachment/core/label/2016_04/05_10/ce0ed8a7df8344f5.jpg" width="100%" height="612"></a></li>
+</ul>
+<ul class="jsNav" id="jsNav_8666">
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ul>
+</div>
+<script type="text/javascript">
+(function () {
+var num = $("#jsNav_8666 li").length;
+$("#play_8666 ul li:first").css("display", "block");
+$("#jsNav_8666 li:first").addClass("over");
+var curr = 0;
+$("#jsNav_8666 li").each(function (i) {
+$(this).click(function () {
+curr = i;
+$("#play_8666 ul li").eq(i).css("z-index", "10").siblings("li").css("z-index", "1");
+$("#play_8666 ul li").eq(i).fadeIn(1500).siblings("li").fadeOut(1500);
+$(this).siblings("li").removeClass("over").end().addClass("over");
+return false;
+});
+});
+//自动翻
+var timer = setInterval(function () {
+todo = (curr + 1) % num;
+$("#jsNav_8666 li").eq(todo).click();
+}, 9000);
+
+//鼠标悬停在触发器上时停止自动翻
+$("#jsNav_8666 li").hover(
+function () {
+clearInterval(timer);
+},
+function () {
+timer = setInterval(function () {
+todo = (curr + 1) % num;
+$("#jsNav_8666 li").eq(todo).click();
+}, 5000);
+}
+);
+})();
+</script></div>
+<div id="header">
+<div class="topBar">
+<div class="topLink">
+<a href="http://www.gsdrc.gov.cn/">甘肃省发展和改革委员</a>|<a href=" http://www.gsei.com.cn/informationcenter/aboutcenter.htm">甘肃省信息中心</a>|<a href="http://www.cei.gov.cn/">中经网</a>|<a href=" http://www.gsei.com.cn/cei/index.htm">中经网全国站点</a>
+</div>
+<span id="header_login" style="float:left;display: inline;margin-left:5px;"><script type="text/javascript" src="http://www.gsei.com.cn/u.php/core/member-login?style=com&id=header_login"></script></span>
+<div class="topClik" id="header_t">
+<script type="text/javascript" src="KS_Inc/language.js"></script> |<a href="http://jn.gsei.com.cn/">旧版</a>|<a href="#">手机版</a>
+</div>
+</div>
+<div class="banner">
+<div class="logo"><a href="http://www.gsei.com.cn/index.php/cms"><img src = "http://www.gsei.com.cn/skin/gansu01/core/logo.png" /></a></div>
+<div class="search_form">
+<form action="http://www.gsei.com.cn/index.php/cms/item-search" target="_blank" method="get" name="form1" id="form1">
+<input type="text" class="keyword" id="keyword" name="keyword" onfocus="this.value='';this.style.color='#333';" value="请输入搜索关键字">
+<input type="submit" class="submitbtn" value="" id="button" name="button">
+</form>
+</div>
+</div>
+<div class="linkNav">
+<ul>
+
+
+
+
+<li class="home"><h3><a href="http://www.gsei.com.cn/index.php">首页</a></h3></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1262.shtml" >甘肃省情</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1372.shtml" >信用甘肃</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1263.shtml">新闻中心</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1268.shtml">绿色发展</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1270.shtml">精准扶贫</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1273.shtml">甘肃招标</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1264.shtml">监测预测</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1274.shtml">甘肃人才</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1265.shtml">经济数据</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1275.shtml">文件汇编</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1267.shtml">发展规划</a><a href="http://www.gsinvest.gov.cn/index.php?m=item&c=index&a=index&siteid=2" target="_blank">招商引资</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1266.shtml">农产品市场</a><a href="http://www.gsjr.gov.cn/" target="_blank">甘肃金融</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1271.shtml">大数据</a><a href="http://www.gsqlw.org/ " target="_blank">甘肃侨务</a></li>
+<li class="last"><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1269.shtml">法律法规</a><a href="http://www.gsgs.gov.cn/" target="_blank">服务大厅</a></li>
+
+
+
+
+
+
+</ul>
+</div>
+<div class="addInfo">
+<div id="datehtml">今天是：
+<script language=JavaScript>        
+today=new Date();
+function initArray(){
+this.length=initArray.arguments.length
+for(var i=0;i<this.length;i++)
+this[i+1]=initArray.arguments[i] }
+document.write(
+today.getFullYear(),"年",
+today.getMonth()+1,"月",
+today.getDate(),"日   ");
+</script>
+</div>
+<div id="weather">
+<iframe width="385" scrolling="no" height="20" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&amp;id=40&amp;icon=1&amp;num=1" style="385"></iframe>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+//**show_edit**//					   
+init_labelshows('header_t');
+})
+</script>
+<div class="clear"></div>
+<div class="container"> <!--中间内容部分-->
+<link rel="stylesheet" type="text/css" href="http://www.gsei.com.cn/skin/gansu01/cms/style.css" />
+<div class="nav mtop">您的位置：
+<a href="http://www.gsei.com.cn/index.php">首页</a>
+&gt;&gt; <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1273.shtml">甘肃招标</a>
+&gt;&gt; <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336.shtml">招标公告</a> 
+</div>
+<div>
+<div class="dt_left">
+<div class="border1">
+<div class="head5">
+<span class="title6">招标公告</span>
+<span class="more4">
+</span>
+</div>
+<div class="main"><ul class="label_ul_b">
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152807.html" target="_blank" title="甘肃华夏有爱健康医疗管理有限公司一期医疗设备采购项目招标公告">甘肃华夏有爱健康医疗管理有限公司一期医疗设备采购项目招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152806.html" target="_blank" title="兰州电机股份有限公司入园新区搬迁项目“数控卧式车床采购及安装”招标公告（第二次）">兰州电机股份有限公司入园新区搬迁项目“数控卧式车床采购及安装”招标公告（第二次）</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152805.html" target="_blank" title="兰州电机股份有限公司入园新区搬迁项目“摇臂钻床设备采购及安装”招标公告（第二次）">兰州电机股份有限公司入园新区搬迁项目“摇臂钻床设备采购及安装”招标公告（第二次）</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152804.html" target="_blank" title="兰州国际港务区山前路项目占用林地可研编制招标公告">兰州国际港务区山前路项目占用林地可研编制招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152803.html" target="_blank" title="兰州电机股份有限公司入园新区搬迁项目“卧式车床设备采购及安装”招标公告（第二次）">兰州电机股份有限公司入园新区搬迁项目“卧式车床设备采购及安装”招标公告（第二次）</a>
+</li>
+<li class="label_dashed"></li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152802.html" target="_blank" title="天水市秦州区秦岭乡石家河淤地坝工程">天水市秦州区秦岭乡石家河淤地坝工程</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152801.html" target="_blank" title="兰州中川国际机场综合交通枢纽自助值机设备采购招标公告">兰州中川国际机场综合交通枢纽自助值机设备采购招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152800.html" target="_blank" title="陇南成州民用机场工程航站楼民航专业工程招标公告">陇南成州民用机场工程航站楼民航专业工程招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152799.html" target="_blank" title="兰州电机股份有限公司入园新区搬迁项目“升降台铣床采购及安装”招标公告（第二次）">兰州电机股份有限公司入园新区搬迁项目“升降台铣床采购及安装”招标公告（第二次）</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152798.html" target="_blank" title="兰州国际港务区物流信息中心（陆港联检中心）“安全评价”二次招标公告">兰州国际港务区物流信息中心（陆港联检中心）“安全评价”二次招标公告</a>
+</li>
+<li class="label_dashed"></li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152772.html" target="_blank" title="甘肃中电酒泉风力发电有限公司1-5期项目检修维护外委工程项目">甘肃中电酒泉风力发电有限公司1-5期项目检修维护外委工程项目</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152756.html" target="_blank" title="甘南藏族自治州引洮（博）济合供水工程变更环境影响报告及调蓄水库工程安全监测设备采购">甘南藏族自治州引洮（博）济合供水工程变更环境影响报告及调蓄水库工程安全监测设备采购</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152754.html" target="_blank" title="甘南藏族自治州引洮（博）济合供水工程变更环境影响报告及调蓄水库工程安全监测设备采购与安装工程招标公告">甘南藏族自治州引洮（博）济合供水工程变更环境影响报告及调蓄水库工程安全监测设备采购与安装工</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152747.html" target="_blank" title="甘南藏族自治州引洮（博）济合供水工程变更环境影响报告及调蓄水库工程安全监测设备采购与安装工程招标公告">甘南藏族自治州引洮（博）济合供水工程变更环境影响报告及调蓄水库工程安全监测设备采购与安装工</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152742.html" target="_blank" title="华池县南部新区地下停车场出口边坡治理工程设计招标公告">华池县南部新区地下停车场出口边坡治理工程设计招标公告</a>
+</li>
+<li class="label_dashed"></li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152739.html" target="_blank" title="甘肃省临夏回族自治州引黄济临供水工程水土保持监测项目再次招标公告">甘肃省临夏回族自治州引黄济临供水工程水土保持监测项目再次招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152731.html" target="_blank" title="庆城县蔡家庙乡高庙村李家南庄易地扶贫搬迁安置点道路硬化工程">庆城县蔡家庙乡高庙村李家南庄易地扶贫搬迁安置点道路硬化工程</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152729.html" target="_blank" title="庆城县马岭镇黄崾岘村组油路改建工程">庆城县马岭镇黄崾岘村组油路改建工程</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152724.html" target="_blank" title="庆城县蔡家庙乡辛龙口村易地扶贫搬迁安置点道路硬化工程">庆城县蔡家庙乡辛龙口村易地扶贫搬迁安置点道路硬化工程</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152722.html" target="_blank" title="兰州中心项目正式用电10KV开闭站电源线路（二期）工程（七里河变电站至兰州中心10KV开闭所进线电源）招标公告">兰州中心项目正式用电10KV开闭站电源线路（二期）工程（七里河变电站至兰州中心10KV开闭所进线电</a>
+</li>
+<li class="label_dashed"></li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152721.html" target="_blank" title="临夏县北塬移民蔬菜园区道路及停车场绿化景观工程招标公告">临夏县北塬移民蔬菜园区道路及停车场绿化景观工程招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152809.html" target="_blank" title="酒泉市公安消防支队消防车车库门采购及安装项目询价采购公告">酒泉市公安消防支队消防车车库门采购及安装项目询价采购公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-30]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152808.html" target="_blank" title="酒泉市公安消防支队锅炉及附属设备采购及安装项目询价采购公告">酒泉市公安消防支队锅炉及附属设备采购及安装项目询价采购公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-29]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-29/content-152702.html" target="_blank" title="景泰县农村生态供水工程建设项目招标公告">景泰县农村生态供水工程建设项目招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-29]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-29/content-152701.html" target="_blank" title="靖远县乌兰镇2016年第二批财政专项扶贫项目招标公告">靖远县乌兰镇2016年第二批财政专项扶贫项目招标公告</a>
+</li>
+<li class="label_dashed"></li>
+<li style=";">
+<span class="label_datatime">[2016-12-29]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-29/content-152700.html" target="_blank" title="靖远县东湾镇2016年第二批财政专项扶贫项目招标公告">靖远县东湾镇2016年第二批财政专项扶贫项目招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-29]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-29/content-152699.html" target="_blank" title="靖远县高湾镇2016年第二批财政专项扶贫项目招标公告">靖远县高湾镇2016年第二批财政专项扶贫项目招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-29]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-29/content-152698.html" target="_blank" title="舟曲县公安消防大队晾衣房建设工程招标公告">舟曲县公安消防大队晾衣房建设工程招标公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-29]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-29/content-152696.html" target="_blank" title="兰州电机股份有限公司入园新区搬迁项目“餐厅设备设施采购及安装”变更公告">兰州电机股份有限公司入园新区搬迁项目“餐厅设备设施采购及安装”变更公告</a>
+</li>
+<li style=";">
+<span class="label_datatime">[2016-12-29]</span>·<a href="http://www.gsei.com.cn/html/1336/2016-12-29/content-152695.html" target="_blank" title="兰州电机股份有限公司入园新区搬迁项目“数控动平衡机设备采购及安装”招标公告">兰州电机股份有限公司入园新区搬迁项目“数控动平衡机设备采购及安装”招标公告</a>
+</li>
+<li class="label_dashed"></li>
+<li class="clear"></li>
+</ul>
+<div class="mtop pages" id="page">10005条 
+1/334页
+<span class="s1 s3">首页</span>
+<span class="s1 s3">&lt;&lt;</span>
+<span class="s1 s3">上一页</span>
+ <a href="###" class="s2">1</a>  <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-2.shtml">2</a>  <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-3.shtml">3</a>  <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-4.shtml">4</a>  <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-5.shtml">5</a>  <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-6.shtml">6</a>  <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-7.shtml">7</a>  <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-8.shtml">8</a>  <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-9.shtml">9</a>  <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-10.shtml">10</a> 
+<a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-2.shtml">下一页</a>
+<a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-11.shtml">&gt;&gt;</a>
+<a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336-page-334.shtml">末页</a>
+<script type="text/javascript">var __page39 = {url:'http://www.gsei.com.cn/index.php/cms/item-list-category-1336#-page-?page?#.shtml',pages:334};</script><input type="text" value="1" id="p__page39" size="4" onkeyup="var p=this.value.replace(/[^0-9]/g,'');if(p!=''){p=Math.max(p,1);p=Math.min(p,__page39.pages);}this.value=p;" onkeydown="if(event.keyCode==13){var p=this.value;p=Math.min(p,__page39.pages);p=Math.max(1,p);if(p == 1)return;if(p==1){__page39.url=__page39.url.replace(/#([^#]+)#/, '');}else{__page39.url=__page39.url.replace(/#([^#]+)#/, '$1');}if(pos=__page39.url.indexOf('javascript:')!=-1){eval(__page39.url.substr(pos).replace('?page?',p));}else{window.location.href=__page39.url.replace('?page?',p);}return false;}" /></div>
+</div>
+</div>	
+</div>
+<div class="dt_right">
+<div class="mbottom"><style type="text/css">
+#jsNav_8646 {
+position: relative;width:400px;	height:314px;    overflow: hidden;	
+}
+#jsNav_8646 .imageshow li {
+position:absolute;
+top:0px;
+left:0px;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+-moz-opacity:0;
+filter:alpha(opacity=0);
+opacity:0;
+}
+#jsNav_8646 .imageshow li img{
+width:400px;	height:314px; 
+}
+#jsNav_8646 .btnimage {
+position:absolute;
+display:block;
+bottom:10px;
+right:40px;
+z-index:3;
+height:20px;
+}
+
+#jsNav_8646 .btnimage li {
+cursor:pointer;
+float:left;
+margin:3px;
+width:14px;
+height:11px;
+background-image:url(http://www.gsei.com.cn/skin/label/li.png);
+}
+#jsNav_8646 .btnimage .over {
+background-image:url(http://www.gsei.com.cn/skin/label/li_on.png);
+}
+</style>
+<div id="jsNav_8646">
+<ul class="imageshow">
+<li><a href="http://www.gsei.com.cn/html/1606/2016-05-23/content-66786.html" target="_blank"><img src="http://www.gsei.com.cn/attachment/cms/item/2016_05/24_08/1dc689a34ceeee7b.jpg" width="400" height="314" alt="省经济研究院（省信息中心） 2016年公开招聘博士研究生工作公告"></a></li> 
+</ul>
+
+<ul class="btnimage">
+<li></li>
+</ul>
+</div>
+<script type="text/javascript">
+(function () {
+var num = $("#jsNav_8646 .imageshow li").length,
+now = 0;
+$("#jsNav_8646 .imageshow li:first").css({"z-index":"2","opacity":"1"});
+$("#jsNav_8646 .btnimage li:first").addClass("over");
+
+function next() {
+now = (++now) % num;
+return now;
+}
+function callback() {
+$("#jsNav_8646 .btnimage").find('li').removeClass('over');
+$("#jsNav_8646 .imageshow").find('li').css('z-index', '1');
+$("#jsNav_8646 .btnimage").find('li:eq(' + now + ')').addClass('over');
+$("#jsNav_8646 .imageshow").find('li:eq(' + now + ')').css('z-index', '2');
+};
+
+function animagea() {
+$("#jsNav_8646 .imageshow").find('li:eq(' + now + ')').animate({opacity : 0}, 1500);
+$("#jsNav_8646 .imageshow").find('li:eq(' + next() + ')').animate({	opacity : 1	}, 1500, callback);
+}
+var timer =  setInterval(animagea, 5000);
+
+$("#jsNav_8646 .btnimage li").hover(
+function(){
+clearInterval(timer);
+$("#jsNav_8646 .btnimage").find('li').removeClass('over');
+$(this).addClass('over');
+$("#jsNav_8646 .imageshow").find('li:eq(' + now + ')').animate({opacity : 0,'z-index':1}, 500);
+now = $("#jsNav_8646 .btnimage li").index($(this)); 
+$("#jsNav_8646 .imageshow").find('li:eq(' + now + ')').animate({	opacity : 1,'z-index':2	}, 500);
+
+},										  
+function(){
+timer =  setInterval(animagea, 5000);
+}										  
+);
+})();
+</script></div>
+<div class="border1 mtop6">
+<div class="head6">
+<span class="title7">相关信息</span> <span class="more2"><a href="#">MORE</a></span>
+</div>
+<div class="main1">
+<ul class="sidelist17" style="font-size:14px;color:#5c5c5c;">
+<li style=";">
+<a href="http://china.chinadaily.com.cn/2016-12/28/content_27798566.htm" target="_blank" title="全面深化改革三年来 厚植百姓获得感 ">全面深化改革三年来 厚植百姓获得感 </a>
+</li>
+<li style=";">
+<a href="http://news.xinhuanet.com/politics/2016-12/30/c_129426305.htm" target="_blank" title="2016深改组11次会，这11段话不可小觑">2016深改组11次会，这11段话不可小觑</a>
+</li>
+<li style=";">
+<a href="http://app.cntv.cn/special/news/detail/arti/index.html?id=ARTIbUVgpziryr3hqEhclyUk161229&amp;fromapp" target="_blank" title="视频|【2016中国策】“变”与“治” 国家治理走向现代化">视频|【2016中国策】“变”与“治” 国家治</a>
+</li>
+<li style=";">
+<a href="http://news.xinhuanet.com/fortune/2016-12/29/c_1120216374.htm?from=timeline&amp;isappinstalled=0&amp" target="_blank" title="为企业减负 为经济蓄能——财政部部长肖捷回应营改增热点问题">为企业减负 为经济蓄能——财政部部长肖捷回</a>
+</li>
+<li style=";">
+<a href="http://news.china.com.cn/txt/2016-12/29/content_40004560.htm" target="_blank" title="六中全会解读：发扬党内民主 走好全面从严治党新长征">六中全会解读：发扬党内民主 走好全面从严治</a>
+</li>
+<li class="clear"></li>
+</ul>
+</div>
+</div>
+<div class="border1 mtop6">
+<div class="head6">
+<span class="title7">推荐图文</span> <span class="more2"><a href="#">MORE</a></span>
+</div>
+<div class="main1">
+<ul class="label_pic_ul label_pic_border">
+<li>
+<a href="http://www.gsei.com.cn/html/1328/2016-12-29/content-152680.html" target="_blank" title="创业创新， 搭乘“互联网+”快车步入&quot;新天地&quot;"><img width="104" alt="创业创新， 搭乘“互联网+”快车步入&quot;新天地&quot;" height="76" onError="this.src='http://www.gsei.com.cn/images/nopic.jpg'" src="http://news.xinhuanet.com/info/2016-12/27/135934791_14827987604271n.jpg" /></a>
+<p class="label_pic_title" style="width:110px"><a href="http://www.gsei.com.cn/html/1328/2016-12-29/content-152680.html" target="_blank" title="创业创新， 搭乘“互联网+”快车步入&quot;新天地&quot;">创业创新， 搭乘“互联网+”快车步入&quot;新天地&quot;</a></p>
+</li>
+<li>
+<a href="http://www.gsei.com.cn/html/1328/2016-12-29/content-152657.html" target="_blank" title="交通部谈降低物流成本：畅通大通道 发展“互联网+”"><img width="104" alt="交通部谈降低物流成本：畅通大通道 发展“互联网+”" height="76" onError="this.src='http://www.gsei.com.cn/images/nopic.jpg'" src="http://image1.chinanews.com.cn/cnsupload/big/2016/11-11/4-426/aee5e090770944738aa41dbae396f3a9.jpg" /></a>
+<p class="label_pic_title" style="width:110px"><a href="http://www.gsei.com.cn/html/1328/2016-12-29/content-152657.html" target="_blank" title="交通部谈降低物流成本：畅通大通道 发展“互联网+”">交通部谈降低物流成本：畅通大通道 发展“互联网+”</a></p>
+</li>
+<li>
+<a href="http://www.gsei.com.cn/html/1328/2016-12-28/content-152568.html" target="_blank" title="枝繁叶茂结硕果 “互联网+”为静宁品牌质量保驾护航"><img width="104" alt="枝繁叶茂结硕果 “互联网+”为静宁品牌质量保驾护航" height="76" onError="this.src='http://www.gsei.com.cn/images/nopic.jpg'" src="http://www.gscn.com.cn/pic/003/000/074/00300007422_b744ab1e.jpg" /></a>
+<p class="label_pic_title" style="width:110px"><a href="http://www.gsei.com.cn/html/1328/2016-12-28/content-152568.html" target="_blank" title="枝繁叶茂结硕果 “互联网+”为静宁品牌质量保驾护航">枝繁叶茂结硕果 “互联网+”为静宁品牌质量保驾护航</a></p>
+</li>
+<li>
+<a href="http://www.gsei.com.cn/html/1328/2016-12-28/content-152567.html" target="_blank" title="“互联网+”培训青少年选择多"><img width="104" alt="“互联网+”培训青少年选择多" height="76" onError="this.src='http://www.gsei.com.cn/images/nopic.jpg'" src="http://cms-bucket.nosdn.127.net/catchpic/3/3d/3dcb9d6d6af1663379e24397aab88333.jpg?imageView&amp;thu" /></a>
+<p class="label_pic_title" style="width:110px"><a href="http://www.gsei.com.cn/html/1328/2016-12-28/content-152567.html" target="_blank" title="“互联网+”培训青少年选择多">“互联网+”培训青少年选择多</a></p>
+</li>
+<li class="clear"></li>
+</ul>
+</div>
+</div>
+<div class="border4 mtop6">
+<div class="head7">
+<span class="title8">视频中心</span> <span class="more2"><a href="#">MORE</a></span>
+</div>
+<div class="main3">
+<style>
+.head_vd_8663{ width:400px;position:relative;}
+.head_vd_8663 .head_vd_frame{width:400px;height:265px; overflow:hidden}
+.head_vd_8663 .head_vd_frame .vd_play{ position:absolute; width:71px; margin-top:20px;margin-left:125px}
+.head_vd_8663 .head_vd_title{width:400px;font-size:14px; position: absolute;bottom: 0px;height: 28px;line-height: 28px;text-align: center;background: #000;filter: alpha(opacity=75);background-color: rgba(0,0,0,0.8);}
+.head_vd_8663 .head_vd_title a{color:#fff;}
+</style>
+<div class = "head_vd_8663">
+<div class="head_vd_frame">
+<a href="" target="_blank"><img class="vd_play" src="http://www.gsei.com.cn/skin/label/video_04.png" /></a>
+<a href="" target="_blank"><img src="" width="400px"height="265px" /></a>
+
+</div>
+<div class="head_vd_title">
+<a href="" target="_blank"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div></div>
+<div id="footer">
+
+<div class="foot">
+<div class="foot_nav"></div>   
+<ul class="f2" style="text-align:center;float:left;margin-left:250px;">
+<li>主办单位：甘肃省经济研究院（甘肃省信息中心） 维护单位：国家信息系统兰州培训中心</li>
+<li>地址：甘肃省兰州市庆阳路60号信息大厦4层 电话：0931-8800212</li>
+<li>备案编号：陇ICP备05000182 互联网新闻信息服务许可证：（甘新办）6201014</li>
+<li> <a href="http://www.12377.cn/" target="_blank" title="" style="text-decoration:none;"><img width="400" height="40" border="none" alt="" src="http://www.gsei.com.cn/attachment/core/label/2016_11/29_16/604dda9c7faa2d98.jpg" /></a> <a href="#" target="_blank" title="" style="text-decoration:none;"><img width="200" height="40" border="none" alt="" src="http://www.gsei.com.cn/attachment/core/label/2016_11/29_15/db342435d2a9b811.jpg" /></a> </li>     
+<div id="footer_login" style="text-align:center;margin-top:10px;"><script type="text/javascript" src="http://www.gsei.com.cn/u.php/member-login?style=admin_main&id=footer_login"></script></div>
+</ul>
+<div class="foot_img">
+<div class="tp"><a href="#" target="_blank" title="" style="text-decoration:none;"><img width="100" height="100" border="none" alt="" src="http://www.gsei.com.cn/attachment/core/label/2016_05/31_11/c26509e2eb474cf0.png" /></a></div>
+<p>手机版</p>
+</div>
+<div class="foot_img">
+<div class="tp"><a href="#" target="_blank" title="" style="text-decoration:none;"><img width="100" height="100" border="none" alt="" src="http://www.gsei.com.cn/attachment/core/label/2016_05/31_11/d4820ab27eec6de7.png" /></a></div>
+<p>微信公众号</p>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

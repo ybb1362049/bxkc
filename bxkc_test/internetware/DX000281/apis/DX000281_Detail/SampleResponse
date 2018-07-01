@@ -1,0 +1,312 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="GBK">
+<title>建投商务网</title>
+<link rel="shortcut icon" href="/images/ico_logo.ico">
+<link href="/css/css.css" type="text/css" rel="stylesheet">
+<link href="/css/home.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/js/tab.min.js"></script>
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/koala.min.1.5.js"></script>
+<script type="text/javascript" src="/js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="/js/slide.js"></script>
+<script type="text/javascript">
+
+$(function(){
+		$("#aFloatTools_Show").click(function(){
+			$('#divFloatToolsView').animate({width:'show',opacity:'show'},100,function(){$('#divFloatToolsView').show();});
+			$('#aFloatTools_Show').hide();
+			$('#aFloatTools_Hide').show();				
+		});
+		$("#aFloatTools_Hide").click(function(){
+			$('#divFloatToolsView').animate({width:'hide', opacity:'hide'},100,function(){$('#divFloatToolsView').hide();});
+			$('#aFloatTools_Show').show();
+			$('#aFloatTools_Hide').hide();	
+		});
+	});
+</script>
+</head>
+
+<body>
+
+
+
+ 
+ <div id="header">
+
+  <div class="main">
+    <div class="wrap">
+      <div class="logo"><a href="/"><img src="/images/logo.png" alt=""/></a></div>
+     <div class="tel">400-9660-400</div>
+    </div>
+  </div>
+  
+<div class="navbar">
+<ul>
+<li class="mainlevel"><a href="/index.html">首 页</a></li>
+<li class="mainlevel"><a href="#">业务公告</a>
+<ul style="background:none;">
+<li><a href="/rfqActiveController!list.action" target="_top">公开的采购</a></li>
+<li><a href="/rfqCompleteController!list.action" target="_top">已完成的采购</a></li>
+<li><a href="/auctionActiveController!list.action" target="_top">招标公告</a></li>
+<li><a href="/auctionCompleteController!list.action" target="_top">中标公告</a></li>
+<li><a href="/negoActiveController!list.action" target="_top">谈判公告</a></li>
+<li><a href="/negoCompleteController!list.action" target="_top">谈判中选公示</a></li>
+</ul>
+</li>
+
+<li class="mainlevel"><a href="#" >供应商管理</a>
+<ul style="background:none;">
+	
+	<li><a href="/htmlController!articleList.action?cmsTreeVo.id=1696&cmsTreeVo.parentid=1288">准入服务</a></li> 
+	
+	<li><a href="/htmlController!articleList.action?cmsTreeVo.id=1697&cmsTreeVo.parentid=1288">违约管理</a></li> 
+	
+	<li><a href="/htmlController!articleList.action?cmsTreeVo.id=1698&cmsTreeVo.parentid=1288">退出管理</a></li> 
+	
+	<li><a href="/htmlController!articleList.action?cmsTreeVo.id=1699&cmsTreeVo.parentid=1288">操作指导</a></li> 
+
+</ul>
+
+<li class="mainlevel"><a href="#" >新闻中心</a>
+<ul style="background:none;">
+	
+	<li><a href="/htmlController!articleList.action?cmsTreeVo.id=1507&cmsTreeVo.parentid=1287">新闻中心</a></li> 
+
+</ul>
+
+<li class="mainlevel"><a href="#" >政策法规</a>
+<ul style="background:none;">
+
+	<li><a href="http://www.cebpubservice.com/ctpsp_policylaw/thirdparty/jtsww/policies_index.jsp">政策法规</a></li>
+	
+</ul>
+
+<li class="mainlevel"><a href="/kehu.html">客户中心</a></li>
+<li class="mainlevel"><a href="#">关于我们</a>
+<ul style="background:none;">
+<li><a href="/about/about.html">关于我们</a></li>
+<li><a href="/about/link.html">联系我们</a></li>
+<li><a href="http://v.youku.com/v_show/id_XMTI3OTc5NjMwNA==.html?from=s1.8-1-1.2" target="_back">宣传视频</a></li>
+</ul>
+</li>
+<div class="clear"></div>
+</ul>
+</div>
+</div>
+<div id="mainv"><div class="main"></div></div>
+
+
+
+
+<div id="container">
+<div class="wrap">
+
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/Dtd/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="GBK">
+<title>建投商务网</title>
+<link href="/css/css.css" type="text/css" rel="stylesheet">
+<link href="/css/home.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/js/tab.min.js"></script>
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/koala.min.1.5.js"></script>
+</head>
+
+<body>
+
+<div class="leftbar">
+<script type="text/javascript" src="/js/Barrett.js"></script>
+<script type="text/javascript" src="/js/BigInt.js"></script>
+<script type="text/javascript" src="/js/RSA.js"></script>
+<script type="text/javascript">
+
+function reloadcode()
+{ 
+	document.getElementById('safecode').src ="https://ecs.jtsww.com/images.jsp?dumy=" + Math.random();
+}
+function checkForm(){
+	//去掉录入框中两边的空格
+	document.getElementById("userCode").value = document.getElementById("userCode").value;
+	document.getElementById("password").value = document.getElementById("password").value;
+	document.getElementById("rand").value = document.getElementById("rand").value;
+	if(document.getElementById("userCode").value.length == 0){
+		alert("请输入登录名");
+		document.getElementById("userCode").focus();
+		return false;
+	}
+	if(document.getElementById("password").value.length == 0){
+		alert("请输入密码");
+		document.getElementById("password").focus();
+		return false;
+	}
+	if(document.getElementById("rand").value.length == 0){
+		alert("请输入验证码");
+		document.getElementById("rand").focus();
+		return false;
+	}
+    alert(document.getElementById("rand").value);
+
+	document.loginform.submit();
+    
+	}
+
+</script>
+
+  <div class="box login">
+<div class="title">会员专区</div>
+<div class="cont">
+<a href="https://ecs.jtsww.com/registerController!regStep1.action" target="_blank" class="btn">免费注册入口</a>
+<a href="https://ecs.jtsww.com/login.action" target="_blank" class="btn">普通用户登录</a>
+<a href="https://ecs.jtsww.com/s2sm/auth/loginExpert.jsp" target="_blank" class="btn">评标专家登录</a><br>
+<a href="/kehu.html" target="_blank">客户中心</a>　　　<a href="https://ecs.jtsww.com/sysUserController!forgotpwdIndexShow.action" target="_blank">找回密码</a></div>
+</div>
+<div class="box swzs">
+<div class="title"><a href="/htmlController!articleList.action?cmsTreeVo.id=1741&cmsTreeVo.parentid=1740"  class="more">更多&gt;&gt;</a>重要通知</div>
+<ul class="list">
+<li><a href="/html/article/2018/02/28/20503_0.html"  title="河北建投宣化热电有限责任公司供应商管理制度">河北建投宣化热电有限责任公司供应商管理制度</a></li>
+<li><a href="/html/article/2017/11/24/20443_0.html"  title="河北建投宣化热电有限责任公司重要通知">河北建投宣化热电有限责任公司重要通知</a></li>
+<li><a href="/html/article/2017/11/17/20423_0.html"  title="河北任华供热有限责任公司供应商管理制度">河北任华供热有限责任公司供应商管理制度</a></li>
+<li><a href="/html/article/2017/08/16/20343_0.html"  title="河北兴泰发电有限责任公司重要通知">河北兴泰发电有限责任公司重要通知</a></li>
+<li><a href="/html/article/2017/07/25/20323_0.html"  title="河北建投任丘热电有限责任公司供应商管理制度">河北建投任丘热电有限责任公司供应商管理制度</a></li>
+<li><a href="/html/article/2017/06/15/20283_0.html"  title="建投承德热电供应商管理办法（违约管理部分）">建投承德热电供应商管理办法（违约管理部分）</a></li>
+</ul>
+</div>
+
+<div class="box swzs" style="margin-bottom:0;">
+<div class="title"><a href="http://www.cebpubservice.com/ctpsp_policylaw/thirdparty/jtsww/policies_index.jsp"  class="more">更多&gt;&gt;</a>政策法规</div>
+<ul class="list">
+<li><a href="/html/article/2015/12/29/19268_0.html"  title="《关于进一步放开建设项目专业服务价格的通知》">《关于进一步放开建设项目专业服务价格的通知》</a></li>
+<li><a href="/html/article/2015/12/29/19267_0.html"  title="《关于进一步规范电子招标投标系统建设运营的通知》">《关于进一步规范电子招标投标系统建设运营的通知》</a></li>
+<li><a href="/html/article/2015/12/29/19266_0.html"  title="《电子招标投标办法》">《电子招标投标办法》</a></li>
+<li><a href="/html/article/2015/12/29/19265_0.html"  title="《中华人民共和国招标投标法》">《中华人民共和国招标投标法》</a></li>
+<li><a href="/html/article/2015/12/29/19264_0.html"  title="《公路工程建设项目招标投标管理办法》">《公路工程建设项目招标投标管理办法》</a></li>
+<li><a href="/html/article/2015/07/23/19049_0.html"  title="《关于促进互联网金融健康发展的指导意见》">《关于促进互联网金融健康发展的指导意见》</a></li>
+</ul>
+</div>
+
+<div class="box gysgl">
+<div class="title"><a href="#"  class="more">更多&gt;&gt;</a>供应商管理</div>
+<ul class="list">
+<li><a href="/html/article/2015/06/13/19001_0.html"  class="b1">准入服务</a></li>
+<li><a href="/html/article/2015/06/13/19002_0.html"  class="b2">违约管理</a></li>
+<li><a href="/html/article/2015/06/15/19011_0.html"  class="b3">操作指导</a></li>
+<li><a href="/html/article/2015/06/13/19003_0.html"  class="b4">退出管理</a></li>
+</ul>
+</div>
+
+<div class="box swzs">
+<div class="title"><a href="/sellerController!list.action" target='_blank' class='more'>更多&gt;&gt;</a>最新入网供应商</div>
+<ul class="list">
+<li><span>04-18</span>沧州临港恒越建材经销处</li>
+<li><span>04-17</span>淄博越辉煤炭销售有限公司</li>
+<li><span>04-17</span>石家庄旭如刚商贸有限公司</li>
+<li><span>04-17</span>张家口强昕商贸有限公司</li>
+<li><span>04-17</span>张家口圣佑贸易有限公司</li>
+<li><span>04-17</span>邢台市桥西区道安五金劳保用品商店</li>
+</ul>
+</div>
+
+
+</div>
+</body>
+</html>
+
+
+<div class="rightbar">
+<div class="news_content">
+<div class="title">公开的采购</div>
+<h1>任华供热0428-2</h1>
+<div class="cont">
+<table class="table_list">
+    <tr>
+      <th align="right" class="w200" scope="row">开始时间 ：</th>
+      <td>2018-05-02 09:01</td>
+    </tr>
+     <tr>
+      <th align="right" scope="row">结束时间 ：</th>
+      <td>2018-05-05 08:44</td>
+    </tr>
+    <tr>
+      <th align="right" scope="row">询价单位：</th>
+      <td>河北任华供热有限责任公司</td>
+    </tr>
+    <tr>
+      <th align="right" scope="row">询价人：</th>
+      <td>张淑媛</td>
+    </tr>
+    <tr>
+      <th align="right" scope="row">询价类型：</th>
+      <td>全平台公开</td>
+    </tr>
+    <tr>
+      <th align="right" scope="row">询价要求：</th>
+      <td>安排专人送货至需方指定地点并调试安装。</td>
+    </tr>
+  </table>
+  
+ <table class="table_list">
+  <tr>
+    <td colspan="9" align="center" scope="col"><strong>询价产品列表</strong></td>
+    </tr>
+    
+    <tr>
+    <th align="center" scope="col">序号</th>
+    <th align="center" scope="col">产品名称</th>
+    <th align="center" scope="col">规格型号</th>
+    <th align="center" scope="col">制造商</th>
+    <th align="center" scope="col">材质</th>
+    <th align="center" scope="col">产品单位</th>
+    <th align="center" scope="col">产品数量</th>
+    <th align="center" scope="col">产品需求日期</th>
+  </tr>
+  
+ 
+  <tr>
+    <td>1</td>
+    <td>无线呼叫器</td>
+    <td>F－01</td>
+    <td></td>
+    <td></td>
+    
+    <td>个</td>
+    <td>6</td>
+    <td>2018-05-10</td>
+    
+  </tr>
+  
+  <tr>
+    <td>2</td>
+    <td>条码查询机</td>
+    <td>HCE-705U</td>
+    <td></td>
+    <td></td>
+    
+    <td>个</td>
+    <td>3</td>
+    <td>2018-05-10</td>
+    
+  </tr>
+   
+  
+</table>
+
+ <a href="https://ecs.jtsww.com/login.action" target="_blank" class="bj">我要报价</a>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<iframe src="/module/footer.html" frameborder="0" height="200" width="100%" scrolling="no"></iframe>
+
+
+</body>
+</html>

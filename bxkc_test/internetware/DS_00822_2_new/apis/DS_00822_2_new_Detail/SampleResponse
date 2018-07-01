@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/npztb/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/npztb/Template/Default/css/about.css">
+    <link rel="stylesheet" href="/npztb/Template/Default/css/article.css">
+    <script src="/npztb/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <title>南平市公共资源交易中心</title>
+</head>
+
+<body>
+    <!-- header -->
+<script  type="text/javascript">
+function Search() {
+	 var t = document.getElementById("txtKey").value;
+                if (t.indexOf("<") > -1 || t.indexOf(">") > -1 || t.indexOf("'") > -1|| t.indexOf("_") > -1) {
+                    alert("请勿在关键字中输入非法字符!");
+                    return;
+				}
+    if (document.all.txtKey.value == "" || document.all.txtKey.value == "请输入关键字") {
+        alert("搜索字段不能为空！");
+    }
+    else {
+        var openUrl = '/npztb/showinfo/searchresult.aspx?keyword=';
+        openUrl += escape(document.all.txtKey.value);
+        window.open(openUrl, "Search", "", "");
+    }
+
+}
+function CheckSearch()
+		{
+			if(event.keyCode=="13")
+			{   
+				if(document.all.txtKey.value!="")
+				{
+					Search();
+				}
+				else
+				{
+					alert("搜索字段不能为空！");
+				}
+			}
+		}
+</script>
+<script>
+   window.onload = function () {
+        var timeContainer = document.getElementById('showtime');
+        setInterval(function () {
+            timeContainer.innerHTML = ShowTime();
+        }, 100);
+        if (document.getElementById('qikan') != null) {
+            getmyuri();
+        }
+
+    } 
+function ShowTime() {
+       var myDate = new Date();
+        var month = myDate.getMonth() + 1;
+        var myweekday = myDate.getDay();
+		var myhour = myDate.getHours();
+		var myminute = myDate.getMinutes();
+		var mysecond = myDate.getSeconds();
+        if (myweekday == 0)
+            weekday = "   星期日 ";
+        else if (myweekday == 1)
+            weekday = "   星期一 ";
+        else if (myweekday == 2)
+            weekday = "   星期二 ";
+        else if (myweekday == 3)
+            weekday = "   星期三 ";
+        else if (myweekday == 4)
+            weekday = "   星期四 ";
+        else if (myweekday == 5)
+            weekday = "   星期五 ";
+        else if (myweekday == 6)
+            weekday = "   星期六 ";
+
+
+       return str = '&nbsp;'+'&nbsp;'+'&nbsp;'+'今天是'+ myDate.getFullYear() + '年' + month + '月' + myDate.getDate() + '日'+ '&nbsp; '+ weekday; 
+    }
+</script>
+   <div class="ewb-header">
+        <!-- banner -->
+        <div class="ewb-header-banner"></div>
+        <!-- nav -->
+        <div class="ewb-header-nav">
+            <div class="ewb-container">
+                <ul class="ewb-nav-items clearfix">
+                    <li class="ewb-nav-item current l">
+                        <a href="/npztb/" class="ewb-nav-link">
+                            首页
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zxjj" class="ewb-nav-link">
+                            中心简介
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zcfg" class="ewb-nav-link">
+                            政策法规
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zxdt" class="ewb-nav-link">
+                            中心动态
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="http://www.npzbtb.gov.cn/index.asp" class="ewb-nav-link">
+                            政府采购
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zwgk" class="ewb-nav-link">
+                            政务公开
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/bszn" class="ewb-nav-link">
+                            办事指南
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/lxwm" class="ewb-nav-link">
+                            联系我们
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- state -->
+        <div class="ewb-header-state">
+            <div class="ewb-container clearfix">
+                <div class="ewb-state-date l" id="showtime"></div>
+                <div class="ewb-state-weather l"><iframe allowtransparency="true" frameborder="0" width="180" height="30" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=0&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=1&c=57083&w=180&h=36&align=center"></iframe></div>
+                <!-- search -->
+                <div class="ewb-state-search r">
+                    <input id="txtKey" type="text" placeholder="站内搜索" class="ewb-search-input l" onKeyDown="CheckSearch();">
+                    <button class="ewb-search-btn r" onClick="Search();"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main -->
+    <div class="ewb-container clearfix mixed ">
+        <div class=" ">
+            <h4 class="main-content-title">
+                <table align="left" cellSpacing="0" cellPadding="0" border="0"><TR><TD align="left"><FONT color="#999" class=currentpostionfont>您现在的位置：</FONT><A href='/npztb/'><FONT color="#999"  class=currentpostionfont>首页</FONT></A><FONT color="#226bcf"> >> <a href='/npztb/qxzbxx'><FONT color="#226bcf" class=currentpostionfont>企业招标信息</font></a> >> <a href='/npztb/qxzbxx/013001'><FONT color="#226bcf" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table>
+            </h4>
+            <div class="main-subcontent">
+			
+                    <div class="article-block">
+						<h2 class="article-title">南平市烟草公司顺昌分公司2017-2020年度岚下烟草站烟叶仓库租赁项目（二次招标）</h2>
+                        <div class="info-sources">
+                            【信息来源：】【信息时间：2017-07-26   阅读次数：
+                            <script src="/npztb/UpClickTimes.aspx?WebPath=/npztb/InfoDetail/?InfoID=554ec592-ec46-430e-bbe9-ab3158107094&CategoryNum=013001&infoid=554ec592-ec46-430e-bbe9-ab3158107094&SiteGuid="></script>
+                            】【字号 <a class="font-size" href="#" onclick="changeFont('big')">大</a> <a class="font-size" href="#" onclick="changeFont('normal')">中</a> <a class="font-size" href="#" onclick="changeFont('small')">小</a>】<a class="print" href="javascript:void(0)" onclick="    window.print();">【我要打印】</a><a class="close" href="javascript:window.close()">【关闭】</a>
+                        </div>
+                        <div class="article-content" id="mainContent">
+                            <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><b><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 18pt">招标公告</span></b></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: right; LINE-HEIGHT: 22pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="right"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">招标编号：环闽采招<span>[2017]</span>第<span>059904109</span></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 22pt; TEXT-INDENT: 28.5pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><u><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">南平市烟草公司顺昌分公司<span>2017-2020</span>年度岚下烟草站烟叶仓库租赁项目（二次招标）</span></u><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">，经批准公开招标，欢迎合格的投标人前来提交密封的投标文件。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 22pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">本招标项目相关事项内容如下：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 22pt; TEXT-INDENT: 24.1pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><b><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">1</span></b><b><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">、项目采购内容及要求：</span></b></p>
+<div align="center">
+<table style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none" border="1" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr style="HEIGHT: 29.5pt">
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 96.9pt; PADDING-RIGHT: 5.4pt; HEIGHT: 29.5pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="129">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">采购内容</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 130.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 29.5pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="174">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">租赁面积及房屋要求</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 69.25pt; PADDING-RIGHT: 5.4pt; HEIGHT: 29.5pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="92">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">租赁期限</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 83.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 29.5pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="112">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">租赁地点要求</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 74.1pt; PADDING-RIGHT: 5.4pt; HEIGHT: 29.5pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="99">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">最高限价</span></p>
+      </td>
+    </tr>
+    <tr style="HEIGHT: 35.8pt">
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 96.9pt; PADDING-RIGHT: 5.4pt; HEIGHT: 35.8pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="129">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">岚下烟草站烟叶仓库租赁项目</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 130.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 35.8pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="174">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">占地面积约<span>900</span>平方米</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 69.25pt; PADDING-RIGHT: 5.4pt; HEIGHT: 35.8pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="92">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">3</span><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">年</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 83.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 35.8pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="112">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">顺昌县岚下乡</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 74.1pt; PADDING-RIGHT: 5.4pt; HEIGHT: 35.8pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="99">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">15000</span><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">元<span>/</span>年</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 23.6pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><b><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">2</span></b><b><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">、投标人资格要求：</span></b></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">2.1</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">企业法人、社会团体或自然人均可能成为合格的投标人（企业法人投标的须提供合格有效的营业执照副本复印件和税务登记证副本复印件；社会团体投标的须提供社会团体法人登记证书复印件；自然人投标的须提供身份证复印件）。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">2.2</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">投标人需提供</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">相应房屋或土地产权证明复印件</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">（若无房产证、土地证，需提供相关政府部分的证明文件）。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">2.3</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">企业法人、社会团体投标的投标文件应由投标人的法定代表人或者其授权代表签字加盖公章，并提供法定代表人及委托代理人的身份证复印件，如由后者签字，应提供“法定代表人授权委托书”；自然人投标的投标文件应由须投标人本人签字。否则按无效投标处理。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">2.4</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">出租方义务：出租方须无出让、出租、查封或其他法律纠纷。社会信誉良好，遵守行业规范，近三年内没有任何不良行为记录，</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">投标人的单位及法定代表人、授权委托人、自然人均不是最高人民法院公告的失信被执行人且无行贿犯罪记录。</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">若与当地居民发生纠纷，由出租方解决。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 23.6pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><b><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">3</span></b><b><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">、投标须知</span></b></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">3.1</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">招标文件购买时间：<u><span>2017</span></u>年<u><span>7</span></u>月<u><span>26</span></u>日至<u><span>2017</span></u>年<u><span>8</span></u>月<u><span>1</span></u>日<span>(</span>法定公休日、法定节假日除外<span>)</span>每天上午<u><span>8</span>：<span>30</span></u>至<u><span>11</span>：<span>30</span></u>，下午<u><span>3</span>：<span>00</span></u>至<u><span>5</span>：<span>30</span></u>（北京时间）。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">3.2</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">招标文件购买地点：<u>福建环闽工程造价咨询有限公司<span>(</span>南平市延平区八一路<span>338</span>号汇丰大厦<span>806</span>室<span>)</span></u>。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">3.3</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">招标文件售价：每套<u><span>100</span></u>元<span>(</span>人民币<span>)</span>，售后不退，未购买招标文件者的投标将被拒绝。购买招标文件账户请来电咨询：<u><span>0599-8870666</span></u>，同时将电汇底单复印件及所需购买的招标编号、公司名称、联系人、联系电话、手机、传真和公司地址一并标注后传真至福建环闽工程造价咨询有限公司。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: 'Times New Roman'; BACKGROUND: white; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">3.4</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">递交投标文件截止时间：投标文件相关资料应于<u>2017</u>年<u><span>8</span></u><span>月<u><span>18</span></u>日</span>下午<u>15：30</u>之前提交（送达）到</span><u><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">南平市烟草公司顺昌分公司二楼小会议室<span>(</span>顺昌县南北街<span>2#)</span></span></u><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">；逾期收到的或不符合本招标内容规定的投标文件将被拒绝。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">3.5</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">递交投标文件要求：<u>投标人</u></span><u><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">收到本招标文件后，请将相关资料按本招标文件需提交的投标文件内容要求，将商务文件的正本和全部副本用一个信封包装、密封后加盖骑缝章，资格文件的包装密封同商务文件（即：投标文件共要包封<span>2</span>份：商务文件的正本和全部副本包封<span>1</span>份、资格文件的正本和全部副本包封<span>1</span>份）。若未密封或相关资质资料不完整将视为自动放弃本次投标资格</span></u><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24.1pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><b><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">所有参加投标的投标人代表均需随身携带本人身份证。若企业法人、社会团体投标人代表不是法人代表的，投标人除在投标文件中须随附《法定代表人授权委托书》（格式附后）原件外，其代表还须随身携带《法定代表人授权委托书》复印件。<u style="text-underline: double">自然人应由本人参加投标</u>。</span></b></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">3.6</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">评标时间：<u>2017</u>年<u><span>8</span></u><span>月<u><span>18</span></u>日</span>下午<u>15：30</u>（北京时间）。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">3.7</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">评标地点：</span><u><span style="FONT-FAMILY: 宋体; BACKGROUND: white; COLOR: black; FONT-SIZE: 12pt">南平市烟草公司顺昌分公司二楼小会议室<span>(</span>顺昌县南北街<span>2#)</span></span></u><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">3.8</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">评标办法：</span><u><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">最低评标价法</span></u><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">。</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">我司按照采购管理规定组成评审小组，负责进行评审。评审小组</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">对投标文件的投标报价进行评审，将报价由低到高进行排序，通过投标文件评审合格且投标报价最低的投标人为第一中标候选人，以此类推选择第二、第三中标候选人。</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">如投标报价高于招标人设定的最高限价均视为无效报价。</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">若出现两家以上相同的最低报价，招标人将采用随机抽球的方式确定成交供应商</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">,</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">对成交结果，招标人无须做任何解释。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">3.9</span><span style="FONT-FAMILY: 宋体; LETTER-SPACING: -0.2pt; COLOR: black; FONT-SIZE: 12pt">投标保证金：</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">本项目不设投标保证金。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">以上如有变更，招标人通过<u>南平市公共资源交易中心<span>(www.npggzy.gov.cn/npztb/)</span>和福建烟草在线南平子站<span>(http://np.fjycw.com/)</span></u>进行通知，请投标人关注。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 23.65pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">4</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">、联系方式</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">招标人：南平市烟草公司顺昌分公司</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">地址：顺昌县南北街<span>2#<span>&nbsp;&nbsp;&nbsp; </span></span></span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">邮编：<span>353500</span></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">电话：</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">0599-7838146</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">招标联系人：</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">张先生</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; MARGIN: 0cm 0cm 0pt 28.5pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt">&nbsp;</p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; MARGIN: 0cm 0cm 0pt 24.05pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">招标代理机构：<span style="BACKGROUND: white">福建环闽工程造价咨询有限公司</span></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">地址：<span style="BACKGROUND: white">南平市延平区八一路<span>338</span>号汇丰大厦<span>806</span>室</span><span>&nbsp;&nbsp; </span>邮编：<span>353000</span></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">电话：<span>0599-8870666</span>、<span>0599-8850556<span>&nbsp;&nbsp;&nbsp; </span></span>传真：<span>0599-8850556</span></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 21pt; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">联系人：小陈</span></p>
+                        </div>
+                        <div></div>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="ewb-footer">
+        <!-- guide -->
+        <div class="ewb-footer-guide">
+            <a href="/npztb/gybz">关于本站</a>
+            <span>|</span>
+            <a href="/npztb/wzdt">网站地图</a>
+            <span>|</span>
+            <a href="/npztb/flsm">法律声明</a>
+            <span>|</span>
+            <a href="/npztb/lxwm">联系我们</a>
+        </div>
+        <!-- copyright -->
+        <div class="ewb-footer-copyright">
+            <div class="ewb-container ewb-footer-wrap">
+                <div class="ewb-footer-notice">
+                    <p>南平市公安局
+                        <br/>网络报警处置中心</p>
+                    <i></i>
+                </div>
+                <p>
+                    主办：南平市公共资源交易中心    技术支持：江苏国泰新点软件有限公司
+                    <br/>建议使用：IE6以上浏览器 1024*768分辨率浏览本站    备案序号：闽ICP备17015384号-1
+                    <br/> 您是<script src="/npztb/Template/Default/../../count.aspx"></script>位访问者
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="/npztb/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/npztb/Template/Default/js/about.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="成灌高速公路收费、监控及通信系统设备采购项目  比 选 公 告,成都交通投资集团有限公司" />
+<meta name="description" content="成灌高速公路收费、监控及通信系统设备采购项目  比 选 公 告,招标公告,成都交通投资集团有限公司" />
+<meta name="author" content="成都交通投资集团有限公司" />
+<meta name="Copyright" content="成都交通投资集团有限公司版权所有" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<title>成都交通投资集团有限公司 - 成灌高速公路收费、监控及通信系统设备采购项目  比 选 公 告</title>
+<link href="http://www.cdccic.com/template/css/css.css" type="text/css" rel="stylesheet" />
+<link href="http://www.cdccic.com/template/css/jquery.ad-gallery.css" type="text/css" rel="stylesheet" />
+<script src="http://www.cdccic.com/template/js/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="http://www.cdccic.com/template/js/jquery.js" type="text/javascript"></script>
+<script src="http://www.cdccic.com/template/js/jquery.ad-gallery.js" type="text/javascript"></script>
+
+
+<script language="javascript" type="text/javascript">
+	AC_FL_RunContent = 0;
+	//jQuery(document).ready(function(){
+	jQuery(function () {
+		resizeImg();
+	});
+	
+	setTimeout("resizeImg()", 1000);
+	
+	function resizeImg(){
+		var main_cont_width = jQuery("#main_cont").width();
+		jQuery("#contentBox").find("img").each(function(){
+			var _this = jQuery(this);
+			if(_this.width() > main_cont_width)	_this.width(main_cont_width - 20);
+		});		
+	}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+<div id="top_bar">
+  <div class="top"> <a href="javascript:;" onclick="javascript:addToIndex(this)">设为首页 | </a><a href="javascript:;" onclick="javascript:addFavorites('http://www.cdccic.com/', document.title)">加入收藏</a> </div>
+</div>
+<div id="content">
+
+
+ 
+ <div class="headtop">
+  <div class="head">
+   <div class="logo"><img src="http://www.cdccic.com/template/images/logo.png" /></div>
+    <div class="sousuo">
+    
+     
+      <div class="tips"> <a href="http://172.29.17.20/wui/theme/ecology7/page/login.jsp?templateId=21&logintype=1&gopage=&languageid=7&message=19">办公系统</a> | <a href="http://www.cdccic.com/?/site/news/">新闻</a> | <a href="http://www.cdccic.com/?/f/index/t/map/">站点地图</a> </div>
+      <div class="sou">
+        <form id="form1" name="form1" method="GET" action="http://www.cdccic.com/?/f/index/t/search/" onsubmit="javascript:return checkHader();">
+          <label for="textfield"></label>
+          <input type="submit" name="button" id="button" class="tijiao" value="" />
+          <input type="hidden" value="search" name="t" />
+          <input type="text" name="keyword" id="keywordName" class="soutab" />
+        </form>
+      </div>
+    </div>
+  </div>
+   <script type="text/javascript">
+    function checkHader(){
+    	if(document.getElementById('keywordName').value == ""){
+    		alert("请填写搜索关键字");
+    		return false;
+    	}
+    	return true;
+    }
+   </script>
+  
+  
+   
+  <div id="nav">
+    <div id="menu">
+      <ul>
+            	
+        <li>                       
+       		<a href="http://www.cdccic.com/?/site/index/"  class="nodrop" id="lines">首页</a>
+       		
+       		        </li>
+              	
+        <li>                       
+       		<a href="http://www.cdccic.com/?/site/gaikuang/"  class="nodrop" id="lines">集团概况</a>
+       		
+       		       		<div class="dropdown_1column">
+	            <div class="col_1">
+	              <ul class="simple">
+	                
+	                <li><a href="http://www.cdccic.com/?/site/introduce/">集团介绍</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/address/">领导致辞</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/group/">组织架构</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/means/">资产架构</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/bigevent/">大事件</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/honour/">企业荣誉</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/imp/">重大项目</a></li>
+	              	              </ul>
+	            </div>
+            	<div class="downright"><img src="http://www.cdccic.com/template/images/dr163.jpg" /></div>
+           </div>
+       		        </li>
+              	
+        <li>                       
+       		<a href="http://www.cdccic.com/?/site/news/"  class="nodrop" id="lines">新闻中心</a>
+       		
+       		       		<div class="dropdown_1column">
+	            <div class="col_1">
+	              <ul class="simple">
+	                
+	                <li><a href="http://www.cdccic.com/?/site/dongtai/">集团动态</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/media/">媒体聚焦</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/subord/">所属企业动态</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/226/">通知信息</a></li>
+	              	              </ul>
+	            </div>
+            	<div class="downright"><img src="http://www.cdccic.com/template/images/dr164.jpg" /></div>
+           </div>
+       		        </li>
+              	
+        <li>                       
+       		<a href="http://www.cdccic.com/?/site/zhaobiao/"  class="nodrop" id="lines">招标信息</a>
+       		
+       		       		<div class="dropdown_1column">
+	            <div class="col_1">
+	              <ul class="simple">
+	                
+	                <li><a href="http://www.cdccic.com/?/site/GetBiao/">招标公告</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/notice/">结果公示</a></li>
+	              	              </ul>
+	            </div>
+            	<div class="downright"><img src="http://www.cdccic.com/template/images/dr165.jpg" /></div>
+           </div>
+       		        </li>
+              	
+        <li>                       
+       		<a href="http://www.cdccic.com/?/site/project/"  class="nodrop" id="lines">项目建设</a>
+       		
+       		       		<div class="dropdown_1column">
+	            <div class="col_1">
+	              <ul class="simple">
+	                
+	                <li><a href="http://www.cdccic.com/?/site/dynamic/">项目动态</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/bulied/">建成项目</a></li>
+	              	              </ul>
+	            </div>
+            	<div class="downright"><img src="http://www.cdccic.com/template/images/dr166.jpg" /></div>
+           </div>
+       		        </li>
+              	
+        <li>                       
+       		<a href="http://www.cdccic.com/?/site/party/"  class="nodrop" id="lines">党群建设</a>
+       		
+       		       		<div class="dropdown_1column">
+	            <div class="col_1">
+	              <ul class="simple">
+	                
+	                <li><a href="http://www.cdccic.com/?/site/PartyBulid/">党的建设动态</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/incorrupt/">党风廉政建设</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/industry/">文明创建工作</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/union/">企业工会建设</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/youth/">企业青年工作</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/229/">法治建设专栏</a></li>
+	              	              </ul>
+	            </div>
+            	<div class="downright"><img src="http://www.cdccic.com/template/images/dr167.jpg" /></div>
+           </div>
+       		        </li>
+              	
+        <li>                       
+       		<a href="http://www.cdccic.com/?/site/culture/"  class="nodrop" id="lines">企业文化</a>
+       		
+       		       		<div class="dropdown_1column">
+	            <div class="col_1">
+	              <ul class="simple">
+	                
+	                <li><a href="http://www.cdccic.com/?/site/idea/">企业理念</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/goal/">愿景目标</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/vi/">集团VI</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/blue/">规划蓝图</a></li>
+	              	              </ul>
+	            </div>
+            	<div class="downright"><img src="http://www.cdccic.com/template/images/dr169.jpg" /></div>
+           </div>
+       		        </li>
+              	
+        <li>                       
+       		<a href="http://www.cdccic.com/?/site/safe/"  class="nodrop" id="lines">安全管理</a>
+       		
+       		       		<div class="dropdown_1column">
+	            <div class="col_1">
+	              <ul class="simple">
+	                
+	                <li><a href="http://www.cdccic.com/?/site/laws/">安全法规</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/Updates/">安全动态</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/regime/">安全制度</a></li>
+	              	              </ul>
+	            </div>
+            	<div class="downright"><img src="http://www.cdccic.com/template/images/dr170.jpg" /></div>
+           </div>
+       		        </li>
+              	
+        <li>                       
+       		<a href="http://www.cdccic.com/?/site/LinkUs/"  class="nodrop" id="lines">员工风采</a>
+       		
+       		        </li>
+              	
+        <li>                       
+       		<a href="javascript:;"  class="nodrop" id="lines">互动交流</a>
+       		
+       		       		<div class="dropdown_1column">
+	            <div class="col_1">
+	              <ul class="simple">
+	                
+	                <li><a href="http://172.29.17.20/wui/theme/ecology7/page/login.jsp?templateId=21&logintype=1&gopage=&languageid=7&message=19">办公自动化接口</a></li>
+	                
+	                <li><a href="http://www.cdccic.com/?/site/suggestbill/">建议提案</a></li>
+	              	              </ul>
+	            </div>
+            	<div class="downright"><img src="http://www.cdccic.com/template/images/dr168.jpg" /></div>
+           </div>
+       		        </li>
+              </ul>
+    </div>
+  </div>
+  
+    <div class="banner_b">
+    
+    					
+			<img src="http://www.cdccic.com/template/images/form_165.jpg" />
+	    </div>
+    </div>
+
+
+  <div class="clrear"></div>
+  <div class="main_son">
+  
+    
+    	
+
+
+    <div class="left">
+          <div class="left_top">
+     	<img src="http://www.cdccic.com/template/images/list2.jpg" />
+      </div>
+      <div class="left_mid">
+        <ul>
+                  <li><a href="http://www.cdccic.com/?/site/GetBiao/">招标公告</a></li>
+                  <li><a href="http://www.cdccic.com/?/site/notice/">结果公示</a></li>
+                </ul>
+      </div>
+            <div class="left_top"><img src="http://www.cdccic.com/template/images/list2.jpg" /></div>
+      <div class="serch">
+        <form id="form2" name="form2" method="GET" action="http://www.cdccic.com/?/f/index/t/search/" onsubmit="javascript:return check();">
+          <label for="textfield2"></label>
+          <input type="text" name="keyword" id="keyword" class="sou_bg" />
+          <input type="hidden" value="search" name="t" />
+          <input type="submit" name="button2" class="sou_tu" id="button2" value="搜 索" />
+        </form>
+      </div>
+      <div class="left_bottom"><img src="http://www.cdccic.com/template/images/list3.jpg" /></div>
+      <div class="left_mid"> 地址：四川省成都市高新区盛和一路66号城南天府写字楼<br />
+        电话：+86 28 85583113<br />
+        邮编：610041<br />
+        传真：+86 28 85587100<br />
+        邮箱：<a href="mailto:cdccic@sina.com">cdccic@sina.cn</a> <br />
+        </div>
+    </div>
+    <script type="text/javascript">
+    function check(){
+    	if(document.getElementById('keyword').value == ""){
+    		alert("请填写搜索关键字");
+    		return false;
+    	}
+    	return true;
+    }
+    </script>
+    
+    <div class="right">
+      <div class="right_t"> 当前位置>>首页>>招标信息>>招标公告 </div>
+      <div class="right_main">
+        <div class="right_tit">
+          <h2>成灌高速公路收费、监控及通信系统设备采购项目  比 选 公 告</h2>
+           <p>
+                    发布日期：2017-12-11 09:23&nbsp;&nbsp;&nbsp;&nbsp;
+                    查看次数：461
+          </p>
+        </div>
+        <div class="main_cont" id="main_cont">
+          <div class="main_i">
+          
+          
+                    
+          
+			<!-- 多图显示 1515656624-->
+			<!--	<div style="border:1px red solid;width:100%;height:300px;"></div>-->
+			
+	  
+			<!-- 多图显示 1515656624-->          
+          </div>
+          
+        
+        
+		
+     
+        
+          
+        <div id="contentBox" style="">
+        <p align=center><br /></p><p>一、本项目业主为<u>&nbsp;<span style=background:#F8FCFF;>成都高速公路股份有限公司</span> </u>，建设资金来自<u>业主自筹</u>，项目出资比例为<u> 100% </u>，项目已具备比选条件，现通过公开比选方式选择和确定中选人（承包人），诚邀符合资格条件的潜在申请人参与本项目的比选。</p><p><strong>&nbsp;&nbsp; 二、项目概况与比选范围</strong></p><p>2.1 比选人：成都高速公路股份有限公司。</p><p>&nbsp;2.2项目名称：成灌高速公路收费、监控及通信系统设备采购项目</p><p>2.3供货地点：成灌高速成都收费站。</p><p>2.4比选规模: 详见工程量清单</p><p align=left>2.5供货期限: 30天。&nbsp;&nbsp; </p><p align=left>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;三、 投标人资格要求</p><p>3.1一般要求：具有独立企业法人资格，营业执照经营范围同时含有计算机软硬件、网络设备和监控设备(或安防类）的销售资格。</p><p>3.2信誉要求：未处于财产被接管、冻结、破产状态，未处于四川省行政区域内有关行政处罚期间。</p><p>3.3业绩要求：2015年1月1日以来至少完成过1个合同金额在60万元以上的类似供货业绩。</p><p>3.4财务要求：2014-2016年无亏损。</p><p>&nbsp;&nbsp;&nbsp; 3.5本项目<u>不接受</u>联合体参加比选。</p><p>四、 比选文件的获取&nbsp;&nbsp; </p><p>4.1 凡有意参加比选者，请于<u>2017</u>年<u> 12 </u>月<u> 13 </u>日至<u> 2017</u>年<u>&nbsp; 12</u>月<u> 15</u>日，每日<u>&nbsp; 9：30&nbsp; </u>时至<u>&nbsp; 11：30&nbsp;&nbsp; </u>时，<u>&nbsp; 14：30&nbsp;&nbsp; </u>时至<u> 16：30 </u>时（北京时间，下同），在<u>四川海洪建设工程造价审计事务所有限公司</u>，持以下（证件、证书 ）购买比选文件：</p><p><a name=_Toc144974399>（1）购买人有效身份证及单位介绍信；</a></p><p>（2）《交通工程产品批量生产合格证》；</p><p>（3）企业营业执照副本、税务登记证副本、组织机构代码证副本（如为三证合一提供营业执照副本）</p><p>注：以上资料除单位介绍信留原件外，其他资料<strong>留加盖鲜章的复印件。</strong></p><p>4.2 比选文件每套售价150.00元，售后不退。</p><p>4.3 比选人<u>不提供</u>邮购比选文件服务。</p><p align=left>五. 参选文件的递交</p><p>5．1参选文件递交的截止时间（比选截止时间，下同）详见比选文件，地点：<u>成都交投集团招投标交易服务中心（成都市高新区盛和一路66号城南天府写字楼2楼） 。</u></p><p>5．2逾期送达的或者未送达指定地点的参选文件，比选人不予受理。</p><p align=left>6. 发布公告的媒介</p><p>本次比选公告在<strong><u>四川日报和成都交通投资集团有限公司网站（http://www.cdccic.com）</u></strong>上发布。<strong> </strong></p><p><strong>七、联系方式:</strong></p><p align=left style=background:rgb(248, 252=255=><strong>比选人（全称）：</strong><u>成都高速公路股份有限公司</u></p><p align=left style=background:rgb(248, 252=255=>地　　址：<u>成灌高速成都收费站（成都市高新区科新路1号）</u></p><p align=left style=background:rgb(248, 252=255=>邮　　编：<u>610071</u></p><p align=left style=background:rgb(248, 252=255=>联 系 人：<u>于先生</u></p><p align=left style=background:rgb(248, 252=255=>电　　话：<u>028-87958039</u></p><p align=left style=background:rgb(248, 252=255=>传　　真：<u>028-87958168</u></p><p align=left style=background:rgb(248, 252=255=><strong>&nbsp;</strong></p><p align=left>招标代理机构：<u>四川海洪建设工程造价审计事务所有限公司</u> </p><p>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：<u>成都市青羊区青羊大道97号1栋15楼1501号</u></p><p align=left>联&nbsp;&nbsp; 系&nbsp;&nbsp; 人：<u>魏先生</u></p><p>电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：<u>028-87715695</u></p><p align=left style=background:rgb(248, 252=255=><strong>&nbsp;</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 二○一七年十二月十一日</p>
+        </div>
+        
+        
+        
+        		
+		
+		
+          <p style="color:#CC3300">上一篇:&nbsp;
+          	<a href="http://www.cdccic.com/?/f/content/ID/11348.html" title="金牛区凤凰山公交场站综合体等24宗中心城区公交场站项目  商业策划与定位服务比选公告（第二次）">金牛区凤凰山公交场站综合体等24宗中心城区公交场站项目  商</a> &nbsp;<span>[2017-12-11]</span>
+         </p>
+         
+	<p  style="color:#CC3300">
+ 		下一篇:&nbsp; <a href="http://www.cdccic.com/?/f/content/ID/11353.html" title="成灌高速等三条高速公路2017-2019年度道路、桥梁检测项目比选公告">成灌高速等三条高速公路2017-2019年度道路、桥梁检测项</a> &nbsp;<span>[2017-12-12]</span>
+ 	</p>
+
+	 
+	   
+  
+        </div>
+      </div>
+    </div>
+    <div class="bott_line"></div>
+  </div>
+  <div class="clear"></div>
+  <div id="foot">
+
+    <div class="footer">
+      <dl>
+        <dd><a href="http://www.cdccic.com/"> 返回首页 </a></dd>
+        <dd><a href="javascript:;" onclick="javascript:addToIndex(this)">设为首页</a></dd>
+        <dd><a href="javascript:;" onclick="javascript:addFavorites('http://www.cdccic.com/', document.title)"> 加入收藏 </a></dd>
+        <dd><a href="http://www.cdccic.com/?/site/LinkUs/"> 联系我们 </a></dd>
+        <dd><a href="http://www.cdccic.com/?/f/index/t/map/"> 网站地图 </a></dd>
+        <dd><a href="http://www.cdccic.com/?/f/index/t/message/">留言板系统</a></dd>
+      </dl>
+    </div>
+    <div class="footer">         
+	     Copyright© 2007 成都交通投资集团有限公司　版权所有 All Rights Reserved.　蜀ICP备13009656号 &nbsp;&nbsp;&nbsp;技术支持: <a href="http://www.rsung.com/" target="_blank" style="color:#000;text-decoration:none;">阿商信息技术</a> 
+	     <script type= "text/javascript"  src= "http://lzgs.cdgs.gov.cn:8080/lzgs/static/demoData/CA9nYqjMCDH5GLZnsYlbCr5QaFPEx9YJONKnEPTJRglk0_3D.js "></script>
+     </div>
+  </div>
+</div>
+
+<script type="text/javascript" language="javascript">
+function addFavorites(url, title){
+	try{
+		window.external.AddFavorite(url, title);
+	}catch(e){
+		try{
+			window.sidebar.addPanel(title, url, "");
+		}catch(e){
+			alert('请点击Ctrl+D进行保存');
+		}
+	}
+}
+function addToIndex(obj){
+	url = window.location;
+	try
+        {
+            obj.style.behavior='url(#default#homepage)';
+            obj.setHomePage(url);
+        }
+        catch(e){
+            if(window.netscape) {
+                 try {
+                     netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+                 } 
+                 catch (e) { 
+                     alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将[signed.applets.codebase_principal_support]设置为'true'"); 
+                 }
+                    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                    prefs.setCharPref('browser.startup.homepage',vrl);
+                 }
+        }
+	
+}
+</script>
+
+</body>
+</html>
+
+<!-- Published at January 11, 2018, 3:43 pm, Powered by CMSfor 2.0 (专业版) © 2005 - 2012 Rsung Ltd. All Rights Reserved.  -->

@@ -1,0 +1,1351 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>通知公告-宣恩新闻网</title>
+    <link href="../ListAndContent/css/basic.css" rel="stylesheet" />
+    <link href="../ListAndContent/css/index.css" rel="stylesheet" />
+    <link href="../ListAndContent/css/content.css" rel="stylesheet" />
+    <link href="../ListAndContent/css/animate.min.css" rel="stylesheet" />
+    <script src="../ListAndContent/js/jquery-1.8.0.min.js"></script>
+    <script src="../ListAndContent/js/jquery.SuperSlide.2.1.1.js"></script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747f47575350554303060003 -->
+<link rel="stylesheet" type="text/css" href="../list.vsb.css" />
+<META Name="keywords" Content="宣恩 新闻,通知公告" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1020,'/list.jsp',-1,1318819973)</script>
+</head>
+<body>
+<!--头部start-->
+<div class="header">
+    <div class="top">
+        <div class="w-1018">
+            <div class="top-left">
+                <p class="time">今天是：
+                    <script>
+                        var weekdays = new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+                        Stamp = new Date();
+                        document.write( Stamp.getFullYear() + "年"+(Stamp.getMonth() + 1) +"月"+Stamp.getDate()+ "日"+ "&emsp; " + weekdays[Stamp.getDay()] );
+                    </script>
+                </p>
+                <p class="weather">
+                        <iframe width="145" scrolling="no" height="32" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=1&icon=1&py=xuanen&wind=1&num=2&site=12"></iframe>
+                    </p>
+                <p class="topname"><a href="#" target="_blank">中国民间文化艺术之乡</a></p>
+            </div>
+            <div class="top-right">
+                <span><a href="#" onclick="SetHome(this,'');">设为首页</a></span>|
+                <span><a href="#" onclick="shoucang('我的网站',location.href)">收藏本站</a></span>
+            </div>
+            <script type="text/javascript">
+                // 设置为主页
+                function SetHome(obj,vrl){
+                    try{
+                        obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+                    }
+                    catch(e){
+                        if(window.netscape) {
+                            try {
+                                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                            }
+                            catch (e) {
+                                alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                            }
+                            var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                            prefs.setCharPref('browser.startup.homepage',vrl);
+                        }else{
+                            alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+                        }
+                    }
+                }
+                // 加入收藏 兼容360和IE6
+                function shoucang(sTitle,sURL)
+                {
+                    try
+                    {
+                        window.external.addFavorite(sURL, sTitle);
+                    }
+                    catch (e)
+                    {
+                        try
+                        {
+                            window.sidebar.addPanel(sTitle, sURL, "");
+                        }
+                        catch (e)
+                        {
+                            alert("加入收藏失败，请使用Ctrl+D进行添加");
+                        }
+                    }
+                }
+            </script>
+
+
+
+        </div>
+    </div>
+    <div class="lsitem">
+        <div class="w-1018">
+            <div class="logo"><a href="../index.htm" target="_blank"><!--#begineditable name="LOGO" action="" layout="" tpltype="" contype="" clone="" viewid="1175" contentviewid="" tagname="LOGO"-->
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="http://www.xinxe.com" title="宣恩新闻网"><img src="../index/images/logo1.png" width="313" height="90" border="0" alt="宣恩新闻网" title="宣恩新闻网"></a><!--#endeditable--></a></div>
+            <div class="search">
+                <div class="ss"><!--#begineditable name="简单检索" action="" layout="" tpltype="" contype="" clone="" viewid="2033" contentviewid="" tagname="简单检索"--><script type="text/javascript">
+function checksearchu1(type){
+        var keyword = document.getElementById('_w_v_l_s_n_s_kword_show_idu1').value;
+        if(keyword==null||keyword==""){
+            alert("请输入查询内容");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("_w_v_l_s_n_s_kword_show_idu1").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("_w_v_l_s_n_s_kword_show_idu1").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("_w_v_l_s_n_s_kword_idu1").value = base64.encode(document.getElementById("_w_v_l_s_n_s_kword_show_idu1").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("_w_v_l_s_n_s_kword_show_idu1"));
+        return true;
+    } 
+</script>
+
+
+
+
+<form action="../copy_1_copy_2_list.jsp?wbtreeid=1020" method="post" id="au1a" name="au1a" onsubmit="return checksearchu1(1)" target="_blank" style="display: inline">
+    <input type="hidden" id="_w_v_l_s_n_s_kword_idu1" name="_w_v_l_s_n_s_kword" value="">
+    
+    
+    <input type="hidden" id="searchScope" name="searchScope" value="1">
+    
+    
+    <table width="100%" align="center" border="0" cellspacing="1" cellpadding="3">
+        <tr class="listTitle">
+            <td align="left" nowrap="nowrap" style="FONT-FAMILY: 宋体; FONT-SIZE: 9pt">
+         
+                <input type="text" name="_w_v_l_s_n_s_kword_show" id="_w_v_l_s_n_s_kword_show_idu1" value="" style="BACKGROUND-IMAGE: url(/system/resource/images/research/seach_bg.gif); BORDER-BOTTOM: #878787 1px solid; POSITION: relative; BORDER-LEFT: #878787 1px solid; PADDING-LEFT: 18px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: 宋体; HEIGHT: 18px; COLOR: #222222; FONT-SIZE: 10pt; BORDER-TOP: #878787 1px solid; BORDER-RIGHT: #878787 1px solid; PADDING-TOP: 3px">
+               
+                <select name="_w_v_l_s_n_s_kstype" id="_w_v_l_s_n_s_kstype_id" style="height:22px">
+                    <option value="1" selected>
+                                            全部
+                    </option>
+                    <option value="2">
+                        标题
+                    </option>
+                    <option value="3">
+                                             正文
+                    </option>
+                    <option value="4">
+                        标签
+                    </option>
+                    <option value="5">
+                                        摘要
+                    </option>
+                    <option value="6">
+                                        作者
+                    </option>
+                    
+                    <option value="7">
+                                        来源
+                    </option>
+                    <option value="8">
+                        栏目
+                    </option>
+                </select>
+                
+                
+                <select name="_w_v_l_s_n_s_kstime" id="_w_v_l_s_n_s_kstime_id" style="height:22px">
+                    <option value="0" selected>
+                        全部时间
+                    </option>
+                    <option value="2,018">2018</option>
+                    <option value="2,017">2017</option>
+                    <option value="2,016">2016</option>
+                    <option value="2,015">2015</option>
+                    <option value="2,014">2014</option>
+                    <option value="2,013">2013</option>
+                    <option value="2,012">2012</option>
+                    <option value="2,011">2011</option>
+                    <option value="2,010">2010</option>
+                    <option value="2,009">2009</option>
+                    <option value="2,008">2008</option>
+                    <option value="2,007">2007</option>
+                    <option value="2,006">2006</option>
+                    <option value="2,005">2005</option>
+                </select>
+                
+                
+                <INPUT align="absMiddle" src="/system/resource/images/research/seach22.gif" type="image" style="CURSOR: hand">
+            </td>
+        </tr>
+    </table>
+    
+    
+    
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+<!--#endeditable--></div>
+                 <p>网站不良信息举报电话:&nbsp;&nbsp;<a href="#" target="_blank">0718-5822333</a>&nbsp;&nbsp;<a href="#" target="_blank">0718-5821815</a> </p>
+            </div>
+            <div class="hdicon">
+                <div class="icon"><!--#begineditable name="网上读报链接图片" action="" layout="" tpltype="" contype="" clone="" viewid="1095" contentviewid="" tagname="网上读报链接图片"-->    <script language="javascript" src="/system/resource/js/dynclicks.js"></script>
+<a href="../esrbxexw.htm"><img src="../index/images/wsdb.png" width="69" height="68"></a>
+
+<!--#endeditable--></div>
+                <div class="icon iconmar"><!--#begineditable name="官方微博链接图片" action="" layout="" tpltype="" contype="" clone="" viewid="1096" contentviewid="" tagname="官方微博链接图片"-->    
+<a href="http://e.weibo.com/3681803103" target="_blank"><img src="../index/images/wb.png" width="69" height="68"></a>
+
+<!--#endeditable--></div>
+                <div class="icon"><a href="#"><img src="../ListAndContent/images/wx.png"></a>
+                    <div class="wx"><!--#begineditable name="官方微信二维码" action="" layout="" tpltype="" contype="" clone="" viewid="1097" contentviewid="" tagname="官方微信二维码"-->    
+<a href="#"><img src="../index/images/xuanengov.jpg" width="98" height="98" alt=""></a>
+
+<!--#endeditable--></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="w-1018">
+            <ul><!--#begineditable name="网站导航" action="" layout="" tpltype="" contype="" clone="" viewid="1008" contentviewid="" tagname="网站导航"--><li class="pl"><a href="../index.htm" target="_blank">网站首页</a></li>
+
+
+                    
+        <li><a href="../tzgg.htm" target="_blank">通知公告</a></li>
+                    
+        <li><a href="../xexw.htm" target="_blank">宣恩新闻</a></li>
+                    
+        <li><a href="../xzxw.htm" target="_blank">乡镇新闻</a></li>
+                    
+        <li><a href="../bmxw.htm" target="_blank">部门新闻</a></li>
+                    
+        <li><a href="../mtgz.htm" target="_blank">媒体关注</a></li>
+                    
+        <li><a href="../wxfb.htm" target="_blank">微信发布</a></li>
+                    
+        <li><a href="../gssp.htm" target="_blank">贡水时评</a></li>
+                    
+        <li><a href="http://pic.xuanen.gov.cn/" target="_blank">图片库</a></li>
+                    
+        <li><a href="../spk.htm" target="_blank">视频库</a></li>
+                    
+        <li><a href="../wzwh.htm" target="_blank">宣恩论坛</a></li>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+<!--#endeditable--></ul>
+        </div>
+    </div>
+</div>
+<!--头部end-->
+
+<div class="scrubber">
+    <div class="w-1018"><div class="bdc-right"><!--#begineditable name="当前位置" action="" layout="" tpltype="" contype="" clone="" viewid="1562" contentviewid="" tagname="当前位置"--><span>当前位置：</span>
+    <span><a href="../index.htm" target="_blank">网站首页</a> &gt; </span>
+    <span><a href="../tzgg.htm" target="_blank">通知公告</a> &gt; </span>
+<!--#endeditable--></div></div>
+</div>
+
+
+<div class="content">
+    <div class="w-1018">
+    <!--列表页左边内容start-->
+    <div class="main-left"><!--#begineditable name="静态翻页列表" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/stattplpagedownv2.jsp" tpltype="1" contype="news" clone="" viewid="1177" contentviewid="" tagname="静态翻页列表"--><script language="javascript" src="/system/resource/js/news/statpagedown.js"></script>    
+<ul class="main-Pli">
+        <!-- 是否为3张图片文章 -->
+          <li id="line_u7_0" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163530.htm" target="_blank" class="title-1">拟批准《宣恩县晓关侗族乡污水处理厂及配套管网 工程环境...</a>
+                        <span class="shared"> <a href="../info/1020/163530.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163530.htm" target="_blank">拟批准《宣恩县晓关侗族乡污水处理厂及配套管网
+工程环境影响报告表》的公示
+根据建设项目环境影响评价审批程序的有关规定，经审议，我局拟批准《宣恩县晓关侗族乡污水处理厂及配套管网
+工程环境影响报告表》。</a></p>
+                    <p class="time-a">2017年12月29日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_1" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162979.htm" target="_blank" class="title-1">建立宣恩县交通运输局2018年度交通项目建设工程招标代理...</a>
+                        <span class="shared"> <a href="../info/1020/162979.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162979.htm" target="_blank">建立宣恩县交通运输局2018年度交通项目建设工程招标代理机构数据库已于2017年12月18日在宣恩县交通运输局进行遴选，经评审委员会综合评审，现将入库名单公示如下：
+中标候选人名称：湖北中楚建设工程咨询有限公司
+中...</a></p>
+                    <p class="time-a">2017年12月29日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_2" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163672.htm" target="_blank" class="title-1">湖北省家居建材市场明码标价实施细则</a>
+                        <span class="shared"> <a href="../info/1020/163672.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163672.htm" target="_blank">  湖北省家居建材市场明码标价实施细则
+  第一条 为规范家居建材市场价格和收费行为，维护经营者和消费者合法权益，根据《中华人民共和国价格法》、《湖北省价格条例》、《关于商品和服务实行明码标价的规定》、...</a></p>
+                    <p class="time-a">2017年12月29日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_3" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163656.htm" target="_blank" class="title-1">宣恩县关于开展“我选湖北”大学生 实习实训和就业见习工...</a>
+                        <span class="shared"> <a href="../info/1020/163656.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163656.htm" target="_blank">各有关单位、高校学生：
+根据省委省政府《关于实施“我选湖北”计划大力促进大学生在鄂就业创业的意见》（鄂办发〔2017〕7号）精神，为积极引导和吸纳大学生（全日制大专及以上）实习实训和就业见习，鼓励更多大学毕...</a></p>
+                    <p class="time-a">2017年12月29日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_4" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163528.htm" target="_blank" class="title-1">拟批准《宣恩县万寨乡污水处理厂及配套管网工程环境影响...</a>
+                        <span class="shared"> <a href="../info/1020/163528.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163528.htm" target="_blank">拟批准《宣恩县万寨乡污水处理厂及配套管网工程环境影响报告表》的公示
+根据建设项目环境影响评价审批程序的有关规定，经审议，我局拟批准《宣恩县万寨乡污水处理厂及配套管网工程环境影响报告表》。</a></p>
+                    <p class="time-a">2017年12月29日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_5" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163610.htm" target="_blank" class="title-1">拟批准《宣恩县椿木营乡污水处理厂及配套管网工程环境影...</a>
+                        <span class="shared"> <a href="../info/1020/163610.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163610.htm" target="_blank">拟批准《宣恩县椿木营乡污水处理厂及配套管网工程环境影响报告表》的公示
+根据建设项目环境影响评价审批程序的有关规定，经审议，我局拟批准《宣恩县椿木营乡污水处理厂及配套管网工程环境影响报告表》。</a></p>
+                    <p class="time-a">2017年12月29日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_6" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163165.htm" target="_blank" class="title-1">关于开展全州城乡居民基本医疗保险管理系统上线工作的公告</a>
+                        <span class="shared"> <a href="../info/1020/163165.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163165.htm" target="_blank">一、城乡居民基本医疗保险新系统上线准备工作时间安排及有关业务影响
+2017年12月31日18时至2018年1月5日17时，全州统一进行城乡居民基本医疗保险管理系统上线工作。</a></p>
+                    <p class="time-a">2017年12月29日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_7" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163572.htm" target="_blank" class="title-1">宣恩县中等职业技术学校 学生餐厅玻璃幕墙、钢结构及雨棚...</a>
+                        <span class="shared"> <a href="../info/1020/163572.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163572.htm" target="_blank">（一）工作内容
+宣恩县中等职业技术学校学生餐厅玻璃幕墙、钢结构及雨棚工程预算审计，工程预算价815231.07元。</a></p>
+                    <p class="time-a">2017年12月28日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_8" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163589.htm" target="_blank" class="title-1">宣恩县电子商务公共服务中心遴选工作人员公告</a>
+                        <span class="shared"> <a href="../info/1020/163589.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163589.htm" target="_blank">宣恩县电子商务公共服务中心遴选工作人员 
+
+
+	公 告 
+
+
+	  
+
+
+	为了解决宣恩县电子商务公共服务中心工作人员不足问题，宣恩县电子商务公共服务中心面向县内外在职在编公务员、参照公务员法管理人员、事业单位工作人员...</a></p>
+                    <p class="time-a">2017年12月28日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_9" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163533.htm" target="_blank" class="title-1">拟批准《湖北省宣恩县龙河矿区建筑石料用灰岩矿开采项目...</a>
+                        <span class="shared"> <a href="../info/1020/163533.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163533.htm" target="_blank">拟批准《湖北省宣恩县龙河矿区建筑石料用灰岩矿开采项目环境影响报告表》的公示
+
+
+	 根据建设项目环境影响评价审批程序的有关规定，经审议，我局拟批准《湖北省宣恩县龙河矿区建筑石料用灰岩矿开采项目环境影响报告表...</a></p>
+                    <p class="time-a">2017年12月28日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_10" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163525.htm" target="_blank" class="title-1">拟批准《宣恩县李家河镇污水处理厂及配套管网工程环境影...</a>
+                        <span class="shared"> <a href="../info/1020/163525.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163525.htm" target="_blank">拟批准《宣恩县李家河镇污水处理厂及配套管网工程环境影响报告表》的公示
+
+
+	 根据建设项目环境影响评价审批程序的有关规定，经审议，我局拟批准《宣恩县李家河镇污水处理厂及配套管网工程环境影响报告表》。</a></p>
+                    <p class="time-a">2017年12月28日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_11" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163518.htm" target="_blank" class="title-1">县审改领导小组 关于印发《宣恩县县级审批服务“一次办好...</a>
+                        <span class="shared"> <a href="../info/1020/163518.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163518.htm" target="_blank">根据《州人民政府办公室关于印发恩施州推行审批服务“一次办好”实施方案的通知》（恩施州政办发〔2017〕47号）文件要求，现将《宣恩县县级审批服务“一次办好”事项清单（第一批）》印发给...</a></p>
+                    <p class="time-a">2017年12月28日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_12" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163476.htm" target="_blank" class="title-1">关于开展摩托车交通违法行为专项整治的通告</a>
+                        <span class="shared"> <a href="../info/1020/163476.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163476.htm" target="_blank">广大摩托车主及驾驶人：
+
+
+	为深入推进“六城”同创和省级文明县城创建活动，有效预防和减少摩托车交通事故的发生，创造和谐、安全、畅通的道路交通环境，宣恩县公安局交通警察大队决定自2018年元月起在全县范围内持...</a></p>
+                    <p class="time-a">2017年12月27日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_13" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163419.htm" target="_blank" class="title-1">宣恩经纬投资有限公司招聘易地扶贫搬迁工作人员成绩公示</a>
+                        <span class="shared"> <a href="../info/1020/163419.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163419.htm" target="_blank">    2017年12月26日，宣恩经纬投资有限公司招聘易地扶贫搬迁工作人员考试工作已完成，现将成绩予以公示。</a></p>
+                    <p class="time-a">2017年12月27日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_14" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163430.htm" target="_blank" class="title-1">关于对209国道和232省道椒园集镇部分路段改造实行交通管...</a>
+                        <span class="shared"> <a href="../info/1020/163430.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163430.htm" target="_blank">广大车辆驾驶人、行人:
+
+
+	根据“六城”同创工作要求，现将对椒园集镇施行二期改造，因工程建设需要，需对椒园集镇209国道椒园小学至雄风酒楼路段(1983+500 至1984+800) 和232省道亚麦食品公司至锣圈岩交叉路口路段处...</a></p>
+                    <p class="time-a">2017年12月26日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_15" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163409.htm" target="_blank" class="title-1">关于申报2018年度“泛海扬帆—湖北大学生创业行动”创业...</a>
+                        <span class="shared"> <a href="../info/1020/163409.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163409.htm" target="_blank">为顺利推进“泛海扬帆-湖北大学生创业行动”项目，根据《湖北省发展和改革委员会、湖北省人力资源和社会保障厅、共青团湖北省委员会关于实施中国西部人才开发基金会、泛海公益基金会联合出资赞助的“泛海扬帆-湖北大...</a></p>
+                    <p class="time-a">2017年12月26日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_16" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163406.htm" target="_blank" class="title-1">宣恩县2017年第四批就业培训补贴公示</a>
+                        <span class="shared"> <a href="../info/1020/163406.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163406.htm" target="_blank">根据《湖北省就业专项资金管理办法》（鄂财社规〔2011〕19号）、《湖北省就业培训管理暂行办法》（鄂人社发〔2010〕69号）、《关于进一步加强就业培训工作的实施意见》（鄂人社发〔2012〕43号）和《关于做好州直精准...</a></p>
+                    <p class="time-a">2017年12月26日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_17" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163277.htm" target="_blank" class="title-1">宣恩县移民局关于“和谐移民新村”和“移民创业之星”名...</a>
+                        <span class="shared"> <a href="../info/1020/163277.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163277.htm" target="_blank">根据移民工作需要，结合“出彩宣恩人”系列评选，我局今年在全县大中型水库库区和移民安置区开展了“和谐移民新村”和“移民创业之星”评选。</a></p>
+                    <p class="time-a">2017年12月25日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_18" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163229.htm" target="_blank" class="title-1">板场村四组跨河公路桥修建工程遴选公告</a>
+                        <span class="shared"> <a href="../info/1020/163229.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163229.htm" target="_blank">板场村四组跨河公路桥修建工程遴选公告
+
+
+	 
+
+
+	1.遴选条件
+
+
+	本招标项目板场村四组跨河公路桥修建工程，业主为万寨乡人民政府，资金来源扶贫专项资金，万寨乡人民政府就板场村四组跨河公路桥修建工程进行公开遴选。</a></p>
+                    <p class="time-a">2017年12月23日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_19" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163175.htm" target="_blank" class="title-1">宣恩县珠山镇人民政府购买商品房转作易地扶贫搬迁安置房...</a>
+                        <span class="shared"> <a href="../info/1020/163175.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163175.htm" target="_blank">1．采购条件本采购项目为宣恩县珠山镇人民政府购买商品房转作易地扶贫搬迁安置房采购项目，项目采购人为宣恩县珠山镇人民政府。为解决建档立卡贫困户易地扶贫搬迁安置住房问题，提高满意率，现进行公开二次采购，特邀请有兴趣的潜在供应商参加。2．采购范围采购范围：在珠山镇...</a></p>
+                    <p class="time-a">2017年12月22日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_20" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163005.htm" target="_blank" class="title-1">宣恩县人大常委会公告</a>
+                        <span class="shared"> <a href="../info/1020/163005.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163005.htm" target="_blank">宣恩县第十八届人民代表大会常务委员会第七次会议审议了县人大常委会代表资格审查委员会关于代表变动情况的报告。根据代表法、选举法的有关规定，现将县十八届人大一次会议以来代表资格终止的代表名单公告如下：宣恩县第十八届人民代表大会代表名额为200名。县十八届人大一次会...</a></p>
+                    <p class="time-a">2017年12月19日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_21" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/163006.htm" target="_blank" class="title-1">宣恩县人大常委会关于召开县第十八届人民代表大会第二次...</a>
+                        <span class="shared"> <a href="../info/1020/163006.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/163006.htm" target="_blank">根据《中华人民共和国地方各级人民代表大会和地方各级人民政府组织法》规定，经宣恩县第十八届人大常委会第七次会议决定：宣恩县第十八届人民代表大会第二次会议于2017年12月22日至12月25日在宣恩县城召开，会期四天，建议会议议程为：一、听取和审查县人民政府工作报告；二、...</a></p>
+                    <p class="time-a">2017年12月19日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_22" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162916.htm" target="_blank" class="title-1">宣恩县珠山镇人民政府购买商品房转作易地扶贫搬迁安置房...</a>
+                        <span class="shared"> <a href="../info/1020/162916.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162916.htm" target="_blank">1．采购条件本采购项目为宣恩县珠山镇人民政府购买商品房转作易地扶贫搬迁安置房采购项目，项目采购人为宣恩县珠山镇人民政府。为解决建档立卡贫困户易地扶贫搬迁安置住房问题，提高满意率，现进行公开采购，特邀请有兴趣的潜在供应商参加。2．采购范围采购范围：在珠山镇范围...</a></p>
+                    <p class="time-a">2017年12月19日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_23" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162906.htm" target="_blank" class="title-1">房屋信息公示</a>
+                        <span class="shared"> <a href="../info/1020/162906.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162906.htm" target="_blank">睿山华庭1幢2单元503号房，面积112.11m2，该套房源原买受人张龙、杨世明，因买受人无法办理按揭贷款，申请退房，并已于2017年12月18日办理了备案注销，且原买受人已与出卖人厘清了所有退房手续及费用。</a></p>
+                    <p class="time-a">2017年12月18日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_24" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162891.htm" target="_blank" class="title-1">关于进一步优化地税纳税服务工作的通告</a>
+                        <span class="shared"> <a href="../info/1020/162891.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162891.htm" target="_blank">12月11日，县电视问政节目播放了纳税人在县国地税联合办税服务大厅办税不畅导致“多头跑”以及部分工作人员上班时间看手机的短片。</a></p>
+                    <p class="time-a">2017年12月18日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_25" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162801.htm" target="_blank" class="title-1">关于开展2017年度兑现生态公益林生态效益补偿金工作的通...</a>
+                        <span class="shared"> <a href="../info/1020/162801.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162801.htm" target="_blank">广大生态公益林农户：
+
+
+	    生态公益林建设是天然林资源保护工程二期建设的重要内容，是生态建设的重要组成部分，实行生态公益林效益补偿基金制度，既有利于生态公益林的保护，又有利于林农收入的增长。</a></p>
+                    <p class="time-a">2017年12月15日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_26" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162729.htm" target="_blank" class="title-1">宣恩县发展和改革局2017年公开遴选工作人员公示</a>
+                        <span class="shared"> <a href="../info/1020/162729.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162729.htm" target="_blank">为充实配齐宣恩县发展和改革局干部队伍力量，优化干部队伍结构，确保工作运转，经宣恩县发展和改革局党组研究，决定面向县内外在职在编公务员遴选工作人员。</a></p>
+                    <p class="time-a">2017年12月14日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_27" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162677.htm" target="_blank" class="title-1">宣恩县2017年秋季学期雨露计划补助资金拟发放名单公示</a>
+                        <span class="shared"> <a href="../info/1020/162677.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162677.htm" target="_blank">为加强对精准扶贫雨露计划对象管理，提高精准扶贫工作透明度，现将宣恩县2017年秋季学期雨露计划补助资金拟发放公示名单予以公示。</a></p>
+                    <p class="time-a">2017年12月14日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_28" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162663.htm" target="_blank" class="title-1">宣恩经纬投资有限公司招聘启事</a>
+                        <span class="shared"> <a href="../info/1020/162663.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162663.htm" target="_blank">宣恩经纬投资有限公司招聘启事
+
+
+	 
+
+
+	宣恩经纬投资有限公司是宣恩县人民政府国有资产监督管理局国有独资企业，负责组织实施农村安全饮水及供水工程项目、城乡基础设施建设项目；旅游资源的管理、开发与经营；实施易...</a></p>
+                    <p class="time-a">2017年12月13日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_29" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162617.htm" target="_blank" class="title-1">房屋信息公示</a>
+                        <span class="shared"> <a href="../info/1020/162617.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162617.htm" target="_blank">董昌云、胡红与蓝堡3A花园签订的1幢1单元603号房（面积118.25m2），按相关程序，已撤销网签合同（合同编号：EYS-XE-2017-000920）。</a></p>
+                    <p class="time-a">2017年12月13日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_30" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162543.htm" target="_blank" class="title-1">关于公布规范性文件清理结果的通知</a>
+                        <span class="shared"> <a href="../info/1020/162543.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162543.htm" target="_blank">各乡镇人民政府，县政府各部门：
+
+
+	根据《湖北省行政规范性文件管理办法》（省人民政府令379号）、《省人民政府办公厅关于全面开展规范性文件清理工作的通知》（鄂政办电[2016]180号）文件精神，县人民政府对2012年...</a></p>
+                    <p class="time-a">2017年12月12日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_31" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162509.htm" target="_blank" class="title-1">宣恩县畜牧兽医局2017年公益性岗位招聘 公告</a>
+                        <span class="shared"> <a href="../info/1020/162509.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162509.htm" target="_blank">根据工作需要，经请示县人民政府同意，宣恩县畜牧兽医局研究决定，面向社会公开招聘公益性岗位工作人员2名。</a></p>
+                    <p class="time-a">2017年12月12日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_32" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162479.htm" target="_blank" class="title-1">2017年宣恩县第三批大学生实习实训补贴公示</a>
+                        <span class="shared"> <a href="../info/1020/162479.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162479.htm" target="_blank">为落实更加积极的就业政策，根据《省人力资源和社会保障厅关于做好大学生实习实训补贴有关工作的通知》（鄂人社发〔2017〕39号）和《关于做好宣恩县大学生实习实训补贴有关工作的通知》（宣人社文〔2017〕104号）等文...</a></p>
+                    <p class="time-a">2017年12月11日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_33" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162478.htm" target="_blank" class="title-1">宣恩县2017年下半年公益性岗位社保补贴及岗位补贴公示</a>
+                        <span class="shared"> <a href="../info/1020/162478.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162478.htm" target="_blank">根据《湖北省就业专项资金管理办法》（鄂财社规〔2011〕19号）、《关于进一步规范公益性岗位开发管理工作有关问题的通知》（恩施州人社发〔2017〕23号）文件规定，宣恩县27个单位146人申报2017下半年公益性岗位社会保...</a></p>
+                    <p class="time-a">2017年12月11日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_34" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162368.htm" target="_blank" class="title-1">G209宣恩境危桥加固项目（灾后重建工程）凉风洞桥桥面交...</a>
+                        <span class="shared"> <a href="../info/1020/162368.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162368.htm" target="_blank">G209宣恩境危桥加固项目（灾后重建工程）凉风洞桥桥面交通管制公告
+
+
+	 
+
+
+	G209宣恩境危桥加固项目（灾后重建工程）凉风洞桥施工即将进入拱圈混凝土浇筑阶段，为确保加固工程质量，在混凝土浇筑及养生阶段必须封闭桥...</a></p>
+                    <p class="time-a">2017年12月08日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_35" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162357.htm" target="_blank" class="title-1">中共恩施州委组织部干部任前公示公告（2017年第54号）</a>
+                        <span class="shared"> <a href="../info/1020/162357.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162357.htm" target="_blank">根据《党政领导干部选拔任用工作条例》的规定，现将拟任职干部情况予以公示。</a></p>
+                    <p class="time-a">2017年12月07日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_36" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/162355.htm" target="_blank" class="title-1">中共恩施州委组织部干部任前公示公告（2017年第51号）</a>
+                        <span class="shared"> <a href="../info/1020/162355.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/162355.htm" target="_blank">根据《党政领导干部选拔任用工作条例》的规定，现将拟任职干部情况予以公示。</a></p>
+                    <p class="time-a">2017年12月07日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_37" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/161649.htm" target="_blank" class="title-1">关于“宣恩县万寨、椿木营、高罗、李家河、晓关、沙道沟...</a>
+                        <span class="shared"> <a href="../info/1020/161649.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/161649.htm" target="_blank">根据《环境影响评价法》、《环境影响评价公众参与暂行办法》的有关规定，现将有关内容公告如下：
+
+
+	    一、项目概况
+
+
+	项目名称：宣恩县万寨、椿木营、高罗、李家河、晓关、沙道沟、长潭河乡镇污水处理厂建设项...</a></p>
+                    <p class="time-a">2017年12月07日</p>
+                </div>
+            </li>
+
+
+
+
+
+      <!-- 是否为3张图片文章 -->
+          <li id="line_u7_38" style="display:none;">
+                <div class="list1">
+                    <h4><a href="../info/1020/161562.htm" target="_blank" class="title-1">宣恩县学生校外托管机构管理暂行办法</a>
+                        <span class="shared"> <a href="../info/1020/161562.htm"><img src="../ListAndContent/images/shareb.png" alt=""></a> 分享
+                            <div class="bdsharebuttonbox bb"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["mshare","qzone","tsina","weixin","renren","tqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </span>
+                    </h4>
+                    <p><a href="../info/1020/161562.htm" target="_blank">宣恩县学生校外托管机构管理暂行办法
+
+
+	（修订稿）
+
+
+	
+
+	第一章
+总则
+
+
+	
+
+	第一条  为规范和加强对学生校外托管机构的管理，保障学生的安全与健康，根据有关法律法规，结合我县实际，制定本办法。</a></p>
+                    <p class="time-a">2017年12月06日</p>
+                </div>
+            </li>
+
+
+
+
+
+</ul>
+<div class="page">
+    <INPUT TYPE="hidden" NAME="actiontype" VALUE=""><input type="hidden" name="startnum" value="18"><input type="hidden" name="urltype" value="tree.TreeTempUrl"><input type="hidden" name="endnum" value="57"><input type="hidden" name="queryParam" value="urltype=tree.TreeTempUrl&amp;wbtreeid=1020"><input type="hidden" name="_scode_" value="1515985005572"><input type="hidden" name="outFlag" value="false"><input type="hidden" name="wbtreeid" value="1020">
+<style type="text/css">
+.headStyle1fqkr59era, .headStyle1fqkr59era td, .headStyle1fqkr59era div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}
+.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: pointer; line-height:14px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#BDDBF7));background: -moz-linear-gradient( top,#ffffff,#BDDBF7);background:-ms-linear-gradient(top,#ffffff 0%,#bddbf7 100%);}
+.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}
+.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}
+.headStyle1fqkr59era a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1fqkr59era a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}
+.headStyle1fqkr59era .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1fqkr59era .SelectList {font-size: 12px;font-family:宋体;line-height:14px;}
+.headStyle1fqkr59era .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}
+.headStyle1fqkr59era .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}
+.headStyle1fqkr59era .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1fqkr59era .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}
+.headStyle1fqkr59era .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1fqkr59era a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}
+.headStyle1fqkr59era a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}
+.headStyle1fqkr59era a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}
+</style><script language="javascript" src="/system/resource/js/gotopage.js"></script><script type="text/javascript">function a1177_gopage_fun(){_simple_list_gotopage_fun(76,'a1177GOPAGE',2)}</script><table cellspacing="0" cellpadding="0" border="0"><TR><td colspan="0"><table cellspacing="0" class="headStyle1fqkr59era" width="100%" cellpadding="1"><tr valign="middle"><TD nowrap align="left" width="1%" id="fanye1177">共1518条&nbsp;&nbsp;2/76&nbsp;</td><td nowrap align="left"><div><a href="../tzgg.htm" class="Prev">首页</a><a href="../tzgg.htm" class="Prev">上页</a><a href="74.htm" class="Next">下页</a><a href="1.htm" class="Next">尾页</a>&nbsp;&nbsp;<input align="absmiddle" type="button" class="defaultButtonStyle" id="gotopagebut" name="a1177Find" value="转到" onclick="javascript:a1177_gopage_fun()"><INPUT size="2" align="absmiddle" class="defaultInputStyle" NAME="a1177GOPAGE" id="a1177GOPAGE" VALUE="" style="margin-left:1px;margin-right:1px">页</div></td></tr></table></table>
+</div>
+<script language="javascript" src="statlist.js"></script>
+
+<script>
+    try{_vsb_showNewsStaticList("u7", 39, 0, pageCount,rowCount);}catch(e){}
+</script>
+<script>_showDynClickBatch(['dynclicks_u7_163530','dynclicks_u7_162979','dynclicks_u7_163672','dynclicks_u7_163656','dynclicks_u7_163528','dynclicks_u7_163610','dynclicks_u7_163165','dynclicks_u7_163572','dynclicks_u7_163589','dynclicks_u7_163533','dynclicks_u7_163525','dynclicks_u7_163518','dynclicks_u7_163476','dynclicks_u7_163419','dynclicks_u7_163430','dynclicks_u7_163409','dynclicks_u7_163406','dynclicks_u7_163277','dynclicks_u7_163229','dynclicks_u7_163175','dynclicks_u7_163005','dynclicks_u7_163006','dynclicks_u7_162916','dynclicks_u7_162906','dynclicks_u7_162891','dynclicks_u7_162801','dynclicks_u7_162729','dynclicks_u7_162677','dynclicks_u7_162663','dynclicks_u7_162617','dynclicks_u7_162543','dynclicks_u7_162509','dynclicks_u7_162479','dynclicks_u7_162478','dynclicks_u7_162368','dynclicks_u7_162357','dynclicks_u7_162355','dynclicks_u7_161649','dynclicks_u7_161562'],[163530,162979,163672,163656,163528,163610,163165,163572,163589,163533,163525,163518,163476,163419,163430,163409,163406,163277,163229,163175,163005,163006,162916,162906,162891,162801,162729,162677,162663,162617,162543,162509,162479,162478,162368,162357,162355,161649,161562],"wbnews", 1318819973)</script><!--#endeditable--></div>
+    <!--列表页左边内容end-->
+
+    <!--列表页右边内容start-->
+    <div class="main-right">
+        <div class="jctjSroll">
+            <h1>精彩推荐</h1>
+            <div class="picScroll-left5">
+                <div class="hd">
+                    <a class="next"></a>
+                    <a class="prev"></a>
+                    <span class="pageState"><span>1</span>/3</span>
+                </div>
+                <div class="bd">
+                    <div class="tempWrap">
+                        <ul class="picList">
+                            <li>
+                                <div class="fpic"><!--#begineditable name="精彩推荐图片01" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1165" contentviewid="" tagname="精彩推荐图片01"-->
+<a href="../info/1015/164656.htm" target="_blank"><img src="/__local/B/E4/4A/CC313C3121B6BC93E2D7A8F7408_C18AE5C6_C6FD.jpg" width="276" height="155" alt=""></a>
+                                    <div class="subbb"><a href="../info/1015/164656.htm" target="_blank">【精准扶贫看宣恩】“以心...</a> </div>
+                                
+
+<script>_showDynClickBatch(['dynclicks_u8_164656'],[164656],"wbnews", 1318819973)</script>
+<!--#endeditable--></div>
+                                <ol><!--#begineditable name="精彩推荐文章列表01" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1166" contentviewid="" tagname="精彩推荐文章列表01"--><li><a href="../info/1015/164685.htm" target="_blank">刘智勇到晓关侗族乡调研精准扶贫工作</a></li>
+                                    
+<li><a href="../info/1015/164738.htm" target="_blank">奋力谱写宣恩更加出彩新篇章</a></li>
+                                    
+<li><a href="../info/1015/164736.htm" target="_blank">同创“六城”演绎山乡蝶变</a></li>
+                                    
+<li><a href="../info/1015/164754.htm" target="_blank">宣恩召开2017年精准扶贫考评工作培训...</a></li>
+                                    
+<script>_showDynClickBatch(['dynclicks_u9_164685','dynclicks_u9_164738','dynclicks_u9_164736','dynclicks_u9_164754'],[164685,164738,164736,164754],"wbnews", 1318819973)</script>
+<!--#endeditable--></ol>
+                            </li>
+                            <li>
+                                <div class="fpic"><!--#begineditable name="精彩推荐图片02" action="" layout="" tpltype="" contype="" clone="" viewid="1167" contentviewid="" tagname="精彩推荐图片02"-->
+<a href="../info/1021/162754.htm" target="_blank"><img src="/__local/7/3E/81/45A34F787E665885A9F2EE2942C_4DA5C646_12EB0.jpg" width="276" height="155" alt=""></a>
+                                    <div class="subbb"><a href="../info/1021/162754.htm" target="_blank">念好“三字”真经 谱写扶贫...</a> </div>
+                                
+
+<script>_showDynClickBatch(['dynclicks_u10_162754'],[162754],"wbnews", 1318819973)</script>
+<!--#endeditable--></div>
+                                <ol><!--#begineditable name="精彩推荐文章列表02" action="" layout="" tpltype="" contype="" clone="" viewid="1168" contentviewid="" tagname="精彩推荐文章列表02"--><li><a href="../info/1021/164507.htm" target="_blank">县公安局：多措并举确保恶劣天气路畅人安</a></li>
+                                    
+<li><a href="../info/1020/164756.htm" target="_blank">宣恩县城镇供水水质监测信息日发布工...</a></li>
+                                    
+<li><a href="http://www.ce.cn/xwzx/gnsz/gdxw/201801/14/t20180114_27721090.shtml" target="_blank">稳中求进开新局——新年经济生活扫描</a></li>
+                                    
+<li><a href="https://mp.weixin.qq.com/s?__biz=MjM5MjAxNDM4MA==&mid=2666182282&idx=1&sn=3735e0017774a816f9da7a1923d1341b&chksm=bdb2dfc98ac556dfa57c82fa5822e2845e823a4d376daeba82e593456405d2ebc566e4a8fa2c&mpshare=1&scene=1&srcid=0114OuAQP3qxiSYDlkTXoEcY#rd" target="_blank">中纪委释放反腐新动向，今年要严查这6...</a></li>
+                                    
+<script>_showDynClickBatch(['dynclicks_u11_164507','dynclicks_u11_164756','dynclicks_u11_164751','dynclicks_u11_164749'],[164507,164756,164751,164749],"wbnews", 1318819973)</script>
+<!--#endeditable--></ol>
+                            </li>
+                            <li>
+                                <div class="fpic"><!--#begineditable name="精彩推荐图片03" action="" layout="" tpltype="" contype="" clone="" viewid="1169" contentviewid="" tagname="精彩推荐图片03"-->
+<a href="../info/1032/164677.htm" target="_blank"><img src="/__local/F/0B/D5/E3F82C1A42777B02716E495EBEB_551B4E24_B369.jpg" width="276" height="155" alt=""></a>
+                                    <div class="subbb"><a href="../info/1032/164677.htm" target="_blank">沙道沟：健康扶贫暖民心</a> </div>
+                                
+
+<script>_showDynClickBatch(['dynclicks_u12_164677'],[164677],"wbnews", 1318819973)</script>
+<!--#endeditable--></div>
+                                <ol><!--#begineditable name="精彩推荐文章列表03" action="" layout="" tpltype="" contype="" clone="" viewid="1170" contentviewid="" tagname="精彩推荐文章列表03"--><li><a href="../info/1032/164677.htm" target="_blank">沙道沟：健康扶贫暖民心</a></li>
+                                    
+<li><a href="../info/1032/164734.htm" target="_blank">长潭河：扎实推进“河长制” 守护碧水...</a></li>
+                                    
+<li><a href="../info/1032/164732.htm" target="_blank">晓关：计生“春风行动”暖人心</a></li>
+                                    
+<li><a href="../info/1032/164730.htm" target="_blank">珠山镇“点穴式”开展冬季消防安全大检查</a></li>
+                                    
+<script>_showDynClickBatch(['dynclicks_u13_164677','dynclicks_u13_164734','dynclicks_u13_164732','dynclicks_u13_164730'],[164677,164734,164732,164730],"wbnews", 1318819973)</script>
+<!--#endeditable--></ol>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script>
+                jQuery(".picScroll-left5").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:1});
+            </script>
+        </div>
+        <div class="oneimg"><!--#begineditable name="内容页右侧广告01" action="webber.wbst.com.image.ColumnImage" layout="/system/_component/columnimage/tplimagelist.jsp" tpltype="1" contype="image" clone="" viewid="1171" contentviewid="" tagname="内容页右侧广告01"-->    
+<a href="http://zgm.12371.cn/special/" target="_blank"><img src="../images/W020130911457139241897.jpg" width="276" height="100" alt=""></a>
+
+<!--#endeditable--></div>
+        <div class="vedionews">
+            <h1><a href="../spk.htm" target="_blank">视频新闻 </a> </h1>
+            <div class="vediocont">
+                <div class="shipin"><!--#begineditable name="视频新闻推荐" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1173" contentviewid="" tagname="视频新闻推荐"-->    <li>
+        <div class="vidoli1"><a href="../info/1041/117114.htm" target="_blank"><img src="/__local/B/82/F2/841DD2ABACAE7DBA9ABDBC65615_BE314462_A742.png" width="128" height="95" alt=""></a>
+            <div class="vidoli1sub"><a href="../info/1041/117114.htm" target="_blank">拥抱宣恩</a></div>
+        </div>
+    </li>
+    <li class="marleft">
+        <div class="vidoli1"><a href="../info/1041/115101.htm" target="_blank"><img src="/__local/A/82/29/AC684F50025AC1C454D0D34AFA9_E5B3D97D_512C9.jpg" width="128" height="95" alt=""></a>
+            <div class="vidoli1sub"><a href="../info/1041/115101.htm" target="_blank">2017年宣恩春节灯...</a></div>
+        </div>
+    </li>
+    <li class="martop">
+        <div class="vidoli1"><a href="../info/1041/115095.htm" target="_blank"><img src="/__local/3/1F/BD/AF8D601C1782620B90B25894038_F9BBAC8B_13AB8.png" width="128" height="95" alt=""></a>
+            <div class="vidoli1sub"><a href="../info/1041/115095.htm" target="_blank">在水一方，多彩宣恩</a></div>
+        </div>
+    </li>
+    <li class="marleft martop">
+        <div class="vidoli1"><a href="../info/1041/115097.htm" target="_blank"><img src="/__local/2/B8/F9/8C4CDB859B723764E2FEEFF7DBA_DD62DBD9_E335.jpg" width="128" height="95" alt=""></a>
+            <div class="vidoli1sub"><a href="../info/1041/115097.htm" target="_blank">CCTV13：远方的家-...</a></div>
+        </div>
+    </li>
+<script>_showDynClickBatch(['dynclicks_u15_117114','dynclicks_u15_115101','dynclicks_u15_115095','dynclicks_u15_115097'],[117114,115101,115095,115097],"wbnews", 1318819973)</script>
+<!--#endeditable--></div>
+                <ul class="pp"><!--#begineditable name="视频新闻文章列表" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1174" contentviewid="" tagname="视频新闻文章列表"--><li><a href="../info/1041/163278.htm" target="_blank">宣恩新闻20171224</a></li>
+
+<li><a href="../info/1041/163247.htm" target="_blank">宣恩新闻20171223</a></li>
+
+<li><a href="../info/1041/163250.htm" target="_blank">宣恩新闻20171222</a></li>
+
+<script>_showDynClickBatch(['dynclicks_u16_163278','dynclicks_u16_163247','dynclicks_u16_163250'],[163278,163247,163250],"wbnews", 1318819973)</script>
+<!--#endeditable--></ul>
+            </div>
+        </div>
+        <div class="hotlist">
+            <h1><a href="javascript:;" target="_blank"> 热点排行</a> </h1>
+            <div><ul><!--#begineditable name="热点排行" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1181" contentviewid="" tagname="热点排行"--><li class="hotlist1"><span>1</span><a href="../info/1015/164656.htm" target="_blank">【精准扶贫看宣恩】“以心交心”...</a></li>
+<li class="hotlist1"><span>2</span><a href="../info/1015/164627.htm" target="_blank">深山冰雪 在凛冽中芳华盛开</a></li>
+<li class="hotlist1"><span>3</span><a href="../info/1015/164575.htm" target="_blank">宣恩领导干部学习贯彻党的十九大...</a></li>
+<li><span>4</span><a href="../info/1015/164521.htm" target="_blank">康辉文化旅游产业集团全文兵来宣...</a></li>
+<li><span>5</span><a href="../info/1015/164503.htm" target="_blank">警营开放日 零距离接触110</a></li>
+<li><span>6</span><a href="../info/1015/164076.htm" target="_blank">宣恩县首家新时代农民讲习所成立</a></li>
+<li><span>7</span><a href="../info/1015/163953.htm" target="_blank">宣恩各部门联动积极应对低温冰雪天气</a></li>
+<li><span>8</span><a href="../info/1015/163790.htm" target="_blank">宣恩各级各部门“主题党日”活动...</a></li>
+<li><span>9</span><a href="../info/1015/163798.htm" target="_blank">“爱心送水”获锦旗</a></li>
+<li><span>10</span><a href="../info/1015/163694.htm" target="_blank">县“四大家”领导（扩大）会议召开</a></li>
+<script>_showDynClickBatch(['dynclicks_u17_164656','dynclicks_u17_164627','dynclicks_u17_164575','dynclicks_u17_164521','dynclicks_u17_164503','dynclicks_u17_164076','dynclicks_u17_163953','dynclicks_u17_163790','dynclicks_u17_163798','dynclicks_u17_163694'],[164656,164627,164575,164521,164503,164076,163953,163790,163798,163694],"wbnews", 1318819973)</script>
+<!--#endeditable--></ul></div>
+        </div>
+        <div class="banner9"><!--#begineditable name="内容页右侧广告02" action="webber.wbst.com.image.ColumnImage" layout="/system/_component/columnimage/tplimagelist.jsp" tpltype="1" contype="image" clone="" viewid="1172" contentviewid="" tagname="内容页右侧广告02"-->    
+<a href="http://www.wenming.cn/specials/zxdj/hxjz/"><img src="../images/W020141223550536490909.jpg" width="276" height="311" alt=""></a>
+
+<!--#endeditable--></div>
+    </div>
+    <!--列表页右边内容end-->
+    </div>
+</div>
+
+
+
+
+<!--相关链接start-->
+<div class="flink">
+    <div class="w-1018">
+        <h6 class="flink-left"><a href="#">相关链接</a></h6>
+        <div class="flink-right"><ul><!--#begineditable name="相关链接01" action="" layout="" tpltype="" contype="" clone="" viewid="2021" contentviewid="" tagname="相关链接01"--><li><a href="http://www.enshi.cn/" target="_blank">恩施新闻网</a></li>
+<li><a href="http://www.estv.com.cn/" target="_blank">云上恩施</a></li>
+<li><a href="http://www.jsw118.com/" target="_blank">建始新闻网</a></li>
+<li><a href="http://www.lc-news.com" target="_blank">中国利川网</a></li>
+<li><a href="http://www.cjbd.com.cn/" target="_blank">长江巴东网</a></li>
+<li><a href="http://www.laifeng.net/" target="_blank">来凤新闻网</a></li>
+<li><a href="http://www.hf.gov.cn" target="_blank">中国鹤峰网</a></li>
+<li><a href="http://www.hbenshi.gov.cn/" target="_blank">中国硒都网</a></li>
+<li><a href="http://www.xfxww.com/" target="_blank">中国咸丰网</a></li>
+<li><a href="http://news.hbtv.com.cn/" target="_blank">湖北网台</a></li>
+<li><a href="http://www.hb.xinhuanet.com/" target="_blank">新华湖北频道</a></li>
+<li><a href="http://www.cjn.cn/" target="_blank">长江网</a></li>
+<li><a href="http://www.hb.chinanews.com/" target="_blank">湖北新闻网</a></li>
+<script>_showDynClickBatch(['dynclicks_u19_36391','dynclicks_u19_36392','dynclicks_u19_36393','dynclicks_u19_36394','dynclicks_u19_36396','dynclicks_u19_36397','dynclicks_u19_36398','dynclicks_u19_36399','dynclicks_u19_36395','dynclicks_u19_57319','dynclicks_u19_57392','dynclicks_u19_57410','dynclicks_u19_58935','dynclicks_u19_57301','dynclicks_u19_57342','dynclicks_u19_58864','dynclicks_u19_59201','dynclicks_u19_57429','dynclicks_u19_59202','dynclicks_u19_59203','dynclicks_u19_59217','dynclicks_u19_59229','dynclicks_u19_59242','dynclicks_u19_59304','dynclicks_u19_59333','dynclicks_u19_59361','dynclicks_u19_59383','dynclicks_u19_59449','dynclicks_u19_65613','dynclicks_u19_59401','dynclicks_u19_65614','dynclicks_u19_65615','dynclicks_u19_65616','dynclicks_u19_65617','dynclicks_u19_65618'],[36391,36392,36393,36394,36396,36397,36398,36399,36395,57319,57392,57410,58935,57301,57342,58864,59201,57429,59202,59203,59217,59229,59242,59304,59333,59361,59383,59449,65613,59401,65614,65615,65616,65617,65618],"wbnews", 1318819973)</script>
+<!--#endeditable--></ul>
+                <ul><!--#begineditable name="相关链接02" action="" layout="" tpltype="" contype="" clone="" viewid="2022" contentviewid="" tagname="相关链接02"--><li><a href="http://www.people.com.cn/" target="_blank">人民网</a></li>
+<li><a href="http://www.wenming.cn/" target="_blank">中国文明网</a></li>
+<li><a href="http://cpc.people.com.cn/" target="_blank">共产党新闻网</a></li>
+<li><a href="http://www.chinanews.com/" target="_blank">中国新闻网</a></li>
+<li><a href="http://www.zzdjw.org.cn/" target="_blank">中直党建网</a></li>
+<li><a href="http://www.zgdsw.org.cn/" target="_blank">共产党历史网</a></li>
+<li><a href="http://www.china.com.cn/" target="_blank">中国网</a></li>
+<li><a href="http://www.scio.gov.cn" target="_blank">国新办</a></li>
+<li><a href="http://www.cac.gov.cn/" target="_blank">中国网信网</a></li>
+<li><a href="http://www.zgjx.cn/" target="_blank">中国记协网</a></li>
+<li><a href="http://www.qsjournal.com.cn" target="_blank">求是日报</a></li>
+<li><a href="http://www.banyuetan.org/" target="_blank">半月谈</a></li>
+<li><a href="http://www.cankaoxiaoxi.com/" target="_blank">参考消息</a></li>
+<li><a href="http://www.chinawriter.com.cn/" target="_blank">中国作家网</a></li>
+<script>_showDynClickBatch(['dynclicks_u20_36391','dynclicks_u20_36392','dynclicks_u20_36393','dynclicks_u20_36394','dynclicks_u20_36396','dynclicks_u20_36397','dynclicks_u20_36398','dynclicks_u20_36399','dynclicks_u20_36395','dynclicks_u20_57319','dynclicks_u20_57392','dynclicks_u20_57410','dynclicks_u20_58935','dynclicks_u20_57301','dynclicks_u20_57342','dynclicks_u20_58864','dynclicks_u20_59201','dynclicks_u20_57429','dynclicks_u20_59202','dynclicks_u20_59203','dynclicks_u20_59217','dynclicks_u20_59229','dynclicks_u20_59242','dynclicks_u20_59304','dynclicks_u20_59333','dynclicks_u20_59361','dynclicks_u20_59383','dynclicks_u20_59449','dynclicks_u20_65613','dynclicks_u20_59401','dynclicks_u20_65614','dynclicks_u20_65615','dynclicks_u20_65616','dynclicks_u20_65617','dynclicks_u20_65618'],[36391,36392,36393,36394,36396,36397,36398,36399,36395,57319,57392,57410,58935,57301,57342,58864,59201,57429,59202,59203,59217,59229,59242,59304,59333,59361,59383,59449,65613,59401,65614,65615,65616,65617,65618],"wbnews", 1318819973)</script>
+<!--#endeditable--></ul>
+                    <ul><!--#begineditable name="相关链接03" action="" layout="" tpltype="" contype="" clone="" viewid="2023" contentviewid="" tagname="相关链接03"--><li><a href="http://www.soubao.net/" target="_blank">搜报网</a></li>
+<li><a href="http://www.chinaso.com/" target="_blank">中国搜索</a></li>
+<li><a href="https://mp.weixin.qq.com/" target="_blank">微信公众平台</a></li>
+<li><a href="http://pic.enshi.cn/" target="_blank">恩施图片库</a></li>
+<li><a href="http://pic.cnhubei.com/" target="_blank">湖北图片库</a></li>
+<li><a href="http://www.cfp.cn" target="_blank">CFP</a></li>
+<li><a href="http://info.xinhua.org/newphmall/newindex.jsp" target="_blank">全球图片总汇</a></li>
+<script>_showDynClickBatch(['dynclicks_u21_36391','dynclicks_u21_36392','dynclicks_u21_36393','dynclicks_u21_36394','dynclicks_u21_36396','dynclicks_u21_36397','dynclicks_u21_36398','dynclicks_u21_36399','dynclicks_u21_36395','dynclicks_u21_57319','dynclicks_u21_57392','dynclicks_u21_57410','dynclicks_u21_58935','dynclicks_u21_57301','dynclicks_u21_57342','dynclicks_u21_58864','dynclicks_u21_59201','dynclicks_u21_57429','dynclicks_u21_59202','dynclicks_u21_59203','dynclicks_u21_59217','dynclicks_u21_59229','dynclicks_u21_59242','dynclicks_u21_59304','dynclicks_u21_59333','dynclicks_u21_59361','dynclicks_u21_59383','dynclicks_u21_59449','dynclicks_u21_65613','dynclicks_u21_59401','dynclicks_u21_65614','dynclicks_u21_65615','dynclicks_u21_65616','dynclicks_u21_65617','dynclicks_u21_65618'],[36391,36392,36393,36394,36396,36397,36398,36399,36395,57319,57392,57410,58935,57301,57342,58864,59201,57429,59202,59203,59217,59229,59242,59304,59333,59361,59383,59449,65613,59401,65614,65615,65616,65617,65618],"wbnews", 1318819973)</script>
+<!--#endeditable--></ul>
+                    
+                    </div>
+    </div>
+</div>
+<!--相关链接end-->
+<!--网站底部start-->
+<div class="footer">
+    <div class="w-1018">
+        <div class="fl"><!--#begineditable name="网警" action="" layout="" tpltype="" contype="" clone="" viewid="1014" contentviewid="" tagname="网警"-->    
+<a href="javascript:;"><img src="../images/blue.png" width="80" height="80" alt="" style="margin-top:35px;margin-left:70px;"></a>
+
+<!--#endeditable--></div>
+        <div class="fr"><!--#begineditable name="版权" action="" layout="" tpltype="" contype="" clone="" viewid="1013" contentviewid="" tagname="版权"--><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p class="fr-nav">
+    <a href="../info/1207/65453.htm" target="_blank" textvalue="投稿信箱">投稿信箱</a><a href="../info/1208/65454.htm" target="_blank">稿件服务</a><a href="../info/1209/65455.htm" target="_blank">关于我们</a><a href="../info/1210/65456.htm" target="_blank">联系方式</a><a href="../info/1211/65457.htm" target="_blank">留言反馈</a><a href="../info/1212/65458.htm" target="_blank" textvalue="我要举报">我要举报</a><a href="../info/1213/65459.htm" target="_blank">法律顾问</a>
+</p>
+<p>
+    主办单位：中共宣恩县委宣传部 &nbsp;承办：宣恩县新闻中心 &nbsp; &nbsp;Copyright © 2007 - 2020 www.xinxe.com All Rights Reserved. &nbsp;
+</p>
+<p>
+    地址：湖北省宣恩县人民路123号（青少年活动中心三楼）邮编：445500 &nbsp;&nbsp;
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261741965'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1261741965%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></p>
+<p>
+    鄂ICP备12016195号-1 &nbsp;鄂网备案证421308号 &nbsp;<img src="../index/images/guohui.png" alt="" />&nbsp;鄂公网安备 42282502000003号<br />
+</p>
+<p>
+    <a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" target="_blank"><img src="../index/images/bk.jpg" alt="" />&nbsp;网上有害信息举报专区</a><a href="http://www.hbjubao.com:1888/page/index.do" target="_blank"><img src="../index/images/jbzx2014logo.jpg" alt="" />&nbsp;湖北省互联网不良与违法信息举报中心</a><a href="http://www.12377.cn/" target="_blank"><img src="../index/images/bk.jpg" alt="" />&nbsp;暴恐音视频举报</a>
+</p><!--#endeditable--></div>
+    </div>
+</div>
+<!--网站底部end-->
+</body>
+</html>

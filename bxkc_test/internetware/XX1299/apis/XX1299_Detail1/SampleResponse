@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后勤处-四川管理职业学院欢迎您！</title>
+<link href="/images/bumen/style.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script src="{$GetInstallDir}js/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('div, ul, img, li, input'); 
+</script>
+<![endif]-->
+<script>var $pageInfo = { publishmentSystemID : 328, channelID : 340, contentID : 5636, siteUrl : "/hqc170622", homeUrl : "/hqc170622/center", currentUrl : "http://www.scvir.com/hqc170622/contents/340/5636.html", rootUrl : "http://www.scvir.com", apiUrl : "http://www.scvir.com/api" }</script>
+</head>
+<body>
+<script type="text/javascript">!window.jQuery&&document.write('<script src="/sitefiles/bairong/jquery/jquery-1.9.1.min.js" language="javascript"></'+'script>');</script>
+<script type="text/javascript"> 
+    function AddFavorite(){  
+        if (document.all) {
+            window.external.addFavorite(window.location.href, document.title);
+        } 
+        else if (window.sidebar) {
+            window.sidebar.addPanel(document.title, window.location.href, "");
+        }
+    }
+</script>
+<script charset="utf-8" src="/sitefiles/bairong/scripts/datestring.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+function stlDoZoom(zoomId, size){
+    var artibody = document.getElementById(zoomId);
+    if(!artibody){
+        return;
+    }
+    var artibodyChild = artibody.childNodes;
+    artibody.style.fontSize = size + 'px';
+    for(var i = 0; i < artibodyChild.length; i++){
+        if(artibodyChild[i].nodeType == 1){
+            artibodyChild[i].style.fontSize = size + 'px';
+        }
+    }
+}
+</script>
+
+
+<div id="zhengti">
+<!--头部start-->
+<div class="top"><div class="top1">
+<div class="top11">
+  <div>
+    <div><script language="javascript" type="text/javascript">RunGLNL(true);</script></div>
+
+</div></div>
+<div class="top12">
+      <ul> 
+	   <li><a href="javascript:;" onclick="AddFavorite();">添加收藏</a></li>
+	   <li><a href="javascript:;" onclick="SetHomepage();">设为首页</a></li>
+	  </ul>
+</div>
+</div>
+<div class="center01"><div class="center011"><img src="/images/bumen/yuanxi_logo.png" width="400" height="85"></div>
+<div class="center012">后勤处</div></div>
+<div class="nav">
+	<div class="menu">
+		<ul>
+  <li><a href="/" target="_self">学院首页</a></li>  <li><a href="/hqc170622" target="_self">网站首页</a></li>  <li><a href="/hqc170622/channels/332.html" target="_self">后勤概况</a></li>  <li><a href="/hqc170622/channels/330.html" target="_self">通知公告</a></li>  <li><a href="/hqc170622/channels/335.html" target="_self">规章制度</a></li>  <li><a href="/hqc170622/channels/336.html" target="_self">后勤新闻</a></li>  <li><a href="/hqc170622/channels/337.html" target="_self">服务指南</a></li>  <li><a href="/hqc170622/channels/338.html" target="_self">贴心提示</a></li>  <li><a href="/hqc170622/channels/339.html" target="_self">招标采购</a></li>
+		</ul>
+	</div>	
+</div>
+</div>
+
+<!--头部end-->
+  <div class="neirong">
+<div class="neirong1">
+  <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="left" valign="top"><table width="320" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="320" height="40" align="left" valign="middle" style="background:url(/images/bumen/mldh_bg.png) bottom left no-repeat; padding-left:40px; border-bottom:solid 1px #AC0800; font-size:16px; color:#FFF;">目录导航</td>
+          </tr>
+        <tr>
+          <td align="center" valign="top"><div class="nav_box">
+    <div class="nav_menu">
+      <ul>
+        
+        <li class="nav_menu_list select5"><a href="/" class="nav_menu_href" target="_self">学院首页</a>
+          <ul id="Nav_submenu_43">
+            
+          </ul>
+        </li>
+        
+        <li class="nav_menu_list select5"><a href="/hqc170622" class="nav_menu_href" target="_self">网站首页</a>
+          <ul id="Nav_submenu_43">
+            
+          </ul>
+        </li>
+        
+        <li class="nav_menu_list select5"><a href="/hqc170622/channels/332.html" class="nav_menu_href" target="_self">后勤概况</a>
+          <ul id="Nav_submenu_43">
+            
+          </ul>
+        </li>
+        
+        <li class="nav_menu_list select5"><a href="/hqc170622/channels/330.html" class="nav_menu_href" target="_self">通知公告</a>
+          <ul id="Nav_submenu_43">
+            
+          </ul>
+        </li>
+        
+        <li class="nav_menu_list select5"><a href="/hqc170622/channels/335.html" class="nav_menu_href" target="_self">规章制度</a>
+          <ul id="Nav_submenu_43">
+            
+          </ul>
+        </li>
+        
+        <li class="nav_menu_list select5"><a href="/hqc170622/channels/336.html" class="nav_menu_href" target="_self">后勤新闻</a>
+          <ul id="Nav_submenu_43">
+            
+          </ul>
+        </li>
+        
+        <li class="nav_menu_list select5"><a href="/hqc170622/channels/337.html" class="nav_menu_href" target="_self">服务指南</a>
+          <ul id="Nav_submenu_43">
+            
+          </ul>
+        </li>
+        
+        <li class="nav_menu_list select5"><a href="/hqc170622/channels/338.html" class="nav_menu_href" target="_self">贴心提示</a>
+          <ul id="Nav_submenu_43">
+            
+          </ul>
+        </li>
+        
+        <li class="nav_menu_list select5"><a href="/hqc170622/channels/339.html" class="nav_menu_href" target="_self">招标采购</a>
+          <ul id="Nav_submenu_43">
+            
+            <li class="nav_submenu_list"><a href="/hqc170622/channels/340.html" class="nav_submenu_href">政府采购</a></li>
+            
+            <li class="nav_submenu_list"><a href="/hqc170622/channels/341.html" class="nav_submenu_href">校内采购</a></li>
+            
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+  </div></td>
+          </tr>
+        </table><div class="blank10"></div><table width="320" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="320" height="40" align="left" valign="middle" style="background:url(/images/bumen/title_bg.png) bottom left no-repeat; padding-left:40px; border-bottom:solid 1px #AC0800; font-size:16px; color:#FFF;">图片新闻</td>
+            </tr>
+          <tr>
+            <td align="left" valign="top" style="padding-top:10px; padding-bottom:10px; line-height:180%;" class="pic"></td>
+            </tr>
+          </table></td>
+      <td width="20">&nbsp;</td>
+      <td width="860" align="left" valign="top"><table width="860" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="40" align="left" valign="middle" style="background:url(/images/bumen/title_bg.png) bottom left no-repeat; padding-left:40px; border-bottom:solid 1px #AC0800; font-size:16px; color:#FFF;">政府采购</td>
+          </tr>
+        <tr>
+          <td style="padding-top:10px; padding-bottom:10px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center" id="xw_title" style="font-size:20px; font-weight:bold;">四川管理职业学院2017年专业教学仪器设备采购项目公开招标采购更正公告</td>
+    </tr>
+    <tr>
+      <td align="center" id="xw_xinxi"><span>添加时间：2017-12-29</span> <span>信息来源：</span> <span>浏览人次：<em><span id="ajaxElement_1_100"></span>
+<script type="text/javascript" language="javascript">
+function getQueryString()
+{
+  var i, len, params = '', hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+  if(hashes.length == 0) return params;
+  for(i = 0, len = hashes.length, len; i < len; i+=1) {
+    hash = hashes[i].split('=');
+    if (hash && hash.length == 2){
+      value = encodeURIComponent(decodeURIComponent(decodeURIComponent(hash[1])));
+      params += (hash[0] + '=' + value + '&');
+    }
+  }
+  if (params && params.length > 0) params = params.substring(0, params.length - 1);
+  return params;
+}
+function stlDynamic_ajaxElement_1_100(pageNum)
+{
+    try
+    {
+        var url = "/sitefiles/services/cms/dynamic/output.aspx?publishmentSystemID=328&" + getQueryString();
+        var pars = "pageNodeID=340&pageContentID=5636&pageTemplateID=63&isPageRefresh=False&pageUrl=s8cFwIrdvWcVWppQGd5q1D0slash0IRxUUfJrd75pO7s4SPNdDsAtg4J4x9SM3mEox0add00i1cqWIwkI6Tyc0equals0&ajaxDivID=ajaxElement_1_100&templateContent=L3ntuIh37T7Ymw1qM0kgUAFez55bEKO9hVc0slash0HCptRwswtdzdSZz0GTnakCXuQ2wYeLhDt4neZuecc7lJuJNXxfJE0slash01YfOO60slash0pKpX50slash0HVvnU0equals0";
+        if (pageNum && pageNum > 0)
+        {
+            pars += "&pageNum=" + pageNum;
+        }
+        //jQuery.post(url, pars, function(data,textStatus){
+            //jQuery("#ajaxElement_1_100").html(data);
+        //});
+        $.ajax({
+                url: url,
+                type: "POST",
+                mimeType:"multipart/form-data",
+                //contentType: false,
+                //processData: false,
+                cache: false,
+                xhrFields: {   
+                    withCredentials: true   
+                },
+                data: pars,
+                success: function(json, textStatus, jqXHR){
+                    if(json.startsWith("\"")&&json.endsWith("\""))
+                        json = eval("("+json+")");
+                    jQuery("#ajaxElement_1_100").html(json);
+                }
+          });
+    }catch(e){}
+}
+stlDynamic_ajaxElement_1_100(0);
+</script>
+</em>次</span> 【字体：<a href="javascript:stlDoZoom('artibody', 16);">大</a> <a href="javascript:stlDoZoom('artibody', 14);">中</a> <a href="javascript:stlDoZoom('artibody', 12);">小</a>】</td>
+    </tr>
+    <tr>
+      <td id="xw_content" style="text-indent:20px; padding-top:10px;"><div id="artibody"><p>http://202.61.88.152:9002/view/staticpags/gzgg/2017-12-28/9bb6c207b4364b5ea5ac4cd02b49486f.html<br /></p></div></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" style="padding-top:20px;"><table cellpadding="0" width="98%" cellspacing="0" height="40" align="center">      <tr>        <td align="left" width="50%">         上一篇:无        </td>        <td width="50%">         下一篇:<a href="/hqc170622/contents/340/5630.html">四川管理职业学院2017年专业教学仪器设备采购项目公开招标采购公告</a>        </td>      </tr>     </table></td>
+    </tr>
+  </table></td>
+          </tr>
+        </table></td>
+    </tr>
+    </table>
+  <div class="blank10"></div>
+</div>
+</div>
+<div class="bottom">
+<div class="bottom1">
+  <div class="bottom11">地址:成都市郫县安德镇****路****号　招生电话:028-8*******　招生代码：0000　<a href="#">蜀ICP备15030541号</a><br />
+    Copyright &copy; 2015 SCVIR.COM　四川管理职业学院版权所有</div><div class="bottom12"><a href="#">网站地图</a> |  <a href="#">联系我们</a> |  <a href="#">隐私版权</a> |  <a href="#">旧版主页
+</a> |  <a href="#">International Version</a><br />
+      Site designed by <a href="http://www.wenjiangwang.cn/" target="_blank">WenJiangWang</a></div></div></div>
+</div>
+</body>
+</html>
+<script type="text/javascript"> 
+    function SetHomepage(){   
+        if (document.all) {
+            document.body.style.behavior = 'url(#default#homepage)';
+            document.body.setHomePage("/hqc170622");
+        }
+        else if (window.sidebar) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                 }
+                catch(e) {
+                    alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+                }
+             }
+            var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+            prefs.setCharPref('browser.startup.homepage', "/hqc170622");
+        }
+    }
+</script>
+
+

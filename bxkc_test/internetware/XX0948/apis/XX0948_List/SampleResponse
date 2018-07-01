@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>采购公告</title>
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/1/style/1/1.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/00/2a/42/style/40/40.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="42"></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<style type="text/css" title="defaultStyle">
+#mainleft {
+	float: left;
+	width: 306px;
+}
+#mainright {
+	float: right;
+	width: 669px;
+	background-color: #FFFFFF;
+}
+/*主页面右侧的左栏,定义间距和宽度*/
+#mainright_1 {
+	margin-top: 0px;
+}
+#mainrightleft {
+	float: left;
+	width: 521px;
+	background-color: #FFFFFF;
+}
+#zmxy img{
+	background-color:#FFFFFF;
+	border-right-width: 5px;
+	border-left-width: 5px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+}
+#zmxy a {text-decoration: none;}
+</style>
+<link href="/_upload/tpl/00/74/116/template116/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE2 {color:#666666;}
+.STYLE9 {font-family: "黑体", "华文行楷"}
+-->
+</style>
+</head>
+<body>
+<div id="container_page">
+  <div id="head">
+<table width="100%" height="140" border="0" cellpadding="0" cellspacing="0" background="/_upload/tpl/00/74/116/template116/images/head.png" >
+  <tr>
+    <td width="302" valign="top">
+        <div frag="面板14">
+          <div frag="窗口14">
+            <span class='Site_Logo'><img border='0' src='/_upload/site/00/2a/42/logo.png' /></span>
+          </div>
+        </div>
+    </td>
+    <td width="479" class="biaoti4" style="padding-bottom:12px;">&nbsp;</td>
+    <td width="223" height="82">
+</td>
+  </tr>
+</table>
+<table width="100%" height="35" border="0" cellspacing="0" cellpadding="0" background="/_upload/tpl/00/74/116/template116/images/nav_bar.png">
+  <tr>
+    
+    <td height="40"><div frag="面板1">
+      <div frag="窗口1">
+        <div id="wp_nav_w1"> 
+
+ 
+<ul class="wp_nav" data-nav-config="{drop_v: 'down', drop_w: 'right', dir: 'y', opacity_main: '1', opacity_sub: '0.8', dWidth: '0'}">
+      
+     <li class="nav-item i1 "> 
+         <a href="http://www.cswu.cn/zbzx/main.htm" title="首页" target="_self"><span class="item-name">首页</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i2 "> 
+         <a href="/zbzx/1313/list.htm" title="部门概况" target="_self"><span class="item-name">部门概况</span></a><i class="mark"></i> 
+          
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i2-1 "> 
+                 <a href="/zbzx/1322/list.htm" title="机构设置" target="_self"><span class="item-name">机构设置</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-2 "> 
+                 <a href="/zbzx/1323/list.htm" title="部门介绍" target="_self"><span class="item-name">部门介绍</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+     </li> 
+      
+     <li class="nav-item i3 "> 
+         <a href="/zbzx/1314/list.htm" title="工作动态" target="_self"><span class="item-name">工作动态</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i4 "> 
+         <a href="/zbzx/1315/list.htm" title="办事指南" target="_self"><span class="item-name">办事指南</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i5 "> 
+         <a href="/zbzx/1316/list.htm" title="政策法规" target="_self"><span class="item-name">政策法规</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i6 "> 
+         <a href="/zbzx/1317/list.htm" title="下载中心" target="_self"><span class="item-name">下载中心</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+</ul> 
+ 
+ 
+ </div>
+      </div>
+    </div></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="8"></td>
+  </tr>
+</table>
+
+  </div>
+
+  <div id="container_content">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td width="240" height="600" valign="top" class="border5">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                         <tr>
+                                             <td height="38" align="center" class="biaoti3"><div frag="面板2">
+                                                     <div frag="窗口2" portletmode="simpleColumnAnchor">
+                                                         <span class='Column_Anchor'>采购公告</span>
+                                                     </div>
+                                             </div></td>
+                                         </tr>
+                                     </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="8"></td>
+  </tr>
+</table>                           
+       <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0" >
+                                                         <tr>
+                                                             <td align="center"><div frag="面板3">
+                                                                     <div frag="窗口3" portletmode="simpleColumnList">
+                                                                         <div id="wp_listcolumn_w3"> 
+
+ 
+<ul class="wp_listcolumn"> 
+      
+</ul> 
+ 
+ 
+ </div>
+                                                                     </div>
+                                                             </div></td>
+                                                         </tr>
+                                                 </table>                              
+    </td>
+    <td width="20" valign="top">&nbsp;
+    </td>
+    <td width="746" valign="top" class="border6">
+	<table width="94%" border="0" align="center" cellpadding="0" cellspacing="0" class="border7">
+                                 <tr>
+                                     
+  <td class="lmmc" align="left"><div frag="面板5">
+                                                 <div frag="窗口5" portletmode="simpleColumnAttri">采购公告</div>
+                                         </div></td>                                   <td height="38" align="right"><div frag="面板4">
+                                             <div frag="窗口4" portletmode="simpleColumnAttri"> <span class="locate">当前位置:</span><a href="/zbzx/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/zbzx/1318/list.htm" target="_self">采购公告</a> </div>
+                                     </div></td>
+                                 </tr>
+                              
+                             </table>
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                     <tr>
+                                         <td height="10"></td>
+                                         
+                                     </tr>
+                                 </table>
+                             
+                             <table width="94%" border="0" cellpadding="0" cellspacing="0" class="listcol" align="center">
+                                     <tr>
+                                         <td><div frag="面板6">
+                                                 <div frag="窗口6" portletmode="simpleList">
+                                                     <div id="wp_news_w6"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="wp_article_list_table"> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0607/c1318a25436/page.htm' target='_blank' title='重庆城市管理职业学院国际贸易实务专业微课视频录制 采购公告'>重庆城市管理职业学院国际贸易实务专业微课视频录制 采购公告</a></td>
+                                                                 <td align="right" class="date">2017-06-07</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0606/c1318a25428/page.htm' target='_blank' title='重庆城市管理职业学院2017-2019年军训服装 更正公告'>重庆城市管理职业学院2017-2019年军训服装 更正公告</a></td>
+                                                                 <td align="right" class="date">2017-06-06</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0605/c1318a25418/page.htm' target='_blank' title='重庆城市管理职业学院2017-2019年新生床上用品 更正公告'>重庆城市管理职业学院2017-2019年新生床上用品 更正公告</a></td>
+                                                                 <td align="right" class="date">2017-06-05</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0605/c1318a25416/page.htm' target='_blank' title='重庆城市管理职业学院校园垃圾箱（桶） 采购公告'>重庆城市管理职业学院校园垃圾箱（桶） 采购公告</a></td>
+                                                                 <td align="right" class="date">2017-06-05</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0605/c1318a25410/page.htm' target='_blank' title='重庆城市管理职业学院2017-2019年化粪池隔油池清掏 采购公告'>重庆城市管理职业学院2017-2019年化粪池隔油池清掏 采购公告</a></td>
+                                                                 <td align="right" class="date">2017-06-05</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0602/c1318a25403/page.htm' target='_blank' title='重庆城市管理职业学院2017-2019年新生床上用品 采购公告'>重庆城市管理职业学院2017-2019年新生床上用品 采购公告</a></td>
+                                                                 <td align="right" class="date">2017-06-02</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0602/c1318a25402/page.htm' target='_blank' title='重庆城市管理职业学院2017-2019年新生军训服装 采购公告'>重庆城市管理职业学院2017-2019年新生军训服装 采购公告</a></td>
+                                                                 <td align="right" class="date">2017-06-02</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0527/c1318a25328/page.htm' target='_blank' title='重庆城市管理职业学院毕业生纪念伞 采购公告'>重庆城市管理职业学院毕业生纪念伞 采购公告</a></td>
+                                                                 <td align="right" class="date">2017-05-27</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0527/c1318a25327/page.htm' target='_blank' title='重庆城市管理职业学院2017年秋季新生报到场地搭建项目采购公告'>重庆城市管理职业学院2017年秋季新生报到场地搭建项目采购公告</a></td>
+                                                                 <td align="right" class="date">2017-05-27</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0525/c1318a25269/page.htm' target='_blank' title='重庆城市管理职业学院实用英语视听说微课程录制（第三次） 采购公告'>重庆城市管理职业学院实用英语视听说微课程录制（第三次） 采购...</a></td>
+                                                                 <td align="right" class="date">2017-05-25</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0523/c1318a25226/page.htm' target='_blank' title='重庆城市管理职业学院光伏电子工程技能大赛设备及软件补遗公告'>重庆城市管理职业学院光伏电子工程技能大赛设备及软件补遗公告</a></td>
+                                                                 <td align="right" class="date">2017-05-23</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+<tr> 
+<td> 
+
+                                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="border9">
+                                                             <tr>
+                                                                 
+                                                                 <td height="42" align="left"><a href='/zbzx/2017/0522/c1318a25217/page.htm' target='_blank' title='重庆城市管理职业学院2017-2020年电梯维护保养采购公告（第三次）'>重庆城市管理职业学院2017-2020年电梯维护保养采购公告（第三次...</a></td>
+                                                                 <td align="right" class="date">2017-05-22</td>
+                                                             </tr>
+                                                             
+                                                         </table>
+                                                     </td> 
+</tr> 
+</table></div> 
+
+ <div id="wp_paging_w6"> 
+<ul class="wp_paging clearfix"> 
+     <li class="pages_count"> 
+         <span class="per_page">每页<em class="per_count">12</em>条记录</span> 
+         <span class="all_count">总共<em class="all_count">247</em>条记录</span> 
+     </li> 
+     <li class="page_nav"> 
+         <a class="first" href="/zbzx/1318/list1.htm" target="_self"><span>首页</span></a> 
+         <a class="prev" href="/zbzx/1318/list2.htm" target="_self"><span>上一页</span></a> 
+         <a class="next" href="/zbzx/1318/list4.htm" target="_self"><span>下一页</span></a> 
+         <a class="last" href="/zbzx/1318/list21.htm" target="_self"><span>尾页</span></a> 
+     </li> 
+     <li class="page_jump"> 
+         <span class="pages">页码：<em class="curr_page">3</em>/<em class="all_pages">21</em></span> 
+         <span><input class="pageNum" type="text" /><input type="hidden" class="currPageURL" value=""></span></span> 
+         <span><a class="pagingJump" href="javascript:void(0);" target="_self">跳转</a></span> 
+     </li> 
+</ul> 
+</div> 
+<script type="text/javascript"> 
+     $().ready(function() { 
+         $("#wp_paging_w6 .pagingJump").click(function() { 
+             var pageNum = $("#wp_paging_w6 .pageNum").val(); 
+             if (pageNum === "") { alert('请输入页码！'); return; } 
+             if (isNaN(pageNum) || pageNum <= 0 || pageNum > 21) { alert('请输入正确页码！'); return; } 
+             var reg = new RegExp("/list", "g"); 
+             var url = "/zbzx/1318/list.htm"; 
+             window.location.href = url.replace(reg, "/list" + pageNum); 
+         }); 
+     }); 
+</script> 
+
+                                                 </div>
+                                         </div></td>
+                                     </tr>
+                                 </table>
+                             
+                             
+                             
+                             </td>
+  </tr>
+  </table>
+  
+  
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="15">&nbsp;</td>
+  </tr>
+</table>
+
+	
+
+  
+  </div>
+  
+  
+  <div id="foot">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" class="foothang" height="60" valign="middle" background="/_upload/tpl/00/74/116/template116/images/foot.png"><p>版权所有 © 重庆城市管理职业学院</p>
+    <p>学校地址：重庆市沙坪坝区虎溪大学城南二路151号 邮编：401331</p></td>
+  </tr>
+</table>
+
+  </div>
+</div>
+</body>
+</html>
+
+ <image src="/_visitcount?siteId=42&type=2&columnId=1318" style="display:none" width="0" height="0"></image>

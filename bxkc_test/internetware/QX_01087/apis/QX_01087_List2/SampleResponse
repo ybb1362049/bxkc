@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="SiteName" content="武侯区人民政府门户网站">
+<meta name="SiteDomain" content="www.cdwh.gov.cn">
+<meta name="SiteIDCode" content="5101070001">
+<meta name="ColumnName" content="中标公示">
+<meta name="ColumnDescription" content="">
+<meta name="ColumnKeywords" content="">
+<meta name="ColumnType" content="中标公示">  
+<title>中标公示-武侯区人民政府门户网站</title>
+<meta name="others" content="页面生成时间 2018-04-20 14:19:53" />
+<link rel="shortcut icon" type="image/x-icon" href="/wuhou/xhtml/images/favicon.ico" media="screen" />
+	<link href="/wuhou/xhtml/css/base.css" type="text/css" rel="stylesheet" />
+	<link href="/wuhou/xhtml/css/index.css" type="text/css" rel="stylesheet" />
+	<link href="/wuhou/xhtml/css/public.css" type="text/css" rel="stylesheet" />
+    <link href="/wuhou/xhtml/css/neirong.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="/wuhou/xhtml/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/wuhou/xhtml/js/frontend.js"></script>
+	<script type="text/javascript" src="/wuhou/xhtml/js/work.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			//menu js
+			
+				var muls = $("#menu ul li").size();
+				for (var i = 0; i < muls; i++) {
+					$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 14px 15px no-repeat");
+					if(i == (muls - 1)){ 
+						$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 12px 15px no-repeat");
+					}
+					
+				};
+		
+		
+		})
+	</script>
+</head>
+<body>
+	<div class="container">
+		<!--头部-->
+		<script type="text/javascript" src="/wuhou/xhtml/js/search.js"></script>
+
+<!--头部-->
+		<div class="header">
+			<div class="top">
+				<div class="inner">
+					<span>成都市武侯区人民政府门户网站</span>
+					<ul>
+						<li><a href="javascript:;" onclick="javascript:window.location.href='http:/'+'/'+'www.cdwh.gov.cn'">简体中文</a>|</li>
+						<li><a href="javascript:;" onclick="javascript:window.location.href='http:/'+'/'+'www.cdwh.gov.cn:81'">繁体中文</a>|</li>
+						<li><a href="/wuhou/WuHou/en_home.shtml" target="_blank">English</a>|</li>
+						<li><a href="http://www.cdwh.gov.cn/accessibility/web" id="wza">无障碍版</a>|</li>
+						<li><a href="/wuhou/c106403/phone_download.shtml" target="_blank">移动版</a></li>
+					</ul>
+				</div><script type="text/javascript">
+               var url = window.parent.location.href;
+    if(url == 'http://www.cdwh.gov.cn/accessibility/web')
+    {
+    
+     document.getElementById("wza").href = "javascript:;"; 
+    }
+</script>
+			</div>
+			<div class="logo">
+				<div class="search">
+                  <form name="searchForm" id="searchForm"  action="" method="post" target="_blank" onsubmit="return checksearch();">
+					<input type="text"  name="qt" value="请输入关键字查询" class="searchText" id="searchText" />
+					<input type="submit" name="" value="" class="searchBtn" />
+                    </form>
+				</div>				
+             
+       <iframe id="tq" width="387" scrolling="no" height="15" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=11&color=%23&icon=1&py=wuhouqu&site=12"></iframe>
+              
+			</div>
+			<div class="menu" id="menu">
+				<ul>
+					<li><a href="/wuhou/index.shtml#0"  target="_self" title='武侯资讯' >武侯资讯</a></li>
+					<li><a href="/wuhou/index.shtml#1"  target="_self" title='政务公开' >政务公开</a></li>
+					<li><a href="/wuhou/index.shtml#2"  target="_self" title='办事服务' >办事服务</a></li>
+					<li><a href="/wuhou/index.shtml#3"  target="_self" title='公众参与' >公众参与</a></li>
+					<li><a href="/wuhou/index.shtml#4"  target="_self" title='投资服务' >投资服务</a></li>
+					<li><a href="/wuhou/index.shtml#5"  target="_self" title='机构目录' >机构目录</a></li>
+					<li><a href="/wuhou/index.shtml#6"  target="_self" title='认识武侯' >认识武侯</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--/头部end-->
+	<script type="text/javascript">
+		$(function(){
+			//搜索框
+			var seach = $(".searchText");
+			var oldVal = seach.val();
+			seach.focus(function(){   //获取光标
+				if($(this).val()==oldVal){
+					$(this).val('');
+				}
+				$(this).css("color","#000");
+			});
+			seach.blur(function(){   //失去光标
+				if($(this).val()==""){
+				   $(this).val(oldVal);
+				   $(this).css("color","#b8b8b8");
+				}
+			})
+
+		});
+	</script> 
+		<!--头部-->
+		<div class="wzd"  id="current" >
+			当前位置：
+<a href='/wuhou/index.shtml'  target="_blank">首页</a>&nbsp;>&nbsp;<a href='/wuhou/index.shtml#1'  target="_blank">政务公开</a>&nbsp;>&nbsp;<a href='/wuhou/c106107/list_more.shtml'  target="_blank">重点信息公开</a>&nbsp;>&nbsp;<a href='/wuhou/c106110/list_more.shtml'  target="_blank">招标采购</a>&nbsp;>&nbsp;中标公示
+
+		</div>
+
+		<!--main-->
+		<div class="main">
+           <div class="zhongjian fn-clear">
+               <div class="zwfwl shadowr" id="lanM"> 
+                    <ul>
+ 
+
+					 	<li><a href="/wuhou/c109345/list_more.shtml"  target="_self" title='招标公告' >招标公告</a></li>
+
+					 	<li><a href="/wuhou/c109346/list.shtml"  target="_self" title='中标公示' >中标公示</a></li>
+
+					 	<li><a href="/wuhou/c109347/list.shtml"  target="_self" title='采购目录' >采购目录</a></li>
+
+					 	<li><a href="http://www.sczfcg.com/CmsNewsController.do?method=search&title=&city=510100&town=510107&cityText=u6210u90FDu5E02&townText=&chnlCodes=&type=shiji_cggg&searchKey=&distin=510107&pageSize=10&searchResultForm=search_result_schuan.ftl"  target="_self" title='采购公告' >采购公告</a></li>
+
+					 	<li><a href="http://www.sczfcg.com/CmsNewsController.do?method=search&title=&city=&town=510107&cityText=u8BF7u9009u62E9&townText=&chnlCodes=&type=shiji_jggg&searchKey=&distin=510107&pageSize=10&searchResultForm=search_result_schuan.ftl"  target="_self" title='结果公告' >结果公告</a></li>
+
+					 	<li><a href="http://www.sczfcg.com/CmsNewsController.do?method=search&title=&city=&town=510107&cityText=u8BF7u9009u62E9&townText=&chnlCodes=&type=shiji_gzgg&searchKey=&distin=510107&pageSize=10&searchResultForm=search_result_schuan.ftl"  target="_self" title='更正公告' >更正公告</a></li>
+
+					 	<li><a href="http://www.sczfcg.com/view/staticpags/bgt/bgt.html"  target="_self" title='招投标违法违规曝光' >招投标违法违规曝光</a></li>
+
+                      </ul>
+               </div>
+               <div class="zwfwr shadowr"> 
+               	<div class="children" id="children">
+ 
+
+                  </div>
+                  <ul class="listBoxs">
+ 
+
+                  	 <li><span>2018-04-20</span><a href="/wuhou/c109346/2018-04/20/content_9c2fe0269031449fa80b28b9b22f1a28.shtml" target="_blank">关于社会主义核心价值观建设合作企业征集评选结果的公告</a></li>
+
+                  	 <li><span>2018-04-04</span><a href="/wuhou/c109346/2018-04/04/content_b5560d6751a04470b9cd337f65390d28.shtml" target="_blank">成都武星实业有限责任公司、成都中住住宅产品有限公司财务收支及清产核资审计项目中选...</a></li>
+
+                  	 <li><span>2018-03-27</span><a href="/wuhou/c109346/2018-03/27/content_15311e7148ba488f8f95ac8ad8683afd.shtml" target="_blank">高攀小学、果堰小学、武青西三路北侧中学、武青西三路南侧小学、武青西三路北侧幼儿园...</a></li>
+
+                  	 <li><span>2018-02-13</span><a href="/wuhou/c109346/2018-02/13/content_2bd7ae09c10c479e870d9159cd235146.shtml" target="_blank">2017至2019年度武侯区市政设施日常维护工程（三环路外区域）（2018-2019年度）施工B标...</a></li>
+
+                  	 <li><span>2018-02-09</span><a href="/wuhou/c109346/2018-02/09/content_119382fead7445a782fd9640dee5946c.shtml" target="_blank">城市音乐厅周边建筑立面综合整治工程施工四标段中标候选人公示</a></li>
+
+                  	 <li><span>2018-02-09</span><a href="/wuhou/c109346/2018-02/09/content_7d24449ae0ac40d4a1d9bcffcf6f8f03.shtml" target="_blank">城市音乐厅周边建筑立面综合整治工程施工三标段中标候选人公示</a></li>
+
+                  	 <li><span>2018-02-09</span><a href="/wuhou/c109346/2018-02/09/content_e65bdfbc86d1449f812a1734749e90d3.shtml" target="_blank">城市音乐厅周边建筑立面综合整治工程施工二标段中标候选人公示</a></li>
+
+                  	 <li><span>2018-02-09</span><a href="/wuhou/c109346/2018-02/09/content_06767a9e31314ded8782c3aa17dc944c.shtml" target="_blank">城市音乐厅周边建筑立面综合整治工程施工一标段中标候选人公示</a></li>
+
+                  	 <li><span>2018-01-29</span><a href="/wuhou/c109346/2018-01/29/content_bda38f43a7574519af33a5d197ea27df.shtml" target="_blank">双凤二路小学工程中标候选人公示</a></li>
+
+                  	 <li><span>2018-01-26</span><a href="/wuhou/c109346/2018-01/26/content_6d337c1d6a3f4ff5bb8186e0c0e45d34.shtml" target="_blank">武侯区临空经济发展思路研究咨询服务机构比选结果公示</a></li>
+
+                  	 <li><span>2018-01-23</span><a href="/wuhou/c109346/2018-01/23/content_b592588d112d4c19b667549ac389d266.shtml" target="_blank">城市音乐厅周边建筑立面综合整治工程监理标段中标候选人公示</a></li>
+
+                  	 <li><span>2018-01-16</span><a href="/wuhou/c109346/2018-01/16/content_2ca6d8119d174708b49ad5be2cd567a7.shtml" target="_blank">簇桥城中村改造片区城市更新工程三标段（B10绿地）项目中标候选人公示</a></li>
+
+                  	 <li><span>2018-01-12</span><a href="/wuhou/c109346/2018-01/12/content_891026556f0843caa9e23297056ca795.shtml" target="_blank">成都市武侯区国有资产和金融管理办公室政府采购项目采购代理服务询价结果公示</a></li>
+
+                  	 <li><span>2018-01-04</span><a href="/wuhou/c109346/2018-01/04/content_f9c2fab9d0be4c10b04ab7d8c4058be1.shtml" target="_blank">红星路（武侯段）建筑立面综合整治工程施工七标段中标候选人公示</a></li>
+
+                  	 <li><span>2017-12-21</span><a href="/wuhou/c109346/2017-12/21/content_482ed7aef35a459ca72a223e29eb00c9.shtml" target="_blank">簇桥城中村改造片区城市更新工程中标候选人公示</a></li>
+
+                  	 <li><span>2017-12-20</span><a href="/wuhou/c109346/2017-12/20/content_7f9873210c754e44b3d6799cbfd2bae2.shtml" target="_blank">武侯区城乡环境综合治理中心工程施工标段中标候选人公示</a></li>
+
+                  	 <li><span>2017-12-20</span><a href="/wuhou/c109346/2017-12/20/content_6455046ff9344c83ba42cb9ca0f01ff3.shtml" target="_blank">武侯区城乡环境综合治理中心工程监理标段中标候选人公示</a></li>
+
+                  	 <li><span>2017-12-14</span><a href="/wuhou/c109346/2017-12/14/content_0016519b814a4f4fbdb1a3d15c0714a8.shtml" target="_blank">万寿四路小学工程中标候选人公示</a></li>
+
+                  	 <li><span>2017-12-11</span><a href="/wuhou/c109346/2017-12/11/content_4e6bba9bd9e74559a0456c0eef3e6990.shtml" target="_blank">万寿四路小学工程中标候选人公示</a></li>
+
+                  	 <li><span>2017-12-08</span><a href="/wuhou/c109346/2017-12/08/content_a6b5640d65a341388c8df534a8de19dc.shtml" target="_blank">2017年武侯区中小街道黑化改造工程监理中标候选人公示</a></li>
+<script type="text/javascript" src="/wuhou/xhtml/js/page.js"></script><script>window.onload=function() {createPageHTML('page_div',26, 1,'list','shtml',512);}</script>		
+				</ul>
+                <div class="page "><div id="page_div"></div></div> 
+               </div>
+		   </div>
+		</div>
+		<!--main end-->
+		<!--底部-->
+		<div class="footer">
+	 <div class="footerBox">
+			<div class="footerMenu">
+				<a href="javascript:void(0)" onclick="if(document.all){this.style.behavior='url(#default#homepage)';this.setHomePage('http://'+document.location.host);}else{setHomePage('http://'+document.location.host)}">设为首页</a>|
+				<a href="javascript:void(0)" onclick="AddFavor()">加入收藏</a>|
+				<a href="/wuhou/c106398/site_map.shtml"  target="_blank" title='网站地图' >网站地图</a>|
+				<a href="/wuhou/c106399/cont.shtml"  target="_blank" title='使用帮助' >使用帮助</a>|
+				<a href="http://cdxinfang.gov.cn/suggest.html"  target="_blank" title='意见建议' >意见建议</a>|
+				<a href="/wuhou/c106401/cont.shtml"  target="_blank" title='联系我们' >联系我们</a>|
+				<a href="http://www.cdjubao.gov.cn/"  target="_blank" title='信息举报' >信息举报</a>|
+				<a href="/wuhou/c106403/phone_download.shtml"  target="_blank" title='手机APP' >手机APP</a>|
+           <a href="/wuhou/c106403/phone_download.shtml" target="_blank">移动版</a>
+			</div>
+		<p>成都市武侯区人民政府 主办 武侯区行政审批局 承办 版权所有：武侯区政府</p>
+	    <p> 电子邮箱：xzspj@cdwh.gov.cn 蜀ICP备10207067号-2 公安备510116990291号  &nbsp;&nbsp;&nbsp;&nbsp;网站标识码：5101070001</p>
+	    <div class="jiucuo"><script id="_jiucuo_" sitecode='5101070001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></div>
+	    <div class="dzjg">
+	    	<a href="http://www.cdnet110.com/"><img src="/wuhou/xhtml/images/index_15.png"  class="wj"  /></a>
+	    	<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/333/1994/40512783/CA233331994405127830002.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+	   </div>
+</div>
+
+<!-- PHPStat Start -->
+<script language="JavaScript">var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="phpstat_js_id_10000066" src="//182.150.40.157:8080/phpstat/count/10000066/10000066.js"></script><noscript><img src="//182.150.40.157:8080/phpstat/count/10000066/10000066.php" alt="PHPStat Analytics"/></noscript>
+<!--/PHPStat End --> 
+		<!--/底部-->
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			var iChild=$('#children a').length;
+			if(iChild<1){
+				$("#children").hide();
+			}
+		  function fns(agr){
+		var codeName="中标公示";
+		  $(agr).each(function(e){
+			if($(this).text()==codeName){
+				$(this).addClass("zwfwl1");
+			 }
+		  });
+		 }
+		  fns('#lanM ul li');
+		  
+		  var nums=$('.listBoxs li').length;
+		  for(var i=0;i<=nums;i++){
+		  	if(((i+1)%5) == 0){
+		  		$('.listBoxs li').eq(i).addClass('uli');
+		  		$('.listBoxs li').eq(i+1).addClass('uli1');
+		  	}
+		  }
+		  
+		  var  sText = $('#current').text();
+		  var  aText = sText.split('>');
+		  var  sStr=$.trim(aText[1]);
+		  $('#menu ul li').each(function(e){
+		  	if($(this).text()==sStr){
+				$(this).addClass("active");
+				var muls = $("#menu ul li").size();
+				for (var i = 0; i < muls; i++) {
+					$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 14px 15px no-repeat");
+					if(i == (muls - 1)){ 
+						$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 12px 15px no-repeat");
+					}
+					
+				};
+			 }
+		  });
+		});
+	</script>
+</body>
+</html>

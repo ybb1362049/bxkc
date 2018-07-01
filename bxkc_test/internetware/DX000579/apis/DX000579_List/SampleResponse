@@ -1,0 +1,503 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	招投标公告 - 四川成南高速公路有限责任公司
+</title>
+<meta name="keywords" content="四川成南高速公路有限责任公司" />
+<meta name="description" content="四川成南高速公路有限责任公司  " />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/banner.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/skdslider.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('#demo3').skdslider({ 'delay': 5000, 'animationSpeed': 2000, 'showNextPrev': true, 'showPlayButton': true, 'autoSlide': true, 'animationType': 'fading' });
+
+        jQuery('#responsive').change(function () {
+            $('#responsive_wrapper').width(jQuery(this).val());
+        });
+
+    });
+</script>
+
+<script type="text/javascript">
+try {
+var urlhash = window.location.hash;
+if (!urlhash.match("fromapp"))
+{
+if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i)))
+{
+window.location="/m/";
+}
+}
+}
+catch(err)
+{
+}</script>
+
+    <script>
+        function showLC(tid) {
+            for (var i = 2002; i <= 2016; i++) {
+                $("#" + i).css("display", "none");
+                $("#t" + i).removeClass("fB cDRed");
+            }
+            $("#" + tid).css("display", "");
+            $("#t" + tid).addClass("fB cDRed");
+            $("#" + tid).fadeIn(500);
+        }
+    </script>
+</head>
+<body>
+    
+<!--head开始-->
+
+ <script type="text/javascript">
+     // 设置为主页 
+     function SetHome(obj, vrl) {
+         try {
+             obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+         }
+         catch (e) {
+             if (window.netscape) {
+                 try {
+                     netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                 }
+                 catch (e) {
+                     alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                 }
+                 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                 prefs.setCharPref('browser.startup.homepage', vrl);
+             } else {
+                 alert("您的浏览器不支持，请按照下面步骤操作：\n1.打开浏览器设置。\n2.点击设置网页。\n3.输入：" + vrl + "点击确定。");
+             }
+         }
+     }
+     // 加入收藏 兼容360和IE6 
+     function shoucang(sTitle, sURL) {
+         try {
+             window.external.addFavorite(sURL, sTitle);
+         }
+         catch (e) {
+             try {
+                 window.sidebar.addPanel(sTitle, sURL, "");
+             }
+             catch (e) {
+                 alert("加入收藏失败，请使用Ctrl+D进行添加");
+             }
+         }
+     }
+
+     function ckv() {
+         if (document.getElementById("keyCode").value.length == 0 ) {
+             alert("请输入关键词");
+             return false;
+         }
+         document.getElementById("re").submit();
+     }
+        
+    </script>
+
+
+
+<div class="top wid">
+    <div class="logo fl">
+        <a href="/">
+            <img src="images/logo.png" width="515" height="53" /></a></div>
+    <div class="top-r fr">
+        <div class="home">
+            <div class="home-img fl">
+             <a href="about.aspx?mid=256&sid="><img src="images/ico02.png" /></a><a href="/about.aspx?mid=252"><img src="images/ico04.png" /></a></div>
+            <div class="home-txt fl">
+                <a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a>|<a href="javascript:void(0)" onclick="shoucang(document.title,window.location)" >收藏</a></div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="ser" style="">
+        <form id="re" method="post" action="SearchPage.aspx">
+            <img src="images/bg001.png" width="15" height="23" class="img" />
+            <input id="keyCode" name="keyCode" maxlength="6" type="text" class="put" placeholder="输入关键词" />
+            <input name="" type="button" class="btn"   onclick="return ckv()" />
+            </form>
+        </div>
+    </div>
+</div>
+<div class="clear">
+</div>
+<div class="nav-box">
+    <ul class="nav">
+        <li style="width: 104px;"><a href="/index.aspx">首页</a></li>
+        <li><a href="/about.aspx?mid=115">公司介绍</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="about.aspx?mid=115 ">
+                            公司简介</a>
+                    
+                        <a href="about.aspx?mid=253 ">
+                            管理团队</a>
+                    
+                        <a href="about.aspx?mid=182 ">
+                            部门架构</a>
+                    
+                        <a href="about.aspx?mid=221 ">
+                            所辖高速公路简介</a>
+                    
+                        <a href="news.aspx?mid=220 ">
+                            大事记</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=80">新闻中心</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=80 ">
+                            公司要闻</a>
+                    
+                        <a href="news.aspx?mid=206 ">
+                            基层动态</a>
+                    
+                        <a href="news.aspx?mid=257 ">
+                            上级动态</a>
+                    
+                        <a href="news.aspx?mid=236 ">
+                            高速信息</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=174">政务公告</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=174 ">
+                            公告公示</a>
+                    
+                        <a href="news.aspx?mid=181 ">
+                            招投标公告</a>
+                    
+                        <a href="news.aspx?mid=243 ">
+                            养护施工信息</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=170">党群工作</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=170 ">
+                            党建工作</a>
+                    
+                        <a href="news.aspx?mid=179 ">
+                            党团活动</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=166">廉政建设</a>
+           
+        </li>
+        <li><a href="/news.aspx?mid=245">运营管理</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=245 ">
+                            收费管理</a>
+                    
+                        <a href="news.aspx?mid=246 ">
+                            养护管理</a>
+                    
+                        <a href="news.aspx?mid=247 ">
+                            安全管理</a>
+                    
+                        <a href="news.aspx?mid=248 ">
+                            稽查监控</a>
+                    
+                        <a href="news.aspx?mid=249 ">
+                            服务区管理</a>
+                    
+            </div>
+        </li>
+        <li><a href="/about.aspx?mid=213">高速服务</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="about.aspx?mid=213 ">
+                            行车指南</a>
+                    
+                        <a href="about.aspx?mid=202 ">
+                            通行费查询</a>
+                    
+            </div>
+        </li>
+        <li><a href="/news.aspx?mid=234">专题报道</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="news.aspx?mid=234 ">
+                            两学一做</a>
+                    
+                        <a href="news.aspx?mid=237 ">
+                            党的群众路线</a>
+                    
+            </div>
+        </li>
+        <li><a href="/about.aspx?mid=250">企业文化</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="about.aspx?mid=250 ">
+                            奖项荣誉</a>
+                    
+                        <a href="product.aspx?mid=251 ">
+                            高速风采</a>
+                    
+                        <a href="about.aspx?mid=252 ">
+                            微信公众号</a>
+                    
+                        <a href="about.aspx?mid=256 ">
+                            微官网</a>
+                    
+            </div>
+        </li>
+        <li><a href="/about.aspx?mid=190">联系我们</a>
+            <div class="subnav" style="display: none;">
+                
+                        <a href="about.aspx?mid=190 ">
+                            联系信息</a>
+                    
+                        <a href="guestbook.aspx?mid=35 ">
+                            留言板</a>
+                    
+            </div>
+        </li>
+    </ul>
+</div>
+<!--//head结束-->
+
+<!--ad开始-->
+<div class="ads" style="background: url(images/ad01.jpg) no-repeat center top;">
+</div>
+
+
+
+<!--//ad结束-->
+
+    <!--main开始-->
+    <div class="clear">
+    </div>
+    <div class="main">
+        
+<div class="left fl">
+    <div class="title2">
+        政务公告</div>
+    <ul class="list4">
+        <li><a  title='公告公示'   href="news.aspx?mid=174&sid=" >公告公示</a></li> <li class="on"><a title='招投标公告'   href="news.aspx?mid=181&sid=" >招投标公告</a></li><li><a  title='养护施工信息'   href="news.aspx?mid=243&sid=" >养护施工信息</a></li>
+    </ul>
+</div>
+
+        <div class="right fl">
+            <div class="title3">
+                <div class="tit3-limg fl">
+                </div>
+                <div class="tit3-c fl">
+                    招投标公告</div>
+                <div class="posi fr">
+                    <a href="/">首页</a> >
+                    <a href='news.aspx?mid=174'>政务公告</a>
+                    > <span>
+                        招投标公告</span></div>
+            </div>
+            <div class="clear">
+            </div>
+            
+            <div class="con">
+                <ul class="list7">
+                    
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        27</div>
+                                    <div class="li7-lyear">
+                                        2017.06</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="关于遂渝路、南渝路UPS及UPS电池组更换工程询价公告" target="_blank" href="newshow.aspx?mid=181&id=2083">
+                                            关于遂渝路、南渝路UPS及UPS电池组更换工程询价公告</a></div>
+                                    <div class="li7-r2">
+                                        四川成南高速公路有限责任公司 (以下简称“询价人”)作为成南高速公路、遂渝高速公路、遂回高速公路、南渝高速公路营运管理单位，现决定对遂渝路、南渝路UPS及UP..</div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        26</div>
+                                    <div class="li7-lyear">
+                                        2017.06</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="复式收费项目收费亭采购询价文件" target="_blank" href="newshow.aspx?mid=181&id=2079">
+                                            复式收费项目收费亭采购询价文件</a></div>
+                                    <div class="li7-r2">
+                                        四川成南高速公路有限责任公司(以下简称“询价人”)是成南高速公路、遂回高速公路、南渝高速公路的营运管理单位，现决定对复式收费项目收费亭采购公开询价，现邀..</div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        15</div>
+                                    <div class="li7-lyear">
+                                        2017.06</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="部分收费站场地租赁设置LED信息屏项目招标公告" target="_blank" href="newshow.aspx?mid=181&id=2066">
+                                            部分收费站场地租赁设置LED信息屏项目招标公告</a></div>
+                                    <div class="li7-r2">
+                                        </div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        24</div>
+                                    <div class="li7-lyear">
+                                        2017.05</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="装载机采购项目ZZJ1标段中选候选人公示" target="_blank" href="newshow.aspx?mid=181&id=2043">
+                                            装载机采购项目ZZJ1标段中选候选人公示</a></div>
+                                    <div class="li7-r2">
+                                        装载机采购项目ZZJ1标段中选候选人公示</div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        16</div>
+                                    <div class="li7-lyear">
+                                        2017.05</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="全线53座桥梁病害维修工程交工检测询价文件" target="_blank" href="newshow.aspx?mid=181&id=2042">
+                                            全线53座桥梁病害维修工程交工检测询价文件</a></div>
+                                    <div class="li7-r2">
+                                        四川成南高速公路有限责任公司 (以下简称“询价人”)作为成南高速公路、遂渝高速公路、遂回高速公路、南渝高速公路营运管理单位，现决定对2016年已实施完成的专项..</div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        11</div>
+                                    <div class="li7-lyear">
+                                        2017.05</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="装载机询价公告" target="_blank" href="newshow.aspx?mid=181&id=2028">
+                                            装载机询价公告</a></div>
+                                    <div class="li7-r2">
+                                        本采购项目经上级下发的 《四川高速公路建设开发总公司关于四川成南高速公路有限责任公司购置特种车辆的批复》（川高路函【2016】492号）批准实施，资金来源为四..</div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        05</div>
+                                    <div class="li7-lyear">
+                                        2017.05</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="专项养护工程施工监理项目中选人公示" target="_blank" href="newshow.aspx?mid=181&id=2029">
+                                            专项养护工程施工监理项目中选人公示</a></div>
+                                    <div class="li7-r2">
+                                        中选人公示</div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        13</div>
+                                    <div class="li7-lyear">
+                                        2017.04</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="日常养护小修保养工程YH1标段中标公示" target="_blank" href="newshow.aspx?mid=181&id=1964">
+                                            日常养护小修保养工程YH1标段中标公示</a></div>
+                                    <div class="li7-r2">
+                                        </div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        01</div>
+                                    <div class="li7-lyear">
+                                        2017.04</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="专项养护工程施工监理招投标公告" target="_blank" href="newshow.aspx?mid=181&id=1942">
+                                            专项养护工程施工监理招投标公告</a></div>
+                                    <div class="li7-r2">
+                                        招投标公告</div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="li7-l fl">
+                                    <div class="li7-lday">
+                                        31</div>
+                                    <div class="li7-lyear">
+                                        2017.03</div>
+                                </div>
+                                <div class="li7-r fr">
+                                    <div class="li7-r1">
+                                        <a title="车辆采购公告CNB2017-04" target="_blank" href="newshow.aspx?mid=181&id=1935">
+                                            车辆采购公告CNB2017-04</a></div>
+                                    <div class="li7-r2">
+                                        四川成南高速公路有限责任公司拟对车辆采购项目进行国内询价采购，符合本次询价要求的供应商参加第ST-1类询价。</div>
+                                </div>
+                            </li>
+                        
+                </ul>
+                <div class="clear">
+                </div>
+                <span id="pages_pagelab"><div class="SplitPage" align="center"><a href='http://www.cngs3w.cn/news.aspx?mid=181&page=1'>首页</a> <a href='http://www.cngs3w.cn/news.aspx?mid=181&page=1'>上一页</a>  <a href='http://www.cngs3w.cn/news.aspx?mid=181&page=1'> 1 </a> <span class='nowpage'> 2 </span> <a href='http://www.cngs3w.cn/news.aspx?mid=181&page=3'> 3 </a>  <a href='http://www.cngs3w.cn/news.aspx?mid=181&page=4'> 4 </a>  <a href='http://www.cngs3w.cn/news.aspx?mid=181&page=3'>下一页</a>  <a href='http://www.cngs3w.cn/news.aspx?mid=181&page=4'>末页</a> </div>
+</span>
+
+            </div>
+            
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <!--//main结束-->
+    
+<!--foot开始-->
+<div class="clear"></div>
+<div class="foot">
+<div class="wid">
+     <div class="foot-nav"><a href="/about.aspx?mid=217">网站地图</a>|<a href="/about.aspx?mid=218">版权声明</a>|<a href="/about.aspx?mid=190">联系我们</a></div>
+     <div class="copy">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;地址：四川省成都市成华区崔家店路582号&nbsp;&nbsp;&nbsp;&nbsp;传真：028-84121610&nbsp;&nbsp;&nbsp;&nbsp;邮编：610051 </p>
+          <p>Copyright 2005 - 2016 Sichuan Chengnan Expressway Co.,Ltd. All rights reserved  &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn" target="_blank" style="color:#FFFFFF">蜀ICP备11018155号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;技术支持：<a href="http://www.mingtengnet.com" target="_blank" style="color:#FFFFFF">明腾-西部商务网</a></p>
+          <div style="margin-top: 10px;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259895375'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259895375%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+<!--可信网站图片LOGO安装开始-->
+<script src="http://kxlogo.knet.cn/seallogo.dll?sn=e171124510100698811nyk000000&size=0"></script>
+<!--可信网站图片LOGO安装结束--></div>
+    </div>
+</div>
+</div>
+<!--//foot结束-->
+
+</body>
+</html>

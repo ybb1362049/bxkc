@@ -1,0 +1,437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name=description content="陕西瑞通工程造价咨询有限公司，工程，招标">
+<meta name=keywords content="陕西瑞通工程造价咨询有限公司，瑞通，工程，招标代理，造价咨询">
+<title>陕西瑞通工程造价咨询有限公司-招标代理，造价咨询 →招标公告 </title>
+<link href="Css/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.STYLE2 {color: #FF6C00}
+.STYLE3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="183" valign="top" background="images/"><SCRIPT> 
+var widths=1000;
+var heights=183;
+
+var counts=3;
+
+img1=new Image ();img1.src='upload/345.jpg';
+
+url1=new Image ();url1.src='index.asp';
+  
+img2=new Image ();img2.src='upload/234566.jpg';
+
+url2=new Image ();url2.src='index.asp';
+  
+img3=new Image ();img3.src='upload/ruitong_r1_c1.jpg';
+
+url3=new Image ();url3.src='index.asp';
+  
+//webjx.com
+var nn=1;
+var key=0;
+function change_img()
+{if(key==0){key=1;}
+else if(document.all)
+{document.getElementById("pic").filters[0].Apply();document.getElementById("pic").filters[0].Play(duration=2);}
+eval('document.getElementById("pic").src=img'+nn+'.src');
+eval('document.getElementById("url").href=url'+nn+'.src');
+for (var i=1;i<=counts;i++){document.getElementById("xxjdjj"+i).className='axx';}
+document.getElementById("xxjdjj"+nn).className='bxx';
+nn++;if(nn>counts){nn=1;}
+tt=setTimeout('change_img()',3000);}
+function changeimg(n){nn=n;window.clearInterval(tt);change_img();}
+document.write('<style>');
+document.write('.axx{padding:1px 6px;margin-left:5px}');
+document.write('a.axx:link,a.axx:visited{text-decoration:none;color:#fff;line-height:12px;font:9px sans-serif;background-color:#666;}');
+document.write('a.axx:active,a.axx:hover{text-decoration:none;color:#fff;line-height:12px;font:9px sans-serif;background-color:#999;}');
+document.write('.bxx{padding:1px 6px;margin-left:5px}');
+document.write('a.bxx:link,a.bxx:visited{text-decoration:none;color:#fff;line-height:12px;font:9px sans-serif;background-color:#D34600;}');
+document.write('a.bxx:active,a.bxx:hover{text-decoration:none;color:#fff;line-height:12px;font:9px sans-serif;background-color:#D34600;}');
+document.write('</style>');
+document.write('<div style="width:'+widths+'px;height:'+heights+'px;overflow:hidden;text-overflow:clip;">');
+document.write('<div><a id="url" target="_blank"><img id="pic" style="border:0px;filter:progid:dximagetransform.microsoft.wipe(gradientsize=1.5,wipestyle=4, motion=forward)" width='+widths+' height='+heights+' /></a></div>');
+document.write('<div style="text-align:right;top:-35px;position:relative;margin:1px;height:16px;padding:1px;margin:10px;border:0;">');
+for(var i=1;i<counts+1;i++){document.write('<a href="javascript:changeimg('+i+');" id="xxjdjj'+i+'" class="axx" target="_self">'+i+'</a>');}
+document.write('</div></div>');
+change_img();
+</SCRIPT></td>
+  </tr>
+  <tr>
+    <td height="39" background="images/ruitong_r2_c2.jpg"><table width="99%" border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="menu111"><a href="index.asp" class="menu111">首页</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="about.asp" class="menu111">公司介绍</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="qyzz.asp" class="menu111">企业资质</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="ywfw.asp" class="menu111">业务范围</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="yjjs.asp" class="menu111">业绩介绍</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="zbgg.asp" class="menu111">招标公告</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="jggs.asp" class="menu111">结果公示</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="hydt.asp" class="menu111">行业动态</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="zcfg.asp" class="menu111">政策法规</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="qyzp.asp" class="menu111">企业招聘</a></td>
+        <td width="5"><img name="ruitong_r2_c4" src="images/ruitong_r2_c4.jpg" width="5" height="39" border="0" id="ruitong_r2_c4" alt="" /></td>
+        <td align="center" class="menu111"><a href="lxwm.asp" class="menu111">联系我们</a></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td style="padding-top:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><table width="255" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:14px;">
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="18" height="27" align="center" valign="bottom" class="White"><img src="images/hhj.jpg" width="18" height="30" /></td>
+                  <td background="images/vvg.jpg"><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td align="left" class="White">业务范围</td>
+                    </tr>
+                  </table></td>
+                  <td width="26"><img src="images/jkkl.jpg" width="26" height="30" /></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="198" style="border-bottom:1px #FFCFA1 solid; border-left:1px #FFCFA1 solid; border-right:1px #FFCFA1 solid;"><table width="93%" height="190" border="0" align="center" cellpadding="0" cellspacing="0">
+               
+			    
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="ywfw_in.asp?id=12">机电产品国际招标</a> </td>
+                  </tr>
+              
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="ywfw_in.asp?id=11">工程造价司法鉴定</a> </td>
+                  </tr>
+              
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="ywfw_in.asp?id=8">工程造价咨询业务</a> </td>
+                  </tr>
+              
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="ywfw_in.asp?id=6">室内外装饰装修工程招标代...</a> </td>
+                  </tr>
+              
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="ywfw_in.asp?id=5">政府采购招标代理</a> </td>
+                  </tr>
+              
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="ywfw_in.asp?id=4">工程建设项目招标代理</a> </td>
+                  </tr>
+              
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="ywfw_in.asp?id=3">中央投资项目招标代理</a> </td>
+                  </tr>
+               
+            </table></td>
+          </tr>
+        </table></td>
+          </tr>
+          <tr>
+            <td><table width="255" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:14px;">
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="18" height="27" align="center" valign="bottom" class="White"><img src="images/hhj.jpg" width="18" height="30" /></td>
+                  <td background="images/vvg.jpg"><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td align="left" class="White">政策法规</td>
+                    </tr>
+                  </table></td>
+                  <td width="26"><img src="images/jkkl.jpg" width="26" height="30" /></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="198" style="border-bottom:1px #FFCFA1 solid; border-left:1px #FFCFA1 solid; border-right:1px #FFCFA1 solid;"><table width="93%" height="190" border="0" align="center" cellpadding="0" cellspacing="0">
+               
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=50&BigClassID=5">中华人民共和国招标投标法...</a></td>
+                  </tr>
+                 
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=45&BigClassID=5">中华人民共和国招标投标法...</a></td>
+                  </tr>
+                 
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=735&BigClassID=5">中华人民共和国政府采购法...</a></td>
+                  </tr>
+                 
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=730&BigClassID=5">中华人民共和国政府采购法...</a></td>
+                  </tr>
+                 
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=729&BigClassID=5">政府采购货物和服务招标投...</a></td>
+                  </tr>
+                 
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=731&BigClassID=5">政府采购非招标采购方式管...</a></td>
+                  </tr>
+                 
+			    <tr>
+                  <td width="9%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                  <td width="91%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=728&BigClassID=5">工程建设项目招标范围和规...</a></td>
+                  </tr>
+                  
+            </table></td>
+          </tr>
+        </table></td>
+          </tr>
+          <tr>
+            <td><table width="255" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:14px;">
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="18" height="27" align="center" valign="bottom" class="White"><img src="images/hhj.jpg" width="18" height="30" /></td>
+                  <td background="images/vvg.jpg"><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td align="left" class="White">关于我们</td>
+                    </tr>
+                  </table></td>
+                  <td width="26"><img src="images/jkkl.jpg" width="26" height="30" /></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="150" style="border-bottom:1px #FFCFA1 solid; border-left:1px #FFCFA1 solid; border-right:1px #FFCFA1 solid;"><table width="88%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="9%" height="187" align="left">&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="about.asp">陕西瑞通工程造价咨询有限公司是2002年在陕西省工商行政管理局登记成立的法人实体，主要从事货物采购、建筑工程、基础设施建设、室内外装饰装修工程、机电设备以及各类服务性招标的专业招标代理业务、工程造价咨询业务。注册资金人民币1080万元，目前...</a>                 </td>
+                  </tr>
+                
+            </table></td>
+          </tr>
+        </table></td>
+          </tr>
+        </table></td>
+        <td valign="top" style="padding-top:14px;"><table width="715" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="102" height="27" align="center" valign="bottom" background="images/ruitong_r4_c8g.jpg" class="White">招标公告</td>
+                <td background="images/vb.jpg"><table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="right" style="padding-right:10px;">您现在所在的位置&gt;&gt;首页&gt;&gt;<span class="STYLE2">招标公告</span></td>
+                  </tr>
+                </table></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="675" valign="top" style="border-bottom:1px #FFCFA1 solid; border-left:1px #FFCFA1 solid; border-right:1px #FFCFA1 solid;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><TABLE border=0 cellSpacing=0 cellPadding=0 width="90%" 
+align=center>
+                              <TBODY>
+                                <TR>
+                                  <TD style="padding-top:12px;">
+								  
+								  <form action="zbgg.asp"  method="post" id="form1">
+								  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td width="9%" class="White">查询：</td>
+                                      <td width="26%" align="left"><input type="text" name="keyword" /></td>
+                                      <td width="65%" align="left"> 
+                                      
+                                        <input type="submit" name="Submit"  class="menu"  style="border:0px;"  value=""/>
+                                         </td>
+                                    </tr>
+                                  </table>
+								  </form>
+								  
+								  </TD>
+                </TR>
+                              </TBODY>
+                            </TABLE></td>
+  </tr>
+  <tr>
+    <td><table width="97%" height="190" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
+              
+			   
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1232&BigClassID=2" >渭河临潼段滩区治理及水生态工程设计项目</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-12-26</td>
+              </tr>
+           
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1230&BigClassID=2" >蓝田县辋川河辋川新镇段综合治理工程施工一、二标段施工及监理（变更公告）</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-12-21</td>
+              </tr>
+           
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1227&BigClassID=2" >镇安县卡内贫困村基础设施建设项目增补计划安全饮水工程招标公告</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-12-14</td>
+              </tr>
+           
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1226&BigClassID=2" >神木市2018年公路项目勘察设计招标公告</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-12-14</td>
+              </tr>
+           
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1216&BigClassID=2" >西安市阎良区供水安全提升改造工程施工一、三、四、五标段及监理招标公告</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-11-28</td>
+              </tr>
+           
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1215&BigClassID=2" >阎良区振兴街办穆郑村生活污水处理示范项目监理(二次公告）</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-11-28</td>
+              </tr>
+           
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1213&BigClassID=2" >西安市自来水有限公司东北郊应急备用水源地项目 资格预审公告</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-11-28</td>
+              </tr>
+           
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1206&BigClassID=2" >中国邮政西安邮件处理中心建筑工程（一期）建设监理项目</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-11-16</td>
+              </tr>
+           
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1200&BigClassID=2" >西安秦华天然气有限公司工商用干式过滤器采购（二次招标）</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-11-14</td>
+              </tr>
+           
+			  <tr>
+                <td width="3%" style="border-bottom:1px #BEBEBE dashed;"><img src="images/ruitong_r6_c9.jpg" width="6" height="5" /></td>
+                <td width="88%" align="left" style="border-bottom:1px #BEBEBE dashed;"><a href="news_in.asp?id=1199&BigClassID=2" >西安铁路职业技术学院新校区轨道交通专业综合实训中心建设项目</a></td>
+                <td width="9%" style="border-bottom:1px #BEBEBE dashed;">2017-11-10</td>
+              </tr>
+           
+              
+              
+              
+              
+            </table></td>
+  </tr>
+</table>
+</td>
+  </tr>
+  <tr>
+    <td height="62"><table cellspacing=0 cellpadding=0 border=0 class=lv>
+<form method=get onsubmit="document.location = 'http://www.sxrt.net.cn/zbgg.asp?Page='+ this.page.value;return false;"><TR>
+<TD align=right>
+首页 
+上一页 
+<A HREF=http://www.sxrt.net.cn/zbgg.asp?Page=2><font style="font-size: 12px">下一页</font></A> 
+<A HREF=http://www.sxrt.net.cn/zbgg.asp?Page=56><font style="font-size: 12px" >尾页</font></A>
+ 第<INPUT class=input_bg_hei style="HEIGHT: 14px;font-size: 12px"TYEP=TEXT NAME=page SIZE=2 Maxlength=4 VALUE=1>页
+<INPUT class=input_bg_hei type=submit style="HEIGHT: 19px;font-size: 12px" value=GO> 共 56 页
+ 553 条信息
+</TD>
+</TR></form>
+</table>
+</td>
+  </tr>
+</table>
+</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="988" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:15px;">
+      <tr>
+        <td height="73" align="center" bgcolor="#FFFECF">@2014陕西瑞通工程造价咨询有限公司  技术支持：<a href="http://www.029net.net" target="_blank">畅通网络</a> <br />
+          地址：中国西安科技路30号合力紫郡A座2401室  邮编：710065  电话：029-62968531  传真：029-62968532  电邮：rtzjgs@126.com<br/>
+
+
+<MARQUEE width=1 height=5 scrollamount=29308> 
+<a href="http://ningbo.sx-youth.com/" target="_self">宁波哪里算命准</a>
+<a href="http://hangzhou.sx-youth.com/" target="_self">杭州哪里算命准</a>
+<a href="http://chengdu.sx-youth.com/" target="_self">成都哪里算命准</a>
+<a href="http://guiyang.sx-youth.com/" target="_self">贵阳哪里算命准</a>
+<a href="http://kunming.sx-youth.com/" target="_self">昆明哪里算命准</a>
+<a href="http://nanning.sx-youth.com/" target="_self">南宁哪里算命准</a>
+<a href="http://nanchang.sx-youth.com/" target="_self">南昌哪里算命准</a>
+<a href="http://guangzhou.sx-youth.com/" target="_self">广州哪里算命准</a>
+<a href="http://fuzhou.sx-youth.com/" target="_self">福州哪里算命准</a>
+<a href="http://xiamen.sx-youth.com/" target="_self">厦门哪里算命准</a>
+<a href="http://nanjing.sx-youth.com/" target="_self">南京哪里算命准</a>
+<a href="http://suzhou.sx-youth.com/" target="_self">苏州哪里算命准</a>
+<a href="http://haerbin.sx-youth.com/" target="_self">哈尔滨哪里算命准</a>
+<a href="http://wuxi.sx-youth.com/" target="_self">无锡哪里算命准</a>
+<a href="http://changsha.sx-youth.com/" target="_self">长沙哪里算命准</a>
+<a href="http://jinan.sx-youth.com/" target="_self">济南哪里算命准</a>
+<a href="http://lanzhou.sx-youth.com/" target="_self">兰州哪里算命准</a>
+<a href="http://shijiazhuang.sx-youth.com/" target="_self">石家庄哪里算命准</a>
+<a href="http://qingdao.sx-youth.com/" target="_self">青岛哪里算命准</a>
+<a href="http://shenyang.sx-youth.com/" target="_self">沈阳哪里算命准</a>
+<a href="http://changchun.sx-youth.com/" target="_self">长春哪里算命准</a>
+<a href="http://dalian.sx-youth.com/" target="_self">大连哪里算命准</a>
+<a href="http://wuhan.sx-youth.com/" target="_self">武汉哪里算命准</a>
+<a href="http://nanshan888.86mai.com/" target="_self">上海哪里算命准</a>
+<a href="http://nanshan168.86mai.com/" target="_self">北京哪里算命准</a>
+<a href="http://nanshan618.86mai.com/" target="_self">深圳哪里算命准</a>
+<a href="http://nanshan158.86mai.com/" target="_self">广州哪里算命准</a>
+</MARQUEE>
+
+
+
+  
+
+
+</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+</body>
+</html>

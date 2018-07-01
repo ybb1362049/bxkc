@@ -1,0 +1,506 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="baidu-site-verification" content="CsZS9jtO2J" />
+    <title>招标公告-工程信息-公示公告</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    
+    <link href="/Content/Styles/base.css" rel="stylesheet" />
+    <script src="/Content/Scripts/datepicker/WdatePicker.js"></script>
+    
+    <link href="/Content/Styles/notice.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="w_body">
+        <div class="w_header">
+    <div class="top">
+        <div class="mAuto clearfix">
+            <div class="logo fl">
+                <a href="/" title="云南省建筑市场监管与诚信信息网">
+                    <h1 class="p_i">云南省建筑市场监管与诚信信息网</h1>
+                </a>
+            </div>
+            <!-- logo End -->
+
+            
+            <!-- search End -->
+        </div>
+        <!-- mAuto End -->
+    </div>
+    <!-- top End -->
+
+    <div class="bottom">
+        <div class="mAuto clearfix">
+            <div class="menu fl">
+                <ul class="clearfix">
+                    <li class="light on">
+                        <a href="/Home/Index" title="首页">首页</a>
+                        <i class="line p_i"></i>
+                    </li>
+                    <li class="light">
+                        <a href="/Guide/GuideInfo" title="办事指南">办事指南</a>
+                        <i class="line p_i"></i>
+                    </li>
+                    <li class="light">
+                        <a href="/Announcement/BiddingAnnouncementList" title="公告公示">公告公示</a>
+                        <i class="line p_i"></i>
+                    </li>
+                    <li class="light">
+                        <a href="/InfoQuery/EnterpriseList" title="信息公开">信息公开</a>
+                        <i class="line p_i"></i>
+                    </li>
+                    <li class="light">
+                        <a href="/PolicyDoc/Index?code=AdministrativeRules" title="政策文件">政策文件</a>
+                        <i class="line p_i"></i>
+                    </li>
+                    <li class="light">
+                        <a href="http://www.ynjst.gov.cn/index.aspx" target="_blank" title="进入住建厅网站">进入住建厅网站</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- menu End -->
+
+            <span class="date fr">
+                2018年01月15日 10:02 周一
+            </span>
+            <!-- date End -->
+        </div>
+        <!-- mAuto End -->
+    </div>
+    <!-- menu End -->
+</div>
+        <!-- w_header End -->
+
+        
+
+<div class="w_notice">
+    <div class="section">
+        <div class="mAuto">
+            <div class="content">
+                <div class="title">
+                    <h2>
+                        <i class="tIcon p_i"></i>
+                        工程信息
+                    </h2>
+                    <div class="nav">
+                        <i class="nIcon p_i"></i>
+                        当前位置：<a href="/Home/Index"><span>网站首页</span></a> > <a href="/Announcement/BiddingAnnouncementList"><span>招标公告</span></a> 
+                    </div>
+                    <!-- nav End -->
+                </div>
+                <!-- title End -->
+
+                
+<div class="iLayer">
+    <div class="items change-1 clearfix">
+        <span class="tit fl">工程信息</span>
+        <ul class="fl clearfix">
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/BiddingAnnouncementList">招标公告</a></li>
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/WinningList">中标公示</a></li>
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/InBuildingList">在建工程</a></li>
+        </ul>
+    </div>
+    <!-- items part 1 End -->
+
+    <div class="items change-2 clearfix">
+        <span class="tit fl">企业公示公告</span>
+        <ul class="fl clearfix">
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/QualificationPublicList">企业资质公示</a></li>
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/QualificationNoticeList">企业资质公告</a></li>
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/CorporatePerformanceList">企业业绩公示</a></li>
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/InYunnanList">跨工商注册地登记公示</a></li>
+        </ul>
+    </div>
+    <!-- items part 2 End -->
+
+    <div class="items change-3 clearfix">
+        <span class="tit fl">人员公示公告</span>
+        <ul class="fl clearfix">
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/RegPersonPublicList">注册人员公示</a></li>
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/RegPersonNoticeList">注册人员公告</a></li>
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/RegPersonGetLicenseList">注册人员领证通知</a></li>
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/PersonPerformanceList">人员业绩公示</a></li>
+        </ul>
+    </div>
+    <!-- items part 3 End -->
+
+    <div class="items change-4 clearfix">
+        <span class="tit fl">诚信信息</span>
+        <ul class="fl clearfix">
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/WebIntegrityInformationList?State=bad">不良信息公示</a></li>
+            <li style="border: 1px dashed #ccc;"><a href="/Announcement/WebIntegrityInformationList?State=good">良好信息公示</a></li>
+            
+            
+        </ul>
+    </div>
+    <!-- items part 4 End -->
+</div>
+<!-- iLayer End -->
+
+
+
+                <div class="tLayer-1">
+                    <div class="search clearfix">
+                        <form id="main_form" action="/Announcement/BiddingAnnouncementList" method="post">
+                            <div class="inner fl">
+                                <label>招标项目名称：</label>
+                                <input type="text" name="proName" id="" class="w250" value="" />
+                            </div>
+                            <div class="inner fl">
+                                <label>招标人：</label>
+                                <input type="text" name="prozCom" id="" class="w250" value="" />
+                            </div>
+                            <div class="inner fl">
+                                <label>招标类型：</label>
+                                <select name="BiddindType" id="BiddindType" class="w25">
+                                    <option value="">==请选择==</option>
+                                    <option value="安装">安装</option>
+                                    <option value="材料">材料</option>
+                                    <option value="工程总承包">工程总承包</option>
+                                    <option value="监理">监理</option>
+                                    <option value="检测">检测</option>
+                                    <option value="勘察">勘察</option>
+                                    <option value="勘察设计">勘察设计</option>
+                                    <option value="其他">其他</option>
+                                    <option value="设备">设备</option>
+                                    <option value="设计">设计</option>
+                                    <option value="设计施工一体化">设计施工一体化</option>
+                                    <option value="施工">施工</option>
+                                    <option value="项目管理">项目管理</option>
+                                    <option value="造价">造价</option>
+                                    <option value="智能化">智能化</option>
+                                    <option value="装饰装修">装饰装修</option>
+                                </select>
+                            </div>
+                            <a href="#" title="" class="sBtn fl" onclick="$('#main_form').submit();">查询</a>
+                        </form>
+                    </div>
+                    <!-- search End -->
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td width="6%" class="bg">序号</td>
+                                <td width="44%" class="bg">招标项目名称</td>
+                                <td width="24%" class="bg">招标人</td>
+                                <td width="13%" class="bg">招标类型</td>
+                                <td width="13%">发布时间</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                                    <tr>
+                                        <td>1</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=f0683069-af50-481c-b9f7-ffd48333930e" target="_blank" title="">
+                                                个旧市第四中学运动场、停车库、公厕建设项目设计施工总承包(EPC)
+                                            </a>
+                                        </td>
+                                        <td>个旧市第四中学</td>
+                                        <td>设计施工一体化</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=bd3d871e-23f9-4f16-ae69-f29cb9e7b362" target="_blank" title="">
+                                                澜沧县2017年易地扶贫搬迁雪林乡小芒令村老茶厂安置点基础设施建设项目
+                                            </a>
+                                        </td>
+                                        <td>澜沧拉祜族自治县雪林佤族乡人民政府</td>
+                                        <td>施工</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=e83bfcb9-ef06-4e84-9b3c-63550a2b593f" target="_blank" title="">
+                                                官渡区方旺片区保障性住房（廉租住房）配套小学、幼儿园建设项目弱电智能化系统工程
+                                            </a>
+                                        </td>
+                                        <td>昆明未来城开发有限公司</td>
+                                        <td>智能化</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=589fb8ea-a730-42e6-8a59-830f0b953e2a" target="_blank" title="">
+                                                弥勒市可邑小镇建设岩土勘察项目
+                                            </a>
+                                        </td>
+                                        <td>弥勒市城市建设投资开发有限责任公司</td>
+                                        <td>勘察</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=8ad24a41-8600-4a19-b130-3b9df760f261" target="_blank" title="">
+                                                昭通中心城市文化体育产业新区项目监理招标（二标段）
+                                            </a>
+                                        </td>
+                                        <td>昭通中建建设投资发展有限公司</td>
+                                        <td>监理</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=abb7b2a6-c5f6-4998-882c-2b8974c30a51" target="_blank" title="">
+                                                贡山县咪谷易地扶贫搬迁建设项目
+                                            </a>
+                                        </td>
+                                        <td>贡山县城乡建设投资开发有限责任公司</td>
+                                        <td>设计施工一体化</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=318bfca3-98d1-4c8d-aba6-a1173cdc4b2d" target="_blank" title="">
+                                                珠海市对口帮扶贡山县普拉底乡腊咱易地扶贫示范村建设项目
+                                            </a>
+                                        </td>
+                                        <td>贡山县城乡建设投资开发有限责任公司</td>
+                                        <td>施工</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=ac6e3c54-e60f-4a9a-9542-98f548f10ed5" target="_blank" title="">
+                                                贡山县你代易地扶贫搬迁建设项目
+                                            </a>
+                                        </td>
+                                        <td>贡山县城乡建设投资开发有限责任公司</td>
+                                        <td>设计施工一体化</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=5c461a53-8645-4df9-8fce-c1e2b6c11138" target="_blank" title="">
+                                                昆明铁路局玉溪供电段（开远铁路职工家属区）“三供一业”分离移交供水改造项目可行性研究报告编制及设计招标
+                                            </a>
+                                        </td>
+                                        <td>开远市自来水公司</td>
+                                        <td>设计</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=85fc2735-b49c-4409-b6d8-ae3d3e72b5a9" target="_blank" title="">
+                                                泸水市人民法院诉讼服务中心建设设计施工一体化项目
+                                            </a>
+                                        </td>
+                                        <td>泸水市人民法院</td>
+                                        <td>设计施工一体化</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=12dabc00-b6fc-4f13-b629-f1dae9cac830" target="_blank" title="">
+                                                泸水市人民法院秤杆法庭建设设计施工一体化项目
+                                            </a>
+                                        </td>
+                                        <td>泸水市人民法院</td>
+                                        <td>设计施工一体化</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=7c1d4b72-5df6-4da0-8caf-b1f4c525faea" target="_blank" title="">
+                                                普洱市工业园区厚普饲料厂场平工程
+                                            </a>
+                                        </td>
+                                        <td>普洱市展翼置业有限公司</td>
+                                        <td>施工</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=4eba98af-8e5a-401b-b795-3752f2543ad9" target="_blank" title="">
+                                                普洱职教中心学生宿舍1#楼、2#楼监理服务
+                                            </a>
+                                        </td>
+                                        <td>普洱市职业教育中心</td>
+                                        <td>监理</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=79d8d19e-c48b-4d9b-ac98-c16321455ed7" target="_blank" title="">
+                                                文山市城区公交车站台（EPC）建设改造工程监理招标（二次）
+                                            </a>
+                                        </td>
+                                        <td>文山市市政管理局</td>
+                                        <td>监理</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td class="left">
+                                            <a href="/Announcement/BiddingAnnouncementDetial?ptnID=021907c8-f6e5-4484-ba43-b744e011b936" target="_blank" title="">
+                                                云南省小龙潭矿务局布沼坝露天矿新邓耳排土场1350-1390水平道路内侧排水沟工程
+                                            </a>
+                                        </td>
+                                        <td>云南省小龙潭矿务局</td>
+                                        <td>施工</td>
+                                        <td>2018-01-15</td>
+                                    </tr>
+                           
+                        </tbody>
+                    </table>
+                    <!-- table End -->
+
+
+                    <div class="m_page clearfix">
+                        <div class="pList fl">
+                            
+<!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://www.webdiyer.com)-->
+<ul data-gotobutton="#jumpBtn" data-invalidpageerrmsg="页索引无效" data-outrangeerrmsg="页索引超出范围" data-pagecount="103" data-pageindexbox="#jumpIndex" data-pageparameter="page" data-pagerid="Webdiyer.MvcPager" data-urlformat="/Announcement/BiddingAnnouncementList?page=__page__" id="policy"><li class="numeric">< 上一页</li><li class="on" title="1"><span>1</span></li><li><a href="/Announcement/BiddingAnnouncementList?page=2">2</a></li><li><a href="/Announcement/BiddingAnnouncementList?page=3">3</a></li><li><a href="/Announcement/BiddingAnnouncementList?page=4">4</a></li><li><a href="/Announcement/BiddingAnnouncementList?page=5">5</a></li><li class="b-n"><a href="/Announcement/BiddingAnnouncementList?page=6">...</a></li><li class="numeric"><a href="/Announcement/BiddingAnnouncementList?page=2">下一页 ></a></li></ul>
+<!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://www.webdiyer.com)-->
+
+                            
+                        </div>
+                        <!-- pList End -->
+
+                        <div class="jump fl">
+                            <span>共 1537 条，每页显示15条</span>
+                            
+                            <span>跳到</span>
+                            <input type="text" id="jumpIndex" />
+                            <span>页</span>
+                            <a href="javascript:;" title="跳转" id="jumpBtn" class="jBtn"></a>
+                        </div>
+                        <!-- jump End -->
+                    </div>
+
+                    <!-- m_page End -->
+                </div>
+                <!-- tLayer-1 End -->
+            </div>
+            <!-- content End-->
+        </div>
+    </div>
+    <!-- section End -->
+</div>
+<!-- w_notice End -->
+
+
+        <!-- w_index End -->
+
+        <div class="w_footer">
+    <div class="mAuto">
+        <div class="copyright">
+            <p>主办单位：云南省住房和城乡建设厅&nbsp;|&nbsp;地址：云南省昆明市西山区红塔东路3号</p>
+            <p>承办单位：云南省建设工程招标投标管理办公室&nbsp;|&nbsp;云南省建设工程招标投标行业协会</p>
+            <p>技术支持：云南恩裕科技开发有限公司&nbsp;|&nbsp;联系电话：0871-68111456</p>
+            <p style="background-color: Gainsboro; height: 23px; width: 180px; margin-left: 480px; ">
+                <font style="color: black;">
+                    <a href="/Web_Interaction/GovernmentConsultationIndex" target="_blank" style="color: DodgerBlue; ">
+                        政务咨询
+                    </a>&nbsp;|&nbsp;
+                    <a href="/Web_Interaction/SurveyCollectionForm" target="_blank" style="color: DodgerBlue; ">
+                        调查征集
+                    </a>
+                </font>
+                
+            </p>
+            
+        </div>
+        <!-- copyright End -->
+    </div>
+    <!-- mAuto End -->
+</div>
+<!-- w_footer End -->
+        <!-- w_footer End -->
+    </div>
+
+    <!--JS框架-->
+    <script src="/Content/Scripts/jquery/jquery-1.8.2.min.js"></script>
+    <script src="/Content/Scripts/Juicer/juicer.js"></script>
+    <script src="/Content/Scripts/layer/layer.js"></script>
+    <script src="/Content/Scripts/loveccui-web.js"></script>
+    <script src="/Content/Scripts/validator/leveccui-validator.js"></script>
+    <script src="/Content/Scripts/jquery.form.js"></script>
+    <script>
+        $(function () {
+            juicer.register('formatDate', formatDate);
+            //模块鼠标经过效果
+            $(".safeItem,.softCom,.agencyLi").hover(function () {
+                $(this).addClass("on");
+            }, function () {
+                $(this).removeClass("on");
+            });
+            $("#LoginOut").on("click", function () {
+                AjaxJson("/Login/LoginOut", {}, function (data) {
+                    layer.msg("您已退出登录，欢迎再来哦 ^_^", { icon: 6, shade: [0.3, '#000'] }, function () {
+                        location.href = "/Home/Index";
+                    });
+                });
+            });
+            //设置导航高亮
+            setTopNavLight()
+        });
+        //设置导航高亮函数
+        function setTopNavLight() {
+            var li = $(".w_header .mAuto li");
+            li.removeClass("on");
+
+            var index = "3";
+            li.each(function (i, e) {
+                var liNow = $(e);
+                if (i + 1 == index) {
+                    liNow.addClass("on");
+                    return false;
+                }
+            });
+        }
+
+        function building(btn) {
+            //layer.msg("亲，该栏目正在建设中，请静候佳音~", { icon: 6 });
+            layer.tips('亲，栏目正在筹备中，请静候佳音~', $(btn), {
+                tips: [1, '#3595CC']
+            });
+        }
+    </script>
+    
+    <script src="/Content/Scripts/notice.js"></script>
+    <script>
+        $(function () {
+            var li = $(".iLayer li");
+            li.removeClass("on");
+
+            $("#BiddindType").val("")
+            var index = "1";
+            li.each(function (i, e) {
+                var liNow = $(e);
+                if (i + 1 == index) {
+                    liNow.addClass("on");
+                    var parent = liNow.parents(".items").find(".tit").eq(0);
+                    var parentText = parent.text();
+                    parent.html("—&nbsp;&nbsp;" + parentText + "&nbsp;&nbsp;—");
+                    return false;
+                }
+            });
+        });
+    </script>
+<script type="text/javascript" src="/WebResource.axd?d=16rUFhqM_K7Me0pWWaLyUOBdBCoYFQ61m4O-pnze-MGHUAzZ_WFeJwXQtChS3rtXWo5gfYwZb9j-gscWA7vNzIKyoz1WNBGwAWGfvYxGCcEg0NI3z28hgc5snhr0nsekrY0-2N05i9fTICJX5rpeHDQ3KwNLC5-1TQbJYlRW6_I1&t=636361697495782118"></script>
+
+</body>
+</html>

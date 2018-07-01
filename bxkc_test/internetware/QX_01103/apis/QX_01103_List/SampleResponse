@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" />
+    <meta name="description" />
+    <meta name="application-name" content="中国纳溪门户网站" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="HandheldFriendly" content="true" />
+      
+    <title>政府公告_信息公开_中国纳溪门户网站</title>
+    
+    <link href="/Content/Main/Base/css/module.css?v=jF3pJ08g-6J3aRMEuSZFMf4lKW179NqmQTNkqosjyTI" rel="stylesheet" type="text/css" />
+    <link href="/Content/Main/Base/css/default.css?v=1CwzeOee2sAeDH53FPVWHipZeYOWC7LMwINXKvGlbpU" rel="stylesheet" type="text/css" />
+    
+    <link href="/Content/Main/ContentManage/css/page.css?v=MKDhWc0MpjmHRe9Dnx46iMyDcGq2DFVcopEBECX0kLo" rel="stylesheet" />
+
+
+    <link href="/Content/_Common/Base/css/power.css?v=NnysWKRx2sJjnGPaLZ29mFou4FqoIx_Biww_3b3J9QU" rel="stylesheet" type="text/css" />
+    <script src="/Content/_Common/Assets/Scripts/jquery-1.11.1.js?v=i_872U7co8jMMDvxvbPSmuKgJwOtKxOPiqicO_RHpZY"></script>
+    <script src="/Content/_Common/Assets/Scripts/jquery.cookie.js?v=rmd7M4A062fFnrQ373UwMnlFLIU_D-IgWCce-lcNHiI"></script>
+<!--     <script src="/Content/_Common/Base/js/antiClickjack.js?v=i8GJMRncoiZv55Y7c9aeqMN0kmfsdxi7ONci41FWBvk"></script> -->
+    <script src="/Content/_Common/Base/js/webCommon.js?v=UNQPWQswEPKU-RoWrrACGBFHDtcnCk0eWUXBsP34wM0"></script>
+    <script src="/Content/_Common/Base/js/jquery.SuperSlide.js?v=cWzaIMzx937GNLONS0trXQFIAjTawB_-M2kdBxe_pj8"></script>
+	<script src="/Content/_Common/Assets/Scripts/qrcode.min.js?v=xUHvBjJ4hahBW8qN9gceFBibSFUzbe9PNttUvehITzY"></script>
+    <script src="/Content/_Common/Base/js/StoT.js?v=OXZKrhYSlMpppSi--VBWq_JCt5s-v5ob4LOTbOY9-SE"></script>
+</head>
+<body>
+    
+<div class="wrap">
+
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?4d688947a7e056bdad95998e28816f33";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+<div class="topBar">
+    <div class="siteWidth">
+        <span class="topLinks clearfix">
+<!--             <dl class="wx"><dt>微信</dt>
+                <dd><img src='~/Content/Main/Base/img/ewm.png' /><i></i></dd>
+            </dl>
+            <dl class="wb"><dt><a href="http://t.qq.com/xmnx520">微博</a></dt></dl>
+            <dl class="sj">
+                <dt>手机台</dt>
+                <dd><img src='~/Content/Main/Base/img/ewm-sjt.png' /><i></i></dd>
+            </dl> -->
+            <dl class="sj">
+                <dt><a href="/ForceUserAgent/ForceUserAgent/?useragent=phone&amp;currentpageurl=http%3a%2f%2fwww.naxi.gov.cn%3a8082%2fzw%2fzfgg_2">手机版</a></dt>
+                <dd><div data-content="http://www.naxi.gov.cn:8082/zw/zfgg_2" data-powertype="qrcode" data-size="100"></div><i></i></dd>
+            </dl>
+            <dl class="ft"><dt><a id="ST_translate" onclick="do_simple_to_traditional();">繁體版</a></dt></dl>
+            <dl class="wza"><dt><a href="/wca.html">无障碍版</a></dt></dl>
+            <dl class="zn"><dt><a href="/znjqr">智能机器人</a></dt></dl>
+            <dl class="en"><dt><a href="/english">English</a></dt></dl>
+        </span>
+        <span class="govLinks">
+            <a target="_blank" href="http://www.gov.cn/">中央人民政府</a>
+            <a target="_blank" href="http://www.sc.gov.cn/">四川省人民政府</a>
+            <a target="_blank" href="http://www.luzhou.gov.cn/">泸州市人民政府</a>
+        </span>
+    </div>
+</div>
+<!-- header S -->
+<header id="header" class="siteWidth">
+    <div class="headerTop">
+		
+        <h1 title="中国纳溪门户网站" id="logo"><a href="http://www.naxi.gov.cn"><img src="/upload/main/site/logo/image/1f237141df7b46669626bd8e4cc1171d.png" /></a></h1>
+        <div class="siteSearchBar">
+            
+
+<div class="s-form">
+        <input type="hidden" id="sitelist" value="[{&quot;Name&quot;:&quot;全站群&quot;,&quot;Value&quot;:0},{&quot;Name&quot;:&quot;本站&quot;,&quot;Value&quot;:1}]" />
+        <input type="hidden" id="siteid" name="sid" value="0">
+        <div class="select-box">
+            <a id="sOptionBtn" class="s-option" href="javascript:void(0)">全站群</a>
+            <i class="arrow-dn"></i>
+        </div>
+    <div class="input-box">
+        <input type="text" class="from-control" id="inputkeyword" placeholder="请输入关键词" spellcheck="false">
+    </div>
+    <div class="btn-box">
+        <input type="submit" id="search" class="btn" onclick="gSearch();" value="搜 索">
+        <input type="hidden" id="route" value="s" />
+    </div>
+    <div class="btn-heightSearch">
+        <a href="/s?ac=a" target="_blank">高级搜索</a>
+    </div>
+</div>
+
+<script src="/Content/_Common/FullTextSearch/js/default-site-search-box.js?v=kU3NgEhQSAAbC9QQEqnSpBmUFrAITf3s8vsYfMFUAZg"></script>
+<script>
+    document.getElementById("inputkeyword").onkeydown = function (e) {
+        e = e || window.event;
+        if (e.keyCode == 13) {
+            gSearch();
+        }
+    };
+
+    function gSearch() {
+        var keyword = document.getElementById('inputkeyword').value;
+        var route = document.getElementById('route').value;
+
+        if (keyword == '' || keyword == "请输入关键字") {
+            alert("请输入关键字");
+        } else {
+            var siteid = document.getElementById('siteid').value;
+            window.location = '/' + route + '?sid=' + siteid + '&wd=' + encodeURIComponent(keyword);
+        }
+    }
+</script>
+        </div>
+    </div>
+    <nav class="topNav clearfix">
+        <ul id="mainNav" class="mainNav">
+            
+
+<ul id="mainNav" class="mainNav">
+    <li class="li1 first1" id="li-home">
+        <h3 class="h1">
+                <a class="a1" href='/'>网站首页</a>
+        </h3>
+    </li>
+
+        <li class="li1 hasUl1" id="li-qq">
+            <h3 class="h1">
+                <a class="a1" href="/qq">走进纳溪</a></h3>
+        </li>
+        <li class="li1 hasUl1" id="li-xw">
+            <h3 class="h1">
+                <a class="a1" href="/xw">新闻中心</a></h3>
+        </li>
+        <li class="li1 hasUl1 on1" id="li-zw">
+            <h3 class="h1">
+                <a class="a1" href="/zw">信息公开</a></h3>
+        </li>
+        <li class="li1 hasUl1" id="li-wz">
+            <h3 class="h1">
+                <a class="a1" href="/wz">政民互动</a></h3>
+        </li>
+        <li class="li1 hasUl1" id="li-bs">
+            <h3 class="h1">
+                <a class="a1" href="/bs">办事服务</a></h3>
+        </li>
+        <li class="li1 hasUl1" id="li-ly">
+            <h3 class="h1">
+                <a class="a1" href="/ly">全域旅游</a></h3>
+        </li>
+        <li class="li1 last1 hasUl1" id="li-tz">
+            <h3 class="h1">
+                <a class="a1" href="/tz">投资纳溪</a></h3>
+        </li>
+</ul>
+
+    <script type="text/javascript">
+        (function () {
+            var navST;
+            var navST1;
+            var name = 'mainNav';
+            var t = 200;
+            var type = 1;
+            var removeOn = 'False';
+            var effect = 'fade';
+            var appendItem = '#';
+            var li = "#" + name + " li";
+            var index = 0;
+
+            if (!$("#" + name + " .li1").hasClass("on1")) {
+                $("#" + name + " .li1").first().addClass("on1");
+            } //默认第一个加.on1类
+            index = $("#" + name + " .li1").index($("#" + name + " .on1"));
+
+            //鼠标离开导航后，回复默认.on1类位置
+            $("#" + name)
+                .hover(
+                    function () {
+                        if (navST1 != null) {
+                            clearTimeout(navST1);
+                        }
+                    },
+                    function () {
+                        navST1 = setTimeout(function () {
+                                $("#" + name + " .li1").removeClass("on1").eq(index).addClass("on1");
+                            },
+                            500);
+                    }
+                );
+
+            if (type == '1') {
+                li = "#" + name + " .li1";
+            }
+            if (appendItem != '#') { //插入内容
+                var appendHtml = $(appendItem).html();
+                $(li).first().append(appendHtml);
+                $(appendItem).remove();
+            }
+
+            if (type == '3') {
+                $("#" + name + " .on1").find("ul").first().show();
+            }
+
+            $(li)
+                .hover(function () {
+                        var curItem = $(this);
+                        var onNum = (curItem.attr("class").split(" "))[0].replace("li", "");
+                        $(li).removeClass("on" + onNum);
+                        curItem.addClass("on" + onNum);
+                        navST = setTimeout(function () { //延时触发
+
+                                if ($("ul:first", curItem).css("display") != "block") {
+                                    $(li + " .ul" + onNum).hide();
+                                    if (effect == 'fade') {
+                                        $("ul:first", curItem).fadeIn(t);
+                                    } else {
+                                        $("ul:first", curItem).slideDown(t);
+                                    }
+                                };
+                                navST = null;
+                            },
+                            t);
+                    },
+                    function () {
+                        if (navST != null) {
+                            clearTimeout(navST);
+                        }
+                        if (type == '1' || type == '2') {
+                            if (effect == 'fade') {
+                                $(this).find("ul").first().fadeOut(t);
+                            } else {
+                                $(this).find("ul").first().slideUp(t);
+                            }
+                        }
+                        if (removeOn == 'True') {
+                            $(this).removeClass("on1");
+                        }
+                    },
+                    t); //end hover
+        })()
+    </script>
+
+        </ul>
+    </nav>
+    <script>
+        //手机版显示二维码
+        hover($(".topBar dl"), "on");
+    </script>
+
+</header>
+<!-- header E -->
+    
+
+
+<!-- content S -->
+<div id="content">
+    <div class="path">
+<em>您的位置：</em><a href="/" class="home">首页</a>
+&gt;<a href="/zw">信息公开</a>&gt;<a href="/zw/zfgg">政府公告</a></div>
+    <!-- side S -->
+    <aside class="side">
+        
+
+
+<div id="sideMenu" class="sideMenu">
+    <div class="hd">
+        <h3>信息公开</h3>
+    </div>
+    <div class="bd">
+        <ul class="menuList">
+                <li class="on"><a href="/zw/zfgg">政府公告</a></li>
+                <li><a href="/zw/zfcwhy">政府常务会议</a></li>
+                <li><a href="/zw/znjg">职能机构</a></li>
+                <li><a href="/zw/rsxx">人事信息</a></li>
+                <li><a href="/zw/ghjh">规划计划</a></li>
+                <li><a href="/zw/tjxx">统计信息</a></li>
+                <li><a href="/zw/yjgl">应急管理</a></li>
+                <li><a href="/zw/zcjd">政策解读</a></li>
+                <li><a href="/zw/zcwj">政府文件</a></li>
+                <li><a href="/zw/zdlyxxgk">年度要点</a></li>
+                <li><a href="/zw/qmtjwgk">全面推进五公开</a></li>
+                <li><a href="/zw/zfxxgk/zfxxgkzn">政府信息公开</a></li>
+                <li><a href="/zw/rdgz">热点关注</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+    if (jQuery("#sideMenu .bd li").size() === 0) {
+        jQuery("#sideMenu").hide();
+    }
+</script>
+    <div id="sideRmph" class="sideBox">
+        <div class="hd">
+            <h3>热点资讯</h3>
+        </div>
+        <div class="bd">
+            <ul class="infoListA infoListA-rank">
+
+
+
+
+<li class="first hot">
+        <em class="number">01</em>
+                <a href="/zw/zfgg/content_86344" target="_blank" title="标题：关于选聘纳溪区2015年市级水资源费建设项目天仙镇场镇供水水源地保护工程施工单位的公告
+点击数：11112
+发表时间：2017-01-10">
+        关于选聘纳溪区2015年市级水资源费建设项目天仙镇场镇供水…
+    </a>
+	</li>
+
+
+
+
+
+<li class="hot">
+        <em class="number">02</em>
+                <a href="/zw/zfgg/content_87781" target="_blank" title="标题：磋商邀请公车改革取消公务用车拍卖代理机构的公告
+点击数：10718
+发表时间：2017-01-13">
+        磋商邀请公车改革取消公务用车拍卖代理机构的公告
+    </a>
+	</li>
+
+
+
+
+
+<li class="hot">
+        <em class="number">03</em>
+                <a href="/zw/zfgg/content_88324" target="_blank" title="标题：纳溪区打古镇2016年中央和省级财政农田水利维修养护项目工程公告
+点击数：10591
+发表时间：2017-01-03">
+        纳溪区打古镇2016年中央和省级财政农田水利维修养护项目工…
+    </a>
+	</li>
+
+
+
+
+
+<li>
+        <em class="number">04</em>
+                <a href="/zw/zfgg/content_86263" target="_blank" title="标题：纳溪区公务用车改革取消公务用车拍卖机构竞争性磋商结果公告
+点击数：10390
+发表时间：2017-01-25">
+        纳溪区公务用车改革取消公务用车拍卖机构竞争性磋商结果公告
+    </a>
+	</li>
+
+
+
+
+
+<li>
+        <em class="number">05</em>
+                <a href="/zw/zfgg/content_85482" target="_blank" title="标题：2016年省级水资源费节水型社会重点县建设项目（天仙镇片区）选聘施工单位的公告
+点击数：10277
+发表时间：2016-12-15">
+        2016年省级水资源费节水型社会重点县建设项目（天仙镇片区…
+    </a>
+	</li>
+
+
+
+
+
+<li class="last">
+        <em class="number">06</em>
+                <a href="/zw/zfgg/content_86811" target="_blank" title="标题：泸州市纳溪区食品药品监督管理局关于白酒公开竞价流标公示
+点击数：10184
+发表时间：2017-01-05">
+        泸州市纳溪区食品药品监督管理局关于白酒公开竞价流标公示
+    </a>
+	</li>
+
+            </ul>
+        </div>
+    </div>
+
+    </aside>
+    <!-- side E -->
+    <!-- mainContent S -->
+    <div class="mainContent">
+        <div class="mainBox">
+            <div class="mHd">
+                <h3>政府公告</h3>
+            </div>
+            <div class="mBd">
+                <!-- 正文内容 S -->
+                <ul class="newsList">
+                    
+
+
+
+<li class="first">
+                <span class="date">2017-12-01</span>
+        <a href="/zw/zfgg/content_97989" target="_blank" title="标题：泸州市人民政府关于沙坝村等149个村退出贫困序列的批复
+点击数：1361
+发表时间：2017-12-01">
+        泸州市人民政府关于沙坝村等149个村退出贫困序列的批复
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-12-01</span>
+        <a href="/zw/zfgg/content_97974" target="_blank" title="标题：纳溪区2017年11月扶贫项目实施方案基本情况公示
+点击数：1320
+发表时间：2017-12-01">
+        纳溪区2017年11月扶贫项目实施方案基本情况公示
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-11-28</span>
+        <a href="/zw/zfgg/content_97909" target="_blank" title="标题：泸州市纳溪区上马镇八角仓村“民办公助” 鑫源生态养猪场项目招标公告
+点击数：365
+发表时间：2017-11-28">
+        泸州市纳溪区上马镇八角仓村“民办公助” 鑫源生态养猪场项目招标公告
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-11-27</span>
+        <a href="/zw/zfgg/content_97787" target="_blank" title="标题：泸州市纳溪区2017年移民后扶项目渠坝镇龙头村新建公路工程中选施工单位公示
+点击数：1449
+发表时间：2017-11-27">
+        泸州市纳溪区2017年移民后扶项目渠坝镇龙头村新建公路工程中选施工单位公示
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-11-23</span>
+        <a href="/zw/zfgg/content_97598" target="_blank" title="标题：2017年省级财政现代农业发展工程专项资金建设——纳溪新乐镇三江村田间道加宽工程项目中选施工单位公示
+点击数：1539
+发表时间：2017-11-23">
+        2017年省级财政现代农业发展工程专项资金建设——纳溪新乐镇三江村田间道加宽工程项目中选施工…
+    </a>
+	</li>
+
+    <li class="split"></li>
+
+
+
+
+<li>
+                <span class="date">2017-11-21</span>
+        <a href="/zw/zfgg/content_97442" target="_blank" title="标题：泸州市纳溪区2017年移民后扶项目渠坝镇龙头村新建公路工程公开选择施工单位的公告
+点击数：2021
+发表时间：2017-11-21">
+        泸州市纳溪区2017年移民后扶项目渠坝镇龙头村新建公路工程公开选择施工单位的公告
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-11-16</span>
+        <a href="/zw/zfgg/content_97187" target="_blank" title="标题：2017年度省级财政现代农业发展工程专项资金建设一纳溪新乐镇三江村田间道加宽工程公开确定施工单位的公告
+点击数：643
+发表时间：2017-11-16">
+        2017年度省级财政现代农业发展工程专项资金建设一纳溪新乐镇三江村田间道加宽工程公开确定施工…
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-11-13</span>
+        <a href="/zw/zfgg/content_97011" target="_blank" title="标题：泸州市纳溪区水务局关于注销纳溪区渠坝乡白洋湾电站取水许可证的公告
+点击数：1673
+发表时间：2017-11-13">
+        泸州市纳溪区水务局关于注销纳溪区渠坝乡白洋湾电站取水许可证的公告
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-11-10</span>
+        <a href="/zw/zfgg/content_96951" target="_blank" title="标题：白节镇高隆新村改造工程招标公告
+点击数：408
+发表时间：2017-11-10">
+        白节镇高隆新村改造工程招标公告
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-11-01</span>
+        <a href="/zw/zfgg/content_96470" target="_blank" title="标题：关于公开遴选区委区政府第二届法律顾问团成员的公告
+点击数：2922
+发表时间：2017-11-01">
+        关于公开遴选区委区政府第二届法律顾问团成员的公告
+    </a>
+	</li>
+
+    <li class="split"></li>
+
+
+
+
+<li>
+                <span class="date">2017-10-30</span>
+        <a href="/zw/zfgg/content_96376" target="_blank" title="标题：纳溪区人民检察院信息集控中心建设项目结果公告
+点击数：2120
+发表时间：2017-10-30">
+        纳溪区人民检察院信息集控中心建设项目结果公告
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-10-30</span>
+        <a href="/zw/zfgg/content_96344" target="_blank" title="标题：关于开展纳溪区第五届“感动纳溪”人物选树活动的公告
+点击数：2477
+发表时间：2017-10-30">
+        关于开展纳溪区第五届“感动纳溪”人物选树活动的公告
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-10-16</span>
+        <a href="/zw/zfgg/content_95592" target="_blank" title="标题：泸州市纳溪区人民检察院信息集控中心建设项目招标公告
+点击数：680
+发表时间：2017-10-16">
+        泸州市纳溪区人民检察院信息集控中心建设项目招标公告
+    </a>
+	</li>
+
+
+
+
+
+<li>
+                <span class="date">2017-09-29</span>
+        <a href="/zw/zfgg/content_93334" target="_blank" title="标题：2017年市级财政资产收益扶贫（温氏猪场）项目（丰乐镇天台村）中标候选人公示
+点击数：810
+发表时间：2017-09-29">
+        2017年市级财政资产收益扶贫（温氏猪场）项目（丰乐镇天台村）中标候选人公示
+    </a>
+	</li>
+
+
+
+
+
+<li class="last">
+                <span class="date">2017-09-21</span>
+        <a href="/zw/zfgg/content_93588" target="_blank" title="标题：2017年市级财政资产收益扶贫（温氏猪场）项目招标公告 
+点击数：1510
+发表时间：2017-09-21">
+        2017年市级财政资产收益扶贫（温氏猪场）项目招标公告 
+    </a>
+	</li>
+
+
+                </ul>
+                <div class="page">
+
+
+        <a class="first" href="/zw/zfgg_1">首页</a>
+        <a class="prev" href="/zw/zfgg_1">上一页</a>
+<a href='/zw/zfgg_1'>1</a> <a class='current'>2</a> <a href='/zw/zfgg_3'>3</a> <a href='/zw/zfgg_4'>4</a> <a href='/zw/zfgg_5'>5</a> <a href='/zw/zfgg_6'>6</a> <a href='/zw/zfgg_7'>7</a> <a href='/zw/zfgg_8'>8</a> <a href='/zw/zfgg_9'>9</a>         <a class="next" href="/zw/zfgg_3">下一页</a>
+        <a class="last" href="/zw/zfgg_14">尾页</a>
+        <span class="total">共204条信息/共14页</span>
+        <span class="select">转到第<input title="按回车键跳转到指定页" onkeypress="javascript:return quickJumpPage(event, 'quickJumpButton')" type="text" style="width:24px" id="quickJumpInput" class="quickJumpInput " value="2" /><script type="text/javascript">var pageNameUrl = '/zw/zfgg_{pageid}';function quickJumpPage(event){if (event.keyCode == 13 && !(event.srcElement && (event.srcElement.tagName.toLowerCase() == 'textarea'))) {var number = document.getElementById('quickJumpInput').value;if (/\d+/i.test(number)){if (number > 14) number = 14;if(number < 1) number = 1;window.location.href = pageNameUrl.replace("{pageid}", number);}else{alert('输入的页数有误！');}}}</script>页</span>
+</div>
+                <!-- 正文内容 E -->
+            </div>
+        </div>
+    </div>
+    <!-- mainContent E -->
+</div>
+<!-- content E -->
+
+
+
+<!-- footer S -->
+<footer id="footer">
+    <div class="siteWidth">
+        <div class="footNav"><a onClick="SetHome(this,'http://www.naxi.gov.cn')">设为首页</a>| 
+
+
+            <a class="tit" href="/wzxg/lxwm" title="联系我们">联系我们</a>
+                |
+            <a class="tit" href="/wzxg/wzdt" title="网站地图">网站地图</a>
+                |
+            <a class="tit" href="/wzxg/wzsm1" title="网站声明">网站声明</a>
+ </div>
+        <div class="copyRight">        <p>主办：中共泸州市纳溪区委 &nbsp; 泸州市纳溪区人民政府</p><p>泸州市纳溪区人民政府版权所有 &nbsp; 蜀ICP备05029076号-3&nbsp;</p><p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51050302000033" target="_blank"><img src="http://www.beian.gov.cn/file/ghs.png">川公网安备 51050302000033号</a></p>
+    
+            <div class="pics">
+                <a href="http://www.12377.cn/" target="_blank"><img src="/Content/Main/Base/img/footer-jubao.jpg"/></a>&nbsp;&nbsp;
+                <script id="_jiucuo_" sitecode="5105030006" src="http://pucha.kaipuyun.cn/exposure/jiucuo.js"></script>&nbsp;&nbsp;
+                <a href="http://www.sclzga.gov.cn/default.php?mod=c&amp;s=ssc8613d9" target="_blank"><img src="/Content/Main/Base/img/footer-wangjian.jpg"></a>&nbsp;&nbsp;
+                <a href="http://www.scjb.gov.cn/" target="_blank"><img src="/Content/Main/Base/img/footer-jubao1.jpg"/></a>&nbsp;&nbsp;
+                <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/336/2024/40251829/CA233362024402518290003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+            </div>
+        </div>
+    </div>
+</footer>
+<span class="footerBg"></span>
+<!-- footer E -->
+<!-- 侧栏固定菜单 -->
+<ul class="sideFixed">
+    <li class="wx">
+        <a title="微信" href="javascript:;"></a>
+        <div class="pic">
+            <img src='/Content/Main/Base/img/ewm.png' />
+            <i></i>
+        </div>
+    </li>
+    <li class="wb"><a title="微博" target="blank" href='http://t.qq.com/xmnx520'></a></li>
+    <li class="sjt">
+        <a title="手机台" href="javascript:;"></a>
+        <div class="pic">
+            <img src='/Content/Main/Base/img/ewm-sjt.png' />
+            <i></i>
+        </div>
+    </li>
+    <li class="sj">
+        <a href="/ForceUserAgent/ForceUserAgent/?useragent=phone&amp;currentpageurl=http%3a%2f%2fwww.naxi.gov.cn%3a8082%2fzw%2fzfgg_2"></a>
+        <div class="pic">
+            <div data-content="http://www.naxi.gov.cn:8082/zw/zfgg_2" data-powertype="qrcode" data-size="150"></div>
+            <i></i>
+        </div>
+    </li>
+    <li class="wza"><a title="无障碍" href='/wca.html'></a></li>
+	<li class="ft"><a title="繁體版" onclick="do_simple_to_traditional();"></a></li>
+	<li class="en"><a title="English" href="/english"></a></li>
+
+<!--     <li class="jqr"><a target="blank" href='javascript:void(0);'>智能机器人</a></li>
+     -->    <li title="返回顶部" class="db"><a href="#"></a></li>
+</ul>
+<script>
+    $(".sideFixed li").hover(function () { $(this).addClass("on") }, function () { $(this).removeClass("on") });
+</script>
+<script>
+//百度统计代码
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4d688947a7e056bdad95998e28816f33";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+    <script src="/Content/_Common/Assets/Scripts/audio.min.js?v=NpxxOM2mZQmYCRCBwi8VVxllfj7XvVmUZeq35WwgSn4"></script>
+    <script src="/Content/_Common/Base/js/power.js?v=f5NCXXBhmaBLAIk8S9ecyuw4v1u9pLdlbASP0cXl_9g"></script>
+    
+    
+
+</body>
+</html>

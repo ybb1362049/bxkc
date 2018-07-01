@@ -1,0 +1,199 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）-招投标 - 采购招标-成都市公共企事业单位办事公开</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/aktuals.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="../js/favorite.js"></script>
+<script type="text/javascript" src="../js/detail-share.js"></script>
+<script type="text/javascript" src="../js/stat.js"></script>
+</head>
+<body>
+
+
+<div id="top"><a href="http://www.chengdu.gov.cn" target="_blank">成都市人民政府门户网站</a></div>
+<div id="banner">
+	<div class="logo">
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="FlashID" width="182" height="70" id="FlashID">
+			<param name="movie" value="images2016/logo.swf" />
+			<param name="quality" value="high" />
+			<param name="wmode" value="transparent" />
+			<param name="swfversion" value="9.0.45.0" />
+			<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+			<!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+			<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash" data="images2016/logo.swf" width="182" height="70">
+				<!--<![endif]-->
+				<param name="quality" value="high" />
+				<param name="wmode" value="transparent" />
+				<param name="swfversion" value="9.0.45.0" />
+				<!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+				<h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+				<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="182" height="70" /></a></p>
+				<!--[if !IE]>-->
+			</object>
+			<!--<![endif]-->
+		</object>
+	</div>
+</div>
+
+
+<div id="hot">
+	<div class="box01">
+		<p>当前位置：<a href="./"><font color="#FFFFFF">首页</font></a> - 采购招标 - 招投标</p>
+	</div>
+	
+		
+	
+
+<div class="box02" id="male">
+	<form method="post" name="searchForm" action="" target="_search" style="margin:0;">
+	<input type="text" name="sw" value="输入标题或名称" class="input01" onfocus="javascipt:doOnfocus(this);" onblur="javascript:doOnblur(this);"/>
+	<input type="radio" id="xx" checked="checked" name="st" value="info" />
+	<label name="xx" class="checked" for="xx">信息</label>
+	<input type="radio" id="jg" name="st" value="org" />
+	<label name="jg" for="jg">机构</label>
+	<input type="button" name="input" class="input03" value="查询" onclick="javascript:search();" />
+	</form>
+</div>
+<script type="text/javascript">
+	window.onload = function () {
+		labels = document.getElementById('male').getElementsByTagName('label');
+		radios = document.getElementById('male').getElementsByTagName('input');
+		for (i = 0, j = labels.length; i < j; i++) {
+			labels[i].onclick = function () {
+				if (this.className == '') {
+					for (k = 0, l = labels.length; k < l; k++) {
+						labels[k].className = '';
+						radios[k].checked = false;
+					}
+					this.className = 'checked';
+					try {
+						document.getElementById(this.name).checked = true;
+					} catch (e) {}
+				}
+			}
+		}
+	}
+	
+	function search() {
+		if (searchForm.sw.value == '' || searchForm.sw.value == '输入标题或名称') {
+			searchForm.sw.focus();
+			alert("输入标题或名称。");
+		}
+		else {
+			if (searchForm.st[0].checked == true) searchForm.action = 'searchInfo.action';
+			else searchForm.action = 'searchOrg.action';
+			searchForm.submit();
+		}
+	}
+	
+	function doOnfocus(e) {
+		if (e.value == '输入标题或名称') e.value = '';
+	}
+	
+	function doOnblur(e) {
+		if (e.value == '') e.value = '输入标题或名称';
+	}
+</script>
+</div>
+<div id="part_03x">
+	<div class="blk01">
+		<ul>
+			<h1>成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）</h1>
+			<h3>www.chengdu.gov.cn　　填报时间：2018-02-23　　责任单位：成都市公交集团有限公司</h3>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+				<tr>
+					<td height="20" align="center" class="td01">【字体：<a href="javascript:setFont('16')">大</a> <a href="javascript:setFont('14')">中</a> <a href="javascript:setFont('12')">小</a>】　<a class="dy" href="javascript:print();">打印</a>　<a class="sc" href="javascript:void(0);" onclick="javascript:AddFavorite();">收藏</a>　<a class="fx" onmouseover="document.getElementById('box').style.display='block'" onmouseout="document.getElementById('box').style.display='none'">分享到</a>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+				<tr>
+					<td height="0" width="548"></td>
+					<td width="280" class="rq">
+						<div id="box" onmouseover="document.getElementById('box').style.display='block'" onmouseout="document.getElementById('box').style.display='none'">
+							<p><a href="javascript:shareToSina(encodeURIComponent(window.location),encodeURIComponent('成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）'),'');">新浪微博</a></p>
+							<p><a href="javascript:shareToQQ(encodeURIComponent(window.location),encodeURIComponent('成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）'),'');">腾讯微博</a></p>
+							<p><a href="javascript:shareToRenren(encodeURIComponent(window.location),encodeURIComponent('成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）'),'');">人人网</a></p>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<table id="myTable" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="myFont" height="25" style="line-height:210%; font-size:14px;">
+						&nbsp;
+<p style="text-align:center;" class="MsoNormal" align="center">
+	<b><span style="font-family:宋体;font-size:16pt;">成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）<span></span></span></b>
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:14pt;">我司因生产需要，以公开招标方式确定管理软件系统维护服务单位。现将有关事项公告如下：<span></span></span>
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:14pt;">1</span><span style="font-family:宋体;font-size:14pt;">、维护单位需对成都公交集团管理软件系统进行维护，保证其正常、稳定运行，及时处理异常数据，协助各使用单位查询、核对和统计数据等。合同期限为<span>3</span>年。<span></span></span>
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:14pt;">2</span><span style="font-family:宋体;font-size:14pt;">、投标人资格要求：依法设立具有承揽管理软件系统维护项目资格的独立法人企业，具有本地化运维服务能力（企业注册地址位于成都市，或有分支机构注册于成都市）。本项目不接受联合体投标。<span></span></span>
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:14pt;">3</span><span style="font-family:宋体;font-size:14pt;">、请有意参加报名的单位持报名资格条件所需的证明材料、企业法人营业执照副本、报名者有效身份证（以上材料验原件，收加盖企业公章复印件），法定代表人身份证明书、授权委托书原件等相关资料，到我司购买招标文件。招标文件</span><span style="font-family:宋体;color:black;font-size:14pt;">每套</span><span style="font-family:宋体;font-size:14pt;">售价<span>200</span>元，售后不退。<span></span></span>
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:14pt;">4</span><span style="font-family:宋体;font-size:14pt;">、报名截止时间：<span>2018</span>年<span>3</span>月<span>1</span>日下午<span>17</span>：<span>00</span>。<span></span></span>
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:14pt;">5</span><span style="font-family:宋体;font-size:14pt;">、响应并中标的单位因自身投标过程瑕疵导致废标的，应承担给我方带来的二次招标损害责任。招标人对未中标人的落选原因不负有解释义务。<span></span></span>
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:14pt;">6</span><span style="font-family:宋体;font-size:14pt;">、联系人：罗女士，电话：<span>028-</span></span><span style="font-family:宋体;font-size:14pt;">85071498</span><span style="font-family:宋体;font-size:14pt;"></span>
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:14pt;">地址：成都市</span><span style="font-family:宋体;font-size:14pt;">双楠路<span>286</span>号三楼成都公交集团智能信息中心<span></span></span>
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:14pt;"></span>
+</p>
+<p style="text-align:right;text-indent:28pt;" class="MsoNormal" align="right">
+	<span style="font-family:宋体;font-size:14pt;">成都市公共交通集团有限公司<span></span></span>
+</p>
+<p style="text-align:right;" class="MsoNormal" align="right">
+	<span style="font-family:宋体;font-size:14pt;">2018 </span><span style="font-family:宋体;font-size:14pt;">年<span>2</span>月<span>23</span>日</span><span></span>
+</p>
+<p class="MsoNormal">
+	<span></span>
+</p>
+						
+						<div class="clearit"></div>
+					</td>
+				</tr>
+			</table>
+		</ul>
+		<div class="box01" style="width:300px; float:right"><span>分享到：</span>
+			<div id="_qrcode" style="display:none;">
+				<div class="title">分享到微信</div>
+				<div class="close"><a href="javascript:void(0);" onclick="javascript:closeQrcode();"><img src="../images/close.jpg" style="width:18px; height:18px;" /></a></div>
+				<iframe id="_qrcode_iframe" class="iframe" width="200" height="200" src="" frameborder="0" scrolling="no"></iframe>
+				<div class="bottom">用微信"扫一扫"，点击右上角分享按钮，<br />可将网页分享给您的微信好友或朋友圈。</div>
+			</div>
+			<a href="javascript:void(0);" onclick="javascript:shareToWeixin(window.location);"><img src="images/index_46.png" /></a>
+			<a href="javascript:void(0);" onclick="javascript:shareToSina(window.location, '成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）', '');"><img src="images/index_43.png" /></a>
+			<a href="javascript:void(0);" onclick="javascript:shareToQQ(window.location, '成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）', '');"><img src="images/index_44.png" /></a>
+		</div>
+	</div>
+</div>
+
+
+<div id="foot">
+	<p>主办：成都市人民政府  承办：成都市大数据和电子政务管理办公室  管理与维护：成都市经济信息中心</p>
+	<p>主编信箱：editor@chengdu.gov.cn  &copy;2001-2012  蜀ICP备05003365号</p>
+</div>
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-820059-67981F/gs.js'></script>
+<!--script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-000410-75ABE6/gs.js'></script-->
+</body>
+</html>

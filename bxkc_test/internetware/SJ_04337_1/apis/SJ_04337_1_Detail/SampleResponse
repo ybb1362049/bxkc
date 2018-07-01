@@ -1,0 +1,203 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>广西科文招标有限公司</title>  
+    <meta name="keywords" content="广西科文招标有限公司" />
+    <meta name="description" content="广西科文招标有限公司" />
+    <link href="/Content/pagecss/pagerstyles.css" rel="stylesheet" />
+    <link href="/Content/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/css.css" rel="stylesheet" type="text/css" />
+    <script src="/Content/js/AC_RunActiveContent.js" type="text/javascript"></script>
+    <script src="/Content/js/common2.js" type="text/javascript"></script>
+    <script src="/Content/js/public2.js" type="text/javascript"></script>
+    <script src="/Content/js/js_noeorr.js" type="text/javascript"></script>
+    <script src="/Content/js/unitpngfix.js" type="text/javascript"></script>
+    <script src="/Content/js/MSClass.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Content/js/jquery.js"></script>
+    <script type="text/javascript" src="/Content/js/jquery.vticker-min.js"></script>
+
+    <script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+    </script>
+
+
+    <script type="text/javascript">
+        // 选项卡
+        $(function () {
+            $(".tab dl dt>a:first").addClass("tabActive");
+            $(".tab dl dd ul").not(":first").hide();
+            $(".tab dl dt>a").unbind("mouseover").bind("mouseover", function () {
+                $(this).siblings("a").removeClass("tabActive").end().addClass("tabActive");
+                var index = $(".tab dl dt>a").index($(this));
+                $(".tab dl dd ul").eq(index).siblings(".tab dl dd ul").hide().end().fadeIn("slow");
+            });
+            //滚动新闻条
+            //$('#scrolldiv1').vTicker({
+            //    speed: 700,
+            //    pause: 100,
+            //    showItems: 6,
+            //    animation: 'fade',
+            //    mousePause: true,
+            //    height: 0,
+            //    direction: 'down'
+            //});
+            //$('#scrolldiv2').vTicker({
+            //    speed: 500,
+            //    pause: 3000,
+            //    showItems: 6,
+            //    animation: 'fade',
+            //    mousePause: true,
+            //    height: 300,
+            //    direction: 'up'
+            //});
+
+        });
+    </script>
+
+</head>
+<body>
+      
+    <div id="main_form"> 
+        <div id="top_form">
+            <div id="top_banner">
+                <script type="text/javascript">
+                    AC_FL_RunContent('codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0', 'width', '975', 'height', '145', 'src', '/Content/images/top_banner', 'quality', 'high', 'pluginspage', 'http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash', 'wmode', 'transparent', 'movie', '/Content/images/top_banner'); //end AC code
+                </script><noscript>
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="975" height="145">
+                        <param name="movie" value="/Content/images/top_banner.swf" />
+                        <param name="quality" value="high" />
+                        <param name="wmode" value="transparent" />
+                        <embed src="/Content/images/top_banner.swf" width="975" height="145" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" wmode="transparent"></embed>
+                    </object>
+                </noscript>
+            </div>
+            <div id="imenu">
+                <ul class="imenu">
+                    <li><a href="/">首  页</a></li>
+                    <li><a href="/News/Onepage?cabh=01">公司简介</a></li>
+                    <li><a href="/News?cabh=02">采购公告</a></li>
+                    <li><a href="/News?cabh=03">更改通知</a></li>
+                    <li><a href="/News?cabh=04"> 中标公告</a></li>
+                    <li><a href="/News?cabh=05"> 政策法规</a></li>
+                    <li><a href="/News?cabh=06"> 理论实践</a></li>
+                    <li><a href="/Jobs/">人才招聘</a></li>
+                    <li><a href="/Contract"> 联系我们</a></li>
+                </ul>
+            </div>
+        </div> 
+
+         
+        
+
+<div id="sub_acon">
+    <div id="sub_tit">
+        <div class="sbtit">医疗设备采购(KWAD2J20171411) 竞标公告</div>
+        <div class="sicon">
+            发布时间： 2017-12-22 浏览次数： 446 ［<a href="JavaScript:window.close();">关闭</a>］
+        </div>
+    </div>
+    <div id="sub_scon">
+        <p class="MsoNormal" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">广西科文招标有限公司受采购单位委托，对一批医疗设备进行竞争性谈判采购，现将有关事项公告如下：</span><span></span>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">一、项目名称：医疗设备采购</span><span style="font-size:16px;">&nbsp;&nbsp;&nbsp; </span><span style="font-size:16px;">项目编号：</span><span style="font-size:16px;">KWAD2J20171411</span>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">二、竞标内容：医疗设备一批。具体内容详见竞争性谈判采购文件。</span><span></span>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">三、竞标人资格：生产或经营本次采购货物，具有法人资格的供应商。</span><span></span>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">四、购买竞争性谈判采购文件时间及地点：请于</span><u><span style="font-size:16px;">2017</span><span style="font-size:16px;">年</span><span style="font-size:16px;">12</span><span style="font-size:16px;">月</span><span style="font-size:16px;">22</span><span style="font-size:16px;">日至</span><span style="font-size:16px;">2017</span><span style="font-size:16px;">年</span><span style="font-size:16px;">12</span><span style="font-size:16px;">月</span><span style="font-size:16px;">29</span><span style="font-size:16px;">日</span></u><span style="font-size:16px;">（正常上班时间）到</span><u><span style="font-size:16px;">广西科文招标有限公司（广西南宁市民族大道</span><span style="font-size:16px;">141</span><span style="font-size:16px;">号中鼎万象东方</span><span style="font-size:16px;">D</span><span style="font-size:16px;">区五层）</span></u><span style="font-size:16px;">购买竞争性谈判采购文件，售价</span><u><span style="font-size:16px;">250</span><span style="font-size:16px;">元</span><span style="font-size:16px;">/</span><span style="font-size:16px;">份</span></u><span style="font-size:16px;">，售后不退。如需邮寄另加邮费</span><span style="font-size:16px;">50</span><span style="font-size:16px;">元，请用电汇或转账方式将</span><span style="font-size:16px;">300</span><span style="font-size:16px;">元汇入科文公司以下账户，办理汇款后请将详细的收件人、邮寄地址、邮编、联系电话、传真号码、邮箱、纳税人识别号等传真到</span><span style="font-size:16px;">0771-2023829</span><span style="font-size:16px;">。如未能提供联系方式造成采购文件无法邮寄或有更改及补充通知无法联系的，后果由投标人自负。</span><span></span>
+</p>
+<p class="MsoPlainText" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">五、竞标文件递交截止时间和地点：竞标文件必须以密封形式于</span><u><span style="font-size:16px;">2018</span><span style="font-size:16px;">年</span><span style="font-size:16px;">1</span><span style="font-size:16px;">月</span><span style="font-size:16px;">5</span><span style="font-size:16px;">日</span><span style="font-size:16px;">9</span><span style="font-size:16px;">时整</span></u><span style="font-size:16px;">前在</span><u><span style="font-size:16px;">广西科文招标有限公司开标厅（广西南宁市民族大道</span><span style="font-size:16px;">141</span><span style="font-size:16px;">号中鼎万象东方</span><span style="font-size:16px;">D</span><span style="font-size:16px;">区五层）</span></u><span style="font-size:16px;">递交，逾期不受理。</span><span></span>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">六、截标时间及地点：于</span><u><span style="font-size:16px;">2018</span><span style="font-size:16px;">年</span><span style="font-size:16px;">1</span><span style="font-size:16px;">月</span><span style="font-size:16px;">5</span><span style="font-size:16px;">日</span><span style="font-size:16px;">9</span><span style="font-size:16px;">时整</span></u><span style="font-size:16px;">在</span><u><span style="font-size:16px;">广西科文招标有限公司（广西南宁市民族大道</span><span style="font-size:16px;">141</span><span style="font-size:16px;">号中鼎万象东方</span><span style="font-size:16px;">D</span><span style="font-size:16px;">区五层）</span></u><span style="font-size:16px;">截标，参加竞标的企业法人或委托代理人参加。</span><span></span>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">七、谈判时间及地点：</span><u><span style="font-size:16px;">2018</span><span style="font-size:16px;">年</span><span style="font-size:16px;">1</span><span style="font-size:16px;">月</span><span style="font-size:16px;">5</span><span style="font-size:16px;">日</span><span style="font-size:16px;">9</span><span style="font-size:16px;">时整</span></u><span style="font-size:16px;">截标后为与竞标人谈判时间，具体时间由采购代理机构另行通知。地点：</span><u><span style="font-size:16px;">广西科文招标有限公司会议室</span></u><span style="font-size:16px;">，参加竞标的法定代表人或委托代理人必须持证件（法定代表人凭身份证或委托代理人凭法人授权委托书原件和身份证）依时到达指定地点等候当面谈判。</span><span></span>
+</p>
+<p class="MsoPlainText" style="margin-left:21.0pt;">
+	<span style="font-size:16px;">八、广西科文招标有限公司银行帐户：</span><span></span>
+</p>
+<p class="MsoPlainText" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">开户名称：广西科文招标有限公司 </span><u><span></span></u>
+</p>
+<p class="MsoPlainText" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">开户银行：广西北部湾银行营业部</span><u><span></span></u>
+</p>
+<p class="MsoPlainText" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">帐</span><span style="font-size:16px;">&nbsp;&nbsp;&nbsp; </span><span style="font-size:16px;">号：</span><span style="font-size:16px;">0101012090615689</span><u></u>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">九、联系电话及通讯地址：</span><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:20.6pt;">
+	<span style="font-size:16px;">邮</span><span style="font-size:16px;">&nbsp;&nbsp;&nbsp; </span><span style="font-size:16px;">编：</span><span style="font-size:16px;">530001</span>
+</p>
+<p class="MsoPlainText" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">地</span><span style="font-size:16px;">&nbsp;&nbsp;&nbsp; </span><span style="font-size:16px;">址：广西南宁市民族大道</span><span style="font-size:16px;">141</span><span style="font-size:16px;">号中鼎万象东方</span><span style="font-size:16px;">D</span><span style="font-size:16px;">区五层（东盟国际商贸区正对面）</span><span></span>
+</p>
+<p class="MsoPlainText" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">购买采购文件电话：</span><span style="font-size:16px;">0771-2023962&nbsp; </span><span style="font-size:16px;">传真：</span><span style="font-size:16px;">0771-2023829&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:16px;">联系人：罗玉卿</span><span></span>
+</p>
+<p class="MsoPlainText" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">财务处联系电话：</span><span style="font-size:16px;">&nbsp; 0771-2023812&nbsp; </span><span style="font-size:16px;">联系人：李燕宗</span><span></span>
+</p>
+<p class="MsoPlainText" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">项目负责人电话：</span><span style="font-size:16px;">&nbsp; 0771-2023821&nbsp; </span><span style="font-size:16px;">传真：</span><span style="font-size:16px;">0771-2023997&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size:16px;">联系人：唐</span><span style="font-size:16px;">&nbsp; </span><span style="font-size:16px;">治</span><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	<span style="font-size:16px;">十、网上查询：</span><span><a href="http://www.kwbid.com.cn/"><span style="font-size:16px;">www.kwbid.com.cn</span></a><span style="font-size:16px;">&nbsp;(</span></span><span style="font-size:16px;">广西科文网</span><span style="font-size:16px;">) </span>
+</p>
+<p class="MsoNormal" align="right" style="text-align:right;">
+	<span style="font-size:16px;">&nbsp;</span>
+</p>
+<p class="MsoNormal" align="right" style="text-align:right;">
+	<span style="font-size:16px;">&nbsp;</span>
+</p>
+<p class="MsoNormal" align="right" style="text-align:right;">
+	<span style="font-size:16px;">广西科文招标有限公司</span><span></span>
+</p>
+<p class="MsoDate" style="margin-left:262.5pt;text-indent:99.75pt;">
+	<span style="font-size:16px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2017年</span><span style="font-size:16px;">12</span><span style="font-size:16px;">月</span><span style="font-size:16px;">22</span><span style="font-size:16px;">日</span>
+</p>
+
+    </div>
+  
+  
+</div>
+
+    
+
+        <div class="clear_both"></div>
+    </div>
+
+    <div id="bottom_form">
+        <div id="bottom_info">
+            <div id="bottom_lcon">
+<div>
+	Copyright &copy; 2014 - 2016 广西科文招标有限公司 版权所有
+</div>
+<div>
+	&nbsp;桂ICP备14008007 &nbsp;0771-2023987、0771-2023977（Fax） &nbsp;<span style="line-height:1.5;">E-Mail：</span><span style="line-height:1.5;">kwzbzfcg@126.com&nbsp;</span><span style="line-height:1.5;">&nbsp;</span>
+</div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

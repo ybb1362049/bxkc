@@ -1,0 +1,867 @@
+<!doctype html>
+<html>
+<head>
+    <script src="js/PublicJs.js"></script>
+    <meta charset="utf-8">
+    <title>苍溪县人民政府门户网站</title>
+    <link href="css/cssc.css" rel="stylesheet" type="text/css">
+    <link href="css/zTreeStyle.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.list_lh li:even').addClass('lieven');
+
+            $("div.list_lh").myScroll({
+                speed: 40, //数值越大，速度越慢
+                rowHeight: 35 //li的高度
+            });
+        })
+        function AutoScroll(obj) {
+            $(obj).find("ul:first").animate({
+                marginTop: "-40px"
+            }, 500, function () {
+                $(this).css({ marginTop: "0px" }).find("li:first").appendTo(this);
+            });
+        }
+        $(document).ready(function () {
+            setInterval('AutoScroll("#scrollDiv")', 2000)
+        });
+    </script>
+</head>
+<body>
+    
+    <table style="margin: auto; background-color: #FFF" width="1000" border="0" cellspacing="0"
+        cellpadding="0">
+        <tr>
+            <td>
+                
+
+<table  class="zzz" width="100%"  border="0" cellspacing="0" cellpadding="0" background="images/top1.jpg">
+  <tr>
+    <td width="510" height="38" align="left" class="zzzz">
+               <a href="http://www.gov.cn/"target="_blank">中国政府网</a> <a href="http://www.sc.gov.cn/"target="_blank">四川省政府网</a>
+        <a href="app.html"target="_blank">APP客户端</a><a href="http://e.t.qq.com/vcangxi"target="_blank">微博 微信</a>
+        <a href="map.html"target="_blank">网站导航</a>
+</td>
+
+    <td width="50" align="left" class="dhb" target="_blank">
+    站内搜索
+    </td>
+<form id="cniil_searchform" action="" method="POST" target="_blank">
+        <td width="130" align="left" class="dhb"><input type="text" class="dhss" style=" " id="keyword" name="keyword" onkeydown="return enter(event)"/></td>
+        <td width="120" align="left" ><a href="javascript:void(0)"  onclick="SiteSearch('search.html');"><span class="dhsn"></span></a></td>
+        <td width="10"><img src="images/top2.jpg"></td>
+    	<td width="58" valign="top" ><a href="index.html" class="dhc_a" target="_blank"></a></td>
+       
+        <td width="58" valign="top"><a href="lvyou.html"  class="dhc_c"target="_blank"></a></td>
+        <td><img src="images/top3.jpg"></td>
+</form>
+<!-- <script type="text/javascript">
+	function goSearch()
+	{
+		var searchUrl="http://wza.cncx.gov.cn/yxsm/?m=search&a=query&si=35065&key=";
+		var words=document.getElementById("keyword").value;
+		var formNode=document.getElementById("cniil_searchform");
+		var actionUrl=words?searchUrl+encodeURIComponent(words):homeUrl;
+		formNode.action=actionUrl;
+		formNode.submit();
+	}
+	function enter(evt)
+	{
+		evt = evt ||window.event; 
+		var key=evt.which||evt.keyCode;
+		if(key==13)goSearch();
+	}
+</script>-->
+     <script type="text/javascript">
+          /*搜索查询*/
+          function SiteSearch(send_url) {
+              var kw = $.trim($(keyword).val());
+              //if (kw.length > 0 && kw != "") {
+              window.location.href = send_url + "?keyword=" + encodeURI(kw);
+              //}
+          }
+ $(function () {
+              $("input[name='keyword']").keydown(function (e) {
+              var ev = document.all ? window.event : e;
+              if (ev.keyCode == 13) {
+                  var val = $("input[name='keyword']").val();
+                  if ($.trim(val) != "") {
+                      location.href = "search.html?keyword=" + encodeURI(val);
+                      return false;
+                  }
+                  else {
+                      return false;
+                  }
+              }
+          });
+          });
+      </script>
+  </tr>
+</table>
+<!--动画-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td>
+              <div class="yansheee"></div>
+        </td>
+    </tr>
+</tbody></table>
+  
+<div class="cd">
+    <ul>
+            <li><a href="index.html"target="_blank">政务首页</a></li>
+          　<li><a href="yxcx.html"target="_blank">印象苍溪</a></li>
+            <li><a href="zfld.html"target="_blank">政府领导</a></li>
+            <li><a href="zfjg.html"target="_blank">政府机构</a></li>
+            <li><a href="zfwj.html?id=8"target="_blank">政府文件</a></li>
+            <li><a href="openinfo.html"target="_blank">信息公开</a></li>
+            <li><a href="bsfw.html"target="_blank">办事服务</a></li>
+			<li><a href="http://dzzwdt.cncx.gov.cn/portal/index_pc10001.jsp"target="_blank">政务大厅</a></li>
+            <li><a href="zwhd.html" target="_blank">政务互动</a></li>
+    </ul>
+</div>
+<div class="xinjiaf" align="center"></div>
+
+<div class="xinjiaf" align="center">
+    <a href="articview.html?id=37399"target="_blank">县情概况</a>
+    <a href="articview.html?id=45704"target="_blank">历史沿革</a>
+    <a href="articview.html?id=37402"target="_blank">地方特产</a>
+    <a href="lynewlist.html?id=34"target="_blank">旅游资源</a>
+    <a href="imglist.html"target="_blank">图行苍溪</a>
+</div>
+<div class="xinjiaf" align="center">
+</div>
+<div class="xinjiaf" align="center">
+</div>
+<div class="xinjiaf" align="center">
+   
+    <a href="zfwj.html?id=10"target="_blank">苍府函</a>
+    <a href="zfwj.html?id=11"target="_blank">苍府办发</a>
+    <a href="zfwj.html?id=12"target="_blank">苍府办函</a>
+    <a href="zfwj.html?id=9"target="_blank">苍府发</a>
+   
+</div>
+<div class="xinjiaf" align="center">
+    <a href="zwnewlist.html?id=20160720164248030"target="_blank">决策公开</a>
+    <a href="zwnewlist.html?id=20160720164303801"target="_blank">执行公开</a>
+    <a href="zwnewlist.html?id=20160720164312397"target="_blank">管理公开</a>
+    <a href="zwnewlist.html?id=20160720164322397"target="_blank">服务公开</a>
+    <a href="zwnewlist.html?id=20160720164334721"target="_blank">结果公开</a>
+	<a href="zwnewlist.html?id=558"target="_blank">基本信息公开</a>
+	<a href="zwnewlist.html?id=514"target="_blank">重点领域信息公开</a>
+</div>
+<div class="xinjiaf" align="center">
+     <a href="bnewlist.html?id=359"target="_blank">教育领域服务</a>
+     <a href="bnewlist.html?id=383"target="_blank">社保领域服务</a>
+     <a href="bnewlist.html?id=379"target="_blank">医疗领域服务</a>
+     <a href="bnewlist.html?id=375"target="_blank">住房领域服务</a>
+     <a href="bnewlist.html?id=391"target="_blank">交通领域服务</a>
+     <a href="bnewlist.html?id=350"target="_blank">企业开办服务</a>
+     <a href="bnewlist.html?id=727"target="_blank">招商引资</a>
+     <a href="bnewlist.html?id=495"target="_blank">其他领域服务</a>
+</div>
+<div class="xinjiaf" align="center">
+</div>
+<div class="xinjiaf" align="center">
+     <a href="ftnewlist.html?id=20121225020703755"target="_blank">在线访谈</a>
+     <a href="survelist.html"target="_blank">在线调查</a>
+     <a href="solicitation.html"target="_blank">意见征集</a>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".xinjiaf").hide();
+        $(".xinjiaf").eq(0).show();
+        $(".cd li").mouseover(function () {
+            $(".xinjiaf").hide().eq($(this).index()).show();
+        });
+
+    });
+</script>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top: 2px solid #FFF">
+                    <tr>
+                        <td width="4">
+                        </td>
+                        <td width="220" align="center" valign="top">
+ 
+                            <table width="252" border="0" cellspacing="0" cellpadding="0" style="border: #ccc 1px solid;display:none;">
+                                <tr>
+                                    <td>
+                                        <table height="28" width="100%" border="0" cellspacing="0" cellpadding="0" background="images/65.jpg">
+                                            <tr>
+                                                <td width="10%" align="center">
+                                                    <img style="display: block" src="images/242.jpg">
+                                                </td>
+                                                <td class="cxbf" width="74">
+                                                    重点服务
+                                                </td>
+                                                <td width="18%" align="right" class="cxbfgd">
+                                                    <a href="bnewlist.html?id=673">
+                                                        <img src="images/more2.jpg"></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="middle" class="cxbfrnnn">
+                                        <ul>
+                                            <li><a href="bnewlist.html?id=674">户口办理</a></li><li><a href="bnewlist.html?id=675">身份证办理</a></li><li><a href="bnewlist.html?id=677">生育服务证办理</a></li><li><a href="bnewlist.html?id=678">保障性住房申请</a></li><li><a href="bnewlist.html?id=679">房屋产权登记</a></li><li><a href="bnewlist.html?id=680">机动车驾驶证办理</a></li><li><a href="bnewlist.html?id=714">公积金贷款</a></li><li><a href="bnewlist.html?id=716">老年人福利待遇</a></li><li><a href="bnewlist.html?id=717">残疾人服务</a></li><li><a href="bnewlist.html?id=718">企业优惠扶持服务</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="100%" height="2" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <div id="left3" style="display: block;">
+                                            <table width="100%" style="border: #ccc 1px solid" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td>
+                                                        <table height="28" width="100%" border="0" cellspacing="0" cellpadding="0" background="images/65.jpg">
+                                                            <tr>
+                                                                <td width="8%" align="center">
+                                                                    <img style="display: block" src="images/71.jpg">
+                                                                </td>
+                                                                <td class="cxbf" width="74">
+                                                                    基本信息公开
+                                                                </td>
+                                                                <td class="cxbfgd" width="18%">
+                                                                    <a href="zwnewlist.html?id=558">更多>></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <table width="250" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC" style="margin-top: 2px;">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="363" height="178" align="center" valign="top" bgcolor="#FFFFFF">
+                                                                        <table width="98%" border="0" cellspacing="0" cellpadding="0" style="font-size: 14px">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div id="jbxxgk">
+                                                <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+                                                <link rel="stylesheet" href="ztree/css/zTreeStyle/zTreeStyle.css" type="text/css" />
+                                                <script type="text/javascript" src="ztree/js/jquery.ztree.core-3.5.js"></script>
+                                                <script type="text/javascript">
+		                                        <!--
+                                                var setting = {
+                                                    view: {
+                                                        showLine:true
+                                                    },
+                                                    data: {
+                                                        simpleData: {
+                                                            enable: true
+                                                        }
+                                                    }
+                                                };
+                                                var jbzNodes1 =[{ id:1000, pId:0,name:"信息公开工作机制",url:"zwnewlist.html?id=297",target:'_blank'},{ id:1, pId:1000, name:"政府信息公开申请",url:"zwnewlist.html?id=1008", target:"_blank"},{ id:2, pId:1000, name:"政府信息公开目录",url:"openinfo.html", target:"_blank"},{ id:3, pId:1000, name:"政府信息公开指南",url:"zwnewlist.html?id=299", target:"_blank"},{ id:4, pId:1000, name:"政府信息公开年报",url:"zwnewlist.html?id=300", target:"_blank"},{ id:5, pId:1000, name:"政府信息公开规定",url:"zwnewlist.html?id=301", target:"_blank"},];
+                                                var jbzNodes =[{ id:1, pId:0, name:"公示公告",url:"zwnewlist.html?id=1016", target:"_blank"},{ id:2, pId:0, name:"政府工作报告",url:"zwnewlist.html?id=1017", target:"_blank"},{ id:12, pId:0, name:"专项资金",url:"zwnewlist.html?id=20170511144802360", target:"_blank"},{ id:3, pId:0, name:"工作动态",url:"zwnewlist.html?id=211", target:"_blank"},{ id:4, pId:0, name:"人事信息",url:"zwnewlist.html?id=560", target:"_blank"},{ id:5, pId:0, name:"规划计划",url:"zwnewlist.html?id=561", target:"_blank"},{ id:6, pId:0, name:"统计数据",url:"zwnewlist.html?id=562", target:"_blank"},{ id:7, pId:0, name:"政府常务会议",url:"zwnewlist.html?id=563", target:"_blank"},{ id:8, pId:0, name:"新闻发布会",url:"zwnewlist.html?id=564", target:"_blank"},{ id:9, pId:0, name:"应急管理",url:"zwnewlist.html?id=566", target:"_blank"},{ id:10, pId:0, name:"政府采购与招投标",url:"zwnewlist.html?id=567", target:"_blank"},{ id:11, pId:0, name:"概况信息",url:"zwnewlist.html?id=979", target:"_blank"},];
+                                                var zdzNodes =[{ id:9, pId:0, name:"重大项目建设",url:"zwnewlist.html?id=1020", target:"_blank"},{ id:4, pId:0, name:"减税降费",url:"zwnewlist.html?id=20160718084215291", target:"_blank"},{ id:6, pId:0, name:"精准扶贫",url:"zwnewlist.html?id=20160718085254300", target:"_blank"},{ id:7, pId:0, name:"政策解读",url:"zwnewlist.html?id=20160720085249748", target:"_blank"},{ id:20, pId:0, name:"社会组织和中介机构",url:"http://sgzj.sc.gov.cn:48080/agent/public", target:"_blank"},{ id:21, pId:0, name:"信用信息",url:"http://www.sc-l-tax.gov.cn/bsfw/nsxyqycx/", target:"_blank"},{ id:22, pId:0, name:"监管执法",url:"http://www.cncx.gov.cn/xhtml/zwnewlist.html?id=532", target:"_blank"},{ id:23, pId:0, name:"督查审计",url:"zwnewlist.html?id=20161118144122263", target:"_blank"},{ id:24, pId:0, name:"政务服务",url:"zwnewlist.html?id=20161121085917234", target:"_blank"},{ id:25, pId:0, name:"数据开放",url:"http://www.cncx.gov.cn/xhtml/sjkf.html", target:"_blank"},{ id:26, pId:0, name:"五公开",url:"http://www.cncx.gov.cn/xhtml/zwnewlist.html?id=20160720164201042", target:"_blank"},{ id:27, pId:0, name:"年度要点",url:"zwnewlist.html?id=20170605093131276", target:"_blank"},{ id:1, pId:0, name:"行政权力",url:"zwnewlist.html?id=515", target:"_blank"},{ id:11, pId:1, name:"权力运行",url:"zwnewlist.html?id=516", target:"_blank"},{ id:12, pId:1, name:"权力清单",url:"zwnewlist.html?id=517", target:"_blank"},{ id:13, pId:1, name:"责任清单",url:"zwnewlist.html?id=20161024095054053", target:"_blank"},{ id:3, pId:0, name:"公共资源配置",url:"zwnewlist.html?id=518", target:"_blank"},{ id:31, pId:3, name:"国有产权交易",url:"zwnewlist.html?id=520", target:"_blank"},{ id:32, pId:3, name:"土地使用权和矿业权出让",url:"zwnewlist.html?id=521", target:"_blank"},{ id:33, pId:3, name:"棚户区改造和农村危房改造及保障性住房",url:"zwnewlist.html?id=20161121102257167", target:"_blank"},{ id:2, pId:0, name:"财政信息",url:"zwnewlist.html?id=523", target:"_blank"},{ id:21, pId:2, name:"财政预算和决算",url:"zwnewlist.html?id=524", target:"_blank"},{ id:22, pId:2, name:"“三公”经费",url:"zwnewlist.html?id=525", target:"_blank"},{ id:8, pId:0, name:"食品药品安全",url:"zwnewlist.html?id=529", target:"_blank"},{ id:81, pId:8, name:"监管执法",url:"zwnewlist.html?id=532", target:"_blank"},{ id:10, pId:0, name:"环境保护",url:"zwnewlist.html?id=535", target:"_blank"},{ id:101, pId:10, name:"空气环境",url:"zwnewlist.html?id=536", target:"_blank"},{ id:102, pId:10, name:"水质量",url:"zwnewlist.html?id=537", target:"_blank"},{ id:103, pId:10, name:"重点污染源",url:"zwnewlist.html?id=538", target:"_blank"},{ id:104, pId:10, name:"核查公示",url:"zwnewlist.html?id=539", target:"_blank"},{ id:105, pId:10, name:"监管执法",url:"zwnewlist.html?id=712", target:"_blank"},{ id:11, pId:0, name:"公共服务",url:"zwnewlist.html?id=540", target:"_blank"},{ id:111, pId:11, name:"医疗",url:"zwnewlist.html?id=541", target:"_blank"},{ id:112, pId:11, name:"教育和文化",url:"zwnewlist.html?id=543", target:"_blank"},{ id:113, pId:11, name:"科技",url:"zwnewlist.html?id=20150824115956546", target:"_blank"},{ id:114, pId:11, name:"社会救助",url:"zwnewlist.html?id=20161121091448275", target:"_blank"},{ id:115, pId:11, name:"就业创业",url:"zwnewlist.html?id=20161121091630253", target:"_blank"},{ id:5, pId:0, name:"国有企业",url:"zwnewlist.html?id=544", target:"_blank"},{ id:17, pId:0, name:"安全生产",url:"zwnewlist.html?id=545", target:"_blank"},{ id:171, pId:17, name:"执法和监督",url:"zwnewlist.html?id=546", target:"_blank"},{ id:19, pId:0, name:"价格收费",url:"zwnewlist.html?id=555", target:"_blank"},{ id:191, pId:19, name:"政府制定价格",url:"zwnewlist.html?id=556", target:"_blank"},{ id:192, pId:19, name:"行政事业性收费",url:"zwnewlist.html?id=557", target:"_blank"},];
+                                                function showIconForTree(treeId, treeNode) {
+                                                    return !treeNode.isParent;
+                                                };
+                                                $(document).ready(function () {
+                                                    $.fn.zTree.init($("#jbtreeDemo1"), setting, jbzNodes1);
+                                                    $.fn.zTree.init($("#jbtreeDemo"), setting, jbzNodes);
+                                                    $.fn.zTree.init($("#zdtreeDemo"), setting, zdzNodes);
+                                                });
+		                                        //-->
+                                                </script>
+                                                <ul id="jbtreeDemo1" class="ztree"></ul>
+                                                <ul id="jbtreeDemo" class="ztree"></ul>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td valign="top">
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table width="100%" border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC"
+                                                style="margin-top: 2px;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td width="363" height="178" align="center" valign="top" bgcolor="#FFFFFF">
+                                                            <table width="98%" border="0" cellspacing="0" cellpadding="0" style="font-size: 14px">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table height="28" width="100%" border="0" cellspacing="0" cellpadding="0" background="images/65.jpg">
+                                                                                <tr>
+                                                                                    <td width="8%" align="center">
+                                                                                        <img style="display: block" src="images/71.jpg">
+                                                                                    </td>
+                                                                                    <td class="cxbf" width="74">
+                                                                                      重点领域信息公开
+                                                                                    </td>
+                                                                                    <td class="cxbfgd" width="18%">
+                                                                                        <a href="zwnewlist.html?id=514">更多>></a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div id="zdxxgk">
+                                                                                
+                                                <ul id="zdtreeDemo" class="ztree"></ul>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+															
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+										<table width="98%" border="0" cellspacing="0" cellpadding="0" style="font-size: 14px">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table height="28" width="100%" border="0" cellspacing="0" cellpadding="0" background="images/65.jpg">
+                                                                                <tr>
+                                                                                    <td width="8%" align="center">
+                                                                                        <img style="display: block" src="images/71.jpg">
+                                                                                    </td>
+                                                                                    <td class="cxbf" width="74">
+                                                                                      “五公开”
+                                                                                    </td>
+                                                                                    <td class="cxbfgd" width="18%">
+                                                                                        <a href="zwnewlist.html?id=20160720164201042">更多>></a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div id="zdxxgk"   class="ztree">
+                                                                                
+                                                                              <p align="center">&nbsp;</p>
+                                                                              <p align="left" "><a href="zwnewlist.html?id=20160720164248030" target="_blank"><img src="images/jc.jpg" width="259" height="78" border="0"></a></p>
+                                                                              <p align="left" "><a href="zwnewlist.html?id=20160720164303801" target="_blank" ><img src="images/zx.jpg" width="259" height="78" border="0"></a></p>
+                                                                              <p align="left" "><a href="zwnewlist.html?id=20160720164312397" target="_blank"><img src="images/gl.jpg" width="259" height="78" border="0"></a></p>
+                                                                              <p align="left"  "><a href="zwnewlist.html?id=20160720164322397" target="_blank"><img src="images/fw.jpg" width="259" height="78" border="0"></a></p>
+                                                                              <p align="left" "><a href="zwnewlist.html?id=20160720164334721" target="_blank"><img src="images/jg.jpg" width="259" height="78" border="0"></a></p>
+                                                                              <p align="left"  "><img src="images/xian.jpg" width="250" height="14"></p>
+                                                                          </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>	
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+						
+                        <td width="4">
+                            <div style="width: 4px; height: 100px">
+                            </div>
+                        </td>
+                        <td width="741" valign="top">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td height="18">
+                                        <table width="741" border="0" cellspacing="0" cellpadding="0" style="font-size: 12px">
+                                            <tr>
+                                                <td width="26" align="center" valign="top">
+                                                    <img style="margin-top: 4px;" src="images/106.jpg">
+                                                </td>
+                                                <td valign="middle" class="syte" style="font-size: 12px;">
+                                                 当前位置：<a href="index.html">首页</a>&nbsp;&gt;&nbsp;信息公开&nbsp;&gt;&nbsp;基本信息公开&nbsp;&gt;&nbsp;政府采购与招投标
+                                                </td>
+                                               
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="2">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="610" valign="top">
+                                        <table style="border: #ccc 1px solid" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="32" valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr class="cibtt">
+                                                            <td width="2%">
+                                                            </td>
+                                                            <td width="84%" height="30">
+                                                                信息标题
+                                                            </td>
+                                                            <td width="14%" height="30" align="center">
+                                                                时间
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" class="xxlbbbb">
+                                                     <ul>
+                                                     <ul><li><img src="images/12.jpg"><a target="_blank" title="苍溪县石家坝城市生活污水处理厂PPP特许经营权转让项目邀请招标中标公告" href="fileinfo.html?id=20171222085855503">苍溪县石家坝城市生活污水处理厂PPP特许经营权转让项目邀请招标中标公告</a><span>2017-12-22</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县部分乡镇垃圾车及果皮箱采购询价采购公告" href="fileinfo.html?id=20171222085505168">苍溪县部分乡镇垃圾车及果皮箱采购询价采购公告</a><span>2017-12-22</span></li><li><img src="images/12.jpg"><a target="_blank" title="电动巡逻车及三会教学基地设施设备采购询价采购公告" href="fileinfo.html?id=20171213152853953">电动巡逻车及三会教学基地设施设备采购询价采购公告</a><span>2017-12-13</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县公安局执法执勤车辆购置公开招标采购公告" href="fileinfo.html?id=20171213152742973">苍溪县公安局执法执勤车辆购置公开招标采购公告</a><span>2017-12-13</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪智慧党建大数据平台建设邀请招标中标公告" href="fileinfo.html?id=20171212113947332">苍溪智慧党建大数据平台建设邀请招标中标公告</a><span>2017-12-12</span></li><li><div style="border-bottom: #999 1px dashed; height: 15px; margin-bottom: 15px;"></div></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县城市建设管理监察大队城市管理执法制式服装和标志标识（第二次）公开招标中标公告" href="fileinfo.html?id=20171212113741112">苍溪县城市建设管理监察大队城市管理执法制式服装和标志标识（第二次）公开招...</a><span>2017-12-12</span></li><li><img src="images/12.jpg"><a target="_blank" title="四川省2018-2019年政府集中采购目录及采购限额标准" href="fileinfo.html?id=20171212112136594">四川省2018-2019年政府集中采购目录及采购限额标准</a><span>2017-12-12</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县人民法院诉讼服务中心及院机关文化建设办公家具采购询价成交公告" href="fileinfo.html?id=20171212112005957">苍溪县人民法院诉讼服务中心及院机关文化建设办公家具采购询价成交公告</a><span>2017-12-12</span></li><li><img src="images/12.jpg"><a target="_blank" title="生产用车、农业执法车询价成交公告" href="fileinfo.html?id=20171212111903713">生产用车、农业执法车询价成交公告</a><span>2017-12-12</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县农业局农业执法车（第二次）询价采购公告" href="fileinfo.html?id=20171206170158485">苍溪县农业局农业执法车（第二次）询价采购公告</a><span>2017-12-06</span></li><li><div style="border-bottom: #999 1px dashed; height: 15px; margin-bottom: 15px;"></div></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县石家坝城市生活污水处理厂PPP特许经营权转让项目邀请招标采购公告" href="fileinfo.html?id=20171130091101770">苍溪县石家坝城市生活污水处理厂PPP特许经营权转让项目邀请招标采购公告</a><span>2017-11-30</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县公路养护一段等生产用车、农业执法车询价采购公告" href="fileinfo.html?id=20171130091007216">苍溪县公路养护一段等生产用车、农业执法车询价采购公告</a><span>2017-11-30</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县人民法院诉讼服务中心及院机关文化建设办公家具询价采购公告" href="fileinfo.html?id=20171130090817065">苍溪县人民法院诉讼服务中心及院机关文化建设办公家具询价采购公告</a><span>2017-11-30</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县公路养护二段生产用车询价采购公告" href="fileinfo.html?id=20171117164008734">苍溪县公路养护二段生产用车询价采购公告</a><span>2017-11-17</span></li><li><img src="images/12.jpg"><a target="_blank" title="四川最新政府采购限额标准出炉 省级公开招标限额标准提至200万元" href="fileinfo.html?id=20171115172716141">四川最新政府采购限额标准出炉 省级公开招标限额标准提至200万元</a><span>2017-11-15</span></li><li><div style="border-bottom: #999 1px dashed; height: 15px; margin-bottom: 15px;"></div></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县委员会组织部苍溪智慧党建大数据平台建设邀请招标采购公告" href="fileinfo.html?id=20171115104340578">苍溪县委员会组织部苍溪智慧党建大数据平台建设邀请招标采购公告</a><span>2017-11-15</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县妇幼保健院电梯采购公开招标中标公告" href="fileinfo.html?id=20171115104142642">苍溪县妇幼保健院电梯采购公开招标中标公告</a><span>2017-11-15</span></li><li><img src="images/12.jpg"><a target="_blank" title="城市管理执法制式服装和标志标识（第二次）公开招标采购公告" href="fileinfo.html?id=20171113170837257">城市管理执法制式服装和标志标识（第二次）公开招标采购公告</a><span>2017-11-13</span></li><li><img src="images/12.jpg"><a target="_blank" title="城市管理执法电动车及会议座椅采购询价采购公告" href="fileinfo.html?id=20171110094558174">城市管理执法电动车及会议座椅采购询价采购公告</a><span>2017-11-10</span></li><li><img src="images/12.jpg"><a target="_blank" title="城市管理执法电动车询价废标、流标公告" href="fileinfo.html?id=20171110094448176">城市管理执法电动车询价废标、流标公告</a><span>2017-11-10</span></li><li><div style="border-bottom: #999 1px dashed; height: 15px; margin-bottom: 15px;"></div></li><li><img src="images/12.jpg"><a target="_blank" title="城市管理执法制式服装和标志标识公开招标废标、流标公告" href="fileinfo.html?id=20171110094254078">城市管理执法制式服装和标志标识公开招标废标、流标公告</a><span>2017-11-10</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县比选限额以下政府投资小型工程建设项目发包办法（试行）" href="fileinfo.html?id=20171102093627151">苍溪县比选限额以下政府投资小型工程建设项目发包办法（试行）</a><span>2017-11-02</span></li><li><img src="images/12.jpg"><a target="_blank" title="城市管理执法电动车询价采购公告" href="fileinfo.html?id=20171027163941020">城市管理执法电动车询价采购公告</a><span>2017-10-27</span></li><li><img src="images/12.jpg"><a target="_blank" title="管理执法制式服装和标志标识公开招标采购公告" href="fileinfo.html?id=20171027155348910">管理执法制式服装和标志标识公开招标采购公告</a><span>2017-10-27</span></li><li><img src="images/12.jpg"><a target="_blank" title="苍溪县妇幼保健院电梯采购公开招标采购公告更正公告" href="fileinfo.html?id=20171027155236557">苍溪县妇幼保健院电梯采购公开招标采购公告更正公告</a><span>2017-10-27</span></li><li><div style="border-bottom: #999 1px dashed; height: 15px; margin-bottom: 15px;"></div></li></ul>
+                                                    </ul>
+                                                    <script>
+
+                                                        $(".xxlbbbb li:even").css({ backgroundColor: "#ededed" });
+                                                    </script>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    
+                                                    <div class="artpage">
+                                                        共336条信息&nbsp;每页25条信息&nbsp;当前第1/14页<a href="zwnewlist.html?id=567&pageindex=1">1</a><a href="zwnewlist.html?id=567&pageindex=2">2</a><a href="zwnewlist.html?id=567&pageindex=3">3</a><a href="zwnewlist.html?id=567&pageindex=4">4</a><a href="zwnewlist.html?id=567&pageindex=5">5</a><a href="zwnewlist.html?id=567&pageindex=6">6</a><a href="zwnewlist.html?id=567&pageindex=2">下一页</a><a href="zwnewlist.html?id=567&pageindex=14">末页</a>
+                                                    </div>
+                                        <table height="30" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td class="suzhiii">
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+              
+                <!--分隔符-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td align="center">
+            <table width="994" height="16" border="0" cellpadding="0" cellspacing="0" background="images/56.jpg">
+                <tbody>
+                    <tr>
+                        <td>&nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td>
+</table>
+<!--友情链接-->
+<script language="javascript" type="text/javascript">
+    function OpenLink(obj) {
+        if (obj.value != "") {
+            window.open(obj.value);
+        }
+    }
+</script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <!--                                <td height="27" align="center" class="zi07" width="74">
+                                    友情连接
+                                </td>-->
+            <td height="27" align="center" width="100">
+                <select size="1" name="Country" onchange="OpenLink(this)">
+                    <option value="" selected="selected">国家部委站点导航</option>
+
+                    <option value="http://www.mfa.gov.cn/chn">外交部</option>
+
+                    <option value="http://www.ndrc.gov.cn ">发展改革委</option>
+
+                    <option value="http://www.moe.gov.cn ">教育部</option>
+
+                    <option value="http://www.most.gov.cn ">科技部</option>
+
+                    <option value="http://www.seac.gov.cn ">民委</option>
+
+                    <option value="http://www.mps.gov.cn ">公安部</option>
+
+                    <option value="http://www.mos.gov.cn ">监察部</option>
+
+                    <option value="http://www.mca.gov.cn ">民政部</option>
+
+                    <option value="http://www.moj.gov.cn ">司法部</option>
+
+                    <option value="http://www.mof.gov.cn ">财政部</option>
+
+                    <option value="http://www.mlr.gov.cn ">国土资源部</option>
+
+                    <option value="http://www.mohurd.gov.cn">建设部</option>
+
+                    <option value="http://www.moc.gov.cn ">交通部</option>
+
+                    <option value="http://www.miit.gov.cn/n11293472/index.html">信息产业部</option>
+
+                    <option value="http://www.mwr.gov.cn ">水利部</option>
+
+                    <option value="http://www.agri.gov.cn ">农业部</option>
+
+                    <option value="http://www.mofcom.gov.cn ">商务部</option>
+
+                    <option value="http://www.nhfpc.gov.cn">卫生部</option>
+
+                    <option value="http://www.pbc.gov.cn ">人民银行</option>
+
+                    <option value="http://www.audit.gov.cn ">审计署</option>
+
+                    <option value="http://www.sasac.gov.cn ">国资委</option>
+
+                    <option value="http://www.customs.gov.cn ">海关总署</option>
+
+                    <option value="http://www.chinatax.gov.cn ">税务总局</option>
+
+                    <option value="http://www.saic.gov.cn ">工商总局</option>
+
+                    <option value="http://www.aqsiq.gov.cn ">质检总局</option>
+
+                    <option value="http://www.zhb.gov.cn ">环保总局</option>
+
+                    <option value="http://www.caac.gov.cn ">民航总局</option>
+
+                    <option value="http://www.chinasarft.gov.cn ">广电总局</option>
+
+                    <option value="http://www.gapp.gov.cn ">新闻出版总署</option>
+
+                    <option value="http://www.sport.gov.cn">体育总局</option>
+
+                    <option value="http://www.chinasafety.gov.cn ">安全监管总局</option>
+
+                    <option value="http://www.stats.gov.cn ">统计局</option>
+
+                    <option value="http://www.forestry.gov.cn ">林业局</option>
+
+                    <option value="http://www.sda.gov.cn ">食品药品监管局</option>
+
+                    <option value="http://www.sipo.gov.cn ">知识产权局</option>
+
+                    <option value="http://www.counsellor.gov.cn ">参事室</option>
+
+                    <option value="http://www.ggj.gov.cn ">国管局</option>
+
+                    <option value="http://www.gqb.gov.cn ">侨办</option>
+
+                    <option value="http://www.hmo.gov.cn ">港澳办</option>
+
+                    <option value="http://www.gwytb.gov.cn ">台办</option>
+
+                    <option value="http://www.chinalaw.gov.cn ">法制办</option>
+
+                    <option value="http://www.scio.gov.cn ">新闻办</option>
+
+                    <option value="http://www.news.cn ">新华社</option>
+
+                    <option value="http://www.cas.cn ">中科院</option>
+
+                    <option value="http://www.cae.cn ">工程院</option>
+
+                    <option value="http://www.drc.gov.cn ">发展研究中心</option>
+
+                    <option value="http://www.nsa.gov.cn ">行政学院</option>
+
+                    <option value="http://www.cea.gov.cn ">地震局</option>
+
+                    <option value="http://www.cma.gov.cn ">气象局</option>
+
+                    <option value="http://www.cbrc.gov.cn ">银监会</option>
+
+                    <option value="http://www.csrc.gov.cn ">证监会</option>
+
+                    <option value="http://www.circ.gov.cn ">保监会</option>
+
+                    <option value="http://www.ssf.gov.cn ">社保基金会</option>
+
+                    <option value="http://www.nsfc.gov.cn ">自然科学基金会</option>
+
+                    <option value="http://www.gjxfj.gov.cn ">信访局</option>
+
+                    <option value="http://www.chinagrain.gov.cn ">粮食局</option>
+
+                    <option value="http://www.tobacco.gov.cn ">烟草局</option>
+
+                    <option value="http://www.soa.gov.cn ">海洋局</option>
+
+                    <option value="http://www.sbsm.gov.cn ">测绘局</option>
+
+                   
+                    <option value="http://www.sach.gov.cn ">文物局</option>
+
+                    <option value="http://www.satcm.gov.cn ">中医药局</option>
+
+                    <option value="http://www.safe.gov.cn ">外汇局</option>
+
+                    <option value="http://www.saac.gov.cn ">档案局</option>
+
+                    <option value="http://www.cpad.gov.cn ">扶贫办</option>
+
+                </select>
+            </td>
+            <td height="27" align="center" width="100">
+                <select size="1" name="sqzf" onchange="OpenLink(this)">
+                    <option value="" selected="selected">全国省市政府站点</option>
+
+                    <option value="http://www.xjbt.gov.cn">新疆建设兵团</option>
+
+                    <option value="http://portal.gov.mo/web/guest/welcomepage">澳门</option>
+
+                    <option value="http://www.gov.hk">香港</option>
+
+                    <option value="http://www.xinjiang.gov.cn">新疆</option>
+
+                    <option value="http://www.qh.gov.cn">青海</option>
+
+                    <option value="http://www.nx.gov.cn">宁夏</option>
+
+                    <option value="http://www.shaanxi.gov.cn">陕西</option>
+
+                    <option value="http://www.xizang.gov.cn">西藏</option>
+
+                    <option value="http://www.yn.gov.cn">云南</option>
+
+                    <option value="http://www.gzgov.gov.cn">贵州</option>
+
+                    <option value="http://www.sc.gov.cn">四川</option>
+
+                    <option value="http://www.cq.gov.cn">重庆</option>
+
+                    <option value="http://www.hainan.gov.cn">海南</option>
+
+                    <option value="http://www.gxzf.gov.cn">广西</option>
+
+                    <option value="http://www.gd.gov.cn">广东</option>
+
+                    <option value="http://www.hunan.gov.cn">湖南</option>
+
+                    <option value="http://www.hubei.gov.cn">湖北</option>
+
+                    <option value="http://www.henan.gov.cn">河南</option>
+
+                    <option value="http://www.shandong.gov.cn">山东</option>
+
+                    <option value="http://www.jiangxi.gov.cn">江西</option>
+
+                    <option value="http://www.fujian.gov.cn">福建</option>
+
+                    <option value="http://www.ah.gov.cn">安徽</option>
+
+                    <option value="http://www.zhejiang.gov.cn">浙江</option>
+
+                    <option value="http://www.jiangsu.gov.cn">江苏</option>
+
+                    <option value="http://www.shanghai.gov.cn">上海</option>
+
+                    <option value="http://www.hlj.gov.cn">黑龙江</option>
+
+                    <option value="http://www.jl.gov.cn">吉林</option>
+
+                    <option value="http://www.ln.gov.cn">辽宁</option>
+
+                    <option value="http://www.nmg.gov.cn">内蒙古</option>
+
+                    <option value="http://www.shanxigov.cn">山西</option>
+
+                    <option value="http://www.hebei.gov.cn">河北</option>
+
+                    <option value="http://www.tj.gov.cn">天津</option>
+
+                    <option value="http://www.beijing.gov.cn">北京</option>
+
+                </select>
+            </td>
+            <td height="27" align="center" width="100">
+                <select size="1" name="sczf" onchange="OpenLink(this)">
+                    <option value="" selected="selected">四川市州政府站点</option>
+
+                    <option value="http://www.cngy.gov.cn/html/index.html">广元市</option>
+
+                    <option value="http://www.abazhou.gov.cn">阿坝州</option>
+
+                    <option value="http://www.ziyang.gov.cn">资阳</option>
+
+                    <option value="http://www.ms.gov.cn">眉山</option>
+
+                    <option value="http://www.cnbz.gov.cn">巴中</option>
+
+                    <option value="http://www.dazhou.gov.cn">达州</option>
+
+                    <option value="http://www.guang-an.gov.cn">广安</option>
+
+                    <option value="http://www.nanchong.gov.cn">南充</option>
+
+                    <option value="http://www.neijiang.gov.cn">内江</option>
+
+                    <option value="http://www.suining.gov.cn">遂宁</option>
+
+                    <option value="http://www.deyang.gov.cn">德阳</option>
+
+                    <option value="http://www.zg.gov.cn">自贡</option>
+
+                    <option value="http://www.chengdu.gov.cn">成都</option>
+
+                </select>
+            </td>
+            <td height="27" align="center" width="100">
+                <select size="1" name="cyzd" onchange="OpenLink(this)">
+                    <option value="" selected="selected">广元市各县区网站</option>
+
+                    <option value="http://www.cncx.gov.cn">苍溪县</option>
+
+                    <option value="http://www.scgw.gov.cn">旺苍县</option>
+
+                    <option value="http://www.cnqc.gov.cn">青川县</option>
+
+                    <option value="http://www.cnjg.gov.cn">剑阁县</option>
+
+                    <option value="http://www.lzq.gov.cn">利州区</option>
+
+                    <option value="http://www.cnzh.gov.cn/">昭化区</option>
+
+                    <option value="http://www.gyct.gov.cn">朝天区</option>
+
+                </select>
+            </td>
+
+           
+        </tr>
+    </tbody>
+</table>
+<!--分隔符-->
+<table width="994" border="0" height="20" align="center" cellspacing="0" cellpadding="0"
+    background="images/59.jpg">
+    <tr>
+        <td>&nbsp;
+        </td>
+    </tr>
+</table>
+<!--页脚-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="dddd">
+    <tr>
+        <td align="left" width="80">
+            <a href="#">
+                <img src="images/red.png"></a>
+        </td>
+        <td align="left" width="94">
+           <script id="_jiucuo_" sitecode='5108240001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+        </td>
+        <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr align="center">
+                    <td align="center" valign="middle" height="25" class="dbd">
+                        <a style="margin-left: 174px;" href="#" onclick="SetHome(this,window.location)">设为首页</a> <span>|</span> <a href="#" onclick="AddFavorite(window.location,document.title)">收藏本站</a>
+                        <span>|</span> <a href="articview.html?id=37399">苍溪概况</a> <span>|</span> <a href="map.html">网站地图</a> <span>|</span>
+                        <a href="articview.html?id=20161011082525676">帮助说明</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="25" align="center">Copyright 2008-2017 www.cncx.gov.cn 苍溪县人民政府.政务 All Rights Reserved
+                    </td>
+                </tr>
+                <tr>
+                    <td height="25" align="center">苍溪县人民政府公众信息网&nbsp;&nbsp;版权所有：苍溪县人民政府办公室
+                    </td>
+                </tr>
+                <tr>
+                    <td height="25" align="center">主办：苍溪县人民政府&nbsp;&nbsp;技术支持：四川好亦同信息科技有限公司 网页纠错：(0839)5222343 15984448183
+                    </td>
+                </tr>
+                <tr>
+                    <td height="25" align="center">蜀ICP备11026878号-1&nbsp;&nbsp;川公网备51082402000042号
+                    </td>
+                </tr>
+                <tr>
+                    <td height="25" align="center">请使用ie8以上浏览器，360极速浏览器，谷歌等主流浏览器                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width="94">
+            <a href="#">
+                <img src="images/126.jpg"></a>
+        </td>
+        <td width="94">
+            <a href="#">
+                <img src="images/ShowPric.jpg"></a> 
+        </td>
+    </tr>
+
+
+</table>
+
+<script type="text/javascript">
+    function AddFavorite(sURL, sTitle) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            }
+        }
+    }
+</script>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <script>
+        $(".gg").width(1000 * $(".gg img").length)
+        var n = 0;
+        function run() {
+            if (n < $(".gg img").length - 1) {
+                n = n + 1;
+            } else {
+                /*归位*/
+                $(".gg").css({ marginLeft: 0 });
+                n = 1;
+            }
+            $(".gg").stop().animate({ marginLeft: -1000 * n }, 1000);
+        }
+        setInterval(run, 3000);
+
+        $(".xxlbb li:odd").css({ backgroundColor: "#ededed" });
+        $(".xxlbbb li:odd").css({ backgroundColor: "#ededed" });
+    </script>
+    <script type="text/javascript" src="js/xin.js"></script>
+</body>
+</html>

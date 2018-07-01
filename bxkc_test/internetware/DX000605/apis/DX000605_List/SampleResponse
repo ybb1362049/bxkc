@@ -1,0 +1,584 @@
+ <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>采购询价_【湖南水口山有色金属集团有限公司阳光购销平台】</title>
+    <link href="http://120.77.218.152/template/default/Res/styles/main.css" rel="stylesheet" />
+    <script src="http://120.77.218.152/template/default/Res/js/jquery.js"></script>
+    <script src="http://120.77.218.152/template/default/Res/js/jquery.cycle2.js?1"></script>
+</head>
+<body>
+    <div class="m-warp">
+        <div class="m-body">
+            
+            <!-- head开始 -->
+            <div class="m-head">
+                <div class="m-container">
+                    <a href="http://120.77.218.152/" class="head-logo g-left">
+                        <img src="http://120.77.218.152/template/default/Res/images/logo/logohead.jpg" />
+                    </a>
+                    <div class="head-search g-right" style="display:none;">
+                        <div class="m-search">
+                           <form id="form2" name="form2" method="post" action="http://120.77.218.152/search/search.php?lang=cn">
+                            <div class="g-left">
+                                <select class="ui-select search-select" name="search">
+                                    <option value="all">所有栏目</option>
+						        	<option value="1">招标项目</option>
+						        	<option value="2">采购询价</option>
+						        	<option value="3">中标公告</option>
+						        	<option value="6">服务指南</option>
+                                </select>
+                            </div>
+                            <input type="text" placeholder=""  class="search-text g-left" name="key" id="key" onfocus="if(this.value == '输入关键字') {this.value='';}" onblur="if(this.value == '') {this.value='输入关键字';}" />
+                            <input type="submit" value="搜 索" class="search-btn g-left" />
+                          </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- head结束 -->
+            <!-- nav开始 -->
+            <div class="m-nav">
+                <div class="m-container">
+                    <ul>
+                        <li><a href="http://120.77.218.152/" >平台首页</a></li>
+<!--                         <li> -->
+<!--                             <a href="#" class="icon-bg">招标项目</a> -->
+<!--                             <dl> -->
+<!--                                 <dd><a href="#">子导航</a></dd> -->
+<!--                                 <dd><a href="#">子导航</a></dd> -->
+<!--                                 <dd><a href="#">子导航</a></dd> -->
+<!--                                 <dd><a href="#">子导航</a></dd> -->
+<!--                             </dl> -->
+<!--                         </li> -->
+															            <li><a href="http://120.77.218.152/invite_notice/invite_notice.php?id=1"> 招标项目</a></li>
+			            			            									        	<li><a href="http://120.77.218.152/inquire_notice/inquire_notice.php?id=2" class="on">采购询价</a></li>
+			        				            									            <li><a href="http://120.77.218.152/article/article.php?id=3"> 中标公告</a></li>
+			            			            									            <li><a href="/alone/alone.php?id=12"> 管理规范</a></li>
+			            			            									            <li><a href="http://120.77.218.152/article/article.php?id=6"> 服务指南</a></li>
+			            			            									            <li><a href="http://120.77.218.152/alone/alone.php?id=7"> 联系方式</a></li>
+			            			            									            <li><a href="http://120.77.218.152/mx_form/mx_form.php?id=8"> 投诉建议</a></li>
+			            			                                    
+                    </ul>
+                </div>
+            </div>
+            <!-- nav结束 --> 
+            
+            <!-- banner开始 -->
+            <div class="m-banner cycle-slideshow" data-cycle-slides=".banner-img">
+                <a class="banner-img" style="background:url(http://120.77.218.152/template/default/Res/images/test/ad001.jpg) no-repeat center;"></a>
+                <a class="banner-img" style="background:url(http://120.77.218.152/template/default/Res/images/test/ad002.jpg) no-repeat center;display:none;"></a>
+                <a class="banner-img" style="background:url(http://120.77.218.152/template/default/Res/images/test/ad003.jpg) no-repeat center;display:none;"></a>
+                <div class="cycle-pager"></div>
+                <div class="m-container">
+                    <div class="m-inxlogin" style="display:none;">
+                        <div class="login-box">
+                            <ul>
+                                <li>
+                                    <span class="g-left icon-bg icon-zy">项目数</span>
+                                    <span class="g-right"><strong>662</strong>条</span>
+                                </li>
+                                <li>
+                                    <span class="g-left icon-bg icon-head">供应商</span>
+                                    <span class="g-right"><strong>1465</strong>家</span>
+                                </li>
+                                <li>
+                                    <span class="g-left icon-bg icon-head">客商</span>
+                                    <span class="g-right"><strong>213</strong>家</span>
+                                </li>
+                            </ul>
+                            <div class="login-style">
+                            	                            <a href="http://120.77.218.152/member/member.php?action=login" class="icon-bg login-gys">供应商中心</a>
+	                            <a href="http://120.77.218.152/member/member_ks.php?action=login" class="icon-bg login-ks">客商中心</a>
+                                                        </div>
+<!--                             <a href="#" class="login-kj">快捷登录</a> -->
+                        </div>
+                        <div class="login-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner结束 -->            <!-- 主体内容开始 -->
+            <div class="m-container pb40">
+                <div class="m-listtop">
+                    <div class="t-title04">
+                        <h2><span>采购询价</span></h2>
+                        <div class="title-dashed"><span></span></div>
+                    </div>
+                    <ul class="m-crumbs">
+                        <li><i class="img-bg"></i></li>
+                        <li>您现在的位置：</li>
+                       <li><a href="http://120.77.218.152/">首页</a></li><li>></li> <li><a href="http://120.77.218.152/inquire_notice/inquire_notice.php?id=2">采购询价</a></li><li>></li>                     </ul>
+                </div>
+                <div class="g-ohide m-listpage">
+                   	<style>
+                	tr{height:30px;}
+                	</style>
+            		<div class="g-left w220 list-left">
+						<ul>
+                            <li><a href="inquire_notice.php?id=2" class="on">询价项目</a></li>
+                            <li><a href="inquire_notice.php?id=2&type=1" >其他询价</a></li>
+                        </ul>
+                        <div class="m-box m-supplier img-bg mt10">
+                            <h2>我要<span>供货给水口山</span></h2>
+                            <a href="http://120.77.218.152/member/member.php?action=login" class="img-bg">
+                                供应商<span style="color:red;">登录</span>
+                            </a>
+                            <a href="http://120.77.218.152/member/member.php?action=regist" class="img-bg">
+                                供应商<span>注册</span>
+                            </a>
+                        </div>
+                        <div class="m-box m-merchants img-bg">
+                            <h2>我要<span>向水口山采购</span></h2>
+                            <a href="http://120.77.218.152/member/member_ks.php?action=login" class="img-bg">
+                                客商<span style="color:red;">登录</span>
+                            </a>
+                            <a href="http://120.77.218.152/member/member_ks.php?action=regist&lang=cn" class="img-bg">
+                                客商<span>注册</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="g-right w740">
+                        <table style="width:100%;">
+                        	<tr>
+                                <td style="border: #ECEAEA 1pt solid;width:8%;text-align:center;"> 类型</td>
+                                <td style="border: #ECEAEA 1pt solid;width:44%;text-align:center;"> 项目名称</td>
+                                <td style="border: #ECEAEA 1pt solid;width:20%;text-align:center;"> 发布时间</td>
+                                                                <td style="border: #ECEAEA 1pt solid;width:20%;text-align:center;"> 截止时间</td>
+                                <td style="border: #ECEAEA 1pt solid;width:8%;text-align:center;"> 状态</td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=886" class="g-left">&nbsp;金信汽修车间前牙包等汽车配件询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-12 14:49                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-15 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        进行中                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=885" class="g-left">&nbsp;金信汽修车间六配套等汽车配件询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-12 14:45                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-15 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        进行中                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=884" class="g-left">&nbsp;金信生产室电磁换向阀询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-12 11:56                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-15 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        进行中                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=881" class="g-left">&nbsp;金信生产室计量泵等询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-12 11:36                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-15 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        进行中                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=880" class="g-left">&nbsp;金信生产室轴承座、水套总成询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-12 09:13                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-15 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        进行中                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=859" class="g-left">&nbsp;金信生产室单向调速阀等询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-10 16:46                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-15 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        进行中                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=858" class="g-left">&nbsp;金信生产室矿车轮、轮对组件询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-10 16:43                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-15 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        进行中                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=854" class="g-left">&nbsp;金信汽修车间空压机传动轴等汽车配件询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-09 09:30                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-12 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=852" class="g-left">&nbsp;金信汽修车间前牙包等汽车配件询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-08 15:57                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-11 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=851" class="g-left">&nbsp;金信汽修车间六配套等汽车配件询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-08 15:51                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-11 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=850" class="g-left">&nbsp;金信汽修车间左叶子板等汽车配件询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-08 15:45                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-11 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=842" class="g-left">&nbsp;金信电铅车间、机电车间辅助材料询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-08 09:22                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-12 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=810" class="g-left">&nbsp;精石灰</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-03 16:56                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-05 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        已完成                                                                                                                                            </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=801" class="g-left">&nbsp;蜗轮蜗杆项目</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-29 15:02                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-02 15:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        已完成                                                                                                                                            </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=795" class="g-left">&nbsp;稳定剂生物试剂氧化剂项目招标采购标书</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-29 11:01                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-03 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        已完成                                                                                                                                            </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=794" class="g-left">&nbsp;锑锭</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-29 11:01                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-03 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        已完成                                                                                                                                            </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=790" class="g-left">&nbsp;10-12月份厂矿3M口罩</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-29 10:44                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2018-01-03 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        已完成                                                                                                                                            </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=768" class="g-left">&nbsp;金信化验室化药化仪询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-27 10:51                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-29 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=763" class="g-left">&nbsp;金信服装车间丝棉等询价采购</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-25 12:32                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-27 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                                                                                                                                                                    </td>
+                                                            </tr>
+                                                    <tr>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    <span style="color:red">采购</span>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">
+                                    <a href="http://120.77.218.152/inquire_notice/show_inquire_notice.php?id=745" class="g-left">&nbsp;三厂用方紫铜管、康矿用紫铜排</a>
+                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-22 10:06                                </td>
+                                                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                    2017-12-26 09:00                                </td>
+                                <td style="border: #ECEAEA 1pt solid;">&nbsp;
+                                                                        已完成                                                                                                                                            </td>
+                                                            </tr>
+                                                </table>
+                        </ul>
+                        <div class="m-pages">
+                            <span class="off">首页</span><span class="off">上一页</span><a class="focus" href="?page=1&id=2">1</a><a class="" href="?page=2&id=2">2</a><a class="" href="?page=3&id=2">3</a><a class="" href="?page=4&id=2">4</a><a class="" href="?page=5&id=2">5</a><a class="" href="?page=6&id=2">6</a><a class="" href="?page=7&id=2">7</a><a class="p" href="?page=2&id=2">下一页</a><a class="p" href="?page=7&id=2">尾页</a><span>转到<select style="width:40px;" onchange="location.href=this.options[this.selectedIndex].value;"><option value="?page=1&id=2" >1</option><option value="?page=2&id=2" >2</option><option value="?page=3&id=2" >3</option><option value="?page=4&id=2" >4</option><option value="?page=5&id=2" >5</option><option value="?page=6&id=2" >6</option><option value="?page=7&id=2" >7</option></select></span><span>共125条记录,当前第1/7</span>                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 主体内容结束 -->
+        </div>
+        ﻿<!-- 尾部 -->
+        <div class="m-footer m-abfooter">
+           <div class="m-container">
+               <div class="footer-one">
+                   <img src="http://120.77.218.152/template/default/Res/images/logo/logofooter.png" class="g-left footer-logo" />
+                   <div class="g-left footer-nav">
+                       <span>
+                           <a href="http://120.77.218.152/" class="c-cblue">首页</a>|
+                           <a href="http://120.77.218.152/article/article.php?id=6">服务指南</a>|
+                           <a href="mx_form/mx_form.php?id=8">投诉建议</a>|
+                           <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261816493'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1261816493' type='text/javascript'%3E%3C/script%3E"));</script>
+                       </span>
+                       <p>湖南水口山有色金属集团有限公司阳光购销平台</p>
+                   </div>
+                  <div class="g-right footer-icon">
+                      <a href="#"><i class="qq"></i></a>
+                      <a href="#">
+                          <i class="wx"></i>
+                          <span>
+                              <img src="http://120.77.218.152/template/default/Res/images/info/erweima.jpg" />
+                          </span>
+                      </a>
+                      <a href="#"><i class="wb"></i></a>
+                  </div>
+               </div>
+               <div class="g-ohide footer-two">
+                   <i class="icon-bg g-left"></i>
+                   <div class="g-left">
+                       <p class="phone">咨询热线&nbsp;&nbsp;0734-7582629&nbsp;&nbsp;&nbsp;&nbsp;公司地址：  湖南省常宁水口山镇　 </p>
+                       <p>
+                           Copyright © 水口山有色金属集团有限公司 版权所有　湘ICP备05000118号
+                       </p>
+                   </div>
+                   <div class="g-right g-fright">                       
+                       <p>技术支持：<a href="http://www.5mt.com.cn/" target="_blank"><font color=blue>湖南腾网互联科技有限公司</font></a></p>
+                       <p>联系方式：黄先生15573335373 0731-82070380</p>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+    
+    
+<LINK rel=stylesheet type=text/css href="http://120.77.218.152/template/default/kefu/css/css.css">
+<div id="xixi" onmouseover="toBig()" onmouseout="toSmall()" style="top: 100px; left: -152px; position: absolute;z-index:1000;">
+<table style="FLOAT: left" border="0" cellspacing="0" cellpadding="0" width="157">
+  <tbody>
+  <tr>
+    <td class="main_head" height="39" valign="top">&nbsp;</td></tr>
+  <tr>
+    <td class="info" valign="top">
+      <table class="qqtable" border="0" cellspacing="0" cellpadding="0" width="120" align="center">
+        <tbody>
+        <tr>
+          <td align="center"><a href="javascript:;" target="_blank"><img border="0" src="http://120.77.218.152/template/default/kefu/images/kefu_head.gif"></a> </td>
+        </tr>
+        <tr>
+          <td height="5"></td></tr>
+        <tr>
+          <td height="30" align="middle"><span>Tel:07347582629</span></td></tr>
+        <tr>
+          <td height="30" align="middle"><span>QQ群:273632396</span></td></tr>
+        <tr>
+          <td height="5"></td></tr>
+        <tr>
+          <td height="35" valign="top" align="middle">
+	          <a href="http://120.77.218.152/member/member.php?action=regist" target="_blank">
+	          	<img border="0" src="http://120.77.218.152/template/default/kefu/images/img3-5-btn1.gif" width="90" height="25">
+	          </a>
+          </td>
+        </tr>
+        <tr>
+          <td height="38" valign="top" align="middle">
+	          <a href="http://120.77.218.152/member/member_ks.php?action=regist&amp;lang=cn" target="_blank">
+	          	<img border="0" src="http://120.77.218.152/template/default/kefu/images/img3-5-btn2.gif" width="90" height="25">
+	          </a>
+          </td>
+        </tr>
+        <tr>
+          <td align="middle">
+            <div class="qun"><font color="red">&nbsp;&nbsp;┈公告┈ &nbsp;&nbsp;阳光购销平台业务自2017年5月2日正式试运行，敬请水口山合格客商尽快完善基本信息资料，参与投标，感谢您的关注！</font><br><span></span></div></td></tr>
+        <tr>
+          <td align="middle">
+            
+          </td><td align="middle">&nbsp;</td></tr></tbody></table></td></tr>
+  <tr>
+    <td class="down_kefu" valign="top"></td></tr></tbody></table>
+<div class="Obtn"></div></div>
+
+
+<SCRIPT language=javascript> 
+			lastScrollY=0; 
+			
+			var InterTime = 1;
+			var maxWidth=-1;
+			var minWidth=-152;
+			var numInter = 8;
+			
+			var BigInter ;
+			var SmallInter ;
+			
+			var o =  document.getElementById("xixi");
+				var i = parseInt(o.style.left);
+				function Big()
+				{
+					if(parseInt(o.style.left)<maxWidth)
+					{
+						i = parseInt(o.style.left);
+						i += numInter;	
+						o.style.left=i+"px";	
+						if(i==maxWidth)
+							clearInterval(BigInter);
+					}
+				}
+				function toBig()
+				{
+					clearInterval(SmallInter);
+					clearInterval(BigInter);
+						BigInter = setInterval(Big,InterTime);
+				}
+				function Small()
+				{
+					if(parseInt(o.style.left)>minWidth)
+					{
+						i = parseInt(o.style.left);
+						i -= numInter;
+						o.style.left=i+"px";
+						
+						if(i==minWidth)
+							clearInterval(SmallInter);
+					}
+				}
+				function toSmall()
+				{
+					clearInterval(SmallInter);
+					clearInterval(BigInter);
+					SmallInter = setInterval(Small,InterTime);
+					
+				}
+				
+</SCRIPT>    </div>
+    <script src="http://120.77.218.152/template/default/Res/js/ui-select.js"></script>
+    <script src="http://120.77.218.152/template/default/Res/js/main.js"></script>
+
+</body>
+</html>
+

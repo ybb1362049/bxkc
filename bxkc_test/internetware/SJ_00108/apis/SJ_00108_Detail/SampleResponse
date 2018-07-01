@@ -1,0 +1,649 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>《图说我们的价值观--美好黔图》画册采购项目采购公告 - 采购公告</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-store" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" />
+<meta name="author" content="贵州世纪惠邦科技有限公司"/>
+<!--[if lte IE 6]><link href="/static/bootstrap/bsie/css/bootstrap-ie6.min.css" type="text/css" rel="stylesheet" />
+<script src="/static/bootstrap/bsie/js/bootstrap-ie.min.js" type="text/javascript"></script><![endif]-->
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]> <script src="/static/common/html5.js"></script><![endif]-->
+
+<link rel="shortcut icon" href="/static/favicon.ico">
+<script src="/static/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+<link href="/static/common/home.css" type="text/css" rel="stylesheet" />
+<script src="/static/scripts/swfobject_modified.js" type="text/javascript"></script>
+<script src="/static/easytabs/easytabs.js" type="text/javascript" ></script>
+<link href="/static/jquery-validation/1.11.0/jquery.validate.min.css" type="text/css" rel="stylesheet" />
+<script src="/static/jquery-validation/1.11.0/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/static/jquery-validation/1.11.0/jquery.validate.method.js" type="text/javascript"></script>
+<script src="/static/jquery-form/jquery-form.js" type="text/javascript"></script>	
+
+
+
+
+
+
+<link href="/static/jquery-jbox/2.3/Skins/Bootstrap/jbox.min.css" rel="stylesheet" />
+<script src="/static/jquery-jbox/2.3/jquery.jBox-2.3.min.js" type="text/javascript"></script>
+	
+
+	
+	<meta name="decorator" content="cms_default_basic"/>
+	<meta name="description" content=" 显示贵州省省级项目招标，中标，变更、废标等新闻项目信息。" />
+	<meta name="keywords" content="《图说我们的价值观--美好黔图》画册采购项目采购公告,ZJZB2016-077,《图说我们的价值观--美好黔图》画册采购项目,S5200000000007681001,陈女士,图书资料,陈女士,Tue Jan 17 15:04:29 CST 2017,贵州智聚招标造价咨询有限公司,中共贵州省委宣传部 " />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			if ("0"=="1" && "0"=="1"){
+				$("#comment").show();
+				page(1);
+			}
+		});
+		function page(n,s){
+			$.get("/comment",{theme: 'basic', 'category.id': '1153418052184995',
+				contentId: '2928402808982038', title: '《图说我们的价值观--美好黔图》画册采购项目采购公告', pageNo: n, pageSize: s, date: new Date().getTime()
+			},function(data){
+				$("#comment").html(data);
+			});
+		}
+		
+	</script>
+
+<script type="text/javascript">
+	 var digitArray = new Array('0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f');
+
+	 function toHex( n ) {
+
+	         var result = ''
+	         var start = true;
+
+	         for ( var i=32; i>0; ) {
+	                 i -= 4;
+	                 var digit = ( n >> i ) & 0xf;
+
+	                 if (!start || digit != 0) {
+	                         start = false;
+	                         result += digitArray[digit];
+	                 }
+	         }
+
+	         return ( result == '' ? '0' : result );
+	 }
+
+	 function check() 
+	 {
+	 	var DevicePath,ret,n,mylen;
+	 	try
+	 	{
+	 	
+	 		
+	         var s_simnew61;
+	 	    
+	 	    if((!!navigator.userAgent.match(/Trident\/7\./)||navigator.userAgent.indexOf("MSIE")>0) && !navigator.userAgent.indexOf("opera") > -1)
+	 	    {
+	 		    s_simnew61=new ActiveXObject("Syunew6A.s_simnew6");
+	 	    }
+	 	    else
+	 	    {
+	 			s_simnew61= document.getElementById('s_simnew61');
+	 	    }
+	         
+	         
+	 		DevicePath = s_simnew61.FindPort(0);
+	 		
+	 		if( s_simnew61.LastError!= 0 )
+	 		{
+	 			
+//	 			window.alert ( "Not Find Key ,Pls insert Key.");			
+	 			
+	 		}
+	 		window.location.href="/govenment/login/";	
+
+	 	}
+	 	catch (e) 
+	 	{
+	 		alert("可能是没有安装相应的控件或插件");
+	 	}
+	 }
+
+
+</script>
+</head>
+
+<body>
+<object id="Spindial1" width=3 height=3 visibility="hidden"
+  classid="CLSID:469F3884-962C-4F42-8BCC-C6564386A4FA"
+  codebase="/static/usbKey/ypcab.cab#Version=1.0.0.1">
+</object>
+<embed id="s_simnew61"  type="application/npsyunew6-plugin" hidden="true"> </embed>
+	<div class="head">
+
+	
+		<object id="FlashID"
+			classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="980"
+			height="215">
+	
+			<param name="movie" value="/static/common/home/images/top.swf" />
+			<param name="quality" value="high" />
+			<param name="wmode" value="transparent" />
+			<param name="swfversion" value="8.0.35.0" />
+			<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+			<param name="expressinstall" value="Scripts/expressInstall.swf" />
+			<!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+			<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash"
+				data="/static/common/home/images/top.swf" width="980" height="215">
+				<!--<![endif]-->
+				<param name="quality" value="high" />
+				<param name="wmode" value="transparent" />
+				<param name="swfversion" value="8.0.35.0" />
+				<param name="expressinstall" value="Scripts/expressInstall.swf" />
+				<!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+				<div>
+					<h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+					<p>
+						<a href="http://www.adobe.com/go/getflashplayer"><img
+							src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+							alt="获取 Adobe Flash Player" width="112" height="33" /></a>
+					</p>
+				</div>
+			</object>
+		</object>
+	</div>
+
+	<div class="nav">
+		<ul>
+			
+			<li class=""><a
+				href="/index-1.html"><span>站点首页</span></a></li>
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-20.html" target="">新闻资讯</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-18.html" target="">政策法规</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-6.html" target="">代理机构</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-462c3fdb2de14a49943a4ed8adfa85f7.html" target="">办事指南</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-5d6c833797874c9f9745d94a3b8e03ed.html" target="">电子采购平台</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-1156199190442836.html" target="">投诉处理</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-1156199190442838.html" target="">处理处罚</a></li>
+				
+			
+		</ul>
+	</div>
+	
+	<!-- /container -->
+
+    <div  >
+		
+<div class="body">
+  <div class="zuo">
+  <div class="nzdh">
+  <div class="icon">栏目列表</div>
+    <ul>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153418052184995.html"  class="ndq" target="" >采购公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153454200156791.html"  class="" target="" >更正公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153488085289816.html"  class="" target="" >废标公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153531755759540.html"  class="" target="" >中标(成交)公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153567415242344.html"  class="" target="" >单一来源公示</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153595823404526.html"  class="" target="" >单一来源(成交)公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1156071132711523.html"  class="" target="" >资格预审</a>
+			</li>
+	
+
+   </ul>
+  </div>
+  
+  <div >
+  <div ><h4>推荐阅读</h4></div>
+    <ul>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+   </ul>
+  </div>
+  
+  </div>
+  
+   <div class="you">
+        <div style="xnrx">
+	       <div align="left">
+			<h3 style="color:#555555;font-size:20px;text-align:center;border-bottom:1px solid #ddd;padding-bottom:15px;margin:25px 0;">《图说我们的价值观--美好黔图》画册采购项目采购公告</h3>
+			
+			<div ><style type="text/css">
+     ul li{list-style-type:none;}
+  
+  body {
+    font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #000;
+  }
+  .toolbar {
+      background-color: #DFE8F6;
+      border: 1px solid #99BBE8;
+      height: 35px;
+  }
+  /* ~~ 元素/标签选择器 ~~ */
+  ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
+    padding: 0;
+    margin: 0;
+  }
+  h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+  }
+  a img { /* 此选择器将删除某些浏览器中显示在图像周围的默认蓝色边框（当该图像包含在链接中时） */
+    border: none;
+  }
+  
+  
+  
+  #border{
+      border: 1px solid;
+      padding: 31px;
+      width: 657px;
+  }
+  .lang{
+   width: 407px;
+  }
+  #info{   text-align: left;
+      text-indent: 2em;
+      width: 636px;}  
+  #info input{
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #000;
+    font:100%/1.4 Verdana,Arial,Helvetica,sans-serif;
+  }
+  #info textarea {  margin-left: 58px; width:489px;  font:100%/1.4 Verdana,Arial,Helvetica,sans-serif;}
+  #info .textareaInput{width: 100%;
+  margin: 0px;
+  border: none;
+  padding: 0px;}
+  #info select{font:100%/1.4 Verdana,Arial,Helvetica,sans-serif;}
+  #info li{   margin: 8px 0; list-style: none outside none;}
+  .displayName{
+    background: none repeat scroll 0 0 #EEEEEE;
+  }
+  
+  th {
+      text-align: center;
+  }
+  
+  
+  #info #table1 th{ text-align: center;
+      text-indent: initial;
+  }
+  #info #table1 tr td{ text-indent: 0px;}
+ </style>     
+
+  <DIV align="center" id="content" style=" -ms-overflow-y: scroll;" 
+ align="top">
+<DIV id="border">
+<DIV id="info">
+
+		<ul>
+		<li >
+		   <span>1、项目名称:</span>《图说我们的价值观--美好黔图》画册采购项目
+		   	</li>
+		<li>
+		   <span>2、项目编号:</span>ZJZB2016-077
+		  	</li>
+		<li>
+		   <span>3、项目序列号:</span>S5200000000007681001
+		  	</li>
+		  	<li>
+		   <span>4、项目联系人:</span>陈女士
+		  	</li>
+		  	<li>
+		   <span>5、项目联系电话:</span>13885086539
+		  	</li>
+		<li>
+		   <span>6、采购方式:</span> 竞争性谈判
+		   
+
+		</li>
+		
+		<li>
+		   <span>7、采购货物或服务情况:（具体要求详见附表）</span>
+		   </li>
+		   
+		   <ul>
+		      <li ><span>（1）采购主要内容:</span><br/>
+		                  
+		      画册采购</li>
+			  <li><span>（2）采购数量:</span>8,000  套</li>
+			  <li><span>（3）采购预算:</span>400,000元</li>
+			  <li><span>（4）简要技术要求、服务和安全要求:</span><br/>
+			              
+			  详见谈判文件</li>
+			  <li><span>（5）交货时间或服务时间:</span>
+			  采购合同签订后3天内供货完成
+			  </li>
+			  <li><span>（6）交货地点或服务地点:</span>负责运送到招标人指定的地点（省内各地州、市、县级地点）</li>
+			  <li><span>（7）其他事项（如样品提交、现场踏勘等）:</span>无</li>
+		   </ul>
+		<li>
+		   <span>8、投标供应商资格要求</span><br/>
+		   </li>
+		   		   <ul>
+			   <li><span>（1）一般资格要求</span><br/>
+			               
+			   1.投标人应当符合《中华人民共和国政府采购法》第二十二条规定的条件:
+2.投标人必须在中国境内注册，并具有独立法人资格，具有有效的营业执照副本（或三证合一）、税务登记证副本、组织机构代码证副本；
+3.投标人必须具备新闻出版行政主管部门核发的出版物经营许可证；
+4.有出版过画册的经验及专业出版人员，提供1名高级编辑及2名中级编辑出版专业技术人员资格证书；
+5.参加本次政府采购活动前三年内，在经营活动中没有违法违规记录：提供参加政府采购活动前3年内在经营活动中没有重大违法记录的书面声明；
+6.本项目不接受联合体形式投标。</li>
+			   <li><span>（2）特殊资格要求</span><br/>
+			               
+			   无</li>
+		   </ul>
+		
+		<li>
+		   <span>9、获取招标文件信息:</span>
+		   </li>
+		   <ul>
+		      <li><span>（1）购买招标文件时间:2017-01-17 09:00:00至2017-01-22 17:00:00
+					</span></li>
+		      <li><span>（2）购买招标文件地点:</span>网上购买</li>
+		      <li><span>（3）招标文件获取方式::</span>登录贵州省公共资源交易中心网上获取（交易中心电话：0851-88309675,交易中心网址：http：//www.gzsggzyjyzx.cn/）。</li>
+		      <li><span>（4）招标文件售价:300 元人民币（含电子文档）</span></li>
+		   </ul>
+		
+		<li>
+		   <span>10、投标截止时间（北京时间）:</span>
+		   2017-01-23 09:30:00
+		 （逾期递交的投标文件恕不接受）
+		</li>
+		<li>
+		   <span>11、开标时间（北京时间）:</span>2017-01-23 09:30:00
+		 
+		</li>
+		<li>
+		   <span>12、开标地点:</span>贵州省公共资源交易中心（贵州省贵阳市遵义路65号，具体谈判室于当日在贵州省公共资源交易中心开标区获取）
+		   
+		</li>
+		<li>
+		   <span>13、投标保证金情况</span><br>
+		   </li>
+		   <ul>
+		      <li><span>（1）投标保证金额（元）:</span> 6,000</li>
+			  <li><span>（2）投标保证金交纳时间:</span>2017-01-17 09:00:00至2017-01-22 17:00:00</li>
+			  <li><span>（3）投标保证金交纳方式:</span>基本账户转出</li>
+			  <li><span>（4）开户银行及帐号</span></li>
+			 
+			  <ul id="bankInformation">
+			    <li><span>单位名称:</span>贵州省公共资源交易中心</li>
+				<li><span>开户银行:</span>贵州银行股份有限公司贵阳展览馆支行</li>
+				<li><span>帐  号:</span>0109001400000182</li>
+			  </ul>
+		</ul>
+		 <li>
+		   <span>14、PPP项目:</span>否
+		 </li>
+		 <li>
+		   <span>15、采购人名称:</span>中共贵州省委宣传部
+		 </li>
+		   <ul>
+		      <li><span>&nbsp&nbsp联系地址:</span>中共贵州省委大院内</li>
+			  <li><span>&nbsp&nbsp项目联系人:</span> 雷女士</li>
+			  <li><span>&nbsp&nbsp联系电话:</span> 0851-85893109</li>
+		   </ul>
+		<li>
+		   <span>16、采购项目需要落实的政府采购政策:</span>无
+		   
+		</li>
+		<li>
+		   <span>17、采购代理机构全称:</span> 贵州智聚招标造价咨询有限公司
+		 </li>
+		    <ul>
+		      <li><span>&nbsp&nbsp联系地址:</span> 贵阳市云岩区延安西路2号建设大厦西栋8楼</li>
+			  <li><span>&nbsp&nbsp项目联系人:</span> 陈女士</li>
+			  <li><span>&nbsp&nbsp联系电话:</span> 13885086539</li>
+		   </ul>
+		</ul>
+		<DIV><span>  请供应商在汇款时务必注明本项目的项目编号，否则，因款项用途<br/>    不明导致保证金无效等后果由投标人自行承担。</span></DIV>
+		<br/>
+		<li>
+		   <span>附件：</span>
+           <ul>
+          <li><table style="border-width: 0px;text-indent: 2em;"><tr>
+            <td></td></tr></table></li>    
+		   </ul>
+		</li>
+		
+		<DIV id="foot">
+		   <DIV id="company" style="text-align: right;"> 
+		   贵州智聚招标造价咨询有限公司<span></span></DIV>
+		</DIV>  
+   </DIV></DIV></DIV></div>
+			<div style="border-top:1px solid #ddd;padding:10px;margin:25px 0;" align="center"> 点击数：323 &nbsp; 发布时间：2017-01-17 &nbsp; 更新时间：2017-01-17</div>
+  	       </div>
+  	     </div>
+	     <div style="width:100%">
+	       <div style="width:100%">
+			<h5>相关文章</h5>
+			<ol></ol>
+	  	  </div>
+  	    </div>
+   </div>
+<div class="clr"></div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+ </div>
+
+	</div>
+	
+	<div class="end">
+		<div class="foot">
+			<div class="foots">
+			  
+				<a href="http://www.cfen.com.cn/"><img src="/static/common/home/images/yqlj2.gif" width="153" height="43" /></a>
+				<a href="http://www.gzsggzyjyzx.cn/"><img src="/static/common/home/images/yqlj1.gif" width="153" height="43" /></a>
+				<a href="http://www.ccgp.gov.cn/"><img src="/static/common/home/images/yqlj3.gif" width="153" height="43" /></a>
+				<a href="http://www.gzcz.gov.cn/"><img src="/static/common/home/images/yqlj4.gif" width="153" height="43" /></a> 
+				<a href="http://www.mof.gov.cn/index.htm"><img src="/static/common/home/images/yqlj5.gif" width="153" height="43" /></a>
+			
+			</div>
+			
+			<div class="footx">
+				<p>
+					地址:贵州省政府大院七号楼3楼 邮编：550001 监督电话：0851-86892180 <a href="javascript:void(0);" onclick="check();" >【管理登陆】</a>
+				   &nbsp;&nbsp; <a href="/static/usbKey/SetUpAll.exe">【驱动下载】</a>
+				</p>
+				<p>主办：贵州省财政厅政府采购管理处 服务热线：4006168235</p>
+				<p>版权所有: 贵州省财政厅政府采购管理处 © (2008 - 2015) 技术支持：贵州世纪惠邦科技有限公司</p>
+				
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		swfobject.registerObject("FlashID");
+	</script>
+    <script>
+	var c, _ = Function;
+	with (o = document.getElementById("div1")) {
+		innerHTML += innerHTML;
+		onmouseover = _("c=1");
+		onmouseout = _("c=0"); 
+	}
+	(F = _("if(#%45||!c)#++,#%=o.scrollHeight>>1;setTimeout(F,#%45?10:1500);"
+			.replace(/#/g, "o.scrollTop")))();
+   </script>
+</body>
+</html>

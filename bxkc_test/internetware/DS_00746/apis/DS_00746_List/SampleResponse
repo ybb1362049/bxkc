@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=9" />
+    <title>湖州市公共资源交易信息网</title>
+    <link rel="stylesheet" href="/HZfront/Template/Default/css/common.css" />
+    <link rel="stylesheet" href="/HZfront/Template/Default/css/child-page.css" />
+    <script src="/HZfront/Template/Default/js/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div style="text-align:center">
+        <iframe src="/HZfront/Template/Default/pagehead.htm" scrolling="no" frameborder="0" width="100%" height="229px"></iframe>
+    </div>
+    <!-- 当前位置 -->
+    <div class="child-nav">
+        <div class="child-position">
+            <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="left"><FONT color="#0c6eb6" class=currentpostionfont>您现在的位置：</FONT><A href='/HZfront/'><FONT color="#0c6eb6" class="currentpostionfont">首页</FONT></A><FONT color="#ff6600"> > <a href='/HZfront/zfcg'><FONT color="#ff6600" class="currentpostionfont">政府采购</font></a> > <a href='/HZfront/zfcg/024001'><FONT color="#ff6600" class="currentpostionfont">集中采购</font></a> > <a href='/HZfront/zfcg/024001/024001001'><FONT color="#ff6600" class="currentpostionfont">集中采购招标公告</font></a></FONT></TD></TR></table>
+            <!--<a href="#">首页</a> > <a href="#">政策法规</a> > <a class="current" href="#">平台简介</a>-->
+        </div>
+    </div>
+    <!-- 中间 -->
+    <div class="container pt10">
+        <div class="row">
+            <div class="span232 mr10">
+                <div class="left-slider">
+                    <div class="left-slider-head">
+                        政府采购
+                    </div>
+                    <div class="left-slider-content">
+                        <ul>
+                            <li class='nav-li-lvl2'><a href="/HZfront/zfcg/024001" target="_self">集中采购</a></li>
+<li class='nav-li-lvl2'><a href="/HZfront/zfcg/024002" target="_self">分散采购</a></li>
+<li class='nav-li-lvl2'><a href="/HZfront/zfcg/024003" target="_self">协议供货</a></li>
+<li class='nav-li-lvl2'><a href="/HZfront/zfcg/024004" target="_self">集中采购目录</a></li>
+
+                            <!--<li><a href="#">国颁法规</a></li>
+                            <li><a href="#">省颁法规</a></li>
+                            <li><a href="#">市级文件</a></li>
+                            <li><a href="#">中心制度</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="span756">
+                <div class="right-slider">
+                    <div class="right-slider-head">
+                        集中采购招标公告
+                    </div>
+                    <div class="right-slider-content">
+                        <!--<ul>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                            <li class="right-slider-content-li"><a href="#">湖州银行...</a><span>[2015-05-23]</span></li>
+                        </ul>-->
+                        <table width='98%' border='0' align='center' cellpadding='0' cellspacing='0'>
+<tr height='24' style='line-height:18px;'>
+<td colspan='5'><input type="button" class="orear-btn" value='全部' onClick="location.reload()" />
+<input type="button" class="orear-btn" value='本市级' onClick="window.location.href='/HZfront/MoreinfoHZ/MoreInfoSerachHZ.aspx?categorynum=024001001&TypeValue=10'" />
+<input type="button" class="orear-btn" value='开发区' onClick="window.location.href='/HZfront/MoreinfoHZ/MoreInfoSerachHZ.aspx?categorynum=024001001&TypeValue=20'" />
+<input type="button" class="orear-btn" value='吴兴区' onClick="window.location.href='/HZfront/MoreinfoHZ/MoreInfoSerachHZ.aspx?categorynum=024001001&TypeValue=30'" />
+<input type="button" class="orear-btn" value='南浔区' onClick="window.location.href='/HZfront/MoreinfoHZ/MoreInfoSerachHZ.aspx?categorynum=024001001&TypeValue=40'" />
+<input type="button" class="orear-btn" value='长兴县' onClick="window.location.href='/HZfront/MoreinfoHZ/MoreInfoSerachHZ.aspx?categorynum=024001001&TypeValue=50'" />
+<input type="button" class="orear-btn" value='德清县' onClick="window.location.href='/HZfront/MoreinfoHZ/MoreInfoSerachHZ.aspx?categorynum=024001001&TypeValue=60'" />
+<input type="button" class="orear-btn" value='安吉县' onClick="window.location.href='/HZfront/MoreinfoHZ/MoreInfoSerachHZ.aspx?categorynum=024001001&TypeValue=70'" />
+</td></tr>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=f2ecffdb-906d-431f-9c23-fc8d5ee90d4b&CategoryNum=024001001' target='_blank' title='关于政府采购供应商网上注册的通知' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">关于政府采购供应商网上注册的通知</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-05-17</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=ba18bfc6-6a6c-4ea1-b5af-c106fad1d62f&CategoryNum=024001001' target='_blank' title='关于湖州市吴兴区政府投资项目审计协审单位资格采购项目的再次更正公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">关于湖州市吴兴区政府投资项目审计协审单位资格采购项目的再次更正公告</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2017-01-04</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=c26faf25-0e42-48f7-8b53-455480de18e9&CategoryNum=024001001' target='_blank' title='湖州市公共资源交易中心政府采购分中心关于湖州市机关事务管理局等单位书吧家具等采购项目的询价采购公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">湖州市公共资源交易中心政府采购分中心关于湖州市机关事务管理局等单位书吧...</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2017-01-04</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=3820a8ce-a426-473f-93de-5db5b2bd2ff0&CategoryNum=024001001' target='_blank' title='关于湖州市吴兴区政府投资项目审计协审单位资格采购项目的更正公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">关于湖州市吴兴区政府投资项目审计协审单位资格采购项目的更正公告</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2017-01-04</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=a48a5a2f-bea5-4272-addb-460dee844837&CategoryNum=024001001' target='_blank' title='长兴县农业综合开发项目县级验收服务采购项目' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'"><font color=FF0000>[长兴县]</font>长兴县农业综合开发项目县级验收服务采购项目</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2017-01-03</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=055acd48-8766-46d9-a45c-942321334745&CategoryNum=024001001' target='_blank' title='湖州市审计局视频会议室播控设备采购项目答疑更正公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">湖州市审计局视频会议室播控设备采购项目答疑更正公告</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2017-01-03</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=5c5dc726-2467-4c48-b2d4-b82c9266a661&CategoryNum=024001001' target='_blank' title='湖州市公共资源交易中心政府采购分中心关于浙江省湖州市第一人民医院健康体检信息系统项目招标公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">湖州市公共资源交易中心政府采购分中心关于浙江省湖州市第一人民医院健康体...</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-12-28</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=b95fbdca-ca55-49a2-bd4d-b240c00f3000&CategoryNum=024001001' target='_blank' title='阳光医保长兴本地化开发采购项目' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'"><font color=FF0000>[长兴县]</font>阳光医保长兴本地化开发采购项目</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-12-27</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=1994a5bf-e084-496e-bb39-b165db98a96d&CategoryNum=024001001' target='_blank' title='浙江省湖州市吴兴区第一小学多媒体设备采购项目招标公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">浙江省湖州市吴兴区第一小学多媒体设备采购项目招标公告</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-12-27</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=a6156abc-1d7e-4b5a-9b4e-079533607dd9&CategoryNum=024001001' target='_blank' title='长兴县人力资源和社会保障局异地容灾备份接入项目' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'"><font color=FF0000>[长兴县]</font>长兴县人力资源和社会保障局异地容灾备份接入项目</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-12-26</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=0b0b4a63-500f-4331-8e88-b2e9da253f4e&CategoryNum=024001001' target='_blank' title='中兴大厦•湖州宾馆酒店家具采购项目招标公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">中兴大厦•湖州宾馆酒店家具采购项目招标公告</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-12-26</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=a8510259-fa6a-4b4e-be52-59b88f4ffdd3&CategoryNum=024001001' target='_blank' title='关于安吉县2016年少体校皮划赛艇政府采购项目的公开招标公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'"><font color=FF0000>[安吉县]</font>关于安吉县2016年少体校皮划赛艇政府采购项目的公开招标公告</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-12-21</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=19ef81c2-15ca-46c9-b665-64ca667aee29&CategoryNum=024001001' target='_blank' title='湖州师范学院信息工程学院深度学习系统设备采购项目招标公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">湖州师范学院信息工程学院深度学习系统设备采购项目招标公告</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-12-20</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=3357ea06-65ff-41e8-a607-8e1807ec3279&CategoryNum=024001001' target='_blank' title='湖州市南浔区菱湖人民医院网络升级改造项目招标公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">湖州市南浔区菱湖人民医院网络升级改造项目招标公告</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-12-20</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr height='24' style='line-height:18px;'>
+<td width='10'><img src='/HZfront/images/dots/dot1.gif' border=0></td>
+<td align='left' class='moreinfoCss' height=38 style='line-height:18px;'><a href='/HZfront/InfoDetail/?InfoID=2d8d9158-a258-42b3-b4fc-76b020b0e385&CategoryNum=024001001' target='_blank' title='浙江信息工程学校交互式一体机采购项目招标公告' class="WebList_sub"  onMouseOut="this.className='WebList_sub'" onMouseOver="this.className='WebListOVer_sub'">浙江信息工程学校交互式一体机采购项目招标公告</a><td></td>
+</td>
+<td width='80' ><font color='#333;'>2016-12-20</font></td>
+</tr>
+<TR><TD height=1 background="/HZfront/images/webinfolist_line.gif" colSpan='5'><img src="/HZfront/images/spacer.gif"></TD></TR>
+<tr><td colspan='4' height="20px"></td></tr></table><style>.pagemargin{margin:0px}.margintop{margin-top:15px}.yahei{font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold}.yaheigo{font-family:"Microsoft YaHei",微软雅黑; font-size:12px}.redfont{color:red}.bordercolor{border:solid 1px #dfdfdf}.huifont{color:#666666}.songti{font-size:12px}.weight{font-weight:bold}.pageover{ background-color:#999999; border:solid 1px #999999; font-size:12px; color:#FFFFFF;cursor:pointer}.pageout{border:solid 1px #dedede;font-size:12px;color:#666666;cursor:pointer}.numberover{background-color:#999999; border:solid 1px #999999;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#FFFFFF;cursor:pointer;width:36px}.numberout{border:solid 1px #dedede;font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold;color:#666666;cursor:pointer;width:36px}.goover{border:solid 1px #dfdfdf;background-color:#999999;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:#FFFFFF;cursor:pointer}.goout{color:#333;border:solid 1px #dfdfdf;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:666666;cursor:pointer}</style><script type='text/javascript' src='/HZfront/template/default/js/jquery-1.9.1.min.js'></script><script>var totalPageNums = 27;function GoToPaging() {var no = ($("#GoToPagingNo").val());if ($.isNumeric(no)) {no = parseInt(no);if (no <= 0) {alert("请输入有效页码（大于0）！");$("#GoToPagingNo").val("");$("#GoToPagingNo").focus();} else if (no <= totalPageNums) {ShowNewPage('?Paging='+no);} else {alert("最大分页为" + totalPageNums + ",请重新输入页码！");$("#GoToPagingNo").val("");$("#GoToPagingNo").focus();}} else {alert("请重新输入数字页码！");$("#GoToPagingNo").val("");$("#GoToPagingNo").focus();}}function tab() {if (event.keyCode == 13){ document.getElementById("submit2").click()}} $(document).ready(function () { $(".paginator a").each(function () {var ellipsis = $(this).text();if (ellipsis == "...") {$(this).css("border", "0");}});});function ShowNewPage(pageurl){window.open(pageurl,'_self')}</script><div class="pagemargin"><div style="height:26px;width=494px"><table border='0' cellpadding='0' cellspacing='0'><tr><td  width="60" align="center" class="pageout" >首页</td><td width="4"></td><td  width="60" align="center" class="pageout" >&lt; 上页 </td><td width="4"></td><td  width="36" align="center" class="yahei redfont" >1</td><td width="4"></td><td onclick="ShowNewPage('?Paging=2');" title='转到第2页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">2</td><td width="4"></td><td onclick="ShowNewPage('?Paging=3');" title='转到第3页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">3</td><td width="4"></td><td onclick="ShowNewPage('?Paging=4');" title='转到第4页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">4</td><td width="4"></td><td onclick="ShowNewPage('?Paging=5');" title='转到第5页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">5</td><td width="4"></td><td onclick="ShowNewPage('?Paging=6');" title='转到第6页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">6</td><td width="4"></td><td onclick="ShowNewPage('?Paging=7');" title='转到第7页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">7</td><td width="4"></td><td onclick="ShowNewPage('?Paging=8');" title='转到第8页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">8</td><td width="4"></td><td onclick="ShowNewPage('?Paging=2');" title='转到第2页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">下页 &gt;</td><td width="4"></td><td onclick="ShowNewPage('?Paging=27');" title='转到第27页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">末页</td><td width="20"></td><td class="huifont">1/27</td><td width="10"></td><td class="songti huifont">转</td><td width="6"></td><td><input type="text" id="GoToPagingNo" onkeydown="tab()"  class="bordercolor"  style="line-height:26px;width:40px; height:26px" /></td><td width="6"></td><td width="30" align="center" class="goout" id="submit2" onclick="GoToPaging();" onmouseover="this.className='goover';" onmouseout="this.className='goout';">GO</td></td></tr></table></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div style="text-align:center">
+        <iframe src="/HZfront/Template/Default/pagefoot.htm" scrolling="no" frameborder="0" width="100%" height="126px"></iframe>
+    </div>
+</body>
+</html>

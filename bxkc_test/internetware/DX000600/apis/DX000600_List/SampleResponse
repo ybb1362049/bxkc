@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=EDGE" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特变电工电子招标平台 - 首页</title>
+    <link rel="stylesheet" href="/content/site/default/default.css">
+    <link rel="stylesheet" href="/scripts/bootstrap/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/scripts/bootstrap/css/custom-theme/jquery-ui-1.10.3.custom.css">
+    <link rel="stylesheet" href="/scripts/bootstrap/assets/css/docs.css">
+    <link rel="stylesheet" href="/scripts/bootstrap/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/scripts/prompt/skin/simple_gray/ymPrompt.css" type="text/css" />
+    <link rel="stylesheet" href="/scripts/scrollbar/jquery.mCustomScrollbar.css">
+    <!--[if IE 8]>
+    <script src="/scripts/bootstrap/assets/js/vendor/html5shiv.js" type="text/javascript"></script>
+	<script src="/scripts/bootstrap/assets/js/vendor/respond.min.js" type="text/javascript"></script>
+	<script src="/scripts/bootstrap/assets/js/vendor/css3-mediaqueries.js" type="text/javascript"></script>
+	<![endif]-->
+    <script type="text/javascript" src="/Scripts/easyui/jquery-1.7.1.min.js"></script>
+    
+    
+    <script type="text/javascript" src="/Scripts/prompt/ymPrompt.js"></script>
+    <script type="text/javascript" src="/Scripts/Wonder/Wonder.js"></script>
+    <script type="text/javascript" src="/Scripts/Wonder/WonderPrompt.js"></script>
+    <link rel="stylesheet" href="/scripts/bootstrap/assets/css/style.css">
+        <script type="text/javascript" src="/Scripts/easyui/locale/easyui-lang-zh_CN.js"></script>   
+</head>
+<script language="javascript" type="text/javascript">
+    function OpenPage(url, newsGroupId) {
+        location = url;
+    }
+    function SearchNewsByMcId(mcId) {
+        var url = "/HomeSite/Site/NewsSearch?mcId=" + mcId;
+        location = WonderMathUrl(url);
+    }
+    function SearchNewsByOrgId(orgId) {
+        var url = "/HomeSite/Site/NewsSearch?orgId=" + orgId;
+        location = WonderMathUrl(url);
+    }
+    function SearchNewsByKeyWord() {
+        var keyWord = $("#keyWord").val();
+        keyWord = encodeURIComponent(keyWord);
+        var url = "/HomeSite/Site/NewsSearch?keyWord=" + keyWord;
+        location = WonderMathUrl(url);
+    }
+    function ChangeMaterial(obj) {
+        var id = $(obj).attr("href");
+        if ($(obj).hasClass("active")) {
+            $(obj).removeClass("active");
+        } else {
+            $(obj).addClass("active");
+            $(obj).parent(".clearfix").siblings().find("a").removeClass("active");
+            $(id).siblings("p").removeClass("in").addClass("collapse");
+        }
+    }
+    function ConnectUs() {
+        var url = "/HomeSite/Site/orgnization?newsGroupId=408";
+        location = WonderMathUrl(url);
+    }
+    var domainName = "jqgt";
+    $(function () {
+        //TanChuang();
+        var aList = $("a.nl");
+        var kfStr = "";
+        for (var i = 0; i < aList.length; i++) {
+            var aItem = aList[i];
+            kfStr += aItem.id.split("_")[1]+",";
+        }
+        kfStr = kfStr.substr(0,kfStr.length-1);
+        WonderPostAjax("/Organization/Employee/GetImOnlineInfo", function (e) {
+            var arr = e.split(",");
+            for (var i = 0; i < arr.length; i++) {
+                var code = arr[i].split(":")[0];
+                var exist = arr[i].split(":")[1];
+                if (exist == "1") {
+                    $("#kf_" + code).attr("href", "javascript:ContactKF('" + code + "')");
+                    $("#kf_" + code).attr("style", "color:blue;");
+                }
+                else {
+                    $("#kf_" + code).attr("disabled", "true");
+                    $("#kf_" + code).attr("style", "color:gray;");
+                    $("#kf_" + code).html($("#kf_" + code).html()+"(离线)");
+                }
+                
+            }
+        }, { employeeCode: kfStr, domainName: domainName });
+    });
+    function ContactKF(id) {
+        var windowId = Math.random().toString(36);
+        var url = 'http://eps.jiugangbid.com:9090/anonymous/customerService/connect.action?user=' + id + '@' + domainName;
+
+        window.open(url, "kf",
+        			'width=580, height=510, scrollbars=no, location=no, toolbar= no, menubar=no, resizable=no, directories=no, status=yes');
+    }
+    function TanChuang() {
+        var oDiv = document.getElementById('miaov_float_layer');
+        var oBtnMin = document.getElementById('btn_min');
+        var oBtnClose = document.getElementById('btn_close');
+        var oDivContent = oDiv.getElementsByTagName('div')[0];
+        var iMaxHeight = 0;
+        var isIE6 = window.navigator.userAgent.match(/MSIE 6/ig) && !window.navigator.userAgent.match(/MSIE 7|8/ig);
+        oDiv.style.display = 'block';
+        iMaxHeight = oDivContent.offsetHeight;
+        if (isIE6) {
+            oDiv.style.position = 'absolute';
+            repositionAbsolute();
+            miaovAddEvent(window, 'scroll', repositionAbsolute);
+            miaovAddEvent(window, 'resize', repositionAbsolute);
+        }
+        else {
+            oDiv.style.position = 'fixed';
+            repositionFixed();
+            miaovAddEvent(window, 'resize', repositionFixed);
+        }
+   
+    };
+</script>
+<body>
+    <form id="form1" name="form1" method="post">
+        <style type="text/css">
+    #TableMaterialCategoryName
+    {
+        border: 1px solid #CFE7FF;
+    }
+    #TableMaterialCategoryName tr
+    {
+        border: 1px solid #CFE7FF;
+    }
+    #TableMaterialCategoryName tr td
+    {
+        border: 1px solid #CFE7FF;
+        text-align: left;
+        font-size: 13px;
+    }
+    #TableMaterialCategoryName tr td:first-child
+    {
+        width: 50px;
+        text-align: center;
+    }
+    #TableMaterialCategoryName tr:first-child
+    {
+        background-color: #F6F6F6;
+    }
+</style>
+<script type="text/javascript" language="javascript">
+    function SearchMaterialCategory() {
+        var MaterialCategoryName = $("#MaterialCategoryName").val();
+        if (MaterialCategoryName != "") {
+            var murl = "/Material/MaterialCategorySearch/GetMaterialCategoryFullName";
+            WonderPostAjax(murl, function (data) {
+                if (data != "") {
+                    var html = data;
+                    $("#gridid").html(html);
+                } else {
+                    WonderAlert(data);
+                }
+            }, { MaterialCategoryName: MaterialCategoryName });
+        }
+        else {
+            WonderAlert("请输入关键字！");
+        }
+    }
+    function SubmitKeyClick(obj, evt) {
+        evt = (evt) ? evt : ((window.event) ? window.event : "")
+        keyCode = evt.keyCode ? evt.keyCode : (evt.which ? evt.which : evt.charCode);
+        if (keyCode == 13) {
+            SearchMaterialCategory();
+            return false;
+        }
+        else {
+            return true;
+        }
+
+    }
+</script>
+<div class="container">
+    <div class="row">
+        <a class="col-lg-9 col-sm-9" href="/">
+            <img src="/content/site/default/images/logo-site.png">
+        </a>
+        <div class="topbar-right col-lg-3 col-sm-3 visible-md visible-lg" style="color: #fff;">
+                        <a href="http://www.tbea.com.cn" target="_blank">访问集团网站</a> | 
+			<a onclick="javascript:window.external.AddFavorite('#','特变电工电子采购平台')">
+
+                收藏本站 </a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <header class="navbar navbar-green">
+			<nav class="navbar-collapse">
+				<ul class="nav navbar-nav">				
+					 <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/Index',406)">首页</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/Profile?newsGroupId=401',401)">公司简介</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=601',601)">招标公告</a> </li> <li class="active"><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=1',1)">项目公告</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=701',701)">变更公告</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=2',2)">中标公告</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=4',4)">使用帮助</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/GuestBook?newsGroupId=301',301)">投诉与建议</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsContentView?newsId=1602','')"> 联系我们 </a> </li>
+				</ul>           
+			</nav>
+		</header>
+    </div>
+</div>
+<div class="container" style="padding-top: 10px; background-color: #fff;">
+    <div class="row">
+        <div class="col-lg-3 col-sm-3 category  visible-md visible-lg">
+            <dl class="menu-box row">
+                <dt>栏目菜单</dt>
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href='NewsList?newsGroupId=202'><i class='icon-chevron-right'></i>&nbsp;竞价项目公告</a></li><li><a href='NewsList?newsGroupId=201'><i class='icon-chevron-right'></i>&nbsp;询价项目公告</a></li><li><a href='NewsList?newsGroupId=101'><i class='icon-chevron-right'></i>&nbsp;物资、工程项目公告</a></li>
+                </ul>
+            </dl>
+            <dl class="category-box row box" id="accordion_Cate">
+                <dt>按类别查看项目 </dt>
+                <dd class="mCustomScrollbar" id="content-1">
+                    <div class='clearfix'>
+						<a href='javascript:' class='col-lg-10 col-md-10 col-sm-9'>物资</a>
+						<a data-toggle='collapse' data-parent='#accordion_Cate' href='#collapse_category1' onclick='ChangeMaterial(this)' class='col-lg-2 col-md-2 col-sm-3'></a>
+					</div><p id='collapse_category1' class='panel-collapse collapse'><a href='javascript:SearchNewsByMcId(12755)'>土地</a><a href='javascript:SearchNewsByMcId(12756)'>铝加工炉子</a><a href='javascript:SearchNewsByMcId(12757)'>金属加工设备</a><a href='javascript:SearchNewsByMcId(12758)'>起重设备</a><a href='javascript:SearchNewsByMcId(12759)'>输送设备</a><a href='javascript:SearchNewsByMcId(12760)'>给料设备</a><a href='javascript:SearchNewsByMcId(12761)'>固体装卸设备</a><a href='javascript:SearchNewsByMcId(12762)'>铝加工设备</a><a href='javascript:SearchNewsByMcId(12763)'>泵类</a><a href='javascript:SearchNewsByMcId(12764)'>风机</a><a href='javascript:SearchNewsByMcId(12765)'>压缩机</a><a href='javascript:SearchNewsByMcId(12766)'>建筑物</a><a href='javascript:SearchNewsByMcId(12767)'>气体分离及液化设备</a><a href='javascript:SearchNewsByMcId(12768)'>制冷空调设备</a><a href='javascript:SearchNewsByMcId(12769)'>真空获得设备</a><a href='javascript:SearchNewsByMcId(12770)'>水处理及换热设备</a><a href='javascript:SearchNewsByMcId(12771)'>减速、增速机及传动装置</a><a href='javascript:SearchNewsByMcId(12772)'>交通运输及相关设备</a><a href='javascript:SearchNewsByMcId(12773)'>工程机械</a><a href='javascript:SearchNewsByMcId(12774)'>电气机械及器材</a><a href='javascript:SearchNewsByMcId(12782)'>仪器仪表、计量标准器具及量具、衡器</a><a href='javascript:SearchNewsByMcId(12783)'>采油、探矿、采矿、选矿和造块设备</a><a href='javascript:SearchNewsByMcId(12775)'>构筑物</a><a href='javascript:SearchNewsByMcId(12784)'>煤化工设备及材料</a><a href='javascript:SearchNewsByMcId(12785)'>天然气设备及材料</a><a href='javascript:SearchNewsByMcId(12786)'>炼焦设备</a><a href='javascript:SearchNewsByMcId(12787)'>植物管理机械</a><a href='javascript:SearchNewsByMcId(12788)'>环境污染防治设备</a><a href='javascript:SearchNewsByMcId(12789)'>建筑、装饰材料</a><a href='javascript:SearchNewsByMcId(12790)'>配件及附件</a><a href='javascript:SearchNewsByMcId(12791)'>燃料</a><a href='javascript:SearchNewsByMcId(12792)'>金属型材</a><a href='javascript:SearchNewsByMcId(12793)'>包装材料</a><a href='javascript:SearchNewsByMcId(12776)'>锅炉</a><a href='javascript:SearchNewsByMcId(12794)'>标准件</a><a href='javascript:SearchNewsByMcId(12795)'>工具、五金</a><a href='javascript:SearchNewsByMcId(12796)'>阀门</a><a href='javascript:SearchNewsByMcId(12797)'>管件、接头</a><a href='javascript:SearchNewsByMcId(12798)'>补偿器</a><a href='javascript:SearchNewsByMcId(12799)'>密封产品</a><a href='javascript:SearchNewsByMcId(12800)'>润滑油、润滑脂、其他润滑油和脂</a><a href='javascript:SearchNewsByMcId(12801)'>化工类产品</a><a href='javascript:SearchNewsByMcId(12802)'>电子产品及通信设备</a><a href='javascript:SearchNewsByMcId(12803)'>电子计算机、自动化控制及其外围设备</a><a href='javascript:SearchNewsByMcId(12777)'>汽轮机</a><a href='javascript:SearchNewsByMcId(12804)'>劳保用品</a><a href='javascript:SearchNewsByMcId(12805)'>消防及防爆恐安全器材</a><a href='javascript:SearchNewsByMcId(12806)'>文化办公及档案用品</a><a href='javascript:SearchNewsByMcId(12807)'>文艺体育用品</a><a href='javascript:SearchNewsByMcId(12808)'>家具用具</a><a href='javascript:SearchNewsByMcId(12809)'>食品、饮料及烟</a><a href='javascript:SearchNewsByMcId(12810)'>易耗品</a><a href='javascript:SearchNewsByMcId(12811)'>植物</a><a href='javascript:SearchNewsByMcId(12812)'>电线电缆生产设备</a><a href='javascript:SearchNewsByMcId(12813)'>其他未列明的货物</a><a href='javascript:SearchNewsByMcId(12778)'>发电机</a><a href='javascript:SearchNewsByMcId(12814)'>电厂设备</a><a href='javascript:SearchNewsByMcId(8474)'>安全保卫</a><a href='javascript:SearchNewsByMcId(15303)'>其他类别</a><a href='javascript:SearchNewsByMcId(12779)'>捞渣机</a><a href='javascript:SearchNewsByMcId(12780)'>给煤机</a><a href='javascript:SearchNewsByMcId(12781)'>磨煤机</a></p><div class='clearfix'>
+						<a href='javascript:' class='col-lg-10 col-md-10 col-sm-9'>工程</a>
+						<a data-toggle='collapse' data-parent='#accordion_Cate' href='#collapse_category2' onclick='ChangeMaterial(this)' class='col-lg-2 col-md-2 col-sm-3'></a>
+					</div><p id='collapse_category2' class='panel-collapse collapse'><a href='javascript:SearchNewsByMcId(10063)'>建筑物施工</a><a href='javascript:SearchNewsByMcId(10064)'>工程设备租赁（带操作员）</a><a href='javascript:SearchNewsByMcId(10074)'>剥离工程</a><a href='javascript:SearchNewsByMcId(10075)'>钻爆工程</a><a href='javascript:SearchNewsByMcId(10076)'>绿化工程</a><a href='javascript:SearchNewsByMcId(10077)'>土方工程</a><a href='javascript:SearchNewsByMcId(10078)'>信息工程</a><a href='javascript:SearchNewsByMcId(10065)'>其他建筑工程</a><a href='javascript:SearchNewsByMcId(10066)'>构筑物施工</a><a href='javascript:SearchNewsByMcId(10067)'>工程准备</a><a href='javascript:SearchNewsByMcId(10068)'>预制构件组装和装配</a><a href='javascript:SearchNewsByMcId(10069)'>专业施工</a><a href='javascript:SearchNewsByMcId(10070)'>建筑安装工程</a><a href='javascript:SearchNewsByMcId(10071)'>装修工程</a><a href='javascript:SearchNewsByMcId(10072)'>消防工程</a><a href='javascript:SearchNewsByMcId(10073)'>修缮工程</a></p><div class='clearfix'>
+						<a href='javascript:' class='col-lg-10 col-md-10 col-sm-9'>服务</a>
+						<a data-toggle='collapse' data-parent='#accordion_Cate' href='#collapse_category3' onclick='ChangeMaterial(this)' class='col-lg-2 col-md-2 col-sm-3'></a>
+					</div><p id='collapse_category3' class='panel-collapse collapse'><a href='javascript:SearchNewsByMcId(10079)'>办公综合服务</a><a href='javascript:SearchNewsByMcId(10080)'>金融服务</a><a href='javascript:SearchNewsByMcId(10089)'>经济服务</a><a href='javascript:SearchNewsByMcId(10090)'>法律服务</a><a href='javascript:SearchNewsByMcId(10091)'>地震勘测及相关服务</a><a href='javascript:SearchNewsByMcId(10092)'>测绘与测量</a><a href='javascript:SearchNewsByMcId(10093)'>地质勘查</a><a href='javascript:SearchNewsByMcId(10094)'>科研课题</a><a href='javascript:SearchNewsByMcId(10095)'>铁路运输服务</a><a href='javascript:SearchNewsByMcId(10096)'>道路运输服务</a><a href='javascript:SearchNewsByMcId(10097)'>水上运输服务</a><a href='javascript:SearchNewsByMcId(10081)'>软件的开发与服务</a><a href='javascript:SearchNewsByMcId(10098)'>消防安全</a><a href='javascript:SearchNewsByMcId(10082)'>系统集成、网络工程服务</a><a href='javascript:SearchNewsByMcId(10083)'>工程管理服务</a><a href='javascript:SearchNewsByMcId(10084)'>咨询服务</a><a href='javascript:SearchNewsByMcId(10085)'>评估服务</a><a href='javascript:SearchNewsByMcId(10086)'>策划服务</a><a href='javascript:SearchNewsByMcId(10087)'>设计服务</a><a href='javascript:SearchNewsByMcId(10088)'>监理服务</a></p>
+                </dd>
+            </dl>
+            <dl class="orgnization-box row box">
+                <dt>按组织机构查看项目 </dt>
+                <dd>
+                    <a href='javascript:SearchNewsByOrgId(5501)'>特变电工股份有限公司</a><a href='javascript:SearchNewsByOrgId(5718)'>后勤管理公司</a><a href='javascript:SearchNewsByOrgId(5726)'>工业文化旅游公司</a><a href='javascript:SearchNewsByOrgId(5502)'>特变电工股份有限公司新疆变压器厂</a><a href='javascript:SearchNewsByOrgId(5503)'>天津市特变电工变压器有限公司</a><a href='javascript:SearchNewsByOrgId(5504)'>特变电工新疆线缆厂</a><a href='javascript:SearchNewsByOrgId(5505)'>特变电工股份有限公司进出口公司</a><a href='javascript:SearchNewsByOrgId(5506)'>特变电工衡阳变压器有限公司</a><a href='javascript:SearchNewsByOrgId(5509)'>特变电工山东鲁能泰山电缆有限公司</a><a href='javascript:SearchNewsByOrgId(5510)'>特变电工（德阳）电缆股份有限公司</a><a href='javascript:SearchNewsByOrgId(5511)'>特变电工新疆新能源股份有限公司</a><a href='javascript:SearchNewsByOrgId(8201)'>系统集成事业部</a><a href='javascript:SearchNewsByOrgId(5512)'>特变电工沈阳变压器集团有限公司</a><a href='javascript:SearchNewsByOrgId(8206)'>风电工程事业部</a><a href='javascript:SearchNewsByOrgId(5513)'>新疆天池能源有限责任公司</a><a href='javascript:SearchNewsByOrgId(8209)'>风能事业部</a><a href='javascript:SearchNewsByOrgId(5507)'>新特能源股份有限公司</a><a href='javascript:SearchNewsByOrgId(5508)'>新疆众和股份有限公司</a><a href='javascript:SearchNewsByOrgId(5514)'>新疆特变电工集团有限公司</a><a href='javascript:SearchNewsByOrgId(5515)'>特变电工国际工程有限公司</a><a href='javascript:SearchNewsByOrgId(5517)'>特变电工股份有限公司能源动力分公司</a><a href='javascript:SearchNewsByOrgId(5516)'>中疆物流有限责任公司</a><a href='javascript:SearchNewsByOrgId(8215)'>西科公司</a><a href='javascript:SearchNewsByOrgId(8211)'>国际业务部</a><a href='javascript:SearchNewsByOrgId(8216)'>电力工程事业部</a><a href='javascript:SearchNewsByOrgId(8213)'>硅片事业部</a><a href='javascript:SearchNewsByOrgId(8219)'>电力设计院</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="col-lg-9 col-sm-9">
+            <ul class="breadcrumb">
+                <li><a href="/HomeSite/Site/Index">首页</a> <span class="divider">/</span> </li>
+                
+                <li class="active">
+                    竞价项目公告
+                </li>
+            </ul>
+            <ul class="news-list unlist">
+                    <li><span class="date">2018-01-02</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83615" title="新特能源股份有限公司防爆双梁式起重机招标项目招标公告">新特能源股份有限公司防爆双梁式起重机招标项目招标公告</a></li>
+                    <li><span class="date">2017-12-25</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83603" title="新特能源股份有限公司四氟套竞价项目招标公告">新特能源股份有限公司四氟套竞价项目招标公告</a></li>
+                    <li><span class="date">2017-12-25</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83601" title="新特能源股份有限公司四氟套竞价项目招标公告">新特能源股份有限公司四氟套竞价项目招标公告</a></li>
+                    <li><span class="date">2017-12-23</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83515" title="新特能源股份有限公司电解制氢设备招标项目招标公告">新特能源股份有限公司电解制氢设备招标项目招标公告</a></li>
+                    <li><span class="date">2017-12-22</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83513" title="新特能源股份有限公司塔器设备招标项目招标公告">新特能源股份有限公司塔器设备招标项目招标公告</a></li>
+                    <li><span class="date">2017-12-20</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83503" title="2018年厂内车辆维修（特变电工沈阳变压器集团有限公司）招标公告">2018年厂内车辆维修（特变电工沈阳变压器集团有限公司）招标公告</a></li>
+                    <li><span class="date">2017-12-18</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83442" title="艾尼鲁达基lot1项目电能计量表及附属设备招标公告">艾尼鲁达基lot1项目电能计量表及附属设备招标公告</a></li>
+                    <li><span class="date">2017-12-18</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83439" title="特变电工新能源公司-TBEA Egypt 60MWp development project-14汇1直流汇流箱招标公告">特变电工新能源公司-TBEA Egypt 60MWp development project-14汇1直流汇流箱招标公告</a></li>
+                    <li><span class="date">2017-12-18</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83436" title="特变电工智能电气有限责任公司监控室改造项目设备采购招标公告">特变电工智能电气有限责任公司监控室改造项目设备采购招标公告</a></li>
+                    <li><span class="date">2017-12-14</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83432" title="特变电工新疆能源有限公司将军戈壁二号露天煤矿2018年各品种煤装车、回筛倒运及设备租赁项目招标公告">特变电工新疆能源有限公司将军戈壁二号露天煤矿2018年各品种煤装车、回筛倒运及设备租赁项目招标公告</a></li>
+                    <li><span class="date">2017-12-14</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83430" title="新疆众和电极箔公司腐蚀容量提升项目高压开关柜、箱式变压器设备购置项目招标公告">新疆众和电极箔公司腐蚀容量提升项目高压开关柜、箱式变压器设备购置项目招标公告</a></li>
+                    <li><span class="date">2017-12-13</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83423" title="特变电工新疆能源有限公司将军戈壁二号露天煤矿2018年原煤破碎工程招标公告">特变电工新疆能源有限公司将军戈壁二号露天煤矿2018年原煤破碎工程招标公告</a></li>
+                    <li><span class="date">2017-12-13</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83419" title="蒙古国乌兰巴托-曼德勒戈壁330kV输变电工程站内照明招标公告">蒙古国乌兰巴托-曼德勒戈壁330kV输变电工程站内照明招标公告</a></li>
+                    <li><span class="date">2017-12-04</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=83206" title="新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程保温材料招标公告">新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程保温材料招标公告</a></li>
+                    <li><span class="date">2017-11-14</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=82849" title="新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程超超临界间冷燃煤机组保运项目招标公告">新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程超超临界间冷燃煤机组保运项目招标公告</a></li>
+                    <li><span class="date">2017-11-14</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=82847" title="新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程超超临界间冷燃煤机组设备检修维护外委项目招标公告">新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程超超临界间冷燃煤机组设备检修维护外委项目招标公告</a></li>
+                    <li><span class="date">2017-11-06</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=82802" title="新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程抽汽管道支吊架招标公告">新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程抽汽管道支吊架招标公告</a></li>
+                    <li><span class="date">2017-10-16</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=81810" title="新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程公寓楼木制家具采购招标公告">新疆准东五彩湾北一电厂1号2号机组（2&#215;660MW）工程公寓楼木制家具采购招标公告</a></li>
+                    <li><span class="date">2016-01-19</span>
+                        <a href="/HomeSite/Site/NewsContentView?newsId=37316" title="特变电工2015年新增农村电网改造升级工程施工：二标段招标公告">特变电工2015年新增农村电网改造升级工程施工：二标段招标公告</a></li>
+            </ul>
+            <br />
+            <div class="page text-right">
+                
+                   
+<!--MvcPager 1.5 for ASP.NET MVC 3.0 © 2009-2011 Webdiyer (http://www.webdiyer.com)-->
+<script type="text/javascript">//<![CDATA[
+function _MvcPager_Keydown(e){var _kc,_pib;if(window.event){_kc=e.keyCode;_pib=e.srcElement;}else if(e.which){_kc=e.which;_pib=e.target;}var validKey=(_kc==8||_kc==46||_kc==37||_kc==39||(_kc>=48&&_kc<=57)||(_kc>=96&&_kc<=105));if(!validKey){if(_kc==13){ _MvcPager_GoToPage(_pib,2);}if(e.preventDefault){e.preventDefault();}else{event.returnValue=false;}}}function _MvcPager_GoToPage(_pib,_mp){var pageIndex;if(_pib.tagName=="SELECT"){pageIndex=_pib.options[_pib.selectedIndex].value;}else{pageIndex=_pib.value;var r=new RegExp("^\\s*(\\d+)\\s*$");if(!r.test(pageIndex)){alert("页索引无效");return;}else if(RegExp.$1<1||RegExp.$1>_mp){alert("页索引超出范围");return;}}var _hl=document.getElementById(_pib.id+'link').childNodes[0];var _lh=_hl.href;_hl.href=_lh.replace('*_MvcPager_PageIndex_*',pageIndex);if(_hl.click){_hl.click();}else{var evt=document.createEvent('MouseEvents');evt.initEvent('click',true,true);_hl.dispatchEvent(evt);}_hl.href=_lh;}
+//]]>
+</script><div class="pages"><a href='/BasicData/Site/NewsList/1?newsGroupId=202'>首页</a>&nbsp;&nbsp;<a href='/BasicData/Site/NewsList/1?newsGroupId=202'>上一页</a>&nbsp;&nbsp;<a href='/BasicData/Site/NewsList/1?newsGroupId=202'>1</a>&nbsp;&nbsp;2&nbsp;&nbsp;<a disabled="disabled">下一页</a>&nbsp;&nbsp;<a disabled="disabled">末页</a>&nbsp;&nbsp;请输入页数&nbsp;&nbsp;<input type="text" id="_MvcPager_Ctrl0_pib" value="2" onkeydown="_MvcPager_Keydown(event)"/><input type="button" value="转到" onclick="_MvcPager_GoToPage(document.getElementById('_MvcPager_Ctrl0_pib'),2)"/><span id="_MvcPager_Ctrl0_piblink" style="display:none;width:0px;height:0px"><a href="/BasicData/Site/NewsList/*_MvcPager_PageIndex_*?newsGroupId=202" onclick="window.open(this.attributes.getNamedItem('href').value,'_self')"></a></span></div>
+<!--MvcPager 1.5 for ASP.NET MVC 3.0 © 2009-2011 Webdiyer (http://www.webdiyer.com)-->
+
+                  <span id="span1">共有 39 篇新闻 2/2</span>  
+                
+            </div>
+            <script language="javascript">
+                if ("竞价项目公告" == "采购类别查询") {
+                    span1.style.display = "none";    
+            }
+            </script>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="row">
+                <footer class="bs-footer" style="text-align: center; font-size: 12px;">
+                    <div class="col-lg-12 col-sm-12">
+                    <span style="font-family: arial;">© 2015</span> 特变电工  版权所有&nbsp;   |   
+					<a href="#">法律声明</a>   |   
+					<a href="#">隐私保护</a>   |   
+					<a href="javascript:ConnectUs();">联系我们</a>
+                    </div>
+                    <a href="http://www.1caitong.com" target="_blank" style="display: block; height: 30px; line-height: 30px;">技术支持 一采通科技</a>
+                </footer>
+            </div>
+        </div>
+        <div class="float_layer" id="miaov_float_layer" style="display:none">
+           
+	    <h2><b>供方入围审核咨询</b></h2>  
+            <div class="content2">
+                <div class="wrap2">
+                    <ul>
+                        <li><a class="nl" id="kf_jg0017803" >客服1</a></li>
+                        <li><a class="nl" id="kf_jg0002056" >客服2</a></li>
+                        <li><a class="nl" id="kf_jg0002288" >客服3</a></li>
+
+                    </ul>
+                </div>
+            </div>
+    
+            <h2><b>标书费保证金咨询</b></h2>
+	    
+            <div class="content2">
+                <div class="wrap2">
+                    <ul>
+                        <li><a class="nl" id="kf_jg0006267">客服4</a></li>
+                    </ul>
+                </div>
+            </div>
+
+	  
+
+            <h2><b>系统维护咨询</b></h2> 
+	    
+            <div class="content2">
+                <div class="wrap2">
+                    <ul>
+                        <li><a class="nl" id="kf_jg0002596">客服5</a></li>
+                        <li><a class="nl" id="kf_jg0014842">客服6</a></li>
+                        <li><a class="nl" id="kf_jg0010063">客服7</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="/scripts/bootstrap/assets/js/vendor/bootstrap.js" type="text/javascript"></script>
+        <script src="/scripts/TextScroll.js" type="text/javascript"></script>
+        <script src="/scripts/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script src="/scripts/bootstrap/assets/js/vendor/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/vendor/holder.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/vendor/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/docs.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/demo.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/move.js" type="text/javascript"></script>
+
+    </form>
+</body>
+</html>

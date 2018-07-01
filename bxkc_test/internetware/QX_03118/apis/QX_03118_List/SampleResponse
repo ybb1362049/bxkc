@@ -1,0 +1,264 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+        <title>历史文化 - 宁强县人民政府门户网站</title>
+    <link rel="stylesheet" href="/styles/group.css"/>
+    <link rel="stylesheet" href="/styles/theme.css"/>
+    <link rel="stylesheet" href="/styles/common-list.css"/>
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/jquery.page.js"></script>
+    <script src="/js/listJs.js"></script>
+  </head>
+  <body>
+    <!-- ---- 网站开发人员标签>>全站通用标签>>--【通用-top】 -- 标签开始 ---- -->
+    <div class="top">
+  <div class="forCenter">
+    <div class="top-left">
+      <ul>
+        <li><a href="http://www.gov.cn/" target="_blank">中央人民政府</a></li>
+        <li><a href="http://www.shaanxi.gov.cn/" target="_blank">陕西省人民政府</a></li>
+        <li><a href="http://www.hanzhong.gov.cn/" target="_blank">汉中市人民政府</a></li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="/js/tw_cn.js"></script>
+    <div class="top-right">
+      <ul>
+        <li><a href="/info/rss.jsp?cat_id=10014&tm_id=59" target="_blank">RSS订阅</a></li>
+        <li><a id="translateLink" style="cursor: pointer;">繁体</a></li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      var defaultEncoding = 0; //默认是否繁体，0-简体，1-繁体
+      var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+      var cookieDomain = "http://www.nq.gov.cn";//Cookie地址, 一定要设定, 通常为你的网址
+      var msgToTraditionalChinese = "繁 體"; //默认切换为繁体时显示的中文字符
+      var msgToSimplifiedChinese = "简 体"; //默认切换为简体时显示的中文字符
+      var translateButtonId = "translateLink"; //默认互换id
+      translateInitilization();
+    </script>
+    <div class="top-center">
+    今天是：<span id="nyear"></span>年<span id="nmonth"></span>月<span id="nday"></span>日&nbsp;&nbsp;星期<span id="nwday"></span>&nbsp;&nbsp;农历<span id="nl"></span>
+    <script>writeday();Draw()</script>
+    </div>
+  </div>
+</div>
+
+    <!-- ---- 网站开发人员标签>>全站通用标签>>--【通用-top】 -- 标签结束 ---- -->
+    <!-- ---- 网站开发人员标签>>全站通用标签>>--【通用-banner】 -- 标签开始 ---- -->
+    <script type="text/javascript">
+  function SearchForm()
+  {
+    if(document.searchform.q.value=="" || document.searchform.q.value=="请输入关键字")
+    {
+      alert("请输入搜索关键词！");
+      document.searchform.q.focus();
+      return false;
+    }
+  }
+</script>
+<div class="banner">
+  <div class="forCenter">
+    <div class="banner-logo"></div>
+    <div class="banner-time" id="date"></div>
+    <script src="/js/Date.js"></script>
+    <script>showDate("date")</script>
+    <div class="banner-search">
+      <form id="searchform" name="searchform" action="/search/searchResult.jsp" target="_blank" method="get" onsubmit="return SearchForm();">
+        <input type="hidden" value="CMSnq" name="site_id" />
+        <input type="hidden" value="9" name="t_id" >
+        <input type="text"  id="q" name="q" onfocus="if(this.value=='请输入搜索关键字') this.value='';" onblur="if(this.value=='') this.value='请输入搜索关键字'" value="请输入搜索关键字" />
+        <input type="submit" value=""/>
+       </form>
+    </div>
+  </div>
+</div>
+    <!-- ---- 网站开发人员标签>>全站通用标签>>--【通用-banner】 -- 标签结束 ---- -->
+    <!-- ---- 网站开发人员标签>>全站通用标签>>--【通用-nav】 -- 标签开始 ---- -->
+    <div class="nav">
+  <div class="forCenter">
+    <ul>
+      <li class="nav-name"><a href="/">首页</a></li>
+      <li class="nav-lines">|</li>
+      <li class="nav-name"><a href="/zjnq/">走进宁强</a></li>
+      <li class="nav-lines">|</li>
+      <li class="nav-name"><a href="/news/">新闻中心</a></li>
+      <li class="nav-lines">|</li>
+      <li class="nav-name"><a href="/gk/">信息公开</a></li>
+      <li class="nav-lines">|</li>
+      <li class="nav-name"><a href="/ggfw/">公共服务</a></li>
+      <li class="nav-lines">|</li>
+      <li class="nav-name"><a href="/hd/">互动交流</a></li>
+      <li class="nav-lines">|</li>
+      <li class="nav-name"><a href="/info/iIndex.jsp?cat_id=10958">专题专栏</a></li>
+    </ul>
+  </div>
+</div>
+    <!-- ---- 网站开发人员标签>>全站通用标签>>--【通用-nav】 -- 标签结束 ---- -->
+    
+    <div class="forCenter bg-white box-shadow">
+      <div class="common-list">        
+        <div class="common-list-menus">
+          <div class="menus">
+                        <div class="menus-tit">
+              走进宁强
+            </div>
+                                                <div class="menus-con">
+              <ul>
+                                                <li  ><a href=' /info/iList.jsp?cat_id=10003  '>行政规划</a></li>
+                                <li class="hover" ><a href=' /info/iList.jsp?cat_id=10005  '>历史文化</a></li>
+                                <li  ><a href=' /info/iList.jsp?cat_id=10006  '>风景名胜</a></li>
+                                <li  ><a href=' /info/iList.jsp?cat_id=10011  '>宁强年鉴</a></li>
+                                <li  ><a href=' /info/iList.jsp?cat_id=10012  '>宁强名人</a></li>
+                                <li  ><a href=' /info/iList.jsp?cat_id=10013  '>宁强大事记</a></li>
+                                              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="common-list-con">
+          <span class="blank10"></span>
+          <div class="news_list">
+            <ul>
+                            <li>
+                <div class="news_time goLeft">
+                  <span class="day">16</span>
+                  <span class="year">2013-04</span>
+                  <span class="type"><a href="" target="_blank">历史文化</a></span></div>
+                <div class="news_cont goRight">
+                  <h2><a href="/zjnj/lswh/1331.htm"  target="_blank" title="羌族民歌">羌族民歌</a></h2>
+                  <p class="demo">
+                    <span>发布时间：2013-04-16 16:09</span><span>来源： 宁强县政府 </span><span>热度：1478℃</span>
+                  </p>
+                  <p class="vis"><a href="/zjnj/lswh/1331.htm" target="_blank" class="more btn">查看详情 >></a></p>
+                </div>
+              </li>
+                            <li>
+                <div class="news_time goLeft">
+                  <span class="day">16</span>
+                  <span class="year">2013-04</span>
+                  <span class="type"><a href="" target="_blank">历史文化</a></span></div>
+                <div class="news_cont goRight">
+                  <h2><a href="/zjnj/lswh/1329.htm"  target="_blank" title="羌族音乐">羌族音乐</a></h2>
+                  <p class="demo">
+                    <span>发布时间：2013-04-16 16:07</span><span>来源： 宁强县政府 </span><span>热度：1082℃</span>
+                  </p>
+                  <p class="vis"><a href="/zjnj/lswh/1329.htm" target="_blank" class="more btn">查看详情 >></a></p>
+                </div>
+              </li>
+                            <li>
+                <div class="news_time goLeft">
+                  <span class="day">16</span>
+                  <span class="year">2013-04</span>
+                  <span class="type"><a href="" target="_blank">历史文化</a></span></div>
+                <div class="news_cont goRight">
+                  <h2><a href="/zjnj/lswh/1327.htm"  target="_blank" title="羌人婚嫁习俗•破阵子">羌人婚嫁习俗•破阵子</a></h2>
+                  <p class="demo">
+                    <span>发布时间：2013-04-16 16:05</span><span>来源： 宁强县政府 </span><span>热度：1438℃</span>
+                  </p>
+                  <p class="vis"><a href="/zjnj/lswh/1327.htm" target="_blank" class="more btn">查看详情 >></a></p>
+                </div>
+              </li>
+                            <li>
+                <div class="news_time goLeft">
+                  <span class="day">16</span>
+                  <span class="year">2013-04</span>
+                  <span class="type"><a href="" target="_blank">历史文化</a></span></div>
+                <div class="news_cont goRight">
+                  <h2><a href="/zjnj/lswh/1324.htm"  target="_blank" title="羌历年">羌历年</a></h2>
+                  <p class="demo">
+                    <span>发布时间：2013-04-16 16:00</span><span>来源： 宁强县政府 </span><span>热度：945℃</span>
+                  </p>
+                  <p class="vis"><a href="/zjnj/lswh/1324.htm" target="_blank" class="more btn">查看详情 >></a></p>
+                </div>
+              </li>
+                            <li>
+                <div class="news_time goLeft">
+                  <span class="day">16</span>
+                  <span class="year">2013-04</span>
+                  <span class="type"><a href="" target="_blank">历史文化</a></span></div>
+                <div class="news_cont goRight">
+                  <h2><a href="/zjnj/lswh/1323.htm"  target="_blank" title="解析羌族建筑的文化内涵">解析羌族建筑的文化内涵</a></h2>
+                  <p class="demo">
+                    <span>发布时间：2013-04-16 15:57</span><span>来源： 宁强县政府 </span><span>热度：971℃</span>
+                  </p>
+                  <p class="vis"><a href="/zjnj/lswh/1323.htm" target="_blank" class="more btn">查看详情 >></a></p>
+                </div>
+              </li>
+                            <li>
+                <div class="news_time goLeft">
+                  <span class="day">16</span>
+                  <span class="year">2013-04</span>
+                  <span class="type"><a href="" target="_blank">历史文化</a></span></div>
+                <div class="news_cont goRight">
+                  <h2><a href="/zjnj/lswh/1321.htm"  target="_blank" title="宁羌设治命名考（译白）">宁羌设治命名考（译白）</a></h2>
+                  <p class="demo">
+                    <span>发布时间：2013-04-16 15:54</span><span>来源： 宁强县政府 </span><span>热度：920℃</span>
+                  </p>
+                  <p class="vis"><a href="/zjnj/lswh/1321.htm" target="_blank" class="more btn">查看详情 >></a></p>
+                </div>
+              </li>
+                          </ul>
+          </div>
+          <span class="blank10"></span>
+          <div class="pages"></div>
+          <span class="blank10"></span>
+                    <script>
+            $(".pages").createPage({
+              infoSize:6,//信息总数
+              pageCount:1,
+              current:1,
+              url:'?cat_id=10005&cur_page=',
+              backFn:function(p){//console.log(p);
+            }
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+    <span class="blank20"></span>
+    <!-- ---- 网站开发人员标签>>全站通用标签>>--【通用-footer】 -- 标签开始 ---- -->
+    <div class="footer">
+ <!--文章点击数控制js-->
+<script type="text/javascript" src="/wcm.files/js/jsonrpc.js"></script>
+<script type="text/javascript" src="/wcm.files/js/clickSiteCount.js"></script>
+<script type="text/javascript">
+  jQuery(function(){
+  jQuery("#site_click_count_span").getSiteCount()
+   });
+jQuery.fn.getSiteCount = function(hit_type){
+  if(hit_type == null) hit_type = "";
+  jQuery(this).text(jsonrpc.SiteRPC.getSiteHits(hit_type));
+}
+</script>
+  <div class="forCenter relative">
+    <div class="gov-logo">
+      <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript   src='http://dcs.conac.cn/js/27/394/2522/60201268/CA273942522602012680001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+    <div class="gov-jc">
+      <ul>
+        <li><script id="_jiucuo_" sitecode='6107260003' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></li>
+        <li><a href="http://www.shaanxi.gov.cn:8090/" target="_blank"><img src="/images/site/jc-shx.png" alt=""/></a></li>
+      </ul>
+    </div>
+    <div class="gov-12377">
+      <a href="http://www.12377.cn/" target="_blank"><img src="/images/site/footer_logo.png" >中国互联网违法和不良信息举报中心</a>
+      </div>
+    <div class="ewm-box"></div>
+    <div class="footer-con">
+      <p><a href="/">返回首页</a>　 |　 <a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a>　 |　 <a href="javascript:void(0)" onclick="shoucang(document.title,window.location)">加入收藏</a>　 |　 <a href="http://www.nq.gov.cn/map/" target="_blank">网站地图</a></p>
+      <p>版权所有：宁强县人民政府　 管理维护：宁强县信息化工作办公室　 地址：宁强县汉源街道办民主街六号</p>
+      <p>陕ICP备12000930号　 <img src="/images/site/ga.png" /><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61072602000101" target="_blank">陕公网安备 61072602000101号</a>　网站标识：6107260003</p>
+      <p>电话：0916-4228129　 E_mail：nqxxb@nq.gov.cn　 总访问量：<span id="site_click_count_span"></span></p>
+      
+    </div>
+  </div>
+</div>
+    <!-- ---- 网站开发人员标签>>全站通用标签>>--【通用-footer】 -- 标签结束 ---- -->
+    
+  </body>
+</html>

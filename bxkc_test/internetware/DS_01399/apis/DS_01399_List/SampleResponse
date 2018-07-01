@@ -1,0 +1,325 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>信息检索-成都市公共企事业单位办事公开</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/aktuals.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="../js/stat.js"></script>
+</head>
+<body>
+
+
+<div id="top"><a href="http://www.chengdu.gov.cn" target="_blank">成都市人民政府门户网站</a></div>
+<div id="banner">
+	<div class="logo">
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="FlashID" width="182" height="70" id="FlashID">
+			<param name="movie" value="images2016/logo.swf" />
+			<param name="quality" value="high" />
+			<param name="wmode" value="transparent" />
+			<param name="swfversion" value="9.0.45.0" />
+			<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+			<!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+			<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash" data="images2016/logo.swf" width="182" height="70">
+				<!--<![endif]-->
+				<param name="quality" value="high" />
+				<param name="wmode" value="transparent" />
+				<param name="swfversion" value="9.0.45.0" />
+				<!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+				<h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+				<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="182" height="70" /></a></p>
+				<!--[if !IE]>-->
+			</object>
+			<!--<![endif]-->
+		</object>
+	</div>
+</div>
+
+	
+	
+
+
+<div id="hot">
+	<div class="box01">
+		<p>当前位置：<a href="./"><font color="#FFFFFF">首页</font></a> - 信息检索</p>
+	</div>
+	
+		
+	
+
+<div class="box02" id="male">
+	<form method="post" name="searchForm" action="" target="_search" style="margin:0;">
+	<input type="text" name="sw" value="招标" class="input01" onfocus="javascipt:doOnfocus(this);" onblur="javascript:doOnblur(this);"/>
+	<input type="radio" id="xx" checked="checked" name="st" value="info" />
+	<label name="xx" class="checked" for="xx">信息</label>
+	<input type="radio" id="jg" name="st" value="org" />
+	<label name="jg" for="jg">机构</label>
+	<input type="button" name="input" class="input03" value="查询" onclick="javascript:search();" />
+	</form>
+</div>
+<script type="text/javascript">
+	window.onload = function () {
+		labels = document.getElementById('male').getElementsByTagName('label');
+		radios = document.getElementById('male').getElementsByTagName('input');
+		for (i = 0, j = labels.length; i < j; i++) {
+			labels[i].onclick = function () {
+				if (this.className == '') {
+					for (k = 0, l = labels.length; k < l; k++) {
+						labels[k].className = '';
+						radios[k].checked = false;
+					}
+					this.className = 'checked';
+					try {
+						document.getElementById(this.name).checked = true;
+					} catch (e) {}
+				}
+			}
+		}
+	}
+	
+	function search() {
+		if (searchForm.sw.value == '' || searchForm.sw.value == '输入标题或名称') {
+			searchForm.sw.focus();
+			alert("输入标题或名称。");
+		}
+		else {
+			if (searchForm.st[0].checked == true) searchForm.action = 'searchInfo.action';
+			else searchForm.action = 'searchOrg.action';
+			searchForm.submit();
+		}
+	}
+	
+	function doOnfocus(e) {
+		if (e.value == '输入标题或名称') e.value = '';
+	}
+	
+	function doOnblur(e) {
+		if (e.value == '') e.value = '输入标题或名称';
+	}
+</script>
+</div>
+<div id="part_01">
+	<div class="blk01">
+		<div style="min-height:300px;">      
+			
+			
+			<ul>
+				
+				<li>
+					<a href="detail.action?id=22701&tn=8" target="_blank">
+						<span class="b1" style="width:893px;" title="大邑县建筑工程招标投标管理站">· 大邑县建筑工程招标投标管理站</span>
+						<span class="b2" style="width:120px;">2018-02-28</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=4292&tn=5" target="_blank">
+						<span class="b1" style="width:893px;" title="大邑县建筑工程招标投标管理站">· 大邑县建筑工程招标投标管理站</span>
+						<span class="b2" style="width:120px;">2018-02-28</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=207042&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="大邑县建筑工程招标投标管理规章制度">· 大邑县建筑工程招标投标管理规章制度</span>
+						<span class="b2" style="width:120px;">2018-02-28</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=207040&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="大邑县建筑工程招标投标管理岗位职责">· 大邑县建筑工程招标投标管理岗位职责</span>
+						<span class="b2" style="width:120px;">2018-02-28</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=206828&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="温江区中医医院招标公告">· 温江区中医医院招标公告</span>
+						<span class="b2" style="width:120px;">2018-02-26</span>
+					</a>
+				</li>
+				
+				<div class="clearit"></div>
+				
+				
+				</ul><ul>        
+				
+				
+				<li>
+					<a href="detail.action?id=206627&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）">· 成都市公共交通集团有限公司管理软件系统维护业务外包服务项目招标公告（第二次）</span>
+						<span class="b2" style="width:120px;">2018-02-23</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=206636&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="四川省成都市中草药研究所天然气卧式蒸汽锅炉采购项目公开招标中标公告">· 四川省成都市中草药研究所天然气卧式蒸汽锅炉采购项目公开招标中标公告</span>
+						<span class="b2" style="width:120px;">2018-02-23</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=206392&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="现金清点设备采购项目招标公告（第二次）">· 现金清点设备采购项目招标公告（第二次）</span>
+						<span class="b2" style="width:120px;">2018-02-13</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=206349&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="成都市公共交通集团有限公司2018-2021年度汽车配件（物资）采购(第九批第二次)招标公告">· 成都市公共交通集团有限公司2018-2021年度汽车配件（物资）采购(第九批第二次)招标公告</span>
+						<span class="b2" style="width:120px;">2018-02-13</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=206205&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="采购代理机构招标公告">· 采购代理机构招标公告</span>
+						<span class="b2" style="width:120px;">2018-02-11</span>
+					</a>
+				</li>
+				
+				<div class="clearit"></div>
+				
+				
+				</ul><ul>        
+				
+				
+				<li>
+					<a href="detail.action?id=206228&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="成都市青白江区中医医院电力改造工程公开招标采购需求书">· 成都市青白江区中医医院电力改造工程公开招标采购需求书</span>
+						<span class="b2" style="width:120px;">2018-02-11</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=206078&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="成都市新都区中医医院网络维保招标结果公示">· 成都市新都区中医医院网络维保招标结果公示</span>
+						<span class="b2" style="width:120px;">2018-02-09</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=205967&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="成都市蓉城出租汽车有限公司下线出租车资产转让评估招标公告">· 成都市蓉城出租汽车有限公司下线出租车资产转让评估招标公告</span>
+						<span class="b2" style="width:120px;">2018-02-08</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=205883&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="成都市锦江区成龙街道华新村2、7组新建商业用房、公交场站、绿化工程及配套设施项目送变电施工招标公告">· 成都市锦江区成龙街道华新村2、7组新建商业用房、公交场站、绿化工程及配套设施项目送变电施工招标公告</span>
+						<span class="b2" style="width:120px;">2018-02-07</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=205469&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="现金清点设备采购项目招标公告">· 现金清点设备采购项目招标公告</span>
+						<span class="b2" style="width:120px;">2018-02-02</span>
+					</a>
+				</li>
+				
+				<div class="clearit"></div>
+				
+				
+				</ul><ul>        
+				
+				
+				<li>
+					<a href="detail.action?id=208145&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="雪亮工程安装招标公告（三次）">· 雪亮工程安装招标公告（三次）</span>
+						<span class="b2" style="width:120px;">2018-02-01</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=205339&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="《四川省住房和城乡建设厅关于建设工程招标控制价、合同和竣工结算文件实行网上备案的通知》（川建造价发〔2017〕873号)">· 《四川省住房和城乡建设厅关于建设工程招标控制价、合同和竣工结算文件实行网上备案的通知》（川建造价发〔2017〕873…</span>
+						<span class="b2" style="width:120px;">2018-02-01</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=205053&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="成都市新都区中医医院网络系统维保招标公告">· 成都市新都区中医医院网络系统维保招标公告</span>
+						<span class="b2" style="width:120px;">2018-01-31</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=205090&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="招标">· 招标</span>
+						<span class="b2" style="width:120px;">2018-01-31</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="detail.action?id=208141&tn=0" target="_blank">
+						<span class="b1" style="width:893px;" title="雪亮工程安装招标公告（二次）">· 雪亮工程安装招标公告（二次）</span>
+						<span class="b2" style="width:120px;">2018-01-30</span>
+					</a>
+				</li>
+				
+				<div class="clearit"></div>
+				
+				
+				
+			</ul>
+			
+		</div>
+		<div class="clearit"></div>
+		<!-- 分页 begin -->
+		<div class="pagenum"><span class="normal">每页 20 条  &nbsp; 共 1099 条/55 页 &nbsp; 第 <font color="#FF0000">3</font> 页 </span><a href="searchInfo.action?sw=招标&p=1">首 页</a> &nbsp; <a href="searchInfo.action?sw=招标&p=2">上一页</a> &nbsp;<a href="searchInfo.action?sw=招标&p=4">下一页</a> &nbsp; <a href="searchInfo.action?sw=招标&p=55">末 页</a>　跳转到：<select name="sepage" onChange="javascript:location.href=this.options[this.selectedIndex].value;"><option value='searchInfo.action?sw=招标&p=1'>1</option><option value='searchInfo.action?sw=招标&p=2'>2</option><option value='searchInfo.action?sw=招标&p=3' selected>3</option><option value='searchInfo.action?sw=招标&p=4'>4</option><option value='searchInfo.action?sw=招标&p=5'>5</option><option value='searchInfo.action?sw=招标&p=6'>6</option><option value='searchInfo.action?sw=招标&p=7'>7</option><option value='searchInfo.action?sw=招标&p=8'>8</option><option value='searchInfo.action?sw=招标&p=9'>9</option><option value='searchInfo.action?sw=招标&p=10'>10</option><option value='searchInfo.action?sw=招标&p=11'>11</option><option value='searchInfo.action?sw=招标&p=12'>12</option><option value='searchInfo.action?sw=招标&p=13'>13</option><option value='searchInfo.action?sw=招标&p=14'>14</option><option value='searchInfo.action?sw=招标&p=15'>15</option><option value='searchInfo.action?sw=招标&p=16'>16</option><option value='searchInfo.action?sw=招标&p=17'>17</option><option value='searchInfo.action?sw=招标&p=18'>18</option><option value='searchInfo.action?sw=招标&p=19'>19</option><option value='searchInfo.action?sw=招标&p=20'>20</option><option value='searchInfo.action?sw=招标&p=21'>21</option><option value='searchInfo.action?sw=招标&p=22'>22</option><option value='searchInfo.action?sw=招标&p=23'>23</option><option value='searchInfo.action?sw=招标&p=24'>24</option><option value='searchInfo.action?sw=招标&p=25'>25</option><option value='searchInfo.action?sw=招标&p=26'>26</option><option value='searchInfo.action?sw=招标&p=27'>27</option><option value='searchInfo.action?sw=招标&p=28'>28</option><option value='searchInfo.action?sw=招标&p=29'>29</option><option value='searchInfo.action?sw=招标&p=30'>30</option><option value='searchInfo.action?sw=招标&p=31'>31</option><option value='searchInfo.action?sw=招标&p=32'>32</option><option value='searchInfo.action?sw=招标&p=33'>33</option><option value='searchInfo.action?sw=招标&p=34'>34</option><option value='searchInfo.action?sw=招标&p=35'>35</option><option value='searchInfo.action?sw=招标&p=36'>36</option><option value='searchInfo.action?sw=招标&p=37'>37</option><option value='searchInfo.action?sw=招标&p=38'>38</option><option value='searchInfo.action?sw=招标&p=39'>39</option><option value='searchInfo.action?sw=招标&p=40'>40</option><option value='searchInfo.action?sw=招标&p=41'>41</option><option value='searchInfo.action?sw=招标&p=42'>42</option><option value='searchInfo.action?sw=招标&p=43'>43</option><option value='searchInfo.action?sw=招标&p=44'>44</option><option value='searchInfo.action?sw=招标&p=45'>45</option><option value='searchInfo.action?sw=招标&p=46'>46</option><option value='searchInfo.action?sw=招标&p=47'>47</option><option value='searchInfo.action?sw=招标&p=48'>48</option><option value='searchInfo.action?sw=招标&p=49'>49</option><option value='searchInfo.action?sw=招标&p=50'>50</option><option value='searchInfo.action?sw=招标&p=51'>51</option><option value='searchInfo.action?sw=招标&p=52'>52</option><option value='searchInfo.action?sw=招标&p=53'>53</option><option value='searchInfo.action?sw=招标&p=54'>54</option><option value='searchInfo.action?sw=招标&p=55'>55</option></select></div>
+		<!-- 分页 end -->
+	</div>
+</div>
+
+
+<div id="foot">
+	<p>主办：成都市人民政府  承办：成都市大数据和电子政务管理办公室  管理与维护：成都市经济信息中心</p>
+	<p>主编信箱：editor@chengdu.gov.cn  &copy;2001-2012  蜀ICP备05003365号</p>
+</div>
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-820059-67981F/gs.js'></script>
+<!--script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-000410-75ABE6/gs.js'></script-->
+</body>
+</html>

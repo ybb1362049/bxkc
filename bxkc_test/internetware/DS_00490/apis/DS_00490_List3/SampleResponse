@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/Front/Template/Default/css/two.css">
+    <link rel="stylesheet" href="/Front/Template/Default/css/pager.css">
+    <link rel="stylesheet" href="/Front/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/Front/Template/Default/css/index.css">
+    <script src="/Front/Template/Default/js/jquery-1.11.0.min.js"></script>
+      <script src="/Front/Template/Default/js/settitle.js"></script>
+    <title></title>
+         <script type="text/javascript">
+function $(id){ 
+	return document.getElementById(id) 
+} 
+function getHeight() { 
+	if (document.getElementById("left").offsetHeight>=document.getElementById("right").offsetHeight){
+		document.getElementById("right").style.height=(document.getElementById("left").offsetHeight-20) + "px";
+	}
+	else{
+		document.getElementById("left").style.height=(document.getElementById("right").offsetHeight-10) + "px";
+	}	
+}
+window.onload = function() {
+	getHeight();
+}
+</script>
+</head>
+
+<body class="bg">
+  <div style="margin:0px auto; width:1024px;height:368px;">
+   <iframe src="/Front/Template/Default/pagehead.htm" width="100%" height="368" frameborder="0" scrolling="no"  ></iframe>
+   </div>
+    <!-- main -->
+    <div class="main">
+        <div class="container clearfix">
+            <div class="span6">
+                <h4 class="title">
+                 交易公告
+                </h4>
+                <div class="main-left" id="left">
+                          <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td align="center" style="padding-top:10px;">
+           <TABLE   cellSpacing="0" cellPadding="0" width="221" border="0">
+<tr><td  class="leftclassno" valign="middle" height=58 background="/Front/Template/Default/images/left2.jpg" ><a href="/Front/jyzx/002006/002006001" target="_self"><font color='#ffffff' style="font-weight:bold;">交易公告</font></a></td></tr>
+<tr><td height=2px></td></tr>
+<tr><td  class="leftclassno2" valign="middle" height=58  background="/Front/Template/Default/images/left1.jpg" onmouseover="this.className='leftclassno2_over'"  onmouseout="this.className='leftclassno2'"><a href="/Front/jyzx/002006/002006002" target="_self"><font color='#ffffff' style="font-weight:bold;">成交公告</font></a></td></tr>
+<tr><td height=2px></td></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script>
+            </td>
+            </tr>
+            
+            </table>
+                </div>
+            </div>
+            <div class="span18 ml10">
+                <div class="position">
+                        您现在的位置：<A href='/Front/'  class="position-link">首页</A> > <a href='/Front/jyzx' class="position-link">公告公示</a> > <a href='/Front/jyzx/002006' class="position-link">产权交易</a> > <span class="orange">交易公告</span>
+                </div>
+                <div>
+                    <div class="mr-content" style="padding:15px;"    id="right" >
+                                   <div style="height:580px;"><TABLE  cellSpacing=3 cellPadding=0 width=100% align=center border=0 valign=top>
+<TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=b112bc93-77b9-41bd-b603-93161ad1c52c&categoryNum=002006001" target="_blank" title="位于苏州工业园区街星湖街218号生物医药产业园一期B12楼房屋公开转让公告[2017]033号">位于苏州工业园区街星湖街218号生物医药产业园一期B12楼房屋公开转让公告[2...</a></TD>
+<td  align=right>2017-08-10</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=4a0469df-daf5-4a81-aade-23a3a50e2770&categoryNum=002006001" target="_blank" title="苏州引力焊业科技有限公司51%股权公开转让公告[2017]032号">苏州引力焊业科技有限公司51%股权公开转让公告[2017]032号</a></TD>
+<td  align=right>2017-08-03</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=8e095a63-56ca-4ce0-90a7-b862b8d785c4&categoryNum=002006001" target="_blank" title="位于苏州工业园区月亮湾路8号喜月商务广场2幢101室、102室房地产、2幢地下室及涉及的相关设备及软件公开转让公告[2017]031号">位于苏州工业园区月亮湾路8号喜月商务广场2幢101室、102室房地产、2幢地下...</a></TD>
+<td  align=right>2017-07-28</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=f1a37f49-3cf7-42b3-85ef-1cb70e0b66fa&categoryNum=002006001" target="_blank" title="太仓市悦博电动科技有限公司50%股权公开转让（预）公告[2017]（预）007号">太仓市悦博电动科技有限公司50%股权公开转让（预）公告[2017]（预）007号</a></TD>
+<td  align=right>2017-07-27</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=d09b6a57-4be3-4dfa-9adb-806c48107601&categoryNum=002006001" target="_blank" title="位于江苏省南京市鼓楼区汉中路180号星汉大厦12层办公用房公开转让公告[2017]030号">位于江苏省南京市鼓楼区汉中路180号星汉大厦12层办公用房公开转让公告[2017...</a></TD>
+<td  align=right>2017-07-25</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=57b0483f-c983-4cca-9efc-ddc22bb76bc7&categoryNum=002006001" target="_blank" title="张家港金安危化押运有限公司100%股权公开转让（预）公告[2017]（预）006号">张家港金安危化押运有限公司100%股权公开转让（预）公告[2017]（预）006号</a></TD>
+<td  align=right>2017-07-21</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=63ec8acc-daa7-4121-81e9-e8b631e866a1&categoryNum=002006001" target="_blank" title="苏州国发新兴产业创业投资企业（有限合伙）的1900万认缴出资额（其中已认缴未出资950万元）公开转让公告[2017]029号">苏州国发新兴产业创业投资企业（有限合伙）的1900万认缴出资额（其中已认缴...</a></TD>
+<td  align=right>2017-07-21</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=1c83ebbf-4039-44cf-a7e3-21db43aa7911&categoryNum=002006001" target="_blank" title="苏州易能微电子科技有限公司7.3617%股权公开转让公告[2017]028号">苏州易能微电子科技有限公司7.3617%股权公开转让公告[2017]028号</a></TD>
+<td  align=right>2017-07-21</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=ebabb469-11f7-45d3-8ca2-df4915700414&categoryNum=002006001" target="_blank" title="苏州铜宝锐新材料有限公司14%股权公开转让公告 [2017]027号">苏州铜宝锐新材料有限公司14%股权公开转让公告 [2017]027号</a></TD>
+<td  align=right>2017-07-20</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=53e22e5f-4c36-4439-96c5-06bc7eaa6054&categoryNum=002006001" target="_blank" title="苏州引力焊业科技有限公司51%股权公开转让（预）公告[2017]（预）005号">苏州引力焊业科技有限公司51%股权公开转让（预）公告[2017]（预）005号</a></TD>
+<td  align=right>2017-07-04</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=e21fa639-4d06-4ad8-bf38-91742be75d25&categoryNum=002006001" target="_blank" title="常熟市江南房地产置业有限责任公司100%股权及相关债权公开转让（预）公告[2017]（预）004号">常熟市江南房地产置业有限责任公司100%股权及相关债权公开转让（预）公告[2...</a></TD>
+<td  align=right>2017-06-23</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=b659da6e-893d-4928-967b-666ab5231b89&categoryNum=002006001" target="_blank" title="苏州润新生物科技有限公司12.6529%股权公开转让公告[2017]026号">苏州润新生物科技有限公司12.6529%股权公开转让公告[2017]026号</a></TD>
+<td  align=right>2017-06-15</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=2d305e4c-d6f5-4091-b3ad-f0534bbf3d5e&categoryNum=002006001" target="_blank" title="苏州欧赛微科生物医药科技有限公司4.29%股权公开转让公告[2017]025号">苏州欧赛微科生物医药科技有限公司4.29%股权公开转让公告[2017]025号</a></TD>
+<td  align=right>2017-06-15</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=1bd7d333-df85-4a3d-b0ec-06dc5c04b776&categoryNum=002006001" target="_blank" title="江苏慧光电子科技有限公司18.09%股权公开转让公告[2017]024号">江苏慧光电子科技有限公司18.09%股权公开转让公告[2017]024号</a></TD>
+<td  align=right>2017-06-13</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=8c9c6ecc-ce4f-4eb0-bdcc-9212b017409f&categoryNum=002006001" target="_blank" title="苏州圣诺生物医药技术有限公司10.07%股权公开转让公告[2017]023号">苏州圣诺生物医药技术有限公司10.07%股权公开转让公告[2017]023号</a></TD>
+<td  align=right>2017-05-26</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=ffed9552-d619-4940-8063-20fbd54d0d20&categoryNum=002006001" target="_blank" title="苏州博田自动化技术有限公司3.05%股权公开转让公告[2017]022号">苏州博田自动化技术有限公司3.05%股权公开转让公告[2017]022号</a></TD>
+<td  align=right>2017-05-26</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=3a74cf87-82be-40bb-890c-454c74acfc62&categoryNum=002006001" target="_blank" title="张家港金安危化押运有限公司100%股权公开转让公告[2017]021号">张家港金安危化押运有限公司100%股权公开转让公告[2017]021号</a></TD>
+<td  align=right>2017-05-26</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=ee44fef7-2662-4fec-8e4c-1ea27ca7595c&categoryNum=002006001" target="_blank" title="位于苏州市姑苏区三元四村5幢602室住宅公开转让公告[2017]019号">位于苏州市姑苏区三元四村5幢602室住宅公开转让公告[2017]019号</a></TD>
+<td  align=right>2017-05-23</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=177ef125-bbc9-4239-a9af-6181c882bb04&categoryNum=002006001" target="_blank" title="江苏高科技氟化学工业园投资发展有限公司6.64%股权公开转让公告[2017]018号">江苏高科技氟化学工业园投资发展有限公司6.64%股权公开转让公告[2017]018号</a></TD>
+<td  align=right>2017-05-23</td>
+<TD  width="5px"></TD>
+</TR><TR height=30>
+<TD  align="left"><a class="normal-link" href="/Front/infodetail/?infoid=96f08e39-6c73-48f5-922a-cc2e43fbf693&categoryNum=002006001" target="_blank" title="苏州一光仪器有限公司10.44%股权第三次公开转让公告[2017]020号">苏州一光仪器有限公司10.44%股权第三次公开转让公告[2017]020号</a></TD>
+<td  align=right>2017-05-23</td>
+<TD  width="5px"></TD>
+</TR></table></div><div id="Paging" ><style>.pagemargin{margin:20px}.margintop{margin-top:15px}.yahei{font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold}.yaheigo{font-family:"Microsoft YaHei",微软雅黑; font-size:12px}.redfont{color:red}.bordercolor{border:solid 1px #dfdfdf}.huifont{color:#666666}.songti{font-size:12px}.weight{font-weight:bold}.pageover{ background-color:#999999; border:solid 1px #999999; font-size:12px; color:#FFFFFF;cursor:pointer}.pageout{border:solid 1px #dedede;font-size:12px;color:#666666;cursor:pointer}.numberover{background-color:#999999; border:solid 1px #999999;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#FFFFFF;cursor:pointer;width:36px}.numberout{border:solid 1px #dedede;font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold;color:#666666;cursor:pointer;width:36px}.goover{border:solid 1px #dfdfdf;background-color:#999999;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:#FFFFFF;cursor:pointer}.goout{border:solid 1px #dfdfdf;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:666666;cursor:pointer}</style><script>var totalPageNums = 7;function GoToPaging() {var Gtno = document.getElementById('GoToPagingNo');var no = Gtno.value;if (!isNaN(no)) {no = parseInt(no);no = Math.abs(no);if (no <= totalPageNums) {window.location.href='./?Paging='+no;} else {alert("最大分页为" + totalPageNums + ",请重新输入页码！");Gtno.value='';Gtno.focus();}} else {alert("请重新输入数字页码！");Gtno.value='';Gtno.focus();}}</script><div class="pagemargin"><div style="height:26px"><table border='0' cellpadding='0' cellspacing='0' style="margin:auto"><tr><td onclick="window.location.href='./?Paging=1'" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">首页</td><td width="4"></td><td onclick="window.location.href='./?Paging=1'" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">&lt; 上页</td><td width="4"></td><td onclick="window.location.href='./?Paging=1'" title='转到第1页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">1</td><td width="4"></td><td  width="36" align="center" class="yahei redfont" >2</td><td width="4"></td><td onclick="window.location.href='./?Paging=3'" title='转到第3页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">3</td><td width="4"></td><td onclick="window.location.href='./?Paging=4'" title='转到第4页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">4</td><td width="4"></td><td onclick="window.location.href='./?Paging=5'" title='转到第5页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">5</td><td width="4"></td><td onclick="window.location.href='./?Paging=3'" title='转到第3页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">下页 &gt;</td><td width="4"></td><td onclick="window.location.href='./?Paging=7'" title='转到第7页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">末页</td><td width="20"></td><td class="huifont">2/7</td><td width="10"></td><td class="songti huifont">转到</td><td width="6"></td><td><input type="text" id="GoToPagingNo" class="bordercolor"  style="line-height:26px;width:40px; height:26px" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"  onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'0')}else{this.value=this.value.replace(/\D/g,'')}" /></td><td width="6"></td><td width="30" align="center" class="goout" onclick="GoToPaging();" onmouseover="this.className='goover';" onmouseout="this.className='goout';">GO</td></tr></table></div></div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <!-- 版权 -->
+      <div style="margin:0px auto;height:186px; min-width:1024px;">
+<iframe src="/Front/Template/Default/pagefoot.htm" width="100%" height="186" frameborder="0" scrolling="no"  ></iframe>
+</div>
+    <script src="/Front/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/Front/Template/Default/js/common.js"></script>
+</body>
+</html>

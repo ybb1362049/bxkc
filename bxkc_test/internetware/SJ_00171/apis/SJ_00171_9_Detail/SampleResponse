@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>采购服务</title>
+<link href="/web/css/FWStyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/web/js/jquery-1.8.3.min.js?ver=111"></script>
+<script type="text/javascript">
+function change(){
+        var classid= $("#classid").val();
+        var title= $("#period").val();
+	    document.votoonfrom.action="/web/searchIndex.action?op=1&title="+encodeURI(encodeURI(title))+"&id=" +classid;
+	    document.votoonfrom.submit();
+    }
+</script>
+<!-- 滑动Tab部分 -->
+</head>
+
+<body>
+<div class="NewTopLine">
+  <div class="WebBlock"> <span class="NewTopinfo fl">甘肃省唯一指定甘肃省内政府采购信息网络发布媒体，所有省内政府采购公告以本网站发布为准</span> <span class="NewTopinfo fr TextRed">服务热线：18709427032  政采服务电话</span><br />
+    <div class="cl"></div>
+  </div>
+</div>
+<div class="WebBlock">
+  <div class="TopLogo fl"><img src="/web/img/TopLogo.png" alt=""/></div>
+  <div class="TopForm fr">
+    <div class="search">
+      <FORM name="votoonfrom" method="post" target="_blank"  accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+        <select id="choose">
+          <option value=''>标题</option>
+        </select>
+        <input class="inp_srh" id="period" >
+        <input type="hidden" id="classid" >
+        <input class="btn_srh" type="button" id="searchbtn" value="搜索" onClick="return change()">
+      </FORM>
+    </div>
+  </div>
+  <script type="text/javascript" src="/web/js/jquery.select.js?ver=111"></script>
+  <div class="cl"></div>
+</div>
+<div class="WebBlock WebBlockH"> <img src="/web/img/Pic/Banner01.png" width="1000"> </div>
+
+<!-- 第一部分 S -->
+
+<div class="WebBlock WebBlockH">
+  <div class="PageNav"><span>购买服务:</span> <a href="/web/indexsp.html">首页</a> > <a href="/web/article/gmfw/yjgg/list.html">征求意见公告</a> > 内容信息</div>
+  <div class="PageList">
+    <hr />
+    <h1>金昌市人民政府信息化办公室金昌市政府网站群功能提升改版项目单一来源公示</h1>
+    <div class="PageTc">文章来源：甘肃政府采购网 │ 发布时间：2017年08月14日</div>
+    <!-- 内容信息 开始-->
+    <div class="PageTextInfo">
+      &nbsp;
+<p style="text-align:center;" class="MsoNormal" align="center">
+	<span style="font-family:方正小标宋简体;font-size:22pt;">金昌市人民政府信息化办公室<span></span></span>
+</p>
+<p style="text-align:center;" class="MsoNormal" align="center">
+	<span style="font-family:方正小标宋简体;font-size:22pt;">金昌市政府网站群功能提升改版项目<span></span></span>
+</p>
+<p style="text-align:center;" class="MsoNormal" align="center">
+	<span style="font-family:方正小标宋简体;font-size:22pt;">单一来源采购公示<span></span></span>
+</p>
+<p class="MsoNormal">
+	<b><span style="font-family:楷体_GB2312;font-size:18pt;"></span></b>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">金昌市人民政府信息化办公室拟对金昌市政府网站群功能提升改版项目采用单一来源采购方式进行采购。现将有关情况向潜在政府采购供应商征求意见。<span></span></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-family:仿宋;font-size:16pt;">一、采购人、采购项目名称和内容： <span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">1</span><span style="font-family:仿宋;font-size:16pt;">、采购人：金昌市人民政府信息化办公室<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">2</span><span style="font-family:仿宋;font-size:16pt;">、项目名称：金昌市政府网站群功能提升改版项目<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">3</span><span style="font-family:仿宋;font-size:16pt;">、采购内容：金昌市政府网站群开发部署<span>JCMS</span>信息报送模块、信息抓取模块，完成所有站点设置工作；建设部署图库系统、音视频系统，完成站群图片及视频资源的迁移工作；设计改版门户网站首页及信息公开系统所有站点页面。<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">4</span><span style="font-family:仿宋;font-size:16pt;">、预算金额：<span>19</span>万元<span></span></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-family:仿宋;font-size:16pt;">二、采用单一来源采购方式的原因及相关说明：<span>&nbsp;&nbsp;&nbsp; </span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">金昌市政府网站群由南京大汉网络有限公司于<span>2012</span>年开发建设，为保证本次网站群功能提升改版与原网站系统的衔接和各类数据的平稳迁移，确保新旧网站系统功能提升改版过程中的完整性、稳定性、一致性、准确性，实现信息资源共享，节约建设成本，建议该项目采用单一来源采购方式，由进行建设。<span></span></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-family:仿宋;font-size:16pt;">三、拟定的唯一供应商名称、地址： <span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">1</span><span style="font-family:仿宋;font-size:16pt;">、供应商名称：南京大汉网络有限公司<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">2</span><span style="font-family:仿宋;font-size:16pt;">、供应商地址：南京市玄武区</span><span style="font-family:楷体_GB2312;font-size:16pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family:仿宋_GB2312;font-size:16pt;">&nbsp;&nbsp;</span><span style="font-family:仿宋;font-size:16pt;"></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-family:仿宋;font-size:16pt;">四、专家意见： <span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">2017</span><span style="font-family:仿宋;font-size:16pt;">年<span>8</span>月<span>10</span>日，受金昌市政府信息化办公室委托，专家组对南京大汉网络有限公司编制的《金昌市政府网站群功能提升改版项目实施方案》（以下简称方案）进行审查，本着公平、公正、客观、准确的原则，对《方案》进行了认真详细的讨论。一致认为，《方案》简明扼要、重点突出、功能完备、计划明确、功能提升改版可行。现形成如下意见。<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">专家一：宋君海<span><span>&nbsp; </span></span>工作单位：金川区科技局 党委书记<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">论证意见：实施本项目的推荐供应商，南京大汉网络有限公司系金昌市政府网站群系统（<span>JCMS</span>）的承建商及系统的开发者、系统著作权的拥有者，本次项目是对原系统的改版和功能模块的升级，是对原有项目的延续性建设，符合单一来源的相关规定和条件，据此，建议采用单一来源采购方式，由南京大汉网络有限公司实施。<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">专家二：邱进新<span><span>&nbsp; </span></span>工作单位：金昌市审计局 高级审计师<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">论证意见：一、本项目为政府网站群的提升改版，因此须在原有网站基础上实施，为了保持网站建设的延续性，节约建设成本，应由原网站建设服务商实施本项目，符合单一来源方式采购的要求。<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">二、考察了解南京大汉网络有限公司具备本项目的实施及运维服务能力，并且为原网站的建设服务商，建议仍使用此服务商。<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">专家三：李军 工作单位：金川区信息化办<span><span>&nbsp; </span></span>主任<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">论证意见：金昌市政府网站群，经过多年的建设和运行，积累了大量的数据，南京大汉网络有限公司熟悉网站群的技术架构、数据库设计、数据规范标准，可保证信息数据的安全、平稳迁移，减少数据丢失和数据转换费用成本。<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">综上所述，《方案》工作目的明确，符合网站规范要求，工作量安排合理，经费估算合理。建议金昌市政府网站群功能提升改版项目采用单一来源方式采购。<span></span></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-family:仿宋;font-size:16pt;">五、公示期限： <span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">2017</span><span style="font-family:仿宋;font-size:16pt;">年<span>8</span>月<span>15</span>日<span>-2017</span>年<span>8</span>月<span>21</span>日<span></span></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-family:仿宋;font-size:16pt;">六、联系方式：<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">采购人：金昌市人民政府信息化办公室<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">联系人：杨吉庆 联系电话：<span>0935-8216606</span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">监管部门：金昌市政府采购管理办公室<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">联系电话：<span>0935-8210015</span></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-family:仿宋;font-size:16pt;">七、其他说明：<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;">任何供应商、单位或者个人对该项目采用单一来源采购方式有异议的，可以在公示期内将书面意见反馈给采购人并同时抄送金昌市政府采购管理办公室。<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;"></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;"></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-family:仿宋;font-size:16pt;">金昌市人民政府信息化办公室<span></span></span>
+</p>
+<p style="text-align:left;text-indent:32pt;" class="MsoNormal" align="left">
+	<span style="font-family:仿宋;font-size:16pt;"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>2017 </span><span style="font-family:仿宋;font-size:16pt;">年<span>8 </span>月<span>14 </span>日<span></span></span>
+</p>
+      <br>
+      附件：
+    </div>
+    <!-- 内容信息 结束--> 
+  </div>
+  <!-- 分页开始 --> 
+  
+  <!-- 分页结束 --> 
+</div>
+
+<!-- 第一部分 end --> 
+
+<!-- 第二部分 star --> 
+
+<!-- 第二部分 end -->
+
+<div> 
+<center>
+© 2016 甘肃省财政厅版权所有 陇ICP备15002215号
+</center>
+</div>
+</body>
+</html>

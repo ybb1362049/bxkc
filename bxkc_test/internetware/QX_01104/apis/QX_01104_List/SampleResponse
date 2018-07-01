@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" />
+    <meta name="description" />
+    <meta name="application-name" content="泸县政府网站" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name ="SiteName" content = "泸县政府网站" />
+<meta name ="SiteDomains" content = "http://www.luxian.gov.cn" />
+<meta name ="SiteIDCode" content = "" />
+<meta name ="ColumnName" content = "公告" />
+<meta name ="ColumnDescription" content = "" />
+<meta name ="ColumnKeywords" content = "" />
+<meta name ="ColumnType" content = "" />
+<meta name ="keywords" content = "" />
+<meta name ="description" content = "公告" />
+
+      
+    <title>公告_工程建设_县交易中心_泸县政府网站</title>
+    
+    <link href="/Content/Main/Base/css/module.css?v=hKlOskRlUjBXXrF4XcKiqCouEwqbKLAWmLwuuk0x_ck" rel="stylesheet" type="text/css" />
+    <link href="/Content/Main/Base/css/default.css?v=73vUBaKbX9u-I7xpaXGNnBOD8Cn7qy11XfABuVlBKfA" rel="stylesheet" type="text/css" />
+    
+    <link href="/Content/Main/ContentManage/css/page.css?v=KUj35Oqo0VEwPBkre1iUbT-zsCx2OTxVG1CPT7Re2YE" rel="stylesheet" />
+    <link href="/Content/Main/ContentManage/JuSite/css/juSite.css?v=zjdO3Fl0Yq37agslDoIPadntt54x0R8OtRMxtX08Xw4" rel="stylesheet" />
+
+
+    <link href="/Content/_Common/Base/css/power.css?v=NnysWKRx2sJjnGPaLZ29mFou4FqoIx_Biww_3b3J9QU" rel="stylesheet" type="text/css" />
+    <script src="/Content/_Common/Assets/Scripts/jquery-1.11.1.js?v=i_872U7co8jMMDvxvbPSmuKgJwOtKxOPiqicO_RHpZY"></script>
+    <script src="/Content/_Common/Assets/Scripts/jquery.cookie.js?v=rmd7M4A062fFnrQ373UwMnlFLIU_D-IgWCce-lcNHiI"></script>
+    <script src="/Content/_Common/Base/js/webCommon.js?v=UNQPWQswEPKU-RoWrrACGBFHDtcnCk0eWUXBsP34wM0"></script>
+    <script src="/Content/_Common/Base/js/jquery.SuperSlide.js?v=HM6k29TPF4d6n9YFmuKFEVYQJcYFEdbs7VJoATA-Nzs"></script>
+    <script src="/Content/_Common/Base/js/StoT.js?v=OXZKrhYSlMpppSi--VBWq_JCt5s-v5ob4LOTbOY9-SE"></script>
+	<script src="/Content/_Common/Assets/Scripts/qrcode.min.js?v=xUHvBjJ4hahBW8qN9gceFBibSFUzbe9PNttUvehITzY"></script>
+</head>
+<body>
+    
+
+
+<div class="wrap">
+
+
+<!-- header S -->
+<header id="header">
+    <div class="headerTop siteWidth">
+        <img alt="县交易中心" src="/upload/main/contentmanage/node/featuredimage/交易中心.png"/>
+        
+    </div>
+    <!-- banner E -->
+</header>
+<!-- header E -->
+
+
+<!-- nav S -->
+<nav class="topNav clearfix" id="jyzx" hideBox>
+    <div class="siteWidth">
+        
+
+<ul id="juNav" class="juNav">
+    <li class="li1 first1" id="li-home">
+        <h3 class="h1">
+<a class="a1" href="/xzfbm/jyzx">网站首页</a>            <span class="bg"></span>
+        </h3>
+    </li>
+
+        <li class="li1" id="li-gzdt69">
+            <h3 class="h1">
+                <a class="a1" href="/xzfbm/jyzx/gzdt69">工作动态</a>
+                <span class="bg"></span>
+            </h3>
+        </li>
+        <li class="li1 last1" id="li-zfxxgk">
+            <h3 class="h1">
+                <a class="a1" href="http://125.68.188.154:85/GPI/index.aspx?dept=92340569">政府信息公开</a>
+                <span class="bg"></span>
+            </h3>
+        </li>
+</ul>
+
+    <script type="text/javascript">
+        (function () {
+            var navST;
+            var navST1;
+            var name = 'juNav';
+            var t = 200;
+            var type = 1;
+            var removeOn = 'False';
+            var effect = 'fade';
+            var appendItem = '#';
+            var li = "#" + name + " li";
+            var index = 0;
+
+            if (!$("#" + name + " .li1").hasClass("on1")) {
+                $("#" + name + " .li1").first().addClass("on1");
+            } //默认第一个加.on1类
+            index = $("#" + name + " .li1").index($("#" + name + " .on1"));
+
+            //鼠标离开导航后，回复默认.on1类位置
+            $("#" + name)
+                .hover(
+                    function () {
+                        if (navST1 != null) {
+                            clearTimeout(navST1);
+                        }
+                    },
+                    function () {
+                        navST1 = setTimeout(function () {
+                                $("#" + name + " .li1").removeClass("on1").eq(index).addClass("on1");
+                            },
+                            500);
+                    }
+                );
+
+            if (type == '1') {
+                li = "#" + name + " .li1";
+            }
+            if (appendItem != '#') { //插入内容
+                var appendHtml = $(appendItem).html();
+                $(li).first().append(appendHtml);
+                $(appendItem).remove();
+            }
+
+            if (type == '3') {
+                $("#" + name + " .on1").find("ul").first().show();
+            }
+
+            $(li)
+                .hover(function () {
+                        var curItem = $(this);
+                        var onNum = (curItem.attr("class").split(" "))[0].replace("li", "");
+                        $(li).removeClass("on" + onNum);
+                        curItem.addClass("on" + onNum);
+                        navST = setTimeout(function () { //延时触发
+
+                                if ($("ul:first", curItem).css("display") != "block") {
+                                    $(li + " .ul" + onNum).hide();
+                                    if (effect == 'fade') {
+                                        $("ul:first", curItem).fadeIn(t);
+                                    } else {
+                                        $("ul:first", curItem).slideDown(t);
+                                    }
+                                };
+                                navST = null;
+                            },
+                            t);
+                    },
+                    function () {
+                        if (navST != null) {
+                            clearTimeout(navST);
+                        }
+                        if (type == '1' || type == '2') {
+                            if (effect == 'fade') {
+                                $(this).find("ul").first().fadeOut(t);
+                            } else {
+                                $(this).find("ul").first().slideUp(t);
+                            }
+                        }
+                        if (removeOn == 'True') {
+                            $(this).removeClass("on1");
+                        }
+                    },
+                    t); //end hover
+        })()
+    </script>
+
+    </div>
+</nav>
+<!-- nav E -->
+<script>
+     //导航下拉效果
+        $(".mainNav")
+            .slide({
+                type: "menu",
+                titCell: ".item",
+                targetCell: ".itemSub",
+                titOnClassName: "currentItem",
+                effect: "slideDown",
+                delayTime: 200,
+                returnDefault: true,
+                triggerTime: 200
+            });
+</script>
+    
+
+
+<!-- content S -->
+<div id="content">
+    <div class="path">
+<em>您的位置：</em><a href="/">首页</a>
+&gt;<a href="/xzfbm/jyzx">县交易中心</a>&gt;<a href="/xzfbm/jyzx/gcjs2">工程建设</a>&gt;<a href="/xzfbm/jyzx/gcjs2/gg5">公告</a>
+</div>
+    <div class="clearbox"></div>
+    <!-- mainContent S -->
+    <div class="mainContent">
+        <div class="mainBox">
+            <div class="mHd">
+                <h3>公告</h3>
+            </div>
+            <div class="mBd">
+                <!-- 正文内容 S -->
+                <ul class="conList">
+                    
+
+<li class="first">
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_146378" title="泸县兆雅镇型家村卫生室建设项目中选通知书">泸县兆雅镇型家村卫生室建设项目中选通知书</a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-22</span>
+        </div>
+
+    </div>
+
+</li>
+
+
+<li>
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_146112" title="泸县兆雅镇大石坪村卫生室建设项目 比 选 公 告">泸县兆雅镇大石坪村卫生室建设项目 比 选 公 告</a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                泸县兆雅镇大石坪村卫生室建设项目
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-17</span>
+        </div>
+
+    </div>
+
+</li>
+
+
+<li>
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_146106" title="泸县石桥镇红斗山非正规垃圾填埋场治理 抢险救灾工程 补遗书01">泸县石桥镇红斗山非正规垃圾填埋场治理 抢险救灾工程 补遗书01</a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                至各潜在投标人：
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-17</span>
+        </div>
+
+    </div>
+
+</li>
+
+
+<li>
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_146023" title="泸县喻寺镇鸦峰岩村中心村卫生室建设项目 比 选 公诉告">泸县喻寺镇鸦峰岩村中心村卫生室建设项目 比 选 公诉告</a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                泸县喻寺镇鸦峰岩村中心村卫生室建设项目
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-17</span>
+        </div>
+
+    </div>
+
+</li>
+
+
+<li>
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_146020" title="泸县牛滩镇新林村卫生室建设项目 比选公告">泸县牛滩镇新林村卫生室建设项目 比选公告</a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                泸县牛滩镇新林村卫生室建设项目
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-17</span>
+        </div>
+
+    </div>
+
+</li>
+
+
+<li>
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_146019" title="泸县牛滩镇营山村卫生室建设项目 比选公告">泸县牛滩镇营山村卫生室建设项目 比选公告</a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                泸县牛滩镇营山村卫生室建设项目
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-17</span>
+        </div>
+
+    </div>
+
+</li>
+
+
+<li>
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_145492" title="招 标 公 告">招 标 公 告</a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                受泸县城乡环境管理局委托，根据《泸县城管[2017]51号》文件精神，现对泸县石桥镇红斗山非正规垃圾填埋场治理抢险救灾工程进行招标公告。按泸州市人民政府抢险救灾程序要求，在泸州市住房和城乡建设局应急抢险救灾…
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-16</span>
+        </div>
+
+    </div>
+
+</li>
+
+
+<li>
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_145362" title="泸县天兴镇曹湾中心卫生室建设项目">泸县天兴镇曹湾中心卫生室建设项目</a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                泸县天兴镇曹湾中心卫生室建设项目
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-16</span>
+        </div>
+
+    </div>
+
+</li>
+
+
+<li>
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_145330" title="泸县兆雅镇型家村卫生室工程建设项目">泸县兆雅镇型家村卫生室工程建设项目</a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                泸县兆雅镇型家村卫生室工程建设项目
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-16</span>
+        </div>
+
+    </div>
+
+</li>
+
+
+<li class="last">
+
+    <div class="title">
+        <a class="tit" href="/xzfbm/jyzx/gcjs2/gg5/content_142490" title="泸县玄滩镇卫生院石鹅沟村卫生室项目 比选公告 ">泸县玄滩镇卫生院石鹅沟村卫生室项目 比选公告 </a>
+    </div>
+
+    <div class="con">
+
+            <div class="intro">
+                一、本项目经泸县发展和改革局以泸县发改〔2017〕321号批准建设。本项目现通过固定价比选方式（E方式）随机抽取中选人（承包人），诚邀符合资格条件的潜在申请人参与本项目的比选。 
+            </div>
+
+        <div class="others">
+                            <span class="date">2017-11-14</span>
+        </div>
+
+    </div>
+
+</li>
+
+                </ul>
+                <div class="page">
+
+
+        <a class="first" href="/xzfbm/jyzx/gcjs2/gg5_1">首页</a>
+        <a class="prev" href="/xzfbm/jyzx/gcjs2/gg5_1">上一页</a>
+<a href='/xzfbm/jyzx/gcjs2/gg5_1'>1</a> <a class='current'>2</a> <a href='/xzfbm/jyzx/gcjs2/gg5_3'>3</a> <a href='/xzfbm/jyzx/gcjs2/gg5_4'>4</a> <a href='/xzfbm/jyzx/gcjs2/gg5_5'>5</a> <a href='/xzfbm/jyzx/gcjs2/gg5_6'>6</a> <a href='/xzfbm/jyzx/gcjs2/gg5_7'>7</a> <a href='/xzfbm/jyzx/gcjs2/gg5_8'>8</a> <a href='/xzfbm/jyzx/gcjs2/gg5_9'>9</a>         <a class="next" href="/xzfbm/jyzx/gcjs2/gg5_3">下一页</a>
+        <a class="last" href="/xzfbm/jyzx/gcjs2/gg5_16">尾页</a>
+        <span class="total">共157条信息/共16页</span>
+        <span class="select">转到第<input title="按回车键跳转到指定页" onkeypress="javascript:return quickJumpPage(event, 'quickJumpButton')" type="text" style="width:24px" id="quickJumpInput" class="quickJumpInput " value="2" /><script type="text/javascript">var pageNameUrl = '/xzfbm/jyzx/gcjs2/gg5_{pageid}';function quickJumpPage(event){if (event.keyCode == 13 && !(event.srcElement && (event.srcElement.tagName.toLowerCase() == 'textarea'))) {var number = document.getElementById('quickJumpInput').value;if (/\d+/i.test(number)){if (number > 16) number = 16;if(number < 1) number = 1;window.location.href = pageNameUrl.replace("{pageid}", number);}else{alert('输入的页数有误！');}}}</script>页</span>
+</div>
+                <!-- 正文内容 E -->
+            </div>
+        </div>
+    </div>
+    <!-- mainContent E -->
+    <!-- side S -->
+    <aside class="side">
+        
+
+
+<div id="sideJuSite" class="sideJuSiteMenu">
+    <div class="hd">
+        <h3>工程建设</h3>
+    </div>
+    <div class="bd">
+        <ul class="menuList">
+                <li class="on"><a href="/xzfbm/jyzx/gcjs2/gg5">公告</a></li>
+                <li><a href="/xzfbm/jyzx/gcjs2/jggg7">结果公告</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+    if (jQuery("#sideJuSite .bd li").size() === 0) {
+        jQuery("#sideJuSite").hide();
+    }
+</script>
+        
+
+
+<div id="sideJbxx">
+        <div class="hd">
+            <h3>基本信息</h3>
+        </div>
+        <div class="bd">
+            <ul>
+                
+
+
+            <li class="li1 first">
+                <a class="tit" href="/xzfbm/jyzx/gzdt69" title="工作动态">工作动态</a>
+            </li>
+            <li class="li2 last">
+                <a class="tit" href="http://125.68.188.154:85/GPI/index.aspx?dept=92340569" title="政府信息公开">政府信息公开</a>
+            </li>
+
+            </ul>
+        </div>
+    </div>
+
+    </aside>
+    <!-- side E -->
+</div>
+<!-- content E -->
+
+
+<!-- footer S -->
+<footer id="footer">
+    <div class="siteWidth">
+        <div class="footNav">
+            
+
+
+            <a class="tit" href="/wzxg/wzdt" title="网站地图">网站地图</a>
+                |
+            <a class="tit" href="/wzxg/lxwm3" title="联系我们">联系我们</a>
+                |
+            <a class="tit" href="/wzxg/wzsm1" title="网站声明">网站声明</a>
+
+            |
+            <a class="tit" href="/" title="返回主站">返回主站</a>
+        </div>
+        <div class="copyRight"><p>主办：中共泸县县委 泸县人民政府 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;承办：泸县人民政府电子政务管理办公室&nbsp;</p><p>蜀ICP备05020652号 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 技术支持：动易软件股份有限公司</p></div>
+        <span id="ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=52619982BA1D5477E053022819AC4022" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/red.png" data-bd-imgshare-binded="1"></a></span>
+        <div class="bottom-wl" style="text-align:center;">
+            <a href="http://www.luzhoubs.com/z/34178/" target="_blank"> <img style="height:50px;" src="/Content/Main/Base/img/jb.jpg"></a>
+            <a href="http://www.scwmw.gov.cn/" target="_blank"> <img src="/Content/Main/Base/img/zbwm.png"></a>  
+            <a href="http://www.sclzga.gov.cn/" target="_blank"> <img src="/Content/Main/Base/img/wlbj.png" width="135px" height="47px"></a>
+            <script id="_jiucuo_" sitecode="5105210026" src="http://pucha.kaipuyun.cn/exposure/jiucuo.js"></script>
+        </div>
+        <!-- bottom-wl E -->
+    </div>
+</footer>
+<!-- footer E -->
+<!-- 侧栏固定菜单 -->
+<ul class="sideFixed">
+     <li class="wx">
+        <a href="javascript:void(0);"></a>
+        <div class="pic">
+            <img src="/Content/Main/Base/img/wx.jpg" />
+            <i></i>
+        </div>
+    </li>
+    <li class="wb">
+        <a target="blank" href='javascript:void(0);'></a>
+         <div class="pic">
+            <img src="/Content/Main/Base/img/lxwb.jpg" />
+            <i></i>
+        </div>
+    </li>
+    <li class="sj">
+        <a href="/ForceUserAgent/ForceUserAgent/?useragent=phone&amp;currentpageurl=http%3a%2f%2fwww.luxian.gov.cn%3a8083%2fxzfbm%2fjyzx%2fgcjs2%2fgg5_2"></a>
+        <div class="pic">
+            <div data-content="http://www.luxian.gov.cn:8083/xzfbm/jyzx/gcjs2/gg5_2" data-powertype="qrcode" data-size="150"></div>
+            <i></i>
+        </div>
+    </li>
+    <li class="obstacle">
+        <a target="blank" href='/wca.html'></a>
+    </li>
+    <li class="gt">
+        <a href="javascript:;"></a>
+    </li>
+</ul> 
+<script>
+    $(".sideFixed li").hover(function () { $(this).addClass("on") }, function () { $(this).removeClass("on") });
+
+    $('.sideFixed .gt').click(function() {
+        $('html, body').animate({
+            'scrollTop': 0
+        }, 200);
+    });
+</script>
+
+
+    <div class="sideFixed-2">
+        <span><a href="http://www.luxian.gov.cn/bsfw">办事服务</a></span>
+    </div>
+
+
+<script>
+//百度统计代码
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?836fa5c4ce8e0d1a1ee80121ea327b2f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+    <script src="/Admin/Content/Assets/Scripts/audio.min.js?v=NpxxOM2mZQmYCRCBwi8VVxllfj7XvVmUZeq35WwgSn4"></script>
+    <script src="/Content/_Common/Base/js/power.js?v=f5NCXXBhmaBLAIk8S9ecyuw4v1u9pLdlbASP0cXl_9g"></script>
+    
+    
+
+</body>
+</html>

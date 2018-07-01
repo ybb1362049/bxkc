@@ -1,0 +1,173 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>新疆维吾尔自治区水利厅-水利建设-招标公告</title><meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"></head><body>
+<link rel="stylesheet" type="text/css" href="/resource/cms/www.xjslt.org.cn/default/main.css">
+<link rel="stylesheet" type="text/css" href="/resource/cms/www.xjslt.org.cn/default/cs.css">
+<script src="/resource/cms/www.xjslt.org.cn/default/js/sTag.js" language="javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<div class="container" align="right"><script type="text/javascript"	src="/static/js/jquery-1.2.6.min.js"	charset='utf-8'></script>
+<span id="tempHtml">&nbsp;</span>
+<script>                                          
+$.ajax({
+					type : "GET",
+					async : true,
+                    cache :false,
+					url : "/wzdt/cslmpage/index.html",
+					data : {
+					},
+					success : function(data) {                                //alert(data)
+					    $("#tempHtml").replaceWith(data)
+					},
+					error : function(data) {
+						
+					}
+				})
+   </script> <!--导航结束 --><!-- 正文开始 --><!-- end .container -->
+<div style="HEIGHT: 970px" class="zhengwen">
+<div class="erji1">
+<div class="erji2">
+<div style="TEXT-ALIGN: center; WIDTH: 215px; FONT-SIZE: 14px; BORDER-RIGHT: rgb(204,204,204) 1px solid"><img width="24" height="23" src="/resource/cms/www.xjslt.org.cn/default/images/erji/erji_2.png"> <a style="COLOR: rgb(59,107,133)" target="_blank" href="/index.html"><strong>&nbsp;&nbsp;主站首页</strong></a> </div>
+<div class="erji3">当前位置： <a href='/index.html'>首页</a> > <a href='/sl/index.html'>水利建设</a> > <a href='/sl/zbgg/index.html'>招标公告</a></div>
+&nbsp; </div>
+<div style="MARGIN-TOP: 5px"><!--通用左--><div class="erji4"><!--组织机构-->
+<div class="bor">
+<div class="erji-top">组织机构 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zzjg/ldzc/index.html">领导之窗</a> </div>
+<div class="erji-list"><a target="_blank" href="/zzjg/sltgk/index.html">水利厅概况</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/2017/03/13/jgzn/22960.html">机构职能</a> </div>
+<div class="erji-list"><a target="_blank" href="/zzjg/zcbm/index.html">组成部门</a> </div>
+</div>
+<!--政务公开-->
+<div class="bor">
+<div class="erji-top">政务公开 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/mlgk_Shtml/list.shtml?currentPage=1&pageSize=10">公开目录 </a></div>
+<div class="erji-list"><a target="_blank" href="/2017/04/10/gkzn/49392.html">公开指南</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/ysqgk/index.html">依申请公开 </a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/cwgk/index.html">财务公开</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/zcfg/index.html">政策法规 </a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/ghjh/index.html">规划计划 </a></div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/gknb/index.html">公开年报</a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/sfqd/index.html">收费目录清单</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/slgb/index.html">水利公报 </a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/hzz/index.html">河长制</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/jdxx/index.html">解读信息 </a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/gkbz/index.html">公开保障</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/rsxx/index.html">人事信息 </a></div>
+<div class="erji-list"><a target="_blank" href="http://222.82.208.98:8880/xjxxfw/xxfw/portal/index.jsp">事业单位考录</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/ssj/index.html">双随机一公开</a> </div>
+</div>
+<!--水利建设-->
+<div class="bor">
+<div class="erji-top">水利建设 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/sl/zbgg/index.html">招标公告</a> </div>
+<div class="erji-list"><a target="_blank" href="/sl/sysljstzgg/index.html">通知公告</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/sl/pbjggg/index.html">评标结果公告</a></div>
+<div style="WIDTH: 90px" class="erji-list"><a target="_blank" href="/sl/sysljsctj/index.html">诚信体系建设 </a></div>
+<div style="WIDTH: 140px; MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/sl/sljshmd/index.html">水利建设黑名单</a> </div>
+</div>
+<!--在线服务-->
+<div class="bor">
+<div class="erji-top">在线服务 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zxfw/bszn/index.html">办事指南 </a></div>
+<div class="erji-list"><a target="_blank" href="/zxfw/xzsp/index.html">行政审批</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zzjg/zcbm/jsyglc/wjxzjg/index.html">资料下载 </a></div>
+<div class="erji-list"><a target="_blank" href="/zxfw/wszx/index.html">网上咨询</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zxfw/ywxt/index.html">服务系统 </a></div>
+<div class="erji-list"><a target="_blank" href="/zxfw/ygzw/index.html">阳光政务</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zxfw/ggfw/index.html">公共服务 </a></div>
+<div style="WIDTH: 140px; MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="http://www.xjslt.gov.cn/2017/04/14/sltapp/50293.html">水利厅手机APP下载</a> </div>
+</div>
+<!--政民互动-->
+<div style="BORDER-BOTTOM: #dedede 1px solid" class="bor">
+<div class="erji-top">政民互动 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zmhd/zxft/index.html">在线访谈 </a></div>
+<div class="erji-list"><a target="_blank" href="/MessageOnline_Shtml/form.shtml">网上留言</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/CmsWebPollInfo/viewlist.shtml">网上调查 </a></div>
+<div class="erji-list"><a target="_blank" href="/zmhd/rdwd/index.html">热点问答</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/LeadMail_Shtml/form.shtml?mailToGroup=2">书记信箱 </a></div>
+<div class="erji-list"><a target="_blank" href="/LeadMail_Shtml/form.shtml?mailToGroup=1">厅长信箱</a> </div>
+<div style="WIDTH: 140px; MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="http://weibo.com/3804673970/profile?s=6cm7D0">水利微博</a> </div>
+</div>
+</div> <!--在此-->
+<div class="erji55">
+<div class="erji6">&nbsp;&nbsp;&nbsp;招标公告</div>
+<div align="center">
+<div class="ej_list">
+	<ul>
+	<li><a href="/2017/08/04/zbgg/57328.html" target="_blank">阿克苏市水土保持设计 招标公告</a><b>[2017-08-04]</b></li>
+	<li><a href="/2017/08/04/zbgg/57327.html" target="_blank">阿克苏市环境影响报告招标公告招标公告</a><b>[2017-08-04]</b></li>
+	<li><a href="/2017/08/04/zbgg/57326.html" target="_blank">阿克苏市农田水利规划招标公告</a><b>[2017-08-04]</b></li>
+	<li><a href="/2017/08/04/zbgg/57325.html" target="_blank">阿克苏河大型灌区阿克苏市大型灌区骨干工程节水改造项目设计招标公告</a><b>[2017-08-04]</b></li>
+	<li><a href="/2017/08/04/zbgg/57324.html" target="_blank">奇台县2017年国家高效节水示范县项目监理招标公告（二次）</a><b>[2017-08-04]</b></li>
+	<li><a href="/2017/08/04/zbgg/57321.html" target="_blank">2017年英吉沙县骨干工程节水改造项目勘察设计招标公告</a><b>[2017-08-04]</b></li>
+	<li><a href="/2017/08/03/zbgg/57290.html" target="_blank">2017年玛纳斯县现代化灌区示范区建设项目第三标段招标公告</a><b>[2017-08-03]</b></li>
+	<li><a href="/2017/08/03/zbgg/57287.html" target="_blank">新源县恰甫河城区段防洪应急工程招标公告</a><b>[2017-08-03]</b></li>
+	<li><a href="/2017/08/03/zbgg/57286.html" target="_blank">新疆伊犁州巩留县小吉尔格朗河下游河段防洪工程招标公告 </a><b>[2017-08-03]</b></li>
+	<li><a href="/2017/08/03/zbgg/57285.html" target="_blank">达坂城区东沟乡段绿化配套设施供水工程招标公告</a><b>[2017-08-03]</b></li>
+	<li><a href="/2017/08/03/zbgg/57284.html" target="_blank">达坂城区镇区绿化配套设施供水工程招标公告</a><b>[2017-08-03]</b></li>
+	<li><a href="/2017/08/03/zbgg/57279.html" target="_blank">乌鲁木齐市石仁子沟水库除险加固工程勘测设计项目招标公告</a><b>[2017-08-03]</b></li>
+	<li><a href="/2017/08/03/zbgg/57272.html" target="_blank">阿克苏河大型灌区阿克苏市喀拉塔勒镇库库里东一干渠防渗改建项目招标公告</a><b>[2017-08-03]</b></li>
+	<li><a href="/2017/08/03/zbgg/57271.html" target="_blank">阿克苏河灌区骨干工程节水改造阿克苏市英吾斯塘东一干渠及阿克萨依干渠防渗...</a><b>[2017-08-03]</b></li>
+	<li><a href="/2017/08/02/zbgg/57254.html" target="_blank">阜康市2017年高效节水示范县项目施工三标段招标公告 （二次公告）</a><b>[2017-08-02]</b></li>
+	<li><a href="/2017/08/02/zbgg/57253.html" target="_blank">阜康市2017年中央小型农田水利工程建设项目招标公告</a><b>[2017-08-02]</b></li>
+	<li><a href="/2017/08/02/zbgg/57252.html" target="_blank">大西海子水库除险加固工程勘察设计招标公告</a><b>[2017-08-02]</b></li>
+	<li><a href="/2017/08/02/zbgg/57251.html" target="_blank">轮台县2017年度中央财政小型农田水利工程建设项目 招标公告（二次公告...</a><b>[2017-08-02]</b></li>
+	<li><a href="/2017/08/02/zbgg/57250.html" target="_blank">英吉沙县克孜勒乡1、2、3、13、14村农村饮水安全巩固提升工程勘察设...</a><b>[2017-08-02]</b></li>
+	<li><a href="/2017/08/01/zbgg/57216.html" target="_blank">叶尔羌河灌区续建配套与节水改造工程沙其卡克渠下段 延伸工程（二次招标）...</a><b>[2017-08-01]</b></li>
+</ul>
+ </div>
+  <div class="f_page">
+      <ul>
+   <li> <a  href="index.html"><<</a>  </li>
+  		<li> <a  href="index1.html"><</a>  </li>
+     
+     	<!--前面-->
+                <li class="cu"><a href="index2.html"><b>2</b></a></li>
+                <li><a href="index3.html">3</a></li>
+                <li><a href="index4.html">4</a></li>
+                <li><a href="index5.html">5</a></li>
+                <li><a href="index6.html">6</a></li>
+                <li><a href="index7.html">7</a></li>
+                <li><a href="index8.html">8</a></li>
+                <li><a href="index9.html">9</a></li>
+                <li><a href="index10.html">10</a></li>
+                <li><a href="index11.html">11</a></li>
+                            
+   		<li>	<a class="next" href="index3.html">></a> </li>
+    <li> <a  href="index174.html">>></a>  </li>
+      </ul>     
+
+  </div> 
+  </div>
+ </div>
+</div>
+</div>
+<div style="WIDTH: 100%; HEIGHT: 70px" class="bj1">
+<div class="dibu">主办：新疆维吾尔自治区水利厅 地址：新疆乌鲁木齐市黑龙江路146号 邮政编码：830000 <br>
+网站问题联系信箱 wxzx@xjslt.gov.cn 新ICP备14001359号-1 </div>
+<div><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=6500000002&url=http%3A%2F%2Fwww.xjslt.gov.cn%2F"><img style="FLOAT: left; PADDING-TOP: 8px" src="/resource/cms/www.xjslt.org.cn/default/images/di3.png" height="55" width="110"></a> &nbsp; <a href="http://bszs.conac.cn/sitename?method=show&id=332D3F8FE49B7954E053012819AC6FCB"><img src="/resource/cms/www.xjslt.org.cn/default/images/di1.png" height="64" width="60"> </a></div>
+</div> </div>
+</div></body></html>

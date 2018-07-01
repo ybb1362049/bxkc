@@ -1,0 +1,639 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="view/srplatform/portal/logo.ico" type="image/ico" rel="shortcut icon" />
+<title>市广播电视台2018010402010100空调机网上竞价项目采购公告 - 竞价采购系统</title>
+<meta name="keywords" content="市广播电视台，招标预告，招标公告，采购，竞价采购，政府采购，企业采购，求购信息" />
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/common/plug_in.css"/>
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/sysicon/sysicon.css"/>
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/default/listDetail.css"/>
+
+<script type="text/javascript" src="/gpms/view/resource/scripts/json/json.js"></script>
+
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.ui.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/jquery.wresize.js" ></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.autoHeight.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.form.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.jPrintArea.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/FusionChart/JSClass/FusionCharts.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/FusionChart/JSClass/FusionChartsExportComponent.js"></script>
+
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/flexigrid/flexigrid.js"></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/dataTables/media/js/jquery.dataTables.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/dhtmlxTree/dhtmlxcommon.js"></script>  
+<script type="text/javascript" src="/gpms/view/resource/plug-in/dhtmlxTree/dhtmlxtree.js"></script>
+<SCRIPT type="text/javascript" src="/gpms/view/resource/plug-in/jquery/autocomplete/jquery.autocomplete.js"></SCRIPT>
+<script type="text/javascript" src="/gpms/view/resource/scripts/jquery/epsValidate/jquery.validate.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/select/jQuery.CascadingSelect.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/select/jQuery.FillOptions.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/select/jquery.dxCombobox.js"></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/progressbar/jquery.progressbar.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/jquery.bxGallery.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/ajaxpager/jquery.ajaxpager.js"></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/imgPlay/imgPlay.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.scrollto.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.qtip-1.0.0-rc3.js'></script>
+
+<script type="text/javascript" src='/gpms/view/resource/scripts/jquery/epsDatepicker/epsDatepicker.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/jquery/epsDialog/epsDialog.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/jquery/epsContentMenu/epsContentMenu.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/json/json-eps.js"></script>
+<!--  <script type="text/javascript" src="/gpms/view/resource/scripts/json/json.js"></script>-->
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/obj2str.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/dateUtil.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/select.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/listTree.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/treeUtil.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/tabSet.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/otherUtils.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/paramBind.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/loadPage.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/sysTools.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/date.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/changeSkin.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/sysInfo.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/evaluate.js"></script>
+<script type="text/javascript" charset="utf-8" src='/gpms/view/resource/plug-in/kindeditor-4.1.7/kindeditor.js'></script>
+<script type="text/javascript" charset="utf-8" src='/gpms/view/resource/plug-in/kindeditor-4.1.7/lang/zh_CN.js'></script>
+
+
+<!--CSS-->
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/default/main.css" />
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/skin07/css/three.css"/>
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/skin01/css/bulletinDetail.css"/>
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/home/index.css" />
+<!--JS-->
+<script type="text/javascript" src='/gpms/view/srplatform/portal/include/common.js'></script>
+<script type="text/javascript" src="/gpms/view/agreement/showbulletin/show_bulletin_detail.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var pageType=12;
+	var tenderMethod1=06;
+	if(pageType=='13'){
+		$("#menu li").removeClass();
+		$("#dealBulletin1").addClass("selected");
+	}
+	if(pageType=='12'){
+		if(tenderMethod1=='06'){
+			$("#menu li").removeClass();
+			$("#purBulletin1").addClass("selected");
+		}
+		if(tenderMethod1=='21'){
+			$("#menu li").removeClass();
+			$("#purBulletin2").addClass("selected");
+		}
+		if(tenderMethod1=='03'){
+			$("#menu li").removeClass();
+			$("#correctBulletin1").addClass("selected");
+		}
+	}
+	
+	var goodsTd = $("#goodsTd");
+	if(goodsTd != null && goodsTd != 'undefined') {
+		var brands = $("#goodsTd").html(); 
+		var resultStr = brands.replace(/(^\s*)|(\s*$)/g, "");
+		//var resultStr = brands.replace(/\ +/g, ""); //去掉空格
+        //resultStr = resultStr.replace(/[ ]/g, "");    //去掉空格
+        resultStr = resultStr.replace(/[\r\n]/g, ""); //去掉回车换行
+
+		if(resultStr == '') {
+			$("#goodsTd").html("不限制");
+		}
+	}
+	
+})
+</script>
+</head>
+<body>
+<div id="container">
+<!-- 头部开始 -->
+
+<div class="header">
+	
+</div>
+  
+<div class="header">
+     <!-- 页面参数 -->
+	<input type="hidden" id="initPath" value="/gpms" />
+	<input type="hidden" id="isNeedNavigation" value="null" />
+	<input type="hidden" id="returnUrl" value="" />
+	<input type="hidden" id="hrefUrl" value=""/>
+	<input type="hidden" id="roleType" value="null" />
+	<input type="hidden" id="globleOrg" value="null" />
+	<input type="hidden" id="currentTab" value="0"/>
+   
+     <!--网站导航 开始-->
+    <div class="top-nav">
+      <div class="top-info">
+      <p class="userInfo">
+      
+		  您好，欢迎来竞价采购系统！<a href="javascript:void(0);" onclick="common.goToLogin();return false;">登录</a>
+		 <a title="免费注册成为会员享受更多服务" href="javascript:void(0);" id="regBtn">免费注册</a>
+       
+  	  </p>
+      <ul class="quickMenu">
+	  	<li><span><i class="icon-cog"></i><a class="ebidHome" href="/gpms/IndexViewController.do?method=index">首页</a></span></li>
+        
+  	    
+  	  </ul>
+  	  </div>
+    </div>
+    
+    <!--网站导航 结束--> 
+    <!--网站基础信息 开始-->
+    <div class="banner" style="width:1000px;">
+	   <div class="logo"><img src="/gpms/view/resource/images/banner.jpg" /></div>
+	   <!--主导航菜单 开始-->
+       <div class="nav">
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="menu">
+	<li id="goToIndex1"><a id="goToIndex" href="javascript:void(0);" title="首页">首页</a></li>
+	<li id="notice1"><a id="notice" href="/gpms/view/staticpags/notice/notice.jsp" title="通知公告">通知公告</a></li>
+	<li id="purBulletin1"><a id="purBulletin" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=12&tenderMethod=06&rp=21&page=1" title="竞价公告">竞价公告</a></li>
+	<li id="purBulletin2"><a id="purBulletin2" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=12&tenderMethod=21&rp=21&page=1" title="直购公告">直购公告</a></li>
+	<li id="dealBulletin1"><a id="dealBulletin" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=13&tenderMethod=00&rp=21&page=1" title="成交公告">成交公告</a></li>
+	<li id="correctBulletin1"><a id="correctBulletin" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=15&tenderMethod=03&rp=21&page=1" title="已取消成交公告">已取消成交公告</a></li>
+	<li id="goodsLib1"><a id="goodsLib" href="/gpms/GoodsShowController.do?method=toShowGoodsIndexView" title="商品库">商品库</a></li>
+	<li id="supplierLib"><a id="supplierLib" href="/gpms/SupplierShowController.do?method=toSupplierList&rp=20&page=1&districtLevel=1" title="供应商库">供应商库</a></li>
+	<li id="supplierBlackInfo"><a id="supplierBlackInfo" href="/gpms/SupplierShowController.do?method=toSupplierBlackInfoList&rp=10&page=1&districtLevel=1" title="供应商曝光台">供应商曝光台</a></li>
+
+	
+</ul>
+	   </div>
+       <!--主导航菜单 结束-->
+    </div>
+    <!--网站基础信息 结束--> 
+    
+    <div class="searchBox">
+    <!--标签 开始-->
+    <!--  2014-6-29 需求：去掉[热门标签]
+    <div class="searchTags">
+       <span class="tagLabel">热门标签：</span>
+       <span><a href="#"> 联想 </a></span>
+       <span><a href="#"> IBM </a></span>
+       <span><a href="#"> 奥迪 </a></span>
+       <span><a href="#"> 佳能 </a></span>
+       <span><a href="#"> 美时 </a></span>
+    </div>
+    -->
+    <!--标签 结束-->
+      
+    <!--网站搜索 开始-->
+    <div class="search">
+       <input type="hidden" id="searchType" value="1"  />
+       <span class="fdj"><img src="/gpms/view/resource/skin/themes/default/img/changeBig.png" width="14" height="14" /></span>
+       <label >
+          <select id="seachKey">
+             <option value="1" selected="selected">找商品</option>
+             <option value="2">找公告</option>
+             <option value="3">找供应商</option>
+          </select>
+       </label>
+       <span><input id="keyWords" type="text" /></span>
+       <span><a href="#" title="搜索" onclick="keyWordSearch();return false;"><img src="/gpms/view/resource/skin/themes/default/img/seach.png" width="44" height="21" border="0" style="margin-top:3px"/></a></span>
+    </div>
+    <!--网站搜索 结束-->
+    </div>
+    
+  </div>
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+<!--[if IE 6]>
+<div class="userTips">
+	<p>尊敬的用户，您好！您使用的浏览器版本过低，请升级到较高版本，以获得更好的安全性及操作、视觉体验。<a href="http://www.microsoft.com/china/windows/internet-explorer/worldwide-sites.aspx" title="点击下载IE8浏览器安装文件">下载IE8浏览器</a></p>
+</div>
+<![endif]-->
+<noscript>
+<div class="userTips">
+  <p>尊敬的用户，您好！您使用的浏览器不支持或禁用JavaScript脚本。请使用支持JavaScript脚本的浏览器或启用浏览器JavaScript脚本功能。</p>
+  <p>如有任何疑问或需要帮助，请<a href="http://www.gpcsoft.com" target="_blank" title="珠海政采软件技术有限公司 技术支持">与我们联系</a>。</p>
+</div>
+</noscript>
+
+<!-- 头部结束-->
+<!--主要内容 开始-->
+<div class="page_notice" id="sysContent">
+	<input type="hidden" id="bulletinType" value="12" />
+	<input type="hidden" id="currentOrgId" value="" />
+	<input type="hidden" id="processStatuss" value="3" />
+	<input type="hidden" id="buyerOrgInfoId" value="7EFB544FEC784595A75B1A5D62C00B9C" />
+	<input type="hidden" id="projectCreator" value="B178831AA9954270A693AB3F7628B848" />
+	<input type="hidden" id="bulletinObjId" value="402880e360d4d3f60160f23a8632123f" />
+	<input type="hidden" id="loginSuccess" value="0" />
+	<input type="hidden" id="signUpSuccess" value="0" />
+	
+	
+	
+	<div class="base_t3" id="base_bd">
+		<h2 class="package_headline layoutfix">
+			市广播电视台2018010402010100空调机网上竞价项目采购公告
+			<!--
+			
+				<p class="package_fontcolor">我是采购单位，也要发布采购需求，请注册登录后点击<a href="javascript:void(0);" onclick="ShowBulletinDetail.createRequirement();">&nbsp;发布采购需求</a>。</p>
+			-->
+		</h2>
+		
+		<!-- 项目进度 -->
+		
+		   
+		<ul class="base_step base_step3">
+		
+			<li class="view">发布公告</li>
+			<!--  <li class="select">供应商报名</li>-->
+			
+				<li class="book">供应商报价</li>
+				<li class="check">确定成交供应商</li>
+			
+			
+			<li class="submit">项目结束</li>
+		</ul>
+		<div class="base_box package_details_intro">
+			<div class="b_bd layoutfix">
+				<div class="package_details_info">
+					<div class="package_name">
+						<a href="javascript:void(0);">市广播电视台</a>
+					</div>
+					
+					<div class="package_details_date">
+						<p>发标次数：22 &nbsp;&nbsp;</p>
+					</div>
+					<!--
+						<p>发标次数：22 &nbsp;&nbsp;评价总分：0.0分</p>
+					 “评价总分：0.0分”去掉；  2014-6-27-->
+					<!-- JiaThis Button BEGIN 
+					<div id="ckepop" style="float:right;padding-right:10px;">
+						<span class="jiathis_txt">分享到：</span>
+						<a class="jiathis_button_qzone"></a>
+						<a class="jiathis_button_tsina"></a>
+						<a class="jiathis_button_renren"></a>
+						<a class="jiathis_button_kaixin001"></a>
+						<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+						<a class="jiathis_counter_style"></a>
+					</div>
+					<script type="text/javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
+					<!-- JiaThis Button END -->
+					
+				</div>
+
+				<div class="pripackage_date_main">
+					<h5 style="font-size: 14px; width: 300px; float: left;">
+						<!-- [3:::报价:0:3:51806923]-->
+						
+							
+							
+							
+							
+							
+							
+						
+
+							
+							
+							
+							
+								竞价剩余时间：<span class="base_txtgray" id="evalEndTime" name="51806923" tipname="竞价"></span>
+							
+							
+						
+					</h5>
+					
+						
+							<div style="width: 100px; float: left;display:none;">
+								
+								
+									<!-- <input type="button" class="base_btns1_disabled" value="我要报名" disabled="disabled"/> -->
+								
+							</div>
+							<p class="package_fontcolor" style="padding-top: 10px; clear: both;display:none;">
+								★我还没有注册：请点击这里进行 <a href="javascript:void(0);" onclick="ShowBulletinDetail.register();">注册</a>，注册后提交审核通过后，即可参与网上竞价项目。<br/>
+								★我已是供应商：请点击这里进行 <a href="javascript:void(0);" onclick="ShowBulletinDetail.login();">登录</a>，登录后即可参与网上竞价项目。
+							</p>
+						
+						
+						
+						
+						
+						
+						
+					
+					<div class="mailtofrd" style="float: right; margin-top: 10px;">
+						<!--<a title="将此公告推荐给好友" href="javascriptvascript:void(0);" onclick="ShowBulletinDetail.shareBulletin('402880e360d4d3f60160f23a8632123f','市广播电视台2018010402010100空调机网上竞价项目采购公告');return false;"><img src="/gpms/view/resource/skin/skin07/img/map.gif" /> 推荐</a> &nbsp;
+						<a title="收藏此公告" href="javascript:void(0);" onclick="ShowBulletinDetail.favoritesBulletin('402880e360d4d3f60160f23a8632123f','市广播电视台2018010402010100空调机网上竞价项目采购公告','07');return false;"><img src="/gpms/view/resource/skin/skin07/img/registration.png" /> 收藏</a> &nbsp;-->
+						<!--  <a title="打印此公告内容" href="javascript:void(0);" onclick="ShowBulletinDetail.printBulletin();return false;"><img src="/gpms/view/resource/skin/skin07/img/printer.png" /> 打印</a> &nbsp;-->
+						<a title="关闭本页面" href="javascript:self.close();"><img src="/gpms/view/resource/skin/sysicon/16/cross.png" /> 关闭本页</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+<!-- 		<div style="width: 100px; float: left"> -->
+
+
+
+<!-- 		</div> -->
+		
+		<!-- 公告内容 -->
+		<div class="package_lines layoutfix" id="lines">
+			﻿<meta http-equiv="Content-Type" content="text/html;charset=GBK">
+<div class="conBody conBody-three conbody-beer-three">
+    <!--功能页内容-->
+    <h1 class="center">市广播电视台2018010402010100空调机网上竞价项目采购公告</h1>
+    <div class="project-number">[项目编号：SCZC竞-20180114-3号]<span>2018-01-14</span></div>    
+    <table border="0" cellspacing="0" cellpadding="0" class="public-table" >
+      <tr>
+        <th>一、采购单位：</th>
+        <td>市广播电视台</td>
+      </tr>
+      <tr>
+        <th>二、项目名称：</th>
+        <td>市广播电视台2018010402010100空调机网上竞价项目</td>
+      </tr>
+      <tr>
+        <th>三、项目编号：</th>
+        <td>SCZC竞-20180114-3号</td>
+      </tr>
+      <tr>
+        <th>四、发布时间：</th>
+        <td>2018-01-14 09:13:29</td>
+      </tr>
+      
+      
+	      <tr>
+	        <th>五、竞价开始时间：</th>
+	        <td>2018-01-14 09:11:00</td>
+	      </tr>
+	      <tr>
+	        <th>六、竞价结束时间：</th>
+	        <td>2018-01-15 09:11:00</td>
+	      </tr>
+	      <tr>
+	         <th>七、预算总金额（元）：</th>
+	        <td>28,000
+</td>
+	      </tr>
+	      <tr id="lxfsTr" style="display:none;">
+	        <th>八、联系方式：</th>
+	        <td>李先生&nbsp;&nbsp;&nbsp;&nbsp;13696189999</td>
+	      </tr>
+    
+      
+    </table>
+    <ul>
+      <li><h2>采购需求：</h2></span>
+		<table border="0" cellspacing="0" cellpadding="0" class="public-table" style="width:100%" >
+	      <tr>
+	        <th>商品分类：</th>
+	        <td>空调机</td>
+	      </tr>
+	      
+	      
+		      	<tr>
+					<th width="20%">采购数量:</th>
+					<td width="80%">5</td>
+				</tr>
+				<tr>
+					<th>计量单位:</th>
+					<td>套</td>
+				</tr>
+	   	   		<tr>
+	      			<td>计划采购品牌:</td>
+					<td id="goodsTd">
+								<span style="margin-right:10px;">格力  </span>
+								<span style="margin-right:10px;">海信</span>
+								<span style="margin-right:10px;">海尔</span>
+					</td>
+				</tr>
+	      		<tr>
+		        	<th colspan="2">需求描述：</th>
+		      	</tr>
+		      	<tr>
+		        	<td colspan="2">
+		        		<table border='1'><tr><td>系列名称</td><td>格力柜机</td><td>空调类型</td><td>分体落地式柜机</td></tr><tr><td>变频/定频</td><td>变频</td><td>空调匹数</td><td>大3P</td></tr><tr><td>适用面积</td><td>30-50平方</td><td>能效等级</td><td>3级</td></tr><tr><td>冷暖类型</td><td>冷暖</td><td>能效比</td><td>3.52</td></tr><tr><td>制冷量</td><td>7200(1500-8100)W</td><td>制冷功率</td><td>500-3280W</td></tr><tr><td>制热量</td><td>8900(1500-9500)W</td><td>电辅加热功率</td><td>460-3510W</td></tr><tr><td>室内机噪音值</td><td>35-42db</td><td>室外机噪音值</td><td>52-56db</td></tr><tr><td>其它特性</td><td>专业防火设计</td><td>电源性能</td><td>220V</td></tr><tr><td>室内机尺寸</td><td>500*1750*335</td><td>室外机尺寸</td><td>955*700*396</td></tr><tr><td>室内机质量</td><td>42kg</td><td>室外机质量</td><td>51kg</td></tr><tr><td>其他特性</td><td>R32环保冷媒。独立除湿，自动清洁</td><td>包装清单</td><td>遥控器，包修卡，说明书</td></tr><tr><td>售后说明</td><td>免费上门服务</td><td>保修期限</td><td>6年免费包修</td></tr></table>
+		        	</td>
+		      	</tr>
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+		</table>
+		</li>
+      <li></li>
+    </ul>
+</div>
+
+
+			<div class="project-number"><span style="color:red"><h2>特别申明：采购人发布的网上竞价项目公告信息不得包含指定供应商（厂商）、要求成交供应商提供产品原厂授权书、原厂售后服务等与项目无关的内容。公告中如有以上内容视为无效。</h2></span></div>    
+		</div>
+		
+		<!-- 已报名供应商  开始  -->
+		
+		
+		
+		<!-- 已报名供应商  结束 -->
+
+	
+		<!-- 相关公告  -->
+		<div class="package_pribg">
+			<h2><span>相关公告</span></h2>
+			<ul class="package_recommend layoutfix">
+				
+					
+				
+					
+					<li>
+						<p class="item">
+							<span class="base_price02"></span>
+							<a href="javascript:void(0);" onclick="common.goToBulletinDetail('402880e360d4d3f60160f2384ca7122a','12','06');">市广播电视台20180104010101空调机网上竞价项目(第2次)采购公告</a>
+						</p>
+						<p>市广播电视台</p>
+					</li>
+					
+				
+					
+					<li>
+						<p class="item">
+							<span class="base_price02"></span>
+							<a href="javascript:void(0);" onclick="common.goToBulletinDetail('402880e360d4d3f60160f231c4181212','12','06');">市广播电视台20180104010101空调机网上竞价项目采购公告</a>
+						</p>
+						<p>市广播电视台</p>
+					</li>
+					
+				
+					
+					<li>
+						<p class="item">
+							<span class="base_price02"></span>
+							<a href="javascript:void(0);" onclick="common.goToBulletinDetail('402880e35f6c953b0160c44cff896eb5','12','06');">市广播电视台201801040101空调机网上竞价项目(第2次)采购公告</a>
+						</p>
+						<p>市广播电视台</p>
+					</li>
+					
+				
+					
+					<li>
+						<p class="item">
+							<span class="base_price02"></span>
+							<a href="javascript:void(0);" onclick="common.goToBulletinDetail('402880e35f6c953b0160c43e3bfb6e7e','12','06');">市广播电视台201801040101空调机网上竞价项目采购公告</a>
+						</p>
+						<p>市广播电视台</p>
+					</li>
+					
+				
+					
+					<li>
+						<p class="item">
+							<span class="base_price02"></span>
+							<a href="javascript:void(0);" onclick="common.goToBulletinDetail('402880e35f6c953b0160c43bf54e6e69','12','06');">市广播电视台201801040201空调机网上竞价项目采购公告</a>
+						</p>
+						<p>市广播电视台</p>
+					</li>
+					
+				
+					
+					<li>
+						<p class="item">
+							<span class="base_price02"></span>
+							<a href="javascript:void(0);" onclick="common.goToBulletinDetail('402880e35f6c953b0160beaaa6b86a08','12','06');">广安枣园投资开发有限公司ZS201712280903空调机网上竞价项目成交公告</a>
+						</p>
+						<p>广安枣园投资开发有限公司</p>
+					</li>
+					
+				
+					
+					<li>
+						<p class="item">
+							<span class="base_price02"></span>
+							<a href="javascript:void(0);" onclick="common.goToBulletinDetail('402880e35f6c953b0160baf8574a69d7','12','06');">广安职业技术学院H2017122504空调机网上竞价项目(第2次)成交公告</a>
+						</p>
+						<p>广安职业技术学院</p>
+					</li>
+					
+				
+					
+					<li>
+						<p class="item">
+							<span class="base_price02"></span>
+							<a href="javascript:void(0);" onclick="common.goToBulletinDetail('402880e35f6c953b0160baf8586369d9','12','06');">广安职业技术学院H2017122504空调机网上竞价项目成交公告</a>
+						</p>
+						<p>广安职业技术学院</p>
+					</li>
+					
+				
+					
+					<li>
+						<p class="item">
+							<span class="base_price02"></span>
+							<a href="javascript:void(0);" onclick="common.goToBulletinDetail('402880e35f6c953b01609c0a880353b5','12','06');">广安枣园投资开发有限公司ZS201712280903空调机网上竞价项目采购公告</a>
+						</p>
+						<p>广安枣园投资开发有限公司</p>
+					</li>
+					
+				
+			</ul>
+		</div>
+		
+		
+	</div>
+</div>
+<!--主要内容 结束-->
+<!-- 脚开始 -->
+<div class="footer">
+	
+
+<script>
+/*加载系统信息*/
+$.sysInfo_load();
+</script>
+
+<p style="display:none" class="footerNav">
+				<a href="javascript:void(0)" title="合作伙伴" class="cmsHref_blank" id="/view/staticpags/foot/ff8080812ea2d882012ec2becd4e0fad.jsp">合作伙伴</a> 
+				<a href="javascript:void(0)" title="网站地图" class="cmsHref_blank" id="/view/staticpags/foot/ff8080812ea2d882012ec2bf09fd0faf.jsp">网站地图</a> 
+				<a href="javascript:void(0)" title="版权说明" class="cmsHref_blank" id="/view/staticpags/foot/ff8080812ea2d882012ec2bf5afd0fb3.jsp">版权说明</a> 
+				<a href="javascript:void(0)" title="友情链接" class="cmsHref_blank" id="/view/staticpags/foot/ff8080813249c676013260ce5a151eb7.jsp">友情链接</a> 
+				<a href="javascript:void(0)" title="帮助中心" class="cmsHref_blank" id="/view/staticpags/foot/ff8080813249c6760132612b3a2e274e.jsp">帮助中心</a> 
+</p>
+<p class="copyright">©&nbsp;2005-2015&nbsp;Copyright&nbsp;版权所有：四川省财政厅&nbsp;技术支持：珠海政采软件技术有限公司</p>
+<div align="center"> 
+
+</div>
+</div>
+<!-- 脚结束 -->
+<!--在线客服开始-->
+  
+<!-- 
+<div id="sidebar-sugg">
+	<div class="s-main">
+		<a href="http://www9.kf99.com/kf99/kf99.jsp?siteid=guoxinshangtong&style=1&language=&lytype=0&charset=GBK&kflist=off&kf=&zdkf_type=1&referer=http://www.ebid360.com/&keyword=&tpl=crystal_blue" target="_blank">
+        	我需要帮助，请访问<font style="color: red;">在线客服</font>
+		</a>
+	</div>
+</div> -->
+<!--在线客服结束-->
+</div>
+</body>
+</html>

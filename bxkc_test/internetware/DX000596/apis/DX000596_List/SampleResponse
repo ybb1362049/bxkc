@@ -1,0 +1,410 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>四川省铁路集团有限责任公司</title>
+<script language="JavaScript">
+<!--
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+function mOvr(src,clrOver) { if (!src.contains(event.fromElement)){ src.style.cursor = 'default'; src.bgColor = clrOver; }}function mOut(src,clrIn){ if (!src.contains(event.toElement)) { src.style.cursor = 'default'; src.bgColor = clrIn; }} function mClk(src) { if(event.srcElement.tagName=='TD'){src.children.tags('A')[0].click();} }
+// -->
+</script>
+<LINK href=news.css rel=stylesheet>
+<link href="ccs.css" rel="stylesheet" type="text/css">
+</head>
+
+<script language="JavaScript">
+function mmLoadMenus() {
+  if (window.mm_menu_0221122720_0) return;
+ window.mm_menu_0221122720_0 = new Menu("root",80,26,"",12,"#000000","#FFFFFF","#E8E8E8","#99BCEC","center","middle",5,0,1000,-5,7,true,false,true,0,false,false);
+  mm_menu_0221122720_0.addMenuItem("集团简介","window.open('ReadNews.asp?NewsID=67', '_top');");
+  mm_menu_0221122720_0.addMenuItem("领导简介","window.open('ReadNews.asp?NewsID=119', '_top');");
+  mm_menu_0221122720_0.addMenuItem("组织结构","window.open('ReadNews.asp?NewsID=120', '_top');");
+  mm_menu_0221122720_0.addMenuItem("联系方式","window.open('ReadNews.asp?NewsID=122', '_top');");
+  mm_menu_0221122720_0.addMenuItem("下属企业","window.open('ReadNews_xia.asp?NewsID=121', '_top');");
+   mm_menu_0221122720_0.hideOnMouseOut=true;
+   mm_menu_0221122720_0.bgColor='#555555';
+   mm_menu_0221122720_0.menuBorder=1;
+   mm_menu_0221122720_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0221122720_0.menuBorderBgColor='#777777';
+   
+window.mm_menu_0221123717_0 = new Menu("root",80,26,"",12,"#000000","#FFFFFF","#E8E8E8","#99BCEC","center","middle",5,0,1000,-5,7,true,false,true,0,false,false);
+  mm_menu_0221123717_0.addMenuItem("集团新闻","window.open('smallclass1.asp?typeid=1&bigclassid=2&smallclassid=1', '_top');");
+  mm_menu_0221123717_0.addMenuItem("行业动态","window.open('smallclass1.asp?typeid=1&bigclassid=2&smallclassid=3', '_top');");
+   mm_menu_0221123717_0.hideOnMouseOut=true;
+   mm_menu_0221123717_0.bgColor='#555555';
+   mm_menu_0221123717_0.menuBorder=1;
+   mm_menu_0221123717_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0221123717_0.menuBorderBgColor='#777777';
+
+  window.mm_menu_0221124057_0 = new Menu("root",80,26,"",12,"#000000","#FFFFFF","#E8E8E8","#99BCEC","center","middle",5,0,1000,-5,7,true,false,true,0,false,false);
+  mm_menu_0221124057_0.addMenuItem("党群工作","window.open('smallclass2.asp?typeid=1&bigclassid=3&smallclassid=5', '_top');");
+  mm_menu_0221124057_0.addMenuItem("党风路风","window.open('smallclass2.asp?typeid=1&bigclassid=3&smallclassid=6', '_top');");
+  mm_menu_0221124057_0.addMenuItem("安全稳定","window.open('smallclass2.asp?typeid=1&bigclassid=3&smallclassid=7', '_top');");
+   mm_menu_0221124057_0.hideOnMouseOut=true;
+   mm_menu_0221124057_0.bgColor='#555555';
+   mm_menu_0221124057_0.menuBorder=1;
+   mm_menu_0221124057_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0221124057_0.menuBorderBgColor='#777777';
+
+  window.mm_menu_0221124431_0 = new Menu("root",80,26,"",12,"#000000","#FFFFFF","#E8E8E8","#99BCEC","center","middle",5,0,1000,-5,7,true,false,true,0,false,false);
+  mm_menu_0221124431_0.addMenuItem("法律规章","window.open('smallclass0.asp?typeid=1&bigclassid=4&smallclassid=8', '_top');");
+  mm_menu_0221124431_0.addMenuItem("集团公告","window.open('smallclass0.asp?typeid=1&bigclassid=4&smallclassid=9', '_top');");
+   mm_menu_0221124431_0.hideOnMouseOut=true;
+   mm_menu_0221124431_0.bgColor='#555555';
+   mm_menu_0221124431_0.menuBorder=1;
+   mm_menu_0221124431_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0221124431_0.menuBorderBgColor='#777777';
+
+  window.mm_menu_0221124709_0 = new Menu("root",80,26,"",12,"#000000","#FFFFFF","#E8E8E8","#99BCEC","center","middle",5,0,1000,-5,7,true,false,true,0,false,false);
+  mm_menu_0221124709_0.addMenuItem("运输生产","window.open('smallclass3.asp?typeid=1&bigclassid=5&smallclassid=12', '_top');");
+  mm_menu_0221124709_0.addMenuItem("铁路建设","window.open('smallclass3.asp?typeid=1&bigclassid=5&smallclassid=13', '_top');");
+  mm_menu_0221124709_0.addMenuItem("多种经营","window.open('smallclass3.asp?typeid=1&bigclassid=5&smallclassid=14', '_top');");
+   mm_menu_0221124709_0.hideOnMouseOut=true;
+   mm_menu_0221124709_0.bgColor='#555555';
+   mm_menu_0221124709_0.menuBorder=1;
+   mm_menu_0221124709_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0221124709_0.menuBorderBgColor='#777777';
+
+  window.mm_menu_0221124944_0 = new Menu("root",80,26,"",12,"#000000","#FFFFFF","#E8E8E8","#99BCEC","center","middle",5,0,1000,-5,7,true,false,true,0,false,false);
+  mm_menu_0221124944_0.addMenuItem("企业文化","window.open('smallclass4.asp?typeid=1&bigclassid=6&smallclassid=15', '_top');");
+  mm_menu_0221124944_0.addMenuItem("铁路知识","window.open('smallclass4.asp?typeid=1&bigclassid=6&smallclassid=16', '_top');");
+  mm_menu_0221124944_0.addMenuItem("健康娱乐","window.open('smallclass4.asp?typeid=1&bigclassid=6&smallclassid=17', '_top');");
+   mm_menu_0221124944_0.hideOnMouseOut=true;
+   mm_menu_0221124944_0.bgColor='#555555';
+   mm_menu_0221124944_0.menuBorder=1;
+   mm_menu_0221124944_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0221124944_0.menuBorderBgColor='#777777';
+
+  window.mm_menu_0221125137_0 = new Menu("root",80,26,"",12,"#000000","#FFFFFF","#E8E8E8","#99BCEC","center","middle",5,0,1000,-5,7,true,false,true,0,false,false);
+  mm_menu_0221125137_0.addMenuItem("重大新闻","window.open('smallclass6.asp?typeid=1&bigclassid=7&smallclassid=18', '_top');");
+  mm_menu_0221125137_0.addMenuItem("综合要闻","window.open('smallclass6.asp?typeid=1&bigclassid=7&smallclassid=19', '_top');");
+   mm_menu_0221125137_0.hideOnMouseOut=true;
+   mm_menu_0221125137_0.bgColor='#555555';
+   mm_menu_0221125137_0.menuBorder=1;
+   mm_menu_0221125137_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0221125137_0.menuBorderBgColor='#777777';
+
+  window.mm_menu_0304190541_0 = new Menu("root",80,26,"",12,"#000000","#FFFFFF","#E8E8E8","#99BCEC","center","middle",5,0,1000,-5,7,true,false,true,0,false,false);
+  mm_menu_0304190541_0.addMenuItem("协同办公","window.open('http://www.sctl.com.cn:8080', '_blank');");
+  mm_menu_0304190541_0.addMenuItem("Portal登录","window.open('http://www.sctl.com.cn:9080/portal/c', '_blank');");
+   mm_menu_0304190541_0.hideOnMouseOut=true;
+   mm_menu_0304190541_0.bgColor='#555555';
+   mm_menu_0304190541_0.menuBorder=1;
+   mm_menu_0304190541_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0304190541_0.menuBorderBgColor='#777777';
+   
+  window.mm_menu_0327152545_0 = new Menu("root",80,26,"",12,"#000000","#FFFFFF","#E8E8E8","#99BCEC","center","middle",5,0,1000,-5,7,true,false,true,0,false,false);
+  mm_menu_0327152545_0.addMenuItem("川铁集团","window.open('smallclass8.asp?typeid=1&bigclassid=9&smallclassid=20', '_top');");
+  mm_menu_0327152545_0.addMenuItem("中央精神","window.open('smallclass8.asp?typeid=1&bigclassid=9&smallclassid=21', '_top');");
+  mm_menu_0327152545_0.addMenuItem("相关资料","window.open('smallclass8.asp?typeid=1&bigclassid=9&smallclassid=22', '_top');");
+  mm_menu_0327152545_0.addMenuItem("理论阐释","window.open('smallclass8.asp?typeid=1&bigclassid=9&smallclassid=23', '_top');");
+   mm_menu_0327152545_0.hideOnMouseOut=true;
+   mm_menu_0327152545_0.bgColor='#555555';
+   mm_menu_0327152545_0.menuBorder=1;
+   mm_menu_0327152545_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0327152545_0.menuBorderBgColor='#777777';
+
+mm_menu_0304190541_0.writeMenus();
+}</script>
+
+<script language="JavaScript" src="mm_menu.js"></script>
+
+<table width="970" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="112"><img src="images/top_menu_001.gif" width="112" height="29" /></td>
+    <td align="right"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+        <td><img src="images/top_menu_002.gif" width="19" height="29" /></td>
+        <td align="center" valign="bottom" background="images/top_menu_003.gif"><table height="22" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="center" valign="middle" class="txt"><a href="index.asp?depid=1">首页</a> | <a class="top11" href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.sctl.com.cn/index.asp');" >设为首页</a> ｜<a class="top11" href="#" onclick="window.external.AddFavorite(location.href,document.title);">加入收藏</a> | <a href="ReadNews.asp?NewsID=126">网站导航</a></td>
+          </tr>
+        </table></td>
+        <td><img src="images/top_menu_004.gif" width="34" height="29" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="970" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/index_img_001.jpg" width="970" height="125" /></td>
+  </tr>
+</table>
+<script language="JavaScript" src="images/mm_menu.js"></script>
+<script language="JavaScript1.2">mmLoadMenus();</script>
+<table width="970" height="29" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td background="images/menu_001.gif"><table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="275" class="txt"><script language="JavaScript" src="time.js"></script></td>
+        <td width="10" align="center">&nbsp;</td>
+        <td width="50" align="center" background="images/menu_002.gif"><span class="menu"> <a href="index.asp?depid=1">首页</a></span></td>
+        <td width="5"><img src="images/menu_001.gif" width="1" height="29" /></td>
+
+        
+        <td width="65" align="center"><span class="menu"><a href="ReadNews.asp?NewsID=67" name="link2" id="link1" onmouseover="MM_showMenu(window.mm_menu_0221122720_0,-10,23,null,'link2')" onmouseout="MM_startTimeout();">集团概况</a></span></td>
+        <td width="5"><img src="images/menu_001.gif" width="1" height="29" /></td>
+        <td width="65" align="center"><span class="menu"><a href="smallclass1.asp?typeid=1&amp;bigclassid=2&amp;smallclassid=1" name="link4" id="link3" onmouseover="MM_showMenu(window.mm_menu_0221123717_0,-10,23,null,'link4')" onmouseout="MM_startTimeout();">川铁动态</a></span></td>
+        <td width="5"><img src="images/menu_001.gif" width="1" height="29" /></td>
+        <td width="65" align="center"><span class="menu"><a href="smallclass6.asp?typeid=1&amp;bigclassid=7&amp;smallclassid=18" name="link9" id="link9" onmouseover="MM_showMenu(window.mm_menu_0221125137_0,-10,23,null,'link9')" onmouseout="MM_startTimeout();">要闻快讯</a></span></td>
+        <td width="5"><img src="images/menu_001.gif" width="1" height="29" /></td>
+        <td width="65" align="center"><span class="menu"><a href="smallclass0.asp?typeid=1&bigclassid=4&smallclassid=9" name="link6" id="link6" onmouseover="MM_showMenu(window.mm_menu_0221124431_0,-10,23,null,'link6')" onmouseout="MM_startTimeout();">公示公告</a></span></td>
+        <td width="5"><img src="images/menu_001.gif" width="1" height="29" /></td>
+        <td width="65" align="center"><span class="menu"><a href="smallclass3.asp?typeid=1&amp;bigclassid=5&amp;smallclassid=12" name="link7" id="link7" onmouseover="MM_showMenu(window.mm_menu_0221124709_0,-10,23,null,'link7')" onmouseout="MM_startTimeout();">生产建设</a></span></td>
+        <td width="5"><img src="images/menu_001.gif" width="1" height="29" /></td>
+        <td width="65" align="center"><span class="menu"><a href="smallclass4.asp?typeid=1&amp;bigclassid=6&amp;smallclassid=15" name="link8" id="link8" onmouseover="MM_showMenu(window.mm_menu_0221124944_0,-10,23,null,'link8')" onmouseout="MM_startTimeout();">川铁文化</a></span></td>
+        <td width="5"><img src="images/menu_001.gif" width="1" height="29" /></td>
+        <td width="65" align="center"><span class="menu"><a href="smallclass2.asp?typeid=1&amp;bigclassid=3&amp;smallclassid=5" name="link5" id="link5" onmouseover="MM_showMenu(window.mm_menu_0221124057_0,-10,23,null,'link5')" onmouseout="MM_startTimeout();">党建党风</a></span></td>
+        <td width="5"><img src="images/menu_001.gif" width="1" height="29" /></td>
+        <td width="65" align="center"><span class="menu"><a href="smallclass5.asp?typeid=1&amp;bigclassid=8&amp;smallclassid=0">办事指南</a></span></td>
+        <td width="5"><img src="images/menu_001.gif" width="1" height="29" /></td>
+        <td width="65" align="center"><span class="menu"><a href="http://www.sctl.com.cn:9080/portal" target="_blank">员工通道</a></span></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<body topmargin="0">
+<table width="970" height="36" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td background="images/weizi_001.gif" class="txt" >当前位置：<a class=class href="index.asp?depid=1" >网站首页</a>
+        
+      &gt;&gt;<a class=class href="smallclass.asp?typeid=1&bigclassid=4&smallclassid=0" >&nbsp;公示公告&nbsp;</a>
+      
+      &gt;&gt;<a class=class href="smallclass.asp?typeid=1&bigclassid=4&smallclassid=9" >&nbsp;集团公告&nbsp;</a>
+      </td>
+    <td width="21"><img src="images/weizi_002.gif" width="21" height="36" /></td>
+  </tr>
+</table>
+<table width="970" height="330" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="225" valign="top">  <table width="220" border="0" cellspacing="0" cellpadding="0">
+  <form action="Result.asp?Depid=1" method="post" name="myform" id="myform">
+  <tr>
+    <td>
+  <input type="text" name="keyword" size="9" value="关键字"onfocus="if (value =='关键字'){value =''}"onblur="if (value ==''){value='关键字'}" maxlength="50" />
+  <select name="action" size="1" class="wipt1">
+      <option selected="selected" value="all">全部内容</option>
+      <option value="title">按文章标题</option>
+      <option value="editor">按发布人</option>
+      <option value="content">按文章内容</option>
+      <option value="author">按文章作者</option>
+    </select>
+	<input  type="submit" name="Submit" value="搜索" /></td>
+  </tr></form>
+</table>
+
+      <table width="225" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" valign="top"><img src="IMAGES/lei_000.jpg" width="222" height="53"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><table width="189" height="30" border="0" cellpadding="3" cellspacing="3">
+              <tr>
+                <td align="left" background="IMAGES/lei.gif"  class="menu1"><a href="ReadNews.asp?NewsID=67">集团简介</a></td>
+              </tr>
+            </table>
+              <table width="189" height="30" border="0" cellpadding="3" cellspacing="3">
+                <tr>
+                  <td align="left" background="IMAGES/lei.gif"  class="menu1"><a href="ReadNews.asp?NewsID=119">领导简介</a></td>
+                </tr>
+              </table>
+            <table width="189" height="30" border="0" cellpadding="3" cellspacing="3">
+                <tr>
+                  <td align="left" background="IMAGES/lei.gif"  class="menu1"><a href="ReadNews.asp?NewsID=120">组织结构</a></td>
+                </tr>
+            </table>
+            <table width="189" height="30" border="0" cellpadding="3" cellspacing="3">
+                <tr>
+                  <td align="left" background="IMAGES/lei.gif"  class="menu1"><a href="ReadNews.asp?NewsID=121">下属企业</a></td>
+                </tr>
+            </table>
+            <table width="189" height="30" border="0" cellpadding="3" cellspacing="3">
+              <tr>
+                <td align="left" background="IMAGES/lei.gif"  class="menu1"><a href="ReadNews.asp?NewsID=122">联系方式</a></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+    <td width="5">&nbsp;</td>
+    <td align="left" valign="top"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber3">
+      
+      <tr>
+        <td width=100% height="20" align="left" valign="middle" bgcolor="#ECECEC" class="txt" ><p class="link">　共 140 条，当前第 1/14 页，每页 10 条 
+        </td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21734" title="新建地方铁路叙永至大村线(项目名称)隧道永久通风照明及无线隧道环境监测系统标段施工招标公告">
+                新建地方铁路叙永至大村线(项目名称)隧道永久通风照明及无线隧道环境监测系统标段施...
+                
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21730" title="新建地方铁路叙永至大村线弃碴场稳定性评估比选公告">
+                新建地方铁路叙永至大村线弃碴场稳定性评估比选公告
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21729" title="叙大铁路调度大厦高层建筑沉降变形观测、竣工测绘、房产测绘计比选公告">
+                叙大铁路调度大厦高层建筑沉降变形观测、竣工测绘、房产测绘计比选公告
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21722" title="“公园里·锦庐”项目地下室地坪漆工程比选公告">
+                “公园里·锦庐”项目地下室地坪漆工程比选公告
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21721" title="霍尔果斯经济开发区南部工业园一期工程PPP项目试验检测招标公告（二次）">
+                霍尔果斯经济开发区南部工业园一期工程PPP项目试验检测招标公告（二次）
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21707" title="连乐铺架中标结果通知书">
+                连乐铺架中标结果通知书
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21705" title="新建地方铁路连界至乐山线铺架工程专业承包工程中标候选人公示">
+                新建地方铁路连界至乐山线铺架工程专业承包工程中标候选人公示
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21702" title="霍尔果斯经济开发区南部工业园一期工程PPP项目试验检测招标公告">
+                霍尔果斯经济开发区南部工业园一期工程PPP项目试验检测招标公告
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21697" title="新建地方铁路连界至乐山线铺架工程专业承包 招标公告">
+                新建地方铁路连界至乐山线铺架工程专业承包 招标公告
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td class="news"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+            <tr>
+              <td width="20" height="20" align="center" class="txt"><img src="IMAGES/007.GIF" width="15" height="15" border="0"></td>
+              <td height="20" background="IMAGES/xian.gif" class="txt"><a href="ReadNews.asp?NewsID=21679" title="“公园里·锦庐”项目地下室车位划线及交安工程比选公告（第二次）">
+                “公园里·锦庐”项目地下室车位划线及交安工程比选公告（第二次）
+              </a> </td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+              <td width="30" height="20" background="IMAGES/xian.gif" class="txt"></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td width="100%" height="20" align=left valign="middle" bgcolor="#ECECEC" class="txt"><span class="link">　共 140 条，当前第 1/14 页，每页 10 条
+          <B>[1]</B> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=2'>[2]</a> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=3'>[3]</a> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=4'>[4]</a> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=5'>[5]</a> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=6'>[6]</a> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=7'>[7]</a> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=8'>[8]</a> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=9'>[9]</a> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=10'>[10]</a> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=2' title='第2页'>下一页</A> <A class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=14' title='第14页'>页尾</A> <a class=black href='SmallClass.asp?typeid=1&BigClassid=4&SmallClassid=9&page=11' title='下10页'>下一翻页</a>
+        </span></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<style type="text/css">
+<!--
+.STYLE3 {font-size: 12px; color: #333333; }
+-->
+</style>
+<table width="970" height="77" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td background="images/copy.gif"><table border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="45"><img src="images/copy1.gif" width="37" height="42" /></td>
+        <td align="center" class="STYLE3"><p>版权所有 &copy; 四川省铁路集团有限责任公司<br />
+              
+          联系地址：成都市金仙桥路15号　
+          
+          联系电话：(028)66606502  传真：(028)66606501　
+          
+     </p></td>
+       <td align="left" class="STYLE3"><a href='http://www.scgswljg.gov.cn/iciaicweb/dzbscheck.do?method=change&id=51000020140422053326'><img alt='网络经济主体信息' border='0' DRAGOVER='true' src='http://zsfj.scgswljg.gov.cn/web/logo.png' /></a> </td>
+      </tr>
+    </table>
+      <table width="100%" height="25" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="center" class="STYLE3"><a href="http://www.miibeian.gov.cn/">蜀ICP备09024737号</a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,599 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>华新招选平台-主页</title>
+    <meta name="Keywords" content="华新商务平台,华新网上招选"/>
+    <meta name="Description" content="华新商务平台网上招选系统"/>
+    <meta name="author" content="huaxincem.com"/>
+
+    <script type="text/javascript" src="/hxbiz/html/common/themes/system/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/hxbiz/html/common/themes/default/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/hxbiz/html/common/themes/default/js/jqMain.js"></script>
+
+    <link href="/hxbiz/html/common/themes/system/css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/tpl.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/icon.css" rel="stylesheet" type="text/css"/>
+    <link href="/hxbiz/html/common/themes/default/css/user.css" rel="stylesheet" type="text/css"/>
+
+    
+    
+    <script type="text/javascript">
+        $(function(){
+            $("form").submit(function(){
+                self.location = $(this).attr("action")+"?"+encodeURI($(this).serialize());
+                return false;
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="wrapper">
+    
+
+
+
+
+
+
+
+
+
+
+
+<div id="top"></div>
+<!--head-->
+<div id="header" class="fn-clear sl-hvalign-cnt">
+    <div class="sl-valign-cnt-inner">
+        <div id="logo" class="fn-left">
+            <a href="#"><img src="/hxbiz/html/common/themes/default/images/logo.png"/></a>
+        </div>
+        <div class="fn-right" id="headernav">
+            <div class="headernav-item">
+                
+                
+                    <a href="/hxbiz/login.do" class="headernav-item-btn"><span class="icon-16 icon-16-login"></span>登录</a>
+                    <a href="/hxbiz/supplier/register.do" class="headernav-item-btn"><span class="icon-16 icon-16-register"></span>注册</a>
+                
+                <span class="ui-divide-bar-v-gray"></span>
+                <a href="#" class="headernav-item-btn"><span class="icon-16 icon-16-help"></span>帮助</a>
+                <a href="#" class="headernav-item-btn"><span class="icon-16 icon-16-sitemap"></span>导航</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!--end head-->
+<div id="menu" class="fn-clear">
+    <ul class="ui-nav">
+        <li class="ui-nav-item">
+            <a href="/hxbiz/bid/home.do">招选主页</a>
+        </li>
+        <li class="ui-nav-item">
+            <a href="/hxbiz/bid/project/index.do?type=NotWL">采购招选</a>
+        </li>
+        <li class="ui-nav-item">
+
+            <a href="/hxbiz/bid/project/index.do?type=WL">销售物流招标</a>
+        </li>
+
+      <!--
+        <li class="ui-nav-item">
+            <a href="/hxbiz/bid/project/index.do?type=GC">工程招选</a>
+        </li>
+        <li class="ui-nav-item">
+            <a href="/hxbiz/bid/project/index.do?type=FW">服务招选</a>
+        </li>
+      -->
+        <li class="ui-nav-item">
+            <a href="/hxbiz/auction/index.do">竞买竞卖</a>
+        </li>
+
+        <li class="ui-nav-item">
+            <a href="http://www.huaxincem.com">华新主网站</a>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">
+
+    var PATH = "/hxbiz";
+
+    $(document).ready(function(){
+        String.prototype.Right = function(i) { //为String对象增加一个Right方法
+            return this.slice(this.length - i,this.length);
+            //返回值为 以“该字符串长度减i”为起始 到 该字符串末尾 的截取字符串
+        };
+        //取得上一个页面的url
+        var location = parent.location;
+        var loc=location.toString();
+        if(loc.Right(24)=="project/index.do?type=MM"){
+            $("a[href='/hxbiz/bid/project/index.do?type=MM']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(24)=="project/index.do?type=GC"){
+            $("a[href='/hxbiz/bid/project/index.do?type=GC']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(24)=="project/index.do?type=WL"){
+            $("a[href='/hxbiz/bid/project/index.do?type=WL']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(27)=="project/index.do?type=NotWL"){
+            $("a[href='/hxbiz/bid/project/index.do?type=NotWL']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(24)=="project/index.do?type=FW"){
+            $("a[href='/hxbiz/bid/project/index.do?type=FW']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(7)=="home.do"){
+            $("a[href='/hxbiz/bid/home.do']").parent().addClass("ui-nav-item-current");
+        }
+        if(loc.Right(16)=="auction/index.do"){
+            $("a[href='/hxbiz/auction/index.do']").parent().removeClass("ui-nav-item-current");
+        }
+    })
+
+
+    String.prototype.startWith=function(str){
+        var reg=new RegExp("^"+str);
+        return reg.test(this);
+    }
+
+    String.prototype.endWith=function(str){
+        var reg=new RegExp(str+"$");
+        return reg.test(this);
+    }
+</script>
+
+
+
+    
+    <div id="content" class="main-content fn-clear">
+        <h3 class="title">
+            
+            
+            
+            
+        </h3>
+
+        <form action="/hxbiz/nbid/notice/subBidList.do" method="GET">
+            <div class="ui-search fn-clear">
+                <div class="ui-search-item">
+                    <span>标题：</span><input type="text" class="ui-search-txt" value="" name="title">
+                    &nbsp;&nbsp;
+                    <span>状态：</span>
+                    <select class="ui-search-select" name="status">
+                        <option value="">--请选择--</option>
+                        <option value="1" >进行中</option>
+                        <option value="0" >已结束</option>
+                    </select>
+                    
+                    &nbsp;&nbsp;
+                    <span>类型：</span>
+                    <select name="bidType" class="ui-search-select">
+                        <option>-- 请选择标书类型 --</option>
+                        <option value="MM">采购</option>
+                        <option value="GC">工程</option>
+                        <option value="FW">服务</option>
+                    </select>
+                    
+                    <input type="hidden" name="type" value="BIDINGFAILED">
+                    <input type="hidden" name="biz" value="NotWL">
+                    <input type="hidden" name="bidMode" value="">
+                    <input type="submit" class="ui-search-btn" value="">
+                </div>
+            </div>
+
+            <table class="ui-table width-950">
+                <thead>
+                <tr>
+                    <th height="26">公告标题</th>
+                    <th width="123">发布时间</th>
+                    <th width="88">公告类型</th>
+                    <th width="88">业务类型</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=96982bbd1745423685202ef377cf06ca">流标公告</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 17:43:04
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=562e9bb24650458197aed68424442191">流标公告</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 17:13:49
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=690b733d99bd4c53ae761532437947e9">流标公告</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 15:26:21
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=8742a2f2adb9414bb34d7774f060a211">华新水泥(迪庆)有限公司玛泰询比价流标公告</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 15:25:28
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=57b6486309d3441580bdab073a497f9f"> 其他工装询比价流标</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 15:04:18
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=d0abddc6f37442b1a85916f88480154d">HX-采-CN62-2017-比-44351</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 14:51:38
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=1b98442f3e454040a28d088751638333">HX-采-CN62-2017-比-44349</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 14:51:35
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=4af7b0fbcde24ee0a5447b176c77a49c">HX-采-CN62-2017-比-44348</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 14:51:31
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=a598fb0b07294d74ae70175a22c26871">化验室耗材询比价-华新水泥(剑川)有限公司</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 14:51:05
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                    <tr height="38">
+                        <td>
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        <a href="/hxbiz/nbid/notice/detailBid.do?id=be3a929246574557b0414f21e35ea1de">流标公告</a>
+                                    
+                                
+                            
+                        </td>
+                        <td>
+                            2017-12-20 14:40:15
+                        </td>
+                        <td>
+                            
+                            
+                            
+                            
+                            流标
+                        </td>
+                        <td>
+                            
+                            采购
+                            
+                            
+                        </td>
+                    </tr>
+                
+                </tbody>
+            </table>
+
+            
+
+
+
+<!--① 声明JSTL标签，以便在本标签中使用之-->
+
+<!--② 定义了两个标签属性-->
+
+
+
+
+<!--③ 将一些标签中需要引用的对象放置到PageContext属性列表中，以便后面可以直接通过EL表达式引用之-->
+
+<!--④ 构造分页导航栏-->
+
+<div class="pagination">
+
+    <div class="button2-right off">
+        <div class="start"><span><a href="/hxbiz/nbid/notice/subBidList.do?bidmode=BJ&type=BIDINGFAILED&biz=NotWL&pageNo=1">首页</a></span>
+        </div>
+    </div>
+    <div class="button2-left">
+        <div class="page">
+            
+                
+                
+                    <a href="/hxbiz/nbid/notice/subBidList.do?bidmode=BJ&type=BIDINGFAILED&biz=NotWL&pageNo=1" >1</a>
+                
+            
+                
+                    <span style="color: red"><a href="/hxbiz/nbid/notice/subBidList.do?bidmode=BJ&type=BIDINGFAILED&biz=NotWL&pageNo=2" >2</a></span>
+                
+                
+            
+                
+                
+                    <a href="/hxbiz/nbid/notice/subBidList.do?bidmode=BJ&type=BIDINGFAILED&biz=NotWL&pageNo=3" >3</a>
+                
+            
+        </div>
+    </div>
+
+    <div class="button2-left">
+        <div class="end"><a title="末尾" href="/hxbiz/nbid/notice/subBidList.do?bidmode=BJ&type=BIDINGFAILED&biz=NotWL&pageNo=808">末尾</a>
+        </div>
+    </div>
+    <div class="limit">共8078条记录，共808页</div>
+</div>
+
+
+
+
+        </form>
+    </div>
+
+
+    
+<div id="footer">
+    <div class="foot fn-clear">
+        <div class="foot-logo fn-left"><a href="#"><img src="/hxbiz/html/common/themes/default/images/foot-logo.png"/></a></div>
+        <div class="foot-con fn-right">
+            <address>业务中心地址：湖北省武汉市关山二路特1号国际企业中心5号楼</address>
+            <p class="copyright">版权所有　华新水泥股份有限公司　　地址：中国-湖北-黄石-黄石大道897号　　鄂ICP备09010176号</p>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    $("a[href='#']").attr("href","javascript:void(0);");
+    $("#header a,#menu a,.ui-tabs-btn a,a:empty,a:has(img,span)").focus(function(){$(this).blur();});
+</script>
+</body>
+</html>

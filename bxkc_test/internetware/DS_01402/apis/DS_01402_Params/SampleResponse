@@ -1,0 +1,615 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	成都市城乡房产管理局
+</title><link href="../_Css/home.css" rel="stylesheet" type="text/css" /><link href="../_Css/zfbz.css" rel="stylesheet" type="text/css" /><link href="../_Css/secondPage.css" rel="stylesheet" type="text/css" />
+    <script src="../_JavaScript/JQuery.js"></script>
+    <script src="../_JavaScript/gb2big5.js"></script>
+</head>
+<body>
+    <form name="form1" method="post" action="Default.aspx?Code=103002" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+        <div style="text-align: center;">
+            
+<script type="text/javascript">
+
+</script>
+
+
+
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-800037-BA9A91/gs.js'></script>
+<style type="text/css">
+    .cqf_top_rg
+    {
+        float: right;
+        margin-left: 10px;
+        margin-top: 4px;
+        width: 150px;
+    }
+    .mySearchButton
+    {
+        border: 1px solid #a0a0a0;
+        float: left;
+        float: left;
+        height: 32px;
+        width: 61px;
+        background-image: url(/_Images/backgroundsearchofhead.png);
+    }
+    
+    .fixed_div
+    {
+        position: fixed;
+        left: 0px;
+        z-index: 2008;
+        width: 100%;
+        height: 25px;
+        border: 0px;
+        background-image: url(/_Images/tpbg1px.png);
+        _position: absolute;
+        _bottom: auto;
+        _top: expression(eval(document.documentElement.scrollTop));
+    }
+    .menu
+    {
+        border-radius: 5px;
+        background-color: #0057a4;
+        height: 40px;
+        font-family: 'Microsoft Yahei' , '微软雅黑' ,arial, '宋体';
+    }
+    .menu a:hover, .menuDGT a:hover
+    {
+        color: White;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .menuDGT
+    {
+        border-radius: 5px;
+        background-color: #E63600;
+        height: 40px;
+        font-family: 'Microsoft Yahei' , '微软雅黑' ,arial, '宋体';
+    }
+    .menuItem
+    {
+        color: white;
+        font-size: 11pt;
+        text-decoration: none;
+        line-height: 40px;
+    }
+    .menuItemSel
+    {
+        color: Yellow;
+        font-size: 11pt;
+        text-decoration: none;
+        line-height: 40px;
+        font-weight: bold;
+    }
+    .divMian
+    {
+        margin: 0;
+        padding: 0;
+        left: 0px;
+        border: 0px;
+        background-image: url(/_Images/head_bg.jpg);
+        background-repeat: repeat-x;
+        position: absolute;
+        width: 100%;
+        height: 203px;
+        top: 0px;
+    }
+    .web-logo
+    {
+        width: 100%;
+        height: 145px;
+        margin: 0 auto;
+        background: url(/_Images/logoofhead.jpg) no-repeat;
+    }
+    .topSearchInfo
+    {
+        float: right;
+        height: 30px;
+        width: 378px;
+        margin-top: 55px;
+        text-align: right;
+    }
+    .topSearchTitle,.topSearchContent,.topSearchContentDGT
+    {
+        float: left;
+        top: 0;
+        width: 80px;
+        font-size: 15px;
+        letter-spacing: 0;
+        cursor: pointer;
+        color: #fff;
+        overflow: hidden;
+        font-family: '\5FAE\8F6F\96C5\9ED1' ,arial, "\5b8b\4f53";
+    }
+    .topSearchContent,.topSearchContentDGT
+    {        
+        height: 36px;
+        margin-left: 5px;
+        border-width: 3px 1 3px 1px;
+    }
+    .topSearchTitle
+    {
+        height: 30px;
+        border: 0;
+        background-color: #C40000;
+    }
+    .topSearchContent
+    {        
+        background-color: #0057A4;        
+        border: solid #0057A4;
+    }
+    .topSearchContentDGT
+    {
+        background-color:#FF9000;        
+        border: solid #FF9000;
+    }
+</style>
+<div class="fixed_div">
+    <div id="ID_ucDefault_UcHead1_HeadHead" style="height: 31px; width: 980px; margin-left: auto;
+        margin-right: auto;">
+        <span style="float: left; width: 200px; text-align: left; margin-left: 0px; margin-top: 4px;
+            color: Gray;">成都市城乡房产管理局 </span><span style="float: left; margin-left: 10px; margin-top: 4px;
+                color: Gray; width: 230px; text-align: left;">今天是2018年05月09日&nbsp;
+                星期三
+            </span>
+        <div class="cqf_top_rg">
+             <a id="StranLink" href="javascript:void(0);">繁體中文</a>
+        </div>
+    </div>
+</div>
+<div style="height: 25px;">
+</div>
+<div class="divMian">
+</div>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 980px; margin-top: 0px;
+    position: relative">
+    <tr>
+        <td>
+            <div class="web-logo">
+                <div class="topSearchInfo">
+                    <div>
+                        <div style="border: solid #c40000; border-width: 3px 0 3px 3px; width: 290px; float: left;">
+                            <div style="float: left">
+                                <input style="width: 210px!important; border: 0; height: 30px; font-size: 15px; margin: 0px;
+                                    padding: 0px; line-height: 28px;" type="text" id="KeyWord" onkeydown="SubmitKeyClick('ID_ucDefault_UcHead1_Search')"
+                                    class="txt_search" value="请输入搜索内容" onfocus="if(this.value=='请输入搜索内容')this.value=''"
+                                    onblur="if(this.value=='')this.value='请输入搜索内容'" />
+                            </div>
+                            <input type="submit" name="ID_ucDefault$UcHead1$SearchTitle" value="搜标题" onclick="return openSearch(false);" id="ID_ucDefault_UcHead1_SearchTitle" class="topSearchTitle" />
+                        </div>
+                        <div>
+                            <input type="submit" name="ID_ucDefault$UcHead1$SearchContent" value="搜全文" onclick="return openSearch(true);" id="ID_ucDefault_UcHead1_SearchContent" class="topSearchContent" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        
+        <td id="ID_ucDefault_UcHead1_tdMenu" class="menu" align="left">
+            <table id="ID_ucDefault_UcHead1_listMenu" cellspacing="0" cellpadding="0" border="0" style="border-width:0px;width:100%;border-collapse:collapse;">
+	<tr>
+		<td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucDefault_UcHead1_listMenu_ctl00_hplink" href="../Default.aspx"><span id="ID_ucDefault_UcHead1_listMenu_ctl00_Label1" class="menuItem">首　页</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucDefault_UcHead1_listMenu_ctl02_hplink" href="../JGSZ/Default.aspx?ClassID=01"><span id="ID_ucDefault_UcHead1_listMenu_ctl02_Label1" class="menuItem">机构设置</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucDefault_UcHead1_listMenu_ctl04_hplink" href="../InforPart/ShowList.aspx?ClassID=101001"><span id="ID_ucDefault_UcHead1_listMenu_ctl04_Label1" class="menuItem">政府信息</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucDefault_UcHead1_listMenu_ctl06_hplink" href="../ZWDT/Default.aspx?Code=102001,108002,004001,008001"><span id="ID_ucDefault_UcHead1_listMenu_ctl06_Label1" class="menuItem">政务动态</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucDefault_UcHead1_listMenu_ctl08_HyperLink1" href="Default.aspx?Code=103002"><span id="ID_ucDefault_UcHead1_listMenu_ctl08_Label1" class="menuItemSel">公告通知</span></a></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucDefault_UcHead1_listMenu_ctl10_hplink" href="../Policy/Default.aspx?ClassID=104001"><span id="ID_ucDefault_UcHead1_listMenu_ctl10_Label1" class="menuItem">政策法规</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucDefault_UcHead1_listMenu_ctl12_hplink" href="../BSFW/Default.aspx"><span id="ID_ucDefault_UcHead1_listMenu_ctl12_Label1" class="menuItem">办事服务</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucDefault_UcHead1_listMenu_ctl14_hplink" href="../Consultative/Default.aspx"><span id="ID_ucDefault_UcHead1_listMenu_ctl14_Label1" class="menuItem">公众参与</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucDefault_UcHead1_listMenu_ctl16_hplink" href="../SCXX/Default.aspx"><span id="ID_ucDefault_UcHead1_listMenu_ctl16_Label1" class="menuItem">市场信息</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td></td>
+	</tr>
+</table>
+        </td>
+
+    </tr>
+    <tr>
+        <td style="height: 10px; line-height: 10px;">
+        </td>
+    </tr>
+</table>
+<script type="text/javascript" language="javascript">
+    function openSearch(isAllSearch) {
+        if (document.getElementById("KeyWord").value == "" || document.getElementById("KeyWord").value == "请输入搜索内容") {
+            alert("请输入查询关键字！");
+        }
+        else {
+            window.open('http://www.cdfgj.gov.cn' + '/News/ShowAllList.aspx?KeyWord=' + escape(document.getElementById("KeyWord").value) + "&IsAllSearch=" + isAllSearch);
+        }
+        return false;
+    }
+    function SubmitKeyClick(button) {
+        if (event.keyCode == 13) {
+            event.keyCode = 9;
+            event.returnValue = false;
+            document.getElementById(button).click();
+        }
+    }
+</script>
+<script type="text/javascript">
+    var toLang=0;
+    $(function(){
+        toLang=0;
+        $("#StranLink").text(toLang==0?'繁體中文':'简体中文');
+        StranBody();
+        $("#StranLink").unbind("click").bind("click", function () {
+            jQuery.ajax({
+                url: getBasePath()+"/AjaxHelpHandle/AjaxSetCookie.ashx",
+                dataType: "json",
+                async: false,
+                cache: false,
+                error: function () {
+                
+                },
+                success: function (json) {
+                    if(json!=null){
+                        toLang=json.lang;
+                        $("#StranLink").text(toLang==0?'繁體中文':'简体中文');
+                        StranBody();
+                    }
+                }
+            });
+        });
+    }); 
+</script>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 980px; background-color: #FFFFFF;">
+    <tr>
+        <td>
+            <table width="980" border="0" cellspacing="0" cellpadding="0" class="siteInfo">
+                <tr>
+                    <td>
+                        <div>
+                            <img /><span>您现在的位置：首页 &gt;公告通知</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table width="980" height="269" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="245px" align="center" valign="top" bgcolor="e0e3ec">
+                        
+<script type="text/javascript">
+    function setClass() {
+
+        var right = Request("Code");
+        if (right !="")
+            document.getElementById("Code" + right).className = "selectLeftMenu";
+    }
+    function Request(strName) {
+        var strHref = window.location.href; ;
+        var intPos = strHref.indexOf("?");
+        var strRight = strHref.substr(intPos + 1);
+
+        var arrTmp = strRight.split("&");
+        for (var i = 0; i < arrTmp.length; i++) {
+            var arrTemp = arrTmp[i].split("=");
+
+            if (arrTemp[0].toUpperCase() == strName.toUpperCase()) return arrTemp[1];
+        }
+        return "";
+    }
+</script>
+<div class="ucLeftSecond">
+    <div class="leftTitle">
+        公告通知</div>
+    <ul class="leftMenu">
+        <li><a id="Code103002" href="Default.aspx?Code=103002">公示公告</a></li>
+        <li><a id="Code103001" href="Default.aspx?Code=103001">文件通知</a></li>
+        
+        <li><a id="Code103004" href="Default.aspx?Code=103004">维修资金公告</a></li>
+    </ul>
+    <div class="leftComplaintCall">
+    </div>
+    <div class="leftText" >
+        <div class="leftTextTitle">
+            行政效能投诉地址：</div>
+        <span>成都市人民中路一段28号房地产大厦</span>
+        <div class="leftTextTitle">
+            行政效能投诉：</div>
+        <span>专指对房管局系统工作人员违纪、违规及工作作风方面的投诉，电话值守时间段为法定工作日上午9:00-12:00，下午1:00-5:00；对房产分中心窗口工作人员的投诉请直接到办证大厅二楼85号窗口现场投诉或拨打电话86279097进行投诉；本投诉电话不接受业务咨询，如有咨询请拨打业务咨询电话或进行网上业务咨询。</span>
+    </div>
+</div>
+<input type="hidden" name="ID_ucDefault$ucLeft1$hfValue" id="ID_ucDefault_ucLeft1_hfValue" />
+<script type="text/javascript">
+    setClass();
+</script>
+
+                    </td>
+                    <td width="744px" align="center" class="rightContent" valign="top">
+                        <div class="rightContent">
+                            <div class="listTitle">
+                                <span id="ID_ucDefault_CateTitle">公示公告</span>
+                            </div>
+                            <div class="listLine">
+                                <div>
+                                </div>
+                            </div>
+                            <div>
+	<table cellspacing="0" cellpadding="0" border="0" id="ID_ucDefault_ucNewsListPager1_listArt" style="border-width:0px;width:100%;border-collapse:collapse;">
+		<tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=bd368ba2-52dd-46fd-a6ae-f5a65912efed" target="_blank">“慧苑”“紫气东来”等14个经适房项目市场价格评估项目谈判邀请公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-05-08)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=d46042cd-6ca8-48ed-bccd-21700be8275a" target="_blank">简阳市城北二期棚户区（石桥镇片区）改造项目顾问咨询服务采购项目结果公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-05-08)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=339ec788-2e61-4225-b83e-175ea6d5792e" target="_blank">成都市城乡房产管理局局机关等单位财务收支审计服务竞争性磋商采购公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-05-07)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=7f5967f5-2bc6-42f0-88c9-778344a4910f" target="_blank">温馨提示</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-05-04)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=f8d328c9-4b06-4eaa-bd2f-dacce4fd691b" target="_blank">成都市房屋安全事务中心房屋使用动画宣传视频采购项目竞争性磋商公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-05-02)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=7ddc4c4a-e8a3-4b2a-9e3e-038fc020eed1" target="_blank">成都市住房保障中心棚改安置房源价格评估服务采购项目采购结果公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-05-02)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=028a7922-4a29-4c46-8f87-228f486f408b" target="_blank">成都市房屋安全事务中心超声波清洗器等实验室仪器设备采购项目询价结果更正公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-28)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=4b8896cc-02ec-4807-acd1-32bce22d9212" target="_blank">成都市住房储备中心内部控制质量检查及内部控制建设服务采购项目（第二次）结果公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-25)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=94a97fd6-26a5-4c6c-9021-2bbcc80d8d1d" target="_blank">成都房地产信息档案中心UPS维保服务采购项目竞争性磋商结果公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-25)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=f026c093-c70d-48b7-84ba-2fa7907ec916" target="_blank">简阳市城北二期棚户区（石桥镇片区）改造项目顾问咨询服务采购项目采购公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-23)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a title="成都市城乡房产管理局所属事业单位2018年公开招聘笔试成绩及进入面试资格审核人员名单公示" href="../News/ShowInfo.aspx?ArticleGuid=b7555de5-aead-4a73-8ea2-2192b991e5d2" target="_blank">成都市城乡房产管理局所属事业单位2018年公开招聘笔试成绩及进入面试资格审核人员名单公...</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-23)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=0c1c17ea-86b7-4320-8b40-bcc12189c3bf" target="_blank">“群众办事百项堵点疏解行动” 请你来投票，政府来解决</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-21)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=48ddc4de-c0d3-497b-8b0d-7de819617a57" target="_blank">成都房地产信息档案中心机房线路整理服务采购项目磋商结果公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-20)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=c10419f5-8046-4ebf-a2d7-d01d1b65d5bc" target="_blank">成都房地产信息档案中心UPS维保服务采购项目采购公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-13)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=eb2f96f2-2330-401c-93fa-9bf95cdf1584" target="_blank">成都市城乡房产管理局关于公布2018年第一季度成都市物业服务机构信用记分变化情况的公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-13)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=ce36a3ee-8137-48e5-9abc-1c8c98132f89" target="_blank">成都市住房保障中心棚改安置房源价格评估服务采购项目竞争性磋商采购公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-13)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=d60e1130-ffcd-4e26-a732-11362ad818dc" target="_blank">成都市住房置业融资担保有限公司2017年度财务报告审计服务采购项目结果公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-12)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=0687d29b-01d6-4d4c-91e7-313aa20d578e" target="_blank">成都市住房储备中心内部控制质量检查及内部控制建设服务采购项目（第二次）采购公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-11)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=a4f98afa-93a2-4845-8cec-b3a1a01ad4f2" target="_blank">成都市住房储备中心内部控制质量检查及内部控制建设服务采购项目结果公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-10)</a></span></td>
+		</tr><tr class="NewsSty">
+			<td align="center" valign="middle" style="height:30px;width:20px;"><img src="../_Images/second_list_ico.png" style="border-width:0px;" /></td><td align="left"><a href="../News/ShowInfo.aspx?ArticleGuid=6db2543c-6dbf-4ce4-8375-60315ad7026b" target="_blank">成都房地产信息档案中心机房线路整理服务采购项目采购公告</a></td><td align="right" style="width:90px;"><span><font color='#66666'>(2018-04-10)</a></span></td>
+		</tr>
+	</table>
+</div>
+<div style="margin-top:10px;">
+
+<link href="../_Css/page.css" rel="stylesheet" type="text/css" />
+<div id="ID_ucDefault_ucNewsListPager1_UcPager1_divUcPage" class="meneame">
+    
+    
+    <div id="ID_ucDefault_ucNewsListPager1_UcPager1_page1">
+	<span id="ID_ucDefault_ucNewsListPager1_UcPager1_spanRecordCount" class="spanBorder">145条</span><a id="ID_ucDefault_ucNewsListPager1_UcPager1_btnNewLast" disabled="disabled" class="disabled">上一页</a><span class="current">1</span><a id="ID_ucDefault_ucNewsListPager1_UcPager1_btnPage2" href="javascript:__doPostBack('ID_ucDefault$ucNewsListPager1$UcPager1$btnPage2','')">2</a><a id="ID_ucDefault_ucNewsListPager1_UcPager1_btnPage3" href="javascript:__doPostBack('ID_ucDefault$ucNewsListPager1$UcPager1$btnPage3','')">3</a><span class="current">...</span><a id="ID_ucDefault_ucNewsListPager1_UcPager1_btnPage8" href="javascript:__doPostBack('ID_ucDefault$ucNewsListPager1$UcPager1$btnPage8','')">8</a><a id="ID_ucDefault_ucNewsListPager1_UcPager1_btnNewNext" class="btnClass" href="javascript:__doPostBack('ID_ucDefault$ucNewsListPager1$UcPager1$btnNewNext','')">下一页</a><span id="ID_ucDefault_ucNewsListPager1_UcPager1_lbPageCount" class="spanBorder">共8页</span><span id="ID_ucDefault_ucNewsListPager1_UcPager1_spanPage">到第<input name="ID_ucDefault$ucNewsListPager1$UcPager1$txtPage" type="text" value="1" id="ID_ucDefault_ucNewsListPager1_UcPager1_txtPage" class="txtClass" style="width:40px;" />页</span><a id="ID_ucDefault_ucNewsListPager1_UcPager1_btnPageSubmit" class="btnClass" href="javascript:__doPostBack('ID_ucDefault$ucNewsListPager1$UcPager1$btnPageSubmit','')">确定</a>
+</div>
+    
+        
+        
+             
+</div>
+
+</div>
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div style="height: 10px;">
+            </div>
+        </td>
+    </tr>
+</table>
+
+<style type="text/css">
+    .foot
+    {
+        border-top: 3px solid #024886;
+    }
+    .footDGT
+    {        
+        border-top: 3px solid #FFC000;
+    }
+    .foot,.footDGT
+    {
+        background-color: #E1E1E1;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        float: left;
+        line-height: 20px;
+        padding: 10px 0px 10px 0px;
+    }
+</style>
+<div id="ID_ucDefault_UcFoot1_divFoot" class="foot">
+    <table width="980px" border="0" cellspacing="0" cellpadding="0">
+        <tr style="width: 980px;">
+            <td><script id="_jiucuo_" sitecode='5101000035' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></td>
+            <td style="text-align: left;">
+                <script type="text/javascript">
+                    document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/333/0000/60477005/CA233330000604770050002.js' type='text/javascript'%3E%3C/script%3E"));
+                </script>                
+            </td>
+            <td align="center">
+                主办：成都市城乡房产管理局&nbsp;&nbsp;&nbsp;维护：成都房地产信息档案中心<br />
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成都市人民政府政务服务中心房产分中心地址：西华门街32号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮编：610015
+                <br />
+                上班时间：周一至周五(上午9:00-12:00,下午13:00-17:00)&nbsp;周六、周日(上午9:30-12:00，下午13:00-16:00)<br />
+                <span style="color: #000">网站标识码5101000035 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蜀ICP备05001475号&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span id="ID_ucDefault_UcFoot1_lbVisitCnt">总访问量：64172907</span>
+            </td>
+            <td style="width: 100px; text-align: right;">
+                <a href="http://www.cdnet110.com/" target="_blank">
+                    <img src="/_images/police.png"></a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+        </div>
+    </form>
+</body>
+</html>

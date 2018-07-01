@@ -1,0 +1,356 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>中国中铁电气化局集团第三工程有限公司</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+h1 {
+	font-size: 18px; margin-top:20px;
+}
+</style>
+</head>
+<body>
+<div style="width: 965px;margin: 0 auto;">
+<table width="965" border="0" cellspacing="0" cellpadding="0" class="topDiv">
+  <tr>
+    <td width="656" height="79" rowspan="2"><img src="../images/top1.jpg" width="656" /></td>
+    <td width="309" height="46"><img src="../images/top2.jpg" width="309" height="46" border="0" usemap="#Map" /></td>
+  </tr>
+  <tr>
+    <td height="33" align="right" background="../images/top3.jpg" style="color:#000000">
+    <div id="webjx"></div>
+   <script>setInterval("webjx.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+   </script>
+   </td>
+  </tr>
+</table>
+<map name="Map" id="Map">
+<area shape="rect" coords="10,23,86,45" href="#" />
+<area shape="rect" coords="102,24,162,45" href="#" />
+<area shape="rect" coords="180,22,238,45" href="../culture/index.asp" />
+<area shape="rect" coords="252,22,314,46" href="../Projects/index.asp" />
+</map>
+<link href="/css.css" rel="stylesheet" type="text/css" />
+<table width="965" border="0" align="center" cellpadding="0" cellspacing="0" style="background:Url(/images/TMenuBg01.gif) repeat-x" class="topDiv">
+<script language="javascript">
+<!--
+// JavaScript Document
+//控制子菜单的显示与隐藏
+function changeMenuDisplay(mainMenu,subMenu){
+  var s=document.getElementById(subMenu)
+	s.style.display="block"
+	mainMenu.className="TMenu02"
+  mainMenu.onmouseover=function()
+	{
+		s.style.display="block"
+		mainMenu.className="TMenu02"
+		s.onmouseover=function(){
+			s.style.display="block";
+			mainMenu.className="TMenu02"
+		}
+		s.onmouseout=function()
+		{
+			s.style.display="none"
+			mainMenu.className="TMenu01"
+		}
+	}
+	mainMenu.onmouseout=function()
+	{
+			s.style.display="none"
+			mainMenu.className="TMenu01"
+	}
+}
+
+function TMenuMouseOver(tdid)
+{
+	tdid.className="TMenu02";
+}
+
+function TMenuMouseOut(tdid)
+{
+	tdid.className="TMenu01";
+}
+-->
+</script>
+			<tr>
+				<td width="960" height="35">
+					<table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="mPage" class="TMenu01" height="35" width="40" align="center" valign="middle" onMouseOver="javascript:TMenuMouseOver(mPage)" onMouseOut="javascript:TMenuMouseOut(mPage)">
+							<a href="/index.asp" class="TMenu">首页</a>
+							</td> 
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+							<td id="tdgsjj" class="TMenu01" width="75" align="center" valign="middle" onMouseOver="changeMenuDisplay(this,'divgsjj');">
+							<a href="/AboutUs/index.asp" class="TMenu">公司简介</a>
+							<div id="divgsjj">
+								<table width="400" border="0" cellpadding="0" cellspacing="0">
+									
+									<tr>
+									<td height="26" align="left" valign="middle"><a href="/AboutUs/intro.asp" class="SubMenu" target="_blank">公司概况</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/AboutUs/manager.asp" class="SubMenu" target="_blank">领导致辞</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/AboutUs/qualtify.asp" class="SubMenu" target="_blank">企业资信</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/AboutUs/develop.asp" class="SubMenu" target="_blank">发展历程</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/AboutUs/Structure.asp" class="SubMenu" target="_blank">组织结构</a>
+									</td>
+									</tr>
+								</table>
+							</div>
+							</td> 
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+							<td id="tdNews" width="75" align="center" valign="middle" onMouseOver="changeMenuDisplay(this,'divNews');">
+							<a href="/News/index.asp" class="TMenu">新闻报道</a>
+							<div id="divNews">
+								<table width="400" border="0" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="26" align="left" valign="middle"><a href="/News/news1.asp?typeId=3" class="SubMenu" target="_blank">最新消息</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/News/news2.asp?typeId=4" class="SubMenu" target="_blank">视频新闻</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/News/news2.asp?typeId=5" class="SubMenu" target="_blank">图片新闻</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/News/news2.asp?typeId=6" class="SubMenu" target="_blank">媒体报道</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/News/news8.asp?typeId=28" class="SubMenu" target="_blank">综合通讯</a>
+									</td>
+									</tr>
+								</table>
+							</div>
+							</td> 
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+							<td id="tdGczs" width="75" align="center" valign="middle" onMouseOver="changeMenuDisplay(this,'divGczs');">
+							<a href="/Projects/index.asp" class="TMenu">工程展示</a>
+							<div id="divGczs">
+								<table width="800" border="0" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="26" align="left" valign="middle"><a href="/Projects/p01.asp?bigclass=接触网工程" class="SubMenu" target="_blank">接触网工程</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Projects/p01.asp?bigclass=变电专业" class="SubMenu" target="_blank">变电专业</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Projects/p01.asp?bigclass=通信专业" class="SubMenu" target="_blank">通信专业</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Projects/p01.asp?bigclass=信号专业" class="SubMenu" target="_blank">信号专业</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Projects/p01.asp?bigclass=工民建、市政工程" class="SubMenu" target="_blank">工民建、市政工程</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Projects/p01.asp?bigclass=城市轨道交通" class="SubMenu" target="_blank">城市轨道交通</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Projects/p01.asp?bigclass=高速公路机电工程" class="SubMenu" target="_blank">高速公路机电工程</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Projects/p01.asp?bigclass=获奖工程" class="SubMenu" target="_blank">获奖工程</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Projects/p01.asp?bigclass=专业产品" class="SubMenu" target="_blank">专业产品</a>
+									</td>
+									</tr>
+								</table>
+							</div>
+							</td> 
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+							<td id="tdKjfz" width="75" align="center" valign="middle" onMouseOver="changeMenuDisplay(this,'divKjfz');">
+							<a href="/Tech/index.asp" class="TMenu">科技发展</a>
+							<div id="divKjfz">
+								<table width="400" border="0" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="26" align="left" valign="middle"><a href="/Tech/T01.asp" class="SubMenu" target="_blank">高新技术</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Tech/T02.asp" class="SubMenu" target="_blank">科研成果</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Tech/T03.asp" class="SubMenu" target="_blank">交流合作</a>
+									</td>
+									</tr>
+								</table>
+							</div>
+							</td> 
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+							<td id="tdQywh" width="75" align="center" valign="middle" onMouseOver="changeMenuDisplay(this,'divQywh');">
+							<a href="/culture/index.asp" class="TMenu">企业文化</a>
+							<div id="divQywh" style="left: -100px;">
+								<table width="800" border="0" cellpadding="0" cellspacing="0">
+									<tr>									
+									<td height="26" align="left" valign="middle"><a href="/culture/index.asp" class="SubMenu" target="_blank">企业理念识别系统</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/culture/cul4.asp" class="SubMenu" target="_blank">企业视觉识别系统</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/culture/cul5.asp" class="SubMenu" target="_blank">企业行为识别系统</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/culture/cul6.asp" class="SubMenu" target="_blank">项目文化</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/culture/cul2.asp" class="SubMenu" target="_blank">企业形象歌曲</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/culture/cul3.asp" class="SubMenu" target="_blank">社会责任</a>
+									</td>
+									</tr>
+								</table>
+							</div>
+							</td> 
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+							<td id="tdZjgc" width="75" align="center" valign="middle" onMouseOver="changeMenuDisplay(this,'divZjgc');">
+							<a href="/Manage/index.asp" class="TMenu">在建工程</a>
+							<div id="divZjgc">
+								<table width="400" border="0" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="26" align="left" valign="middle"><a href="/Manage/M01.asp" class="SubMenu" target="_blank">工程概况</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/Manage/M02.asp" class="SubMenu" target="_blank">工程进展</a>
+									</td>
+									</tr>
+								</table>
+							</div>
+							</td> 
+							
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+							<td id="tdJswm" width="75" align="center" valign="middle" onMouseOver="changeMenuDisplay(this,'divJswm');">
+							<a href="/spirit/index.asp" class="TMenu">精神文明</a>							
+							<div id="divJswm" style="left: -100px;position: absolute;top: 38px;left: 0px;width: 400px;z-index: 9px;display: none;text-align: left;">
+								<table width="800" border="0" cellpadding="0" cellspacing="0">
+									<tr>									
+									<td height="26" align="left" valign="middle">
+									<a href="/spirit/s1.asp?bid=9" class="SubMenu" target="_blank">党建工作</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/spirit/s1.asp?bid=11" class="SubMenu" target="_blank">思想政治工作研究</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/spirit/s2.asp" class="SubMenu" target="_blank">工会园地</a>
+									&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/spirit/s1.asp?bid=10" class="SubMenu" target="_blank">活力青年</a>
+									</td>
+									</tr>
+								</table>
+							</div>
+							</td> 
+							<!--
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+							<td id="tdZydhb" width="96" align="center" valign="middle" onMouseOver="javascript:TMenuMouseOver(tdZydhb)" onMouseOut="javascript:TMenuMouseOut(tdZydhb)">
+							<a href="/newspaper.asp" class="TMenu">中原电化报</a>							</td> 
+							-->
+							
+							<!--div id="divWyzc">
+								<table width="400" border="0" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="26" align="left" valign="middle"><a href="/wenyi/index.asp" class="SubMenu" target="_blank">摄影天地</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/wenyi/wy2.asp" class="SubMenu" target="_blank">书法|绘画|篆刻</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/wenyi/wy3.asp" class="SubMenu" target="_blank">文学作品</a>
+									</td>
+									</tr>
+								</table>
+							</div-->
+							</td>
+							
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+							<td width="80" id="tdWzzb" align="center" valign="middle" onMouseOver="changeMenuDisplay(this,'divWyzc');">
+							<a href="/News/news5.asp?typeId=29" class="TMenu">文艺园地</a>
+							<div id="divWyzc">
+								<table width="400" border="0" cellpadding="0" cellspacing="0">
+									<tr>
+									<td height="26" align="left" valign="middle"><a href="/News/news5.asp?typeId=29" class="SubMenu" target="_blank">员工文学</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/News/news5.asp?typeId=30" class="SubMenu" target="_blank">摄影天地</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/News/news5.asp?typeId=31" class="SubMenu" target="_blank">书法绘画</a>
+									</td>
+									</tr>
+								</table>
+							</div>
+							</td> 
+                            <td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+                            <td width="75" align="center" valign="middle">
+							<a href="/home.asp" class="TMenu">友情链接</a></td> 
+                            <!--
+							<td width="1" align="center"><img src="/images/TMenuBg02.gif" border="0" width="1" height="35" />							</td>
+                            <td width="75" align="center" valign="middle">
+							<a href="http://dwpcs.hngcga.gov.cn" class="TMenu">工程保卫</a></td> 
+							-->
+						</tr>
+					</table></td>
+				<td width="5">&nbsp;</td>
+			</tr>
+		</table>
+		
+<img src="/images/news.jpg" style="width:965px;height:230px;"/>
+<table width="965" border="0" cellpadding="0" cellspacing="0" class="mtd8">
+  <tr>
+    <td width="26" height="463">&nbsp;</td>
+    <td width="187" align="center" valign="top" bgcolor="#F4F4F5" class="mtd6" ><img src="../images/main17.gif" width="187" height="15" />
+	<table width="89%" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+<td height="30" align="left" class="mtd7"><img src="../images/main18.gif" width="11" height="11" align="absmiddle" />&nbsp;<a href="news1.asp?typeId=3" class="red">最新消息</a></td>
+</tr>
+
+<tr>
+<td height="30" align="left" class="mtd7"><img src="../images/main18.gif" width="11" height="11" align="absmiddle" />&nbsp;<a href="news2.asp?typeId=4" class="red">视频新闻</a></td>
+</tr>
+
+<tr>
+<td height="30" align="left" class="mtd7"><img src="../images/main18.gif" width="11" height="11" align="absmiddle" />&nbsp;<a href="news3.asp?typeId=5" class="red">图片新闻</a></td>
+</tr>
+
+<tr>
+<td height="30" align="left" class="mtd7"><img src="../images/main18.gif" width="11" height="11" align="absmiddle" />&nbsp;<a href="news4.asp?typeId=6" class="red">媒体报道</a></td>
+</tr>
+
+<tr>
+<td height="30" align="left" class="mtd7"><img src="../images/main18.gif" width="11" height="11" align="absmiddle" />&nbsp;<a href="news7.asp?typeId=25" class="red">劳务招标</a></td>
+</tr>
+
+<tr>
+<td height="30" align="left" class="mtd7"><img src="../images/main18.gif" width="11" height="11" align="absmiddle" />&nbsp;<a href="news8.asp?typeId=28" class="red">综合通讯</a></td>
+</tr>
+
+</table>
+
+	</td>
+    <td align="center" valign="top"><table width="94%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px">
+      <tr>
+        <td width="21%"><img src="../images/news13.gif" width="150" height="34" /></td>
+        <td width="79%" align="right" background="../images/aboutus2.gif">首页&nbsp;>&nbsp;新闻信息&nbsp;&gt;&nbsp;无分类</td>
+      </tr>
+    </table>
+	  <table width="94%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" align="center" style="border-bottom:#999 1px solid; color:#000"><h1>[NLDL-01公告]中铁电气化局集团有限公司改建铁路南平至龙岩线扩能改造工程南龙铁路四电系统集成工程电力专业自购物资设备采购招标开标时间推迟的公告</h1></td>
+  </tr>
+  <tr>
+    <td height="30" align="center"><span>(点击: <font color="#ff0000">655</font>) </span>  时间:2018/1/3</td>
+  </tr>
+  <tr>
+    <td align="left" style="padding:10px; line-height:20px">
+     </td>
+  </tr>
+  <tr>
+    <td align="left" style="padding:10px; line-height:20px"><DIV align=center><B><FONT face=宋体>招标编号：</FONT>NLDL-01</B></DIV>
+<DIV align=center><STRONG></STRONG><B></B>&nbsp;</DIV>
+<DIV align=center><B></B></DIV>
+<DIV><FONT face=宋体>原澄清时间：</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>第二章&nbsp;<FONT face=宋体>投标人须知</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>2.2.2<FONT face=宋体>招标人澄清，截止时间：</FONT><FONT face=Calibri>2017</FONT><FONT face=宋体>年</FONT><FONT face=Calibri>12</FONT><FONT face=宋体>月</FONT><FONT face=Calibri>23</FONT><FONT face=宋体>日</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=宋体>原开标时间：</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>5<FONT face=宋体>．投标文件的递交</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>5.1<FONT face=宋体>投</FONT><FONT face=宋体>标文件递交的时间为：</FONT><U>2018年01月09日 8 时 30 分至9时 30分</U><FONT face=宋体>，递交投标文件的截止时间（投标截止时间，下同）为</FONT><U>2018年01月09日9时30 分</U><FONT face=宋体>，递交地点：中铁电气化局三公司第一项目分公司（郑州市航海中路</FONT>8<FONT face=宋体>号</FONT><FONT face=Calibri>4</FONT><FONT face=宋体>楼会议室）。</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>5.2<FONT face=宋体>逾期送达或者未送达指定地点或者不按照招标文件要求密封的投标文件，招标人不予受理。</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><B><FONT face=宋体>说明：</FONT></B><B><FONT face=宋体>因投标人对技术要求质疑的澄清落实过程</FONT></B><B><FONT face=宋体>延误，经商议已挂网的澄清时间顺延开标时间。</FONT></B></DIV>
+<DIV><STRONG></STRONG>&nbsp;</DIV>
+<DIV>5<FONT face=宋体>．投标文件的递交</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>5.1<FONT face=宋体>投</FONT><FONT face=宋体>标文件递交的时间为：</FONT><U>2018年01月</U><U>19</U><U><FONT face=宋体>日</FONT> 8 时 30 分至9时 30分</U><FONT face=宋体>，递交投标文件的截止时间（投标截止时间，下同）为</FONT><U>2018年01月</U><U>19</U><U><FONT face=宋体>日</FONT>9时30 分</U><FONT face=宋体>，递交地点：中铁电气化局三公司第一项目分公司（郑州市航海中路</FONT>8<FONT face=宋体>号</FONT><FONT face=Calibri>4</FONT><FONT face=宋体>楼会议室）。</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>5.2<FONT face=宋体>逾期送达或者未送达指定地点或者不按照招标文件要求密封的投标文件，招标人不予受理。</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>6.发布公告的媒体</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=宋体>本次招标公告将在中国采购与招标网站（</FONT>http://www.chinabidding.com.cn/<FONT face=宋体>）、中国中铁采购电子商务平台（</FONT><A href="http://www.lubanec.com/">http:/ www.crecgec.com /</A><FONT face=宋体>）、中国中铁电气化局集团公司网站（</FONT>http://www.eeb.cn/<FONT face=宋体>）、中国中铁电气化局集团第三工程有限公司</FONT><FONT face=Calibri>(<A href="http://www.eebthree.cn/">http://www.eebthree.cn/</A>)</FONT><FONT face=宋体>同时发布。 </FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>7.联系方式&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=宋体>招</FONT> <FONT face=宋体>标</FONT> <FONT face=宋体>人：</FONT><U><FONT face=宋体>中铁电气化局集团有限公司南龙铁路四电系统集成项目经理部</FONT></U></DIV>
+<DIV><FONT face=宋体>联</FONT> <FONT face=宋体>系</FONT> <FONT face=宋体>人：</FONT><U><FONT face=宋体>王卫锋</FONT></U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<U><FONT face=宋体>张旭刚</FONT></U></DIV>
+<DIV><FONT face=宋体>联系电话：</FONT><U>0598-3610461</U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<U>0598-3612870</U><U></U></DIV>
+<DIV><FONT face=宋体>电子邮箱：</FONT><A href="mailto:changjiang122000@aliyun.com"><U>changjiang122000@aliyun.com</U></A>&nbsp;&nbsp;&nbsp;&nbsp;<U>&nbsp;dlbdwz@163.com</U><U></U></DIV>
+<DIV><FONT face=宋体>地</FONT> &nbsp;&nbsp;&nbsp;<FONT face=宋体>址：</FONT><U><FONT face=宋体>福建省永安市竹晟大酒店</FONT>7楼</U></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp;&nbsp;&nbsp;</DIV>
+<DIV align=right>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT face=宋体>中铁电气化局集团有限公司南龙铁路四电系统集成项目经理部</FONT></DIV>
+<DIV align=right>&nbsp;&nbsp;2018&nbsp;<FONT face=宋体>年</FONT>01<FONT face=宋体>月</FONT>03<FONT face=宋体>日</FONT></DIV>
+<DIV>&nbsp;</DIV><!--EndFragment--></td>
+  </tr>
+</table>
+<br />
+<br />
+<br />
+<table width="100%" border="0">
+  <tr>
+    <td>&nbsp;
+    
+    <a href="shownews.asp?id=12185">上一篇:淮萧客车联络线四电集成工程废旧物资公开处置公告</a>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    
+    </td>
+  </tr>
+</table>
+	</td>
+  </tr>
+</table>
+<table width="964" border="0" cellpadding="0" cellspacing="0" align="center" class="main5" style="margin-top:4px">
+  <tr>
+    <td width="122" height="70" align="right"><img src="../images/main11.gif" width="64" height="50"   style="margin-right:20px"/></td>
+    <td width="434" align="left"  style="color:#8B8B8E; line-height:20px"><img src="../images/main12.gif" width="53" height="13" align="absmiddle" />&nbsp;<a href="../index.asp" class="hui">返回首页</a>&nbsp;<img src="../images/main14.gif" width="13" height="13" align="absmiddle" />&nbsp;<a href="../AboutUs/index.asp" class="hui">公司简介</a>&nbsp;<img src="../images/main14.gif" width="13" height="13" align="absmiddle" />&nbsp;<a href="../spirit/index.asp" class="hui">精神文明</a>&nbsp;<img src="../images/main14.gif" width="13" height="13" align="absmiddle" />&nbsp;<a href="../home.asp" class="hui">友情连接</a>&nbsp;<img src="../images/main13.gif" width="53" height="13" align="absmiddle" /><br />
+中铁电气化局集团第三工程有限公司<br />
+Copyright 2009 All rights reserved</td>
+    <td width="277" align="left" style="color:#8B8B8E"><img src="../images/main15.gif" width="15" height="15" align="absmiddle" />&nbsp;豫ICP备案15498548号<br/>技术支持：<a href="http://www.web0371.com.cn" class="hui">汉合科技</a></td>
+    <td width="131" align="left">	
+	<!--iframe src="http://qycount.web0371.com.cn/iClienth.asp?id=3" frameborder="0" width="160" height="19" scrolling="no"></iframe--></td>
+  </tr>
+</table>
+
+
+
+
+</div>
+</body>
+</html>
+

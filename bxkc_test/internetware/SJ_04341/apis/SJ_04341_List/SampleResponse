@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>招标公告-中辰工程咨询有限公司官方网站</title>
+<meta name="keywords" content="招标公告" />
+<meta name="description" content="招标公告" />
+<link type="text/css" href="/css/index.css" rel="stylesheet" />
+<link type="text/css" href="/css/common.css" rel="stylesheet" />
+<link href="/css/16sucai_index.css" rel="stylesheet" type="text/css">
+<script src="/js/jquery-1.4.2.min.js"></script>
+<script src="/js/xiala.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+  <div class="logo"><a onClick="this.style.behavior='url(#default#homepage)'; this.setHomePage('http://www.zcgczx.com');" href="javascript:void(0);">设为首页</a><a>|</a><a style="cursor:hand" onclick="window.external.AddFavorite(location.href,document.title);" href="javascript:void(0);">加入收藏</a></div>
+</div>
+<div class="clear"></div>
+<div class="dh">
+    <ul id="sddm">
+        <li><a href="/">网站首页</a></li>
+        <li class="dh1"><a href="/about.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">公司概况</a><br />
+          <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" > <a href="/about.html">公司简介</a><a href="/fanwei.html">业务范围</a><a href="/Honor/">公司资质</a><a href="/jiagou.html">组织结构</a><a href="/fenzhi.html">分支机构</a><a href="/gsry/">公司荣誉</a><a href="/linian.html">企业文化</a><a href="/fengcai/">中辰风采</a></div>        
+        </li>
+        <li><a href="/news/" onmouseover="mopen('m3')" onmouseout="mclosetime()">新闻中心</a><br />
+          <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime() style="visibility:hidden""> <a href="/gsnews/">公司新闻</a><a href="/tzgg/">公司通告</a><a href="/hynews/">行业动态</a></div>
+        </li>
+        <li class="dh2"><a href="/zbcg/" onmouseover="mopen('m4')" onmouseout="mclosetime()">招标采购</a><br />
+          <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"><a href="/liucheng/">业务流程</a> <a href="/zbgg/">招标公告</a><a href="/zbgs/">中标公示</a><a href="/xmtz/">项目通知</a> <a href="/xzzx/">下载中心</a> </div> 
+        </li>
+        <li><a href="/zjzx/" onmouseover="mopen('m5')" onmouseout="mclosetime()">造价咨询</a></li>
+        <li><a href="/case/" onmouseover="mopen('m6')" onmouseout="mclosetime()">业绩展示</a></li>
+        <li><a href="/Policies/" onmouseover="mopen('m7')" onmouseout="mclosetime()">政策法规</a><br />
+          <div id="m7" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		  
+           <A href="/flfg/">法律法规</A>
+           <A href="/bmgz/">部门规章</A>
+           <A href="/dffg/">地方法规</A>
+           <A href="/gfxwj/">规范性文件</A></div>        
+        </li>
+        <li><a href="/messages/" onmouseover="mopen('m8')" onmouseout="mclosetime()">在线交流</a></li>
+        <li><a href="/zjzc.html" onmouseover="mopen('m9')" onmouseout="mclosetime()">专家注册</a></li>
+        <li><a href="/job.html" onmouseover="mopen('m9')" onmouseout="mclosetime()">诚聘英才</a></li>
+        <li><a href="/contact.html" onmouseover="mopen('m9')" onmouseout="mclosetime()">联系我们</a></li>
+      </ul>
+</div>
+<div class="clear"></div>
+<div class="banner">
+<script type="text/javascript">
+				var swf_width=992;
+				var swf_height=272;
+				/*-- 参数 自动播放时间(秒)|文字颜色|文字背景色|文字背景透明度|按键数字颜色|当前按键颜色|普通按键色彩 */
+				var config='5|0xffffff|0x50B20E|100|0xffffff|0xff0000|0xA70103';
+				var files='',links='', texts='';
+				
+				files+='|/images/zg_r2_c4.jpg';
+				links+='|/';
+				files+='|/images/banner.jpg';
+				links+='|/';
+				files+='|/images/banner2.jpg';
+				links+='|/';
+				files+='|/images/banner3.jpg';
+				links+='|/';
+				files=files.substring(1);
+				links=links.substring(1);
+				texts=texts.substring(1);
+				document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+				document.write('<param name="movie" value="/images/focus.swf" />');
+				document.write('<param name="quality" value="high" />');
+				document.write('<param name="menu" value="false" />');
+				document.write('<param name=wmode value="opaque" />');
+				document.write('<param name="FlashVars" value="config='+config+'&bcastr_flie='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'" />');
+				document.write('<embed src="/images/focus.swf" wmode="opaque" FlashVars="config='+config+'&bcastr_flie='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'& menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+				document.write('</object>');
+				</script>
+</div>
+<div class="clear"></div>
+<div class="nr">
+  <div class="tt"><img src="/images/zg_r2_c2.jpg" /></div>
+  <div class="nr-cen">
+    <div class="ej-le">
+      <div class="btt"><img src="/images/zb_r2_c2.jpg" /></div>
+      <ul>
+        <li><a href="/liucheng/" >业务流程</a></li>
+        <li><a href="/zbgg/" >招标公告</a></li>
+        <li><a href="/zbgs/" >中标公示</a></li>
+        <li><a href="/xmtz/" >项目通知</a></li>
+        <li><a href="/xzzx/" >下载中心</a></li>
+      </ul>
+    </div>
+    <div class="ej-ri">
+      <div class="lmm"><h3>招标公告</h3><span>您的位置：<a href="/">首页</a>  > <a href=/zbcg/>招标采购</a> > <a href=/zbgg/>招标公告</a></span></div>
+      <ul class="xw">
+	  
+	  <li><a href="/zbgg/2837.html" title="《发现郑州·先秦篇》拍摄制作发行项目采购招标公告">《发现郑州·先秦篇》拍摄制作发行项目采购招标公告</a><span>2017-11-01</span></li>
+	  <li><a href="/zbgg/2812.html" title="河南省烟草职工培训中心食材采购供应商入围项目招标公告">河南省烟草职工培训中心食材采购供应商入围项目招标公告</a><span>2017-10-31</span></li>
+	  <li><a href="/zbgg/2816.html" title="新密市妇幼保健院暨儿童医院建设项目气动管道传输系统工程招标公告">新密市妇幼保健院暨儿童医院建设项目气动管道传输系统工程招标公告</a><span>2017-10-24</span></li>
+	  <li><a href="/zbgg/2823.html" title="黄河滩区迁建光伏扶贫电站项目（陈桥镇）招标公告">黄河滩区迁建光伏扶贫电站项目（陈桥镇）招标公告</a><span>2017-10-20</span></li>
+	  <li><a href="/zbgg/2810.html" title="西宁市残疾人康复中心项目锅炉房土建及设备采购招标公告">西宁市残疾人康复中心项目锅炉房土建及设备采购招标公告</a><span>2017-10-19</span></li>
+	  <li><a href="/zbgg/2818.html" title="郑州市中原新区庙王安置区、三十里铺安置区项目桩基检测招标公告">郑州市中原新区庙王安置区、三十里铺安置区项目桩基检测招标公告</a><span>2017-10-16</span></li>
+	  <li><a href="/zbgg/2817.html" title="郑州市中原新区庙王安置区、三十里铺安置区项目基坑监测招标公告">郑州市中原新区庙王安置区、三十里铺安置区项目基坑监测招标公告</a><span>2017-10-16</span></li>
+	  <li><a href="/zbgg/2847.html" title="郑州市魏庄西街（紫东路-南三环）道路工程施工招标公告">郑州市魏庄西街（紫东路-南三环）道路工程施工招标公告</a><span>2017-10-13</span></li>
+	  <li><a href="/zbgg/2842.html" title="郑州市安康路（紫辰路-银莺路）道路工程施工招标公告">郑州市安康路（紫辰路-银莺路）道路工程施工招标公告</a><span>2017-10-13</span></li>
+	  <li><a href="/zbgg/2841.html" title="郑州市魏庄西街（紫东路-南三环）道路工程监理招标公告">郑州市魏庄西街（紫东路-南三环）道路工程监理招标公告</a><span>2017-10-13</span></li>
+	  <li><a href="/zbgg/2835.html" title="郑州市安康路（紫辰路-银莺路）道路工程监理招标公告">郑州市安康路（紫辰路-银莺路）道路工程监理招标公告</a><span>2017-10-13</span></li>
+	  <li><a href="/zbgg/2807.html" title="中国人寿保险股份有限公司青海省分公司2017-2020年装饰装修工程投标人备选库入围选聘项目招标公告(资格后审)">中国人寿保险股份有限公司青海省分公司2017-2020年装饰装修工程投标人备选库入围…</a><span>2017-09-30</span></li>
+	  <li><a href="/zbgg/2829.html" title="北三环东延快速通道工程施工二标段暂估价摩擦摆减隔震支座招标公告">北三环东延快速通道工程施工二标段暂估价摩擦摆减隔震支座招标公告</a><span>2017-09-30</span></li>
+	  <li><a href="/zbgg/2828.html" title="北三环东延快速通道工程施工一标段暂估价摩擦摆减隔震支座招标公告">北三环东延快速通道工程施工一标段暂估价摩擦摆减隔震支座招标公告</a><span>2017-09-30</span></li>
+	  <li><a href="/zbgg/2827.html" title="北三环东延快速通道工程施工一标段暂估价摩擦摆减隔震支座招标公告">北三环东延快速通道工程施工一标段暂估价摩擦摆减隔震支座招标公告</a><span>2017-09-30</span></li>
+	  <li><a href="/zbgg/2805.html" title="民和县2017年美丽乡村太阳能路灯建设项目-施工监理项目竞争性谈判招标公告">民和县2017年美丽乡村太阳能路灯建设项目-施工监理项目竞争性谈判招标公告</a><span>2017-09-25</span></li>
+	  <li><a href="/zbgg/2824.html" title="河南省黄河滩区居民迁建2017年度封丘县李庄镇工程第1标段招标公告">河南省黄河滩区居民迁建2017年度封丘县李庄镇工程第1标段招标公告</a><span>2017-09-25</span></li>
+	  <li><a href="/zbgg/2804.html" title="中国人寿保险股份有限公司青海省分公司2017-2020年办公家具供应商备选库入围选聘项目招标公告(资格后审)">中国人寿保险股份有限公司青海省分公司2017-2020年办公家具供应商备选库入围选聘…</a><span>2017-09-21</span></li>
+	  <li><a href="/zbgg/2844.html" title="郑州市南桂路-向荣路（天泰路-大学南路）道路工程施工招标公告">郑州市南桂路-向荣路（天泰路-大学南路）道路工程施工招标公告</a><span>2017-09-08</span></li>
+	  <li><a href="/zbgg/2838.html" title="郑州市南桂路-向荣路（天泰路-大学南路）道路工程监理招标公告">郑州市南桂路-向荣路（天泰路-大学南路）道路工程监理招标公告</a><span>2017-09-08</span></li>
+      </ul>
+	  <div class="List_page"><a>总数：1346</a><a href="Index_2.html">上一页</a><a href="Index.html">1</a><a href="Index_2.html">2</a><span>3</span><a href="Index_4.html">4</a><a href="Index_5.html">5</a><a href="Index_6.html">6</a><a href="Index_4.html">下一页</a><a href="Index_68.html">..68</a><a>页次：3/68</a></div>
+    </div>
+    
+  </div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+  <div class="db_n_r">
+				<p class="zdh"><a href="/" title="">首页</a> | <a href="/about.html" title="">公司概况</a> | <a href="/news/" title="">新闻中心</a> | <a href="/zbcg/" title="">招标采购</a> | <a href="/zjzx/" title="">造价咨询</a> | <a href="/case/" title="">业绩展示</a> | <a href="/Policies/" title="">政策法规</a>
+                | <a href="/message.html" title="">在线交流</a> | <a href="/zjzc.html" title="">专家注册</a> | <a href="/job.html" title="">诚聘英才</a> | <a href="/contact.html" title="">联系我们</a></p>
+				<p>Copyright 2007-2017  , All Rights Reserved 豫ICP备12009163号<br />中辰工程咨询有限公司 www.zcgczx.com</p>
+                <p><a href="http://218.28.13.36:8999/TopICRS/certificateAction.do?id=201608310000002054" target="_blank" ><img src="/images/zzgs_icon.jpg" /></a></p>
+			</div>
+</div>
+
+<script type="text/javascript">
+<!-- 
+(function (d) {
+window.bd_cpro_rtid="P10zPjD";
+var s = d.createElement("script");s.type = "text/javascript";s.async = true;s.src = location.protocol + "//cpro.baidu.com/cpro/ui/rt.js";
+var s0 = d.getElementsByTagName("script")[0];s0.parentNode.insertBefore(s, s0);
+})(document);
+//-->
+</script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F642b76e47d7d6e1b6b62012c11644d78' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>

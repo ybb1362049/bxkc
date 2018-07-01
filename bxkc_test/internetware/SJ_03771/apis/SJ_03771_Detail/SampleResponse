@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>北京市公共资源交易服务平台</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset = "utf-8"/>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand"> 
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 720px)" href="/cmsbj/r/cms/cn.gov.bjggzyfw.www/css/style.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 719px)" href="/cmsbj/r/cms/cn.gov.bjggzyfw.www/css/style-m.css" />
+
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" media="all" href="/cmsbj/r/cms/cn.gov.bjggzyfw.www/css/style.css"/>
+<![endif]-->
+
+
+
+<script type="text/javascript" src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/js/jquery.min.js"></script>
+<script type="text/javascript" src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/js/jquery.format.js"></script>
+
+
+<script type="text/javascript" src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/js/jquery.hiSlider.js"></script>
+<script type="text/javascript" src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/js/controller.js"></script>
+<script type="text/javascript" src="/cmsbj/r/cms/ckplayer/ckplayer.js" ></script>
+<script src="/cmsbj/r/cms/ckplayer/offlights.js" type="text/javascript"></script>
+<script type="text/javascript" src="/cmsbj/r/cms/front.js"></script>
+<script type="text/javascript">
+	$(function() {
+		Cms.siteFlow("/cmsbj", location.href, document.referrer,"true");
+	});
+</script>
+</head>
+<body >
+
+	<!--header---开始-->
+	 <div class="header">
+	 	<div class="m-logo">
+	 		<a class="baner-m-bg1" href="/cmsbj/index.html">
+	 			<img  src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/logo.png">
+ 			</a>
+	 		<img class="baner-m-bg" src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/app-bg.png">
+	 	</div>
+		<div class="logo">
+			<div class="logo-1"></div>
+			<div class="logo-3">
+				<ul class="hotWordBanner" style="display: none;">
+				    <li><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_pica_10.png" class="pngImgDiv"></li>
+				    <li><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_pica_12.png" class="pngImgDiv"></li>
+				    <li><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_pica_14.png" class="pngImgDiv"></li>
+				    <li><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_pica_16.png" class="pngImgDiv"></li>
+				</ul>
+				<ul class="hotWordBanner" style="display: none;">
+				    <li ><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_picc_03.png" class="pngImgDiv"></li>
+				    <li ><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_picc_05.png" class="pngImgDiv"></li>
+				    <li ><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_picc_07.png" class="pngImgDiv"></li>
+				    <li ><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_picc_09.png" class="pngImgDiv"></li>
+				    <li ><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_picc_11.png" class="pngImgDiv"></li>
+				    <li ><img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/jycsbszn_ld_picc_13.png" class="pngImgDiv"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+            <img src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/banner.jpg">
+        </div>
+		<div class="header-bgd">
+			<ul class="mainbar">
+				<li id="menu-index"><a href="/cmsbj/index.html">首页</a></li>
+				<li id="menu-xwzx"><a href="/cmsbj/xwdt/index.html">新闻资讯</a></li>
+				<li id="menu-zcfg"><a href="/cmsbj/zcfg/index.html">政策法规</a></li>
+				<li id="menu-jydj"><a href="/cmsbj/jydj/index.html">交易登记</a></li>
+				<li id="menu-jyxx"><a href="/cmsbj/jyxxggjtbyqs/index.html">公告信息</a></li>
+				<li id="menu-jylc"><a href="/cmsbj/jylcgcjs/index.html">交易信息</a></li>
+				<li id="menu-jyjg"><a href="/cmsbj/jyjgjgbm/index.html">交易监管</a></li>
+				<li id="menu-ztxx"><a href="/cmsbj/ztxxtbr/index.html">市场主体</a></li>
+				<li id="menu-zjk"><a href="https://zjk.bjztb.gov.cn/" target="_blank" onclick="fun1()">专家库</a></li>
+				<li id="menu-zmhd"><a href="/cmsbj/zxzj/index.html">政民互动</a></li>
+				<li id="menu-ptjs"><a href="/cmsbj/ptjs/index.html">平台介绍</a></li>  
+				<li id="menu-searchAll">
+					<form action="" id="search-form" target="_blank" method="get">
+						<input type="text" placeholder="请输入关键字" name="q" class="searchAll" >
+						<span class="btn-search"></span>
+					</form>
+				</li>
+			</ul>
+
+            <script>
+				function fun1() {
+					alert("您即将离开北京市公共资源交易服务平台网站");
+				}
+				$(".btn-search").on("click", function() {
+					var url ="https://search.bjggzyfw.gov.cn/elasticsearch/index.jsp";
+					document.getElementById("search-form").action = url;
+					$(".searchAll").val($(".searchAll").val().trim().replace(/\s/g,""));
+					$("#search-form").submit();
+				})
+				$(".searchAll").on("keydown", function(event) {
+					if (event.keyCode == 13) {
+						$(".btn-search").click();
+						return false;
+					}
+				})
+			</script>
+		</div>
+	</div>
+	<script>
+	$(function () {
+        if ($('.hotWordBanner').size() > 0) {
+            var hotWordBanner = (function (externalO) {
+                var externalGo = true, _index = 0, externalO = '.' + externalO;
+                $(externalO).hide().children().hide();
+                function inside() {
+                    $(externalO).eq(_index).children().first().fadeIn(function play() {
+                        $(this).next().fadeIn(play);
+                        if ($(this).index() == $(externalO).eq(_index).children().size() - 1) {
+                            _index++;
+                            externalGo = true;
+                            setTimeout(playGo, 3000);
+                        }
+                        return 'slow';
+                    })
+                }
+                function external() {
+                    $(externalO).eq(_index).fadeIn('fast').siblings(externalO).hide(function () {
+                        externalGo = false;
+                        inside();
+                        return 0;
+                    }).children().hide();
+
+                }
+                function playGo() {
+                    if (externalGo == true) {
+                        _index >= $(externalO).size() ? _index = 0 : "";
+                        external();
+                    }
+                }
+                return playGo();
+            })('hotWordBanner');
+        }
+    }
+)
+	</script>
+	<!--header---结束--><script type="text/javascript">
+$(function() {
+
+Cms.collectCsi("/cmsbj","collectCsiDiv","collect_csi","155878");
+Cms.attachment("/cmsbj","155878","0","attach");
+Cms.viewCount("/cmsbj","155878");
+Cms.siteFlow("/cmsbj", location.href, document.referrer,"true");
+});
+</script>
+<div class="content clearfix">
+<div class="floatBtn">
+		<a class="float-00" href="/cmsbj/ptjs/index.html"><i>平台介绍</i></a>
+		<a class="float-01" href="/cmsbj/fwzx/index.html"><i>服务中心</i></a> 
+		<a class="float-02"	href="/cmsbj/index.html#index-sjzx"><i>数据中心</i></a> 
+		<a class="float-03" id="gotop"  href="javascript:;"></a>
+</div>
+<script>
+$(function () {
+    var speed = 500;//滚动速度
+	var h=document.body.clientHeight;
+    //回到顶部
+    $("#gotop").click(function () {
+	  	$('html,body').animate({
+			scrollTop: '0px'
+		},speed);			
+
+    });
+});
+</script>	<div class="sitemap">
+		<a href="/cmsbj/index.html"><img class="home"
+			src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/home.png" />首页</a>> <a href="/cmsbj/jyxxggjtbyqs/index.html">公告信息</a> > 招标公告
+		<script>
+			$(function() {
+				var path = "jyxx";
+				$(".mainbar li").removeClass("on");
+				$("#menu-" + path).addClass("on");
+			})
+		</script>
+	</div>
+	<div class="div-content">
+		<div class="div-title">阳坊镇前白虎涧村文化室建设项目招标公告</div>
+		<div class="div-title2">
+			发布时间：2017-12-14 08:55:00 &nbsp;&nbsp; &nbsp;&nbsp;浏览次数 
+			<span id="views">1</span>
+			<span id="views2"></span>
+		</div>
+		<div class="div-article2">
+			<div class="newsCon" >
+	    		   <div style='width:850px;margin:0 auto;overflow:hidden;'> <div style='height:auto; line-height:45px; text-align:center;'><h3>招标公告</h3></div><!--tit1 end--> <div style='height:auto; line-height:35px; text-align:center;'><u>&nbsp;&nbsp;&nbsp;&nbsp;阳坊镇前白虎涧村文化室建设项目&nbsp;&nbsp;&nbsp;&nbsp;</u><strong>施工招标公告</strong></div><!--tit2 end--> <div style='height:auto; line-height:35px; text-align:left;'><h3>1. 招标条件</h3></div><!--招标条件 end--> <div style='height:auto; line-height:35px; text-align:left;'>&nbsp;&nbsp;&nbsp;&nbsp;本招标项目<u>&nbsp;&nbsp;&nbsp;&nbsp;阳坊镇前白虎涧村文化室建设项目&nbsp;&nbsp;&nbsp;&nbsp;</u>已由<u>&nbsp;&nbsp;&nbsp;&nbsp;北京市昌平区财政局政府采购管理科&nbsp;&nbsp;&nbsp;&nbsp;</u>以<u>&nbsp;&nbsp;&nbsp;&nbsp;JM-00003624&nbsp;&nbsp;&nbsp;&nbsp;</u>批准建设，招标人为<u>&nbsp;&nbsp;&nbsp;&nbsp;北京市昌平区文化委员会&nbsp;&nbsp;&nbsp;&nbsp;</u>，建设资金来自<u>&nbsp;&nbsp;&nbsp;&nbsp;政府投资（地方）&nbsp;&nbsp;&nbsp;&nbsp;</u>，项目出资比例为<u>&nbsp;&nbsp;&nbsp;&nbsp;100%&nbsp;&nbsp;&nbsp;&nbsp;</u>。项目已具备招标条件,现对该项目的施工进行公开招标。</div><!--tit2 end--> <div style='height:auto; line-height:35px; text-align:left;'><h3>2. 项目概况与招标范围</h3></div><!--项目概况与招标范围 end--> <div style='height:auto; line-height:35px; text-align:left;'> 2.1&nbsp;&nbsp;本招标项目的建设地点<u>&nbsp;&nbsp;&nbsp;&nbsp;阳坊镇&nbsp;&nbsp;&nbsp;&nbsp;</u> <br/>2.2&nbsp;&nbsp;本招标项目的建设规模<u>&nbsp;&nbsp;&nbsp;&nbsp;432.94平方米&nbsp;&nbsp;&nbsp;&nbsp;</u>合同估算价<u>&nbsp;&nbsp;&nbsp;&nbsp;185.53&nbsp;&nbsp;&nbsp;&nbsp;</u>（万元） <br/>2.3&nbsp;&nbsp;本招标项目的计划工期<u>&nbsp;&nbsp;&nbsp;&nbsp;60&nbsp;&nbsp;&nbsp;&nbsp;</u>日历天 <br/>2.4&nbsp;&nbsp;本招标项目的标段划分<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> <br/>2.5&nbsp;&nbsp;招标范围<u>&nbsp;&nbsp;&nbsp;&nbsp;本项目建筑装饰装修、电气、给排水及采暖工程。&nbsp;&nbsp;&nbsp;&nbsp;</u> <br/>2.6&nbsp;&nbsp;其他<u>&nbsp;&nbsp;&nbsp;&nbsp;投标人须提供检察机关出具的近三年关于投标人及其法定代表人、拟参与该招标项目负责人在参加投标活动前无行贿犯罪记录的证明&nbsp;&nbsp;&nbsp;&nbsp;</u></div><!--tit2 end--> <div style='height:auto; line-height:35px; text-align:left;'><h3>3. 投标人资格要求</h3></div><!--投标人资格要求 end--> <div style='height:auto; line-height:35px; text-align:left;'> &nbsp;&nbsp;&nbsp;&nbsp;3.1 本次招标要求投标人须具备<u>&nbsp;&nbsp;&nbsp;&nbsp;建筑工程施工总承包三级[新]及以上&nbsp;&nbsp;&nbsp;&nbsp;</u> 资质，<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>业绩，并在人员、设备、资金等方面具有相应的施工能力，其中，投标人拟派项目经理须具备<u>&nbsp;&nbsp;&nbsp;&nbsp;建筑工程注册建造师二级及以上&nbsp;&nbsp;&nbsp;&nbsp;</u>注册建造师执业资格，具备有效的安全生产考核合格证书（B本）。<br/> &nbsp;&nbsp;&nbsp;&nbsp;3.2 本次招标<u>&nbsp;&nbsp;&nbsp;&nbsp;不接受&nbsp;&nbsp;&nbsp;&nbsp;</u>联合体投标。联合体投标的，应满足下列要求：<br/> &nbsp;&nbsp;&nbsp;&nbsp;（1）联合体各方必须按招标文件提供的格式签订联合体协议书，明确联合体牵头人和各方的权利义务；<br/> &nbsp;&nbsp;&nbsp;&nbsp;（2）联合体各方不得再以自己名义单独或加入其他联合体在同一标段中参加资格审查。<br/> &nbsp;&nbsp;&nbsp;&nbsp;3.3 各投标人均可就本招标项目上述标段中的<u>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</u>个标段投标，但最多允许中标<u>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</u>个标段（适用于分标段的招标项目）。 </div><!--tit2 end--> <div style='height:auto; line-height:35px; text-align:left;'><h3>4. 投标报名</h3></div><!--招标文件的获取 end--> <div style='height:auto; line-height:35px; text-align:left;'> &nbsp;&nbsp;&nbsp;&nbsp;凡有意参加投标者，请于<u>&nbsp;&nbsp;&nbsp;&nbsp;2017&nbsp;&nbsp;&nbsp;&nbsp;</u> 年<u>&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;</u>月<u>&nbsp;&nbsp;&nbsp;&nbsp;14&nbsp;&nbsp;&nbsp;&nbsp;</u>日<u>&nbsp;&nbsp;&nbsp;&nbsp;09&nbsp;&nbsp;&nbsp;&nbsp;</u>时<u>&nbsp;&nbsp;&nbsp;&nbsp;00&nbsp;&nbsp;&nbsp;&nbsp;</u>分至<u>&nbsp;&nbsp;&nbsp;&nbsp;2017&nbsp;&nbsp;&nbsp;&nbsp;</u>年<u>&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;</u>月<u>&nbsp;&nbsp;&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;&nbsp;</u>日<u>&nbsp;&nbsp;&nbsp;&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;</u>时<u>&nbsp;&nbsp;&nbsp;&nbsp;00&nbsp;&nbsp;&nbsp;&nbsp;</u>分，通过远程或者到招标投标交易场所使用数字身份认证锁登录电子化平台（网址：<u>&nbsp;&nbsp;&nbsp;&nbsp;<a href='http://www.bcactc.com'>www.bcactc.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</u>）报名，并保存报名成功回执。<br/> </div><!--tit2 end--> <div style='height:auto; line-height:35px; text-align:left;'><h3>5. 招标文件的获取</h3></div><!--招标文件的获取 end--> <div style='height:auto; line-height:35px; text-align:left;'> &nbsp;&nbsp;&nbsp;&nbsp;5.1 凡通过上述报名者，请于<u>&nbsp;&nbsp;&nbsp;&nbsp;2017&nbsp;&nbsp;&nbsp;&nbsp;</u> 年<u>&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;</u>月<u>&nbsp;&nbsp;&nbsp;&nbsp;20&nbsp;&nbsp;&nbsp;&nbsp;</u>日<u>&nbsp;&nbsp;&nbsp;&nbsp;09&nbsp;&nbsp;&nbsp;&nbsp;</u>时<u>&nbsp;&nbsp;&nbsp;&nbsp;00&nbsp;&nbsp;&nbsp;&nbsp;</u>分至<u>&nbsp;&nbsp;&nbsp;&nbsp;2017&nbsp;&nbsp;&nbsp;&nbsp;</u>年<u>&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;</u>月<u>&nbsp;&nbsp;&nbsp;&nbsp;25&nbsp;&nbsp;&nbsp;&nbsp;</u>日<u>&nbsp;&nbsp;&nbsp;&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;</u>时<u>&nbsp;&nbsp;&nbsp;&nbsp;00&nbsp;&nbsp;&nbsp;&nbsp;</u>分，通过远程或者到招标投标交易场所使用数字身份认证锁登录电子化平台（网址：<u>&nbsp;&nbsp;&nbsp;&nbsp;<a href='http://www.bcactc.com'>www.bcactc.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</u> ）下载招标文件。<br/> &nbsp;&nbsp;&nbsp;&nbsp;5.2 凡通过上述报名者，请于<u>&nbsp;&nbsp;&nbsp;&nbsp;2017&nbsp;&nbsp;&nbsp;&nbsp;</u> 年<u>&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;</u>月<u>&nbsp;&nbsp;&nbsp;&nbsp;20&nbsp;&nbsp;&nbsp;&nbsp;</u>日<u>&nbsp;&nbsp;&nbsp;&nbsp;09&nbsp;&nbsp;&nbsp;&nbsp;</u>时<u>&nbsp;&nbsp;&nbsp;&nbsp;00&nbsp;&nbsp;&nbsp;&nbsp;</u>分至<u>&nbsp;&nbsp;&nbsp;&nbsp;2017&nbsp;&nbsp;&nbsp;&nbsp;</u>年<u>&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;</u>月<u>&nbsp;&nbsp;&nbsp;&nbsp;25&nbsp;&nbsp;&nbsp;&nbsp;</u>日<u>&nbsp;&nbsp;&nbsp;&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;</u>时<u>&nbsp;&nbsp;&nbsp;&nbsp;00&nbsp;&nbsp;&nbsp;&nbsp;</u>分，在 <u>&nbsp;&nbsp;&nbsp;&nbsp;北京市昌平区昌盛路12号乐华仕健康产业园9号楼二层&nbsp;&nbsp;&nbsp;&nbsp;</u>（详细地址）持报名成功回执领取招标图纸。图纸押金<u>&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;</u>元，在退还图纸时退还（不计利息）。 </div><!--tit2 end--> <div style='height:auto; line-height:35px; text-align:left;'><h3>6. 投标文件的递交</h3></div><!--投标文件的递交 end--> <div style='height:auto; line-height:35px; text-align:left;'> &nbsp;&nbsp;&nbsp;&nbsp;6.1 投标文件递交的截止时间为<u>&nbsp;&nbsp;&nbsp;&nbsp;2018&nbsp;&nbsp;&nbsp;&nbsp;</u> 年<u>&nbsp;&nbsp;&nbsp;&nbsp;01&nbsp;&nbsp;&nbsp;&nbsp;</u>月<u>&nbsp;&nbsp;&nbsp;&nbsp;08&nbsp;&nbsp;&nbsp;&nbsp;</u>日<u>&nbsp;&nbsp;&nbsp;&nbsp;09&nbsp;&nbsp;&nbsp;&nbsp;</u>时<u>&nbsp;&nbsp;&nbsp;&nbsp;00&nbsp;&nbsp;&nbsp;&nbsp;</u>分。投标人应当通过远程或者到招标投标交易场所使用数字身份认证锁登录电子化平台（网址：<u>&nbsp;&nbsp;&nbsp;&nbsp;<a href='http://www.bcactc.com'>www.bcactc.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</u>）上传，并保存文件上传成功回执，递交时间即为上传成功回执时间<br/> &nbsp;&nbsp;&nbsp;&nbsp;6.2 逾期送达的投标文件，招标人不予受理。 </div><!--tit2 end--> <div style='height:auto; line-height:35px; text-align:left;'><h3>7. 发布公告的媒介</h3></div><!--投标文件的递交 end--> <div style='height:auto; line-height:35px; text-align:left;'> &nbsp;&nbsp;&nbsp;&nbsp;本次招标公告同时在<u>&nbsp;&nbsp;&nbsp;&nbsp;中国采购与招标网、昌平政府采购网、北京财政网、中国政府采购网&nbsp;&nbsp;&nbsp;&nbsp;</u>上发布。 </div><!--tit2 end--> <div style='height:auto; line-height:35px; text-align:left;'><h3>8. 联系方式</h3></div><!--联系方式 end--> <div style='height:auto; line-height:35px; text-align:left;'> <table> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;招 标 人：&nbsp;&nbsp;&nbsp;&nbsp;北京市昌平区文化委员会&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;招标代理机构：&nbsp;&nbsp;&nbsp;&nbsp;北京京园诚得信工程管理有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;地&nbsp;&nbsp;&nbsp;&nbsp;址：&nbsp;&nbsp;&nbsp;&nbsp;北京市昌平区府学路10号1幢&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;地&nbsp;&nbsp;&nbsp;&nbsp;址：&nbsp;&nbsp;&nbsp;&nbsp;北京市昌平区昌盛路12号乐华仕健康产业园9号楼&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;邮&nbsp;&nbsp;&nbsp;&nbsp;编：&nbsp;&nbsp;&nbsp;&nbsp;102200&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;邮&nbsp;&nbsp;&nbsp;&nbsp;编：&nbsp;&nbsp;&nbsp;&nbsp;102200&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;联 系 人：&nbsp;&nbsp;&nbsp;&nbsp;马谊&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;联 系 人：&nbsp;&nbsp;&nbsp;&nbsp;胡蔓蔓&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;电&nbsp;&nbsp;&nbsp;&nbsp;话：&nbsp;&nbsp;&nbsp;&nbsp;15601242658&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;电&nbsp;&nbsp;&nbsp;&nbsp;话：&nbsp;&nbsp;&nbsp;&nbsp;89713391&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;传&nbsp;&nbsp;&nbsp;&nbsp;真：&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;传&nbsp;&nbsp;&nbsp;&nbsp;真：&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;电子邮件：&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;电子邮件：&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;网&nbsp;&nbsp;&nbsp;&nbsp;址：&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;网&nbsp;&nbsp;&nbsp;&nbsp;址：&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;开户银行：&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;开户银行：&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> <tr> <td>&nbsp;&nbsp;&nbsp;&nbsp;账&nbsp;&nbsp;&nbsp;&nbsp;号：&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;账&nbsp;&nbsp;&nbsp;&nbsp;号：&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;</td> </tr> </table> </div><!--tit2 end--> <div style='height:auto; line-height:35px; text-align:left;' style='text-align:right; margin:20px 0;'><u>&nbsp;&nbsp;&nbsp;&nbsp;2017&nbsp;&nbsp;&nbsp;&nbsp;</u> 年<u>&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;</u>月<u>&nbsp;&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;&nbsp;&nbsp;</u>日</div><!--联系方式 end--> </div><!--div_box end--> 
+    		</div>
+		</div>
+	</div>
+</div>
+<script>
+var href=$(".lc-table2 a.link").attr("href");
+if(href=="无"){
+	$(".lc-table2 a.link").attr("href","javascript:return false");
+}
+var  len=$(".newsCon").children('table').length;
+console.log(len)
+if(len==0){
+	$(".newsCon").css("width","100%");
+	$(".newsCon > div ").css("width","100%");
+	$(".newsCon > div > div ").css("width","100%");
+}
+</script>
+<!--footer---开始-->
+<div class="footer">
+	
+	<div class="footer-main">
+		<div id="footer-logo">
+			<div id="footer-logo1">
+				<a href="http://bszs.conac.cn/sitename?method=show&id=27A0C534CB14701DE053022819AC989A"><img alt="" src="/cmsbj/r/cms/cn.gov.bjggzyfw.www/images/dzjg.png"> </a>
+			</div>
+			<div id="footer-logo2">
+				<p>主办单位：北京市发展和改革委员会</p>
+				<p>运行维护单位：北京市经济信息中心</p>
+			</div>
+			<div id="footer-logo2">
+                <p>单位地址：北京市西城区复兴门南大街甲2号</p>
+                <p>邮政编码：100031</p>
+                <p>邮箱：ggzyservice@beic.gov.cn</p>
+            </div>
+			<div id="footer-logo2">
+				<p>北京市发展和改革委员会，版权所有 如需转载，请注明来源</p>
+			</div>
+			<div id="footer-logo2">
+				<p>ICP备案编号：京ICP备05084924号-4</p>
+			</div>
+        </div>
+	</div>
+</div>
+<!--footer---结束-->
+</body>
+</html>

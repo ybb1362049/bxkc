@@ -1,0 +1,1114 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+  
+ 
+	
+	
+	 
+ 
+
+<html>
+
+<head>
+
+
+
+<script type="text/javascript">
+        var bidiSupport = new Object();
+        bidiSupport.bidiAlignRight = "right";
+        bidiSupport.bidiAlignLeft = "left"; 
+        bidiSupport.bidiDirAttr = ""; 
+        bidiSupport.bidiImageRTL = null;
+        bidiSupport.isRTL = false;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+        
+    
+
+
+
+<title>欢迎访问云南中烟工业有限责任公司门户</title>
+ 
+
+
+
+
+<!--link href='/wps/themes/html/ynzyextranet/images/Portal.ico' rel="shortcut icon" /-->
+
+
+  
+	
+	
+		
+	
+  
+
+
+
+  
+  
+
+
+
+
+
+
+<link id="portalStyles" href='/portal/wps/themes/html/ynzyextranet/./styles.jsp?themeContextInfo=policyPath:theme%2FSingleTopNav:policyVersion:1:colorPalette:default:browserVendor:Microsoft:browserName:Internet+Explorer:browserVersion:8.0:locale:zh:themeOid:J_8H9PFNE40G6D90I1F31E2I08G3:protectedUrl:false&userLocale=zh' rel="styleSheet" type="text/css" />
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="/portal/wps/search/css/searchWidgets.css" />
+
+
+
+<!-- 云南中烟 -->
+<link href='/portal/wps/ynzyextranet/gstyle/home.css' rel="stylesheet" type="text/css" />
+
+<script language="JavaScript" src="/portal/wps/ynzyextranet/gstyle/pnlDesktop/panelAct.js" type="text/javascript"></script>
+<script type="text/javascript" src='/portal/wps/ynzyextranet/gstyle/tab/tabBar.js'></script>
+<script type="text/javascript" src='/portal/wps/ynzyextranet/js/cookie.js'></script>
+<script language="JavaScript" type="text/javascript" src="/portal/wps/ynzy/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/portal/wps/ynzyextranet/js/swfobject_modified.js" ></script>
+<script language="text/javascript" type="text/javascript" src="/portal/wps/ynzyextranet/js/general.js"></script>
+
+
+<style type="text/css">
+	.noUnderLine{text-decoration:none}
+</style>
+
+
+
+</head>
+ 
+<body class="bodyDiv">
+
+
+
+
+	
+<div class="bodyDiv">
+    <!-- UIStructureBegin "banner" -->
+    <table border="0" cellpadding="0" cellspacing="0"  style="width:100%" >
+        <tr>
+            <td align="center" id="topFlash">
+	    </td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" class="banner" id="banner">
+        <tr>
+            <td class="banner_L">&nbsp;</td>
+            <td class="banner_C"><div class="logo" id="logo"></div></td>
+            <td class="banner_O"><table border="0" cellspacing="0" cellpadding="0" class="topMenu">
+                    <!--tr>
+                        <td><a class="topMenuItem itemExplain" href="#">操作说明</a><span class="topMenuItemSpace"></span><a class="topMenuItem itemClose" href="#">退出</a></td>
+                    </tr-->
+                </table></td>
+            <td class="banner_R">&nbsp;</td>
+        </tr>
+    </table>
+
+    <!-- UIStructureEnd "banner" -->
+    <!-- UIStructureBegin "导航栏" -->
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" class="menu">
+<tr>
+  <td class="menu_L">&nbsp;</td>
+  <td class="menu_C">
+  <table border="0" cellspacing="0" cellpadding="0" class="menuBar">
+		<tr>	
+		
+		   
+		   
+		   
+		   		
+				
+					
+				
+			  	
+			  	<td class="menuItemTd">
+				<table id="menuItem1" border="0" cellpadding="0" cellspacing="0" class="menuItem"  >
+					<tr>
+					  <td class="menuItem_L">&nbsp;</td>
+					  <td class="menuItem_C"><a href="/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfOEg5UEZORTQwRzZEOTBJMUYzMUUySTA4ODI!/"  >首　页</a></td>
+					  <td class="menuItem_R">&nbsp;</td>
+					</tr>
+				</table></td>
+				<td class="menuItemSpace">&nbsp;</td>
+		   
+		   
+		   		
+				
+					
+				
+			  	
+			  	<td class="menuItemTd">
+				<table id="menuItem1" border="0" cellpadding="0" cellspacing="0" class="menuItem"  >
+					<tr>
+					  <td class="menuItem_L">&nbsp;</td>
+					  <td class="menuItem_C"><a href="/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfOEg5UEZORTQwRzZEOTBJMUYzMUUySTA4ODc!/"  >企业概况</a></td>
+					  <td class="menuItem_R">&nbsp;</td>
+					</tr>
+				</table></td>
+				<td class="menuItemSpace">&nbsp;</td>
+		   
+		   
+		   		
+					
+				
+				
+			  	
+			  	<td class="menuItemTd">
+				<table id="menuItem1" border="0" cellpadding="0" cellspacing="0" class="menuItem_active"  >
+					<tr>
+					  <td class="menuItem_L">&nbsp;</td>
+					  <td class="menuItem_C"><a href="/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfOEg5UEZORTQwRzZEOTBJMUYzMUUySTA4OTQ!/"  >通知公告</a></td>
+					  <td class="menuItem_R">&nbsp;</td>
+					</tr>
+				</table></td>
+				<td class="menuItemSpace">&nbsp;</td>
+		   
+		   
+		   		
+				
+					
+				
+			  	
+			  	<td class="menuItemTd">
+				<table id="menuItem1" border="0" cellpadding="0" cellspacing="0" class="menuItem"  >
+					<tr>
+					  <td class="menuItem_L">&nbsp;</td>
+					  <td class="menuItem_C"><a href="/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfOEg5UEZORTQwRzZEOTBJMUYzMUUySTA4TzM!/"  >新闻动态</a></td>
+					  <td class="menuItem_R">&nbsp;</td>
+					</tr>
+				</table></td>
+				<td class="menuItemSpace">&nbsp;</td>
+		   
+		   
+		   		
+				
+					
+				
+			  	
+			  	<td class="menuItemTd">
+				<table id="menuItem1" border="0" cellpadding="0" cellspacing="0" class="menuItem"  >
+					<tr>
+					  <td class="menuItem_L">&nbsp;</td>
+					  <td class="menuItem_C"><a href="/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfOEg5UEZORTQwRzZEOTBJMUYzMUUySTA4NDY!/"  >综合新闻</a></td>
+					  <td class="menuItem_R">&nbsp;</td>
+					</tr>
+				</table></td>
+				<td class="menuItemSpace">&nbsp;</td>
+		   
+		   
+		   		
+				
+					
+				
+			  	
+			  	<td class="menuItemTd">
+				<table id="menuItem1" border="0" cellpadding="0" cellspacing="0" class="menuItem"  >
+					<tr>
+					  <td class="menuItem_L">&nbsp;</td>
+					  <td class="menuItem_C"><a href="/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfOEg5UEZORTQwRzZEOTBJMUYzMUUySTA4RDQ!/"  >社会公益</a></td>
+					  <td class="menuItem_R">&nbsp;</td>
+					</tr>
+				</table></td>
+				<td class="menuItemSpace">&nbsp;</td>
+		   
+		   
+		   		
+				
+					
+				
+			  	
+			  	<td class="menuItemTd">
+				<table id="menuItem1" border="0" cellpadding="0" cellspacing="0" class="menuItem"  >
+					<tr>
+					  <td class="menuItem_L">&nbsp;</td>
+					  <td class="menuItem_C"><a href="/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfOEg5UEZORTQwRzZEOTBJMUYzMUUySTA4SzU!/"  >政策法规</a></td>
+					  <td class="menuItem_R">&nbsp;</td>
+					</tr>
+				</table></td>
+				<td class="menuItemSpace">&nbsp;</td>
+		   
+		   
+		   		
+				
+					
+				
+			  	
+			  	<td class="menuItemTd">
+				<table id="menuItem1" border="0" cellpadding="0" cellspacing="0" class="menuItem"  >
+					<tr>
+					  <td class="menuItem_L">&nbsp;</td>
+					  <td class="menuItem_C"><a href="/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfOEg5UEZORTQwRzZEOTBJMUYzMUUySTA4QzI!/"  >烟草文化</a></td>
+					  <td class="menuItem_R">&nbsp;</td>
+					</tr>
+				</table></td>
+				<td class="menuItemSpace">&nbsp;</td>
+		   
+		   
+		   		
+				
+					
+				
+			  	
+			  	<td class="menuItemTd">
+				<table id="menuItem1" border="0" cellpadding="0" cellspacing="0" class="menuItem"  >
+					<tr>
+					  <td class="menuItem_L">&nbsp;</td>
+					  <td class="menuItem_C"><a href="/ynzyoa/notes/suggestion.do?method=init" target="_blank" >意见箱</a></td>
+					  <td class="menuItem_R">&nbsp;</td>
+					</tr>
+				</table></td>
+				<td class="menuItemSpace">&nbsp;</td>
+		   
+		   
+		
+		</tr>
+  </table>
+  </td>
+  <td class="menu_R"></td>
+</tr>
+</table>
+  <table border="0" cellpadding="0" cellspacing="0" class="subMenu">
+    <tr>
+      <td class="subMenu_L"><img width="1"></td>
+      <td class="subMenu_C"><span class="welcome">您好，欢迎使用云南中烟信息平台！</span></td>
+      <td class="subMenu_O">&nbsp;</td>
+      <td class="subMenu_R"><img width="1"></td>
+    </tr>
+  </table>
+
+
+</div>
+
+
+
+ 
+
+	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<table class="layoutRow" cellpadding="0" cellspacing="0"><tr> 
+ 
+<td valign="top" width="260"> 
+ 
+ 
+ 
+<table class="layoutColumn" cellpadding="0" cellspacing="0"><tr><td style="width:100%;" valign="top"> 
+ 
+ 
+ 
+<table class="layoutRow" cellpadding="0" cellspacing="0"><tr> 
+ 
+<td valign="top" > 
+ 
+ 
+ 
+<table class="layoutColumn" cellpadding="0" cellspacing="0"><tr><td style="width:100%;" valign="top"> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<a name="7_CD199UFUS2P160A1QEKVM31085"></a><div >
+
+
+
+
+
+<div class="pnlSubNav pnlTongzhi">
+	<table border="0" cellpadding="0" cellspacing="0" class="pnlHead">
+		<tr>
+			<td class="pnlHead_L"><img width="1"></td>
+			<td class="pnlHead_C"><span class="pnlIcon"></span> <span class="pnlTtl">&nbsp;</span></td>
+			<td class="pnlHead_O">
+				<div class="pnlBtns"><img width="1"></div>
+			</td>
+			<td class="pnlHead_R"><img width="1"></td>
+		</tr>
+	</table>
+	<div class="pnlBody">
+		<table border="0" cellpadding="0" cellspacing="0" class="pnlBody_T">
+			<tr>
+				<td class="pnlBody_TL"></td>
+				<td class="pnlBody_TC"><img width="1"></td>
+				<td class="pnlBody_TR"></td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" class="pnlBody_M">
+			<tr>
+				<td class="pnlBody_ML"></td>
+				<td class="pnlBody_MC">
+					<!-- UIDataBegin "模块内容" -->
+					<div class="pnlCont">
+						<!-- UIStructureBegin "信息列表" -->
+						<div class="subNav">
+
+
+<div class="subNavItem">
+
+						<a href='/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfOEg5UEZORTQwRzZEOTBJMUYzMUUySTA4OTY!/' target='_self'>通知公告</a>
+
+</div>
+
+
+
+<div class="subNavItem_active">
+
+						<a href='/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfQ0QxOTlVRlVTMlAxNjBBMVFFS1ZNMzEwMDA!/' target='_self'>招标公告</a>
+
+</div>
+
+
+
+<div class="subNavItem">
+
+						<a href='/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfQ0QxOTlVRlVTMlAxNjBBMVFFS1ZNMzEwMDU!/' target='_self'>中标公示</a>
+
+</div>
+
+
+						</div>
+						<!-- UIStructureEnd "信息列表" -->
+					</div>
+					<!-- UIDataEnd "模块内容" -->
+				</td>
+				<td class="pnlBody_MR"></td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" class="pnlBody_B">
+			<tr>
+				<td class="pnlBody_BL"></td>
+				<td class="pnlBody_BC"><img width="1"></td>
+				<td class="pnlBody_BR"></td>
+			</tr>
+		</table>
+	</div>
+</div></div></td></tr></table></td> 
+</tr></table></td></tr><tr><td style="width:100%;" valign="top"> 
+ 
+ 
+ 
+<table class="layoutRow" cellpadding="0" cellspacing="0"><tr> 
+ 
+<td valign="top" > 
+ 
+ 
+ 
+<table class="layoutColumn" cellpadding="0" cellspacing="0"><tr><td style="width:100%;" valign="top"> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<a name="7_CD199UFUS2P160A1QEKVM31087"></a><div ><script type="text/javascript">function checkform() { 	if(document.fullTextForm.keyWord.value.length==0)	{		alert("关键字不能为空！");		return false; 	}else{		return true;	}	} </script><div class="pnlSearch2"><table border="0" cellspacing="0" cellpadding="0" class="pnlHead">   <tr>       <td class="pnlHead_L"><img alt="" width="1" /></td>       <td class="pnlHead_C"><span class="pnlTtl">全文检索</span></td>       <td class="pnlHead_O">&nbsp;</td>       <td class="pnlHead_R"><img alt="" width="1" /></td>   </tr></table><div class="pnlBody"><table border="0" cellspacing="0" cellpadding="0" class="pnlBody_T">  <tr>      <td class="pnlBody_TL">&nbsp;</td>      <td class="pnlBody_TC"><img alt="" width="1" /></td>      <td class="pnlBody_TR">&nbsp;</td>  </tr></table><table border="0" cellspacing="0" cellpadding="0" class="pnlBody_M">    <tr>        <td class="pnlBody_ML"></td>        <td class="pnlBody_MC"><!-- UIDataBegin "模块内容" -->        <div class="pnlCont">        	<div class="searchArea">        	<label>		        <form id="fullTextForm" name="fullTextForm" method="post" action="/ynzyoa/cms/Portlet/Info.do" target="_blank"		        accept-charset="GBK" onsubmit="document.charset='GBK';return checkform();"  >		        	<input  name="method" value="indexList" type="hidden" /> 		        			        		<input  name="showScope" value="1" type="hidden" /> 		        				        <input id="keyWord" class="searchInput" onfocus="this.select();" name="keyWord"  type="text" />			        <input id="buttonSubmit" class="searchBtn" type="submit" value="搜索" /> 			     </form>		     	</label>		     </div>        </div>        <!-- UIDataEnd "模块内容" --></td>        <td class="pnlBody_MR"></td>    </tr></table><table border="0" cellspacing="0" cellpadding="0" class="pnlBody_B">     <tr>         <td class="pnlBody_BL"></td>         <td class="pnlBody_BC"><img alt="" width="1" /></td>         <td class="pnlBody_BR"></td>     </tr></table></div></div></div></td></tr></table></td> 
+</tr></table></td></tr></table></td> 
+<td valign="top" > 
+ 
+ 
+ 
+<table class="layoutColumn" cellpadding="0" cellspacing="0"><tr><td style="width:100%;" valign="top"> 
+ 
+ 
+ 
+<table class="layoutRow" cellpadding="0" cellspacing="0"><tr> 
+ 
+<td valign="top" > 
+ 
+ 
+ 
+<table class="layoutColumn" cellpadding="0" cellspacing="0"><tr><td style="width:100%;" valign="top"> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<a name="7_CD199UFUS2P160A1QEKVM31086"></a><div >
+
+
+<link href="/portal/wps/ynzyextranet/gstyle/listPage.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+<div class="pnlPosition">
+	<table border="0" cellspacing="0" cellpadding="0" class="pnlPositionTb">
+		<tr>
+			<td class="pnlPosition_L">&nbsp;</td>
+			<td class="pnlPosition_C">
+				<span class="pnlTtl">当前位置:</span>
+				<span>
+				 
+				通知公告>>招标公告
+				</span>
+			</td>
+			<td class="pnlPosition_O">&nbsp;</td>
+			<td class="pnlPosition_R">&nbsp;</td>
+		</tr>
+	</table>
+</div></div></td></tr></table></td> 
+</tr></table></td></tr><tr><td style="width:100%;" valign="top"> 
+ 
+ 
+ 
+<table class="layoutRow" cellpadding="0" cellspacing="0"><tr> 
+ 
+<td valign="top" > 
+ 
+ 
+ 
+<table class="layoutColumn" cellpadding="0" cellspacing="0"><tr><td style="width:100%;" valign="top"> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<a name="7_CD199UFUS2P160A1QEKVM310O4"></a><div >
+
+
+
+
+<link href='/portal/wps/ynzy/gstyle/searchSecond/searchSecond.css' rel="stylesheet" type="text/css" />
+
+
+
+<script>
+ function ns_7_CD199UFUS2P160A1QEKVM310O4_submitViewPageForm(obj)
+ {
+ 	var selectindex = obj.options(obj.selectedIndex).value;
+ 	document.getElementById("ns_7_CD199UFUS2P160A1QEKVM310O4_page").value = selectindex;
+ 	document.ns_7_CD199UFUS2P160A1QEKVM310O4_pageViewForm.submit();
+ }
+ 
+ function ns_7_CD199UFUS2P160A1QEKVM310O4_gotoFirstPage(){
+ 	ns_7_CD199UFUS2P160A1QEKVM310O4_gotoPage(0);
+ }
+ 
+ function ns_7_CD199UFUS2P160A1QEKVM310O4_gotoLastPage(){
+	var index = document.getElementById("ns_7_CD199UFUS2P160A1QEKVM310O4_pageSelect").options.length - 1;
+	ns_7_CD199UFUS2P160A1QEKVM310O4_gotoPage(index);
+ }
+
+ function ns_7_CD199UFUS2P160A1QEKVM310O4_gotoPrePage(){
+	var index = document.getElementById("ns_7_CD199UFUS2P160A1QEKVM310O4_pageSelect").selectedIndex;
+	if(index > 0){
+		index--;
+	}
+	ns_7_CD199UFUS2P160A1QEKVM310O4_gotoPage(index);
+ }
+
+ function ns_7_CD199UFUS2P160A1QEKVM310O4_gotoNextPage(){
+	var oPageSelect = document.getElementById("ns_7_CD199UFUS2P160A1QEKVM310O4_pageSelect");
+	var maxIndex = oPageSelect.options.length - 1;
+	var index = oPageSelect.selectedIndex;
+	if(index < maxIndex){
+		index ++;
+	}
+	ns_7_CD199UFUS2P160A1QEKVM310O4_gotoPage(index);
+
+ }
+
+ function ns_7_CD199UFUS2P160A1QEKVM310O4_gotoPage(index){
+	var page = document.getElementById("ns_7_CD199UFUS2P160A1QEKVM310O4_pageSelect").options(index).value;
+	document.getElementById("ns_7_CD199UFUS2P160A1QEKVM310O4_page").value = page;
+	document.ns_7_CD199UFUS2P160A1QEKVM310O4_pageViewForm.submit();
+ }
+
+</script>
+
+<div class="searchSecond pageCenter" style="width:600">
+	<table border="0" cellpadding="0" cellspacing="0" class="formTable">
+		<tr>
+		    <td class="labelTd">标  题：</td>
+			<td class="inputTd" style="width:30%">
+			<form name="ns_7_CD199UFUS2P160A1QEKVM310O4_pageViewForm" action="/portal/wps/portal/!ut/p/c5/pY_BToNAFEW_xS-Y9wAps6RlppAWmClMZdgQRG1KpGBTMfD1wsZd0cT3lifn5l6Sk-kvZX8-lbdzeynfSUZyu9h4SKniKjEE2uCiZLtjaCIATFzbheNTwSNmwdb2KATITWRGAA61_mNvV3-x4c658Iv9RDKwiqR2unC4Zftx06f1KI1w1BimMYZe9RVFz-LleFBrd90-as0nJ59Tl_Yu8XnRzBc6R37bvBJN8tXd7rFF0p_u8TUZxR6uh5pKvzq1CaDAwDKxGswdl6z4_GgG0jVKqb5jb558-AbzVwam/dl3/d3/L0lDU0lKSmdwcG1ZIS9JSFNBQ0lpTXlDb2tBTUFtaWdiaVFNQUJKQXdBLzRDMWI5V19OcjBnQ1VnZyEvN19DRDE5OVVGVVMyUDE2MEExUUVLVk0zMTBPNC94UmdxMzM2NTgwMDAxLzM2MzU0NjU5MzIwOQ!!/#7_CD199UFUS2P160A1QEKVM310O4" method="post" accept-charset="utf-8"  >
+				<input type="text" name="keyword" class="input_100" value="" >
+				<input type="hidden" name="page" id="ns_7_CD199UFUS2P160A1QEKVM310O4_page">
+				<input type="hidden" name="SUBMIT_VIEW" value="SUBMIT_VIEW"  >
+			</form>
+			</td>
+			<td>&nbsp;</td>
+			<td><input name="" onclick="javascript:document.charset='utf-8';document.ns_7_CD199UFUS2P160A1QEKVM310O4_pageViewForm.submit();" type="button" class="btnSearch" value="搜 索">
+			</td>
+		</tr>
+	</table>
+</div>
+<div style="height:15px"><image width="1"></image></div>
+<div class="pnlSecond pageCenter" style="width:95%">
+	<!--table border="0" cellpadding="0" cellspacing="0" class="pnlHead">
+		<tr>
+			<td class="pnlHead_L"><img width="1"></td>
+			<td class="pnlHead_C">
+				<span class="pnlIcon"></span>
+				<span class="pnlTtl">招标公告</span>
+			</td>
+			<td class="pnlHead_O">
+				<div class="pnlBtns"><img width="1"></div>
+			</td>
+			<td class="pnlHead_R"><img width="1"></td>
+		</tr>
+	</table-->
+	<div class="pnlBody">
+		<table border="0" cellpadding="0" cellspacing="0" class="pnlBody_T">
+			<tr>
+				<td class="pnlBody_TL"></td>
+				<td class="pnlBody_TC"><img width="1"></td>
+				<td class="pnlBody_TR"></td>
+			</tr>
+		</table>
+
+					<!-- UIDataBegin "模块内容" -->
+					<div class="otherCont">
+					<!-- UIStructureBegin "信息列表" -->
+					<ul class="infoList dashedList timeRight impList ">
+					
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32595.html" title="云南中烟工业有限责任公司2017-2019年度税务代理及鉴证服务项目三次招标公告" target="_blank">
+							云南中烟工业有限责任公司2017-2019年度税务代理及鉴证服务项目三次招标公告
+							</a> <span class="infoTime">2017-06-16</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32563.html" title="基于VR+AR的产品档案应用系统研究科技项目合作及技术服务招标公告" target="_blank">
+							基于VR+AR的产品档案应用系统研究科技项目合作及技术服务招标公告
+							</a> <span class="infoTime">2017-06-16</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32541.html" title="云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-A包招标公告（二次）" target="_blank">
+							云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-A包招标公告（二次...
+							</a> <span class="infoTime">2017-06-16</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32540.html" title="云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-C包招标公告（二次）" target="_blank">
+							云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-C包招标公告（二次...
+							</a> <span class="infoTime">2017-06-16</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32490.html" title="云南中烟工业有限责任公司技术中心2017年度第一批设备采购（二十九标包：个人型高速离心机等采购）（第二次招标）招标公告" target="_blank">
+							云南中烟工业有限责任公司技术中心2017年度第一批设备采购（二十九标包：个人型高速离心机等...
+							</a> <span class="infoTime">2017-06-14</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32489.html" title="云南中烟工业有限责任公司技术中心2017年度第一批设备采购（十九标包：爆珠检测设备采购）（第二次招标）招标公告" target="_blank">
+							云南中烟工业有限责任公司技术中心2017年度第一批设备采购（十九标包：爆珠检测设备采购）（...
+							</a> <span class="infoTime">2017-06-14</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32488.html" title="云南中烟工业有限责任公司技术中心2017年度第一批设备采购（十七标包：振分仪采购）（第二次招标）招标公告" target="_blank">
+							云南中烟工业有限责任公司技术中心2017年度第一批设备采购（十七标包：振分仪采购）（第二次...
+							</a> <span class="infoTime">2017-06-14</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32487.html" title="云南中烟工业有限责任公司技术中心2017年度第一批设备采购（六标包：DNA自动分离纯化系统采购）（第二次招标）招标公告" target="_blank">
+							云南中烟工业有限责任公司技术中心2017年度第一批设备采购（六标包：DNA自动分离纯化系统...
+							</a> <span class="infoTime">2017-06-14</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32484.html" title="云南合和（集团）股份有限公司法律顾问咨询服务项目招标公告" target="_blank">
+							云南合和（集团）股份有限公司法律顾问咨询服务项目招标公告
+							</a> <span class="infoTime">2017-06-13</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32481.html" title="云南烟草国际有限公司2017年度物流服务、报关服务外包采购项目（X1、X2标段）　竞争性谈判公告" target="_blank">
+							云南烟草国际有限公司2017年度物流服务、报关服务外包采购项目（X1、X2标段）　竞争性谈...
+							</a> <span class="infoTime">2017-06-13</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32444.html" title=" 云南烟草国际有限公司2017年TFWA法国世界免税品展会参展服务项目（二次）招标公告" target="_blank">
+							 云南烟草国际有限公司2017年TFWA法国世界免税品展会参展服务项目（二次）招标公告
+							</a> <span class="infoTime">2017-06-12</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32427.html" title="云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-C包招标公告" target="_blank">
+							云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-C包招标公告
+							</a> <span class="infoTime">2017-06-09</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32426.html" title="云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-B包招标公告" target="_blank">
+							云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-B包招标公告
+							</a> <span class="infoTime">2017-06-09</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32425.html" title="云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-A包招标公告" target="_blank">
+							云南中烟工业有限责任公司营销中心2017年宣传促销物料（增补）采购项目-A包招标公告
+							</a> <span class="infoTime">2017-06-09</span></li>
+						
+						
+							<li class="infoItem"><a class="infoTtl" href="/ynzyoa/cms/Portlet/Info.do?method=viewContent&amp;url=/2017/6/32423.html" title="云南中烟机关园区及后勤服务中心动力环境监控系统建设项目招标公告" target="_blank">
+							云南中烟机关园区及后勤服务中心动力环境监控系统建设项目招标公告
+							</a> <span class="infoTime">2017-06-09</span></li>
+						
+					</ul>
+					<!-- UIStructureEnd "信息列表" -->
+					<!-- UIStructureBegin "翻页" -->
+					<table border="0" cellpadding="0" cellspacing="0" class="pageBar"> 
+						<tr> 
+							<td class="pageInfo">本页显示15条/共761条信息</td> 
+							<td class="pageGo">
+								<table  border="0" cellspacing="0" cellpadding="0"> 
+									<tr> 
+										<td>
+											<table  border="0" cellspacing="0" cellpadding="0" class="pageSelect"> 
+												<tr> 
+													<td>第</td>  
+													<td> 
+														<select onchange="javascript:ns_7_CD199UFUS2P160A1QEKVM310O4_submitViewPageForm(this);" id="ns_7_CD199UFUS2P160A1QEKVM310O4_pageSelect">
+															 
+																
+																
+																	<option value="1" >1</option>
+																
+															 
+																
+																
+																	<option value="2" >2</option>
+																
+															 
+																
+																	<option selected="selected" value="3" >3</option>
+																
+																
+															 
+																
+																
+																	<option value="4" >4</option>
+																
+															 
+																
+																
+																	<option value="5" >5</option>
+																
+															 
+																
+																
+																	<option value="6" >6</option>
+																
+															 
+																
+																
+																	<option value="7" >7</option>
+																
+															 
+																
+																
+																	<option value="8" >8</option>
+																
+															 
+																
+																
+																	<option value="9" >9</option>
+																
+															 
+																
+																
+																	<option value="10" >10</option>
+																
+															 
+																
+																
+																	<option value="11" >11</option>
+																
+															 
+																
+																
+																	<option value="12" >12</option>
+																
+															 
+																
+																
+																	<option value="13" >13</option>
+																
+															 
+																
+																
+																	<option value="14" >14</option>
+																
+															 
+																
+																
+																	<option value="15" >15</option>
+																
+															 
+																
+																
+																	<option value="16" >16</option>
+																
+															 
+																
+																
+																	<option value="17" >17</option>
+																
+															 
+																
+																
+																	<option value="18" >18</option>
+																
+															 
+																
+																
+																	<option value="19" >19</option>
+																
+															 
+																
+																
+																	<option value="20" >20</option>
+																
+															 
+																
+																
+																	<option value="21" >21</option>
+																
+															 
+																
+																
+																	<option value="22" >22</option>
+																
+															 
+																
+																
+																	<option value="23" >23</option>
+																
+															 
+																
+																
+																	<option value="24" >24</option>
+																
+															 
+																
+																
+																	<option value="25" >25</option>
+																
+															 
+																
+																
+																	<option value="26" >26</option>
+																
+															 
+																
+																
+																	<option value="27" >27</option>
+																
+															 
+																
+																
+																	<option value="28" >28</option>
+																
+															 
+																
+																
+																	<option value="29" >29</option>
+																
+															 
+																
+																
+																	<option value="30" >30</option>
+																
+															 
+																
+																
+																	<option value="31" >31</option>
+																
+															 
+																
+																
+																	<option value="32" >32</option>
+																
+															 
+																
+																
+																	<option value="33" >33</option>
+																
+															 
+																
+																
+																	<option value="34" >34</option>
+																
+															 
+																
+																
+																	<option value="35" >35</option>
+																
+															 
+																
+																
+																	<option value="36" >36</option>
+																
+															 
+																
+																
+																	<option value="37" >37</option>
+																
+															 
+																
+																
+																	<option value="38" >38</option>
+																
+															 
+																
+																
+																	<option value="39" >39</option>
+																
+															 
+																
+																
+																	<option value="40" >40</option>
+																
+															 
+																
+																
+																	<option value="41" >41</option>
+																
+															 
+																
+																
+																	<option value="42" >42</option>
+																
+															 
+																
+																
+																	<option value="43" >43</option>
+																
+															 
+																
+																
+																	<option value="44" >44</option>
+																
+															 
+																
+																
+																	<option value="45" >45</option>
+																
+															 
+																
+																
+																	<option value="46" >46</option>
+																
+															 
+																
+																
+																	<option value="47" >47</option>
+																
+															 
+																
+																
+																	<option value="48" >48</option>
+																
+															 
+																
+																
+																	<option value="49" >49</option>
+																
+															 
+																
+																
+																	<option value="50" >50</option>
+																
+															 
+																
+																
+																	<option value="51" >51</option>
+																
+															
+														</select>
+													</td>  
+													<td>页/共51页</td> 
+												</tr> 
+											</table> 
+										</td>  
+										<td>
+											<table  border="0" cellspacing="0" cellpadding="0" class="pageBtn"> 
+												<tr> 
+													<td class="pageBtnTd"><div class="btnPage"><a href="javascript:ns_7_CD199UFUS2P160A1QEKVM310O4_gotoFirstPage()" >首页</a></div></td> 
+													<td class="pageBtnSpace"></td> 
+													<td class="pageBtnTd"><div class="btnPage"><a href="javascript:ns_7_CD199UFUS2P160A1QEKVM310O4_gotoPrePage()" >上页</a></div></td> 
+													<td class="pageBtnSpace"></td> 
+													<td class="pageBtnTd"><div class="btnPage"><a href="javascript:ns_7_CD199UFUS2P160A1QEKVM310O4_gotoNextPage()">下页</a></div></td> 
+													<td class="pageBtnSpace"></td> 
+													<td class="pageBtnTd"><div class="btnPage"><a href="javascript:ns_7_CD199UFUS2P160A1QEKVM310O4_gotoLastPage()">末页</a></div></td> 
+												</tr> 
+											</table> 
+										</td>
+									</tr> 
+								</table> 
+							</td> 
+						</tr> 
+					</table> 
+					<!-- UIStructureEnd "翻页" --> 
+					</div>
+					<!-- UIDataEnd "模块内容" -->
+
+		<table border="0" cellpadding="0" cellspacing="0" class="pnlBody_B">
+			<tr>
+				<td class="pnlBody_BL"></td>
+				<td class="pnlBody_BC"><img width="1"></td>
+				<td class="pnlBody_BR"></td>
+			</tr>
+		</table>
+	</div>
+</div>
+</div></td></tr></table></td> 
+</tr></table></td></tr></table></td> 
+</tr></table>
+
+
+
+	
+
+<div class="bodyDiv">
+
+
+  <!-- UIStructureBegin "版权" -->
+    <table border="0" cellpadding="0" cellspacing="0" class="copyright">
+        <tr>
+            <td class="copyright_L"><img width="1"></td>
+            <td class="copyright_C"><span class="noteCopy"><span class="noteCopy"  >当前浏览量为：<span id="sitecount"></span>&nbsp;&nbsp;&nbsp; <a href="/portal/wps/portal/out_contact">联系我们</a> | <a href="/portal/wps/portal/out_legal_terms">法律条款</a> | <a href="/portal/wps/portal/out_site_map">站点地图</a></span></span><br />
+                <span class="fontRed">警告：本站点含有烟草内容，十八岁以下人士请勿浏览。</span><br />
+                版权所有 云南中烟工业有限责任公司 YNZY-TOBACCO.COM 备案号：滇ICP备07003582号 </td>
+            <td class="copyright_O"></td>
+            <td class="copyright_R"><img width="1"></td>
+        </tr>
+    </table>
+  <!-- UIStructureEnd "版权" -->
+<script>
+var xmlHttp;   
+
+function createXMLHttpRequest() {   
+    if(window.XMLHttpRequest) {   
+        xmlHttp = new XMLHttpRequest();   
+    } else if(window.ActiveXObject) {   
+        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");   
+    }   
+}   
+  
+function getCount() {
+	//createXMLHttpRequest();   
+	var url = "/cms/CountNum.do?key=2"; 
+	//xmlHttp.open("GET", url, true);
+	//xmlHttp.onreadystatechange=callBack;   
+	//xmlHttp.send(null);
+	$.ajax({
+	    type:'get',
+	    url:url,
+	    success:function(data)
+	    {
+	        if(data)
+		{
+		     $("#sitecount").html(data);  
+		}
+	    }
+	});
+}
+  
+function callBack(){
+    if(xmlHttp.readyState == 4){   
+        if(xmlHttp.status == 200 || xmlHttp.status == 0){   
+			var message = xmlHttp.responseText;
+			document.getElementById("sitecount").innerHTML = message;
+        } else {   
+            alert("xmlHttp 请求失败，错误码 " + xmlHttp.status);   
+        }   
+    }   
+}
+window.onload = function(){   
+	getCount();
+}
+</script>
+
+
+</div>
+
+ 
+
+
+
+ 
+ 
+   
+</body></html>

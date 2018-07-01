@@ -1,0 +1,232 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	金昌市公共资源交易中心
+</title><link href="../css/demo.css" rel="stylesheet" type="text/css" /><link href="css/JinChangSub.css" rel="stylesheet" type="text/css" />
+    
+    <script src="../js/nav.js" type="text/javascript"></script>
+    
+  
+   <script type="text/javascript">
+        $(function () {
+
+            $("dl").hide();
+
+            $("li.mainmenu").hover(function () {
+                $(this).find("dl").stop(true, true);
+                $(this).find("dl").slideDown();
+            }, function () {
+                $(this).find("dl").stop(true, true);
+                $(this).find("dl").slideUp();
+            });
+
+        })
+   </script>
+    
+    
+    <link href="../css/layout.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>  
+  <form method="post" action="ShowAnno.aspx?AnnoID=6216&amp;UrlType=1" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTI1NjA0NTMxNg9kFgJmD2QWAgIDD2QWAgIHD2QWAgIDDxYCHglpbm5lcmh0bWwF8Q4gICAgPGRpdiBjbGFzcz0iaW5mb3RpdGxlIj7opb/lnaHmlrDmnZHkv53pmpzmgKfkvY/miL/lu7rorr7pobnnm67lha3mnJ/lt6XnqIvotYTmoLzpooTlrqHlhazlkYo8YnIvPuS6pOaYk+e8luegge+8mkEwMS0xMjYyMDMwMDA3MzU5NTczODQtMjAxODA0MjgtMDEzNDE4LTI8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImluZm9jbnQiPgo8dGFibGUgc3VtbWFyeT0iU3VtbWFyeSBIZXJlIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiPjx0aGVhZD48dHI+PHRoIHN0eWxlPSJoZWlnaHQ6IDMwcHg7IGJhY2tncm91bmQtY29sb3I6I0NFMjI5MDsgY29sb3I6I2ZmZjsiIGNvbHNwYW49Mj7lnLrlnLDlronmjpLmg4XlhrU8L3RoPjwvdHI+PC90aGVhZD48dGJvZHk+PHRyIGNsYXNzPSJsaWdodCI+ICA8dGQgc3R5bGU9InJlZHR4dCI+5byA5qCH5Y6F77ya5LqM5qW8IOesrOS4gOW8gOagh+WOhTwvdGQ+ICA8dGQgc3R5bGU9InJlZHR4dCI+5byA5qCH5pe26Ze077yaMjAxOC81LzE3IDk6MDA6MDA8L3RkPjwvdHI+PC90cj48L3Rib2R5PjwvdGFibGU+PHRhYmxlIHN1bW1hcnk9IlN1bW1hcnkgSGVyZSIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiA+PHRoZWFkPjx0cj48dGggc3R5bGU9ImhlaWdodDogMzBweDtiYWNrZ3JvdW5kLWNvbG9yOiNDRTIyOTA7IGNvbG9yOiNmZmY7IiAgY29sc3Bhbj00PuaKleagh+S/neivgemHkTwvdGg+PC90cj48L3RoZWFkPjx0Ym9keT48dHIgY2xhc3M9ImxpZ2h0Ij4gIDx0ZCBzdHlsZT0icmVkdHh0IiB3aWR0aD04MD7miLflkI3vvJo8L3RkPiAgPHRkIHN0eWxlPSJyZWR0eHQiPumHkeaYjOW4guWFrOWFsei1hOa6kOS6pOaYk+S4reW/g+aKleagh+S/neivgemHkTwvdGQ+ICA8dGQgc3R5bGU9InJlZHR4dCIgd2lkdGg9ODA+5biQ5oi377yaPC90ZD4gIDx0ZCBzdHlsZT0icmVkdHh0Ij4xMDQ1NDU4MDE2NzI8L3RkPjwvdHI+PHRyIGNsYXNzPSJsaWdodCI+ICA8dGQgc3R5bGU9InJlZHR4dCIgd2lkdGg9ODA+5byA5oi36KGM77yaPC90ZD4gIDx0ZCBzdHlsZT0icmVkdHh0Ij7kuK3lm73pk7booYzogqHku73mnInpmZDlhazlj7jph5HmmIzluILph5Hlt53mlK/ooYw8L3RkPiAgPHRkIHN0eWxlPSJyZWR0eHQiIHdpZHRoPTgwPuiBlOezu+S6uu+8mjwvdGQ+ICA8dGQgc3R5bGU9InJlZHR4dCI+6YK15paw6IiqICA8L3RkPjwvdHI+PHRyIGNsYXNzPSJsaWdodCI+ICA8dGQgc3R5bGU9InJlZHR4dCIgd2lkdGg9ODA+5ZKo6K+i55S16K+d77yaPC90ZD4gIDx0ZCBzdHlsZT0icmVkdHh0Ij44MzI1MjI4PC90ZD4gIDx0ZCBzdHlsZT0icmVkdHh0IiB3aWR0aD04MD7lj4vmg4Xmj5DnpLrvvJo8L3RkPiAgPHRkIHN0eWxlPSJyZWR0eHQgIiA+5bCK5pWs55qE5oqV5qCH5Lq677yM5oKo55S15rGH5L+d6K+B6YeR5pe277yM6K+35Zyo6ZmE6KiA5qCP5Lit5LuF5aGr5YaZOOS9jeaKleagh+eZu+iusOWPtzwvdGQ+PC90cj48L3Rib2R5PjwvdGFibGU+ICAgIDwvZGl2Pgo8aWZyYW1lIGlkPSJJZnJhbWUiIHN0eWxlPSJ3aWR0aDo5MzNweDtoZWlnaHQ6OTI1cHg7bWFyZ2luLWxlZnQ6MTBweDsiIHNyYz0naHR0cDovL29zcy5hbGl5dW5jcy5jb20vY2hlbmd4aW5nLXRlc3QxLzAzZjYzNjZkNjFiYjcwMTk3MGRkNDUzYzljOTRhMTM4LnBkZj9FeHBpcmVzPTE1MjUzNTEwNzYmT1NTQWNjZXNzS2V5SWQ9N2lhdWFIZEVxVW0xdUMzTiZTaWduYXR1cmU9b1JxVXo4djBPdXd2czFZZVpJJTJCeHN3VVg0cUUlM0QnPjwvaWZyYW1lPiAgICA8L2Rpdj4KICAgIDwhLS0gIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyAtLT4KICAgIDxkaXYgY2xhc3M9ImNsZWFyIj4KICAgIDwvZGl2PgpkZAG+LuzmcuCgwZNkGKtp3Aetk28XxJB241c/vof5MhQo" />
+</div>
+
+<script type="text/javascript" src="/ajax/common.ashx"></script><script type="text/javascript" src="/ajax/InfoPage_ShowAnno,App_Web_showanno.aspx.3db62916.ofrjwkmi.ashx"></script>
+  <div id="ttt">
+  <!--#######################网站的最上端#################################-->
+ <div id="toptop0">
+     
+<div id="toptop">
+	<div class="date">
+    	<script type="text/javascript">
+    	    function initArray() {
+    	        for (i = 0; i < initArray.arguments.length; i++)
+    	            this[i] = initArray.arguments[i];
+    	    }
+
+    	    var isnMonths = new initArray("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12");
+    	    var isnDays = new initArray("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日");
+    	    today = new Date();
+    	    hrs = today.getHours();
+    	    min = today.getMinutes();
+    	    sec = today.getSeconds();
+    	    clckh = "" + ((hrs > 12) ? hrs - 12 : hrs);
+    	    clckm = ((min < 10) ? "0" : "") + min; clcks = ((sec < 10) ? "0" : "") + sec;
+    	    clck = (hrs >= 12) ? "下午" : "上午";
+    	    var stnr = "";
+    	    var ns = "0123456789";
+    	    var a = "";
+
+    	    function getFullYear(d) {
+    	        yr = d.getYear();
+    	        if (yr < 1000)
+    	            yr += 1900;
+    	        return yr;
+    	    }
+		</script>
+		<script type="text/javascript">
+		    
+		    document.write("<div class='time'>" + getFullYear(today) + "年" + isnMonths[today.getMonth()] + "月" + today.getDate() + "日 " + isnDays[today.getDay()] + "</div>");		
+		</script>
+        
+	</div>  
+    
+    <div class="topleft">
+    	
+    	<div class="topleft1"><a href="#">设为首页</a>&nbsp;&nbsp;&nbsp;|</div>
+        
+        <div class="topleft2"><a href="#">加入收藏</a>&nbsp;&nbsp;&nbsp;|</div>
+        
+        <div class="topleft3"><a href="http://www.jcggzy.gov.cn/InfoPage/ContactInformation.aspx" target="_blank">联系我们</a>&nbsp;&nbsp;&nbsp;|</div>
+        
+        <div class="topleft4"><a href="http://www.jcggzy.com/InfoPage/Form_Registered.aspx" target="_blank">免费注册</a>&nbsp;&nbsp;&nbsp;|</div> 
+        <div class="topleft4"><a href="http://xy.gsggzyjy.cn" target="_blank">信息共享平台</a></div>   
+    </div>
+</div>
+
+ </div>
+    <!--#######################网站的头部#################################-->
+  <div id="top">
+     
+<div class="topL">
+		<img src="../images/logo.png" alt="" />
+    </div>
+    <div class="topR">
+		
+</div>
+
+  </div>
+    <!--#######################菜单加载#################################-->
+    <div class="nav">
+      
+
+<div id="left">
+    <img src="../images/nav_l.png" alt=""/>
+    </div>
+             <ul>
+            <li><a class="link" href="../Default.aspx">网站首页</a>        </li>
+            <li class="mainmenu"><a  class="link" href="../InfoPage/InfoList.aspx?SiteItem=3">单位简介</a>            <dl>                    <dd><a href="../InfoPage/View.aspx?InfoID=75">交易中心简介</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=11">领导班子</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=12">下属科室</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=142">信息公开</a></dd>
+            </dl>        </li>
+            <li class="mainmenu"><a  class="link" href="../InfoPage/InfoList.aspx?SiteItem=58">新闻专题</a>            <dl>                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=60">单位新闻</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=61">学习党的十九大</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=119">教育实践活动</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=112">精准扶贫</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=59">行业动态</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=62">通知公告</a></dd>
+            </dl>        </li>
+            <li class="mainmenu"><a  class="link" href="../InfoPage/InfoList.aspx?SiteItem=63">法律法规</a>            <dl>                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=64">国家法律</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=65">地方法规</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=66">政府文件</a></dd>
+            </dl>        </li>
+            <li class="mainmenu"><a  class="link" href="../InfoPage/InfoList.aspx?SiteItem=4">交易信息</a>            <dl>                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=31">房建市政</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=32">交通运输</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=34">水利及其他</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=35">政府采购</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=150">土地转让</a></dd>
+            </dl>        </li>
+            <li class="mainmenu"><a  class="link" href="../InfoPage/InfoList.aspx?SiteItem=5">办事指南</a>            <dl>                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=38">招标人、代理机构</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=39">投标人</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=40">评标专家</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=41">监管单位</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=42">综合信息</a></dd>
+            </dl>        </li>
+            <li class="mainmenu"><a  class="link" href="../InfoPage/InfoList.aspx?SiteItem=6">投诉处理</a>            <dl>                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=43">荣誉榜</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=44">违纪曝光</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=45">信用记录查询</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=99">投诉处理</a></dd>
+            </dl>        </li>
+            <li><a class="link" href="../InfoPage/InfoList.aspx?SiteItem=70">代理机构</a>        </li>
+            <li class="mainmenu"><a  class="link" href="../InfoPage/InfoList.aspx?SiteItem=9">下载中心</a>            <dl>                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=67">系统软件工具</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=68">文件表格下载</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=164">招标（采购）人下载资料</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=165">投标人（供应商）下载资料</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=166">代理机构下载资料</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=167">评标专家下载资料</a></dd>
+            </dl>        </li>
+            <li class="mainmenu"><a  class="link" href="http://www.jcggzy.com/InfoPage/InfoList.aspx?SiteItem=110">统计信息</a>            <dl>                    <dd><a href="http://www.jcggzy.com:8091/ProjectProgress/scanproject.aspx">进度查询</a></dd>
+                    <dd><a href="../InfoPage/InfoList.aspx?SiteItem=110">数据统计分析</a></dd>
+            </dl>        </li>
+            <li class="mainmenu"><a  class="link" href="../GovernmentInfo/InfoPage/GovernmentInfoList.aspx?SiteItem=169">政府信息公开</a>            <dl>                    <dd><a href="../GovernmentInfo/InfoPage/GovernmentInfoList.aspx?SiteItem=171">信息公开指南</a></dd>
+                    <dd><a href="../GovernmentInfo/InfoPage/GovernmentInfoList.aspx?SiteItem=172">信息公开制度</a></dd>
+                    <dd><a href="../GovernmentInfo/InfoPage/GovernmentInfoList.aspx?SiteItem=170">信息公开目录</a></dd>
+                    <dd><a href="../GovernmentInfo/InfoPage/GovernmentInfoList.aspx?SiteItem=174">信息公开年度报告</a></dd>
+                    <dd><a href="../GovernmentInfo/InfoPage/GovernmentInfoList.aspx?SiteItem=173">依申请公开</a></dd>
+                    <dd><a href="../GovernmentInfo/InfoPage/GovernmentInfoList.aspx?SiteItem=178">公开意见箱</a></dd>
+            </dl>        </li>
+        </ul>
+
+	<div id="right">
+     <img src="../images/nav_r.png">
+    </div>
+
+   </div>
+   </div> 
+    
+    <div id="con">
+  <div id="content">
+	
+    
+    
+    	     
+             <h3 id="ContentPlaceHolder1_navgator" class="navbar">
+                当前位置：<a target="_blank" href="../Default.aspx">网站首页</a> \ <a href="../InfoPage/InfoList.aspx?SiteItem=4">
+                交易信息</a>
+             </h3>
+
+             
+     <div id="container" class="clear">
+            <!-- ####################################################################################################### -->
+            <div id="ContentPlaceHolder1_AnnoGoodsHtml">    <div class="infotitle">西坡新村保障性住房建设项目六期工程资格预审公告<br/>交易编码：A01-126203000735957384-20180428-013418-2</div>
+    <div class="infocnt">
+<table summary="Summary Here" cellpadding="0" cellspacing="0"><thead><tr><th style="height: 30px; background-color:#CE2290; color:#fff;" colspan=2>场地安排情况</th></tr></thead><tbody><tr class="light">  <td style="redtxt">开标厅：二楼 第一开标厅</td>  <td style="redtxt">开标时间：2018/5/17 9:00:00</td></tr></tr></tbody></table><table summary="Summary Here" cellpadding="0" cellspacing="0" ><thead><tr><th style="height: 30px;background-color:#CE2290; color:#fff;"  colspan=4>投标保证金</th></tr></thead><tbody><tr class="light">  <td style="redtxt" width=80>户名：</td>  <td style="redtxt">金昌市公共资源交易中心投标保证金</td>  <td style="redtxt" width=80>帐户：</td>  <td style="redtxt">104545801672</td></tr><tr class="light">  <td style="redtxt" width=80>开户行：</td>  <td style="redtxt">中国银行股份有限公司金昌市金川支行</td>  <td style="redtxt" width=80>联系人：</td>  <td style="redtxt">邵新航  </td></tr><tr class="light">  <td style="redtxt" width=80>咨询电话：</td>  <td style="redtxt">8325228</td>  <td style="redtxt" width=80>友情提示：</td>  <td style="redtxt " >尊敬的投标人，您电汇保证金时，请在附言栏中仅填写8位投标登记号</td></tr></tbody></table>    </div>
+<iframe id="Iframe" style="width:933px;height:925px;margin-left:10px;" src='http://oss.aliyuncs.com/chengxing-test1/03f6366d61bb701970dd453c9c94a138.pdf?Expires=1525351076&OSSAccessKeyId=7iauaHdEqUm1uC3N&Signature=oRqUz8v0Ouwvs1YeZI%2BxswUX4qE%3D'></iframe>    </div>
+    <!-- ####################################################################################################### -->
+    <div class="clear">
+    </div>
+</div>
+        </div>        
+            
+            
+   
+    
+  </div>
+</div>
+    
+   
+
+    
+    <div id="footer">
+      
+<div style="width:980px; margin:0 auto;">
+<div style="width:193px;height:82px;overflow:hidden;margin:0 auto;margin-bottom:10px;">
+        <p style="float: left;height: 72px;">
+            <script type="text/javascript"> document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/28/404/0000/60212251/CA284040000602122510001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+        </p>
+        <p style="float: left;height: 72px;margin-top:11px;">
+            <script id="_jiucuo_" sitecode='6203000042' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js '></script>
+        </p> 
+</div>
+<p>金昌市公共资源交易中心&nbsp;&nbsp;&nbsp;&nbsp;版权所有 © 2013&nbsp;&nbsp;&nbsp;&nbsp;电子邮箱：jcsjyzx@163.com</p>
+<p>网站标识码：6203000042</p>
+<p>网站主办单位及联系方式：金昌市公共资源交易中心  0935-8325896</p>
+<p>ICP备案编号：陇ICP备13000797</p>
+<p><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62030202000115">
+                <img src="../images/jin_pg.png" style="vertical-align:middle;" />
+   </a> 甘公网安备 62030202000115号 | <a style="color: rgb(255, 255, 255); font-size: 14px;text-decoration:none;" href="http://www.jcggzy.gov.cn/InfoPage/WebMap.aspx" target="_blank">网站地图</a>
+</p>
+<p>电话&nbsp;&nbsp;&nbsp;&nbsp;业务科：0935-8325935&nbsp;&nbsp;财务科 ：0935-8325228&nbsp;&nbsp;服务信息科： 0935-8325896</p>
+<p>甘肃成兴信息科技有限公司&nbsp;&nbsp;技术支持</p>
+</div>
+
+    </div>
+    </form>
+</body>
+</html>

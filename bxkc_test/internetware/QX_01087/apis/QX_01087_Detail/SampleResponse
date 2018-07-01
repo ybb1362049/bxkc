@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="SiteName" content="武侯区人民政府门户网站">
+<meta name="SiteDomain" content="www.cdwh.gov.cn">
+<meta name="SiteIDCode" content="5101070001">
+<meta name="ColumnName" content="招标公告">
+<meta name="ColumnDescription" content="">
+<meta name="ColumnKeywords" content="">
+<meta name="ColumnType" content="招标公告">
+<meta name="ArticleTitle" content="武侯大健康科技产业园工程水土保持（第二次）比选公告&nbsp;">
+<meta name="PubDate" content="2018-04-18 14:04">
+<meta name="ContentSource" content="成都西部智谷建设开发有限公司">
+<meta name="Keywords" content="">
+<meta name="description" content='【项目业主】：成都西部智谷建设开发有限公司【项目名称】：武侯大健康科技产业园工程水土保持【服务内容】,' />
+<title>武侯大健康科技产业园工程水土保持（第二次）比选公告&nbsp;</title>
+<meta name="others" content="页面生成时间 2018-04-18 14:35:00" />
+<meta name="template,templategroup,version" content="12b447356c7a40e7bcc9201bd4990029,default,3.3" />
+<link rel="shortcut icon" type="image/x-icon" href="/wuhou/xhtml/images/favicon.ico" media="screen" />
+	<link href="/wuhou/xhtml/css/base.css" type="text/css" rel="stylesheet" />
+	<link href="/wuhou/xhtml/css/index.css" type="text/css" rel="stylesheet" />
+	<link href="/wuhou/xhtml/css/public.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="/wuhou/xhtml/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/wuhou/xhtml/js/frontend.js"></script>
+	<script type="text/javascript" src="/wuhou/xhtml/js/work.js"></script>
+  <script type="text/javascript" src="/wuhou/xhtml/js/fwtj.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			//menu js
+			function menuss(){
+			var muls = $("#menu ul li").size();
+			for (var i = 0; i < muls; i++) {
+				$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 14px 15px no-repeat");
+				if(i == (muls - 1)){ 
+					$("#menu ul li a").eq(i).css("background","url(/wuhou/xhtml/images/icon"+(i+1)*11+".png) 12px 15px no-repeat");
+				}
+				
+			};
+		}
+	menuss();
+
+		 
+
+		})
+	</script>
+</head>
+<body>
+	<div class="container">
+		<!--头部-->
+		<script type="text/javascript" src="/wuhou/xhtml/js/search.js"></script>
+
+<!--头部-->
+		<div class="header">
+			<div class="top">
+				<div class="inner">
+					<span>成都市武侯区人民政府门户网站</span>
+					<ul>
+						<li><a href="javascript:;" onclick="javascript:window.location.href='http:/'+'/'+'www.cdwh.gov.cn'">简体中文</a>|</li>
+						<li><a href="javascript:;" onclick="javascript:window.location.href='http:/'+'/'+'www.cdwh.gov.cn:81'">繁体中文</a>|</li>
+						<li><a href="/wuhou/WuHou/en_home.shtml" target="_blank">English</a>|</li>
+						<li><a href="http://www.cdwh.gov.cn/accessibility/web" id="wza">无障碍版</a>|</li>
+						<li><a href="/wuhou/c106403/phone_download.shtml" target="_blank">移动版</a></li>
+					</ul>
+				</div><script type="text/javascript">
+               var url = window.parent.location.href;
+    if(url == 'http://www.cdwh.gov.cn/accessibility/web')
+    {
+    
+     document.getElementById("wza").href = "javascript:;"; 
+    }
+</script>
+			</div>
+			<div class="logo">
+				<div class="search">
+                  <form name="searchForm" id="searchForm"  action="" method="post" target="_blank" onsubmit="return checksearch();">
+					<input type="text"  name="qt" value="请输入关键字查询" class="searchText" id="searchText" />
+					<input type="submit" name="" value="" class="searchBtn" />
+                    </form>
+				</div>				
+             
+       <iframe id="tq" width="387" scrolling="no" height="15" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=11&color=%23&icon=1&py=wuhouqu&site=12"></iframe>
+              
+			</div>
+			<div class="menu" id="menu">
+				<ul>
+					<li><a href="/wuhou/index.shtml#0"  target="_self" title='武侯资讯' >武侯资讯</a></li>
+					<li><a href="/wuhou/index.shtml#1"  target="_self" title='政务公开' >政务公开</a></li>
+					<li><a href="/wuhou/index.shtml#2"  target="_self" title='办事服务' >办事服务</a></li>
+					<li><a href="/wuhou/index.shtml#3"  target="_self" title='公众参与' >公众参与</a></li>
+					<li><a href="/wuhou/index.shtml#4"  target="_self" title='投资服务' >投资服务</a></li>
+					<li><a href="/wuhou/index.shtml#5"  target="_self" title='机构目录' >机构目录</a></li>
+					<li><a href="/wuhou/index.shtml#6"  target="_self" title='认识武侯' >认识武侯</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--/头部end-->
+	<script type="text/javascript">
+		$(function(){
+			//搜索框
+			var seach = $(".searchText");
+			var oldVal = seach.val();
+			seach.focus(function(){   //获取光标
+				if($(this).val()==oldVal){
+					$(this).val('');
+				}
+				$(this).css("color","#000");
+			});
+			seach.blur(function(){   //失去光标
+				if($(this).val()==""){
+				   $(this).val(oldVal);
+				   $(this).css("color","#b8b8b8");
+				}
+			})
+
+		});
+	</script> 
+		<!--/头部end-->
+		<!--main-->
+		<div class="main">
+			<div class="detailDiv">
+				<p class="wz" id="current">
+					<span>当前位置：</span>
+<a href='/wuhou/index.shtml'  target="_blank">首页</a>&nbsp;>&nbsp;<a href='/wuhou/index.shtml#1'  target="_blank">政务公开</a>&nbsp;>&nbsp;<a href='/wuhou/c106107/list_more.shtml'  target="_blank">重点信息公开</a>&nbsp;>&nbsp;<a href='/wuhou/c106110/list_more.shtml'  target="_blank">招标采购</a>&nbsp;>&nbsp;<a href='/wuhou/c109345/list_more.shtml'  target="_blank">招标公告</a>
+
+				</p>
+				<p class="tit">武侯大健康科技产业园工程水土保持（第二次）比选公告&nbsp;</p>
+				<p class="set">
+					来源：成都西部智谷建设开发有限公司&nbsp;
+					录入时间：2018-04-18 14:04&nbsp;
+					【字体： 
+					<a href="javascript:setFont(16);">大</a> <a href="javascript:setFont(14);">中</a> <a href="javascript:setFont(12);">小</a>】&nbsp;
+					<a href="javascript:window.print();">打印</a>&nbsp;
+					<a href="javascript:window.close();">关闭</a>
+                  <span style="display:none;" id="Browse"></span>
+				</p>
+				<div class="cont" id="content">
+					<p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left" align="left"><span style="font-size:
+14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">【项目业主】</span><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">：</span><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">成都西部智谷建设开发有限公司</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';line-height:150%"><span style="font-size:14.0pt;
+line-height:150%;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">【项目名称】：武侯大健康科技产业园工程水土保持</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left" align="left"><span style="font-size:
+14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">【服务内容】：建设内容：武侯大健康科技产业园位于武侯区簇桥街道瓦房村<span>1</span>组，净用地面积<span>4955.36</span>㎡（约<span>7.433</span>亩），拟建总建筑面积约<span>25000</span>㎡（其中地上面积约<span>15000</span>㎡，地下约<span>10000</span>㎡），建设总投资约<span>15000</span>万元。根据上述内容出具相关部门认可的水土保持方案报告书。</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left" align="left"><span style="font-size:
+14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">【比选时间】：<span>2018</span>年<span>4</span>月<span>24</span>日<span>10</span>时<span>00</span>分<span><br>
+</span>【比选地址】：成都市武侯区武科西五路<span>360</span>号二栋三单元<span>10</span>楼会议室<span><br>
+</span>【联系电话】：<span>028-85002925<br>
+</span>【报名条件】：本次项目共需承包商情况如下：</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left" align="left"><span style="font-size:
+14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">１．资质要求：具备独立法人资格；水土保持乙级资质（水评证书<span>3</span>星）。</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left;text-indent:13.6pt" align="left"><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">２．报名要求：</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left;text-indent:13.6pt" align="left"><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">（<span>1</span>）法定代表人授权委托书或介绍信（以上证件收原件）；</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left;text-indent:13.6pt" align="left"><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">（<span>2</span>）经办人身份证，若为法定代表人亲自购买则提供法定代表人身份证（交加盖公章复印件）；</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left;text-indent:13.6pt" align="left"><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">（<span>3</span>）企业法人营业执照、组织机构代码证或三证合一证书（交加盖公章复印件）。</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left" align="left"><span style="font-size:
+14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">【比选文件的获取】：</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left" align="left"><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">1. </span><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">凡有意参加比选者，请于<span>2018</span>年<span>4</span>月<span>19</span>日至<span>2018</span>年<span>4</span>月<span>20</span>日（法定公休、法定节假日除外），每日<span>9</span>：<span>00</span>至<span>17:00</span>（北京时间，下同）在都市武侯区武科西五路<span>360</span>号二栋三单元<span>906</span>室获取比选文件。</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:left" align="left"><span style="font-size:
+14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">２．比选文件不收费，不提供邮购比选文件服务</span><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312;letter-spacing:-.2pt">。</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:right;text-indent:35.0pt;
+line-height:22.0pt" align="right"><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312">&nbsp;</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:right;text-indent:35.0pt;
+line-height:22.0pt" align="right"><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312">&nbsp;</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';text-align:right;text-indent:35.0pt;
+line-height:22.0pt" align="right"><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312">比选人：成都西部智谷建设开发有限公司</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';margin-right:28.0pt;text-align:right;
+text-indent:35.0pt;line-height:22.0pt" align="right"><span style="font-size:14.0pt;
+font-family:仿宋,仿宋_GB2312">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312">联系人：黄老师<span>,</span>张老师</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif';margin-right:28.0pt;text-align:left;
+text-indent:35.0pt;line-height:22.0pt" align="left"><span style="font-size:14.0pt;
+font-family:仿宋,仿宋_GB2312">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312">联系电：<span>028-85002925<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2018<span>年4</span><span>月18</span><span>日</span></span></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif'"><span style="font-size:14.0pt;font-family:仿宋,仿宋_GB2312">&nbsp;</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph;font-size:10.5pt;font-family:'Calibri','sans-serif'"><span>&nbsp;</span></p>
+<br>
+</p>
+					 <div class="fr" >
+                            <div class="bdsharebuttonbox " style="float:left;margin:20px 0;">
+                            <span style="float:left;margin-top:3px;">分享到：</span>
+                                    <a href="#" class="bds_qzone" data-cmd="qzone"></a>
+                                    <a href="#" class="bds_tsina" data-cmd="tsina"></a>
+                                    <a href="#" class="bds_tqq" data-cmd="tqq"></a>
+                                    <a href="#" class="bds_renren" data-cmd="renren">
+                                    </a><a href="#" class="bds_weixin" data-cmd="weixin"></a>
+                                    <a href="#" class="bds_more" data-cmd="more"></a> 
+                               
+                            </div>      
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+                            </div>
+				</div>
+			</div>
+			<div class="three_div mb0">
+				<div class="inf dett" id="xgwz">
+					<div class="bar bar2">
+						<a href=""></a>
+						<span>相关文章</span>
+					</div>
+					<ul class="ul">
+
+					</ul>
+				</div>
+				<div class="inf dett" id="rmwz">
+					<div class="bar bar2">
+						<a href=""></a>
+						<span>热门文章</span>
+					</div>
+					<ul class="ul">
+						
+					</ul>
+				</div>
+				<p class="clear"></p>
+			</div>
+		</div>
+		<!--main end-->
+		<!--底部-->
+		  <div class="footer">
+	 <div class="footerBox">
+			<div class="footerMenu">
+				<a href="javascript:void(0)" onclick="if(document.all){this.style.behavior='url(#default#homepage)';this.setHomePage('http://'+document.location.host);}else{setHomePage('http://'+document.location.host)}">设为首页</a>|
+				<a href="javascript:void(0)" onclick="AddFavor()">加入收藏</a>|
+				<a href="/wuhou/c106398/site_map.shtml"  target="_blank" title='网站地图' >网站地图</a>|
+				<a href="/wuhou/c106399/cont.shtml"  target="_blank" title='使用帮助' >使用帮助</a>|
+				<a href="http://cdxinfang.gov.cn/suggest.html"  target="_blank" title='意见建议' >意见建议</a>|
+				<a href="/wuhou/c106401/cont.shtml"  target="_blank" title='联系我们' >联系我们</a>|
+				<a href="http://www.cdjubao.gov.cn/"  target="_blank" title='信息举报' >信息举报</a>|
+				<a href="/wuhou/c106403/phone_download.shtml"  target="_blank" title='手机APP' >手机APP</a>|
+           <a href="/wuhou/c106403/phone_download.shtml" target="_blank">移动版</a>
+			</div>
+		<p>成都市武侯区人民政府 主办 武侯区行政审批局 承办 版权所有：武侯区政府</p>
+	    <p> 电子邮箱：xzspj@cdwh.gov.cn 蜀ICP备10207067号-2 公安备510116990291号  &nbsp;&nbsp;&nbsp;&nbsp;网站标识码：5101070001</p>
+	    <div class="jiucuo"><script id="_jiucuo_" sitecode='5101070001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></div>
+	    <div class="dzjg">
+	    	<a href="http://www.cdnet110.com/"><img src="/wuhou/xhtml/images/index_15.png"  class="wj"  /></a>
+	    	<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/333/1994/40512783/CA233331994405127830002.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+	   </div>
+</div>
+
+<!-- PHPStat Start -->
+<script language="JavaScript">var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="phpstat_js_id_10000066" src="//182.150.40.157:8080/phpstat/count/10000066/10000066.js"></script><noscript><img src="//182.150.40.157:8080/phpstat/count/10000066/10000066.php" alt="PHPStat Analytics"/></noscript>
+<!--/PHPStat End --> 
+		<!--/底部-->
+	</div>
+	<script>
+    $(function(){
+        var num= $('#xgwz >ul >li').size();
+        if(num==0){
+          $('#xgwz').hide();
+          $('#rmwz').css({'margin-left':'0','width':'998px'});
+          
+        }
+      
+      	$.ajax({
+				type : 'GET',
+				url : '/cms-access-count/accessCount/getCountList.do?type=2&pageNumber=1&limit=5&cid=&wid=d8f33da74d1e44eaa419d33428ca0558&name=',
+				dataType : 'json',
+				success:function(msg){
+					console.log(msg);
+					var data = msg.data.result;
+					for(var i=0;i<data.length;i++){
+						var title = data[i].TITLE;
+						var url = data[i].URL;
+						
+                      $("#rmwz >ul.ul").append("<li><a href='http://www.cdwh.gov.cn/wuhou/"+url+"' target='_blank'>"+title+"</a></li>");
+					}
+					 }
+                    });
+				
+
+    })
+    
+  </script>
+  
+  
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>采购公告-犍为县人民政府</title>
+<meta name="others" content="页面生成时间 2018-01-04 10:09:55" />
+    <link rel="stylesheet" type="text/css" href="../../xhtml/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../../xhtml/css/show.css"/>
+	<script type="text/javascript" src="../../xhtml/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../xhtml/js/common.js"></script>    
+    <!--[if lt IE 9]> 
+    <script src="../../xhtml/js/html5shiv.min.js"></script>
+    <script src="../../xhtml/js/respond.min.js"></script>
+    <![endif]-->    
+  <script id="gk" type="text/javascript">	
+	$(function() {
+		
+	});		
+</script>      
+</head>
+<body class="bg">
+    <div class="header">
+    <div class="top">
+        <div class="topwapper">
+            <span class="top-links">
+                <a href="http://www.gov.cn/" target="_blank">中央人民政府</a> | 
+                <a href="http://www.sc.gov.cn/" target="_blank">四川省政府</a> | 
+                <a href="http://www.leshan.gov.cn/" target="_blank">乐山市政府</a>                
+             </span>
+             <span class="right">
+                <!--<a href="#">无障碍浏览</a>--> | 
+                <a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a> | 
+                <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a>
+             </span>            
+        </div>
+    </div>
+    <div class="logo">
+        <h1><a href="../../../qwx/index.shtml" title="logo"><img src="../../xhtml/images/logo.png"></a></h1>
+        <div class="search">
+            <p>
+                <strong>热门搜索：</strong>					
+                <span>
+                <!---关键词-->
+                </span>
+            </p>                
+           <form name="searchForm" target="_blank" action="" onsubmit="return checkForm();" method="get" id="searchForm">
+                <input name="q" baidusug="1" id="searchinput" class="sr" autocomplete="off" placeholder="请输入关键字..." type="text" onclick="if(this.value=='请输入关键字...')this.value=''"onblur="if(this.value=='')this.value='请输入关键字...';" onkeypress="if(event.keyCode==13) {return checkForm();}">
+                <!--<input class="btn" value="" type="submit"> -->
+                <button name="searchButton" id="searchButton" class="btn" onclick="checkForm();" type="button"></button>
+                
+            </form>      
+        </div>
+    </div>
+    <script type="text/javascript" language="javascript">
+       //加入收藏
+        function AddFavorite(sURL, sTitle) {
+           sURL =encodeURI(sURL); 
+            try{   
+              window.external.addFavorite(sURL, sTitle);   
+            }catch(e) {   
+              try{   
+                  window.sidebar.addPanel(sTitle, sURL, "");   
+               }catch (e){   
+                  alert("您的浏览器不支持自动加入收藏功能，请使用Ctrl+D进行添加，或手动在浏览器里进行设置！");
+              }   
+            }
+        }
+       
+       //设为首页
+       function SetHome(url){
+           if (document.all) {
+              document.body.style.behavior='url(#default#homepage)';
+                 document.body.setHomePage(url);
+           }else{
+               alert("您的浏览器不支持自动设置页面为首页功能，请您手动在浏览器里设置该页面为首页！");
+           }
+       }   
+       
+       //使用搜索
+       function checkForm(){
+		/* -------------------  搜索  ---------------------------- */
+		
+		var query = searchForm.q.value;
+		//var database = searchForm.database.value;
+		if(query==null || query==""){
+			alert("请输入搜索条件");
+		}
+		else{
+			var url="http://www.leshan.gov.cn/ls/DBQuery?database=SCLS_ZQ_QWXA&dbType=1&ku=&qt="+encodeURIComponent(query);
+			window.open(url);
+		}
+		return false;
+	}       
+      
+    </script>
+</div> 
+    <div class="container">
+        <div class="line10"></div>
+        <div class="g-w">            	
+            <div class="menu">
+    <ul>
+        <li class="on"><a href="../../../qwx/index.shtml" target="_parent"><i></i>网站首页</a></li>
+        <li><a href="http://www.qianwei.gov.cn/qwx/zfld/201711/f317a80bd4384a2eb05f948021b0554c.shtml"  target="_parent">	政府领导	</a></li>
+        <li><a href="../../../qwx/zwzx/news.shtml"  target="_parent">	新闻中心	</a></li>
+        <li><a href="../../../qwx/xxgk/openinfo.shtml"  target="_parent">	信息公开	</a></li>
+        <li><a href="../../../qwx/bsfw/bsfw.shtml"  target="_parent">	办事服务	</a></li>
+        <li><a href="../../../qwx/hdjl/zmhd.shtml"  target="_parent">	政民互动	</a></li>
+        <li><a href="../../../qwx/mlqw/news_about.shtml"  target="_parent">	魅力犍为	</a></li>
+    </ul>
+</div> 
+            <div class="content clearfix">
+              <div class="pos">
+                <p class="left">您当前所在的位置</p>:
+<a href='../../../qwx/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='../../../qwx/xxgk/openinfo.shtml'  target="_parent">信息公开</a>&nbsp;>&nbsp;<a href='/qwx/cggg/news_child.shtml'  target="_parent">招标采购</a>&nbsp;>&nbsp;<a href='../../../qwx/cggg/news_child.shtml'  target="_parent">采购公告</a>
+> 正文
+              </div>
+              <div class="detail">
+				<h3><UCAPTITLE>犍为县住建局犍为县2018年春节亮化工程竞争性谈判采购公告</UCAPTITLE></h3>
+				<p class="p1">
+                	<span>文章来源：</span>
+					<span>发布时间：<PUBLISHTIME>2018-01-03</PUBLISHTIME></span>
+                </p>
+                <div class="video-box"></div>
+                <div class="main" id="new_content" style="min-height: 500px;">                
+                     <UCAPCONTENT>		<a name="Sheet1"></a>	<table id="_Sheet1" align="center" CellPadding="0" CellSpacing="0" style="table-layout: fixed;font-family:宋体;font-size:9pt;color:#000000;border-collapse:collapse;" border="0" Width="799">	<tr Height="0px" style="font-size: 0px;line-height:0px;">		<td Width="263px" style="border-left:#0000 1px solid;border-right:#0000  1px solid;">&nbsp;</td>		<td Width="536px" style="border-right:#0000 1px solid;">&nbsp;</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采购项目名称</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">犍为县2018年春节亮化工程</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采购项目编号</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">QWZC-TP201801</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采购预算金额(元)</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">4,000,000</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采购方式</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">竞争性谈判		</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">行政区划</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">四川省</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">公告类型</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">采购公告</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">公告发布时间</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">2018-01-03&nbsp;17:30:00</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采&nbsp;购&nbsp;人</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">犍为县住建局</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采购代理机构名称&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">集采机构</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">项目包个数&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">1</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">各包描述&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">详情见附件</td>	</tr>	<tr>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">供应商参加谈判应当具备的资格条件&nbsp;&nbsp;<br/>和应当提供的相关证明材料&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">（一）具备行业主管部门核定的城市及道路照明工程专业承包三级及以上资质（川外企业需具有行政主管部门核发的《入川备案证》）；<br/>（二）具有独立法人资格和独立承担民事责任的能力；<br/>（三）具有履行合同所必需的设备和专业技术能力；<br/>（四）具有良好的商业信誉和健全的财务会计制度；<br/>（五）具有依法缴纳税收和社会保障资金的记录；<br/>（六）参加本次政府采购活动前三年内，在经营活动中没有重大违法记录；<br/>（七）法律、行政法规规定的其他条件；<br/>采购人不接受联合体参加。</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">谈判文件发售方式&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">本项目竞争性谈判采购文件、工程量清单、施工图请供应商自带U盘到犍为县政府采购中心拷取。</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">谈判文件发售及供应商报名时间&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">	<P>2018-01-04&nbsp;09:00:00到2018-01-08&nbsp;18:00:00	</P>		</td>	</tr>	<tr>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">备注&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">谈判文件售价(元)&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">0</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">谈判文件发售及供应商报名地点&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">本项目不报名</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">供应商报名方式&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">本项目不报名</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">供应商递交响应文件起止时间&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">	<P>2018-01-09&nbsp;09:10:00到2018-01-09&nbsp;09:30:00	</P>		</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">供应商递交响应文件地点&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">犍为县公共资源交易服务中心开标室（犍为县政务服务中心旁档案馆四楼）</td>	</tr>	<tr Height="32px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">供应商接受资格审查及参加谈判时间&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">2018-01-09&nbsp;09:30:00</td>	</tr>	<tr Height="34px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">供应商接收资格审查及参加谈判地点&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">犍为县公共资源交易服务中心开标室（犍为县政务服务中心旁档案馆四楼）</td>	</tr>	<tr>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">备注&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>	</tr>	<tr>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">供应商交纳谈判保证金的金额&nbsp;&nbsp;<br/>和缴纳方式&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">现金人民币&nbsp;肆拾万圆&nbsp;（大写），谈判保证金必须通过供应商的基本账户，以银行现金转账方式向犍为县公共资源交易服务中心提交；如果在递交响应文件截止时间前谈判保证金未能到达指定账户的供应商响应文件将被拒绝。</td>	</tr>	<tr>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采购人地址和联系方式&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">地址：犍为县住房和城乡规划建设局，联系方式：彭先生，0833-4225014</td>	</tr>	<tr>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采购代理机构地址和联系方式&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">地址：犍为县政务服务中心旁档案馆四楼，联系方式：苏女士，0833-4224267</td>	</tr>	<tr>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采购项目联系人姓名和电话&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">联系人：彭先生，电话：0833-4225014</td>	</tr>	<tr>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">备注&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">&nbsp;</td>	</tr>	<tr Height="30px">		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:right;font-weight:bold;padding:2px;text-align:right">采购预公告连接&nbsp;&nbsp;</td>		<td style="border-left:#000000 1px solid;border-right:#000000 1px solid;border-top:#000000 1px solid;border-bottom:#000000 1px solid;text-align:left;padding:2px;">.</td>	</tr>	</table></UCAPCONTENT>             
+                </div>
+                    
+              </div>
+            </div>            
+            <div class="line15"></div>
+        </div>
+        <div class="line10"></div>
+    </div>
+    <div class="line15"></div>
+    <div class="footer">
+    <ul style="width: 350px;">
+        <a href="../../../qwx/flsm/zdt.shtml" target="_parent">站点地图</a> <b>|</b>       
+        <a href="http://www.qianwei.gov.cn/qwx/zddt/201708/b6582f0786ee4a3395ccfbfb51bc081c.shtml" target="_parent">联系我们</a> <b>|</b> 
+        <a href="http://www.qianwei.gov.cn/qwx/zddt/201708/c8b2e9595354429e8f9e19762c99952e.shtml" target="_parent" class="mr0">网站声明</a>
+    </ul>
+    <p>主办：犍为县人民政府   犍为县人民政府门户网站运行协调管理办公室提供技术支持</p>
+    <p>Copyinght(c)2017 蜀ICP备08109906号 川公网安备 51112302000109号</p>
+    <p>
+    </p> 
+    <div class="footer_ico">
+		<span>
+			<a href="http://bszs.conac.cn/sitename?method=show&amp;id=08A9E22EDEF46041E053012819AC727D"><img src="../../xhtml/images/P020160927403532608069.png"></a>
+		</span>
+		 &nbsp;&nbsp;
+		 <span>
+		 	<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51112302000109"><img src="../../xhtml/images/beianbgs.png"></a>
+		 </span>
+        &nbsp;&nbsp;
+        <span id="_span_jiucuo">
+        	<script id="_jiucuo_" sitecode='5111230002' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+        </span>
+    </div>     
+</div>
+</body>
+</html>
+<script language="javascript">
+		
+	
+	function convertMedia(){
+		if (!document.getElementById("new_content")) return ;
+		var mediaDom = document.getElementById("new_content").getElementsByTagName("embed") ;
+		var videoDom = document.createElement("video") ;
+		if (typeof(videoDom.canPlayType) != "undefined" && mediaDom && mediaDom.length > 0){
+			for(var i = 0 ; i < mediaDom.length ; i++) {
+				var el = mediaDom[i] ;
+				var newMediaDom = document.createElement("video") ;
+				newMediaDom.setAttribute("controls" , "controls") ;
+				newMediaDom.setAttribute("preload" , "preload") ;
+				newMediaDom.setAttribute("src" , el.getAttribute("flashvars").replace(/^vcastr_file=/ , "")) ;
+				newMediaDom.setAttribute("width" , "60%") ; // el.width
+				newMediaDom.setAttribute("height" , "auto") ; // el.height
+				var parentDom = el.parentNode ;
+				el.style.display="none" ;
+				parentDom.appendChild(newMediaDom) ;
+				//parentDom.removeChild(el) ;
+			}
+			var len = mediaDom.length ;
+			for(var i = 1 ; mediaDom.length > 0 ; i++ ) {
+				
+				var parentDom = mediaDom[0].parentNode ;
+				parentDom.removeChild(mediaDom[0]) ;
+				
+				if (i >= len){
+					break ;
+				}
+			}
+		}
+	}
+	
+	convertMedia() ;
+</script>

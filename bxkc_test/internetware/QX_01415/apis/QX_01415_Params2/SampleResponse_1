@@ -1,0 +1,507 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>剑阁县公共资源交易</title>
+    <link href="jgimages/css.css" type="text/css" rel="Stylesheet" />
+
+
+<script type="text/javascript">
+        if (top.frames.length!=0) 
+            top.location=self.document.location;
+    </script>
+
+  
+<style type="text/css">
+<!--
+.STYLE41 {            color: #406a98;
+            font-size: 14px;
+            font-weight: bold;
+}
+-->
+</style>
+
+
+    <script type="text/javascript">
+
+
+function setTab(name,cursel,n){
+ for(i=1;i<=n;i++){
+  var menu=document.getElementById(name+i);
+  var con=document.getElementById("con_"+name+"_"+i);
+  menu.className=i==cursel?"hover":"";
+  con.style.display=i==cursel?"block":"none";
+ }
+}
+    </script>
+
+    <title>
+
+</title><style type="text/css">
+	.ctl00_myTreeView_0 { text-decoration:none; }
+	.ctl00_myTreeView_1 { padding:2px 4px 2px 4px; }
+
+</style></head>
+<body>
+    <form name="aspnetForm" method="post" action="xwmore.aspx?id=21&amp;FromUrl=tzgg" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_myTreeView_ExpandState" id="ctl00_myTreeView_ExpandState" value="n" />
+<input type="hidden" name="ctl00_myTreeView_SelectedNode" id="ctl00_myTreeView_SelectedNode" value="ctl00_myTreeViewt0" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="ctl00_myTreeView_PopulateLog" id="ctl00_myTreeView_PopulateLog" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=vq4RgkqiW4zUoxwejC_muw2&amp;t=633802945995006876" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=wDAXjd-POYgt1BRHjnUZSg2&amp;t=633802945995006876" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+    function TreeView_PopulateNodeDoCallBack(context,param) {
+        WebForm_DoCallback(context.data.treeViewID,param,TreeView_ProcessNodeData,context,TreeView_ProcessNodeData,false);
+    }
+var ctl00_myTreeView_Data = null;//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Xl12Xc0d75XFdEA83fP4l2vHTzL9F36ksyYPka6h1+yS03kuRrz9mWf5k1SLm0UoKeiNngd6BVvYfLgBrQi/jw==" />
+</div>
+    <div>
+        <span id="ctl00_lblBody1">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="32" align="center" valign="top" ><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" background="http://www.cnjg.gov.cn/images/bg.jpg">
+      <tbody>
+        <tr>
+          <td width="10%" align="left"><img src="http://www.cnjg.gov.cn/images/gh.jpg" width="95" 
+      height="67" /></td>
+          <td width="30%" align="left"><img src="http://www.cnjg.gov.cn/images/jg.jpg" width="302" 
+      height="67" /></td>
+          <td align="right"><table border="0" cellspacing="0" cellpadding="0" width="430">
+            <tbody>
+              <tr>
+                <td class="zi01" height="35" width="118" align="center"><a href="http://www.gov.cn/" 
+            target="_blank">中央人民政府</a></td>
+                <td class="zi01" width="117" align="center"><a href="http://www.sc.gov.cn/" 
+            target="_blank">四川省人民政府</a></td>
+                <td class="zi01" width="115" align="center"><a href="http://www.cngy.gov.cn/" 
+            target="_blank">广元市人民政府</a></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center">&nbsp;</td>
+                <td align="right"><a href="http://www.cnjg.gov.cn/sitemap.aspx" 
+            target="_blank"><img src="http://www.cnjg.gov.cn/images/wzdh.jpg" width="97" 
+            height="25" /></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25"  class="zi02"><marquee width="1000" height="25" scrollamount="3" onmouseover="stop()" onmouseout="start()">
+    </marquee></td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr >
+    <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+                        width="1000" height="179">
+      <param name="movie" value="http://www.cnjg.gov.cn/images/top2.swf" />
+      <param name="quality" value="high" />
+      <embed src="http://www.cnjg.gov.cn/images/top2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                            type="application/x-shockwave-flash" width="1000" height="179"> </embed>
+    </object></td>
+  </tr>
+</table>
+<table width="998"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="998"  height="54" align="left" valign="top" background="jgimages/menu_bg.jpg"><table border="0" cellspacing="0" cellpadding="0" width="100%" >
+      <tbody>
+        <tr>
+          <td height="54" width="56">&nbsp;</td>
+          <td class="zi03" width="97" align="center"><a href="http://www.cnjg.gov.cn/">剑阁首页</a><br /></td>
+          <td class="zi03" width="97" align="center"><a href="http://www.cnjg.gov.cn/articlelist.aspx?id=1">剑阁概况</a></td>
+          <script>
+function fun1(){
+alert("县政府信息更新中");
+return false;
+}
+          </script>
+          <td class="zi03" width="97" align="center"><a href="http://www.cnjg.gov.cn/article_zfjg.aspx"> 政府机构</a></td>
+          <td class="zi03" width="100" align="center"><!-- <a href="javascript:fun1();">政府领导</a>-->
+            <a 
+      href="http://www.cnjg.gov.cn/article_zfld.aspx">政府领导</a></td>
+          <td class="zi03" width="100" align="center"><a href="http://www.cnjg.gov.cn/article_zwgk.aspx">政务公开</a></td>
+          <td class="zi03" width="96" align="center"><a href="http://www.cnjg.gov.cn/article_bsfw.aspx">办事服务</a></td>
+          <td class="zi03" width="99" align="center"><a href="http://www.cnjg.gov.cn/article_hdjl.aspx">互动交流</a></td>
+          <td class="zi03" width="99" align="center"><a href="http://www.cnjg.gov.cn/article_tzjg.aspx">投资剑阁</a></td>
+          <td class="zi03" width="95" align="center"><a href="http://www.cnjg.gov.cn/article_jgly.aspx">剑阁旅游</a></td>
+          <td width="64">&nbsp;</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+</table>
+<table width="1008" border="0" align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td width="1008" height="144" align="center" valign="top" ><table width="1008" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="1044" height="646" valign="top" ><table width="100%" border="0" cellspacing="4" cellpadding="0">
+              <tr>
+                <td width="18%" height="571" valign="top"><table width="229" height="577" border="0" cellpadding="0" cellspacing="0" class="tb1">
+                  <tr>
+                    <td height="101" align="left" valign="top" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="118"  valign="top" class="tb2"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="30" background="jgimages/bg4.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td width="100" height="30" align="center" valign="middle" background="jgimages/bg_tag1.gif" class="STYLE7">网站位置</td>
+                                <td width="184">&nbsp;</td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                          <tr>
+                            <td height="200" align="left" valign="top" ></span>
+        <a href="#ctl00_myTreeView_SkipLink"><img alt="跳过导航链接。" src="/WebResource.axd?d=50PEACsJdK73M3b75zKs_A2&amp;t=633802945995006876" width="0" height="0" style="border-width:0px;" /></a><div id="ctl00_myTreeView">
+	<table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td><img src="/WebResource.axd?d=S_-HCRg86kAyYRQVfiRy_0mjetAaDRXu5odmlkdzS0I1&amp;t=633802945995006876" alt="" /></td><td><a href="/ceinwz/xwmore.aspx?id=21&amp;FromUrl=tzgg" id="ctl00_myTreeViewt0i" tabindex="-1"><img src="images/mweb.gif" alt="" style="border-width:0;" /></a></td><td class="ctl00_myTreeView_1" style="white-space:nowrap;"><a class="ctl00_myTreeView_0" href="/ceinwz/xwmore.aspx?id=21&amp;FromUrl=tzgg" id="ctl00_myTreeViewt0">通知公告</a></td>
+		</tr><tr style="height:3px;">
+			<td></td>
+		</tr>
+	</table>
+</div><a id="ctl00_myTreeView_SkipLink"></a>
+        
+        <span id="ctl00_lblBody2"></td>
+                          </tr>
+                        </table></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="458" valign="top">&nbsp;</td>
+                  </tr>
+                </table></td>
+                <td align="left" valign="top" class="tb1" ><table width="100%" border="0" cellspacing="0" cellpadding="0" >
+                  <tr>
+                    <td height="27" align="left"background="jgimages/bg4.gif">&nbsp;
+                      </span>
+        <span id="ctl00_SiteMapPath1"><a href="#ctl00_SiteMapPath1_SkipLink"><img alt="跳过导航链接" height="0" width="0" src="/WebResource.axd?d=50PEACsJdK73M3b75zKs_A2&amp;t=633802945995006876" style="border-width:0px;" /></a><span><a href="/ceinwz/index.htm">网站</a></span><span> &gt; </span><span><a href="/ceinwz/tzgg"></a></span><span> &gt; </span><span>通知公告</span><a id="ctl00_SiteMapPath1_SkipLink"></a></span>
+        <span id="ctl00_lblBody3"></td>
+                  </tr>
+                  <tr>
+                    <td height="549" align="left" valign="top" ><table width="100%" border="0" cellspacing="8" cellpadding="0">
+                      <tr>
+                        <td></span>
+        
+    
+<div style="width: 100%; background-color: #ffffff">
+    标题:<input name="ctl00$ContentPlaceHolder1$BestNewsListALL$txtTitle" type="text" maxlength="10" id="ctl00_ContentPlaceHolder1_BestNewsListALL_txtTitle" />
+    <input type="submit" name="ctl00$ContentPlaceHolder1$BestNewsListALL$btnFind" value="查询" id="ctl00_ContentPlaceHolder1_BestNewsListALL_btnFind" />&nbsp;
+    <div>
+	<table cellspacing="2" cellpadding="3" rules="all" border="0" id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV" style="border-width:0px;">
+		<tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl02_HyperLink1" href="admin_show.aspx?id=1075&amp;FromUrl=tzgg" target="_blank" style="color:Red;">剑阁县高标准农田建设项目环境影响评价类中介服务机构</a>
+                </td>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl03_HyperLink1" href="admin_show.aspx?id=1074&amp;FromUrl=tzgg" target="_blank" style="color:Red;">剑阁县瑞峰投资发展有限公司关于出让四川德润通生物科技有限公司固定资产项目评估类中介机构公开抽签的公告</a>
+                </td>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl04_HyperLink1" href="admin_show.aspx?id=1073&amp;FromUrl=tzgg" target="_blank" style="color:Red;">剑阁县国土资源局关于建立国土资源类中介服务机构备选库的公告</a>
+                </td>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl05_HyperLink1" href="admin_show.aspx?id=1072&amp;FromUrl=tzgg" target="_blank" style="color:Black;">剑阁县民政局关于剑阁县殡仪馆建设项目环境影响评估类中介服务机构抽取公告（第二次）</a>
+                </td>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl06_HyperLink1" href="admin_show.aspx?id=1069&amp;FromUrl=tzgg" target="_blank" style="color:Black;">剑阁县公共资源交易服务中心工程结算审计类第12轮第7号中介服务机构抽取公告</a>
+                </td>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl07_HyperLink1" href="admin_show.aspx?id=1068&amp;FromUrl=tzgg" target="_blank" style="color:Black;">剑阁县民政局关于中介服务机构抽取的公告(环境影响评估类)</a>
+                </td>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl08_HyperLink1" href="admin_show.aspx?id=1067&amp;FromUrl=tzgg" target="_blank" style="color:Black;">剑阁县公共资源交易服务中心工程结算审计类第12轮第6号中介服务机构抽取公告 </a>
+                </td>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl09_HyperLink1" href="admin_show.aspx?id=1066&amp;FromUrl=tzgg" target="_blank" style="color:Black;">剑阁县公共资源交易服务中心工程结算审计类第12轮第5号中介服务机构抽取公告 </a>
+                </td>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl10_HyperLink1" href="admin_show.aspx?id=1065&amp;FromUrl=tzgg" target="_blank" style="color:Black;">剑阁县公共资源交易服务中心工程结算审计类第12轮第4号中介服务机构抽取公告 </a>
+                </td>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl11_HyperLink1" href="admin_show.aspx?id=1064&amp;FromUrl=tzgg" target="_blank" style="color:Black;">剑阁县公共资源交易服务中心工程结算审计类第12轮第3号中介服务机构抽取公告 </a>
+                </td>
+		</tr><tr>
+			<td>
+            <br />
+            <span id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl13_lblPageSize">每页显示10条记录 | </span>
+            <span id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl13_lblRowCount">共417条 |</span>
+            <span id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl13_lblPage">当前为第2页/共42页</span>
+            <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl13_lbnFirst" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$BestNewsListALL$myGV$ctl13$lbnFirst','')">首页</a>
+            <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl13_lbnPrev" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$BestNewsListALL$myGV$ctl13$lbnPrev','')">上一页</a>
+            <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl13_lbnNext" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$BestNewsListALL$myGV$ctl13$lbnNext','')">下一页</a>
+            <a id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl13_lbnLast" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$BestNewsListALL$myGV$ctl13$lbnLast','')">尾页</a>
+            到第<input name="ctl00$ContentPlaceHolder1$BestNewsListALL$myGV$ctl13$inPageNum" type="text" id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl13_inPageNum" style="width:40px;" />页
+            <input type="submit" name="ctl00$ContentPlaceHolder1$BestNewsListALL$myGV$ctl13$Button1" value="转到" id="ctl00_ContentPlaceHolder1_BestNewsListALL_myGV_ctl13_Button1" />
+            <br />
+        </td>
+		</tr>
+	</table>
+</div>
+    <span id="ctl00_ContentPlaceHolder1_BestNewsListALL_lblCount"></span>
+    
+    &nbsp;
+</div>
+
+    <span id="ctl00_ContentPlaceHolder1_lblNewsFiles"></span>
+    <span id="ctl00_ContentPlaceHolder1_lblContentHtml" class="content"></span>
+
+        <span id="ctl00_lblBody4"></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+    </table></td>
+</tr>
+  <tr> </tr>
+</table>
+<table 
+width="1011" border="0" align="center" cellpadding="0" cellspacing="0" background="http://www.cnjg.gov.cn/images/db_c.jpg" style="margin-top: 5px;">
+  <tbody>
+    <tr>
+      <td width="2%" height="287" align="left" valign="top"><img src="http://www.cnjg.gov.cn/images/db_l.jpg" 
+      width="20" /></td>
+      <td valign="top" width="96%"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="80" colspan="5" align="left"><table class="selectlist" border="0" cellspacing="0" cellpadding="0" 
+            width="99%" align="center">
+              <tbody>
+                <tr>
+                  <td class="zi14" height="30" align="left">友情链接 </td>
+                  <td align="center"><select name="select">
+                    <option selected="selected" 
+                    value="0">--国家部委网--</option>
+                    <option value="4" url="http://www.gov.cn/">中华人民共和国中央人民政府</option>
+                    <option 
+                    value="5" url="http://www.fmprc.gov.cn/mfa_chn/"> 外交部</option>
+                    <option 
+                    value="6" url="http://www.sdpc.gov.cn/"> 国家发展与改革委员会</option>
+                    <option 
+                    value="7" url="http://www.moe.edu.cn/"> 教育部</option>
+                    <option value="8" 
+                    url="http://www.most.gov.cn/"> 科学技术部</option>
+                    <option value="9" url="http://www.seac.gov.cn/"> 国家民族事务委员会</option>
+                    <option value="10" url="http://www.mca.gov.cn/"> 民政部</option>
+                    <option value="11" url="http://www.legalinfo.gov.cn/"> 司法部</option>
+                    <option value="12" url="http://www.mof.gov.cn/index.htm"> 财政部</option>
+                    <option value="13" url="http://www.mlr.gov.cn/"> 国土资源部</option>
+                    <option value="14" url="http://www.moc.gov.cn/">交通部</option>
+                    <option 
+                    value="15" url="http://www.mwr.gov.cn/"> 水利部</option>
+                    <option value="16" 
+                    url="http://www.agri.gov.cn/"> 农业部</option>
+                    <option value="17" url="http://www.mofcom.gov.cn/"> 商务部</option>
+                  </select></td>
+                  <td align="center"><select name="select">
+                    <option selected="selected" 
+                    value="0">--省级部门网--</option>
+                    <option value="46" url="http://www.sc.gov.cn/">四川省人民政府办公厅</option>
+                    <option 
+                    value="47" url="http://www.scdrc.gov.cn/"> 四川省发展和改革委</option>
+                    <option 
+                    value="48" url="http://www.scjm.gov.cn/"> 四川省经济和信息化委</option>
+                    <option 
+                    value="49" url="http://www.scedu.net/"> 四川省教育厅</option>
+                    <option value="50" 
+                    url="http://www.scst.gov.cn/"> 四川省科技厅</option>
+                    <option value="51" url="http://www.scga.gov.cn/"> 四川省公安厅</option>
+                    <option value="52" url="http://www.scjc.gov.cn/"> 四川省监察厅</option>
+                    <option value="53" url="http://www.scmz.gov.cn/"> 四川省民政厅</option>
+                    <option value="54" url="http://www.scsf.gov.cn/"> 四川省司法厅</option>
+                    <option value="55" url="http://www.sc.hrss.gov.cn/"> 四川省人事厅</option>
+                    <option value="56" url="http://www.scdlr.gov.cn/"> 四川省国土地资源厅</option>
+                    <option value="57" url="http://www.scjst.gov.cn/"> 四川省住房和城乡建设厅</option>
+                    <option value="58" url="http://www.scjt.gov.cn/"> 四川省交通运输厅</option>
+                    <option value="59" url="http://www.scwater.gov.cn/"> 四川省水利厅</option>
+                    <option value="60" url="http://www.scagri.gov.cn/"> 四川省农业厅</option>
+                    <option value="62" url="http://www.sccom.gov.cn/"> 四川省商务厅</option>
+                    <option value="63" url="http://www.scwst.gov.cn/"> 四川省卫生和计划生育委员会</option>
+                    <option value="64" url="http://www.scaudit.gov.cn/"> 四川省审计厅</option>
+                    <option value="65" url="http://www.scgz.gov.cn/"> 四川省国有资产监督管理委员会</option>
+                    <option value="66" url="http://www.schj.gov.cn/"> 四川省环境保护厅</option>
+                    <option value="67" url="http://www.sc.stats.gov.cn/"> 四川省统计局</option>
+                    <option value="68" url="http://www.scaic.gov.cn/"> 四川省工商局</option>
+                    <option value="69" url="http://www.scppa.gov.cn/"> 四川省新闻出版局</option>
+                    <option value="70" url="http://www.sczj.gov.cn/"> 四川省质量技术监督局</option>
+                    <option value="71" url="http://www.scta.gov.cn/"> 四川省旅游局</option>
+                    <option value="72" url="http://www.schouqin.gov.cn/"> 四川省机关事务管理局</option>
+                    <option value="74" url="http://www.sccw.gov.cn/"> 四川省政府参事室</option>
+                    <option value="75" url="http://www.sctv.com/"> 四川广播电视台</option>
+                    <option value="76" url="http://www.sccredit.gov.cn/"> 四川信用网</option>
+                    <option value="77" url="http://www.scinvest.cn/"> 四川省招商引资局</option>
+                    <option value="79" url="http://www.scsdaj.gov.cn/"> 四川省档案局</option>
+                    <option value="80" url="http://www.sctcm.gov.cn/"> 四川省中医药管理局</option>
+                    <option value="81" url="http://www.scsafety.gov.cn/"> 四川省安监局</option>
+                    <option value="82" url="http://www.scpi.gov.cn/"> 四川省物价局</option>
+                    <option value="83" url="http://www.scgrain.com/"> 四川省粮食局</option>
+                  </select></td>
+                  <td align="center"><select name="select">
+                    <option selected="selected" 
+                    value="0">--市级政府网--</option>
+                    <option value="25" url="http://www.chengdu.gov.cn/">成都市人民政府门户网站</option>
+                    <option 
+                    value="26" url="http://www.zg.gov.cn/"> 自贡市人民政府门户网站</option>
+                    <option 
+                    value="27" url="http://www.luzhou.gov.cn/"> 泸州市人民政府门户网站</option>
+                    <option value="28" url="http://www.deyang.gov.cn/"> 德阳市公众信息网</option>
+                    <option value="29" url="http://www.mianyang.gov.cn/"> 绵阳市人民政府门户网站</option>
+                    <option value="30" url="http://www.suining.gov.cn/"> 遂宁市人民政府门户网站</option>
+                    <option value="31" url="http://www.neijiang.gov.cn/"> 内江市人民政府门户网站</option>
+                    <option value="32" url="http://www.nanchong.gov.cn/"> 南充市人民政府门户网站</option>
+                    <option value="33" url="http://www.leshan.gov.cn/"> 乐山市人民政府门户网站</option>
+                    <option value="34" url="http://www.yb.gov.cn/"> 宜宾市人民政府门户网站</option>
+                    <option value="35" url="http://www.guang-an.gov.cn/"> 广安市人民政府门户网站</option>
+                    <option value="36" url="http://www.dazhou.gov.cn/"> 达州市人民政府门户网站</option>
+                    <option value="37" url="http://www.cnbz.gov.cn/"> 巴中市人民政府门户网站</option>
+                    <option value="38" url="http://www.yaan.gov.cn/"> 雅安市人民政府门户网站</option>
+                    <option value="39" url="http://www.ms.gov.cn/"> 眉山市人民政府门户网站</option>
+                    <option value="40" url="http://www.ziyang.gov.cn/"> 资阳市人民政府门户网站</option>
+                    <option value="41" url="http://www.abazhou.gov.cn/"> 阿坝州人民政府门户网站</option>
+                    <option value="42" url="http://www.gzz.gov.cn/"> 甘孜州人民政府门户网站</option>
+                    <option value="43" url="http://www.lsz.gov.cn/"> 凉山彝族自治州人民政府网站</option>
+                    <option value="45" url="http://www.panzhihua.gov.cn/"> 攀枝花市人民政府门户网站</option>
+                  </select></td>
+                  <td align="center"><select name="select">
+                    <option selected="selected" 
+                    value="0">--区县政府网--</option>
+                    <option value="19" url="http://www.cncx.gov.cn/">苍溪县人民政府门户网站</option>
+                    <option 
+                    value="20" url="http://www.gyct.gov.cn/"> 朝天区人民政府门户网站</option>
+                    <option 
+                    value="21" url="http://www.cnqc.gov.cn/"> 青川县人民政府门户网站</option>
+                    <option 
+                    value="22" url="http://www.scgw.gov.cn/"> 旺苍县人民政府门户网站</option>
+                    <option 
+                    value="23" url="http://www.lzq.gov.cn/"> 利州区人民政府门户网站</option>
+                    <option 
+                    value="24" url="http://www.cnzh.gov.cn/"> 昭化区人民政府门户网站</option>
+                  </select></td>
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+          <tr>
+            <td rowspan="4" width="12%" align="right"><img src="http://www.cnjg.gov.cn/images/d1.jpg" 
+            width="100" height="83" /></td>
+            <td rowspan="4" width="10%" align="center"><img src="http://www.cnjg.gov.cn/images/d2.jpg" 
+            width="97" height="83" /></td>
+            <td rowspan="4" width="10%" align="left"><img src="http://www.cnjg.gov.cn/images/d3.jpg" 
+            width="86" height="83" /></td>
+            <td height="28" width="54%" 
+            align="left">版权所有:四川省剑阁县人民政府办公室&nbsp;&nbsp;&nbsp;建设与维护：广元市电子政务外网运营中心 </td>
+            <td rowspan="4" width="14%" align="center"><img src="http://www.cnjg.gov.cn/images/d4.jpg" 
+            width="109" height="109" /></td>
+          </tr>
+          <tr>
+            <td height="28" align="left"><a href="http://www.miitbeian.gov.cn/" 
+            target="_blank">蜀ICP备06003751号</a> <a style="display: inline-block;" 
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51082302000134" 
+            target="_blank"><img style="margin-right: 5px; vertical-align: middle; float: left;" 
+            src="http://www.cnjg.gov.cn/images/gongan.png" />川公网安备 
+              51082302000134号</a>&nbsp;&nbsp;<a href="http://www.cnjg.gov.cn/articlelist.aspx?id=191" 
+            target="_blank">本站声明</a>&nbsp;&nbsp;<a href="http://www.cnjg.gov.cn/articlelist.aspx?id=192" 
+            target="_blank">联系我们</a>&nbsp;&nbsp; </td>
+          </tr>
+          <tr>
+            <td height="28" align="left">Copyright 2010 www.jiange.gov.cn All 
+              Rights Reserved&nbsp;&nbsp;<a title="剑阁县人民政府网站" href="http://www.cnjg.gov.cn/" 
+            target="_blank">剑阁县人民政府网站</a></td>
+          </tr>
+          <tr>
+            <td height="28" align="left"><iframe src="http://www.cnjg.gov.cn/cnzz.ashx" scrolling="no" width="400px" height="40px" frameborder="0"></iframe></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: middle;" class="tdimg" colspan="5" align="center"><script src="http://www.cnjg.gov.cn/images/CA233392050402435440001.js"></script>
+              <script id="_jiucuo_" src="http://www.cnjg.gov.cn/images/jiucuo.js" sitecode="5108230052"></script></td>
+          </tr>
+        </tbody>
+      </table></td>
+      <td width="2%" align="right"><img src="http://www.cnjg.gov.cn/images/db_r.jpg" width="22" /></td>
+    </tr>
+  </tbody>
+</table>
+</span>
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_myTreeView_ImageArray =  new Array('images/mweb.gif', 'images/mweb.gif', 'images/mweb.gif', '/WebResource.axd?d=S_-HCRg86kAyYRQVfiRy_0mjetAaDRXu5odmlkdzS0I1&t=633802945995006876', '/WebResource.axd?d=S_-HCRg86kAyYRQVfiRy_8GbO4N0iEfJ3kq-bhhdohM1&t=633802945995006876', '/WebResource.axd?d=S_-HCRg86kAyYRQVfiRy_4a_hvtArLv3NrBRr9UnLfc1&t=633802945995006876');
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+WebForm_InitCallback();var ctl00_myTreeView_Data = new Object();
+ctl00_myTreeView_Data.images = ctl00_myTreeView_ImageArray;
+ctl00_myTreeView_Data.collapseToolTip = "折叠 {0}";
+ctl00_myTreeView_Data.expandToolTip = "展开 {0}";
+ctl00_myTreeView_Data.expandState = theForm.elements['ctl00_myTreeView_ExpandState'];
+ctl00_myTreeView_Data.selectedNodeID = theForm.elements['ctl00_myTreeView_SelectedNode'];
+for (var i=0;i<6;i++) {
+var preLoad = new Image();
+if (ctl00_myTreeView_ImageArray[i].length > 0)
+preLoad.src = ctl00_myTreeView_ImageArray[i];
+}
+ctl00_myTreeView_Data.lastIndex = 1;
+ctl00_myTreeView_Data.populateLog = theForm.elements['ctl00_myTreeView_PopulateLog'];
+ctl00_myTreeView_Data.treeViewID = 'ctl00$myTreeView';
+ctl00_myTreeView_Data.name = 'ctl00_myTreeView_Data';
+//]]>
+</script>
+</form>
+</body>
+</html>

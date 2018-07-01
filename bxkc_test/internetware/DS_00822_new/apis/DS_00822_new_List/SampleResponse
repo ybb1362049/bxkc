@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/npztb/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/npztb/Template/Default/css/about.css">
+    <script src="/npztb/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <title>南平市公共资源交易中心</title>
+</head>
+
+<body>
+    <!-- header -->
+<script  type="text/javascript">
+function Search() {
+	 var t = document.getElementById("txtKey").value;
+                if (t.indexOf("<") > -1 || t.indexOf(">") > -1 || t.indexOf("'") > -1|| t.indexOf("_") > -1) {
+                    alert("请勿在关键字中输入非法字符!");
+                    return;
+				}
+    if (document.all.txtKey.value == "" || document.all.txtKey.value == "请输入关键字") {
+        alert("搜索字段不能为空！");
+    }
+    else {
+        var openUrl = '/npztb/showinfo/searchresult.aspx?keyword=';
+        openUrl += escape(document.all.txtKey.value);
+        window.open(openUrl, "Search", "", "");
+    }
+
+}
+function CheckSearch()
+		{
+			if(event.keyCode=="13")
+			{   
+				if(document.all.txtKey.value!="")
+				{
+					Search();
+				}
+				else
+				{
+					alert("搜索字段不能为空！");
+				}
+			}
+		}
+</script>
+<script>
+   window.onload = function () {
+        var timeContainer = document.getElementById('showtime');
+        setInterval(function () {
+            timeContainer.innerHTML = ShowTime();
+        }, 100);
+        if (document.getElementById('qikan') != null) {
+            getmyuri();
+        }
+
+    } 
+function ShowTime() {
+       var myDate = new Date();
+        var month = myDate.getMonth() + 1;
+        var myweekday = myDate.getDay();
+		var myhour = myDate.getHours();
+		var myminute = myDate.getMinutes();
+		var mysecond = myDate.getSeconds();
+        if (myweekday == 0)
+            weekday = "   星期日 ";
+        else if (myweekday == 1)
+            weekday = "   星期一 ";
+        else if (myweekday == 2)
+            weekday = "   星期二 ";
+        else if (myweekday == 3)
+            weekday = "   星期三 ";
+        else if (myweekday == 4)
+            weekday = "   星期四 ";
+        else if (myweekday == 5)
+            weekday = "   星期五 ";
+        else if (myweekday == 6)
+            weekday = "   星期六 ";
+
+
+       return str = '&nbsp;'+'&nbsp;'+'&nbsp;'+'今天是'+ myDate.getFullYear() + '年' + month + '月' + myDate.getDate() + '日'+ '&nbsp; '+ weekday; 
+    }
+</script>
+   <div class="ewb-header">
+        <!-- banner -->
+        <div class="ewb-header-banner"></div>
+        <!-- nav -->
+        <div class="ewb-header-nav">
+            <div class="ewb-container">
+                <ul class="ewb-nav-items clearfix">
+                    <li class="ewb-nav-item current l">
+                        <a href="/npztb/" class="ewb-nav-link">
+                            首页
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zxjj" class="ewb-nav-link">
+                            中心简介
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zcfg" class="ewb-nav-link">
+                            政策法规
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zxdt" class="ewb-nav-link">
+                            中心动态
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="http://www.npzbtb.gov.cn/index.asp" class="ewb-nav-link">
+                            政府采购
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zwgk" class="ewb-nav-link">
+                            政务公开
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/bszn" class="ewb-nav-link">
+                            办事指南
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/lxwm" class="ewb-nav-link">
+                            联系我们
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- state -->
+        <div class="ewb-header-state">
+            <div class="ewb-container clearfix">
+                <div class="ewb-state-date l" id="showtime"></div>
+                <div class="ewb-state-weather l"><iframe allowtransparency="true" frameborder="0" width="180" height="30" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=0&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=1&c=57083&w=180&h=36&align=center"></iframe></div>
+                <!-- search -->
+                <div class="ewb-state-search r">
+                    <input id="txtKey" type="text" placeholder="站内搜索" class="ewb-search-input l" onKeyDown="CheckSearch();">
+                    <button class="ewb-search-btn r" onClick="Search();"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main -->
+    <div class="ewb-container clearfix mixed ">
+        <div class="l ewb-span6">
+            <h4 class="mixed-title">
+                建设工程
+            </h4>
+            <div class="left-content">
+					
+                                 
+                                <a href="/npztb/jsgc/010001" class="main-link mt10 ">招标公告</a>
+                                
+                                <a href="/npztb/jsgc/010002" class="main-link mt10 ">补充通知</a>
+                                
+                                <a href="/npztb/jsgc/010003" class="main-link mt10 ">招标答疑纪要</a>
+                                
+                                <a href="/npztb/jsgc/010004" class="main-link mt10 ">中标候选人公示</a>
+                                
+                                <a href="/npztb/jsgc/010005" class="main-link mt10 ">中标公示</a>
+                                
+                                <a href="/npztb/jsgc/010006" class="main-link mt10 ">开标一览表</a>
+                                
+                                
+            </div>
+        </div>
+        <div class="ewb-span18 r ml10 ">
+            <h4 class="main-content-title">
+                当前的位置：
+						
+							<a href="/npztb/">首页</a>
+                            
+                            >> <a href="/npztb//jsgc">建设工程</a> 
+                            
+                             >> <span class="current">招标公告</span>
+                            
+            </h4>
+            <div class="main-subcontent" style="padding-top:10px;">
+					<div style="height:520px;" class="morecontent"><TABLE  cellSpacing=3 cellPadding=0 width=100% align=center border=0 valign=top>
+<TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=e5c3a6fa-7e0a-4b50-b388-2599566ce294&categoryNum=010001" target="_blank" title="南平市延平区X808水南大桥段至西城大桥段三级公路改建工程">南平市延平区X808水南大桥段至西城大桥段三级公路改建工程</a></TD>
+<td  align=right>[2017-07-05]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=1f147ed5-3f13-4c4c-8443-5f1438408371&categoryNum=010001" target="_blank" title="南平市延平区西芹官田商住小区A地块（西溪苑一期）工程施工监理二次招标">南平市延平区西芹官田商住小区A地块（西溪苑一期）工程施工监理二次招标</a></TD>
+<td  align=right>[2017-07-05]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=000d1523-7c03-41e5-83f3-1af59de424fd&categoryNum=010001" target="_blank" title="南平市延平区杨真路道路改造工程施工监理">南平市延平区杨真路道路改造工程施工监理</a></TD>
+<td  align=right>[2017-07-05]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=93b757e5-f330-40b9-9293-35b1460b94dd&categoryNum=010001" target="_blank" title="南平市九峰路道路改造工程（一期）-人行连接桥工程">南平市九峰路道路改造工程（一期）-人行连接桥工程</a></TD>
+<td  align=right>[2017-07-04]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=d0e4f1b3-00a2-4a18-ab0f-8eaa8309b61f&categoryNum=010001" target="_blank" title="福建省南平市西芹学校--迁址建设项目--边坡支护二期工程（二次招标）">福建省南平市西芹学校--迁址建设项目--边坡支护二期工程（二次招标）</a></TD>
+<td  align=right>[2017-07-03]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=866fbf60-76d0-4024-9872-f1a3dcc5e338&categoryNum=010001" target="_blank" title="武夷新区高新技术创业园一期建设工程5#楼公寓楼装修工程（一、五～八层）">武夷新区高新技术创业园一期建设工程5#楼公寓楼装修工程（一、五～八层）</a></TD>
+<td  align=right>[2017-06-30]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=600efbbd-7ffb-49bb-9204-b451c23450d9&categoryNum=010001" target="_blank" title="延平中心城区公厕（二期）提升改造工程第一标段">延平中心城区公厕（二期）提升改造工程第一标段</a></TD>
+<td  align=right>[2017-06-30]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=e62276c9-55bd-44b2-8125-623a499137c6&categoryNum=010001" target="_blank" title="南平市老干部活动中心修缮工程">南平市老干部活动中心修缮工程</a></TD>
+<td  align=right>[2017-06-29]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=5fc5aff7-d465-4e6c-b015-472980aca2ee&categoryNum=010001" target="_blank" title="南平市延平区洋后派出所业务用房工程">南平市延平区洋后派出所业务用房工程</a></TD>
+<td  align=right>[2017-06-29]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=cd75e145-4763-4d5a-bf0c-32bcc350763e&categoryNum=010001" target="_blank" title="南平市延平区塔前派出所业务用房工程">南平市延平区塔前派出所业务用房工程</a></TD>
+<td  align=right>[2017-06-29]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=d9dbb2c8-d943-466e-9992-d966233a5717&categoryNum=010001" target="_blank" title="延平区巨口乡岭根村京福高铁临时用地复垦工程">延平区巨口乡岭根村京福高铁临时用地复垦工程</a></TD>
+<td  align=right>[2017-06-29]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=8ce3e38a-670a-4994-b180-1d094aa67099&categoryNum=010001" target="_blank" title="福建省南平樟湖国有林场大峰山森林公园基础设施工程">福建省南平樟湖国有林场大峰山森林公园基础设施工程</a></TD>
+<td  align=right>[2017-06-28]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=5eaca28a-aa06-4270-bc9c-5b2e6f1248a1&categoryNum=010001" target="_blank" title="南平市延平区东山片区道路改造工程">南平市延平区东山片区道路改造工程</a></TD>
+<td  align=right>[2017-06-27]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=585ee464-3801-46c8-baef-a71b31f3a11f&categoryNum=010001" target="_blank" title="南平市延平区水东红星村半岭、绿坑组水泥路面硬化工程">南平市延平区水东红星村半岭、绿坑组水泥路面硬化工程</a></TD>
+<td  align=right>[2017-06-27]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=fe3f0782-11af-40c0-bc88-bc9d28e4842e&categoryNum=010001" target="_blank" title="武夷新区云谷小区一期住宅项目空调多联机组采购与安装工程（重新公告）">武夷新区云谷小区一期住宅项目空调多联机组采购与安装工程（重新公告）</a></TD>
+<td  align=right>[2017-06-27]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=a9027bc1-e554-44e2-8951-bdcc1d177bd9&categoryNum=010001" target="_blank" title="福建省武夷新区供水系统一期工程（武夷新区水厂及进厂道路）项目施工监理">福建省武夷新区供水系统一期工程（武夷新区水厂及进厂道路）项目施工监理</a></TD>
+<td  align=right>[2017-06-26]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=5920ac5e-dc48-4d25-aed0-d09c25d3db5e&categoryNum=010001" target="_blank" title="南平市江南片区水厂工程（施工监理）">南平市江南片区水厂工程（施工监理）</a></TD>
+<td  align=right>[2017-06-23]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=095dec9b-ec60-4f56-a1f0-d0da5df73a60&categoryNum=010001" target="_blank" title="南平市迎宾路（华泰楼—高速路南出口）道路改造工程勘察设计">南平市迎宾路（华泰楼—高速路南出口）道路改造工程勘察设计</a></TD>
+<td  align=right>[2017-06-23]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=ee428e96-3c0e-42ac-8ad2-6c7412b58a81&categoryNum=010001" target="_blank" title="京福高铁（大横镇）葫芦坵临时用地复垦工程（九号地块）">京福高铁（大横镇）葫芦坵临时用地复垦工程（九号地块）</a></TD>
+<td  align=right>[2017-06-22]</td>
+<TD  width="5px"></TD>
+</TR><TR height=20 class="trfont">
+<TD align=center width=20><img src="/npztb/images/dots/dot1.gif"></TD>
+<TD  align="left"><a href="/npztb/ZtbDetail/ZtbJsDetail.aspx?type=1&infoid=dce4290a-a338-4447-a2be-d2593b75fe2d&categoryNum=010001" target="_blank" title="延平区水东街道社区卫生服务中心改造项目">延平区水东街道社区卫生服务中心改造项目</a></TD>
+<td  align=right>[2017-06-21]</td>
+<TD  width="5px"></TD>
+</TR></table></div><div id="Paging" ><style>.pagemargin{margin:20px}.margintop{margin-top:15px}.yahei{font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold}.yaheigo{font-family:"Microsoft YaHei",微软雅黑; font-size:12px}.redfont{color:red}.bordercolor{border:solid 1px #dfdfdf}.huifont{color:#666666}.songti{font-size:12px}.weight{font-weight:bold}.pageover{ background-color:#999999; border:solid 1px #999999; font-size:12px; color:#FFFFFF;cursor:pointer}.pageout{border:solid 1px #dedede;font-size:12px;color:#666666;cursor:pointer}.numberover{background-color:#999999; border:solid 1px #999999;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#FFFFFF;cursor:pointer;width:36px}.numberout{border:solid 1px #dedede;font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold;color:#666666;cursor:pointer;width:36px}.goover{border:solid 1px #dfdfdf;background-color:#999999;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:#FFFFFF;cursor:pointer}.goout{border:solid 1px #dfdfdf;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:666666;cursor:pointer}</style><script>var totalPageNums = 11;function GoToPaging() {var Gtno = document.getElementById('GoToPagingNo');var no = Gtno.value;if (!isNaN(no)) {no = parseInt(no);no = Math.abs(no);if (no <= totalPageNums) {window.location.href='./?Paging='+no;} else {alert("最大分页为" + totalPageNums + ",请重新输入页码！");Gtno.value='';Gtno.focus();}} else {alert("请重新输入数字页码！");Gtno.value='';Gtno.focus();}}</script><div class="pagemargin"><div style="height:26px"><table border='0' cellpadding='0' cellspacing='0'><tr><td onclick="window.location.href='./?Paging=1'" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">首页</td><td width="4"></td><td onclick="window.location.href='./?Paging=1'" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">&lt; 上页</td><td width="4"></td><td onclick="window.location.href='./?Paging=1'" title='转到第1页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">1</td><td width="4"></td><td  width="36" align="center" class="yahei redfont" >2</td><td width="4"></td><td onclick="window.location.href='./?Paging=3'" title='转到第3页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">3</td><td width="4"></td><td onclick="window.location.href='./?Paging=4'" title='转到第4页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">4</td><td width="4"></td><td onclick="window.location.href='./?Paging=5'" title='转到第5页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">5</td><td width="4"></td><td onclick="window.location.href='./?Paging=3'" title='转到第3页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">下页 &gt;</td><td width="4"></td><td onclick="window.location.href='./?Paging=11'" title='转到第11页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">末页</td><td width="20"></td><td class="huifont">2/11</td><td width="10"></td><td class="songti huifont">转到</td><td width="6"></td><td><input type="text" id="GoToPagingNo" class="bordercolor"  style="line-height:26px;width:40px; height:26px" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"  onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'0')}else{this.value=this.value.replace(/\D/g,'')}" /></td><td width="6"></td><td width="30" align="center" class="goout" onclick="GoToPaging();" onmouseover="this.className='goover';" onmouseout="this.className='goout';">GO</td></td></tr></table></div></div></div>
+</div>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="ewb-footer">
+        <!-- guide -->
+        <div class="ewb-footer-guide">
+            <a href="/npztb/gybz">关于本站</a>
+            <span>|</span>
+            <a href="/npztb/wzdt">网站地图</a>
+            <span>|</span>
+            <a href="/npztb/flsm">法律声明</a>
+            <span>|</span>
+            <a href="/npztb/lxwm">联系我们</a>
+        </div>
+        <!-- copyright -->
+        <div class="ewb-footer-copyright">
+            <div class="ewb-container ewb-footer-wrap">
+                <div class="ewb-footer-notice">
+                    <p>南平市公安局
+                        <br/>网络报警处置中心</p>
+                    <i></i>
+                </div>
+                <p>
+                    主办：南平市公共资源交易中心    技术支持：江苏国泰新点软件有限公司
+                    <br/>建议使用：IE6以上浏览器 1024*768分辨率浏览本站    备案序号：闽ICP备17015384号-1
+                    <br/> 您是<script src="/npztb/Template/Default/../../count.aspx"></script>位访问者
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="/npztb/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/npztb/Template/Default/js/about.js"></script>
+	<script src="/npztb/Template/Default/../../javascript/pagingjs.js"></script>
+</body>
+
+</html>

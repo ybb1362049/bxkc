@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后勤网-招标信息</title>
+<link href="http://www.zjul.com.cn/css/page.css" rel="stylesheet" type="text/css">
+<link href="http://www.zjul.com.cn/css/default.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://www.zjul.com.cn/js/common.js"></script>
+<script src="http://www.zjul.com.cn/zcms/framework/main.js"></script><!--_TAGEND_cms_include_287-->
+
+<link href="http://www.zjul.com.cn/css/page.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://www.zjul.com.cn/js/jquery.tools.1.2.7.min.js"></script>
+<script type="text/javascript" src="http://www.zjul.com.cn/js/common.js"></script>
+<script type="text/javascript" src="http://www.zjul.com.cn/js/index.js"></script>
+<script>
+    var cataloginnercode = '000220'; 		   
+    $(document).ready(function(){	
+		currentCatalog(cataloginnercode);	
+		currentHeader(cataloginnercode);
+    });	
+  
+  
+  //得到指定的日期字符串，以str为分隔符号。day参数为整数，当为负数时，表示得到几天以前的日期串,此处不提供任何严密的校验
+	function getDateStr(str,day){
+					var date=new Date();
+					if(day){
+						date.setDate(date.getDate()+day);
+					}	
+					var year=date.getFullYear();
+					var month=date.getMonth()+1;    //getMonth返回的月份是从0开始的，因此要加1
+					var date=date.getDate();
+					if(!str){
+						str="";
+					}
+					return year+str+(month>9?month:("0"+month))+str+(date>9?date:("0"+date));
+	}
+  
+  	//得到图片标签的整个内容。
+	function appendImgStr(src,width,height) {  
+		return "<img src='"+src+"'"+(width?"width='"+width+"'":"")+(width?"height='"+height+"'":"")+" />";
+	}  
+
+   //得到li标签的id值，并截取id最后一位唯一数得到当前文章的日期字符串。之后与当前日期字符串比较。如果是属于新文章范围则加上new图片。
+	function signNewArticle(){
+		//得到id为ul0的标签所包含的所有li标签对象。
+		 var signObjects=document.getElementById("lby").getElementsByTagName("li");      
+        //得到前3天的日期
+        var signDate=getDateStr("",-3);
+        //遍历所有li标签对象，截取每个li对象的id值最后一位唯一数，然后与前面得到的日期串进行比较，属于新文章范围则加上new图片。
+        for(var i=0;i<signObjects.length;i++){
+          var signObject=signObjects[i];
+          var articleDate=signObject.id;
+          if(articleDate>=signDate){
+            var signHtml=signObject.innerHTML;
+            signObject.innerHTML=signObject.innerHTML+appendImgStr("http://www.zjul.com.cn/images/new.gif");
+          }		        
+       }
+	}	
+</script>
+
+
+
+
+</head>
+
+<body onLoad="signNewArticle()">
+<!-- 页头开始 -->
+<!--_TAGSTART_cms_include_2207:file:${Prefix}template/header.template.html;-->
+<script>
+  //$(document).bind("selectstart",function(){return false;});
+  document.onselectstart=new Function('event.returnValue=false;');
+  if(document.body){
+    $(document.body).css("-moz-user-select","none");
+  } 
+  
+	//设为首页
+function setHomepage(url)
+{
+	if(url=="http:///") return false;
+	if (document.all){
+		document.body.style.behavior='url(#default#homepage)';
+		document.body.setHomePage(url);    
+	}else if (window.sidebar){
+		if(window.netscape){
+			try{
+			netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+			alert("已成功设置为首页");
+			}catch (e){
+					alert( "该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true" );
+			}
+		}
+			var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+			prefs.setCharPref('browser.startup.homepage',url);
+	}
+}
+</script>
+<div class="header pageWidth">
+   <div class="search clearself">
+     <table width="950">
+       <tr>
+         <td height="20" width="518">
+           	<span id="span_logout" style="display:none">
+      	<a class="login_username reg" href="http://www.zjul.com.cn/zcms/member/info?SiteID=20&Current=PersonalInfo"></a><span style="color:#555">,欢迎来到浙江教育后勤信息网</span>&nbsp;&nbsp;&nbsp;&nbsp;<a class="reg" href="javascript:logout();">注销</a>
+      	</span>
+           <span id="span_login" style="display:none">
+             欢迎来到浙江教育后勤信息网，请<a class="reg" href="http://www.zjul.com.cn/zcms/member/login?SiteID=20">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="reg" href="http://www.zjul.com.cn/zcms/member/register?SiteID=20">会员注册</a></span></td>     
+         <td width="232" class="time">
+		    <script type="text/javascript">
+				var days=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+				var today=new Date();
+				var str= (today.getYear()<1900?1900+today.getYear():today.getYear())+"年" + [today.getMonth()+1]+"月" +today.getDate() +"日 "+ days[today.getDay()];
+				document.write(str);
+			</script>
+         </td>
+         <td width="160" align="right"><a title="设为您浏览器的首页,您打开浏览器时默认打开此网站" onclick="setHomepage('http://www.zjul.com.cn');return false;" href="javascript:void(0);">设为首页</a>&nbsp;|&nbsp;<a href="mailto:407629558@qq.com">投稿邮箱</a></td> 
+       </tr>
+     </table>
+ </div>
+ <div class="pageWidth clearself">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="960" height="137">
+          <param name="movie" value="http://www.zjul.com.cn/images/top.swf">
+          <param name="quality" value="high">
+          <param name="wmode" value="opaque">
+          <embed src="http://www.zjul.com.cn/images/top.swf" width="960" height="137" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="opaque">
+      </object>
+</div>
+ <div class="nav">
+   <ul id="nav">
+     <li id="index"><a href="http://www.zjul.com.cn/">首页</a></li>
+     <li  id="header000211">
+				  <a href="http://www.zjul.com.cn/hqxh/xhjs/">后勤协会</a>
+				    <div class="subnav disable">
+					 <span>
+				    <a href="http://www.zjul.com.cn/hqxh/xhjs/">协会介绍</a><a href="http://www.zjul.com.cn/hqxh/xhzc/">协会制度</a><a href="http://www.zjul.com.cn/hqxh/zzjgt/411442.shtml">组织机构图</a><a href="http://www.zjul.com.cn/hqxh/xhld/">协会领导</a><a href="http://www.zjul.com.cn/hqxh/xhtz/">协会通知</a>
+					 </span>
+                   </div>
+				 </li><li  id="header000212">
+				  <a href="http://www.zjul.com.cn/zcxx/zfsy/">政策信息</a>
+				    <div class="subnav disable">
+					 <span>
+				    <a href="http://www.zjul.com.cn/zcxx/zfsy/">政策法规</a><a href="http://www.zjul.com.cn/zcxx/ldjh/">领导讲话</a>
+					 </span>
+                   </div>
+				 </li><li  id="header000213">
+				  <a href="http://www.zjul.com.cn/xwdt/dtxw/">新闻动态</a>
+				    <div class="subnav disable">
+					 <span>
+				    <a href="http://www.zjul.com.cn/xwdt/dtxw/">后勤动态</a><a href="http://www.zjul.com.cn/xwdt/hqyw/">后勤要闻</a><a href="http://www.zjul.com.cn/xwdt/tpxw/">图片新闻</a><a href="http://www.zjul.com.cn/xwdt/spxw/">视频新闻</a><a href="http://www.zjul.com.cn/xwdt/mthq/">媒体视野</a><a href="http://www.zjul.com.cn/tpzl/">图片专栏</a>
+					 </span>
+                   </div>
+				 </li><li  id="header000214">
+				  <a href="http://www.zjul.com.cn/rdgz/">热点关注</a>
+				    
+				 </li><li  id="header000215">
+				  <a href="http://www.zjul.com.cn/sjyj/lwcb/">实践研究</a>
+				    <div class="subnav disable">
+					 <span>
+				    <a href="http://www.zjul.com.cn/sjyj/lwcb/">论文采编</a><a href="http://www.zjul.com.cn/sjyj/tszs/">他山之石</a>
+					 </span>
+                   </div>
+				 </li><li  id="header000216">
+				  <a href="http://www.zjul.com.cn/lhcg/scxx/">联合采购</a>
+				    <div class="subnav disable">
+					 <span>
+				    <a href="http://www.zjul.com.cn/lhcg/lcxx/">联采信息</a><a href="http://www.zjul.com.cn/lhcg/scxx/">市场信息</a><a href="http://www.zjul.com.cn/lhcg/cgdt/">采购动态</a>
+					 </span>
+                   </div>
+				 </li><li  id="header000217">
+				  <a href="http://www.zjul.com.cn/hyzq/xuexiaohuiyuan/">会员专区</a>
+				    <div class="subnav disable">
+					 <span>
+				    <a href="http://www.zjul.com.cn/hyzq/qiyezhuanqu/">企业会员</a><a href="http://www.zjul.com.cn/hyzq/xuexiaohuiyuan/">学校会员</a>
+					 </span>
+                   </div>
+				 </li>   
+   </ul>
+ </div>
+</div>
+<script>
+
+  
+Page.onReady(function() {
+	try {
+	var url = 'http://www.zjul.com.cn/zcms/member/logined?timestamp=' + new Date().getTime();
+    loadJs(url, function(){
+		if(typeof result != 'undefined'){
+			$("#span_login").css("display", result.IsLogin ? "none" : "");
+			$("#span_logout").css("display", result.IsLogin ? "" : "none");
+			if(result.IsLogin){  
+			  $("a.login_username").html(result.UserName);
+              document.onselectstart=new Function('event.returnValue=true;');
+              if(document.body){
+                $(document.body).css("-moz-user-select","");
+              } 
+			}
+		}else{
+			$("#span_login").css("display", "");
+			$("#span_logout").css("display", "none");
+		}
+      });
+	} catch(e) {
+		$("#span_login").css("display", "");
+		$("#span_logout").css("display", "none");
+	}
+});
+
+function logout() {
+	var url = 'http://www.zjul.com.cn/zcms/member/ajaxlogout?'+new Date().getTime();
+	loadJs(url, function(){
+			window.location.href = "http://www.zjul.com.cn/";
+		});
+}  
+  
+</script><!--_TAGEND_cms_include_2207-->
+
+<!-- 页头结束 -->
+
+<!-- 主体开始 -->
+<div class="pageWidth">
+	<div class="z_mainLeft fl"> 
+    	<h2><span>
+		<a href="http://www.zjul.com.cn/zbxx/">招标信息</a>
+		
+		</span></h2>
+        <ul class="z_list">
+		    <!--_TAGSTART_cms_catalog_2732:id:${Catalog.id};type:Article;level:Child;-->
+<!--_TAGEND_cms_catalog_2732-->
+		    	
+        </ul>
+        <h3>新闻推荐</h3>
+      
+		    <!--_TAGSTART_cms_article_3244:type:Hot;count:6;-->
+<dl>
+			        <dt><a href="http://www.zjul.com.cn/zbxx/437795.shtml"><img src="http://www.zjul.com.cn//upload/resources/image/2015/08/06/9759.jpg"/></a></dt>
+					<dd><a href="http://www.zjul.com.cn/zbxx/437795.shtml">浙江省高等学校...</a></dd>
+					<dd></dd>
+					</dl>      	
+       
+        <ul class="z_list1 clearself">
+				<li><a href="http://www.zjul.com.cn/zbxx/418867.shtml" target="_blank">杭州师范大学仓前校区学生公寓商...</a></li><li><a href="http://www.zjul.com.cn/zbxx/445822.shtml" target="_blank">浙江省高等学校后勤物资联合配送...</a></li><li><a href="http://www.zjul.com.cn/zbxx/411607.shtml" target="_blank">浙江工商大学杭州商学院学生公寓...</a></li><li><a href="http://www.zjul.com.cn/zbxx/419861.shtml" target="_blank">浙江省高等学校后勤物资联合配送...</a></li><li><a href="http://www.zjul.com.cn/zbxx/411709.shtml" target="_blank">浙江工商大学杭州商学院中标公示...</a></li>
+        </ul><!--_TAGEND_cms_article_3244-->
+
+             <h3>专题热点</h3>
+        <div class="z_picShow clearself">
+		     <!--_TAGSTART_cms_catalog_4122:name:专题热点;type:Article;level:Child;-->
+<a href="http://www.zjul.com.cn/ztrd/tgtj/" target="_blank"><img src="http://www.zjul.com.cn/upload/ztrd1/tgtj/1366008073625_231x56.jpg?1502354231779"></a><!--_TAGEND_cms_catalog_4122-->
+
+        </div>
+    </div>
+    <div class="z_mainRight fr">
+    	<div class="z_position">您现在的位置：<a class='postion' href='http://www.zjul.com.cn/' target='null'>首页</a> &gt; <a class='postion' href='http://www.zjul.com.cn/zbxx/'>招标信息</a></div>
+        <h2 class="z_title">招标信息</h2>
+        <ul class="z_list3" id="lby">
+		    <!--_TAGSTART_cms_article_4551:catalogid:${Catalog.ID};level:Current;page:true;pagesize:20;type:recent;-->
+<li  id="20170810"><span style="">2017-08-10</span><a href="http://www.zjul.com.cn/zbxx/452509.shtml" style="" title="浙江工业大学之江学院学缘堂风味档口 二次招标结果公示">浙江工业大学之江学院学缘堂风味档口 二次招标结果公示</a></li><li  id="20170810"><span style="">2017-08-10</span><a href="http://www.zjul.com.cn/zbxx/452508.shtml" style="" title="浙江工业大学之江学院学缘堂二楼大众餐厅经营权 二次招标结果公示">浙江工业大学之江学院学缘堂二楼大众餐厅经营权 二次招标结果公...</a></li><li  id="20170810"><span style="">2017-08-10</span><a href="http://www.zjul.com.cn/zbxx/452507.shtml" style="" title="浙江工业大学之江学院校内营业性用房二次招标结果公示">浙江工业大学之江学院校内营业性用房二次招标结果公示</a></li><li  id="20170810"><span style="">2017-08-10</span><a href="http://www.zjul.com.cn/zbxx/452505.shtml" style="" title="浙江工业大学 容大后勤集团饮食服务中心招商招标公告">浙江工业大学 容大后勤集团饮食服务中心招商招标公告</a></li><li  id="20170808"><span style="">2017-08-08</span><a href="http://www.zjul.com.cn/zbxx/452475.shtml" style="" title="浙江交通职业技术学院资产经营有限责任公司合作联营权项目中标公告">浙江交通职业技术学院资产经营有限责任公司合作联营权项目中标公...</a></li><li  id="20170808"><span style="">2017-08-08</span><a href="http://www.zjul.com.cn/zbxx/452472.shtml" style="" title="嘉兴学院食堂不锈钢化餐具采购项目招标公告（重招）">嘉兴学院食堂不锈钢化餐具采购项目招标公告（重招）</a></li><li  id="20170808"><span style="">2017-08-08</span><a href="http://www.zjul.com.cn/zbxx/452468.shtml" style="" title="温州市华信采购招标代理有限公司关于浙江省温州片区高校食堂 冷冻品类物资配送项目的公开招商公告">温州市华信采购招标代理有限公司关于浙江省温州片区高校食堂 冷...</a></li><li  id="20170808"><span style="">2017-08-08</span><a href="http://www.zjul.com.cn/zbxx/452467.shtml" style="" title="温州市华信采购招标代理有限公司关于浙江省温州片区九所院校食堂 味精类物资配送项目的公开招商公告">温州市华信采购招标代理有限公司关于浙江省温州片区九所院校食堂...</a></li><li  id="20170807"><span style="">2017-08-07</span><a href="http://www.zjul.com.cn/zbxx/452465.shtml" style="" title="温州市华信采购招标代理有限公司关于浙江省温州片区九所院校食堂 味精类物资配送项目的公开招商公告">温州市华信采购招标代理有限公司关于浙江省温州片区九所院校食堂...</a></li><li  id="20170807"><span style="">2017-08-07</span><a href="http://www.zjul.com.cn/zbxx/452464.shtml" style="" title="温州市华信采购招标代理有限公司关于浙江省温州片区高校食堂 冷冻品类物资配送项目的公开招商公告">温州市华信采购招标代理有限公司关于浙江省温州片区高校食堂 冷...</a></li><li  id="20170807"><span style="">2017-08-07</span><a href="http://www.zjul.com.cn/zbxx/452459.shtml" style="" title="浙江电大教工路校区食堂托管服务项目招标公告">浙江电大教工路校区食堂托管服务项目招标公告</a></li><li  id="20170807"><span style="">2017-08-07</span><a href="http://www.zjul.com.cn/zbxx/452452.shtml" style="" title="浙江工业大学之江学院学缘堂风味档口招标结果公示">浙江工业大学之江学院学缘堂风味档口招标结果公示</a></li><li  id="20170806"><span style="">2017-08-06</span><a href="http://www.zjul.com.cn/zbxx/452448.shtml" style="" title="浙江乐典文化有限责任公司餐饮服务中心 南区餐厅厨房设备询价公告(第二次）">浙江乐典文化有限责任公司餐饮服务中心 南区餐厅厨房设备询价公...</a></li><li  id="20170804"><span style="">2017-08-04</span><a href="http://www.zjul.com.cn/zbxx/452441.shtml" style="" title="浙江省国际技术设备招标有限公司关于浙江理工大学资产经营有限责任公司商铺租赁（标项13、14重招）的公开招标公告">浙江省国际技术设备招标有限公司关于浙江理工大学资产经营有限责...</a></li><li  id="20170804"><span style="">2017-08-04</span><a href="http://www.zjul.com.cn/zbxx/452438.shtml" style="" title="浙江省高等学校后勤物资联合配送中心温州片区工作站 食用油采购项目联合招商公告">浙江省高等学校后勤物资联合配送中心温州片区工作站 食用油采购...</a></li><li  id="20170804"><span style="">2017-08-04</span><a href="http://www.zjul.com.cn/zbxx/452437.shtml" style="" title="浙江工业大学之江学院关于学缘堂风味档口的二次招商公告">浙江工业大学之江学院关于学缘堂风味档口的二次招商公告</a></li><li  id="20170804"><span style="">2017-08-04</span><a href="http://www.zjul.com.cn/zbxx/452436.shtml" style="" title="浙江工业大学之江学院关于校内营业性用房面的二次招租公告">浙江工业大学之江学院关于校内营业性用房面的二次招租公告</a></li><li  id="20170804"><span style="">2017-08-04</span><a href="http://www.zjul.com.cn/zbxx/452435.shtml" style="" title="关于浙江工业大学之江学院 学缘堂二楼大众餐厅经营权二次招标的公告">关于浙江工业大学之江学院 学缘堂二楼大众餐厅经营权二次招标的...</a></li><li  id="20170804"><span style="">2017-08-04</span><a href="http://www.zjul.com.cn/zbxx/452445.shtml" style="" title="浙江工业大学之江学院校内营业性用房招标结果公示">浙江工业大学之江学院校内营业性用房招标结果公示</a></li><li  id="20170803"><span style="">2017-08-03</span><a href="http://www.zjul.com.cn/zbxx/452429.shtml" style="" title="关于温州片区九所院校食堂鲜猪肉类物资配送项目 联合招商公告">关于温州片区九所院校食堂鲜猪肉类物资配送项目 联合招商公告</a></li><!--_TAGEND_cms_article_4551-->
+
+        </ul>
+
+        <div class="z_page" style="padding:inherit" align="center">
+			<table width='100%' border='0' class='noBorder' align='center'><tr><td height='18' align='center' valign='middle' style='border-width: 0px;color:#525252'><span class='fc_hui2'>上一页</span><span class='current' style='color: #900'> 1 </span><a class="z_num" href="index_2.shtml">2</a><a class="z_num" href="index_3.shtml">3</a><a class="z_num" href="index_4.shtml">4</a><a class="z_num" href="index_5.shtml">5</a><a class="z_num" href="index_6.shtml">6</a><a class="z_num" href="index_7.shtml">7</a><a class="z_num" href="index_8.shtml">8</a><a class="z_num" href="index_9.shtml">9</a><a class="z_num" href="index_10.shtml">10</a><a href='index_2.shtml'><span class='fc_ch1'>下一页</span></a><script>function _PageBar_1502354231797_Go(){	var ele=document.getElementById('_PageBar_1502354231797');if(/[^\d]/.test(ele.value)||ele.value>79){alert('错误的页码');$('_PageBar_Index_1502354231797').focus();}else{var PageIndex = ele.value>0?ele.value:1;if(PageIndex==1){window.location='index.shtml';}else{window.location='index_${PageIndex}.shtml'.replace('${PageIndex}', PageIndex);}}}</script>&nbsp;&nbsp;第 <input class='z_num' id='_PageBar_1502354231797' type='text' size='3' value='1' style='' onKeyUp="value=value.replace(/\D/g,'')"> /79页&nbsp;&nbsp;<a onclick="_PageBar_1502354231797_Go()" class="z_pret">跳转</a></tr></table>
+      </div>
+    
+          </div>
+  <div class="clear"></div>
+</div>
+
+<!-- 主体结束 -->
+  <!--页脚开始-->
+  <!--_TAGSTART_cms_include_5215:file:${Prefix}template/footer.template.html;-->
+<div class="footer pageWidth clearself">
+	<div class="footerlink"><a href="#">设为首页</a>|<a href="#">加入收藏</a>|<a href="#">关于我们</a>|<a href="#">会员服务</a>|<a href="#">友情链接</a>|<a href="#">联系我们</a></div>
+    <div class="copyright">浙江教育后勤信息网 版权所有 © 2004-2012 All rights Reserved</div>
+    <div class="copyright">指导单位：浙江省教育厅 主办单位:浙江省高等学校后勤协会 承办单位：杭州师范大学后勤服务集团</div>
+    <div class="copyright">电话：0571-28865403 28865405 浙ICP备05016968号 技术支持：<a href="http://www.zving.com" target="_blank">泽元软件</a></div>
+<div style="width:285px;margin:0 auto; padding:10px 0;"text-align:center;>
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602002023" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.zjul.com.cn//upload/resources/image/bottom2.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">浙公网安备 33010602002023号</p></a>
+</div>
+</div><!--_TAGEND_cms_include_5215-->
+
+<!-- 页脚结束 -->
+
+
+
+<script src="http://www.zjul.com.cn/zcms/stat/front/stat.js" type="text/javascript"></script>
+<script>
+if(window._zcms_stat)_zcms_stat("SiteID=20&CatalogInnerCode=000220&Type=null&Dest=http://www.zjul.com.cn/zcms/stat/dealer");
+</script>
+<!-- App=ZCMS(ZCMS内容管理系统) 2.2.17238,CostTime=35,PublishDate=2017-08-10 16:37:11 --></body>
+</html>

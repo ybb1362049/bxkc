@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>采购公告-犍为县人民政府</title>
+<meta name="others" content="页面生成时间 2018-01-04 10:10:15" />
+    <link rel="stylesheet" type="text/css" href="../xhtml/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../xhtml/css/list.css"/>
+	<script src="../xhtml/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="../xhtml/js/common.js"></script>
+    <script type="text/javascript" src="../xhtml/js/page.js"></script>
+<head>
+<!--[if lt IE 9]> 
+    <script src="../xhtml/js/html5shiv.min.js"></script>
+    <script src="../xhtml/js/respond.min.js"></script>
+    <![endif]-->
+<body class="bg">
+	<div class="header">
+    <div class="top">
+        <div class="topwapper">
+            <span class="top-links">
+                <a href="http://www.gov.cn/" target="_blank">中央人民政府</a> | 
+                <a href="http://www.sc.gov.cn/" target="_blank">四川省政府</a> | 
+                <a href="http://www.leshan.gov.cn/" target="_blank">乐山市政府</a>                
+             </span>
+             <span class="right">
+                <!--<a href="#">无障碍浏览</a>--> | 
+                <a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a> | 
+                <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a>
+             </span>            
+        </div>
+    </div>
+    <div class="logo">
+        <h1><a href="../../qwx/index.shtml" title="logo"><img src="../xhtml/images/logo.png"></a></h1>
+        <div class="search">
+            <p>
+                <strong>热门搜索：</strong>					
+                <span>
+                <!---关键词-->
+                </span>
+            </p>                
+           <!-- <form name="searchForm" target="_blank" action="#" id="searchForm">-->
+                <input name="q" baidusug="1" id="searchinput" class="sr" autocomplete="off" placeholder="请输入关键字..." type="text">
+                <input class="btn" value=" " type="button" onclick="checkForm();"> 
+           <!-- </form>  -->         
+        </div>
+    </div>
+    <script type="text/javascript" language="javascript">
+       //加入收藏
+        function AddFavorite(sURL, sTitle) {
+           sURL =encodeURI(sURL); 
+            try{   
+              window.external.addFavorite(sURL, sTitle);   
+            }catch(e) {   
+              try{   
+                  window.sidebar.addPanel(sTitle, sURL, "");   
+               }catch (e){   
+                  alert("您的浏览器不支持自动加入收藏功能，请使用Ctrl+D进行添加，或手动在浏览器里进行设置！");
+              }   
+            }
+        }
+       
+       //设为首页
+       function SetHome(url){
+           if (document.all) {
+              document.body.style.behavior='url(#default#homepage)';
+                 document.body.setHomePage(url);
+           }else{
+               alert("您的浏览器不支持自动设置页面为首页功能，请您手动在浏览器里设置该页面为首页！");
+           }
+       }   
+       
+       //使用搜索
+       function checkForm(){
+		var keyword = searchForm.p.value;
+		if(keyword==null || keyword==""){
+			alert("请输入搜索条件");
+		}
+		else{
+			var url="http://www.leshan.gov.cn/ls/DBQuery?database=SCLS_ZQ_QWX&dbType=1&ku=&qt="+encodeURIComponent(keyword);
+			window.open(url);
+		}
+		return false;
+	
+	}          
+      
+    </script>
+</div>   
+    <div class="container">
+		<div class="line10"></div>
+		<div class="g-w">
+			<div class="menu">
+    <ul>
+        <li class="on"><a href="../../qwx/index.shtml" target="_parent"><i></i>网站首页</a></li>
+        <li><a href="http://www.qianwei.gov.cn/qwx/zfld/201711/f317a80bd4384a2eb05f948021b0554c.shtml"  target="_parent">	政府领导	</a></li>
+        <li><a href="../../qwx/zwzx/news.shtml"  target="_parent">	新闻中心	</a></li>
+        <li><a href="../../qwx/xxgk/openinfo.shtml"  target="_parent">	信息公开	</a></li>
+        <li><a href="../../qwx/bsfw/bsfw.shtml"  target="_parent">	办事服务	</a></li>
+        <li><a href="../../qwx/hdjl/zmhd.shtml"  target="_parent">	政民互动	</a></li>
+        <li><a href="../../qwx/mlqw/news_about.shtml"  target="_parent">	魅力犍为	</a></li>
+    </ul>
+</div> 
+			<div class="content">
+				<div class="mainer">
+                    <div class="left lm_lban">
+                        <div class="lm_top">
+                        	采购公告
+                        </div>
+                        <div class="nav"  style="min-height: 750px;">
+                            <ul id="nav_ul">
+ 
+
+                        		<li><a href="../../qwx/cggg/news_child.shtml"  target="_parent" title='采购公告' >	采购公告	</a></li>
+
+                        		<li><a href="../../qwx/jggg/news_child.shtml"  target="_parent" title='结果公告' >	结果公告	</a></li>
+
+                        		<li><a href="../../qwx/gzgg/news_child.shtml"  target="_parent" title='更正公告' >	更正公告	</a></li>
+ 
+                            </ul>
+                           
+                        </div>
+                    </div>
+                    
+                    <div class="left lm_rban">
+                        <div class="lmy_lmtitle" id="lmy_lmtitle"><span>采购公告</span></div>
+                       
+                        <div class="navjz">            
+                            <ul class="wz_list">
+ 
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/582c6bb880244201b1f470791352266e.shtml" target="_blank" title='犍为县住建局犍为县2018年春节亮化工程竞争性谈判采购公告'  >	犍为县住建局犍为县2018年春节亮化工程竞争性谈判采购公告	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2018-01-03</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/1d4d9da0fcdb45bda0dde69b15931ebc.shtml" target="_blank" title='县中医院犍为县中医医院中医远程会诊系统二次开发服务采购项目公...'  >	县中医院犍为县中医医院中医远程会诊系统二次开发服务采购项目公...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-27</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/7ae0ecfe9e334f38b3e1b620d7b2e12c.shtml" target="_blank" title='犍为国土基准地价更新与标定地价体系建设竞争性磋商采购公告'  >	犍为国土基准地价更新与标定地价体系建设竞争性磋商采购公告	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-27</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/d3ba850e520a4794b9c1e439246dc93d.shtml" target="_blank" title='罗城中学罗城中学购置课桌凳项目询价采购公告'  >	罗城中学罗城中学购置课桌凳项目询价采购公告	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-27</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/ebd450f014be481791aea991cc30a971.shtml" target="_blank" title='犍为体校犍为县少年儿童业余体育学校塑胶跑道及运动器材采购竞争...'  >	犍为体校犍为县少年儿童业余体育学校塑胶跑道及运动器材采购竞争...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-25</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/e2242ff8e0f7465b99a989657218c150.shtml" target="_blank" title='公路局乐山五通桥经犍为（高铁站）至沐川快速公路（五犍界至自犍...'  >	公路局乐山五通桥经犍为（高铁站）至沐川快速公路（五犍界至自犍...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-22</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/49996f8fc561481988fb402f9b7f87fc.shtml" target="_blank" title='环保局编制《犍为县土壤污染防治先行示范区建设方案公开招标采购...'  >	环保局编制《犍为县土壤污染防治先行示范区建设方案公开招标采购...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-22</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/713903ac676b46f498816118cba682ba.shtml" target="_blank" title='环保局犍为县农用地土壤污染治理与修复试点示范项目调查评估、犍...'  >	环保局犍为县农用地土壤污染治理与修复试点示范项目调查评估、犍...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-22</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/89cd7d8548a7413e8b4a52f056d1d18b.shtml" target="_blank" title='犍为体校犍为县少年儿童业余体育学校训练室维修项目工程竞争性谈...'  >	犍为体校犍为县少年儿童业余体育学校训练室维修项目工程竞争性谈...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-21</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/ef0f473e7c1c4a71b50934a9893b6174.shtml" target="_blank" title='犍为国土犍为县2017年度土地变更调查、卫片执法监督检查作业单位...'  >	犍为国土犍为县2017年度土地变更调查、卫片执法监督检查作业单位...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-21</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/2e5f44dee68a4c14ae23d9f783b46ed5.shtml" target="_blank" title='县中医院犍为县中医医院康养区医疗设备采购项目公开招标采购公告'  >	县中医院犍为县中医医院康养区医疗设备采购项目公开招标采购公告	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-20</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/9c47a2a2ff4b485ab1a3cec0272cce67.shtml" target="_blank" title='县扶贫和移民工作局罗城镇新星村、二龙村等五个村级文化卫生室办...'  >	县扶贫和移民工作局罗城镇新星村、二龙村等五个村级文化卫生室办...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-20</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/a1464990cfb64cd5a2c2f60d10f2a471.shtml" target="_blank" title='犍为县市政园林管理所2018元旦县城重点地段栽（补）植鲜花项目询...'  >	犍为县市政园林管理所2018元旦县城重点地段栽（补）植鲜花项目询...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-20</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/984230dca0f241998b4e97a02ba4dcaf.shtml" target="_blank" title='农业局2017年标准化机采茶叶基地采茶机购置项目（第二批）询价采...'  >	农业局2017年标准化机采茶叶基地采茶机购置项目（第二批）询价采...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-19</font></span>
+                              </li>                                
+
+                              <li><span class="fl">
+                                  <a href="../../qwx/cggg/201801/9e662288670d4b4896581e60a1f18e5a.shtml" target="_blank" title='犍为县工管委四川省犍为县芭石独立工矿区新型工业基地孝姑核心区...'  >	犍为县工管委四川省犍为县芭石独立工矿区新型工业基地孝姑核心区...	</a>
+                                  </span>
+                                  <span class="fr"><font color="#999999">&nbsp;2017-12-18</font></span>
+                              </li>                                
+<script type="text/javascript" src="/qwx/xhtml/js/page.js"></script><script>window.onload=function() {createPageHTML('page_div',22, 1,'news_child','shtml',317);}</script>                                                                      
+                            </ul>
+                        <div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                 <div class="page_num">
+			        <div id="page_div"></div>
+			     </div>
+			     <!--分页结束--->
+                <div class="clear"></div>
+                
+            </div>            
+            <div class="line15"></div>
+        </div>
+				
+			</div><!---content end--->
+			
+			
+		</div><!--g-w end--->
+		<div class="line15"></div>
+		<div class="footer">
+    <ul style="width: 350px;">
+        <a href="../../qwx/flsm/zdt.shtml" target="_parent">站点地图</a> <b>|</b>       
+        <a href="http://www.qianwei.gov.cn/qwx/zddt/201708/b6582f0786ee4a3395ccfbfb51bc081c.shtml" target="_parent">联系我们</a> <b>|</b> 
+        <a href="http://www.qianwei.gov.cn/qwx/zddt/201708/c8b2e9595354429e8f9e19762c99952e.shtml" target="_parent" class="mr0">网站声明</a>
+    </ul>
+    <p>主办：犍为县人民政府   犍为县人民政府门户网站运行协调管理办公室提供技术支持</p>
+    <p>Copyinght(c)2017 蜀ICP备08109906号 川公网安备 51112302000109号</p>
+    <p>
+    </p> 
+    <div class="footer_ico">
+		<span>
+			<a href="http://bszs.conac.cn/sitename?method=show&amp;id=08A9E22EDEF46041E053012819AC727D"><img src="../xhtml/images/P020160927403532608069.png"></a>
+		</span>
+		 &nbsp;&nbsp;
+		 <span>
+		 	<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51112302000109"><img src="../xhtml/images/beianbgs.png"></a>
+		 </span>
+        &nbsp;&nbsp;
+        <span id="_span_jiucuo">
+        	<script id="_jiucuo_" sitecode='5111230002' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+        </span>
+    </div>     
+</div>
+	</div><!--container end--->
+</body>
+</html>
+<script type="text/javascript">
+$(function(){
+	//
+   var Channel = $.trim($("#lmy_lmtitle span").html());
+   var cNode = $("#nav_ul li a");
+   var arr = $.makeArray(cNode);
+   for(var i=0; i<=arr.length; i++){
+   var txt = $.trim(arr[i].innerHTML);
+	//alert(new RegExp(txt,"ig").test(Channel));
+	if(txt == Channel){
+		cNode[i].index = i;
+		var num =cNode[i].index;
+		$('#nav_ul li a').eq(num).addClass('active');
+		$('#nav_ul li').eq(num).siblings().children('a').removeClass('active');
+		return false;
+	}
+}  
+ 
+});
+</script>

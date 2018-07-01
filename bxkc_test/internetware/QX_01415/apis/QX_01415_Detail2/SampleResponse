@@ -1,0 +1,501 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>剑阁县公共资源交易</title>
+    <link href="jgimages/css.css" type="text/css" rel="Stylesheet" />
+
+
+<script type="text/javascript">
+        if (top.frames.length!=0) 
+            top.location=self.document.location;
+    </script>
+
+  
+<style type="text/css">
+<!--
+.STYLE41 {            color: #406a98;
+            font-size: 14px;
+            font-weight: bold;
+}
+-->
+</style>
+
+
+    <script type="text/javascript">
+
+
+function setTab(name,cursel,n){
+ for(i=1;i<=n;i++){
+  var menu=document.getElementById(name+i);
+  var con=document.getElementById("con_"+name+"_"+i);
+  menu.className=i==cursel?"hover":"";
+  con.style.display=i==cursel?"block":"none";
+ }
+}
+    </script>
+
+    <style type="text/css">
+        .newsImage img
+        {
+            width: expression(this.width > 720 ? '720px': true);
+            max-width: 720px;
+        }
+    </style>
+<title>
+
+</title><style type="text/css">
+	.ctl00_myTreeView_0 { text-decoration:none; }
+	.ctl00_myTreeView_1 { padding:2px 4px 2px 4px; }
+
+</style></head>
+<body>
+    <form name="aspnetForm" method="post" action="admin_show.aspx?id=1086&amp;FromUrl=tzgg" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_myTreeView_ExpandState" id="ctl00_myTreeView_ExpandState" value="n" />
+<input type="hidden" name="ctl00_myTreeView_SelectedNode" id="ctl00_myTreeView_SelectedNode" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="ctl00_myTreeView_PopulateLog" id="ctl00_myTreeView_PopulateLog" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMzkzOTY3NzQ5D2QWAmYPZBYEAgEPZBYCZg8WAh4EVGV4dAWXBg0KPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9Z2IyMzEyIiAvPg0KPHRpdGxlPuWJkemYgeWOv+WFrOWFsei1hOa6kOS6pOaYkzwvdGl0bGU+DQogICAgPGxpbmsgaHJlZj0iamdpbWFnZXMvY3NzLmNzcyIgdHlwZT0idGV4dC9jc3MiIHJlbD0iU3R5bGVzaGVldCIgLz4NCg0KDQo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+DQogICAgICAgIGlmICh0b3AuZnJhbWVzLmxlbmd0aCE9MCkgDQogICAgICAgICAgICB0b3AubG9jYXRpb249c2VsZi5kb2N1bWVudC5sb2NhdGlvbjsNCiAgICA8L3NjcmlwdD4NCg0KICANCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQo8IS0tDQouU1RZTEU0MSB7ICAgICAgICAgICAgY29sb3I6ICM0MDZhOTg7DQogICAgICAgICAgICBmb250LXNpemU6IDE0cHg7DQogICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDsNCn0NCi0tPg0KPC9zdHlsZT4NCg0KDQogICAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KDQoNCmZ1bmN0aW9uIHNldFRhYihuYW1lLGN1cnNlbCxuKXsNCiBmb3IoaT0xO2k8PW47aSsrKXsNCiAgdmFyIG1lbnU9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQobmFtZStpKTsNCiAgdmFyIGNvbj1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiY29uXyIrbmFtZSsiXyIraSk7DQogIG1lbnUuY2xhc3NOYW1lPWk9PWN1cnNlbD8iaG92ZXIiOiIiOw0KICBjb24uc3R5bGUuZGlzcGxheT1pPT1jdXJzZWw/ImJsb2NrIjoibm9uZSI7DQogfQ0KfQ0KICAgIDwvc2NyaXB0Pg0KZAIDD2QWDgIBDw8WAh8ABbYtDQo8dGFibGUgd2lkdGg9IjEwMCUiIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIj4NCiAgPHRyPg0KICAgIDx0ZCBoZWlnaHQ9IjMyIiBhbGlnbj0iY2VudGVyIiB2YWxpZ249InRvcCIgPjx0YWJsZSB3aWR0aD0iMTAwMCIgYm9yZGVyPSIwIiBhbGlnbj0iY2VudGVyIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIGJhY2tncm91bmQ9Imh0dHA6Ly93d3cuY25qZy5nb3YuY24vaW1hZ2VzL2JnLmpwZyI+DQogICAgICA8dGJvZHk+DQogICAgICAgIDx0cj4NCiAgICAgICAgICA8dGQgd2lkdGg9IjEwJSIgYWxpZ249ImxlZnQiPjxpbWcgc3JjPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2ltYWdlcy9naC5qcGciIHdpZHRoPSI5NSIgDQogICAgICBoZWlnaHQ9IjY3IiAvPjwvdGQ+DQogICAgICAgICAgPHRkIHdpZHRoPSIzMCUiIGFsaWduPSJsZWZ0Ij48aW1nIHNyYz0iaHR0cDovL3d3dy5jbmpnLmdvdi5jbi9pbWFnZXMvamcuanBnIiB3aWR0aD0iMzAyIiANCiAgICAgIGhlaWdodD0iNjciIC8+PC90ZD4NCiAgICAgICAgICA8dGQgYWxpZ249InJpZ2h0Ij48dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIHdpZHRoPSI0MzAiPg0KICAgICAgICAgICAgPHRib2R5Pg0KICAgICAgICAgICAgICA8dHI+DQogICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJ6aTAxIiBoZWlnaHQ9IjM1IiB3aWR0aD0iMTE4IiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3Lmdvdi5jbi8iIA0KICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiPuS4reWkruS6uuawkeaUv+W6nDwvYT48L3RkPg0KICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0iemkwMSIgd2lkdGg9IjExNyIgYWxpZ249ImNlbnRlciI+PGEgaHJlZj0iaHR0cDovL3d3dy5zYy5nb3YuY24vIiANCiAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIj7lm5vlt53nnIHkurrmsJHmlL/lupw8L2E+PC90ZD4NCiAgICAgICAgICAgICAgICA8dGQgY2xhc3M9InppMDEiIHdpZHRoPSIxMTUiIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuY25neS5nb3YuY24vIiANCiAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIj7lub/lhYPluILkurrmsJHmlL/lupw8L2E+PC90ZD4NCiAgICAgICAgICAgICAgPC90cj4NCiAgICAgICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICAgIDx0ZCBjb2xzcGFuPSIyIiBhbGlnbj0iY2VudGVyIj4mbmJzcDs8L3RkPg0KICAgICAgICAgICAgICAgIDx0ZCBhbGlnbj0icmlnaHQiPjxhIGhyZWY9Imh0dHA6Ly93d3cuY25qZy5nb3YuY24vc2l0ZW1hcC5hc3B4IiANCiAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIj48aW1nIHNyYz0iaHR0cDovL3d3dy5jbmpnLmdvdi5jbi9pbWFnZXMvd3pkaC5qcGciIHdpZHRoPSI5NyIgDQogICAgICAgICAgICBoZWlnaHQ9IjI1IiAvPjwvYT48L3RkPg0KICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgPC90Ym9keT4NCiAgICAgICAgICA8L3RhYmxlPjwvdGQ+DQogICAgICAgIDwvdHI+DQogICAgICA8L3Rib2R5Pg0KICAgIDwvdGFibGU+PC90ZD4NCiAgPC90cj4NCjwvdGFibGU+DQo8dGFibGUgd2lkdGg9IjEwMCUiIGJvcmRlcj0iMCIgYWxpZ249ImNlbnRlciIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIj4NCiAgPHRyPg0KICAgIDx0ZCBoZWlnaHQ9IjI1IiAgY2xhc3M9InppMDIiPjxtYXJxdWVlIHdpZHRoPSIxMDAwIiBoZWlnaHQ9IjI1IiBzY3JvbGxhbW91bnQ9IjMiIG9ubW91c2VvdmVyPSJzdG9wKCkiIG9ubW91c2VvdXQ9InN0YXJ0KCkiPg0KICAgIDwvbWFycXVlZT48L3RkPg0KICA8L3RyPg0KPC90YWJsZT4NCjx0YWJsZSB3aWR0aD0iMTAwMCIgYm9yZGVyPSIwIiBhbGlnbj0iY2VudGVyIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiPg0KICA8dHIgPg0KICAgIDx0ZD48b2JqZWN0IGNsYXNzaWQ9ImNsc2lkOkQyN0NEQjZFLUFFNkQtMTFjZi05NkI4LTQ0NDU1MzU0MDAwMCIgY29kZWJhc2U9Imh0dHA6Ly9kb3dubG9hZC5tYWNyb21lZGlhLmNvbS9wdWIvc2hvY2t3YXZlL2NhYnMvZmxhc2gvc3dmbGFzaC5jYWIjdmVyc2lvbj03LDAsMTksMCINCiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoPSIxMDAwIiBoZWlnaHQ9IjE3OSI+DQogICAgICA8cGFyYW0gbmFtZT0ibW92aWUiIHZhbHVlPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2ltYWdlcy90b3AyLnN3ZiIgLz4NCiAgICAgIDxwYXJhbSBuYW1lPSJxdWFsaXR5IiB2YWx1ZT0iaGlnaCIgLz4NCiAgICAgIDxlbWJlZCBzcmM9Imh0dHA6Ly93d3cuY25qZy5nb3YuY24vaW1hZ2VzL3RvcDIuc3dmIiBxdWFsaXR5PSJoaWdoIiBwbHVnaW5zcGFnZT0iaHR0cDovL3d3dy5tYWNyb21lZGlhLmNvbS9nby9nZXRmbGFzaHBsYXllciINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJhcHBsaWNhdGlvbi94LXNob2Nrd2F2ZS1mbGFzaCIgd2lkdGg9IjEwMDAiIGhlaWdodD0iMTc5Ij4gPC9lbWJlZD4NCiAgICA8L29iamVjdD48L3RkPg0KICA8L3RyPg0KPC90YWJsZT4NCjx0YWJsZSB3aWR0aD0iOTk4IiAgYm9yZGVyPSIwIiBhbGlnbj0iY2VudGVyIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiPg0KICA8dHI+DQogICAgPHRkIHdpZHRoPSI5OTgiICBoZWlnaHQ9IjU0IiBhbGlnbj0ibGVmdCIgdmFsaWduPSJ0b3AiIGJhY2tncm91bmQ9ImpnaW1hZ2VzL21lbnVfYmcuanBnIj48dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIHdpZHRoPSIxMDAlIiA+DQogICAgICA8dGJvZHk+DQogICAgICAgIDx0cj4NCiAgICAgICAgICA8dGQgaGVpZ2h0PSI1NCIgd2lkdGg9IjU2Ij4mbmJzcDs8L3RkPg0KICAgICAgICAgIDx0ZCBjbGFzcz0iemkwMyIgd2lkdGg9Ijk3IiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3LmNuamcuZ292LmNuLyI+5YmR6ZiB6aaW6aG1PC9hPjxiciAvPjwvdGQ+DQogICAgICAgICAgPHRkIGNsYXNzPSJ6aTAzIiB3aWR0aD0iOTciIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuY25qZy5nb3YuY24vYXJ0aWNsZWxpc3QuYXNweD9pZD0xIj7liZHpmIHmpoLlhrU8L2E+PC90ZD4NCiAgICAgICAgICA8c2NyaXB0Pg0KZnVuY3Rpb24gZnVuMSgpew0KYWxlcnQoIuWOv+aUv+W6nOS/oeaBr+abtOaWsOS4rSIpOw0KcmV0dXJuIGZhbHNlOw0KfQ0KICAgICAgICAgIDwvc2NyaXB0Pg0KICAgICAgICAgIDx0ZCBjbGFzcz0iemkwMyIgd2lkdGg9Ijk3IiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2FydGljbGVfemZqZy5hc3B4Ij4g5pS/5bqc5py65p6EPC9hPjwvdGQ+DQogICAgICAgICAgPHRkIGNsYXNzPSJ6aTAzIiB3aWR0aD0iMTAwIiBhbGlnbj0iY2VudGVyIj48IS0tIDxhIGhyZWY9ImphdmFzY3JpcHQ6ZnVuMSgpOyI+5pS/5bqc6aKG5a+8PC9hPi0tPg0KICAgICAgICAgICAgPGEgDQogICAgICBocmVmPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2FydGljbGVfemZsZC5hc3B4Ij7mlL/lupzpooblr7w8L2E+PC90ZD4NCiAgICAgICAgICA8dGQgY2xhc3M9InppMDMiIHdpZHRoPSIxMDAiIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuY25qZy5nb3YuY24vYXJ0aWNsZV96d2drLmFzcHgiPuaUv+WKoeWFrOW8gDwvYT48L3RkPg0KICAgICAgICAgIDx0ZCBjbGFzcz0iemkwMyIgd2lkdGg9Ijk2IiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2FydGljbGVfYnNmdy5hc3B4Ij7lip7kuovmnI3liqE8L2E+PC90ZD4NCiAgICAgICAgICA8dGQgY2xhc3M9InppMDMiIHdpZHRoPSI5OSIgYWxpZ249ImNlbnRlciI+PGEgaHJlZj0iaHR0cDovL3d3dy5jbmpnLmdvdi5jbi9hcnRpY2xlX2hkamwuYXNweCI+5LqS5Yqo5Lqk5rWBPC9hPjwvdGQ+DQogICAgICAgICAgPHRkIGNsYXNzPSJ6aTAzIiB3aWR0aD0iOTkiIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuY25qZy5nb3YuY24vYXJ0aWNsZV90empnLmFzcHgiPuaKlei1hOWJkemYgTwvYT48L3RkPg0KICAgICAgICAgIDx0ZCBjbGFzcz0iemkwMyIgd2lkdGg9Ijk1IiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2FydGljbGVfamdseS5hc3B4Ij7liZHpmIHml4XmuLg8L2E+PC90ZD4NCiAgICAgICAgICA8dGQgd2lkdGg9IjY0Ij4mbmJzcDs8L3RkPg0KICAgICAgICA8L3RyPg0KICAgICAgPC90Ym9keT4NCiAgICA8L3RhYmxlPjwvdGQ+DQogIDwvdHI+DQo8L3RhYmxlPg0KPHRhYmxlIHdpZHRoPSIxMDA4IiBib3JkZXI9IjAiIGFsaWduPSJjZW50ZXIiIGNlbGxwYWRkaW5nPSIwIiBjZWxsc3BhY2luZz0iMCIgPg0KICA8dHI+DQogICAgPHRkIHdpZHRoPSIxMDA4IiBoZWlnaHQ9IjE0NCIgYWxpZ249ImNlbnRlciIgdmFsaWduPSJ0b3AiID48dGFibGUgd2lkdGg9IjEwMDgiIGJvcmRlcj0iMCIgYWxpZ249ImNlbnRlciIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiBiZ2NvbG9yPSIjRkZGRkZGIj4NCiAgICAgICAgPHRyPg0KICAgICAgICAgIDx0ZCB3aWR0aD0iMTA0NCIgaGVpZ2h0PSI2NDYiIHZhbGlnbj0idG9wIiA+PHRhYmxlIHdpZHRoPSIxMDAlIiBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSI0IiBjZWxscGFkZGluZz0iMCI+DQogICAgICAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICAgICA8dGQgd2lkdGg9IjE4JSIgaGVpZ2h0PSI1NzEiIHZhbGlnbj0idG9wIj48dGFibGUgd2lkdGg9IjIyOSIgaGVpZ2h0PSI1NzciIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiBjbGFzcz0idGIxIj4NCiAgICAgICAgICAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICAgICAgICAgPHRkIGhlaWdodD0iMTAxIiBhbGlnbj0ibGVmdCIgdmFsaWduPSJ0b3AiID48dGFibGUgd2lkdGg9IjEwMCUiIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIj4NCiAgICAgICAgICAgICAgICAgICAgICA8dHI+DQogICAgICAgICAgICAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIxMTgiICB2YWxpZ249InRvcCIgY2xhc3M9InRiMiI+PHRhYmxlIHdpZHRoPSI5OSUiIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjMwIiBiYWNrZ3JvdW5kPSJqZ2ltYWdlcy9iZzQuZ2lmIj48dGFibGUgd2lkdGg9IjEwMCUiIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIHdpZHRoPSIxMDAiIGhlaWdodD0iMzAiIGFsaWduPSJjZW50ZXIiIHZhbGlnbj0ibWlkZGxlIiBiYWNrZ3JvdW5kPSJqZ2ltYWdlcy9iZ190YWcxLmdpZiIgY2xhc3M9IlNUWUxFNyI+572R56uZ5L2N572uPC90ZD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIHdpZHRoPSIxODQiPiZuYnNwOzwvdGQ+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGFibGU+PC90ZD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjIwMCIgYWxpZ249ImxlZnQiIHZhbGlnbj0idG9wIiA+ZGQCAw88KwAJAgAPFggeDU5ldmVyRXhwYW5kZWRkHgtfIURhdGFCb3VuZGceDFNlbGVjdGVkTm9kZWQeCUxhc3RJbmRleAIBZAgUKwACBQMwOjAUKwACFgwfAAUM6YCa55+l5YWs5ZGKHgVWYWx1ZQUM6YCa55+l5YWs5ZGKHgtOYXZpZ2F0ZVVybAUmL2NlaW53ei94d21vcmUuYXNweD9pZD0yMSZGcm9tVXJsPXR6Z2ceCERhdGFQYXRoBSYvY2Vpbnd6L3h3bW9yZS5hc3B4P2lkPTIxJmZyb211cmw9dHpnZx4JRGF0YUJvdW5kZx4IRXhwYW5kZWRnZGQCBQ8WAh4PU3RhcnRpbmdOb2RlVXJsBQR0emdnZAIHDw8WAh8ABbgEPC90ZD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvdGFibGU+PC90ZD4NCiAgICAgICAgICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgICAgICAgICA8L3RhYmxlPjwvdGQ+DQogICAgICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICAgICAgICA8dGQgaGVpZ2h0PSI0NTgiIHZhbGlnbj0idG9w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YWJsZSBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgd2lkdGg9IjEwMCUiPg0KICAgICAgICA8dGJvZHk+DQogICAgICAgICAgPHRyPg0KICAgICAgICAgICAgPHRkIGhlaWdodD0iODAiIGNvbHNwYW49IjUiIGFsaWduPSJsZWZ0Ij48dGFibGUgY2xhc3M9InNlbGVjdGxpc3QiIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiANCiAgICAgICAgICAgIHdpZHRoPSI5OSUiIGFsaWduPSJjZW50ZXIiPg0KICAgICAgICAgICAgICA8dGJvZHk+DQogICAgICAgICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJ6aTE0IiBoZWlnaHQ9IjMwIiBhbGlnbj0ibGVmdCI+5Y+L5oOF6ZO+5o6lIDwvdGQ+DQogICAgICAgICAgICAgICAgICA8dGQgYWxpZ249ImNlbnRlciI+PHNlbGVjdCBuYW1lPSJzZWxlY3QiPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHNlbGVjdGVkPSJzZWxlY3RlZCIgDQogICAgICAgICAgICAgICAgICAgIHZhbHVlPSIwIj4tLeWbveWutumDqOWnlOe9kS0tPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjQiIHVybD0iaHR0cDovL3d3dy5nb3YuY24vIj7kuK3ljY7kurrmsJHlhbHlkozlm73kuK3lpK7kurrmsJHmlL/lupw8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiANCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9IjUiIHVybD0iaHR0cDovL3d3dy5mbXByYy5nb3YuY24vbWZhX2Nobi8iPiDlpJbkuqTpg6g8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiANCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9IjYiIHVybD0iaHR0cDovL3d3dy5zZHBjLmdvdi5jbi8iPiDlm73lrrblj5HlsZXkuI7mlLnpnanlp5TlkZjkvJo8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiANCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9IjciIHVybD0iaHR0cDovL3d3dy5tb2UuZWR1LmNuLyI+IOaVmeiCsumDqDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI4IiANCiAgICAgICAgICAgICAgICAgICAgdXJsPSJodHRwOi8vd3d3Lm1vc3QuZ292LmNuLyI+IOenkeWtpuaKgOacr+mDqDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI5IiB1cmw9Imh0dHA6Ly93d3cuc2VhYy5nb3YuY24vIj4g5Zu95a625rCR5peP5LqL5Yqh5aeU5ZGY5LyaPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjEwIiB1cmw9Imh0dHA6Ly93d3cubWNhLmdvdi5jbi8iPiDmsJHmlL/pg6g8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iMTEiIHVybD0iaHR0cDovL3d3dy5sZWdhbGluZm8uZ292LmNuLyI+IOWPuOazlemDqDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSIxMiIgdXJsPSJodHRwOi8vd3d3Lm1vZi5nb3YuY24vaW5kZXguaHRtIj4g6LSi5pS/6YOoPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjEzIiB1cmw9Imh0dHA6Ly93d3cubWxyLmdvdi5jbi8iPiDlm73lnJ/otYTmupDpg6g8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iMTQiIHVybD0iaHR0cDovL3d3dy5tb2MuZ292LmNuLyI+5Lqk6YCa6YOoPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gDQogICAgICAgICAgICAgICAgICAgIHZhbHVlPSIxNSIgdXJsPSJodHRwOi8vd3d3Lm13ci5nb3YuY24vIj4g5rC05Yip6YOoPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjE2IiANCiAgICAgICAgICAgICAgICAgICAgdXJsPSJodHRwOi8vd3d3LmFncmkuZ292LmNuLyI+IOWGnOS4mumDqDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSIxNyIgdXJsPSJodHRwOi8vd3d3Lm1vZmNvbS5nb3YuY24vIj4g5ZWG5Yqh6YOoPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICA8L3NlbGVjdD48L3RkPg0KICAgICAgICAgICAgICAgICAgPHRkIGFsaWduPSJjZW50ZXIiPjxzZWxlY3QgbmFtZT0ic2VsZWN0Ij4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiBzZWxlY3RlZD0ic2VsZWN0ZWQiIA0KICAgICAgICAgICAgICAgICAgICB2YWx1ZT0iMCI+LS3nnIHnuqfpg6jpl6jnvZEtLTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI0NiIgdXJsPSJodHRwOi8vd3d3LnNjLmdvdi5jbi8iPuWbm+W3neecgeS6uuawkeaUv+W6nOWKnuWFrOWOhTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIA0KICAgICAgICAgICAgICAgICAgICB2YWx1ZT0iNDciIHVybD0iaHR0cDovL3d3dy5zY2RyYy5nb3YuY24vIj4g5Zub5bed55yB5Y+R5bGV5ZKM5pS56Z2p5aeUPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gDQogICAgICAgICAgICAgICAgICAgIHZhbHVlPSI0OCIgdXJsPSJodHRwOi8vd3d3LnNjam0uZ292LmNuLyI+IOWbm+W3neecgee7j+a1juWSjOS/oeaBr+WMluWnlDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIA0KICAgICAgICAgICAgICAgICAgICB2YWx1ZT0iNDkiIHVybD0iaHR0cDovL3d3dy5zY2VkdS5uZXQvIj4g5Zub5bed55yB5pWZ6IKy5Y6FPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjUwIiANCiAgICAgICAgICAgICAgICAgICAgdXJsPSJodHRwOi8vd3d3LnNjc3QuZ292LmNuLyI+IOWbm+W3neecgeenkeaKgOWOhTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI1MSIgdXJsPSJodHRwOi8vd3d3LnNjZ2EuZ292LmNuLyI+IOWbm+W3neecgeWFrOWuieWOhTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI1MiIgdXJsPSJodHRwOi8vd3d3LnNjamMuZ292LmNuLyI+IOWbm+W3neecgeebkeWvn+WOhTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI1MyIgdXJsPSJodHRwOi8vd3d3LnNjbXouZ292LmNuLyI+IOWbm+W3neecgeawkeaUv+WOhTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI1NCIgdXJsPSJodHRwOi8vd3d3LnNjc2YuZ292LmNuLyI+IOWbm+W3neecgeWPuOazleWOhTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI1NSIgdXJsPSJodHRwOi8vd3d3LnNjLmhyc3MuZ292LmNuLyI+IOWbm+W3neecgeS6uuS6i+WOhTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI1NiIgdXJsPSJodHRwOi8vd3d3LnNjZGxyLmdvdi5jbi8iPiDlm5vlt53nnIHlm73lnJ/lnLDotYTmupDljoU8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iNTciIHVybD0iaHR0cDovL3d3dy5zY2pzdC5nb3YuY24vIj4g5Zub5bed55yB5L2P5oi/5ZKM5Z+O5Lmh5bu66K6+5Y6FPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjU4IiB1cmw9Imh0dHA6Ly93d3cuc2NqdC5nb3YuY24vIj4g5Zub5bed55yB5Lqk6YCa6L+Q6L6T5Y6FPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjU5IiB1cmw9Imh0dHA6Ly93d3cuc2N3YXRlci5nb3YuY24vIj4g5Zub5bed55yB5rC05Yip5Y6FPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjYwIiB1cmw9Imh0dHA6Ly93d3cuc2NhZ3JpLmdvdi5jbi8iPiDlm5vlt53nnIHlhpzkuJrljoU8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iNjIiIHVybD0iaHR0cDovL3d3dy5zY2NvbS5nb3YuY24vIj4g5Zub5bed55yB5ZWG5Yqh5Y6FPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjYzIiB1cmw9Imh0dHA6Ly93d3cuc2N3c3QuZ292LmNuLyI+IOWbm+W3neecgeWNq+eUn+WSjOiuoeWIkueUn+iCsuWnlOWRmOS8mjwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI2NCIgdXJsPSJodHRwOi8vd3d3LnNjYXVkaXQuZ292LmNuLyI+IOWbm+W3neecgeWuoeiuoeWOhTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI2NSIgdXJsPSJodHRwOi8vd3d3LnNjZ3ouZ292LmNuLyI+IOWbm+W3neecgeWbveaciei1hOS6p+ebkeedo+euoeeQhuWnlOWRmOS8mjwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI2NiIgdXJsPSJodHRwOi8vd3d3LnNjaGouZ292LmNuLyI+IOWbm+W3neecgeeOr+Wig+S/neaKpOWOhTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI2NyIgdXJsPSJodHRwOi8vd3d3LnNjLnN0YXRzLmdvdi5jbi8iPiDlm5vlt53nnIHnu5/orqHlsYA8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iNjgiIHVybD0iaHR0cDovL3d3dy5zY2FpYy5nb3YuY24vIj4g5Zub5bed55yB5bel5ZWG5bGAPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjY5IiB1cmw9Imh0dHA6Ly93d3cuc2NwcGEuZ292LmNuLyI+IOWbm+W3neecgeaWsOmXu+WHuueJiOWxgDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI3MCIgdXJsPSJodHRwOi8vd3d3LnNjemouZ292LmNuLyI+IOWbm+W3neecgei0qOmHj+aKgOacr+ebkeedo+WxgDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI3MSIgdXJsPSJodHRwOi8vd3d3LnNjdGEuZ292LmNuLyI+IOWbm+W3neecgeaXhea4uOWxgDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI3MiIgdXJsPSJodHRwOi8vd3d3LnNjaG91cWluLmdvdi5jbi8iPiDlm5vlt53nnIHmnLrlhbPkuovliqHnrqHnkIblsYA8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iNzQiIHVybD0iaHR0cDovL3d3dy5zY2N3Lmdvdi5jbi8iPiDlm5vlt53nnIHmlL/lupzlj4LkuovlrqQ8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iNzUiIHVybD0iaHR0cDovL3d3dy5zY3R2LmNvbS8iPiDlm5vlt53lub/mkq3nlLXop4blj7A8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iNzYiIHVybD0iaHR0cDovL3d3dy5zY2NyZWRpdC5nb3YuY24vIj4g5Zub5bed5L+h55So572RPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9Ijc3IiB1cmw9Imh0dHA6Ly93d3cuc2NpbnZlc3QuY24vIj4g5Zub5bed55yB5oub5ZWG5byV6LWE5bGAPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9Ijc5IiB1cmw9Imh0dHA6Ly93d3cuc2NzZGFqLmdvdi5jbi8iPiDlm5vlt53nnIHmoaPmoYjlsYA8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iODAiIHVybD0iaHR0cDovL3d3dy5zY3RjbS5nb3YuY24vIj4g5Zub5bed55yB5Lit5Yy76I2v566h55CG5bGAPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjgxIiB1cmw9Imh0dHA6Ly93d3cuc2NzYWZldHkuZ292LmNuLyI+IOWbm+W3neecgeWuieebkeWxgDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI4MiIgdXJsPSJodHRwOi8vd3d3LnNjcGkuZ292LmNuLyI+IOWbm+W3neecgeeJqeS7t+WxgDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI4MyIgdXJsPSJodHRwOi8vd3d3LnNjZ3JhaW4uY29tLyI+IOWbm+W3neecgeeyrumjn+WxgDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgPC9zZWxlY3Q+PC90ZD4NCiAgICAgICAgICAgICAgICAgIDx0ZCBhbGlnbj0iY2VudGVyIj48c2VsZWN0IG5hbWU9InNlbGVjdCI+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gc2VsZWN0ZWQ9InNlbGVjdGVkIiANCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9IjAiPi0t5biC57qn5pS/5bqc572RLS08L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iMjUiIHVybD0iaHR0cDovL3d3dy5jaGVuZ2R1Lmdvdi5jbi8iPuaIkOmDveW4guS6uuawkeaUv+W6nOmXqOaIt+e9keermTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIA0KICAgICAgICAgICAgICAgICAgICB2YWx1ZT0iMjYiIHVybD0iaHR0cDovL3d3dy56Zy5nb3YuY24vIj4g6Ieq6LSh5biC5Lq65rCR5pS/5bqc6Zeo5oi3572R56uZPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gDQogICAgICAgICAgICAgICAgICAgIHZhbHVlPSIyNyIgdXJsPSJodHRwOi8vd3d3Lmx1emhvdS5nb3YuY24vIj4g5rO45bee5biC5Lq65rCR5pS/5bqc6Zeo5oi3572R56uZPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjI4IiB1cmw9Imh0dHA6Ly93d3cuZGV5YW5nLmdvdi5jbi8iPiDlvrfpmLPluILlhazkvJfkv6Hmga/nvZE8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iMjkiIHVybD0iaHR0cDovL3d3dy5taWFueWFuZy5nb3YuY24vIj4g57u16Ziz5biC5Lq65rCR5pS/5bqc6Zeo5oi3572R56uZPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjMwIiB1cmw9Imh0dHA6Ly93d3cuc3VpbmluZy5nb3YuY24vIj4g6YGC5a6B5biC5Lq65rCR5pS/5bqc6Zeo5oi3572R56uZPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjMxIiB1cmw9Imh0dHA6Ly93d3cubmVpamlhbmcuZ292LmNuLyI+IOWGheaxn+W4guS6uuawkeaUv+W6nOmXqOaIt+e9keermTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSIzMiIgdXJsPSJodHRwOi8vd3d3Lm5hbmNob25nLmdvdi5jbi8iPiDljZflhYXluILkurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iMzMiIHVybD0iaHR0cDovL3d3dy5sZXNoYW4uZ292LmNuLyI+IOS5kOWxseW4guS6uuawkeaUv+W6nOmXqOaIt+e9keermTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSIzNCIgdXJsPSJodHRwOi8vd3d3LnliLmdvdi5jbi8iPiDlrpzlrr7luILkurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iMzUiIHVybD0iaHR0cDovL3d3dy5ndWFuZy1hbi5nb3YuY24vIj4g5bm/5a6J5biC5Lq65rCR5pS/5bqc6Zeo5oi3572R56uZPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjM2IiB1cmw9Imh0dHA6Ly93d3cuZGF6aG91Lmdvdi5jbi8iPiDovr7lt57luILkurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iMzciIHVybD0iaHR0cDovL3d3dy5jbmJ6Lmdvdi5jbi8iPiDlt7TkuK3luILkurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iMzgiIHVybD0iaHR0cDovL3d3dy55YWFuLmdvdi5jbi8iPiDpm4XlronluILkurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iMzkiIHVybD0iaHR0cDovL3d3dy5tcy5nb3YuY24vIj4g55yJ5bGx5biC5Lq65rCR5pS/5bqc6Zeo5oi3572R56uZPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjQwIiB1cmw9Imh0dHA6Ly93d3cueml5YW5nLmdvdi5jbi8iPiDotYTpmLPluILkurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iNDEiIHVybD0iaHR0cDovL3d3dy5hYmF6aG91Lmdvdi5jbi8iPiDpmL/lnZ3lt57kurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iNDIiIHVybD0iaHR0cDovL3d3dy5nenouZ292LmNuLyI+IOeUmOWtnOW3nuS6uuawkeaUv+W6nOmXqOaIt+e9keermTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI0MyIgdXJsPSJodHRwOi8vd3d3Lmxzei5nb3YuY24vIj4g5YeJ5bGx5b2d5peP6Ieq5rK75bee5Lq65rCR5pS/5bqc572R56uZPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjQ1IiB1cmw9Imh0dHA6Ly93d3cucGFuemhpaHVhLmdvdi5jbi8iPiDmlIDmnp3oirHluILkurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgIDwvc2VsZWN0PjwvdGQ+DQogICAgICAgICAgICAgICAgICA8dGQgYWxpZ249ImNlbnRlciI+PHNlbGVjdCBuYW1lPSJzZWxlY3QiPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHNlbGVjdGVkPSJzZWxlY3RlZCIgDQogICAgICAgICAgICAgICAgICAgIHZhbHVlPSIwIj4tLeWMuuWOv+aUv+W6nOe9kS0tPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IjE5IiB1cmw9Imh0dHA6Ly93d3cuY25jeC5nb3YuY24vIj7oi43muqrljr/kurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiANCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9IjIwIiB1cmw9Imh0dHA6Ly93d3cuZ3ljdC5nb3YuY24vIj4g5pyd5aSp5Yy65Lq65rCR5pS/5bqc6Zeo5oi3572R56uZPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gDQogICAgICAgICAgICAgICAgICAgIHZhbHVlPSIyMSIgdXJsPSJodHRwOi8vd3d3LmNucWMuZ292LmNuLyI+IOmdkuW3neWOv+S6uuawkeaUv+W6nOmXqOaIt+e9keermTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIA0KICAgICAgICAgICAgICAgICAgICB2YWx1ZT0iMjIiIHVybD0iaHR0cDovL3d3dy5zY2d3Lmdvdi5jbi8iPiDml7roi43ljr/kurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiANCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9IjIzIiB1cmw9Imh0dHA6Ly93d3cubHpxLmdvdi5jbi8iPiDliKnlt57ljLrkurrmsJHmlL/lupzpl6jmiLfnvZHnq5k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiANCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9IjI0IiB1cmw9Imh0dHA6Ly93d3cuY256aC5nb3YuY24vIj4g5pit5YyW5Yy65Lq65rCR5pS/5bqc6Zeo5oi3572R56uZPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICA8L3NlbGVjdD48L3RkPg0KICAgICAgICAgICAgICAgIDwvdHI+DQogICAgICAgICAgICAgIDwvdGJvZHk+DQogICAgICAgICAgICA8L3RhYmxlPjwvdGQ+DQogICAgICAgICAgPC90cj4NCiAgICAgICAgICA8dHI+DQogICAgICAgICAgICA8dGQgcm93c3Bhbj0iNCIgd2lkdGg9IjEyJSIgYWxpZ249InJpZ2h0Ij48aW1nIHNyYz0iaHR0cDovL3d3dy5jbmpnLmdvdi5jbi9pbWFnZXMvZDEuanBnIiANCiAgICAgICAgICAgIHdpZHRoPSIxMDAiIGhlaWdodD0iODMiIC8+PC90ZD4NCiAgICAgICAgICAgIDx0ZCByb3dzcGFuPSI0IiB3aWR0aD0iMTAlIiBhbGlnbj0iY2VudGVyIj48aW1nIHNyYz0iaHR0cDovL3d3dy5jbmpnLmdvdi5jbi9pbWFnZXMvZDIuanBnIiANCiAgICAgICAgICAgIHdpZHRoPSI5NyIgaGVpZ2h0PSI4MyIgLz48L3RkPg0KICAgICAgICAgICAgPHRkIHJvd3NwYW49IjQiIHdpZHRoPSIxMCUiIGFsaWduPSJsZWZ0Ij48aW1nIHNyYz0iaHR0cDovL3d3dy5jbmpnLmdvdi5jbi9pbWFnZXMvZDMuanBnIiANCiAgICAgICAgICAgIHdpZHRoPSI4NiIgaGVpZ2h0PSI4MyIgLz48L3RkPg0KICAgICAgICAgICAgPHRkIGhlaWdodD0iMjgiIHdpZHRoPSI1NCUiIA0KICAgICAgICAgICAgYWxpZ249ImxlZnQiPueJiOadg+aJgOaciTrlm5vlt53nnIHliZHpmIHljr/kurrmsJHmlL/lupzlip7lhazlrqQmbmJzcDsmbmJzcDsmbmJzcDvlu7rorr7kuI7nu7TmiqTvvJrlub/lhYPluILnlLXlrZDmlL/liqHlpJbnvZHov5DokKXkuK3lv4MgPC90ZD4NCiAgICAgICAgICAgIDx0ZCByb3dzcGFuPSI0IiB3aWR0aD0iMTQlIiBhbGlnbj0iY2VudGVyIj48aW1nIHNyYz0iaHR0cDovL3d3dy5jbmpnLmdvdi5jbi9pbWFnZXMvZDQuanBnIiANCiAgICAgICAgICAgIHdpZHRoPSIxMDkiIGhlaWdodD0iMTA5IiAvPjwvdGQ+DQogICAgICAgICAgPC90cj4NCiAgICAgICAgICA8dHI+DQogICAgICAgICAgICA8dGQgaGVpZ2h0PSIyOCIgYWxpZ249ImxlZnQiPjxhIGhyZWY9Imh0dHA6Ly93d3cubWlpdGJlaWFuLmdvdi5jbi8iIA0KICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiPuicgElDUOWkhzA2MDAzNzUx5Y+3PC9hPiA8YSBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyIgDQogICAgICAgICAgICBocmVmPSJodHRwOi8vd3d3LmJlaWFuLmdvdi5jbi9wb3J0YWwvcmVnaXN0ZXJTeXN0ZW1JbmZvP3JlY29yZGNvZGU9NTEwODIzMDIwMDAxMzQiIA0KICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgc3R5bGU9Im1hcmdpbi1yaWdodDogNXB4OyB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyBmbG9hdDogbGVmdDsiIA0KICAgICAgICAgICAgc3JjPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2ltYWdlcy9nb25nYW4ucG5nIiAvPuW3neWFrOe9keWuieWkhyANCiAgICAgICAgICAgICAgNTEwODIzMDIwMDAxMzTlj7c8L2E+Jm5ic3A7Jm5ic3A7PGEgaHJlZj0iaHR0cDovL3d3dy5jbmpnLmdvdi5jbi9hcnRpY2xlbGlzdC5hc3B4P2lkPTE5MSIgDQogICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayI+5pys56uZ5aOw5piOPC9hPiZuYnNwOyZuYnNwOzxhIGhyZWY9Imh0dHA6Ly93d3cuY25qZy5nb3YuY24vYXJ0aWNsZWxpc3QuYXNweD9pZD0xOTIiIA0KICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiPuiBlOezu+aIkeS7rDwvYT4mbmJzcDsmbmJzcDsgPC90ZD4NCiAgICAgICAgICA8L3RyPg0KICAgICAgICAgIDx0cj4NCiAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjI4IiBhbGlnbj0ibGVmdCI+Q29weXJpZ2h0IDIwMTAgd3d3LmppYW5nZS5nb3YuY24gQWxsIA0KICAgICAgICAgICAgICBSaWdodHMgUmVzZXJ2ZWQmbmJzcDsmbmJzcDs8YSB0aXRsZT0i5YmR6ZiB5Y6/5Lq65rCR5pS/5bqc572R56uZIiBocmVmPSJodHRwOi8vd3d3LmNuamcuZ292LmNuLyIgDQogICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayI+5YmR6ZiB5Y6/5Lq65rCR5pS/5bqc572R56uZPC9hPjwvdGQ+DQogICAgICAgICAgPC90cj4NCiAgICAgICAgICA8dHI+DQogICAgICAgICAgICA8dGQgaGVpZ2h0PSIyOCIgYWxpZ249ImxlZnQiPjxpZnJhbWUgc3JjPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2NuenouYXNoeCIgc2Nyb2xsaW5nPSJubyIgd2lkdGg9IjQwMHB4IiBoZWlnaHQ9IjQwcHgiIGZyYW1lYm9yZGVyPSIwIj48L2lmcmFtZT48L3RkPg0KICAgICAgICAgIDwvdHI+DQogICAgICAgICAgPHRyPg0KICAgICAgICAgICAgPHRkIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyIgY2xhc3M9InRkaW1nIiBjb2xzcGFuPSI1IiBhbGlnbj0iY2VudGVyIj48c2NyaXB0IHNyYz0iaHR0cDovL3d3dy5jbmpnLmdvdi5jbi9pbWFnZXMvQ0EyMzMzOTIwNTA0MDI0MzU0NDAwMDEuanMiPjwvc2NyaXB0Pg0KICAgICAgICAgICAgICA8c2NyaXB0IGlkPSJfaml1Y3VvXyIgc3JjPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2ltYWdlcy9qaXVjdW8uanMiIHNpdGVjb2RlPSI1MTA4MjMwMDUyIj48L3NjcmlwdD48L3RkPg0KICAgICAgICAgIDwvdHI+DQogICAgICAgIDwvdGJvZHk+DQogICAgICA8L3RhYmxlPjwvdGQ+DQogICAgICA8dGQgd2lkdGg9IjIlIiBhbGlnbj0icmlnaHQiPjxpbWcgc3JjPSJodHRwOi8vd3d3LmNuamcuZ292LmNuL2ltYWdlcy9kYl9yLmpwZyIgd2lkdGg9IjIyIiAvPjwvdGQ+DQogICAgPC90cj4NCiAgPC90Ym9keT4NCjwvdGFibGU+DQpkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUQY3RsMDAkbXlUcmVlVmlld8VKraZaUwfh3s/73JxZU30PZu1G" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=vq4RgkqiW4zUoxwejC_muw2&amp;t=633802945995006876" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=wDAXjd-POYgt1BRHjnUZSg2&amp;t=633802945995006876" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+    function TreeView_PopulateNodeDoCallBack(context,param) {
+        WebForm_DoCallback(context.data.treeViewID,param,TreeView_ProcessNodeData,context,TreeView_ProcessNodeData,false);
+    }
+var ctl00_myTreeView_Data = null;//]]>
+</script>
+
+    <div>
+        <span id="ctl00_lblBody1">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="32" align="center" valign="top" ><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" background="http://www.cnjg.gov.cn/images/bg.jpg">
+      <tbody>
+        <tr>
+          <td width="10%" align="left"><img src="http://www.cnjg.gov.cn/images/gh.jpg" width="95" 
+      height="67" /></td>
+          <td width="30%" align="left"><img src="http://www.cnjg.gov.cn/images/jg.jpg" width="302" 
+      height="67" /></td>
+          <td align="right"><table border="0" cellspacing="0" cellpadding="0" width="430">
+            <tbody>
+              <tr>
+                <td class="zi01" height="35" width="118" align="center"><a href="http://www.gov.cn/" 
+            target="_blank">中央人民政府</a></td>
+                <td class="zi01" width="117" align="center"><a href="http://www.sc.gov.cn/" 
+            target="_blank">四川省人民政府</a></td>
+                <td class="zi01" width="115" align="center"><a href="http://www.cngy.gov.cn/" 
+            target="_blank">广元市人民政府</a></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center">&nbsp;</td>
+                <td align="right"><a href="http://www.cnjg.gov.cn/sitemap.aspx" 
+            target="_blank"><img src="http://www.cnjg.gov.cn/images/wzdh.jpg" width="97" 
+            height="25" /></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25"  class="zi02"><marquee width="1000" height="25" scrollamount="3" onmouseover="stop()" onmouseout="start()">
+    </marquee></td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr >
+    <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+                        width="1000" height="179">
+      <param name="movie" value="http://www.cnjg.gov.cn/images/top2.swf" />
+      <param name="quality" value="high" />
+      <embed src="http://www.cnjg.gov.cn/images/top2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                            type="application/x-shockwave-flash" width="1000" height="179"> </embed>
+    </object></td>
+  </tr>
+</table>
+<table width="998"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="998"  height="54" align="left" valign="top" background="jgimages/menu_bg.jpg"><table border="0" cellspacing="0" cellpadding="0" width="100%" >
+      <tbody>
+        <tr>
+          <td height="54" width="56">&nbsp;</td>
+          <td class="zi03" width="97" align="center"><a href="http://www.cnjg.gov.cn/">剑阁首页</a><br /></td>
+          <td class="zi03" width="97" align="center"><a href="http://www.cnjg.gov.cn/articlelist.aspx?id=1">剑阁概况</a></td>
+          <script>
+function fun1(){
+alert("县政府信息更新中");
+return false;
+}
+          </script>
+          <td class="zi03" width="97" align="center"><a href="http://www.cnjg.gov.cn/article_zfjg.aspx"> 政府机构</a></td>
+          <td class="zi03" width="100" align="center"><!-- <a href="javascript:fun1();">政府领导</a>-->
+            <a 
+      href="http://www.cnjg.gov.cn/article_zfld.aspx">政府领导</a></td>
+          <td class="zi03" width="100" align="center"><a href="http://www.cnjg.gov.cn/article_zwgk.aspx">政务公开</a></td>
+          <td class="zi03" width="96" align="center"><a href="http://www.cnjg.gov.cn/article_bsfw.aspx">办事服务</a></td>
+          <td class="zi03" width="99" align="center"><a href="http://www.cnjg.gov.cn/article_hdjl.aspx">互动交流</a></td>
+          <td class="zi03" width="99" align="center"><a href="http://www.cnjg.gov.cn/article_tzjg.aspx">投资剑阁</a></td>
+          <td class="zi03" width="95" align="center"><a href="http://www.cnjg.gov.cn/article_jgly.aspx">剑阁旅游</a></td>
+          <td width="64">&nbsp;</td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+</table>
+<table width="1008" border="0" align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td width="1008" height="144" align="center" valign="top" ><table width="1008" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="1044" height="646" valign="top" ><table width="100%" border="0" cellspacing="4" cellpadding="0">
+              <tr>
+                <td width="18%" height="571" valign="top"><table width="229" height="577" border="0" cellpadding="0" cellspacing="0" class="tb1">
+                  <tr>
+                    <td height="101" align="left" valign="top" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="118"  valign="top" class="tb2"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="30" background="jgimages/bg4.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td width="100" height="30" align="center" valign="middle" background="jgimages/bg_tag1.gif" class="STYLE7">网站位置</td>
+                                <td width="184">&nbsp;</td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                          <tr>
+                            <td height="200" align="left" valign="top" ></span>
+        <a href="#ctl00_myTreeView_SkipLink"><img alt="跳过导航链接。" src="/WebResource.axd?d=50PEACsJdK73M3b75zKs_A2&amp;t=633802945995006876" width="0" height="0" style="border-width:0px;" /></a><div id="ctl00_myTreeView">
+	<table cellpadding="0" cellspacing="0" style="border-width:0;">
+		<tr>
+			<td><img src="/WebResource.axd?d=S_-HCRg86kAyYRQVfiRy_0mjetAaDRXu5odmlkdzS0I1&amp;t=633802945995006876" alt="" /></td><td><a href="/ceinwz/xwmore.aspx?id=21&amp;FromUrl=tzgg" id="ctl00_myTreeViewt0i" tabindex="-1"><img src="images/mweb.gif" alt="" style="border-width:0;" /></a></td><td class="ctl00_myTreeView_1" style="white-space:nowrap;"><a class="ctl00_myTreeView_0" href="/ceinwz/xwmore.aspx?id=21&amp;FromUrl=tzgg" id="ctl00_myTreeViewt0">通知公告</a></td>
+		</tr><tr style="height:3px;">
+			<td></td>
+		</tr>
+	</table>
+</div><a id="ctl00_myTreeView_SkipLink"></a>
+        
+        <span id="ctl00_lblBody2"></td>
+                          </tr>
+                        </table></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="458" valign="top">&nbsp;</td>
+                  </tr>
+                </table></td>
+                <td align="left" valign="top" class="tb1" ><table width="100%" border="0" cellspacing="0" cellpadding="0" >
+                  <tr>
+                    <td height="27" align="left"background="jgimages/bg4.gif">&nbsp;
+                      </span>
+        <span id="ctl00_SiteMapPath1"><a href="#ctl00_SiteMapPath1_SkipLink"><img alt="跳过导航链接" height="0" width="0" src="/WebResource.axd?d=50PEACsJdK73M3b75zKs_A2&amp;t=633802945995006876" style="border-width:0px;" /></a><a id="ctl00_SiteMapPath1_SkipLink"></a></span>
+        <span id="ctl00_lblBody3"></td>
+                  </tr>
+                  <tr>
+                    <td height="549" align="left" valign="top" ><table width="100%" border="0" cellspacing="8" cellpadding="0">
+                      <tr>
+                        <td></span>
+        
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+        <tbody>
+            <tr>
+                <td height="38" align="center" class="NewsTitleClass">
+                    <span id="ctl00_ContentPlaceHolder1_TitleLabel">剑阁县公共资源交易服务中心工程结算审计类第12轮第15号中介服务机构抽取公告</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="NewsHRClass">
+                    <span></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="NewsDateClass">
+                    <span>日期：
+                        <span id="ctl00_ContentPlaceHolder1_TimeLabel">2018-05-08</span>
+                        &nbsp;来源：
+                        <span id="ctl00_ContentPlaceHolder1_SourceLabel"></span>
+                        &nbsp;&nbsp;
+                        <span id="ctl00_ContentPlaceHolder1_HitsLabel">阅读次数：9</span>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" align="left">
+                    <div class="newsImage">
+                        <span id="ctl00_ContentPlaceHolder1_lblNewsFiles"></span>
+                        <span id="ctl00_ContentPlaceHolder1_BodyLabel"></span>
+                        <div id="ctl00_ContentPlaceHolder1_pnlBstWord">
+	
+                            <iframe id="frmBestWord" width="100%" height="450px" scrolling="auto" src='/WordHtml/BestHtml.aspx?id=Newsdc1a8bc577d641b3abd51c942b1b821f.doc'>
+                            </iframe>
+                        
+</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br />
+                    <br />
+                    <br />
+                    <a id="ctl00_ContentPlaceHolder1_PreviousLink" href="admin_show.aspx?id=1085&amp;FromUrl=tzgg"> 上一篇： 剑阁县公共资源交易服务中心工程结算审计类第12轮第14号中介服务机构抽取公告 </a>
+                    <br />
+                    <a id="ctl00_ContentPlaceHolder1_NextLink" href="admin_show.aspx?id=1087&amp;FromUrl=tzgg">下一篇：剑阁县农业局关于剑阁县2018年新增千亿斤粮食田间工程建设暨农发高标准农田建设项目环境影响评价中介服务机构抽取的公告(环境影响评价类)</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="../jquery-1.7.2.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var height = $("#frmBestWord").contents().height() + 10;
+            $("#frmBestWord").height(height < 500 ? 500 : height);
+            if (height < 500)
+                $("#frmBestWord").attr("scrolling", "auto");
+        });
+    
+    </script>
+
+
+        <span id="ctl00_lblBody4"></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+    </table></td>
+</tr>
+  <tr> </tr>
+</table>
+<table 
+width="1011" border="0" align="center" cellpadding="0" cellspacing="0" background="http://www.cnjg.gov.cn/images/db_c.jpg" style="margin-top: 5px;">
+  <tbody>
+    <tr>
+      <td width="2%" height="287" align="left" valign="top"><img src="http://www.cnjg.gov.cn/images/db_l.jpg" 
+      width="20" /></td>
+      <td valign="top" width="96%"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="80" colspan="5" align="left"><table class="selectlist" border="0" cellspacing="0" cellpadding="0" 
+            width="99%" align="center">
+              <tbody>
+                <tr>
+                  <td class="zi14" height="30" align="left">友情链接 </td>
+                  <td align="center"><select name="select">
+                    <option selected="selected" 
+                    value="0">--国家部委网--</option>
+                    <option value="4" url="http://www.gov.cn/">中华人民共和国中央人民政府</option>
+                    <option 
+                    value="5" url="http://www.fmprc.gov.cn/mfa_chn/"> 外交部</option>
+                    <option 
+                    value="6" url="http://www.sdpc.gov.cn/"> 国家发展与改革委员会</option>
+                    <option 
+                    value="7" url="http://www.moe.edu.cn/"> 教育部</option>
+                    <option value="8" 
+                    url="http://www.most.gov.cn/"> 科学技术部</option>
+                    <option value="9" url="http://www.seac.gov.cn/"> 国家民族事务委员会</option>
+                    <option value="10" url="http://www.mca.gov.cn/"> 民政部</option>
+                    <option value="11" url="http://www.legalinfo.gov.cn/"> 司法部</option>
+                    <option value="12" url="http://www.mof.gov.cn/index.htm"> 财政部</option>
+                    <option value="13" url="http://www.mlr.gov.cn/"> 国土资源部</option>
+                    <option value="14" url="http://www.moc.gov.cn/">交通部</option>
+                    <option 
+                    value="15" url="http://www.mwr.gov.cn/"> 水利部</option>
+                    <option value="16" 
+                    url="http://www.agri.gov.cn/"> 农业部</option>
+                    <option value="17" url="http://www.mofcom.gov.cn/"> 商务部</option>
+                  </select></td>
+                  <td align="center"><select name="select">
+                    <option selected="selected" 
+                    value="0">--省级部门网--</option>
+                    <option value="46" url="http://www.sc.gov.cn/">四川省人民政府办公厅</option>
+                    <option 
+                    value="47" url="http://www.scdrc.gov.cn/"> 四川省发展和改革委</option>
+                    <option 
+                    value="48" url="http://www.scjm.gov.cn/"> 四川省经济和信息化委</option>
+                    <option 
+                    value="49" url="http://www.scedu.net/"> 四川省教育厅</option>
+                    <option value="50" 
+                    url="http://www.scst.gov.cn/"> 四川省科技厅</option>
+                    <option value="51" url="http://www.scga.gov.cn/"> 四川省公安厅</option>
+                    <option value="52" url="http://www.scjc.gov.cn/"> 四川省监察厅</option>
+                    <option value="53" url="http://www.scmz.gov.cn/"> 四川省民政厅</option>
+                    <option value="54" url="http://www.scsf.gov.cn/"> 四川省司法厅</option>
+                    <option value="55" url="http://www.sc.hrss.gov.cn/"> 四川省人事厅</option>
+                    <option value="56" url="http://www.scdlr.gov.cn/"> 四川省国土地资源厅</option>
+                    <option value="57" url="http://www.scjst.gov.cn/"> 四川省住房和城乡建设厅</option>
+                    <option value="58" url="http://www.scjt.gov.cn/"> 四川省交通运输厅</option>
+                    <option value="59" url="http://www.scwater.gov.cn/"> 四川省水利厅</option>
+                    <option value="60" url="http://www.scagri.gov.cn/"> 四川省农业厅</option>
+                    <option value="62" url="http://www.sccom.gov.cn/"> 四川省商务厅</option>
+                    <option value="63" url="http://www.scwst.gov.cn/"> 四川省卫生和计划生育委员会</option>
+                    <option value="64" url="http://www.scaudit.gov.cn/"> 四川省审计厅</option>
+                    <option value="65" url="http://www.scgz.gov.cn/"> 四川省国有资产监督管理委员会</option>
+                    <option value="66" url="http://www.schj.gov.cn/"> 四川省环境保护厅</option>
+                    <option value="67" url="http://www.sc.stats.gov.cn/"> 四川省统计局</option>
+                    <option value="68" url="http://www.scaic.gov.cn/"> 四川省工商局</option>
+                    <option value="69" url="http://www.scppa.gov.cn/"> 四川省新闻出版局</option>
+                    <option value="70" url="http://www.sczj.gov.cn/"> 四川省质量技术监督局</option>
+                    <option value="71" url="http://www.scta.gov.cn/"> 四川省旅游局</option>
+                    <option value="72" url="http://www.schouqin.gov.cn/"> 四川省机关事务管理局</option>
+                    <option value="74" url="http://www.sccw.gov.cn/"> 四川省政府参事室</option>
+                    <option value="75" url="http://www.sctv.com/"> 四川广播电视台</option>
+                    <option value="76" url="http://www.sccredit.gov.cn/"> 四川信用网</option>
+                    <option value="77" url="http://www.scinvest.cn/"> 四川省招商引资局</option>
+                    <option value="79" url="http://www.scsdaj.gov.cn/"> 四川省档案局</option>
+                    <option value="80" url="http://www.sctcm.gov.cn/"> 四川省中医药管理局</option>
+                    <option value="81" url="http://www.scsafety.gov.cn/"> 四川省安监局</option>
+                    <option value="82" url="http://www.scpi.gov.cn/"> 四川省物价局</option>
+                    <option value="83" url="http://www.scgrain.com/"> 四川省粮食局</option>
+                  </select></td>
+                  <td align="center"><select name="select">
+                    <option selected="selected" 
+                    value="0">--市级政府网--</option>
+                    <option value="25" url="http://www.chengdu.gov.cn/">成都市人民政府门户网站</option>
+                    <option 
+                    value="26" url="http://www.zg.gov.cn/"> 自贡市人民政府门户网站</option>
+                    <option 
+                    value="27" url="http://www.luzhou.gov.cn/"> 泸州市人民政府门户网站</option>
+                    <option value="28" url="http://www.deyang.gov.cn/"> 德阳市公众信息网</option>
+                    <option value="29" url="http://www.mianyang.gov.cn/"> 绵阳市人民政府门户网站</option>
+                    <option value="30" url="http://www.suining.gov.cn/"> 遂宁市人民政府门户网站</option>
+                    <option value="31" url="http://www.neijiang.gov.cn/"> 内江市人民政府门户网站</option>
+                    <option value="32" url="http://www.nanchong.gov.cn/"> 南充市人民政府门户网站</option>
+                    <option value="33" url="http://www.leshan.gov.cn/"> 乐山市人民政府门户网站</option>
+                    <option value="34" url="http://www.yb.gov.cn/"> 宜宾市人民政府门户网站</option>
+                    <option value="35" url="http://www.guang-an.gov.cn/"> 广安市人民政府门户网站</option>
+                    <option value="36" url="http://www.dazhou.gov.cn/"> 达州市人民政府门户网站</option>
+                    <option value="37" url="http://www.cnbz.gov.cn/"> 巴中市人民政府门户网站</option>
+                    <option value="38" url="http://www.yaan.gov.cn/"> 雅安市人民政府门户网站</option>
+                    <option value="39" url="http://www.ms.gov.cn/"> 眉山市人民政府门户网站</option>
+                    <option value="40" url="http://www.ziyang.gov.cn/"> 资阳市人民政府门户网站</option>
+                    <option value="41" url="http://www.abazhou.gov.cn/"> 阿坝州人民政府门户网站</option>
+                    <option value="42" url="http://www.gzz.gov.cn/"> 甘孜州人民政府门户网站</option>
+                    <option value="43" url="http://www.lsz.gov.cn/"> 凉山彝族自治州人民政府网站</option>
+                    <option value="45" url="http://www.panzhihua.gov.cn/"> 攀枝花市人民政府门户网站</option>
+                  </select></td>
+                  <td align="center"><select name="select">
+                    <option selected="selected" 
+                    value="0">--区县政府网--</option>
+                    <option value="19" url="http://www.cncx.gov.cn/">苍溪县人民政府门户网站</option>
+                    <option 
+                    value="20" url="http://www.gyct.gov.cn/"> 朝天区人民政府门户网站</option>
+                    <option 
+                    value="21" url="http://www.cnqc.gov.cn/"> 青川县人民政府门户网站</option>
+                    <option 
+                    value="22" url="http://www.scgw.gov.cn/"> 旺苍县人民政府门户网站</option>
+                    <option 
+                    value="23" url="http://www.lzq.gov.cn/"> 利州区人民政府门户网站</option>
+                    <option 
+                    value="24" url="http://www.cnzh.gov.cn/"> 昭化区人民政府门户网站</option>
+                  </select></td>
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+          <tr>
+            <td rowspan="4" width="12%" align="right"><img src="http://www.cnjg.gov.cn/images/d1.jpg" 
+            width="100" height="83" /></td>
+            <td rowspan="4" width="10%" align="center"><img src="http://www.cnjg.gov.cn/images/d2.jpg" 
+            width="97" height="83" /></td>
+            <td rowspan="4" width="10%" align="left"><img src="http://www.cnjg.gov.cn/images/d3.jpg" 
+            width="86" height="83" /></td>
+            <td height="28" width="54%" 
+            align="left">版权所有:四川省剑阁县人民政府办公室&nbsp;&nbsp;&nbsp;建设与维护：广元市电子政务外网运营中心 </td>
+            <td rowspan="4" width="14%" align="center"><img src="http://www.cnjg.gov.cn/images/d4.jpg" 
+            width="109" height="109" /></td>
+          </tr>
+          <tr>
+            <td height="28" align="left"><a href="http://www.miitbeian.gov.cn/" 
+            target="_blank">蜀ICP备06003751号</a> <a style="display: inline-block;" 
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51082302000134" 
+            target="_blank"><img style="margin-right: 5px; vertical-align: middle; float: left;" 
+            src="http://www.cnjg.gov.cn/images/gongan.png" />川公网安备 
+              51082302000134号</a>&nbsp;&nbsp;<a href="http://www.cnjg.gov.cn/articlelist.aspx?id=191" 
+            target="_blank">本站声明</a>&nbsp;&nbsp;<a href="http://www.cnjg.gov.cn/articlelist.aspx?id=192" 
+            target="_blank">联系我们</a>&nbsp;&nbsp; </td>
+          </tr>
+          <tr>
+            <td height="28" align="left">Copyright 2010 www.jiange.gov.cn All 
+              Rights Reserved&nbsp;&nbsp;<a title="剑阁县人民政府网站" href="http://www.cnjg.gov.cn/" 
+            target="_blank">剑阁县人民政府网站</a></td>
+          </tr>
+          <tr>
+            <td height="28" align="left"><iframe src="http://www.cnjg.gov.cn/cnzz.ashx" scrolling="no" width="400px" height="40px" frameborder="0"></iframe></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: middle;" class="tdimg" colspan="5" align="center"><script src="http://www.cnjg.gov.cn/images/CA233392050402435440001.js"></script>
+              <script id="_jiucuo_" src="http://www.cnjg.gov.cn/images/jiucuo.js" sitecode="5108230052"></script></td>
+          </tr>
+        </tbody>
+      </table></td>
+      <td width="2%" align="right"><img src="http://www.cnjg.gov.cn/images/db_r.jpg" width="22" /></td>
+    </tr>
+  </tbody>
+</table>
+</span>
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_myTreeView_ImageArray =  new Array('images/mweb.gif', 'images/mweb.gif', 'images/mweb.gif', '/WebResource.axd?d=S_-HCRg86kAyYRQVfiRy_0mjetAaDRXu5odmlkdzS0I1&t=633802945995006876', '/WebResource.axd?d=S_-HCRg86kAyYRQVfiRy_8GbO4N0iEfJ3kq-bhhdohM1&t=633802945995006876', '/WebResource.axd?d=S_-HCRg86kAyYRQVfiRy_4a_hvtArLv3NrBRr9UnLfc1&t=633802945995006876');
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+WebForm_InitCallback();var ctl00_myTreeView_Data = new Object();
+ctl00_myTreeView_Data.images = ctl00_myTreeView_ImageArray;
+ctl00_myTreeView_Data.collapseToolTip = "折叠 {0}";
+ctl00_myTreeView_Data.expandToolTip = "展开 {0}";
+ctl00_myTreeView_Data.expandState = theForm.elements['ctl00_myTreeView_ExpandState'];
+ctl00_myTreeView_Data.selectedNodeID = theForm.elements['ctl00_myTreeView_SelectedNode'];
+for (var i=0;i<6;i++) {
+var preLoad = new Image();
+if (ctl00_myTreeView_ImageArray[i].length > 0)
+preLoad.src = ctl00_myTreeView_ImageArray[i];
+}
+ctl00_myTreeView_Data.lastIndex = 1;
+ctl00_myTreeView_Data.populateLog = theForm.elements['ctl00_myTreeView_PopulateLog'];
+ctl00_myTreeView_Data.treeViewID = 'ctl00$myTreeView';
+ctl00_myTreeView_Data.name = 'ctl00_myTreeView_Data';
+//]]>
+</script>
+</form>
+</body>
+</html>

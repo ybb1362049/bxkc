@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>-广西新衡通工建咨询服务有限公司</title><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><meta http-equiv="Content-Language" content="zh-CN" /><meta name="robots" content="index,follow" /><meta name="author" content="响雷科技" /><link rel="shortcut icon" href="http://www.gxxht.com/favicon.ico" /><link href="http://www.gxxht.com/skin/aaa/xinhengtong.css" rel="stylesheet" type="text/css" />
+<SCRIPT src="http://www.gxxht.com/skin/aaa/jquery00.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://www.gxxht.com/skin/aaa/bgstretc.js"></script>
+</head><body>
+<div id="wholePager">
+     
+<script>
+$(function(){
+	$(document).bgStretcher({
+			images: ['http://www.gxxht.com/skin/aaa/tb1.jpg', 'http://www.gxxht.com/skin/aaa/tb2.jpg', 'http://www.gxxht.com/skin/aaa/tb3.jpg'],
+			imageWidth: 1350, imageHeight: 300, nav: '#action'
+		});
+	$("#menu > li").mousemove(function() { //When trigger is clicked...
+
+		$(this).find("ul.subnav").show(); //Drop down the subnav on click
+
+		$(this).hover(function() {
+
+		}, function(){	
+
+			$(this).find("ul.subnav").hide(); //When the mouse hovers out of the subnav, move it back up
+
+		});
+
+		});
+
+});
+</script>
+<div id="lang2"></div>
+
+    <ul id="menu">
+    	<li  class="baige1"><a href="http://www.gxxht.com/">网站首页</a></li>
+        <li><a href="http://www.gxxht.com/gongsigaikuo/gongsijianjie/">公司概括</a>
+		    <ul class="subnav"><li><a class='marka' href='http://www.gxxht.com/gongsigaikuo/gongsijianjie/'>公司简介</a></li><li><a class='marka' href='http://www.gxxht.com/gongsigaikuo/zuzhijigou/'>组织机构</a></li><li><a class='marka' href='http://www.gxxht.com/gongsigaikuo/gongsizizhi/'>公司资质</a></li><li><a class='marka' href='http://www.gxxht.com/gongsigaikuo/fenzhijigou'>分支机构</a></li></ul>
+		</li>
+        <li><a href="http://www.gxxht.com/gongsidongtai/">公司动态</a>
+		    <ul class="subnav"><li><a class='marka' href='http://www.gxxht.com/gongsidongtai/gongsihuodong/'>公司活动</a></li><li><a class='marka' href='http://www.gxxht.com/gongsidongtai/xingyejiaodian'>行业焦点</a></li></ul>
+		</li>
+        <li><a href="http://www.gxxht.com/zhaobiaoxinxi/">招标信息</a></li>
+        <li><a href="http://www.gxxht.com/gongchengshili/">工程实例</a>
+        <ul class="subnav">
+		    <li><a class='marka' href='http://www.gxxht.com/gongchengshili/zhaobiao/'>工程招标</a></li><li><a class='marka' href='http://www.gxxht.com/gongchengshili/zhengce/'>政府采购</a></li><li><a class='marka' href='http://www.gxxht.com/gongchengshili/jianli/'>工程监理</a></li>
+			<li><a class='marka' href='http://www.gxxht.com/gongchengshili/zaojiazixun/'>造价咨询</a></li>
+		</ul>
+        </li>
+       
+        <li><a href="http://www.gxxht.com/lianxiwomen/gongsizongbu/">联系我们</a>
+		    
+			<ul class="subnav">
+		    <li><a class='marka' href='http://www.gxxht.com/lianxiwomen/gongsizongbu'>公司总部</a></li><li><a class='marka' href='http://www.gxxht.com/lianxiwomen/fenzigongsi/'>分子公司</a></li></ul>
+		
+		</li>
+    </ul></div>
+<div id="bodyPager">
+
+<div class="main_nr">
+
+    <div class="InLeft">
+	
+	 <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="background-image:url(http://www.gxxht.com/skin/aaa/t7.gif); background-repeat:no-repeat;">
+  <tr>
+  <td width="12%" height="26"></td>
+  <td width="88%"><span class="m4">公司动态</span></td>
+  </tr>
+  <tr><td colspan="2" height="10"></td></tr>
+  <tr><td colspan="2" class="n5">
+<ul class=side_list>
+<script type="text/javascript" src="http://www.gxxht.com/d/js/class/class13_newnews.js"></script>
+</ul>
+  </td></tr>
+  <tr><td colspan="2" height="10"></td></tr>
+</table>
+	
+	
+		 <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="background-image:url(http://www.gxxht.com/skin/aaa/t7.gif); background-repeat:no-repeat;">
+  <tr>
+  <td width="12%" height="26"></td>
+  <td width="88%"><span class="m4">招标信息</span></td>
+  </tr>
+  <tr><td colspan="2" height="10"></td></tr>
+  <tr><td colspan="2" class="n5">
+<ul class=side_list>
+<script type="text/javascript" src="http://www.gxxht.com/d/js/class/class13_newnews.js"></script>
+</ul>
+  </td></tr>
+  <tr><td colspan="2" height="10"></td></tr>
+</table>
+	
+	
+	
+	
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="background-image:url(http://www.gxxht.com/skin/aaa/t7.gif); background-repeat:no-repeat;">
+  <tr>
+  <td width="12%" height="26"></td>
+  <td width="88%"><span class="m4">联系我们</span></td>
+  </tr>
+  <tr><td colspan="2" height="10"></td></tr>
+  <tr><td colspan="2" class="n5">
+  <p><strong><font color="#444444">广西新衡通工建咨询服务有限公司</font></strong>
+  <br>
+   <p>电话：0775-4266738 </p>
+   <p>电话：0775-4221309 </p>
+  <p>传真：0775-4266735</p>
+  <p>地址：广西贵港市中山路中银大厦1703、1803号</p>
+  </td></tr>
+  <tr><td colspan="2" height="10"></td></tr>
+</table>
+	  
+    </div>
+	
+	<div class="InRight">
+	<div class="t1"><span class="f3 notdofa">您的当前位置：<a href="http://www.gxxht.com/">首页</a>&nbsp;>&nbsp;<a href="http://www.gxxht.com/zhaobiaoxinxi/">招标信息</a></span></div>
+
+<table border="0">
+  <tr>
+    <td height="5"></td>
+  </tr>
+</table>
+
+
+<div class="c_content"><h2><span class="hui999">[2017-11-30]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-11-30/356.html">广西新衡通工建咨询服务有限公司贵港市港南区工业园区工业二路（西一段）基础设施工程设计服务（重）（项目编号:GXXHT招（2017）第8号（重））中标公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-11-17]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-11-17/355.html">广西新衡通工建咨询服务有限公司贵港市港南区工业园区工业二路（西一段）基础设施工程设计服务（重）中标候选人公示</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-11-02]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-11-02/354.html">广西新衡通工建咨询服务有限公司关于贵港市港南区工业园区工业二路（西一段）基础设施工程设计服务（重）（项目编号GXXHT招（2017）第8号（重））更改通知（二）</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-10-31]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-10-31/353.html">贵港市登龙桥小学建设项目质量检验试验服务竞争性谈判公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-10-26]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-10-26/352.html">广西新衡通工建咨询服务有限公司关于贵港市港南区工业园区工业二路（西一段）基础设施工程设计服务（重）（项目编号GXXHT招（2017）第8号（重））更改通知</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-10-26]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-10-26/351.html">广西新衡通工建咨询服务有限公司贵港市港南区工业园区工业二路（西一段）基础设施工程设计服务（重）（项目编号GXXHT招（2017）第8号（重））招标公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-10-25]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-10-25/350.html">贵港市港南区桥圩工贸科技创业园基础设施建设项目设计服务中标公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-10-25]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-10-25/349.html">广西新衡通工建咨询服务有限公司贵港市港南区工业园区工业二路（西一段）基础设施工程设计服务（项目编号：GXXHT招（2017）第8号）流标公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-10-18]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-10-18/348.html">贵港市港南区桥圩工贸科技创业园基础设施建设项目设计服务中标候选人公示</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-10-17]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-10-17/347.html">广西乐业农村商业银行股份有限公司工作服采购中标公示</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-09-26]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-09-26/346.html">广西乐业农村商业银行股份有限公司工作服采购项目</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-09-25]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-09-25/345.html">贵港市港南区工业园区工业二路（西一段）基础设施工程设计服务招标公告（项目编号:GXXHT招（2017）第8号）</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-09-20]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-09-20/344.html">贵港市港南区桥圩工贸科技创业园基础设施建设项目设计服务招标公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-08-31]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-08-31/343.html">贵港市登龙桥小学建设项目施工招标中标候选人公示</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-08-15]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-08-15/342.html">贵港市登龙桥小学建设项目监理招标中标公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-08-04]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-08-04/341.html">广西乐业农村商业银行股份有限公司甘田支行临时营业场所装饰工程中标公示</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-08-04]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-08-04/340.html">广西乐业农村商业银行股份有限公司幼平支行临时营业场所装饰工程中标公示</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-07-21]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-07-21/339.html">广西新衡通工建咨询服务有限公司贵港市登龙桥小学建设项目监理招标中标候选人公示</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-07-17]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-07-17/338.html">贵港市登龙桥小学建设项目施工招标施工招标公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-07-14]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-07-14/337.html">市中级法院第三期档案数字化整理服务采购成交结果公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-07-06]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-07-06/336.html">市中级法院第三期档案数字化整理服务采购</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-07-03]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-07-05/335.html">广西乐业农村商业银行股份有限公司甘田支行临时营业场所装饰工程</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-07-03]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-07-05/334.html">广西乐业农村商业银行股份有限公司幼平支行临时营业场所装饰工程</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-06-27]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-06-27/329.html">贵港市登龙桥小学建设项目监理招标招标公告</a></h2></div>
+<div class="c_content"><h2><span class="hui999">[2017-01-09]</span><a href="http://www.gxxht.com/zhaobiaoxinxi/2017-01-09/327.html">广西新衡通工建咨询服务有限公司关于旅游休闲观光农业项目绿化【项目编号：XHT201603138G】中标公告</a></h2></div>
+
+
+
+
+	<div class="page">页次：1/13&nbsp;每页25&nbsp;总数305&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;上一页&nbsp;&nbsp;<a href='http://www.gxxht.com/zhaobiaoxinxi/index_2.html'>下一页</a>&nbsp;&nbsp;<a href='http://www.gxxht.com/zhaobiaoxinxi/index_13.html'>尾页</a>&nbsp;&nbsp;&nbsp;&nbsp;转到:<select name=select onchange="self.location.href=this.options[this.selectedIndex].value"><option value='http://www.gxxht.com/zhaobiaoxinxi/index.html' selected>第 1 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_2.html'>第 2 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_3.html'>第 3 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_4.html'>第 4 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_5.html'>第 5 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_6.html'>第 6 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_7.html'>第 7 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_8.html'>第 8 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_9.html'>第 9 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_10.html'>第 10 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_11.html'>第 11 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_12.html'>第 12 页</option><option value='http://www.gxxht.com/zhaobiaoxinxi/index_13.html'>第 13 页</option></select></div>
+
+	</div>
+	
+	
+	  <div class="cd"></div>
+  
+</div>
+</div>
+<div class="geli8">&nbsp;</div>
+<div id="foot">
+<table id="foot2" height="80" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td width="250">&nbsp;</td>
+            <td align="center">
+            <p>Copyright www.gxxht.com ALL Rights Reserved</p>
+            <p><a target="_blank" href="http://www.miibeian.gov.cn/">桂ICP备11005584号-1</a>&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.gx.cyberpolice.cn/NewsCategory/lstNewCate.do">公安备案号45140102000012</a></p>
+            <p>版权所有：<a target="_blank" href="http://www.gxxht.com/e/admin/">广西新衡通工建咨询服务有限公司</a>&nbsp;&nbsp;&nbsp;技术支持: <a target="_blank" href="http://www.x2828.com/">响雷科技</a></p>
+            </td>
+            <td align="center" width="250"><!--	ICP备案代码开始（以后维护此段代码可Ctrl+F查询此段注释）--><a target="_blank" href="http://www.gx.cyberpolice.cn/AlarmInfo/getTishi.do?icon=baicp&amp;checkCode=5b1ac4cc940de3c8352625ad1948cc42"><img alt="广西网警ICP备案" border="0" src="/skin/aaa/baicp.gif" /></a><!--	ICP备案代码结束	--> &nbsp;&nbsp;&nbsp;<!--	报警岗亭代码开始（以后维护此段代码可Ctrl+F查询此段注释）--><a target="_blank" href="http://www.gx.cyberpolice.cn/AlarmInfo/getTishi.do?icon=gangting&amp;checkCode=5b1ac4cc940de3c8352625ad1948cc42"><img alt="广西网警虚拟岗亭" border="0" src="/skin/aaa/cyberhome.gif" /></a><!--	报警岗亭代码结束	--></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+</body></html>

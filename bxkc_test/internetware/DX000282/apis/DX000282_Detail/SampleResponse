@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>电冶采购中心化工组（王福军）2017年8月1日加工件3采购_鄂尔多斯电子采购管理平台</title>
+    <meta name="description" content="电冶采购中心化工组（王福军）2017年8月1日加工件3采购">
+    <meta name="keywords" content="电冶采购中心化工组（王福军）2017年8月1日加工件3采购,鄂尔多斯电子采购管理平台">
+    <link rel="stylesheet" type="text/css" href="http://erdos.app.yuecai.com/eip/css/jun/base-global.css"/>
+    <link rel="stylesheet" type="text/css" href="http://erdos.app.yuecai.com/eip/css/jun/common.css"/>
+    <link rel="stylesheet" type="text/css" href="http://erdos.app.yuecai.com/eip/css/jun/procurement.css"/>
+    <script type="text/javascript" src="http://erdos.app.yuecai.com/eip/script/lib/jquery/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="http://erdos.app.yuecai.com/eip/script/lib/global.js"></script>
+    <!--<script type="text/javascript" src="http://g.tbcdn.cn/fi/bui/jquery-1.8.1.min.js"></script>-->
+    <script type="text/javascript" src="http://g.alicdn.com/bui/seajs/2.3.0/sea.js"></script>
+    <script type="text/javascript" src="http://g.alicdn.com/bui/bui/1.1.21/config.js"></script>
+    <link rel="stylesheet" href="http://allstatic.b0.upaiyun.com/product/lib/bui/css/bs3/bui-min.css">
+    <!--<link rel="stylesheet" type="text/css" href="http://erdos.app.yuecai.com/eip/css/bui/bui-user-defined.css"/>-->
+    <link rel="stylesheet" type="text/css" href="http://erdos.app.yuecai.com/eip/css/jun/common_bui_dialog.css"/>
+
+    <style>
+        .disabled{ cursor: not-allowed; }
+    </style>
+</head>
+<script type="text/javascript">
+    jQuery(function(){
+        BUI.use('bui/overlay',function(Overlay){
+            function dialog(dialogOption) {	/* 调用BUI摸态框组件 */
+                // 默认参数配置
+                var defaults = {
+                    title: '提示', //标题
+                    btn1: '继续报价', //btn1名称
+                    btn1Click: true, //可否点击
+                    showBtn1:true,
+                    btn2: '成为核心供', // btn2名称
+                    btn2Click: true, //可否点击
+                    bodyContent: '<p>尊敬的用户<br/>您的投标体验次数已用完。<br/>可以成为核心供，不仅不限报价次数，采购商还会优先选择核心供中标，提高中标率。详情咨询：400-0118-000。了解核心供>>', //弹窗内容
+                    url1: "", // btn1链接
+                    url2: '/support/supplier/bjtq/', //btn2链接
+                    type: '1' //是否打开新窗口
+                };
+                var opts = jQuery.extend ({}, defaults, dialogOption);
+                var btn1Click ='',
+                        btn2Click = '';
+                if (!opts.btn1Click){btn1Click='disabled';}
+                if (!opts.btn2Click){btn2Click='disabled';}
+                var dialogs;
+                if (!opts.showBtn1){
+                    dialogs = new Overlay.Dialog({
+                        title: opts.title1,
+                        width: 500,
+                        height: 43,
+                        mask: true,		//是否显示遮罩层
+                        buttons: [{
+                            text: opts.btn2,
+                            elCls: 'button r-blue '+btn2Click,
+                            handler: function () {
+                                if (opts.url2) {
+                                    if(opts.type=="1"){
+                                        window.open(opts.url2);
+                                    }else{
+                                        location.href = opts.url2;
+                                    }
+
+                                }
+                                this.close();
+                            }
+                        }],
+                        bodyContent: opts.bodyContent
+                    });
+                }else {
+                    dialogs = new Overlay.Dialog({
+                        title: opts.title1,
+                        width: 500,
+                        height: 43,
+                        mask: true,		//是否显示遮罩层
+                        buttons: [{
+                            text: opts.btn1,
+                            elCls: 'button button-primary l-gray '+btn1Click,
+                            handler: function () {
+                                //do some thing
+                                if (opts.url1) {
+                                    location.href = opts.url1;
+                                }
+                                this.close();
+                            }
+                        }, {
+                            text: opts.btn2,
+                            elCls: 'button r-blue '+btn2Click,
+                            handler: function () {
+                                if (opts.url2) {
+                                    if(opts.type=="1"){
+                                        window.open(opts.url2);
+                                    }else{
+                                        location.href = opts.url2;
+                                    }
+
+                                }
+                                //	this.close();
+                            }
+                        }],
+                        bodyContent: opts.bodyContent
+                    });
+                }
+
+                dialogs.show();
+                if (!opts.btn1Click){
+                    jQuery('.l-gray').prop('disabled',true);
+                }else {
+                    jQuery('.l-gray').prop('disabled',false);
+                }
+                if (!opts.btn2Click){
+                    jQuery('.r-blue').prop('disabled',true);
+                }else{
+                    jQuery('.r-blue').prop('disabled',false);
+                }
+            }
+            jQuery("#bt").click(function(){
+                var user=jQuery("#loginname").val();
+                var url=jQuery("#url").val();//获取登录url
+                //如果没有获取到 跳转登录页面
+                if(url==null||url==""){
+                    url=jQuery("#loginurl").val();
+                }
+                if(user!=null && typeof(user) != "undefined" &&user!=""){
+                            //全网公开
+                            //不是核心供 先判断资料是否完善
+                            var companyId=jQuery("#companyId").val();
+                            var bidCode=jQuery("#bidCode").val();
+                            jQuery.ajax({
+                                url:'http://erdos.app.yuecai.com/eip/jun/checkCompanyInfo.htm',
+                                dataType: 'jsonp',
+                                jsonp: 'jsonpcallback',
+                                data:"loginname="+user+"&companyId="+companyId+"&bidCode="+bidCode+"&type=1"
+                               })
+                                    .done(function(data) {
+                                        if(!data.isBlack){
+                                            //是否是核心供
+                                            if(data.isCore==0){
+                                                    //不是核心供 先判断资料是否完善
+                                                    if(data.checkCompanyInfo) {
+                                                        //项目直通车项目不受限制
+                                                        if(data.isPayProject){
+                                                            location.href = data.url;
+                                                        }else{
+                                                            //判断是否被邀请
+                                                            if(!data.isInvite){
+                                                                //判断项目类型(全网公开，核心供)
+                                                                var projectType=jQuery("#projectType").val();
+                                                                if(projectType==2) {
+                                                                    //核心供项目
+                                                                    //提示框 您还不是是核心供
+                                                                    var option = {
+                                                                        btn1: '暂不报价',
+                                                                        bodyContent: '<p>您还不是核心供应商，采购商设置此项目为核心供应商专属项目！<br/>详情咨询：400-0118-000',
+                                                                        url2: 'http://www.yuecai.com/support/supplier/bjtq/'
+                                                                    };
+                                                                    dialog(option);
+                                                                }else{
+                                                                    if(data.num==0){
+                                                                        var u=   data.url;
+                                                                        var option = {
+                                                                            bodyContent:'<p><span style="color: red">尊敬的用户</span><br/>由于您未成为核心供，您的报价体验次数仅为：<span style="color: red">1</span> 次<br/><a href="http://www.yuecai.com/support/supplier/bjtq/"><span style="color: blue">成为核心供</span></a>，不仅报价次数不限，采购商还会优先选择核心供中标，提高中标率。详情咨询：010-58851111-802。<a href="http://www.yuecai.com/support/supplier/bjtq/"><span style="color: blue">了解核心供>></span></a>',
+                                                                            url2:'http://www.yuecai.com/support/supplier/bjtq/',
+                                                                            url1:u
+                                                                        };
+                                                                        dialog(option);
+                                                                    }else{
+                                                                        var option = {
+                                                                            bodyContent:'<p><span style="color: red">尊敬的用户</span><br/>您的报价体验次数已用完。<br/>可以成为<a href="http://www.yuecai.com/support/supplier/bjtq/"><span style="color: blue">核心供</span></a>，不仅不限报价次数，采购商还会优先选择核心供中标，提高中标率。详情咨询：010-58851111-802。<a href="http://www.yuecai.com/support/supplier/bjtq/"><span style="color: blue">了解核心供>></a></span>',
+                                                                            url2:'http://www.yuecai.com/support/supplier/bjtq/',
+                                                                            btn1Click:false,
+                                                                        };
+                                                                        dialog(option);
+                                                                    }
+                                                                }
+                                                            }else{
+                                                                //邀请不限次数
+                                                                location.href = data.url;
+                                                            }
+                                                        }
+                                                    }else{
+                                                        var ycindex=jQuery("#ycindex").val();
+                                                        //提示框 资料不完善跳转
+                                                        var option = {
+                                                            btn2:'去完善资料',
+                                                            bodyContent:'<p>您的企业资料完整度未到80%请完善后参与项目报价！<br/>详情咨询：400-0118-000 </p>',
+                                                            url2:ycindex+'/setting/index.htm?tab=company',
+                                                            type:'2',
+                                                            btn1Click:false
+                                                        };
+                                                        dialog(option);
+                                                    }
+                                            }else{
+                                                var u=  data.url;
+                                                location.href =u;
+                                            }
+                                        }else{
+                                            var option = {
+                                                showBtn1:false,//只显示一个按钮，单独建立dialog
+                                                btn2:'关闭',
+                                                bodyContent:'<p>该项目企业已将您设置为不合格供应商，无法参与项目</p>',
+                                                url2:'',
+                                                type:'2',
+                                                btn1Click:false
+                                            };
+                                            dialog(option);
+                                        }
+                                    })
+                                    .fail(function(data) {
+                                    })
+                }else{
+                    location.href =url;
+                }
+
+            });
+        });
+    });
+
+</script>
+<body>
+<!--top-->
+<script type="text/javascript" src="http://erdos.app.yuecai.com/eip/script/common/common.js"></script>
+<div class="top-login">
+	<div class="content">
+		<div class="fl" id="wel">欢迎访问，鄂尔多斯招标采购信息门户网站!</div>
+		 <div class="fl" id="logtop">
+			<a href="http://accounts.yuecai.com/pass/login.htm" class="mg-l20" target="_blank">[登录]</a>
+			<a href="http://erdos.app.yuecai.com/eip/jun/register.htm" class="mg-l5" target="_blank">[供应商注册]</a>
+		</div> 
+		<div class="fr">
+			<a onclick="isSetHome(this)" href="javascript:void(0);">设为首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="addFavorite(window.location,document.title)" href="javascript:void(0);">添加收藏</a>
+		</div>
+	</div>
+</div>
+<div class="top-banner"  style="background: url('http://erdos.app.yuecai.com/eip/images/jun/product/erdos/banner-bg.png') repeat-x scroll 0 0 rgba(0, 0, 0, 0)">
+	<div class="banner" style="background: url('http://erdos.app.yuecai.com/eip/images/jun/product/erdos/banner.jpg') no-repeat scroll center top rgba(0, 0, 0, 0)">
+	</div>
+</div>
+<script type="text/javascript" src="http://erdos.app.yuecai.com/eip/script/common/login.js"></script><div class="menu">
+	<div class="nav">
+		<a href="http://erdos.app.yuecai.com/eip/jun/index.htm"  class="fl">首页</a>
+		<a href="http://erdos.app.yuecai.com/eip/jun/purchase.htm" class="fl select">采购信息</a>
+		<a href="http://erdos.app.yuecai.com/eip/jun/bidding.htm"  class="fl">招标信息</a>
+		<a href="http://erdos.app.yuecai.com/eip/jun/auction.htm"  class="fl">竞价信息</a>
+		<a href="http://erdos.app.yuecai.com/eip/jun/dynamic.htm"  class="fl">采购动态</a>
+		<a href="http://erdos.app.yuecai.com/eip/jun/supervise.htm"  class="fl">招标监督</a>
+		<a href="http://erdos.app.yuecai.com/eip/jun/company.htm"  class="fl">关于我们</a>
+		<a href="http://erdos.app.yuecai.com/eip/jun/contact.htm"  class="fl">联系我们</a>
+		<form id="search" method="get" action="http://erdos.app.yuecai.com/eip/jun/search.htm" target="_blank">
+		<input name="key" type="text" value="请输入关键词..." class="srk" onclick="focusMeByAll(this,'请输入关键词...');" onblur="blurMeByAll(this,'请输入关键词...');"/>
+		<select name="type">
+			<option value="">信息类型</option>
+			<option value="2901" >采购公告</option>
+			<option value="2902" >采购变更</option>
+			<option value="2903" >采购结果</option>
+			<option value="0105" >招标公告</option>
+			<option value="0106" >招标变更</option>
+			<option value="0108" >中标公告</option>
+			<option value="1" >竞价公告</option>
+			<option value="2" >竞价变更</option>
+			<option value="3" >竞价结果</option>
+		</select>
+		<input type="submit" class="search" value="搜索"/>
+		</form>
+	</div>
+</div><!--主体内容-->
+<div class="wrap">
+
+    <div class="container fn-clear">
+        <div class="left fl">
+            <div class="location">
+                您当前的位置：<a href="http://erdos.app.yuecai.com/eip/jun/index.htm">首页</a> >
+                <a href="http://erdos.app.yuecai.com/eip/jun/purchase.htm">采购信息</a> >
+                                <a href="http://erdos.app.yuecai.com/eip/jun/purchaseMore.htm?type=purchase">采购公告</a> >
+                                详细信息
+            </div>
+            <div class="jz-content mg-t20">
+                <div class="tit2 fn-clear">
+                    <div class="fl"  >
+                        <h2>电冶采购中心化工组（王福军）2017年8月1日加工件3采购
+                                                        <span class="zhuanshu"></span>
+                            </h2>
+                        <!-- Baidu Button BEGIN -->
+                        <div class="share">
+                            <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+                                <span class="bds_more">分享到：</span>
+                                <a class="bds_qzone"></a>
+                                <a class="bds_tsina"></a>
+                                <a class="bds_tqq"></a>
+                                <a class="bds_renren"></a>
+                                <a class="bds_t163"></a>
+                                <a class="shareCount"></a>
+                            </div>
+                        </div>
+                        <!-- Baidu Button END -->
+                    </div>
+                                                                                <a href="javascript:void(0)" class="bid" id="bt">去投标</a>
+                    <!--<input type="button"  id="bt">去投标-->
+                                        <!--	<a href="javascript:void(0)" class="bid" id="bt" target="_blank">去投标</a>-->
+
+                </div>
+                <div class="info">
+                    <ul class="fn-clear">
+                        <li>
+                            <label class="fl">采&nbsp;购&nbsp;商：</label>
+                            <input type="hidden" id="projectType" name="projectType" value="2">
+                            <input type="hidden" id="companyId" value="279590128">
+                            <input type="hidden" id="loginname" name="loginname">
+                            <input type="hidden" id="bidCode" value="ERDOSCG170801016">
+                            <input type="hidden" id="context_base" value="http://erdos.app.yuecai.com">
+                            <input type="hidden" id="url" name="url">
+                            <input type="hidden" id="loginurl" name="loginurl" value="http://accounts.yuecai.com/pass/login.htm" >
+                            <input type="hidden" id="ycindex" value="http://home.yuecai.com">
+                            <span class="fl">内蒙古鄂尔多斯电力冶金集团股份有限公司</span>
+                            <label class="fl">项目状态：</label>
+                            <span class="fl">进行中</span>
+                        </li>
+                        <li>
+                            <label class="fl">项目名称：</label>
+                            <!--  <span class="fl">电冶采购中心化工组（王福军）2017年8月1日加工件3采购&nbsp;</span>-->
+                            <span class="fl">电冶采购中心化工组（王福军）2017年8月1日加工件3采购&nbsp;</span>
+                            <label class="fl">截止时间：</label>
+                            <span class="fl">2017-08-03 15:14</span>
+                        </li>
+                        <li>
+                            <label class="fl">项目编号：</label>
+                            <span class="fl">ERDOSCG170801016</span>
+                            <label class="fl">联系电话：</label>
+                                                        <span class="fl">0477-2285542</span>
+                            
+                        </li>
+                        <li>
+                            <label class="fl">发布时间：</label>
+                            <span class="fl">2017-08-01 15:22</span>
+                            <label class="fl">电子邮箱：</label>
+                            <span class="fl">1374917056@qq.com</span>
+                        </li>
+                        <li>
+                            <label class="fl">联&nbsp;系&nbsp;人：</label>
+                            <span class="fl">王福军&nbsp;</span>
+                            <label class="fl">传真号码：</label>
+                            <span class="fl"></span>
+                        </li>
+                    </ul>
+                    <ul class="fn-clear">
+                        <li>
+                            <label class="fl">供应商资格要求：</label>
+                            <span class="fl wd">
+										
+									</span>
+                        </li>
+                                                                        																			                                                <li>
+                            <label class="fl">项目备注：</label>
+                            <span class="fl wd">
+										
+									</span>
+                        </li>
+                    </ul>
+                    <ul class="fn-clear">
+                        <li>
+                            <label class="fl">采购品信息：</label>
+                            <span class="fl wd">
+										<table class="form2">
+											<tr>
+												<th>序号</th>
+												<th>采购品名称</th>
+												<th>品目编码</th>
+												<th>规格</th>
+												<th>单位</th>
+											</tr>
+																						<tr>
+												<td class="t-c" style="width:5%">1</td>
+												<td class="t-c" style="width:25%">炉盖</td>
+												<td class="t-c" style="width:30%">011220010402</td>
+												<td style="width:35%">机加件（附图）6段/套</td>
+												<td class="t-c" style="width:5%">套</td>
+											</tr>
+																						<tr>
+												<td class="t-c" style="width:5%">2</td>
+												<td class="t-c" style="width:25%">底部环吊挂</td>
+												<td class="t-c" style="width:30%">011232010175</td>
+												<td style="width:35%">附图</td>
+												<td class="t-c" style="width:5%">个</td>
+											</tr>
+																						<tr>
+												<td class="t-c" style="width:5%">3</td>
+												<td class="t-c" style="width:25%">花板</td>
+												<td class="t-c" style="width:30%">011232011443</td>
+												<td style="width:35%">按图加工 要求冲压孔</td>
+												<td class="t-c" style="width:5%">块</td>
+											</tr>
+																						<tr>
+												<td class="t-c" style="width:5%">4</td>
+												<td class="t-c" style="width:25%">水冷密封套</td>
+												<td class="t-c" style="width:30%">011221011772</td>
+												<td style="width:35%"></td>
+												<td class="t-c" style="width:5%">个</td>
+											</tr>
+																						<tr>
+												<td class="t-c" style="width:5%">5</td>
+												<td class="t-c" style="width:25%">中心段</td>
+												<td class="t-c" style="width:30%">011232011084</td>
+												<td style="width:35%">附图1Cr18Ni9Ti</td>
+												<td class="t-c" style="width:5%">套</td>
+											</tr>
+																					</table>
+									</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right fr">
+            <div class="notice fl">
+	<div style="padding: 10px;width: 220px;">
+		<span class="fl">公告通知</span>
+		<span class="fr"><a href="http://erdos.app.yuecai.com/eip/jun/noticeMore.htm" target="_blank">更多&gt;&gt;</a></span>
+	</div>
+	<ul>
+			</ul>
+</div>            <div class="menber-info fl mg-t20">
+                <link rel="stylesheet" type="text/css" href="http://erdos.app.yuecai.com/eip/script/lib/webox/webox.css"/>
+<script type="text/javascript" src="http://erdos.app.yuecai.com/eip/script/lib/webox/webox.js"></script>
+<div class="down">
+	<h2>注册用户须知</h2>
+         <!-- <p><a href="http://erdos.app.yuecai.com/eip/common/loadNoLogin.htm?name=jun_r" target="_blank">供应商注册流程及操作指南</a></p>-->
+        <p><a href="http://erdos.app.yuecai.com/eip/common/loadNoLogin.htm?name=jun_r" target="_blank">供应商注册流程及操作指南</a></p>
+        	<p id="load"><a href="javascript:void(0);" n="jun_u" id="box2">供应商操作说明下载(PDF)</a></p>
+</div>
+<div class="mg-t8"><a class="introduce" href="http://erdos.app.yuecai.com/eip/jun/plantform.htm" target="_blank">
+	<p>鄂尔多斯电子采购管理平台简介</p>
+	<span>PING TAI JIAN JIE</span>
+</a></div>
+<div class="mg-t4"><a href="http://erdos.app.yuecai.com/eip/jun/supervise.htm"><img alt="" src="http://erdos.app.yuecai.com/eip/images/jun/report.png" /></a></div>
+
+<script type="text/javascript">
+   $("#box2").click(function(){
+       if(typeof(loadUrl)=="undefined"){
+       		jQuery.webox.open('请登录后下载！', {boxclass:'webox_tips',showCancel:false});
+       }else{
+       		window.open(loadUrl+'?name='+$('#box2').attr('n'))
+       }
+	});
+</script>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+	<div class="txt">
+		<div class="fl">
+			<p>地址：内蒙古自治区鄂尔多斯市鄂托克旗棋盘井镇　&nbsp;&nbsp;&nbsp;&nbsp;邮编：16064</p>
+			<p>版权所有：内蒙古鄂尔多斯电力冶金集团股份有限公司  &nbsp;&nbsp;&nbsp;&nbsp;技术支持：必联(北京)电子商务科技有限公司</p>
+		</div>
+   <!--  <div id="piwik"><span class="flow fr">今日访问：<font>0</font>&nbsp;&nbsp;&nbsp;累计访问：0</span></div> -->
+	</div>
+</div>
+<script>
+document.write('<scr'+'ipt type="text/javascript" src="http://erdos.app.yuecai.com/eip/common/login.htm"></scr'+'ipt>');window.onerror =function(){return true;}
+</script>
+<!--访问统计分析-->
+<script type="text/javascript">
+    /* 大数据统计代码 */
+    var userid_tjebnew = '';
+    var type_tjebnew = 'ae3bae0cbe534dc7a3ed9e332606de18';
+    if(location.href.indexOf('yuecai.com') != -1){
+        (function(){
+            var a = document.createElement('script');
+            a.type = 'text/javascript';
+            a.async = true;
+            a.src = 'http://cjjs.ebnew.com/cjjs/analysis.min.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(a, s);
+        })();
+    }
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?10b3db2cc0bc454dc0c2466b88578a2c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script><script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=1625697" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)</script>
+</body>
+</html>

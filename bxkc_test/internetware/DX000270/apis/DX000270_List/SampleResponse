@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>采购公告_采购信息_新安集团电子采购管理平台</title>
+		<meta name="description" content="新安集团电子采购管理平台是新安集团在线发布采购、招投标信息的电子招标采购平台,信息公开透明,采购招标高效快捷,是新安集团电子招标采购平台的宗旨.">
+		<meta name="keywords" content="新安集团电子采购管理平台,采购公告,采购信息">
+		<link rel="stylesheet" type="text/css" href="http://wynca.app.yuecai.com/eip/css/jun/base-global.css"/>
+		<link rel="stylesheet" type="text/css" href="http://wynca.app.yuecai.com/eip/css/jun/common.css"/>
+		<link rel="stylesheet" type="text/css" href="http://wynca.app.yuecai.com/eip/css/jun/procurement.css"/>
+		<script type="text/javascript" src="http://wynca.app.yuecai.com/eip/script/lib/jquery/jquery-1.7.2.min.js"></script>
+    	<script type="text/javascript" src="http://wynca.app.yuecai.com/eip/script/lib/global.js"></script>
+	</head>
+	<style>
+		.zhuanshu{
+			display: inline-block;
+			*display: inline;
+			zoom:1;
+			width: 31px;
+			height: 16px;
+			margin: 0px 0px;
+			background: url(../images/jun/zbcg-zhuanshu.png) no-repeat;
+		}
+	</style>
+	<body>
+		<!--top-->
+<script type="text/javascript" src="http://wynca.app.yuecai.com/eip/script/common/common.js"></script>
+<div class="top-login">
+	<div class="content">
+		<div class="fl" id="wel">欢迎访问，新安集团招标采购信息门户网站!</div>
+		 <div class="fl" id="logtop">
+			<a href="http://accounts.yuecai.com/pass/login.htm" class="mg-l20" target="_blank">[登录]</a>
+			<a href="http://wynca.app.yuecai.com/eip/jun/register.htm" class="mg-l5" target="_blank">[供应商注册]</a>
+		</div> 
+		<div class="fr">
+			<a onclick="isSetHome(this)" href="javascript:void(0);">设为首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="addFavorite(window.location,document.title)" href="javascript:void(0);">添加收藏</a>
+		</div>
+	</div>
+</div>
+<div class="top-banner"  style="background: url('http://wynca.app.yuecai.com/eip/images/jun/product/wynca/banner-bg.png') repeat scroll 0 0 rgba(0, 0, 0, 0)">
+	<div class="banner" style="background: url('http://wynca.app.yuecai.com/eip/images/jun/product/wynca/banner.jpg') no-repeat scroll center top rgba(0, 0, 0, 0)">
+	</div>
+</div>
+<script type="text/javascript" src="http://wynca.app.yuecai.com/eip/script/common/login.js"></script><div class="menu">
+	<div class="nav">
+		<a href="http://wynca.app.yuecai.com/eip/jun/index.htm"  class="fl">首页</a>
+		<a href="http://wynca.app.yuecai.com/eip/jun/purchase.htm" class="fl select">采购信息</a>
+		<a href="http://wynca.app.yuecai.com/eip/jun/bidding.htm"  class="fl">招标信息</a>
+		<a href="http://wynca.app.yuecai.com/eip/jun/auction.htm"  class="fl">竞价信息</a>
+		<a href="http://wynca.app.yuecai.com/eip/jun/dynamic.htm"  class="fl">采购动态</a>
+		<a href="http://wynca.app.yuecai.com/eip/jun/supervise.htm"  class="fl">招标监督</a>
+		<a href="http://wynca.app.yuecai.com/eip/jun/company.htm"  class="fl">关于我们</a>
+		<a href="http://wynca.app.yuecai.com/eip/jun/contact.htm"  class="fl">联系我们</a>
+		<form id="search" method="get" action="http://wynca.app.yuecai.com/eip/jun/search.htm" target="_blank">
+		<input name="key" type="text" value="请输入关键词..." class="srk" onclick="focusMeByAll(this,'请输入关键词...');" onblur="blurMeByAll(this,'请输入关键词...');"/>
+		<select name="type">
+			<option value="">信息类型</option>
+			<option value="2901" >采购公告</option>
+			<option value="2902" >采购变更</option>
+			<option value="2903" >采购结果</option>
+			<option value="0105" >招标公告</option>
+			<option value="0106" >招标变更</option>
+			<option value="0108" >中标公告</option>
+			<option value="1" >竞价公告</option>
+			<option value="2" >竞价变更</option>
+			<option value="3" >竞价结果</option>
+		</select>
+		<input type="submit" class="search" value="搜索"/>
+		</form>
+	</div>
+</div>		<!--主体内容-->
+		<div class="wrap" style="margin-top: 50px;">
+ 
+			<div class="container fn-clear">
+				<div class="left fl">
+					<div class="location">
+						您当前的位置：<a href="http://wynca.app.yuecai.com/eip/jun/index.htm">首页</a> >
+						<a href="http://wynca.app.yuecai.com/eip/jun/purchase.htm">采购信息</a> >						
+						采购公告	
+					</div>
+					<div class="title mg-t20">
+						<h2 class="fl">采购公告</h2>
+					</div>
+					<table class="form">
+						<tr>
+							<th>采购编号</th>
+							<th>标题</td>
+							<th>发布时间</th>
+														<th>截止时间</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170810007</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588274616&code=2901&openrangetype=1&projectCode=WYNCACG170810007" target="_blank">电仪20170810</a>
+																																							</td>
+							<td class="t-c">2017-08-10</td>
+														<td class="t-c">2017-08-11</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170810006</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588262011&code=2901&openrangetype=1&projectCode=WYNCACG170810006" target="_blank">异丙胺（新安）0810</a>
+																																							</td>
+							<td class="t-c">2017-08-10</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170810005</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588255489&code=2901&openrangetype=1&projectCode=WYNCACG170810005" target="_blank">三氯甲烷（开化20170810）</a>
+																																							</td>
+							<td class="t-c">2017-08-10</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170810004</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588247173&code=2901&openrangetype=1&projectCode=WYNCACG170810004" target="_blank">钢阀20170810</a>
+																																							</td>
+							<td class="t-c">2017-08-10</td>
+														<td class="t-c">2017-08-14</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170810003</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588246329&code=2901&openrangetype=1&projectCode=WYNCACG170810003" target="_blank">硅烷偶联剂（KH560）20170810</a>
+																																							</td>
+							<td class="t-c">2017-08-10</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170810002</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588246085&code=2901&openrangetype=1&projectCode=WYNCACG170810002" target="_blank">硅烷偶联剂（KH550）201708010</a>
+																																							</td>
+							<td class="t-c">2017-08-10</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170810001</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588240890&code=2901&openrangetype=1&projectCode=WYNCACG170810001" target="_blank">化试120311</a>
+																																							</td>
+							<td class="t-c">2017-08-10</td>
+														<td class="t-c">2017-08-11</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170809007</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588222664&code=2901&openrangetype=1&projectCode=WYNCACG170809007" target="_blank">电仪20170809</a>
+																																							</td>
+							<td class="t-c">2017-08-09</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170809006</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588220867&code=2901&openrangetype=1&projectCode=WYNCACG170809006" target="_blank">镇江电仪20170809</a>
+																																							</td>
+							<td class="t-c">2017-08-09</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170809005</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588197134&code=2901&openrangetype=1&projectCode=WYNCACG170809005" target="_blank">硒鼓122966</a>
+																																							</td>
+							<td class="t-c">2017-08-09</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170809004</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588195817&code=2901&openrangetype=1&projectCode=WYNCACG170809004" target="_blank">化试122966</a>
+																																							</td>
+							<td class="t-c">2017-08-09</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170809003</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588191409&code=2901&openrangetype=1&projectCode=WYNCACG170809003" target="_blank">氯化铵（新安)0809</a>
+																																							</td>
+							<td class="t-c">2017-08-09</td>
+														<td class="t-c">2017-08-09</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170809002</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588190932&code=2901&openrangetype=1&projectCode=WYNCACG170809002" target="_blank">氯化苯（开化20170809）</a>
+																																							</td>
+							<td class="t-c">2017-08-09</td>
+														<td class="t-c">2017-08-09</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170809001</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588187768&code=2901&openrangetype=1&projectCode=WYNCACG170809001" target="_blank">122966配件</a>
+																																							</td>
+							<td class="t-c">2017-08-09</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170808010</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588165283&code=2901&openrangetype=1&projectCode=WYNCACG170808010" target="_blank">电仪20170808</a>
+																																							</td>
+							<td class="t-c">2017-08-08</td>
+														<td class="t-c">2017-08-10</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170808009</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588157557&code=2901&openrangetype=1&projectCode=WYNCACG170808009" target="_blank">甲醇（开化合成）8.8</a>
+																																							</td>
+							<td class="t-c">2017-08-08</td>
+														<td class="t-c">2017-08-08</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170808008</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588156698&code=2901&openrangetype=1&projectCode=WYNCACG170808008" target="_blank">镇江一部电仪20170808</a>
+																																							</td>
+							<td class="t-c">2017-08-08</td>
+														<td class="t-c">2017-08-09</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170808007</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588154664&code=2901&openrangetype=1&projectCode=WYNCACG170808007" target="_blank">钢阀20170808</a>
+																																							</td>
+							<td class="t-c">2017-08-08</td>
+														<td class="t-c">2017-08-09</td>
+													</tr>
+												<tr >
+							<td class="t-c">WYNCACG170808005</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588129745&code=2901&openrangetype=1&projectCode=WYNCACG170808005" target="_blank">电仪20170807</a>
+																																							</td>
+							<td class="t-c">2017-08-08</td>
+														<td class="t-c">2017-08-09</td>
+													</tr>
+												<tr class="qh-bg">
+							<td class="t-c">WYNCACG170807014</td>
+							<td><a href="http://wynca.app.yuecai.com/eip/jun/details.htm?id=588126637&code=2901&openrangetype=1&projectCode=WYNCACG170807014" target="_blank">柴油2017-08-07</a>
+																																							</td>
+							<td class="t-c">2017-08-08</td>
+														<td class="t-c">2017-08-08</td>
+													</tr>
+											</table>
+										<div class="page">
+	<div class="fl mg-l12">共895条数据，每页显示20条</div>
+	<div class="fr mg-r12">
+        				<span class="pre1"></span>	
+		<span class="pre2"></span>
+				<span>第 <input name="" type="text" value="1" disabled> 页，共45页</span>
+				<a href="http://wynca.app.yuecai.com/eip/jun/purchaseMore.htm?type=purchase&currentPage=2" class="next2"></a>							
+		<a href="http://wynca.app.yuecai.com/eip/jun/purchaseMore.htm?type=purchase&currentPage=45" class="next1"></a>
+			</div>
+</div>				</div>
+				<div class="right fr">
+					<div class="notice fl">
+	<div style="padding: 10px;width: 220px;">
+		<span class="fl">公告通知</span>
+		<span class="fr"><a href="http://wynca.app.yuecai.com/eip/jun/noticeMore.htm" target="_blank">更多&gt;&gt;</a></span>
+	</div>
+	<ul>
+			</ul>
+</div>					<div class="menber-info fl mg-t20">						
+						<link rel="stylesheet" type="text/css" href="http://wynca.app.yuecai.com/eip/script/lib/webox/webox.css"/>
+<script type="text/javascript" src="http://wynca.app.yuecai.com/eip/script/lib/webox/webox.js"></script>
+<div class="down">
+	<h2>注册用户须知</h2>
+         <!-- <p><a href="http://wynca.app.yuecai.com/eip/common/loadNoLogin.htm?name=jun_r" target="_blank">供应商注册流程及操作指南</a></p>-->
+        <p><a href="http://wynca.app.yuecai.com/eip/common/loadNoLogin.htm?name=jun_r" target="_blank">供应商注册流程及操作指南</a></p>
+        	<p id="load"><a href="javascript:void(0);" n="jun_u" id="box2">供应商操作说明下载(PDF)</a></p>
+</div>
+<div class="mg-t8"><a class="introduce" href="http://wynca.app.yuecai.com/eip/jun/plantform.htm" target="_blank">
+	<p>新安集团电子采购管理平台简介</p>
+	<span>PING TAI JIAN JIE</span>
+</a></div>
+<div class="mg-t4"><a href="http://wynca.app.yuecai.com/eip/jun/supervise.htm"><img alt="" src="http://wynca.app.yuecai.com/eip/images/jun/report.png" /></a></div>
+
+<script type="text/javascript">
+   $("#box2").click(function(){
+       if(typeof(loadUrl)=="undefined"){
+       		jQuery.webox.open('请登录后下载！', {boxclass:'webox_tips',showCancel:false});
+       }else{
+       		window.open(loadUrl+'?name='+$('#box2').attr('n'))
+       }
+	});
+</script>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+<div class="footer">
+	<div class="txt">
+		<div class="fl">
+			<p>地址：新安江　&nbsp;&nbsp;&nbsp;&nbsp;邮编：311600</p>
+			<p>版权所有：浙江新安化工集团股份有限公司  &nbsp;&nbsp;&nbsp;&nbsp;技术支持：必联(北京)电子商务科技有限公司</p>
+		</div>
+   <!--  <div id="piwik"><span class="flow fr">今日访问：<font>0</font>&nbsp;&nbsp;&nbsp;累计访问：0</span></div> -->
+	</div>
+</div>
+<script>
+document.write('<scr'+'ipt type="text/javascript" src="http://wynca.app.yuecai.com/eip/common/login.htm"></scr'+'ipt>');window.onerror =function(){return true;}
+</script>
+<!--访问统计分析-->
+<script type="text/javascript">
+    /* 大数据统计代码 */
+    var userid_tjebnew = '';
+    var type_tjebnew = 'ae3bae0cbe534dc7a3ed9e332606de18';
+    if(location.href.indexOf('yuecai.com') != -1){
+        (function(){
+            var a = document.createElement('script');
+            a.type = 'text/javascript';
+            a.async = true;
+            a.src = 'http://cjjs.ebnew.com/cjjs/analysis.min.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(a, s);
+        })();
+    }
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?10b3db2cc0bc454dc0c2466b88578a2c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>	</body>
+</html>

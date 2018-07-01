@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html>
+	<head><script id="allmobilize" charset="utf-8" src="http://a.yunshipei.com/f222da8802aae562bf2f00bd672eda50/allmobilize.min.js"></script>
+<meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+		<meta charset="UTF-8">
+		<title>六枝特区人民政府网-公告公示</title>
+		<script src="../../../../../images/jquery-1.8.3.min.js" type="text/javascript"></script>
+        <script language="javascript" src="../../../../../images/tanchuceng.js"></script>
+         <link href="../../../../../images/xxgkml_list.css" rel="stylesheet" type="text/css" />
+		<script src="../../../../../images/JStools.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+			function GetQueryString(name) {
+			   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+			   var r = window.location.search.substr(1).match(reg);
+			   if (r!=null) return (r[2]); return null;
+			}
+		</script>
+			<script type="text/javascript">
+				var keyValue="";
+				var idxIDValue="";
+				var ChannelIDValue=jQuery("#channelid").val();
+		  	$(document).ready(function() {ChannelIDValue=jQuery("#channelid").val();
+				jQuery('#search_btn').click(function(){
+					InitTable();
+				});
+		  	});
+		  	//请求数据 
+				function InitTable() {
+					var html="";
+				        var getParameter="";
+					keyValue=$.trim(encodeURI(jQuery("#title").val()));
+					idxIDValue=jQuery("#indexID").val();
+					getParameter+="Channelid=";
+					getParameter+="&key="+keyValue;
+					if(idxIDValue.length>0)
+					{
+					getParameter+="&idxID="+idxIDValue;
+					}
+					var url='/gzdsWCMSearch/wcm2govinfo.jsp?'+getParameter+'&callback=?';//外网地址
+	                showloading();//加载loading
+					jQuery.getJSON(url,'',function (data){
+	    				jQuery("#searchRs").empty();//去掉loading
+						if(data.rows.length>0){
+							for(var i=0;i<data.rows.length;i++){
+								html+="<tr>";
+								html+="<td width='542' align='left' style='padding:4px;height:28px;'>· <a href='"+data.rows[i].docpuburl+"' target='_blank'>"+data.rows[i].MetaDataTitle.replace(keyValue,'<font color=\"red\">'+keyValue+'</font>')+"</a></td>";
+								html+="<td align='center' width='114' style='border-left:#e1e1e1 1px solid'>"+data.rows[i].PubDate.substring(0,10).replace(".","-").replace(".","-")+"</td>";
+								html+="<td align='center' width='128' style='border-left:#e1e1e1 1px solid'>"+data.rows[i].Publisher+"</td>";
+								html+="</tr>";
+							}
+						}else{
+								html+="<tr>";
+								html+="<td colspan='3' height='30' align='center'>没有查询到相关记录，请核实你输入的信息是否正确!</td>";
+								html+="</tr>";
+						}
+					    $("#idData").empty();
+					    $("#data").hide();
+					    $("#page").hide();
+						$("#idData").append(html);
+						$(".tab_list tr:nth-child(2n)").css("background-color","#F9F8F3");
+						goPage(1,20);
+					});
+				}
+				function showloading(){ //加载loading
+					   jQuery("#searchRs").html('<div class="searching">数据加载中<br/><img src="loading.gif" /><div>');
+				} 
+		</script>
+<script type="text/javascript">
+		function goPage(pno,psize){
+			var itable = document.getElementById("idData");
+			var num = itable.rows.length;//表格所有行数(所有记录数)
+			console.log(num);
+			var totalPage = 0;//总页数
+			var pageSize = psize;//每页显示行数
+			//总共分几页 
+			if(num/pageSize > parseInt(num/pageSize)){   
+					totalPage=parseInt(num/pageSize)+1;   
+			   }else{   
+				   totalPage=parseInt(num/pageSize);   
+			   }   
+			var currentPage = pno;//当前页数
+			var startRow = (currentPage - 1) * pageSize+1;//开始显示的行  31 
+			   var endRow = currentPage * pageSize;//结束显示的行   40
+			   endRow = (endRow > num)? num : endRow;    40
+			   console.log(endRow);
+			   //遍历显示数据实现分页
+            var tempStr="";
+			for(var i=1;i<(num+1);i++){    
+				var irow = itable.rows[i-1];
+				if(i>=startRow && i<=endRow){
+					irow.style.display = "block";
+					
+				}else{
+					irow.style.display = "none";
+				}
+			}
+			var pageEnd = document.getElementById("pageEnd");
+//			var tempStr = "共<font color=red>"+num+"</font>条记录 共<font color=red>"+totalPage+"</font>页 当前第<font color=red>"+currentPage+"</font>页";
+            var tempStr="";
+			if(currentPage>1){
+				tempStr += "&nbsp;<a href=\"javascript:;\" onClick=\"goPage("+(1)+","+psize+")\">首页</a>";
+				tempStr += "&nbsp;<a href=\"javascript:;\" onClick=\"goPage("+(currentPage-1)+","+psize+")\">上一页</a>"
+			}else{
+				tempStr += "&nbsp;<a href=\"javascript:;\">首页</a>";
+				tempStr += "&nbsp;<a href=\"javascript:;\">上一页</a>";    
+			}
+		
+			if(currentPage<totalPage){
+				tempStr += "&nbsp;<a href=\"javascript:;\" onClick=\"goPage("+(currentPage+1)+","+psize+")\">下一页</a>";
+				tempStr += "&nbsp;<a href=\"javascript:;\" onClick=\"goPage("+(totalPage)+","+psize+")\">尾页</a>";
+			}else{
+				tempStr += "&nbsp;<a href=\"javascript:;\">下一页</a>";
+				tempStr += "&nbsp;<a href=\"javascript:;\">尾页</a>";    
+			}
+		
+			document.getElementById("barcon").innerHTML = tempStr;
+			
+		}
+	</script>
+	</head>
+	<body>
+	<div class="list_nr">
+		<table width="100%" align="center">
+<tr>
+	<td>
+		<!--当前位置-->
+<div class="dqwz">
+	当前位置：<a href="../../../../../" target="_parent" title="首页" class="CurrChnlCls">首页</a>&nbsp;&raquo;&nbsp;<a href="../../../../" target="_parent" title="政务公开" class="CurrChnlCls">政务公开</a>&nbsp;&raquo;&nbsp;<a href="../../../" target="_parent" title="信息公开目录" class="CurrChnlCls">信息公开目录</a>&nbsp;&raquo;&nbsp;<a href="../../" target="_parent" title="重点领域信息" class="CurrChnlCls">重点领域信息</a>&nbsp;&raquo;&nbsp;<a href="../" target="_parent" title="政府采购" class="CurrChnlCls">政府采购</a>&nbsp;&raquo;&nbsp;<a href="./" target="_parent" title="公告公示" class="CurrChnlCls">公告公示</a>
+	
+</div>
+		<!--检索 -->
+        <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%">
+		  <tr >
+		   <td width="91" height="34" background="/images/xxgk_lb_03.jpg"></td>
+		   <td width="50" align="right" background="/images/xxgk_lb_05.jpg">名称： </td>
+		   <td width="158" valign="middle" background="/images/xxgk_lb_05.jpg">
+			    <input name="title" id="title" type="text" style="width:158px ;height:20px; border:none;background-image:url(../../../../../images/xxgk_ss.gif); background-position:left; background-repeat:repeat-x ;" value="" maxlength="200" />
+		   </td>
+		   <td width="50" align="right" background="../../../../../images/xxgk_lb_05.jpg">索引号： </td>
+		   <td width="158" valign="middle" background="/images/xxgk_lb_05.jpg">
+			    <input name="indexID" id="indexID" type="text" style="width:158px ;height:20px; border:none;background-image:url(../../../../../images/xxgk_ss.gif); background-position:left; background-repeat:repeat-x ;" value="" maxlength="200" />
+		   </td>
+		  <td valign="middle" style="padding-left:10px;" background="/images/xxgk_lb_05.jpg">
+	  	    <input type="image" name="btnsearch" id="search_btn" value="检索" src="/images/xxgk_ssaj.jpg" /></td>
+			<td width="12" background="/images/xxgk_lb_07.jpg"></td>
+		  </tr>
+		</table>
+		 
+<!--列表标题-->
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr class='tr_main_label'>
+<td width="9" height="32" background="/images/xxgk_lby_04.jpg"></td>
+<td align='center' background="/images/xxgk_lby_05.jpg"><strong>信息标题</strong></td>
+<td width="15" background="/images/xxgk_lby_07.jpg"></td>
+<td width="100" align='center' background="/images/xxgk_lby_05.jpg"><strong>生成日期</strong></td>
+<td width="15" background="/images/xxgk_lby_07.jpg"></td>
+<td width="150" align='center' background="/images/xxgk_lby_05.jpg"><strong>发布机构</strong></td>
+<td width="12" background="/images/xxgk_lby_09.jpg"></td>
+</tr>
+</table>
+<table class="tab_list" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="border-bottom:#e1e1e1 1px solid; border-right:#e1e1e1 1px solid; border-left:#e1e1e1 1px solid;" id="idData">
+	
+</table>
+<!--列表-->
+<table class="tab_list" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="border-bottom:#e1e1e1 1px solid; border-right:#e1e1e1 1px solid; border-left:#e1e1e1 1px solid;" id="data">
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927650.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目环境影响报告书第二次公示</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-01496</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目环境影响报告书第二次公示</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-27</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927649.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目水土保持招标竞争性谈判结果公示</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-01495</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目水土保持招标竞争性谈判结果公示</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-27</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927648.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目设计招标竞争性谈判结果公示</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-01494</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目设计招标竞争性谈判结果公示</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-27</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927647.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目监理招标竞争性谈判结果公示</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-01493</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目监理招标竞争性谈判结果公示</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-27</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927646.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目环境评估招标竞争性谈判结果公示</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-01492</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目环境评估招标竞争性谈判结果公示</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-27</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927645.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目地质灾害测评招标竞争性谈判结果公示</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-01491</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目地质灾害测评招标竞争性谈判结果公示</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-27</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927644.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目场地平整招标竞争性谈判结果公示</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-01490</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目场地平整招标竞争性谈判结果公示</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-27</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927643.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目勘察招标竞争性谈判公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-01489</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目勘察招标竞争性谈判公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-27</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201712/t20171228_2927642.html">
+		
+	
+·银壶社区卫生服务中心病房供氧设备安装招标  竞争性谈判公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-01488</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;银壶社区卫生服务中心病房供氧设备安装招标  竞争性谈判公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-27</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852048.html">
+		
+	
+·六枝特区银壶社区卫生服务中心4、5、6层病房装修项目竞争性谈判招标公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00225</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区银壶社区卫生服务中心4、5、6层病房装修项目竞争性谈判招标公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852047.html">
+		
+	
+·六枝特区塔山社区卫生服务中心三年服务能力提升建设设备购置竞争性谈判公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00224</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区塔山社区卫生服务中心三年服务能力提升建设设备购置竞争性谈判公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852045.html">
+		
+	
+·六枝特区岩脚镇卫生院数字化预防接种门诊、医共体改造装修项目竞争性谈判招标公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00222</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区岩脚镇卫生院数字化预防接种门诊、医共体改造装修项目竞争性谈判招标公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852046.html">
+		
+	
+·六枝特区新场乡卫生院数字化预防接种门诊装修项目竞争性谈判招标公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00223</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区新场乡卫生院数字化预防接种门诊装修项目竞争性谈判招标公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852044.html">
+		
+	
+·六枝特区塔山社区卫生服务中心数字化预防门诊、中医馆装修项目竞争性谈判招标公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00221</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区塔山社区卫生服务中心数字化预防门诊、中医馆装修项目竞争性谈判招标公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852043.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目水土保持招标  竞争性谈判公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00220</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目水土保持招标  竞争性谈判公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852042.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目设计招标竞争性谈判公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00219</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目设计招标竞争性谈判公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852041.html">
+		
+	
+·六枝特区落别乡卫生院数字化预防接种门诊、中医馆装修项目竞争性谈判招标公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00218</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区落别乡卫生院数字化预防接种门诊、中医馆装修项目竞争性谈判招标公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852040.html">
+		
+	
+·六枝特区龙河镇卫生院数字化预防接种门诊装修项目竞争性谈判招标公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00217</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区龙河镇卫生院数字化预防接种门诊装修项目竞争性谈判招标公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852039.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目监理招标  竞争性谈判公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00216</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目监理招标  竞争性谈判公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+<tr>							
+<td align='left' style='padding:4px;height:28px;'>
+ <h1>
+		
+	
+	
+		
+		<a TARGET="_blank" href="http://www.liuzhi.gov.cn/zwgk/xxgkml/zdlyxx/zfcg/gggs_54996/201711/t20171120_2852038.html">
+		
+	
+·六枝特区疾病预防控制中心迁建项目环境评估招标竞争性谈判公告</a>
+<div class="showbox">
+	<ul>
+		<li class="li01">索引号:</li>
+		<li class="li02">&nbsp;GZ000001/2017-00215</li>
+		<li class="li01">文&emsp;号:</li>
+		<li class="li02">&nbsp;</li>
+		<li class="li01">发布机构:</li>
+		<li class="li02">
+			&nbsp;<script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+		</li>
+		<li class="li01">
+		是否有效:
+		</li>
+			<li class="li02">
+			<script type="text/javascript">
+				var  isok='1';
+				if(isok=='0'){
+					document.write('&nbsp;否');
+				}
+				else{
+					document.write('&nbsp;是');
+				}
+			</script>
+			</li>
+		<li class="li01">名&emsp;称:</li>
+		<li class="li03">&nbsp;六枝特区疾病预防控制中心迁建项目环境评估招标竞争性谈判公告</li>
+		
+	</ul>
+</div>
+</h1>
+</td>
+<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-20</td>
+<td align='center' width="128" style="border-left:#e1e1e1 1px solid"><script type="text/javascript">
+                 var str = "";
+                 var str_1 = "区政府办公室";
+                 if (str == "") {
+                     document.write(str_1);
+                 } else {
+                     document.write(str);
+                 }
+             </script>
+
+</td>
+	</tr>
+
+</table>
+<script type="text/javascript">
+$(".tab_list tr:nth-child(2n)").css("background-color","#F9F8F3");
+</script>
+<!--分页-->
+<div id="barcon" name="barcon"  class="page t_c"></div>
+<div id="page">
+<div class="page">
+    <!-- 通用分页 -->
+<script type="text/javascript" src="/images/createpage.js"></script>
+<script>createPageHTML(6, 1, "list", "html")</script>
+<!-- 通用分页 结束 -->
+</div>
+</div>
+</td>
+</tr>
+</table>
+
+	</div>
+
+	</body>
+</html>

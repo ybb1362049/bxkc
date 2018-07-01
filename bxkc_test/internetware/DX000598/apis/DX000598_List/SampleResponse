@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>国元农业保险股份有限公司</title>
+﻿<link href="/template/1/bluewise/_files/css/style.css" rel="stylesheet" type="text/css" />
+<!-- /**********主体部分背景图设置**********/ -->
+<style type="text/css">
+	.bg_a{width:100%;height:auto;text-align:center;background:url(/template/1/bluewise/_files/images/index-02_42.png) no-repeat center bottom;}
+	.bg_a_index{width:100%;height:auto;text-align:center;background:url(/template/1/bluewise/_files/images/index-02_42_index.png) no-repeat center bottom;}
+	/*------ //搜索框 ---------*/
+.search-keyword {
+	width:180px;
+	height:22px;
+	line-height:22px;
+	padding-left:5px;
+	border:0px;
+	border:#badaa1 solid 1px;
+	background: #FFF;
+	color:#444;
+}
+.search-submit{ 
+	cursor:pointer;
+	height:22px; width:60px;
+	border:1px solid #999;
+	margin-top:1px;
+	text-align:center;
+	background:#EEE;
+}
+</style>
+<link href="/static/vendor/ueditor/third-party/video-js/video-js.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="/static/fore/jquery.js"></script>
+<script type="text/javascript" src="/static/fore/jquery.validation_zh_CN.js"></script>
+<script type="text/javascript" src="/static/fore/bluewise.js"></script>
+<script type="text/javascript" src="/static/fore/fore.js"></script>
+<script language="javascript" type="text/javascript" src="/static/vendor/ueditor/third-party/video-js/video.js" charset="utf-8"></script>
+</head>
+
+<body>
+﻿<!--顶部登录 链接-->
+	<div class="top_0">
+    	<div class="pub top_a">
+        	<div class="left top_a1">
+				<p class="left top_a1">欢迎您访问，公司邮箱 <a href="http://mail.gynybx.com.cn/" title="" target="_blank" >登录 </a></p>
+				<form  name="formsearch" action="/search.jspx" class="right top_b1" target="_blank">
+					<li>&nbsp;&nbsp;<input name="q" type="text" class="search-keyword" style="height:20px; margin-top:0px;" id="search-keyword" value="在这里搜索..."  onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" /></li>
+					<li style="-margin-top:7px; margin-left:5px;"><button type="submit" class="search-submit">搜索</button></li>
+				</form>
+			</div>
+			
+            <div class="right top_a2"><a id = "oldsite" href="http://www.gynybx.com.cn:8083/sinocms/" title="" target="_blank" >网站旧版</a> | <a href="/" title="">返回首页</a> | <a onclick="SetHome(this,'http://www.gynybx.com.cn');" href="javascript:void(0);" title="">设为首页</a> | <a onclick="AddFavorite('我的网站',location.href)" href="javascript:void(0);" title="">加入收藏</a></div>
+        </div>
+    </div>
+<!--头部logo 联系方式-->
+    <div class="pub head">
+    	<div class="left logo"><img src="/template/1/bluewise/_files/images/logo.png" alt="国元农业保险股份有限公司"></div>
+        <div class="right head_r">
+        	<div class="phone"><img src="/template/1/bluewise/_files/images/index-02_06.png"></div>
+            <div class="link_a">
+            	<a href="javascript:void(0);" title="" >安徽省机构</a>  |  <a href="http://henan.gynybx.com.cn" target="_blank" title="" style="color:#FF0000">河南分公司</a>  |  <a href="javascript:void(0);" title="" >湖北分公司</a>  |  <a href="javascript:void(0);" title="" >贵州分公司</a>  |  <a href="http://shanghai.gynybx.com.cn" target="_blank" title="" style="color:#FF0000">上海分公司</a>
+            </div>
+        </div>
+    </div>
+<!--导航-->
+    <div class="nav">
+    	<ul class="pub">
+        <li><a href="/" title="首页">首页</a></li> 
+				<li class="nav_jh">
+				<a href="//www.gynybx.com.cn/node/93.jspx" title="公司动态">公司动态</a>
+				</li>
+				<li >
+				<a href="//www.gynybx.com.cn/node/94.jspx" title="新闻资讯">新闻资讯</a>
+				</li>
+				<li >
+				<a href="//www.gynybx.com.cn/node/95.jspx" title="产品推介">产品推介</a>
+				</li>
+				<li >
+				<a href="//www.gynybx.com.cn/node/96.jspx" title="客户服务">客户服务</a>
+				</li>
+				<li >
+				<a href="//www.gynybx.com.cn/node/97.jspx" title="企业文化">企业文化</a>
+				</li>
+				<li >
+				<a href="//www.gynybx.com.cn/node/98.jspx" title="保险知识">保险知识</a>
+				</li>
+				<li >
+				<a href="//www.gynybx.com.cn/node/132.jspx" title="公开信息披露">公开信息披露</a>
+				</li>
+				<li >
+						<a href="//www.gynybx.com.cn/node/117.jspx" title="关于我们">关于我们</a>
+				
+				</li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+	document.write(unescape("%3Cscript src='/visit_log.jspx%3FsiteId%3D1%26url%3D")+document.location.href+unescape("%26referrer%3D")+document.referrer+unescape("' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<!--主体-->
+    <div class="bg_a">
+    	<div class="pub bg_b">
+        	<div class="banner banner_2">
+            	<a href="###" title=""><img src="/template/1/bluewise/_files/images/banner-2.jpg"></a>
+            </div>
+            <!--主要内容-->
+            <div class="center">
+				<!--子页左侧-->
+<!--子页左侧-->
+<div class="left zy_xm">
+		<div id="twoSection">
+		 <div class="zy_xm_name">公司动态</div>
+		<ul class="zy_xm_lei">
+				
+				<li ><a href="//www.gynybx.com.cn/node/126.jspx" title="国元快讯">国元快讯</a></li>
+				<li ><a href="//www.gynybx.com.cn/node/102.jspx" title="图片新闻">图片新闻</a></li>
+				<li ><a href="//www.gynybx.com.cn/node/127.jspx" title="媒体看国元">媒体看国元</a></li>
+				<li ><a href="//www.gynybx.com.cn/node/128.jspx" title="国元视频">国元视频</a></li>
+				<li ><a href="//www.gynybx.com.cn/node/129.jspx" title="机构工作">机构工作</a></li>
+				<li class="li_jh"><a href="//www.gynybx.com.cn/node/130.jspx" title="招投标公告">招投标公告</a></li>
+				<li ><a href="//www.gynybx.com.cn/node/131.jspx" title="党风廉政">党风廉政</a></li>
+		</ul>
+	</div>
+	<!-- 快捷服务 -->
+<div class="xm_01">
+	<div class="zy_xm_name">快捷服务</div>
+	<ul class="zy_xm_lei">
+		<li><a href="http://selfquery.gynybx.com.cn:8080/selfquery/" title="保单查询" target="_blank">保单查询</a></li>
+				<li><a href="//www.gynybx.com.cn/node/132.jspx" title="公开信息" target="_blank">公开信息</a></li>
+		<li><a href="http://mail.gynybx.com.cn/" title="企业邮箱" target="_blank">企业邮箱</a></li>
+				<li><a href="//www.gynybx.com.cn/node/124.jspx" title="保险报" target="_blank">国元保险报</a></li>
+	</ul>
+</div>
+</div>
+            	<!--子页右侧-->
+                <div class="left zy_nr">
+                	<div class="lujing">
+                    	<div class="left lj_a">
+                        	<!-- 通用list模板页 -->
+							<span>招投标公告</span>
+                        </div>
+                        <div class="right lj_b">
+							<a href="//www.gynybx.com.cn/" title="首页">首页</a> - <a href="//www.gynybx.com.cn/node/93.jspx" title="公司动态">公司动态</a> - <a href="//www.gynybx.com.cn/node/130.jspx" title="招投标公告">招投标公告</a>
+                        </div>
+                    </div>
+					  <ul class="nr_new">
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4877.jspx" title="国元保险霍邱支公司职场装修邀请公告" target="_blank">国元保险霍邱支公司职场装修邀请公告</a></span>
+                            <span class="right">更新时间：2017-12-26 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4822.jspx" title="国元农业保险股份有限公司霍邱支公司职场装修项目报名公告" target="_blank">国元农业保险股份有限公司霍邱支公司职场装修项目报名公告</a></span>
+                            <span class="right">更新时间：2017-12-15 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4714.jspx" title="国元农业保险股份有限公司潜山支公司职场装修项目报名公告" target="_blank">国元农业保险股份有限公司潜山支公司职场装修项目报名公告</a></span>
+                            <span class="right">更新时间：2017-11-16 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4566.jspx" title="国元农业保险股份有限公司存储采购项目招标公告" target="_blank">国元农业保险股份有限公司存储采购项目招标公告</a></span>
+                            <span class="right">更新时间：2017-10-11 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4565.jspx" title="国元农业保险股份有限公司运维管理平台项目招标公告" target="_blank">国元农业保险股份有限公司运维管理平台项目招标公告</a></span>
+                            <span class="right">更新时间：2017-10-11 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4496.jspx" title="国元农业保险股份有限公司存储采购项目" target="_blank">国元农业保险股份有限公司存储采购项目</a></span>
+                            <span class="right">更新时间：2017-09-21 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4472.jspx" title="国元保险职工运动会项目中标公示" target="_blank">国元保险职工运动会项目中标公示</a></span>
+                            <span class="right">更新时间：2017-09-19 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4408.jspx" title="国元农业保险股份有限公司第一届职工运动会项目招标采购延期公告" target="_blank">国元农业保险股份有限公司第一届职工运动会项目招标采购延期公告</a></span>
+                            <span class="right">更新时间：2017-09-13 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4387.jspx" title="国元农业保险股份有限公司淮北分公司智能化综合布线工程比选公告" target="_blank">国元农业保险股份有限公司淮北分公司智能化综合布线工程比选公告</a></span>
+                            <span class="right">更新时间：2017-09-08 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4386.jspx" title="国元农业保险股份有限公司淮北分公司职场室内装修工程招标公告" target="_blank">国元农业保险股份有限公司淮北分公司职场室内装修工程招标公告</a></span>
+                            <span class="right">更新时间：2017-09-08 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4379.jspx" title="国元保险第一届职工运动会宣传物料设计及活动策划邀请公告" target="_blank">国元保险第一届职工运动会宣传物料设计及活动策划邀请公告</a></span>
+                            <span class="right">更新时间：2017-09-06 </span>
+						</li>
+						<li>
+							<span class="left li_c"><a href="//www.gynybx.com.cn/info/4173.jspx" title="国元保险OCR系统采购招标公告" target="_blank">国元保险OCR系统采购招标公告</a></span>
+                            <span class="right">更新时间：2017-07-21 </span>
+						</li>
+					 </ul>
+<div class="next">
+	<ul class="left">
+		<li><a class="page-a">首页</a></li>
+		<li><a class="page-curr">1</a></li>
+		<li><a href="//www.gynybx.com.cn/node/130_2.jspx" class="page-a">2</a></li>
+		<li><a href="//www.gynybx.com.cn/node/130_3.jspx" class="page-a">3</a></li>
+		<li><a href="//www.gynybx.com.cn/node/130_4.jspx" class="page-a">4</a></li>
+		<li><a href="//www.gynybx.com.cn/node/130_5.jspx" class="page-a">5</a></li>
+		<li><a href="//www.gynybx.com.cn/node/130_6.jspx" class="page-a">6</a></li>
+		<li><a href="//www.gynybx.com.cn/node/130_2.jspx" class="page-a">下一页</a></li>
+		<li><a href="//www.gynybx.com.cn/node/130_6.jspx" class="page-a" >尾页</a></li>
+	</ul>
+	<div class="left next_xx">			 
+		每页显示<span class="red">12</span>条信息，共<span class="red">64</span>条信息，页次：<span class="red">1/6</span>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--底部信息-->
+    <div class="bottom_bq">
+    地址：合肥市长江西路315号&nbsp;&nbsp;邮编：230031&nbsp;&nbsp;电话：96999<br/>
+    版权所有&nbsp;&nbsp;2008 国元农业保险股份有限公司&nbsp;&nbsp;皖ICP备08106212号<br/>
+    Copyright GUOYUAN Agricultural Insurance Co.,Ltd. All Rights Reserved<br/>
+    </div>
+</body>
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="铣床,招标公告 ,招标项目"/> 
+  <meta name="description" content="中国国际招标网是中国最大的电子招投标行政监督和公共服务平台，经国家商务部授权的电子招投标平台。提供国际招标、采购信息和网上交易以及相关的专业咨询服务。"/> 
+  <title>十九部-铣床20170301徐凯-中国国际招标网</title>
+  <link rel="stylesheet" href="http://staticfile.chinabidding.com/css/xlxm.css" type="text/css" />
+  <style>
+  	table {
+  		width:100%;
+  	}
+  </style>
+</head>
+<body> 
+	<div class="wraper">
+		<!-- top header bar -->
+		<meta http-equiv="content-script-type" content="text/javascript">
+<link rel="stylesheet" href="http://staticfile.chinabidding.com/css/common.css" type="text/css" />
+<link rel="stylesheet" href="http://staticfile.chinabidding.com/css/ui-dialog.css" type="text/css">
+<div id="top-header" class="top-header span-all">
+	<ul class="info-list">
+		<li class="list-item first">
+			<dl class="horizontal">
+				<dt class="welcome">
+					<span class="welcome-info" id="topName">您好，欢迎来到中国国际招标网</span>
+				</dt>
+				<dd class="top-login" id="topLogin">
+					<span class=""><a href="http://www.chinabidding.com/bid/index/loginIndex.htm" title="请登录">请登录</a></span><span class=""><a href="http://register.chinabidding.com/simple/webRegister/index.view" target="_blank" title="请注册">免费注册</a></span>
+				</dd>
+			</dl>
+		</li>
+		<li class="list-item last">
+			<dl class="horizontal">
+				<dt class="top-language">
+					<span class=""><a href="http://www.chinabidding.com" title="中国际招标网">首页</a><i>|</i><a href="http://enicb.ebnew.com/emain.jhtml" target="_blank"  title="English">English</a></span>
+				</dt>
+				<dd class="top-tell">
+					<span>客服：</span>010-58851111-606
+				</dd>
+				<dd class="top-tell">
+					<span>投诉：</span>010-58851111-618/887
+				</dd>
+				<dd class="top-tell">
+					<span><a class="as-report" href="#" company-name="" id="reportTop" title="举报信箱"><span class="welcome-info">举报信箱</span></a></span>
+				</dd>
+			</dl>
+		</li>	
+	</ul>
+</div>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/plugin/jquery/jquery.js"></script>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/plugin/dialog/dialog-min.js"></script>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/common/top.js"></script>
+<script> 
+document.write('<scr'+'ipt type="text/javascript" src="http://www.chinabidding.com/bid/login/loginTop.htm"></scr'+'ipt>');window.onerror =function(){;return true;}
+</script>
+
+		<!-- top header bar end -->
+		<!-- header-area  include logo , search -->
+					<div id="header" class="header">
+				<dl class="horizontal">
+					<dt>
+						<a href="http://www.chinabidding.com" class="site-logo">中国国际招标网</a>
+					</dt>
+					<dd class="site-search">
+						<div class="as-tab">
+							<ul class="as-tab-navs">
+								<li class="as-tab-nav-item on">
+									<a href="">招标项目
+									<span class="icon"></span>
+									</a>
+								</li>
+								<li class="as-tab-nav-item">
+									<a href="">资讯
+										<span class="icon"></span>
+									</a>
+								</li>
+								<li class="as-tab-nav-item">
+									<a href="">招标机构
+										<span class="icon"></span>
+									</a>
+								</li>
+							</ul>
+							<div class="as-tab-conts">
+								<div class="as-tab-cont-item on">
+									<div class="search-box well">
+										<fieldset>
+											<legend class="none">项目名称搜索</legend>
+											<form name="projSearchForm" id="projSearchForm" action="http://www.chinabidding.com/search/proj.htm" method="POST" onsubmit="return submitCheck(this);">
+												<input type="text" name="fullText" id="fullText"  placeholder="请输入项目名称，产品或企业名称" maxlength="50" class="bdsearch">
+												<input type="hidden" name="poClass" value="BidNotice" />
+												<button class="" type="sbumit" >搜索</button>
+											</form>
+										</fieldset></div>
+								</div>
+								<div class="as-tab-cont-item">
+									<div class="search-box well">
+										<fieldset>
+											<legend class="none">资讯信息搜索</legend>
+											<form name="infoSearchForm" action="http://www.chinabidding.com/bid/info/search.htm" method="POST" onsubmit="return submitCheck(this);">
+												<input type="text" name="fullText" id="fullText"  placeholder="请输入信息关键字" maxlength="50" class="bdsearch">
+												<button class="" type="sbumit">搜索</button>
+											</form>
+										</fieldset>
+									</div>									
+								</div>
+								<div class="as-tab-cont-item">
+									<div class="search-box well">
+										<fieldset>
+											<legend class="none">机构名称搜索</legend>
+											<form name="govSearchForm" action="http://www.chinabidding.com/bid/tool/bidorglist.htm" method="POST" onsubmit="return submitCheck(this);">
+												<input type="text" name="queryword" id="fullText"  placeholder="请输入招标机构名称" maxlength="50" class="bdsearch">
+												<button class="" type="sbumit">搜索</button>
+											</form>
+										</fieldset>
+									</div>
+								</div>
+							</div>
+							<dl class="horizontal hot-word-list">
+								 								        <span style="float:left;padding-right: 4px;padding-left: 2px;color:#777" >热门搜索：</span>
+																			 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('锅炉');"  title="锅炉">锅炉</a></dd>
+								    										 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('起重机');"  title="起重机">起重机</a></dd>
+								    										 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('CT');"  title="CT">CT</a></dd>
+								    										 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('医疗设备');"  title="医疗设备">医疗设备</a></dd>
+								    										 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('电梯');"  title="电梯">电梯</a></dd>
+								    								 							</dl>
+							<script type="text/javascript">
+								function projSearchSubmit(key){
+									 $("#projSearchForm").find("#fullText").val(key);
+									 $("#projSearchForm").submit();
+							    }
+								function submitCheck(sform){
+									   var fullText = $(sform).find("#fullText").val();
+									   var placeholder = $(sform).find("#fullText").attr("placeholder");//解决ie8兼容性问题
+									   if(fullText=="" || fullText == placeholder){
+										    return false;
+									   }else{
+									   	  return true;
+									   }
+								    }
+							</script>	
+						</div>
+					</dd>
+				</dl>
+			</div>
+					<!-- header-area include logo ,search end -->
+		<!-- site navigator -->
+					<div id="navigator" class="span-all">
+				<dl class="horizontal">
+					<dt>
+						<ul class="nav-list">
+							<li  class="nav-item" ><a href="http://www.chinabidding.com">首页</a></li>
+							<li  class="nav-item" ><a href="http://www.chinabidding.com/gov">政务大厅</a></li>
+							<li  class="nav-item" ><a href="http://www.chinabidding.com/tender">业务大厅</a></li>
+							<li  class="nav-item" ><a href="http://www.chinabidding.com/server">实务大厅</a></li>
+							<li  class="nav-item" ><a href="http://www.chinabidding.com/info">服务大厅</a></li>
+							<li class="nav-item"><a href="http://bbs.ebnew.com/" target="_blank">互动大厅</a></li>
+							<li  class="nav-item last" ><a href="http://www.chinabidding.com/bid/jump/aboutUs.htm">关于我们</a></li>
+						</ul>
+					</dt>	
+					<dd>
+						<ul class="quick-link">
+							<li class="quick-item"><a href="http://www.chinabidding.com/bid/login/forward.htm" target="_blank">招标机构</a></li>
+							<li class="quick-item"><a href="http://www.chinabidding.com/bid/login/forward.htm" target="_blank">招标人</a></li>
+							<li class="quick-item"><a href="http://www.chinabidding.com/bid/login/forward.htm" target="_blank">投标人</a></li>
+						</ul>
+					</dd>
+				</dl>
+			</div>		<!-- site navigator end -->
+		<!-- site-Content-area -->
+			<div id="site-content" class="cont-render" ng-app="bidDetailModule">
+				<div id="lab-show" class="lab-show">
+					<div class="site-bread">您当前的位置:<a href="http://www.chinabidding.com">首页 </a><span>></span><a href="http://www.chinabidding.com/search/proj.htm">招标项目搜索</a><span>></span>招标项目详情</div>
+					<div class="as-floor-normal">
+					<div class="span-f">
+							<div class="as-article">
+							<h3>十九部-铣床20170301徐凯</h3>
+							<p class="as-article-summary">
+								<span class="release-time">发布时间：2017-03-01</span>
+							</p>
+							 <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a title="" href="#" class="bds_weixin" data-cmd="weixin"></a><a title="" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="" href="#" class="bds_qzone" data-cmd="qzone"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{},"image":{"viewList":["weixin","tsina","qzone"],"viewText":"���?��","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["weixin","tsina","qzone"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>							<div class="as-article-body table-article">
+							
+								
+									<div>
+	<table width="740" bordercolorlight="#777777" border="1" align="center" cellpadding="2" cellspacing="0">
+		<tbody>
+			<tr>
+				<td width="30%" nowrap="nowrap">项目名称</td>
+				<td>十九部-铣床20170301徐凯</td>
+			</tr>
+			<tr>
+				<td width="30%" nowrap="nowrap">项目编号</td>
+				<td>MF-D19cg-0020399-2017NJ</td>
+			</tr>
+			<tr>
+				<td width="30%" nowrap="nowrap">项目描述</td>
+				<td>、</td>
+			</tr>
+			<tr>
+				<td width="30%" nowrap="nowrap">联系人</td>
+				<td>徐凯</td>
+			</tr>
+			<tr>
+				<td width="30%" nowrap="nowrap">联系电话</td>
+				<td>025-5729 8888-31039</td>
+			</tr>
+			<tr>
+				<td width="30%" nowrap="nowrap">传真</td>
+				<td>/</td>
+			</tr>
+			<tr>
+				<td width="30%" nowrap="nowrap">电子邮件</td>
+				<td>xu.kai7@byd.com</td>
+			</tr>
+			<tr>
+				<td width="30%" nowrap="nowrap">报价开始时间</td>
+				<td>2017-3-1 12:02</td>
+			</tr>
+			<tr>
+				<td width="30%" nowrap="nowrap">报价结束日期</td>
+				<td>2017-3-1 15:02</td>
+			</tr>
+			<tr>
+				<td width="30%" nowrap="nowrap">备注</td>
+				<td>请及时下载附件报价盖章上传，谢谢！</td>
+			</tr>
+		</tbody>
+	</table>
+	比亚迪股份有限公司http://epp.byd.com.cn:8080/eprocure/login   联系电话(总机)：0755-89888888
+</div>
+
+								
+								
+																																													<!--div class="login-prompt">
+										<h4>**内容为隐藏内容，<a id="login" href="javascript:void(0);">登录</a>后即可查看，新用户请<a href="http://register.chinabidding.com">注册</a>!</h4>
+										<p><span class="custom-service">客服热线：400-0606-000</span><span class="">咨询电话：010-58851111</span></p>
+									</div>-->								
+																</div>
+
+							<div class="as-article-inform">
+								<dl class="last">
+									<dt>友情提示：</dt>
+									<dd>为保证您能够顺利投标，请在投标或购买招标文件前向招标代理机构或招标人咨询投标详细要求，具体要求及项目情况以招标代理机构或招标人的解释为准。 
+								</dd>
+								</dl>
+
+							</div>
+						</div>
+					
+					</div>
+						
+							<div class="span-side">
+								<div id="x-h-x-m" ng-controller="bidDetailXhCtrl">
+									<h3 class="as-tit-3">
+										<span class="tit">现汇项目</span>
+										<a href="http://www.chinabidding.com/search/proj.htm?fundSourceCodes=07" target="_blank" class="more">更多&gt;</a>
+									</h3>
+									<ul class="news-info-list dotted">
+										<li class="news-info-item" ng-repeat="item in bidDetailXh">
+											<i ng-class="{'icon':$index>-1}"></i>
+											<a href="http://www.chinabidding.com/bidDetail/{{item.id}}.html" title="{{item.docTitle}}" ng-bind="item.docTitle|detailSubFilter:'23'" target="_blank"></a>
+											<span class="time" ng-bind="item.createDate|dateMdFilter"></span>
+										</li>
+									</ul>
+							</div>
+
+							<div id="y-h-s-h" ng-controller="bidDetailYhCtrl">
+								<h3 class="as-tit-3">
+									<span class="tit">亚行世行</span>
+									<a href="http://www.chinabidding.com/search/proj.htm?fundSourceCodes=010203" target="_blank" class="more">更多&gt;</a>
+								</h3>
+								<ul class="news-info-list dotted">
+									<li class="news-info-item" ng-repeat="item in bidDetailYh">
+										<i ng-class="{'icon':$index>-1}"></i>
+										<a href="http://www.chinabidding.com/bidDetail/{{item.id}}.html" title="{{item.docTitle}}" ng-bind="item.docTitle|detailSubFilter:'23'" target="_blank"></a>
+										<span class="time" ng-bind="item.createDate|dateMdFilter"></span>
+									</li>
+								</ul>
+						</div>
+							<div id="w-g-d-k" ng-controller="bidDetailWdCtrl">
+								<h3 class="as-tit-3">
+									<span class="tit">外国贷款</span>
+									<a href="http://www.chinabidding.com/search/proj.htm?fundSourceCodes=0101*" target="_blank" class="more">更多&gt;</a>
+								</h3>
+								<ul class="news-info-list dotted">
+									<li class="news-info-item" ng-repeat="item in bidDetailWd">
+										<i ng-class="{'icon':$index>-1}"></i>
+										<a href="http://www.chinabidding.com/bidDetail/{{item.id}}.html" title="{{item.docTitle}}" ng-bind="item.docTitle|detailSubFilter:'23'" target="_blank"></a>
+										<span class="time" ng-bind="item.createDate|dateMdFilter"></span>
+									</li>
+								</ul>
+						</div>
+						<!-- div ng-controller="bidDteailAdCtrl" id="bidDteailAd">
+							<a href="{{bidDetailAd.messageUrl}}" target="_blank" title="ad-lab-side" style="display:block;width:240px; height:172px; margin-top:10px; overflow:hidden;"><img style="display:block;width:240px; height:172px; overflow:hidden;" ng-src="{{bidDetailAd.columnUrl}}" alt="tezhao"></a>
+						</div-->
+						</div><!-- end of span-side -->
+
+			</div>
+
+
+			</div> <!-- normal floor-normal -->
+
+		</div>
+		<!--site-footer-area  -->
+		<div id="site-footer" class="span-all">	
+						<div class="site-info">
+				<ul class="service-link">
+					<!-- <li><a href="http://www.chinabidding.com/bid/jump/aboutUs.htm" title="关于我们">关于我们</a></li>
+					<li><a href="http://www.chinabidding.com/bid/jump/termsOfService.htm" title="服务条款">服务条款</a></li>
+					<li><a href="http://www.chinabidding.com/bid/jump/legalNotices.htm" title="法律声明">法律声明</a></li>
+					<li><a href="http://www.chinabidding.com/bid/jump/contactUs.htm" title="联系我们">联系我们</a></li> -->
+				</ul>
+				<div class="copy-right">
+				<p>©2001--2017&nbsp;&nbsp;<a href="http://www.chinabidding.com" title="中国国际招标网">中国国际招标网</a> &nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank" title="京ICP备12040737号-1">京ICP备12040737号-1</a>&nbsp;&nbsp;<span>京公网安备11010802015427 号</span> <br>
+      <a href="http://www.mofcom.gov.cn/" target="_blank" title="中华人民共和国商务部授权">中华人民共和国商务部授权</a><a href="http://bbs.chinabidding.com" style="color:#fff;">中国招标采购社区</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				</div>
+				<div class="Certificate-bar">
+					<ul>
+						<li><a href="http://fzp.bjhd.gov.cn/tabid/179/Default.aspx" target="_blank" title="海淀分局防诈骗网"><i class="icon icon-hdfj"></i></a></li>
+						<li><a href="http://www.bj.cyberpolice.cn/index.do" target="_blank" title="网络110报警服务"><i class="icon icon-wlbjfw"></i></a></li>
+						<li><a href="http://www.hd315.gov.cn/" target="_blank" title="经营性网站备案信息"><i class="icon icon-jyxwz"></i></a></li>
+						<!--<script src="http://kxlogo.knet.cn/seallogo.dll?sn=e13031311010039503875e000000&amp;size=0"></script>-->
+						<li><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e15061011010859049lhjc000000&size=0"></script></li>
+						<!--<li><a href="https://ss.knet.cn/verifyseal.dll?sn=e13031311010039503875e000000&amp;ct=df&amp;a=1&amp;pa=0.20944633474573493" target="_blank" title="可信网站身份认证"><i class="icon icon-kxwz"></i></a></li>-->
+						<li><a href="http://www.ectrustprc.org.cn/certificate.id/certificater.php?id=10006716" target="_blank" title="中国电子商务诚信单位"><i class="icon icon-dzswcxdw"></i></a></li>
+						<li><a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1784803798" target="_blank" title="中国信用企业电子证书"><i class="icon icon-dzzs"></i></a></li>
+						<!--<li><a id="___szfw_logo___" href="https://search.szfw.org/cert/l/CX20140828005007005078" target="_blank" title="诚信网站"><i class="icon icon-cxwz"></i></a></li>
+						<script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>--> 
+						<li><script id="_jiucuo_" sitecode='bm22000009' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></li>
+					</ul>
+				</div>					
+			</div>
+			<!-- 流量统计 
+			<script>
+				var userid_tjebnew = '';
+				var type_tjebnew = 'a7ed016b16034defba31e00308ac1737';
+				if(location.href.indexOf('chinabidding.com') != -1){
+					(function(){var a = document.createElement('script');
+					a.type = 'text/javascript';
+					a.async = true;
+					a.src = 'http://cjjs.ebnew.com/cjjs/analysis.min.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(a, s);})();
+				}
+			</script>-->
+			<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "//hm.baidu.com/hm.js?5e642b7ea86f82ce1f7baa021d9b8809";
+			  var s = document.getElementsByTagName("script")[0];
+			  s.parentNode.insertBefore(hm, s);
+			})();
+			</script>
+					</div>
+		<!--site-footer-area end  -->
+
+</div>
+<script>
+var staticContextPath = 'http://staticfile.chinabidding.com';
+var contextPath = 'http://www.chinabidding.com';
+var industryCodes = ';110701';
+var CLOUDSTORE_TOKEN_URL = 'http://updownload.cloud.ebnew.com/updownload-app/security/getToken.bid';
+</script>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/plugin/require/require.js" data-main="http://staticfile.chinabidding.com/js/bidhall/gozbpro.js" ></script>
+<script type="text/javascript" src="http://static.cloud.ebnew.com/js/swfupload/jquery.swfupload.cloudstore.js"></script>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/plugin/angular/angular.js"></script>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/plugin/angular/angular-route.js"></script>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/common/common.js"></script>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/bidhall/bidDetail.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#login").click(function(){
+		window.location.href=contextPath +'/bid/index/loginIndex.htm?oldUrl='+encodeURIComponent(window.location);
+	});
+	
+	/*
+	2017-1-17 16:30:43
+	修改表格样式
+	*/
+	$('.table-article').find('table')[0].style='width:100%';
+	$('.table-article table tr td').eq(1).css('width', '11%');
+});
+</script>
+</body>
+</html>

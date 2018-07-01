@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/npztb/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/npztb/Template/Default/css/about.css">
+    <script src="/npztb/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <title>南平市公共资源交易中心</title>
+</head>
+
+<body>
+    <!-- header -->
+<script  type="text/javascript">
+function Search() {
+	 var t = document.getElementById("txtKey").value;
+                if (t.indexOf("<") > -1 || t.indexOf(">") > -1 || t.indexOf("'") > -1|| t.indexOf("_") > -1) {
+                    alert("请勿在关键字中输入非法字符!");
+                    return;
+				}
+    if (document.all.txtKey.value == "" || document.all.txtKey.value == "请输入关键字") {
+        alert("搜索字段不能为空！");
+    }
+    else {
+        var openUrl = '/npztb/showinfo/searchresult.aspx?keyword=';
+        openUrl += escape(document.all.txtKey.value);
+        window.open(openUrl, "Search", "", "");
+    }
+
+}
+function CheckSearch()
+		{
+			if(event.keyCode=="13")
+			{   
+				if(document.all.txtKey.value!="")
+				{
+					Search();
+				}
+				else
+				{
+					alert("搜索字段不能为空！");
+				}
+			}
+		}
+</script>
+<script>
+   window.onload = function () {
+        var timeContainer = document.getElementById('showtime');
+        setInterval(function () {
+            timeContainer.innerHTML = ShowTime();
+        }, 100);
+        if (document.getElementById('qikan') != null) {
+            getmyuri();
+        }
+
+    } 
+function ShowTime() {
+       var myDate = new Date();
+        var month = myDate.getMonth() + 1;
+        var myweekday = myDate.getDay();
+		var myhour = myDate.getHours();
+		var myminute = myDate.getMinutes();
+		var mysecond = myDate.getSeconds();
+        if (myweekday == 0)
+            weekday = "   星期日 ";
+        else if (myweekday == 1)
+            weekday = "   星期一 ";
+        else if (myweekday == 2)
+            weekday = "   星期二 ";
+        else if (myweekday == 3)
+            weekday = "   星期三 ";
+        else if (myweekday == 4)
+            weekday = "   星期四 ";
+        else if (myweekday == 5)
+            weekday = "   星期五 ";
+        else if (myweekday == 6)
+            weekday = "   星期六 ";
+
+
+       return str = '&nbsp;'+'&nbsp;'+'&nbsp;'+'今天是'+ myDate.getFullYear() + '年' + month + '月' + myDate.getDate() + '日'+ '&nbsp; '+ weekday; 
+    }
+</script>
+   <div class="ewb-header">
+        <!-- banner -->
+        <div class="ewb-header-banner"></div>
+        <!-- nav -->
+        <div class="ewb-header-nav">
+            <div class="ewb-container">
+                <ul class="ewb-nav-items clearfix">
+                    <li class="ewb-nav-item current l">
+                        <a href="/npztb/" class="ewb-nav-link">
+                            首页
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zxjj" class="ewb-nav-link">
+                            中心简介
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zcfg" class="ewb-nav-link">
+                            政策法规
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zxdt" class="ewb-nav-link">
+                            中心动态
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="http://www.npzbtb.gov.cn/index.asp" class="ewb-nav-link">
+                            政府采购
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/zwgk" class="ewb-nav-link">
+                            政务公开
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/bszn" class="ewb-nav-link">
+                            办事指南
+                        </a>
+                    </li>
+                    <li class="ewb-nav-item l">
+                        <a href="/npztb/lxwm" class="ewb-nav-link">
+                            联系我们
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- state -->
+        <div class="ewb-header-state">
+            <div class="ewb-container clearfix">
+                <div class="ewb-state-date l" id="showtime"></div>
+                <div class="ewb-state-weather l"><iframe allowtransparency="true" frameborder="0" width="180" height="30" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=0&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=1&c=57083&w=180&h=36&align=center"></iframe></div>
+                <!-- search -->
+                <div class="ewb-state-search r">
+                    <input id="txtKey" type="text" placeholder="站内搜索" class="ewb-search-input l" onKeyDown="CheckSearch();">
+                    <button class="ewb-search-btn r" onClick="Search();"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main -->
+    <div class="ewb-container clearfix mixed ">
+        <div class="l ewb-span6">
+            <h4 class="mixed-title">
+                企业招标信息
+            </h4>
+            <div class="left-content">
+					
+                                 
+                                <a href="/npztb/qxzbxx/013001" class="main-link mt10 ">招标公告</a>
+                                
+                                <a href="/npztb/qxzbxx/013002" class="main-link mt10 ">补充通知</a>
+                                
+                                <a href="/npztb/qxzbxx/013003" class="main-link mt10 ">招标答疑纪要</a>
+                                
+                                <a href="/npztb/qxzbxx/013004" class="main-link mt10 ">中标候选人公示</a>
+                                
+                                <a href="/npztb/qxzbxx/013005" class="main-link mt10 ">中标结果公示</a>
+                                
+                                
+            </div>
+        </div>
+        <div class="ewb-span18 r ml10 ">
+            <h4 class="main-content-title">
+                当前的位置：
+						
+							<a href="/npztb/">首页</a>
+                            
+                            >> <a href="/npztb//qxzbxx">企业招标信息</a> 
+                            
+                             >> <span class="current">招标公告</span>
+                            
+            </h4>
+            <div class="main-subcontent" id="categorypagingcontent">
+					 
+					<div class="categorypagingcontent">
+                        <div class="subcontent-content-list">
+                         <ul class="content-list clearfix">
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=554ec592-ec46-430e-bbe9-ab3158107094&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平市烟草公司顺昌分公司2017-2020年度岚下烟草站烟叶仓库租赁项目（二次招标）</span>
+                                <span class="time">2017-07-26</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=ff9d2448-609d-4f0d-b4fe-75f63ca0f172&CategoryNum=013001" class="content-link">
+                                <span class="link-content">福建南平市金叶贸易服务有限公司 烟用物资“芝麻饼肥（有机肥）”采购项目 二次招标</span>
+                                <span class="time">2017-07-26</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=ca42d378-9b29-44c0-9c02-797a5825dbb9&CategoryNum=013001" class="content-link">
+                                <span class="link-content">福建南平市金叶贸易服务有限公司烟用物资“烟用配色膜”采购项目招标公告（二次招标）</span>
+                                <span class="time">2017-07-25</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=bfc3c097-3741-439c-9a3b-7cff681d15d0&CategoryNum=013001" class="content-link">
+                                <span class="link-content">福建南平市金叶贸易服务有限公司烟用物资“菜籽饼（肥）”二次采购项目</span>
+                                <span class="time">2017-07-24</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=0603ab07-33b4-462b-8c1b-94983e257296&CategoryNum=013001" class="content-link">
+                                <span class="link-content">福建南平市金叶贸易服务有限公司 烟用物资“鸡粪有机肥”二次采购项目</span>
+                                <span class="time">2017-07-24</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=4de313ce-01e6-4228-b881-b97e7989bcd4&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平市烟草公司顺昌分公司员工宿舍房屋租赁项目</span>
+                                <span class="time">2017-07-24</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=96eb22dd-82aa-4383-85f6-1d1ee73941a8&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平市烟草公司浦城分公司浦城永兴烟草站建设工程施工图纸及地质勘察报告审查服务项目二次招标公告</span>
+                                <span class="time">2017-07-24</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=986fe40f-8f4f-4b81-adcb-fec42d9cd5c5&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平市烟草公司顺昌分公司2017-2020年度岚下烟草站烟叶仓库租赁项目</span>
+                                <span class="time">2017-07-19</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=e4eff00f-922b-4436-b137-c75340a6760f&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平市烟草公司邵武分公司2017年信息化设备采购项目</span>
+                                <span class="time">2017-07-19</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=2258a368-b63e-4a83-9b1c-bc066fe2e8a9&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平烟草物流有限公司保安服务招标公告</span>
+                                <span class="time">2017-07-18</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=872d65d8-32d5-4086-88c2-85df0ab1fec8&CategoryNum=013001" class="content-link">
+                                <span class="link-content">2017年南平建设集团有限公司建设项目前期报建服务库勘察单位三次招录公告</span>
+                                <span class="time">2017-07-18</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=1d4f7dd5-92e0-4680-a5c1-88030bb34c9f&CategoryNum=013001" class="content-link">
+                                <span class="link-content">福建南平市金叶贸易服务有限公司烟用物资“智利产进口复合肥”二次采购项目</span>
+                                <span class="time">2017-07-17</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=69c419fe-5d07-4d67-9fff-d8c3f7228d01&CategoryNum=013001" class="content-link">
+                                <span class="link-content">福建南平市金叶贸易服务有限公司 2017年—2018年烟用物资 “运输三条线路”采购项目</span>
+                                <span class="time">2017-07-17</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=08c48050-457f-436b-9c84-3d21bb3a1457&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平烟草物流整体迁建改造项目检测、监测服务招标公告</span>
+                                <span class="time">2017-07-17</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=ca3d4371-33d1-4019-b34d-8559a3f0ad19&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平市烟草公司邵武分公司物业服务采购项目</span>
+                                <span class="time">2017-07-14</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=4c5b081f-f432-4336-84f6-51f7e81dc3f9&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平市烟草公司武夷山分公司大楼清洁服务采购项目（二次招标）</span>
+                                <span class="time">2017-07-13</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=d7aa6a70-e3f8-4e21-a993-8899a45c9a96&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平市烟草公司浦城分公司浦城永兴烟草站建设工程施工图纸及地质勘察报告审查服务项目招标公告</span>
+                                <span class="time">2017-07-13</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=acc01115-9e7a-40d8-bb7c-c74520aa6254&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平市烟草公司建瓯分公司2017年度办公设备采购项目招标公告</span>
+                                <span class="time">2017-07-11</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=87566c5a-084e-4605-9eb6-572a9e2acfcc&CategoryNum=013001" class="content-link">
+                                <span class="link-content">武夷山海晟国际大酒店管理有限公司电梯维保服务项目二次招标公告</span>
+                                <span class="time">2017-07-07</span>
+                            </a>
+                        </li>
+                            
+                        <li class="content-item">
+                            <a href="/npztb/InfoDetail/?InfoID=3f2e92bb-32c0-415f-aaf3-24936a29bd66&CategoryNum=013001" class="content-link">
+                                <span class="link-content">南平建设集团信达供应链有限公司建筑智能化供应商库招录</span>
+                                <span class="time">2017-07-07</span>
+                            </a>
+                        </li>
+                            </ul>
+                            </div>
+						
+                <ul class="wb-page-items clearfix">
+                    <li class="wb-page-li">
+                        <a  class="ewb-mr20 wb-page-item wb-page-next wb-page-family wb-page-fs12">&lt; 上页</a>
+                    </li>
+                       
+                    <li class="wb-page-li">
+                        <a  class="wb-page-item visible-desktop page first current">1</a>
+                    </li>
+                            
+                    <li class="wb-page-li">
+                        <a onclick="ShowAjaxNewPage(window.location.pathname,'categorypagingcontent',2)"; class="wb-page-item visible-desktop page">2</a>
+                    </li>
+                            
+                    <li class="wb-page-li">
+                        <a onclick="ShowAjaxNewPage(window.location.pathname,'categorypagingcontent',3)"; class="wb-page-item visible-desktop page">3</a>
+                    </li>
+                            
+                    <li class="wb-page-li">
+                        <a onclick="ShowAjaxNewPage(window.location.pathname,'categorypagingcontent',4)"; class="wb-page-item visible-desktop page">4</a>
+                    </li>
+                            
+                    <li class="wb-page-li">
+                        <a onclick="ShowAjaxNewPage(window.location.pathname,'categorypagingcontent',5)"; class="wb-page-item visible-desktop page">5</a>
+                    </li>
+                            
+                    <li class="wb-page-li">
+                        <a onclick="ShowAjaxNewPage(window.location.pathname,'categorypagingcontent',6)"; class="wb-page-item visible-desktop page">6</a>
+                    </li>
+                            
+                    <li class="wb-page-li">
+                        <a onclick="ShowAjaxNewPage(window.location.pathname,'categorypagingcontent',7)"; class="wb-page-item visible-desktop page last">7</a>
+                    </li>
+                            
+                    <li class="wb-page-li">
+                        <a onclick="ShowAjaxNewPage(window.location.pathname,'categorypagingcontent',2)"; class="wb-page-item wb-page-next wb-page-family wb-page-fs12">下页 &gt;</a>
+                    </li>
+                    <li class="wb-page-li visible-desktop">
+                        <a href="#" class="wb-page-default wb-page-number wb-page-family">1/7</a>
+                    </li>
+                    <li class="wb-page-li visible-desktop">
+                        <a href="#" class="wb-page-default wb-page-to wb-page-family">转到</a>
+                    </li>
+                    <li class="wb-page-li ml6 visible-desktop">
+                        <input type="text" class="wb-page-item" placeholder="" id="GoToPagingNo">
+                    </li>
+                    <li class="wb-page-li ml6 visible-desktop">
+                        <a href="#" class="wb-page-item wb-page-next wb-page-go wb-page-fs12" onclick="GoToPaging();">GO</a>
+                    </li>
+                </ul>
+                            <script>var totalPageNums = 7;function GoToPaging() {var no = ($("#GoToPagingNo").val());if ($.isNumeric(no)) {no = parseInt(no);if (no <= totalPageNums) {ShowAjaxNewPage(window.location.pathname,'categorypagingcontent',no);} else {alert("最大分页为" + totalPageNums + ",请重新输入页码！");$("#GoToPagingNo").val("");$("#GoToPagingNo").focus();}} else {alert("请重新输入数字页码！");$("#GoToPagingNo").val("");$("#GoToPagingNo").focus();}}</script>
+                            
+                            </div>
+					 
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="ewb-footer">
+        <!-- guide -->
+        <div class="ewb-footer-guide">
+            <a href="/npztb/gybz">关于本站</a>
+            <span>|</span>
+            <a href="/npztb/wzdt">网站地图</a>
+            <span>|</span>
+            <a href="/npztb/flsm">法律声明</a>
+            <span>|</span>
+            <a href="/npztb/lxwm">联系我们</a>
+        </div>
+        <!-- copyright -->
+        <div class="ewb-footer-copyright">
+            <div class="ewb-container ewb-footer-wrap">
+                <div class="ewb-footer-notice">
+                    <p>南平市公安局
+                        <br/>网络报警处置中心</p>
+                    <i></i>
+                </div>
+                <p>
+                    主办：南平市公共资源交易中心    技术支持：江苏国泰新点软件有限公司
+                    <br/>建议使用：IE6以上浏览器 1024*768分辨率浏览本站    备案序号：闽ICP备17015384号-1
+                    <br/> 您是<script src="/npztb/Template/Default/../../count.aspx"></script>位访问者
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="/npztb/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/npztb/Template/Default/js/about.js"></script>
+	<script src="/npztb/Template/Default/../../javascript/pagingjs.js"></script>
+</body>
+
+</html>

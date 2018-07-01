@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+遂广遂西高速公路环保设施工程施工监理比选公告 - 四川遂广遂西高速公路有限责任公司
+</title><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+   
+    <link href="/css/common.css" type="text/css" rel="stylesheet" /><link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="/js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="/js/slide.js"></script>
+    <!--Banner-->
+    <link href="/css/foucs.css" rel="stylesheet" />
+    <script src="/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.foucs.js" type="text/javascript"></script>
+    <!--Banner-->
+
+        <script type="text/javascript">
+        // 设置为主页 
+        function SetHome(obj, vrl) {
+            try {
+                obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+            }
+            catch (e) {
+                if (window.netscape) {
+                    try {
+                        netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                    }
+                    catch (e) {
+                        alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入"about:config"并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                    }
+                    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                    prefs.setCharPref('browser.startup.homepage', vrl);
+                } else {
+                    alert("您的浏览器不支持，请按照下面步骤操作：\n1.打开浏览器设置。\n2.点击设置网页。\n3.输入：" + vrl + "点击确定。");
+                }
+            }
+        }
+        // 加入收藏 兼容360和IE6 
+        function shoucang(sTitle, sURL) {
+            try {
+                window.external.addFavorite(sURL, sTitle);
+            }
+            catch (e) {
+                try {
+                    window.sidebar.addPanel(sTitle, sURL, "");
+                }
+                catch (e) {
+                    alert("加入收藏失败，请使用Ctrl+D进行添加");
+                }
+            }
+        } 
+        
+        function ckv() {
+            if (document.getElementById("search_txt").value.length <= 1 || document.getElementById("search_txt").value=="输入关键词进行搜索") {
+                alert("请至少输入2个有效字符");
+                return false;
+            }
+        }
+        
+    </script>
+    </head>
+    <body>
+<div class="top">
+      <div class="tc mag">
+    <div class="welcome fl"> 您好，欢迎您访问本网站 今天是： 
+          <script language="JavaScript" type="text/javascript"> 
+<!--
+                        calendar = new Date();  //得到当前日期
+                        day = calendar.getDay();  //当前多数号
+                        month = calendar.getMonth(); //当前月份
+                        date = calendar.getDate();  //当前星期
+                        year = calendar.getFullYear();  //年份
+                        if (year < 100) year = 1900 + year;
+                        cent = parseInt(year / 100);
+                        g = year % 19;
+                        k = parseInt((cent - 17) / 25);
+                        i = (cent - parseInt(cent / 4) - parseInt((cent - k) / 3) + 19 * g + 15) % 30;
+                        i = i - parseInt(i / 28) * (1 - parseInt(i / 28) * parseInt(29 / (i + 1)) * parseInt((21 - g) / 11));
+                        j = (year + parseInt(year / 4) + i + 2 - cent + parseInt(cent / 4)) % 7;
+                        l = i - j;
+                        emonth = 3 + parseInt((l + 40) / 44);
+                        edate = l + 28 - 31 * parseInt((emonth / 4));
+                        emonth--;
+                        var dayname = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+                        var monthname =
+new Array("1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月");
+                        document.write(year + "年");
+                        document.write(monthname[month]);
+                        document.write(date + "日" + " ");
+                        document.write(dayname[day]); 
+//-->   
+
+  <!--   
+  function   fmove(){   
+    var   e=event.srcElement;   
+	
+    if(e.tagName=="TD"){   
+      e.parentNode.style.backgroundColor="#f2f2f2";   
+	 	
+      }   
+  }   
+  function   fout(){   
+    var   e=event.srcElement;   
+    if(e.tagName=="TD"){   
+      e.parentNode.style.backgroundColor="white";   
+      }   
+  }   
+  //-->   
+
+
+                </script></div>
+    <span class="content"><span class="turn_top"><a name="tr_t" id="tr_t"></a></span> </span>
+    <div class="sz fr">
+          <p> <a  href="javascript:void(0)" onClick="SetHome(this,window.location)" style="background: url(images/shouye.png) no-repeat left center">设为首页</a> <a  href="javascript:void(0)" onClick="shoucang(document.title,window.location)" style="background: url(images/shoucang.png) no-repeat left center">加入收藏</a> <a href="#" style="background: url(images/email.png) no-repeat left center">邮箱登陆</a> </p>
+         
+        </div>
+  </div>
+    </div>
+<div class="nav">
+      <ul class="big_n mag fm">
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/" class="bl">首页</a></li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/gk/" class="bl">公司概况</a>
+          <ul id="sub_01">
+        <li><a href="/jj/">公司简介</a></li>
+        <li><a href="/a/jigoushezhi/">组织机构</a></li>
+        <li><a href="/gk/gongsiwenhua/">公司文化</a></li>
+        <li><a href="/gk/dashijiyao/">大事记要</a></li>
+        <li><a href="/gk/yuangongfengmao/">员工风貌</a></li>
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/xinwenzhongxin/" class="bl">新闻中心</a>
+          <ul id="sub_01">
+        <li><a href="/a/xinwenzhongxin/xinwengonggao/">新闻公告</a></li>
+        <li><a href="/a/xinwenzhongxin/gonggaotongzhi/">公告通知</a></li>
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/gongchengjianshe/" class="bl">工程建设</a>
+          <ul id="sub_01">
+        <li><a href="/a/gongchengjianshe/gongchenggaikuang/">工程概况</a></li>
+        <li><a href="/a/gongchengjianshe/jianshedongtai/">建设动态</a></li>
+        <li><a href="/a/gongchengjianshe/gongchengfengmao/">工程风貌</a></li>
+      </ul>
+        </li>
+    <!-- <li class="mainlevel fl" id="Li1"><a href="/a/xingxiangjindu/" class="bl">形象进度</a>
+          <ul id="Ul1">
+        <li><a href="/a/xingxiangjindu/xingxiangjindu/">总体形象进度</a></li>
+        <li><a href="/a/xingxiangjindu/zongtixingxiangjindu/">动态形象进度</a></li>
+      </ul>
+        </li> -->
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/dangjianlianzheng/" class="bl">党建廉政</a>
+          <ul id="sub_01">
+        <li><a href="/a/dangjianlianzheng/zuzhihuodong/">组织活动</a></li>
+        <li><a href="/a/dangjianlianzheng/lianzhengguiding/">廉政规定</a></li>
+        <li><a href="/a/dangjianlianzheng/lianzhengdongtai/">廉政动态</a></li>
+        <li><a href="/a/dangjianlianzheng/jubaoxinxiang/">举报信箱</a></li>        
+<li><a href="/a/dangjianlianzheng/liangxueyizuo">两学一做</a></li>
+
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/zhaobiaoxinxi/" class="bl">招标信息</a>
+          <ul id="sub_01">
+        <li><a href="/a/zhaobiaoxinxi/zhaobiaoxinxi/">招标信息</a></li>
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/anquanguanli/" class="bl">安全管理</a>
+          <ul id="sub_01">
+        <li><a href="/a/anquanguanli/anquanguanli/">安全管理</a></li>
+            </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="/a/zhuantihuodong/" class="bl">党群工作</a>
+          <ul id="sub_01">
+        <li><a href="/a/zhuantihuodong/">党群工作</a></li>
+
+      </ul>
+        </li>
+    <li class="mainlevel fl" id="mainlevel_01"><a href="news.aspx?mid=182&all=" class="bl">工程创优</a>
+          <ul id="sub_01">
+        <li><a href="news.aspx?mid=182&sid= ">科研概况</a></li>
+        <li><a href="news.aspx?mid=226&sid= ">论文收录</a></li>
+        <li><a href="news.aspx?mid=212&sid= ">创优咨询</a></li>
+        <li><a href="news.aspx?mid=212&sid= ">建设亮点</a></li>
+        <li><a href="http://www.scsgsx.com/a/chuangyou/qikan/index.html">《遂广遂西》专刊</a></li>
+      </ul>
+        </li>
+  </ul>
+    </div><div class="banner"> 
+      <!-- 代码 开始 -->
+      <div id="main">
+    <div id="index_b_hero">
+          <div class="hero-wrap">
+        <ul class="heros clearfix">
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner06.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner07.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner08.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner09.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner10.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner11.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner12.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner13.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+              <li class="hero"> <a href="javascript:void(0)" title=""> <img src="/images/sybanner14.jpg" borer="0" class="thumb" alt="" /> </a> </li>
+            </ul>
+      </div>
+          <div class="helper">
+        <div class="mask-left"> </div>
+        <div class="mask-right"> </div>
+        <a href="#" class="prev icon-arrow-a-left"></a> <a href="#" class="next icon-arrow-a-right"></a> </div>
+        </div>
+  </div>
+      <script type="text/javascript">
+        $.foucs({ direction: 'right' });
+    </script> 
+      <!-- 代码 结束 --> 
+    </div>
+    
+    <form name="aspnetForm" method="post" action="newshow.aspx?id=41849&mid=24" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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dDogMmVtOyB0ZXh0LWFsaWduOiBjZW50ZXI7Ij48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxOHB4OyI+PGltZyBzcmM9Ii91cGxvYWQvMjAxNS0wNS0xMS9jYmQyOTcxMC0yOTRjLTRmNGEtOWI2ZC1iYjliZjEwYzAyMGYuanBnIiB0aXRsZT0iMjAxNS4wNeW3nemrmOaAneaDs+aVtOayu+W7uuiuvuW3peS9nOaOqOi/m+S8ml/lia/mnKwuanBnIi8+PC9zcGFuPjwvcD48cCBzdHlsZT0ibGluZS1oZWlnaHQ6IDJlbTsgdGV4dC1pbmRlbnQ6IDJlbTsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDE4cHg7Ij48YnIvPjwvc3Bhbj48L3A+PHAgc3R5bGU9ImxpbmUtaGVpZ2h0OiAyZW07IHRleHQtaW5kZW50OiAyZW07Ij48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxOHB4OyI+PGJyLz48L3NwYW4+PC9wPjxwIHN0eWxlPSJsaW5lLWhlaWdodDogMmVtOyB0ZXh0LWluZGVudDogMmVtOyI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMThweDsiPuS4uuiupOecn+i0r+W9u+iQveWunuecgeWbvei1hOWnlOOAgeecgeS6pOaKlembhuWbouWFmuWnlOWFs+S6juWKoOW8uumihuWvvOePreWtkOaAneaDs+aUv+ayu+W7uuiuvuacieWFs+S8muiurueyvuelnu+8jOWIh+WunuaOqOi/m+W3nemrmOWFrOWPuOaAneaDs+aUv+ayu+W7uuiuvuW3peS9nO+8jOW3nemrmOWFrOWPuOWFmuWnlOS6jjXmnIg45pel5LiL5Y2I5Zyo5YWs5Y+4MTXmpbzkvJrorq7lrqTlj6zlvIDkuobns7vnu5/pooblr7znj63lrZDmgJ3mg7PmlL/msrvlu7rorr7lt6XkvZzmjqjov5vkvJrjgILlt53pq5jlhazlj7jpooblr7znj63lrZDmiJDlkZjjgIHlkITpg6jpl6jkuLvopoHotJ/otKPkurrlkozns7vnu5/lkITljZXkvY3lhZrlp5TvvIjmgLvmlK/jgIHmlK/pg6jvvInkuaborrDjgIHmgLvnu4/nkIbjgIHnuqrlp5TkuaborrAo57qq5qOA55uR5a+f5bel5L2c5YiG566h6aKG5a+8KeWPguWKoOS6huS8muiuru+8jOS8muiurueUseWFrOWPuOWFmuWnlOWnlOWRmOOAgeaAu+e7j+eQhueOi+WtneWbveS4u+aMgeOAgjwvc3Bhbj48L3A+PHAgc3R5bGU9ImxpbmUtaGVpZ2h0OiAyZW07IHRleHQtaW5kZW50OiAyZW07Ij48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxOHB4OyI+5Lya6K6u6aaW5YWI5ZCs5Y+W5LqG5bed5Lit54mH5Yy65YWs5Y+444CB5bed6KW/54mH5Yy65YWs5Y+45YWa5aeU5omA5L2c55qE5oCd5oOz5pS/5rK757uP6aqM5oC757uT5Lqk5rWB77yM5bm25Lul5Lmm6Z2i5b2i5byP5LiL5Y+R5LqG5bed5Y2X54mH5Yy65YWs5Y+444CB57qz6buU5YWs5Y+444CB5bm/5be05YWs5Y+45omA5L2c55qE5Y+N5oCd5p2Q5paZ44CC5pyA5ZCO77yM5YWs5Y+45YWa5aeU5Lmm6K6w44CB6JGj5LqL6ZW/5ZSQ5YuH5a+56L+b5LiA5q2l5o6o6L+b5bed6auY57O757uf6aKG5a+854+t5a2Q5oCd5oOz5pS/5rK75bu66K6+5bel5L2c5Y+R6KGo5LqG6YeN6KaB6K6y6K+d44CC5ZSQ5YuH6JGj5LqL6ZW/6KaB5rGC77yM57O757uf5ZCE57qn5YWa57uE57uH5ZKM6aKG5a+854+t5a2Q5LiA6KaB5YiH5a6e5Yqg5by66aKG5a+854+t5a2Q5oCd5oOz5pS/5rK75bu66K6+55qE57Sn6L+r5oCn44CB5YWF5YiG6K6k6K+G6YeN6KaB5oCn44CB5Li75Yqo6aG65bqU5paw5bi45oCB77yb5LqM6KaB5omO5a6e5oqT5aW96aKG5a+854+t5a2Q5oCd5oOz5pS/5rK75bu66K6+5bel5L2c77yM6YeN54K556qB5Ye65LiD5Liq5Z2a5oyB77yb5LiJ6KaB5Yqg5by66aKG5a+854+t5a2Q5oCd5oOz5pS/5rK75bu66K6+5bel5L2c6aKG5a+877yM56Gu5L+d5Y+W5b6X5a6e5pWI44CC5ZSQ5YuH6JGj5LqL6ZW/5oyH5Ye677yM6KaB5oqK5LyB5Lia6aKG5a+854+t5a2Q5oCd5oOz5pS/5rK75bu66K6+6LSv56m/5Yiw5LuK5bm05oC75L2T55uu5qCH5a6M5oiQ6L+H56iL5Lit77yM5LiA5piv6KaB5aSn5Yqb5o6o6L+b5LiJ6aG55Yi25bqm5pS56Z2p77yb5LqM5piv6KaB6L+b5LiA5q2l5qKz55CG5ZCE6aG56YeN54K55bel5L2c77yM5LiN5pat5Yib5paw77yM5YWo6Z2i5a6M5oiQ5LuK5bm055uu5qCH5Lu75Yqh77yb5LiJ5piv6KaB5YGa5aW956uj5bel6aqM5pS25bel5L2c5ZKM6L+O6YOo5qOA5bel5L2c77yb5Zub5piv6KaB5YGa5aW95a6J5YWo6Ziy5rGb5bqU5oCl5bel5L2c44CC6KaB5bCG5L+D6L+b5LyB5Lia5pS56Z2p5LiO5Y+R5bGV5L2c5Li65qOA6aqM6aKG5a+854+t5a2Q5oCd5oOz5pS/5rK75bu66K6+5oiQ5pWI55qE5pyA57uI5qCH5YeG77yM57Sn5a+G6IGU57O75LyB5Lia5a6e6ZmF77yM5bCG5oCd5oOz5pS/5rK75bu66K6+5riX6YCP5Yiw5pS56Z2p44CB5Y+R5bGV5ZKM55Sf5Lqn57uP6JCl5rS75Yqo5Lit5Y6777yM5Yqq5Yqb5o6o5Yqo5bed6auY5YWs5Y+45ZCE6aG55pS56Z2p5Y+R5bGV5bel5L2c6Leo5LiK5LiA5Liq5paw55qE5Y+w6Zi244CCPC9zcGFuPjwvcD48cCBzdHlsZT0ibGluZS1oZWlnaHQ6IDJlbTsgdGV4dC1pbmRlbnQ6IDJlbTsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDE4cHg7Ij4mbmJzcDs8L3NwYW4+PC9wPjxwPjxici8+PC9wPmRk2foGF8OEeVL2n+G5NOhbI9KkOC0=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1951E080" />
+</div>
+    <div class="content">
+        <div class="cc mag">
+
+            <div class="cont_box" id="news">
+                
+<div class="left fl">
+    <h3 class="fm">
+        招标信息</h3>
+    <ul>
+        <li class="l_m"><a title="招标信息" class="leftchanged" href="/a/zhaobiaoxinxi/zhaobiaoxinxi/" style="z-index:2;">招标信息</a></li>    </ul>
+    
+</div>
+
+                <div class="right fl">
+                    <p class="name">
+                        <span class="fl fm">
+                            公司新闻</span><em class="fr">您现在的位置： <a href='http://www.scsgsx.com//'>主页</a> > <a href='/a/zhaobiaoxinxi/'>招标信息</a> > <a href='/a/zhaobiaoxinxi/zhaobiaoxinxi/'>招标信息</a> > </em></p>
+                    <div class="mycontent">
+                        
+                                <center>
+                                    <script language="JavaScript" type="text/javascript" src="/Inc/Search.js"></script>
+                                    <div id="ctl00_ContentPlaceHolder1_about_ctl00_proTit">
+                                        <div style="width: 96%; margin-top: 20px; height: 60px; padding-top: 20px; border-bottom: 1px solid #c1c1c1;
+                                            border-top: 0px solid #fff;color:#1465b4">
+                                            <h2>
+                                                遂广遂西高速公路环保设施工程施工监理比选公告</span></h2>
+                                        </div>
+                                        <br />
+                                    </div>
+                                    <div id="ctl00_ContentPlaceHolder1_about_ctl00_proInfo">
+                                        <span>来源：未知</span>
+                                        &#160; &#160; &#160; <span>发布时间:</span>2017-12-19 17:00&#160; &#160; &#160;<span>点击率:</span><span
+                                            id="CCdiv">171</span></div>
+                                    <script language="JavaScript" type="text/javascript">
+   ClickCount("CCdiv/news/41849/11");
+                                    </script>
+                                </center>
+                                <br />
+                                <p style="line-height: 2em; text-indent: 2em; text-align: center;"><strong>遂广遂西高速公路</strong><strong>环保设施工程施工</strong><strong>监理比选公告</strong><br />
+&nbsp;<br />
+&nbsp;
+<div>
+	&nbsp; 四川遂广遂西高速公路有限责任公司（以下简称&ldquo;比选人&rdquo;）为完成遂广遂西高速公路（即遂宁至广安高速公路及遂宁至西充高速公路）环境保护验收工作，经我司研究决定采用公开比选方式选择本项目的环保设施工程施工监理单位。现公告如下：<br />
+	<strong>&nbsp; 1、工程概况</strong></div>
+<div>
+	&nbsp; 遂宁至广安高速公路位于四川省遂宁市及广安市境内，项目路线起于遂宁市蓬溪县金桥乡接绵遂（G93）高速公路，经蓬溪县高坪镇、三凤镇、蓬南镇、广安市武胜县赛马镇、金牛镇、龙女镇、沿口镇、飞龙镇、岳池县齐福镇、广安市枣山镇。止点接南广邻高速红土地互通，路线全长约102.941km。<br />
+	遂宁至西充高速公路位于四川省遂宁市及南充市境内，路线起于遂宁市蓬溪县吉祥镇涪山坝，上跨成南高速后，设枢纽互通与绵遂高速交叉，经南充市嘉陵区、西充县，止于西充县太平镇贾家湾，设置太平枢纽互通与广南高速公路相接。路线全长67.644公里。<br />
+	<strong>&nbsp; 2、标段划分</strong><br />
+	&nbsp; 本次比选项目为遂广遂西高速公路环保设施工程施工监理服务，全线划分为1个标段，即HBJL标段。<br />
+	&nbsp;&nbsp;<strong>3、工作内容</strong><br />
+	&nbsp; 按照环境保护监理相关技术规范、施工图及本工程环境保护方案开展环保设施工程施工监理，并向比选人提交相应的监理成果资料（包括监理规划、监理季报、年报和监理总结报告等）。<br />
+	<strong>&nbsp; 4、比选申请人的资格及业绩要求</strong><br />
+	&nbsp; 4.1具备独立法人资格、持有营业执照、基本账户开户许可证；<br />
+	&nbsp; 4.2具有公路工程监理甲级及以上资质；<br />
+	&nbsp; 4.3近三年内（2014年1月起）完成过一个及以上高速公路项目监理工作,需提供有效证明材料。<br />
+	&nbsp; 4.4相应的财力：企业近一年(2016年）税后利润大于等于零；须提供相关财务报表。<br />
+	&nbsp; 4.5本项目不接受联合体比选报价，严禁转包和分包。<br />
+	&nbsp; 4.6总监理工程师要求：中级及以上职称，并主持完成至少一个高速公路项目施工监理工作；其他主要人员要求：配备项目所需求的足够的取得相应资格专业技术人员。<br />
+	&nbsp; 4.7比选申请人单位负责人为同一人或者存在控股、管理关系的不同单位，不得同时参加本项目比选报价。否则相关比选报价均无效。<br />
+	<strong>&nbsp; 5、比选办法</strong><br />
+	&nbsp; 本次比选采用经评审的最低报价中选法，资格后审。<br />
+	<strong>&nbsp; 6、比选文件的获取</strong><br />
+	&nbsp; 比选申请人应于<strong><u>2017</u></strong>年<strong><u>12</u></strong>月<strong><u>19</u></strong>日～<strong><u>2017</u></strong>年<strong><u>12</u></strong>月<strong><u>21</u></strong>日期间上午9:30～11:30、下午14:00～17:30（北京时间）到四川遂广遂西高速公路有限责任公司2楼免费领取比选文件。<br />
+	<strong>&nbsp; 7、比选文件的递交及相关事宜</strong><br />
+	&nbsp; 7.1比选人不组织标前会和现场考察，比选申请人须自行进行现场考察，在充分了解工程内容和工作质量要求后，进行合理报价。<br />
+	&nbsp; 7.2比选报价文件送交<br />
+	&nbsp; 比选报价文件送交截止时间为<strong><u>2017</u></strong>年<strong><u>12</u></strong>月<strong><u>28</u></strong>日上午9:30～10:00（北京时间）。比选申请人应在截止时间前将密封完好的比选报价文件送交至四川遂广遂西高速公路有限责任公司1楼会议室。<br />
+	&nbsp; 7.3逾期送达的或者未送达指定地点的或未按要求密封的比选报价文件，比选人不予受理。<br />
+	<strong>&nbsp; 8、比选公告发布</strong><br />
+	&nbsp; 比选公告于2017年<u>1</u><u>2</u>月<u>19</u>日发布在四四川遂广遂西高速公路有限责任公司网站（http://www.scsgsx.com）上。<br />
+	<strong>&nbsp; 9、比选报价文件开启时间及地点</strong><br />
+	&nbsp; 比选人将在<strong><u>2017</u></strong>年<strong><u>12</u></strong>月<strong><u>28</u></strong>日上午10:00，在四川遂广遂西高速公路有限责任公司1楼会议室对送交的比选报价文件进行开启。比选申请人须参加并在开启结果表上签字确认后，评审委员对送交的比选报价文件进行下一步评审。<br />
+	<strong>&nbsp; 10、评审结果公示</strong><br />
+	&nbsp; 评审结果将在四川遂广遂西高速公路有限责任公司网站（http://www.scsgsx.com）上公示3天，以接受监督。<br />
+	<strong>&nbsp; 11、联系方式</strong><br />
+	&nbsp; 比选人：四川遂广遂西高速公路有限责任公司<br />
+	&nbsp; 地 &nbsp;址：遂宁市金桥新区遂广高速金桥收费站<br />
+	&nbsp; 电话：0825-5819001<br />
+	&nbsp; 传真：0825-5822000<br />
+	&nbsp; 联系人：孟先生</div>
+&nbsp;
+<div style="text-align: right;">
+	&nbsp;四川遂广遂西高速公路有限责任公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017年12月19日</div>
+</p><p><br/></p>
+                                <br />
+                                <div align="right" style="margin-top: 20px;">
+                                    [<a href='#' style="color: #333" onclick='javascript:window.close();'>关闭本页</a>]&#160;&#160;</div>
+                            
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+
+    <div class="footer">
+
+      <div class="fc mag">
+    <p>四川遂广遂西高速公路有限责任公司&nbsp;&nbsp;版权所有 地址：遂宁市河东新区五彩缤纷路奥城玫瑰花园临江商业房6栋302、303号&nbsp;&nbsp;邮编：629000</p>
+    <p class="back">蜀ICP备12027527号  |  技术支持：<a href="http://www.zonwi.com" target="_blank" style="color:#9EC3E8; text-decoration:none ">中唯公司</a> </p>
+    <p>Copyright  2015 （scsgsx.com）, All Rights Reserved</p>
+  </div>
+    </div>
+<script type="text/javascript">
+    $(function () {
+        $(".tabs_1").each(function (index) {
+            $(this).click(function () {
+                $(".tabs_1").removeClass("tab1_alr");
+                $(".tabs_1:eq(" + index + ")").addClass("tab1_alr");
+                $(".tab1_cont").css("display", "none");
+                $(".tab1_cont:eq(" + index + ")").css("display", "block");
+            });
+        });
+    });
+    $(function () {
+        $(".tabs_2").each(function (index) {
+            $(this).click(function () {
+                $(".tabs_2").removeClass("tab2_alr");
+                $(".tabs_2:eq(" + index + ")").addClass("tab2_alr");
+                $(".tab2_cont").css("display", "none");
+                $(".tab2_cont:eq(" + index + ")").css("display", "block");
+            });
+        });
+    });
+    $(function () {
+        $(".tabs_3").each(function (index) {
+            $(this).click(function () {
+                $(".tabs_3").removeClass("tab3_alr");
+                $(".tabs_3:eq(" + index + ")").addClass("tab3_alr");
+                $(".tab3_cont").css("display", "none");
+                $(".tab3_cont:eq(" + index + ")").css("display", "block");
+            });
+        });
+    });
+    </script>
+	
+	
+</body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/TPFront/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/TPFront/Template/Default/css/detail.css">
+    <script src="/TPFront/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <title>南充公共资源交易</title>
+	 <style>        .localposition {
+            height: 39px;
+            line-height: 39px;
+            font-size: 16px;
+            font-family: 'Microsoft YaHei';
+            color: #0089cf;
+            border-bottom: 2px solid #0089cf;
+        }
+    </style>
+</head>
+<body class="body">
+<table width="998" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto">
+  <tr>
+    <td height="269"><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="renderer" content="webkit">
+<link rel="stylesheet" href="/TPFront/Template/Default/css/common.css">
+<link rel="stylesheet" href="/TPFront/Template/Default/css/index.css">
+<script src="/TPFront/Template/Default/js/jquery-1.11.0.min.js"></script>
+<title>南充公共资源交易中心</title>
+<script type="text/javascript">
+    function search() {
+        if (document.all.keyword.value == ''||document.all.keyword.value == '站内搜索') {
+            alert('搜索字段不能为空！');
+        } else {
+            var openUrl = '../showinfo/searchresult.aspx?CategoryNum=&keyword=';
+            openUrl += escape(document.all.keyword.value);
+            openUrl += '&searchtype=' + escape(document.getElementById('selectop').value);
+
+            window.open(openUrl, 'search', '', '');
+        }
+    }
+	function CheckSearch()
+		{
+			if(event.keyCode=="13")
+			{   
+				if(document.all.txtKey.value!="")
+				{
+					search();
+				}
+				else
+				{
+					alert("搜索字段不能为空！");
+				}
+			}
+		}
+		function Clear() {
+             document.all.txtKeys.value = ""
+}
+
+</script>
+</head>
+<body class="body">
+<!-- 顶部logo -->
+<div class="container logo"> <img src="/TPFront/Template/Default/images/logo.png" class="" alt=""> </div>
+<!-- 导航 -->
+<div class="container menu">
+		<ul class="menu-list clearfix">
+				<li class="menu-item "> <a href="/TPFront/Template/Default/../../" class="menu-link width110" target="_top">首页</a> </li>
+				<li class="menu-item"> <a href="/TPFront/Template/Default/../../front_jgjs" class="menu-link" target="_top">机构介绍</a> </li>
+				<li class="menu-item"> <a href="/TPFront/Template/Default/../../front_xwdt" class="menu-link" target="_top">新闻动态</a> </li>
+				<li class="menu-item"> <a href="../front_zfcg?categoryno=0710&category=" class="menu-link"  target="_top">政府采购</a> </li>
+				<li class="menu-item"> <a href="../front_gcjs?categoryno=0720&category=" class="menu-link" target="_top">工程建设</a> </li>
+				<li class="menu-item"> <a href="../front_tdkc?categoryno=0730&category=" class="menu-link" target="_top">土地矿产</a> </li>
+				<li class="menu-item"> <a href="../front_cqjy?categoryno=0740&category=" class="menu-link" target="_top">产权交易</a> </li>
+				<li class="menu-item"> <a href="/TPFront/Template/Default/../../front_bszn" class="menu-link" target="_top">办事指南</a> </li>
+				<li class="menu-item"> <a href="/TPFront/Template/Default/../../front_zlxz" class="menu-link" target="_top">资料下载</a> </li>
+		</ul>
+</div>
+
+<!-- 天气和搜索框 -->
+<div class="total">
+		<div class="container wea"> <span class="wea-span">今天是：
+				<script type="text/javascript">
+
+                                           today = new Date();
+                                           var hours = today.getHours();
+                                           var minutes = today.getMinutes();
+                                           var seconds = today.getSeconds();
+                                           var timeValue = "<FONT COLOR=red>" + ((hours > 12) ? hours - 12 : hours); timeValue += ((minutes < 10) ? "<BLINK><FONT COLOR=red>:</FONT></BLINK>0" : "<BLINK><FONT COLOR=red>:</FONT></BLINK>") + minutes + "</FONT></FONT>";
+                                           timeValue += (hours >= 12) ? "<FONT COLOR=red><I><B>pm</B></I></FONT>" : "<FONT COLOR=red><B><I>am</I></B></FONT>";
+
+                                           function initArray() {
+                                               this.length = initArray.arguments.length
+                                               for (var i = 0; i < this.length; i++)
+                                                   this[i + 1] = initArray.arguments[i]
+                                           }
+
+                                           var d = new initArray("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+                                           document.write(today.getFullYear(), "年", today.getMonth() + 1, "月", today.getDate(), "日&nbsp;&nbsp;&nbsp;", d[today.getDay() + 1]);       </script>
+				</span> <span class="wea-span">
+				<iframe allowtransparency="true" frameborder="0" width="200" height="30" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=0&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=1&c=54511&w=180&h=36&align=left" style="float:right;margin-left:50px; position: absolute;top:265px;"></iframe>
+				</span>
+				<div class="search">
+						<input type="text" class="sea-text" value="站内搜索"  id="keyword" style="color:#333" onFocus="value=''" onBlur="if(!value)value=defaultValue" onClick="Clear()" onKeyDown="CheckSearch()" >
+						<input id="btnsearch" type="button" class="sea-btn" style="cursor:pointer; border-style:none;" onClick="search()"  />
+				</div>
+				<div style="display:none">
+				<select class="sea-span" id="selectop" style="border:none; border-bottom-style:none" style="color:#CCCCCC">
+						<option>标题搜索</option>
+						
+				</select>
+				</div>
+				
+		</div>
+</div>
+</body>
+</html>
+</td>
+  </tr>
+</table>
+   
+        <table width="998" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="margin:0 auto">
+
+            <tr>
+                <td height="4"></td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="6"></td>
+                            <td>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" background="/TPFront/Template/Default/images/index_zibg.jpg">
+                                    <tr>
+                                        <!--<td width="46" height="30" background="/TPFront/Template/Default/images/sub_05.jpg"><div align="center"><img src="/TPFront/Template/Default/images/sub_04.jpg" width="11" height="11" /></div></td>-->
+                                        <td width="916" background="/TPFront/Template/Default/images/sub_05.jpg" align="left">  <div class="localposition">     <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="left"><FONT color="#000000" class=currentpostionfont>您现在的位置：</FONT><A href='/TPFront/'><FONT color="#000000" class="currentpostionfont">首页</FONT></A><FONT color="#ff6600"> > <a href='/TPFront/front_zfcg'><FONT color="#ff6600" class="currentpostionfont">政府采购</font></a> > <a href='/TPFront/front_zfcg/071003'><FONT color="#ff6600" class="currentpostionfont">变更公告</font></a></FONT></TD></TR></table></div></td>
+
+                                    </tr>
+                                </table><table width="100%" border="0" cellspacing="0" cellpadding="0" style=" border:#d1d1d1 1px solid;">
+                                    <tr>
+                                        <td height="120" background="/TPFront/Template/Default/images/3zw_01.gif">
+                                            <table width="100%" height="120" border="0" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td id="tdTitle" align="center" runat="server">
+                                                        <div style="line-height:28px;padding-top:35px; width:910px; background:url(
+                                                            /TPFront/template/default/images/child_rightbg.gif) repeat-x top"> <font color="#000000" style="font-size: 25px; font-weight:bold;">
+                                                                南充市广播电视台阳光问责项目设备及安装政府采购更正公告
+                                                            </font>
+                                                        </div>
+                                                        <div style="display:
+                                                            ">
+                                                            
+                                                        </div>
+
+                                                        <hr size="1" color="#d1d1d1" width="896" />
+                                                        <div style="height:20px; line-height:20px;">
+                                                            <font color="#000000" class="webfont">
+                                                                【信息时间：
+                                                                2017/6/20
+                                                                &nbsp;&nbsp;阅读次数：
+                                                                    <script src="../Upclicktimes.aspx?InfoID=ea68046c-893b-4e51-8c1b-87e37fb6964b"></script>
+                                                          &nbsp;&nbsp;
+                                                            
+                                                                】<a href="javascript:void(0)" onclick="window.print();"><font color="#000000" class="webfont">【我要打印】</font></a><a href="javascript:window.close()"><font color="#000000" class="webfont">【关闭】</font></a>
+                                                            </font><font color="#000000">
+
+                                                            </font>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="26"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="500" background="/TPFront/Template/Default/images/3zw_02.gif" align="center" valign="top">
+                                            <table width="96%" cellpadding="0" cellspacing="0" border="0">
+                                                <tr>
+                                                    <td valign="top" class="infodetail" id="TDContent">
+
+                                                        <p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">集中采购机构：南充市公共资源交易中心 </span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">采购项目编号：<span>5113012017000304</span></span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">采购项目名称：南充市广播电视台阳光问责项目设备及安装政府采购</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">原公告 时 间：<span>2017</span>年<span>6</span>月<span>14</span>日</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">公告内容：</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-INDENT: 32pt"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">1</span><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">、删除招标文件第六章第二包防火墙技术参数中的：</span></p>
+<div align="center">
+<table style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" width="100%" border="1">
+  <tbody>
+    <tr>
+      <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt">
+      <p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph" align="center"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">产品资质</span></p>
+      </td>
+      <td style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt">
+      <p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">&nbsp; </span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">投标人所投产品应具有</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">中华人民共和国公安部颁发的《计算机信息系统安全专用产品销售许可证》（三级）；</span></p>
+      <p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">&nbsp; </span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">投标人所投产品应具有</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">中国信息安全测评中心颁发的《信息安全产品<span>EAL3</span>等级认证证书》；</span></p>
+      <p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">&nbsp; </span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">投标人所投产品应具有</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">中国信息安全认证中心颁发的《中国国家信息安全产品认证证书》（第三级要求）；</span></p>
+      <p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">&nbsp; </span><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">投标人所投产品应具有《<span>IPV6</span>认证证书》<span>IPv6 Ready Phase-2</span>认证；</span></p>
+      <p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span style="FONT-SIZE: 12pt; FONT-FAMILY: 仿宋,仿宋_GB2312">签订合同前提供证书复印件加盖原厂商公章。</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-INDENT: 32pt"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">2</span><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">、将招标文件第六章第二包磁盘阵列技术参数中的<span>“4.</span>支持<span>FC SAN</span>、<span>IP SAN</span>、<span>NAS</span>存储功能（提供公安部检测报告）”更正为：<span>“</span>支持<span>FC SAN</span>、<span>IP SAN</span>、<span>NAS</span>存储功能<span>”</span>。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-INDENT: 32pt"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">3</span><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">、其他内容不变，特此公告。</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-INDENT: 32pt"><span style="FONT-FAMILY: 'Times New Roman',serif">&nbsp;</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-INDENT: 32pt"><span style="FONT-SIZE: 16pt">&nbsp;</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; WORD-BREAK: break-all; TEXT-ALIGN: right; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-INDENT: 32pt" align="right"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">南充市公共资源交易中心 </span><span style="FONT-SIZE: 16pt">&nbsp;&nbsp;&nbsp;</span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; WORD-BREAK: break-all; TEXT-ALIGN: right; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-INDENT: 32pt" align="right"><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">2017</span><span style="FONT-SIZE: 16pt; FONT-FAMILY: 仿宋,仿宋_GB2312">年<span>6</span>月<span>19</span>日 </span><span style="FONT-SIZE: 16pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+<p style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Calibri',sans-serif; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph"><span>&nbsp;</span></p>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="10"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="display:none">
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="4"></td>
+                                                </tr>
+                                                 <tr>
+                                                    <td align="center"><a href="http://www.scncggzy.com.cn/TPBidder/login.aspx" target="_blank"><img src="/TPFront/Template/Default/images/wybm.png" width="120" height="41" border="0" /></a></td>
+                                                </tr>
+												 <tr>
+                                                    <td height="4"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="6"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="12" colspan="5"></td>
+            </tr>
+
+        </table>
+        <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="renderer" content="webkit">
+<link rel="stylesheet" href="/TPFront/Template/Default/css/common.css">
+<link rel="stylesheet" href="/TPFront/Template/Default/css/index.css">
+<script src="/TPFront/Template/Default/js/jquery-1.11.0.min.js"></script>
+<title>南充公共资源交易中心</title>
+	 <script type="text/javascript" language="javascript">
+
+        //加入收藏
+
+        function AddFavorite(sURL, sTitle) {
+
+            sURL = encodeURI(sURL);
+            try {
+
+                window.external.addFavorite(sURL, sTitle);
+
+            } catch (e) {
+
+                try {
+
+                    window.sidebar.addPanel(sTitle, sURL, "");
+
+                } catch (e) {
+
+                    alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置");
+
+                }
+
+            }
+
+        }
+
+        //设为首页
+
+        function SetHome(url) {
+
+            if (document.all) {
+
+                document.body.style.behavior = 'url(#default#homepage)';
+
+                document.body.setHomePage(url);
+
+            } else {
+
+                alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+
+            }
+
+
+        }
+		
+		function setHomepage(){
+ var url = 'http://ml.lemongame.net'; if (document.all){ document.body.style.behavior='url(#default#homepage)'; document.body.setHomePage(url); }else if (window.sidebar){ if(window.netscape){ try{ netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); }catch (e){ } } var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch); prefs.setCharPref('browser.startup.homepage',url); }else{ } }
+
+    </script>
+	</head>
+<body >
+     
+	 <!-- 底部菜单 -->
+    <div class="container foot-menu mt10">
+        <p class="foot-item">
+            <a href="#" class="foot-link" onClick="SetHome(parent.window.location)" href="javascript:void(0)">设为首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#" class="foot-link" a onClick="AddFavorite(parent.window.location,document.title)">加入收藏</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="/TPFront/Template/Default/../../front_lxwm" class="foot-link">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="/TPFront/Template/Default/../../front_cjwt" class="foot-link">常见问题</a>
+        </p>
+    </div>
+    <!-- 底部文字 -->
+    <div class="container">
+        <p class="message">
+            南充市公共资源交易网&nbsp;&nbsp;&nbsp;  版权所有&nbsp;&nbsp;&nbsp; 蜀ICP备10001680号
+            <br/> 地址：南充市涪江路19号&nbsp;&nbsp;&nbsp;E-mail：nczwzx@qq.com
+            <br/> 制作维护：江苏国泰新点软件有限公司
+            <br/> 您是第<span class="spe"><script src="/TPFront/Template/Default/../../count.aspx"></script></span>访问者
+        </p>
+    </div>
+    <script src="/TPFront/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/TPFront/Template/Default/js/tabview.js"></script>
+    <script src="/TPFront/Template/Default/js/index.js"></script>
+</body>
+</html>
+
+ 
+</body>
+</html>

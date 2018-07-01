@@ -1,0 +1,430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>甘肃政府采购网</title>
+<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache" />
+<link href="/newweb/css/K_page.css" rel="stylesheet" type="text/css" />
+<link href="/newweb/css/K_slide_0925.css" rel="stylesheet" type="text/css">
+<link href="/templet/xzfcgw/Skin_K/CSS/K_page.css" rel="stylesheet" type="text/css" />
+<script src="/newweb/js/jquery-1.8.2.min.js"></script><script src="/newweb/js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="/templet/xzfcgw/Skin_K/JS/print.js" type="text/javascript"></script>
+
+</head>
+<body>
+<!-- TOP S-->
+<div id="divPrint">
+<!-- Top S -->
+<div class="IndexTop">
+  <div class="TopInfo">
+    <div class="TopInfo_width">
+      <p> 甘肃省政府采购网是甘肃省内政府采购公告的唯一发布网站，所有省内政府采购公告以本网站发布为准</p>
+      <span>服务热线：18709427032</span></div>
+  </div>
+  <div class="Top_height_cls"> </div>
+  <!-- Top E --> 
+  <!-- Menu S -->
+  <div class="navBar">
+    <ul class="nav clearfix">
+      <li id="m1" class="m on">
+        <h3><a href="/index.html" target="_self">网站首页</a></h3>
+      </li>
+      <li id="m2" class="m">
+        <h3><a href="/web/article/128/0/index.html" target="_blank">采购公告</a></h3>
+        <ul class="sub">
+          <li> <a href="/web/article/12805/0/index.html" target="_blank">招标采购</a></li>
+          <li> <a href="/web/article/12806/0/index.html" target="_blank">资格预审</a></li>
+          <li> <a href="/web/article/12807/0/index.html" target="_blank">废标流标</a></li>
+          <li> <a href="/web/article/12801/0/index.html" target="_blank">非招标</a></li>
+          <li> <a href="/web/article/12802/0/index.html" target="_blank">中标公告</a></li>
+          <li> <a href="/web/article/12804/0/index.html" target="_blank">成交公告</a></li>
+          <li> <a href="/web/article/12803/0/index.html" target="_blank">更正公告</a></li>
+        </ul>
+      </li>
+      <li id="m3" class="m">
+        <h3><a href="/web/article/121/0/index.html" target="_blank">综合信息</a></h3>
+        <ul class="sub">
+          <li> <a href="/web/article/12101/0/index.html" target="_blank">新闻动态</a></li>
+          <li> <a href="/web/article/12102/0/index.html" target="_blank">图片新闻</a></li>
+          <li> <a href="/web/article/12103/0/index.html" target="_blank">投诉处理</a></li>
+          <li> <a href="/web/article/12104/0/index.html" target="_blank">公告通知</a></li>
+          <li> <a href="/web/article/12105/0/index.html" target="_blank">理论探讨</a></li>
+          <li> <a href="/web/article/12106/0/index.html" target="_blank">分析研究</a></li>
+        </ul>
+      </li>
+      <li id="m4" class="m">
+        <h3><a href="/web/article/124/0/index.html" target="_blank">政策法规</a></h3>
+        <ul class="sub">
+          <li> <a href="/web/article/12401/0/index.html" target="_blank">国家</a></li>
+          <li> <a href="/web/article/12402/0/index.html" target="_blank">地方</a></li>
+        </ul>
+      </li>
+      <li id="m5" class="m">
+        <h3><a href="/web/article/130/0/index.html" target="_blank">协议供货</a></h3>
+        <ul class="sub">
+          <li> <a href="/web/article/13001/0/index.html" target="_blank">公告栏</a></li>
+          <li> <a href="/web/article/13002/0/index.html" target="_blank">操作指南</a></li>
+          <li> <a href="/web/doCommodType.action?period=201601" target="_blank">2016年一期</a></li>
+          <li> <a href="/web/doCommodType.action?period=201502" target="_blank">2015年二期</a></li>
+          <li> <a href="/web/doCommodType.action?period=201501" target="_blank">2015年一期</a></li>
+        </ul>
+      </li>
+      <li id="m10" class="m">
+        <h3><a href="/web/article/142/0/index.html" target="_blank">定点采购</a></h3>
+        <ul class="sub">
+          <li> <a href="/web/article/14201/0/index.html" target="_blank">省级</a></li>
+          <li> <a href="/web/article/14202/0/index.html" target="_blank">市级</a></li>
+        </ul>
+      </li>
+      <li id="m6" class="m">
+        <h3><a href="/web/article/132/0/index.html" target="_blank">下载中心</a></h3>
+        <ul class="sub">
+          <li> <a href="/web/article/13201/0/index.html" target="_blank">采购人</a></li>
+          <li> <a href="/web/article/13202/0/index.html" target="_blank">评审专家</a></li>
+          <li> <a href="/web/article/13203/0/index.html" target="_blank">其它表格</a></li>
+        </ul>
+      </li>
+      <li id="m7" class="m">
+        <h3> <a href="/web/article/135/0/index.html" target="_blank">诚信记录</a></h3>
+      </li>
+      <li id="m8" class="m">
+        <h3> <a href="/web/indexsp.html" target="_blank">购买服务</a></h3>
+      </li>
+      <li id="m9" class="m">
+        <h3> <a href="/web/indexppp.html" target="_blank">PPP频道</a></h3>
+      </li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript"> jQuery(".nav").slide({ type:"menu",  titCell:".m", targetCell:".sub", effect:"slideDown", delayTime:300, triggerTime:100,returnDefault:true  });</script> 
+<!-- Menu E --> 
+<!-- Menu E --> 
+
+<!--网站主体内容 S--> 
+<div class="Module">
+<!-- 栏目导向 star -->
+<div class="noSideContent" id="mainContent">
+        <div class="mainBox marTop">
+            <div class="pathWrap">
+                <div class="path">当前位置：<a href="http://www.ccgp-gansu.gov.cn/">甘肃政府采购网</a>
+                  &gt;&gt; <a href="/web/article/128/0/index.html" target="_self">采购公告</a>
+                  &gt;&gt; <a href="/web/article/12805/0/index.html" target="_self">招标采购公告</a>
+                  &gt;&gt; <a href="/web/article/1280501/0/index.html" target="_self">公开招标</a>
+                   &gt;&gt; 正文内容</div>
+            </div>
+            <div class="mBd">
+                <div class="articleCon"> 
+                    <!-- 标题 -->
+                    <h2 class="title">宁县教育体育局“普惠性幼儿园”设备购置项目第二次公开招标公告<input type="hidden" id="id" value="4028828159cfd5bd015a4b85c843176a" /></h2>
+                    <h4 class="subTitle"></h4>
+                    <div class="property"> <span>文章来源：甘肃政府采购网</span> <span>发布时间：2017年02月17日</span> 
+    <script language="JavaScript" type="text/JavaScript" src="#"></script>
+ <span>字体：<a class="small" href="javascript:fontZoomA();">小</a> <a class="big" href="javascript:fontZoomB();">大</a></span></div>
+                    <!-- 正文 -->
+                    
+                    <table  border="1" width="100%" >
+					      <tr style="background-color:#960000" align="center" height="40px;">
+		                     <td colspan="4"> <font size="3" color="#FFFFFF">文章基本信息</font>
+		                     </td>
+	                     </tr> 
+						  
+	                     <tr  height="35px;">
+		                     <td width="12%">采购类别：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;公开招标
+		                     </td>
+		                    <td width="12%">招标编号：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;
+		                     </td>
+	                     </tr> 
+	                     <tr  height="35px;">
+		                     <td width="12%">采购人：
+		                     </td>
+							 <td >&nbsp;&nbsp;宁县教育体育局
+		                     </td>
+		                      <td width="12%">代理机构：
+	                     	 </td>
+	                     	 <td colspan="1" width="65%"  style="table-layout:word-wrap:break-word;word-break:break-all">&nbsp;&nbsp;甘肃骄阳采购招标代理有限责任公司
+	                     	 </td>
+	                     </tr> 
+	                    
+	                     <tr  height="35px;">
+	                     	 <td width="12%">采购预算：(万元)
+	                     	 </td>
+	                     	 <td colspan="3" width="65%"  style="table-layout:word-wrap:break-word;word-break:break-all">&nbsp;&nbsp;25.2
+	                     	 </td>
+	                     </tr>
+	                     
+                     </table> 
+                    
+                    <input type="hidden" value="4028828159cfd5bd015a4b85c843176a" id="id">
+                    <div class="conTxt">
+                    <div id="fontzoom">
+                    <p style="text-indent:20.55pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>甘肃骄阳采购招标代理有限责任公司受宁县教育体育局的委托，对宁县教育体育局</span>“普惠性幼儿园”设备购置项目（二次）以公开招标形式进行采购，欢迎符合资格条件的投标人前来参加</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>。</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="font-family:宋体;font-size:10.5pt;"><span>一、</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>招标文件编号</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>：</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;">GSJY-ZC2017021-1</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>二</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>、</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>招标内容</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>：</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:20.55pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>笔记本电脑</span>9台、投影机9台、电子白板互动模块9台、点读笔9套、音响9套、幕布9个、多媒体互动课程及课件9套；预算金额25.2万元（具体参数及要求详见招标文件）。</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>三</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>、</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>投标人资格要求</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>：</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">1、符合《中华人民共和国政府采购法》第二十二条、《中华人民共和国政府采购法实施条例》第十七条规定，有能力提供货物及长期售后服务的供应商；</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">2、</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>中国境内注册的企业独立法人，</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>具有合法有效的</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>工商营业执照（副本）原件（具有承担本项目相应的生产或经营范围）、税务登记证（副本）原件、组织机构代码证（副本）原件、银行开户许可证原件、</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>三证合一的营业执照不需提供税务登记证、组织机构代码证原件；</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">3、投标人须提供法定代表人身份证原件或法人授权函原件及被授权人身份证原件；</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">4</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>、提供</span>2015</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>年度经审计的财务审计报告原件、</span>2016年度缴纳税收证明材料原件（包括正规税务发票、完税证明等）及2016年度缴纳社会保障资金的证明材料原件（包括正规税务发票及缴纳清单）；</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">5</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>、</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>供应商是代理商的须提供所投产品生产厂家针对本项目的唯一授权书原件及售后服务承诺书原件；</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">6</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>、</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>提供</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>自本公告发布之日起供应商所</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>在</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>地或者项目发生地人民检察院出具的行贿犯罪档案查询结果告知函原件；</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">7</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>、本项目实行资格后审，不接受联合体投标。</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>四、评标方法：综合评分法</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>五、获取招标文件时间、地点、方式：</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">1、获取招标文件时间：2017年2月</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;">20</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>日至</span>2017年2月2</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;">4</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>日期间的每个工作日，上午</span>9:00至12:00，下午15:00至17:00。</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">2、获取招标文件地点：甘肃骄阳采购招标代理有限责任公司（庆阳市庆州东路由佳苑小区中三排1号3楼）</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">3、获取方式：现场自行领取。</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>六、投标截止时间及开标时间：</span>2017年3月</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;">13</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>日</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;">15</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;">:30分（北京时间）。</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>七、投标文件递交地点及开标地点：甘肃骄阳采购招标代理有限责任公司庆阳</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>分公司</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>会议室。</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>八、投标保证金缴纳方式及期限：</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>投标保证金金额</span>:人民币5000.00元</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>帐户名称：甘肃骄阳采购招标代理有限责任公司</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>开户银行：工商银行天水秦州支行</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>账</span> &nbsp;&nbsp;&nbsp;<span>号：</span>2706060429200071644</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>投标保证金截止时间：递交投标文件截止时间</span>48小时之前。</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>（一）投标单位只能通过电汇方式缴纳保证金，不接受其他方式的投标保证金；</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>（二）投标人必须从基本账户以电汇方式提交投标保证金，且投标保证金单位名称必须与投标人登记的单位名称一致，不得以分公司、办事处或其他机构名义递交；</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>（三）投标人在办理投标保证金电汇手续时，在银行电汇单附言栏上必须注明投标保证金对应的投标项目名称和招标文件编号。未按标段（包）逐笔递交保证金的，将导致投标无效投标。</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>九、采购项目需要落实的政府采购政策：《政府采购促进中小企业发展暂行办法》（财库【</span>2011】181号）。</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:0pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>十、采购项目联系人及联系电话：</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"> </span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>采购人：宁县教育体育局</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>联系人：李新刚</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>联系电话：</span>13830403140</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>地址：宁县县城</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>采购代理机构：甘肃骄阳采购招标代理有限责任公司</span>&nbsp;</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>地址：庆阳市庆州东路由佳苑小区中三排</span>1号3楼</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>联系人姓名：董楠</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>联系电话：</span>18919262068 </span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>传真：</span>0934-886056</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-indent:22.65pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>甘肃骄阳采购招标代理有限责任公司</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+<p style="text-align:left;text-indent:21pt;" class="MsoNormal">
+	<span style="line-height:114%;font-family:宋体;font-size:10.5pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017年2月</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;">17</span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"><span>日</span></span><span style="line-height:114%;font-family:宋体;font-size:10.5pt;"></span>
+</p>
+                     </div>
+                    </div>
+                    <div class="page"> <span id="pe100_page_contentpage" class="pagecss"></span> </div>
+                    
+                    
+                    <div style=" text-align:left">
+                    
+                     <table  border="1" width="100%" >
+                     </tr>
+						   <tr style="background-color:#960000" align="center" height="40px;">
+		                     <td colspan="4"> <font size="3" color="#FFFFFF">附件下载</font>
+		                     </td>
+	                     </tr> 
+	                     </tr>
+						   <tr align="center" height="40px;">
+		                     <td colspan="4"> 
+		                        
+                   				      无附件！
+		                     </td>
+	                     </tr> 
+	                     
+                     </table> 
+                    <div class="property2"><span>[<a href="javascript:printme()">打印文章</a>]</span> <span>[<a class="a" title="添加收藏" href="javascript:void(0)" onclick="shouCang(window.location,document.title)">添加收藏</a>]</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 栏目导向 end --> 
+<div class="cl marBot"></div>
+</div>
+
+<!-- 页脚 S-->
+<!-- 页脚 S-->
+<div id="footer">
+  <div class="footLink">
+    <div class="siteWidth"> <a href="javascript:void(0)" onclick="javascript:SetHomeFoot(this,&#39;http://www.gszfcg.gansu.gov.cn/&#39;)" title="把甘肃政府采购网设为主页"> 设为首页 </a> <span class="spe"> | </span> <a href="javascript:void(0)" onclick="javascript:shouCangFoot(&#39;http://www.gszfcg.gansu.gov.cn/&#39;,&#39;甘肃政府采购网&#39;)" title="把甘肃政府采购网加入收藏夹"> 收藏本站 </a> <span class="spe"> | </span> <a href="/web/contactus.html" target="_blank"> 联系我们 </a> <span class="spe"> | </span> <a href="http://www.gszfcg.gansu.gov.cn/#"> 网站帮助 </a> <span class="spe"> | </span> <a href="http://www.gszfcg.gansu.gov.cn/#"> 免责声明 </a> <span class="spe"> | </span> <a href="http://www.gszfcg.gansu.gov.cn/#"> 网站地图 </a> </div>
+  </div>
+  <div class="copyright">
+    <div class="siteWidth" style="font-size:14px;font-weight:bolder;"> 统计：今日访问 <span id="todayT">
+                0
+            </span> 次，总计 <span id="totalT">
+                0
+            </span> 人次 
+      <script type="text/javascript">
+                $(document).ready(function() {
+                    //网站访问总次数与当天访问次数统计
+                    $.ajax({
+                        url: "/web/doSiteCounter.action",
+                        type: 'post',
+                        cache: false,
+                        dataType: 'json',
+                        async: false,
+                        // 异步
+                        timeout: 30000,
+                        success: function(data) {
+                            if (data.msg != "") {
+                                var s = data.msg.split("-");
+                                document.getElementById('todayT').innerHTML = s[0];
+                                document.getElementById('totalT').innerHTML = s[1];
+                            }
+                        }
+                    });
+                });
+            </script> 
+    </div>
+    <div class="siteWidth"> 版权所有：甘肃政府采购网 Copyright © 2015 - 2016 All Rights Reserved 陇ICP备15002215号 <br>
+      联系电话：0931-8899904 联系地址：甘肃省兰州市东岗西路696号 <br>
+      <a href="http://www.votoon.com.cn/"> 技术支持：甘肃万通宽带视讯设备工程有限公司 </a> </div>
+  </div>
+  <div class="footerLinks"> </div>
+</div>
+
+<script type="text/javascript">
+    // 设置为主页 
+    function SetHomeFoot(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)';
+            obj.setHomePage(vrl);
+        } catch(e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                } catch(e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            } else {
+                alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：" + vrl + "点击确定。");
+            }
+        }
+    }
+    // 加入收藏 兼容360和IE6 
+    function shouCangFoot(sURL, sTitle) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        } catch(e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            } catch(e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+</script>
+<!-- 页脚 E--><!-- 页脚 E-->
+<script type="text/javascript">  jQuery(function($) { heightFix(".side",".mainContent .conTxt","-",310); }); </script> 
+<script language="javascript" type="text/javascript">
+
+jQuery("#fontzoom img").each(function(){
+	var img=jQuery(this); img.hide();
+	var imgInt=setInterval( function(){
+		if(img.width()>0){
+			clearInterval(imgInt);
+			if(img.width()>650){ img.width(650).css({cursor:"pointer",height:"auto"}).click(function(){window.open(img.attr('src'), "_blank")});}
+			img.show();
+		}
+	},50 );
+ });
+
+//更改字体大小
+var status0='';
+var curfontsize=10;
+var curlineheight=18;
+function fontZoomA(){
+  if(curfontsize>8){
+    document.getElementById('fontzoom').style.fontSize=(--curfontsize)+'pt';
+	document.getElementById('fontzoom').style.lineHeight=(--curlineheight)+'pt';
+  }
+}
+function fontZoomB(){
+  if(curfontsize<64){
+    document.getElementById('fontzoom').style.fontSize=(++curfontsize)+'pt';
+	document.getElementById('fontzoom').style.lineHeight=(++curlineheight)+'pt';
+  }
+}
+</script>
+</div>
+</body>
+</html>

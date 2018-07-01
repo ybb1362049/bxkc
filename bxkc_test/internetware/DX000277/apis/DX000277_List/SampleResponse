@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head xmlns="">
+    <title>采购公告 - 彩云电子招标采购平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk2312" />
+    <meta content="采购公告" name="keywords" />
+    <meta content="采购公告" name="description" /><script src="http://www.caiyunzb.com/front_res/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="http://www.caiyunzb.com/front_res/front.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/style/global.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/style/index.css" />
+  </head>
+  <body xmlns="">
+    <!--页头Begin--><p>
+<link href="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/caiyunzb.ico" type="&rdquo;image/x-icon&rdquo;" rel="shortcut icon" /></p>
+<div class="W1000 Center TopBg">
+<div class="TopLogo Left"><img title="彩云电子招标采购平台" height="64" alt="彩云电子招标采购平台" width="366" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Logo_bak.gif" /></div>
+<!-- JiaThis Button BEGIN --><script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?uid=1342278343205185&type=left&amp;btn=l1.gif" charset="utf-8"></script><!-- JiaThis Button END -->
+<div class="TopRight Right">
+<div class="TxtRight"><img alt="ico" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico01.gif" /><a class="Left10" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage(location.href)" href="javascript:void(0);">设为首页</a> <img class="Left20" alt="ico" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico01.gif" /><a class="Left10" onclick="javascript:window.external.AddFavorite('','彩云电子招标采购平台');" href="javascript:void(0);">加入收藏</a> <img class="Left20" alt="ico" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico01.gif" /><a class="Left10" href="/contect/index.htm">联系我们</a></div>
+<div style="margin-top: 20px"><script type="text/javascript">
+
+function searchFormSubmit() {
+
+	var skValue = document.getElementById('searchKey').value;
+
+	if(skValue==''){
+
+		alert('请输入搜索内容');
+
+		return false;
+
+	}else {
+
+		var reg=/[<>*'"(){}]+/g ;//定义特殊字符
+
+    	if(reg.test(skValue)){
+
+			alert('不能使用特殊字符【<>*\'"(){}】作为查询条件，请输入正确的搜索关键字！');
+
+			return false;
+
+		}
+
+	}
+
+	document.getElementById('searchForm').submit();	
+
+}
+
+</script>
+<form id="searchForm" action="/xycms/ArtiSearch.do" target="_blank">
+  <table cellspacing="5" cellpadding="0" width="100%" border="0">
+    <tbody>
+      <tr>
+        <td align="right" width="220"><input type="hidden" name="count" value="10" /> <input class="inputText" id="searchKey" size="30" onkeypress="if(event.keyCode==13){searchFormSubmit();return false;}" name="searchKey" type="text" /></td>
+        <td width="80"><select name="chnlId">
+        <option value="" selected="selected">所有栏目</option>
+        <option value="16">行业资讯</option>
+                <option value="4">平台资讯</option>
+                <option value="5">采购公告</option>
+                <option value="22">招标公告</option>
+                <option value="8">结果公告</option>
+                <option value="148">昆钢招标信息</option>
+                <option value="10">业务指南</option>
+                <option value="11">文档下载</option>
+                <option value="168">政策法规</option>
+                <option value="21">组织架构</option>
+                <option value="3">关于我们</option>
+        </select></td>
+        <td><input class="SeachBtn" type="submit" onclick="searchFormSubmit();return false;" value="提交查询内容" /></td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+</div>
+</div>
+<div class="Clear"></div>
+</div>
+<div class="Center W1000">
+<div class="Dh White14"><a target="_blank" href="/">首 页</a><a title="行业资讯" target="_blank" href="http://www.caiyunzb.com/cgdt/index.htm">行业资讯</a><a title="平台资讯" target="_blank" href="http://www.caiyunzb.com/ptgg/index.htm">平台资讯</a><a title="采购公告" target="_blank" href="http://www.caiyunzb.com/zbgg/index.htm">采购公告</a><a title="招标公告" target="_blank" href="http://www.caiyunzb.com/zzbgg/index.htm">招标公告</a><a title="结果公告" target="_blank" href="http://www.caiyunzb.com/jggs/index.htm">结果公告</a><a title="昆钢招标信息" target="_blank" href="http://www.caiyunzb.com/kgzb/index.htm">昆钢招标信息</a><a title="业务指南" target="_blank" href="http://www.caiyunzb.com/ywzn/index.htm">业务指南</a><a title="文档下载" target="_blank" href="http://www.caiyunzb.com/wdxz/index.htm">文档下载</a><a title="政策法规" target="_blank" href="http://cebpubservice.com/ctpsp_policylaw/jsp/caiyunzb/policies_index.jsp">政策法规</a><a title="组织架构" target="_blank" href="http://www.caiyunzb.com/struct.htm">组织架构</a><a title="关于我们" target="_blank" href="http://www.caiyunzb.com/about.htm">关于我们</a></div>
+<fck:object height="240" width="1000" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0">
+<param value="24870" name="_cx" />
+<param value="3175" name="_cy" />
+<param value="" name="FlashVars" />
+<param value="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Banner.swf" name="Movie" />
+<param value="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Banner.swf" name="Src" />
+<param value="Transparent" name="WMode" />
+<param value="all" name="AllowNetworking" />
+<param value="false" name="AllowFullScreen" /><fck:embed height="240" width="1000" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" quality="High" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Banner.swf" align="left" wmode="transparent"></fck:embed></fck:object></div> <!--页头End--><!--网站内容模块开始-->
+    <div class="Center W1000 WhiteBg">
+    <div class="Weizhi"><a href="http://www.caiyunzb.com">首页</a> &gt; <a href="http://www.caiyunzb.com/zbgg/index.htm">采购公告</a></div>
+    <div class="W980 Center PaddingTop10"><!--左侧内容模块-->
+    <div class="Left W205"><div class="Title205-1">
+<h2 class="Left W90 TxtCenter White Top8">平台资讯</h2>
+<span class="Right Right10 Top5"><a href="http://www.caiyunzb.com/ptgg/index.htm" target="_blank"><img title="更多" alt="更多" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/More01.gif" /></a></span> 
+<div class="Clear"></div>
+</div>
+<div class="BorderGreenNoTop Padding10" style="height: 194px"><marquee direction="up" height="200" width="100%" scrollamount="2" onmouseout="this.start();" onmouseover="this.stop();">
+<div class="List1">
+<ul>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/4143.htm" target="_blank" title="彩云平台用户印章采集通知">彩云平台用户印章采集通知</a><span class="Gray"> [04-23]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/1986.htm" target="_blank" title="关于进一步规范电子招标投标系统建设运营的通知">关于进一步规范电子招标投标系统建设运营的通知</a><span class="Gray"> [08-29]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/1917.htm" target="_blank" title="昆明市高新开发区管委会王敏正主任莅临电商公司调研指导工作">昆明市高新开发区管委会王敏正主任莅临电商公司调…</a><span class="Gray"> [08-12]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/1563.htm" target="_blank" title="专家自动语音通知系统全新上线">专家自动语音通知系统全新上线</a><span class="Gray"> [04-03]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/1023.htm" target="_blank" title="关于做好《电子招标投标办法》贯彻实施工作的指导意见">关于做好《电子招标投标办法》贯彻实施工作的指导…</a><span class="Gray"> [08-05]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/881.htm" target="_blank" title="平台免费注册入口于2013年5月1日正式开放">平台免费注册入口于2013年5月1日正式开放</a><span class="Gray"> [04-30]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/880.htm" target="_blank" title="2013年平台新收费标准5月1日起正式执行">2013年平台新收费标准5月1日起正式执行</a><span class="Gray"> [04-30]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/879.htm" target="_blank" title="电子签章应用正式上线">电子签章应用正式上线</a><span class="Gray"> [04-30]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/798.htm" target="_blank" title="首个《电子招标投标办法》5月1日起实施">首个《电子招标投标办法》5月1日起实施</a><span class="Gray"> [02-25]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/ptgg/746.htm" target="_blank" title="袁董事长新年致辞">袁董事长新年致辞</a><span class="Gray"> [01-08]</span></td>
+  </tr>
+</table></li>
+
+
+
+ </ul>
+  </div>
+  </marquee></div> <!--热点信息开始-->
+    <div class="Title205-1 Top10">
+    <h2 class="Left W90 TxtCenter White Top8">热点信息</h2>
+    <div class="Clear"></div>
+    </div>
+    <div class="BorderGreenNoTop Padding10" style="height: 270px">
+    <div class="List1">
+    <ul>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/zhw/20046.htm" target="_blank" title="云南省第一人民医院新昆华医院新增病床采购项目（重新招标）">云南省第一人民医院新昆华医院新增病床采购项目（…</a><span class="Gray"> [08-09]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/zhw/20045.htm" target="_blank" title="云南省第一人民医院新昆华医院新增护理产品采购项目（重新招标）">云南省第一人民医院新昆华医院新增护理产品采购项…</a><span class="Gray"> [08-09]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/jggs/20044.htm" target="_blank" title="云上云&#8226;云南省信息化中心（首期）项目外部供电接入设计成交结果公示">云上云&#8226;云南省信息化中心（首期）项目外部…</a><span class="Gray"> [08-09]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/chw/20043.htm" target="_blank" title="云南省阜外心血管病医院和云阜国际心血管病医院项目医用一体机采购 竞争性谈判公告更正">云南省阜外心血管病医院和云阜国际心血管病医院项…</a><span class="Gray"> [08-08]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/chw/20042.htm" target="_blank" title="云南省阜外心血管病医院和云阜国际心血管病医院项目无线移动平板探测器采购项目竞争性谈判公告更正">云南省阜外心血管病医院和云阜国际心血管病医院项…</a><span class="Gray"> [08-08]</span></td>
+  </tr>
+</table></li>
+<li><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="12" valign="top"><img alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/Ico02.gif" class="Top5" /></td>
+    <td><a href="http://www.caiyunzb.com/chw/20041.htm" target="_blank" title="云南石化燃气有限公司建筑装饰用陶瓷砖集团协同采购项目竞争性谈判公告">云南石化燃气有限公司建筑装饰用陶瓷砖集团协同采…</a><span class="Gray"> [08-08]</span></td>
+  </tr>
+</table></li>
+
+
+
+ </ul>
+      </div>
+      </div>
+      <!--热点信息结束--></div>
+      <!--中部内容模块--><!--左侧内容模块-->
+      <div class="Right W765"><!--信息列表模块开始-->
+      <div class="Title765">
+      <h2 class="Left W120 TxtCenter White Top8">采购公告</h2>
+      <span class="Right Right10 Top5"><a target="_blank" href="http://www.caiyunzb.com/zbgg/index.htm"><img title="更多" alt="更多" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/More01.gif" /></a></span>
+      <div class="Clear"></div>
+      </div>
+      <div class="BorderGreenNoTop Padding10" style="min-height: 523px">
+      <div class="list_content"><div class="c1-body">
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0471-0192ZB <a href="http://www.caiyunzb.com/chw/20043.htm" title="云南省阜外心血管病医院和云阜国际心血管病医院项目医用一体机采购 竞争性谈判公告更正" target="_blank">
+<span style="">云南省阜外心血管病医院和云阜国际心血管病医院项目医用一体机采购 竞争…</span></a></div><div class="f-right">2017-08-08</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0472-0193ZB <a href="http://www.caiyunzb.com/chw/20042.htm" title="云南省阜外心血管病医院和云阜国际心血管病医院项目无线移动平板探测器采购项目竞争性谈判公告更正" target="_blank">
+<span style="">云南省阜外心血管病医院和云阜国际心血管病医院项目无线移动平板探测器采…</span></a></div><div class="f-right">2017-08-08</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0483-0201ZB <a href="http://www.caiyunzb.com/chw/20041.htm" title="云南石化燃气有限公司建筑装饰用陶瓷砖集团协同采购项目竞争性谈判公告" target="_blank">
+<span style="">云南石化燃气有限公司建筑装饰用陶瓷砖集团协同采购项目竞争性谈判公告</span></a></div><div class="f-right">2017-08-08</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0479-0199ZB <a href="http://www.caiyunzb.com/cfw/20039.htm" title="云上云&#8226;云南省信息化中心（首期）项目用电技术服务竞争性谈判公告" target="_blank">
+<span style="">云上云&#8226;云南省信息化中心（首期）项目用电技术服务竞争性谈判公告…</span></a></div><div class="f-right">2017-08-07</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0472-0193ZB <a href="http://www.caiyunzb.com/chw/20038.htm" title="云南省阜外心血管病医院和云阜国际心血管病医院项目无线移动平板探测器采购  竞争性谈判公告" target="_blank">
+<span style="">云南省阜外心血管病医院和云阜国际心血管病医院项目无线移动平板探测器采…</span></a></div><div class="f-right">2017-08-07</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0471-0192ZB <a href="http://www.caiyunzb.com/chw/20037.htm" title="云南省阜外心血管病医院和云阜国际心血管病医院项目医用一体机采购  竞争性谈判公告" target="_blank">
+<span style="">云南省阜外心血管病医院和云阜国际心血管病医院项目医用一体机采购  竞争…</span></a></div><div class="f-right">2017-08-07</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0463-0187ZB <a href="http://www.caiyunzb.com/chw/20010.htm" title="云南省投资控股集团有限公司徽章制作项目竞争性谈判公告" target="_blank">
+<span style="">云南省投资控股集团有限公司徽章制作项目竞争性谈判公告</span></a></div><div class="f-right">2017-08-03</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0462-0186ZB <a href="http://www.caiyunzb.com/chw/20005.htm" title="云南省第一人民医院EPS应急照明系统采购" target="_blank">
+<span style="">云南省第一人民医院EPS应急照明系统采购</span></a></div><div class="f-right">2017-08-02</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0455-0180ZB <a href="http://www.caiyunzb.com/chw/20002.htm" title="云南省第一人民医院新昆华医院 幽门螺杆菌(HP)测试仪和碳13呼吸测定分析仪采购竞争性谈判公告" target="_blank">
+<span style="">云南省第一人民医院新昆华医院 幽门螺杆菌(HP)测试仪和碳13呼吸测定分析…</span></a></div><div class="f-right">2017-07-31</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0454-0179ZB <a href="http://www.caiyunzb.com/cfw/20000.htm" title="云上云&#8226;云南省信息化中心（首期）项目外部供电接入设计竞争性谈判公告" target="_blank">
+<span style="">云上云&#8226;云南省信息化中心（首期）项目外部供电接入设计竞争性谈判…</span></a></div><div class="f-right">2017-07-28</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0441-0172ZBC1 <a href="http://www.caiyunzb.com/cfw/19995.htm" title="凤庆县第二人民医院建设项目施工图设计文件审查竞争性谈判公告(重招)" target="_blank">
+<span style="">凤庆县第二人民医院建设项目施工图设计文件审查竞争性谈判公告(重招)</span></a></div><div class="f-right">2017-07-27</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0386-0136ZBC1 <a href="http://www.caiyunzb.com/chw/19989.htm" title="云南省第一人民医院新昆华医院新增监控系统设备采购及安装（重新招标）竞争性谈判公告" target="_blank">
+<span style="">云南省第一人民医院新昆华医院新增监控系统设备采购及安装（重新招标）竞…</span></a></div><div class="f-right">2017-07-25</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0441-0172ZB <a href="http://www.caiyunzb.com/cfw/19969.htm" title="凤庆县第二人民医院建设项目施工图设计文件审查竞争性谈判公告" target="_blank">
+<span style="">凤庆县第二人民医院建设项目施工图设计文件审查竞争性谈判公告</span></a></div><div class="f-right">2017-07-21</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0433-0165ZB <a href="http://www.caiyunzb.com/cfw/19965.htm" title="昆明理工大学呈贡莲华校区部分高低压配电室预防性测试项目竞争性谈判公告" target="_blank">
+<span style="">昆明理工大学呈贡莲华校区部分高低压配电室预防性测试项目竞争性谈判公告</span></a></div><div class="f-right">2017-07-18</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0386-0136ZB <a href="http://www.caiyunzb.com/chw/19953.htm" title="云南省第一人民医院新昆华医院新增监控系统设备采购及安装" target="_blank">
+<span style="">云南省第一人民医院新昆华医院新增监控系统设备采购及安装</span></a></div><div class="f-right">2017-07-14</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0428-0161ZB <a href="http://www.caiyunzb.com/chw/19950.htm" title="云投集团人力资源管理信息系统采购" target="_blank">
+<span style="">云投集团人力资源管理信息系统采购</span></a></div><div class="f-right">2017-07-14</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0427-0160ZB <a href="http://www.caiyunzb.com/chw/19949.htm" title="云南省阜外心血管病医院和云阜国际心血管病医院项目净化区域不锈钢制品采购" target="_blank">
+<span style="">云南省阜外心血管病医院和云阜国际心血管病医院项目净化区域不锈钢制品采购</span></a></div><div class="f-right">2017-07-13</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0407-0143ZB <a href="http://www.caiyunzb.com/chw/19948.htm" title="云南石化燃气有限公司陶瓷类和五金类卫浴洁具集团协同采购项目" target="_blank">
+<span style="">云南石化燃气有限公司陶瓷类和五金类卫浴洁具集团协同采购项目</span></a></div><div class="f-right">2017-07-12</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0409-0144ZB <a href="http://www.caiyunzb.com/chw/19947.htm" title="云南石化燃气有限公司建筑装饰用石材集团协同采购项目" target="_blank">
+<span style="">云南石化燃气有限公司建筑装饰用石材集团协同采购项目</span></a></div><div class="f-right">2017-07-12</div><div class="clear"></div></div>
+<div class="c1-bline" style="padding:7px 0px;"><div class="f-left"><img src="http://www.caiyunzb.com/front_res/com_tag/head-mark4.gif" align="middle" class="img-vm" border="0"/> XNZB2017-0385-0135ZB <a href="http://www.caiyunzb.com/cfw/19928.htm" title="云南省投资控股集团有限公司集团总部三项制度改革优化项目咨询服务（变更公告）" target="_blank">
+<span style="">云南省投资控股集团有限公司集团总部三项制度改革优化项目咨询服务（变更…</span></a></div><div class="f-right">2017-06-30</div><div class="clear"></div></div>
+</div>
+<div class="pg-3">
+	<span class="total">共54页</span>
+<span class="disabled"> |<  首页</span><span class="disabled"> <  上一页</span>				<span class="current">1</span>
+				<a href="http://www.caiyunzb.com/zbgg/index_2.htm">2</a>
+				<a href="http://www.caiyunzb.com/zbgg/index_3.htm">3</a>
+				<a href="http://www.caiyunzb.com/zbgg/index_4.htm">4</a>
+				<a href="http://www.caiyunzb.com/zbgg/index_5.htm">5</a>
+				<a href="http://www.caiyunzb.com/zbgg/index_6.htm">6</a>
+				<a href="http://www.caiyunzb.com/zbgg/index_7.htm">7</a>
+				<a href="http://www.caiyunzb.com/zbgg/index_8.htm">8</a>
+				<a href="http://www.caiyunzb.com/zbgg/index_9.htm">9</a>
+				<a href="http://www.caiyunzb.com/zbgg/index_10.htm">10</a>
+	<a href="http://www.caiyunzb.com/zbgg/index_2.htm">下一页  > </a>
+	<a href="http://www.caiyunzb.com/zbgg/index_54.htm">尾页  >| </a>
+</div></div>
+      </div>
+      <!--信息列表模块结束--></div>
+      <div class="Clear"></div>
+      </div>
+      <!--网站底部信息模块--><!--页脚Begin--><div class="W980 SiteBottom Center Top5 TxtCenter" style="height:120px">
+<p>
+<script type="text/javascript" src="http://220.163.112.28:7001/ynwjww/VieidServlet?webId=a9c746b106a0f4297811eafb6b21dbfa&width=60&heigth=70"></script>Copyright (c) 2012 云南云投电子商务有限公司 版权所有</p>
+<p>中国&middot;云南&middot;昆明市高新技术开发区海源中路和成国际26楼 滇ICP备12002213号</p>
+<p>服务电话：0871-63330287-504(技术支持) <span style="color: rgb(255, 0, 0);"><span><span>请在<span style="color: rgb(255, 0, 0);">工作时间</span>拨打&gt;</span></span> <a href="tencent://message/?Uin=1497988978&amp;Site=caigou.xinyuan.com.cn&amp;Menu=yes"><img width="64" height="20" align="absMiddle" alt="点击咨询" border="0" src="http://wpa.qq.com/pa?p=1:1497988978:7" /></a>（技术支持）<a href="tencent://message/?Uin=2608641432&amp;Site=caigou.xinyuan.com.cn&amp;Menu=yes"><img width="64" height="20" align="absMiddle" alt="点击咨询" border="0" src="http://wpa.qq.com/pa?p=1:2608641432:7" /></a>（注册审核咨询）</span><br />
+</p>
+</div>
+<p><style type="text/css">
+.couplet {position:fixed;_position: absolute;top: 5px; _top: expression(eval(document.documentElement.scrollTop + 10));z-index: 999;}</style><SCRIPT>
+    function clllldiv() {
+        document.getElementById("couplet_l").style.display = "none";
+    }
+    function cllllrdiv() {
+        document.getElementById("couplet_r").style.display = "none";
+    }
+</SCRIPT></p>
+<!--<div id="couplet_l" class="couplet" style="left: 5px; top: 10px"><img border="0" alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/upload/article/image/2014_2/4_3/wangzhan.jpg" />
+<div class="TxtCenter" onClick="clllldiv()"><a href="###"></a></div>
+<b style="color: #000"> <b style="color: #000"> </b></b></div>
+<p><b style="color: #000"> </b></p>
+<p><b style="color: #000"><b style="color: #000"> </b></b></p>
+<p><b style="color: #000"> </b></p>
+-->
+<div id="couplet_r" class="couplet" style="right: 5px; top: 110px"><b style="color: #000"><b style="color: #000"><img border="0" alt="" src="http://www.caiyunzb.com/res_base/xycms_com_www/default/article/images/weiboAndweixin.jpg" />
+<div class="TxtCenter" onClick="cllllrdiv()"><a href="#"><b style="color: #000">close</b></a></div>
+</b></b></div>
+ <!--页脚End--></div>
+    </body>
+  </html>

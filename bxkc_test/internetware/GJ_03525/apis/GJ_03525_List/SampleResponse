@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>中国海关政府采购网</title>
+    <link href="/hgcg/Template/Default/css/front.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="/hgcg/Template/Default/css/frontforie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td height="33" align="left" style="text-indent:20px;">
+                        <b>
+                            <script type="text/javascript">
+                                function y2k(number) { return (number < 1000) ? number + 1900 : number; }
+                                var now = new Date();
+                                var dd = now.getDate(), mt = now.getMonth() + 1, yy = y2k(now.getYear()), weekVal = now.getDay();
+                                if (weekVal == 0)
+                                    msg1 = "星期日";
+                                else if (weekVal == 1)
+                                    msg1 = "星期一";
+                                else if (weekVal == 2)
+                                    msg1 = "星期二";
+                                else if (weekVal == 3)
+                                    msg1 = "星期三";
+                                else if (weekVal == 4)
+                                    msg1 = "星期四";
+                                else if (weekVal == 5)
+                                    msg1 = "星期五";
+                                else if (weekVal == 6)
+                                    msg1 = "星期六";
+                                document.write('<font color=#285b88><font face="宋体" style="font-size:12px;">');
+                                document.write(yy + "年" + mt + "月" + dd + "日" + "</font></font>");
+                                document.write('<font color=#285b88><font face="宋体" style="font-size:12px;">');
+                                document.write(" " + msg1 + "</font></font>");
+                            </script>
+                            <script language="JavaScript" type="text/javascript"> 
+document.write(" </font></TT>"); 
+-- end Date --> 
+                            </script>
+                        </b>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td width="32" background="/hgcg/Template/Default/images/bg19.jpg">
+                    </td>
+                    <td width="70">
+                        站内搜索：
+                    </td>
+                    <td width="175" align="center">
+                        <input id="txtSousuo" style="border: 1px solid #C6C6C6; height: 20px; line-height: 20px; vertical-align: top;" type="text" onkeydown="CheckSearch()" value="请输入关键字" onclick="Clear();" name="txtkey" />
+                    </td>
+                    <td width="95" align="center">
+                        <img src="/hgcg/Template/Default/images/bg22.jpg" onclick="search();" style="cursor: pointer;" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="banner">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1002" height="151">
+                <param name="movie" value="/hgcg/Template/Default/images/top.swf" />
+                <param name="quality" value="high" />
+                <embed src="/hgcg/Template/Default/images/top.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1002" height="151"></embed>
+            </object>
+        </div>
+        <div class="nav">
+            <table border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td height="38">
+                        <ul class="navul">
+                            <li><a href="/hgcg/Template/Default/../../default.aspx">首 页</a></li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../gzdt/">工作动态</a>
+                                <ul>
+                                    <li><a href="/hgcg/Template/Default/../../gzdt/001001/">采购工作动态</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../gzdt/001002/">各关采购信息</a></li>
+                                </ul>
+                            </li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../zcfg/">政策法规</a>
+                                <ul>
+                                    <li><a href="/hgcg/Template/Default/../../zcfg/002001/" target="_parent">中央法规</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../zcfg/002002/" target="_parent">海关法规</a></li>
+                                </ul>
+                            </li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../llyd/">理论园地</a>
+                                <ul>
+                                    <li><a href="/hgcg/Template/Default/../../llyd/003001/" target="_parent">案例摘编</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../llyd/003002/" target="_parent">经验交流</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../llyd/003003/" target="_parent">理论研讨</a></li>
+                                </ul>
+                            </li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../cggg/">采购公告</a>
+                                <ul>
+                                    <li><a href="/hgcg/Template/Default/../../cggg/004001/" target="_parent">招标公告</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../cggg/004002/" target="_parent">变更公告</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../cggg/004003/" target="_parent">中标公告</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../cggg/004004/" target="_parent">成交公告</a></li>
+                                </ul>
+                            </li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../gyszl/">供应商专栏</a></li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../cxxx/">诚信信息</a></li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../zxt/">咨询台</a></li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../xzzx/">下载中心</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--main-->
+    <div class="main">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" background="/hgcg/Template/Default/images/bg6.jpg">
+            <tr>
+                <td width="60" height="43" align="center">
+                    <img width="16" height="16" src="/hgcg/Template/Default/images/bg7.jpg" alt="" />
+                </td>
+                <td width="75">
+                    <strong style="color: Red;">最新通知： </strong>
+                </td>
+                <td width="867">
+                    <TABLE  cellSpacing=3 cellPadding=0 width=100% align=center border=0 valign=top>
+<TR height=18>
+<TD align=center width=20><img src="/hgcg/images/dots/dot33.gif"></TD>
+<TD><a href="/hgcg/infodetail/?infoid=3c63ab76-d8aa-47fa-99c2-1943020c0e5c&categoryNum=009" target="_blank" title="海关总署物资装备采购中心关于清退电子竞价诚信保证金的通知"><font color="#000000">海关总署物资装备采购中心关于清退电子竞价诚...</font></a></TD>
+<td></td>
+<TD align=center width=20><img src="/hgcg/images/dots/dot33.gif"></TD>
+<TD><a href="/hgcg/infodetail/?infoid=33ccd7ab-f721-4b2a-8943-cbcd67c2dfa3&categoryNum=009" target="_blank" title="海关总署物资装备采购中心关于暂停开展电子竞价采购项目的通知"><font color="#000000">海关总署物资装备采购中心关于暂停开展电子竞...</font></a></TD>
+<td></td>
+</TR>
+<TR><TD height=1 class="webinfolistline" colSpan=6><img src="/hgcg/images/spacer.gif"></TD></TR>
+</TR></table>
+                </td>
+            </tr>
+        </table>
+        <div class="moreinfomain">
+            <div class="moreinfotitle">
+                采购公告
+            </div>
+            <div class="position">
+                <table border="0" cellspacing="0" cellpadding="0" align="left">
+                    <tr>
+                        <td width="45" height="34" align="center">
+                            <img width="12" height="12" src="/hgcg/Template/Default/images/bg24.jpg" alt="" />
+                        </td>
+                        <td>
+                            <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#000000" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/hgcg/'><FONT color="#000000" class=currentpostionfont>首页</FONT></A><FONT color="#FF7E00"> >> <a href='/hgcg/cggg'><FONT color="#FF7E00" class=currentpostionfont>采购公告</font></a> >> <a href='/hgcg/cggg/004001'><FONT color="#FF7E00" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td width="223" height="500" valign="top">
+                        <TABLE  cellSpacing="0" cellPadding="0" width="100%" border="0">
+<TR><td class="LeftMenu" background="/hgcg/" ><a href="/hgcg/cggg/004001" target="_self"><font color=#1C6CBB>招标公告</font></a></td></TR>
+<TR><td class="LeftMenu" background="/hgcg/" ><a href="/hgcg/cggg/004002" target="_self"><font color=black>变更公告</font></a></td></TR>
+<TR><td class="LeftMenu" background="/hgcg/" ><a href="/hgcg/cggg/004003" target="_self"><font color=black>中标公告</font></a></td></TR>
+<TR><td class="LeftMenu" background="/hgcg/" ><a href="/hgcg/cggg/004004" target="_self"><font color=black>成交公告</font></a></td></TR>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script>
+                    </td>
+                    <td width="14">
+                    </td>
+                    <td width="710" valign="top" class="moreinfotd">
+                        <form name="ctl00" method="post" action="MoreInfo.aspx?CategoryNum=004001" id="ctl00">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="48BD9E87" />
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+</div><table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr style="display:none;">
+		<td id="MoreInfoList1_tdTitle" valign="top" height="22"><img src="../images/map.gif" 
+      ><span id="MoreInfoList1_lblcategory"></span></td>
+	</tr>
+	<tr style="display:none;">
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%"><table cellspacing="0" align="Center" rules="all" border="0" id="MoreInfoList1_DataGrid1" style="border-width:0px;width:98%;border-collapse:collapse;">
+			<tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=6496dcc8-f112-4d73-92b5-28c3ad13340b&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年瘦客户机采购项目招标公告">【公开招标】海关总署2016年瘦客户机采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-11-01
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=22965bd7-1245-4b5b-b569-af6f81e7b249&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年枪弹检验鉴定设备采购项目招标公告">【公开招标】海关总署2016年枪弹检验鉴定设备采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-11-01
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=4d45d44e-c8ad-4c83-a72f-3aa3cb286152&CategoryNum=004001" target="_blank" title="【公开招标】2016年海关总署餐食设备（重新招标）采购项目招标公告">【公开招标】2016年海关总署餐食设备（重新招标）采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-11-01
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=945454db-0343-4cdb-851b-4f05507e4e3e&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年总署监控指挥中心维保服务与数据中心机房搬迁服务采购项目招标公告">【公开招标】海关总署2016年总署监控指挥中心维保服务与数据中心机房搬迁服务采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-31
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=2e6d8b21-00a7-4af6-922b-3c5a542500f0&CategoryNum=004001" target="_blank" title="【公开招标】2016年集装箱/车辆检查系统采购项目招标公告">【公开招标】2016年集装箱/车辆检查系统采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-31
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=26c2e616-e663-4728-bff7-9d23713005dc&CategoryNum=004001" target="_blank" title="【公开招标】深圳海关查验管控中心、稽核查中心大屏幕建设采购项目招标公告">【公开招标】深圳海关查验管控中心、稽核查中心大屏幕建设采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-28
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=440041a3-8ccc-4b04-94d4-c77287d815a2&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年文件检验鉴定设备采购项目招标公告">【公开招标】海关总署2016年文件检验鉴定设备采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-28
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=89a997ae-4578-4332-8624-2a7ff6850825&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年现勘信息快速录入设备采购项目招标公告">【公开招标】海关总署2016年现勘信息快速录入设备采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-27
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=dda60626-698f-46da-9c75-e725c1979d49&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年顺义机房网络线路租赁服务采购项目招标公告">【公开招标】海关总署2016年顺义机房网络线路租赁服务采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-27
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=46efd7db-bf7d-4d41-8a18-53f03f889774&CategoryNum=004001" target="_blank" title="【竞争性谈判】全国海关信息中心数据资产安全管理系统采购项目竞争性谈判公告">【竞争性谈判】全国海关信息中心数据资产安全管理系统采购项目竞争性谈判公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-27
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=96b4dec1-d4b0-4a1e-991e-98f5bc7bd260&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年单/双视角X光机采购项目招标公告">【公开招标】海关总署2016年单/双视角X光机采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-26
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=309db1e7-92c9-4894-bf7a-4c0e17ab3b5a&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年计算机与打印机维修和耗材配件供应服务采购项目招标公告">【公开招标】海关总署2016年计算机与打印机维修和耗材配件供应服务采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-26
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=dd5a12b9-55a5-484a-b84d-cdc2c5978cde&CategoryNum=004001" target="_blank" title="【询价】海关总署2016年计算机耗材及配件（10月份）采购项目（重新采购）">【询价】海关总署2016年计算机耗材及配件（10月份）采购项目（重新采购）</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-26
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=aa55ce5c-7c16-49a1-9800-e45b7cc5842a&CategoryNum=004001" target="_blank" title="【竞争性谈判】海关总署2016年信息中心网络通信核心设备维保服务采购项目竞争性谈判公告">【竞争性谈判】海关总署2016年信息中心网络通信核心设备维保服务采购项目竞争性谈判公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-26
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=6b2c62ad-86e1-4adc-98d3-45ff73568e62&CategoryNum=004001" target="_blank" title="【竞争性谈判】南宁海关2016年机房列间精密空调采购项目竞争性谈判公告">【竞争性谈判】南宁海关2016年机房列间精密空调采购项目竞争性谈判公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-25
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=ee3ce995-6c05-450d-b6e6-4acdecfd164f&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年指挥调度无线通讯设备采购项目招标公告">【公开招标】海关总署2016年指挥调度无线通讯设备采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-25
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=8905a673-1fa0-4a2c-a984-4030c2f2cd6b&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年防护装备采购项目招标公告">【公开招标】海关总署2016年防护装备采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-24
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=9be0b09c-fa40-40e4-bfb8-f86133a65b91&CategoryNum=004001" target="_blank" title="【竞争性谈判】海关总署管理网邮件改造开发服务采购项目竞争性谈判公告">【竞争性谈判】海关总署管理网邮件改造开发服务采购项目竞争性谈判公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-24
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=4518658c-d746-45b4-bda4-db69bc68ed53&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年智能DNS设备采购项目（重新招标）采购项目招标公告">【公开招标】海关总署2016年智能DNS设备采购项目（重新招标）采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-24
+						</td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+							<img src="/hgcg/images/dots/dot1.gif">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/hgcg/InfoDetail/Default.aspx?InfoID=cda803ea-0360-49db-93a6-7d4a4ddf3560&CategoryNum=004001" target="_blank" title="【公开招标】海关总署2016年查车拦截设备采购项目招标公告">【公开招标】海关总署2016年查车拦截设备采购项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							2016-10-21
+						</td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+		<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+		<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+		<div id="MoreInfoList1_Pager">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" nowrap="true" style="width:40%;">记录总数：<font color="blue"><b>948</b></font> 总页数：<font color="blue"><b>48</b></font> 当前页：<font color="red"><b>2</b></font></td><td valign="bottom" align="notset" nowrap="true" class="" style="width:60%;"><a href="javascript:__doPostBack('MoreInfoList1$Pager','1')" title="转到第1页"><img src="/hgcg/images/page/firstn.gif" border="0" align="Baseline" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','1')" title="转到第1页"><img src="/hgcg/images/page/prevn.gif" border="0" align="Baseline" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','1')" title="转到第1页"><img src="/hgcg/images/page/1n.gif" align="Baseline" border="0" /></a><span style="width:5px;"></span><img src="/hgcg/images/page/2r.gif" align="Baseline" border="0" /><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" title="转到第3页"><img src="/hgcg/images/page/3n.gif" align="Baseline" border="0" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','4')" title="转到第4页"><img src="/hgcg/images/page/4n.gif" align="Baseline" border="0" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','5')" title="转到第5页"><img src="/hgcg/images/page/5n.gif" align="Baseline" border="0" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','6')" title="转到第6页"><img src="/hgcg/images/page/6n.gif" align="Baseline" border="0" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','7')" title="转到第7页"><img src="/hgcg/images/page/7n.gif" align="Baseline" border="0" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','8')" title="转到第8页"><img src="/hgcg/images/page/8n.gif" align="Baseline" border="0" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','9')" title="转到第9页"><img src="/hgcg/images/page/9n.gif" align="Baseline" border="0" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','10')" title="转到第10页"><img src="/hgcg/images/page/1n.gif" align="Baseline" border="0" /><img src="/hgcg/images/page/0n.gif" align="Baseline" border="0" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','11')" title="转到第11页"><img src="/hgcg/images/page/moren.gif" border="0" align="Baseline" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" title="转到第3页"><img src="/hgcg/images/page/nextn.gif" border="0" align="Baseline" /></a><span style="width:5px;"></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','48')" title="转到第48页"><img src="/hgcg/images/page/lastn.gif" border="0" align="Baseline" /></a><span style="width:5px;"></span></td>
+				</tr>
+			</table>
+		</div>
+		<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+		</td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+</table>
+
+<script>
+var Tdname='MoreInfoList1'+"_tdcontent";
+document.getElementById(Tdname).className='MiddleBg'
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl00'];
+if (!theForm) {
+    theForm = document.ctl00;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+</form>
+                    </td>
+                </tr>
+            </table>
+            <div class="blankh10">
+            </div>
+        </div>
+        <div class="blankh10">
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <iframe src="/hgcg/Template/Default/pagefoot.htm" width="1002" height="87" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <script src="/hgcg/Template/Default/js/front.js" type="text/javascript"></script>
+</body>
+</html>

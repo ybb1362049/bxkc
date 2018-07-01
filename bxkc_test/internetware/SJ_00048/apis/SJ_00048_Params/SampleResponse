@@ -1,0 +1,2636 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache"/>
+<meta content="黑龙江省政府采购网" name="keywords" />
+<meta content="黑龙江省政府采购网" name="description" />
+<title>黑龙江省政府采购网</title>
+<script src="/js/jquery/jquery.min.1.4.2.js" language="JavaScript" type="text/javascript"></script>
+<script src="/js/jquery/jquery.form.2.36.js" language="JavaScript" type="text/javascript"></script>
+<script src="/js/common/modalpopup.js"  type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/css/modelpopup.css" />
+<link rel="stylesheet" href="/css/index/style.css" type="text/css" />
+<script type="text/javascript" src="/js/index/jquery-1.32pack.js" language="JavaScript" type="text/javascript"></script>
+<script type="text/javascript" src="/js/index/effect_commonv1.1.js" language="JavaScript" type="text/javascript"></script>
+<script src="/js/index/AC_RunActiveContent.js" language="javascript"></script>
+<script src="/js/jquery/jquery.min.1.4.2.js" language="JavaScript" type="text/javascript"></script>
+<script src="/js/jquery/jquery.form.2.36.js" language="JavaScript" type="text/javascript"></script>
+<script type=text/javascript src="/js/index/Tabs.js"></script>
+<script type="text/javascript" src="/jsp/common/index/scroll.js"></script>
+
+
+<script type="text/javascript">
+$().ready(function(){
+	//显示网站导航
+    $("#tl_nav").hover(function(){
+        $("#tl_nav .more_nav").show();
+    });
+    //隐藏网站导航
+    $("#tl_nav").hover(function(){},function () {
+        $("#tl_nav .more_nav").hide();
+    });
+    
+});
+//查询
+function queryLike(){
+	var gjz = $("#gjz").val();
+	if (gjz == '' || gjz ==null) {
+        $('#gjz').focus();
+		alert('请填写搜索内容');
+	} else {
+	    document.queryform.action = "/xwzs!queryXwxxSsqx.action?xwzsPage.GJZ="+gjz;
+		document.queryform.submit();
+	}
+}
+
+//查询
+function queryGys(){
+	var gjz = $("#gysmc").val();
+	if (gjz == '' || gjz ==null) {
+        $('#gysmc').focus();
+		alert('请填写名称');
+	} else {
+	    document.queryform.action = "/xwzs!queryGyscx.action";
+		document.queryform.submit();
+	}
+}
+
+//更换验证码图片
+function queryYzm(zt){
+	if(zt=='1'){
+	    var ImgCodeInst = document.getElementById("randcode1");
+	    var dt = new Date();
+	    ImgCodeInst.src = "/zhcx!queryYzm.action?"+dt.getMilliseconds();
+	}else if(zt == '2'){
+		var ImgCodeInst = document.getElementById("randcode2");
+	    var dt = new Date();
+	    ImgCodeInst.src = "/zhcx!queryYzm.action?"+dt.getMilliseconds();
+	}else{
+		var ImgCodeInst = document.getElementById("randcode3");
+	    var dt = new Date();
+	    ImgCodeInst.src = "/zhcx!queryYzm.action?"+dt.getMilliseconds();
+	}
+}
+
+function tz(dm){
+	$("#zoneid_id").val(dm);
+	$("#tzF").submit();
+}
+
+$(function(){
+	$("div.tzgg").myScroll({
+		speed:40 ,
+		
+		  rowHeight:187 //li的高度
+		
+	    
+	});
+});
+</script>
+<style >
+.list_lh{  overflow:hidden;}
+</style>
+<style>
+.float_adv{width: 100%;background:#2997bc;border-radius: 2px; max-height: 78px; box-shadow: 1px 1px 2px #444444}
+.float_adv a{ display: block;  color:#ffffff; font-size: 16px ;  padding-left:0px; text-decoration: none; text-align: left;}
+.float_adv a:hover{background:#2485a5;color:#fff600; }	
+</style>
+
+</head>
+
+<body>
+
+
+
+<form id="tzF" name="tzF" method="post" action="http://www.hljcg.gov.cn/xjgl/index.jsp" target="_blank">
+	<input type="hidden" name="zoneid" id="zoneid_id"/>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.area{display:inline-block; float:left; padding:0px 5px;white-space:nowrap;
+	background: #fdfdfd;
+	background: -moz-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #f2f2f2));
+	background: -webkit-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+	background: -o-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+	background: -ms-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+	background: linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f2f2f2', GradientType=0 );
+ 	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin:3px 7px 0px 0px;
+	color: #5f5f5f;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+ }
+ 
+ #top02{background:url(/images/index/banner23.jpg) no-repeat;width:1000px;height:158px;float:left;}
+</style>
+
+
+
+<div id="top" >
+<div id="top01">
+	<div class="welcome" ><span id="time_good">下午好,</span>
+	
+        <span>欢迎来到黑龙江省政府采购网！</span>
+        
+        	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=23';return false;">登录</a>
+        
+
+	</div>
+    <div class="bz">
+    	<ul>
+        <li><a href="/">返回首页</a></li>
+            <li><a href="javascript:void(0);" onclick="javascript:SetHome(window.location);">设为首页</a></li>
+            <li><a href="javascript:void(0);" onclick="javascript:AddFavorite(window.location,document.title);">加入收藏</a></li>
+            <li class="tl_more" id="tl_nav"><a class="tl_down">网站导航</a>
+            <div class="more_nav" id="tl_nav_more">
+            <h5><a href="javascript:void(0);">网站导航</a></h5>
+            <div class="more_navlist" >
+              <p  class="titlemain">
+                <a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=23';return false;"  >黑龙江省政府采购网</a>
+                &nbsp;&nbsp;
+                <a href="javascript:void(0);"   style="font-size:12px;">全省信息</a>
+              </p>
+
+              
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2301';return false;" >哈尔滨市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2301" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230102';return false;\">道里区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230103';return false;\">南岗区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230104';return false;\">道外区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230108';return false;\">平房区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230109';return false;\">松北区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230110';return false;\">香坊区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230111';return false;\">呼兰区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230112';return false;\">阿城区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230123';return false;\">依兰县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230124';return false;\">方正县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230125';return false;\">宾县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230126';return false;\">巴彦县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230127';return false;\">木兰县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230128';return false;\">通河县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230129';return false;\">延寿县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230182';return false;\">双城市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230183';return false;\">尚志市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2301").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230184';return false;\">五常市</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2302';return false;" >齐齐哈尔市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2302" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\">龙沙区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\">建华区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\">铁锋区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\">昂昂溪区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\">富拉尔基区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\">碾子山区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\">梅里斯达斡尔族区</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230221';return false;\">龙江县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230223';return false;\">依安县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230224';return false;\">泰来县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230225';return false;\">甘南县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230227';return false;\">富裕县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230229';return false;\">克山县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230230';return false;\">克东县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230231';return false;\">拜泉县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2302").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230281';return false;\">讷河市</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2303';return false;" >鸡西市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2303" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2303").append("<a href=\"javascript:void(0);\" class=\"area\">鸡冠区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2303").append("<a href=\"javascript:void(0);\" class=\"area\">恒山区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2303").append("<a href=\"javascript:void(0);\" class=\"area\">滴道区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2303").append("<a href=\"javascript:void(0);\" class=\"area\">梨树区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2303").append("<a href=\"javascript:void(0);\" class=\"area\">城子河区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2303").append("<a href=\"javascript:void(0);\" class=\"area\">麻山区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2303").append("<a href=\"javascript:void(0);\" class=\"area\">鸡东县</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2303").append("<a href=\"javascript:void(0);\" class=\"area\">虎林市</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2303").append("<a href=\"javascript:void(0);\" class=\"area\">密山市</a>");
+                     </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2304';return false;" >鹤岗市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2304" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2304").append("<a href=\"javascript:void(0);\" class=\"area\">向阳区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2304").append("<a href=\"javascript:void(0);\" class=\"area\">工农区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2304").append("<a href=\"javascript:void(0);\" class=\"area\">南山区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2304").append("<a href=\"javascript:void(0);\" class=\"area\">兴安区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2304").append("<a href=\"javascript:void(0);\" class=\"area\">东山区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2304").append("<a href=\"javascript:void(0);\" class=\"area\">兴山区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2304").append("<a href=\"javascript:void(0);\" class=\"area\">萝北县</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2304").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230422';return false;\">绥滨县</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2305';return false;" >双鸭山市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2305" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2305").append("<a href=\"javascript:void(0);\" class=\"area\">尖山区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2305").append("<a href=\"javascript:void(0);\" class=\"area\">岭东区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2305").append("<a href=\"javascript:void(0);\" class=\"area\">四方台区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2305").append("<a href=\"javascript:void(0);\" class=\"area\">宝山区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2305").append("<a href=\"javascript:void(0);\" class=\"area\">集贤县</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2305").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230522';return false;\">友谊县</a>");
+                    </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2305").append("<a href=\"javascript:void(0);\" class=\"area\">宝清县</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2305").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230524';return false;\">饶河县</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2306';return false;" >大庆市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2306" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230602';return false;\">萨尔图区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230603';return false;\">龙凤区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230604';return false;\">让胡路区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230605';return false;\">红岗区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230606';return false;\">大同区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230610';return false;\">高新技术产业开发区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230621';return false;\">肇州县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230622';return false;\">肇源县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230623';return false;\">林甸县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2306").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230624';return false;\">杜尔伯特蒙古族自治县</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2307';return false;" >伊春市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2307" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230702';return false;\">伊春区</a>");
+                    </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">南岔区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">友好区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">西林区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">翠峦区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">新青区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">美溪区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">金山屯区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">五营区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">乌马河区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">汤旺河区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">带岭区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">乌伊岭区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">红星区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">上甘岭区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\">嘉荫县</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2307").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230781';return false;\">铁力市</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2308';return false;" >佳木斯市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2308" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\">向阳区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\">前进区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\">东风区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\">郊区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\">桦南县</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\">桦川县</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\">汤原县</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230833';return false;\">抚远市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230881';return false;\">同江市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2308").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230882';return false;\">富锦市</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2309';return false;" >七台河市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2309" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2309").append("<a href=\"javascript:void(0);\" class=\"area\">新兴区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2309").append("<a href=\"javascript:void(0);\" class=\"area\">桃山区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2309").append("<a href=\"javascript:void(0);\" class=\"area\">茄子河区</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2309").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=230921';return false;\">勃利县</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2310';return false;" >牡丹江市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2310" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\">东安区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\">阳明区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\">爱民区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\">西安区</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231024';return false;\">东宁市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231025';return false;\">林口县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231081';return false;\">绥芬河市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231083';return false;\">海林市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231084';return false;\">宁安市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2310").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231085';return false;\">穆棱市</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2311';return false;" >黑河市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2311" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2311").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231102';return false;\">爱辉区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2311").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231121';return false;\">嫩江县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2311").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231123';return false;\">逊克县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2311").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231124';return false;\">孙吴县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2311").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231181';return false;\">北安市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2311").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231182';return false;\">五大连池市</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2312';return false;" >绥化市政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2312" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231202';return false;\">北林区</a>");
+                    </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\">望奎县</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231222';return false;\">兰西县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231223';return false;\">青冈县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231224';return false;\">庆安县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231225';return false;\">明水县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231226';return false;\">绥棱县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231281';return false;\">安达市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231282';return false;\">肇东市</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2312").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=231283';return false;\">海伦市</a>");
+                    </script>
+                   
+                
+                 
+                  <p class="mt5">
+                   <span class="titlewzdh">
+                     
+                     	<a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=2327';return false;" >大兴安岭地区政府采购网</a>
+                    
+                   </span>
+                    <span id="QX_2327" style="width: 220px; display: block; overflow: hidden; text-align:left"></span>
+                  </p>
+                
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2327").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=232701';return false;\">加格达奇区</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2327").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=232702';return false;\">松岭区</a>");
+                    </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2327").append("<a href=\"javascript:void(0);\" class=\"area\">新林区</a>");
+                     </script>
+                   
+                
+                
+                
+                   
+                   	 <script type="text/javascript">
+                      $("#QX_2327").append("<a href=\"javascript:void(0);\" class=\"area\">呼中区</a>");
+                     </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2327").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=232721';return false;\">呼玛县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2327").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=232722';return false;\">塔河县</a>");
+                    </script>
+                   
+                
+                
+                
+                    
+                    <script type="text/javascript">
+                      $("#QX_2327").append("<a href=\"javascript:void(0);\" class=\"area\" onclick=\"javascript:location.href='/welcome.jsp?dq=232723';return false;\">漠河县</a>");
+                    </script>
+                   
+                
+                 
+              
+            </div>
+          </div>
+            </li>
+            <li><a href="javascript:void(0);" onclick="javascript:alert('暂无帮助信息');">帮　助</a></li>
+        </ul>
+    </div>
+</div>
+<div id="top02"></div>
+
+
+
+</div>
+<div id="nav">
+	<ul>
+    	<li><a href="javascript:void(0);" onclick="javascript:location.href='/welcome.jsp?dq=23';return false;"  >首　　页</a></li>
+    	 
+    	 
+        
+        	
+	        <li><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=25';return false;" >政策法规</a></li>
+	        
+	        <li><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=26';return false;" >下载中心</a></li>
+	        
+	        <li><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=15';return false;" >违约公告</a></li>
+	        
+	        <li><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=28';return false;" >处罚公告</a></li>
+	        
+	        <li><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=24';return false;" >质疑答复</a></li>
+	        
+	        <li><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=27';return false;" >投诉处理公示</a></li>
+	        
+	        <li><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=7';return false;" >工作流程</a></li>
+	        
+        
+        <li><a href="javascript:void(0);" onclick="javascript:location.href='/xyghwh!queryCgml.action';return false;" >采购目录</a></li>
+        <li><a href="javascript:void(0);" onclick="javascript:location.href='/xyghwh!queryLb.action';return false;" >协议供货</a></li>
+        
+         
+
+
+
+
+
+
+
+
+
+    </ul>
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+if(top.location!=self.location)top.location=self.location;
+
+hour = new Date().getHours()
+var t;
+if(hour < 6){t="凌晨好"}
+else if (hour < 9) {t="早上好,"}
+else if (hour < 12){t="上午好,"}
+else if (hour < 14){t="中午好,"}
+else if (hour < 17){t="下午好,"}
+else if (hour < 19){t="傍晚好,"}
+else if (hour < 22){t="晚上好,"}
+else {t="夜里好,"}
+$('#time_good').html(t);
+
+function AddFavorite(sURL, sTitle) {
+    sURL = encodeURI(sURL);
+    try{   
+        window.external.addFavorite(sURL, sTitle);   
+    }catch(e) {   
+        try{   
+            window.sidebar.addPanel(sTitle, sURL, "");   
+        }catch (e) {   
+            alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+        }
+    }
+}
+//设为首页
+function SetHome(url){
+    if (document.all) {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }else{
+        alert("您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+    }
+}
+</script>
+
+<div id="rightArrow"><a href="javascript:;"  ></a></div>
+<div id="floatDivBoxs"> 
+  
+    
+    <div class="area_top">
+    	<a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=23';return false;"  
+              style="color:#2683a2;"  
+           >
+           黑龙江省
+        </a>
+    </div>
+  
+  <div class="area_con clearfix">
+   <ul class="clearfix"> 
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2301';return false;"  
+              
+           >
+           哈尔滨市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2302';return false;"  
+              
+           >
+           齐齐哈尔市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2303';return false;"  
+              
+           >
+           鸡西市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2304';return false;"  
+              
+           >
+           鹤岗市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2305';return false;"  
+              
+           >
+           双鸭山市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2306';return false;"  
+              
+           >
+           大庆市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2307';return false;"  
+              
+           >
+           伊春市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2308';return false;"  
+              
+           >
+           佳木斯市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2309';return false;"  
+              
+           >
+           七台河市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2310';return false;"  
+              
+           >
+           牡丹江市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2311';return false;"  
+              
+           >
+           黑河市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2312';return false;"  
+              
+           >
+           绥化市
+           </a>
+       </li>
+     
+       <li><a href="javascript:void(0)" 
+              onclick="javascript:location.href='/welcome.jsp?dq=2327';return false;"  
+              
+           >
+           大兴安岭地区
+           </a>
+       </li>
+     
+   </ul>
+   <div class="clearfix return"><a href="javascript:void(0)" onclick="javascript:location.href='/welcome.jsp?dq=23';return false;" >省本级</a></div>
+  </div>
+  <div class="area_foot">
+    <div class="map map_23"></div>
+  </div> 
+</div>
+<script type="text/javascript" src="/js/common/lrtk.js"></script>
+
+
+<div id="cen">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="left">
+    <div class="new"><!--new-->
+      <div class="new01">
+        <span class="Floatleft">重要通知</span>
+        <span class="Floatright"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=12';return false;" >更多</a>...</span>
+      </div>
+      <div class="tzgg" style="height:201px;overflow:hidden;">
+
+        <ul>
+         
+          
+	          <li style="height: 187px;overflow: hidden">
+	            <p><span class="Floatleft cen_new033"><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=507DF07EACD50078E053AC10FDFA4BB6';return false;" class="font14 blue">请已注册供应商抓紧办理key的重要提示</a></span></p>
+	            <p style="margin-left: 10px;margin-top: 10px;">请已注册供应商抓紧办理key的重要提示为有效降低供应商投标成本，经请示省财政厅同意，黑龙江省政府采购中心代理的公开招标项目即将全面推行电子化评审。届时，投标人需凭key登陆政府采购系统、上传投标材料、获取评审信息等操作，提请已注册供应商在参与公开招标项目时，至少在递交投标文件截止时间前15日网上申请key，具体申请方式见黑龙江省政府采购网首页“工作动态”栏目下，黑龙江省政府采购办于2017年3月9日发布的《关于启用政府采购电子签章的通知》，《网上投标操作视频说明》和《财政UKey驱动下载》，已发布至黑龙江省政府采购网首页“办事指南”栏目下。注：技术咨询电话：0451-87220770黑龙江省政府采购中心2017年7月3日...</p>
+	          </li>
+          
+          
+         
+          
+	          <li style="height: 187px;overflow: hidden">
+	            <p><span class="Floatleft cen_new033"><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=507950D9306D0178E053AC10FDFAEF68';return false;" class="font14 blue">黑龙江省财政厅关于举办全省政府采购业务培训班的通知</a></span></p>
+	            <p style="margin-left: 10px;margin-top: 10px;">黑龙江省财政厅关于举办全省政府采购业务培训班的通知...</p>
+	          </li>
+          
+          
+         
+          
+	          <li style="height: 187px;overflow: hidden">
+	            <p><span class="Floatleft cen_new033"><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=45A47DE3C1FE006AE053AC10FDFA4B45';return false;" class="font14 blue">黑龙江省政府采购中心《政府采购负面清单》正式试行</a></span></p>
+	            <p style="margin-left: 10px;margin-top: 10px;">为进一步提高政府采购文件编制质量，建立健全采购文件审核制度化、标准化的工作流程，黑龙江省政府采购中心研究制定了《政府采购负面清单》（以下简称《清单》）。《清单》的制定严格遵循《中华人民共和国政府采购法》、《中华人民共和国政府采购法实施条例》、《政府采购货物和服务招标投标管理办法》、《政府采购促进中小企业发展暂行办法》等法律法规及省财政厅印发的《黑龙江省省本级政府采购需求编制指引》等规定，结合以往质疑、投诉案例，充分征求并吸纳了政府采购各方当事人的意见建议，现公开发布，接受监督。该《清单》的出台，实现了《清单》与采购需求、采购文件三者之间的相互补充、相互衔接和相互制约，标志着黑龙江省政府采购中心公开规范、廉洁高效的工作机制更加健全，政府采购工作的标准化和规范化进一步提升。《清单》请于政府采购网“政策法规”栏目查看。...</p>
+	          </li>
+          
+          
+        
+        </ul>
+
+      </div>
+    </div>
+    
+    <div class="new">
+      
+      <div class="new01">
+          采购需求征求意见公告
+      </div>
+      <div class="new02">
+         
+	       
+	         <div id="conone1" >
+	           <ul class="newslist list_text">
+	            
+	              <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=1B71963E32F30084E053AC10FDFBA8C9';return false;" >黑龙江省商务厅_黑龙江电子口岸硬件平台服务外包采购及服务征集供应商公告</a></span>
+	                
+	              </li>
+	            
+	              <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=1B5AD560762D0134E053AC10FDFBBCFC';return false;" >黑龙江省公安厅交通警察总队办公设备项目实施政府采购公开征集供应商及意见公告</a></span>
+	                
+	              </li>
+	            
+	              <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=1AE55030C4BB0016E053AC10FDFB1D52';return false;" >黑龙江省水文局VPN防火墙等设备采购及服务征集供应商公告</a></span>
+	                
+	              </li>
+	            
+	              <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=1ACD47712961008AE053AC10FDFB2AF0';return false;" >黑龙江省精神文明建设办公室办公设备采购项目征求意见征集供应商公告</a></span>
+	                
+	              </li>
+	            
+	              <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=1ABD295876D4019EE053AC10FDFB9287';return false;" >黑龙江省教育厅中民办高职设备采购及服务项目征求意见征集供应商公告</a></span>
+	                
+	              </li>
+	            
+	              <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=18C116F9FB7801F4E053AC10FDFB9CB9';return false;" >黑龙江省政府采购中心基本药物采购与交易平台升级改造项目采购及服务征集意见公告</a></span>
+	                
+	              </li>
+	            
+	              <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=1943B33F52310024E053AC10FDFB2636';return false;" >哈尔滨医科大学附属第二医院信息系统采购及服务项目征求意见公告</a></span>
+	                
+	              </li>
+	            
+	           </ul>
+	           <div class="clr"></div>
+	           <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=3';return false;">更多</a>...</div>
+	         </div>
+	       
+      </div>
+      
+    </div>
+   
+    <form name="queryform" method="post" id="queryform">
+      <div class="sousuo" style="height:77px">
+         <table cellpadding="0" cellspacing="5" border="0">
+           <tr>
+            <td height="30px"><input  type="text"   id="gjz"  style="width:135px"/></td>
+            <td><a href="javascript:void(0);"  onclick="javascript:queryLike();return false;"> <input type="button" value="新闻搜索" style="width:88px"/></a></td>
+           </tr>
+           <tr>
+            <td height="30px"><input id="gysmc" type="text"  name="gyscxPage.dlmc" style="width:135px" /></td>
+            <td><a href="javascript:void(0);"  onclick=" " > <input type="button" value="供应商搜索" style="width:88px" onclick="queryGys();return false;"/></a></td>
+           </tr>
+         </table>
+        
+      </div>
+    </form>
+    
+    
+    
+
+
+
+
+
+ 
+ 
+
+<div class="new">
+      
+        <div class="new01">
+          办事指南 
+        </div>
+      <div class="new03">
+       
+        
+          <div id="contwo1" >
+	        <ul class="newslist list_text">
+	          
+	            <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=364D10FC140F01D6E053AC10FDFADBFE';return false;"  >财政UKey驱动下载</a></span>
+	            	
+	            </li>
+	          
+	            <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=507C8C980B7B00B4E053AC10FDFA1A88';return false;"  >网上投标操作视频说明</a></span>
+	            	
+	            </li>
+	          
+	            <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=45F6EF47D02600E8E053AC10FDFA4121';return false;"  >找回登录名称及登录密码</a></span>
+	            	
+	            </li>
+	          
+	            <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3CFC17EA6CE80096E053AC10FDFA3FFF';return false;"  >在线word文档控件下载</a></span>
+	            	
+	            </li>
+	          
+	            <li><span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3639E561FA3300D8E053AC10FDFBEAE0';return false;"  >找回登录名密码流程</a></span>
+	            	
+	            </li>
+	          
+	        </ul>
+	        <div class="clr"></div>
+	         <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=6';return false;">更多</a>...</div>
+	      </div>
+        
+      </div>
+      
+    </div>
+   
+   
+   
+    <div class="new">
+     
+      <div class="new01">
+       标前会纪要
+      </div>
+      <div class="new03">
+        
+      
+      	<div id="conthree1" >
+	        <ul class="newslist list_text">
+	          
+	            <li>
+	            <span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=22A9C7A3DD170066E053AC10FDFB0299';return false;" >黑龙江省无线电监测站_专用房屋维修工程采购及服务标前会纪要</a></span>
+	              
+	            </li>
+	          
+	            <li>
+	            <span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=23105AD9774001E8E053AC10FDFB978F';return false;" >黑龙江省劳动安全科学技术研究中心_省安全培训考试中心建设装修改造工程采购及服务标前会纪要</a></span>
+	              
+	            </li>
+	          
+	            <li>
+	            <span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=1E1C842E94080172E053AC10FDFBB502';return false;" >黑龙江省艺术职业学院标前会纪要</a></span>
+	              
+	            </li>
+	          
+	            <li>
+	            <span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=1B7427507563007EE053AC10FDFBA4AD';return false;" >哈尔滨师范大学江南校区自来水管道等维修改造工程标前会纪要</a></span>
+	              
+	            </li>
+	          
+	            <li>
+	            <span class="lefttext"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=1AE55030C4860016E053AC10FDFB1D52';return false;" >哈尔滨航运学校_标准化教室建设、教室粉刷维修工程采购及服务标前会纪要</a></span>
+	              
+	            </li>
+	          
+	        </ul>
+	        <div class="clr"></div>
+	         <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=8';return false;">更多</a>...</div>
+	     </div>
+      
+      </div>
+      
+      
+      
+    </div>
+    <!--new-->
+    <div class="new"><!--new-->
+     
+      <div class="new01">
+         学习园地
+      </div>
+      <div class="new03">
+       
+        
+          <div id="confour1" >
+	        <ul class="newslist list_text">
+	          
+	            <li><span class="lefttext"> 
+	            <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=AAAHZHAABAABM/zAAj_88';return false;" >2012全国政府采购业务培训之政府采购统计编报工作</a>
+	            </span>
+	              
+	            </li>
+	          
+	            <li><span class="lefttext"> 
+	            <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=AAAHZHAABAABM/zAAi_87';return false;" >Web安全网关采购指南 高性能低成本为王道</a>
+	            </span>
+	              
+	            </li>
+	          
+	            <li><span class="lefttext"> 
+	            <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=AAAHZHAABAABM/zAAh_86';return false;" >让Word瘦身的几种小方法</a>
+	            </span>
+	              
+	            </li>
+	          
+	            <li><span class="lefttext"> 
+	            <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=AAAHZHAABAABM/zAAg_85';return false;" >办公家具采购实务初探</a>
+	            </span>
+	              
+	            </li>
+	          
+	            <li><span class="lefttext"> 
+	            <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=AAAHZHAABAABM/zAAf_84';return false;" >进一步提高政府采购预算编审质量的建议</a>
+	            </span>
+	              
+	            </li>
+	          
+	        </ul>
+	        <div class="clr"></div>
+	        <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=9';return false;">更多</a>...</div>
+          </div>
+        
+      </div>
+      
+    </div>
+    
+    
+    
+  </div>
+
+  <div id="right">
+    <div class="right_top">
+    
+      <div  class="tplb">
+        <ul id="pub_slideplay3">
+          
+            <li><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=50C8BA6A82C20000E053AC10FDFA49F9';return false;"><img src="/upload/23/02/lishengbin/p1bk3kvk32108i1m6kd181bpu16ha1.png" width="393px",height="235px"/></a>
+              <p>
+                请已注册供应商抓紧办理key的重要提示
+              </p>
+            </li>
+          
+            <li><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=0B7A9BC4D69B0038E053AC10FDFB172E';return false;"><img src="/upload/23/00/admin/p19af2dgu11hnp1s8n1k67173p1ddn1.jpg" width="393px",height="235px"/></a>
+              <p>
+                黑龙江政府采购网
+              </p>
+            </li>
+          
+        </ul>
+        <script type="text/javascript">new dk_slideplayer("#pub_slideplay3",
+                    {width:"393px",height:"235px",fontsize:"12px",right:"0px",bottom:"3px",time:"3000"});
+                    </script> 
+      </div>
+      
+
+
+
+
+
+
+
+<script type="text/javascript">
+function onSubmitLogin(strFormId,zt){
+    if(!onChkLogin(strFormId,zt)){
+        return false;
+    }else{
+        var err="";
+    	var yzm = $("#uyzm"+zt).val();
+    	var yzmurl = "/zhcx!queryYzmSfzq.action";
+    	var yzmparam = {"map.YZM":yzm};
+    	$.ajax({
+    		type: "post",
+    		url: yzmurl,
+    		data: yzmparam,
+    		async:false,
+    		success:function(res){
+    			var map = res.map;
+    			if(map.T == "1"){
+    				err = map.T;
+    			}else{
+    				err = map.T;
+    				alert("验证码错误,请重新输入!");
+    				$("#uyzm"+zt).val("");
+    				$("#uyzm"+zt).focus();
+    			}
+    		}
+    	});
+    	if(err == "1"){
+        	return true;
+        }else{
+        	queryYzm(zt);
+			return false;
+        }
+    }
+}
+
+function onChkLogin(strFormId,zt){
+    var Letters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_.-";
+    if ($("#"+strFormId+" input[name='lname']").val() == "" ){
+        alert ("请输入登录名称!");
+        $("#"+strFormId+" input[name='lname']").focus();
+        return false;
+    }
+    for (i=0; i < $("#"+strFormId+" input[name='lname']").val().length; i++){
+        var CheckChar = $("#"+strFormId+" input[name='lname']").val().charAt(i);
+        CheckChar = CheckChar.toUpperCase();
+        if (Letters.indexOf(CheckChar) == -1){
+            alert ("您输入的登录名称格式有误:\n\n登录名称只允许输入数字以及英文字母或者下划线、点!");
+            $("#"+strFormId+" input[name='lname']").focus();
+            return false;
+        }
+    }
+
+    if ($("#"+strFormId+" input[name='upass']").val() == "" ){
+        alert ("请输入用户密码!");
+        $("#"+strFormId+" input[name='upass']").focus();
+        return false;
+    }
+    for (i=0; i < $("#"+strFormId+" input[name='upass']").val().length; i++){
+        var CheckChar = $("#"+strFormId+" input[name='upass']").val().charAt(i);
+        CheckChar = CheckChar.toUpperCase();
+        if (Letters.indexOf(CheckChar) == -1){
+            alert ("您输入的用户密码格式有误:\n\n用户密码只允许输入数字以及英文字母或者下划线、点!");
+            $("#"+strFormId+" input[name='upass']").focus();
+            return false;
+        }
+    }
+    if ($("#uyzm"+zt).val() == "" ){
+        alert ("请输入验证码!");
+        $("#uyzm"+zt).focus();
+        return false;
+    }
+    return true;
+}
+
+//下载
+function downFile(fjbh){
+	var sjs=$("#sjs").val();
+	$("#sjs").val(sjs+1);
+	location.href="/daima!download.action?sjs="+sjs+"&fjbh="+fjbh;
+}
+
+function tz1(dm){
+	$("#id_id").val(dm);
+	$("#tzLw").submit();
+}
+</script>
+
+<form id="tzLw" name="tzLw" method="post" target="_blank" action="http://www.hljcg.gov.cn/hljcg/index.jsp">
+<input type="hidden" name="id" id="id_id"/>
+</form>
+<input type="hidden" id="sjs"  value="4795973"/>
+
+    <div class="login">
+
+        <div class="cgdw">
+            <ul>
+            	<li id="tabs3" class="hover"  onclick="queryYzm('3');set('tabs',3,3)">供&nbsp;应&nbsp;商</li>
+                <li id="tabs2" onclick="queryYzm('2');set('tabs',2,3)">采购专家</li>
+                <li id="tabs1" onclick="queryYzm('1');set('tabs',1,3)">采购单位</li> 
+            </ul>
+        </div>
+        <div class="clr"></div>
+        <form name="ff11" method="post" id="ff11" >
+<input type="hidden"  name="inputPath" id="inputPath" />
+  <input type="hidden"  name="filename" id="filename" />
+		</form>
+        <div id="contabs1" class="denglu hide">
+          <form name="FormMain" id="formCgdw" onsubmit="javascript:return onSubmitLogin('formCgdw','1');" method="post" action="/jsp/common/login/check_cgdw.jsp">
+            <input type="hidden" name="dqdm" value="23" />
+             <table width="100%" border="0" cellpadding="0" cellspacing="0" style="line-height:36px">
+            <tr><td width="70px" align="right">用户名：</td><td colspan="2"><input class="indexname" type="text" name="lname" /></td></tr>
+            <tr><td align="right">密码：</td><td colspan="2"><input class="indexname" type="password" name="upass" value="" /></td></tr>
+            <tr><td align="right">验证码：</td>
+            <td  width="120px"><input class="indexname" style="width: 120px;" type="text" name="uyzm" id="uyzm1" value="" /></td>
+            <td valign="middle"><img style="cursor: pointer"  src="/zhcx!queryYzm.action"  name="imgYzm" id="randcode1" title="看不清,换一张" onclick="javascript:queryYzm('1')" width="90px"/></td></tr>
+            <tr style="line-height: 25px;"><td colspan="3" align="right">
+            <a href="javascript:void(0);" onclick="javascript:downFile('23cgdw');return false;" target="_blank" title="点击下载">采购单位操作手册</a>
+            <a style="margin-left: 115px;" href="javascript:void(0);" onclick="javascript:location.href='/jsp/common/forgetpass.jsp';return false;">忘记密码了？</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            </td>
+            </tr>
+            <tr><td colspan="3" align="center">            
+              <input type="submit" name="usubmit" class="indexlogin2" value="登录" /></td></tr>
+            </table>
+          </form>
+        </div>
+        <div id="contabs2" class="denglu hide "  >
+          <form name="FormMain" id="formCgzj" onsubmit="javascript:return onSubmitLogin('formCgzj','2');" method="post" action="/jsp/common/login/check_cgzj.jsp">
+            <input type="hidden" name="dqdm" value="23" />
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="line-height:36px">
+            <tr><td width="70px" align="right">用户名：</td><td colspan="2"><input class="indexname" type="text" name="lname" /></td></tr>
+            <tr><td align="right">密码：</td><td colspan="2"><input class="indexname" type="password" name="upass" value="" /></td></tr>
+            <tr><td align="right">验证码：</td>
+            <td width="120px"><input class="indexname" style="width: 120px;" type="text" name="uyzm"  id="uyzm2"  value="" /></td>
+            <td valign="middle"><img style="cursor: pointer"  src="/zhcx!queryYzm.action" name="imgYzm" id="randcode2" title="看不清,换一张" onclick="javascript:queryYzm('2')" width="90px"/></td></tr>
+            <tr style="line-height: 20px;"><td colspan="3" align="right">
+            <a href="javascript:void(0);" onclick="javascript:downFile('23cgzj');return false;" title="点击下载">采购专家操作手册</a>
+            <a style="margin-left: 115px;" href="javascript:void(0);" onclick="javascript:location.href='/jsp/common/forgetpass.jsp';return false;">忘记密码了？</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            </td>
+            </tr>
+            <tr><td colspan="3" align="center">            
+            
+			 
+			<input type="button" name="uregister" class="indexlogin3" value="注册" onclick="javascript:BOX_show('zjzcDiv');" />
+			
+                <input type="submit" class="indexlogin2" name="usubmit" value="登录" />
+                </td></tr>
+            </table>
+          </form>
+        </div>
+        <div  id="contabs3" class="denglu ">
+          <form name="FormMain" id="formCggys" onsubmit="javascript:return onSubmitLogin('formCggys','3');" method="post" action="/jsp/common/login/check_cggys.jsp">
+            <input type="hidden" name="dqdm" value="23" />
+             <table width="100%" border="0" cellpadding="0" cellspacing="0" style="line-height:36px">
+            <tr><td width="70px" align="right">用户名：</td><td colspan="2"><input class="indexname" type="text" name="lname" /></td></tr>
+            <tr><td align="right">密码：</td><td colspan="2"><input class="indexname" type="password" name="upass" value="" /></td></tr>
+            <tr><td align="right">验证码：</td>
+            <td width="118px"><input class="indexname" style="width: 118px;" type="text" name="uyzm" id="uyzm3"  value="" /></td>
+            <td valign="middle"><img style="cursor: pointer"  src="/zhcx!queryYzm.action" name="imgYzm" id="randcode3" title="看不清,换一张" onclick="javascript:queryYzm('3')" width="90px"/></td></tr>
+            <tr style="line-height: 20px;">
+            <td colspan="3" align="right">
+            <a href="javascript:void(0);" onclick="javascript:downFile('23gys');return false;" title="点击下载">供应商操作手册</a>
+
+            <a style="margin-left: 115px;" href="javascript:void(0);" onclick="javascript:location.href='/jsp/common/forgetpass.jsp';return false;">忘记密码了？</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </td>
+            </tr>
+            <tr><td colspan="3" align="center">            
+
+                
+                
+                
+				
+				   <input type="button" name="uregister" class="indexlogin3" value="注册" onclick="javascript:BOX_show('gysDiv');" />
+				
+	            
+                <input type="submit" class="indexlogin2" name="usubmit" value="登录" /></td></tr>
+            </table>   
+          </form>
+        </div>
+
+
+    <div class="clr"></div>
+
+    </div>
+   
+    
+<div  id="zjzcDiv" style="display:none; background: url(/images/web/pop_bg.gif) repeat-x top #c0ebfc;  padding:5px 10px 10px;  width:400px; border-radius:4px">
+  <div  class="pop_title">提示</div>
+    <div class="ManagerForm">
+      <table cellspacing="0" cellpadding="0" width="100%" align="center" border="0px">
+        <tr style="background-color: white;">
+          <td style="height:70px;">
+            <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;请黑龙江省的专家在所在地进行注册审核，外省的专家请到哈尔滨市进行注册审核。<a href="http://www.hljcg.gov.cn" target="_blank">[点击进入]</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" >
+            <input type="button"  class="PopButton"  onclick="BOX_remove('zjzcDiv');" value="关  闭 " />
+          </td>
+        </tr>
+      </table>
+      <div class="clr"></div>
+  </div>
+</div>
+
+<div  id="gysDiv" style="display:none; background: url(/images/web/pop_bg.gif) repeat-x top #c0ebfc;  padding:5px 10px 10px;  width:400px; border-radius:4px">
+  <div  class="pop_title">提示</div>
+    <div class="ManagerForm">
+      <table cellspacing="0" cellpadding="0"  width="100%" align="center" border="0px">
+        <tr style="background-color: white;">
+          <td style="height:70px;">
+            <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;请黑龙江省的供应商在所在地进行注册审核，外省的供应商请到哈尔滨市进行注册审核。<a href="http://www.hljcg.gov.cn" target="_blank">[点击进入]</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <input type="button"  class="PopButton"  onclick="BOX_remove('gysDiv');" value="关  闭 " />
+          </td>
+        </tr>
+      </table>
+      <div class="clr"></div>
+  </div>
+</div>
+
+      
+      
+      <div class="cen_new">
+      
+        <div class="cen_new01">
+            采购公告 
+        </div>
+        <div class="cen_new03">
+          
+         
+	        <div id="confive1" >
+	          <ul class="newslist01">
+	            
+	              <li><span class="Floatleft cen_new033"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=507A5C95F7950090E053AC10FDFAB5BB';return false;">哈尔滨师范大学附属中学_物理、生物实验室设备项目成交公告</a></span> 
+	              
+	              <span class="new_icon"></span>
+	              
+	              <span class="Floatleft">2017-07-14</span>
+	              </li>
+	            
+	              <li><span class="Floatleft cen_new033"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=507A5C95F7940090E053AC10FDFAB5BB';return false;">哈尔滨师范大学附属中学_物理、生物实验室装修工程成交公告</a></span> 
+	              
+	              <span class="new_icon"></span>
+	              
+	              <span class="Floatleft">2017-07-14</span>
+	              </li>
+	            
+	              <li><span class="Floatleft cen_new033"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=53DA27F1A85F0098E053AC10FDFA4381';return false;">黑龙江省机关事务管理局长江路、赣水路驻地庭院绿化养护项目竞争性磋商公告</a></span> 
+	              
+	              <span class="new_icon"></span>
+	              
+	              <span class="Floatleft">2017-07-14</span>
+	              </li>
+	            
+	              <li><span class="Floatleft cen_new033"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=510B5D1EE33E014AE053AC10FDFAA280';return false;">青冈一中修缮工程招标公告</a></span> 
+	              
+	              <span class="new_icon"></span>
+	              
+	              <span class="Floatleft">2017-07-14</span>
+	              </li>
+	            
+	              <li><span class="Floatleft cen_new033"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=53B34C580EE7016AE053AC10FDFA5B97';return false;">黑龙江省公路局_农村公路巡检系统开发</a></span> 
+	              
+	              <span class="new_icon"></span>
+	              
+	              <span class="Floatleft">2017-07-14</span>
+	              </li>
+	            
+	              <li><span class="Floatleft cen_new033"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=53B2F7C7611A0080E053AC10FDFAE976';return false;">黑龙江省新闻出版广电局微波总站微波首站机房修缮改造及电视监控设备更新竞争性谈判采购公告</a></span> 
+	              
+	              <span class="new_icon"></span>
+	              
+	              <span class="Floatleft">2017-07-14</span>
+	              </li>
+	            
+	              <li><span class="Floatleft cen_new033"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=507CFEA264470132E053AC10FDFA79ED';return false;">哈尔滨商业大学-图书馆数据库-AMLC学术不端文献检测系统（科研人事版）单一来源采购项目</a></span> 
+	              
+	              <span class="new_icon"></span>
+	              
+	              <span class="Floatleft">2017-07-14</span>
+	              </li>
+	            
+	          </ul>
+	          <div class="clr"></div>
+	          <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=4';return false;">更多</a>...</div>
+	        </div>
+         
+        </div>
+       
+      </div>
+      
+      <div class="cennew">
+       
+        <div class="cennew01">
+            特殊公告 
+        </div>
+        <div class="cen_new03">
+            
+         
+           <div id="consix1" >      
+             <ul class="newslist02">
+               
+                 <li><span class="Floatleft cennew033" > <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=8c8bd40f-806a-4e61-a66e-5c6e501daecc';return false;">黑龙江省福利彩票发行中心_投注机采购_SC[2017]2382终止公告</a></span>
+                 
+                 <span class="new_icon"></span>
+                 
+                 <span class="Floatleft" >2017-07-14</span>
+                 </li>
+               
+                 <li><span class="Floatleft cennew033" > <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=aba51a48-a8a7-4f61-9666-8b3cd95bd573';return false;">黑龙江大学_食堂及外墙房维修改造等（70625/627）_SC[2017]0727废标/流标公告</a></span>
+                 
+                 <span class="new_icon"></span>
+                 
+                 <span class="Floatleft" >2017-07-14</span>
+                 </li>
+               
+                 <li><span class="Floatleft cennew033" > <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=9044b6ec-9ee2-408b-b952-82712bd27f89';return false;">黑龙江省新闻出版广电局八零三台_调频天线采购及服务_SC[2017]1528废标/流标公告</a></span>
+                 
+                 <span class="new_icon"></span>
+                 
+                 <span class="Floatleft" >2017-07-13</span>
+                 </li>
+               
+                 <li><span class="Floatleft cennew033" > <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=0cd450ab-c4ae-4653-bf40-ae7baf850fd3';return false;">省图书馆_基层图书馆互联互通设备采购及服务_SC[2017]1568废标/流标公告</a></span>
+                 
+                 <span class="new_icon"></span>
+                 
+                 <span class="Floatleft" >2017-07-13</span>
+                 </li>
+               
+                 <li><span class="Floatleft cennew033" > <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=451d88e0-fa46-48b5-9d20-d3724cbcf105';return false;">黑龙江省方正高速公路管理处_机电设备采购_SC[2017]0380更正公告</a></span>
+                 
+                 <span class="new_icon"></span>
+                 
+                 <span class="Floatleft" >2017-07-11</span>
+                 </li>
+               
+                 <li><span class="Floatleft cennew033" > <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=937096bd-1ab7-4fa6-8309-bceae394867e';return false;">黑龙江省新建监狱_生命探测仪等采购及服务_SC[2017]1617更正公告</a></span>
+                 
+                 <span class="new_icon"></span>
+                 
+                 <span class="Floatleft" >2017-07-11</span>
+                 </li>
+               
+                 <li><span class="Floatleft cennew033" > <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=fd1e7be0-5210-4f42-b4bc-7681ce8a00db';return false;">黑龙江省哈尔滨高速公路管理处_锅炉、计算机工作站_SC[2017]1525废标/流标公告</a></span>
+                 
+                 <span class="Floatleft" >2017-07-10</span>
+                 </li>
+               
+            </ul>
+           <div class="clr"></div>
+           <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=30';return false;">更多</a>...</div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    <div class="right_cen"><img src="/images/index/banner02.gif"/></div>
+    <div class="right_foot">
+      
+      <div class="xw0">
+          <div class="xw">
+             中标成交公告  
+          </div>
+          
+        
+          <div id="conseven1" > 
+	        
+	          
+	          
+	          	<div class="biaoti"><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=53B27685107D013EE053AC10FDFA6C11';return false;" >龙江银行—抚远支行新建装修项目公示</a></div>
+	          
+	          <div class="tu"><img src="/images/index/09.gif"/></div>
+	          <div class="xiaoxi"> 中标公示项目名称龙江银行抚远支行新建装修项目招标编号招标方式公开招标招标人龙江银行股份有限公司代理机构黑龙江奥... </div>
+	        
+	        <div class="cen_new04"> 
+	           <ul>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=53B77AFC684001B2E053AC10FDFA4A2A';return false;" >龙江银行—桦川支行新建装修项目公示</a></span> 
+	              
+	                <span class="new_icon"></span>
+	              
+	              <span class="Floatleft" >2017-07-14</span></li>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=507CFEA264870132E053AC10FDFA79ED';return false;" >东北农业大学后勤设备采购</a></span> 
+	              
+	                <span class="new_icon"></span>
+	              
+	              <span class="Floatleft" >2017-07-14</span></li>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=50C86F158B1F0174E053AC10FDFA60A4';return false;" >东北农业大学零散设备采购及服务采购（二）</a></span> 
+	              
+	                <span class="new_icon"></span>
+	              
+	              <span class="Floatleft" >2017-07-14</span></li>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=5154CFDF5AB70042E053AC10FDFA7495';return false;" >黑龙江省基层医疗卫生机构管理信息系统项目（软件测评）中标公告</a></span> 
+	              
+	                <span class="new_icon"></span>
+	              
+	              <span class="Floatleft" >2017-07-14</span></li>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=53B3736226B1000EE053AC10FDFAEBBE';return false;" >龙江银行征信查询前置系统项目成交公示</a></span> 
+	              
+	                <span class="new_icon"></span>
+	              
+	              <span class="Floatleft" >2017-07-14</span></li>
+	            
+	          </ul> 
+	          <div class="clr"></div> 
+	             <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=5';return false;">更多</a>...</div>  
+	        </div> 
+	      </div>
+        
+      </div>
+      
+      <div class="zbcg">
+        
+          <div class="zbcggg"> 公务用车制度改革</div>
+          
+        
+          <div class="cen_new05">
+			<div id="coneight1" > 
+	          <ul> 
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=5078E53766170102E053AC10FDFA428B';return false;" >关于省直单位上交超标车辆的通知</a></span> 
+	              
+	              <span class="Floatleft">2017-06-08</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3BC1FDD15AB500C6E053AC10FDFB669A';return false;" >黑车改办〔2016〕14号</a></span> 
+	              
+	              <span class="Floatleft">2017-03-31</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=41505BA0ADF00132E053AC10FDFAF9BA';return false;" >黑龙江省公务用车制度改革领导小组办公室关于全省公务车辆实施标准化管理的通知</a></span> 
+	              
+	              <span class="Floatleft">2016-11-23</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3F2F8E9076070024E053AC10FDFA44F2';return false;" >关于统计省直保留车辆颜色的通知</a></span> 
+	              
+	              <span class="Floatleft">2016-10-27</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3D6790AE22AD0072E053AC10FDFA2D45';return false;" >黑车改办〔2016〕15号</a></span> 
+	              
+	              <span class="Floatleft">2016-10-27</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3BC1FDD15AB300C6E053AC10FDFB669A';return false;" >黑车改办〔2016〕12号</a></span> 
+	              
+	              <span class="Floatleft">2016-10-27</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3D6790AE22AC0072E053AC10FDFA2D45';return false;" >黑车改办〔2016〕11号</a></span> 
+	              
+	              <span class="Floatleft">2016-10-27</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3BC1FDD15AB100C6E053AC10FDFB669A';return false;" >黑车改办〔2016〕10号</a></span> 
+	              
+	              <span class="Floatleft">2016-10-27</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3BC1FDD15AAF00C6E053AC10FDFB669A';return false;" >黑车改办〔2016〕9号</a></span> 
+	              
+	              <span class="Floatleft">2016-10-27</span></li>
+	            
+	          </ul>	
+	          <div class="clr"></div>
+	           <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=29';return false;">更多</a>...</div>		
+			</div>
+        </div>
+        
+        
+      </div>
+      
+      
+      <div class="xw0">
+        
+          <div class="xw"> 采购新闻</div>
+        	
+        
+          <div id="connine1" >      
+	        
+	          
+	          
+		          
+		           <div class="biaoti"><a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=40F20EDBD16701AEE053AC10FDFA7D2F';return false;" >黑财采投处[2016]4号  </a></div>
+		          
+	          
+	          <div class="tu"><img src="/images/index/tu7.gif"/></div>
+	          <div class="xiaoxi"> ... </div>
+	        
+	        <div class="cen_new04">
+	          <ul>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=379AB3C54B96015CE053AC10FDFB56F5';return false;" >全国政府采购法规与实务研修班（第29、30、31期）</a></span> 
+	              
+	              <span  class="Floatleft">2016-07-21</span></li>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=3549457A1044015EE053AC10FDFA446C';return false;" >中央下发最严办公设备家具配置标准</a></span> 
+	              
+	              <span  class="Floatleft">2016-06-23</span></li>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=2A48E141583B008EE053AC10FDFAB599';return false;" >黑龙江厅长王庆江谈采购程序繁杂效率低破解之道</a></span> 
+	              
+	              <span  class="Floatleft">2016-03-07</span></li>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=291F1275ABC00094E053AC10FDFB994D';return false;" >全国政府采购法规与实务研修班（第27、28期）</a></span> 
+	              
+	              <span  class="Floatleft">2016-03-03</span></li>
+	            
+	              <li><span class="Floatleft cen_new034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=2957BAA59C000158E053AC10FDFBCC67';return false;" >2016年哈尔滨市财政局会议定点服务采购</a></span> 
+	              
+	              <span  class="Floatleft">2016-02-23</span></li>
+	            
+	          </ul>
+	          <div class="clr"></div>
+	           <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=1';return false;">更多</a>...</div>
+	        </div>
+        </div>
+        
+          
+      </div>
+      
+      
+      <div class="zbcg">
+        
+          <div class="zbcggg"> 工作动态  </div>
+           
+        
+          <div class="cen_new05">
+        	<div id="conten1" > 
+	          <ul>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=5079BA354DE10134E053AC10FDFA329C';return false;" >7月沈阳，8月新疆政府采购培训通知</a></span>
+	              
+	              <span class="Floatleft">2017-07-06</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=507F6C96E736005CE053AC10FDFA25FB';return false;" >黑龙江省政府采购培训讲义</a></span>
+	              
+	              <span class="Floatleft">2017-06-29</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=4BD971D860080164E053AC10FDFB8AB2';return false;" >黑龙江省财政厅关于进一步加快政府采购计划执行工作的通知</a></span>
+	              
+	              <span class="Floatleft">2017-05-04</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=497A97815C4E0100E053AC10FDFB7C43';return false;" >全国政府采购法规与实务研修班（第35、36期）通知</a></span>
+	              
+	              <span class="Floatleft">2017-04-12</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=4BDB6F26AF630140E053AC10FDFBB21D';return false;" >黑龙江省财政厅印发《政府采购管理办公室2017年工作要点</a></span>
+	              
+	              <span class="Floatleft">2017-04-11</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=4BDB6F26AF5D0140E053AC10FDFBB21D';return false;" >省本级分散采购信息录入重要事项提示</a></span>
+	              
+	              <span class="Floatleft">2017-04-11</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=4645A4A0A72301EEE053AC10FDFAB886';return false;" >黑龙江省财政厅关于规范省属高校和科研院所科研仪器设备采购管理有关事项的通知</a></span>
+	              
+	              <span class="Floatleft">2017-04-06</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=45DFADFF3EB40062E053AC10FDFA254A';return false;" >黑龙江省财政厅关于规范政府采购预算管理加快政府采购计划执行的通知</a></span>
+	              
+	              <span class="Floatleft">2017-04-06</span></li>
+	            
+	              <li><span class="Floatleft cennew034"> <a href="javascript:void(0);" onclick="javascript:location.href='/xwzs!queryOneXwxxqx.action?xwbh=4A5C478B897901C8E053AC10FDFA22ED';return false;" >省本级专家抽取工作重要事项提示</a></span>
+	              
+	              <span class="Floatleft">2017-03-17</span></li>
+	            
+	          </ul>
+	          <div class="clr"></div>
+	           <div class="xx1"><a href="javascript:void(0);"  onclick="javascript:location.href='/xwzs!queryXwxxqx.action?lbbh=2';return false;">更多</a>...</div>
+	         </div>
+	       </div> 
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="setting"></div>
+
+
+
+
+
+
+<style>
+	.yqlj{ width:998px;  margin: 10px auto; border-top:3px solid #c20608; border-left:1px solid #999; border-right:1px solid #999; border-bottom:1px solid #999}
+.yqlj_top{height:29px;line-height:29px;width:988px;float:left;background:url(../../images/index/05.gif);border-bottom:#999 solid 1px;
+padding:0px 5px;font-size:14px;font-weight:bold; color:#2b2b2b;}
+.yqlj_con{width:978px; min-height:71px; height:auto; _height:71px; float:left; padding:10px}
+.yqlj_con ul li{padding:0px 15px 0px 0px; line-height:30px; float:left; display:inline-block; *zoon:1; white-space:nowrap}
+.clr{ clear:both}
+</style>
+
+<div class="yqlj">
+  <div class="yqlj_top">友情链接</div>
+  <div class="yqlj_con">
+    <ul>
+    	
+      		<li><a href="http://www.caigou2003.com" target="_blank">政府采购信息网</a></li>
+        
+      		<li><a href="http://www.hljypcg.gov.cn" target="_blank">黑龙江省药品集中采购网</a></li>
+        
+      		<li><a href="http://www.hljdb.com.cn/gov/index.html" target="_blank">鑫正担保集团政府采购平台网</a></li>
+        
+    </ul>
+  </div>
+  <div class="clr"></div>
+</div>
+
+<div  id="foot"  > 
+        <div style="float:left; padding-right:20px; border-right:1px #cccccc solid; width:100px; margin-left: 200px; _margin-left: 100px;">
+        <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/10/000/0000/40828795/CA100000000408287950002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+        </div>
+        <div  style="float:left; width:600px; text-align: left; padding-left: 40px; line-height:20px">
+
+            
+            
+	            	 
+	            	 	<span class="font-weight:bold">地址：</span>黑龙江省哈尔滨市南岗区民益街80号 <br/>
+	            	 
+	            	 
+				     
+	            	 	<span class="font-weight:bold">电话：</span>各区采购办供应商注册登记咨询电话
+<br/>
+南岗区：87020655、道里区：84501717、道外区：88924452、香坊区：87280381、平房区：86510369<br/>松北区：88100265、呼兰区：87139977、阿城区：53724226、双城区：53126594
+、五常市：53528714<br/>
+哈尔滨市所辖区供应商按营业执照住所选择相应区注册登记/黑龙江省外供应商根据实际情况选择相应区进行注册登记
+<br/>预算单位咨询电话0451-53679987 <br/>
+	            	 
+				                     黑ICP备05002215号
+            
+
+
+
+        </div> 
+
+		<div style="clear:both"></div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

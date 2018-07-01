@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/Front/Template/Default/css/index.css">
+    <link rel="stylesheet" href="/Front/Template/Default/css/common.css">
+      <link rel="stylesheet" href="/Front/Template/Default/css/detail.css">
+    <script src="/Front/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <script src="/Front/Template/Default/js/settitle.js"></script>
+    <title></title>
+  
+  
+</head>
+<body class="bg">
+  <div style="margin:0px auto; width:1024px;height:368px;">
+   <iframe src="/Front/Template/Default/pagehead.htm" width="100%" height="368" frameborder="0" scrolling="no"  ></iframe>
+   </div>
+    <!-- main -->
+    <div class="main">
+        <div  class="container clearfix">
+            <p class="position">
+              您现在的位置：<A href='/Front/'  class="position-link">首页</A> > <a href='/Front/jyzx' class="position-link">公告公示</a> > <a href='/Front/jyzx/002003' class="position-link">水利工程</a> > <span class="orange">招标公告</span>
+             
+            </p>
+            <div class="border">
+                <!--正文开始-->
+                
+                <table id="tblInfo" cellspacing="1" cellpadding="1" width="100%" align="center" border="0"
+                                runat="server">
+                  <tr>
+                    <td id="tdTitle" align="center" runat="server"> 
+                      <h2 class="word-title">
+                            苏州市河（湖）岸线保护和利用管理规划编制（2018年度项目）
+                        </h2>  
+                      
+                      <br />
+                      
+                     
+                       <h4 class="word-info">【信息时间：
+                        2018/5/10
+                        &nbsp;&nbsp;阅读次数：
+                        <script src="/Front/Upclicktimes.aspx?InfoID=89cf18b0-f041-4a30-9c9d-550145527a31"></script>
+                        】<a
+                                                href="javascript:void(0)" onClick="window.print();"><font color="#000000"  class=webfont>【我要打印】</font></a><a
+                                                    href="javascript:window.close()"><font color="#000000"  class=webfont>【关闭】</font></a></font><font color="#000000">
+                          
+                       </font>
+                       </h4></td>
+                  </tr>
+                  <tr>
+                    <td height="10"></td>
+                  </tr>
+                  <tr>
+                    <td height="250" valign="top" class="infodetail" id="TDContent" align=left style="padding-left:40px; padding-right:40px;"><!--EpointContent-->
+                         <!--EpointContent-->
+                                    <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 14pt">苏州市河（湖）岸线保护和利用管理规划编制（</span><span style="COLOR: black; FONT-SIZE: 14pt">2018</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 14pt">年度项目）</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 14pt">（招标编号：</span><span style="COLOR: black; FONT-SIZE: 14pt">SDJ.CL2018-59</span><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 14pt">）</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 14pt">招标公告</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">1</span><span style="FONT-FAMILY: 宋体; COLOR: black">、<u>苏州市水利局</u>的<u>苏州市河（湖）岸线保护和利用管理规划编制（</u></span><u><span style="COLOR: black">2018</span></u><u><span style="FONT-FAMILY: 宋体; COLOR: black">年度项目）</span></u><span style="FONT-FAMILY: 宋体; COLOR: black">已经批准实施。工程资金来源为财政，现已落实。现公开邀请合格的潜在投标人参加工程的投标。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">2</span><span style="FONT-FAMILY: 宋体; COLOR: black">、<u>苏州润禹工程咨询管理有限公司</u>受招标人委托具体负责本工程的招标事宜。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">3</span><span style="FONT-FAMILY: 宋体; COLOR: black">、项目概况：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; TEXT-INDENT: 15.75pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">为加强苏州市河湖管理与保护，落实河长制</span><span style="COLOR: black">“</span><span style="FONT-FAMILY: 宋体; COLOR: black">加强河湖水域岸线管理保护</span><span style="COLOR: black">”</span><span style="FONT-FAMILY: 宋体; COLOR: black">相关任务，严格河湖水域岸线水生态空间管控，完善河湖水域空间规划体系，市水利局拟在</span><span style="COLOR: black">3</span><span style="FONT-FAMILY: 宋体; COLOR: black">年内完成重要市管河道（湖泊）的岸线保护和利用管理规划编制工作。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">4</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">、</span><span style="FONT-FAMILY: 宋体; COLOR: black">项目</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">规模：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">（<span>1</span>）、</span><span style="FONT-FAMILY: 宋体; COLOR: black">苏州市河（湖）岸线保护和利用管理规划编制（</span><span style="COLOR: black">2018</span><span style="FONT-FAMILY: 宋体; COLOR: black">年度项目）</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; TEXT-INDENT: 31.5pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">娄江</span><span style="COLOR: black">-</span><span style="FONT-FAMILY: 宋体; COLOR: black">浏河、十一圩港（二干河）、斜港</span><span style="COLOR: black">-</span><span style="FONT-FAMILY: 宋体; COLOR: black">屯浦塘</span><span style="COLOR: black">-</span><span style="FONT-FAMILY: 宋体; COLOR: black">急水港、元和塘、頔塘、阳澄湖、石湖、澄湖等</span><span style="COLOR: black">8</span><span style="FONT-FAMILY: 宋体; COLOR: black">条河道（湖泊）的规划编制。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">（<span>2</span>）、具体工作包括：</span><span style="FONT-FAMILY: 宋体; COLOR: black">编制规划大纲、基础资料收集与整理、河湖水域岸线现状调查评价、岸线功能分区及控制线划定、岸线保护管控措施、规划实施保障措施、规划成果咨询审查等</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black; FONT-SIZE: 12pt">。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">5</span><span style="FONT-FAMILY: 宋体; COLOR: black">、工期：</span><span style="LINE-HEIGHT: 115%; COLOR: black">2018</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">年</span><span style="LINE-HEIGHT: 115%; COLOR: black">11</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">月底前完成《苏州市河（湖）岸线保护和利用管理规划编制（</span><span style="LINE-HEIGHT: 115%; COLOR: black">2018</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">年度项目）》报告编制，</span><span style="LINE-HEIGHT: 115%; COLOR: black">12</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">月底前完成审查，节点时间如下：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 115%; TEXT-INDENT: 21pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="left"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">（</span><span style="LINE-HEIGHT: 115%; COLOR: black">1</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">）签订合同后</span><span style="LINE-HEIGHT: 115%; COLOR: black">1</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">个月内完成规划大纲及现场调研、资料收集；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 115%; TEXT-INDENT: 21pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="left"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">（</span><span style="LINE-HEIGHT: 115%; COLOR: black">2</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">）第</span><span style="LINE-HEIGHT: 115%; COLOR: black">2</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">个月至第</span><span style="LINE-HEIGHT: 115%; COLOR: black">5</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">个月，完成规划报告编制，征求行业主管部门及地方意见；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="LINE-HEIGHT: 115%; COLOR: black">&nbsp;&nbsp;&nbsp; </span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">（</span><span style="LINE-HEIGHT: 115%; COLOR: black">3</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">）第</span><span style="LINE-HEIGHT: 115%; COLOR: black">6</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 宋体; COLOR: black">个月完成送审稿。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 115%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">6</span><span style="FONT-FAMILY: 宋体; COLOR: black">、本招标工程共分</span><u><span style="COLOR: black">1</span></u><span style="FONT-FAMILY: 宋体; COLOR: black">个标段，标段划分及相应招标内容如下：</span></p>
+<table style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium none" border="1" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 47.95pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="64">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black">标段</span></p>
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black">序号</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 77.95pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="104">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black">标段内容</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 49.6pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="66">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black">合同估算价</span></p>
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black">（万元）</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 3cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="113">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black">对企业的资质、等级要求</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 106.35pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="142">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black">项目负责人等级要求</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 42.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="57">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black">企业业绩和信誉</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 46.45pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="62">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体; COLOR: black">项目负责人业绩和信誉</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 47.95pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="64">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="left"><span style="COLOR: black">SDJ.CL2018-59</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 77.95pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="104">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="left"><span style="FONT-FAMILY: 宋体; COLOR: black">苏州市河（湖）岸线保护和利用管理规划编制（</span><span style="COLOR: black">2018</span><span style="FONT-FAMILY: 宋体; COLOR: black">年度项目）</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 49.6pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="66">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="center"><span style="COLOR: black">250</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 3cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="113">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="left"><span style="FONT-FAMILY: 宋体; BACKGROUND: white">设计或咨询单位必须是在《全国水利建设市场监管服务平台》网站落实信息申报的单位</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 106.35pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="142">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="left"><span style="FONT-FAMILY: 宋体; COLOR: black">具有注册土木工程师（水利水电工程规划专业）资格证书及</span><span style="FONT-FAMILY: 宋体; COLOR: black">水利专业高级工程师职称，</span><span style="FONT-FAMILY: 宋体; BACKGROUND: white">且必须是在《全国水利建设市场监管服务平台》网站落实信息申报的个人</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 42.5pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="57">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="left"><span style="FONT-FAMILY: 宋体; COLOR: black">近五年承担过类似项目且信誉良好</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 46.45pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="62">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 17.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: white; FONT-SIZE: 10.5pt" align="left"><span style="FONT-FAMILY: 宋体; COLOR: black">信誉良好</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">7</span><span style="FONT-FAMILY: 宋体; COLOR: black">、投标申请人资格条件：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">以下是资格审查必要合格条件：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">1</span><span style="FONT-FAMILY: 宋体; COLOR: black">）具有独立订立合同的能力；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">2</span><span style="FONT-FAMILY: 宋体; COLOR: black">）投标申请人资质类别和等级：设计或咨询单位必须是在《全国水利建设市场监管服务平台》网站落实信息申报的单位；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">3</span><span style="FONT-FAMILY: 宋体; COLOR: black">）拟选派项目负责人资质类别等级：具有注册土木工程师（水利水电工程规划专业）资格证书及水利专业高级工程师职称</span><span style="FONT-FAMILY: 宋体; COLOR: black">，</span><span style="FONT-FAMILY: 宋体; COLOR: black">且必须是在《全国水利建设市场监管服务平台》网站落实信息申报的个人；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">4</span><span style="FONT-FAMILY: 宋体; COLOR: black">）企业近五年承担过类似规划工程；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">注：</span><span style="FONT-FAMILY: 宋体; COLOR: black">2013</span><span style="FONT-FAMILY: 宋体; COLOR: black">年<span>5</span>月以来（以合同签订时间为准）承担过类似规划项目（水利类相关规划）；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">5</span><span style="FONT-FAMILY: 宋体; COLOR: black">）</span><span style="FONT-FAMILY: 宋体; COLOR: black">企业所在地检察院出具的企业及法定代表人无行贿证明材料复印件（出具时间应为本公告发布以后）</span><span style="FONT-FAMILY: 宋体; COLOR: black">；</span><span style="COLOR: black"> </span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">6</span><span style="FONT-FAMILY: 宋体; COLOR: black">）本工程不接受联合体投标；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">7</span><span style="FONT-FAMILY: 宋体; COLOR: black">）投标申请人办理投标报名必须由企业法定代表人（或法定代表人委托代理人）办理，委托代理人必须为本企业在职职工；</span><span style="COLOR: black"> </span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; TEXT-INDENT: 5.25pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">投标申请人有以下情形的，为资格审查不合格：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">1</span><span style="FONT-FAMILY: 宋体; COLOR: black">）处于被责令停业、投标资格被取消或者财产被接管、冻结和破产状态；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">2</span><span style="FONT-FAMILY: 宋体; COLOR: black">）企业因骗取中标或者严重违约以及发生重大工程质量、安全生产事故等问题，被有关部门暂停投标资格，在暂停期内的；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">3</span><span style="FONT-FAMILY: 宋体; COLOR: black">）资格审查申请书中的重要内容失实或者弄虚作假。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">8. </span><span style="FONT-FAMILY: 宋体; COLOR: black">投报名材料起时间：</span><u><span style="COLOR: black">2018-5-16</span></u><span style="FONT-FAMILY: 宋体; COLOR: black">上午</span><u><span style="COLOR: black">09:00</span></u><span style="FONT-FAMILY: 宋体; COLOR: black">，投报名材料止时间</span><span style="COLOR: black">:<u> 2018-5-16</u></span><span style="FONT-FAMILY: 宋体; COLOR: black">下午</span><u><span style="COLOR: black">15:00</span></u><span style="FONT-FAMILY: 宋体; COLOR: black">。投箱报名地点：苏州市公共资源交易中心</span><span style="COLOR: black">4</span><span style="FONT-FAMILY: 宋体; COLOR: black">楼预审室</span><span style="COLOR: black">3</span><span style="FONT-FAMILY: 宋体; COLOR: black">报名箱。地点：姑苏区平泷路</span><span style="COLOR: black">251</span><span style="FONT-FAMILY: 宋体; COLOR: black">号。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">购买标书时间：另行通知，地址：苏州润禹工程咨询管理有限公司（吴中区月浜街</span><span style="COLOR: black">19</span><span style="FONT-FAMILY: 宋体; COLOR: black">号）。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">9. </span><span style="FONT-FAMILY: 宋体; COLOR: black">其他：</span><span style="COLOR: black">--------</span><span style="FONT-FAMILY: 宋体; COLOR: black">报名时须提交的材料：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">1</span><span style="FONT-FAMILY: 宋体; COLOR: black">）</span><span style="FONT-FAMILY: 宋体; COLOR: black">企业独立法人营业执照副本复印件；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（<span>2</span>）拟选派项目负责人注册土</span><span style="FONT-FAMILY: 宋体; COLOR: black">木工程师（水利水电工程规划专业）资格证书及</span><span style="FONT-FAMILY: 宋体; COLOR: black">水利专业高级工程师职称证书</span><span style="FONT-FAMILY: 宋体; COLOR: black">；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">3</span><span style="FONT-FAMILY: 宋体; COLOR: black">）</span><span style="FONT-FAMILY: 宋体; COLOR: black">经办人必须为本企业在职职工<span>(</span>需提供近一年及以上且唯一账户的社保证明<span>)</span>，须有法定代表人授权委托书原件（若有授权）、和加盖单位公章的书面报名申请书（含经办人联系电话和身份证复印件）</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">4</span><span style="FONT-FAMILY: 宋体; COLOR: black">）</span><span style="FONT-FAMILY: 宋体; COLOR: black">企业近五年完成类似规划业绩的合同复印件</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（<span>5</span>）</span><span style="FONT-FAMILY: 宋体; COLOR: black">企业所在地检察院出具的企业及法定代表人无行贿证明材料复印件（出具时间应为本公告发布以后）</span><span style="FONT-FAMILY: 宋体; COLOR: black">；</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">（</span><span style="COLOR: black">6</span><span style="FONT-FAMILY: 宋体; COLOR: black">）提供的资料按序装订成册，所有复印件均需加盖企业公章。以上所有材料一并封袋在规定时间投入指定报名材料箱。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">10.</span><span style="FONT-FAMILY: 宋体; COLOR: black">资格审查办法：本项目实行资格后审。上述资料在投标时须随投标文件一起递交所有原件，开标后由评标专家进行资格审查，资格审查合格的投标申请人全部进入评审。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">11.</span><span style="FONT-FAMILY: 宋体; COLOR: black">招标人地址：<u>苏州市水利局</u></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; TEXT-INDENT: 10.5pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">招标联系人：</span><u><span style="COLOR: black">&nbsp; </span></u><u><span style="FONT-FAMILY: 宋体; COLOR: black">沈利</span><span style="COLOR: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span style="FONT-FAMILY: 宋体; COLOR: black">传真：</span><u><span style="COLOR: black"> <span>0512-68245825&nbsp; </span></span></u><span style="FONT-FAMILY: 宋体; COLOR: black">电话：</span><u><span style="COLOR: black">0512-68245825 </span></u><span style="COLOR: black">E-Mail</span><span style="FONT-FAMILY: 宋体; COLOR: black">：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">12.</span><span style="FONT-FAMILY: 宋体; COLOR: black">招标代理机构：地址：<u>吴中区月浜街</u></span><u><span style="COLOR: black">19</span></u><span style="FONT-FAMILY: 宋体; COLOR: black">号</span><span style="COLOR: black">&nbsp;&nbsp; </span><span style="FONT-FAMILY: 宋体; COLOR: black">邮编</span><span style="COLOR: black">215100</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">联系人：<u>姚怡君</u>传真：</span><u><span style="COLOR: black">0512-67071568</span></u><span style="FONT-FAMILY: 宋体; COLOR: black">电话：</span><u><span style="COLOR: black">0512-65857193</span></u><span style="COLOR: black">&nbsp; E-Mail</span><span style="FONT-FAMILY: 宋体; COLOR: black">：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">13.</span><span style="FONT-FAMILY: 宋体; COLOR: black">招标代理机构项目负责人信息：</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">项目组组长：<u>丁世猛</u>性别：<u>男</u>上岗卡号：苏招</span><span style="COLOR: black">E1109</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">职称或执业资格：<u>注册造价师</u>联系电话：</span><u><span style="COLOR: black">0512-65857193</span></u></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">要求本公告发布日期为：</span><span style="COLOR: black">2018</span><span style="FONT-FAMILY: 宋体; COLOR: black">年</span><span style="COLOR: black">5</span><span style="FONT-FAMILY: 宋体; COLOR: black">月</span><span style="COLOR: black">10</span><span style="FONT-FAMILY: 宋体; COLOR: black">日至</span><span style="COLOR: black">2018</span><span style="FONT-FAMILY: 宋体; COLOR: black">年</span><span style="COLOR: black">5</span><span style="FONT-FAMILY: 宋体; COLOR: black">月</span><span style="COLOR: black">16</span><span style="FONT-FAMILY: 宋体; COLOR: black">日。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: right; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt" align="right"><span style="COLOR: black">&nbsp;</span></p>
+<p style="TEXT-ALIGN: right; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">项目法人：苏州市水利局</span></p>
+<p style="TEXT-ALIGN: right; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">代理机构：苏州润禹工程咨询管理有限公司</span></p>
+<p style="TEXT-ALIGN: right; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; COLOR: black">批准部门：苏州市水利局基本建设处</span></p>
+<p style="TEXT-ALIGN: right; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10.5pt"><span style="COLOR: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="FONT-FAMILY: 宋体; COLOR: black">发布日期</span><span style="COLOR: black">:&nbsp; 2018</span><span style="FONT-FAMILY: 宋体; COLOR: black">年</span><span style="COLOR: black">5</span><span style="FONT-FAMILY: 宋体; COLOR: black">月</span><span style="COLOR: black">10</span><span style="FONT-FAMILY: 宋体; COLOR: black">日</span></p>
+                                    <!--EpointContent-->
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="right" id="authorTd">
+                        <br>
+                        
+                    </td>
+                  </tr>
+                  <tr id="trAttach" runat="server">
+                    <td valign="top" align="left" style="padding-left:40px; font-size:14px;">  
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="10"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td align="center">
+                        
+                      </td>
+                  </tr>
+                </table>
+              <!--正文结束-->
+            </div>
+        </div>
+    </div>
+  
+    <!-- 版权 -->
+      <div style="margin:0px auto;height:186px; min-width:1024px;">
+   <iframe src="/Front/Template/Default/pagefoot.htm" width="100%" height="186" frameborder="0" scrolling="no"  ></iframe>
+   </div>
+    <script src="/Front/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/Front/Template/Default/js/common.js"></script>
+</body>
+</html>

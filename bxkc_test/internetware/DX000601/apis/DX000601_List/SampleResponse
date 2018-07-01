@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="b25pV1VUOGVCKwYEFhlWPyoaPiEHGgARGQkQIwA1YQ9aFyUbFGZuCw==">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>招标公告</title>
+<meta name="description" content="" />
+<meta name="Keywords" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" href="https://jcs-caigou.mingyuanyun.com/favicon.ico?c_version=2018-01-12" type="image/x-icon" />
+<link rel="icon" href="https://jcs-caigou.mingyuanyun.com/favicon.ico?c_version=2018-01-12" type="image/x-icon" />
+
+<link href="https://jcs-caigou.mingyuanyun.com/res1.5/plugins/backTools/backTools.css?c_version=2018-01-12" rel="stylesheet"/>
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/css/common/common.css?c_version=2018-01-12">
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/css/common/layout.css?c_version=2018-01-12">
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/plugins/flexslider/flexslider.css?c_version=2018-01-12">
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/css/developer_zone/flag_layout_spec.css?v=20170714&c_version=2018-01-12">
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/css/developer_zone/flagshipSpec.css?c_version=2018-01-12">
+<link href="https://jcs-caigou.mingyuanyun.com/res1.5/css/module/detail.css?c_version=2018-01-12" rel="stylesheet"/>
+<script type="text/javascript" src="https://jcs-caigou.mingyuanyun.com/res1.5/js/common/jquery-1.10.2.min.js?c_version=2018-01-12"></script>
+
+    <link href="https://jcs-caigou.mingyuanyun.com/res1.5/css/module/forms.css?c_version=2018-01-12" rel="stylesheet">
+<link href="https://jcs-caigou.mingyuanyun.com/res1.5/css/module/tables.css?c_version=2018-01-12" rel="stylesheet">    <script type='text/javascript'>
+      var _vds = _vds || [];
+      window._vds = _vds;
+      (function(){
+        _vds.push(['setAccountId', '8cd05adac2e345d5']);
+        (function() {
+          var vds = document.createElement('script');
+          vds.type='text/javascript';
+          vds.async = true;
+          vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(vds, s);
+        })();
+      })();
+  </script>
+</head>
+<body>
+
+
+<div id="site_nav">
+    <div class="wrap clear">
+        <div class="login_bar">
+            <p class="login_info" id="show_login_user" style="display:none;">
+                <a class="login_name" id="showTopCompanyName"></a>
+                <a class="btn_logout" id="btn_logout" rel="nofollow"
+                   href="/xykg/web_login/login/logout?redirectURL=/xykg">退出</a>
+            </p>
+
+            <p class="login_info" id="show_login_info">
+                您可以&nbsp;&nbsp;<a class="link_sigin" href="/xykg/web_login/login/view?redirectURL=" onclick="javascript:location.href =this.href + encodeURIComponent(window.location.href);return false;"
+                                  rel="nofollow">登录</a>
+                <span class="line_split">|</span>
+                <a class="link_reg" href="/xykg/web_login/reg/index" rel="nofollow">免费注册</a>
+            </p>
+        </div>
+        <div class="nav_link">
+            <p class="site_favorite">
+                <a href="http://www.sunriver.cn/" title="当前站点" rel="sidebar" rel="nofollow">祥源控股集团有限责任公司官网</a>
+            </p>
+            <span style="padding: 0 5px;">|</span>
+            <p class="site_favorite">
+                <a href="javascript:void(0)" onclick="bookmark('/xykg',
+                    '当前站点')"
+                   title="当前站点" rel="sidebar" rel="nofollow">收藏站点</a>
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function bookmark(url, title) {
+        try {
+            if (window.sidebar) {
+                window.sidebar.addPanel(title, url, "");
+            } else if (document.all || !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv:11/))) {
+                window.external.AddFavorite(url, title);
+            } else {
+                alert('对不起，您的浏览器不支持加入收藏夹功能，您可以尝试通过快捷键ctrl + d加入到收藏夹。');
+            }
+        } catch (e) {
+            alert("对不起，您的浏览器不支持加入收藏夹功能，您可以尝试通过快捷键'ctrl + d'加入到收藏夹。");
+        }
+    }
+
+    function showLoginUserInfo(type, name) {
+        if (!type || type == "" || (type != 1 && type != 2) || !name || name == "") {
+            return;
+        }
+        $("#show_login_user").show();
+        $("#show_login_info").hide();
+
+        if (type == 1) {
+            $("#showTopCompanyName").attr("target", '_blank');
+            $("#showTopCompanyName").attr("href", '/xykg/web_gysbackstage');
+        } else {
+            $("#showTopCompanyName").attr("target", '_top');
+            $("#showTopCompanyName").attr("href", '/xykg/web_kfsbackstage');
+        }
+        $("#showTopCompanyName").text(name);
+        $("#showTopCompanyName").attr("title", $("#showTopCompanyName").text());
+    }
+
+    (function ($) {
+        //load current user info
+        showLoginUserInfo("", "");
+    })($);
+</script>
+<div id="s_header">
+        <div class="wrap clear">
+                    <div class="logo_info">
+                <h3 class="logo">
+                    <a href="/xykg">
+                        <img src="http://oss-pro.oss-cn-hangzhou.aliyuncs.com/ycg/cz58fef98ad7056/developer-logo/7f183544_395f_11e7_9a6b_008cfae40c1c.png"></a>
+                </h3>
+            </div>
+                <div id="s_nav">
+            <ul>
+                <li class=""><a href="/xykg">首页</a></li>
+                                                                                            <li class="active"><a href="/xykg/web_developerzone/home/notice">招标公告</a></li>
+                                                                            <li class=""><a href="/xykg/web_developerzone/home/finish">中标公示</a></li>
+                                                                            <li><a target="_blank" href="http://www.sunriver.cn/index.php/fangdichankaifa.html">项目信息</a></li>
+                                <li class=""><a href="/xykg/web_developerzone/home/bidding-help">帮助信息</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function initSiteNav() {
+        $(".site_home").show();
+    }
+    (function ($) {
+        initSiteNav();
+    })($);
+</script>
+
+<script type="text/javascript">
+    function searchData() {
+        $("#searchForm").submit();
+    }
+</script>
+<div class="wrap clear">
+    <ul class="crumbs">
+        <li><a href="/xykg">首页</a>&nbsp;&gt;&nbsp;</li>
+        <li><span>招标公告</span></li>
+    </ul>
+</div>
+<div id="s_content" class="wrap clear" style="margin-top:10px ">
+    <form id="searchForm" action=/xykg/web_developerzone/home/notice name="myform" method="get">
+        <div class="filter_ctrlbar" id="search_area">
+            <ul class="filter_ctrlbar_list">
+                <li class="f_items">
+                    <div class="label_tit">
+                        <label for="" class="tit_textabbr">招标公告名称：</label>
+                    </div>
+                    <div class="fields_rit">
+                        <input type="text" name="title" class="txt_common" value="" />
+                    </div>
+                </li>
+                <li class="f_items filter_date">
+                    <div class="label_tit">
+                        <label for="" class="tit_textabbr">报名截止日期：</label>
+                    </div>
+                    <div class="fields_rit">
+                        <input id="RegisterEndDateStart" type="text" name="registerEndDateStart" class="Wdate txt_common" value="" />
+                        <span>至</span>
+                        <input id="RegisterEndDateEnd" type="text" name="registerEndDateEnd" class="Wdate txt_common" value="" />
+                    </div>
+                </li>
+                <li class="f_items">
+                    <div class="label_tit">
+                        <label for="" class="tit_textabbr">所属公司：</label>
+                    </div>
+                    <div class="fields_rit">
+                        <select name="subCompanyId" id="SubCompanyId" class="selc_common" >
+                            <option selected value="">全国</option>
+                                                            <option value="8f7d9c77-bac3-4e69-8fe4-4756504dbebd"  >组织架构</option>
+                                                    </select>
+                    </div>
+                </li>
+                <li class="f_items">
+                    <div class="label_tit">
+                        <label for="projectId" class="tit_textabbr">所属项目：</label>
+                    </div>
+                    <div class="fields_rit">
+                        <select name="projectId" id="ProjectId" class="selc_common">
+                            <option selected value="">所有项目</option>
+                                                    </select>
+                    </div>
+                </li>
+            </ul>
+            <a href="javascript:void(0);" onclick="searchData()" class="btn_common btn_size_30 filter_search">查找</a>
+        </div>
+    </form>
+    <div class="table_info table_blue">
+        <table id="aptList">
+            <colgroup>
+                <col width="59%">
+                <col width="13%">
+                <col width="16%">
+                <col width="12%">
+            </colgroup>
+            <thead class="table_tit">
+            <tr>
+                <th class="align_lft"><span style="padding-left: 20px;">招标公告名称</span></th>
+                <th class="align_lft">发布日期</th>
+                <th class="align_lft">报名截止剩余时间</th>
+                <th class="align_lft"></th>
+            </tr>
+            </thead>
+            <tbody>
+                                        <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】四期二供电工程" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=4d4e4718-a4f6-e711-85cc-0050568c13e9">【祥源控股】四期二供电工程</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-11</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有9天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】金港湾一期供电" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=72f3bba3-8df6-e711-85cc-0050568c13e9">【祥源控股】金港湾一期供电</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-11</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有5天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】合肥祥源城四期一项目景观工程" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=8cdc23da-dbf5-e711-85cc-0050568c13e9">【祥源控股】合肥祥源城四期一项目景观工程</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-10</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有5天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】520花海智能化工程立项申请；欧式园智能化工程" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=3b62991c-b1f5-e711-85cc-0050568c13e9">【祥源控股】520花海智能化工程立项申请；欧式园智能化工程</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-10</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有6天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】祥源花世界生态旅游区展览中心钢结构安装工程" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=446b7af6-abf5-e711-85cc-0050568c13e9">【祥源控股】祥源花世界生态旅游区展览中心钢结构安装工程</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-10</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有11天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】肥西景区中式园配套建筑、构筑物方案至施工图设计采购" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=69938a5e-a2f5-e711-85cc-0050568c13e9">【祥源控股】肥西景区中式园配套建筑、构筑物方案至施工图设计采购</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-10</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有5天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】阜阳祥瑞府、云水湾人防战时区域战时防化、滤毒设备、战时通风设备采购" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=22945340-26f5-e711-85cc-0050568c13e9">【祥源控股】阜阳祥瑞府、云水湾人防战时区域战时防化、滤毒设备、战时通风设备采购</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-09</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有3天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】阜南项目48号地块建筑总承包工程" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=e6218dfd-52f4-e711-85cc-0050568c13e9">【祥源控股】阜南项目48号地块建筑总承包工程</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-08</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有3天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】合肥祥源城四期一项目机械停车位工程" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=025d6aec-3ef4-e711-85cc-0050568c13e9">【祥源控股】合肥祥源城四期一项目机械停车位工程</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-08</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有2天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <p class="col_txt" style="padding-left: 20px;">
+                            <a title="【祥源控股】五河祥源06地块消防及暖通工程" target="_blank" href="/xykg/web_pub/bid/detail?biddingId=6af75b84-3ef4-e711-85cc-0050568c13e9">【祥源控股】五河祥源06地块消防及暖通工程</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">2018-01-08</p>
+                    </td>
+                    <td>
+                        <p class="col_txt">
+                            还有6天6小时                    </td>
+                    <td class="col_operate">
+                                            </td>
+                </tr>
+                
+                        </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    <div class="page_info">
+                        <p class='page_total'>总共185条记录</p><ul class='pagination'><li class='disabled'>上一页</li><li class='current'>1</li><li><a href='/xykg/web_developerzone/home/notice?title=&registerEndDateStart=&registerEndDateEnd=&subCompanyId=&projectId=&page=2'>2</a></li><li><a href='/xykg/web_developerzone/home/notice?title=&registerEndDateStart=&registerEndDateEnd=&subCompanyId=&projectId=&page=3'>3</a></li><li style='border:none'>...</li><li><a href='/xykg/web_developerzone/home/notice?title=&registerEndDateStart=&registerEndDateEnd=&subCompanyId=&projectId=&page=19'>19</a></li><li><a href='/xykg/web_developerzone/home/notice?title=&registerEndDateStart=&registerEndDateEnd=&subCompanyId=&projectId=&page=2'>下一页</a></li><li class='page_set'>共19页，到第<input class='txt_common txt_page_num' id='paginationNumTxt' value='1' onkeydown='javascript:return (function(evt){function c(){evt=(evt)?evt:((window.event)?window.event:"");var k=evt.keyCode?evt.keyCode:evt.which;if((k>=48&&k<=57)||(k>=96&&k<=105)||(k==8)||(k>=37&&k<=40)){return true}else{return false}};return c();})(event); '>页 <input class='btn_common btn_silvery btn_size_30' type='button' value='确定' onclick='javascript:(function(){{var p=document.getElementById("paginationNumTxt").value;if(p>19){{p=19;}}location.href="/xykg/web_developerzone/home/notice?title=&registerEndDateStart=&registerEndDateEnd=&subCompanyId=&projectId=&page="+p}})();'></li></ul><span class='clear'></span>                    </div>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://jcs-caigou.mingyuanyun.com/res1.5/plugins/datepicker/WdatePicker.js?c_version=2018-01-12"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#RegisterEndDateStart").focus(function () {
+            WdatePicker({ readOnly: true, maxDate: '#F{$dp.$D(\'RegisterEndDateEnd\')}' });
+        });
+        $("#RegisterEndDateEnd").focus(function () {
+            WdatePicker({ readOnly: true, minDate: '#F{$dp.$D(\'RegisterEndDateStart\')}' });
+        });
+
+        // 分公司-项目联动
+        $("#search_area").on('change', '#SubCompanyId', function (e, callback) {
+            var _e = $(this),
+                $selcLevel = $("#search_area").find('#ProjectId');
+            var buguid=$("#SubCompanyId").val();
+            $.post("/xykg/web_developerzone/home/get-project", { buguid: buguid }, function (data) {
+                var htmlStr = "<option value=\"\">请选择</option>";
+                if (_e.val() == "") {
+                    htmlStr = "<option value=\"\">所有项目</option>";
+                }
+                if (data) {
+                    for (var i = 0; i < data.length; i++) {
+                        htmlStr += "<option value=\"" + data[i].id + "\">" + data[i].name + "</option>"
+                    }
+                }
+                $selcLevel.html(htmlStr);
+                if (typeof callback === 'function') {
+                    callback.call($selcLevel[0]);
+                }
+            });
+        });
+    });
+</script>
+
+<div class="clear" id="footer">
+    <div class="wrap">
+        <p class="copyright">
+            祥源控股集团有限责任公司 ©2018 &nbsp;&nbsp;&nbsp;祥源控股集团有限责任公司            &nbsp;&nbsp;&nbsp;
+
+            <script type="text/javascript" src="https://jcs-caigou.mingyuanyun.com/res1.5/plugins/flexslider/jquery.flexslider.js?c_version=2018-01-12"></script>
+            <script type="text/javascript" src="https://jcs-caigou.mingyuanyun.com/res1.5/js/common/dialog.js?c_version=2018-01-12"></script>
+            <script>
+                $(window).load(function () {
+                    $("#s_banner .flexslider").flexslider({
+                        animation: "slide",
+                        start: function (slider) {
+                            $('body').removeClass('loading');
+                        }
+                    });
+                });
+            </script>
+
+        </p>
+    </div>
+</div>
+</body>
+</html>

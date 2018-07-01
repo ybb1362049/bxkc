@@ -1,0 +1,168 @@
+
+
+
+
+
+ 
+<script>var _ctx="http://218.2.208.144:8094/EBTS";</script>
+
+
+
+
+<!-- <script>var _ctx="http://192.168.3.182:8080/EBTS";</script>  -->
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+    
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/util/sessionOut.js"></script>
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/signature/signature.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://218.2.208.144:8094/EBTS/styles/common.css"/> 
+	<link rel="stylesheet" type="text/css" href="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/themes/icon.css">
+
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/locale/easyui-lang-zh_CN.js"></script> 
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery.validate.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery.metadata.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/message_cn.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/zDialog/zDialog.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/datePicker/WdatePicker.js"></script>
+
+<style type="text/css">
+td {
+	font-size: 13px;
+}
+.table2 { border:none; margin-bottom:5px; border-spacing:0px; font-size:12px; table-layout:fixed; }
+.table2 td { line-height:25px; padding:5px; text-align:left; vertical-align:middle; border-bottom:solid 1px #6497FB; }
+.table2 tr.topline td { border-top:solid 2px #0066FF; }
+.table2 tr.upline td {border-bottom:solid 2px #0066FF; }
+.table2 .title { font-weight:bold; color:#666; vertical-align:middle }
+.table2 .title_red { font-weight:bold; color:red; vertical-align:middle }
+.table2 .text-center { text-align:center; }
+</style>
+<script type="text/javascript">
+function lockInfo(){
+	var tender_id=$("#tender_id").val();
+	var zb_placard_id=$("#zb_placard_id").val();
+	var zb_unit_id=$("#zb_unit_id").val();
+	$('#grid').datagrid({
+		url:'http://218.2.208.144:8094/EBTS/publish/announcement/ajaxDoLockInfo?tender_id='+tender_id+'&zb_placard_id='+zb_placard_id+'&zb_unit_id='+zb_unit_id, 
+		idField:'user_id',
+		fitColumns:true ,  
+		singleSelect:true,
+		columns:[[   
+                   {field:'lock_flag',title:'锁定/非锁定',width:150,
+                	   formatter:function(value,row,index){
+                		   if ("0" == value){
+                			   return "<input type='checkbox' disabled='disabled'  name='"+row.user_id+"' value='"+value+"' >";
+                		   }else if ("1" == value) {
+                			   return "<input type='checkbox' disabled='disabled' name='"+row.user_id+"' checked='true' value='"+value+"' >";
+                		   }else{
+                			   return "<input type='checkbox' disabled='disabled' name='"+row.user_id+"' value='"+value+"' >";
+                		   }
+                   }},
+                   {field:'tb_employee_name',title:'人员名称',width:150},   
+                   {field:'this_project_position',title:'人员职位',width:200}
+              	]]
+		});		
+}
+
+$(function(){
+ 	lockInfo();
+});
+</script>
+</head>
+<body>
+	<div id="body" style="width: 90%; padding-left: 50px">
+		<div class="easyui-panel" style="padding:5px 0 5px 1px;margin:5px 0 5px 0;border:none">
+			
+			<input type="button" class="button-css" style="width:100px;height:25px" value='返回' onclick="javascript:history.back(-1);" >
+			   
+		</div>
+		<div style="width: 88%;">
+		    <input type="hidden" name="menuType" id ="menuType" value="">
+			<input type="hidden" name="zb_unit_id" id ="zb_unit_id" value="438b49bce1e2487ea3187e2986e21cb6">
+			<input type="hidden" name="tender_id" id ="tender_id" value="7e649401415a4cf58150f672d11a8ced">
+			<input type="hidden" name="zb_placard_id" id ="zb_placard_id" value="ad8b231acc844840ad3eae1c4e82c017">
+			
+			<p style="font-size: 14px;text-align: center">苏州市2017年普通国省干线公路交安设施工程施工监理项目</p>
+			
+			<p style="font-size: 13px;text-align: center">
+			发布部门：&nbsp;苏州市公路管理处&nbsp;&nbsp;&nbsp;&nbsp;
+			发布时间：&nbsp;2017-07-17 00:00:00&nbsp;&nbsp;&nbsp;&nbsp;
+			公告性质：&nbsp;正常
+			</p>
+				<table class="table2">
+					<colgroup>
+					<col style="width: 15%" />
+					<col style="width: 35%" />
+					<col style="width: 15%" />
+					<col style="width: 35%" />
+					</colgroup>
+					<tr class="topline">
+						<td class="title">项目名称：</td>
+						<td colspan="3">苏州市2017年普通国省干线公路交安设施工程施工监理项目</td>
+					</tr>
+					<tr>
+						<td class="title">项目编号：</td>
+						<td colspan="3">2017320501BA0022</td>
+					</tr>
+					<tr>
+						<td class="title">标段名称：</td>
+						<td colspan="3">2017JA-JL标段</td>
+					</tr>
+					<tr>
+						<td class="title">标段编号：</td>
+						<td colspan="3">2016000000FG1111001</td>
+					</tr>
+					<tr>
+						<td class="title">中标人：</td>
+						<td colspan="3">苏州市路达工程监理咨询有限公司</td>
+					</tr>
+					<tr>
+						<td class="title">中标金额/元：</td>
+						<td>2.33%</td>
+						<td class="title">项目负责人：</td>
+						<td>苏云花</td>
+					</tr>
+					<tr>
+						<td class="title">招标人名称：</td>
+						<td colspan="3">苏州市公路管理处</td>
+					</tr>
+					<tr>
+						<td class="title">招标人地址：</td>
+						<td colspan="3">苏州市桐泾南路300号&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">招标代理名称：</td>
+						<td colspan="3">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">招标代理地址：</td>
+						<td colspan="3">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">招标公告发布日期：</td>
+						<td colspan="3">2017-07-17</td>
+					</tr>
+					<tr>
+					<td colspan="4" style="border-bottom:solid 2px #0066FF; "><table id="grid" width="100%"></table></td>
+					</tr>
+				</table>
+		</div>
+	</div>
+</body>
+</html>

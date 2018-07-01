@@ -1,0 +1,590 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- 页面头部【start】 -->
+<head>
+<title>招标公告-安徽中技工程咨询有限公司</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="安徽中技工程咨询有限公司  安徽中技 安徽省中技 招标代理、工程咨询、造价咨询、项目管理、进出口贸易">
+<meta name="description" content="安徽中技工程咨询有限公司是一家以招标为主营业务的综合性咨询服务机构，主要从事招标代理、工程咨询、造价咨询、项目管理、进出口贸易等业务">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/zDialog.js"></script>
+<script type="text/javascript" src="js/zDrag.js"></script>
+<link rel="Stylesheet" href="css/ck.css" />
+<script type="text/javascript">
+
+
+    function CheckContion() {
+
+
+        if ($id("Title_News").value == "") { Dialog.alert("搜索关键字不能为空！"); return false; }
+
+        return true;
+
+
+    }
+
+</script>
+
+<style type="text/css">
+* {margin:0; padding:0;}
+body {font-size:12px; color:#222; font-family:Verdana,Arial,Helvetica,sans-serif; background:#f0f0f0;}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {zoom:1;}
+ul,li {list-style:none;}
+img {border:0;}
+
+.wrapper {width:350px; margin:0 auto;  margin-top:10px;}
+.ad {width:468px; margin:10px auto 0;}
+.ad li {padding-top:5px;}
+
+h1 {height:50px; line-height:50px; font-size:22px; font-weight:normal; font-family:"Microsoft YaHei",SimHei;}
+
+.download {display:block; width:120px; height:34px; background:#333; line-height:34px; font-size:14px; font-weight:bold; text-align:center; color:#fff; border:1px solid #999; margin-top:10px;}
+.fenxiang {height:16px; padding:20px 0 10px; margin-bottom:10px;}
+
+.shuoming {margin-top:20px; border:1px solid #ccc; padding-bottom:10px;}
+.shuoming dt {height:30px; line-height:30px; font-weight:bold; text-indent:10px;}
+.shuoming dd {line-height:20px; padding:5px 20px;}
+
+.tongji {display:none;}
+
+/* jquery imgFocus */
+#focus {width:350px; height:264px; position:relative; margin:0 auto; overflow:hidden;}
+
+#focus ul {position:absolute;}
+#focus ul li {width:350px; height:264px; overflow:hidden;}
+#focus div.btn {position:absolute; width:335px; height:18px; bottom:31px; text-align:right; font-family:Verdana; font-size:10px; padding-right:5px;}
+#focus div.btn span{display:inline-block; _display:inline; _zoom:1; width:18px; line-height:18px; background:#333; color:#fff; cursor:pointer; text-align:center; margin-left:5px;}
+#focus div.btn span.on {background:#f00;}
+</style>
+</head>
+<!--  页面头部【end】 -->
+<body class="body1">
+<form name="ctl00" method="post" action="./TenderNotices.html?Key_Index=3EE10DEAB053B694" id="ctl00">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDM0MDQxNDk0ZGQaZHOi+OdnuBUAtXOLhu9YuQ9Ke6uglZvsQfVUcHE4AQ==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1BCF4424" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAANlHZG/GF14RUvEVm62Pqw2+Z0XR5FfHLI0fqM8qZ1/2c34O/GfAV4V4n0wgFZHr3ckIXa0gPMm63aZKlhBKJDPXL8gxGMUWH6g60A1LHIxkg==" />
+</div>
+<div class="web_bg">
+<div id="main_div1">
+<div id="main_div">
+<div id="top">
+<div id="header">
+		<div id="logo"><div id="MODBLK_227" class="mod_block media_image mb_logo_block">
+<div class="flash_image">
+<img src="WebImages/ahzj_logo.png" alt="" width="717px" height="102px">
+</div>
+
+</div>
+            </div>
+            
+            <!-- 站点语言模块Start -->
+<div class="switch_langbar" style="float:right;margin-top:25px;">
+</div>
+<!-- 站点语言模块End -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+           	</div>
+</div> 
+
+
+<div id="nav_bg">
+            <div id="nav">
+	<div id="MODBLK_169" class="mod_block mb_kOzgrVaw_block">
+
+
+			<div class="nav_l"></div>
+        	<ul id="nav_b8fWue" class="navigation">
+			    <li>
+        <a href="Default.html"  target="_self">
+    首页</a>
+        </li>
+        <li>
+       <span id="Span1">  <a href="ComProfile.html" target="_self">
+    公司概况</a>
+
+    <ul style="display: none;">
+            <li><a href="ComProfile.html" target="_self"> 公司简介</a> </li>
+           <li><a href="Com_Business.html" target="_self">公司业务</a> </li>
+        <li><a href="Qualification.html" target="_self">企业资质</a> </li>
+         <li> <a href="ComHonor.html" target="_self">企业荣誉</a> </li>
+        <li> <a href="ComOrganization.html" target="_self">组织机构</a></li>
+        <li><a href="ComCulture.html"  target="_self"> 企业文化</a></li>
+        </ul></span>
+
+        </li>
+        <li class="">
+        <span id="Span2"><a href="News.html" target="_self">
+    新闻动态</a>
+    <ul style="display: none;">
+       
+        <li>
+        <a href="ComNews.html" target="_self">
+    公司新闻</a>
+        </li>
+        <li>
+        <a href="IndNews.html" target="_self">
+    行业新闻</a>
+        </li>
+        </ul></span>
+        </li>
+        <li class="">
+        <span id="Span3"><a href="Tender.html">
+    招标项目</a>
+      <ul style="display: none;">
+       
+        <li>
+        <a href="TenderNotices.html">
+    招标公告</a>
+        </li>
+        <li>
+        <a href="ChangeQ.html">
+    变更答疑</a>
+        </li>
+           <li>
+        <a href="EvaResult.html">
+    评标结果公示</a>
+        </li>
+
+        </ul>
+
+    </span>
+        </li>
+    
+        <li>
+        <a href="ClassicResults.html">
+    经典业绩</a>
+        </li>
+
+        <li>
+       <span id="Span4">  <a href="Theoreticalstudy.html">
+    理论研究</a>
+       <ul style="display: none;">
+       
+        <li>
+        <a href="Theoreticalstudy.html">
+    理论分析</a>
+        </li>
+        <li>
+        <a href="LawInfo.html">
+    法律法规</a>
+        </li>
+       </ul>
+
+    </span>
+        </li>
+
+
+
+
+
+
+
+
+            <li>
+      <span id="Span5">  <a href="Recruitment.html">
+    人力资源</a>
+          <ul style="display: none;">
+       
+        <li>
+        <a href="Recruitment.html">
+    人才招聘</a>
+        </li>
+        <li>
+        <a href="ExcellentStaff.html">
+    优秀员工</a>
+        </li>
+           <li>
+        <a href="http://www.chi-tech.cn" target="_blank">
+    专家申请</a>
+        </li></ul>
+</span>
+        
+
+
+
+        </li>
+
+
+
+
+
+
+        <li>
+        <a href="ContactUs.html">
+    联系我们</a>
+        </li>
+                </ul>
+			<div class="nav_r"></div>
+
+		
+<script type="text/javascript">
+    //$(".navigation li:first").css("background-image","none");
+    var topMenuNum = 0;
+    $("#nav_b8fWue li span").hover(
+	function () {
+	    topMenuNum++;
+	    $(this).attr("id", "kindMenuHover" + topMenuNum);
+	    $("#kindMenuHover" + topMenuNum + " > ul").show();
+	    $(this).parent().addClass("hover");
+	},
+	function () {
+	    $("#" + $(this).attr("id") + " > ul").hide();
+	    $(this).attr("id", "");
+	    $(this).parent().removeClass("hover");
+	}
+);
+</script>
+</div>
+ </div>
+ </div>  
+ <div id="banner">
+	<div id="MODBLK_239" class="mod_block media_image mb_banner_block">
+
+<div class="flash_image">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="970" height="290">
+<param name="movie" value="flash/ahzjgc.swf">
+<param name="wmode" value="Opaque">
+<param name="quality" value="high">
+<embed src="flash/ahzjgc.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="970" height="290" wmode="Opaque" align="middel">
+</object>
+</div>
+
+</div>
+	</div>
+<div id="mainmain"> 
+	<div id="main_con">
+<div class="web_bg">
+    
+             <div id="right">
+         <div id="right_1"></div>
+		<div id="MODBLK_245" class="mod_block mb_oU6vc5dn_block">
+<h3 class="blk_t">招标公告</h3>
+<style type="text/css">
+.bulletin h4 {font-weight:normal;}
+</style>
+<div class="notice_con">
+	<div class="lanmu_left" id="" style="margin-top:5px;">
+	
+    
+
+    <div >
+
+    <ul>
+    <li style=" font-weight:bold;  background:url(WebImages/bg_menu_lmhover.gif);" ><a href="TenderNotices.html" target="_self"  style=" cursor:pointer;" >招标公告  </a> </li>
+     <li><a href="ChangeQ.html" target="_self"  style=" cursor:pointer;">变更答疑  </a> </li>
+         <li><a href="EvaResult.html" target="_self"  style=" cursor:pointer;">评标结果公示  </a> </li>
+    </ul>
+ 
+</div>
+
+
+
+
+
+    
+
+
+    	</div>
+</div><div class="list_bot"></div>
+
+</div>
+<div id="MODBLK_237" class="mod_block mb_f5FuC3wG_block">
+<h3 class="blk_t">友情链接</h3>
+<div class="list_main">
+				<div class="list_con">
+					<ul class="flink_index">
+
+                     
+               <li><a href="http://www.ahzhuohua.com      " target="_blank" title="安徽焯华"><img src="UploadImg/S_Img/2015060217070161388.JPG" border="0" alt="安徽焯华" width="160"></a></li>
+
+
+               
+               <li><a href="http://www.ahbidding.gov.cn   " target="_blank" title="安徽省招标局"><img src="UploadImg/S_Img/2013092413524733005.JPG" border="0" alt="安徽省招标局" width="160"></a></li>
+
+
+               
+               <li><a href="http://www.act.org.cn         " target="_blank" title="安徽省建设工程招标投标信息网"><img src="UploadImg/S_Img/2013092413504286475.JPG" border="0" alt="安徽省建设工程招标投标信息网" width="160"></a></li>
+
+
+               
+               <li><a href="http://www.ahtba.org.cn       " target="_blank" title="安徽招标投标信息网"><img src="UploadImg/S_Img/2013092413485917580.JPG" border="0" alt="安徽招标投标信息网" width="160"></a></li>
+
+
+               
+               <li><a href="http://www.ahaec.com/         " target="_blank" title="安徽省工程咨询网"><img src="UploadImg/S_Img/2013092413483786693.JPG" border="0" alt="安徽省工程咨询网" width="160"></a></li>
+
+
+               
+               <li><a href="http://www.ahpc.gov.cn/       " target="_blank" title="安徽省发改委"><img src="UploadImg/S_Img/2013092413460927913.JPG" border="0" alt="安徽省发改委" width="160"></a></li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn        " target="_blank" title="安徽招标咨询网"><img src="UploadImg/S_Img/2013090509194152906.JPG" border="0" alt="安徽招标咨询网" width="160"></a></li>
+
+
+               
+
+</ul><div class="blankbar1"></div>
+				</div>
+	<div class="list_bot"></div>
+</div>
+<div class="blankbar"></div>
+
+</div>
+        <div id="right_2"></div>
+		</div>
+        <div id="left">
+
+
+        <div id="MODBLK_246" class="mod_block mb_CRMrohWu_block">
+<h3 class="blk_t">招标公告
+ <span style=" margin-left:370px;">
+
+ <input name="Title_News" type="text" id="Title_News" style=" height:20px; border:#c7c8c9 1px solid; line-height:20px;" />
+
+                   <input type="submit" name="Button1" value="搜 索" onclick="return CheckContion();" id="Button1" class="buttonStyle" style=" border:none;" />
+ </span>
+
+</h3>
+<div class="list_con_c">
+<div class="custom_con">
+
+  <ul>
+  
+   
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=CBC8AE611BE274EB"  target="_blank"  style=" cursor:pointer;">长丰县下塘镇街道（下塘路、振兴路）架空线入地改造工程所需管材采购招标公告</a><img alt='招标网最新信息' src='WebImages/news_flag.gif'  />
+               
+               <span style=" float:right; padding-right:10px;">2017-08-08 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=B1ABEA681806B5BD"  target="_blank"  style=" cursor:pointer;">长丰县阳光电力维修工程有限责任公司金湖花园小区（B区）10KV配电工程所需电缆采购招标公告</a><img alt='招标网最新信息' src='WebImages/news_flag.gif'  />
+               
+               <span style=" float:right; padding-right:10px;">2017-08-08 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=DE386AB5FED2C197"  target="_blank"  style=" cursor:pointer;">长丰县阳光电力维修工程有限责任公司下塘镇街道（下塘路、振兴路）架空线入地改造工程所需电缆采购招标公告</a><img alt='招标网最新信息' src='WebImages/news_flag.gif'  />
+               
+               <span style=" float:right; padding-right:10px;">2017-08-08 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=8D2410BA4465B082"  target="_blank"  style=" cursor:pointer;">中车浦镇庞巴迪运输系统有限公司单轨车辆及捷运系统胶轮车辆生产基地办公楼装饰工程招标公告</a><img alt='招标网最新信息' src='WebImages/news_flag.gif'  />
+               
+               <span style=" float:right; padding-right:10px;">2017-08-08 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=DB9CAE4E5A0CE267"  target="_blank"  style=" cursor:pointer;">明中都皇故城及皇陵石刻西北角台及部分城墙遗址保护展示工程施工项目资格预审公告（代招标公告）</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-08 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=120EAA06CDAF6208"  target="_blank"  style=" cursor:pointer;">合肥丰力电力工程有限公司金峰路（阜阳北路-凤庆路）电力改造工程所需高压电缆采购招标公告</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-08 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=A74C92465F6E3AC8"  target="_blank"  style=" cursor:pointer;">合肥丰力电力工程有限公司淝河监狱迁建1#配电工程所需高压电缆采购招标公告</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-08 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=14C6181C44D7EE11"  target="_blank"  style=" cursor:pointer;">合肥丰力电力工程有限公司安徽省合肥监狱迁建10KV（外线）配电工程所需高压电缆采购招标公告</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-08 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=5CC77934618A955A"  target="_blank"  style=" cursor:pointer;">临泉皖能环保电力有限公司炉渣综合利用及飞灰稳定处理项目招标公告</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-07 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=F3AD336998C70478"  target="_blank"  style=" cursor:pointer;">长丰县阳光电力维修工程有限责任公司长丰县下塘镇街道（下塘路、振兴路）架空线入地改造工程环网柜及分支箱等采购招标公告</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-07 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=7CF9F583B794C1CA"  target="_blank"  style=" cursor:pointer;">合肥政文国际会展管理有限公司现场展具租赁及经开馆叉运吊装项目信息（二次）</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-07 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=88934631BE6B176D"  target="_blank"  style=" cursor:pointer;">中国烟草总公司安徽省公司法律顾问服务项目招标公告</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-07 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=2D251985AA074706"  target="_blank"  style=" cursor:pointer;">中国烟草总公司安徽省公司食堂原材料定点供应商库项目（三次）招标公告</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-07 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=D40C67837EDB39FF"  target="_blank"  style=" cursor:pointer;">临泉县佳源东方都市项目施工总承包项目招标公告</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-04 </span> </li>
+
+
+               
+               <li><a href="http://www.ahbc.com.cn/TenderInfo.aspx?clientin=38ACD6304D877FDB"  target="_blank"  style=" cursor:pointer;">安徽科技学院2017-2018学年实验用品采购项目（二次）招标公告</a>
+               
+               <span style=" float:right; padding-right:10px;">2017-08-04 </span> </li>
+
+
+               
+  
+  
+  
+  
+  </ul>
+
+</div>
+</div></div>
+
+  <div style=" clear:both;"></div>
+<div id="fenye">
+        
+     
+                            
+                          <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=991019899404645D" title="首页">首页</a>
+                        
+                        <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=991019899404645D" title="第1页">1</a>
+                          
+                        
+                        
+                        
+                        <span class="focus">2</span>
+                        
+                        <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=720F1E8E48D084D4" title="第3页">3</a>
+                          
+                        
+                        
+                        
+                        <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=A32380DF9CA0E319" title="第4页">4</a>
+                          
+                        
+                        
+                        
+                        <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=98F66344553BB937" title="第5页">5</a>
+                          
+                        
+                        
+                        
+                        <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=1333E6B3DDBA88DA" title="第6页">6</a>
+                          
+                        
+                        
+                        
+                        <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=8E3285B290811AFA" title="第7页">7</a>
+                          
+                        
+                        
+                        
+                        <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=E9023ABF0556716B" title="第8页">8</a>
+                          
+                        
+                        
+                        
+                        <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=78A481652BA2BE85" title="第9页">9</a>
+                          
+                        
+                        
+                        
+                        <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=E7ED0DBAB965ED3A" title="第10页">10</a>
+                          
+                        
+                        
+                        
+                            
+                          <a href="http://ahzj.ahbc.com.cn/TenderNotices.html?Key_Index=E5C621EE69ADA45E" title="末页">末页</a>
+                        
+        
+        
+         </div>	
+
+<div class="list_bot"></div>
+</div>
+
+
+
+
+
+
+
+		</div>
+
+ 		
+        
+        <div class="blankbar"></div>
+          
+	</div>
+  </div>
+  </div>
+  </div>
+  </div>
+    <div id="footermain">
+  <div id="foot_2">
+  <div class="bottom_dh"> 
+    
+    <a href="Default.html">首页 </a>
+    <a href="ComProfile.html">公司概况 </a>
+    <a href="News.html">新闻动态 </a>
+    <a href="Tender.html">招标项目 </a>
+    <a href="Recruitment.html">人才招聘 </a>
+    <a href="ClassicResults.html">经典业绩 </a>
+    <a href="ContactUs.html">联系我们 </a>
+   
+    <a href="sitemap.html">站点地图 </a>
+    </div>
+<!-- 页脚【start】 -->
+<div id="footer">
+	<div class="copyright">
+	<style type="text/css">
+		.mb_foot_block {position:relative;}
+		.mb_foot_block a{display:inline;}
+	</style>
+	<div id="MODBLK_170" class="mod_block mb_foot_block">
+<div class="com_con">Copyright © 安徽中技工程咨询有限公司&nbsp; 公司地址：合肥市蜀山区合作化南路27号<br>
+    电话：0551-65149581 65149582 传真:0551-65149580 网站制作维护：公司网络部</div><div class="list_bot"></div>
+</div>
+    </div>
+</div>
+
+<!-- 页脚【end】 --><script src="http://s9.cnzz.com/stat.php?id=5665391&web_id=5665391" language="JavaScript"></script>
+
+</div>
+</div>
+
+</form>
+ </body>
+</html>

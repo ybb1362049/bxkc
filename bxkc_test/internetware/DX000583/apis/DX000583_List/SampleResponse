@@ -1,0 +1,227 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  
+ <title>四川广巴高速公路有限责任公司</title>
+<meta name="Keywords" content="四川广巴高速公路有限责任公司"/>
+<meta name="description" content="四川广巴高速公路有限责任公司" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" href="css/font-awesome.css"/>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css"/>
+<link rel=stylesheet type=text/css href="css/slider.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.hoverdelay.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.js"></script>	
+<script type="text/javascript" src="js/int.js"></script>
+</head>
+
+<body>
+<div id="header">
+	<div class="wrapper">
+		<!--
+		<div class="logo"><a href="/"><img src="/Public/images/logo.png" alt="四川铁投城乡投资建设集团有限责任公司" /></a></div>
+		-->
+		<div class="nav">
+		  <h2><strong><a href="index.asp">首页</a></strong></h2>
+			<ul>
+				
+											
+			  <li>
+					<strong><a href="about.asp?nb_id=84&ns_id=187">项目简介</a></strong>
+										<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=84&ns_id=187">公司简介</a></dd>
+														
+				  </dl>
+					</div>
+			</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=85&ns_id=188">站内新闻</a></strong>
+					<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=85&ns_id=188">站内新闻</a></dd>
+						
+						<dd><a href="about.asp?nb_id=85&ns_id=197">广元管理处</a></dd>
+						
+						<dd><a href="about.asp?nb_id=85&ns_id=198">巴中管理处</a></dd>
+														
+				  </dl>
+					</div>
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=86&ns_id=189">行业新闻</a></strong>
+					<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=86&ns_id=189">行业新闻</a></dd>
+														
+				  </dl>
+					</div>					
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=87&ns_id=190">工程动态</a></strong>
+									<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=87&ns_id=190">工程动态</a></dd>
+														
+				  </dl>
+					</div>		
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=88&ns_id=191">招标信息</a></strong>
+									<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=88&ns_id=191">招标信息</a></dd>
+														
+				  </dl>
+					</div>		
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=89&ns_id=192">党群活动</a></strong>
+									<div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=89&ns_id=192">党群活动</a></dd>
+						
+						<dd><a href="about.asp?nb_id=89&ns_id=196">“两学一做”学习教育</a></dd>
+						
+						<dd><a href="about.asp?nb_id=89&ns_id=199">廉政建设</a></dd>
+						
+						<dd><a href="about.asp?nb_id=89&ns_id=200">学习贯彻十九大</a></dd>
+														
+				  </dl>
+					</div>		
+									</li>
+															
+			  <li>
+					<strong><a href="about.asp?nb_id=90&ns_id=193">图片活动</a></strong>
+                    <div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=90&ns_id=193">图片活动</a></dd>
+														
+				  </dl>
+					</div>	
+									</li>
+              <li>
+					<strong><a href="about.asp?nb_id=91&ns_id=194">依法治企</a></strong>
+                    <div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=91&ns_id=194">依法治企</a></dd>
+														
+				  </dl>
+					</div>	
+									</li>
+                                    <li>
+					<strong><a href="about.asp?nb_id=92&ns_id=195">企业文化</a></strong>
+                    <div class="sub-nav">
+					<dl>
+                        
+						<dd><a href="about.asp?nb_id=92&ns_id=195">企业文化</a></dd>
+														
+				  </dl>
+					</div>	
+									</li>
+              
+		  </ul>
+		</div>
+		
+	</div>
+</div>
+<!--内容start-->
+<div id="page-banner">
+	<div class="logo"><a href="/"><img src="images/new-logo.png" width="600"/></a></div>
+	<div class="banner-slider">
+    <ul><li>
+    <img src="images/png-wd1.png" /> </li></ul></div>
+</div>
+<div id="location">您现在的位置：<a href="index.asp">首页</a><span>&raquo;</span>招标信息<span>&raquo;</span>招标信息</div>
+
+<div id="page">
+	<div id="page-left">
+		<div class="page-top">
+				<h2>招标信息<!--<em>News</em>--></h2>
+			</div>	
+		<ul>
+			
+						<li ><a href="about.asp?nb_id=88&ns_id=191"  class="current" >招标信息</a></li>
+						
+                        
+						
+					</ul>
+		<div class="contact-info">
+			<p style="margin-top:70px">地址：四川省广元市利州区</p><p>电话：</p><p>传真：</p>
+		</div>
+
+	</div>
+  <div id="page-right">
+		<div class="page-main">
+			<div class="page-top">
+				<strong>招标信息</strong>
+			</div>	
+            <!--简介结束-->
+            <!--列表开始-->
+            <div class="news-list">
+				<ul class="list">
+                
+					<li><a href="about_page.asp?nb_id=88&ns_id=191&nws_id=842">四川广巴高速公路有限责任公司三大系统备品备件询价中标候选人公示表</a><span>2017/12/14</span></li>
+ 
+					<li><a href="about_page.asp?nb_id=88&ns_id=191&nws_id=839">四川广巴高速公路有限责任公司购置收费站净水设施询价中标候选人公示表</a><span>2017/12/9</span></li>
+ 
+					<li><a href="about_page.asp?nb_id=88&ns_id=191&nws_id=835">四川广巴高速公路有限责任公司机电三大系统备品备件采购项目询价公告</a><span>2017/12/8</span></li>
+ 
+					<li><a href="about_page.asp?nb_id=88&ns_id=191&nws_id=834">四川广巴高速公路有限责任公司关于购置收费站净水设施的询价公告</a><span>2017/12/5</span></li>
+ 
+					<li><a href="about_page.asp?nb_id=88&ns_id=191&nws_id=805">广陕广巴高速公路连接线（吴家浩至张家湾高速公路）环境保护工程及上西互通立交区交通安全设施工程施工招标文件补遗书（第1号）</a><span>2017/9/29</span></li>
+ 
+					<li><a href="about_page.asp?nb_id=88&ns_id=191&nws_id=791">广陕广巴高速公路连接线（吴家浩至张家湾高速公路）环境保护工程及上西互通立交区交通安全设施工程施工招标公告</a><span>2017/9/26</span></li>
+ 
+					<li><a href="about_page.asp?nb_id=88&ns_id=191&nws_id=698">四川广巴高速公路有限责任公司管辖路段2017年～2020年日常养护工程施工招标项目（路基、路面、桥涵、路线交叉、隧道、交通工程及沿线设施等小修保养）招标公告及招标文件</a><span>2017/3/17</span></li>
+ 
+					<li><a href="about_page.asp?nb_id=88&ns_id=191&nws_id=599">广陕、广巴连接线上西坝互通式立交施工招标公告</a><span>2016/9/14</span></li>
+ 
+					<li><a href="about_page.asp?nb_id=88&ns_id=191&nws_id=587">广陕、广巴高速公路连接线崔家垭隧道病害处治工程项目施工招标公告</a><span>2016/8/18</span></li>
+   
+				</ul>
+                <DIV class=fy>
+<form method=Post action="?nb_id=88&ns_id=191">首页 上一页&nbsp;下一页 尾页&nbsp;页次：<strong><font color=red>1</font>/1</strong>页 &nbsp;共<b><font color='#FF0000'>9</font></b>条记录 <b>10</b>条记录/页 转到：<input type='text' name='page' size=4 maxlength=10 class=input-text value=1> <input class=input-button type='submit'  value='go '  name='cndok'></span></p></form>
+
+<P></P></DIV>
+			</div>
+            
+            <!--列表结束-->
+            
+            <!--图片结束-->
+			
+		</div>
+	</div>
+	<div class="clearit"></div>
+</div>
+
+
+
+
+<!--内容end-->
+
+<div id="footer">
+	<div class="wrapper">
+		<div class="copyright">Copyright @ 四川广巴高速公路有限责任公司 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51080202000195" target="_blank"><img src="images/ba.png" width="20" />蜀ICP备06010468号川公网安备 51080202000195号</a>&nbsp;&nbsp;&nbsp;&nbsp;友情链接:<a href="#"> 陕西公众软件有限责任公司</a></b></div>
+
+
+</div>
+</body>
+</html>		

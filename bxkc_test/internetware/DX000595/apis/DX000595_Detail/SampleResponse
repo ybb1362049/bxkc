@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>武汉T2九峰停车场项目围墙工程劳务分包招标变更公告_西安电化网</title>
+<meta name="keywords" content="武汉,九峰,停车场,项目,围墙,工程,劳务分," />
+<meta name="description" content="关于武汉有轨电车 T1T2 试验线九峰停车场项目围墙工程劳务分包招标变更公告 各投标单位： 2017年6月20日发布的关于武汉有轨电车T1T2试验线九峰停车场项目-围墙工程劳务分包项目（项" />
+<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<script language="javascript" type="text/javascript" src="/include/js/MSClass.js" ></script>
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin(){
+	  var taget_obj = document.getElementById('_ajax_feedback');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/member/ajax_feedback.php");
+	  DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "/plus/digg_ajax.php?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/digg_ajax.php?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+</head>
+<body class="articleview">
+<div class="bodybg center clear">
+﻿<div class="header_top">  
+    <div class="w960 center">  
+     <span id="time" class="time"><a href='/'>欢迎来到中铁电气化局集团西安电化公司网</a></span>
+     <div class="toplinks"><a href="/data/sitemap.html" target="_blank">[网站地图]</a><span>[<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.xreed.com.cn');">设为首页</a>] [<a href="javascript:window.external.AddFavorite('http://www.xreed.com.cn','西安电化网')">加入收藏</a>]</span></div>
+    </div> 
+</div>
+<div class="header">
+	<div class="top w960 center newtop">
+    <div id="navMenu">
+    	<ul>
+      	<li><a href='/'><span>主  页</span></a></li>
+      	
+      	<li><a href='/a/gongsijieshao/qiyegaikuang/index.html'  rel='dropmenu1' ><span>公司介绍</span></a></li>
+      	
+      	<li><a href='/a/xinwenzhongxin/'  rel='dropmenu11' ><span>新闻中心</span></a></li>
+      	
+      	<li><a href='/a/qiyewenhua/qiyelinianshibiexitong/'  rel='dropmenu16' ><span>企业文化</span></a></li>
+      	
+      	<li><a href='/a/dangjianzhenggong/diaoyanyusikao/list_24_1.html'  rel='dropmenu24' ><span>党建政工</span></a></li>
+      	
+      	<li><a href='/a/zhigongzhijia/'  rel='dropmenu32' ><span>职工之家</span></a></li>
+      	
+      	<li><a href='/a/qingniankongjian/'  rel='dropmenu35' ><span>青年空间</span></a></li>
+      	<li class='hover'><a href='/a/fenbaozhaobiao/'  rel='dropmenu76'><span>分包招标</span></a></li>
+      	<li><a href='/a/zhuanyelingyu/dianqihuagongcheng/'  rel='dropmenu39' ><span>专业领域</span></a></li>
+      	
+      	<li><a href='/a/renliziyuan/rencailinian/index.html'  rel='dropmenu45' ><span>人力资源</span></a></li>
+      	
+      	<li><a href='/a/zhuantizhuanji/'  rel='dropmenu53' ><span>专题专辑</span></a></li>
+      	
+    	</ul>
+    </div>
+    <div id="topMenu">
+     	<ul>
+     		<!----- 企业概况 typeid='2' ------->
+     		<li><a href="/a/gongsijieshao/qiyegaikuang/" ><span>企业概况</span></a></li>
+     		<!----- 组织结构 typeid='6' ------->
+     		<li><a href="/a/gongsijieshao/zuzhijiegou/" ><span>组织结构</span></a></li>
+     		<!----- 发展历程 typeid='8' ------->
+     		<li><a href="/a/gongsijieshao/fazhanlicheng/" ><span>发展历程</span></a></li>
+
+     		<!----- 企业荣誉 typeid='9' ------->
+     		<li><a href="/a/gongsijieshao/qiyerongyu/" ><span>企业荣誉</span></a></li>
+     		<!----- 媒体聚焦 typeid='13' ------->
+     		<li><a href="/a/xinwenzhongxin/meitijujiao/" ><span>媒体聚焦</span></a></li>
+     		<!----- 艺术长廊 typeid='23' ------->
+     		<li><a href="/a/qiyewenhua/yishuchanglang/" ><span>艺术长廊</span></a></li>
+     	</ul>
+    </div>
+	</div><!-- //top -->
+	<!-- //菜单 -->
+<!--div class="top w960"><img src="http://www.xreed.com.cn/uploads/allimg/120928/2_1100262701.jpg" width="960"/></div-->
+</div><!-- //header -->
+
+<!-- /header -->
+<div class="w960 center clear mt1">
+<div class="pleft">
+ <div class="place"> <strong>当前位置:</strong> <a href='http://www.xreed.com.cn/'>主页</a> > <a href='/a/fenbaozhaobiao/'>分包招标</a> > <a href='/a/fenbaozhaobiao/zhaobiaogonggao/'>招标公告</a> >  </div>
+ <!-- /place -->
+ <div class="viewbox">
+  <div class="title">
+   <h2>武汉T2九峰停车场项目围墙工程劳务分包招标变更公告</h2>
+  </div>
+  <!-- /title -->
+  <div class="info"> <small>来源:</small>工程经济管理部 <small>时间:</small>2017-07-10 <small>作者:</small>郭宏</div>
+  <!-- /info -->
+  <!--
+  
+  <div class="intro">关于武汉有轨电车 T1T2 试验线九峰停车场项目围墙工程劳务分包招标变更公告 各投标单位： 2017年6月20日发布的关于武汉有轨电车T1T2试验线九峰停车场项目-围墙工程劳务分包项目（项</div>
+  
+  -->
+  <div class="content box_img">
+      <p style="text-align: center;"><span style="font-size: small;"><br />
+<span style="font-family: 宋体;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: larger;"><strong><font face="宋体">关于武汉有轨电车</font>T1T2<font face="宋体">试验线九峰停车场项目围墙工程劳务分包招标变更公告</font></strong></span></span></span><span style="mso-spacerun:'yes';font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size: small;"><span style="font-family: 宋体; line-height: 150%;">各投标单位：</span></span></p>
+<p class="MsoNormal" style="line-height:150%;"><span style="font-size: small;"><span style="font-family: 宋体; line-height: 150%;">&nbsp; &nbsp;2017年6月20日发布的关于武汉有轨电车T1T2试验线九峰停车场项目-围墙工程劳务分包项目（项目编号：EEB-WHT2-2016-劳-12），因故推迟开标时间。</span></span><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height:150%;"><span style="font-size: small;"><span style="font-family: 宋体; line-height: 150%;">一、开标时间变更如下：</span></span><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="15" style="margin-left:18.0000pt;text-indent:0.0000pt;mso-char-indent-count:0.0000;line-height:150%;"><span style="font-size: small;"><span style="font-family: 宋体;"><font face="宋体">投标截止日期及时间改为</font>2017年8月24日9:00（北京时间）。</span></span><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent:18.0000pt;mso-char-indent-count:1.5000;line-height:150%;"><span style="font-size: small;"><span style="font-family: 宋体; line-height: 150%;">开标时间修改为</span><span style="font-family: 宋体; line-height: 150%;">2017年8月24日9:00（北京时间），开标地点不变。</span></span><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height:150%;"><span style="font-size: small;"><span style="font-family: 宋体; line-height: 150%;">二、无其他修改。</span></span><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left:48.0000pt;text-indent:-48.0000pt;mso-char-indent-count:-4.0000;line-height:150%;"><span style="font-size: small;"><span style="font-family: 宋体; line-height: 150%;"><font face="宋体">&nbsp; 招标人：中铁电气化局集团西安电气化工程有限公司武汉有轨电车</font>T1T2试验线九峰停车场项目部</span></span><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height:150%;"><span style="font-size: small;"><span style="font-family: 宋体; line-height: 150%;">&nbsp; 联系人：张倩</span></span><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height:150%;"><span style="font-size: small;"><span style="font-family: 宋体; line-height: 150%;">&nbsp; 联系电话：</span><u><span style="font-family: 宋体; line-height: 150%;">18791745916</span></u></span><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height:150%;"><span style="font-size: small;"><span style="font-family: 宋体; line-height: 150%;">&nbsp;</span></span></p>
+      
+     	<div class="admininfo">（录入：黄文元    责任编辑：黄文元）</div>
+  </div>
+  <!-- /content -->
+  <div class="dede_pages">
+   <ul class="pagelist">
+    
+   </ul>
+  </div>
+  <!-- /pages -->
+  <!-- //分享代码开始 -->
+  
+  <!-- //分享代码结束 -->
+  <div class="boxoff"> <strong>------分隔线----------------------------</strong> </div>
+  <div class="handle">
+   <div class="context">
+    <ul>
+     <li>上一篇：<a href='/a/fenbaozhaobiao/zhaobiaogonggao/2017/0811/4453.html'>西安北至机场城际轨道机电项目劳务分包招标公告</a> </li>
+     <li>下一篇：<a href='/a/fenbaozhaobiao/zhaobiaogonggao/2017/0817/4456.html'>武汉T2九峰停车场项目建筑幕墙工程专业分包招标变更公告</a> </li>
+    </ul>
+   </div>
+   <!-- /context -->
+   <div class="actbox">
+    <ul>
+     <li id="act-fav"><a href="/plus/stow.php?aid=4455" target="_blank">收藏</a></li>
+     <li id="act-err"><a href="/plus/erraddsave.php?aid=4455&title=武汉T2九峰停车场项目围墙工程劳务分包招标变更公告" target="_blank">挑错</a></li>
+     <li id="act-pus"><a href="/plus/recommend.php?aid=4455" target="_blank">推荐</a></li>
+     <li id="act-pnt"><a href="#" onClick="window.print();">打印</a></li>
+    </ul>
+   </div>
+   <!-- /actbox -->
+  </div>
+  <!-- /handle -->
+ </div>
+<!-- //相关阅读 -->
+ <div><!---相关阅读开始---->
+ 	<dl class="tbox light">
+ 		<dt class="light">
+ 			<strong>相关阅读</strong>
+ 		</dt>
+ 		<dd class="light">
+	  <ul class="d2 ico2"> 
+      <li> <a href="/a/fenbaozhaobiao/zhaobiaogonggao/2017/0928/4523.html" target="_blank">西安北至机场城际轨道机电项目工程劳务分包招标公告</a> <span class="dateinfo"> (2017-09-28)</span></li>
+<li> <a href="/a/fenbaozhaobiao/zhaobiaogonggao/2017/1024/4562.html" target="_blank">合肥地铁2号线供电工程代维管劳务分包招标变更公告</a> <span class="dateinfo"> (2017-09-27)</span></li>
+<li> <a href="/a/fenbaozhaobiao/zhaobiaogonggao/2017/0914/4510.html" target="_blank">合肥地铁2号线供电系统集成工程代维管工程劳务分包招标公告</a> <span class="dateinfo"> (2017-09-14)</span></li>
+<li> <a href="/a/fenbaozhaobiao/zhaobiaogonggao/2017/0926/4517.html" target="_blank">T1流芳项目-道路及附属、装修6标和7标专业分包招标变更公告</a> <span class="dateinfo"> (2017-09-11)</span></li>
+<li> <a href="/a/fenbaozhaobiao/zhaobiaogonggao/2017/0831/4487.html" target="_blank">西安北至机场城际轨道机电工程劳务分包招标变更公告</a> <span class="dateinfo"> (2017-08-31)</span></li>
+<li> <a href="/a/fenbaozhaobiao/zhaobiaogonggao/2017/0913/4503.html" target="_blank">武汉有轨电车流芳车辆基地-道路及附属工程专业分包招标公告</a> <span class="dateinfo"> (2017-08-21)</span></li>
+<li> <a href="/a/fenbaozhaobiao/zhaobiaogonggao/2017/0913/4504.html" target="_blank">武汉有轨电车流芳车辆基地-装饰装修工程6标专业分包招标公告</a> <span class="dateinfo"> (2017-08-21)</span></li>
+<li> <a href="/a/fenbaozhaobiao/zhaobiaogonggao/2017/0913/4505.html" target="_blank">武汉有轨电车流芳车辆基地-装饰装修工程7标专业分包招标公告</a> <span class="dateinfo"> (2017-08-21)</span></li>
+ 
+    </ul>
+    </dd>
+  </dl>
+ </div><!---相关阅读结束---->
+
+ <!-- /viewbox -->
+</div>
+<!-- //左边内容结束 -->
+<!-- //右边内容开始 -->
+<div class="pright"> 
+  <div>
+   <dl class="tbox light">
+    <dt><strong><a href="/a/fenbaozhaobiao/">分包招标</a></strong></dt>
+    <dd>
+     <ul class="d6">
+      <li><a href='/a/fenbaozhaobiao/zhaobiaogonggao/' class='thisclass'>招标公告</a></li>
+      <li><a href='/a/fenbaozhaobiao/dayibuyi/'>答疑补遗</a></li>
+      
+      <li><a href='/a/fenbaozhaobiao/zhaobiaojieguogongshi/'>招标结果公示</a></li>
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div class="commend mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>推荐阅读</strong></dt>
+    <dd class='light hometj'>
+     <ul class="c1">
+      <li><a href="/a/fenbaozhaobiao/zhaobiaojieguogongshi/2017/1101/4565.html">合肥地铁2号线供电系统集成代维管工程劳</a>
+      </li>
+<li><a href="/a/xinwenzhongxin/xinwentongxun/20171023/4560.html">李军一行到拉林铁路一线检查指导工作</a>
+      </li>
+<li><a href="/a/xinwenzhongxin/xinwentongxun/20171023/4561.html">阳安二线直通线接触网上部工程全面展开</a>
+      </li>
+<li><a href="/a/xinwenzhongxin/xinwentongxun/20171023/4559.html">沈九江到拉林铁路检查指导工作看望慰问</a>
+      </li>
+<li><a href="/a/fenbaozhaobiao/zhaobiaojieguogongshi/2017/1030/4563.html">西安北至机场城际轨道机电项目劳务分包</a>
+      </li>
+<li><a href="/a/qingniankongjian/gongzuodongtai/20171016/4558.html">公司青工在集团公司通信工技能大赛喜获</a>
+      </li>
+<li><a href="/a/qingniankongjian/gongzuodongtai/20171016/4557.html">电力变电分公司团委开展喜迎十九大活动</a>
+      </li>
+<li><a href="/a/qingniankongjian/gongzuodongtai/20171013/4553.html">试验检测中心团支部举办主题的团课</a>
+      </li>
+
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <!-- /commend -->
+<div class="flashnews">
+  	<div style="overflow:hidden;width:238px;height:170px;position:relative;clear:both;border:0px solid #000000;background-color:#ffffff;">
+  	<div id="JINGDONGBox">
+		<ul id="JINGDONGContentID">
+			<li><a href="/a/qingniankongjian/gongzuodongtai/20171016/4558.html"><img src="/uploads/allimg/171016/61_171016103857_1_lit.JPG" width="238" height="170"/></a></li>
+<li><a href="/a/qingniankongjian/gongzuodongtai/20171016/4557.html"><img src="/uploads/allimg/171016/61_171016103723_1_lit.jpg" width="238" height="170"/></a></li>
+<li><a href="/a/qingniankongjian/gongzuodongtai/20171013/4553.html"><img src="/uploads/allimg/171013/61_171013104757_1_lit.png" width="238" height="170"/></a></li>
+<li><a href="/a/qingniankongjian/gongzuodongtai/20171013/4552.html"><img src="/uploads/allimg/171013/61_171013104620_1_lit.jpg" width="238" height="170"/></a></li>
+<li><a href="/a/qingniankongjian/qingshengqingyu/2017/1011/4551.html"><img src="/uploads/allimg/171011/61_171011164659_1_lit.jpg" width="238" height="170"/></a></li>
+
+		</ul>
+		</div>
+		<ul id="JINGDONGNumID">
+			<li class=""><a href="/a/qingniankongjian/gongzuodongtai/20171016/4558.html">1</a></li>
+<li class=""><a href="/a/qingniankongjian/gongzuodongtai/20171016/4557.html">2</a></li>
+<li class=""><a href="/a/qingniankongjian/gongzuodongtai/20171013/4553.html">3</a></li>
+<li class=""><a href="/a/qingniankongjian/gongzuodongtai/20171013/4552.html">4</a></li>
+<li class=""><a href="/a/qingniankongjian/qingshengqingyu/2017/1011/4551.html">5</a></li>
+
+		</ul>
+	</div>
+<script type="text/javascript">
+new Marquee(
+{
+	MSClassID : "JINGDONGBox",
+	ContentID : "JINGDONGContentID",
+	TabID	  : "JINGDONGNumID",
+	Direction : 0,
+	Step	  : 0.1,
+	Width	  : 238,
+	Height	  : 170,
+	Timer	  : 20,
+	DelayTime : 3000,
+	WaitTime  : 0,
+	ScrollStep: 120,
+	SwitchType: 0,
+	AutoStart : 1
+})
+</script>
+  </div>
+  <!-- /flashnews -->
+  <div class="tline"></div>
+  <div class="right1">
+  	<div><img style="cursor: pointer" border="0" alt="" width="238" height="60" onclick="window.open('/a/jicengqingkuang/woshenbiandegongchandangyuan')" src="http://www.xreed.com.cn/uploads/allimg/150601/60_150601164107_1.jpg" /></div>
+<div><img style="cursor: pointer" border="0" alt="" width="238" height="60" onclick="window.open('/a/zhuantizhuanji/silushangdeshanxirenshanxiren')" src="http://www.xreed.com.cn/uploads/allimg/140729/slsdsxr.jpg" /></div>
+<div><img style="cursor: pointer" border="0" alt="" width="238" height="60" onclick="window.open('/a/zhuantizhuanji/shijiadangyuanbiaobing')" src="http://www.xreed.com.cn/uploads/allimg/140625/2_140625095635_1.jpg" /></div>
+
+  </div>
+</div>
+ <!-- /pright -->
+﻿<!-- //底部模板 -->
+<!-- /flink -->
+    <div class="search center">
+      <form  name="formsearch" action="/plus/search.php">
+        <div class="form">
+          <h4>搜索</h4>
+           <input type="hidden" name="kwtype" value="0" />
+           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+           <select name="searchtype" class="search-option" id="search-option">
+               <option value="title" selected='1'>检索标题</option>
+               <option value="titlekeyword">智能模糊</option>
+           </select>
+          <button type="submit" class="search-submit">搜索</button>
+        </div>
+        </form>
+        <div class="tags"> </div>
+    </div><!-- //search -->
+
+<!-- //二级子类下拉菜单，考虑SEO原因放置于底部  --
+<script type='text/javascript' src='/images/js/dropdown.js'></script>
+{!dede:channelartlist typeid='top' cacheid='channelsonlist'}<ul id="dropmenu77" class="dropMenu">
+  {!dede:channel type='son' noself='yes'}  <li><a href="[field:typelink/]" target="_blank">[field:typename/]</a></li>
+  {/dede:channel}
+</ul>
+{/dede:channelartlist}
+<script type="text/javascript">cssdropdown.startchrome("navMenu")</script>
+--->
+<div class="footer w960 center mt1 clear">
+	<!-- 
+		为了支持织梦团队的发展,请您保留织梦内容管理系统的链接信息.
+		我们对支持织梦团队发展的朋友表示真心的感谢!织梦因您更精彩!
+	-->
+    <div class="footer_left"></div>
+    <div class="footer_body">
+	<p class="powered">
+		<br /><div class="copyright">    
+		<font color=red>西安电化网</font> - 
+		<a href="http://www.xreed.com.cn">主页</a> - 
+		<a href="http://www.xreed.com.cn:8383/" alt="Power by Imail Server" target="_blank">企业邮箱</a> - 
+		<a href="/xeecctrl/" alt="Powered by DEDECMS" target="_blank"><font color=blue>网站管理</font></a><br />
+		地址：陕西省宝鸡市金台大道7号院9号楼  邮政编码：721000<br />
+		Copyright &copy; 2002-2011 Xeec Wee <a href=http://www.dedecms.com target='_blank'>Power by DedeCms</a>  陕ICP备11012227号</div>
+</p> 
+<script language='javaScript' src='http://wljg.snaic.gov.cn/wljgweb/bsjs/610000/61000000003447.js'></script>
+<!-- /powered -->
+ <div class="footer_right"></div>
+</div>
+<div id="wee" style="margin:15px auto"></div>
+</body>
+</html>

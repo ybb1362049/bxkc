@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE template SYSTEM "../WEB-INF/dtds/template.dtd">
+
+ 
+
+
+
+
+<html>
+  <head>
+  	<title>四川中烟工业有限责任公司</title>
+    <!-- Css -->
+	<link href="/web/AO3/stylesheet.css" rel="stylesheet" type="text/css" />
+	<link href="/web/AO3/slider.css" rel="stylesheet" type="text/css" />
+	<link href="/web/AO3/main.css" rel="stylesheet" type="text/css" />
+	<link href="/web/AO3/list.css" rel="stylesheet" type="text/css" />
+	<!-- Java Script -->
+	
+	<LINK type="text/css" rel="stylesheet" href="/jslib/resources/css/ext-all.css" charset="utf-8"/>
+	<script type="text/javascript" src="/jslib/adapter/ext/ext-base.js" charset="utf-8"></script>
+	<script type="text/javascript" src="/jslib/ext-all.js" charset="utf-8"></script>
+	<script type="text/javascript" src="/jslib/locale/ext-lang-zh_CN.js" charset="utf-8"></script>
+	<script type="text/javascript" src="/web/AO1/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="/web/AO1/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="/web/AO1/slider.js"></script>
+	<script type="text/javascript" src="/web/AO1/scrolltopcontrol.js"></script>
+	<script type="text/javascript" src="/web/AO1/table-yjly.js"></script>
+	<script type="text/javascript" language="javascript">
+$(function () {
+
+	$("#khxgd").css({ "z-index": "10" });
+	$("#kmtbd").css({ "z-index": "9" });
+
+	$('.xxktit li').hover(function () {
+		var thisId = $(this).attr("id");
+		$(".kinfo").not($("#k" + thisId)).animate({ opacity: 0 }, 300);
+		$(".kinfo").not($("#k" + thisId)).css({ "z-index": "0" });
+		$(this).addClass("cur");
+		$("#k" + thisId).stop(true, true).animate({ opacity: 1.0 }, 300);
+		$("#k" + thisId).css({ "z-index": "10" });
+	}, function () {
+		var thisId = $(this).attr("id");
+		$(this).removeClass("cur");
+	});
+
+});
+</script>
+	<!-- nav&bannar -->
+	<script type="text/javascript" src="/web/AO1/jquery.SuperSlide.2.1.1.js" ></script>
+	<script type="text/javascript" src="/web/AO1/public.js"></script>
+	
+<script language="JavaScript" type="text/javascript">
+$(function(){ 
+	$('.btn_l_nav').append($('<span />').addClass('helper'));
+});
+</script>	
+
+</head>
+  
+<body>
+
+<!--Site start-->
+
+﻿
+<!DOCTYPE template SYSTEM "../WEB-INF/dtds/template.dtd">
+<head>
+<title>四川中烟工业有限责任公司</title>
+<script type="text/javascript">
+function addFavorite() {
+     var url = window.location;
+     var title = document.title;
+     var ua = navigator.userAgent.toLowerCase();
+     if (ua.indexOf("360se") > -1) {
+         alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+     }else if (ua.indexOf("msie 8") > -1) {
+         window.external.AddToFavoritesBar(url, title); //IE8
+     }else if (document.all) {
+   		try{
+    		window.external.addFavorite(url, title);
+   		}catch(e){
+    		alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+   		}
+     }else if (window.sidebar) {
+         window.sidebar.addPanel(title, url, "");
+     }else {
+   		alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+     }
+}
+
+//设为首页 
+function SetHome(obj,url){
+   try{ 
+   		obj.style.behavior='url(#default#homepage)'; 
+        obj.setHomePage(url);   
+   }catch(e){     
+   		if(window.netscape){
+   		      try{        
+   		      		netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+   		      }catch(e){
+   		            alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'"); 
+   		      }     
+   		}else{ 
+   		    alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【"+url+"】设置为首页。"); 
+   	    }
+   	}
+} 
+</script>	
+
+</head>
+  
+<body style="overflow:-Scroll;overflow-x:hidden">
+
+	<form method="post" action="/information/informationAction.do" id="list2form">
+	<input type="hidden" id="method1" name="method"/>
+	<input type="hidden" id="columnId1" name="columnId"/>
+	</form>
+				
+	<script>
+	function submitList2(columnId,method){
+		document.getElementById("columnId1").value=columnId;
+		document.getElementById("method1").value=method;
+		var fm = document.getElementById("list2form");
+		fm.submit();
+	}
+	</script>
+
+	<!-- header -->
+    <div class="header_full w_100">
+        <div class="header">
+            <!-- top_left | logo -->
+            <div class="logo f_l"><a href="#"><img src="/web/AO2/logo2.png" ></a></div>			
+            <!-- top_right -->
+            <div class="top_right f_r">
+                <!-- top_link -->
+                <div class="top_link">
+                    <span>
+                        <a href="#bottom">联系我们</a>
+                        /
+                       <A href="javascript:void(0)" onclick="SetHome(this,'http://www.sctobacco.com');">设为首页</A>/
+                       <A href="javascript:void(0)" onclick="javascript:addFavorite()" >收藏本站</A>
+
+                    </span>
+                </div>
+                <!-- menu -->
+                <div class="nav_bar">
+                    <ul class="nav clearfix">
+                                      
+                        <!-- 单一菜单 | end -->
+						 <li class="m">
+                            <h3><a href="/sysway/compReply.do?method=getPortalAppeals" title="互动服务">互动服务</a></h3>
+                            <ul class="sub">
+                                <LI ><A href="/sysway/compReply.do?method=getPortalAppeals">消费投诉</A> </LI>
+                                <LI ><A href="/sysway/Msgboard.do?method=getMsgboardsByRequest">意见留言</A> </LI>
+                            </ul>
+                        </li>
+                        <li class="s">|</li>
+                        <li class="m">
+                            <!--<h3><a  href="/information/informationAction.do?method=getPortalInformationByColumnId&columnId=0205" title="社会责任">社会责任</a></h3>
+                            <ul class="sub">
+                                <LI ><A href="/information/informationAction.do?method=getPortalInformationByColumnId&columnId=0205">社会责任</A> </LI>
+                            </ul>-->
+                        </li>
+                       <!-- <li class="s">|</li>-->
+                        <li class="m">
+                            <h3><a  href="javascript:submitList2('0302','getPortalInformationByColumnId');" title="烟草资讯">烟草资讯</a></h3>
+                            <ul class="sub">
+                                <LI ><A href="javascript:submitList2('0302','getPortalInformationByColumnId');">行业资讯</A> </LI>
+                            </ul>
+                        </li>
+                        <li class="s">|</li>
+                        
+                        <li class="m">
+
+                        </li>
+
+                        
+                        <li class="m">
+                            <h3><a href="javascript:submitList2('0301','getInformationByColumnId2');">新闻中心</a></h3>
+                            <ul class="sub">
+	                         <LI ><A href="javascript:submitList2('0301','getInformationByColumnId2');">公司新闻</A> </LI>
+                             <LI ><A href="javascript:submitList2('0101','getInformationByColumnId2');">公司公告</A> </LI>
+							 </ul>
+                        </li>
+                        <li class="s">|</li>
+                        
+                        <li class="m">
+                            <h3><a href="/web/qygk.html" title="企业概况">企业概况</a></h3>
+                            <ul class="sub">
+	                        <LI ><A href="/web/qygk.html">公司简介</A> </LI>
+                           <!-- <LI ><A href="/web/qygk_2.html">组织机构</A> </LI>
+	                        <LI ><A href="/web/qygk_3.html">企业文化</A> </LI>
+			    <!--<LI ><A href="/web/qygk_5.html">技术创新</A> </LI>-->
+                            </ul>
+                        </li>
+                        <li class="s">|</li>
+                        
+                        <li class="m">
+                            <h3><a href="/information/informationAction.do?method=getIndexInfomationByColumnId" title="首页">首页</a></h3>
+                        </li>
+                        <li class="block"></li><!-- 滑动块 -->
+                        
+                    </ul>
+                </div>
+                <!-- menu | end -->
+            </div>
+        </div>
+    </div>
+     
+	    <!-- banner -->
+    <div class="mcur">
+        <div class="wrap bg1">
+        <h1>公司公告<span>Announcement
+</span></h1>
+        <h2>
+        <span></span>当前位置: <a href="/information/informationAction.do?method=getIndexInfomationByColumnId">首页</a> » <a href="/information/informationAction.do?method=getInformationByColumnId2&columnId=0301">新闻中心</a> »  公司公告    </h2>
+        </div>
+    </div>
+    <!-- banner | end -->
+<div id="wrapper">
+<!--Content start-->
+<div id="content">
+<div class="content">
+
+<div class="left-bg2"></div>
+<div class="content-center2">
+<div class="line">
+&nbsp;
+</div>
+<div class="service-text-part">
+<h1>四川中烟工业有限责任公司成都卷烟厂GD包装机铝纸检测功能完善服务采购项目招标公告</h1>
+<h5>时间：2018-01-02</h5>
+<hr noshade="noshade"></hr>
+
+	
+	
+	
+
+<div><p style="text-align: center;">请点击查看：</p><p style="text-align: center;"><a data-cke-saved-href="/WEB/uploadFiles/file/2017-09-01-16-01-13/20180102092530_KLMO.doc" href="/WEB/uploadFiles/file/2017-09-01-16-01-13/20180102092530_KLMO.doc">四川中烟工业有限责任公司成都卷烟厂GD包装机铝纸检测功能完善服务采购项目招标公告</a><br></p></div>
+</div>
+
+﻿
+<!DOCTYPE template SYSTEM "../WEB-INF/dtds/template.dtd">
+	<!--Testimonial Part start-->
+	<div class="testimonial-part">
+		<div align="center" style="margin-left: 8%">
+			<div class="testimonial-inner">
+				<div class="testimonial-img">
+					<a href="http://www.tobacco.gov.cn/html/" target="_blank"><img
+							src="/web/AO2/link_1.png"
+							alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="testimonial-inner">
+				<div class="testimonial-img">
+					<a href="http://www.ctsrc.org.cn/" target="_blank"><img
+							src="/web/AO2/link_3.png"
+							alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="testimonial-inner">
+				<div class="testimonial-img">
+					<a href="http://www.eastobacco.com/" target="_blank"><img
+							src="/web/AO2/link_7.png"
+							alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="testimonial-inner">
+				<div class="testimonial-img">
+					<a href="http://www.tobaccoinfo.com.cn/" target="_blank"><img
+							src="/web/AO2/link_5.png"
+							alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="testimonial-inner">
+				<div class="testimonial-img">
+					<a href="http://www.echinatobacco.com/" target="_blank"><img
+							src="/web/AO2/link_6.png"
+							alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Testimonial Part End-->
+</div>
+<div class="right-bg3"></div>
+</div>
+</div>
+<!--Content End-->
+
+<!--Footer start-->
+<div id="footer">
+	<div align="center">
+		<div class="footer-top" id="foot_div" style="margin-left: 15%">
+			<div class="http" style="">
+				<h1 style="font-size: 13px"> 友情链接 </h1>
+				<h1><a href="http://sc.tobacco.com.cn/" target="_blank" >四川省烟草专卖局</a></h1>
+				<h1><a href="http://www.tfol.com/" target="_blank" >天府热线</a></h1>
+			</div>
+			<!-- 
+			<div class="patients">
+				<a href="#">
+					<img src="/web/AO2/jiaoziyanyuan.png" width="100" height="100" alt="" />
+				</a>
+				<h3 style="font: Normal 13px Microsoft YaHei, Georgia," Times New Roman", Times, serif;" align="center">&nbsp;娇子烟缘 </h3>
+			</div>
+			<div class="visitors">
+				<a href="#">
+					<img src="/web/AO2/kuanzhai.png" width="100" height="100" alt="" />
+				</a>
+				<h3 style="font: Normal 13px Microsoft YaHei, Georgia," Times New Roman", Times, serif;" align="center">&nbsp;宽窄之道</h3>
+			</div>
+			 -->
+			<div class="contact" align="left">
+				<h1><a name="bottom">联系我们</a></h1>
+				<p>地址：四川省成都市锦江区红星路二段86号<br />客服电话：400-9903333<br />
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="copy-right-part">
+			<div class="copy-right-text">
+				Copyright(C) 2015.09 All rights reserved. 版权所有-四川中烟工业有限责任公司
+				蜀ICP备12017067-1号 <br>
+				<font style="font: Normal 12px Microsoft YaHei, Arial, Helvetica, sans-serif;">本网站含有烟草内容，谢绝18岁以下的未成年人访问！</font>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Footer End-->
+
+
+</div>
+<!--Site End-->
+
+		
+  </body>
+</html>

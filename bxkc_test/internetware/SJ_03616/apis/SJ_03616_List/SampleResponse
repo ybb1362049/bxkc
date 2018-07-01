@@ -1,0 +1,454 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>中国·松山湖 - 东莞市松山湖控股有限公司</title>
+<meta name="keywords" content="松山湖房地产,公用事业,科技服务,科技投资,物业管理,旅行社" />
+<meta name="description" content="东莞市松山湖控股有限公司 - 专注于：松山湖房地产,公用事业,科技服务,科技投资,物业管理,旅行社" />
+<link href="css/css.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<LINK rel=stylesheet type=text/css href="images/menu.css">
+<SCRIPT type=text/javascript src="images/menu.js"></SCRIPT>
+<script type="text/JavaScript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<body onLoad="MM_preloadImages('images/photo_05_0.gif','images/photo_06_0.gif','images/photo_07_0.gif','images/photo_08_0.gif','images/photo_09_0.gif','images/photo_10_0.gif','images/photo_11_0.gif','images/photo_12_0.gif')"><table width="980" border="0" align="center" cellpadding="0" cellspacing="0" background="images/photo_03.gif">
+  <tr>
+    <td height="82"><img src="images/photo_02.gif" /></td>
+    <td align="right"><table border="0" cellspacing="0" cellpadding="3">
+	  <form action="News_so.asp" method="post" name="form1" id="form1" onSubmit="return checks()">
+      <tr>
+        <td>信息搜索：</td>
+        <td><input name="keyword" type="text" class="bk_message" value="请输入关键字.." size="16" onClick="this.value=''" id="keyword"></td>
+        <td><input name="Submit" type="image" src="images/an_so.gif" /></td>
+        <td><a href="Map.asp"><img src="images/an_dt.gif" width="65" height="22" border="0"></a></td>
+      </tr>
+	  </form>
+    </table>
+	<script language="javascript">
+		function checks(){
+			var keyWord =  document.getElementById("keyword");
+			if(keyWord.value.replace(/^\*s|\s*$/g,'').length == 0){
+				alert("请输入查询关键字..");
+				keyWord.focus();
+				return false;
+			}
+		}
+		</script>
+	
+    </td>
+  </tr>
+</table>
+
+<div id="chromemenu" style="chromestyle">
+<table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="index.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/photo_05_0.gif',1)"><img src="images/photo_05.gif" name="Image4" width="106" height="38" border="0"></a></td>
+    <td><a href="About.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/photo_06_0.gif',1)" rel="dropmenu2"><img src="images/photo_06.gif" name="Image5" width="127" height="38" border="0"></a></td>
+    <td><a href="News.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','images/photo_07_0.gif',1)" rel="dropmenu3"><img src="images/photo_07.gif" name="Image6" width="125" height="38" border="0"></a></td>
+    <td><a href="Subsidiary_show.asp?id=131" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','images/photo_08_0.gif',1)" rel="dropmenu4"><img src="images/photo_08.gif" name="Image7" width="127" height="38" border="0"></a></td>
+    <td><a href="Product.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','images/photo_09_0.gif',1)" rel="dropmenu5"><img src="images/photo_09.gif" name="Image8" width="125" height="38" border="0"></a></td>
+    <td><a href="Job.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','images/photo_10_0.gif',1)"><img src="images/photo_10.gif" name="Image9" width="120" height="38" border="0"></a></td>
+    <td><a href="Message.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','images/photo_11_0.gif',1)"><img src="images/photo_11.gif" name="Image10" width="122" height="38" border="0"></a></td>
+    <td><a href="Contact.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','images/photo_12_0.gif',1)"><img src="images/photo_12.gif" name="Image11" width="128" height="38" border="0"></a></td>
+  </tr>
+</table>
+
+<div id="dropmenu2" class="dropmenudiv">
+<a href="About.asp">公司介绍</a>
+<a href="Architecture.asp">企业架构</a>
+<a href="Culture.asp">企业文化</a>
+<a href="Certificate.asp">资质荣誉</a>
+<a href="History.asp">发展历程</a>
+<a href="Address.asp">董事长致辞</a>
+<a href="Employees.asp">员工风采</a>
+<a href="News13.asp">企业经济运行情况</a>
+</div>
+
+<div id="dropmenu3" class="dropmenudiv">
+<a href="News.asp">公司新闻</a>
+<a href="Industry.asp">行业资讯</a>
+<a href="Notice.asp">通知通告</a>
+<a href="Notice1.asp">招标采购</a>
+</div>
+
+<div id="dropmenu4" class="dropmenudiv">
+<a href="Subsidiary_show.asp?id=131">房地产有限公司</a>
+<a href="Subsidiary_show.asp?id=136">旅行社有限公司</a>
+<a href="Subsidiary_show.asp?id=132">公用事业有限公司</a>
+<a href="Subsidiary_show.asp?id=133">科技服务有限公司</a>
+<a href="Subsidiary_show.asp?id=135">物业管理有限公司</a>
+<a href="Subsidiary_show.asp?id=134">信息网络有限公司</a>
+<a href="Subsidiary_show.asp?id=143">能源投资有限公司</a>
+<a href="Subsidiary_show.asp?id=144">城市建设管理公司</a>
+<a href="Subsidiary_show.asp?id=145">汽车运输有限公司</a>
+</div>
+
+<div id="dropmenu5" class="dropmenudiv">
+<a href="Product.asp?bigclass=182">已投项目</a>
+<a href="Product.asp?bigclass=183">在投项目</a>
+<a href="Product.asp?bigclass=222">拟投项目</a>
+</div>
+
+<script type="text/javascript">
+cssdropdown.startchrome("chromemenu")
+</script>
+</div>
+
+<table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/photo_14.gif" width="980" height="15" /></td>
+  </tr>
+</table><table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/top_02.jpg" width="980" height="160" /></td>
+  </tr>
+</table>
+
+<table width="980" border="0" align="center" cellpadding="0" cellspacing="0" class="mar_top">
+  <tr>
+    <td width="210" valign="top" bgcolor="#F5F5F5"><table width="210" border="0" cellpadding="0" cellspacing="0" background="images/side_02.gif">
+  <tr>
+	<td><img src="images/side_01_02.gif" width="210" height="49" /></td>
+  </tr>
+  <tr>
+	<td><table width="190" border="0" align="center" cellpadding="0" cellspacing="0" background="images/side.gif" class="mar_top">
+	  <tr>
+		<td width="45" height="34"></td>
+		<td><a href="News.asp"><strong>公司新闻</strong></a></td>
+	  </tr>
+	  <tr>
+		<td height="34"></td>
+		<td><a href="Industry.asp"><strong>行业资讯</strong></a></td>
+	  </tr>
+	  <tr>
+		<td height="34"></td>
+		<td><a href="Notice.asp"><strong>通知通告</strong></a></td>
+	  </tr>
+	  <tr>
+		<td height="34"></td>
+		<td><a href="Notice1.asp"><strong>招标采购</strong></a></td>
+	  </tr>
+	</table></td>
+  </tr>
+  <tr>
+	<td height="18" valign="top" bgcolor="#FFFFFF"><img src="images/side_03.gif" width="210" height="8" /></td>
+  </tr>
+</table>
+<table width="210" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td><img src="images/side_04.gif" width="210" height="36" /></td>
+</tr>
+<tr>
+  <td><table width="90%" border="0" align="center" cellpadding="10" cellspacing="0">
+	  <tr>
+		<td>
+		电　话：0769-22890176<br />
+		传　真：0769-22890179<br />
+		E-mail：<br />
+		地　址：东莞松山湖高新技术产业开发区礼宾路一号控股大厦六楼</td>
+	  </tr>
+  </table></td>
+</tr>
+</table></td>
+    <td width="20"></td>
+    <td width="750" valign="top"><table width="750" border="0" cellpadding="0" cellspacing="0" class="xhxbt">
+      <tr>
+        <td width="30" height="45" align="center"><img src="images/photo_sx.gif" /></td>
+        <td class="color_11">招标采购</td>
+        <td align="right"><img src="images/photo_home.gif" /> 您当前位置：网站首页 &gt; 新闻动态 &gt; 招标采购&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+    </table>
+      <table width="98%" border="0" align="center" cellpadding="10" cellspacing="0">
+        <tr>
+          <td height="350" valign="top">
+		  <!----- 程序 ----->
+			  <table width="100%" border="0" cellspacing="0" class="bk_news">
+				  <tr>
+					<td height="30">&nbsp;&nbsp;&nbsp;&nbsp;<strong>标 题</strong></td>
+					<td width="20%" align="center"><strong>发布日期</strong></td>
+					<td width="12%" align="center"><strong>点击次数</strong></td>
+				  </tr>
+				</table>
+				<div style="padding-top:10px;"></div>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=684" target="_blank">东莞市松山湖园区内松科苑三号楼（北楼）2至4层、四号楼整栋物业租赁权拍卖公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/6/9</td>
+				    <td width="12%" align="center" valign="middle">85</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=683" target="_blank">关于松山湖台科花园商铺公开招租项目澄清公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/6/2</td>
+				    <td width="12%" align="center" valign="middle">296</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=682" target="_blank">关于松山湖科苑公寓商铺公开招租项目澄清公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/6/2</td>
+				    <td width="12%" align="center" valign="middle">198</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=680" target="_blank">松山湖台科花园商铺公开招租公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/5/26</td>
+				    <td width="12%" align="center" valign="middle">907</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=681" target="_blank">松山湖科苑公寓商铺公开招租公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/5/26</td>
+				    <td width="12%" align="center" valign="middle">495</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=679" target="_blank">松山湖松湖广场运动场场地招租公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/5/18</td>
+				    <td width="12%" align="center" valign="middle">572</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=678" target="_blank">东莞市松山湖控股有限公司公车定点维修协议服务资格采购项目（重新招标）结果公示</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/5/11</td>
+				    <td width="12%" align="center" valign="middle">163</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=674" target="_blank">松山湖物业管理有限公司代管饭堂（管委会第二饭堂）肉菜及配料配送供应商采购项目(重新招标）结果公示</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/4/27</td>
+				    <td width="12%" align="center" valign="middle">236</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=677" target="_blank">【松山湖】产业化中心（二标段）景观工程</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/4/24</td>
+				    <td width="12%" align="center" valign="middle">224</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=664" target="_blank">松山湖绿荷居商铺物业租赁竞投公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/4/21</td>
+				    <td width="12%" align="center" valign="middle">345</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=665" target="_blank">松山湖 青竹园 商铺物业租赁竞投公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/4/21</td>
+				    <td width="12%" align="center" valign="middle">250</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=675" target="_blank">东莞市松山湖园区内松科苑三号楼（北楼）、四号楼物业招租</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2017/4/14</td>
+				    <td width="12%" align="center" valign="middle">228</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=663" target="_blank">东莞松山湖数字城管平台建设及数字城管运营管理服务项目采购公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2016/9/30</td>
+				    <td width="12%" align="center" valign="middle">254</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=662" target="_blank">松山湖控股公司五金类协议供货资格采购项目（二次招标）采购公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2016/9/30</td>
+				    <td width="12%" align="center" valign="middle">207</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=661" target="_blank">东莞市松山湖汽车运输有限公司公交车定点轮胎采购项目招标公告（第三次招标）</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2016/9/23</td>
+				    <td width="12%" align="center" valign="middle">237</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=660" target="_blank">东莞市松山湖汽车运输有限公司公交车定点轮胎采购项目二次招标流标公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2016/9/23</td>
+				    <td width="12%" align="center" valign="middle">158</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=659" target="_blank">东莞市松山湖公用事业有限公司园区养护及保洁服务采购项目（重新招标II）结果公示</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2016/9/22</td>
+				    <td width="12%" align="center" valign="middle">232</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=658" target="_blank">东莞松山湖松锦园、松涛公寓、新兴园物业管理项目招标公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2016/9/12</td>
+				    <td width="12%" align="center" valign="middle">444</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=657" target="_blank">关于松山湖控股公司五金类协议供货资格采购项目结果公示 </a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2016/9/12</td>
+				    <td width="12%" align="center" valign="middle">246</td>
+				  </tr>
+				</table>
+				
+				<table width="100%" height="28"  border="0" cellpadding="0" cellspacing="0" class="xhx">
+				  <tr>
+					<td width="4%" align="center" valign="middle"><img src="images/bb04.gif" /></td>
+					<td valign="middle"><a href="Notice1_show.asp?id=656" target="_blank">东莞市松山湖物业管理有限公司代管饭堂（管委会第二饭堂）肉菜及配料配送定点供应商采购更正公告</a>&nbsp;</td>
+				    <td width="20%" align="center" valign="middle">2016/9/12</td>
+				    <td width="12%" align="center" valign="middle">275</td>
+				  </tr>
+				</table>
+				
+				<div style="padding-top:10px;"></div>
+				<table width="100%"  border="0" cellpadding="0" cellspacing="0" class="bk_news">
+				  <tr>
+					<td height="30" align="center">共496条信息　第
+					  <select name="select" onchange="window.navigate(this.value)" class="inpud">
+						<option value=?page=1 selected>1
+<option value=?page=2>2
+<option value=?page=3>3
+<option value=?page=4>4
+<option value=?page=5>5
+<option value=?page=6>6
+<option value=?page=7>7
+<option value=?page=8>8
+<option value=?page=9>9
+<option value=?page=10>10
+<option value=?page=11>11
+<option value=?page=12>12
+<option value=?page=13>13
+<option value=?page=14>14
+<option value=?page=15>15
+<option value=?page=16>16
+<option value=?page=17>17
+<option value=?page=18>18
+<option value=?page=19>19
+<option value=?page=20>20
+<option value=?page=21>21
+<option value=?page=22>22
+<option value=?page=23>23
+<option value=?page=24>24
+<option value=?page=25>25
+
+						</select>
+					  页(每页20条)&nbsp;&nbsp;&nbsp;共25页&nbsp;&nbsp;&nbsp;&nbsp;
+					  【首页】&nbsp;&nbsp;【上一页】&nbsp;&nbsp;<a href=?page=2>【下一页】</a>&nbsp;&nbsp;<a href=?page=25>【末页】</a></td>
+				    </tr>
+				</table>
+				<!----- 程序end ----->
+		  </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="100%" height="70" border="0" align="center" cellpadding="0" cellspacing="0" background="images/photo_33.gif" class="mar_top">
+  <tr>
+    <td align="center" class="Color_10"><table width="990" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" class="Color_10">Copyright &copy; www.sslkg.com All Rights Reserved 版权所有　东莞市松山湖控股有限公司　<br>地址：东莞松山湖高新技术产业开发区礼宾路一号控股大厦六楼<br/>
+          电话：0769-22890176　传真：0769-22890179　粤ICP备14042335号　设计制作：智林<a href="http://www.dgdiyi.cn" target="_blank">东莞网络公司</a></td>
+        <td><a href="javascript:g4b()" id="g4bid"><img src="http://www.sslkg.com/deslogo.png" alt="工商营业执照" border="0" /></a>
+          <div id="bhwidget2" ></div>
+          <div id="bhwidget"></div>
+          <script src="http://license.dgaic.gov.cn/sys/ecert.js"></script>
+          <script type="text/javascript">
+	var g4b = function(){
+	var url = "http://license.dgaic.gov.cn/sys/businesslicense?uuid=ef79ea5417d34410af61713edaaab781";
+	var xhr = createCORSRequest('GET', url);
+	if (!xhr) {
+		alert('请安装IE8以上版本浏览器，或使chrome/firefox等浏览器浏览器才可查阅！');
+	}
+	xhr.onload = function() {
+		var responseText = xhr.responseText;
+		showecert(responseText);
+	};
+	xhr.send();
+                
+	var zz = document.getElementById("g4bid");
+		zz.style.display="none";
+	}
+      </script></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

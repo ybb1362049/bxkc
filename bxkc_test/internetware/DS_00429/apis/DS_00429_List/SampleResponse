@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="gb2312">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <meta name="SiteName" content="六安市公共资源交易平台电子服务系统">
+    <meta name="SiteDomain" content="ggjfwpt.luan.gov.cn">
+    <meta name="SiteIDCode" content="">
+    <meta name="description" content="六安市公共资源交易平台电子服务系统">
+    <meta name="keywords" content="六安市公共资源交易平台电子服务系统，六安市公共资源交易中心，六安市公共资源交易网，六安市，公共资源交易，六安市招投标网，金安区公共资源交易，裕安区公共资源交易，叶集区公共资源交易，霍山县公共资源交易，霍邱县公共资源交易，舒城县公共资源交易，金寨公共资源交易，金安区招投标，裕安区招投标，叶集区招投标，霍山县招投标，霍邱县招投标，舒城县招投标，金寨县招投标">
+    <link rel="stylesheet" href="/laztb/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/laztb/Template/Default/css/secondpage.css">
+    <script src="/laztb/Template/Default/js/lib/jquery-1.11.0.min.js"></script>
+    <title>六安市公共资源交易平台电子服务系统</title>
+</head>
+
+<body>
+    <!-- header -->
+    <!-- top -->
+<div class="ewb-top">
+    <div class="ewb-container clearfix">
+        <span class="l"><a href="http://www.luan.gov.cn/" style="color:#fff;">六安市人民政府</a></span>
+		<span class="l"><a href="http://ggj.luan.gov.cn/" style="padding-left:15px;color:#fff;">六安市公共资源交易监督管理局</a></span>
+        <span class="l"><iframe allowtransparency="true" frameborder="0" width="180" height="36" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=0&v=0&d=3&bd=0&k=&f=ffffff&ltf=009944&htf=cc0000&q=1&e=1&a=0&c=58311&w=180&h=36&align=center"></iframe></span>
+       
+        <div class="ewb-top-link r">
+        	<a href="http://newmail.luan.gov.cn/" target="_blank">公务邮箱</a>|
+        	<a href="http://60.173.176.43:7001/defaultroot/login.jsp?errorType=overtime"  target="_blank">OA登录</a>|
+        	<a onclick="this.style.behavior='url(#default#homepage)';this.sethomepage(top.location);return false;" href="javascript:void(0)" target="_top">设为首页</a>|
+        	<a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a>|
+        	<a href="/laztb/Template/Default/../../jybst/018004 ">联系我们</a>
+        </div>
+    </div>
+</div>
+<div class="ewb-container">
+	<!-- header -->
+	<div class="ewb-header">
+		<img src="/laztb/Template/Default/images/header.png">
+	</div>
+	<!-- nav -->
+	<div class="ewb-nav">
+		<ul class="ewb-nav-item clearfix">
+			<li class="ewb-nav-list l" id="nav000">
+				<a href="/laztb/Template/Default/../../">首页</a>
+			</li>
+			<li class="ewb-nav-list l" id="nav001">
+				<a href="http://www.luan.gov.cn/openness/detail/57480d02e1b1d1ea45f55fab.html">机构概况</a>
+			</li>
+			<li class="ewb-nav-list l" id="nav002">
+				<a href="/laztb/Template/Default/../../jyxx">交易信息</a>
+			</li>
+			<li class="ewb-nav-list l" id="nav080">
+				<a href="/laztb/showinfo/changDi.aspx?">场所安排</a>
+			</li>
+			<li class="ewb-nav-list l" id="nav003">
+				<a href="/laztb/Template/Default/../../bszn">办事指南</a>
+			</li>
+			<li class="ewb-nav-list l" id="nav004">
+				<a href="/laztb/Template/Default/../../xzzx">下载中心</a>
+			</li>
+			<li class="ewb-nav-list l" id="nav005">
+				<a href="/laztb/ztbpages/EnterpriseQuery.aspx?Type=sgqy">市场主体库</a>
+			</li>
+			<li class="ewb-nav-list l" id="nav006">
+				<a href="/laztb/Template/Default/../../xyxx">信用信息</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+	<script type="text/javascript">
+        $.ajaxSettings.async = false;//同步加载
+		$(function(){
+	       var category="002001001001";
+		   var cate =category.substring(0,3);
+		   $("#nav"+cate+"").addClass('cur');
+		   });
+	 </script>
+	 
+    <!-- 正文 -->
+    <div class="ewb-container">
+        <!-- 当前位置 -->
+        <div class="ewb-home ewb-mt10">
+            <div style="float:left;"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="5"></TD><TD align="left"><FONT color="#ffffff" class=currentpostionfont01>您现在的位置：</FONT><A href='/laztb/'><FONT color="#ffffff" class=currentpostionfont>首页</FONT></A><FONT color="#ffffff">&nbsp; >> &nbsp;<a href='/laztb/jyxx'><FONT color="#ffffff" class=currentpostionfont02>交易信息</font></a>&nbsp; >> &nbsp;<a href='/laztb/jyxx/002001'><FONT color="#ffffff" class=currentpostionfont02>建设工程</font></a>&nbsp; >> &nbsp;<a href='/laztb/jyxx/002001/002001001'><FONT color="#ffffff" class=currentpostionfont02>本市级</font></a>&nbsp; >> &nbsp;<a href='/laztb/jyxx/002001/002001001/002001001001'><FONT color="#ffffff" class=currentpostionfont02>招标公告</font></a></FONT></TD></TR></table></div>
+            <div style="float:right; width:293px;">
+               <div class="ewb-search-box l">
+                    <input type="text" class="ewb-input l" placeholder="请输入关键字"  onFocus="value=''" onBlur="if(!value)value=defaultValue" onKeyDown="tab()"  name="txt_Search" id="txt_Search" >
+                </div>
+                <button class="ewb-search-btn1 l" onClick="search_Web()" id="submit_Title">搜索</button>
+            </div>
+        </div>
+        <div class="ewb-row ewb-mt10">
+            <div class="ewb-span5">
+                <div class="ewb-menu">
+                    <h2 class="ewb-menu-hd">本市级</h2>
+                    <div class="ewb-menu-bd">
+                        <ul class="wb-tree">
+<li class="wb-tree-items  current">
+<h3 class="wb-tree-node"> 
+<i class="wb-tree-iconl"></i><a  class="wb-tree-tt"  href="/laztb/jyxx/002001/002001001/002001001001" target="_self">招标公告</a></h3>
+</li>
+<li class="wb-tree-items">
+<h3 class="wb-tree-node"> 
+<i class="wb-tree-iconl"></i><a  class="wb-tree-tt"  href="/laztb/jyxx/002001/002001001/002001001002" target="_self">补充公告</a></h3>
+</li>
+<li class="wb-tree-items">
+<h3 class="wb-tree-node"> 
+<i class="wb-tree-iconl"></i><a  class="wb-tree-tt"  href="/laztb/jyxx/002001/002001001/002001001003" target="_self">中标候选人公示</a></h3>
+</li>
+<li class="wb-tree-items">
+<h3 class="wb-tree-node"> 
+<i class="wb-tree-iconl"></i><a  class="wb-tree-tt"  href="/laztb/jyxx/002001/002001001/002001001004" target="_self">中标结果公告</a></h3>
+</li>
+<li class="wb-tree-items">
+<h3 class="wb-tree-node"> 
+<i class="wb-tree-iconl"></i><a  class="wb-tree-tt"  href="/laztb/jyxx/002001/002001001/002001001005" target="_self">合同备案</a></h3>
+</li>
+<li class="wb-tree-items">
+<h3 class="wb-tree-node"> 
+<i class="wb-tree-iconl"></i><a  class="wb-tree-tt"  href="/laztb/jyxx/002001/002001001/002001001006" target="_self">履约信息</a></h3>
+</li>
+<li class="wb-tree-items">
+<h3 class="wb-tree-node"> 
+<i class="wb-tree-iconl"></i><a  class="wb-tree-tt"  href="/laztb/jyxx/002001/002001001/002001001007" target="_self">每周交易汇总</a></h3>
+</li>
+</ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="ewb-span19 ewb-ml10">
+                <div class="ewb-sub">
+                    <!-- 信息列表 -->
+                    <ul class="ewb-palte-item"><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=dfb4beb2-bbb2-4d4f-8e51-91c1ede754db&CategoryNum=002001001001' target='_blank' title='六安市长安南路地块周边110KV等高压电力线路走廊入地改造工程(电气部分)' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[施工]</font>六安市长安南路地块周边110KV等高压电力线路走廊入地改造工程(电气部分)<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-04-02</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=cd774296-569d-4b5a-9a45-2fe0dc093671&CategoryNum=002001001001' target='_blank' title='六安市城区黑臭水体整治工程项目设计' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[设计]</font>六安市城区黑臭水体整治工程项目设计<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-30</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=65b36369-3eed-45a3-aa0a-b14514ef62b8&CategoryNum=002001001001' target='_blank' title='和美佳苑二期施工图设计项目（第二次）' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[设计]</font>和美佳苑二期施工图设计项目（第二次）<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-30</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=750f3b1f-fa6e-426c-b57b-6760b2c68d68&CategoryNum=002001001001' target='_blank' title='大雁河改造B地块（文华家园）安置小区一标段地下车库机械停车位工程（二次）' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[材料设备]</font>大雁河改造B地块（文华家园）安置小区一标段地下车库机械停车位工程（二次）<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-30</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=71481df2-ea2f-466a-b6ff-18cb20297ae1&CategoryNum=002001001001' target='_blank' title='皋陶学校项目施工阶段监理' class="ewb-plate-data l"><font color=blue>[电子招投标]</font><font color='#FF6600'>[监理]</font>皋陶学校项目施工阶段监理<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-27</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=a7fcbde5-4771-4bde-b5a1-fd081cc24534&CategoryNum=002001001001' target='_blank' title='皋陶学校项目' class="ewb-plate-data l"><font color=blue>[电子招投标]</font><font color='#FF6600'>[施工]</font>皋陶学校项目<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-23</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=a5204b88-5556-46dc-aa72-cf9482826575&CategoryNum=002001001001' target='_blank' title='六安市人民医院河西分院一期工程不锈钢管道采购' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[材料设备]</font>六安市人民医院河西分院一期工程不锈钢管道采购<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-23</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=704a94e5-b6cd-4068-a652-aade8c487d54&CategoryNum=002001001001' target='_blank' title='G312六安段（六安西互通至大顾店）公路改建工程、G346天堂寨至陡沙河段建设工程，S244罗岗至分路口段公路工程施工、监理及第三方检测服务项目G312六安段（六安西互通至大顾店）公路改建工程和G346天堂寨至陡沙河段建设工程施工、监理及第三方检测服务招标代理（含造价咨询）服务、S244罗岗至分路口段公路工程施工、监理及第三方检测服务招标代理及造价咨询服务' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[招标代理]</font>G312六安段（六安西互通至大顾店）公路改建工程、G346天堂寨至陡沙河段建设工程，S244罗岗至...<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-15</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=3a67a17f-dded-46f3-a2be-2f30dad6d729&CategoryNum=002001001001' target='_blank' title='六安市食品药品检验中心检测室装饰及通风净化工程项目（第三次）' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[施工]</font>六安市食品药品检验中心检测室装饰及通风净化工程项目（第三次）<font color='#33FF00'>[报名结束]</font></a><span class="ewb-plate-date r">2018-03-09</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=8f07a532-85fd-404e-95fb-1f2542b0faf2&CategoryNum=002001001001' target='_blank' title='六安市高台小区安置房工程规划及建筑设计项目' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[设计]</font>六安市高台小区安置房工程规划及建筑设计项目<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-09</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=6c67bb26-8587-4b34-b750-3142e78b213f&CategoryNum=002001001001' target='_blank' title='六安市光明南苑安置小区规划及建筑设计项目' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[设计]</font>六安市光明南苑安置小区规划及建筑设计项目<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-09</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=a48c0d1b-cef1-4478-8028-8dea86b9a219&CategoryNum=002001001001' target='_blank' title='寿春华府二期安置小区规划及建筑设计项目' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[设计]</font>寿春华府二期安置小区规划及建筑设计项目<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-03-09</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=c690cf7b-569f-4e0e-b059-f5951cee970a&CategoryNum=002001001001' target='_blank' title='春天嘉苑二期安置小区施工图设计项目' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[设计]</font>春天嘉苑二期安置小区施工图设计项目<font color='#33FF00'>[报名结束]</font></a><span class="ewb-plate-date r">2018-03-01</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=884279a2-4cab-4295-becc-384f4fbedcc5&CategoryNum=002001001001' target='_blank' title='S351六安至舒城段改建工程收费站及治超站工程' class="ewb-plate-data l"><font color=blue>[电子招投标]</font><font color='#FF6600'>[施工]</font>S351六安至舒城段改建工程收费站及治超站工程<font color='#33FF00'>[报名结束]</font></a><span class="ewb-plate-date r">2018-02-27</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=03e27368-99a3-4fa0-b6df-552fc4adc03e&CategoryNum=002001001001' target='_blank' title='S351六安至舒城段改建工程收费站及治超站工程施工监理' class="ewb-plate-data l"><font color=blue>[电子招投标]</font><font color='#FF6600'>[监理]</font>S351六安至舒城段改建工程收费站及治超站工程施工监理<font color='#33FF00'>[报名结束]</font></a><span class="ewb-plate-date r">2018-02-26</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=8ad98ff8-2f05-44bc-8deb-658cd7af0591&CategoryNum=002001001001' target='_blank' title='六安市火车站广场浮雕景观墙设计项目' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[设计]</font>六安市火车站广场浮雕景观墙设计项目<font color='#FF0000'>[正在报名]</font></a><span class="ewb-plate-date r">2018-02-24</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=2ecd73bb-afa5-412a-918a-1e020ea9b74d&CategoryNum=002001001001' target='_blank' title='高端装备制造产业园一期02标段施工图设计项目（第二次）' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[设计]</font>高端装备制造产业园一期02标段施工图设计项目（第二次）<font color='#33FF00'>[报名结束]</font></a><span class="ewb-plate-date r">2018-02-14</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=d3804bcf-b1e2-4d01-88f9-3fa615bf98f6&CategoryNum=002001001001' target='_blank' title='六安市食品药品检验中心检测室装饰及通风净化工程项目（第二次）' class="ewb-plate-data l"><font color=red>[纸质招投标]</font><font color='#FF6600'>[施工]</font>六安市食品药品检验中心检测室装饰及通风净化工程项目（第二次）<font color='#33FF00'>[报名结束]</font></a><span class="ewb-plate-date r">2018-02-13</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=c8df2228-bea4-4ae3-addd-029e1b7f3354&CategoryNum=002001001001' target='_blank' title='新安大桥二桥加固维修工程' class="ewb-plate-data l"><font color=blue>[电子招投标]</font><font color='#FF6600'>[施工]</font>新安大桥二桥加固维修工程<font color='#33FF00'>[报名结束]</font></a><span class="ewb-plate-date r">2018-02-13</span>
+</li><li class="ewb-plate-list clearfix"><a href='/laztb/ztbinfo/ZtbJsDetail.aspx?infoid=8f861b17-cf74-4014-b2c1-682543426d44&CategoryNum=002001001001' target='_blank' title='六安市城区沥青道路大修工程项目' class="ewb-plate-data l"><font color=blue>[电子招投标]</font><font color='#FF6600'>[施工]</font>六安市城区沥青道路大修工程项目<font color='#33FF00'>[报名结束]</font></a><span class="ewb-plate-date r">2018-02-13</span>
+</li></ul><style>.pagemargin{margin:20px}.margintop{margin-top:15px}.yahei{font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold}.yaheigo{font-family:"Microsoft YaHei",微软雅黑; font-size:12px}.redfont{color:red}.bordercolor{border:solid 1px #dfdfdf}.huifont{color:#666666}.songti{font-size:12px}.weight{font-weight:bold}.pageover{ background-color:#999999; border:solid 1px #999999; font-size:12px; color:#FFFFFF;cursor:pointer}.pageout{border:solid 1px #dedede;font-size:12px;color:#666666;cursor:pointer}.numberover{background-color:#999999; border:solid 1px #999999;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#FFFFFF;cursor:pointer;width:36px}.numberout{border:solid 1px #dedede;font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold;color:#666666;cursor:pointer;width:36px}.goover{border:solid 1px #dfdfdf;background-color:#999999;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:#FFFFFF;cursor:pointer}.goout{border:solid 1px #dfdfdf;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:666666;cursor:pointer}</style><script>var totalPageNums = 30;function GoToPaging() {var Gtno = document.getElementById('GoToPagingNo');var no = Gtno.value;if (!isNaN(no)) {no = parseInt(no);no = Math.abs(no);if (no <= totalPageNums) {window.location.href='./?Paging='+no;} else {alert("最大分页为" + totalPageNums + ",请重新输入页码！");Gtno.value='';Gtno.focus();}} else {alert("请重新输入数字页码！");Gtno.value='';Gtno.focus();}}</script><div class="pagemargin"><div style="height:26px; margin:0 auto;"><table border='0' cellpadding='0' cellspacing='0' algin='center'><tr><td  width="60" align="center" class="pageout" >首页</td><td width="4"></td><td  width="60" align="center" class="pageout" >&lt; 上页</td><td width="4"></td><td  width="36" align="center" class="yahei redfont" >1</td><td width="4"></td><td onclick="window.location.href='./?Paging=2'" title='转到第2页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">2</td><td width="4"></td><td onclick="window.location.href='./?Paging=3'" title='转到第3页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">3</td><td width="4"></td><td onclick="window.location.href='./?Paging=4'" title='转到第4页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">4</td><td width="4"></td><td onclick="window.location.href='./?Paging=5'" title='转到第5页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">5</td><td width="4"></td><td onclick="window.location.href='./?Paging=6'" title='转到第6页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">6</td><td width="4"></td><td onclick="window.location.href='./?Paging=7'" title='转到第7页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">7</td><td width="4"></td><td onclick="window.location.href='./?Paging=8'" title='转到第8页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">8</td><td width="4"></td><td onclick="window.location.href='./?Paging=2'" title='转到第2页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">下页 &gt;</td><td width="4"></td><td onclick="window.location.href='./?Paging=30'" title='转到第30页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">末页</td><td width="20"></td><td class="huifont">1/30</td><td width="10"></td><td class="songti huifont">转到</td><td width="6"></td><td><input type="text" id="GoToPagingNo" class="bordercolor"  style="line-height:26px;width:40px; height:26px" /></td><td width="6"></td><td width="30" align="center" class="goout" onclick="GoToPaging();" onmouseover="this.className='goover';" onmouseout="this.className='goout';">GO</td></td></tr></table></div></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- footer -->
+    <div class="ewb-container">
+	<div class="ewb-footer-link">
+		<a href="/laztb/Template/Default/../../showinfo/webmap.aspx">门户地图</a>|
+        <a href="/laztb/Template/Default/../../yssm">隐私声明</a>|
+		<a href="/laztb/Template/Default/../../jybst/018004/">联系我们</a>
+	</div>
+	<!-- footer -->
+	<div class="ewb-footer">
+	    <p>
+	    	主办单位：六安市公共资源交易监督管理局   承办单位：六安市公共资源交易中心   技术支持：江苏国泰新点软件有限公司<br>
+	    	软件支持：400-998-0000   CA支持：400-880-4959   联系电话：0564-5150928   地址：六安市梅山南路农业科技大厦三楼<br>
+	    	<a><img src="/laztb/Template/Default/images/footer_img2.jpg"></a> 皖公网安备 34150102000114号   皖ICP备 07500628号-1   版权所有：六安市公共资源交易中心 总访问<script src="/laztb/Template/Default/../../count.aspx"></script>次  今日访问<script src="/laztb/Template/Default/../../daycount.aspx"></script>次
+	    </p>
+	    <a href="/laztb/Template/Default/" class="ewb-footer-img1">
+	    </a>
+	    <a href="/laztb/Template/Default/" class="ewb-footer-img2">
+	    </a>
+	</div>
+	
+</div>
+
+
+    <!-- 页面脚本 -->
+    <script src="/laztb/Template/Default/js/common.js"></script>
+	<script src="/laztb/Template/Default/js/tree1.js"></script>
+    <script>
+	    /*searchStart*/
+   function search_Web()
+		{
+			var tim=10
+			if(tim==10)
+			{
+				tim=0;
+				if (document.getElementById("txt_Search").value == "" || document.getElementById("txt_Search").value == "请输入关键字搜索") {
+            }
+            else {
+                var t = document.getElementById("txt_Search").value;
+                if (t.indexOf("<") > -1 || t.indexOf(">") > -1) {
+                    alert("请勿在关键字中输入非法字符!");
+                    return;
+                }
+				var cate="002001001001";
+				var openUrl = '/laztb/showinfo/searchresult.aspx?EpStr3=';
+				openUrl += escape(t)+'&searchtype=title&categorynum='+cate;
+				window.location.href=openUrl;
+			}
+			}
+			else
+		    {
+				alert("两次搜索的时间间隔不能少于十秒");
+		    }
+		}
+/*searchEnd*/
+	</script>
+</body>
+
+</html>

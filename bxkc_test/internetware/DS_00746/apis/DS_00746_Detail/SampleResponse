@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=9" />
+    <title>湖州市公共资源交易信息网</title>
+    <link rel="stylesheet" href="/HZfront/Template/Default/css/common.css" />
+    <link rel="stylesheet" href="/HZfront/Template/Default/css/home-page.css" />
+    <script src="/HZfront/Template/Default/js/jquery-1.11.0.min.js"></script>
+</head>
+
+<body class="bg">
+    <!-- header -->
+    <div style="text-align:center">
+        <iframe src="/HZfront/Template/Default/pagehead.htm" scrolling="no" frameborder="0" width="100%" height="229px"></iframe>
+    </div>
+    <!-- header end -->
+    <div align="center">
+        <table width="1000" align="center" height="900" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+            <tr>
+                <td>
+                    <table width="980" height="859" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td height="40" class="float"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="left"><FONT color="#000000" class=currentpostionfont>您现在的位置：</FONT><A href='/HZfront/'><FONT color="#000000" class="currentpostionfont">首页</FONT></A><FONT color="#ff6600"> > <a href='/HZfront/zfcg'><FONT color="#ff6600" class="currentpostionfont">政府采购</font></a> > <a href='/HZfront/zfcg/024001'><FONT color="#ff6600" class="currentpostionfont">集中采购</font></a> > <a href='/HZfront/zfcg/024001/024001001'><FONT color="#ff6600" class="currentpostionfont">集中采购招标公告</font></a></FONT></TD></TR></table></td>
+                        </tr>
+                        <tr>
+                            <td height="859" valign="top">
+                                <table width="980" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td valign="top">
+                                            <table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td id="tdTitle" align="center" runat="server">
+                                                        <font class="titlestyle" style=" font-size:24px;">关于政府采购供应商网上注册的通知</font>
+
+                                                        <div>
+                                                            <font color="
+                                                                " style="display:">
+                                                                
+                                                            </font>
+                                                        </div>
+                                                        <hr style="border-bottom:#CCCCCC; size:1px;" />
+                                                        <div style="height:20px; line-height:20px; font-family:'微软雅黑'; font-size:12px; margin-top:15px;">
+                                                            <font color="#333333" class="webfont">
+                                                                【发布时间：2016/5/17
+                                                                &nbsp;&nbsp;阅读次数：
+                                                                <script src="/HZfront/Upclicktimes.aspx?InfoID=f2ecffdb-906d-431f-9c23-fc8d5ee90d4b"></script>】
+                                                                <a href="javascript:void(0)" onclick="window.print();"><font color="#333333" class="webfont">【我要打印】</font></a><a href="javascript:window.close()"><font color="#333333" class="webfont">【关闭】</font></a>
+                                                            </font><font color="#000000">
+                                                                
+                                                            </font>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr><td height="5"></td></tr>
+                                    <tr>
+                                        <td height="500" background="/HZfront/Template/Default/images/3zw_02.gif" valign="top" width="964">
+                                            <table width="96%" cellpadding="0" cellspacing="0" border="0">
+                                                <tr>
+                                                    <td valign="top" class="infodetail" id="TDContent" style="text-align:left;">
+                                                        <p style='margin: 0cm 0cm 0pt; text-align: justify; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">各供应商：</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">为了进一步贯彻执行《中华人民共和国政府采购法》及《电子招标投标办法》等相关法律法规，提高政府采购工作效率，降低政府采购交易成本，加快我市政府采购信息化建设，为全面实行电子招标采购奠定基础，现就湖州市电子招投标平台政府采购供应商注册事项通知如下：<span style="font-family: 宋体;"> </span></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><font style="font-family: 宋体;"><span style="font-family: 宋体; font-size: 14pt;">一、</span><span style="font-family: 宋体; font-size: 14pt;">&nbsp;</span><span style="font-family: 宋体; font-size: 14pt;">注册目的</span></font></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（一）通过注册的单位可即时获取湖州市电子交易平台相关交易信息，可通过交易平台实施网上投标报名，下载采购文件、上传投标文件等。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（二）注册单位在诚信库中核验通过的原件扫描件，除采购文件或公告明确说明外，在其有效期内，投标资格审查时无须携带原件。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（三）注册单位在诚信库内的真实有效信息作为单位评标资格审查的依据。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><font style="font-family: 宋体;"><span style="font-family: 宋体; font-size: 14pt;">&nbsp; </span><span style="font-family: 宋体; font-size: 14pt;">二、注册要求</span></font></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（一）注册主体按系统格式要求填写基本信息，并按系统要求上传相关原件的扫描件。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（二）供应商必须按系统提供的的固定格式填写《诚信承诺书》（见附件一），盖章后上传原件扫描件。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">三、注册主体</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">参与政府采购活动的供应商。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">四、注册时间</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">集中办理时间为<span style="font-family: 宋体;">2016</span>年<span style="font-family: 宋体;">5</span>月<span style="font-family: 宋体;">17</span>日至<span style="font-family: 宋体;">2016</span>年<span style="font-family: 宋体;">5</span>月<span style="font-family: 宋体;">31</span>日。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">五、注册流程</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（一）信息注册。登陆网址<span style="font-family: 宋体;">http://ggzy.huzhou.gov.cn/hzhy</span>点击“免费注册”，选择相应的用户类型（可以选择多个用户类型）。注册信息填写后，进入系统，按照注册的内容完善相关信息<span style="font-family: 宋体;">,</span>上传相应的扫描件。具体操作可参考各单位入库操作手册（见附件二）。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（二）提交网上公示。注册信息提交后，在规定时间内系统将注册信息进行网上公示。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（三）入库。注册内容和扫描件公示后无异议，方能正式入库。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（四）信息变更。入库单位信息如需变更，选择相应内容，点击修改信息，信息修改后须重新提交公示，待公示后，完成信息变更。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><font style="font-family: 宋体;"><span style="font-family: 宋体; font-size: 14pt;">&nbsp;</span><span style="font-family: 宋体; font-size: 14pt;">（五）<span style="font-family: 宋体;">CA</span>认证。<span style="font-family: 宋体;">CA</span>认证和注册入库可以同步进行，供应商正式入库后须到中心将<span style="font-family: 宋体;">CA</span>锁和账号绑定。</span></font></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><font style="font-family: 宋体;"><span style="font-family: 宋体; font-size: 14pt;">&nbsp; (六）在网站办理过施工单位入库并且购买过CA锁的企业，无需再次申请帐号以及购买CA锁，联系新点技术支持开通供应商身份即可办理入库手续。</span></font></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><font style="font-family: 宋体;"><span style="font-family: 宋体; font-size: 14pt;">CA</span><span style="font-family: 宋体; font-size: 14pt;">认证办理流程详见《湖州市公共资源交易平台数字认证证书（<span style="font-family: 宋体;">CA</span>）办理手册》，请到中心网站下载：</span></font></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">湖州市公共资源交易中心网站<span style="font-family: 宋体;">&gt; </span>资料下载<span style="font-family: 宋体;"> &gt; </span>其他资料下载</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">（<span style="font-family: 宋体;"><a style="font-family:;" href="http://ggzy.huzhou.gov.cn/HZfront/InfoDetail/?InfoID=be90c8bc-0bd8-4140-a371-a0ba2181479a&amp;CategoryNum=010007"><span style="color: windowtext; font-family:;">http://ggzy.huzhou.gov.cn/HZfront/InfoDetail/?InfoID=be90c8bc-0bd8-4140-a371-a0ba2181479a&amp;CategoryNum=010007</span></a></span>）。</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">&nbsp;</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">六、联系方式</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">业务支持：政府采购分中心<span style="font-family: 宋体;">&nbsp;&nbsp; 0572-<a href="http://22"><a href="http://22">22</a>20018</span></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 49pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><font style="font-family: 宋体;"><span style="font-family: 宋体; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family: 宋体; font-size: 14pt;">交易管理处<span style="font-family: 宋体;">&nbsp;&nbsp; 0572-<a style="font-family:;" href="http://22"><a href="http://22"><a href="http://22">22</a>20052</span></span></font></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">技术支持：国泰新点软件<span style="font-family: 宋体;">:400-850-3300</span></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;"><span style="font-family: 宋体;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 办公室：<a href="http://22">22</a>20028</span></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;"><span style="font-family: 宋体;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 叶&nbsp; 昕 电话：17757269597&nbsp;&nbsp; QQ：263272463</span></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;"><span style="font-family: 宋体;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 孙嘉楠 电话：18051855035&nbsp;&nbsp; QQ：1241961160</span></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><font style="font-family: 宋体;"><span style="font-family: 宋体; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 司晨辉 电话：13641535373	&nbsp; QQ: 1037664638
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">市电子招投标系统<span style="font-family: 宋体;">QQ</span>服务群<span style="font-family: 宋体;">199846527</span></span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">&nbsp; </span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; text-indent: 28pt; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体; font-size: 14pt;">&nbsp;</span></p>
+<p align="left" style='margin: 0cm 0cm 0pt; text-align: left; line-height: 200%; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="line-height: 200%; font-family: 宋体; font-size: 14pt;">&nbsp;</span></p>
+<p align="right" style='margin: 0cm 0cm 0pt; text-align: right; line-height: 200%; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="line-height: 200%; font-family: 宋体; font-size: 14pt;">湖州市公共资源交易中心</span></p>
+<p align="right" style='margin: 0cm 14pt 0pt 0cm; text-align: right; line-height: 200%; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><font style="font-family: 宋体;"><span style="line-height: 200%; font-family: 宋体; font-size: 14pt;">2016</span><span style="line-height: 200%; font-family: 宋体; font-size: 14pt;">年<span style="font-family: 宋体;">5</span>月<span style="font-family: 宋体;">17</span>日</span></font></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体;">&nbsp;</span></p>
+<p style='margin: 0cm 0cm 0pt; text-align: justify; font-family: "Times New Roman"; font-size: 10.5pt; -ms-text-justify: inter-ideograph;'><span style="font-family: 宋体;">&nbsp;</span></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="10"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class=infodetailattach >附件：</span><table id="filedown" cellSpacing="1" cellPadding="1" width="100%" border="0" runat="server"><tr><td><a href="/HZfront/ReadAttachFile.aspx?AttachID=8a7bd616-121f-4d24-229b-b43d2524ab84" target=_blank ><font class=infodetailattachfile >诚信承诺书（附件一）.doc</font></a></td></tr><tr><td><a href="/HZfront//BigFileUpLoadStorage/2016/5/EpointFrame/94bbab1f-9a1d-350c-a160-8fc73a17d357/湖州市供应商企业诚信库入库操作手册 （附件二）.doc" target=_blank ><font class=infodetailattachfile >湖州市供应商企业诚信库入库操作手册 （附件二）.doc</font></a></td></tr></table>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="4"></td>
+                                                </tr>
+
+
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- footer -->
+    <div style="text-align:center">
+        <iframe src="/HZfront/Template/Default/pagefoot.htm" scrolling="no" frameborder="0" width="100%" height="126px"></iframe>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+
+</title>
+    <style>
+        .t {
+            font-family: Arial;
+        }
+    </style>
+    
+</head>
+<body>
+    <form name="form1" method="post" action="./?InfoID=f2ecffdb-906d-431f-9c23-fc8d5ee90d4b&amp;CategoryNum=024001001" id="form1" style="margin: 0 auto; text-align: center">
+<div>
+<input type="hidden" name="__CSRFTOKEN" id="__CSRFTOKEN" value="/wEFJDE0Mjg2NzgwLWQ0ZGUtNDk3Ny05MmQzLWZlODE5MTI4ZDE4Yg==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTEzNDM3NzkxOWRkDZHFVigc86pbnZLkRgXPbIxmnn4=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F7A4F34E" />
+</div>
+    </form>
+</body>
+</html>

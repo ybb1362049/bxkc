@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>通知公告 - 对外主页</title>
+<meta http-equiv="keywords" content=""/>
+<meta http-equiv="description" content=""/>
+<script src="/site_resource/cms/jquery.js" type="text/javascript"></script>
+<script src="/site_resource/cms/front.js" type="text/javascript"></script>
+
+<link href="/site_resource/cms/front.css" rel="stylesheet" type="text/css"/>
+<link href="/site_resource/cms/www/default/css/css.css" rel="stylesheet" media="screen" />
+<link href="/site_resource/cms/www/default/css/index.css" rel="stylesheet" media="screen" />
+<script src="/site_resource/cms/www/default/Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+  Cms.attachment("","81578","0","attach");
+  Cms.viewCount("","81578");
+});
+</script>
+
+<style>
+
+#content p{line-height:30px; color:#666; font-size:14px;}
+
+#a_demo{visibility:hidden}
+
+</style>
+
+</head>
+
+<body>
+<!--头部flash部分-->
+<!--头部flash部分-->
+<script src="/site_resource/cms/www/default/Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+    function ridrect(){
+          if(form.slecet[0].checked){
+             alert("请确认你是来自电信的用户！");
+              document.form.action="http://nwmh.cqyygz.com/login.jspx";
+          }
+         if(form.slecet[1].checked){
+               alert("请确认你是来自联通的用户！");
+             document.form.action="http://nwmh.cqyygza.com/login.jspx";
+         }
+   }
+</script>
+
+<div class="top">
+<div class="topflash">
+
+  <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','980','height','245','src','/site_resource/cms/www/default/images/index','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','/site_resource/cms/www/default/images/index' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="980" height="245">
+    <param name="movie" value="/site_resource/cms/www/default/images/index.swf" />
+    <param name="quality" value="high" />
+<param name="wmode" value="opaque">
+    <embed src="/site_resource/cms/www/default/images/index.swf" quality="high" wmode="opaque" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="980" height="245"></embed>
+  </object></noscript>
+</div>
+</div>
+<!--导航条部分-->
+<div class="daohang">
+<div class="menu">
+
+<ul>
+    <li><a href="/" >网站首页</a></li>
+    <li><a href="/xxgk.jhtml" >校情总览</a></li>
+    <li><a href="/jgsz.jhtml" >机构设置</a></li>
+    <li><a href="/jxyx/index.jhtml" >教育教学</a></li>
+    <li><a href="/rczp/index.jhtml" >人力资源</a></li>
+    <li><a href="/xgzzd/index.jhtml" >学生工作</a></li>
+    <li><a href="/zsxx/index.jhtml" >招生就业</a></li>
+    <li><a href="/kygl/index.jhtml" >科研外事</a></li>
+    <li><a href="/dzjy.jhtml" >教育培训</a></li>
+    <li><a href="/qnzyz/index.jhtml" >校园文化</a></li>
+    <li><a href="http://tsg.cqyygz.com  " >图书馆</a></li>
+<li><a href="http://tsg.cqyygz.com"  class="noline">图书馆</a></li>
+</ul>
+</div>
+</div>
+<!--内容部分--><!--内页内容-->
+<div class="page_nr">
+<div class="page_nrleft fl">
+<!--左边开始-->
+<!--左边开始-->
+<div class="zixun_right marginzhi">
+<div class="yuanjiao1">&nbsp;</div>
+<div class="youzhunr">
+<div class="kuaijietitle">热点排行</div>
+
+
+
+<div class="dh_item1"><p class="hoverbold1"><a href="/tzgg/26121.jhtml" title="移动校园网登陆客户端下载地址" target="_blank">移动校园网登陆客户端下载地址</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/jyxx/81317.jhtml" title="重庆医药高等专科学校2018届毕业生就业“双选会”活动毕业生需求函" target="_blank">重庆医药高等专科学校2018届毕</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/jyxx/81315.jhtml" title="重庆医药高等专科学校 二O一八届毕业生就业“双选会”邀请函" target="_blank">重庆医药高等专科学校 二O一八</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/zsxx/81054.jhtml" title="重庆医药高等专科学校2017年（秋季）普通专科分省分专业分科类招生计划表" target="_blank">重庆医药高等专科学校2017年（</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/zsxx/81399.jhtml" title="重庆医药高等专科学校2017年重庆市普通专科补录公示名单" target="_blank">重庆医药高等专科学校2017年重</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/zsxx/80991.jhtml" title="重庆医药高等专科学校2017年招生章程" target="_blank">重庆医药高等专科学校2017年招</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/tzgg/80738.jhtml" title="2018届毕业生顶岗实习暨2017届毕业生就业“双选会”邀请函" target="_blank">2018届毕业生顶岗实习暨2017届</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/tzgg/80838.jhtml" title="重庆医药高等专科学校2017年上半年公开招聘工作人员简章" target="_blank">重庆医药高等专科学校2017年上</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/xwdt/81431.jhtml" title="产教融合促双赢，校企合作谱新章——我校与重庆希尔安药业有限公司联合办学" target="_blank">产教融合促双赢，校企合作谱新</a></p></div>
+<div class="dh_item1"><p class="hoverbold1"><a href="/zsxx/81388.jhtml" title="重庆医药高等专科学校二○一七级普通专科补录新生入学须知" target="_blank">重庆医药高等专科学校二○一七</a></p></div>
+
+
+                          	 
+</div>
+
+<div class="yuanjiao2">&nbsp;</div>
+</div><!--校园-->
+
+<!--校园-->
+<div class="pageleftzixun fr">
+<div class="zixunr1">
+<div class="yuanjiao1">&nbsp;</div>
+<div class="youzhunr1">
+<div class="youindextitle">数字化校园</div>
+
+<div class="dl">
+<form id="jvForm" name="form" action="http://nwmh.cqyygz.com/login.jspx" onsubmit="javascript:ridrect();" method="post">
+<div class="login">
+<div class="leftname fl">用户名:</div>
+<div class="rightinput fl"><input type="text" class="rightinps" id="username" name="username" /></div>
+</div>
+
+<div class="login">
+<div class="leftname fl">密  码:</div>
+<div class="rightinput fl"><input id="password" name="password" type="password" class="rightinps" /></div>
+</div>
+
+
+<div class="login">
+<div class="leftname fl">链&nbsp;&nbsp;路:</div>
+
+<div class="rightinput1 fl"><input name="slecet" type="radio" checked="checked" />电信</div>
+<div class="rightpic fl"><input type="radio" name="slecet"/>联通</div>
+</div>
+
+
+</div>
+<div class="btn fr">
+<div class="ld fl"><input class="dlanl" type="submit" value="" /></div>
+<div class="wjmm fl"><input type="button" class="wjmima" value=""/></div>
+</form>
+</div>
+
+</div>
+<div class="yuanjiao2">&nbsp;</div>
+</div>
+
+
+</div>
+<div style="height:10px; clear:both; display:block;">&nbsp;</div>
+<!--全站搜索-->
+<div class="zixun_right1 fr">
+<div class="pageleftzixun">
+<div class="yuanjiao1">&nbsp;</div>
+<div class="youzhunr1">
+<div class="youindextitle quanzhanss">全站搜索</div>
+
+<form action="/search.jspx" target="_blank">
+<p class="ssinput1 fl"><input name="q" class="inputset inputset1" value="请输入关键词" type="text"  onfocus="if(this.value=='请输入关键词')this.value=''" onblur="if(this.value=='')this.value='请输入关键词'"  autocomplete="off" /></p>
+ <p class="ssbtn paddingset fr"><input name="" type="submit"   class="btnset"  value="搜索"  /></p> 
+</form>
+
+
+</div>
+<div class="yuanjiao2">&nbsp;</div>
+</div>
+
+<!--导航开始-->
+<link href="/site_resource/cms/www/default/css/links.css" rel="stylesheet" media="screen" />
+<script src="/site_resource/cms/www/default/js/links.js" type="text/javascript"></script>
+
+<div class="links">
+<dl class="dropdown">
+  <dt id="one-ddheader" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)">-----  院系导航  ----</dt>
+  <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+    <ul>
+       <li><a href="http://hlx.cqyygz.com/" class="underline" >护理系</a></li>  
+       <li><a href="http://lcyx.cqyygz.com" class="underline" >临床医学系</a></li>  
+       <li><a href="http://jcb.cqyygz.com" class="underline" >基础部</a></li>  
+       <li><a href="http://yxjs.cqyygz.com" class="underline" >医学技术系</a></li>  
+       <li><a href="http://tsg.cqyygz.com  " class="underline" >图书馆</a></li>  
+    </ul>
+  </dd>
+</dl>
+</div>
+<div class="links">
+ <dl class="dropdown">
+  <dt id="two-ddheader" onmouseover="ddMenu('two',1)" onmouseout="ddMenu('two',-1)">-----  友情链接  ----</dt>
+  <dd id="two-ddcontent" onmouseover="cancelHide('two')" onmouseout="ddMenu('two',-1)">
+    <ul>
+       <li><a href="http://www.edu.cn/" class="underline"  >教育网</a></li>  
+       <li><a href="http://wllm.ncss.org.cn" class="underline"  >全国高校毕业生就业网络联盟</a></li>  
+       <li><a href="http://www.ncss.org.cn/" class="underline"  >全国大学生就业公共服务立体化平台-新职业</a></li>  
+       <li><a href="http://job.ncss.org.cn/login" class="underline"  >大学生就业1站式服务系统</a></li>  
+       <li><a href="http://www.cqbys.com/" class="underline"  >重庆高校毕业生就业信息网</a></li>  
+       <li><a href="http://cy.cqbys.com/" class="underline"  >重庆市大学生创业服务网</a></li>  
+       <li><a href="http://dxsjy.cqhrss.gov.cn/u/dxsjy/" class="underline"  >重庆市人力资源和社会保障局</a></li>  
+    </ul>
+  </dd>
+</dl>
+</div>
+<!--导航结束-->
+
+
+
+</div>
+
+</div>
+<!--右边开始-->
+<div class="page_nrright fr">
+<div class="pagenrbufen">
+<div class="pagenrtitle">
+<p class="fl nrtitleset">通知公告</p>
+<p class="position fr">您所在的位置：<a href="/">首页</a> &raquo; <a href="/tzgg/index.jhtml" target="_blank">通知公告</a> </p>
+</div>
+
+<div class="pagenrset">
+<div class="titleset1">重庆医药高等专科学校医学技术学院卫生检测中心展示系统采购招标公告(第二次）</div>
+<div class="writer">
+<div class="writerbg">发布时间：  2017-11-08 15:32:22 &nbsp; &nbsp; 作者：资产处 &nbsp; &nbsp;来源：  <a href="" target="_blank">本站原创</a> &nbsp; &nbsp;浏览次数：：<span id="views"></span>  </div>
+</div>
+<div id="content" style="line-height:30px; color:#666; font-size:14px; margin-top:10px;">
+<p>&nbsp;</p>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">一、</span><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">项目名称：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">重庆医药高等专科学校医学技术学院卫生检测中心展示系统采购</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">二、采购编号：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">CQYGZZB(2017)第</span><span style="font-size: 14pt; color: rgb(102,102,102)">80</span><span style="font-size: 14pt; color: rgb(102,102,102)">号</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">三、采购方式：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">竞争性谈判</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">四、最高限价：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">116000</span><span style="font-size: 14pt; color: rgb(102,102,102)">.</span><span style="font-size: 14pt; color: rgb(102,102,102)">00</span><span style="font-size: 14pt; color: rgb(102,102,102)">元</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">五、采购内容：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">卫生检测中心展示系统采购，具体参数见第十九项。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">六、适合本项目的投标单位需具备的基本资质：</span></b></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">1、投标人具有独立法人资格和承担民事责任的能力。投标人提供营业执照、税务登记、组织机构代码</span><span style="font-size: 14pt; color: rgb(102,102,102)">或者三证合一</span><span style="font-size: 14pt; color: rgb(102,102,102)">等复印件，以及单位法定代表人身份证明和授权代表委托书</span><span style="font-size: 14pt; color: rgb(102,102,102)">,依法缴纳税收和社会保障资金的良好记录</span><span style="font-size: 14pt; color: rgb(102,102,102)">；</span><span style="font-size: 14pt; color: rgb(102,102,102)"><br />
+</span><span style="font-size: 14pt; color: rgb(102,102,102)">&nbsp;&nbsp;2、投标人具有良好的商业信誉和健全的财务制度。提供上一年度财务报告（表）复印件，如投标人未经审计，可自行出具财务报告（表）并加盖单位公章；本年度新成立的公司提供投标截止时间前一个月的财务报告（表）复印件并加盖单位公章；</span><span style="font-size: 14pt; color: rgb(102,102,102)"><br />
+</span><span style="font-size: 14pt; color: rgb(102,102,102)">&nbsp; 3、投标人在以往的经营活动中无违反法律法规和违约行为，遵守《中华人民共和国政府采购法》《中华人民共和国合同法》及其他有关的中国法律、法规和规定，提供参加本项目投标前3年内无重大违法记录声明等；</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">4、本次招标不接受联合体投标。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">七、投标报价：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">报价以人民币报价。报价应为完成该项目所需的设备费、材料费、人工费、机械费、措施费、施工配合协调费、风险费、装卸费、搬运费、运输费、管理费、安装费、包装费、调试费、培训费、后续服务费、试验费、检验费、利润、税金，以及因投标单位原因形成的返工费或质量验收不合格整改费等所有费用。报价人应充分考虑报价，因报价人自身原因造成漏报、少报皆由报价人自行承担责任，采购人不再补偿。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">八、投标文件制作要求：</span></b></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">1、报价资料三份</span><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">（一正两副，装订成册，正本和副本每一页均需加盖鲜章）</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">，采用信封密封。信封上注明项目名称（重庆医药高等专科学校</span><span style="font-size: 14pt; color: rgb(102,102,102)">医学技术学院卫生检测中心展示系统</span><span style="font-size: 14pt; color: rgb(102,102,102)">采购</span><span style="font-size: 14pt; color: rgb(102,102,102)">招标）、谈判人名称、地址、联系人和联系电话。信封封口处须用白封条加以覆盖密封并加盖企业公章或法人授权代表签字。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">2、投标人提交的报价材料由以下部分和投标人所作的一切有效补充、修改和承诺等文件组成。它包括：资质（包括营业执照、组织机构代码、税务登记证、法定代表人身份证复印件、授权代表身份证复印件及授权书、财务报告（表）、无重大违法记录声明等）、经济部分（包括分项报价和总价）、技术部分（包括技术参数响应情况、产品详情介绍、图片等）、商务部分（包括交货期、质保期、售后服务计划等）、其他相关材料。格式自定。报价材料每一页均需加盖公章。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">九、交货期：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">中标人</span><span style="font-size: 14pt; color: rgb(102,102,102)">自中标公示期满次日起</span><span style="font-size: 14pt; color: rgb(102,102,102)">30个工作日以内完成交货并安装调试至正常使用状态</span><span style="font-size: 14pt; color: rgb(102,102,102)">。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十、</span></b><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">质保期</span></b><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">验收合格之日起</span><span style="font-size: 14pt; color: rgb(102,102,102)">2</span><span style="font-size: 14pt; color: rgb(102,102,102)">年。投标人可自行填报质保期，但质保期不得低于</span><span style="font-size: 14pt; color: rgb(102,102,102)">2</span><span style="font-size: 14pt; color: rgb(102,102,102)">年。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十一、评标标准：</span></b></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">1、资格符合性检查：依据法律法规和竞争性谈判公告的规定，对投标人的资格证明等进行审查，以确定投标人是否具备竞标资格。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">2</span><span style="font-size: 14pt; color: rgb(102,102,102)">、投标人交货时间、质量保证期等服务条款不能满足中标人谈判要求的投标人将失去成为成交候选人的资格。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">3、评审委员会对投标人的投标文件有异议的，可进行询问。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">4、在资格条件满足的情况下，投标人投标文件的技术要求（条款），低于招标人谈判要求（条款）的为负偏离；对这些技术要求（条款）有1项负偏离的投标人，将失去成为成交候选人的资格。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">5、</span><span style="font-size: 14pt; color: rgb(102,102,102)">在资格条件、技术参数、商务条款都符合要求的情况下，评审委员会可对投标人提出相同要求，投标人再进行最终报价并对评审委员会的要求作出书面相应，价格最低者即为中标人。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十二、付款方式</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">：</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">1、中标人按采购合同交货后，采购人出具项目验收报告。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt; text-indent: 28pt"><span style="font-size: 14pt; color: rgb(102,102,102)">2、验收合格后，中标人向采购人开具</span><span style="font-size: 14pt; color: rgb(102,102,102)">全额合法</span><span style="font-size: 14pt; color: rgb(102,102,102)">发票，采购人凭采购合同、验收报告、发票、资金支付申请单等材料，向中标人以转账方式或其他方式向中标人支付合同总额的95%，余下5%为质保金，质保期</span><span style="font-size: 14pt; color: rgb(102,102,102)">2</span><span style="font-size: 14pt; color: rgb(102,102,102)">年</span><span style="font-size: 14pt; color: rgb(102,102,102)">满</span><span style="font-size: 14pt; color: rgb(102,102,102)">且未发生质保金扣除事由或虽有发生质保金扣除事由但已经补足质保金的，甲方一次性无息支付给乙方。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十三、报名：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">2017年</span><span style="font-size: 14pt; color: rgb(102,102,102)">11</span><span style="font-size: 14pt; color: rgb(102,102,102)">月</span><span style="font-size: 14pt; color: rgb(102,102,102)">8</span><span style="font-size: 14pt; color: rgb(102,102,102)">至2017年</span><span style="font-size: 14pt; color: rgb(102,102,102)">11</span><span style="font-size: 14pt; color: rgb(102,102,102)">月</span><span style="font-size: 14pt; color: rgb(102,102,102)">10</span><span style="font-size: 14pt; color: rgb(102,102,102)">日</span><span style="font-size: 14pt; color: rgb(102,102,102)">16：00前</span><span style="font-size: 14pt; color: rgb(102,102,102)">发送报名邮件至</span><span style="font-size: 14pt; color: rgb(102,102,102)">2450888323</span><span style="font-size: 14pt; color: rgb(102,102,102)">@qq.com。邮件内容包括投标项目名称、项目编号、投标人全称、法定代表人、联系人、电话、邮箱。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十四、递交投标文件时间：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">2017年</span><span style="font-size: 14pt; color: rgb(102,102,102)">11</span><span style="font-size: 14pt; color: rgb(102,102,102)">月</span><span style="font-size: 14pt; color: rgb(102,102,102)">13</span><span style="font-size: 14pt; color: rgb(102,102,102)">日</span><span style="font-size: 14pt; color: rgb(102,102,102)">14</span><span style="font-size: 14pt; color: rgb(102,102,102)">:</span><span style="font-size: 14pt; color: rgb(102,102,102)">15</span><span style="font-size: 14pt; color: rgb(102,102,102)">-</span><span style="font-size: 14pt; color: rgb(102,102,102)">14</span><span style="font-size: 14pt; color: rgb(102,102,102)">:</span><span style="font-size: 14pt; color: rgb(102,102,102)">30</span><span style="font-size: 14pt; color: rgb(102,102,102)">在重庆医药高等专科学校综合楼南楼509递交投标文件。</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十五、谈判时间：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">2017年</span><span style="font-size: 14pt; color: rgb(102,102,102)">11</span><span style="font-size: 14pt; color: rgb(102,102,102)">月</span><span style="font-size: 14pt; color: rgb(102,102,102)">13</span><span style="font-size: 14pt; color: rgb(102,102,102)">日</span><span style="font-size: 14pt; color: rgb(102,102,102)">14：30</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十六、谈判地点：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">重庆医药高等专科学校综合楼南楼509</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十七、招标人地址：</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">重庆市沙坪坝区大学城中路82号</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 22.5pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十八、联系人：</span></b><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">张</span></b><span style="font-size: 14pt; color: rgb(102,102,102)">老师&nbsp;</span><span style="font-size: 14pt; color: rgb(102,102,102)">15213217086</span></div>
+<div style="text-align: left; margin: 0pt; line-height: 27pt"><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">十九、附件</span></b><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">1</span></b><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">：重庆医药高等专科学校</span></b><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">医学技术学院卫生检测中心展示系统采购</span></b><b><span style="font-size: 14pt; font-weight: bold; color: rgb(102,102,102)">参数</span></b></div>
+<p>附件1：<a href="/site_upload/cms/www/201711/08154940lgjv.doc">site_upload/cms/www/201711/08154940lgjv.doc</a></p> 
+</div> 
+
+<Br /><Br />
+<p class="nextpageinf0">上一篇：没有了</p>
+<p class="nextpageinf0">下一篇：<a href="/tzgg/81577.jhtml">重庆医药高等专科学校护理学院实训室设备采购招标公告</a></p>
+<Br /><Br />
+
+</div>
+</div>
+
+<div class="bottombg">&nbsp;</div>
+
+</div>
+<!--右边结束-->
+<div style="height:1px; display:block; clear:both"></div>
+</div>
+<!--内页内容end-->
+
+
+<!--版权信息部分-->
+<!--版权信息部分-->
+<div class="footer"> Copyright联系方式：61969012 联系地址：重庆市沙坪坝区大学城中路82号 <!--cqyygz.com All Rights Reserved --> 版权所有·重庆医药高等专科学校 <a href="http://www.miitbeian.gov.cn">渝ICP备11007800号</a> &nbsp;&nbsp;
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259482445'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1259482445%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+<!-- <a href="http://www.cqyygz.com/admin/cms/login.do?returnUrl=/admin/cms/index.do">后台管理</a> --></div>
+
+<div><center><table width="266" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="82" align="center"><a href="http://www.cqwa.gov.cn" rel="nofollow"><img src="http://www.cqyygz.com/site_resource/cms/www/sentrybox.gif" border="0"></a></td>
+    <td width="94" align="center"><a href="http://beian.cqnet110.gov.cn/open/showRecord?id=50010601500774" rel="nofollow"><img src="/site_resource/cms/www/50010601500774.gif" border="0"></a></td>
+ 		 	<div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50010602500345" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">渝公网安备 50010602500345号</p></a>
+		 	<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/04/000/0000/40399359/CA040000000403993590001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+                   </div>
+</tr>
+</table>
+</center>
+</div></body>
+</html>

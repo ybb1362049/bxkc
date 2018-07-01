@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, user-scalable=no">
+<title>金融梦工场 - 新闻动态</title>
+<meta name="keywords" content="金融梦工场，创客空间" />
+<meta name="description" content="2016年，成都金融城公司会同人民银行、成都市金融办等多个金融业监管机构和行业龙头共同打造了国内首个金融业创新创业载体 "金融梦工场"。" />
+<meta name="author" content="1975725@qq.com">
+<link href="/css/style.css" rel="stylesheet">
+<link href="/css/fw.base.css" rel="stylesheet"/>
+<link href="/css/bootstrap.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src='/js/jquery.nicescroll.min.js'></script>
+<script type="text/javascript" src='/js/my.js'></script>
+<script type="text/javascript" src='/js/iever.js'></script>
+<style type="text/css">
+body, td, th { font-family:"Open Sans", "open_sans", "Lucida Grande", "Verdana", "Pingfang SC", "Pingfang TC", "Hiragino Sans GB", "Microsoft YaHei", Cardo, STSong, "Songti SC", SimSun, "PingFang SC", "Microsoft YaHei", 微软雅黑, STXihei, 华文细黑, serif }
+</style>
+
+<script>
+if(BrowserDetect.version < 11 && BrowserDetect.browser == "Explorer"){
+    alert("金融梦工场提示：您的浏览器版本过低，请更新！推荐360极速浏览器");
+	window.location.href="http://chrome.360.cn/"; 
+}
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9060b77014e2aa2d4bd16126ba2291ee";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="header"> <a href='/index.asp' class="logo"><img src="/images/logo.png" alt="金融梦工场"></a><a href='/index.asp' class="m_logo"><img src="/images/logo.png" alt="金融梦工场"></a>
+    <div class="nav">
+      <ul>
+        <li> <a href="/index.asp">首页</a> </li>
+        <li> <a href='/service.html'>众创空间</a> </li>
+        <li> <a href='/match.html'>配套设施</a> </li>
+        <li> <a href='/join.html'>特色服务</a> </li>
+        <li> <a href='/company.asp'>入驻团队</a> </li>
+        <li> <a href='/active.asp'>空间活动</a> </li>
+        <li> <a href='/members.asp'>会员申请</a> </li>
+        <li class="current"> <a href='/news.asp'>新闻动态</a> </li>
+        <li> <a href='/contact.html'>联系我们</a> </li>
+      </ul>
+    </div>
+    <div class="menu_btn"><img src="/images/menu_btn.png" alt=""></div>
+  </div>
+  <!-- banner -->
+  <div class="banner">
+    <div class="content_box"> <a href="" style='display: block; opacity: 1;'>
+      <div class="content">
+        <div class='content_text2'>
+          <div class="content_border">
+            <p class="text1">THE FIRST STEP IN ENTREPRENEURSHIP IS TO FIND US<br></p>
+            <p class="text2"> 创业路的第一步 - 就是发现我们 </p>
+          </div>
+          <p class="text4"></p>
+        </div>
+        <img class='bannerImg' src="/images/news_banner.jpg" alt="新闻动态" /> </div>
+      </a> </div>
+    <img class='banner_bg' src="images/bannerBg1.jpg" alt=""> </div>
+  <!-- banner over--> 
+ 
+  
+  <div class="fw">
+    <div class="fw_nav">
+      <ul>
+        <li >
+          <a href='news.asp?bcn=1'>梦工场动态</a>
+        </li>
+        <li >
+          <a href='news.asp?bcn=2'>金融城快报</a>
+        </li>
+        <li >
+          <a href='news.asp?bcn=3'>行业动态</a>
+        </li>
+      </ul>
+    </div>
+    <div class="medium">
+      <div class="medium_box paddingValue">
+        <div class="medium_boxC">
+
+          <div class="medium_child">
+            <div class="child_img"> <a href="news_detail.asp?bcn=招标采购&nid=309" title="金融梦工场停车场景观改造工程比选公告"><img src="/up_folder/newscover/201709131332569217.jpg" alt="金融梦工场停车场景观改造工程比选公告"></a> </div>
+            <div class="child_info">
+              <p class="dataTime">2017/5/5</p>
+              <h5> <a href="news_detail.asp?bcn=招标采购&nid=309" title="金融梦工场停车场景观改造工程比选公告" target='_self'>金融梦工场停车场景观改造工程比选公告</a> </h5>
+              <p class="info"> <a href="news_detail.asp?bcn=招标采购&nid=309" title="金融梦工场停车场景观改造工程比选公告">
+                
+                ....</a> </p>
+              <a href="news_detail.asp?bcn=招标采购&nid=309" title="金融梦工场停车场景观改造工程比选公告">
+              <div class="linkBtn hovereEffect">了解更多  +</div>
+              </a> </div>
+          </div>
+          
+          <div class="medium_child">
+            <div class="child_img"> <a href="news_detail.asp?bcn=招标采购&nid=310" title="金融梦工场（二期）项目建筑概念方案征集评审结果公示"><img src="/up_folder/newscover/201709131340334904.jpg" alt="金融梦工场（二期）项目建筑概念方案征集评审结果公示"></a> </div>
+            <div class="child_info">
+              <p class="dataTime">2017/4/27</p>
+              <h5> <a href="news_detail.asp?bcn=招标采购&nid=310" title="金融梦工场（二期）项目建筑概念方案征集评审结果公示" target='_self'>金融梦工场（二期）项目建筑概念方案征集评审结果公示</a> </h5>
+              <p class="info"> <a href="news_detail.asp?bcn=招标采购&nid=310" title="金融梦工场（二期）项目建筑概念方案征集评审结果公示">
+                
+                ....</a> </p>
+              <a href="news_detail.asp?bcn=招标采购&nid=310" title="金融梦工场（二期）项目建筑概念方案征集评审结果公示">
+              <div class="linkBtn hovereEffect">了解更多  +</div>
+              </a> </div>
+          </div>
+          
+          <div class="medium_child">
+            <div class="child_img"> <a href="news_detail.asp?bcn=招标采购&nid=314" title="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标（第二次）招标公告"><img src="/up_folder/newscover/201709131442484837.jpg" alt="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标（第二次）招标公告"></a> </div>
+            <div class="child_info">
+              <p class="dataTime">2017/4/24</p>
+              <h5> <a href="news_detail.asp?bcn=招标采购&nid=314" title="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标（第二次）招标公告" target='_self'>2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标（第二次）招标公告</a> </h5>
+              <p class="info"> <a href="news_detail.asp?bcn=招标采购&nid=314" title="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标（第二次）招标公告">
+                
+                ....</a> </p>
+              <a href="news_detail.asp?bcn=招标采购&nid=314" title="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标（第二次）招标公告">
+              <div class="linkBtn hovereEffect">了解更多  +</div>
+              </a> </div>
+          </div>
+          
+          <div class="medium_child">
+            <div class="child_img"> <a href="news_detail.asp?bcn=招标采购&nid=315" title="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标公告"><img src="/up_folder/newscover/201709131443552124.jpg" alt="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标公告"></a> </div>
+            <div class="child_info">
+              <p class="dataTime">2017/4/11</p>
+              <h5> <a href="news_detail.asp?bcn=招标采购&nid=315" title="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标公告" target='_self'>2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标公告</a> </h5>
+              <p class="info"> <a href="news_detail.asp?bcn=招标采购&nid=315" title="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标公告">
+                
+                ....</a> </p>
+              <a href="news_detail.asp?bcn=招标采购&nid=315" title="2017年成都金融城品牌营销及宣传推广咨询顾问服务采购项目招标公告">
+              <div class="linkBtn hovereEffect">了解更多  +</div>
+              </a> </div>
+          </div>
+          
+          <div class="medium_child">
+            <div class="child_img"> <a href="news_detail.asp?bcn=招标采购&nid=311" title="金融梦工场（二期）项目建筑概念方案征集公告"><img src="/up_folder/newscover/201709131434434988.jpg" alt="金融梦工场（二期）项目建筑概念方案征集公告"></a> </div>
+            <div class="child_info">
+              <p class="dataTime">2017/3/17</p>
+              <h5> <a href="news_detail.asp?bcn=招标采购&nid=311" title="金融梦工场（二期）项目建筑概念方案征集公告" target='_self'>金融梦工场（二期）项目建筑概念方案征集公告</a> </h5>
+              <p class="info"> <a href="news_detail.asp?bcn=招标采购&nid=311" title="金融梦工场（二期）项目建筑概念方案征集公告">
+                
+                ....</a> </p>
+              <a href="news_detail.asp?bcn=招标采购&nid=311" title="金融梦工场（二期）项目建筑概念方案征集公告">
+              <div class="linkBtn hovereEffect">了解更多  +</div>
+              </a> </div>
+          </div>
+          
+          <div class="medium_child">
+            <div class="child_img"> <a href="news_detail.asp?bcn=招标采购&nid=316" title="成都金融总部商务区全息影像规划宣传片设计制作项目比选公告"><img src="/up_folder/newscover/201709131445559546.jpg" alt="成都金融总部商务区全息影像规划宣传片设计制作项目比选公告"></a> </div>
+            <div class="child_info">
+              <p class="dataTime">2016/12/2</p>
+              <h5> <a href="news_detail.asp?bcn=招标采购&nid=316" title="成都金融总部商务区全息影像规划宣传片设计制作项目比选公告" target='_self'>成都金融总部商务区全息影像规划宣传片设计制作项目比选公告</a> </h5>
+              <p class="info"> <a href="news_detail.asp?bcn=招标采购&nid=316" title="成都金融总部商务区全息影像规划宣传片设计制作项目比选公告">
+                
+                ....</a> </p>
+              <a href="news_detail.asp?bcn=招标采购&nid=316" title="成都金融总部商务区全息影像规划宣传片设计制作项目比选公告">
+              <div class="linkBtn hovereEffect">了解更多  +</div>
+              </a> </div>
+          </div>
+          
+          <div class="medium_child">
+            <div class="child_img"> <a href="news_detail.asp?bcn=招标采购&nid=317" title="金融梦工场项目办公家具采购比选评选结果公示"><img src="/up_folder/newscover/201709131447392507.jpg" alt="金融梦工场项目办公家具采购比选评选结果公示"></a> </div>
+            <div class="child_info">
+              <p class="dataTime">2016/8/23</p>
+              <h5> <a href="news_detail.asp?bcn=招标采购&nid=317" title="金融梦工场项目办公家具采购比选评选结果公示" target='_self'>金融梦工场项目办公家具采购比选评选结果公示</a> </h5>
+              <p class="info"> <a href="news_detail.asp?bcn=招标采购&nid=317" title="金融梦工场项目办公家具采购比选评选结果公示">
+                
+                ....</a> </p>
+              <a href="news_detail.asp?bcn=招标采购&nid=317" title="金融梦工场项目办公家具采购比选评选结果公示">
+              <div class="linkBtn hovereEffect">了解更多  +</div>
+              </a> </div>
+          </div>
+          
+          <div class="medium_child">
+            <div class="child_img"> <a href="news_detail.asp?bcn=招标采购&nid=319" title="金融梦工场项目多媒体会议系统采购及安装工程比选评选结果公示"><img src="/up_folder/newscover/201709131450073177.jpg" alt="金融梦工场项目多媒体会议系统采购及安装工程比选评选结果公示"></a> </div>
+            <div class="child_info">
+              <p class="dataTime">2016/8/18</p>
+              <h5> <a href="news_detail.asp?bcn=招标采购&nid=319" title="金融梦工场项目多媒体会议系统采购及安装工程比选评选结果公示" target='_self'>金融梦工场项目多媒体会议系统采购及安装工程比选评选结果公示</a> </h5>
+              <p class="info"> <a href="news_detail.asp?bcn=招标采购&nid=319" title="金融梦工场项目多媒体会议系统采购及安装工程比选评选结果公示">
+                
+                ....</a> </p>
+              <a href="news_detail.asp?bcn=招标采购&nid=319" title="金融梦工场项目多媒体会议系统采购及安装工程比选评选结果公示">
+              <div class="linkBtn hovereEffect">了解更多  +</div>
+              </a> </div>
+          </div>
+          
+          <div class="medium_child">
+            <div class="child_img"> <a href="news_detail.asp?bcn=招标采购&nid=318" title="金融梦工场项目信息发布系统采购及安装工程比选评选结果公示"><img src="/up_folder/newscover/201709131449162309.jpg" alt="金融梦工场项目信息发布系统采购及安装工程比选评选结果公示"></a> </div>
+            <div class="child_info">
+              <p class="dataTime">2016/8/18</p>
+              <h5> <a href="news_detail.asp?bcn=招标采购&nid=318" title="金融梦工场项目信息发布系统采购及安装工程比选评选结果公示" target='_self'>金融梦工场项目信息发布系统采购及安装工程比选评选结果公示</a> </h5>
+              <p class="info"> <a href="news_detail.asp?bcn=招标采购&nid=318" title="金融梦工场项目信息发布系统采购及安装工程比选评选结果公示">
+                
+                ....</a> </p>
+              <a href="news_detail.asp?bcn=招标采购&nid=318" title="金融梦工场项目信息发布系统采购及安装工程比选评选结果公示">
+              <div class="linkBtn hovereEffect">了解更多  +</div>
+              </a> </div>
+          </div>
+          <div class='fenye'><form name='ShowPages' method='Post' action='news.asp?bcn=4'><table width='98%' border='0' cellpadding='0' cellspacing='0'><tr align='center'><td height='25' valign='top'><a href='news.asp?bcn=4&page=1'><font color="#333333">首页</font></a>&nbsp;<a href='news.asp?bcn=4&page=1'><font color="#333333">上一页</font></a>&nbsp;<a href='news.asp?bcn=4&page=3'><font color="#333333">下一页</font></a>&nbsp;<strong><font color='red'>2</font>/3</strong>页 </td></tr></table></form></div>
+          
+          <!--
+          <div class="fenye">
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a class="current" href="javascript:;">1</a>
+            <a href="#">2</a>
+            <a href="#">下一页</a>
+          </div>
+          --> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+  <!-- 底部导航 -->
+  <div class='footerNav paddingValue'>
+    <div class='footerNav_box'>
+      <div class='footerNav_box_left'>
+        <ul>
+          <li class='title'> <a href='/about.html'>发现金融梦工场</a> </li>
+          <li> <a href='/contact.html#22'>找到我们</a> </li>
+          <li> <a href='/contact.html'>与您分享金融生态</a> </li>
+          <li> <a href='/service.html#lhkj'>灵活应变的空间可能</a> </li>
+          <li> <a href='/match.html'>载体办公配套设施</a> </li>
+        </ul>
+        <ul>
+          <li class='title'> <a href='/join.html'>入驻金融梦工场</a> </li>
+          <li> <a href='/match.html'>空间服务</a> </li>
+          <li> <a href='/join.html'>企业服务</a> </li>
+          <li> <a href='/join.html#stjs'>生态建设</a> </li>
+          <li> <a href='/join.html#hyfw'>会员服务</a> </li>
+        </ul>
+        <ul>
+          <li class='title'> <a href='/contact.html'>联系我们</a> </li>
+          <li> <a href='/contact.html#20'>联系方式</a> </li>
+          <li> <a href='/online.html'>项目合作</a> </li>
+          <li> <a href='/contact.html#22'>位置信息</a> </li>
+        </ul>
+      </div>
+      <div class='footerNav_box_right'>
+        <h5> 与我们<i>合作</i> </h5>
+        <p class="info"> 与金融梦工场合作，您将会得到更成熟的品牌建设服务。我们以客户至上，力求呈现最好的品牌建设成果。 <br />
+        </p>
+        <div class='hotline'>
+          <p class='callTitle'>入驻咨询热线</p>
+          <p>电话：+86-028-68709000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 底部导航 end-->
+  <div class="footer">
+    <div class="footer_box">
+      <div class="footer_box_left"> <a href="index.asp" class="footer_logo"><img src="/images/logo2.png" alt="" /></a>
+        <p> 电话：+86-028-68709000 &nbsp;传真：+86-028-68709001 <a href="mailto:fin-works@163.com">邮箱：fin-works@163.com</a> </p>
+        <p> 地址：中国&middot;成都&middot;天府大道北段966号天府国际金融中心9号楼 &nbsp;&nbsp;&nbsp; </p>
+        <p> 版权所有 &copy; 2017 成都金融梦工场投资管理有限公司 &nbsp;&nbsp;&nbsp; 蜀ICP备17002922号-2 </p>
+      </div>
+      <div class="m_footer">
+      	<img src="/images/logo.png" alt="" />
+        <p> 电话：<a href="tel:028-68709000">028-68709000</a></p>
+        <p> 成都天府大道北段966号天府国际金融中心9号楼</p>
+        <p>微信公众号：成都金融梦工场&nbsp;&nbsp;APP：乐活金融城</p>
+         <p> &copy; 成都金融梦工场投资管理有限公司</p>
+      </div>
+      <div class="footer_box_right">
+        <p class="title"> 关注我们 ： </p>
+        <a href="javascript:;" class="weixin"> <img src="/images/qrcode.png" alt="" title="金融梦工场官方微信" />微信公众号 </a> <a href="javascript:;" target="_blank"> <img src="/images/App.jpg" alt="" title="金融梦工场app" />手机app </a> <a href="tencent://message/?uin=553707386&amp;Site=www.fin-works.com&amp;Menu=yes" target="_blank"> <img src="/images/footer_qq.png" alt="" title="金融梦工场在线咨询" />QQ在线咨询 </a> </div>
+    </div>
+  </div>
+  <!-- 底部信息 end--> 
+  <!-- 表单列表 -->
+  <div class='formList'>
+    <div class='formList_box'>
+      <div class='formList_left'>
+        <h4 class="bigTitle"> 入驻<i>合作</i> </h4>
+        <p class="bigP"> 可以共享的行业资源，是金融创梦者的必备，金融梦工场为您分享这一切。 <br />
+          我们努力构建&ldquo;载体+信息+人才+资金&rdquo;全要素融合模式，着力打造国内外领先、特色鲜明的金融创新创业生态圈。 </p>
+        <div class="contTitle">
+          <h5> 有一个好的项目想和我们谈谈吗? </h5>
+          <p class="bigP"> 您可以填写右边的表格，让我们了解您的项目需求，这是一个良好的开始，我们将会尽快与您取得联系。当然也期待您的电话，让我们听到您的声音。 </p>
+        </div>
+        <div class="lianxi">
+          <h6> 您也可通过下列途径与我们取得联系： </h6>
+          <p> 地   址:  成都市天府大道北段966号天府国际金融中心9号楼 </p>
+          <p> 电   话:  +86-028-68709000(入驻咨询专线) </p>
+          <p> 电   话:  +86-028-68709012(客户服务) </p> <p> 微   信: 成都金融梦工场</p>
+          <p> 邮   箱: <a href="mailto:fin-works@163.com">fin-works@163.com</a> </p>
+        </div>
+      </div>
+      <form method="POST" name="OrderForm" id="OrderForm" action="ordersubmit.asp">
+        <div class='formList_right'>
+          <p class='title'>预约参观 &darr;</p>
+          <p><input name='un' type='text' value='您的姓名'></p>
+          <p><input name='com' type='text' value='公司名称'></p>
+          <p><input name='tel' type='text' value='您的电话'></p>
+          <p><input name='sub' type='text' value='项目主题'></p>
+          <p><textarea name='con'>您的基本信息</textarea></p>
+          <p><input name='btn' type='button' id="subinfo" value='预约'></p>
+        </div>
+      </form>
+    </div>
+    <img class='close' src='/images/close.png' alt=''> </div>
+  <!-- 表单列表  end-->
+</body>
+</html>

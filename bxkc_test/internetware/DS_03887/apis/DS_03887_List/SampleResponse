@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+<script type="text/javascript">
+  var ctx='/dggp';
+</script>
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=5" />
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-store" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<link type="text/css" rel="stylesheet" href="/dggp/styles/default.css" />
+<link href="/dggp/widgets/extremecomponents/extremecomponents.css" type="text/css" rel="stylesheet">
+<!--[if IE]><link rel="stylesheet" href="/dggp/styles/ie.css" media="screen" /><![endif]-->
+<script type="text/javascript" src="/dggp/scripts/prototype.js"></script>
+<script type="text/javascript" src="/dggp/scripts/sniper.js"></script>
+<script type="text/javascript" src="/dggp/scripts/admin.js"></script>
+<script type="text/javascript" src="/dggp/scripts/anytools.jsp"></script>
+<link href="/dggp/widgets/calendar/skins/theme.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="/dggp/widgets/calendar/calendar.js"></script>
+<script type="text/javascript" src="/dggp/widgets/calendar/calendar-setup.js"></script>
+<script type="text/javascript" src="/dggp/widgets/calendar/lang/calendar-zh-utf8.js"></script>
+
+
+<script type="text/javascript" defer="defer">
+	<!--
+		Dom.popPage = function(node,w,h){
+			var action = node.getAttribute("action"); w=w?w:"760px"; h=h?h:"580px";
+			var tips = node.getAttribute("confirm");
+			if(tips && !window.confirm(tips)) return false;
+			if(!action) action = "about:blank";
+			var target = node.getAttribute("target");
+			if(!target) target="_blank";
+			var operWin = window.dialogArguments?window.dialogArguments.document.parentWindow:window;
+			try{
+				var win = operWin.open(action,target,
+				"toolbar=yes,resizable=yes,status=no,scrollbars=yes,width=" +w + ",height=" + h + ",left="
+					+(screen.width/2-400) + "px");
+				win.focus();
+			}catch(e){
+				window.alert("请设置浏览器，允许本站弹出窗口。");
+			}
+			return true;
+		}
+	//-->
+</script>
+</head>
+<body>
+<table id="page" align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+	<tr>
+		<td id="pageContent"><div class="contentBox">
+
+			
+			<h1>市直采购公告</h1>
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+				
+					
+					
+					
+					
+					
+					
+						
+							
+							
+								
+							
+							
+							
+							<!-- 网上竞价公告栏目 -->
+							
+							
+											
+					
+				
+			
+<form id="topicChrList"  action="?"  method="post" >
+<div>
+<input type="hidden"  name="ec_i"  value="topicChrList" />
+<input type="hidden"  name="topicChrList_crd"  value="30" />
+<input type="hidden"  name="topicChrList_f_a" />
+<input type="hidden"  name="topicChrList_p"  value="2" />
+<input type="hidden"  name="topicChrList_s_stockProjectCode" />
+<input type="hidden"  name="topicChrList_s_name" />
+<input type="hidden"  name="topicChrList_s_ldate" />
+<input type="hidden"  name="__ec_pages"  value="1" />
+<input type="hidden"  name="id"  value="1660" />
+<input type="hidden"  name="method"  value="view" />
+</div>
+<div class="eXtremeTable" >
+<table id="topicChrList_table"  border="1"  bordercolor="#abcdef" cellspacing="0"  cellpadding="2"  class="clip"  width="100%" >
+	<thead>
+	<tr class="toolbarHeaderRow" >
+		<td colspan="3"  class="toolbarHeaderCell" >
+		<table border="0"  cellpadding="0"  cellspacing="0"  width="100%" >
+			<tr>
+				<td class="statusBar" >找到152 条记录, 显示 31 到 60 </td>
+				<td class="compactToolbar"  align="right" >
+				<table border="0"  cellpadding="1"  cellspacing="2" >
+					<tr>
+					<td><a href="javascript:document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()"><img src="/dggp/widgets/extremecomponents/images/firstPage.gif"  style="border:0"  title="第一页"  alt="第一页" /></a></td>
+					<td><a href="javascript:document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()"><img src="/dggp/widgets/extremecomponents/images/prevPage.gif"  style="border:0"  title="上一页"  alt="上一页" /></a></td>
+					<td>第<select name="__ec_pages"  onchange="javascript:document.forms.topicChrList.topicChrList_p.value=this.options[this.selectedIndex].value;document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()" >
+				<option value="1" >1</option><option value="2"  selected="selected">2</option><option value="3" >3</option><option value="4" >4</option><option value="5" >5</option><option value="6" >6</option>
+				</select>页</td>
+					<td><a href="javascript:document.forms.topicChrList.topicChrList_p.value='3';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()"><img src="/dggp/widgets/extremecomponents/images/nextPage.gif"  style="border:0"  title="下一页"  alt="下一页" /></a></td>
+					<td><a href="javascript:document.forms.topicChrList.topicChrList_p.value='6';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()"><img src="/dggp/widgets/extremecomponents/images/lastPage.gif"  style="border:0"  title="最后页"  alt="最后页" /></a></td>
+					<td><img src="/dggp/widgets/extremecomponents/images/separator.gif"  style="border:0"  alt="Separator" /></td>
+					<td>每页<select name="topicChrList_rd"  onchange="javascript:document.forms.topicChrList.topicChrList_crd.value=this.options[this.selectedIndex].value;document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()" >
+				<option value="30"  selected="selected">30</option><option value="50" >50</option><option value="100" >100</option>
+				</select>行</td>
+					<td><img src="/dggp/widgets/extremecomponents/images/separator.gif"  style="border:0"  alt="Separator" /></td>
+					<td><a href="javascript:document.forms.topicChrList.topicChrList_f_a.value='fa';document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()"><img src="/dggp/widgets/extremecomponents/images/filter.gif"  style="border:0"  title="搜索"  alt="搜索" /></a></td>
+					<td><a href="javascript:document.forms.topicChrList.topicChrList_f_a.value='ca';document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()"><img src="/dggp/widgets/extremecomponents/images/clear.gif"  style="border:0"  title="清除"  alt="清除" /></a></td>
+					<td class="advanceSearch" ><img  id="topicChrList_"  src="/dggp/widgets/extremecomponents/images/advanceSearch.gif"  alt="高级查询"  style="border:0;cursor:pointer;"  onclick="ExtremeTable.advanceSearch(this);" /></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table>
+		</td>
+	</tr>		
+
+	<tr class="filter" >
+		<td><input type="text"  name="topicChrList_f_stockProjectCode"  onkeypress="if (event.keyCode == 13) {javascript:document.forms.topicChrList.topicChrList_f_a.value='fa';document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()}" /></td>
+		<td><input type="text"  name="topicChrList_f_name"  onkeypress="if (event.keyCode == 13) {javascript:document.forms.topicChrList.topicChrList_f_a.value='fa';document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()}" /></td>
+		<td><input type="text"  name="topicChrList_f_ldate"  onkeypress="if (event.keyCode == 13) {javascript:document.forms.topicChrList.topicChrList_f_a.value='fa';document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()}" /></td>
+	</tr>
+	<tr>
+		<td class="tableHeader"  onmouseover="this.className='tableHeaderSort';this.style.cursor='pointer'"  onmouseout="this.className='tableHeader';this.style.cursor='default'"  onclick="javascript:document.forms.topicChrList.topicChrList_s_stockProjectCode.value='asc';document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()"  title="排序 项目编号" >项目编号</td>
+		<td class="tableHeader"  onmouseover="this.className='tableHeaderSort';this.style.cursor='pointer'"  onmouseout="this.className='tableHeader';this.style.cursor='default'"  onclick="javascript:document.forms.topicChrList.topicChrList_s_name.value='asc';document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()"  title="排序 标题" >标题</td>
+		<td class="tableHeader"  onmouseover="this.className='tableHeaderSort';this.style.cursor='pointer'"  onmouseout="this.className='tableHeader';this.style.cursor='default'"  onclick="javascript:document.forms.topicChrList.topicChrList_s_ldate.value='asc';document.forms.topicChrList.topicChrList_p.value='1';document.forms.topicChrList.setAttribute('action','?');document.forms.topicChrList.setAttribute('method','post');document.forms.topicChrList.submit()"  title="排序 发布日期" >发布日期</td>
+	</tr>
+	</thead>
+	<tbody class="tableBody" >
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0001054001-0002</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2313731" onclick="return Dom.popPage(this);"
+									target="documentViewer2313731">东莞市国土资源局东莞市1:500地形图数据库转换及更新接边项目招标公告</a>
+							</td>
+		<td>2018年05月10日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201805-0008009001-0004</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2313710" onclick="return Dom.popPage(this);"
+									target="documentViewer2313710">东莞市市政园林管理中心直管绿道市政设施及路面维护项目招标公告</a>
+							</td>
+		<td>2018年05月10日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0012010001-0002</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2313288" onclick="return Dom.popPage(this);"
+									target="documentViewer2313288">东莞市食品药品监督管理局食用农产品第三方快速检测机构招标公告</a>
+							</td>
+		<td>2018年05月09日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0003031001-0004</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2313101" onclick="return Dom.popPage(this);"
+									target="documentViewer2313101">东莞职业技术学院汽修专业实训基地建设招标公告</a>
+							</td>
+		<td>2018年05月09日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0003002055-0002</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2313096" onclick="return Dom.popPage(this);"
+									target="documentViewer2313096">东莞市轻工业学校运动场设施改造维护服务项目招标公告</a>
+							</td>
+		<td>2018年05月09日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0002009001-0008</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2312657" onclick="return Dom.popPage(this);"
+									target="documentViewer2312657">东莞市第二看守所在押人员被服购置招标公告</a>
+							</td>
+		<td>2018年05月09日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201805-0003031001-0007</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2312329" onclick="return Dom.popPage(this);"
+									target="documentViewer2312329">东莞职业技术学院机器人技术服务中心设备采购招标公告</a>
+							</td>
+		<td>2018年05月09日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0004022401-0003</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2312237" onclick="return Dom.popPage(this);"
+									target="documentViewer2312237">东莞市江库联网工程中心东莞市江库联网工程运行维护项目D包-自动化控制和计算机信息系统的维修养护招标公告</a>
+							</td>
+		<td>2018年05月09日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201803-0006036001-0003</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2312012" onclick="return Dom.popPage(this);"
+									target="documentViewer2312012">东莞市老干部活动中心东莞市老年大学新校区舞台设备采购项目招标公告</a>
+							</td>
+		<td>2018年05月08日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201803-0003002078-0003</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2308520" onclick="return Dom.popPage(this);"
+									target="documentViewer2308520">东莞信息技术学校无线网络设备二期采购招标公告</a>
+							</td>
+		<td>2018年05月08日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0003024001-0003</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2308532" onclick="return Dom.popPage(this);"
+									target="documentViewer2308532">东莞市经济贸易学校教学专用仪器采购招标公告</a>
+							</td>
+		<td>2018年05月07日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0003031001-0006</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2308518" onclick="return Dom.popPage(this);"
+									target="documentViewer2308518">东莞职业技术学院学院8D公共机房电脑升级设备采购招标公告</a>
+							</td>
+		<td>2018年05月07日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0006031101-0013</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2308347" onclick="return Dom.popPage(this);"
+									target="documentViewer2308347">东莞市技师学院先进自动化技术联合实训室招标公告</a>
+							</td>
+		<td>2018年05月07日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0006031101-0011</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2308345" onclick="return Dom.popPage(this);"
+									target="documentViewer2308345">东莞市技师学院汽车钣金实训仪器设备招标公告</a>
+							</td>
+		<td>2018年05月07日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0006031101-0010</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2308304" onclick="return Dom.popPage(this);"
+									target="documentViewer2308304">东莞市技师学院电子商务实训室（京东）招标公告</a>
+							</td>
+		<td>2018年05月07日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201803-0006005502-0002</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2308300" onclick="return Dom.popPage(this);"
+									target="documentViewer2308300">东莞市第三人民医院被服(重新采购)招标公告</a>
+							</td>
+		<td>2018年05月07日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0004022401-0001</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2307688" onclick="return Dom.popPage(this);"
+									target="documentViewer2307688">东莞市江库联网工程中心东莞市江库联网工程运行维护项目A包-主要建筑物及附属设施的维修养护招标公告</a>
+							</td>
+		<td>2018年05月07日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0003031001-0005</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2307308" onclick="return Dom.popPage(this);"
+									target="documentViewer2307308">东莞职业技术学院多媒体教室电教设备采购招标公告</a>
+							</td>
+		<td>2018年05月07日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0001029002-0005</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2304859" onclick="return Dom.popPage(this);"
+									target="documentViewer2304859">东莞市高技能公共实训中心计算机配套设备采购项目招标公告</a>
+							</td>
+		<td>2018年05月04日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0003002016-0004</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2305290" onclick="return Dom.popPage(this);"
+									target="documentViewer2305290">东莞实验中学炊事设备采购项目招标公告</a>
+							</td>
+		<td>2018年05月03日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0003002055-0004</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2305287" onclick="return Dom.popPage(this);"
+									target="documentViewer2305287">东莞市轻工业学校智能云实训室设备及改造项目招标公告</a>
+							</td>
+		<td>2018年05月03日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0008009001-0003</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2304988" onclick="return Dom.popPage(this);"
+									target="documentViewer2304988">东莞市市政园林管理中心元美公园园林绿化养护项目招标公告</a>
+							</td>
+		<td>2018年05月03日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201803-0008007001-0010</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2304254" onclick="return Dom.popPage(this);"
+									target="documentViewer2304254">东莞市城市综合管理局环城路等道路隔音屏养护项目招标公告</a>
+							</td>
+		<td>2018年05月03日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0006031101-0007</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2303963" onclick="return Dom.popPage(this);"
+									target="documentViewer2303963">东莞市技师学院智能电子DIY技术能力综合实训室招标公告</a>
+							</td>
+		<td>2018年05月02日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201804-0006031101-0016</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2303962" onclick="return Dom.popPage(this);"
+									target="documentViewer2303962">东莞市技师学院教学实训一体机招标公告</a>
+							</td>
+		<td>2018年05月02日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0006025001-0002</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2303958" onclick="return Dom.popPage(this);"
+									target="documentViewer2303958">东莞市社会捐助接收站东莞市社会救助核查核对“主动发现，精准救助”招标公告</a>
+							</td>
+		<td>2018年05月02日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201801-0006014001-0001</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2303749" onclick="return Dom.popPage(this);"
+									target="documentViewer2303749">东莞市人民医院GE放射设备维保三年招标公告</a>
+							</td>
+		<td>2018年05月02日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0009005001-0005</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2301684" onclick="return Dom.popPage(this);"
+									target="documentViewer2301684">东莞图书馆网络线路租赁费招标公告</a>
+							</td>
+		<td>2018年04月28日</td>
+	</tr>
+	<tr class="odd"  onmouseover="this.className='highlight'"  onmouseout="this.className='odd'" >
+		<td>441900-201803-0006036001-0002</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2301481" onclick="return Dom.popPage(this);"
+									target="documentViewer2301481">东莞市老干部活动中心东莞市老年大学新校区教学家具用具采购项目招标公告</a>
+							</td>
+		<td>2018年04月27日</td>
+	</tr>
+	<tr class="even"  onmouseover="this.className='highlight'"  onmouseout="this.className='even'" >
+		<td>441900-201804-0006031101-0005</td>
+		<td>
+								<img src="/dggp/styles/site/go.gif" align="absmiddle" />
+								<a href="/dggp/viewer.do?id=2301463" onclick="return Dom.popPage(this);"
+									target="documentViewer2301463">东莞市技师学院多功能实训室招标公告</a>
+							</td>
+		<td>2018年04月27日</td>
+	</tr>
+	</tbody>
+</table>
+</div>
+</form>
+
+				</div></td>
+	</tr>
+	<tr>
+		<td id="pageFooter">
+<a name="foot"></a>
+</td>
+	</tr>
+</table>
+</body>
+</html>

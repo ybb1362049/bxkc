@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>采购服务列表页</title>
+<link href="/web/css/FWStyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/web/js/jquery-1.8.3.min.js?ver=111"></script>
+<script type="text/javascript">
+function change(){
+        var classid= $("#classid").val();
+        var title= $("#period").val();
+	    document.votoonfrom.action="/web/searchIndex.action?op=1&title="+encodeURI(encodeURI(title))+"&id=" +classid;
+	    document.votoonfrom.submit();
+    }
+</script>
+<!-- 滑动Tab部分 -->
+</head>
+
+<body>
+<div class="NewTopLine">
+  <div class="WebBlock"> <span class="NewTopinfo fl">甘肃省唯一指定甘肃省内政府采购信息网络发布媒体，所有省内政府采购公告以本网站发布为准</span> <span class="NewTopinfo fr TextRed">服务热线：18709427032  政采服务电话</span><br />
+    <div class="cl"></div>
+  </div>
+</div>
+<div class="WebBlock">
+  <div class="TopLogo fl"><img src="/web/img/TopLogo.png" alt=""/></div>
+  <div class="TopForm fr">
+    <div class="search">
+      <FORM name="votoonfrom" method="post" target="_blank"  accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+        <select id="choose">
+          <option value=''>标题</option>
+        </select>
+        <input class="inp_srh" id="period" >
+        <input type="hidden" id="classid" >
+        <input class="btn_srh" type="button" id="searchbtn" value="搜索" onClick="return change()">
+      </FORM>
+    </div>
+  </div>
+  <script type="text/javascript" src="/web/js/jquery.select.js?ver=111"></script>
+  <div class="cl"></div>
+</div>
+<div class="WebBlock WebBlockH"> <img src="/web/img/Pic/Banner01.png" width="1000"> </div>
+
+<!-- 第一部分 S -->
+
+<div class="WebBlock WebBlockH">
+  <div class="PageNav"><span>购买服务:</span> <a href="/web/indexsp.html">首页</a> > 征求意见公告</div>
+  <div class="PageList">
+    <hr />
+    <ul>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815dd098c1015ddfdf31d3377a.html">金昌市人民政府信息化办公室金昌市政府网站群功能提升改版项目单一来源公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-08-14<span>│ 地域:</span>金昌市<span>│ 采购人:</span>金昌市人民政府信息化办公室<span>│ 代理机构:</span></P>
+      </li>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815dd098c1015ddfdba2233725.html">金昌市人民政府信息化办公室金昌市无纸化办公系统服务项目单一来源公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-08-14<span>│ 地域:</span>金昌市<span>│ 采购人:</span>金昌市人民政府信息化办公室<span>│ 代理机构:</span></P>
+      </li>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815dd098c1015ddfd826ec36e5.html">金昌市人民政府信息化办公室第三方舆情监测订制服务项目单一来源公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-08-14<span>│ 地域:</span>金昌市<span>│ 采购人:</span>金昌市人民政府信息化办公室<span>│ 代理机构:</span></P>
+      </li>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815dd098c1015ddebece9228ab.html">中共天水市委组织部市管干部档案数字化建设项目单一来源公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-08-14<span>│ 地域:</span>天水市<span>│ 采购人:</span>中共天水市委组织部<span>│ 代理机构:</span></P>
+      </li>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815dc682ff015dcb2afeff1f62.html">西和县政务服务中心关于对第二批乡镇便民服务中心网上行政审批及电子监察系统采购项目单一来源公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-08-10<span>│ 地域:</span>西和县<span>│ 采购人:</span>西和县政务服务中心<span>│ 代理机构:</span></P>
+      </li>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815daca18c015dacc3762c02ef.html">陇南市公安局公安信息通信网边界接入平台升级改造项目单一来源公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-08-04<span>│ 地域:</span>陇南市<span>│ 采购人:</span>陇南市公安局<span>│ 代理机构:</span></P>
+      </li>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815da77f47015daab6323509ea.html">靖远县2017年糜滩片区棚户区改造项目政府购买服务承接主体单一来源采购公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-08-04<span>│ 地域:</span>靖远县<span>│ 采购人:</span>靖远县住房和城乡建设局<span>│ 代理机构:</span></P>
+      </li>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815da1db14015da228dfa207a3.html">天水市秦州区机关事务管理局秦州区公务用车信息管理调度平台采购项目单一来源公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-08-02<span>│ 地域:</span>天水市<span>│ 采购人:</span>天水市秦州区机关事务管理局<span>│ 代理机构:</span></P>
+      </li>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815d7c7925015d9bce6b6540e4.html">夏河县拉卜楞藏民小学变压器安装项目第二次单一来源公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-08-01<span>│ 地域:</span>夏河县<span>│ 采购人:</span>夏河县拉卜楞藏民小学<span>│ 代理机构:</span></P>
+      </li>
+      <li>
+        <P><a href="/web/article/gmfw/yjgg/402882815d7c7925015d7dd81a2414ed.html">渭源县住房和城乡建设局（渭源县人民防空办公室）定西市渭源县2017年棚户区改造项目单一来源公示</a></P>
+        <P><B>市级</B><span>│ 日期:</span>2017-07-26<span>│ 地域:</span>定西市<span>│ 采购人:</span>渭源县住房和城乡建设局（渭源县人民防空办公室）<span>│ 代理机构:</span></P>
+      </li>
+    </ul>
+  </div>
+<!-- 分页开始 -->
+<div id="fenye">
+  <div class="zhong"> <a class="shouy" href="list.html">首页</a>      <a class="sxy" style="width:81px;" href="list.html">&lt; 上一页</a>
+      
+	      <a href="list.html">1</a>
+	      <a href="list2.html">2</a>
+	      <a href="list3.html">3</a>
+	      <a href="list4.html">4</a>
+	      <a href="list5.html">5</a>
+      
+      <a class="sxy" style="width:81px;" href="list3.html" >下一页 ></a>
+      <a class="shouy" href="list41.html">末页</a> </div>
+</div>
+<!-- 分页结束 -->
+</div>
+
+<!-- 第一部分 end --> 
+
+<!-- 第二部分 star --> 
+
+<!-- 第二部分 end -->
+
+<div> 
+<center>
+© 2016 甘肃省财政厅版权所有 陇ICP备15002215号
+</center>
+</div>
+</body>
+</html>

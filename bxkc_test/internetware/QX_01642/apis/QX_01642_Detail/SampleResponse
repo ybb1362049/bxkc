@@ -1,0 +1,1006 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<meta name=keywords content="">
+<meta name=description content="">
+<title>长顺县人民政府.采购目录</title>
+<link href="/2017_static/css/list.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/2017_static/js/jquery-1.8.3.min.js"></script>
+<script>
+            
+//打印JS			
+function doPrint() { 
+window.document.body.style.background="#ffffff";
+bdhtml=window.document.body.innerHTML; 
+sprnstr="<!--startprint-->"; 
+eprnstr="<!--endprint-->"; 
+prnhtml=bdhtml.substr(bdhtml.indexOf(sprnstr)+17); 
+prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprnstr)); 
+window.document.body.innerHTML=prnhtml; 
+window.print(); 
+window.document.body.innerHTML=bdhtml;
+window.document.body.style.backgroundImage="url(static/images/top/bj.png)";
+window.document.body.style.backgroundRepeat="no-repeat";
+window.document.body.style.backgroundPosition="center top";
+window.document.body.style.backgroundColor="#fff";
+}
+</script>
+
+<style>
+.contTextBox h3{ color:#F00}
+.contTextBox h4{ font-family:宋体; color:#666; font-weight:bold}
+.xxgk_con{ margin:22px auto 0; font-size:12px; font-family:宋体; background:#fff;border-collapse: separate !important;}
+.xxgk_con td{  line-height:30px; text-align:left; background:#E1DEDE; padding:0 10px;}
+.xxgk_con .tb1{ background:#f49c1e; color:#fff}
+
+.xxgk_con_con{ padding:20px; line-height:24px;}
+.con_page{ border:1px solid #eaeaea; line-height:30px; padding-left:20px;}
+
+.nrzy{ background:#f9f9f9; width:100%; margin:6px auto 0; padding:5px 0px 5px 0px;font-size:14px;}
+.nrzy h5{color:#515151;font-size:14px;}
+.nrzy p{text-indent:2em;   line-height:18px; color:#505050;}
+
+.nrxz{ background:#f9f9f9; width:100%; margin:6px auto 20px; padding:5px 0px 5px 0px;font-size:14px;border-bottom: 10px solid #dadada;}
+.nrxz h5{color:#515151; float:left;font-size:14px; }
+.nrxz span.xz{ font-weight:bold; float:right;}
+.nrxz span.xz a{text-decoration:underline;font-size:14px;}
+.shuojing p{text-indent: 30px;}
+.xgljCont ul li span{float: right;color: #767575;}
+.xglj{margin-top: 0px !important;padding-top: 10px;}
+</style>
+</head>
+<body>
+<!--head--> 
+<div class="rheaderBox">
+	<img class="bgimg" src="/2017_static/images/top/header-bg.jpg" alt="" />
+	<div class="headercont-box">
+		<div class="rjuzhong rheader_box">
+			<div class="r-up">
+				<div class="rlogo f_l">
+					<img src="/2017_static/images/index/logo.png" alt="" />
+				</div>
+                <!--
+				<div class="rfeather f_l">
+					<div>
+						<iframe allowtransparency="true" frameborder="0" width="255" height="98" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=1&z=1&t=1&v=0&d=1&bd=0&k=000000&f=ffffff&q=1&e=1&a=1&c=54511&w=255&h=98&align=left"></iframe></div>
+				</div>-->
+				<div class="f_r" style="width: 340px;">
+					<div class="rhelp">
+						<ol>
+							<!--<li class="rborder_r"><a href="javascript:void(0);">Web版</a></li>
+							<li class="rborder_r"><a href="/fzlm/RSSdy/index.shtml">RSS订阅</a></li>
+							<li class="rborder_r"><a href="javascript:void(0);">语音版</a></li>
+							<li><a href="javascript:void(0);">无障碍阅读</a></li>-->
+						</ol>
+					</div>
+					<div class="rsousuo">
+						<ul>
+							<li style="float:left;width: 278px;">
+								<input type="text" id="query" onFocus="return refocus('www','query');" onblur="if(this.value==''){this.value='请输入关键字';this.style.color='#999'}" onKeyDown="EnterSub(event,'query');"  value="请输入关键字" />
+							</li>
+							<li class="btn_ss">
+								<a href="javascript:void(0);" onclick="javascript:sub('www','query');" name="dosubmit"><img src="/2017_static/images/index/icon_sousou.png" alt="" /></a>
+							</li>
+						</ul>				
+					</div>			
+				</div>
+			</div>
+            <script type="text/javascript">
+  function refocus(www,query){     
+     var getquery=document.getElementById(query);
+     getquery.value="";
+	 getquery.autocomplete="off";
+	 getquery.focus(); 
+	 
+  }  
+  function reblur(www,query){
+     var getquery=document.getElementById(query);
+	 if (getquery.value==""){
+        getquery.value="请输入关键词";	 
+	 }
+  }   
+String.prototype.trim=function(){
+	return this.replace(/(^\s*)|(\s*$)/g,"");
+}
+function sub(www,query){
+      
+	//必需，先将文本转换为utf-8
+	document.charset = "utf-8";	
+	var fixvalue = document.getElementById(query).value;
+  fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g,"");
+	if(fixvalue.trim()=="" || fixvalue=="请输入关键字" || fixvalue == "请输入关键字搜索"){
+		document.getElementById(query).value = "";
+		alert("请输入关键字！");
+		return false;
+	}
+	else{
+      window.open("/fzlm/jsxt/js/index.shtml?query="+encodeURIComponent(fixvalue));
+	}
+  	//必需，最后将文本转换为gb2312
+	document.charset="gb2312";
+  	return false;
+}
+
+  //回车提交方法
+function EnterSub(www,query){
+		var len=arguments.length;
+		var event;
+		if(len==2){
+			event = arguments[0];
+		}
+		var evt = event ? event : (window.event ? window.event : null);
+
+		if (event.keyCode == 13)    {
+        	//必需，先将文本转换为utf-8
+			document.charset = "utf-8";	
+			var fixvalue = document.getElementById(query).value;
+         fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g,"");
+              if(fixvalue.trim()=="" || fixvalue=="请输入关键字" || fixvalue == "请输入关键字搜索"){
+         		 document.getElementById(query).value = "";
+         		 alert("请输入关键字！");
+         		 return false;
+     		 }
+			else{
+				window.open("/fzlm/jsxt/js/index.shtml?query="+encodeURIComponent(fixvalue));
+			}
+			//必需，最后将文本转换为gb2312
+			document.charset="gb2312";
+			return false;
+    	}
+	}
+  
+function inputButton(){
+  window.open("/fzlm/jsxt/js/index.shtml");
+} 
+</script>
+            <style>
+            	.nav-box .cur a{font-weight: bold;color: #DE2726;}
+            </style>
+			<div class="nav-box">
+				<img src="/2017_static/images/top/nav-bg.png" alt="" />
+				<ul>   
+                	<li><a href="/index.shtml" id="index" class="on">首页</a></li>
+					<li><a href="/ldzc/index.shtml" id="26485">领导之窗</a></li>
+					<li><a href="/xwzx1/index.shtml" id="26486">新闻资讯</a></li>
+					<li><a href="/xxgk/index.shtml" id="26497">信息公开</a></li>
+					<li><a href="/zxbs/index.shtml" id="26487">在线办事</a></li>
+					<li><a href="/ggfw/index.shtml" id="26498">公共服务</a></li>
+					<li><a href="/wlwz/index.shtml" id="26488">网络问政</a></li>
+					<li><a href="/tzzs/index.shtml" id="26489">投资长顺</a></li>
+					<li><a href="/ly/index.shtml" id="26494">旅      游</a></li>
+					<li><a href="/zt/index.shtml" id="26495">专      题</a></li>
+                    <!--
+					<li><a href="" id="index">首页</a></li>
+                    <li class=""><a href="/ldzc/index.shtml" title="领导之窗">领导之窗</a>
+       				</li>
+                                        <li class=""><a href="/xwzx1/index.shtml" title="新闻资讯">新闻资讯</a>
+       				</li>
+                                        <li class=""><a href="/xxgk/index.shtml" title="信息公开">信息公开</a>
+       				</li>
+                                        <li class=""><a href="/zxbs/index.shtml" title="在线办事">在线办事</a>
+       				</li>
+                                        <li class=""><a href="/ggfw/index.shtml" title="公共服务">公共服务</a>
+       				</li>
+                                        <li class=""><a href="/wlwz/index.shtml" title="网络问政">网络问政</a>
+       				</li>
+                                        <li class=""><a href="/tzzs/index.shtml" title="投资长顺">投资长顺</a>
+       				</li>
+                                        <li class=""><a href="/ly/index.shtml" title="旅游">旅游</a>
+       				</li>
+                                        <li class=""><a href="/zt/index.shtml" title="专题">专题</a>
+       				</li>
+                    -->
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	var chanId = '26497';
+  	$("#index").removeClass("on");
+  	$("#"+chanId).addClass("on");
+</script>
+<!--主要要内容-->
+<div class="icontainer">
+<div class="neirong_box box_shadow" style="width: 1195px;">
+ <!--startprint-->
+  <div class="wzdh">您当前的位置是：<a href="/index.shtml">首页</a> > 
+  <a href="/xxgk/index.shtml">信息公开</a> > <a href="/xxgk/zfxxgkml/index.shtml">政府信息公开目录</a> > <a href="/xxgk/zfxxgkml/zfcg/index.shtml">政府采购</a></div>
+  <div class="contTextBox" style="padding-bottom: 10px;">
+ 
+    <h3>长顺县民政局采购汛期救灾物资采购公告</h3>
+        <!--副标题-->
+    <!--<h4>贵州省质监局传达学习贯彻首届中国质量（北京）大会精神</h4>
+<h4>黔府办函〔2016〕144号</h4>-->
+    <div class="xxly">
+    作者：长顺县采购办
+    来源：长顺县政府办
+    发布日期：2017-06-13 16:37:51 
+    浏览次数：<span id='times'></span>
+    </div>
+    <script type='text/javascript'> 
+  	$(function() {
+      $.ajax({
+        url: '/qnwebapp/document/doccounter',
+        data: {
+          chandocid: '883432'
+        },
+        dataType: 'json',
+        success: function(data) {
+          $("#times").html(data.views);
+        }
+      });     
+      var desc= $("#desc").val();
+      if(!desc || desc.trim().length == 0){
+      	desc = '长顺县民政局采购汛期救灾物资采购公告';
+      }
+       $("#tuijian").attr('href', 'http://connect.qq.com/widget/shareqq/index.html?title=长顺县民政局采购汛期救灾物资采购公告&url='+window.location.href+'&desc='+desc+'&pics=&site=');
+    });
+
+  
+
+</script>
+    <div class="fjxx">
+      <ul>
+        <li>【 字体：<span class="Big">大</span> <span class="Middle">中</span> <span class="Small">小</span> 】 </li>
+        <li class="dyby"><a href="javascript:void(0);" onclick="javascript:doPrint()">打印本页</a></li>
+        <li>
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div>
+<!-- JiaThis Button END -->
+        </li>
+        
+      </ul>
+    </div>
+    <div class="detail_main_content">
+  <!--  信息公开目录索引表格-->
+  <table class="xxgk_con box_shadow" width="98%" border="0" cellspacing="1" >
+        <tbody><tr>
+          <td width="90" class="tb1">索引号</td>
+          <td  bgcolor="#FFFFFF">CSXZF/2017-01446</td>
+          <td width="70" class="tb1">生效日期</td>
+          <td bgcolor="#FFFFFF">2017-06-13</td>
+          <td width="70" class="tb1">是否有效</td>
+          <td bgcolor="#FFFFFF">
+              	是
+          </td>
+        </tr>
+        <tr>
+          <td class="tb1">文号</td>
+          <td bgcolor="#FFFFFF"></td>
+          <td class="tb1">发布日期</td>
+          <td colspan="3" bgcolor="#FFFFFF">
+2017-06-13		  </td>
+        </tr>
+        <tr>
+          <td class="tb1">发布机构</td>
+          <td bgcolor="#FFFFFF">
+长顺县政府集中采购中心          </td>
+          <td class="tb1">公开形式</td>
+          <td colspan="3" bgcolor="#FFFFFF">网站</td>
+        </tr>
+        <tr>
+          <td class="tb1">公开方式</td>
+          <td bgcolor="#FFFFFF">主动公开</td>
+          <td class="tb1">公开范围</td>
+          <td colspan="3" bgcolor="#FFFFFF">
+面向社会		  </td>
+        </tr>
+        <tr>
+          <td class="tb1">公开程序</td>
+          <td bgcolor="#FFFFFF">部门编制，经办公室审核后公开</td>
+          <td class="tb1">公开时限</td>
+          <td colspan="3" bgcolor="#FFFFFF">
+长期公开		  </td>
+        </tr>
+          
+          
+          
+      </tbody>
+      </table>
+      
+  <div class="xxgk_bg" style="display:none;">    
+  <table class="xxgk_con" width="600" border="0" cellspacing="1">
+        <tbody><tr>
+          <td width="90" class="tb1">索引号</td>
+          <td  bgcolor="#FFFFFF">CSXZF/2017-01446</td>
+          <td width="70" class="tb1">生效日期</td>
+          <td bgcolor="#FFFFFF">2017-06-13</td>
+          <td width="70" class="tb1">是否有效</td>
+          <td bgcolor="#FFFFFF">
+              	是
+          </td>
+        </tr>
+        <tr>
+          <td class="tb1">文号</td>
+          <td bgcolor="#FFFFFF"></td>
+          <td class="tb1">发布日期</td>
+          <td colspan="3" bgcolor="#FFFFFF">
+2017-06-13		  </td>
+        </tr>
+        <tr>
+          <td class="tb1">发布机构</td>
+          <td bgcolor="#FFFFFF">
+长顺县政府集中采购中心          </td>
+          <td class="tb1">公开形式</td>
+          <td colspan="3" bgcolor="#FFFFFF">网站</td>
+        </tr>
+        <tr>
+          <td class="tb1">公开方式</td>
+          <td bgcolor="#FFFFFF">主动公开</td>
+          <td class="tb1">公开范围</td>
+          <td colspan="3" bgcolor="#FFFFFF">
+面向社会		  </td>
+        </tr>
+        <tr>
+          <td class="tb1">公开程序</td>
+          <td bgcolor="#FFFFFF">部门编制，经办公室审核后公开</td>
+          <td class="tb1">公开时限</td>
+          <td colspan="3" bgcolor="#FFFFFF">
+长期公开          </td>
+        </tr>
+          
+          
+      </tbody>
+      </table>
+    </div>
+<div class="nrzy">
+        <h5>内容摘要:</h5>
+        <p>项目名称:长顺县民政局采购汛期救灾物资 2、项目编号:CSGGJY-ZC01-2017010056B 3、项目序列号:\ 4、项目联系人:石俊 5、项目联系电话:13765785618 6、采购方式:？竞争性谈判 7、采购货物或服务情况:（具体要求详见附表） （1）采购主要内容: ？？？？？？？？？？？ 大米71000公斤、菜油1000公斤。详见采购文件。 （2）采购数量:1？？批</p>
+      </div>  
+        <div class="shuojing">
+        	<p><ul>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">1、项目名称:长顺县民政局采购汛期救灾物资</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">2、项目编号:CSGGJY-ZC01-2017010056B</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">3、项目序列号:\</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">4、项目联系人:石俊</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">5、项目联系电话:13765785618</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">6、采购方式:&nbsp;竞争性谈判</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">7、采购货物或服务情况:（具体要求详见附表）</span></span></span>
+	<ul>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（1）采购主要内容:<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 大米71000公斤、菜油1000公斤。详见采购文件。</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（2）采购数量:1&nbsp;&nbsp;批</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（3）采购预算:374,000元</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（4）简要技术要求、服务和安全要求:<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（5）交货时间或服务时间:&nbsp;合同签订后5个工作日内送到指定地点</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（6）交货地点或服务地点:长顺县</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（7）其他事项（如样品提交、现场踏勘等）:详见采购文件</span></span></span></li>
+	</ul>
+	</li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">8、投标供应商资格要求</span></span></span>
+	<ul>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（1）一般资格要求<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1、符合《政府采购法》第二十二条规定，参加政府采购活动前三年内，在经营活动中没有重大违法记录或未列入不良行为记录名单。（检察机关出具近三年内无行贿犯罪记录告知函） 2、供应商依法持有有效《企业法人营业执照》、《税务登记证》、《组织机构代码》（三证合一）等。 3、供应商为销售代理商的须提供生产厂家针对本项目的唯一销售授权书、售后服务承诺书、生产厂家的营业执照副本复印件、税务登记证副本复印件、组织机构代码证副本复印件（复印件需加盖公章，如是&ldquo;三证合一&rdquo;只需提供营业执照副本复印件）； 4、本项目不接受任何联合体投标； 5、进行现场资格初审，现场审查不合格者不能参加本次投标。</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（2）特殊资格要求<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1、地方粮食行政主管部门核发的粮食收购许可证； 2、食品经营许可证； 3、有效的生产许可（QS）证。</span></span></span></li>
+	</ul>
+	</li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">9、获取招标文件信息:</span></span></span>
+	<ul>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（1）购买招标文件时间:2017-06-13 09:00:00至2017-06-15 17:30:00</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（2）购买招标文件地点:长顺县公共资源交易中心（长顺县贵阳银行9楼）</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（3）招标文件获取方式::现场领取</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（4）招标文件售价:300 元人民币（含电子文档）</span></span></span></li>
+	</ul>
+	</li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">10、投标截止时间（北京时间）:&nbsp;2017-06-16 14:30:00 （逾期递交的投标文件恕不接受）</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">11、开标时间（北京时间）:2017-06-16 14:30:00</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">12、开标地点:长顺县公共资源交易中心（长顺县贵阳银行8楼）。</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">13、投标保证金情况</span></span></span>
+	<ul>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（1）投标保证金额（元）:&nbsp;5,000</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（2）投标保证金交纳时间:2017-06-13 10:00:00至2017-06-16 12:00:00</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（3）投标保证金交纳方式:基本账户转账</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">（4）开户银行及帐号</span></span></span>
+		<ul>
+			<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">单位名称:黔南州公共资源交易中心长顺县分中心</span></span></span></li>
+			<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">开户银行:长顺县农村信用合作联社</span></span></span></li>
+			<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">帐 &nbsp;号:2491010001201100107769</span></span></span></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">14、PPP项目:否</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">15、采购人名称:长顺县民政局</span></span></span>
+	<ul>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">&nbsp;&nbsp;联系地址:长顺县长征大道惠民巷</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">&nbsp;&nbsp;项目联系人:&nbsp;石俊</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">&nbsp;&nbsp;联系电话:&nbsp;13765785618</span></span></span></li>
+	</ul>
+	</li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">16、采购项目需要落实的政府采购政策:已落实</span></span></span></li>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">17、采购代理机构全称:&nbsp;长顺县政府集中采购中心</span></span></span>
+	<ul>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">&nbsp;&nbsp;联系地址:&nbsp;长顺县贵阳银行8楼</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">&nbsp;&nbsp;项目联系人:&nbsp;赵桂林、庭金华</span></span></span></li>
+		<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">&nbsp;&nbsp;联系电话:&nbsp;0854-4841990</span></span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">附件：</span></span></span>
+
+	<ul>
+		<li>
+		<table>
+			<tbody>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<p style="text-align: right"><span style="color: rgb(0,0,0)"><span style="font-family: SimSun"><span style="font-size: 18px">长顺县政府集中采购中心</span></span></span></p>
+</p>
+	      
+        </div>
+        
+        
+         
+      <table style="width:1200px;"><tr><td>长顺县采购办</td></tr></table>
+      
+      
+    </div>
+
+    
+    <div class="gn">
+      <ul>
+        <li><a href="" class="thickbox"  target="_blank">【纠错】</a></li>
+        <li><a href="" target="_blank" id="tuijian">【推荐】</a></li>
+        <li><a href="/fzlm/RSSdy/index.shtml">【定制】</a></li>
+        <li class="dyby"><a href="javascript:void(0);" onclick="javascript:doPrint()">【打印】</a></li>
+        <li>
+          <div class="jiathis_style fengxiang" style="float:left;"> <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank" style="background:none !important; padding:0px !important;">【分享到】</a> </div>
+        </li>
+        <li><a href="javascript:void(0);" onClick="custom_close()">【关闭窗口】</a></li>
+        <script language="javascript">  
+		// 这个脚本是 ie6和ie7 通用的脚本  
+		function custom_close(){  
+		if   
+		(confirm("您确定要关闭本页吗？")){  
+		window.opener=null;  
+		window.open('','_self');  
+		window.close();  
+		}  
+		else{}  
+		}  
+		</script> 
+      </ul>
+    </div>
+
+<div class="detail_main_content_bottom mgt_10 f_l" id="preAndNext">
+
+  </div>    
+<script type="text/javascript">
+$(function(){  
+  
+    var doc_id="883,432";
+    doc_id=doc_id.replace(/,/g,"");
+	$.ajax({
+	    dataType: "json",
+       	url: "/qnwebapp/document/getPrevAndNextDocuments",
+	    data: {
+	        id: doc_id
+	    },
+	    success: function(datas) {
+          
+           var result;
+            if(typeof datas == 'string') {
+              result = $.parseJSON(datas); 
+            } else {
+              result = datas;
+            }
+          if (!result || typeof result != 'object') return;
+	    	var prev, next, prevHtml, nextHtml;
+             prev=result.prev;
+          	 next=result.next;
+	    	if(prev) {
+          
+	    	   prevHtml = '<a href="' + prev.url + '" title="' + prev.title + '">' + prev.title + '</a>';
+	    	}else{
+              
+              prevHtml = '<a>没有了</a>';
+                }
+	    	if(next) {
+	    		nextHtml = '<a href="' + next.url + '" title="' + next.title + '">' + next.title + '</a>';
+	    	}else{
+              nextHtml = '<a>没有了</a>';
+                }
+          
+	    	if(prevHtml && nextHtml) {
+              $('#preAndNext').html('<p><span>·【上一篇】：</span>' + prevHtml + '</p><p><span>·【下一篇】：</span>' + nextHtml +'</p>');
+	    	} else if(prevHtml) {
+              $('#preAndNext').html('<p><span>·【上一篇】：</span>' + prevHtml+'</p>');
+	    	} else if(nextHtml) {
+	    		$('#preAndNext').html('<p><span>·【下一篇】：</span>' + nextHtml +'</p>');
+	    	}
+	    },
+      error:function(){
+    	 $('#preAndNext').html('<p><span>·【上一篇】：</span><a>没有了</a></p><p><span>·【下一篇】：</span><a>没有了</a></p>');
+    	}
+	});
+});
+
+$(function(){
+	var doc_id="883,432";
+    doc_id=doc_id.replace(/,/g,"");
+    var keywords="";
+      $.ajax({
+     	dataType: "json",
+       	url: "/qnwebapp/document/RelationDocument",
+        type:'POST',
+	    data: {
+        	site_id: '1',
+	        doc_Id: doc_id,
+            keywords : keywords
+	    },
+        success: function(datas) {
+        	var result;
+            if(typeof datas == 'string') {
+              result = $.parseJSON(datas); 
+            } else {
+              result = datas;
+            }
+            var accList = result.datas;
+            var html='<ul>';
+            if(accList != null && accList != ''){
+              for(var i=0; i<accList.length; i++){
+               	var titles = accList[i].title;
+                if(titles.length > 120){
+                   titles = titles.substring(0,120);
+                }
+                 if(i<5){
+                  html += '<em></em><em></em><li><a title="'+accList[i].title+'" href="'+accList[i].url+'">'+titles+'</a></li>';
+                 }
+              }
+              
+            }
+            html += '</ul>';
+            $("#documents").html(html);
+        }
+    });
+});
+</script>   
+    
+  <!--endprint--> 
+    <div class="xglj">
+    	<h2><em class="f_l">相关链接</em></h2>
+        <div class="xgljCont" id="documents">
+        
+        </div>
+    </div>
+  </div>
+  
+  <script type="text/javascript">
+$(".Big").click(function() {
+	$(".detail_main_content").css({"font-size": "18px", "line-height": "1.8"});
+});
+$(".Middle").click(function() {
+	$(".detail_main_content").css({"font-size": "16px", "line-height": "1.8"});
+});
+$(".Small").click(function() {
+	$(".detail_main_content").css({"font-size": "14px", "line-height": "1.8"});
+});
+</script> 
+</div>
+
+<!--评论模块-->
+<script type="text/javascript">
+    
+    // 分页查询评论
+    function pager(pagenum) {
+    	show(pagenum);
+    }
+   
+    // 显示评论数据的方法
+    function show(pagenum) {
+    	$.ajax({
+        url: '/qnwebapp/comment/listComment?pageNum=' + pagenum + '&pageSize=5&idVal=' + $("#chanDocId").val(),
+        dataType:'json',
+       success: function(datas) {
+            var data;
+            if(typeof datas == 'string') {
+              data = $.parseJSON(datas);
+            }
+        	var comments = data.topics;
+              
+        	var str = "";
+            var itmes = '';
+          for(var i in comments) {	
+          	str += '<div class="zfnr">';
+            str += '<div class="zfnr_1"><em>'+ (comments[i].subUser == "guest" ? "匿名用户" : comments[i].subUser) + ':</em></div>';
+            str += '<div class="zfnr_2">';
+            str += '<p>'+ comments[i].subContent +'</p>';
+            str += '</div><div class="zfnr_1"><span>发表于' + comments[i].subTimeString + '</span></div> </div>';
+          }
+			
+
+            str += "<div id='pager' class='pager_num'  style='display: block;float:none;'></div>";
+      		
+      		
+            $("#comment").html(str); 
+
+      		// 分页信息
+      var pager_str = "页次:<span style='color:red;'>" + data.pageNumber + "/" + data.pageCount + "</span>页&nbsp;每页<span style='color:red;'>" + data.pageSize +"</span>条&nbsp;共<span style='color:red;'>" + data.totalCount + "</span>条";
+      pager_str += "&nbsp;&nbsp;<a href='javascript:void(0)' onclick='pager(1)'>首页</a>&nbsp;";
+      if(data.hasPrePage) {
+      	pager_str += "&nbsp;&nbsp;<a href='javascript:void(0)' onclick='pager(" + data.prePage + ")'>上一页</a>&nbsp;";
+      }else {
+      	pager_str += "&nbsp;&nbsp;<a href='javascript:void(0)' disabled='disabled' onclick='pager(" + data.prePage + ")'>上一页</a>&nbsp;";
+      }
+      if(data.hasNextPage) {
+      	 pager_str += "&nbsp;&nbsp;<a href='javascript:void(0)' onclick='pager(" + data.nextPage + ")'>下一页</a>&nbsp;";
+      } else {
+      	pager_str += "&nbsp;&nbsp;<a href='javascript:void(0)' disabled='disabled' onclick='pager(" + data.nextPage + ")'>下一页</a>&nbsp;";
+      }
+      pager_str += "&nbsp;&nbsp;<a href='javascript:void(0)' onclick='pager(" + data.pageCount + ")'>尾页</a>&nbsp;";   
+      var n = data.pageCount;
+      pager_str +='&nbsp;&nbsp;跳转到';
+      pager_str += "&nbsp;&nbsp;<select id='selectpage' onchange='pager($(this).val())'>";
+      for(var i = 1; i <= n; i++) {
+        if(data.pageNumber == i) {
+          pager_str += "<option value='" + i + "' selected>第" + i + "页</option>";
+        } else {
+          pager_str += "<option value='" + i + "'>第" + i + "页</option>";
+        }        
+      }
+      pager_str += "</select>";
+      		$("#pager").html(pager_str);
+        }
+      });
+    }
+    $(function() {
+      // 显示评论信息
+      show(1);
+      
+      // 清空表单
+      $("#resetBtn").click(function() {
+      	$("#_form")[0].reset();
+      });
+   
+    });
+ 
+   //验证码开始
+  $(function() {
+	    $.validCode = function(target, validId) {
+		$.ajax({
+        url : '/qnwebapp/member/getValidId?random=' + Math.random(),
+				async : false,
+				dataType : 'json',
+				success : function(data) {
+					var PageUrl = '/qnwebapp/ImageServlet?validId='
+					+ data.validId;
+					target.attr('src', PageUrl);
+					target.css('display', '');
+					validId.val(data.validId);
+				},
+				error : function(XMLHttpRequest, textStatus,errorThrown) {
+					var msg = XMLHttpRequest.responseText;
+					alert(msg);
+				}
+				});
+	}
+	$.validCode($('#imgValid'), $('#validId'));
+	$('#imgValid').click(function() {
+		$.validCode($('#imgValid'), $('#validId'));
+	});
+   //验证码结束 
+
+ });    
+
+  // 保存评论
+  function saveComment() {
+    var anonymity = $("input[name='anonymity']:checked").val();
+    var subUser = "";
+    if(anonymity == 'yes'){
+    	subUser = "匿名网友";
+    }else{
+    	subUser = $("#subUser").val() ? $("#subUser").val() : '匿名网友';
+    }
+    
+    var chanDocId = $("#chanDocId").val(); // 获取栏目文章的id
+    var subContent = $("#subContent").val(); // 获取评论的内容
+
+    if($.trim(subContent) == "") {
+    	alert("请输入评论内容");
+      return;
+    }
+    
+    var code = $("#code").val();
+    if($.trim(code) == "") {
+    	alert("请输入验证码");
+      return ;
+    }
+    
+    $.ajax({
+      url : "/qnwebapp/member/checkCode",
+        data : "validId=" + $('#validId').val() + "&code="
+        + $('#code').val(),
+        dataType : "json",
+      	async:false,
+        success : function(data) {
+        var success = data.success;
+      //验证码验证成功
+        if (success) {
+            $.ajax({
+            url: '/qnwebapp/comment/save',
+            type: 'post',
+            dataType: 'json',
+            data : {
+              idVal: chanDocId,
+              commentTypeId: 1,
+              filterFlag: 'true',
+              subContent: subContent,
+        	 subUser: subUser
+            },
+            success:function(data, textStatus) {
+	   				 alert("系统提示: 留言成功!");
+	    			 location.replace(location.href);
+            },
+             error: function(XMLHttpRequest, textStatus, errorThrown) {
+               var msg = XMLHttpRequest.responseText;
+               alert(msg);
+             }
+          });
+              
+      }else {
+           alert("验证码错误");
+    			return ;	
+    }
+    },
+      error : function(XMLHttpRequest, textStatus,
+                       errorThrown) {
+        var msg = XMLHttpRequest.responseText;
+        alert(msg);
+        return ;
+      }
+    });
+
+  }
+  
+  </script>
+<div class="neirong_box mgt20 box_shadow" style="width: 1195px;margin-bottom: 5px;">
+<div class="contTextBox">
+
+	<div class="wypl">
+    	<h2><em class="f_l">网友评论</em></h2>
+        <div class="zfq_r" id="comment">
+            	
+        </div>
+    </div>
+    	<div class="wypl mgt20">
+    	<h2><em class="f_l">发表意见</em></h2>
+        <form id="_form">
+        <input type="hidden" name="chanDocId" id="chanDocId" value="883432">
+        <div class="fabiaoyijian">
+                 <dl>
+                  <dt><span>用户昵称：</span><input type="text" style="width:160px; " class="text"  id="subUser" name="subUser"/>&nbsp;&nbsp;&nbsp;<span>是否匿名发表：</span><label><input type="radio" class="radio" value="yes"  name="anonymity" checked="checked">&nbsp;是</label>&nbsp;&nbsp;&nbsp;<label><input type="radio" class="radio" value="no" name="anonymity">&nbsp;否</label></dt>
+                  <dd class="mgt20"><textarea  name="subContent" id="subContent" cols="" rows="" ></textarea></dd>
+                  <dd class="mgt20"><span>验证码：</span><input type="text"  class="text" name="code" id="code"/>&nbsp;
+                  <input type="hidden" name="validId" id="validId" value="ba226011-7241-41df-80c1-cd93a49c9b77">
+                  <img src="/2017_static/images/list/yzm.jpg" width="73" height="33" title="点击切换验证码" id="imgValid"/>
+                  <em>&nbsp;&nbsp;
+                  <a onclick="saveComment();" href="javascript:void(0)">发表</a>&nbsp;&nbsp;
+                  <a href="javascript:void(0)" id="resetBtn">清除</a></em></dd>
+                 </dl>
+               </div>
+        </form>
+        </div>
+</div>
+<script>
+    $(function(){
+			$(".wypl .zfnr:nth-child(2n)").addClass("bg1")})
+</script>
+</div>
+
+
+</div>
+
+
+<!--footer-->
+<div class="foot" style="position: relative;">
+<script type="text/javascript">
+      function OpenSelect(optionStr){
+        if(optionStr != ""){
+          //window.open(optionStr,'_blank')
+          if(window.confirm('您访问的链接即将离开“您将离开长顺县人民政府网站”，是否继续？')){
+               //alert("确定");
+               //return true;
+               window.open(optionStr,'_blank');
+          }else{
+               //alert("取消");
+               return false;
+          }
+        }  
+      }  
+    </script>
+	<div>
+		<div class="dh_bg">
+    	<div class="dh">
+   			<a href="javascript:void(0);" style="text-align: left;width: 90px !important;">
+   			友情链接:
+   			</a>
+   			
+   				<select name="" class="xgwz_nr" onchange="OpenSelect(this.options[this.selectedIndex].value);">
+                      <option>中央部门网站</option>
+					  <option value="/doc/2016/06/29/514073.shtml">
+<a href="/doc/2016/06/29/514073.shtml" title="信用中国网">信用中国网</a>					  </option> 
+					  <option value="http://www.mps.gov.cn/">
+<a href="http://www.mps.gov.cn/" title="公安部">公安部</a>					  </option> 
+					  <option value="http://www.mod.gov.cn/">
+<a href="http://www.mod.gov.cn/" title="国防部">国防部</a>					  </option> 
+					  <option value="http://www.fmprc.gov.cn">
+<a href="http://www.fmprc.gov.cn" title="外交部">外交部</a>					  </option> 
+                    </select>
+   			
+   			
+   				<select name="" class="xgwz_nr" onchange="OpenSelect(this.options[this.selectedIndex].value);">
+                      <option>各省市政府网站</option>
+					  <option value="/doc/2016/06/29/514144.shtml">
+<a href="/doc/2016/06/29/514144.shtml" title="贵州诚信网">贵州诚信网</a>					  </option> 
+					  <option value="http://www.jiangsu.gov.cn/">
+<a href="http://www.jiangsu.gov.cn/" title="江苏">江苏</a>					  </option> 
+					  <option value="http://www.shanghai.gov.cn/">
+<a href="http://www.shanghai.gov.cn/" title="上海">上海</a>					  </option> 
+					  <option value="http://www.hlj.gov.cn/">
+<a href="http://www.hlj.gov.cn/" title="黑龙江">黑龙江</a>					  </option> 
+					  <option value="http://www.jl.gov.cn/">
+<a href="http://www.jl.gov.cn/" title="吉林">吉林</a>					  </option> 
+					  <option value="http://www.ln.gov.cn/">
+<a href="http://www.ln.gov.cn/" title="辽宁">辽宁</a>					  </option> 
+					  <option value="http://www.shanxigov.cn/">
+<a href="http://www.shanxigov.cn/" title="山西">山西</a>					  </option> 
+					  <option value="http://www.hebei.gov.cn/">
+<a href="http://www.hebei.gov.cn/" title="河北">河北</a>					  </option> 
+					  <option value="http://www.tj.gov.cn/">
+<a href="http://www.tj.gov.cn/" title="天津">天津</a>					  </option> 
+					  <option value="http://www.beijing.gov.cn/">
+<a href="http://www.beijing.gov.cn/" title="北京">北京</a>					  </option> 
+					  <option value="http://www.nx.gov.cn/">
+<a href="http://www.nx.gov.cn/" title="宁夏">宁夏</a>					  </option> 
+					  <option value="http://www.qh.gov.cn/">
+<a href="http://www.qh.gov.cn/" title="青海">青海</a>					  </option> 
+					  <option value="http://www.gansu.gov.cn/">
+<a href="http://www.gansu.gov.cn/" title="甘肃">甘肃</a>					  </option> 
+					  <option value="http://www.shaanxi.gov.cn/">
+<a href="http://www.shaanxi.gov.cn/" title="陕西">陕西</a>					  </option> 
+					  <option value="http://www.yn.gov.cn/">
+<a href="http://www.yn.gov.cn/" title="云南">云南</a>					  </option> 
+					  <option value="http://www.sc.gov.cn/">
+<a href="http://www.sc.gov.cn/" title="四川">四川</a>					  </option> 
+					  <option value="http://www.cq.gov.cn/">
+<a href="http://www.cq.gov.cn/" title="重庆">重庆</a>					  </option> 
+					  <option value="http://www.hainan.gov.cn/">
+<a href="http://www.hainan.gov.cn/" title="海南">海南</a>					  </option> 
+					  <option value="http://www.gxzf.gov.cn/">
+<a href="http://www.gxzf.gov.cn/" title="广西">广西</a>					  </option> 
+					  <option value="http://www.gd.gov.cn/">
+<a href="http://www.gd.gov.cn/" title="广东">广东</a>					  </option> 
+					  <option value="http://www.hunan.gov.cn/">
+<a href="http://www.hunan.gov.cn/" title="湖南">湖南</a>					  </option> 
+					  <option value="http://www.hubei.gov.cn/">
+<a href="http://www.hubei.gov.cn/" title="湖北">湖北</a>					  </option> 
+					  <option value="http://www.henan.gov.cn/">
+<a href="http://www.henan.gov.cn/" title="河南">河南</a>					  </option> 
+					  <option value="http://www.shandong.gov.cn/">
+<a href="http://www.shandong.gov.cn/" title="山东">山东</a>					  </option> 
+					  <option value="http://www.jiangxi.gov.cn/">
+<a href="http://www.jiangxi.gov.cn/" title="江西">江西</a>					  </option> 
+					  <option value="http://www.fujian.gov.cn/">
+<a href="http://www.fujian.gov.cn/" title="福建">福建</a>					  </option> 
+					  <option value="http://www.ah.gov.cn/">
+<a href="http://www.ah.gov.cn/" title="安徽">安徽</a>					  </option> 
+					  <option value="http://www.zhejiang.gov.cn/">
+<a href="http://www.zhejiang.gov.cn/" title="浙江">浙江</a>					  </option> 
+                    </select>
+   			
+   			
+   				<select name="" class="xgwz_nr" onchange="OpenSelect(this.options[this.selectedIndex].value);">
+                      <option>12县（市）政府</option>
+					  <option value="http://www.duyun.gov.cn/index.shtml">
+<a href="http://www.duyun.gov.cn/index.shtml" title="都匀市人民政府网站">都匀市人民政府网站</a>					  </option> 
+                   </select>  					   			  				
+    	</div>
+    </div>
+    </div>
+    <div style="width: 1200px;position: relative; margin:0px auto;">
+    <div class="foot_nav">
+    	<a href="/index.shtml">返回首页</a>|
+        <a href="/fzlm/lxwm/index.shtml">联系我们</a>|
+        <a href="/fzlm/yssm/index.shtml">隐私声明</a>|
+        <a href="/fzlm/mzsm/index.shtml">免责声明</a>|
+        <a href="/fzlm/wzdt/index.shtml">网站地图</a>|
+        <a href="http://weibo.com/u/5074467541">官方微博</a>|
+        <a href="/fzlm/RSSdy/index.shtml">RSS订阅</a>
+        <!--<a href="">引导</a>-->
+    </div>
+    <script type='text/javascript'>
+        $(function(){
+        
+        $('a').each(function(){
+        	console.log($(this).attr('href'));
+            if($(this).attr('href') != null || $(this).attr('href') != undefined)
+            {
+           	var val = $(this).attr('href'); 
+            
+                var htp ='http://www.gzcsx.gov.cn';
+                var js ='javascript:void(0);';
+                var ts = '#';
+                var jp ='javascript';
+                var con;
+                if(val.substring(0,1) != '/' && val.substring(0,25) != htp && val.substring(0,23) != js && val.substring(0,1) != ts && val.substring(0,10) != jp)
+                 {
+                 	
+                    $(this).attr('href',"javascript:if(confirm('您访问的链接即将离开“您将离开长顺县人民政府网站”，是否继续？'))location='"+ val  +"'"); 
+                    $(this).attr('target','_self');
+                  }
+                }
+            });
+     
+           });
+        
+        </script>
+    <div class="nav_p">
+    	<p>Copyright &copy; 2012-2022 长顺县人民政府 版权所有|黔ICP备14001148号-1 &nbsp;技术支持：<a href="http://www.intertid.com/" target="_blank">泰得科技</a></p>
+    	<p>主办单位：长顺县人民政府　承办单位：长顺县政府办公室　电话：0854-6821133　传真：0854-6821140</p>
+    </div>
+    <!--找错-->
+    <style>
+    	.dzjg{
+        		position: absolute;
+				left: 145px;
+				top: 12px;
+             }
+             
+        .zc{
+        		position: absolute;
+				right: 120px;
+				top: 25px;
+             }
+    </style>
+	<div class="dzjg">
+		<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/24/362/2226/60044549/CA243622226600445490000.js' type='text/javascript'%3E%3C/script%3E"));</script>
+	</div>
+    <div class="zc">
+		<!--<script id="_jiucuo_" sitecode='5227290001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>-->
+        <span id="_span_jiucuo">
+        <a href="http://121.43.68.40/exposure/jiucuo.html?site_code=5227290001&url=www.gzcsx.gov.cn">
+            <img onclick="Link('5227290001')" style="margin:0;border:0;cursor: pointer;" src="http://121.43.68.40/exposure/images/jiucuo.png?v=5227290001"></a>
+        </span>
+	</div>
+   <!--找错end-->
+   
+   <!--统计量-->
+<script language="JavaScript">var _trackDataType = "web";var _trackData = _trackData || [];</script><script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10000859" src="//fxsjcj.kaipuyun.cn/count/10000859/10000859.js"></script>
+	</div>
+    
+  
+</div>
+
+
+
+
+<!--内容页分享代码-->
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+</body>
+</html>
+
+<!-- Generated By TurboECM v2.1.7 2017-12-25 14:01:45 -->

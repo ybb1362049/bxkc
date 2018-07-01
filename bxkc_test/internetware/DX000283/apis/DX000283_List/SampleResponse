@@ -1,0 +1,792 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="/css/form.css?t=12" />
+
+	<link rel="stylesheet" type="text/css" href="/css/combpager.css" />
+<link rel="stylesheet" type="text/css" href="/js/thickbox.css" />
+<link rel="stylesheet" type="text/css" href="/css/style.css?t=53421" />
+<link rel="stylesheet" type="text/css" href="/css/zzsc.css" />
+<style type="text/css">
+/*<![CDATA[*/
+td.tdwd a{width: 230px;}
+/*]]>*/
+</style>
+<script type="text/javascript" src="/assets/d3e05594/jquery.js"></script>
+<script type="text/javascript" src="/assets/d3e05594/jui/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/assets/d3e05594/jquery.ba-bbq.js"></script>
+<script type="text/javascript" src="/js/menu-2014.js"></script>
+<script type="text/javascript" src="/js/jquery.thickbox.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+<script type="text/javascript" src="/js/zzsc.js"></script>
+<title>需求公告</title>
+	<meta content="为适应集团新时期的发展，拓宽招标采购渠道、增强招标采购阳光规范运作，以“敞开胸怀拥抱供应商”的态度，圣泉集团“电子采购平台”于2014年12月12日正式上线。在这里，我们将及时汇总发布圣泉集团总部及下属公司招标采购信息，构建招标采购增值服务体系，深化供应商管理，接受公众与合作伙伴监督。请大家积极关注我们的平台建设与信息发布，参与相关招标采购合作事宜。
+" name="description" />
+	<meta content="采购网,采购平台,电子采购,电子采购平台,圣泉电子采购平台,圣泉采购网" name="keywords" />
+</head>
+
+<body style="height:2000px;">
+  <div class="main-im">
+    <div id="open_im" class="open-im">&nbsp;</div>  
+    <div class="im_main" id="im_main">
+      <div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>
+      <a href="http://wpa.qq.com/msgrd?v=3&uin=425213776&site=qq&menu=yes" class="im-qq qq-a" title="在线QQ客服">
+      <div class="qq-container"></div>
+      <div class="qq-hover-c"><img class="img-qq" src="/images/qq.png"></div>
+      <span> 供应咨询</span> </a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=781031523&site=qq&menu=yes" class="im-qq qq-a" title="在线QQ客服">
+      <div class="qq-container"></div>
+      <div class="qq-hover-c"><img class="img-qq" src="/images/qq.png"></div>
+      <span> 用户咨询</span> </a>
+    </div>
+  </div>
+	<div class="top_w">
+  <div class="m a1">
+    <div class="top_l l"><a href="http://www.shengquan.com" target="_blank">圣泉集团</a><a href="http://www.anteful.com" target="_blank">圣泉安特福</a><a href="http://www.healtang.com" target="_blank">圣泉唐和唐</a></div>
+     <div id="top_nav" class="top_r r">您好<span class="red">游客</span> <a href="#TB_inline?height=344&width=716&inlineId=myloginbox&modal=" class="thickbox">登录</a> | <a href="/enterprise/register.html">注册</a> 
+</div>
+    <div class="clear"></div>
+
+  </div>
+</div>
+
+<div class="m">
+  <div class="l"><img src="/images/logo.gif" vspace="5"/></div>
+  <div class="menu_r"><a href="/site/index.html" >首页</a>
+  <a href="/purchase/index.html" class="h">需求公告</a>
+  <a href="/procurement/index.html" >招标公告</a>
+  <a href="/procurementpublicity/index.html" >中标公示</a>
+  <a href="/affiche/index.html" >公告说明</a>
+  <a href="/appeal/index.html" >廉政申诉</a></div>
+  <div class="clear"></div>
+</div>
+	<div class="m">
+	  	<div class="m_l">
+		    <div class="d20"></div>
+<div class="l_dt">按类别查看预告</div>
+
+<ul class="l_a">
+		    <li>
+	    	<a href="/site/search.html?pid=5" class="l_a_f">
+	    		<b>01F</b><strong>包装</strong>
+	    			    			<span>223</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=5&cid=70">包装袋类</a>
+	        		        		<a href="/site/search.html?pid=5&cid=71">托排及木制品</a>
+	        		        		<a href="/site/search.html?pid=5&cid=72">其它零星包装</a>
+	        		        		<a href="/site/search.html?pid=5&cid=73">钢桶类</a>
+	        		        		<a href="/site/search.html?pid=5&cid=74">塑料桶类</a>
+	        		        		<a href="/site/search.html?pid=5&cid=75">纸箱及附件类</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=6" class="l_a_f">
+	    		<b>02F</b><strong>运输设备</strong>
+	    			    			<span>21</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=6&cid=80">叉车</a>
+	        		        		<a href="/site/search.html?pid=6&cid=81">铲车</a>
+	        		        		<a href="/site/search.html?pid=6&cid=82">拖拉机</a>
+	        		        		<a href="/site/search.html?pid=6&cid=83">堆高车</a>
+	        		        		<a href="/site/search.html?pid=6&cid=84">搬运车</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=7" class="l_a_f">
+	    		<b>03F</b><strong>设备</strong>
+	    			    			<span>730</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=7&cid=327">粉碎设备</a>
+	        		        		<a href="/site/search.html?pid=7&cid=255">化工实验设备</a>
+	        		        		<a href="/site/search.html?pid=7&cid=254">压滤机</a>
+	        		        		<a href="/site/search.html?pid=7&cid=253">减速机</a>
+	        		        		<a href="/site/search.html?pid=7&cid=252">包装机</a>
+	        		        		<a href="/site/search.html?pid=7&cid=251">电机</a>
+	        		        		<a href="/site/search.html?pid=7&cid=90">反应釜</a>
+	        		        		<a href="/site/search.html?pid=7&cid=91">储罐</a>
+	        		        		<a href="/site/search.html?pid=7&cid=92">换热器</a>
+	        		        		<a href="/site/search.html?pid=7&cid=93">泵类</a>
+	        		        		<a href="/site/search.html?pid=7&cid=94">风机</a>
+	        		        		<a href="/site/search.html?pid=7&cid=95">过滤器</a>
+	        		        		<a href="/site/search.html?pid=7&cid=96">搅拌设备</a>
+	        		        		<a href="/site/search.html?pid=7&cid=97">离心机</a>
+	        		        		<a href="/site/search.html?pid=7&cid=98">压机</a>
+	        		        		<a href="/site/search.html?pid=7&cid=99">锅炉类</a>
+	        		        		<a href="/site/search.html?pid=7&cid=322">货架</a>
+	        		        		<a href="/site/search.html?pid=7&cid=321">清洗设备</a>
+	        		        		<a href="/site/search.html?pid=7&cid=308">设备专用配件</a>
+	        		        		<a href="/site/search.html?pid=7&cid=304">模具</a>
+	        		        		<a href="/site/search.html?pid=7&cid=301">刮膜蒸发器</a>
+	        		        		<a href="/site/search.html?pid=7&cid=330">其他设备</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=8" class="l_a_f">
+	    		<b>04F</b><strong>电子设备</strong>
+	    			    			<span>4</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=8&cid=314">采编设备</a>
+	        		        		<a href="/site/search.html?pid=8&cid=340">电脑</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=9" class="l_a_f">
+	    		<b>05F</b><strong>电器</strong>
+	    			    			<span>659</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=9&cid=326">对讲机</a>
+	        		        		<a href="/site/search.html?pid=9&cid=110">配电柜</a>
+	        		        		<a href="/site/search.html?pid=9&cid=111">防爆电器</a>
+	        		        		<a href="/site/search.html?pid=9&cid=112">交流接触器</a>
+	        		        		<a href="/site/search.html?pid=9&cid=113">继电器</a>
+	        		        		<a href="/site/search.html?pid=9&cid=114">断路器</a>
+	        		        		<a href="/site/search.html?pid=9&cid=115">变压器</a>
+	        		        		<a href="/site/search.html?pid=9&cid=116">变频器</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=10" class="l_a_f">
+	    		<b>06F</b><strong>仪器仪表</strong>
+	    			    			<span>722</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=10&cid=120">称重类</a>
+	        		        		<a href="/site/search.html?pid=10&cid=121">显示类</a>
+	        		        		<a href="/site/search.html?pid=10&cid=122">测量类</a>
+	        		        		<a href="/site/search.html?pid=10&cid=123">调节阀</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=11" class="l_a_f">
+	    		<b>07F</b><strong>钢材</strong>
+	    			    			<span>309</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=11&cid=130">板材</a>
+	        		        		<a href="/site/search.html?pid=11&cid=131">管材</a>
+	        		        		<a href="/site/search.html?pid=11&cid=132">型材</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=12" class="l_a_f">
+	    		<b>08F</b><strong>阀门</strong>
+	    			    			<span>202</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=12&cid=140">球阀</a>
+	        		        		<a href="/site/search.html?pid=12&cid=141">截止阀</a>
+	        		        		<a href="/site/search.html?pid=12&cid=142">闸阀</a>
+	        		        		<a href="/site/search.html?pid=12&cid=143">蝶阀</a>
+	        		        		<a href="/site/search.html?pid=12&cid=144">安全阀</a>
+	        		        		<a href="/site/search.html?pid=12&cid=145">减压阀</a>
+	        		        		<a href="/site/search.html?pid=12&cid=146">其它阀门</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=13" class="l_a_f">
+	    		<b>09F</b><strong>电缆</strong>
+	    			    			<span>122</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=13&cid=150">高压电缆</a>
+	        		        		<a href="/site/search.html?pid=13&cid=151">低压电缆</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=14" class="l_a_f">
+	    		<b>010F</b><strong>消防器材</strong>
+	    			    			<span>19</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=14&cid=160">消防设备</a>
+	        		        		<a href="/site/search.html?pid=14&cid=161">消防材料</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=15" class="l_a_f">
+	    		<b>011F</b><strong>法兰管件</strong>
+	    			    			<span>71</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=15&cid=170">法兰</a>
+	        		        		<a href="/site/search.html?pid=15&cid=171">封头</a>
+	        		        		<a href="/site/search.html?pid=15&cid=172">管件</a>
+	        		        		<a href="/site/search.html?pid=15&cid=173">管道附件</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=16" class="l_a_f">
+	    		<b>012F</b><strong>备品备件</strong>
+	    			    			<span>3649</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=16&cid=323">工具类</a>
+	        		        		<a href="/site/search.html?pid=16&cid=180">标准件</a>
+	        		        		<a href="/site/search.html?pid=16&cid=181">五金配件</a>
+	        		        		<a href="/site/search.html?pid=16&cid=182">电材配件</a>
+	        		        		<a href="/site/search.html?pid=16&cid=183">密封材料</a>
+	        		        		<a href="/site/search.html?pid=16&cid=184">过滤材料</a>
+	        		        		<a href="/site/search.html?pid=16&cid=185">保温材料</a>
+	        		        		<a href="/site/search.html?pid=16&cid=186">电子耗材</a>
+	        		        		<a href="/site/search.html?pid=16&cid=187">设备维修通用配件</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=18" class="l_a_f">
+	    		<b>013F</b><strong>化验器材</strong>
+	    			    			<span>366</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=18&cid=208">化验药品</a>
+	        		        		<a href="/site/search.html?pid=18&cid=209">化验器具</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=19" class="l_a_f">
+	    		<b>014F</b><strong>气体类</strong>
+	    			    			<span>4</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=19&cid=316">普通气体</a>
+	        		        		<a href="/site/search.html?pid=19&cid=315">高纯气体</a>
+	        		        		<a href="/site/search.html?pid=19&cid=210">氧气</a>
+	        		        		<a href="/site/search.html?pid=19&cid=211">乙炔气</a>
+	        		        		<a href="/site/search.html?pid=19&cid=212">氢气</a>
+	        		        		<a href="/site/search.html?pid=19&cid=213">二氧化硫</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=20" class="l_a_f">
+	    		<b>015F</b><strong>油品</strong>
+	    			    			<span>32</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=20&cid=224">柴油</a>
+	        		        		<a href="/site/search.html?pid=20&cid=225">机油</a>
+	        		        		<a href="/site/search.html?pid=20&cid=226">润滑油</a>
+	        		        		<a href="/site/search.html?pid=20&cid=227">齿轮油</a>
+	        		        		<a href="/site/search.html?pid=20&cid=228">液压油</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=21" class="l_a_f">
+	    		<b>016F</b><strong>物流类</strong>
+	    			    			<span>38</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=21&cid=307">快递类</a>
+	        		        		<a href="/site/search.html?pid=21&cid=263">冷藏类</a>
+	        		        		<a href="/site/search.html?pid=21&cid=262">冒口类</a>
+	        		        		<a href="/site/search.html?pid=21&cid=261">过滤器类</a>
+	        		        		<a href="/site/search.html?pid=21&cid=260">板材类</a>
+	        		        		<a href="/site/search.html?pid=21&cid=258">危险品类</a>
+	        		        		<a href="/site/search.html?pid=21&cid=257">袋装类</a>
+	        		        		<a href="/site/search.html?pid=21&cid=256">桶装类</a>
+	        		        		<a href="/site/search.html?pid=21&cid=238">罐装类</a>
+	        		        		<a href="/site/search.html?pid=21&cid=239">吨罐类</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=248" class="l_a_f">
+	    		<b>017F</b><strong>煤炭</strong>
+	    			    			<span>17</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=248&cid=306">块煤</a>
+	        		        		<a href="/site/search.html?pid=248&cid=305">煤炭</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=259" class="l_a_f">
+	    		<b>018F</b><strong>有机原料</strong>
+	    			    			<span>687</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=259&cid=325">腰果酚</a>
+	        		        		<a href="/site/search.html?pid=259&cid=320">硅烷</a>
+	        		        		<a href="/site/search.html?pid=259&cid=319">草酸</a>
+	        		        		<a href="/site/search.html?pid=259&cid=318">多聚甲醛</a>
+	        		        		<a href="/site/search.html?pid=259&cid=317">木糖母液</a>
+	        		        		<a href="/site/search.html?pid=259&cid=270">环氧树脂</a>
+	        		        		<a href="/site/search.html?pid=259&cid=268">尿素</a>
+	        		        		<a href="/site/search.html?pid=259&cid=267">液碱</a>
+	        		        		<a href="/site/search.html?pid=259&cid=266">甲醛</a>
+	        		        		<a href="/site/search.html?pid=259&cid=265">甲醇</a>
+	        		        		<a href="/site/search.html?pid=259&cid=264">苯酚</a>
+	        		        		<a href="/site/search.html?pid=259&cid=324">邻甲酚</a>
+	        		        		<a href="/site/search.html?pid=259&cid=329">多聚甲醛B</a>
+	        		        		<a href="/site/search.html?pid=259&cid=331">腰果油</a>
+	        		        		<a href="/site/search.html?pid=259&cid=332">聚合MDI</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=269" class="l_a_f">
+	    		<b>019F</b><strong>无机原料</strong>
+	    			    			<span>2606</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=269&cid=274">其他材料</a>
+	        		        		<a href="/site/search.html?pid=269&cid=273">辅助材料</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=271" class="l_a_f">
+	    		<b>020F</b><strong>糠醛</strong>
+	    			    			<span>3</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=271&cid=272">糠醛</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=275" class="l_a_f">
+	    		<b>021F</b><strong>办公劳保</strong>
+	    			    			<span>45</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=275&cid=284">劳保用品--工作服、棉袄</a>
+	        		        		<a href="/site/search.html?pid=275&cid=283">劳保用品</a>
+	        		        		<a href="/site/search.html?pid=275&cid=282">自行车</a>
+	        		        		<a href="/site/search.html?pid=275&cid=281">家用电器</a>
+	        		        		<a href="/site/search.html?pid=275&cid=280">标识牌</a>
+	        		        		<a href="/site/search.html?pid=275&cid=279">印刷品</a>
+	        		        		<a href="/site/search.html?pid=275&cid=278">办公家具</a>
+	        		        		<a href="/site/search.html?pid=275&cid=277">清洁用品</a>
+	        		        		<a href="/site/search.html?pid=275&cid=276">办公用品</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=285" class="l_a_f">
+	    		<b>022F</b><strong>工程类</strong>
+	    			    			<span>177</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=285&cid=328">设备安装工程</a>
+	        		        		<a href="/site/search.html?pid=285&cid=289">总务零星维修工程</a>
+	        		        		<a href="/site/search.html?pid=285&cid=288">绿化工程</a>
+	        		        		<a href="/site/search.html?pid=285&cid=287">基建零活</a>
+	        		        		<a href="/site/search.html?pid=285&cid=286">基建工程</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=290" class="l_a_f">
+	    		<b>023F</b><strong>废旧物资处理</strong>
+	    			    			<span>14</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=290&cid=291">废旧物资处理</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=292" class="l_a_f">
+	    		<b>024F</b><strong>监控</strong>
+	    			    			<span>4</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=292&cid=293">监控</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=294" class="l_a_f">
+	    		<b>025F</b><strong>食堂用品类</strong>
+	    			    			<span>3</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=294&cid=300">烟、酒、饮料类</a>
+	        		        		<a href="/site/search.html?pid=294&cid=299">米、面、豆类</a>
+	        		        		<a href="/site/search.html?pid=294&cid=298">干货、调料类</a>
+	        		        		<a href="/site/search.html?pid=294&cid=297">油、盐、酱、醋类</a>
+	        		        		<a href="/site/search.html?pid=294&cid=296">水产、海鲜类</a>
+	        		        		<a href="/site/search.html?pid=294&cid=295">肉、禽、蛋类</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=302" class="l_a_f">
+	    		<b>026F</b><strong>保险</strong>
+	    			    			<span>6</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=302&cid=303">保险</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=309" class="l_a_f">
+	    		<b>027F</b><strong>窑炉用品</strong>
+	    			    			<span>10</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=309&cid=313">陶瓷辊棒</a>
+	        		        		<a href="/site/search.html?pid=309&cid=312">刚玉莫来石</a>
+	        		        		<a href="/site/search.html?pid=309&cid=311">碳化硅推板</a>
+	        		        		<a href="/site/search.html?pid=309&cid=310">塞砖</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=333" class="l_a_f">
+	    		<b>028F</b><strong>网络设备</strong>
+	    			    			<span>3</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=333&cid=334">网络设备</a>
+	        	 
+	        	    	</div></div>
+        </li>
+		    <li>
+	    	<a href="/site/search.html?pid=335" class="l_a_f">
+	    		<b>029F</b><strong>人事招聘</strong>
+	    			    			<span>7</span>
+	    		 
+	        </a>
+	        <div class="menu_t"><div>
+	        	        		        		<a href="/site/search.html?pid=335&cid=336">劳务外包</a>
+	        	 
+	        	    	</div></div>
+        </li>
+	</ul>
+ 
+		    <div class="gg"><a href="/site/redirect.html?url=/" target="_blank" title="活动或是广告">
+    <img src="/upload/static/adfiles/2014-07/14054358383349.jpg" border="0" width="200" height="331" alt="活动说明" />
+</a></div>
+	    </div>
+
+	    <div class="m_r">
+			
+<div class="tag"><a href="/site/index.html">首页</a>　>　<a href="/procurement/index.html">需求公告</a>　>　<strong>信息列表</strong></div>
+<div><a href="/site/redirect.html?url=/" target="_blank" title="采购预告">
+    <img src="/upload/static/adfiles/2014-07/14054359696892.jpg" border="0" width="780" height="128" alt="采购预告" />
+</a></div>
+
+<div class="sear">
+  <div class="sear_bj">    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>
+            <select class="dib sele order_sele" name="url" id="url">
+<option value="">-请选择栏目-</option>
+<option value="/purchase/index.html" selected="selected">需求公告</option>
+<option value="/procurement/index.html">招标公告</option>
+<option value="/procurementpublicity/index.html">中标公告</option>
+</select></td>
+        <td><input class="inp" onblur="if($(this).val()===&#039;&#039;){$(this).val(&#039;搜索关键字&#039;);};" onfocus="if($(this).val()===&#039;搜索关键字&#039;){$(this).val(&#039;&#039;);};" type="text" value="搜索关键字" name="keyword" id="keyword" /></td>
+        <td><select class="dib sele order_sele" name="time" id="time">
+<option value="" selected="selected">-请选择需求时间-</option>
+<option value="1">一周内</option>
+<option value="2">一月内</option>
+<option value="3">三月内</option>
+<option value="4">半年内</option>
+<option value="5">一年内</option>
+</select></td>
+        <td><input class="search" id="search" type="submit" name="yt0" value=" " /></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="d20"></div>
+
+<div class="list">
+	<div class="l_l">
+		<a href="###" class="h" id="regbtn0">需求公告</a>
+			</div>
+	<!--<div class="l_r r">
+	<a href="/purchase/index.html?status=asc"> <span class="b_green">进行中</span></a>
+	<a href="/purchase/index.html?status=desc"><span class="b_red">已结束</span></a>
+	</div> zhanglin -->
+  	<div class="clear"></div>
+</div>
+
+<div class="l_list" id="regbox0">
+<table class="items">
+<tr class="header">
+<th id="regbox0_c0"><a class="sort-link" href="/purchase/index.html?ajax=regbox0&amp;page=2&amp;Purchase_sort=name">名称</a></th><th style="width:90px" id="regbox0_c1"><a class="sort-link" href="/purchase/index.html?ajax=regbox0&amp;page=2&amp;Purchase_sort=endtime">投标结束时间</a></th><th id="regbox0_c2"><a class="sort-link" href="/purchase/index.html?ajax=regbox0&amp;page=2&amp;Purchase_sort=category_id1">分类</a></th><th style="width:150px" id="regbox0_c3"><a class="sort-link" href="/purchase/index.html?ajax=regbox0&amp;page=2&amp;Purchase_sort=created">发布日期</a></th><th style="width:90px" id="regbox0_c4"><a class="sort-link" href="/purchase/index.html?ajax=regbox0&amp;page=2&amp;Purchase_sort=status">目前状态</a></th></tr>
+</thead>
+<tbody>
+<tr class="hover odd"><td><a href="/purchase/10241.html">轴承SKF  6211ZE</a></td><td class="yell td2">2017-08-10</td><td class="td2"><span title=".工具类->name.">备品备件</span></td><td class="yell td2">2017-08-09 11:00:29</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10244.html"> 冰柜 海尔BD-193DL</a></td><td class="yell td2">2017-08-10</td><td class="td2"><span title=".工具类->name.">备品备件</span></td><td class="yell td2">2017-08-09 11:06:50</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10260.html">异丙醇</a></td><td class="yell td2">2017-08-10</td><td class="td2"><span title=".甲醇->name.">有机原料</span></td><td class="yell td2">2017-08-09 15:47:00</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10207.html"> 交流接触器</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".交流接触器->name.">电器</span></td><td class="yell td2">2017-08-07 11:31:19</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10233.html">阀门17080901</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".安全阀->name.">阀门</span></td><td class="yell td2">2017-08-09 09:57:28</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10230.html">轻芯钢车间备件加工</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".其他设备->name.">设备</span></td><td class="yell td2">2017-08-09 09:36:45</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10231.html">李恒峰模具</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".模具->name.">设备</span></td><td class="yell td2">2017-08-09 09:44:48</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10232.html">75*50（2.25）下冲加固</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".模具->name.">设备</span></td><td class="yell td2">2017-08-09 09:46:41</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10246.html">泵轴 ZA40-200A </a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".设备维修通用配件->name.">备品备件</span></td><td class="yell td2">2017-08-09 11:17:16</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10247.html">机械密封 IHN80-50-200 </a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".设备维修通用配件->name.">备品备件</span></td><td class="yell td2">2017-08-09 11:28:05</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10248.html">占停 景津板框16-6109用</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".设备维修通用配件->name.">备品备件</span></td><td class="yell td2">2017-08-09 11:30:08</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10249.html">偏心轮 W5</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".设备维修通用配件->name.">备品备件</span></td><td class="yell td2">2017-08-09 11:32:31</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10242.html">轴承 6212C3/SKF</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".工具类->name.">备品备件</span></td><td class="yell td2">2017-08-09 11:03:37</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10154.html">快接头 Φ12.0单头带丝</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".工具类->name.">备品备件</span></td><td class="yell td2">2017-08-02 13:25:40</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10236.html">链条活接 06B</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".工具类->name.">备品备件</span></td><td class="yell td2">2017-08-09 10:31:14</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10237.html">轴承 30217</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".工具类->name.">备品备件</span></td><td class="yell td2">2017-08-09 10:33:07</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10243.html">聚氨酯发泡胶</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".工具类->name.">备品备件</span></td><td class="yell td2">2017-08-09 11:05:08</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10222.html">铜中间接头  240MM2</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".继电器->name.">电器</span></td><td class="yell td2">2017-08-08 11:18:53</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10224.html">电接点温度计 0-150</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".测量类->name.">仪器仪表</span></td><td class="yell td2">2017-08-08 11:35:07</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10225.html">亚德克调压阀 GR300-10  2支</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".测量类->name.">仪器仪表</span></td><td class="yell td2">2017-08-08 11:48:35</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10226.html">数显游标卡尺(0-150MM)</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".测量类->name.">仪器仪表</span></td><td class="yell td2">2017-08-08 11:51:19</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10040.html">钢丝网垫DN80</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".工具类->name.">备品备件</span></td><td class="yell td2">2017-07-27 09:30:02</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10206.html">气源分配器  16路</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".测量类->name.">仪器仪表</span></td><td class="yell td2">2017-08-07 11:01:02</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10217.html">三爪联轴器 100-65-200D </a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".设备维修通用配件->name.">备品备件</span></td><td class="yell td2">2017-08-08 09:11:18</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10220.html">低温恒温水浴DC0506</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".化验器具->name.">化验器材</span></td><td class="yell td2">2017-08-08 11:09:29</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10229.html">航空煤油__COPY</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".其他材料->name.">无机原料</span></td><td class="yell td2">2017-08-08 16:21:25</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10227.html">苯甲酸20170808</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".其他材料->name.">无机原料</span></td><td class="yell td2">2017-08-08 13:06:22</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10228.html">二甲基乙醇胺20170808</a></td><td class="yell td2">2017-08-09</td><td class="td2"><span title=".其他材料->name.">无机原料</span></td><td class="yell td2">2017-08-08 15:59:12</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover odd"><td><a href="/purchase/10210.html">蓖麻油</a></td><td class="yell td2">2017-08-08</td><td class="td2"><span title=".辅助材料->name.">无机原料</span></td><td class="yell td2">2017-08-07 12:44:32</td><td class=" td2 color">已经结束</td></tr>
+<tr class="hover even"><td><a href="/purchase/10215.html">陶瓷叶轮 FTB3.2-20-III陶瓷泵用</a></td><td class="yell td2">2017-08-08</td><td class="td2"><span title=".设备维修通用配件->name.">备品备件</span></td><td class="yell td2">2017-08-08 09:01:00</td><td class=" td2 color">已经结束</td></tr>
+</tbody>
+</table> <div class="pager"><div class="combPager"><div class="links"><ul id="yw0" class="yiiPager"><li class="first"><a href="/purchase/index.html?ajax=regbox0">&lt;&lt; 首页</a></li>
+<li class="previous"><a href="/purchase/index.html?ajax=regbox0">&lt; 前页</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0">1</a></li>
+<li class="page selected"><a href="/purchase/index.html?ajax=regbox0&amp;page=2">2</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0&amp;page=3">3</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0&amp;page=4">4</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0&amp;page=5">5</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0&amp;page=6">6</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0&amp;page=7">7</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0&amp;page=8">8</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0&amp;page=9">9</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0&amp;page=10">10</a></li>
+<li class="page"><a href="/purchase/index.html?ajax=regbox0&amp;page=11">...</a></li>
+<li class="next"><a href="/purchase/index.html?ajax=regbox0&amp;page=3">后页 &gt;</a></li>
+<li class="last"><a href="/purchase/index.html?ajax=regbox0&amp;page=326">末页 &gt;&gt;</a></li></ul></div><div class="jumpbox"><form id="pager-form" method="get"></form></div></div></div><div class="keys" style="display:none" title="/purchase/index.html?ajax=regbox0&amp;page=2"><span>10241</span><span>10244</span><span>10260</span><span>10207</span><span>10233</span><span>10230</span><span>10231</span><span>10232</span><span>10246</span><span>10247</span><span>10248</span><span>10249</span><span>10242</span><span>10154</span><span>10236</span><span>10237</span><span>10243</span><span>10222</span><span>10224</span><span>10225</span><span>10226</span><span>10040</span><span>10206</span><span>10217</span><span>10220</span><span>10229</span><span>10227</span><span>10228</span><span>10210</span><span>10215</span></div>
+</div>		  </div>
+		<div class="clear"></div>
+	</div>
+
+ <div class="foot">
+  <div class="m">
+    <div class="foo1 l">地址：山东省章丘圣泉工业园 版权所有 版权所有：济南圣泉集团股份有限公司  © Copyright 2014 <br />
+      </div>
+    <div class="foo2 r"></div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+
+<div class="log" id="myloginbox" style="display:none">
+  <div class="log_">
+    <div class="log_t">圣泉电子采购平台</div>
+    <div class="log_l l"><span>还没有注册？<a href="/enterprise/register.html">立即注册</a></span></div>    
+    <div class="log_r r"><div class="log_b">
+      <div class="l_l"><a href="#here" class="h" id="loginbtn0" onclick="change_loginbox(0)">企业用户</a><a href="#here" id="loginbtn1" onclick="change_loginbox(1)">个人用户</a></div>
+      <div class="clear"></div>
+    </div>
+    <table width="0" border="0" cellspacing="0" cellpadding="0" id="loginbox0">
+      <tr>
+        <td width="70"><label for="name">用户名：</label></td>
+        <td><input class="inp4 black" maxlength="30" onblur="if($(this).val()===&#039;&#039;){$(this).val(&#039;采购平台注册邮箱登录&#039;);};" onfocus="if($(this).val()===&#039;采购平台注册邮箱登录&#039;){$(this).val(&#039;&#039;);};" type="text" value="采购平台注册邮箱登录" name="name" id="name" /></td>
+      </tr>
+      <tr>
+        <td><label for="pass">密　码：</label></td>
+        <td><input class="inp4" maxlength="32" type="password" value="" name="pass" id="pass" /></td>
+      </tr>
+      <tr>
+        <td> &nbsp; </td>
+        <td><div class="login_enterprise"><input class="bntimg" id="subenterprise" type="submit" name="yt1" value=" " /></div></td>
+      </tr>
+    </table>
+    <table width="0" border="0" cellspacing="0" cellpadding="0" id="loginbox1" style="display:none">
+      <tr>
+        <td width="70"><label for="username">用户名：</label></td>
+        <td><input class="inp4 black" maxlength="30" onblur="if($(this).val()===&#039;&#039;){$(this).val(&#039;采购平台注册邮箱登录&#039;);};" onfocus="if($(this).val()===&#039;采购平台注册邮箱登录&#039;){$(this).val(&#039;&#039;);};" type="text" value="采购平台注册邮箱登录" name="username" id="username" /></td>
+      </tr>
+      <tr>
+        <td><label for="password">密　码：</label></td>
+        <td><input class="inp4" maxlength="32" type="password" value="" name="password" id="password" /></td>
+      </tr>
+      <tr>
+        <td> &nbsp; </td>
+        <td><div class="login_user"><input class="bntimg" id="subuser" name="subuser" type="submit" value=" " /></div></td>
+      </tr>
+    </table>
+    </div>
+    
+    <div class="clear"></div>
+  </div>
+</div>
+<script type="text/javascript">
+//下拉
+$.fn.sele=function() {
+  var ev=$(this).data('click')?'click':'mouseenter';
+  $(this).bind(ev,function(){sele_show(this,ev)}).bind('mouseleave',function(){sele_hide(this)});
+  function sele_show(me,evt){
+    $(me).children('span').addClass('on').end().find('.sele_').stop(1,1).slideDown(200).children('a').click(function(event){
+      event.stopPropagation();
+      if(!$(this).attr('target')){
+        event.preventDefault();
+        if($(me).find('.btn').length){
+          $(me).find('.btn').attr('href',$(this).attr('href')).click(function(event){event.stopPropagation()});
+        };
+        $(this).parent().hide().parents('.sele').children('span').text($(this).text());
+      }
+    })
+  };
+  function sele_hide(me){
+    $(me).children('span').removeClass('on').end().find('.sele_').stop(1,0).slideUp(200)
+  };
+};
+var $sele=$('.sele');
+$sele.each(function(i) {$(this).css('z-index',$sele.length-i).sele()});
+
+$(document).ready(function() {
+  //企业登录
+  $("#subenterprise").live('click', function() {
+    var name = $("#name").val();
+    var pass = $("#pass").val();
+    if(name == '') {
+      alert("采购平台注册邮箱不可为空");
+      return false;
+    }
+    if(name.length<3 && name.length>30) {
+      alert("邮箱不正确");
+      return false;
+    }
+    if(pass == '') {
+      alert("密码不可为空");
+      return false;
+    }
+    if(pass.length<6 && pass.length>32) {
+      alert("密码最少为6位");
+      return false;
+    }
+    //ajax登录开始
+    $.ajax({
+        url: "/enterprise/login.html",
+        type: 'POST',
+        data: {username: name, password: pass},
+        success:function(msg){
+          if(msg=='登录成功') {
+              tb_remove(); 
+              alert(msg);
+              window.location.reload();
+          } else {
+              alert(msg);
+          }
+        }, 
+        error:function(error) {
+          alert("登录失败");
+        }
+    });
+    //end ajax
+  });
+  //个人登录
+  $("#subuser").live('click', function() {
+    var name = $("#username").val();
+    var pass = $("#password").val();
+    if(name == '') {
+      alert("采购平台注册邮箱不可为空");
+      return false;
+    }
+    if(name.length<3 && name.length>30) {
+      alert("邮箱不正确");
+      return false;
+    }
+    if(pass == '') {
+      alert("密码不可为空");
+      return false;
+    }
+    if(pass.length<6 && pass.length>32) {
+      alert("密码最少为6位");
+      return false;
+    }
+    //ajax登录开始
+    $.ajax({
+        url: "/site/login.html",
+        type: 'POST',
+        data: {username: name, password: pass},
+        success:function(msg){
+          if(msg=='登录成功') {
+              tb_remove();
+              alert(msg);
+              window.location.reload();
+          } else {
+              alert(msg);
+          }
+        },
+        error:function(error) {
+          alert("登录失败");
+        }
+    });
+    //end ajax
+  });
+});
+document.onkeydown=function(event){
+   var e = event || window.event || arguments.callee.caller.arguments[0];
+   if(e && e.keyCode==13){
+      if($("#loginbtn1").attr("class")=="h") {
+          $("#subuser").click();
+      } else {
+          $("#subenterprise").click();
+      }
+   }
+}
+</script>
+
+<script type="text/javascript" src="/assets/c4c6e793/gridview/jquery.yiigridview.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#regbox0').yiiGridView({'ajaxUpdate':['regbox0'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'grid-view-loading','filterClass':'filters','tableClass':'items','selectableRows':1,'enableHistory':false,'updateSelector':'{page}, {sort}','filterSelector':'{filter}','pageVar':'page'});
+});
+/*]]>*/
+</script>
+</body>
+</html>

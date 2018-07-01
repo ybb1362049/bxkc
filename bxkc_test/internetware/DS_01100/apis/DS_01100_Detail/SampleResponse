@@ -1,0 +1,540 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>招标信息 - 成都金融城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta  name="keywords" content="金融,商务区,成都,CBD">
+<meta name="description"  content="成都金融总部商务区">
+<link href="Css/css.css" rel="stylesheet" type="text/css">
+<link rel="Shortcut Icon" type="image/ico" href="favicon.ico">
+<link rel="icon" href="favicon.ico" type="image/x-icon" >
+<script type="text/javascript" src="Js/jquery-1.js"></script>
+<script type="text/javascript" src="Js/common.js"></script>
+<script type="text/javascript" src="Js/chdlm.js"></script>
+
+<script language=javascript>
+  if (top.location != self.location)top.location=self.location;
+</script>
+</head>
+
+<body>
+<table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <table width="960" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="14"></td>
+        </tr>
+        <tr>
+          <td>
+            <table border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="49"><a href="http://weibo.com/cdjrc" target="_blank"><img src="Images/h_02.gif" width="49" height="16" border="0" /></a></td>
+                <td width="25"><img src="Images/h_04.gif" width="22" height="11" /></td>
+                <td><a href="/"><img src="Images/h_03.gif" width="32" height="8" border="0" /></a></td>
+                <td width="25"><img src="Images/h_04.gif" width="22" height="11" /></td>
+                <td width="32"><a href="javascript:void(0)"><img src="Images/h_09.gif" width="28" height="11" border="0" /></a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td height="5"></td>
+        </tr>
+        <tr>
+          <td>
+            <table width="960" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="55" width="299"><a href="/"><img src="Images/h_16.gif" width="299" height="34" border="0" /></a></td>
+                <td>
+                  <div id="main" style="margin-left:76px">
+                    <div class="product_list">
+                      <ul id="menu">
+                        <li>
+                          
+                          <div class="menu"><a href="qygl.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Img1','','images/h_19_1.gif',1)"><img src="Images/h_19.gif" width="74" height="30" border="0" name="Img1"></a>
+                            
+                            <div class="menu-bd" style="left: -50px;">
+                              <div style="margin-left:40px;">
+                                
+                                <a href="qygl.asp?sortid=27&chdsortid=65"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">区域发展</a>
+                                
+                                <a href="http://www.cdjrc.com/ztgh.asp?sortid=28&chdsortid=69"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">成都金融城总览</a>
+                                
+                                <a href="qygl.asp?sortid=29&chdsortid=71"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">综合业态</a>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </li>
+                        <li>
+                          
+                          <div class="menu"><a href="zxzx.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Img2','','images/h_21_1.gif',1)"><img src="Images/h_21.gif" width="73" height="30" border="0" name="Img2"></a>
+                            
+                            <div class="menu-bd" style="left: -80px;">
+                              <div style="margin-left:40px;">
+                                
+                                <a href="zxzx.asp?sortid=138"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">党的十九大专栏</a>
+                                
+                                <a href="zxzx.asp?sortid=24"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">新闻动态</a>
+                                
+                                <a href="zxzx.asp?sortid=23"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">媒体聚焦</a>
+                                
+                                <a href="zxzx.asp?sortid=63"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">项目热讯</a>
+                                
+                                <a href="zxzx.asp?sortid=25"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">招标信息</a>
+                                
+                                <a href="zxzx.asp?sortid=116"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">时事动态</a>
+                                
+                                <a href="zxzx.asp?sortid=130"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">党群工作</a>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </li>
+                        <li>
+                        <div class="menu"><a href="ghld.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Img3','','images/h_23_1.gif',1)"><img src="Images/h_23.gif" width="73" height="30" border="0" name="Img3"></a></div>
+                        </li>
+                        <li>
+                          
+                          <div class="menu"><a href="tzfw.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Img4','','images/h_24_1.gif',1)"><img src="Images/h_24.gif" width="73" height="30" border="0" name="Img4"></a>
+                             
+                             <div class="menu-bd" style="left: -170px;">
+                              <div style="margin-left:40px;">
+                                
+                                <a href="tzfw.asp?sortid=118"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">投资服务中心</a>
+                                
+                                <a href="tzfw.asp?sortid=119"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">职责分工</a>
+                                
+                                <a href="tzfw.asp?sortid=120"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">办事流程</a>
+                                
+                                <a href="tzfw.asp?sortid=121"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">优惠政策</a>
+                                
+                                <a href="tzfw.asp?sortid=122"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">联系方式</a>
+                                
+                                <a href="http://www.cdjrc.com/tzfwxz.asp?sortid=123"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">资料下载</a>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </li>
+                        <li>
+                          
+                          <div class="menu"><a href="xmtj.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Img5','','images/h_25_1.gif',1)"><img src="Images/h_25.gif" width="73" height="30" border="0" name="Img5"></a>
+                             
+                             <div class="menu-bd" style="left: -150px;">
+                              <div style="margin-left:40px;">
+                                
+                                <a href="http://www.cdjrc.com/qyxm.asp?sortid=91"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">区域项目</a>
+                                
+                                <a href="xmtj.asp?sortid=125"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">本期推介</a>
+                                
+                                <a href="xmtj.asp?sortid=126"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">往期推介</a>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </li>
+                        <li>
+                          
+                          <div class="menu"><a href="fwzx.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Img6','','images/h_27_1.gif',1)"><img src="Images/h_27.gif" width="73" height="30" border="0" name="Img6"></a>
+                             
+                             <div class="menu-bd" style="left: -150px;">
+                              <div style="margin-left:40px;">
+                                
+                                <a href="fwzx.asp?sortid=74"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">已入驻客户服务</a>
+                                
+                                <a href="fwzx.asp?sortid=75"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">联系我们</a>
+                                
+                                <a href="http://www.cdjrc.com/zlxz.asp?sortid=76"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">资料下载</a>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </li>
+                        <li>
+                          
+                          <div class="menu"><a href="yyjg.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Img7','','images/h_29_1.gif',1)"><img src="Images/h_29.gif" width="73" height="30" border="0" name="Img7"></a>
+                             
+                             <div class="menu-bd" style="left: -400px;">
+                              <div style="margin-left:80px;">
+                                
+                                <a href="yyjg.asp?sortid=101"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">金融总部商务区建设领导小组</a>
+                                
+                                <a href="yyjg.asp?sortid=102"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">领导小组办公室</a>
+                                
+                                <a href="yyjg.asp?sortid=100&chdsortid=36"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">成都金融城公司</a>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </li>
+                        <li>
+                          
+                          <div class="menu"><a href="rczp.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Img8','','images/h_31_1.gif',1)"><img src="Images/h_31.gif" width="73" height="30" border="0" name="Img8"></a>
+                             
+                             <div class="menu-bd" style="left: -350px;">
+                              <div style="margin-left:90px;">
+                                
+                                <a href="rczp.asp?sortid=39"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">人才观念</a>
+                                
+                                <a href="rczp.asp?sortid=40"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">薪酬福利</a>
+                                
+                                <a href="rczp.asp?sortid=58"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">培训发展</a>
+                                
+                                <a href="http://www.cdjrc.com/zpxx.asp?sortid=77"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">招聘信息</a>
+                                
+                                <a href="rczp.asp?sortid=115"><img src="images/n_22.gif" style="padding-right:3px;padding-bottom:3px">应聘方式</a>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td height="10"></td>
+        </tr>
+</table>
+      <table width="960" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="/Upfiles/LmImages/2011412125821878.jpg" width="960" height="233" /></td>
+        </tr>
+      </table>
+      <table width="960" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="15" colspan="3"></td>
+        </tr>
+        <tr>
+          <td width="171" valign="top">
+            <table width="171" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="21" align="center" background="Images/n_20.gif" class="n_lmmc">资讯中心</td>
+              </tr>
+              <tr>
+                <td height="10"></td>
+              </tr>
+            </table>
+            <table width="171" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+                  
+                  <table width="171" border="0" cellspacing="0" cellpadding="0" class="n_bgbk" style="margin-bottom:3px">
+                    <tr>
+                      <td height="27" align="center" background="Images/n_21.gif"><a href="zxzx.asp?sortid=138">党的十九大专栏</a></td>
+                      <td width="9" background="Images/n_21.gif"></td>
+                    </tr>
+                  </table>
+                  
+                  <table width="171" border="0" cellspacing="0" cellpadding="0" class="n_bgbk" style="margin-bottom:3px">
+                    <tr>
+                      <td height="27" align="center" background="Images/n_21.gif"><a href="zxzx.asp?sortid=24">新闻动态</a></td>
+                      <td width="9" background="Images/n_21.gif"></td>
+                    </tr>
+                  </table>
+                  
+                  <table width="171" border="0" cellspacing="0" cellpadding="0" class="n_bgbk" style="margin-bottom:3px">
+                    <tr>
+                      <td height="27" align="center" background="Images/n_21.gif"><a href="zxzx.asp?sortid=23">媒体聚焦</a></td>
+                      <td width="9" background="Images/n_21.gif"></td>
+                    </tr>
+                  </table>
+                  
+                  <table width="171" border="0" cellspacing="0" cellpadding="0" class="n_bgbk" style="margin-bottom:3px">
+                    <tr>
+                      <td height="27" align="center" background="Images/n_21.gif"><a href="zxzx.asp?sortid=63">项目热讯</a></td>
+                      <td width="9" background="Images/n_21.gif"></td>
+                    </tr>
+                  </table>
+                  
+                  <table width="171" border="0" cellspacing="0" cellpadding="0" class="n_bgbk" style="margin-bottom:3px">
+                    <tr>
+                      <td height="27" align="center" background="Images/n_21.gif"><a href="zxzx.asp?sortid=25">招标信息</a></td>
+                      <td width="9" background="Images/n_21.gif"><img src="Images/n_01.gif" width="7" height="7" /></td>
+                    </tr>
+                  </table>
+                  
+                  <table width="171" border="0" cellspacing="0" cellpadding="0" class="n_bgbk" style="margin-bottom:3px">
+                    <tr>
+                      <td height="27" align="center" background="Images/n_21.gif"><a href="zxzx.asp?sortid=116">时事动态</a></td>
+                      <td width="9" background="Images/n_21.gif"></td>
+                    </tr>
+                  </table>
+                  
+                  <table width="171" border="0" cellspacing="0" cellpadding="0" class="n_bgbk" style="margin-bottom:3px">
+                    <tr>
+                      <td height="27" align="center" background="Images/n_21.gif"><a href="zxzx.asp?sortid=130">党群工作</a></td>
+                      <td width="9" background="Images/n_21.gif"></td>
+                    </tr>
+                  </table>
+                  
+                </td>
+              </tr>
+              <tr>
+                <td height="15"></td>
+              </tr>
+            </table>
+            
+            <table width="171" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+                  <table width="171" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="20" align="center"><img src="Images/n_04.gif" width="11" height="11" /></td>
+                      <td width="10"></td>
+                      <td align="left" style="font-size:14px; color:#3A3A3A">其它新闻快速链接</td>
+                    </tr>
+                    <tr>
+                      <td colspan="3 "height="1" bgcolor="#B1AEA7"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td height="10"></td>
+              </tr>
+              <tr>
+                <td>
+                  <table width="171" border="0" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                      <td width="18" align="center">&gt;</td>
+                      <td height="25"><a href="news_view.asp?id=876" title="金融梦工场二期、三期改造项目设计-施工总承包中标候选人公示" target="_blank"><font color="">金融梦工场二期、三期改...</font></a></td>
+                    </tr>
+                    
+                    <tr>
+                      <td height="1" colspan="2" background="Images/n_05.gif"></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="18" align="center">&gt;</td>
+                      <td height="25"><a href="news_view.asp?id=877" title="金融梦工场二期、三期改造项目监理中标候选人公示" target="_blank"><font color="">金融梦工场二期、三期改...</font></a></td>
+                    </tr>
+                    
+                    <tr>
+                      <td height="1" colspan="2" background="Images/n_05.gif"></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="18" align="center">&gt;</td>
+                      <td height="25"><a href="news_view.asp?id=875" title="成都市高新区天府大道北段966号商业用房总平绿化工程施工 / 标段招标公告" target="_blank"><font color="">成都市高新区天府大道北...</font></a></td>
+                    </tr>
+                    
+                    <tr>
+                      <td height="1" colspan="2" background="Images/n_05.gif"></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="18" align="center">&gt;</td>
+                      <td height="25"><a href="news_view.asp?id=872" title="成都金融总部商务区三期基础设施建设工程河东片区核心区市政等工程项目施工图设计审查招标评审结果公示" target="_blank"><font color="">成都金融总部商务区三期...</font></a></td>
+                    </tr>
+                    
+                    <tr>
+                      <td height="1" colspan="2" background="Images/n_05.gif"></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="18" align="center">&gt;</td>
+                      <td height="25"><a href="news_view.asp?id=871" title="金融梦工场三期项目物业管理顾问比选结果公示" target="_blank"><font color="">金融梦工场三期项目物业...</font></a></td>
+                    </tr>
+                    
+                    <tr>
+                      <td height="1" colspan="2" background="Images/n_05.gif"></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="18" align="center">&gt;</td>
+                      <td height="25"><a href="news_view.asp?id=870" title="金融梦工场二期、三期改造项目建设项目管理服务招标评审结果公示" target="_blank"><font color="">金融梦工场二期、三期改...</font></a></td>
+                    </tr>
+                    
+                    <tr>
+                      <td height="1" colspan="2" background="Images/n_05.gif"></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="18" align="center">&gt;</td>
+                      <td height="25"><a href="news_view.asp?id=869" title="金融梦工场二期、三期改造项目气氛营造设计服务比选公告" target="_blank"><font color="">金融梦工场二期、三期改...</font></a></td>
+                    </tr>
+                    
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td height="25"></td>
+              </tr>
+            </table>
+            
+          </td>
+          <td width="65">&nbsp;</td>
+          <td width="724" valign="top">
+            <table width="724" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="right"><img src="Images/n_02.gif" width="15" height="11" />您的当前位置：<a href="/">首页</a> > <a href="zxzx.asp">资讯中心</a> > <font color="#C0000D">招标信息</font></td>
+                <td width="18"></td>
+              </tr>
+              <tr>
+                <td height="15" colspan="2"></td>
+              </tr>
+              <tr>
+                <td colspan="2" background="Images/n_05.gif"></td>
+              </tr>
+            </table>
+            <table width="724" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+                  <table width="707" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="25" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="627" height="25" style="font-size:14px; color:#5B5B5B; font-weight:bold"><font color="">“天府国际金融中心&#8226;双塔”项目样板间物业服务比选公告</font></td>
+                      <td width="80">2017-11-17</td>
+                    </tr>
+                    <tr>
+                      <td height="15" colspan="2"></td>
+                    </tr>
+                    <tr>
+                      <td height="1" colspan="2" bgcolor="#FB8790"></td>
+                    </tr>
+                    <tr>
+                      <td height="30" colspan="2"></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="n_tdnr"><DIV>项目业主：成都金融城投资发展有限责任公司</DIV>
+<DIV>比 选 人：成都金融城置业有限公司</DIV>
+<DIV>为提供“天府国际金融中心·双塔”样板间物业服务，满足现场管理、秩序维护及接待需要，现通过公开比选方式确定该项目样板间物业服务机构。现将有关事宜公告如下：</DIV>
+<DIV><B>一、项目概况</B></DIV>
+<DIV>1.项目名称：“天府国际金融中心·双塔”项目样板间物业服务</DIV>
+<DIV>2.项目地点：成都市高新区天府大道北段966号天府国际金融中心</DIV>
+<DIV>3.项目规模：“天府国际金融中心·双塔”项目北塔30F样板区电梯间、走道、六套样板房等区域。</DIV>
+<DIV><B>二、比选内容</B></DIV>
+<DIV>1.比选范围：“天府国际金融中心·双塔”项目样板间物业服务。</DIV>
+<DIV>2.服务周期：365个日历天。</DIV>
+<DIV>&nbsp;&nbsp;&nbsp; <B>三、比选申请人资格要求</B></DIV>
+<DIV align=left>1.必须为依法成立的具有独立承担民事责任主体资格的企业法人单位，具有有效的物业服务与管理类的企业法人营业执照；</DIV>
+<DIV align=left>2.具有建设部审批的一级物业服务资质证书；</DIV>
+<DIV align=left>3.具有专业服务能力和丰富的物业管理经验，近三年来拥有3个以上合同金额大于等于40万元的房地产项目全权物业服务案例；</DIV>
+<DIV align=left>4.本项目不接受联合体参加比选。</DIV>
+<DIV><B>四、比选文件的获取</B></DIV>
+<DIV align=left>1.符合公告要求、有意参加比选申请者，请于2017年<U>11</U>月<U>17</U>日至2017年<U>11</U>月<U>23</U>日（法定公休日、法定节假日除外），每日上午9时至12时，下午14 时至17时（北京时间，下同）派人携带下述材料至成都金融城置业有限公司（成都市高新区天府大道北段966号天府国际金融中心3号楼）31023室进行报名。</DIV>
+<DIV>报名单位须持以下资料报名：</DIV>
+<DIV align=left>（1）报名人员本人身份证原件及复印件、法人代表授权委托书原件；</DIV>
+<DIV align=left>（2）营业执照（副本）、一级物业服务资质证书原件及复印件（已换取“三证合一”营业执照的单位提供《统一社会信用代码》）；</DIV>
+<DIV align=left>（3）近三年来拥有3个以上合同金额大于等于40万元的房地产项目全权物业服务业绩合同原件及其首尾页复印件。</DIV>
+<DIV align=left><B><U>上述材料须装订成册，均验原件，收盖单位鲜章的复印件。</U></B></DIV>
+<DIV align=left>2.比选申请人提供的报名材料经现场查验无误后，比选人向符合要求的比选申请人提供比选文件。</DIV>
+<DIV>&nbsp;&nbsp;&nbsp; <B>五、比选申请文件的递交 </B></DIV>
+<DIV>比选申请文件递交的截止时间为<U> <B>2017 </B></U><B>年<U> 12 </U>月<U>7</U>日<U> 14 </U>点<U> 00 </U>分（开选时间，下同），</B>递交地点为<B><U>成都市高新区天府大道北段966号天府国际金融中心3号楼成都金融城置业有限公司31026室</U>（开选地点，下同）</B>，逾期的或者未送达指定地点的比选申请文件，比选人不予受理。比选文件不接受邮寄递交！</DIV>
+<DIV align=left><B>六、</B><B>公告发布媒体</B></DIV>
+<DIV align=left>《成都商报》、中国采购与招标网（http://www.chinabidding.com.cn）及成都金融城公司网站（http://www.cdjrc.com）。</DIV>
+<DIV><B>七、联系方式</B></DIV>
+<DIV>比选人：成都金融城置业有限公司</DIV>
+<DIV>地&nbsp; 址：成都市高新区天府大道北段966号天府国际金融中心3号楼</DIV>
+<DIV>联&nbsp;系&nbsp;人：寻工、朱工</DIV>
+<DIV>联系电话：028—61886663转6702、028—61886663转6610</DIV>
+<DIV>&nbsp;</DIV>
+<DIV align=right>&nbsp;成都金融城置业有限公司</DIV>2017年11月17日</td>
+                    </tr>
+                    <tr>
+                      <td height="40" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <table width="706" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="353">
+                              <table width="353" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="10"><img src="Images/n_06.gif" width="5" height="5" /></td>
+                                  <td>上一条：
+                                    <a href='?id=838' title='成都交子金融文化博物馆项目建筑及室内概念设计方案征集评审结果公示'><font color=''>成都交子金融文化博物馆项目建筑及室内概念...</font></a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td>
+                              <table width="353" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="10"><img src="Images/n_06.gif" width="5" height="5" /></td>
+                                  <td>下一条：
+                                    <a href='?id=851' title='金融梦工场二期、三期改造项目（项目名称）招标代理机构比选公告（评分法）'><font color=''>金融梦工场二期、三期改造项目（项目名称）...</font></a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td height="25"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table width="960" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr>
+          <td width="360">
+            <table width="270" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="h_copy">COPYRIGHT&nbsp;2011&nbsp;&copy;&nbsp;CHENGDU FINANCIAL CITY</td>
+                <td width="22"><a href="http://www.lqfb.com" target="_blank"><img src="Images/h_06.gif" width="20" height="8" border="0" /></a></td>
+                <td><a href="http://www.exedesign.cn" target="_blank"><img src="Images/h_08.gif" width="22" height="8" border="0" /></a></td>
+              </tr>
+              <tr>
+                <td colspan="3" class="h_copy11">TEL. 86 28 61886663 \ FAX. 86 28 61886665&nbsp;&nbsp;<a href="mailto:marketing@cdjrc.com" title="公司邮箱"><img src="Images/h_mail.gif" width="10" height="7" /></a></td>
+              </tr>
+            </table>
+          </td>
+          <td width="428" class="h_btm">
+            <table border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr>
+                <td><a href="yqlj.asp">友情链接</a></td>
+                <td width="10" align="center">/</td>
+                <td><a href="fwzx.asp?sortid=75">联系我们</a></td>
+                <td width="10" align="center">/</td>
+                <td><a href="lyjy.asp">留言及建议</a></td>
+                <td width="20"></td>
+              </tr>
+            </table>
+          </td>
+          <td width="172">
+            <table width="170" border="0" cellspacing="0" cellpadding="0">
+              <form id="Form_Cx" name="Form_Cx" method="post" action="">
+                <tr>
+                  <td width="140" align="right"><input name="Txt_Key" type="text" class="h_serch" id="Txt_Key" onFocus="this.value=''" value="请输入关键字！"></td>
+                  <td width="30" align="right"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('c1','','images/cd-6.gif',1)"><img src="Images/cd-9.gif" width="22" height="18" name="c1" onClick="Xxcx()"></a></td>
+                </tr>
+              </form>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" height="10"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

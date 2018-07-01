@@ -1,0 +1,1466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>安龙县人民政府-招标公告</title>
+	<script src="/images/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script language="javascript" src="/images/tanchuceng.js"></script>
+	<link href="/images/xxgkml_list.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+		function GetQueryString(name) {
+		   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+		   var r = window.location.search.substr(1).match(reg);
+		   if (r!=null) return (r[2]); return null;
+		}
+	</script>
+	<script type="text/javascript">
+		var keyValue="";
+		var idxIDValue="";
+		var ChannelIDValue=jQuery("#channelid").val();
+		$(document).ready(function() {ChannelIDValue=jQuery("#channelid").val();
+			jQuery('#search_btn').click(function(){
+				InitTable();
+			});
+		});
+		//请求数据 
+			function InitTable() {
+				var html="";
+				var getParameter="";
+				keyValue=$.trim(encodeURI(jQuery("#title").val()));
+				idxIDValue=jQuery("#indexID").val();
+				getParameter+="Channelid=69155";
+				getParameter+="&key="+keyValue;
+				if(idxIDValue.length>0)
+				{
+					getParameter+="&idxID="+idxIDValue;
+				}
+				var url='/gzdsWCMSearch/wcm4govinfo.jsp?'+getParameter+'&callback=?';//外网地址
+				showloading();//加载loading
+				jQuery.getJSON(url,'',function (data){
+					jQuery("#searchRs").empty();//去掉loading
+					if(data.rows.length>0){
+						for(var i=0;i<data.rows.length;i++){
+							html+="<tr>";
+							var bt=data.rows[i].MetaDataTitle;
+							if(bt.length>40){
+								bt=bt.substring(0,40)+"...";
+							}
+							html+="<td width='502' align='left' style='padding:4px;height:28px;'><h1 style='position: relative;color: #333;font-weight:normal;'><a href='"+data.rows[i].docpuburl+"' target='_blank'>"+bt.replace(keyValue,'<font color=\"red\">'+keyValue+'</font>')+"</a>";
+								html+="<div class='showbox'>";
+								html+="<table width='100%' style='position: relative;'>";
+								html+="<tr>";
+								html+="<td width='50%' align='left' style='border-right: 1px solid #dddddd;'>索引号:"+data.rows[i].idxID+"&nbsp;&nbsp;</td>";
+								html+="<td align='left'>文号:"+data.rows[i].fileNum+"&nbsp;&nbsp;</td>";
+								html+="</tr>";
+								html+="<tr>";
+								if(data.rows[i].Publisher!=''){
+									html+="<td colspan='2' align='left'>发布机构:"+data.rows[i].Publisher+"&nbsp;&nbsp;</td>";
+								}else{
+									var str_2 = "县政府办公室";
+									html+="<td colspan='2' align='left'>发布机构:"+str_2+"&nbsp;&nbsp;</td>";
+								}
+								html+="</tr>";
+								html+="<tr>";
+								html+="<td colspan='2' align='left'>名称:"+data.rows[i].MetaDataTitle+"&nbsp;&nbsp;</td>";
+								html+="</tr>";
+								html+="<tr>";
+								html+="<td width='50%' align='left' style='border-right: 1px solid #dddddd;'>生成日期:"+data.rows[i].PubDate.substring(0,10).replace(".","-").replace(".","-")+"&nbsp;&nbsp;</td>";
+								html+="<td align='left'>是否有效:";
+								var  isok=data.rows[i].isok;
+								if(isok=='0'){
+									html+="&emsp;否";
+								}
+								else{
+									html+="&emsp;是";
+								}
+								html+="</td>";
+								html+="</tr>";
+								html+="</table>";
+								html+="</div>";
+							html+="</h1></td>";
+							html+="<td align='center' width='114' style='border-left:#e1e1e1 1px solid'>"+data.rows[i].PubDate.substring(0,10).replace(".","-").replace(".","-")+"</td>";
+							if(data.rows[i].Publisher!=''){
+								html+="<td align='center' width='168' style='border-left:#e1e1e1 1px solid'>"+data.rows[i].Publisher+"</td>";
+							}else{
+								var str_1 = "政府办";
+								html+="<td align='center' width='168' style='border-left:#e1e1e1 1px solid'>"+str_1+"</td>";
+							}
+							html+="</tr>";
+						}
+					}else{
+							html+="<tr>";
+							html+="<td colspan='3' height='30' align='center'>没有查询到相关记录，请核实你输入的信息是否正确!</td>";
+							html+="</tr>";
+					}
+					$("#idData").empty();
+					$("#data").hide();
+					$("#page").hide();
+					$("#idData").append(html);
+					$(".tab_list tr:nth-child(2n)").css("background-color","#F9F8F3");
+					goPage(1,20);
+				});
+			}
+			function showloading(){ //加载loading
+				 jQuery("#searchRs").html('<div class="searching">数据加载中<br/><img src="/images/loading.gif" /><div>');
+			} 
+	</script>
+	<script type="text/javascript">
+		function goPage(pno,psize){
+			var itable = document.getElementById("idData");
+			var num = itable.rows.length;//表格所有行数(所有记录数)
+			console.log(num);
+			var totalPage = 0;//总页数
+			var pageSize = psize;//每页显示行数
+			//总共分几页 
+			if(num/pageSize > parseInt(num/pageSize)){   
+					totalPage=parseInt(num/pageSize)+1;   
+			   }else{   
+				   totalPage=parseInt(num/pageSize);   
+			   }   
+			var currentPage = pno;//当前页数
+			var startRow = (currentPage - 1) * pageSize+1;//开始显示的行  31 
+			   var endRow = currentPage * pageSize;//结束显示的行   40
+			   endRow = (endRow > num)? num : endRow;    40
+			   console.log(endRow);
+			   //遍历显示数据实现分页
+			var tempStr="";
+			for(var i=1;i<(num+1);i++){    
+				var irow = itable.rows[i-1];
+				if(i>=startRow && i<=endRow){
+					irow.style.display = "block";
+					
+				}else{
+					irow.style.display = "none";
+				}
+			}
+			var pageEnd = document.getElementById("pageEnd");
+//			var tempStr = "共<font color=red>"+num+"</font>条记录 共<font color=red>"+totalPage+"</font>页 当前第<font color=red>"+currentPage+"</font>页";
+			var tempStr="";
+			if(currentPage>1){
+				tempStr += "&nbsp;<a href=\"javascript:;\" onClick=\"goPage("+(1)+","+psize+")\">首页</a>";
+				tempStr += "&nbsp;<a href=\"javascript:;\" onClick=\"goPage("+(currentPage-1)+","+psize+")\">上一页</a>"
+			}else{
+				tempStr += "&nbsp;<a href=\"javascript:;\">首页</a>";
+				tempStr += "&nbsp;<a href=\"javascript:;\">上一页</a>";    
+			}
+		
+			if(currentPage<totalPage){
+				tempStr += "&nbsp;<a href=\"javascript:;\" onClick=\"goPage("+(currentPage+1)+","+psize+")\">下一页</a>";
+				tempStr += "&nbsp;<a href=\"javascript:;\" onClick=\"goPage("+(totalPage)+","+psize+")\">尾页</a>";
+			}else{
+				tempStr += "&nbsp;<a href=\"javascript:;\">下一页</a>";
+				tempStr += "&nbsp;<a href=\"javascript:;\">尾页</a>";    
+			}
+		
+			document.getElementById("barcon").innerHTML = tempStr;
+			
+		}
+	</script>
+</head>
+<body>
+	<div class="list_nr">
+		<table width="100%" align="center">
+			<tr>
+				<td>
+					<!--当前位置-->
+					<div class="dqwz">
+						当前位置：<a href="../../../../../" target="_parent" title="首页" class="CurrChnlCls">首页</a>&nbsp;&raquo;&nbsp;<a href="../../../../" target="_parent" title="政务公开" class="CurrChnlCls">政务公开</a>&nbsp;&raquo;&nbsp;<a href="../../../" target="_parent" title="信息公开目录" class="CurrChnlCls">信息公开目录</a>&nbsp;&raquo;&nbsp;<a href="../../" target="_parent" title="重点领域信息公开" class="CurrChnlCls">重点领域信息公开</a>&nbsp;&raquo;&nbsp;<a href="../" target="_parent" title="政府采购" class="CurrChnlCls">政府采购</a>&nbsp;&raquo;&nbsp;<a href="./" target="_parent" title="招标公告" class="CurrChnlCls">招标公告</a>
+					</div>
+					<!--检索 -->
+					<table border="0" align="center" cellpadding="0" cellspacing="0" width="100%">
+					  <tr >
+					   <td width="83" height="34" background="/images/xxgk_lb_05.jpg">
+					   		<img src="/images/xxgk_lb_03.jpg" width="83" height="30" />
+					   </td>
+					   <td width="50" align="right" background="/images/xxgk_lb_05.jpg">名称： </td>
+					   <td width="158" valign="middle" background="/images/xxgk_lb_05.jpg">
+							<input name="title" id="title" type="text" style="width:158px ;height:20px; border:none;background-image:url(/images/xxgk_ss.gif); background-position:left; background-repeat:repeat-x ;" value="" maxlength="200" />
+					   </td>
+					   <td width="50" align="right" background="../../../../../images/xxgk_lb_05.jpg">索引号： </td>
+					   <td width="158" valign="middle" background="/images/xxgk_lb_05.jpg">
+							<input name="indexID" id="indexID" type="text" style="width:158px ;height:20px; border:none;background-image:url(/images/xxgk_ss.gif); background-position:left; background-repeat:repeat-x ;" value="" maxlength="200" />
+					   </td>
+					  <td valign="middle" style="padding-left:10px;" background="/images/xxgk_lb_05.jpg">
+						<input type="image" name="btnsearch" id="search_btn" value="检索" src="/images/xxgk_ssaj.jpg" /></td>
+						<td width="12" background="/images/xxgk_lb_07.jpg"></td>
+					  </tr>
+					</table>
+					<!--列表标题-->
+					<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+						<tr class='tr_main_label'>
+							<td width="9" height="32" background="/images/xxgk_lby_04.jpg"></td>
+							<td align='center' background="/images/xxgk_lby_05.jpg"><strong>信息标题</strong></td>
+							<td width="15" background="/images/xxgk_lby_07.jpg"></td>
+							<td width="100" align='center' background="/images/xxgk_lby_05.jpg"><strong>生成日期</strong></td>
+							<td width="15" background="/images/xxgk_lby_07.jpg"></td>
+							<td width="150" align='center' background="/images/xxgk_lby_05.jpg"><strong>发布机构</strong></td>
+							<td width="12" background="/images/xxgk_lby_09.jpg"></td>
+						</tr>
+					</table>
+					<table class="tab_list" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="border-bottom:#e1e1e1 1px solid; border-right:#e1e1e1 1px solid; border-left:#e1e1e1 1px solid;" id="idData">
+						
+					</table>
+					<!--列表-->
+					<table class="tab_list" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="border-bottom:#e1e1e1 1px solid; border-right:#e1e1e1 1px solid; border-left:#e1e1e1 1px solid;" id="data">
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县卫生和计划生育局省级人口健康文化建设试点项目采购需求公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014876.html">
+        
+					
+									·	安龙县卫生和计划生育局省级人口健康文化建设试点项目采购需求公示</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00034</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县卫生和计划生育局省级人口健康文化建设试点项目采购需求公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-04-04</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县城乡生活垃圾收运一体化及清扫保洁 PPP 项目（二次）资格预审公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014919.html">
+        
+					
+									·	安龙县城乡生活垃圾收运一体化及清扫保洁 PPP 项目（二次）资格预审公告</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00077</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县城乡生活垃圾收运一体化及清扫保洁 PPP 项目（二次）资格预审公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-03-30</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县2018年南门和梓桐阁西片区城市（城中村）棚户区改造项目单一来源公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014917.html">
+        
+					
+									·	安龙县2018年南门和梓桐阁西片区城市（城中村）棚户区改造项目单一来源公示</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00075</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县2018年南门和梓桐阁西片区城市（城中村）棚户区改造项目单一来源公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-03-16</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县2018年碗厂和老车站片区城市（城中村）棚户区改造项目单一来源公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014913.html">
+        
+					
+									·	安龙县2018年碗厂和老车站片区城市（城中村）棚户区改造项目单一来源公示</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00071</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县2018年碗厂和老车站片区城市（城中村）棚户区改造项目单一来源公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-03-16</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县2018年塔山和梓桐阁东片区城市（城中村）棚户区改造项目单一来源公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014911.html">
+        
+					
+									·	安龙县2018年塔山和梓桐阁东片区城市（城中村）棚户区改造项目单一来源公示</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00069</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县2018年塔山和梓桐阁东片区城市（城中村）棚户区改造项目单一来源公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-03-16</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="黔西南州安龙县污水处理厂及其配套管网工程PPP项目采购公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014904.html">
+        
+					
+									·	黔西南州安龙县污水处理厂及其配套管网工程PPP项目采购公告</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00062</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;黔西南州安龙县污水处理厂及其配套管网工程PPP项目采购公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-03-08</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县油用（观赏）牡丹基地建设项目工程更正公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014903.html">
+        
+					
+									·	安龙县油用（观赏）牡丹基地建设项目工程更正公告</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00061</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县油用（观赏）牡丹基地建设项目工程更正公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-02-28</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县油用（观赏）牡丹基地建设项目工程采购公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014901.html">
+        
+					
+									·	安龙县油用（观赏）牡丹基地建设项目工程采购公告</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00059</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县油用（观赏）牡丹基地建设项目工程采购公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-02-27</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县财政局一事一议、美丽乡村项目太阳能路灯采购项目采购需求公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014895.html">
+        
+					
+									·	安龙县财政局一事一议、美丽乡村项目太阳能路灯采购项目采购需求公示</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00053</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县财政局一事一议、美丽乡村项目太阳能路灯采购项目采购需求公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-02-06</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县原职业中学及杨柳街棚户区改造项目、贵州省海安监狱安置房项目电梯采购项目采购公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014893.html">
+        
+					
+									·	安龙县原职业中学及杨柳街棚户区改造项目、贵州省海安监狱安置房项目电...</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00051</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县原职业中学及杨柳街棚户区改造项目、贵州省海安监狱安置房项目电梯采购项目采购公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-01-31</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县国家现代农业产业园申报书与建设总体规划编制采购需求公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201804/t20180404_3014890.html">
+        
+					
+									·	安龙县国家现代农业产业园申报书与建设总体规划编制采购需求公示</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2018-00048</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县国家现代农业产业园申报书与建设总体规划编制采购需求公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2018-01-31</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县疗养院医疗设备采购项目更正公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201712/t20171210_2938431.html">
+        
+					
+									·	安龙县疗养院医疗设备采购项目更正公告</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2017-00043</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县疗养院医疗设备采购项目更正公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-12-06</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县疗养院医疗设备采购项目采购公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201712/t20171210_2938432.html">
+        
+					
+									·	安龙县疗养院医疗设备采购项目采购公告</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2017-00044</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县疗养院医疗设备采购项目采购公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-12-05</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县农村土地承包经营权确权登记颁证工作第三方检查评估机构费用采购项目采购公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201712/t20171210_2938433.html">
+        
+					
+									·	安龙县农村土地承包经营权确权登记颁证工作第三方检查评估机构费用采购...</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2017-00045</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县农村土地承包经营权确权登记颁证工作第三方检查评估机构费用采购项目采购公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-12-04</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="贵州省安龙县供水工程PPP项目咨询服务采购采购需求公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201712/t20171210_2938434.html">
+        
+					
+									·	贵州省安龙县供水工程PPP项目咨询服务采购采购需求公示</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2017-00046</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;贵州省安龙县供水工程PPP项目咨询服务采购采购需求公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-29</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县2017年棚户区改造项目单一来源公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201712/t20171210_2938437.html">
+        
+					
+									·	安龙县2017年棚户区改造项目单一来源公示</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2017-00049</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县2017年棚户区改造项目单一来源公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-28</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县农村土地承包经营权确权登记颁证工作第三方检查评估机构费用采购项目采购需求公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201712/t20171210_2938435.html">
+        
+					
+									·	安龙县农村土地承包经营权确权登记颁证工作第三方检查评估机构费用采购...</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2017-00047</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县农村土地承包经营权确权登记颁证工作第三方检查评估机构费用采购项目采购需求公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-28</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县疗养院医疗设备采购项目采购需求公示"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201712/t20171210_2938436.html">
+        
+					
+									·	安龙县疗养院医疗设备采购项目采购需求公示</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2017-00048</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县疗养院医疗设备采购项目采购需求公示</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-28</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="贵州省安龙县禄堂湾殡仪馆及公墓运营PPP项目资格预审公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201712/t20171210_2938439.html">
+        
+					
+									·	贵州省安龙县禄堂湾殡仪馆及公墓运营PPP项目资格预审公告</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2017-00051</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;贵州省安龙县禄堂湾殡仪馆及公墓运营PPP项目资格预审公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-24</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+							<tr>							
+								<td align='left' style='padding:4px;height:28px;'>
+									<h1>
+										
+        
+        
+            <a TARGET="_blank" title="安龙县城市综合管廊建设PPP项目资格预审公告"  href="http://www.gzal.gov.cn/zwgk/xxgkml/zdlyxxgk/zfcg/zbgg/201712/t20171210_2938438.html">
+        
+					
+									·	安龙县城市综合管廊建设PPP项目资格预审公告</a>
+										<div class="showbox">
+											<ul>
+												<li class="li01">索引号:</li>
+												<li class="li02">&nbsp;GZ000001/2017-00050</li>
+												<li class="li01">文&emsp;号:</li>
+												<li class="li02">&nbsp;</li>
+												<li class="li01">发布机构:</li>
+												<li class="li02">
+													&nbsp;<script type="text/javascript">
+														 var str = "";
+														 var str_1 = "县政府办公室";
+														 if (str == "") {
+															 document.write(str_1);
+														 } else {
+															 document.write(str);
+														 }
+													 </script>
+												</li>
+												<li class="li01">
+													是否有效:
+												</li>
+												<li class="li02">
+													<script type="text/javascript">
+														var  isok='1';
+														if(isok=='0'){
+															document.write('&nbsp;否');
+														}
+														else{
+															document.write('&nbsp;是');
+														}
+													</script>
+												</li>
+												<li class="li01">名&emsp;称:</li>
+												<li class="li03">&nbsp;安龙县城市综合管廊建设PPP项目资格预审公告</li>
+											</ul>
+										</div>
+									</h1>
+								</td>
+								<td align='center' width="114" style="border-left:#e1e1e1 1px solid">2017-11-24</td>
+								<td align='center' width="168" style="border-left:#e1e1e1 1px solid">
+									<script type="text/javascript">
+										 var str = "";
+										 var str_1 = "县政府办公室";
+										 if (str == "") {
+											 document.write(str_1);
+										 } else {
+											 document.write(str);
+										 }
+									 </script>
+								</td>
+							</tr>
+						
+					</table>
+					<script type="text/javascript">
+						$(".tab_list tr:nth-child(2n)").css("background-color","#F9F8F3");
+					</script>
+					<!--分页-->
+					<div id="barcon" name="barcon"  class="page t_c"></div>
+					<div id="page">
+						<div class="page">
+							<!-- 通用分页 -->
+ <script type="text/javascript" src="/images/createpage.js"></script>
+ <script>createPageHTML(7, 0, "list", "html")</script>
+<!-- 通用分页 结束 -->
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,408 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>政务服务中心</title>
+<SCRIPT language=JavaScript src="../js/stm31.js" 
+type=text/javascript></SCRIPT>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" charset="gbk" src="./js/ueditor/editor_look.js"></script>
+<script type="text/javascript" charset="gbk" src="./js/ueditor/ueditor.all.js"></script>
+<style>
+#edui1{border:none;}
+</style>
+</head>
+<body>
+<!--页面头文件-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="keywords" contect="通辽政务服务中心,通辽行政服务中心,通辽,政务中心,行政服务中心,政务,政务服务,行政审批,审批,办证,办证大厅,通辽市办证大厅,投诉,咨询,通辽办事咨询,办事咨询,办事投诉,审批投诉,网上申报,公共资源交易,招投,投标,审批大厅,行政大厅,网上投诉,网上评议,政府评议,中心动态,中心领导,通辽职权,职权划分,政策法规,政务公开,办事指南,办事公示,行政业务公司,举报信箱,领导举报,办事举报,中心公告,招标公示,中标公示,办事业务,办事咨询"/>
+<meta name="description" contect="该网站是关于通辽政务服务中心的情况介绍！"/> 
+<meta name="robots" contect="none"/>
+<meta name="author" contect= "www.zhuofansoft.com" /> 
+<title>政务服务中心</title>
+<link href="../css_new/index.css" rel="stylesheet" />
+<script src="../js_new/jquery.js" type=text/javascript></script>
+<script type="text/javascript" src="../js/ztree/js/jquery.ztreeshow.core-3.5.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+
+document.onclick = mclose; 
+
+</script>
+
+<body>
+<div class="top">
+   <div class="all">
+      <div class="weather">   
+	 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><span style=" background:url(images/time.gif) left center no-repeat; padding:4px 10px 2px 20px; " id="nowtime">
+		<script language="javascript">
+				function initArray(){		
+					for(i=0;i<initArray.arguments.length;i++)		
+					this[i]=initArray.arguments[i];
+				}	
+				var isnMonths=new initArray("1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月");	
+				var isnDays=new initArray("星期日","星期一","星期二","星期三","星期四","星期五","星期六","星期日");	
+				today=new Date();	
+				hrs=today.getHours();	
+				min=today.getMinutes();	
+				sec=today.getSeconds();	
+				clckh=""+((hrs>12)?hrs-12:hrs);		
+				clckm=((min<10)?"0":"")+min;	
+				clcks=((sec<10)?"0":"")+sec;	
+				clck=(hrs>=12)?"下午":"上午";	
+				var stnr="";	
+				var ns="0123456789";	
+				var a=""; 	
+				function getFullYear(d){	//d is a date object		
+				yr=d.getYear();		
+				if(yr<1000)
+				yr+=1900;		
+				return yr;	} 	
+				document.write(getFullYear(today)+"年"+isnMonths[today.getMonth()]+""+today.getDate()+"日 "+isnDays[today.getDay()]);
+		</script>
+			</span>
+		</td>
+		<td><iframe id="weather" name="weather" src="http://m.weather.com.cn/n/pn2/weather.htm?id=101080501T" width="200" height="20" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency></iframe>
+</td>
+	</tr>
+</table>
+	 
+	  </div>
+   </div>
+</div>
+<!--top结束-->
+<div class="all">
+<object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1100" height="227">
+<param name="movie" value="../images/top.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="opaque" />
+<param name="swfversion" value="6.0.65.0" />
+<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+<param name="expressinstall" value="Scripts/expressInstall.swf" />
+<!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+<!--[if !IE]>-->
+<object type="application/x-shockwave-flash" data="../images/top.swf" width="1100" height="227">
+<!--<![endif]-->
+<param name="quality" value="high" />
+<param name="wmode" value="opaque" />
+<param name="swfversion" value="6.0.65.0" />
+<param name="expressinstall" value="Scripts/expressInstall.swf" />
+<!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+<div>
+<h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+</div>
+<!--[if !IE]>-->
+</object>
+<!--<![endif]-->
+</object></div>
+<!--banner结束-->
+<div class="all">
+ <div class="dh">
+ <ul id="sddm">
+	<li><a href="../index/showIndex.action" onmouseover="mopen('m1')" onmouseout="mclosetime()">首页</a>
+		<div style="border:none" id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">政务公开</a>
+		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"style="z-index:99999;">
+		<a href="showInfoListByMiddle.action?infoPid=143">中心简介</a>
+		<a href="showInfoListByMiddle.action?infoPid=115">机构设置</a>
+		<a href="showInfoListByMiddle.action?infoPid=144">中心文件</a>
+		<a href="showInfoListByMiddle.action?infoPid=145">规章制度</a>
+		<a href="showInfoListByMiddle.action?infoPid=124">项目流程</a>
+		<a href="showServiceDeptListNew.action">办事电话</a>
+<!-- 		<a href="showInfoListByMiddle.action?infoPid=172">中心机构</a> -->
+	
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">工作动态</a>
+		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showInfoListByMiddle.action?infoPid=7">中心简报</a>
+		<a href="showInfoListByMiddle.action?infoPid=162">动态新闻</a>
+		<a href="showInfoListByMiddle.action?infoPid=162&infoMid=1139193557027">大事记</a>
+		<a href="showInfoListByMiddle.action?infoPid=162&infoMid=1139193557028">影音视频</a>
+		<a href="showInfoListByMiddle.action?infoPid=10">经验交流</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">政策法规</a>
+		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showInfoListByMiddle.action?infoPid=151">国家法律</a>
+		<a href="showInfoListByMiddle.action?infoPid=152">部门法规</a>
+		<a href="showInfoListByMiddle.action?infoPid=153">政府文件</a>
+		<!-- <a href="showInfoListByMiddle.action?infoPid=6">投资政策</a> -->
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">廉政之窗</a>
+		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showInfoListByMiddle.action?infoPid=157&infoMid=1139193557024" >廉政文化</a>
+		<a href="showInfoListByMiddle.action?infoPid=157&infoMid=1139193557025" >典型案例</a>
+		<a href="showInfoListByMiddle.action?infoPid=157&infoMid=1139193557026">他山之石</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()">办事指南</a>
+		<div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showDeptList_guide.action?orgId=25872">办事向导</a>
+		<!-- <a href="showInfoListByMiddle.action?infoPid=158">表格下载</a> -->
+		</div>
+	</li>
+	<li><a href="http://ggzy.tlzw.net/indexPage.action?columnId=402881ee4debedd8014debf8d0570004" onmouseover="mopen('m7')" onmouseout="mclosetime()" target="_blank">公共资源交易</a>
+		<div id="m7" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showNoticeInfoList.action?noticeOid=01">政府采购</a>
+		<a href="showNoticeInfoList.action?noticeOid=04">建设工程交易</a>
+		<a href="showNoticeInfoList.action?noticeOid=02">土地交易</a>
+		<a href="showNoticeInfoList.action?noticeOid=05">矿业权交易</a>
+		<a href="showNoticeInfoList.action?noticeOid=03">产权交易</a>
+		<!-- <a href="showNoticeInfoList.action?noticeOid=11">其他</a> -->
+		</div>
+	</li>
+	<li><a href="onlineService.action" onmouseover="mopen('m8')" onmouseout="mclosetime()">网上办事</a>
+		<div id="m8" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="z-index:99999;">
+		<a href="showConsultInput.action" target="_blank">网上咨询</a>
+		<a href="http://10.21.221.223:8089/zwpt/netLogin.action" target="_blank">网上申报</a>
+		<a href="wangshangPingyi.action">网上评议</a>
+		<a href="http://www.tlzw.net/xzts/welcomeComplain.action" target="_blank">网上投诉</a>
+		<!-- <a href="mailto:hbxzzxszh@163.com">主任信箱</a> -->
+		</div>
+	</li>
+</ul>
+ </div>
+</div>
+
+</body>
+</html>
+ <!---->
+ <div class="all">
+ <table border="0" cellspacing="0" cellpadding="0" align="center" class="TableSet">
+  <tr>
+    <td class="TdLeft">
+<div class="Title">
+	<img src="../images/title_left2.gif" class="fl" />
+	<span class="fl">招标公告</span>
+	<img src="../images/title_right2.gif" class="fr" />
+</div>
+<div style="padding:10px;">
+	
+	
+		<a class="Link" href="showInfoListByMiddle.action?infoPid=24&infoMid=1139193556826" title="政府采购">政府采购</a>
+     
+		<a class="Link" href="showInfoListByMiddle.action?infoPid=24&infoMid=1139193556883" title="建设工程">建设工程</a>
+     
+		<a class="Link" href="showInfoListByMiddle.action?infoPid=24&infoMid=1139193556885" title="产权交易">产权交易</a>
+     
+		<a class="Link" href="showInfoListByMiddle.action?infoPid=24&infoMid=1139193556886" title="土地交易">土地交易</a>
+     
+		<a class="Link" href="showInfoListByMiddle.action?infoPid=24&infoMid=1139193556956" title="矿业权交易">矿业权交易</a>
+     
+		<a class="Link" href="showInfoListByMiddle.action?infoPid=24&infoMid=1139193556959" title="其它">其它</a>
+     
+     
+     
+</div></td>
+    <td class="TdRight">
+		<div class="Title">
+			<img src="../images/title_ico1.gif" class="fl" />
+			<span class="fl">招标公告&nbsp;>&nbsp; 
+			<script>
+						var infoTitle = '阿日昆都楞镇“十个全覆盖”街巷硬化工程建设项目';
+						if(infoTitle.length<20)
+							document.write(infoTitle);
+						else
+							document.write(infoTitle.substring(0,20)+"...");
+				</script></span>
+			<input name="CmdCancel" type="image" onClick="javascript:history.go(-1)" src="../images/back.gif" class="fr" />
+		</div>
+		<div class="Text">
+			<div style="text-align:center">
+				<h2 style="font-size:15pt; font-weight:bold;">阿日昆都楞镇“十个全覆盖”街巷硬化工程建设项目</h2>
+				<p>上传时间：2017-04-18</p>
+			</div>
+			
+			
+			<table>
+			<tr>
+			<td></td>
+			</tr>
+			</table>
+			
+			
+			
+			<table width=100% border="0" cellpadding="0" cellspacing="0">
+			<tr>
+			<td align="center" valign="top" style="text-align: center;">
+			   
+
+			</td></tr>
+			</table>
+			
+			
+			
+			
+			
+			<div id="myUEditor">
+
+			 
+							<textarea id="tempContent" name="infoTcontent.infoContent"><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: "><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">阿日昆都楞镇</span>“十个全覆盖”街巷硬化工程建设项目（</span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">ZQJY2017-10</span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">）</span></strong></p><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: "></span>&nbsp;</p><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 18px: ; 宋体: ; 19px: ">一、</span><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 19px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">招标条件</span></span></strong></p><p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 200%; TEXT-INDENT: 32px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">本招标项目</span></span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">阿日昆都楞镇</span>“十个全覆盖”街巷硬化工程建设项目</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">已由</span></span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">扎鲁特旗发展和改革局</span></span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">以</span></span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">扎发改审字（</span>201</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">7</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">）</span></span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">1</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">9号</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">批准建设，招标人为</span></span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">阿日昆都楞镇人民政府</span></span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">，建设资金来自</span></span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">地方自筹</span></span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">，项目出资比例为</span></span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">自筹</span></span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">0</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">元，政府投资</span></span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">3267302</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">元</span></span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">。项目已具备招标条件，现对该项目进行公开招标。</span></span></p><p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 200%; TEXT-INDENT: 32px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></p><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 18px: ; 宋体: ; 19px: ">二、</span><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 19px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">项目概况与招标范围</span></span></strong></p><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（一）项目名称：</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">阿日昆都楞镇</span>“十个全覆盖”街巷硬化工程建设项目</span></p><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（二）建设地点：</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">阿日昆都楞镇人民政府</span></span></p><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（三）招标内容：</span></span></p><table width="637" uetable="null"><tbody><tr style="FONT-FAMILY: 宋体; HEIGHT: 45px; FONT-SIZE: 18px; 18px: ; 宋体: " class="firstRow"><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: rgb(0,0,0) 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="103"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">标段编号</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="134"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">标段名称</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="119"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">企业资质要求</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="123"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">人员资质要求</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="57"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">工期</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: rgb(0,0,0) 1px solid; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="100"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">合同估算价</span></p></td></tr><tr style="FONT-FAMILY: 宋体; HEIGHT: 97px; FONT-SIZE: 18px; 18px: ; 宋体: "><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: rgb(0,0,0) 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: #f0f0f0; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="103"><p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">&nbsp;ZQJY2017-10001</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: #f0f0f0; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="134"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">阿日昆都楞镇“十个全覆盖”街巷硬化工程建设项目</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: #f0f0f0; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="119"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">[公路工程施工总承包三级（含）以上]</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: #f0f0f0; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="123"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">[公路工程二级（含）以上]</span></p></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: #f0f0f0; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="57"></td><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: #f0f0f0; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="100"><p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">3267302元</span></p></td></tr><tr style="FONT-FAMILY: 宋体; HEIGHT: 49px; FONT-SIZE: 18px; 18px: ; 宋体: "><td style="BORDER-BOTTOM: rgb(0,0,0) 1px solid; BORDER-LEFT: rgb(0,0,0) 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: 宋体; FONT-SIZE: 18px; BORDER-TOP: #f0f0f0; BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-TOP: 5px; 18px: ; 宋体: " valign="center" width="637" colspan="6"><p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ">街巷硬化工程施工</span></p></td></tr></tbody></table><p style="TEXT-ALIGN: left; LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-FAMILY: 宋体; BACKGROUND: rgb(255,255,0); FONT-SIZE: 18px; 18px: ; 宋体: ">&nbsp;</span></p><p style="TEXT-ALIGN: left; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">三、</span></span></strong><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 19px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">投标人资格要求</span></span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;&nbsp;</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">1. 本次招标不接受联合体投标。</span></p><p style="TEXT-ALIGN: left; LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;&nbsp;2. 其他要求：</span> </p><p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 200%; TEXT-INDENT: 32px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: "><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single; sans-serif: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">(一)投标人须具有建设行政主管部门核发的</span></span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">公路</span></span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single; sans-serif: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">工程施工总承包资质叁级及其以上资质的独立法人单位，并在人员、设备、资金等方面具有相应的施工能力。 (二)拟派项目经理须为公路工程专业二级注册建造师，具备有效的安全生产考核合格证书，且未担任其他在施建设工程项目的项目经理。 (三)投标单位不得采用挂靠、转包、虚报业绩和代为投标等形式投标，一经发现，其中标无效并负责赔偿招标人全部损失。 (四) 投标人如果是内蒙古自治区区外企业，还需在内蒙古自治区住房和城乡建设厅办理备案且在网上可以</span></span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">查询到。</span></span></span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 18px: ; 宋体: ; 19px: ">四、</span><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 19px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">公告发布媒体</span></span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 16px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; BACKGROUND: rgb(244,244,244); LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 18px: ; 宋体: ; 16px: ">（一）</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; BACKGROUND: rgb(244,244,244); LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">中国采购与招标网</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">网址：</span></span><a href="http://www.chinabidding.com.cn/"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; COLOR: #0000ff; FONT-SIZE: 18px; 18px: ; 宋体: ">http://www.chinabidding.com.cn/</span></span></span></a></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 16px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; BACKGROUND: rgb(244,244,244); LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（二）</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; BACKGROUND: rgb(244,244,244); LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">通辽市公共资源交易网</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">网址：</span></span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">http://</span></span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">ggzy.tlzw.net</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ; text-underline: single; 12px: ">&nbsp;</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">五、</span></span></strong><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 19px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">投标报名</span></span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（一）报名网址：通辽市公共资源交易网</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">网址：</span></span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">http://ggzy.tlzw.gov.cn</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（二）报名时间：</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">2017年04月</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">1</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">7</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">日</span> </span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">08</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">:</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">30</span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">至</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">2017年04月</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">21</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">日</span> 17:30</span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（北京时间），逾期不予受理。</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（三）报名方式：采用网上报名。</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 32px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">注：已进入通辽市公共资源诚信信息库的企业可在业务系统内进行网上投标报名，没有入库的企业须办理入库手续方可报名。投标报名以业务系统网上报名成功为准。</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 16px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 18px: ; 宋体: ; 16px: ">（四）</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">通辽市公共资源交易诚信信息库办理地址：通辽市政务服务中心和公共资源交易中心二楼，办公时间为周一至周五上午</span> 8:30— 11:30时，下午 2:30— 5:30时。</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 37px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 18px: ; 宋体: ; 19px: ">六、</span><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 19px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">资格审查</span></span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 16px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 18px: ; 宋体: ; 16px: ">（一）</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">审查方式：资格后审，即在开标后评标委员会按照招标文件规定的标准和方法对投标人的资格进行审查。</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><br/></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（二）审查时间：开标后由评标委员会进行审核。</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><br/></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（三）审查地点：扎鲁特旗公共资源交易中心</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">。</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 37px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 18px: ; 宋体: ; 19px: ">七、</span><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 19px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">招标文件的获取</span></span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 16px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 18px: ; 宋体: ; 16px: ">（一）</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">时间</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">2017年04月</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">17</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">日</span> </span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">08</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">:</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">30</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">:</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">0</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">0</span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">至</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">2017年04月</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">21</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">日</span> 17:30:</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">0</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">0</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">&nbsp;</span></span></strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">（北京时间）。</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 16px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 18px: ; 宋体: ; 16px: ">（二）</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">招标文件购买方式：在通辽市公共资源网上交易系统通过在线支付招标文件费用后，方可下载电子招标文件</span>,图纸文件的领取方式详见招标文件下载页面。</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 16px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 18px: ; 宋体: ; 16px: ">（三）</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">售价：</span></span><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">5</span></span></strong><strong><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; TEXT-DECORATION: underline; 18px: ; 宋体: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ; text-underline: single">00元。</span></span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; BACKGROUND: rgb(255,255,0); LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 18px: ; 宋体: ; 19px: ">八、</span><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 19px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">其他说明</span></span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; TEXT-INDENT: 32px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 18px: ; 宋体: ; 16px: ">九、</span><strong><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: bold; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">联系方式</span></span></strong></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">招</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">标</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">人：阿日昆都楞镇人民政府</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">招标代理机构：内蒙古弘润工程</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">项目管理有限公司</span> </span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">地</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">址：阿日昆都楞镇</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">地</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">址：</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">邮</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">编：</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">邮</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">编：</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">联</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">系</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">人：</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">乌力吉图</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">联</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">系</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">人：</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">李萌</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">电</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">话：</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">13948656747</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">电</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">话：</span></span><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">18647590147</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">传</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">真：</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">传</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">真：</span></span></p><p style="TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; TEXT-AUTOSPACE: ideograph-numeric; FONT-SIZE: 18px; PADDING-TOP: 0px; 200: ; 18px: ; 宋体: ; 150: "><span style="LINE-HEIGHT: 200%; FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 200: ; 18px: ; 宋体: ; 150: ; 16px: ">&nbsp;</span></p><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: "><span style="FONT-STYLE: normal; FONT-FAMILY: 宋体; LETTER-SPACING: 0px; COLOR: rgb(0,0,0); FONT-SIZE: 18px; FONT-WEIGHT: normal; 18px: ; 宋体: ; 16px: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">电</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">子</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">邮</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">件：</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">电</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">子</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">邮</span> <span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: ">件：</span></span></p><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: "><span style="FONT-FAMILY: 宋体; FONT-SIZE: 18px; 18px: ; 宋体: "></span>&nbsp;</p><p style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 18px; 200: ; 18px: ; 宋体: ">&nbsp;</p></textarea>
+							<script type="text/javascript">
+								var editor_a1;
+								jQuery(function(){
+									editor_a1 = UE.getEditor('tempContent', {
+										initialFrameWidth : '100%',
+										initialFrameHeight : 30,
+										readonly : true
+									});
+								});
+							</script>
+						 
+			</div>
+			<!-- 防止表格的边框不显示的问题 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+	          <p style="font-size:15px;"> 
+	          	详情请点击链接
+	          	<a style="text-decoration:underline; color:red" target="_blank" href="http://ggzy.tlzw.gov.cn/getWebBussTimerDetail.action?newsId=8a955d605b7b2bb1015b7b4cb550006c">
+	          		http://ggzy.tlzw.gov.cn/getWebBussTimerDetail.action?newsId=8a955d605b7b2bb1015b7b4cb550006c
+	          	</a>
+	          </p>
+		
+			
+			
+			
+			<p><font color="red">文件下载：</font>
+			<div style="text-align:left">
+			<table>
+			<tr>
+			<td> 
+			</td>
+			<td></td>
+			</tr>
+			</table>
+			</dive>
+			   
+			
+			
+			</p>
+			
+		</div>
+	</td>
+  </tr>
+</table>
+</div>
+<!--页面尾文件-->
+
+  
+ 	
+	
+<div class="all foot">
+
+
+	
+	<table width="100%"><tr>
+	<td  colspan="1" align="right">
+		<script type="text/javascript">
+	document.write(unescape("%3Cspan id='_ideConac' class='footr_img' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/07/131/0000/60713764/CA071310000607137640006.js' type='text/javascript'%3E%3C/script%3E"));
+	
+	</script>
+	</td>
+	<td colspan="1" align="center" width="470px;">
+	您是本站第
+	<script type="text/javascript">
+	cnum = 849396;
+	849396;
+	cl = "849396".length;
+	for(i=0;i<8-cl;i++){
+		document.write("<img src='../images/c0.gif'>");
+	}
+	var strnum = "849396";
+	for(i=0;i<cl;i++){
+		document.write("<img src='../images/c"+strnum.substring(i,i+1)+".gif'>");
+	}
+	</script>位访问者，欢迎您的到来!<br />
+			通辽市政务服务中心版权所有 蒙ICP备11001188号<br />
+			地址：通辽市科尔沁区胜利路北段科尔沁体育中心北侧&nbsp;&nbsp;邮编：028000<br />
+技术支持服务：上海卓繁信息技术股份有限公司<br />
+本网站所刊登的新闻﹑信息和各种专题专栏资料， 未经协议授权，禁止下载使用。<br /></td>
+<td align="left">
+	<script id="_jiucuo_" sitecode='1505000006' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+</td>
+</tr></table>
+
+<style>
+.footr_img1{  position: relative; bottom: 100px; right: 260px;}
+</style>
+
+	
+</div>
+ <!---->
+ 
+</body>
+</html>

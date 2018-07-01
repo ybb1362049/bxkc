@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/ggzy/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/ggzy/Template/Default/css/second.css">
+    <script src="/ggzy/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <title>新余公共资源交易中心</title>
+</head>
+
+<body>
+    <!-- header -->
+   <div >
+	  <!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="gb2312">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/ggzy/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/ggzy/Template/Default/css/index.css">
+      <script src="/ggzy/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <script>
+        function tab() { if (event.keyCode == 13) { document.getElementById("submit").click(); } }
+        function search() {
+            var tim = 10
+            if (tim == 10) {
+                tim = 0;
+                if (document.getElementById("txt").value == "" || document.getElementById("txt").value == "关键字") {
+                    //alert("请输入关键字！");
+                }
+                else {
+                    var t = document.getElementById("txt").value;
+                    if (t.indexOf("<") > -1 || t.indexOf(">") > -1) {
+                        alert("请勿在关键字中输入非法字符!");
+                        return;
+                    }
+                    var openUrl = '/ggzy/ShowInfo/SearchResult.aspx?keyword=';
+
+                    openUrl += escape(t) + "&searchtype=title";
+                    window.open(openUrl);
+                }
+            }
+            else {
+                alert("两次搜索的时间间隔不能少于十秒")
+            }
+        }
+
+</script>
+
+    <title>新余公共资源交易中心</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header"></div>
+    <!-- nav -->
+    <div class="nav-bg">
+        <div class="container">
+            <div class="nav clearfix">
+                <a href="/ggzy/Template/Default/../../" class="nav-a" target="_top">首页</a>
+                <a href="/ggzy/Template/Default/../../zxgk" target="_top">中心概况</a>
+                <a href="/ggzy/Template/Default/../../gzap" target="_top">工作安排</a>
+                <a href="/ggzy/Template/Default/../../jylc" target="_top">交易流程</a>
+                <a href="/ggzy/Template/Default/../../zcfg" target="_top">政策法规</a>
+                <a href="/ggzy/Template/Default/../../zxdt" target="_top">中心动态</a>
+                <a href="/ggzy/Template/Default/../../bgt" target="_top">曝光台</a>
+                <a href="/ggzy/Template/Default/../../xgxz" target="_top">相关下载</a>
+                <a href="http://xyggzy.jiangxi.gov.cn/xyoa/" target="_blank">办公平台</a>
+            </div>
+        </div>
+    </div>
+    <!-- main -->
+    <div class="main-bg">
+        <div class="main">
+            <!-- main-nav -->
+            <div class="container">
+                <div class="main-nav clearfix">
+                    <a href="/ggzy/Template/Default/../../zfcg" class="main-nav-a" target="_top">政府采购</a>
+                    <i></i>
+                    <a href="/ggzy/Template/Default/../../jsgc" target="_top">建设工程</a>
+                    <i></i>
+                    <a href="/ggzy/Template/Default/../../cqjy" target="_top">产权交易</a>
+                    <i></i>
+                    <a href="/ggzy/Template/Default/../../tdjy" target="_top">土地交易</a>
+                </div>
+            </div>
+            <!-- 重要通知和搜索 -->
+            <div class="container mt10 clearfix" style="overflow:hidden;">
+                <div class="notice clearfix">
+                    <span class="notice-title l">重要通知</span>
+                    
+                    <div class="wb-tab-infor l" id="hottitle">
+                        本栏目暂时没有内容！
+
+                    </div>
+                </div>
+                <div style="height: 31px;line-height: 31px;float:right">
+                <input type="text" id="txt" placeholder="请输入关键词搜索" class="search-txt l" onKeyDown="tab();">
+                <button class="search-btn l" id="submit"  onClick="search();" >搜 索</button></div>
+            </div>
+        </div>   
+    </div>
+    <script src="/ggzy/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/ggzy/Template/Default/js/msclass.js"></script>
+  <!-- <script src="/ggzy/Template/Default/js/horizontal.js"></script>  -->
+    <script src="/ggzy/Template/Default/js/tabview.js"></script>
+<script src="/ggzy/Template/Default/js/index2.js"></script>
+</body>
+
+</html>
+
+       
+    </div>
+    <!-- main -->
+    <div class="main-bg">
+        <div class="main">
+            <!-- main-nav -->
+          
+            <div class="container clearfix">
+                <!-- 左侧栏目 -->
+                <div class="left-module border mt10 ">
+                    <div class="left-module-hd">
+                        招标公告
+                    </div>
+                    <div class="column">
+                       <TABLE  cellSpacing="0" cellPadding="0" width="211" border="0">
+<TR><td class="" height=37><a href="/ggzy/jsgc/010001" target="_self" class="cur"><font>招标公告</font></a></td></TR>
+<TR><td height=37 class=""  ><a href="/ggzy/jsgc/010002" target="_self" class="submenu-link"><font>中标公示</font></a></td></TR>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script>
+                    </div>
+                </div>
+                <!-- 右侧内容 -->
+                <div class="right-module mt10  mb10">
+                    <div class="current-location border">
+                      <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#252525" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/ggzy/'><FONT color="#252525" class=currentpostionfont>首页</FONT></A><FONT color="#252525"> >> <a href='/ggzy/jsgc'><FONT color="#252525" class=currentpostionfont>建设工程</font></a> >> <a href='/ggzy/jsgc/010001'><FONT color="#252525" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table>
+                    </div>
+                    <div class="right-module-info border">
+                        <div class="right-module-info-hd">
+                            <div class="right-module-info-title">
+                                 招标公告
+                            </div>
+                        </div>
+                       
+                     <table  class="" width="756"  border="0" cellspacing="0" cellpadding="0" align="center" >
+                      <tr>
+                       <td height="596" valign="top" style="padding:5px 0 0 5px">
+                        <form name="ctl00" method="post" action="MoreInfo.aspx?CategoryNum=010001" id="ctl00">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+</div><table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" class="moresubxy" border="0">
+	<tr style="display:none;">
+		<td id="MoreInfoList1_tdTitle" valign="top" height="22"><img src="../images/map.gif" 
+      ><span id="MoreInfoList1_lblcategory"></span></td>
+	</tr>
+	<tr style="display:none;">
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%"><table cellspacing="0" align="Center" rules="all" border="0" id="MoreInfoList1_DataGrid1" style="border-width:0px;width:98%;border-collapse:collapse;">
+			<tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=e2e42317-c97a-42fa-bd49-10655802a615&CategoryNum=010001" target="_blank" title="高新区2016年林地年度变更调查暨森林资源数据更新工程招标公告（第二次）">高新区2016年林地年度变更调查暨森林资源数据更新工程招标公告（第二次）</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-26</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=cfd43fb2-5cdb-4d0f-a6af-783ce92e0d80&CategoryNum=010001" target="_blank" title="渝水区X922水芳线（水北至罗坊段）县道升级改造工程工可编制及勘察设计招标公告">渝水区X922水芳线（水北至罗坊段）县道升级改造工程工可编制及勘察设计招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-23</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=036de9c9-dad1-434e-b808-23c574f2c2a7&CategoryNum=010001" target="_blank" title="新余市渝水区南安乡集镇供水工程施工招标公告">新余市渝水区南安乡集镇供水工程施工招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-21</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=1db8a01c-02a7-4d1b-8099-892880435fd9&CategoryNum=010001" target="_blank" title="新余市残疾人康复中心大楼新建工程">新余市残疾人康复中心大楼新建工程</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-21</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=dc65bf87-37ed-44f5-a163-1bc1450a9e2d&CategoryNum=010001" target="_blank" title="渝水区2016年新增千亿斤粮食产能田间工程变更公告">渝水区2016年新增千亿斤粮食产能田间工程变更公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-20</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=605a5282-b9c3-448d-830e-f92633fb3401&CategoryNum=010001" target="_blank" title="渝水区2016年新增千亿斤粮食产能田间工程监理变更公告">渝水区2016年新增千亿斤粮食产能田间工程监理变更公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-20</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=7497b414-abbf-4198-8a25-7e74fd0e28e4&CategoryNum=010001" target="_blank" title="新余高新区新余学院邻里中心室外工程">新余高新区新余学院邻里中心室外工程</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-19</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=98900a3a-f89c-43c6-adba-5dc9199f53ce&CategoryNum=010001" target="_blank" title="新余市渝水区水北中学综合楼新建工程招标公告">新余市渝水区水北中学综合楼新建工程招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-19</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=17e17159-5c35-48c1-8a72-2ff71fa8657a&CategoryNum=010001" target="_blank" title="渝水区2016年新增千亿斤粮食产能田间工程监理招标公告">渝水区2016年新增千亿斤粮食产能田间工程监理招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-19</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=981631cd-c2f3-4f67-9bba-67141756f30b&CategoryNum=010001" target="_blank" title="渝水区2016年新增千亿斤粮食产能田间工程招标公告">渝水区2016年新增千亿斤粮食产能田间工程招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-16</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=cc8b7d3e-3c23-4545-9a9b-de1ae3a9495f&CategoryNum=010001" target="_blank" title="高新区污水管网清理工程第二次招标公告">高新区污水管网清理工程第二次招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-16</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=fd164eae-87a6-4295-be2b-ba299967298f&CategoryNum=010001" target="_blank" title="高新区2016年林地年度变更调查暨森林资源数据更新工程招标公告">高新区2016年林地年度变更调查暨森林资源数据更新工程招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-14</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=fa2efb3e-0f49-4765-8603-843d271a99df&CategoryNum=010001" target="_blank" title="新余市仙女湖景区入口道路改造提升工程招标公告">新余市仙女湖景区入口道路改造提升工程招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-12</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=29f9029e-2772-4c85-b606-12d9c878a881&CategoryNum=010001" target="_blank" title="高新区玉龙路（纵三至纵八）新建工程">高新区玉龙路（纵三至纵八）新建工程</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-09</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=58a27194-37e6-416d-8eff-46bbc99f78f1&CategoryNum=010001" target="_blank" title="新余市仙女湖中心物流园区汽车城道路亮化工程招标公告">新余市仙女湖中心物流园区汽车城道路亮化工程招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-08</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=5f33073f-2291-4f4e-a500-97295eb4c153&CategoryNum=010001" target="_blank" title="新余市渝水区埠上小学新建项目设计 招标文件">新余市渝水区埠上小学新建项目设计 招标文件</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-02</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=6c51e208-f0b4-43d4-aa91-a72d9f5ca845&CategoryNum=010001" target="_blank" title="新余市渝水区埠上小学新建项目设计招标公告">新余市渝水区埠上小学新建项目设计招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-02</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=012bb6cb-1ad1-4c0f-b142-dda09c4475ad&CategoryNum=010001" target="_blank" title="高新区污水管网清理工程招标文件">高新区污水管网清理工程招标文件</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-02</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=68c5ee52-e7c0-45e7-9e93-0e691f6b704f&CategoryNum=010001" target="_blank" title="新余市第九中学新建教学楼中标公示">新余市第九中学新建教学楼中标公示</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-02</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=d0d70e2c-7769-45b4-8e70-c502f3f0093a&CategoryNum=010001" target="_blank" title="国网江西赣西供电公司运维检修生产用房项目招标公告">国网江西赣西供电公司运维检修生产用房项目招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-02</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=7f14d16c-a30a-4626-aa82-42f18ecc8cc6&CategoryNum=010001" target="_blank" title="国网江西赣西供电公司运维检修生产用房项目监理招标公告">国网江西赣西供电公司运维检修生产用房项目监理招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-12-02</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=2a5f6fb4-ca84-4777-856e-267a6105ca68&CategoryNum=010001" target="_blank" title="袁河经开区标准工业厂房工程设计招标变更公告">袁河经开区标准工业厂房工程设计招标变更公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-11-30</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=8df996a1-fccb-4f9c-80c7-29dd8028b95f&CategoryNum=010001" target="_blank" title="袁河经开区标准厂房改工程设计招标公告">袁河经开区标准厂房改工程设计招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-11-25</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=5f47f1b4-aa11-4d77-b05c-a17aba4269dc&CategoryNum=010001" target="_blank" title="高新区污水管网清理工程招标公告">高新区污水管网清理工程招标公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-11-24</span>
+						</td>
+			</tr><tr valign="top" style="height:28px;">
+				<td align="center" valign="middle" style="border-style:None;width:24px;">
+							<img src="/ggzy/images/dots/xyh.jpg">
+						</td><td align="left" valign="middle" style="border-style:None;">
+							<a href="/ggzy/InfoDetail/Default.aspx?InfoID=e1122c8e-dbd5-47e0-ac3a-533dbe456999&CategoryNum=010001" target="_blank" title="关于江西省第四届花卉园艺博览交易会新余展区工程建设地点更正的公告">关于江西省第四届花卉园艺博览交易会新余展区工程建设地点更正的公告</a>
+						</td><td align="center" valign="middle" style="border-style:None;width:80px;">
+							<span>2016-11-17</span>
+						</td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+		<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+		<div id="MoreInfoList1_Pager" ShowInputBox="Never">
+<div align="left" style="width:40%;float:left;">
+	记录总数：<font color="blue"><b>218</b></font> 总页数：<font color="blue"><b>9</b></font> 当前页：<font color="red"><b>2</b></font>
+</div><div align="left" style="width:60%;float:left;">
+	<a href="javascript:__doPostBack('MoreInfoList1$Pager','1')" style="margin-right:5px;"><img src="/ggzy/images/page/firstn.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','1')" style="margin-right:5px;"><img src="/ggzy/images/page/prevn.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','1')" style="margin-right:5px;"><img src="/ggzy/images/page/1n.gif" border="0" /></a><span style="margin-right:5px;"><img src="/ggzy/images/page/2r.gif" border="0" /></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" style="margin-right:5px;"><img src="/ggzy/images/page/3n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','4')" style="margin-right:5px;"><img src="/ggzy/images/page/4n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','5')" style="margin-right:5px;"><img src="/ggzy/images/page/5n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','6')" style="margin-right:5px;"><img src="/ggzy/images/page/6n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','7')" style="margin-right:5px;"><img src="/ggzy/images/page/7n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','8')" style="margin-right:5px;"><img src="/ggzy/images/page/8n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','9')" style="margin-right:5px;"><img src="/ggzy/images/page/9n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" style="margin-right:5px;"><img src="/ggzy/images/page/nextn.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','9')" style="margin-right:5px;"><img src="/ggzy/images/page/lastn.gif" border="0" /></a>
+</div>
+</div>
+<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+
+</td>
+</tr>
+<tr>
+	<td class="Xline2" height="3"></td>
+</tr>
+</table>
+
+<script>
+var Tdname='MoreInfoList1'+"_tdcontent";
+document.getElementById(Tdname).className='MiddleBg'
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl00'];
+if (!theForm) {
+    theForm = document.ctl00;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+</form>
+					   </td>
+                      </tr>
+                     </table>  
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+          
+        </div>
+    </div>
+	<div align="center">
+	 <iframe src="/ggzy/Template/Default/pagefoot.htm" scrolling="no" width="100%" height="116" frameborder="0"></iframe>
+	 </div>
+    <script src="/ggzy/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/ggzy/Template/Default/js/msclass.js"></script>
+    <script src="/ggzy/Template/Default/js/tabview.js"></script>
+    <script src="/ggzy/Template/Default/js/index2.js"></script>
+</body>
+
+</html>

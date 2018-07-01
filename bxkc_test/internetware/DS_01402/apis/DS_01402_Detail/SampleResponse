@@ -1,0 +1,997 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	成都市城乡房产管理局
+</title><link href="../_Css/home.css" rel="stylesheet" type="text/css" />
+    <script src="../_JavaScript/JQuery.js"></script>
+    <script src="../_JavaScript/gb2big5.js"></script> 
+</head>
+<body>
+    <form name="form1" method="post" action="ShowInfo.aspx?ArticleGuid=a0d4fe65-da36-41dc-bd3b-c6c79bc9c3b4" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+        <div style="text-align: center">
+            
+
+
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-800037-BA9A91/gs.js'></script>
+<style type="text/css">
+    .cqf_top_rg
+    {
+        float: right;
+        margin-left: 10px;
+        margin-top: 4px;
+        width: 150px;
+    }
+    .mySearchButton
+    {
+        border: 1px solid #a0a0a0;
+        float: left;
+        float: left;
+        height: 32px;
+        width: 61px;
+        background-image: url(/_Images/backgroundsearchofhead.png);
+    }
+    
+    .fixed_div
+    {
+        position: fixed;
+        left: 0px;
+        z-index: 2008;
+        width: 100%;
+        height: 25px;
+        border: 0px;
+        background-image: url(/_Images/tpbg1px.png);
+        _position: absolute;
+        _bottom: auto;
+        _top: expression(eval(document.documentElement.scrollTop));
+    }
+    .menu
+    {
+        border-radius: 5px;
+        background-color: #0057a4;
+        height: 40px;
+        font-family: 'Microsoft Yahei' , '微软雅黑' ,arial, '宋体';
+    }
+    .menu a:hover, .menuDGT a:hover
+    {
+        color: White;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .menuDGT
+    {
+        border-radius: 5px;
+        background-color: #E63600;
+        height: 40px;
+        font-family: 'Microsoft Yahei' , '微软雅黑' ,arial, '宋体';
+    }
+    .menuItem
+    {
+        color: white;
+        font-size: 11pt;
+        text-decoration: none;
+        line-height: 40px;
+    }
+    .menuItemSel
+    {
+        color: Yellow;
+        font-size: 11pt;
+        text-decoration: none;
+        line-height: 40px;
+        font-weight: bold;
+    }
+    .divMian
+    {
+        margin: 0;
+        padding: 0;
+        left: 0px;
+        border: 0px;
+        background-image: url(/_Images/head_bg.jpg);
+        background-repeat: repeat-x;
+        position: absolute;
+        width: 100%;
+        height: 203px;
+        top: 0px;
+    }
+    .web-logo
+    {
+        width: 100%;
+        height: 145px;
+        margin: 0 auto;
+        background: url(/_Images/logoofhead.jpg) no-repeat;
+    }
+    .topSearchInfo
+    {
+        float: right;
+        height: 30px;
+        width: 378px;
+        margin-top: 55px;
+        text-align: right;
+    }
+    .topSearchTitle,.topSearchContent,.topSearchContentDGT
+    {
+        float: left;
+        top: 0;
+        width: 80px;
+        font-size: 15px;
+        letter-spacing: 0;
+        cursor: pointer;
+        color: #fff;
+        overflow: hidden;
+        font-family: '\5FAE\8F6F\96C5\9ED1' ,arial, "\5b8b\4f53";
+    }
+    .topSearchContent,.topSearchContentDGT
+    {        
+        height: 36px;
+        margin-left: 5px;
+        border-width: 3px 1 3px 1px;
+    }
+    .topSearchTitle
+    {
+        height: 30px;
+        border: 0;
+        background-color: #C40000;
+    }
+    .topSearchContent
+    {        
+        background-color: #0057A4;        
+        border: solid #0057A4;
+    }
+    .topSearchContentDGT
+    {
+        background-color:#FF9000;        
+        border: solid #FF9000;
+    }
+</style>
+<div class="fixed_div">
+    <div id="ID_ucShowNews_UcHead1_HeadHead" style="height: 31px; width: 980px; margin-left: auto;
+        margin-right: auto;">
+        <span style="float: left; width: 200px; text-align: left; margin-left: 0px; margin-top: 4px;
+            color: Gray;">成都市城乡房产管理局 </span><span style="float: left; margin-left: 10px; margin-top: 4px;
+                color: Gray; width: 230px; text-align: left;">今天是2018年01月11日&nbsp;
+                星期四
+            </span>
+        <div class="cqf_top_rg">
+             <a id="StranLink" href="javascript:void(0);">繁體中文</a>
+        </div>
+    </div>
+</div>
+<div style="height: 25px;">
+</div>
+<div class="divMian">
+</div>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 980px; margin-top: 0px;
+    position: relative">
+    <tr>
+        <td>
+            <div class="web-logo">
+                <div class="topSearchInfo">
+                    <div>
+                        <div style="border: solid #c40000; border-width: 3px 0 3px 3px; width: 290px; float: left;">
+                            <div style="float: left">
+                                <input style="width: 210px!important; border: 0; height: 30px; font-size: 15px; margin: 0px;
+                                    padding: 0px; line-height: 28px;" type="text" id="KeyWord" onkeydown="SubmitKeyClick('ID_ucShowNews_UcHead1_Search')"
+                                    class="txt_search" value="请输入搜索内容" onfocus="if(this.value=='请输入搜索内容')this.value=''"
+                                    onblur="if(this.value=='')this.value='请输入搜索内容'" />
+                            </div>
+                            <input type="submit" name="ID_ucShowNews$UcHead1$SearchTitle" value="搜标题" onclick="return openSearch(false);" id="ID_ucShowNews_UcHead1_SearchTitle" class="topSearchTitle" />
+                        </div>
+                        <div>
+                            <input type="submit" name="ID_ucShowNews$UcHead1$SearchContent" value="搜全文" onclick="return openSearch(true);" id="ID_ucShowNews_UcHead1_SearchContent" class="topSearchContent" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        
+        <td id="ID_ucShowNews_UcHead1_tdMenu" class="menu" align="left">
+            <table id="ID_ucShowNews_UcHead1_listMenu" cellspacing="0" cellpadding="0" border="0" style="border-width:0px;width:100%;border-collapse:collapse;">
+	<tr>
+		<td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucShowNews_UcHead1_listMenu_ctl00_HyperLink1" href="../Default.aspx"><span id="ID_ucShowNews_UcHead1_listMenu_ctl00_Label1" class="menuItemSel">首　页</span></a></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucShowNews_UcHead1_listMenu_ctl02_hplink" href="../JGSZ/Default.aspx?ClassID=01"><span id="ID_ucShowNews_UcHead1_listMenu_ctl02_Label1" class="menuItem">机构设置</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucShowNews_UcHead1_listMenu_ctl04_hplink" href="../InforPart/ShowList.aspx?ClassID=101001"><span id="ID_ucShowNews_UcHead1_listMenu_ctl04_Label1" class="menuItem">政府信息</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucShowNews_UcHead1_listMenu_ctl06_hplink" href="../ZWDT/Default.aspx?Code=102001,108002,004001,008001"><span id="ID_ucShowNews_UcHead1_listMenu_ctl06_Label1" class="menuItem">政务动态</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucShowNews_UcHead1_listMenu_ctl08_hplink" href="../GGTZ/Default.aspx?Code=103002"><span id="ID_ucShowNews_UcHead1_listMenu_ctl08_Label1" class="menuItem">公告通知</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucShowNews_UcHead1_listMenu_ctl10_hplink" href="../Policy/Default.aspx?ClassID=104001"><span id="ID_ucShowNews_UcHead1_listMenu_ctl10_Label1" class="menuItem">政策法规</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucShowNews_UcHead1_listMenu_ctl12_hplink" href="../BSFW/Default.aspx"><span id="ID_ucShowNews_UcHead1_listMenu_ctl12_Label1" class="menuItem">办事服务</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucShowNews_UcHead1_listMenu_ctl14_hplink" href="../Consultative/Default.aspx"><span id="ID_ucShowNews_UcHead1_listMenu_ctl14_Label1" class="menuItem">公众参与</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="height: 32px;">
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td><td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ID_ucShowNews_UcHead1_listMenu_ctl16_hplink" href="../SCXX/Default.aspx"><span id="ID_ucShowNews_UcHead1_listMenu_ctl16_Label1" class="menuItem">市场信息</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td><td></td>
+	</tr>
+</table>
+        </td>
+
+    </tr>
+    <tr>
+        <td style="height: 10px; line-height: 10px;">
+        </td>
+    </tr>
+</table>
+<script type="text/javascript" language="javascript">
+    function openSearch(isAllSearch) {
+        if (document.getElementById("KeyWord").value == "" || document.getElementById("KeyWord").value == "请输入搜索内容") {
+            alert("请输入查询关键字！");
+        }
+        else {
+            window.open('http://www.cdfgj.gov.cn' + '/News/ShowAllList.aspx?KeyWord=' + escape(document.getElementById("KeyWord").value) + "&IsAllSearch=" + isAllSearch);
+        }
+        return false;
+    }
+    function SubmitKeyClick(button) {
+        if (event.keyCode == 13) {
+            event.keyCode = 9;
+            event.returnValue = false;
+            document.getElementById(button).click();
+        }
+    }
+</script>
+<script type="text/javascript">
+    var toLang=0;
+    $(function(){
+        toLang=0;
+        $("#StranLink").text(toLang==0?'繁體中文':'简体中文');
+        StranBody();
+        $("#StranLink").unbind("click").bind("click", function () {
+            jQuery.ajax({
+                url: getBasePath()+"/AjaxHelpHandle/AjaxSetCookie.ashx",
+                dataType: "json",
+                async: false,
+                cache: false,
+                error: function () {
+                
+                },
+                success: function (json) {
+                    if(json!=null){
+                        toLang=json.lang;
+                        $("#StranLink").text(toLang==0?'繁體中文':'简体中文');
+                        StranBody();
+                    }
+                }
+            });
+        });
+    }); 
+</script>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 980px; background-color:#fbfbfb" ">
+    <tr>
+        <td align="center">
+            
+<link rel="stylesheet" type="text/css" href="../_Css/secondPage.css" />
+
+<script language="javascript" type="text/javascript">
+    function fontZoom(size) {
+        document.getElementById("ID_ucShowNews_UcNewsView1_lbContent").style.fontSize = size + "pt";
+    }
+
+</script>
+<script type="text/javascript">
+    var gwdshare = gwdshare || { version: "1.0", udata: "type=tools&amp;uid=GWD-800037", pageFilter: "", jsLoaded: false };
+    (function () {
+        function async_load() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//static.gridsumdissector.com/zheng_fen_xiang/scripts/gwdshareasync.min.js';
+            var x = document.getElementsByTagName('script'), y = x[x.length - 1];
+            y.parentNode.appendChild(s);
+        }
+        if (!gwdshare.jsLoaded) {
+            if (window.attachEvent) window.attachEvent('onload', async_load);
+            else window.addEventListener('load', async_load, false);
+            gwdshare.jsLoaded = true;
+        }
+    })();
+</script>
+<style type="text/css">
+    #news_info
+    {
+        width: 100%;
+        text-align: left;
+        border: 1px solid #E1E1E1;
+        background-color: #F1F1F1;
+        line-height: 30px;
+        height: 30px;
+    }
+    #news_info div
+    {
+        float: left;
+    }
+    #news_info #news_date
+    {
+        width: 300px;
+        padding-left: 10px;
+    }
+    #news_info #news_date span
+    {
+        margin-right: 15px;
+    }
+    #news_info #new_source
+    {
+        width: 180px;
+    }
+    #news_info #new_fontStyle
+    {
+        margin-left: 30px;
+        margin-right: 170px;
+    }
+    .gwdtitle
+    {
+        background-position:20% center;
+    }
+    .gwdShareArrow
+    {
+        background-position:bottom;
+        margin-top:10px;
+    }
+</style>
+<table id="ID_ucShowNews_UcNewsView1_tbtitle" border="0" cellspacing="0" cellpadding="0" class="siteInfo" width="980">
+	<tr>
+		<td>
+            <div>
+                <img /><span>您现在的位置：首页 &gt;<span id="ID_ucShowNews_UcNewsView1_lbLeader">公告通知 >> 公示公告>> 详细页面</span></span>
+            </div>
+        </td>
+	</tr>
+</table>
+
+<!-- GWD SHARE BEGIN 页面右侧浮动分享-->
+<div style="float: right; position: fixed; right: 20px; top: 150px;">
+    <div id="gwdShare_win_2">
+        <div id="gwdShare_con_2" style="display: none; height: 51px;">
+            <div class="gwdshare_t gwds_tools_24 get-codes-gwdshare">
+                <a class="gwds_people gwds_right_button"></a><a class="gwds_tsina gwds_right_button">
+                </a><a class="gwds_tqq gwds_right_button"></a><span class="gwds_more gwds_right_more">
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- GWD SHARE END -->
+<table id="ID_ucShowNews_UcNewsView1_tbcontent" border="0" cellpadding="0" cellspacing="0" width="900">
+	<tr>
+		<td align="center" style="height: 40px">
+            <span id="ID_ucShowNews_UcNewsView1_lbMainTitle" style="font-size:14pt;font-weight:bold;">成都成房置业有限公司简阳市棚户区改造前期准备阶段专项法律服务采购项目竞争性磋商公告</span>
+        </td>
+	</tr>
+	<tr>
+		<td align="center">
+            <span id="ID_ucShowNews_UcNewsView1_lbDeputyTitle" style="font-size:11pt;font-weight:bold;"></span>
+        </td>
+	</tr>
+	<tr>
+		<td align="center">
+            <div id="news_info">
+                <div id="news_date">
+                    日期：
+                    <span id="ID_ucShowNews_UcNewsView1_lbPubDate" class="LableCss">2017年12月21日</span>
+                    <span id="ID_ucShowNews_UcNewsView1_lbPubName" class="LableCss"></span>
+                </div>
+                
+                <div id="new_fontStyle">
+                    【文字大小：<a onclick="fontZoom(14)" href="#">大</a> <a onclick="fontZoom(12)" href="#">中</a>
+                    <a onclick="fontZoom(10)" href="#">小</a>】 <a onclick="javascript:print()" href="#">【打印】</a>
+                    <a onclick="window.close()" href="#">【关闭】</a></div>
+                <!--量化代码-->
+                <!-- GWD SHARE BEGIN 副标题后面上下箭头式-->
+                <span id="gwdShareMainDiv" style="display: inline; padding: 0px; margin: 0px;">
+                    <div id="gwdShare_win_4" style="float: left; position: relative; padding: 0px;">
+                        <span class="gwdtitle" style=" vertical-align:text-top; padding-bottom">&nbsp;分享</span>
+                        <div id="gwdShareUpDown_div" class="gwdShareArrow">
+                        </div>
+                        <div id="gwdShare_con_4" style="display: none; height: 118px;">
+                            <div class="gwdshare_t gwds_tools_24 get-codes-gwdshare">
+                                <a class="gwds_people gws_title_button"><span class="linkNameSpan">人民微博</span></a>
+                                <a class="gwds_tsina gws_title_button"><span class="linkNameSpan">新浪微博</span></a>
+                                <a class="gwds_tqq gws_title_button"><span class="linkNameSpan">腾讯微博</span></a>
+                                <span class="gwds_more gws_title_more"></span>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                <!-- GWD SHARE END -->
+            </div>
+        </td>
+	</tr>
+	<tr>
+		<td style="min-height: 260px; height: auto !important; height: 300px;" valign="top" align="center">
+            <div style="min-height:220px;width: 810px; padding-top: 10px; line-height: 20px; word-wrap: break-word;
+                word-break: break-all;" align="left">
+                <span id="ID_ucShowNews_UcNewsView1_lbContent" class="newscontent"><table style="border-collapse:collapse;" class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" align="center" bordercolor="#000000">
+	<tbody>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">采购项目名称<span></span></span> 
+				</p>
+			</td>
+			<td width="171">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">成都成房置业有限公司简阳市棚户区改造前期准备阶段专项法律服务采购项目<span></span></span> 
+				</p>
+			</td>
+			<td width="101">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">采购项目编号<span></span></span> 
+				</p>
+			</td>
+			<td width="181">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">QXZBCG-2017-0984S</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">采购方式<span></span></span> 
+				</p>
+			</td>
+			<td width="171">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">竞争性磋商<span></span></span> 
+				</p>
+			</td>
+			<td width="101">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">行政区划<span></span></span> 
+				</p>
+			</td>
+			<td width="181">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">成都市<span></span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">公告类型<span></span></span> 
+				</p>
+			</td>
+			<td width="171">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">竞争性磋商采购公告<span></span></span> 
+				</p>
+			</td>
+			<td width="101">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">公告发布时间<span></span></span> 
+				</p>
+			</td>
+			<td width="181">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">2017</span><span style="font-family:宋体;">年<span>12</span>月<span>21</span>日<span></span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">采 购 人<span></span></span> 
+				</p>
+			</td>
+			<td width="171">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">成都成房置业有限公司<span></span></span> 
+				</p>
+			</td>
+			<td width="101">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">更正公告<span></span></span> 
+				</p>
+			</td>
+			<td width="181">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">/</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">采购代理机构名称<span></span></span> 
+				</p>
+			</td>
+			<td width="171">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">四川乾新招投标代理有限公司<span></span></span> 
+				</p>
+			</td>
+			<td width="101">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">项目包个数<span></span></span> 
+				</p>
+			</td>
+			<td width="181">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">1</span><span style="font-family:宋体;">个 <span></span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">包描述<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">专项法律服务<span></span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">供应商资格条件<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;color:black;">（一）符合《中华人民共和国政府采购法》第二十二条规定的条件；</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;color:black;">（二）符合《中华人民共和国政府采购法实施条例》第十八条规定的；</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;color:black;">（三）供应商单位及其现任法定代表人、主要负责人不得具有行贿犯罪记录；</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;color:black;">（四）供应商不得为“信用中国”网站(www.creditchina.gov.cn)中列入失信被执行人和重大税收违法案件当事人名单的供应商，不得为中国政府采购网(www.ccgp.gov.cn)政府采购严重违法失信行为记录名单中被财政部门禁止参加政府采购活动的供应商(处罚决定规定的时间和地域范围内)；</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;color:black;">（五）根据采购项目的特殊要求，规定供应商的特定条件：具有律师事务所执业许可；</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;color:black;">（六）本项目不接受联合体磋商。</span><span style="font-family:宋体;color:black;"></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">磋商文件发售方式<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;color:black;">现场发售，供应商购买磋商文件时应出示针对本项目的单位介绍信原件<span>(</span>须注明项目名称、项目编号、联系人及联系电话、电子邮箱<span>)</span>、加盖供应商单位公章的经办人身份证复印件并出示身份证原件。<span></span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">磋商文件发售起止时间<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">2017年1</span><span style="font-family:宋体;">2</span><span style="font-family:宋体;">月</span><span style="font-family:宋体;">22</span><span style="font-family:宋体;">日至2017年1</span><span style="font-family:宋体;">2</span><span style="font-family:宋体;">月</span><span style="font-family:宋体;">28</span><span style="font-family:宋体;">日09时30分—16时30分(节假日除外)。</span><span style="font-family:宋体;"></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">磋商文件售价<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">人民币</span><span style="font-family:宋体;">150</span><span style="font-family:宋体;">元</span><span style="font-family:宋体;">/</span><span style="font-family:宋体;">份</span><span style="font-family:宋体;">(</span><span style="font-family:宋体;">磋商</span><span style="font-family:宋体;">文件售后不退, </span><span style="font-family:宋体;">磋商资格不能转让<span>)</span>。<span></span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">磋商供应商交纳磋商保证金的金额和交纳方式<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">金<span> </span>额：人民币1000元整。</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">交款方式：采取支票、汇票、本票、银行转账等四川乾新招投标代理有限公司认可的非现金形式进行提交(须注明项目编号，以便登记、查询)，并以提交保证金的有效凭证作为参与本次磋商的资格依据(加盖公章)。</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">收款单位：四川乾新招投标代理有限公司</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">开 户 行：招商银行成都分行天府大道支行</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">银行账号：1289 0768 1810 101</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">交款截止时间：2017年1</span><span style="font-family:宋体;">2</span><span style="font-family:宋体;">月</span><span style="font-family:宋体;">29</span><span style="font-family:宋体;">日(保证金的提交以银行到账时间为准)</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">注：供应商必须按照上述交款方式及指定银行账号进行办理，交款账户名称需与供应商名称一致。若以其他交款方式(如现金存款方式)或非指定银行账号办理的一律不予接受，将被视为无效磋商。</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">磋商文件发售地点<span></span></span> 
+				</p>
+			</td>
+			<td valign="top" width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">四川乾新招投标代理有限公司</span><span style="font-family:宋体;">(</span><span style="font-family:宋体;">成都市高新区天府大道中段1388号美年广场D座401-404号</span><span style="font-family:宋体;">)</span><span style="font-family:宋体;">采购文件售卖处，逾期不售。<span></span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">递交响应文件起止时间<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">201</span><span style="font-family:宋体;">8</span><span style="font-family:宋体;">年</span><span style="font-family:宋体;">1</span><span style="font-family:宋体;">月</span><span style="font-family:宋体;">4</span><span style="font-family:宋体;">日</span><span style="font-family:宋体;">13</span><span style="font-family:宋体;">时30分-1</span><span style="font-family:宋体;">4</span><span style="font-family:宋体;">时00分（北京时间)。</span><span style="font-family:宋体;"></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">磋商时间<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">201</span><span style="font-family:宋体;">8</span><span style="font-family:宋体;">年</span><span style="font-family:宋体;">1</span><span style="font-family:宋体;">月</span><span style="font-family:宋体;">4</span><span style="font-family:宋体;">日1</span><span style="font-family:宋体;">4</span><span style="font-family:宋体;">时00分(北京时间)。</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">递交响应文件地点<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">四川乾新招投标代理有限公司</span><span style="font-family:宋体;">(</span><span style="font-family:宋体;">成都市高新区天府大道中段1388号美年广场D座401-404号</span><span style="font-family:宋体;">)</span><span style="font-family:宋体;">本项目会议室。<span></span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">磋商地点<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">四川乾新招投标代理有限公司</span><span style="font-family:宋体;">(</span><span style="font-family:宋体;">成都市高新区天府大道中段1388号美年广场D座401-404号</span><span style="font-family:宋体;">)</span><span style="font-family:宋体;">本项目会议室。<span></span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">现场考察或标前答疑会时间及地点<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">/</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">采购人地址和联系方式<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">采 购 人：成都成房置业有限公司<span></span></span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">通讯地址：成都市人民中路一段<span>28</span>号<span></span></span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">联 系 人：丰老师<span></span></span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">联系电话：<span>028-86611063</span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">采购代理机构地址和联系方式<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">代理机构：</span><span style="font-family:宋体;">四川乾新招投标代理有限公司</span><span style="font-family:宋体;"></span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">地<span><span> </span></span>址：成都市高新区天府大道中段<span>1388</span>号美年广场<span>D</span>座<span>4</span>楼<span>401-404</span>号<span></span></span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">联系电话：028-83381</span><span style="font-family:宋体;">268</span><span style="font-family:宋体;">、61375575转80</span><span style="font-family:宋体;">7</span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">传<span> </span>真：</span><span style="font-family:宋体;">028-</span><span style="font-family:宋体;">83381</span><span style="font-family:宋体;">178</span><span style="font-family:宋体;"></span> 
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">电子邮件：<a href="mailto:scqxzb@163.com"><span style="color:windowtext;text-decoration:none;">scqxzb@163.com</span></a></span><span style="font-family:宋体;"></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">采购项目联系人姓名和电话<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p style="text-align:left;text-indent:0.05pt;margin-left:1.45pt;" class="MsoNormal" align="left">
+					<span style="font-family:宋体;">联系人：</span><span style="font-family:宋体;">龙泉、刘彬</span><span style="font-family:宋体;"><span> </span></span> 
+				</p>
+				<p style="text-align:left;text-indent:0.05pt;margin-left:1.45pt;" class="MsoNormal" align="left">
+					<span style="font-family:宋体;">联系电话：028-83381</span><span style="font-family:宋体;">268</span><span style="font-family:宋体;">、61375575</span><span style="font-family:宋体;">转<span>807</span></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="136">
+				<p style="text-align:center;" class="MsoNormal" align="center">
+					<span style="font-family:宋体;">备<span><span> </span></span>注<span></span></span> 
+				</p>
+			</td>
+			<td width="452" colspan="3">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;"></span> 
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	<br />
+</p></span>
+            </div>
+        </td>
+	</tr>
+	<tr>
+		<td align="left">
+            <div style="width: 100%; text-align: left;">
+                
+            </div>
+        </td>
+	</tr>
+	<tr>
+		<td align="center">
+            
+        </td>
+	</tr>
+	<tr>
+		<td>
+            <!--量化代码-->
+            <!-- GWD SHARE BEGIN 底部横条-->
+            <div class="mainShareDiv_24">
+                <a href="//share.gwd.gov.cn/" target="_blank">
+                    <div id="shareLeftLink">
+                    </div>
+                </a>
+                <div id="gwdShare_con_1">
+                    <div class="gwdshare_t gwds_tools_24 get-codes-gwdshare">
+                        <a class="gwds_people gwds_bottom_leftbutton"></a><a class="gwds_tsina gwds_bottom_centerbutton">
+                        </a><a class="gwds_tqq gwds_bottom_centerbutton"></a><span class="gwds_more gwds_bottom_more">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- GWD SHARE END -->
+        </td>
+	</tr>
+	<tr>
+		<td style="height: 10px">
+        </td>
+	</tr>
+</table>
+
+
+        </td>
+    </tr>
+</table>
+
+<style type="text/css">
+    .foot
+    {
+        border-top: 3px solid #024886;
+    }
+    .footDGT
+    {        
+        border-top: 3px solid #FFC000;
+    }
+    .foot,.footDGT
+    {
+        background-color: #E1E1E1;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        float: left;
+        line-height: 20px;
+        padding: 10px 0px 10px 0px;
+    }
+</style>
+<div id="ID_ucShowNews_UcFoot1_divFoot" class="foot">
+    <table width="980px" border="0" cellspacing="0" cellpadding="0">
+        <tr style="width: 980px;">
+	     <td>
+		<script id="_jiucuo_" sitecode='5101000035' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js '></script>
+	     </td>
+            <td style="width:text-align: left;">
+                <script type="text/javascript">
+                    document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/333/0000/60477005/CA233330000604770050002.js' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+            </td>
+            <td align="center">
+                &nbsp;&nbsp;主办：成都市城乡房产管理局 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;维护：成都房地产信息档案中心&nbsp;&nbsp;&nbsp;&nbsp
+                <span style="color: #bc1414">蜀ICP备05001475号</span><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成都市不动产登记和房屋产权交易服务大厅地址：西华门街32号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮编：610015
+                <br />
+                上班时间：周一至周五(上午9:00-12:00,下午13:00-17:00)&nbsp;&nbsp; 周六(上午9:30-12:00，下午13:00-16:00)<br />
+                <span id="ID_ucShowNews_UcFoot1_lbVisitCnt">总访问量：58270630</span>
+            </td>
+            <td style="width: 100px; text-align: right;">
+                <a href="http://www.cdnet110.com/" target="_blank">
+                    <img src="/_images/police.png"></a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
+        </div>
+    </form>
+</body>
+</html>

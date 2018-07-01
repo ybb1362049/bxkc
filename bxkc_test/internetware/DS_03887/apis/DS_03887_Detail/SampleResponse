@@ -1,0 +1,341 @@
+
+
+
+
+
+
+<script type="text/javascript">
+  var ctx='/dggp';
+</script>
+
+
+
+
+
+
+
+
+	
+	  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xmlns="">
+        <title>无标题文档</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><style type="text/css">
+* {
+	PADDING-BOTTOM: 0px; FONT-STYLE: normal; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: microsoft yahei; PADDING-TOP: 0px
+}
+HTML {
+	WIDTH: 100%; HEIGHT: 100%; COLOR: #333
+}
+BODY {
+	WIDTH: 100%; HEIGHT: 100%; COLOR: #333
+}
+BODY {
+	FONT-FAMILY: microsoft yahei; FONT-SIZE: 14px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+EM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INS {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HR {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INS {
+	TEXT-DECORATION: none
+}
+EM {
+	FONT-STYLE: normal
+}
+UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+SELECT {
+	FONT-FAMILY: microsoft yahei; VERTICAL-ALIGN: middle
+}
+INPUT {
+	FONT-FAMILY: microsoft yahei; VERTICAL-ALIGN: middle
+}
+INPUT {
+	FILTER: chroma(color=#FFF); PADDING-BOTTOM: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; FONT-FAMILY: microsoft yahei; PADDING-TOP: 0px
+}
+BUTTON {
+	FILTER: chroma(color=#FFF); PADDING-BOTTOM: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; FONT-FAMILY: microsoft yahei; PADDING-TOP: 0px
+}
+SELECT {
+	FILTER: chroma(color=#FFF); PADDING-BOTTOM: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; FONT-FAMILY: microsoft yahei; PADDING-TOP: 0px
+}
+TEXTAREA {
+	FILTER: chroma(color=#FFF); PADDING-BOTTOM: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; FONT-FAMILY: microsoft yahei; PADDING-TOP: 0px
+}
+TEXTAREA {
+	resize: none
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+TABLE {
+	BORDER-RIGHT-WIDTH: 1px; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px
+}
+A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; COLOR: #333; TEXT-DECORATION: none
+}
+A {
+	TEXT-DECORATION: none; transition: all 0.3s ease; -webkit-transition: all 0.3s; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease
+}
+A:hover {
+	TEXT-DECORATION: none; transition: all 0.3s ease; -webkit-transition: all 0.3s; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease
+}
+INPUT {
+	TEXT-DECORATION: none; transition: all 0.3s ease; -webkit-transition: all 0.3s; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease
+}
+INPUT {
+	TEXT-DECORATION: none; transition: all 0.3s ease; -webkit-transition: all 0.3s; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease
+}
+BUTTON {
+	TEXT-DECORATION: none; transition: all 0.3s ease; -webkit-transition: all 0.3s; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease
+}
+BUTTON:hover {
+	TEXT-DECORATION: none; transition: all 0.3s ease; -webkit-transition: all 0.3s; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease
+}
+A IMG {
+	TEXT-DECORATION: none; transition: all 0s ease; -webkit-transition: all 0s ease; -moz-transition: all 0s ease; -ms-transition: all 0s ease; -o-transition: all 0s ease
+}
+A:hover IMG {
+	TEXT-DECORATION: none; transition: all 0s ease; -webkit-transition: all 0s ease; -moz-transition: all 0s ease; -ms-transition: all 0s ease; -o-transition: all 0s ease
+}
+INPUT {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+INPUT {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+.wp {
+	MARGIN: 0px auto; WIDTH: 1200px
+}
+.z {
+	FLOAT: left
+}
+.y {
+	FLOAT: right
+}
+.clear {
+	CLEAR: both
+}
+.roundimg {
+	OVERFLOW: hidden; -moz-border-radius: 1000px; -webkit-border-radius: 1000px; border-radius: 1000px
+}
+.roundimgx {
+	OVERFLOW: hidden; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px
+}
+.container {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.header {
+	BORDER-BOTTOM: #f00 3px solid; TEXT-ALIGN: center; PADDING-BOTTOM: 3px; MARGIN: 50px 3%; COLOR: #f00
+}
+.header H2 {
+	MARGIN-BOTTOM: 20px
+}
+.header SPAN {
+	LINE-HEIGHT: 20px; MARGIN: 0px 2%; COLOR: #fc7979; FONT-SIZE: 12px
+}
+.main {
+	MARGIN: 20px 3%; FONT-FAMILY: "仿宋_UTF-8"; FONT-SIZE: 10pt
+}
+.title {
+	TEXT-INDENT: 4em
+}
+.main UL {
+	MARGIN: 0px 3%
+}
+.main LI {
+	LINE-HEIGHT: 40px; LIST-STYLE-TYPE: none
+}
+.caigou_table {
+	TEXT-ALIGN: center; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.caigou_table TD {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 5px
+}
+.suo1 {
+	MARGIN-LEFT: 50px
+}
+.suo2 {
+	MARGIN-LEFT: 105px
+}
+.footer P {
+	TEXT-ALIGN: right; LINE-HEIGHT: 40px; PADDING-RIGHT: 100px; FONT-FAMILY: "仿宋_UTF-8"; FONT-SIZE: 14pt
+}
+.intable {
+	MARGIN-TOP: 10px
+}
+.intable TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.intable TH {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 16px; PADDING-TOP: 10px
+}
+.tableHeader {
+	BACKGROUND-COLOR: #abcdef
+}</style>
+    </head>
+    <body xmlns="">
+        <table style="WIDTH: 210mm; HEIGHT: 297mm" border="0" cellspacing="1" cellpadding="0" align="center">
+            <tbody>
+                <tr>
+                    <td bgcolor="#ffffff" valign="top">
+                    <div class="container">
+                    <div class="header">
+                    <h2>东莞市市政园林管理中心直管绿道市政设施及路面维护项目招标公告</h2>
+                    <p><span>信息来源：东莞市政府采购网</span><span>发布机构：中国远东国际招标有限公司</span><span>发布日期：2018年05月11日</span> </p>
+                    <p><span>采购项目编号：441900-201805-0008009001-0004</span><span>采购品目：其他服务</span>&nbsp; </p>
+                    <p><span>代理机构：中国远东国际招标有限公司</span><span>项目负责人：张先生、黄小姐</span> </p>
+                    </div>
+                    <div class="main">
+                    <p class="title">中国远东国际招标有限公司 受 东莞市市政园林管理中心 的委托，对 东莞市市政园林管理中心直管绿道市政设施及路面维护项目 进行公开招标采购，欢迎符合资格条件的供应商投标。</p>
+                    <ul>
+                        <li>一、采购项目编号：441900-201805-0008009001-0004</li>
+                        <li>二、采购项目名称：东莞市市政园林管理中心直管绿道市政设施及路面维护项目</li>
+                        <li>三、本项目最高限价：</li>
+                        <li>3.1&nbsp; <span style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">绿道</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 宋体; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">市政设施及路面维护综合单价汇总：<span lang="EN-US">&yen;17,289.16</span>元；</span></li>
+                        <li><span style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 宋体; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">3.2 <span style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">绿道巡查</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 宋体; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">预算金额：<span lang="EN-US">&yen;19,100.00</span>元<span lang="EN-US">/</span>月</span></span></li>
+                        <li>四、采购数量：一项</li>
+                        <li>
+                        <p>五、采购项目内容及需求：</p>
+                        <table class="caigou_table">
+                            <tbody>
+                                <tr>
+                                    <td>包号</td>
+                                    <td>服务名称</td>
+                                    <td>技术规格、参数及要求</td>
+                                    <td>服务期</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <p align="center">A包</p>
+                                    </td>
+                                    <td>
+                                    <p align="center">东莞市市政园林管理中心直管绿道市政设施及路面维护项目</p>
+                                    </td>
+                                    <td>
+                                    <p align="center">详见采购文件</p>
+                                    </td>
+                                    <td>
+                                    <p align="center"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">合同签订生效之日起至<span lang="EN-US">2019</span>年<span lang="EN-US">12</span>月<span lang="EN-US">31</span>日止</span></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </li>
+                        <li>
+                        <p>六、供应商资格：</p>
+                        <p>1、 投标人须符合《中华人民共和国政府采购法》第二十二条规定； </p>
+                        </li>
+                        <li>
+                        <p>2、 投标人的单位负责人为同一人或者存在直接控股、管理关系的不同投标人，不得参加同一合同项下的政府采购活动。为本项目提供整体设计、规范编制或者项目管理、监理、检测等服务的投标人，不得参加本采购项目的采购活动。 </p>
+                        </li>
+                        <li>
+                        <p>3、 根据投标截止日当天&ldquo;信用中国&rdquo;（www.creditchina.gov.cn）和&ldquo;中国政府采购网&rdquo; (www.ccgp.gov.cn) 网站的信息，对列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的投标人，拒绝其参与政府采购活动。同时对信用信息查询记录和证据截图存档。 </p>
+                        </li>
+                        <li>七、符合资格的供应商应当在 2018年05月11日 至 2018年05月18日 期间（办公时间内，法定节假日除外）到 中国远东国际招标有限公司（详细地址：东莞市莞城区东兴路170号罗沙大厦A栋1202号(即时尚电器城楼上)）购买招标文件，招标文件每套售价150.00元（人民币），售后不退。<strong>备注：<span style="FONT-FAMILY: 宋体; BACKGROUND: white; FONT-SIZE: 10.5pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">（<span lang="EN-US">1</span>）</span><span style="FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; mso-bidi-font-family: 宋体; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">投标人在购买招标文件时须提供如下证明材料：①《营业执照》或《事业单位法人证书》原件及复印件（加盖公章）；②税务登记证（国、地税）原件及复印件（加盖公章）；③组织机构代码证原件及复印件（加盖公章）；④银行开户许可证原件及复印件（加盖公章）；⑤法定代表人身份证复印件（正、反面，并加盖公章）；⑥提供以上证件的原件扫描件（整合成一个<span lang="EN-US">PDF</span>文档格式）<span lang="EN-US">,</span>如&ldquo;三证合一&rdquo;的营业执照，则不需要提供税务登记证和组织机构代码证。曾在本市参加政府采购活动的投标人，购买招标文件时只须提供《营业执照》或《事业单位法人证书》复印件（加盖公章）。<span lang="EN-US">(2)</span>参与本项目投标的投标人须自行在广东省政府采购网上完成注册登记。</span></strong></li>
+                        <li>八、投标截止时间：2018年06月01日 09:30</li>
+                        <li>九、提交投标文件地点：东莞市南城区西平社区宏伟三路45号东莞市公共资源交易中心开标8室</li>
+                        <li>十、开标时间：2018年06月01日 09:30</li>
+                        <li>十一、开标地点：东莞市南城区西平社区宏伟三路45号东莞市公共资源交易中心开标8室</li>
+                        <li>十二、本公告期限自 2018年05月11日 至 2018年05月18日 止</li>
+                        <li>十三、联系事项
+                        <p class="suo1">（一）采购人：东莞市市政园林管理中心&nbsp;&nbsp;&nbsp; 地址: 东莞市南城鸿福路南侧市中心广场内</p>
+                        <div class="suo2">
+                        <p>联系人： 刘先生&nbsp;&nbsp;&nbsp; 联系电话: (0769) 22993839</p>
+                        </div>
+                        <p class="suo1">（二）采购代理机构： 中国远东国际招标有限公司&nbsp;&nbsp;&nbsp; 地址: 东莞市莞城东兴路170号罗沙大厦A栋1202号</p>
+                        <div class="suo2">
+                        <p>联系人： 叶小姐&nbsp;&nbsp;&nbsp; 联系电话: (0769) 22317363</p>
+                        <p>传真： (0769) 22317373&nbsp;&nbsp;&nbsp; 邮编: 523000</p>
+                        </div>
+                        <p class="suo1">（三）采购项目联系人：张先生、黄小姐&nbsp;&nbsp;&nbsp;&nbsp; 联系电话: 22317363-8116、8112</p>
+                        <p class="suo1">附件：一:委托代理协议：</p>
+                        <p class="suo2"><a style="FONT-FAMILY: 仿宋_UTF-8; COLOR: blue; FONT-SIZE: 10pt; TEXT-DECORATION: none" target="_blank" href="../portal/documentView.do?method=downloadTrustFile&amp;id=1198150">1.441900-201805-0008009001-0004 东莞市市政园林管理中心直管绿道市政设施及路面维护项目 委托协议.pdf</a></p>
+                        <p class="suo1">二:招标文件：</p>
+                        <p class="suo2"><a style="FONT-FAMILY: 仿宋_UTF-8; COLOR: blue; FONT-SIZE: 10pt; TEXT-DECORATION: none" target="_blank" href="../uploads//201805/20180509.1525831141879.doc">441900-201805-0008009001-0004 东莞市市政园林管理中心直管绿道市政设施 售卖稿.doc</a></p>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="footer">
+                    <p>发布人: 中国远东国际招标有限公司</p>
+                    <p>发布时间: 2018年05月11日</p>
+                    </div>
+                    </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+	    <!-- 政策法规2056栏目屏蔽免责声明 2017/11/21 -->
+		  <table style="MARGIN: 0px auto; WIDTH: 980px" border="0" cellspacing="1" cellpadding="0" align="center">
+					<tbody>
+						<tr>
+			   			 	<th width="100px;"><font size="4">免责声明:</font></th>
+			   			 	<td colspan="3" style="font-size: 15px;">
+			   			 		本页面提供的内容是按照政府采购有关法律法规要求由采购人或采购代理机构发布的，东莞市政府采购网对其内容概不负责，亦不承担任何法律责任。
+			   			 	</td>
+			   			 </tr>
+					</tbody>
+		  </table>
+		
+	
+	
+	
+
+<script type="text/javascript" defer="defer">try{parent.document.title='东莞市市政园林管理中心直管绿道市政设施及路面维护项目招标公告';}catch(e){}</script>

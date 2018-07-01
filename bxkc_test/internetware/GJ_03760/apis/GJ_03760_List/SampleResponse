@@ -1,0 +1,654 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9">
+ <meta name="renderer" content="webkit|ie-comp|ie-stand">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="viewport" content="width=device-width">
+  <meta name="Keywords" content="招标采购信息,招标公告,求购信息,采购商,中国国际招标网，国际招标" />
+   <meta name="Description" content="中国国际招标网是中国最大的电子招投标行政监督和公共服务平台，经国家商务部授权的电子招投标平台。提供国际招标、采购信息和网上交易以及相关的专业咨询服务。" />
+ <title>招标项目-中国国际招标网</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+  <link rel="stylesheet" href="http://staticfile.chinabidding.com/css/search/searchBidProject.css" type="text/css" />
+</head>
+<body> 
+<script>
+var staticContextPath = 'http://staticfile.chinabidding.com';
+var contextPath = 'http://www.chinabidding.com';
+</script>
+	<div class="wraper">
+		<!-- top header bar -->
+		<meta http-equiv="content-script-type" content="text/javascript">
+<link rel="stylesheet" href="http://staticfile.chinabidding.com/css/common.css" type="text/css" />
+<link rel="stylesheet" href="http://staticfile.chinabidding.com/css/ui-dialog.css" type="text/css">
+<div id="top-header" class="top-header span-all">
+	<ul class="info-list">
+		<li class="list-item first">
+			<dl class="horizontal">
+				<dt class="welcome">
+					<span class="welcome-info" id="topName">您好，欢迎来到中国国际招标网</span>
+				</dt>
+				<dd class="top-login" id="topLogin">
+					<span class=""><a href="http://www.chinabidding.com/bid/index/loginIndex.htm" title="请登录">请登录</a></span><span class=""><a href="http://register.chinabidding.com/simple/webRegister/index.view" target="_blank" title="请注册">免费注册</a></span>
+				</dd>
+			</dl>
+		</li>
+		<li class="list-item last">
+			<dl class="horizontal">
+				<dt class="top-language">
+					<span class=""><a href="http://www.chinabidding.com" title="中国际招标网">首页</a><i>|</i><a href="http://enicb.ebnew.com/emain.jhtml" target="_blank"  title="English">English</a></span>
+				</dt>
+				<dd class="top-tell">
+					<span>客服：</span>010-58851111-606
+				</dd>
+				<dd class="top-tell">
+					<span>投诉：</span>010-58851111-618/887
+				</dd>
+				<dd class="top-tell">
+					<span><a class="as-report" href="#" company-name="" id="reportTop" title="举报信箱"><span class="welcome-info">举报信箱</span></a></span>
+				</dd>
+			</dl>
+		</li>	
+	</ul>
+</div>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/plugin/jquery/jquery.js"></script>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/plugin/dialog/dialog-min.js"></script>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/common/top.js"></script>
+<script> 
+document.write('<scr'+'ipt type="text/javascript" src="http://www.chinabidding.com/bid/login/loginTop.htm"></scr'+'ipt>');window.onerror =function(){;return true;}
+</script>
+
+		<!-- top header bar end -->
+		<!-- header-area  include logo , search -->
+					<div id="header" class="header">
+				<dl class="horizontal">
+					<dt>
+						<a href="http://www.chinabidding.com" class="site-logo">中国国际招标网</a>
+					</dt>
+					<dd class="site-search">
+						<div class="as-tab">
+							<ul class="as-tab-navs">
+								<li class="as-tab-nav-item on">
+									<a href="">招标项目
+									<span class="icon"></span>
+									</a>
+								</li>
+								<li class="as-tab-nav-item">
+									<a href="">资讯
+										<span class="icon"></span>
+									</a>
+								</li>
+								<li class="as-tab-nav-item">
+									<a href="">招标机构
+										<span class="icon"></span>
+									</a>
+								</li>
+							</ul>
+							<div class="as-tab-conts">
+								<div class="as-tab-cont-item on">
+									<div class="search-box well">
+										<fieldset>
+											<legend class="none">项目名称搜索</legend>
+											<form name="projSearchForm" id="projSearchForm" action="http://www.chinabidding.com/search/proj.htm" method="POST" onsubmit="return submitCheck(this);">
+												<input type="text" name="fullText" id="fullText"  placeholder="请输入项目名称，产品或企业名称" maxlength="50" class="bdsearch">
+												<input type="hidden" name="poClass" value="BidNotice" />
+												<button class="" type="sbumit" >搜索</button>
+											</form>
+										</fieldset></div>
+								</div>
+								<div class="as-tab-cont-item">
+									<div class="search-box well">
+										<fieldset>
+											<legend class="none">资讯信息搜索</legend>
+											<form name="infoSearchForm" action="http://www.chinabidding.com/bid/info/search.htm" method="POST" onsubmit="return submitCheck(this);">
+												<input type="text" name="fullText" id="fullText"  placeholder="请输入信息关键字" maxlength="50" class="bdsearch">
+												<button class="" type="sbumit">搜索</button>
+											</form>
+										</fieldset>
+									</div>									
+								</div>
+								<div class="as-tab-cont-item">
+									<div class="search-box well">
+										<fieldset>
+											<legend class="none">机构名称搜索</legend>
+											<form name="govSearchForm" action="http://www.chinabidding.com/bid/tool/bidorglist.htm" method="POST" onsubmit="return submitCheck(this);">
+												<input type="text" name="queryword" id="fullText"  placeholder="请输入招标机构名称" maxlength="50" class="bdsearch">
+												<button class="" type="sbumit">搜索</button>
+											</form>
+										</fieldset>
+									</div>
+								</div>
+							</div>
+							<dl class="horizontal hot-word-list">
+								 								        <span style="float:left;padding-right: 4px;padding-left: 2px;color:#777" >热门搜索：</span>
+																			 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('锅炉');"  title="锅炉">锅炉</a></dd>
+								    										 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('起重机');"  title="起重机">起重机</a></dd>
+								    										 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('CT');"  title="CT">CT</a></dd>
+								    										 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('医疗设备');"  title="医疗设备">医疗设备</a></dd>
+								    										 <dd><a href="javascript:void(0);" onclick="projSearchSubmit('电梯');"  title="电梯">电梯</a></dd>
+								    								 							</dl>
+							<script type="text/javascript">
+								function projSearchSubmit(key){
+									 $("#projSearchForm").find("#fullText").val(key);
+									 $("#projSearchForm").submit();
+							    }
+								function submitCheck(sform){
+									   var fullText = $(sform).find("#fullText").val();
+									   var placeholder = $(sform).find("#fullText").attr("placeholder");//解决ie8兼容性问题
+									   if(fullText=="" || fullText == placeholder){
+										    return false;
+									   }else{
+									   	  return true;
+									   }
+								    }
+							</script>	
+						</div>
+					</dd>
+				</dl>
+			</div>
+					<!-- header-area include logo ,search end -->
+		<!-- site navigator -->
+					<div id="navigator" class="span-all">
+				<dl class="horizontal">
+					<dt>
+						<ul class="nav-list">
+							<li  class="nav-item" ><a href="http://www.chinabidding.com">首页</a></li>
+							<li  class="nav-item" ><a href="http://www.chinabidding.com/gov">政务大厅</a></li>
+							<li  class="nav-item" ><a href="http://www.chinabidding.com/tender">业务大厅</a></li>
+							<li  class="nav-item" ><a href="http://www.chinabidding.com/server">实务大厅</a></li>
+							<li  class="nav-item" ><a href="http://www.chinabidding.com/info">服务大厅</a></li>
+							<li class="nav-item"><a href="http://bbs.ebnew.com/" target="_blank">互动大厅</a></li>
+							<li  class="nav-item last" ><a href="http://www.chinabidding.com/bid/jump/aboutUs.htm">关于我们</a></li>
+						</ul>
+					</dt>	
+					<dd>
+						<ul class="quick-link">
+							<li class="quick-item"><a href="http://www.chinabidding.com/bid/login/forward.htm" target="_blank">招标机构</a></li>
+							<li class="quick-item"><a href="http://www.chinabidding.com/bid/login/forward.htm" target="_blank">招标人</a></li>
+							<li class="quick-item"><a href="http://www.chinabidding.com/bid/login/forward.htm" target="_blank">投标人</a></li>
+						</ul>
+					</dd>
+				</dl>
+			</div>		<!-- site navigator end -->
+		<!-- site-Content-area -->
+			<div id="site-content" class="cont-render">
+				<div id="lab-show" class="lab-show">
+					<div class="site-bread">您的当前位置:<a href="http://www.chinabidding.com">首页</a><span>></span>招标项目搜索</div>
+
+					<div class="as-floor-normal">
+					<div class="as-md">
+								<h3 class="as-tit">
+									<span class="txt">按条件选择</span>
+									<div class="as-tit-panel">
+										<ul class="tag-list">
+											<li class="on">共找到<span class="red">4625028</span>条相关信息</li>
+										</ul>
+									</div>
+									<span class="icon-r-line"></span>
+								</h3>	
+								
+								<div class="as-md-panel">
+									<div class="table-list">
+										<div class="table-list-panel">
+											<fieldset>
+												<legend class="none">政策法规搜索表单</legend>
+												
+												<form action="http://www.chinabidding.com/search/proj.htm" method="post" id="searchBidProjForm"  onsubmit="return checkValueSubmit(this);">
+												<input type="hidden" name="poClass" id="poClass" value=""  />
+												<input type="hidden" name="infoClassCodes" id="infoClassCodes" value="0105" />
+												<input type="hidden" name="pubDate" id="pubDate" value="" />
+												<input type="hidden" name="rangeType" id="rangeType" value="" />
+													<ul class="table-list-items as-index-list">
+														<li>
+															<span class="as-index-tit">项目范围：</span> <a href="javascript:void(0);" onclick="searchRangeType('');"  class="tag-li on" >全部</a> <a href="javascript:void(0);" onclick="searchRangeType('1');"   class="tag-li" >国际招标</a> <a href="javascript:void(0);" onclick="searchRangeType('2');"   class="tag-li" >国内招标</a>
+														</li>
+														<li>
+															<span class="as-index-tit">项目分类：</span> <a href="javascript:void(0);" onclick="searchProjBidByProjType('0105' , 'BidNotice');" class="tag-li on" >招标公告</a> <a href="javascript:void(0);" onclick="searchProjBidByProjType('0106','BidChange');"  class="tag-li" >招标变更公告</a> <a href="javascript:void(0);" onclick="searchProjBidByProjType('0107','BidResult');"  class="tag-li" >评标结果公示</a><a href="javascript:void(0);" onclick="searchProjBidByProjType('0108' , 'BidResult');"  class="tag-li" >中标结果公告</a>
+														</li>
+														<li>
+															<span class="as-index-tit">发布时间：</span> <a href="javascript:void(0);" onclick="searchProjTime('');" class="tag-li on" >全部</a> <a href="javascript:void(0);" onclick="searchProjTime('1');"  class="tag-li" >今天</a> <a href="javascript:void(0);" onclick="searchProjTime('2');"  class="tag-li" >近三天</a><a href="javascript:void(0);" onclick="searchProjTime('3');"  class="tag-li" >近一周</a><a href="javascript:void(0);" onclick="searchProjTime('4');"  class="tag-li" >近一月</a><a href="javascript:void(0);" onclick="searchProjTime('5');"  class="tag-li" >近一年</a>
+														</li>
+														<li class="last">
+															<span class="first">
+															       <div class="as-sele-box" name="tempS">
+																        <span class="as-sele-view" style="overflow:hidden;"></span>
+																        <i></i>
+															        </div>
+																<select name="normIndustry" id="normIndustry" onchange="searchProjChange();" style="display: none">
+														       		<option  selected="selected"  value="" >所有行业</option>
+														       		<option  value="01">农产品</option>
+																	<option  value="02">能源(石油/石化/煤炭/新能源)</option>
+																	<option  value="03">食品饮料烟草</option>
+																	<option  value="04">纺织服装皮革</option>
+																	<option  value="05">包装</option>
+																	<option  value="06">工艺礼品玩具</option>
+																	<option  value="07">化工</option>
+																	<option  value="08">医药</option>
+																	<option  value="09">五金</option>
+																	<option  value="10">电子</option>
+																	<option  value="11">机械设备</option>
+																	<option  value="12">交通运输</option>
+																	<option   value="13">办公用品</option>
+																	<option  value="14">仪器仪表</option>
+																	<option  value="15">IT、通讯及信息技术</option>
+																	<option    value="16">工程建筑行业</option>
+																	<option   value="17">安全防护</option>
+																	<option   value="18">传媒、广电</option>
+																	<option   value="19">家居行业</option>
+																	<option   value="20">橡胶塑胶</option>
+																	<option   value="21">印刷</option>
+																	<option   value="22">冶金矿产</option>
+																	<option   value="23">家用电器</option>
+																	<option   value="24">电气</option>
+																	<option   value="25">建筑建材</option>
+																	<option   value="26">电力</option>
+																	<option   value="27">运动、休闲</option>
+																	<option   value="28">居民服务和其它服务业</option>
+																	<option   value="29">商业贸易(综合类企业)</option>
+																	<option   value="30">纸业</option>
+																	<option   value="31">物流运输</option>
+																	<option   value="32">通信及信息服务</option>
+																	<option   value="33">批发零售、住宿餐饮</option>
+																	<option   value="34">金融保险</option>
+																	<option   value="35">房产物业</option>
+																	<option   value="36">租赁和商务服务</option>
+																	<option   value="37">科研技术和地质勘查护</option>
+																	<option   value="38">水利、环境和公共设施管理</option>
+																	<option   value="39">文化、教育、体育、娱乐服务</option>
+																	<option   value="40">卫生、社会保障福利</option>
+																	<option   value="41">国际、社会组织与公共管理</option>
+																	<option   value="42">出版印刷</option>
+																	<option   value="43">软件服务</option>
+																	<option   value="44">咨询培训</option>
+																	<option   value="45">维护清洗</option>
+																	<option   value="46">会展服务</option>
+																	<option   value="47">代理经营</option>
+																	<option   value="48">网络通信</option>
+																	<option   value="49">其他服务</option>
+																	<option   value="50">环保设备</option>
+																</select>
+																<!-- <i class="icon icon-gray-ss"></i> -->
+															</span>
+																<span>
+															    	<div class="as-sele-box" name="tempS">
+																        <span class="as-sele-view" ></span>
+																        <i></i>
+															        </div>
+																	<select name="zoneCode" id="zoneCode" onchange="searchProjChange();" style="display: none">
+																		<option    selected="selected"  value="">所有地区</option>
+																	    <option      value="11* 12* 13* 14* 15*">华北地区</option>
+																	    <option      value="11*">--北京</option>
+																		<option      value="12*">--天津</option>
+																		<option      value="13*">--河北</option>
+																		<option      value="14*">--山西</option>
+																		<option      value="15*">--内蒙古</option>
+																		<option      value="21* 22* 23*">东北地区</option>
+																		<option      value="21*">--辽宁</option>
+																		<option      value="22*">--吉林</option>
+																		<option      value="23*">--黑龙江</option>
+																		<option      value="31* 32* 33* 34* 35* 37*">华东地区</option>
+																		<option      value="31*">--上海</option>
+																		<option      value="32*">--江苏</option>
+																		<option      value="33*">--浙江</option>
+																		<option      value="34*">--安徽</option>
+																		<option      value="35*">--福建</option>
+																		<option      value="37*">--山东</option>
+																		<option      value="36* 41* 42* 43*">华中地区</option>
+																		<option      value="36*">--江西</option>
+																		<option      value="41*">--河南</option>
+																		<option      value="42*">--湖北</option>
+																		<option      value="43*">--湖南</option>
+																		<option      value="44* 45* 46*">华南地区</option>
+																		<option      value="44*">--广东</option>
+																		<option      value="45*">--广西</option>
+																		<option      value="46*">--海南</option>
+																		<option      value="50* 51* 52* 53* 54*">西南地区</option>
+																		<option      value="50*">--重庆</option>
+																		<option      value="51*">--四川</option>
+																		<option      value="52*">--贵州</option>
+																		<option      value="53*">--云南</option>
+																		<option      value="54*">--西藏</option>
+																		<option      value="61* 62* 63* 64* 65*">西北地区</option>
+																		<option      value="61*">--陕西</option>
+																		<option      value="62*">--甘肃</option>
+																		<option      value="63*">--青海</option>
+																		<option      value="64*">--宁夏</option>
+																		<option      value="65*">--新疆</option>
+																		<option      value="71* 81* 82*">特别行政地区</option>
+																		<option      value="71*">--台湾</option>
+																		<option      value="81*">--香港</option>
+																		<option      value="82*">--澳门</option>
+																	</select>
+																	<!-- <i class="icon icon-gray-ss"></i> -->
+															</span>
+															<span>
+															    <div class="as-sele-box" name="tempS">
+																        <span class="as-sele-view" ></span>
+																        <i></i>
+															    </div>
+																<select name="fundSourceCodes" id="fundSourceCodes" onchange="searchProjChange();" style="display: none">
+																	<option  selected="selected"  value="" >所有资金来源</option>
+																	<option  value="010201">世行项目</option>
+																	<option   value="010203">亚行项目</option>
+																	<option   value="03">国债技改</option>
+																	<option   value="0101*">外国政府贷款</option>
+																	<option   value="07">现汇项目</option>
+																</select>
+																<!-- <i class="icon icon-gray-ss"></i> -->
+															</span>
+															<label for="keyword">关键字：</label><input type="text" name="fullText" id="fullText"  placeholder="请输入搜索关键字" value="" maxlength="50" class="bdsearch"/> <button type="submit" style="cursor:pointer;">搜索</button>
+														</li>
+													</ul>
+												</form>
+												<script type="text/javascript">
+												    function checkValueSubmit(sform){
+													   var fullText = $(sform).find("#fullText").val();
+													   var placeholder = $(sform).find("#fullText").attr("placeholder");//解决ie8兼容性问题
+													   if(fullText == placeholder){
+														   $(sform).find("#fullText").val("");
+													   }
+													   return true;
+												    }
+											</script>	
+											</fieldset>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							
+					<div class="span-f">
+												<div class="as-pager">								
+								<ul class="as-pager-body">
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151087.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="十九部-铣床20170301徐凯">十九部-铣床20170301徐凯</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">项目名称十九部-铣床********徐凯项目编号MF-D**cg-*******-****NJ项目描述、联系人徐凯联系电话**...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>金属加工机床</strong></span><span class="tag-attr">所属地区：<strong>南京市</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151079.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="委外喷漆20170301-急">委外喷漆20170301-急</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">项目名称委外喷漆********-急项目编号MF-GDGCSYBcg-*******-****SZ项目描述联系人李丹英联系电话**...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>汽摩产品制造设备</strong></span><span class="tag-attr">所属地区：<strong>深圳市</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151078.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="姐相乡俄罗村委会2016边境一线美丽乡村建设项目资格预审招标公告">姐相乡俄罗村委会2016边境一线美丽乡村建设项目资格预审招标公告</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">？姐相乡俄罗村委会****边境一线美丽乡村建设项目资格预审公告(代招标公告)交易编号：RLCG****-***...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>市政工程</strong></span><span class="tag-attr">所属地区：<strong>云南省</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151086.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="铝块毛料交期急（报价单次有效">铝块毛料交期急（报价单次有效</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">项目名称铝块毛料交期急（报价单次有效）项目编号MF-D**cg-*******-****XA项目描述**联系人鄯良联...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>汽摩产品制造设备</strong></span><span class="tag-attr">所属地区：<strong>西安市</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151085.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="精模座">精模座</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">项目名称NW*****-*P**UP精模座***.*****.****.*，**#项目编号MF-D**cg-*******-****HZ项目描述NW**...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>汽摩产品制造设备</strong></span><span class="tag-attr">所属地区：<strong>惠州市</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151083.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="标准件密封报价">标准件密封报价</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">项目名称******标准件密封报价项目编号MF-A**xacg-*******-****XA项目描述无联系人魏浩哲联系电话*...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>汽摩产品制造设备</strong></span><span class="tag-attr">所属地区：<strong>西安市</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151084.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="工厂刀模】询价">工厂刀模】询价</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">项目名称*.*【****工厂刀模】询价项目编号MF-A**sz*b-*******-****SZ项目描述？附图联系人陈明师联...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>汽摩产品制造设备</strong></span><span class="tag-attr">所属地区：<strong>深圳市</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151082.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="深沟球轴承_6205-2Z等物料密封报价">深沟球轴承_6205-2Z等物料密封报价</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">项目名称深沟球轴承_****-*Z等物料密封报价项目编号MF-A**xacg-*******-****XA项目描述无联系人魏...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>轴承</strong></span><span class="tag-attr">所属地区：<strong>西安市</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151081.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="瑞丽市弄岛镇等嘎村委会2016边境一线美丽乡村建设项目资格预审招标公告">瑞丽市弄岛镇等嘎村委会2016边境一线美丽乡村建设项目资格预审招...</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">？瑞丽市弄岛镇等嘎村委会****边境一线美丽乡村建设项目资格预审公告(代招标公告)交易编号：RLCG**...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>市政工程</strong></span><span class="tag-attr">所属地区：<strong>云南省</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																																				<li><a class="as-pager-item" href="http://www.chinabidding.com/bidDetail/230151080.html" target="_blank">
+										<h5 class="as-p-tit"><span class="tag">[招标公告]</span><span class="txt"  title="轴承_6005Z_深勾球轴承物料密封报价">轴承_6005Z_深勾球轴承物料密封报价</span><span class="time">发布时间：2017-03-01</span></h5>
+										<p class="as-p-desc">项目名称轴承_****Z_深勾球轴承物料密封报价项目编号MF-A**xacg-*******-****XA项目描述无联系人魏...</p>
+										<div class="as-p-ft">
+												<dl class="horizontal"><dt class="none">信息属性</dt><dd><span class="tag-attr">所属行业：<strong>轴承</strong></span><span class="tag-attr">所属地区：<strong>西安市</strong></span></dd></dl>
+										</div>
+										</a>
+									</li>   
+																</ul>	
+								
+								<div class="as-pager-pagation">
+								<form id="pagerSubmitForm" method="post" action="http://www.chinabidding.com/search/proj.htm">
+								    <input type="hidden" name="fullText" value=""/>
+								    <input type="hidden" name="pubDate" value=""/>
+								    <input type="hidden" name="infoClassCodes" value="0105" />
+								    <input type="hidden"  name="normIndustry" value="" />
+								    <input type="hidden"  name="zoneCode" value="" />
+								    <input type="hidden" name="fundSourceCodes" value="" />
+								    <input type="hidden" name="poClass" value=""/>
+								    <input type="hidden" name="rangeType" id="rangeType" value="" />
+								    
+
+<a class="prev"  href="javascript:void(0)" onClick="searchSubmit(1)">上一页<i class="icon"></i></a>  
+
+
+  	  							<a href="javascript:void(0)" onClick="searchSubmit(1)">1</a>
+											<a class="current" href="#">2</a>
+											<a href="javascript:void(0)" onClick="searchSubmit(3)">3</a>
+											<a href="javascript:void(0)" onClick="searchSubmit(4)">4</a>
+											<a href="javascript:void(0)" onClick="searchSubmit(5)">5</a>
+											<a href="javascript:void(0)" onClick="searchSubmit(6)">6</a>
+							<a href="#">...</a><a  href="javascript:void(0)" onClick="searchSubmit(100)">100</a>
+  
+
+	<a class="next" href="javascript:void(0)" onClick="searchSubmit(3)">下一页<i class="icon"></i></a>
+<input type="hidden" name="currentPage" id="currentPage" value="2"/>
+
+  
+<!--  <span class=""><i>共100页&nbsp;&nbsp;</i><i>到第</i><input type="text"  id="pageCount"/><i>页</i><button type="button"  class="gobtn"  onclick="doPage()">确定</button></span>
+ -->
+<script type="text/javascript">
+	function searchSubmit(currentPage){
+		 $("#currentPage").val(currentPage);
+		 $("#pagerSubmitForm").submit();
+    }
+</script>	
+
+								</form>
+								</div>
+						</div>
+												</div>
+					
+					<div class="span-side">
+							<div class="label-box tags-list t-b-bidder">
+								<div class="label-icon">
+									<span class="icon"></span>
+									<span class="icon-xxx-txt">投标人</span>
+								</div>
+								<div class="label-panel">
+									<ul class="t-t-o-list">
+										<li class="item first"><a href="http://www.chinabidding.com/bid/login/goto.htm?u=g" target="_blank"> 我要投标</a></li>
+										<li class="item secend"><a href="http://www.chinabidding.com/bid/login/goto.htm?u=g" target="_blank">我的投诉</a></li>
+										<li class="item third"><a href="http://www.chinabidding.com/bid/login/goto.htm?u=g" target="_blank">中标项目</a></li>
+										<li class="item"><a href="http://www.chinabidding.com/bid/login/goto.htm?u=g" target="_blank">未中标项目</a></li>	
+									</ul>
+								</div>
+							</div>
+							<div class="label-box tags-list z-b-tenderee">
+								<div class="label-icon">
+									<span class="icon"></span>
+									<span class="icon-xxx-txt">招标人</span>
+								</div>
+								<div class="label-panel">
+									<ul class="t-t-o-list">
+										<li class="item first"><a href="http://www.chinabidding.com/bid/login/goto.htm?u=c" target="_blank">我要招标</a></li>
+										<li class="item secend"><a href="http://www.chinabidding.com/bid/login/goto.htm?u=c" target="_blank">项目进度</a></li>
+										<li class="item third"><a href="http://www.chinabidding.com/bid/login/goto.htm?u=c" target="_blank">中标项目</a></li>
+										<li class="item"><a href="http://www.chinabidding.com/bid/tool/bidorglist.htm?u=c" target="_blank">搜索代理</a></li>	
+									</ul>
+								</div>
+							</div>
+
+							<div id="g-d-z-b">
+								<h3 class="as-tit-3">
+									<i class="icon icon-zhaobiao"></i>
+									<span class="tit">各地招标</span>
+								</h3>
+								<ul>
+									<li>
+										<dl class="horizontal">
+											<dt class="state-tag-location"><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=11* 12* 13* 14* 15*" target="_blank">华北</a></dt>	
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=11*" target="_blank">北京</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=12*" target="_blank">天津</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=13*" target="_blank">河北</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=14*" target="_blank">山西</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=15*" target="_blank">内蒙古</a></dd>
+										</dl>
+									</li>	
+									<li>
+										<dl class="horizontal">
+											<dt class="state-tag-location"><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=21* 22* 23*" target="_blank">东北</a></dt>	
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=22*" target="_blank">吉林</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=21*" target="_blank">辽宁</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=23*" target="_blank">黑龙江</a></dd>
+										</dl>
+									</li>	
+									<li>
+										<dl class="horizontal">
+											<dt class="state-tag-location"><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=61* 62* 63* 64* 65*" target="_blank">西北</a></dt>	
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=61*" target="_blank">陕西</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=62*" target="_blank">甘肃</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=64*" target="_blank">宁夏</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=63*" target="_blank">青海</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=65*" target="_blank">新疆</a></dd>
+										</dl>
+									</li>	
+									<li>
+										<dl class="horizontal">
+											<dt class="state-tag-location"><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=31* 32* 33* 34* 35* 37*" target="_blank">华东</a></dt>	
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=37*" target="_blank">山东</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=34*" target="_blank">安徽</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=31*" target="_blank">上海</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=32*" target="_blank">江苏</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=33*" target="_blank">浙江</a></dd>
+										</dl>
+									</li>	
+									<li>
+										<dl class="horizontal">
+											<dt class="state-tag-location"><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=36* 41* 42* 43*" target="_blank">华中</a></dt>	
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=41*" target="_blank">河南</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=42*" target="_blank">湖北</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=43*" target="_blank">湖南</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=36*" target="_blank">江西</a></dd>
+										</dl>
+									</li>
+									<li>
+										<dl class="horizontal">
+											<dt class="state-tag-location"><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=44* 45* 46*" target="_blank">华南</a></dt>	
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=44*" target="_blank">广东</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=45*" target="_blank">广西</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=46*" target="_blank">海南</a></dd>
+										</dl>
+									</li>
+									<li>
+										<dl class="horizontal">
+											<dt class="state-tag-location"><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=50* 51* 52* 53* 54*" target="_blank">西南</a></dt>	
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=53*" target="_blank">云南</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=52*" target="_blank">贵州</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=51*" target="_blank">四川</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=50*" target="_blank">重庆</a></dd>
+											<dd><a href="http://www.chinabidding.com/search/proj.htm?zoneCode=54*" target="_blank">西藏</a></dd>
+										</dl>
+									</li>				
+								</ul>
+							</div>
+							
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!--site-footer-area  -->
+		<div id="site-footer" class="span-all">
+						<div class="site-info">
+				<ul class="service-link">
+					<!-- <li><a href="http://www.chinabidding.com/bid/jump/aboutUs.htm" title="关于我们">关于我们</a></li>
+					<li><a href="http://www.chinabidding.com/bid/jump/termsOfService.htm" title="服务条款">服务条款</a></li>
+					<li><a href="http://www.chinabidding.com/bid/jump/legalNotices.htm" title="法律声明">法律声明</a></li>
+					<li><a href="http://www.chinabidding.com/bid/jump/contactUs.htm" title="联系我们">联系我们</a></li> -->
+				</ul>
+				<div class="copy-right">
+				<p>©2001--2017&nbsp;&nbsp;<a href="http://www.chinabidding.com" title="中国国际招标网">中国国际招标网</a> &nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank" title="京ICP备12040737号-1">京ICP备12040737号-1</a>&nbsp;&nbsp;<span>京公网安备11010802015427 号</span> <br>
+      <a href="http://www.mofcom.gov.cn/" target="_blank" title="中华人民共和国商务部授权">中华人民共和国商务部授权</a><a href="http://bbs.chinabidding.com" style="color:#fff;">中国招标采购社区</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				</div>
+				<div class="Certificate-bar">
+					<ul>
+						<li><a href="http://fzp.bjhd.gov.cn/tabid/179/Default.aspx" target="_blank" title="海淀分局防诈骗网"><i class="icon icon-hdfj"></i></a></li>
+						<li><a href="http://www.bj.cyberpolice.cn/index.do" target="_blank" title="网络110报警服务"><i class="icon icon-wlbjfw"></i></a></li>
+						<li><a href="http://www.hd315.gov.cn/" target="_blank" title="经营性网站备案信息"><i class="icon icon-jyxwz"></i></a></li>
+						<!--<script src="http://kxlogo.knet.cn/seallogo.dll?sn=e13031311010039503875e000000&amp;size=0"></script>-->
+						<li><script src="http://kxlogo.knet.cn/seallogo.dll?sn=e15061011010859049lhjc000000&size=0"></script></li>
+						<!--<li><a href="https://ss.knet.cn/verifyseal.dll?sn=e13031311010039503875e000000&amp;ct=df&amp;a=1&amp;pa=0.20944633474573493" target="_blank" title="可信网站身份认证"><i class="icon icon-kxwz"></i></a></li>-->
+						<li><a href="http://www.ectrustprc.org.cn/certificate.id/certificater.php?id=10006716" target="_blank" title="中国电子商务诚信单位"><i class="icon icon-dzswcxdw"></i></a></li>
+						<li><a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1784803798" target="_blank" title="中国信用企业电子证书"><i class="icon icon-dzzs"></i></a></li>
+						<!--<li><a id="___szfw_logo___" href="https://search.szfw.org/cert/l/CX20140828005007005078" target="_blank" title="诚信网站"><i class="icon icon-cxwz"></i></a></li>
+						<script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>--> 
+						<li><script id="_jiucuo_" sitecode='bm22000009' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script></li>
+					</ul>
+				</div>					
+			</div>
+			<!-- 流量统计 
+			<script>
+				var userid_tjebnew = '';
+				var type_tjebnew = 'a7ed016b16034defba31e00308ac1737';
+				if(location.href.indexOf('chinabidding.com') != -1){
+					(function(){var a = document.createElement('script');
+					a.type = 'text/javascript';
+					a.async = true;
+					a.src = 'http://cjjs.ebnew.com/cjjs/analysis.min.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(a, s);})();
+				}
+			</script>-->
+			<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "//hm.baidu.com/hm.js?5e642b7ea86f82ce1f7baa021d9b8809";
+			  var s = document.getElementsByTagName("script")[0];
+			  s.parentNode.insertBefore(hm, s);
+			})();
+			</script>
+					</div>
+		<!--site-footer-area end  -->
+
+</div>
+<script type="text/javascript" src="http://staticfile.chinabidding.com/js/plugin/require/require.js" data-main="http://staticfile.chinabidding.com/js/search/searchBidProject.js"></script>
+</body>
+</html>

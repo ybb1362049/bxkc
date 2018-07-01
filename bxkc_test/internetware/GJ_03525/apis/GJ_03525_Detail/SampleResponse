@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>中国海关政府采购网</title>
+    <link href="/hgcg/Template/Default/css/front.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="/hgcg/Template/Default/css/frontforie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td height="33" align="left" style="text-indent:20px;">
+                        <b>
+                            <script type="text/javascript">
+                                function y2k(number) { return (number < 1000) ? number + 1900 : number; }
+                                var now = new Date();
+                                var dd = now.getDate(), mt = now.getMonth() + 1, yy = y2k(now.getYear()), weekVal = now.getDay();
+                                if (weekVal == 0)
+                                    msg1 = "星期日";
+                                else if (weekVal == 1)
+                                    msg1 = "星期一";
+                                else if (weekVal == 2)
+                                    msg1 = "星期二";
+                                else if (weekVal == 3)
+                                    msg1 = "星期三";
+                                else if (weekVal == 4)
+                                    msg1 = "星期四";
+                                else if (weekVal == 5)
+                                    msg1 = "星期五";
+                                else if (weekVal == 6)
+                                    msg1 = "星期六";
+                                document.write('<font color=#285b88><font face="宋体" style="font-size:12px;">');
+                                document.write(yy + "年" + mt + "月" + dd + "日" + "</font></font>");
+                                document.write('<font color=#285b88><font face="宋体" style="font-size:12px;">');
+                                document.write(" " + msg1 + "</font></font>");
+                            </script>
+                            <script language="JavaScript" type="text/javascript"> 
+document.write(" </font></TT>"); 
+-- end Date --> 
+                            </script>
+                        </b>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td width="32" background="/hgcg/Template/Default/images/bg19.jpg">
+                    </td>
+                    <td width="70">
+                        站内搜索：
+                    </td>
+                    <td width="175" align="center">
+                        <input id="txtSousuo" style="border: 1px solid #C6C6C6; height: 20px; line-height: 20px; vertical-align: top;" type="text" onkeydown="CheckSearch()" value="请输入关键字" onclick="Clear();" name="txtkey" />
+                    </td>
+                    <td width="95" align="center">
+                        <img src="/hgcg/Template/Default/images/bg22.jpg" onclick="search();" style="cursor: pointer;" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="banner">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1002" height="151">
+                <param name="movie" value="/hgcg/Template/Default/images/top.swf" />
+                <param name="quality" value="high" />
+                <embed src="/hgcg/Template/Default/images/top.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1002" height="151"></embed>
+            </object>
+        </div>
+        <div class="nav">
+            <table border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td height="38">
+                        <ul class="navul">
+                            <li><a href="/hgcg/Template/Default/../../default.aspx">首 页</a></li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../gzdt/">工作动态</a>
+                                <ul>
+                                    <li><a href="/hgcg/Template/Default/../../gzdt/001001/">采购工作动态</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../gzdt/001002/">各关采购信息</a></li>
+                                </ul>
+                            </li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../zcfg/">政策法规</a>
+                                <ul>
+                                    <li><a href="/hgcg/Template/Default/../../zcfg/002001/" target="_parent">中央法规</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../zcfg/002002/" target="_parent">海关法规</a></li>
+                                </ul>
+                            </li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../llyd/">理论园地</a>
+                                <ul>
+                                    <li><a href="/hgcg/Template/Default/../../llyd/003001/" target="_parent">案例摘编</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../llyd/003002/" target="_parent">经验交流</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../llyd/003003/" target="_parent">理论研讨</a></li>
+                                </ul>
+                            </li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../cggg/">采购公告</a>
+                                <ul>
+                                    <li><a href="/hgcg/Template/Default/../../cggg/004001/" target="_parent">招标公告</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../cggg/004002/" target="_parent">变更公告</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../cggg/004003/" target="_parent">中标公告</a></li>
+                                    <li><a href="/hgcg/Template/Default/../../cggg/004004/" target="_parent">成交公告</a></li>
+                                </ul>
+                            </li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../gyszl/">供应商专栏</a></li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../cxxx/">诚信信息</a></li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../zxt/">咨询台</a></li>
+                            <li class="blankli"></li>
+                            <li><a href="/hgcg/Template/Default/../../xzzx/">下载中心</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--main-->
+    <div class="main">
+        <div class="blankh10">
+        </div>
+        <!--正文开始-->
+        
+        <table id="tblInfo" cellspacing="1" cellpadding="1" width="100%" align="center" border="0" runat="server">
+            <tr>
+                <td id="tdTitle" align="center" runat="server">
+                    <font color="" style="font-size: 25px"><b>
+                        【公开招标】海关总署2016年瘦客户机采购项目招标公告
+                    </b></font>
+                    <br />
+                    <br />
+                    
+                    <hr size="1">
+                    <font color="#888888" class="webfont">【信息时间：
+                        2016/11/1
+                        &nbsp;&nbsp;阅读次数：
+                        <script src="/hgcg/Upclicktimes.aspx?InfoID=6496dcc8-f112-4d73-92b5-28c3ad13340b"></script>
+                        】<a href="javascript:void(0)" onclick="window.print();"><font color="#000000" class="webfont">【我要打印】</font></a><a href="javascript:window.close()"><font color="#000000" class="webfont">【关闭】</font></a></font><font color="#000000">
+                            
+                        </font>
+                </td>
+            </tr>
+            <tr>
+                <td height="10">
+                </td>
+            </tr>
+            <tr>
+                <td height="400" valign="top" class="infodetail" id="TDContent" style="overflow: hidden; width: 990px;">
+                    <div style="overflow-x: auto; width: 935px; margin: 0 auto;">
+                        <!--EpointContent-->
+                        <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="generator" content="Aspose.Words for .NET 9.7.0.0" /><title></title></head><body><div><p style="margin:0pt"><span style="font-family:'Times New Roman'; font-size:12pt">&#xa0;</span></p><p style="margin:0pt; orphans:0; text-align:justify; widows:0"><a name="EB0b6e29d25a244b69aa105c72694ac2f3"></a><span style="background-color:#ffffff; color:#000080; font-family:Calibri; font-size:10pt"> </span></p><p style="margin:0pt 48pt 0pt 0pt; orphans:0; text-align:center; widows:0"><a name="_Toc420581644"></a><span style="background-color:#ffffff; font-family:宋体; font-size:14pt; font-weight:bold"></span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; text-indent:24pt; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">海关总署物资装备采购中心就“</span><a name="EB11c524dcc9c545b893c51b955d43acc9"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; text-decoration:underline">海关总署2016年瘦客户机</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">采购项目</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">”进行国内公开招标采购，现邀请符合资格条件的投标人前来投标。</span></p><p style="margin:0pt 0pt 6pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">一、招标编号</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">：</span><a name="EB15f0d8ab24824b89aa47f91bd2ece723"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; text-decoration:underline">HG16GK-A0103-D109</span></p><p style="margin:0pt 0pt 6pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">二、项目名称</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">：</span><a name="EBfffbb4296c8e47beb6a6fd5f0c9610b1"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; text-decoration:underline">海关总署2016年瘦客户机</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">采购项目</span></p><p style="margin:0pt 0pt 6pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">三、采购预算：</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">人民币</span><a name="EB03bb905f45e54a439fdbd0d49bab41b8"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">416.5</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">万元，分包预算见招标文件。</span></p><p style="margin:0pt 0pt 6pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">四</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">、招标内容</span></p><p style="margin:0pt; orphans:0; text-align:justify; widows:0"><a name="EBf6d7af93d3404f8a8b9e21039a4170e9"></a><span style="background-color:#FFFFFF; font-family:Calibri; font-size:10.5pt">&#xa0;</span></p><p style="line-height:18pt; margin:0pt; orphans:0; widows:0"><span style="background-color:#FFFFFF; font-family:'Times New Roman'; font-size:12pt">&#xa0;</span></p><table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-left:0pt; width:446.25pt"><tr style="height:19.5pt"><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:35.45pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:宋体; font-size:10.5pt; font-weight:bold">包号</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:90.5pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:宋体; font-size:10.5pt; font-weight:bold">货物名称</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:46.6pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:宋体; font-size:10.5pt; font-weight:bold">数量</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:53.95pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:宋体; font-size:10.5pt; font-weight:bold">到货时间</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:53.95pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:宋体; font-size:10.5pt; font-weight:bold">到货地点</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:66.6pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:宋体; font-size:10.5pt; font-weight:bold">主要技术</span></p><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:宋体; font-size:10.5pt; font-weight:bold">要求</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:99.2pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:宋体; font-size:10.5pt; font-weight:bold">备注</span></p></td></tr><tr style="height:65.9pt"><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:35.45pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:'Times New Roman'; font-size:10.5pt">01</span><span style="font-family:宋体; font-size:10.5pt">包</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:90.5pt"><p style="font-size:12pt; line-height:115%; margin:0pt; text-align:center"><span style="font-family:宋体; font-size:12pt">瘦客户机</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:46.6pt"><p style="line-height:18pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:宋体; font-size:12pt">1700台</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.5pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:53.95pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:宋体; font-size:10.5pt">合同签订后</span><span style="font-family:'Times New Roman'; font-size:10.5pt">20</span><span style="font-family:宋体; font-size:10.5pt">日内设备到货</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:53.95pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:宋体; font-size:10.5pt">海关指定地点（详见第四部分）</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:66.6pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:宋体; font-size:10.5pt">详见招标文件第四部分</span></p></td><td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.4pt; padding-right:5.4pt; vertical-align:middle; width:99.2pt"><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:justify"><span style="font-family:宋体; font-size:10.5pt">质保期：</span><span style="font-family:'Times New Roman'; font-size:10.5pt">5</span><span style="font-family:宋体; font-size:10.5pt">年制造商免费保修服务。</span></p><p style="font-size:10.5pt; line-height:115%; margin:0pt; text-align:justify"><span style="font-family:'Times New Roman'; font-size:10.5pt">&#xa0;</span></p></td></tr></table><p style="line-height:18pt; margin:0pt; orphans:0; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">&#xa0;</span></p><p style="line-height:18pt; margin:0pt; orphans:0; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">注：1.投标人可以对其中一个包或多个包进行投标，但必须对所投标包中的所有货物进行投标，不允许拆包投标。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-indent:24pt; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">2．</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">针对同一包，</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">一个投标人不得提交两个或两个以上不同的投标文件或投标报价。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-indent:24pt; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">3.</span><span style="font-family:宋体; font-size:12pt">若投标人对本项目的多个包进行投标，则投标文件须按包分别编制并装订提交。</span></p><p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:Calibri; font-size:10.5pt">&#xa0;</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">五</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">、</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">投标人资格条件</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">1、在中华人民共和国境内依法注册的、有能力提供招标货物和相关服务的法人或其他组织。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">2</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">、</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">符合《中华人民共和国政府采购法》第二十二条规定。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">3、从招标人在本公告中规定的渠道获取了招标文件，且在法律上和财务上独立于招标人。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">4、受托为本采购项目整体或其中分项目的前期工作提供了整体设计、规范编制、或者项目管理、监理、检测等服务的供应商，不得参加本项目整体或相关分项目的投标。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">5</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">、单位负责人为同一人或者存在直接控股、管理关系的不同供应商不得参加本项目同</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">一包的投标。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><a name="EBbd34876a73214bdca99887ae1725aef8"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">6、投标人其他条件： </span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">（1）本次招标不接受联合体投标。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">（2）本项目不接受进口产品投标（进口产品是指通过中国海关报关，验放进入中国境内，且产自关境外的产品。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">（3）投标人如为代理商，须具有所投包制造商针对本项目的唯一授权（针对同一包相同品牌产品只能是制造商或其授权的唯一代理商参与本项目投标）。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">&#xa0;</span></p><p style="font-size:12pt; line-height:150%; margin:0pt 0pt 6pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">六</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">、获取招标文件方式及时间</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">1、</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">获取招标文件的方式</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">：</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">??? 第一步：网上报名</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify; text-indent:24pt"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">已在</span><span style="background-color:#ffffff; font-family:Calibri; font-size:12pt">“</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">海关政府采购电子招标系统</span><span style="background-color:#ffffff; font-family:Calibri; font-size:12pt">”</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">（以下简称</span><span style="background-color:#ffffff; font-family:Calibri; font-size:12pt">“</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">电子招标系统</span><span style="background-color:#ffffff; font-family:Calibri; font-size:12pt">”</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">）注册过的供应商，请</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">打开中国海关政府采购网（</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">http://hgcg.customs.gov.cn</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">）进行供应商登录，并针对拟参加的项目</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">分包</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">进行报名。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify; text-indent:24pt"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">未在</span><span style="background-color:#ffffff; font-family:Calibri; font-size:12pt">“</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">电子招标系统</span><span style="background-color:#ffffff; font-family:Calibri; font-size:12pt">”</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">注册的，应首先阅读中国海关政府采购网</span><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">“</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">供应商专栏</span><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">”</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">中的《供应商电子招标用户手册》并进行注册，然后再</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">针对拟参加的项目</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">分包</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">进行报名。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt 0pt 0pt 12pt; text-align:justify; text-indent:-12pt"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">??? 第二步：下载招标文件</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">??? 潜在投标人网上报名后，首先经过招标人形式审核，审核通过后免费下载招标文件。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">??? 投标人未网上报名或审核未通过的将不能下载招标文件，</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">未从招标人规定渠道获取招标文件的，其递交的投标文件将被拒绝。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt 0pt 6pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">阅读招标文件需先在中国海关政府采购网</span><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">“</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">下载中心</span><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">”</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">栏目里下载安装</span><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">“</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">海关政府采购电子招标系统投标文件制作工具7.4.1.06和海关政府采购电子招标平台控件包（HGControl3.1）</span><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">”</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">，如有疑问，请拨打技术支持电话：</span><a name="EBb8d3c5263e4949d98548816a5c791922"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">010-65194838</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">2、网上报名时间：</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">自</span><a name="EB97736b2cb9f940cdaed7e0b2bfabf62e"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; text-decoration:underline">2016年11月01日 09:00:00</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">至</span><a name="EBdede87dacc4145b3b3fee8c0a1946fb3"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; text-decoration:underline">2016年11月11日 15:00:00</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">止（北京时间）；</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify; text-indent:24.1pt"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">请潜在投标人务必在网上报名截止时间前进行报名并分包下载招标文件，超过报名截止时间的将无法下载招标文件</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">。</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">未在本系统报名并分包下载招标文件或只报名未下载招标文件的投标人，其递交的投标文件都将被拒绝。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt 0pt 6pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">七</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt; font-weight:bold">、投标截止时间及投标方式</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">1.投标截止时间：</span><a name="EB8bd44c0a090e443a910a140451d099c0"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; text-decoration:underline">2016年11月23日 09:00:00</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">（北京时间）。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">2.投标文件的递交：纸质投标文件请于开标当日、投标截止时间之前由专人送达开标地点,逾期送达或送达的投标文件不符合本招标文件规定以及以电报、电话、传真、电子邮件、电子标书形式递交的投标文件将不予接受。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">八</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">、开标时间</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">和</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">地点</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">1.开标时间：</span><a name="EB4f8ec52d25ce48e7aba4ec7ff3c47335"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; text-decoration:underline">2016年11月23日 09:00:00</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">（北京时间）</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">2.开标地点：</span><a name="EB542bf9b462d244ba8fc9debbb85a644b"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; text-decoration:underline">中国海关博物馆办公楼五层522会议室（北京市东城区建国门内大街2号，中国海关博物馆办公楼入口位于大羊毛胡同过街走廊处）</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">。</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">届时请参加投标的单位派代表出席开标仪式。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; text-align:justify"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">九</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">、</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt; font-weight:bold">招标人相关信息</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">招</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt"> </span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">标</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt"> </span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">人：海关总署物资装备采购中心；</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">地</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">??? </span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">址：北京市建国门内</span><span style="background-color:#ffffff; font-family:Calibri; font-size:12pt">6</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">号；</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">邮政编码：</span><span style="background-color:#ffffff; font-family:Calibri; font-size:12pt">100730</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">；</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">联</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt"> </span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">系</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt"> </span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">人：</span><a name="EB0cf29539b8824623ab13d3d2d26ff994"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">解先生? 吕先生</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">电</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">??? </span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">话：</span><a name="EBec7fca1e6f7f4ce5be668f6c97463059"></a><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">010-65195161? 010-65194838</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">传</span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">??? </span><span style="background-color:#ffffff; font-family:宋体; font-size:12pt">真：</span><a name="EBc5232e5c8017402db7f11e35aa03a258"></a><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">010-65195902</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><a name="EB61dadf0e020445abab924714b6885e59"></a><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">十、本招标公告在中国政府采购网（</span><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">www.ccgp.gov.cn</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">）和中国海关政府采购网站（</span><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">http://hgcg.customs.gov.cn</span><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">）上进行发布。</span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:宋体; font-size:12pt">??? 根据政府采购法律规定，已获取招标文件的潜在投标人如对招标文件提出澄清或质疑的，应当自下载招标文件之日起七个工作日内向招标人提出，超出时限的不予接受。 </span></p><p style="font-size:12pt; line-height:150%; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="background-color:#ffffff; color:#000000; font-family:Calibri; font-size:12pt">&#xa0;</span></p></div></body></html>
+                        <!--EpointContent-->
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    
+                    <br>
+                    
+                </td>
+            </tr>
+            <tr id="trAttach" runat="server">
+                <td>
+                    <table id="filedown" cellspacing="1" cellpadding="1" width="100%" border="0" runat="server">
+                        <tr>
+                            <td valign="top">
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td height="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <a target='_blank' href='../../../hgcghy/' ><img width='181' height='70' src='/hgcg/Template/Default/images/wytb.jpg' /></a>
+                </td>
+            </tr>
+        </table>
+        <!--正文结束-->
+        <div class="blankh10">
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <iframe src="/hgcg/Template/Default/pagefoot.htm" width="1002" height="87" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <script src="/hgcg/Template/Default/js/front.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function $id(id) {
+            return document.getElementById(id);
+        }
+
+        var content = $id('TDContent').innerHTML;
+        var str = content.replace(/\?/g, '');
+        $id('TDContent').innerHTML = str;
+    </script>
+</body>
+</html>

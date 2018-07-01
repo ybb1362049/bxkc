@@ -1,0 +1,357 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3c.org/tr/1999/rec-html401-19991224/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>阿拉善盟公共资源交易中心</title>
+<meta content="text/html; charset=utf-8" http-equiv=content-type>
+<link rel="stylesheet" type="text/css" href="css/jyzx_style.css">
+<script type="text/javascript" src="/pages/js/domainManage.js"></script>
+<script type="text/javascript" src="/pages/js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/pages/js/command.js"></script>
+<script type="text/javascript" src="/pages/js/catalogFun_news.js"></script>
+<script type="text/javascript" src="js/catalog.js"></script>
+<script type="text/javascript" src="/pages/js/siteFun.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script src="js/bplayer.js" type="text/javascript"></script>
+<script type="text/javascript">
+var cid = getQueryString("cataId");
+var catCode = getQueryString("catCode");
+if(cid==null && catCode == null){
+	window.location.href = "index.html";
+}
+
+var thisCatalogId="";
+$(document).ready(function(){
+	try{
+		catalog.writeNavigation(thisCatalogId,"#navigation");
+		catalog.writeCatalogName(thisCatalogId,"#div_catalogName");
+		catalog.navigationMenu(thisCatalogId,"#parentCatalog","#leftMenuTd",false);
+	}catch(e){}
+});
+</script>
+</head>
+
+<body>
+﻿<!-- top开始 -->
+<script type="text/javascript">
+function searchForm(){
+	try{
+		var key = $("#searchKey").val();
+		if(key.trim()==""){
+			alert("请输入关键字搜索！");
+			$("#searchKey").focus();
+			return;
+		}
+		var url = "/website/zyjyzx/html/search.html?key=" + escape(key)+"&tmp=" + Math.random();;
+		window.open(url);
+	}
+	catch(e){}
+}
+</script>
+<div id="myjQuery">
+	<div id="myjQueryContent">
+		<div><img src="/website/zyjyzx/html/images/banner1.jpg" width="1349" height="218"></div>
+		<div class="smask"><img src="/website/zyjyzx/html/images/banner2.jpg"></div>
+		<div class="smask"><img src="/website/zyjyzx/html/images/banner3.jpg"></div>
+		<div class="smask"><img src="/website/zyjyzx/html/images/banner4.jpg"></div>
+		<div class="smask"><img src="/website/zyjyzx/html/images/banner5.jpg"></div>
+		<div class="smask"><img src="/website/zyjyzx/html/images/banner6.jpg"></div>
+	</div>
+</div>
+<!-- top结束 -->
+<!--导航开始-->
+<div id="full-screen-slider" style="z-index:99">
+	<div class="picnav" style="z-index:99">
+		<div id="menu" style="z-index:99">
+			<ul id="nav" style="z-index:99">
+				<li class="mainlevel" style="width:80px;"><a href="/website/zyjyzx/html/index.html">首 页</a></li>
+				<li class="mainlevel" style="z-index:99">
+					<a href="javascript:void(0);">中心简介</a>
+					<ul style="z-index:99">
+						<li style="z-index:99"><a href="/website/zyjyzx/html/zxzz/201505061003566686.html?cataId=201504271014124774">中心职责</a></li>
+						<li style="z-index:99"><a href="/website/zyjyzx/html/nsjg/201505061005510189.html?cataId=201504271014270619">内设机构</a></li>
+						<li style="z-index:99"><a href="/website/zyjyzx/html/ldbz/201505061743327970.html?cataId=201504271014438981">领导班子</a></li>
+						<li style="z-index:99"><a href="/website/zyjyzx/html/artList.html?cataId=201504271014571686">规章制度</a></li>
+					</ul>
+				</li>
+				<li class="mainlevel" style="width:130px;">
+				
+				<a href="javascript:void(0);">党的建设</a>
+					<ul style="z-index:99">
+						<li style="z-index:99"><a href="/website/zyjyzx/html/artList.html?cataId=201504271016501896">党风廉政建设</a></li>
+						<li style="z-index:99"><a href="/website/zyjyzx/html/artList.html?cataId=201708281545022399">“两学一做”学习教育</a></li>
+						<li style="z-index:99"><a href="/website/zyjyzx/html/artList.html?cataId=201708281545239774">组织建设</a></li>
+						<li style="z-index:99"><a href="/website/zyjyzx/html/artList.html?cataId=201708281545438580">思想建设</a></li>
+					</ul>
+				</li>
+				<li class="mainlevel"><a href="/website/zyjyzx/html/artList.html?cataId=201504271015231373">工作要闻</a></li>
+				
+				<li class="mainlevel">
+					<a href="javascript:void(0);">建设工程</a>
+					<ul >
+						<li><a href="http://www.alsggzyjy.cn/website/zyjyzx/html/artList.html?catCode=zbgg">交易公告</a></li>
+						<li><a href="/website/zyjyzx/html/jydt/jsgc.html">网上大厅</a></li>
+					</ul>
+				</li>
+				<li class="mainlevel">
+					<a href="javascript:void(0);">政府采购</a>
+					<ul>
+						<li><a href="http://www.alsggzyjy.cn/website/zyjyzx/html/artList.html?catCode=cg_zbgg">交易公告</a></li>
+						<li><a href="http://www.alsggzyjy.cn/website/zyjyzx/html/jydt/zfcg.html">网上大厅</a></li>
+					</ul>
+				</li>
+				<li class="mainlevel" style="width:160px;">
+					<a href="javascript:void(0);">土地与矿业权交易</a>
+					<ul style="width:160px;">
+						<li><a href="/website/zyjyzx/html/artList.html?cataId=201505201132593131">交易公告</a></li>
+						<li><a href="/website/zyjyzx/html/jydt/tdky.html">网上大厅</a></li>
+					</ul>
+				</li>
+				<li class="mainlevel">
+					<a href="javascript:void(0);">产权交易</a>
+					<ul>
+						<li><a href="/website/zyjyzx/html/artList.html?cataId=201505201519514196">交易公告</a></li>
+						<li><a href="/website/zyjyzx/html/jydt/cqjy.html">网上大厅</a></li>
+					</ul>
+				</li>
+				<li class="mainlevel">
+					<a href="javascript:void(0);">政策法规</a> 
+					<ul>
+						<li><a href="/website/zyjyzx/html/artList.html?cataId=201504271034079629">建设工程</a></li>
+						<li><a href="/website/zyjyzx/html/artList.html?cataId=201504271034348577">政府采购</a></li>
+						<li><a href="/website/zyjyzx/html/artList.html?cataId=201504271034513521">土地矿业权</a></li>
+						<li><a href="/website/zyjyzx/html/artList.html?cataId=201504271035169084">产权交易</a></li>
+					</ul>
+				</li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--导航结束--><div class="main">
+	<!-- 当前位置&搜索开始 -->
+	<div class="topBox" style="z-index:11">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="topBoxL">当前位置：</td>
+				<td id="navigation">&nbsp;</td>
+				<td class="topBoxR">
+					<form style="margin: 0px;padding:0px;" onSubmit="searchForm();return false;">
+						<table class="search" cellSpacing="0" cellPadding="0">
+							<tr>
+								<td>
+									<select>
+										<option>搜索类型</option>
+										<option>文章搜索</option>
+									</select>
+								</td>
+								<td><input class="searchText"  name="searchKey" type="text" id="searchKey"></td>
+								<td><input class="searchBtn" type="submit" tabindex="3" value="搜 索" /></td>
+								<td>&nbsp;</td>
+							</tr>
+						</table>
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!-- 当前位置&搜索结束 -->
+	<table border="0" cellspacing="0" cellpadding="0" style="width:970px;margin:5px;">
+		<tr>
+			<td class="leftMenuTd2" valign="top">
+				<table class="leftMenuTable2" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="leftMenuTitle2">
+							<span id="parentCatalog"></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="leftMenuItem2" id="leftMenuTd">&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+			<td style="width:5px;"></td>
+			<td class="columnList">
+				<table class="colList" border="0" cellpadding="0" cellspacing="0">
+					<tr><td class="colListTop"></td></tr>
+					<tr>
+						<td class="colListMiddle">
+							<table cellspacing="0" cellpadding="0" border="0" class="colListMain">
+								<tr>
+									<td class="colListTitle">
+										<span id="div_catalogName">&nbsp;</span>
+									</td>
+								</tr>
+								<tr>
+									<td id="div_list"><ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/zyjyzx/html/zbgg/201805040829315883.html?cataId=201505201128548099' title='贺兰草原、丁香园项目区域内电力设施迁移改造项目设计（二次）【设计】招标公告' target='_blank'>贺兰草原、丁香园项目区域内电力设施迁移改造项目设计（二次）【设计】招标...</a></li>
+<li class='li_art_date'>2018-05-04</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/zyjyzx/html/zbgg/201805040829309990.html?cataId=201505201128548099' title='通古淖尔35kV变电站35kV出线间隔扩建工程材料采购【材料设备】招标公告' target='_blank'>通古淖尔35kV变电站35kV出线间隔扩建工程材料采购【材料设备】招标公告</a></li>
+<li class='li_art_date'>2018-05-04</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/alszwfwzx/html/zbgg/201805031142503533.html?cataId=201606301437300408' title='[经发]阿拉善经济开发区林业局2016-2017年度森林保险有害生物防治灭鼠项目招标公告' target='_blank'>[经发]阿拉善经济开发区林业局2016-2017年度森林保险有害生物防治灭鼠项目招...</a></li>
+<li class='li_art_date'>2018-05-03</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/yqfzx/html/zbgg/201805031104000465.html?cataId=201801111053228016' title='[右公]阿拉善右旗巴丹吉林镇市政道路改造工程' target='_blank'>[右公]阿拉善右旗巴丹吉林镇市政道路改造工程</a></li>
+<li class='li_art_date'>2018-05-03</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/zyjyzx/html/zbgg/201805031027298033.html?cataId=201505201128548099' title='内蒙古自治区中西部地区节水增效额济纳旗（2018年）项目施工【施工】招标公告' target='_blank'>内蒙古自治区中西部地区节水增效额济纳旗（2018年）项目施工【施工】招标公...</a></li>
+<li class='li_art_date'>2018-05-03</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/zyjyzx/html/zbgg/201805030912302809.html?cataId=201505201128548099' title='腾格里经济技术开发区牧区储水窖工程（二标段）【材料设备】招标公告' target='_blank'>腾格里经济技术开发区牧区储水窖工程（二标段）【材料设备】招标公告</a></li>
+<li class='li_art_date'>2018-05-03</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/zyjyzx/html/zbgg/201805030912291860.html?cataId=201505201128548099' title='腾格里经济技术开发区牧区储水窖工程（一标段）【施工】招标公告' target='_blank'>腾格里经济技术开发区牧区储水窖工程（一标段）【施工】招标公告</a></li>
+<li class='li_art_date'>2018-05-03</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/zyjyzx/html/zbgg/201805030910331045.html?cataId=201505201128548099' title='阿拉善左旗巴彦浩特城市生态系统改造提升工程施工及监理（监理二标段）【监理】招标公告' target='_blank'>阿拉善左旗巴彦浩特城市生态系统改造提升工程施工及监理（监理二标段）【监...</a></li>
+<li class='li_art_date'>2018-05-03</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/zyjyzx/html/zbgg/201805030910317334.html?cataId=201505201128548099' title='阿拉善左旗巴彦浩特城市生态系统改造提升工程施工及监理（监理一标段）【监理】招标公告' target='_blank'>阿拉善左旗巴彦浩特城市生态系统改造提升工程施工及监理（监理一标段）【监...</a></li>
+<li class='li_art_date'>2018-05-03</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/zyjyzx/html/zbgg/201805030910308652.html?cataId=201505201128548099' title='阿拉善左旗巴彦浩特城市生态系统改造提升工程施工及监理（施工三标段）【施工】招标公告' target='_blank'>阿拉善左旗巴彦浩特城市生态系统改造提升工程施工及监理（施工三标段）【施...</a></li>
+<li class='li_art_date'>2018-05-03</li>
+</ul>
+<ul class='ul_art_row'>
+<li class='li_art_title'><a href='/website/zyjyzx/html/zbgg/201805030910285567.html?cataId=201505201128548099' title='阿拉善左旗巴彦浩特城市生态系统改造提升工程施工及监理（施工二标段）【施工】招标公告' target='_blank'>阿拉善左旗巴彦浩特城市生态系统改造提升工程施工及监理（施工二标段）【施...</a></li>
+<li class='li_art_date'>2018-05-03</li>
+</ul>
+<script>thisCatalogId='201505201128548099';</script> </td>
+								</tr>
+								<tr>
+									<td height="25"><style type="text/css">
+.pagination {padding: 5px;font-size:12px; width:99%;text-align: right;}
+.pagination a, .pagination a:link, .pagination a:visited {padding:2px 5px;margin:2px;border:1px solid #aaaadd;text-decoration:none;color:#006699;}
+.pagination a:hover, .pagination a:active {border: 1px solid #ff0000;color: #000;text-decoration: none;}
+.pagination span.current {padding: 2px 5px;margin: 2px;border: 1px solid #ff0000;font-weight: bold;background-color: #ff0000;color: #FFF;}
+.pagination span.disabled {padding: 2px 5px;margin: 2px;border: 1px solid #eee; color: #ddd;}
+</style>
+<div class="pagination">
+
+	
+
+	
+<div style="float:right;width:135px;height:33px;padding:0px;text-align: left;">
+<form style="margin:0px;padding:0px;width:130px;" id="pageGotoForm" name="pageGotoForm" onsubmit="gotoPage();return false;" >
+&nbsp;&nbsp;到第<input type="text" id="pageGotoNo" value="1" style="width:20px;text-align: center;font-size:12px;" />页&nbsp;<input type="submit" value="确定" />
+</form>
+</div>
+<div style="float:right;width:auto;padding:5px;text-align: right;">
+<span>共1816条/166页</span>
+<span class="disabled">&laquo;&nbsp;上一页</span>
+	
+<span class="current">1</span>
+<a href="artList.html?sn=zyjyzx&catCode=zbgg&pageNo=2">2</a>      
+&hellip;  
+<a href="artList.html?sn=zyjyzx&catCode=zbgg&pageNo=165">165</a>
+<a href="artList.html?sn=zyjyzx&catCode=zbgg&pageNo=166">166</a>
+<a href="artList.html?sn=zyjyzx&catCode=zbgg&pageNo=2">下一页&nbsp;&raquo;</a>
+</div>
+</div> 
+<script type="text/javascript">
+function checkNumber(str){ 
+	if(""==str){ 
+		return false; 
+	} 
+	var reg = /^\d*$/; 
+	return reg.test(str); 
+}
+function gotoPage(){
+	try{
+		var gotoNum = document.getElementById("pageGotoNo").value;
+		var pageCount = 166;
+		if(gotoNum == "" || !checkNumber(gotoNum)){
+			alert("请输入您所需跳转的页码数，且只能是数字！");
+			return;
+		}
+		gotoNum = parseInt(gotoNum);
+		if(gotoNum>pageCount || gotoNum<1){
+			alert("您请输入的跳转页码数超过范围(1-166)！");
+			return;
+		}
+		window.location.href = "artList.html?sn=zyjyzx&catCode=zbgg&pageNo=" + document.getElementById("pageGotoNo").value;
+	}catch(e){
+	}
+}
+</script>
+</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr><td class="colListBottom"></td></tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- 友情链接开始 -->
+<div class="yqlj">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td class="yqljTitle">
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td class="yqljTitleLeft"></td>
+						<td class="yqljTitleMiddle">友情链接</td>
+						<td class="yqljTitleRight"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td class="yqljTableMain">
+							<span class="yqljLink"><a href="//www.mof.gov.cn/index.htm" target="_blank">财政部</a></span>
+							<span class="yqljLink"><a href="//www.mohurd.gov.cn/" target="_blank">建设部</a></span>
+							<span class="yqljLink"><a href="//www.moc.gov.cn/" target="_blank">交通部</a></span>
+							<span class="yqljLink"><a href="//www.mwr.gov.cn/" target="_blank">水利部</a></span>
+							<span class="yqljLink"><a href="//www.mlr.gov.cn/" target="_blank">国土资源部</a></span>
+							<span class="yqljLink"><a href="//www.ccgp.gov.cn/" target="_blank">中国政府采购网</a></span>
+							<span class="yqljLink"><a href="//www.chinabidding.com.cn/" target="_blank">中国采购与招标网</a></span>
+							<span class="yqljLink"><a href="//www.nmgp.gov.cn/" target="_blank">内蒙古政府采购网</a></span>
+							<span class="yqljLink"><a href="//www.nmgztb.com.cn/" target="_blank">内蒙古招投标网</a></span>
+							<span class="yqljLink"><a href="//www.nmggtt.gov.cn/" target="_blank">内蒙自治区国土资源厅</a></span>
+							<span class="yqljLink"><a href="//www.als.gov.cn/" target="_blank">阿拉善盟门户网站</a></span>
+							<span class="yqljLink"><a href="//alsmzwfwzx.gov.cn/" target="_blank">公管办</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="yqljTableBottom"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- 友情链接结束 -->
+
+<!-- foot开始 -->
+<div class="foot" style="width:100%;">
+	<div class="table_menu" style="color:#FFFFFF">阿拉善盟公共资源交易中心网站备案/许可证号：蒙ICP备15001139号-1</div>
+  <div style="text-align:center;line-height:25px;margin-bottom:0px">版权所有：阿拉善盟公共资源交易中心 　本网站由广东和诚信息技术有限公司提供技术支持
+      <br />
+      通讯地址：阿拉善左旗巴彦浩特镇西城区西花园北街阿拉善盟公共资源交易中心六楼（阿拉善盟新政务大楼内）  　联系电话：0483-8345570 
+<br />
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260595804'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1260595804%26show%3Dpic 'type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">document.write("<div style='text-align:center;'>"+unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/07/127/0000/60413955/CA071270000604139550001.js' type='text/javascript'%3E%3C/script%3E")+"</div>");</script>
+  </div>
+</div>
+<!-- foot结束 -->
+
+</body>
+</html>

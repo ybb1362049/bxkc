@@ -1,0 +1,441 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml" xmlns:jsp><HEAD><TITLE>峨边彝族自治县</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="/style/style.css">
+<SCRIPT type=text/javascript src="/js/jquery-1.5.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/js/common.js"></SCRIPT>
+</HEAD>
+<BODY>
+
+
+
+
+<DIV class=head>
+<DIV class=top>
+<DIV class=top_content>
+<DIV class=top_left>
+<A href="http://www.gov.cn/"><SPAN><IMG src="images/gh.png"></SPAN>中央人民政府</A> 
+<A href="http://www.sc.gov.cn/">四川人民政府</A> 
+<A href="http://www.leshan.gov.cn/">乐山市人民政府</A>
+ </DIV>
+<DIV class=top_right>
+      <a onclick="SetHome(window.location)" href="javascript:void(0)" style="cursor:hand;" >设为首页</a><SPAN>|</SPAN>
+      <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)" style="cursor:hand;">加入收藏</a>
+     
+</DIV></DIV></DIV>
+<DIV class=logo>
+<DIV class=logo_img><EMBED type=application/x-shockwave-flash align=left height=230 width=1108 src=/flsh/logo.swf wmode="transparent" quality="high"></EMBED> </DIV></DIV>
+<DIV class=banner>
+<DIV class=nav>
+<UL>
+<LI  class=nav1  ><SPAN><IMG src="images/nav1.png"></SPAN><A href="index.html" style="color:#000" >网站首页</A> 
+<LI><SPAN><IMG src="images/nav2.png"></SPAN><A href="zjeb.html">走进峨边</A>
+<LI><SPAN><IMG src="images/nav8.png"></SPAN><A href="ldxx.html">领导信息</A> 
+<LI><SPAN><IMG src="images/nav4.png"></SPAN><A href="zwgk.html">政务公开</A> 
+
+<LI><SPAN><IMG src="images/nav5.png"></SPAN><A href="bsfw.html">办事服务</A> 
+<LI><SPAN><IMG src="images/nav6.png"></SPAN><A href="zmhd.html">政民互动</A>
+<LI><SPAN><IMG src="images/nav3.png"></SPAN><A href="whly.html">文化旅游</A> 
+
+ </LI></UL></DIV></DIV></DIV><!-- head -->
+<DIV class=pClear></DIV>
+<DIV class=pagecontent>
+<DIV class=main_content><!-- mid -->
+<DIV class=pClear></DIV>
+<DIV class=ldxx>
+<DIV class=ldxx_left>
+<DIV class=ldxx_left1><I class=ico><IMG src="images/pHead1_ico1.png"></I> 
+<DIV class=pHead13><SPAN><IMG src="images/pHead1_ico2.png"></SPAN><A href="">新闻中心</A></DIV>
+<DIV class=ldxx_pHead>
+<DIV class=content_heads6><DIV ><A style="CURSOR: pointer" href="/pagelist_zl.jsp?id=7bea63abed00424e8eb2130a2fee1f63"> 峨边要闻</A></DIV><DIV ><A style="CURSOR: pointer" href="/pagelist_zl.jsp?id=03abdb859cad4df9b357b647358ff46a"> 视频新闻</A></DIV><DIV ><A style="CURSOR: pointer" href="/pagelist_zl.jsp?id=2bedb779b940431fb2b5e82c69779975"> 时政聚焦</A></DIV><DIV ><A style="CURSOR: pointer" href="/pagelist_zl.jsp?id=8cc52fb1980f4aae9919f8e827ce7af5"> 部门工作</A></DIV><DIV ><A style="CURSOR: pointer" href="/pagelist_zl.jsp?id=4b91bc88e98f4e54b1dac1e0ffc6197e"> 乡镇动态</A></DIV><DIV ><A style="CURSOR: pointer" href="/pagelist_zl.jsp?id=e2e8301c35ad4ad6a002b0c1f440b259"> 公示公告</A></DIV><DIV ><A style="CURSOR: pointer" href="/pagelist_zl.jsp?id=62ef54cb1e66466d8b7c37cbb5def481"> 政策解读</A></DIV><DIV ><A style="CURSOR: pointer" href="/pagelist_zl.jsp?id=9f58cf725b424db095c22ec6108bf9ee"> 聚焦民生</A></DIV></DIV></DIV></DIV></DIV>
+<DIV style="WIDTH: 820px" class=pagelist_right><I class=ico><IMG src="images/pHead1_ico1.png"></I> 
+<DIV class=pHead3><SPAN><IMG src="images/pHead1_ico2.png"></SPAN><A> </A><style></style>公示公告</DIV>
+<DIV style="WIDTH: 810px" class=pagelist_con><STYLE>
+	 
+	
+		.clickstyle40288949552e56bd015595e9b01f09ea{ LINE-HEIGHT: 150%;COLOR: #cf1e06;FONT-SIZE: 9pt;TEXT-DECORATION: none;margin-left:6px; }
+		.leaderfont40288949552e56bd015595e9b01f09ea{ FONT-SIZE: 9pt; LINE-HEIGHT: 150% }
+		.titlestyle40288949552e56bd015595e9b01f09ea{ FONT-SIZE: 10pt; COLOR: #222222; LINE-HEIGHT: 150%; }
+		.columnstyle40288949552e56bd015595e9b01f09ea{ LINE-HEIGHT: 150%;COLOR: #cf1e06;FONT-SIZE: 9pt;TEXT-DECORATION: none; }
+		.timestyle40288949552e56bd015595e9b01f09ea{ FONT-SIZE: 10pt; COLOR: #222222; LINE-HEIGHT: 150%;  }
+		.winstyle1253{ text-align:left; }
+		A.c40288949552e56bd015595e9b01f09ea {
+		FONT-SIZE: 10pt; LINE-HEIGHT: 150%; TEXT-DECORATION: none;
+		color:#222222;
+		}
+		A.c40288949552e56bd015595e9b01f09ea:link {
+		color:#222222;
+		}
+		A.c40288949552e56bd015595e9b01f09ea:hover {
+		color:#cc0000;
+		}
+
+	
+		.pageDiv{
+	text-align:right;
+	color:#666;
+	font-size:12px;
+	padding:5px;
+	}
+
+.pageBtn{
+	margin:0px;
+	
+	padding-top:2px;
+	background:#fff;
+	height:18px;
+	text-align:center;
+	line-height:18px;
+	cursor:pointer;
+	border:0px #0e557a solid;
+	margin-left:5px;
+	font-size:12px;
+}
+		
+ </STYLE><table width=100%  class="winstyle1253"  ><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：峨边彝族自治县2018年农村公益性岗位安置人员公示 href="/content.jsp?id=402889495f779a190160d90568a21a7f&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>峨边彝族自治县2018年农村公益性岗位安置人员公示 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2018-01-09 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：五渡镇田村移民避险解困项目监理比选公告 href="/content.jsp?id=402889495f779a190160a11ac5451828&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>五渡镇田村移民避险解困项目监理比选公告 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-29 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：有效期内矿业权基本信息的公告 href="/content.jsp?id=402889495f779a1901608c81167b16d3&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>有效期内矿业权基本信息的公告 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-22 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：二〇一七年第二批采矿权价款评估项目公开选择评估机构结果公告 href="/content.jsp?id=402889495f779a1901607c4c2390164d&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>二〇一七年第二批采矿权价款评估项目公开选择评估机构结果公告 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-22 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：峨边彝族自治县2017年12月申领技能提升补贴人员公示 href="/content.jsp?id=402889495f779a1901607c3ef85b1642&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>峨边彝族自治县2017年12月申领技能提升补贴人员公示 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-22 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：关于2017年度农牧系列中级职务任职资格人员的公示 href="/content.jsp?id=402889495f779a1901607c2acc751624&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>关于2017年度农牧系列中级职务任职资格人员的公示 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-22 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：关于2017年度教育系列一级职务任职资格人员的公示 href="/content.jsp?id=402889495f779a1901607c26f6831615&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>关于2017年度教育系列一级职务任职资格人员的公示 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-22 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：2017年工程系列中级职务任职资格人员的公示 href="/content.jsp?id=402889495f779a1901607c2300fe160a&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>2017年工程系列中级职务任职资格人员的公示 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-22 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：二〇一七年第二批采矿权价款评估项目评估机构报名情况及摇号通知 href="/content.jsp?id=402889495f779a19016072ad36cd1543&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>二〇一七年第二批采矿权价款评估项目评估机构报名情况及摇号通知 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-18 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：峨边彝族自治县就业服务管理局2017年关于技能培训补贴第五批的公示 href="/content.jsp?id=402889495f779a1901605886f8ca147d&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>峨边彝族自治县就业服务管理局2017年关于技能培训补贴第五批的公示 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-15 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：关于五平路施工期间实行交通管制的通告 href="/content.jsp?id=402889495f779a1901604f3b194113e9&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>关于五平路施工期间实行交通管制的通告 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-13 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：关于峨轸路沙坪至龚嘴大桥段暨骑游道工程建设实施临时交通管制的通告 href="/content.jsp?id=402889495f779a1901604f39257413e5&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>关于峨轸路沙坪至龚嘴大桥段暨骑游道工程建设实施临时交通管制的通告 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-13 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：关于五平路施工期间实行交通管制的通告 href="/content.jsp?id=402889495f779a1901604f36a71d13e1&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>关于五平路施工期间实行交通管制的通告 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-13 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：峨边彝族自治县广播电视台2017年公开招聘播音员考试成绩公告 href="/content.jsp?id=402889495f779a1901602ee4b870120a&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>峨边彝族自治县广播电视台2017年公开招聘播音员考试成绩公告 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-07 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：峨边彝族自治县国土资源局公开选择评估机构承担二〇一七年第二批采矿权价款评估项目固定价随机抽取确定评估机构的抽取方案 href="/content.jsp?id=402889495f779a1901602edcf06011fc&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>峨边彝族自治县国土资源局公开选择评估机构承担二〇一七年第二批采矿权价款评估项目固定价随机抽取确定... </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-07 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：峨边2017年困难人员灵活性就业社会保险补贴公示 href="/content.jsp?id=402889495f779a190160260e6c441166&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>峨边2017年困难人员灵活性就业社会保险补贴公示 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-05 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：农机购置补贴公示 href="/content.jsp?id=402889495f779a19016020a7ba9d10a2&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>农机购置补贴公示 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-12-04 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：2017年峨边彝族自治县从事农村公益性岗位第四季度人员补贴公示 href="/content.jsp?id=402889495f779a1901600bd13d7b0fbd&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>2017年峨边彝族自治县从事农村公益性岗位第四季度人员补贴公示 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-11-30 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：四川省乐山市峨边彝族自治县建档立卡贫困家庭学生资助名单公示表 href="/content.jsp?id=402889495f779a19016005d41eb50f58&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>四川省乐山市峨边彝族自治县建档立卡贫困家庭学生资助名单公示表 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-11-29 </TD></TR><TR height=24>
+<TD height=24><SPAN class=leaderfont40288949552e56bd015595e9b01f09ea>· </SPAN><A class=c40288949552e56bd015595e9b01f09ea title=标题：峨边彝族自治县人民政府关于征集峨边烈士陵园陈列室展品的公告 href="/content.jsp?id=402889495f779a19016005c7b7b50f51&amp;classid=e2e8301c35ad4ad6a002b0c1f440b259" target=_blank>峨边彝族自治县人民政府关于征集峨边烈士陵园陈列室展品的公告 </A></TD>
+<TD class=timestyle40288949552e56bd015595e9b01f09ea vAlign=center width="1%" noWrap align=right>2017-11-29 </TD></TR></table></DIV>
+<DIV style="WIDTH: 810px" class=pagelist_next>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <style>
+.pageDiv{
+	text-align:right;
+	color:#666;
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+	background:url('systemFile/images/bg.gif') left top repeat-x;
+	border:1px solid #DADADA;
+	height:30px;
+	 line-height:30px;
+	
+	}
+
+.pageBtn{
+	margin:0px;
+	height:16px;
+	text-align:center;
+	line-height:16px;
+	cursor:pointer;
+	border:0px #0e557a solid;
+	margin-left:5px;
+	font-size:12px;
+}
+
+.default_pgCurrentPage {
+
+width: 30px;
+height: 16px;
+line-height: 16px;
+text-align: center;
+border: 1px solid #CCCCCC;
+background: url(systemFile/images/text_bg.gif) repeat-x;
+}
+.default_container {
+	position: relative;
+}
+
+.default_pgContainer {
+	min-height:100px;
+	_height:100px;
+}
+
+.default_pgToolbar {
+	height:30px;
+	valign:middle;
+	font-size:12px;
+	border:1px solid #DADADA;
+	background: url(systemFile/images/bg.gif);
+	margin:0px 0 -1px 0;
+}
+
+.default_pgToolbar td {
+	font-size:12px;
+	padding:0 1px 0 1px;
+}
+
+.default_pgPanel {
+	float:left;
+	padding:0;
+}
+
+.default_pgBtn {
+	width: 20px;
+	height: 20px;
+	display: block;
+	cursor: pointer;
+	margin:1px;
+}
+
+.default_pgPress {
+	margin:2px 0 0 2px;
+}
+
+.default_pgPrev {
+	background: url(systemFile/images/prev.gif) no-repeat center;
+}
+
+
+
+.default_pgNext {
+	background: url(systemFile/images/next.gif) no-repeat center;
+}
+
+
+
+.default_pgFirst {
+	background: url(systemFile/images/first.gif) no-repeat center;
+}
+
+
+.default_pgLast {
+	background: url(systemFile/images/last.gif) no-repeat center;
+}
+
+
+.default_pgCurrentPage {
+	width:25px;
+	height:14px;
+	line-height:14px;
+	text-align:center;
+	border:1px solid #CCCCCC;
+	background-color:#FFF;
+}
+
+.default_pgSearchInfo {
+	padding-left:10px;
+	font-size:12px;
+}
+.default_pgSearchInfotwo {
+	padding-top:-7px;
+	font-size:12px;
+}
+
+.default_separator {
+	width:2px;
+	height:20px;
+	background: url(systemFile/images/separator.gif) no-repeat center;
+}
+</style>
+  </head>
+  <body>
+    	<div class="pageDiv">
+		<table border="0" cellspadding="0" cellspacing="0" class="default_pgPanel" ><tbody>
+		<tr>
+				<td valign="middle" class="default_pgSearchInfo">当前共检索到&nbsp;407&nbsp;条记录&nbsp;&nbsp;</td>
+				<td valign="middle" width="10" align="left"><div class="default_separator"></div></td>
+		<td valign="middle"><div class="default_pgBtn default_pgFirst " style="margin-left:12px;" onclick="SeparatePage('first')" title="首页"></div></td>
+		<td valign="middle"><div class="default_pgBtn default_pgPrev default_pgPrevDisabled" onclick="SeparatePage('previous')" title="上页"></div></td>
+		<td valign="middle" width="10" align="left"><div class="default_separator"></div></td>
+		<td valign="middle" class="default_pgSearchInfotwo">第 <input class="default_pgCurrentPage" type="text" value="1" title="页码"> 页 / 共 <span class="default_pgTotalPage">21</span> 页</td>
+		<td valign="middle" width="10" align="right"><div class="default_separator"></div></td>
+		<td valign="middle"><div class="default_pgBtn default_pgNext" onclick="SeparatePage('next')" title="下页"></div></td>
+		<td valign="middle"><div class="default_pgBtn default_pgLast"  style="margin-right:12px;" onclick="SeparatePage('last')"   title="尾页"></div></td>
+		
+		<td valign="middle" width="10" align="left"><div class="default_separator"></div></td>
+		<td valign="middle" class="default_pgSearchInfo">跳转到第 <select name="" style="height:19px;" id="jumpTo" onchange="SeparatePage('jumpTo')">
+    	</select> 页
+		<script type="text/javascript">
+    	var obj=document.getElementById("jumpTo");
+    	for(var i=1;i<=21;i++){
+    	   obj.options.add(new Option(i,i)); 
+    	   }
+    	document.getElementById("jumpTo").value=1</script>
+		
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		   <input type="hidden" id="pageye" name="pageBean.page" value="1"/>
+                  	<input type="hidden" id="pageSize" name="pageBean.pageSize" value="21"/>
+			</div>
+    <script type="text/javascript">
+    //分类组件实现
+    function SeparatePage(o) {
+    	 var path;
+        var currentPage = document.getElementById("pageye").value;
+        var pageCount = document.getElementById("pageSize").value;
+       
+        var iPage = Number(currentPage);
+        var mPage = Number(pageCount);
+        
+        if (o == 'next') {
+            iPage++;
+        }
+        if (o == 'previous') {
+            iPage--;
+        }
+        if (o == 'first') {
+            iPage = 1;
+        }
+        if (o == 'last') {
+            iPage = Number(pageCount);
+        }
+        if (o == 'jumpTo') {
+            if (isNaN(document.getElementById("jumpTo").value) ||
+			   !(document.getElementById("jumpTo").value.match(/^\d+$/)) ||
+			   document.getElementById("jumpTo").value == 0) {
+                iPage = 1;
+            } else {
+                iPage = document.getElementById("jumpTo").value;
+                if (iPage > mPage) {
+                    iPage = Number(pageCount);
+                }
+            }
+        }
+        if (iPage > mPage) {
+            iPage = Number(pageCount);
+        }
+        if (iPage < 1) {
+            iPage = 1;
+        }
+       
+        document.getElementById("pageye").value = iPage;
+        document.getElementById("jumpTo").value = iPage;
+      	var localhref;
+      	
+      	if(window.location.href.lastIndexOf("?pageye")>-1){
+      		localhref=window.location.href+"?pageye=";
+        	var path = localhref.substring(0, localhref.indexOf("?pageye="));
+           	document.location.href = path+"?pageye=" + iPage + "&pageSize="+mPage+"" ;
+      	}else if(window.location.href.lastIndexOf("?")>-1){
+        	localhref=window.location.href+"&pageye=";
+        	var path = localhref.substring(0, localhref.indexOf("&pageye="));
+           	document.location.href = path+"&pageye=" + iPage + "&pageSize="+mPage+"" ;
+        }else{
+        	document.location.href=window.location.href+"?pageye=" + iPage + "&pageSize="+mPage+"";
+        }
+        
+    }
+    </script>
+  </body>
+</html>
+</DIV></DIV></DIV><!-- zjeb_mid1 -->
+<DIV class=pClear></DIV></DIV></DIV>
+<DIV class=pClear></DIV>
+
+
+
+
+<style>.wen_b a:hover{text-decoration: underline;}</style> 
+<div class="pClear"></div>
+<script type="text/javascript" language="javascript">
+ 
+    //加入收藏
+ 
+        function AddFavorite(sURL, sTitle) {
+ 
+            sURL = encodeURI(sURL); 
+        try{   
+ 
+            window.external.addFavorite(sURL, sTitle);   
+ 
+        }catch(e) {   
+ 
+            try{   
+ 
+                window.sidebar.addPanel(sTitle, sURL, "");   
+ 
+            }catch (e) {   
+ 
+                alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+ 
+            }   
+ 
+        }
+ 
+    }
+ 
+    //设为首页
+ 
+    function SetHome(url){
+ 
+        if (document.all) {
+ 
+            document.body.style.behavior='url(#default#homepage)';
+ 
+               document.body.setHomePage(url);
+ 
+        }else{
+ 
+            alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+ 
+        }
+ 
+    }
+ 
+</script>
+<DIV class=bottom>
+<DIV class=link></DIV>
+<DIV class=bottom_txt>
+
+<DIV class=bottom_txt1>
+      <a onclick="SetHome(window.location)" href="javascript:void(0)" style="cursor:hand;" >设为首页</a>|
+      <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)" style="cursor:hand;">加入收藏</a>|
+      <a href="content.jsp?id=4028813e51f6bed6015219c9cd570535" target="_blank" >关于我们</a>|
+      <a href="content.jsp?id=4028813e51f6bed6015219cab3520537" target="_blank">网站声明</a>|
+      <a href="content.jsp?id=4028813e51f6bed6015219cb437d0539" target="_blank">联系我们</a>
+ </DIV>
+<P>峨边彝族自治县人民政府  版权所有  电话:0833-5223177    </P>
+<P>地址:四川省乐山市峨边彝族自治县沙坪镇县街28号  蜀ICP备11002585</P>
+<P><SPAN><IMG src="images/ba_tb.png"></SPAN>川公网安备 51113202000104号</P>
+<P><script id="_jiucuo_" sitecode='5111320004' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script> </P>
+<DIV class=img_link><SCRIPT type=text/javascript>document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript   src='//http://dcs.conac.cn/js/23/342/2071/60433978/CA233422071604339780001.js' type='text/javascript'%3E%3C/script%3E"));</SCRIPT>
+<SPAN id=_ideConac></SPAN>
+
+<SCRIPT type=text/javascript src="//http://dcs.conac.cn/js/23/342/2071/60433978/CA233422071604339780001.js"></SCRIPT>
+<SPAN id=_ideConac><A href="http://bszs.conac.cn/sitename?method=show&amp;id=0B546D6D85C86A25E053012819AC47A6" target=_blank><IMG id=imgConac border=0 hspace=0 src="http://dcs.conac.cn/image/red_error.png" data-bd-imgshare-binded="1"></A></SPAN>
+<SCRIPT type=text/javascript src="//http://dcs.conac.cn/js/23/342/2071/60433978/CA233422071604339780001.js"></SCRIPT>
+ </div></DIV></DIV><SPAN id=_ideConac></SPAN>
+
+<div id="div" style="display: none">
+<script src="http://s4.cnzz.com/stat.php?id=1258885679&web_id=1258885679" language="JavaScript"></script>
+</div>
+
+</BODY></HTML><!-- bottom -->
+<DIV></DIV></BODY></HTML>

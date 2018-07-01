@@ -1,0 +1,569 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>政府信息公开-南溪区人民政府</title>
+		
+</head>
+
+<body width="100%">
+	
+
+
+
+<script src="/r/cms/jquery.js" type="text/javascript"></script>
+		<script src="/r/cms/front.js" type="text/javascript"></script>
+		<link href="/r/cms/front.css" rel="stylesheet" type="text/css" />
+
+		<link href="/r/cms/mainhost/default/zhengwu/css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="/r/cms/mainhost/default/zhengwu/js/js_index.js"></script>
+		
+		
+			
+	<link type="text/css" rel="stylesheet" href="/r/jspv/css/style.css">
+	<link type="text/css" rel="stylesheet" href="/r/jspv/css/main.css">
+
+
+
+
+
+
+
+
+
+
+<link href="/r/cms/top.css" rel="stylesheet" type="text/css" />
+<div class="top">
+  <div class="topbox">
+  	<span class="fr flbox">
+  	<a target="_blank" href="/news/index.jhtml"><img src="/r/cms/mainhost/default/xinwen/images/icon_xw.jpg"></a>
+  	<a target="_blank" href="/gov/index.jhtml"><img src="/r/cms/mainhost/default/xinwen/images/icon_zw.jpg"></a> 
+  	 <a target="_blank" href="/invest/index.jhtml"><img src="/r/cms/mainhost/default/xinwen/images/icon_tz.jpg"></a>
+<a target="_blank" href="/life/index.jhtml"><img src="/r/cms/mainhost/default/xinwen/images/icon_sh.jpg"></a> </span>
+    <div id="loginCsiDiv" class="logbox">欢迎您: admin &nbsp; 
+<a target="blank" href="/admin/index.do">后台管理</a> &nbsp; 
+ <a href="/member/index.jspx">个人中心</a>  &nbsp; 
+<a href="/logout.jspx?returnUrl=http://www.zgnx.gov.cn/gov/zwgk/tongzhigonggao/index.jhtml" id="__logoutlink">退出登录</a>
+</div>    
+    <script>
+	$(function(){
+		Cms.loginCsi("","loginCsiDiv",{"returnUrl":"http://www.zgnx.gov.cn/gov/zwgk/tongzhigonggao/index.jhtml"});
+		Cms.siteFlow("", location.href, document.referrer);
+	});
+	</script>
+  </div>
+</div>
+
+<div class="menu">
+  <div class="menubox">
+    <ul class="menunav">
+			<li class="rounded"><a id="177" href="/gov/index.jhtml">频道首页</a></li>
+		<li class="navbox_a">
+			<a id="178" href="javascript:void(0);" class="tit">走进南溪</a>
+			<div class="subnav">
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/nxgk.jhtml">南溪概况</a>
+				<a style="width:67px" target="_blank" href="/ld_main.jspv">党政之窗</a>
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/gjmr/index.jhtml">南溪名人</a>
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/ljzy.jhtml">历届政要</a>
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/whnx/index.jhtml">文化南溪</a>
+				<a style="width:67px" target="_blank" href="/gov/zoujinnanxi/nxmp/index.jhtml">南溪名片</a>
+				<a style="width:67px" target="_blank" href="http://www.zgnx.gov.cn/nxtx/paperindex.htm">南溪通讯</a>
+				<a style="width:67px" target="_blank" href="http://www.zgnx.gov.cn/nxwy/paperindex.htm">南溪文艺</a>
+			</div>
+		</li>
+		<li class="navbox_a">
+			<a id="282" href="javascript:void(0);" class="tit">政务公开</a>
+			<div class="subnav">
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_104.jspv">政府文件</a>
+				<a style="width:112px;" target="_blank" href="/zfxxgk_list_1.jspv">政府常务会议</a>
+				<a style="width:67px" target="_blank" href="/gov/zwgk/tongzhigonggao/index.jhtml">通知公告</a>
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_81.jspv">规划计划</a>
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_82.jspv">统计信息</a>
+				<a style="width:67px" target="_blank" href="/gov/zwgk/rsrm/index.jhtml">人事任免</a>
+				<!-- <a style="width:67px" target="_blank" href="/gov/zwgk/zxgk/index.jhtml">专项公开</a> -->
+				<a style="width:112px;" href="/zfxxgk_list_241.jspv">区委工作报告</a>
+				<a style="width:112px;" target="_blank" href="/zfxxgk_list_161.jspv">政府工作报告</a>
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_124.jspv">政策解读</a>
+				<a style="width:67px" target="_blank" href="/gov/zwgk/zwkb/index.jhtml">政务参考</a>
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_141.jspv">人才招聘 </a>
+			</div>
+		</li>
+		<li class="navbox_a">
+			<a id="315" href="javascript:void(0);" class="tit">网上办事</a>
+			<div class="subnav">
+				<div style="padding-right:200px;">
+				<a style="width:67px" target="_blank" href="/bszn_main.jspv">办事服务</a>
+				<a style="width:67px" target="_blank" href="/gov/wsbs/ztfw/index.jhtml">主题服务</a>
+				</div>
+			</div>
+		</li>
+		<li class="navbox_a">
+			<a id="1448" href="javascript:void(0);" class="tit">资源交易</a>
+			<div class="subnav">
+				<a style="width:67px" target="_blank" href="/zfxxgk_list_86.jspv">政府采购</a>
+				<a style="width:112px;" href="/zfxxgk_list_87.jspv">建设工程招投标</a>
+				<a style="width:112px;" href="/zfxxgk_list_88.jspv">国有资产资源交易</a>
+			</div>
+		</li>
+	<!-- <li class="navbox_a">
+		<a href="/gov/zyjy/zfcg/index.jhtml" >政府采购</a>
+		<dl class="subnav">
+			<dd><a href="/gov/zyjy/zfcg/zbgg/index.jhtml" target="_blank">招标公告</a></dd>
+			<dd><a href="/gov/zyjy/zfcg/zbgg/index.jhtml" target="_blank">中标公告</a></dd>
+			<dd><a href="http://www.zgnx.gov.cn/s/bmxygh/index.jhtml" target="_blank">协议供货</a></dd>
+		</dl>
+	</li> -->
+	<li class="navbox_a">
+		<a href="javascript:void(0);">公众参与</a>
+		<div class="subnav">
+			<a target="_blank" href="/app_nxqw/guestbook/sjxx/index_1412.jhtml">书记信箱</a>
+			<a target="_blank" href="/app_nxqw/guestbook/sjxx/index_1411.jhtml">区长信箱</a>
+			<a target="_blank" href="/app_nxqw/guestbook/yjjy/index_1531.jhtml">意见建议</a>
+			<a target="_blank" href="/app_nxqw/guestbook/tsjb/index_1930.jhtml">投诉举报</a>
+			<a target="_blank" href="/app_nxqw/guestbook/flzx/index_1931.jhtml">法律咨询</a>
+			<a target="_blank" href="/app_nxqw/wjdc/tiaozhuan.jhtml">在线调查</a>
+		</div>
+	</li>
+	<li class="rounded"><a target="_blank" href="http://www.zgnx.gov.cn/gov/nxfb.jhtml">新媒体</a></li>	
+	<!--
+	<li class="rounded"><a href="javascript:void(0);">南溪论坛</a></li> -->
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="banner">
+  <div class="bannerbox">
+    <div class="banner_box rounded">
+      <div class="flash">
+        <ul style="margin: 0px; padding: 0px; list-style: outside none none; overflow: hidden;">
+          <li style="position: absolute; z-index: 8; opacity: 1;" class=""><img width="995" height="187" src="/r/cms/mainhost/default/zhengwu/images/banner_01.jpg"></li>
+           <li style="position: absolute; opacity: 1; z-index: 10;" class="active"><a href="http://www.zgnx.gov.cn/app_nxqw/guestbook/yjjy/write_1531.jhtml"><img width="995" height="187" src="http://www.zgnx.gov.cn/u/cms/mainhost/201505/19181155d7it.jpg"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="searchbox">
+      <div class="search_box rounded">
+        <div class="hot_new fl">今天是：<script>Cms.now();</script><iframe width="255" height="20" frameborder="0" scrolling="no" vspace="0" hspace="0" marginheight="0" marginwidth="0" src="http://weather.news.sina.com.cn/chajian/iframe/weatherStyle0.html?city=%E5%8D%97%E6%BA%AA" allowtransparency="true"></iframe></div>
+        <div class="n_time fl"></div>
+        <form target="_blank" method="get" action="/ssjg_1.jhtml" onsubmit="return func()">
+        <div class="searchtxt fl">
+          <input type="text" name="q" class="input_search mt8" id="input">
+          <input type="hidden" value="177" name="channelId" id="channelId">
+        </div>
+        <div style="width:105px;padding-top:8px;" class="fl">
+          <select style="height: 27px;line-height: 27px;" name="searchScope" id="id">
+    		<option value="ttl">标题搜索</option>
+    		<option selected="" value="bsfw">办事服务搜索</option>
+    		<option value="all">全文搜索</option>
+    	</select>
+        </div>
+        <div class="searchbtn fl">
+          <input type="image" src="/r/cms/mainhost/default/zhengwu/images/search_btn.jpg" class="input_s_b mt8">
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+   
+   
+<script type="text/javascript">
+    function a(){
+	
+	var key=document.getElementById("input").value;
+	
+	  window.location.href="/bszn_list_ser.jspv?serKey="+key;
+
+       
+	
+    
+	
+   }
+   
+   function func(){
+   var val=$("#id").val();
+    
+  
+    if(val=="bsfw"){
+	  a();
+	  return false;
+	}
+    
+   return true;
+   }
+   </script>
+	
+
+	
+	
+	
+	
+	<div class="wrap995">
+	
+
+	<div class="pl5 pr5 clearfix mbx-wrap"><span class="icon-mbx">您的所在位置：</span><a href="/">首页</a>&gt;
+	<span><a href="/gov/index.jhtml">政务公开 </a></span>&gt;<span>政府采购</span></div>
+	
+	
+	<div class="pl5 pr5 pt5 clearfix">
+	
+		
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<div class="bsfw-left fl mr10">
+    <div style="width:auto; height:auto;" class="bsfw-item-xzgk">
+      <div class="bsfw-title-01"><span class="xzgk">信息公开</span></div>
+      <div class="clearfix">
+        <ul class="ztc-list zwgk-left-list">
+          <li><a href="/gov/zwgk/gkml/zfxxgkzn.jhtml">政府信息公开指南</a></li>
+          <li><a href="/zfxxgk_menu.jspv">政府信息公开目录</a></li>
+          <li><a href="http://www.zgnx.gov.cn/zfxxgk_list_123.jspv">政府信息公开年报</a></li>
+          <li><a href="http://www.zgnx.gov.cn/gov/zwgk/gkml/ysqgk.jhtml">依申请公开</a></li>
+         <!-- <li><a href="http://xxgk.zgnx.gov.cn/GPI.ASPX">制度文件</a></li>   -->
+		  <li><a href="http://www.zgnx.gov.cn/zfxxgk_list_104.jspv">制度文件</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="width:auto; height:auto;" class="bsfw-item-xzgk mt10">
+      <div class="bsfw-title-01"><span class="xzgk">我可以快速了解</span></div>
+      <div class="clearfix">
+        
+        <div class="pl10 pr10 pt5">
+        <div class="zwgk-left-title">重点信息公开</div>
+        <div class="clearfix">
+        <ul class="pt5 clearfix li-50">
+            
+					<li><a href="/zfxxgk_list_84.jspv">财政资金</a></li>
+			
+					<li><a href="/zfxxgk_list_102.jspv">价格和收费</a></li>
+			
+					<li><a href="/zfxxgk_list_86.jspv">政府采购</a></li>
+			
+					<li><a href="/zfxxgk_list_95.jspv">社会组织和中介机构</a></li>
+			
+					<li><a href="/zfxxgk_list_96.jspv">安全生产</a></li>
+			
+					<li><a href="/zfxxgk_list_313.jspv">棚改和农村危房改造</a></li>
+			
+					<li><a href="/zfxxgk_list_87.jspv">建设工程招投标</a></li>
+			
+					<li><a href="/zfxxgk_list_88.jspv">国有资产资源交易</a></li>
+			
+					<li><a href="/zfxxgk_list_90.jspv">公共服务</a></li>
+			
+					<li><a href="/zfxxgk_list_92.jspv">国有企业</a></li>
+			
+					<li><a href="/zfxxgk_list_94.jspv">食品药品安全</a></li>
+			
+					<li><a href="/zfxxgk_list_97.jspv">就业</a></li>
+			
+					<li><a href="/zfxxgk_list_101.jspv">财政审计</a></li>
+			
+					<li><a href="/zfxxgk_list_312.jspv">减税降费</a></li>
+			
+					<li><a href="/zfxxgk_list_89.jspv">重点建设项目</a></li>
+			
+					<li><a href="/zfxxgk_list_91.jspv">科技管理和项目经费</a></li>
+			
+					<li><a href="/zfxxgk_list_93.jspv">环境保护</a></li>
+			
+			<li><a href="http://gsxt.scaic.gov.cn/notice">信用信息</a></li> 
+			<li><a href="/zfxxgk_list_85.jspv">公共资源配置</a></li>
+			<li><a href="http://www.zgnx.gov.cn/ztbd/tpgjzl/index.jhtml">扶贫工作</a></li>
+			<li><a href="zfxxgk_list_283.jspv">执法监督</a></li>
+        </ul>
+        </div>
+        </div>
+        
+        <div class="pl10 pr10 pt5">
+        <div class="zwgk-left-title">基本信息公开</div>
+        <div class="clearfix">
+	        <ul class="pt5 clearfix li-50">
+	            
+					<li><a href="/zfxxgk_list_47.jspv">应急情况</a></li>
+				
+					<li><a href="/zfxxgk_list_42.jspv">机构设置</a></li>
+				
+					<li><a href="/zfxxgk_list_44.jspv">负责人简介</a></li>
+				
+					<li><a href="/zfxxgk_list_64.jspv">乡镇（街道）动态</a></li>
+				
+					<li><a href="/zfxxgk_list_82.jspv">统计数据</a></li>
+				
+					<li><a href="/zfxxgk_list_1.jspv">政府常务会议</a></li>
+				
+					<li><a href="/zfxxgk_list_61.jspv">新闻发布会</a></li>
+				
+					<li><a href="/zfxxgk_list_63.jspv">部门动态</a></li>
+				
+					<li><a href="/zfxxgk_list_104.jspv">政府文件</a></li>
+				
+					<li><a href="/zfxxgk_list_141.jspv">人事招考</a></li>
+				
+					<li><a href="/zfxxgk_list_241.jspv">区委工作报告</a></li>
+				
+					<li><a href="/zfxxgk_list_41.jspv">概况</a></li>
+				
+					<li><a href="/zfxxgk_list_46.jspv">应急预案</a></li>
+				
+					<li><a href="/zfxxgk_list_81.jspv">规划计划</a></li>
+				
+					<li><a href="/zfxxgk_list_161.jspv">政府工作报告</a></li>
+				
+					<li><a href="/zfxxgk_list_43.jspv">职能职责</a></li>
+				
+					<li><a href="/zfxxgk_list_48.jspv">应急预警</a></li>
+				
+	        </ul>
+        </div>
+        </div>
+         <div class="pl10 pr10 pt5">
+        <div class="zwgk-left-title"><a href="/zfxxgk_list_301.jspv">政务五公开</a></div>
+        <div class="clearfix">
+	        <ul class="pt5 clearfix li-50">
+	           
+					<li><a href="/zfxxgk_list_302.jspv">决策公开</a></li>
+					<li><a href="/zfxxgk_list_303.jspv">执行公开</a></li>
+					<li><a href="/zfxxgk_list_304.jspv">管理公开</a></li>
+					<li><a href="/zfxxgk_list_305.jspv">服务公开</a></li>
+					<li><a href="/zfxxgk_list_306.jspv">结果公开</a></li>
+				
+	        </ul>
+        </div>
+        </div>
+		
+      </div>
+    </div>
+    <!--电子政务大厅 box-->
+    <div class="mt10"><a style="height:50px;" class="f-db" target="_blank" href="http://dzzwdt.zgnx.gov.cn/portal/index_pc10001.jsp"><img width="212" height="50" alt="电子政务大厅" src="/r/jspv/images/zwdt-small.jpg"></a></div>
+    <!--#电子政务大厅 box-->
+    
+  </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="bsfw-right fl">
+		<div class="title-07">
+				<span class="fs14 fw600">政府采购</span>
+		</div>
+		
+		
+		
+		
+		<div class="ind-con pb10 pl10 pr10">
+						<ul class="list_09">
+							
+							<li>
+									<a title="四川省宜宾市南溪区公安分局行政效能机房改造项目（第二次）竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_70701.jspv">【区政务中心】四川省宜宾市南溪区公安分局行政效能机房改造项目（..</a><i>2018-01-12</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区公安分局行政效能机房改造项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_70522.jspv">【区政务中心】四川省宜宾市南溪区公安分局行政效能机房改造项目竞..</a><i>2018-01-05</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区农业局高粱种泸州红1号项目单一来源采购公告" target="_blank" href="/zfxxgk_ctt_70521.jspv">【区政务中心】四川省宜宾市南溪区农业局高粱种泸州红1号项目单一..</a><i>2018-01-05</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区职业技术学校导游软件及设备项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_70441.jspv">【区政务中心】四川省宜宾市南溪区职业技术学校导游软件及设备项目..</a><i>2018-01-02</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区人力资源和社会保障局退休职工2017年春节慰问品采购项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_70303.jspv">【区政务中心】四川省宜宾市南溪区人力资源和社会保障局退休职工20..</a><i>2017-12-27</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区中医院病房有线数字电视项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_70302.jspv">【区政务中心】四川省宜宾市南溪区中医院病房有线数字电视项目竞争..</a><i>2017-12-27</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区农业局2017年农资监管与可追溯示范建设项目（第二次）竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_70301.jspv">【区政务中心】四川省宜宾市南溪区农业局2017年农资监管与可追溯示..</a><i>2017-12-27</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区纪委监察委员会办公办案设备项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_70282.jspv">【区政务中心】四川省宜宾市南溪区纪委监察委员会办公办案设备项目..</a><i>2017-12-26</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区职业技术学校数控和电子设备采购项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_70042.jspv">【区政务中心】四川省宜宾市南溪区职业技术学校数控和电子设备采购..</a><i>2017-12-19</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区职业技术学校2018年省级技能大赛耗材采购项目(第二次）竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_69861.jspv">【区政务中心】四川省宜宾市南溪区职业技术学校2018年省级技能大赛..</a><i>2017-12-12</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区人民医院磁共振设备维修保养服务采购项目单一来源采购公告" target="_blank" href="/zfxxgk_ctt_69685.jspv">【区政务中心】四川省宜宾市南溪区人民医院磁共振设备维修保养服务..</a><i>2017-12-07</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区职业技术学校2018年省级技能大赛耗材采购项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_69684.jspv">【区政务中心】四川省宜宾市南溪区职业技术学校2018年省级技能大赛..</a><i>2017-12-07</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区人民医院医疗设备一批采购项目公开招标采购公告" target="_blank" href="/zfxxgk_ctt_69542.jspv">【区政务中心】四川省宜宾市南溪区人民医院医疗设备一批采购项目公..</a><i>2017-12-04</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区职业技术学校数控和电子设备项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_69482.jspv">【区政务中心】四川省宜宾市南溪区职业技术学校数控和电子设备项目..</a><i>2017-12-01</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区住建城管局地震预警信息接收终端项目单一来源采购公告" target="_blank" href="/zfxxgk_ctt_69481.jspv">【区政务中心】四川省宜宾市南溪区住建城管局地震预警信息接收终端..</a><i>2017-12-01</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区司法局业务办公家具（第二次）询价采购公告 系统发布时间：2017-11-30 15:46 " target="_blank" href="/zfxxgk_ctt_69470.jspv">【区政务中心】四川省宜宾市南溪区司法局业务办公家具（第二次）询..</a><i>2017-11-30</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区国土分局农村宅基地、集体建设用地及房屋确权登记测绘权籍调查项目公开招标采购公告" target="_blank" href="/zfxxgk_ctt_69469.jspv">【区政务中心】四川省宜宾市南溪区国土分局农村宅基地、集体建设用..</a><i>2017-11-30</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区农业局2018年早春蔬菜种子项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_69468.jspv">【区政务中心】四川省宜宾市南溪区农业局2018年早春蔬菜种子项目竞..</a><i>2017-11-30</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区刘家镇人民政府高清视频监控系统项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_69221.jspv">【区政务中心】四川省宜宾市南溪区刘家镇人民政府高清视频监控系统..</a><i>2017-11-23</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区司法局业务办公家具询价采购公告" target="_blank" href="/zfxxgk_ctt_69197.jspv">【区政务中心】四川省宜宾市南溪区司法局业务办公家具询价采购公告</a><i>2017-11-21</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区环境监测站空气和废气监测仪器项目询价采购公告" target="_blank" href="/zfxxgk_ctt_69196.jspv">【区政务中心】四川省宜宾市南溪区环境监测站空气和废气监测仪器项..</a><i>2017-11-21</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区工商行政管理局“南溪豆腐干”申报中国驰名商标公开招标采购公告" target="_blank" href="/zfxxgk_ctt_69142.jspv">【区政务中心】四川省宜宾市南溪区工商行政管理局“南溪豆腐干”申..</a><i>2017-11-17</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区粮食局粮食加工设备项目（第三次）公开招标采购公告" target="_blank" href="/zfxxgk_ctt_69047.jspv">【区政务中心】四川省宜宾市南溪区粮食局粮食加工设备项目（第三次..</a><i>2017-11-09</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区公安分局城管大队冬季执勤服装项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_69041.jspv">【区政务中心】四川省宜宾市南溪区公安分局城管大队冬季执勤服装项..</a><i>2017-11-09</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区南溪职业技术学校电子省赛等设备竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_68925.jspv">【区政务中心】四川省宜宾市南溪区南溪职业技术学校电子省赛等设备..</a><i>2017-10-31</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区财政局密集档案柜项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_68869.jspv">【区政务中心】四川省宜宾市南溪区财政局密集档案柜项目竞争性谈判..</a><i>2017-10-26</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区人民法院诉讼服务中心相关设备竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_68867.jspv">【区政务中心】四川省宜宾市南溪区人民法院诉讼服务中心相关设备竞..</a><i>2017-10-26</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区人民医院CT球管采购项目单一来源采购公告" target="_blank" href="/zfxxgk_ctt_68866.jspv">【区政务中心】四川省宜宾市南溪区人民医院CT球管采购项目单一来源..</a><i>2017-10-26</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区公安消防支队南溪区大队消防宣传品采购项目竞争性谈判采购公告" target="_blank" href="/zfxxgk_ctt_68844.jspv">【区政务中心】四川省宜宾市南溪区公安消防支队南溪区大队消防宣传..</a><i>2017-10-25</i>
+								</li>
+							
+							<li>
+									<a title="四川省宜宾市南溪区财政局财政非税收入单位征缴管理系统（区县级版本）项目单一来源采购公告" target="_blank" href="/zfxxgk_ctt_68724.jspv">【区政务中心】四川省宜宾市南溪区财政局财政非税收入单位征缴管理..</a><i>2017-10-18</i>
+								</li>
+							
+								
+								
+							
+							
+						</ul>
+						<div class="page clearfix mt10">
+							<form method="post" action="" name="pageForm" id="pageForm">
+								<div class="fl pageleft">共<strong class="red">327</strong>
+									条记录 第<strong class="red">1</strong>/<strong class="red">11</strong>
+									页
+								</div>
+								<div class="fl pagecenter">
+									<a href="/zfxxgk_list_86.jspv?pageNo=1&pageSize=30">首页</a>
+									|
+									<a href="/zfxxgk_list_86.jspv?pageNo=1&pageSize=30">上一页</a>
+									|
+									<a href="/zfxxgk_list_86.jspv?pageNo=2&pageSize=30">下一页</a>
+									|
+									<a href="/zfxxgk_list_86.jspv?pageNo=11&pageSize=30">尾页</a>
+								</div>
+								<div class="fr pageright">
+									跳到第
+									<input style="width:20px;" value="" title="在这里输入要跳转的页数：1～11" class="input" id="pageCount" name="pageCount">
+									页
+									<input type="button" onclick="tz()" value="GO" id="btn_go" class="button_go" name="btn_go">
+									<input type="hidden" value="169" id="id">
+								</div>
+							</form>
+						</div>
+					</div>
+		
+		
+		
+		
+		
+		</div>
+	
+	</div>
+	
+	
+
+
+
+<div class="foot mt8">
+			<div class="footbox">
+				<div class="footmenu"><a href="/">返回首页</a> |
+					<a target="_blank" href="/wzdt.jhtml">网站地图</a> |
+					<a target="_blank" href="http://xxgk.zgnx.gov.cn">信息公开</a> |
+					<a target="_blank" href="/gov/wsbs/bsfw/index.jhtml">办事服务</a> |
+					<a target="_blank" href="/app_nxqw/zmhd/list_4005.jhtml">政民互动</a></div>
+				<div class="foot_p"> 主办：中共南溪区委、南溪区人民政府 承办：南溪区信息中心 联系电话：0831-3328007 电子邮件：nxtx08@vip.163.com QQ群：81882731
+					<br> 版权所有：南溪区门户网，未经授权不得转载！备案序号：蜀ICP备10200820号-1 宜宾市公安局网监支队备案号：5115000390
+					<br> 技术支持：
+					<a href="http://www.kingsod.net/"><font color="blue">四川景硕德科技有限责任公司</font></a>
+				</div>
+			</div>
+		</div>
+		
+		<div align="center">
+			<span id="_ideConac">
+<a href="//bszs.conac.cn/sitename?method=show&amp;id=0E15E0CB521E6586E053012819AC966A" target="_blank">
+<img vspace="0" border="0" hspace="0" src="http://dcs.conac.cn/image/red.png" data-bd-imgshare-binded="1" id="imgConac">
+</a>
+</span>
+		</div>
+</body>
+</html>
+<script>
+	function tz(){
+		var pageNo = $("#pageCount").val();
+		window.location.href="/zfxxgk_list_86.jspv?pageNo="+pageNo+"&pageSize=30";
+	}
+</script>

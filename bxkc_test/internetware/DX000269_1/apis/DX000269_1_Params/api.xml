@@ -1,0 +1,112 @@
+<api>
+  <id>DX000269_1_Params</id>
+  <alias-name>DX000269_1_Params</alias-name>
+  <request>
+    <scheme>http</scheme>
+    <http-version>HTTP/1.1</http-version>
+    <http-method>GET</http-method>
+    <hostport>www.hzbus.com.cn</hostport>
+    <headers>
+      <header>
+        <name>Accept</name>
+        <value>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</value>
+      </header>
+      <header>
+        <name>Upgrade-Insecure-Requests</name>
+        <value>1</value>
+      </header>
+      <header>
+        <name>iw-is-https-scheme</name>
+        <value>false</value>
+      </header>
+      <header>
+        <name>User-Agent</name>
+        <value>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36</value>
+      </header>
+      <header>
+        <name>Connection</name>
+        <value>keep-alive</value>
+      </header>
+      <header>
+        <name>Host</name>
+        <value>www.hzbus.com.cn</value>
+      </header>
+      <header>
+        <name>Accept-Language</name>
+        <value>zh-CN,zh;q=0.8</value>
+      </header>
+      <header>
+        <name>Accept-Encoding</name>
+        <value>gzip, deflate</value>
+      </header>
+    </headers>
+    <scheme-host-in-uri>true</scheme-host-in-uri>
+    <request-path>/news_list.aspx</request-path>
+    <params>
+      <param>
+        <name>c_kind</name>
+        <value>25</value>
+      </param>
+      <param>
+        <name>c_kind2</name>
+        <value>137</value>
+      </param>
+      <param>
+        <name>c_kind3</name>
+        <value>1030</value>
+      </param>
+    </params>
+    <request-uri-replacement-pattern></request-uri-replacement-pattern>
+    <request-content/>
+    <request-content-type>application/x-www-form-urlencoded</request-content-type>
+    <request-content-charset>UTF-8</request-content-charset>
+  </request>
+  <processing-the-passedin-req-body>true</processing-the-passedin-req-body>
+  <rsp-sample>
+    <http-version>HTTP/1.1</http-version>
+    <code>200</code>
+    <reason-phrase>OK</reason-phrase>
+    <headers>
+      <header>
+        <name>Server</name>
+        <value>WWW Server/1.1</value>
+      </header>
+      <header>
+        <name>X-AspNet-Version</name>
+        <value>0</value>
+      </header>
+      <header>
+        <name>X-Safe-Firewall</name>
+        <value>zhuji.360.cn 1.0.9.47 F1W1</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>url=http://www.hzbus.com.cn/news_list.aspx?c_kind=25&amp;c_kind2=137&amp;c_kind3=1030; path=/; HttpOnly</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>ASP.NET_SessionId=ipkqk4rcbfvrt5byhcusatbn; path=/; HttpOnly</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>safedog-flow-item=; expires=Thur, 10-Aug-2017 16:00:39 GMT; domain=hzbus.com.cn; path=/</value>
+      </header>
+      <header>
+        <name>Content-Length</name>
+        <value>51492</value>
+      </header>
+      <header>
+        <name>Content-Type</name>
+        <value>text/html; charset=utf-8</value>
+      </header>
+      <header>
+        <name>X-Powered-By</name>
+        <value>WAF/2.0</value>
+      </header>
+    </headers>
+    <content-type>TXT</content-type>
+  </rsp-sample>
+  <rsp-content-invariable>false</rsp-content-invariable>
+  <rsp-content-decoding-charset>UTF-8</rsp-content-decoding-charset>
+  <api-type>natural</api-type>
+</api>

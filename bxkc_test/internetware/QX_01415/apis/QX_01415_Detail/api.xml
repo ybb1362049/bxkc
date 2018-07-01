@@ -1,0 +1,136 @@
+<api>
+  <id>QX_01415_Detail</id>
+  <alias-name>QX_01415_Detail</alias-name>
+  <request>
+    <scheme>http</scheme>
+    <http-version>HTTP/1.1</http-version>
+    <http-method>GET</http-method>
+    <hostport>ggjy.cnjg.gov.cn</hostport>
+    <headers>
+      <header>
+        <name>Upgrade-Insecure-Requests</name>
+        <value>1</value>
+      </header>
+      <header>
+        <name>Accept-Language</name>
+        <value>zh-CN,zh;q=0.9</value>
+      </header>
+      <header>
+        <name>Cookie</name>
+        <value>RYBM=; ASP.NET_SessionId=ltinxpaybfcyqu55xzh3tf45; safedog-flow-item=18C89ADFFF5DACFA3F24DBAB39FC5A32; 9E5763091E87B14DFAFD410F48CBD603_RYBM=2B963A693CBC048A44CE4908B0B57ECE; 9E5763091E87B14DFAFD410F48CBD603_HQSczyname=2B963A693CBC048A44CE4908B0B57ECE; 9E5763091E87B14DFAFD410F48CBD603_UseUsbLgn=FalseE86456689A274992889407FC949F6E86; UseUsbLgn=False; czyLoginTime=; HQSczyname=</value>
+      </header>
+      <header>
+        <name>Host</name>
+        <value>ggjy.cnjg.gov.cn</value>
+      </header>
+      <header>
+        <name>Accept-Encoding</name>
+        <value>gzip, deflate</value>
+      </header>
+      <header>
+        <name>Referer</name>
+        <value>http://ggjy.cnjg.gov.cn/ceinwz/WebInfo_List.aspx?newsid=201&amp;jsgc=&amp;zfcg=0100000&amp;tdjy=&amp;cqjy=&amp;PubDateSort=1&amp;ShowPre=0&amp;CbsZgys=0&amp;zbfs=0&amp;qxxx=0&amp;showqxname=0&amp;NewsShowPre=1&amp;wsjj=0&amp;showCgr=0&amp;ShowOverDate=0&amp;showdate=1&amp;FromUrl=zfcg</value>
+      </header>
+      <header>
+        <name>User-Agent</name>
+        <value>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36</value>
+      </header>
+      <header>
+        <name>Connection</name>
+        <value>keep-alive</value>
+      </header>
+      <header>
+        <name>Accept</name>
+        <value>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</value>
+      </header>
+      <header>
+        <name>iw-is-https-scheme</name>
+        <value>false</value>
+      </header>
+      <header>
+        <name>Pragma</name>
+        <value>no-cache</value>
+      </header>
+    </headers>
+    <scheme-host-in-uri>true</scheme-host-in-uri>
+    <request-path>/ceinwz/Hyzq/hyzbggzfcgDetail.aspx</request-path>
+    <params>
+      <param>
+        <name>sgzbbm</name>
+        <value>5108232017000298</value>
+      </param>
+      <param>
+        <name>zgys</name>
+        <value></value>
+      </param>
+      <param>
+        <name>kind</name>
+        <value></value>
+      </param>
+    </params>
+    <request-uri-replacement-pattern><![CDATA[(/ceinwz/)(.*)]]></request-uri-replacement-pattern>
+    <request-content/>
+    <request-content-type>application/x-www-form-urlencoded</request-content-type>
+    <request-content-charset>UTF-8</request-content-charset>
+  </request>
+  <processing-the-passedin-req-body>true</processing-the-passedin-req-body>
+  <rsp-sample>
+    <http-version>HTTP/1.1</http-version>
+    <code>200</code>
+    <reason-phrase>OK</reason-phrase>
+    <headers>
+      <header>
+        <name>X-AspNet-Version</name>
+        <value>2.0.50727</value>
+      </header>
+      <header>
+        <name>Content-Length</name>
+        <value>18948</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>RYBM=; path=/</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>UseUsbLgn=False; path=/</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>9E5763091E87B14DFAFD410F48CBD603_RYBM=2B963A693CBC048A44CE4908B0B57ECE; path=/</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>9E5763091E87B14DFAFD410F48CBD603_HQSczyname=2B963A693CBC048A44CE4908B0B57ECE; path=/</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>czyLoginTime=; path=/</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>HQSczyname=; path=/</value>
+      </header>
+      <header>
+        <name>Set-Cookie</name>
+        <value>9E5763091E87B14DFAFD410F48CBD603_UseUsbLgn=FalseE86456689A274992889407FC949F6E86; path=/</value>
+      </header>
+      <header>
+        <name>Content-Type</name>
+        <value>text/html; charset=gb2312</value>
+      </header>
+      <header>
+        <name>X-Powered-By</name>
+        <value>ASP.NET</value>
+      </header>
+      <header>
+        <name>Server</name>
+        <value>Microsoft-IIS/7.5</value>
+      </header>
+    </headers>
+    <content-type>TXT</content-type>
+  </rsp-sample>
+  <rsp-content-invariable>false</rsp-content-invariable>
+  <rsp-content-decoding-charset>GBK</rsp-content-decoding-charset>
+  <api-type>natural</api-type>
+</api>

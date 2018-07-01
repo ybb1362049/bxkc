@@ -1,0 +1,621 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>校园公告 - 成都树德中学博瑞实验学校</title>
+<link rel="stylesheet" href="/css/pagination.css" />
+<link href="/templates/sd_bray/images/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/templates/sd_bray/js/base.js"></script>
+</head>
+
+<body>
+<!--Header-->
+<table width="1000" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td class="banner" align="right"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="600" height="166">
+        <param name="movie" value="/templates/sd_bray/images/19.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="transparent" />
+        <embed src="/templates/sd_bray/images/19.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="166" wmode="transparent"></embed>
+      </object></td>
+  </tr>
+</table>
+<table width="1000" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td><img src="/templates/sd_bray/images/index_04.gif" alt="" width="19" height="34" /></td>
+    <td class="nav">
+    <table width="" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+          <td>
+          <a href="/index.aspx">首页</a>
+          </td>
+          <td>
+          <a href="/content_show.aspx?page=Introduction">学校概况</a>
+          </td>
+          <td>
+          <a href="/news_list.aspx?category_id=8&page=1">卓越人生</a>
+          </td>
+          <td>
+          <a href="/news_list.aspx?category_id=9&page=1">树德专栏</a>
+          </td>
+          <td>
+          <a href="/news_list.aspx?category_id=11&page=1">高效课堂</a>
+          </td>
+          <td>
+          <a href="/news_list.aspx?category_id=12&page=1">学生成长</a>
+          </td>
+                    <td>
+          <a href="/news_list.aspx?category_id=48&page=1">教师发展</a>
+          </td>
+          <td>
+          <a href="/news_list.aspx?category_id=5&page=1">校刊报刊</a>
+          </td>
+          <td>
+          <a href="/news_list.aspx?category_id=6&page=1">招生招聘</a>
+          </td>
+        </tr>
+      </table>
+      </td>
+    <td><img src="/templates/sd_bray/images/index_10.gif" alt="" width="19" height="34" /></td>
+  </tr>
+</table>
+
+<!--/Header-->
+<!--body-->
+<!--位置导航-->
+ <table width="1000" border="0" cellpadding="0" cellspacing="0" align="center" class="weizhi">
+  <tr>
+    <td width="54"></td>
+    <td class="Mtop">
+    
+    <span>当前位置：<a href="/index.aspx">首页 </a>&nbsp;&gt;&nbsp;<a href="/news_list.aspx?category_id=1&page=1">校园公告</a></span>
+    </td>
+  </tr>
+</table>       
+<!--/位置导航-->
+<table width="1000" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td width="244" valign="top"><table width="239" border="0" cellpadding="0" cellspacing="0" align="right">
+        <tr>
+          <td class="column_1"><i>校园公告</i></td>
+        </tr>
+        <tr>
+          <td class="column_bj">
+          	  <!--类别-->
+              <table width="80%" border="0" cellpadding="0" cellspacing="0" align="center">
+                  
+                  	<tr>
+                    <td class="title1">
+                    	暂无子栏目
+                    </td>
+                    </tr>
+                  
+              </table>
+              <!--/类别-->
+          </td>
+        </tr>
+        <tr>
+          <td class="column_f"></td>
+        </tr>
+      </table>
+      <table width="239" border="0" cellpadding="0" cellspacing="0" align="right" style="margin-top:8px;">
+        <tr>
+          <td class="column_2"><i>推荐文章</i></td>
+        </tr>
+        <tr>
+          <td class="column_bj">
+          <!--推荐新闻-->
+          <table width="90%" border="0" cellpadding="0" cellspacing="0" align="center">
+          	  
+          </table>
+          <!--/推荐新闻-->
+          </td>
+        </tr>
+        <tr>
+          <td class="column_f"></td>
+        </tr>
+      </table>
+      <table width="239" border="0" cellpadding="0" cellspacing="0" align="right" style="margin-top:8px;">
+        <tr>
+          <td class="column_2"><i>热点文章</i></td>
+        </tr>
+        <tr>
+          <td class="column_bj">
+          <!--热点文章-->
+          <table width="90%" border="0" cellpadding="0" cellspacing="0" align="center">
+          	  
+              <tr>
+                <td align="center" width="14">
+                <img src="/templates/sd_bray/images/tb_5.jpg" alt="" width="10" height="10" />
+                </td>
+                <td>
+                <a href="/news_show.aspx?id=1573">【招生公告】2017年树…</a>
+                <span>( 06-08 )</span>
+                </td>
+              </tr>
+              
+          </table>
+          <!--/热点文章-->
+          </td>
+        </tr>
+        <tr>
+          <td class="column_f"></td>
+        </tr>
+      </table>
+      </td>
+    <td width="756" valign="top"><table width="730" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+          <td class="right_t"><i>校园公告</i></td>
+        </tr>
+        <tr>
+          <td class="right_bj">
+          <!--栏目文章列表-->
+            <table width="96%"  border="0" cellpadding="0" cellspacing="0" align="center" style=" margin-top:-10px;">
+             <!--取得一个DataTable-->
+             <!--取得分页页码列表-->
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1737" title="note">食谱（第19周）</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2018/1/8 10:21:59</span>
+                <span class="comm">0人评论</span>
+                <span class="view">149次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                成都树德中学博瑞实验学校（第19周）食谱                                                                                           2018年1月8日至2018年1月14日日期分区主    食副                  食汤间  餐1月8日星期一早蜂蜜脆皮蛋糕（50g)、红糖馒头       …
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1722" title="note">食谱（第18周）</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2017/12/29 11:37:09</span>
+                <span class="comm">0人评论</span>
+                <span class="view">218次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                成都树德中学博瑞实验学校（第18周）食谱                                                                                           2018年1月1日至2018年1月7日日期分区主    食副                  食汤间  餐1月1日星期一早午晚三色肉沫炒饭（100g）         杂酱…
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1720" title="note">食谱（第17周）</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2017/12/25 11:06:39</span>
+                <span class="comm">0人评论</span>
+                <span class="view">159次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                成都树德中学博瑞实验学校（第17周）食谱                                                                                           2017年12月25日至2018年1月1日日期分区主    食副                  食汤间  餐12月24日星期一早清蛋糕（50g)、红糖馒头肉沫蒸鸡蛋…
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1712" title="note">食谱（第16周）</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2017/12/20 17:05:24</span>
+                <span class="comm">0人评论</span>
+                <span class="view">144次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                成都树德中学博瑞实验学校（第16周）食谱                                                                                              2017年12月18日至12月24日日期分区主    食副                  食汤间  餐12月18日星期一早草莓果酱肉松蛋糕（50g)、炼乳馒头煮…
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1711" title="note">树德博瑞美宣制作招标</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2017/12/15 9:17:00</span>
+                <span class="comm">0人评论</span>
+                <span class="view">96次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                成都树德中学博瑞实验学校2017年校园文化美宣制作项目。兹邀请符合本次招标要求的供应商参加投标，本次招标的美宣制作项目必须是列入政府采购目录内的产品。一、招标编号：20171226（2）。二、招标项目：2017年美宣制作。三、资金来源：自筹资金。四、招标项目简介：2017…
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1710" title="note">2017明珠花园装修工程招标</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2017/12/14 15:37:18</span>
+                <span class="comm">0人评论</span>
+                <span class="view">159次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                招标公告1. 招标条件成都树德中学博瑞实验学校拟对本校明珠花园教师公寓工程进行公开招标，项目业主为成都树德中学博瑞实验学校，建设资金来自自筹，项目出资比例为100%，招标人为成都树德中学博瑞实验学校。项目已具备招标条件，现对该项目的施工进行招标。2. 项目概况与…
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1709" title="note">2017年体检采购招标</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2017/12/14 15:36:33</span>
+                <span class="comm">0人评论</span>
+                <span class="view">192次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                成都树德中学博瑞实验学校2017年体检采购项目。兹邀请符合本次招标要求的供应商参加投标，本次招标的体检项目必须是列入政府采购目录内的产品。一、招标编号：20171226（1）。二、招标项目：员工体检。三、资金来源：自筹资金。四、招标项目简介：2017年教职员工体检2017…
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1702" title="note">食谱（第15周）</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2017/12/8 11:37:24</span>
+                <span class="comm">0人评论</span>
+                <span class="view">311次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                成都树德中学博瑞实验学校（第15周）食谱                                                                                              2017年12月11日至12月17日日期分区主    食副                  食汤间  餐12月11日星期一早桔泥夹心蛋糕（50g)、奶香馒头香葱肉…
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1693" title="note">食谱（第14周）</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2017/12/6 10:03:56</span>
+                <span class="comm">0人评论</span>
+                <span class="view">156次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                成都树德中学博瑞实验学校（第14周）食谱                                                                                              2017年12月4日至12月10日日期分区主    食副                  食汤间  餐12月4日星期一早拨丝蛋糕（50g)、紫薯馒头卤鸡蛋（50g…
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+              <tr>
+                <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="left" width="14"><img src="/templates/sd_bray/images/ta_5.jpg" alt="" width="10" height="10" /></td>
+                    <td class="title1">
+                    	<span>[校园公告]</span>
+                    	<a href="/news_show.aspx?id=1689" title="note">关于鲜鱼的招标公告</a>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <span class="time">2017/12/4 9:20:27</span>
+                <span class="comm">0人评论</span>
+                <span class="view">130次浏览</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="zhaiyao">
+                成都树德中学博瑞实验学校关于鲜鱼的招标公告 我校后勤部拟对鲜鱼进行公开招标，诚邀符合资质的企业前来参与投标，现将有关事宜公告如下： 1、招标项目：鲜鱼物资供应期间：2017年12月---2018年12月投标人应俱备的条件（1）、在中国境内注册并具有独立法人资格的企业或具…
+                </td>
+              </tr>
+              <tr>
+                <td height="10">
+                </td>
+              </tr>
+            
+            </table>
+
+          <div class="line20"></div>
+          <div class="flickr"><span class="disabled">«上一页</span><span class="current">1</span><a href="/news_list.aspx?category_id=1&page=2">2</a><a href="/news_list.aspx?category_id=1&page=3">3</a><a href="/news_list.aspx?category_id=1&page=4">4</a><span>...</span><a href="/news_list.aspx?category_id=1&page=18">18</a><a href="/news_list.aspx?category_id=1&page=2">下一页»</a></div> <!--放置页码列表-->
+         <!--/栏目文章列表-->
+          </td>
+        </tr>
+        <tr>
+          <td class="right_f"></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="1000" border="0" cellpadding="0" cellspacing="0" align="center" class="Bgcolor_1">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<!--/body-->
+<!--固定友情链接-->
+<table width="1000" border="0" cellpadding="0" cellspacing="0" align="center" class="paddingTop8">
+  <tr>
+    <td align="center">
+    <Select onchange="if(this.value!='')window.open(this.value);" size=1 name=select7> 
+  <Option selected>---全国教育网站---</Option> 
+  <Option value=http://www.moe.edu.cn>中国教育部</Option> 
+  <Option value=http://www.jyb.com.cn>中国教育新闻网</Option> 
+  <Option value=http://www.csc.edu.cn>国家留学网</Option> 中国人民大学北京师范大学复旦大学上海交通大学电子科技大学四川大学 
+  <Option value=http://www.cbe21.com/>中国基础教育网</Option> 
+  <Option value=http://www.e-chinaedu.cn/>中国教育信息化网</Option> 
+  <Option value=http://www.ncet.edu.cn/>中央电化教育馆</Option> 
+  <Option value=http://www.scedu.net/structure/index.htm>四川省教育厅</Option> 
+  <Option value=http://www.scdjg.com.cn/>四川省电化教育馆</Option> 
+  <Option value=http://www.626china.org/>中国禁毒展览馆</Option>
+      </Select>
+    </td>
+    <td align="center">
+    <Select onchange="if(this.value!='')window.open(this.value);" size=1 name=select7> 
+  <Option selected>-----部分大学网站-----</Option> 
+  <Option value=http://www.pku.edu.cn>北京大学</Option> 
+  <Option value=http://www.tsinghua.edu.cn/publish/th/index.html>清华大学</Option> 
+  <Option value=http://www.ruc.edu.cn>中国人民大学</Option> 
+  <Option value=http://www.bnu.edu.cn>北京师范大学</Option> 
+  <Option value=http://www.zju.edu.cn/>浙江大学</Option> 
+  <Option value=http://www.fudan.edu.cn>复旦大学</Option> 
+  <Option value=http://www.sjtu.edu.cn>上海交通大学</Option> 
+  <Option value=http://www.whu.edu.cn/index.html>武汉大学</Option> 
+  <Option value=http://www.nju.edu.cn/cps/site/newweb/foreground/>南京大学</Option> 
+  <Option value=http://www.xmu.edu.cn/>厦门大学</Option> 
+  <Option value=http://www.uestc.edu.cn/web3>电子科技大学</Option> 
+  <Option value=http://www.scu.edu.cn>四川大学</Option> 
+  <Option value=http://www.swufe.edu.cn>西南财经大学</Option> 
+  <Option value=http://www.cdedu.gov.cn/zhuanti/weblink>更多...</Option>
+      </Select>
+    </td>
+    <td align="center">
+    <Select onchange="if(this.value!='')window.open(this.value);" size=1 name=select7> 
+  <Option selected>-----成都中学网站-----</Option> 
+  <Option value=http://www.sdzx.net>成都树德中学</Option> 
+  <Option value=http://www.cdqz.net>成都七中</Option> 
+  <Option value=http://www.cdshishi.net>成都石室中学</Option> 
+  <Option value=http://www.cfls.net.cn>成都外国语学校</Option> 
+  <Option value=http://www.cefls.com>成都市实验外国语学校</Option> 
+  <Option value=http://www.sdfz.net>四川师大附中</Option> 
+  <Option value=http://www.ydjzx.net>成都市盐道街中学</Option> 
+  <Option value=http://www.dawan.net>成都市大弯中学</Option> 
+  <Option value=http://www.zbzx.net>成都棕北中学</Option> 
+  <Option value=http://www.cdylzx.net>成都玉林中学</Option> 
+  <Option value=http://www.shuangzhong.com>双流中学</Option> 
+  <Option value=http://www.cdedu.com/school.aspx>更多....</Option>
+      </Select>
+    </td>
+    <td align="center">
+    <Select onchange="if(this.value!='')window.open(this.value);" size=1 name=select7> 
+  <Option selected>---树德集团成员校---</Option> 
+  <Option value=http://www.sdxjzx.com>树德协进中学</Option> 
+  <Option value=http://www.czhyzx.cn>树德怀远中学</Option> 
+  <Option value=http://www.scxjzx.com>新津中学</Option> 
+  <Option value=http://www.scsjtzxx.com/xs/index.asp>金堂中学</Option> 
+  <Option value=http://www.pxyz.com>郫县一中</Option> 
+  <Option value=http://www.sd-union.com>树德中学博瑞实验学校</Option>
+  <Option value=http://www.pjxsazx.com>蒲江寿安中学</Option> 
+  <Option value=#>金堂竹篙中学</Option> 
+  <Option value=http://www.cdsdsy.net>树德实验中学</Option> 
+  <Option value=http://www.cdsdsyxq.cn>树德实验中学西区</Option> 
+  <Option value=http://www.qyexp.com/index.aspx>青羊实验联合中学</Option> 
+  <Option value=http://www.dfles.net>都江堰外国语实验</Option> 
+  <Option value=#>成都49中</Option> 
+  <Option value=http://www.dyccb.com/zhongc/web59/defaultcmp.asp?id=47088&com=基本简介>新都香城中学</Option> 
+  <Option value=http://www.jntjzx.net>成都通锦中学</Option>
+      </Select>
+    </td>
+    <td align="center">
+    <Select onchange="if(this.value!='')window.open(this.value);" size=1 name=select7> 
+  <Option selected>---教学资源网站---</Option> 
+  <Option value=http://www.cbern.com.cn/derscn/portal2/SearchAction.do?method=index>国家基础教育资源网</Option> 
+  <Option value=http://tk.cdedu.com:8088/>中央电化教育馆智能题库</Option> 
+  <Option value=http://www.scedu.com.cn/>四川基础教育资源网</Option> 
+  <Option value=http://www.ks5u.com/>高考资源网</Option> 
+  <Option value=http://www.cnkjz.com/>中国课件站</Option> 
+  <Option value=http://www.eku.cc/index.htm>亿库教育网</Option> 
+  <Option value=http://www.zxxk.com/>中学学科网</Option> 
+  <Option value=http://www.gaokao789.com/>高考网址导航</Option>
+      </Select>
+      </td>
+    <td align="center">
+    <Select onchange="if(this.value!='')window.open(this.value);" size=1 name=select7> 
+  <Option selected>--招生考试信息网--</Option> 
+  <Option value=http://www.cdzk.org>成都招生考试网</Option> 
+  <Option value=http://www.zk789.net>四川招生考试信息网</Option> 
+  <Option value=http://四川省教育考试院.cn>四川省教育考试院</Option>
+      </Select>
+    </td>
+  </tr>
+</table>
+<!--/固定友情链接-->
+<!--Footer-->
+<table width="1000" border="0" cellpadding="0" cellspacing="0" align="center" class="paddingTop8">
+  <tr>
+    <td class="footer" align="right">
+    <table width="" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+          <td>
+          <a href="/index.aspx">首页</a> &nbsp;|
+
+          <a href="/content_show.aspx?page=Introduction">学校概况</a>&nbsp;|
+
+          <a href="/news_list.aspx?category_id=8&page=1">卓越人生</a>&nbsp;|
+
+          <a href="/news_list.aspx?category_id=9&page=1">树德专栏</a>&nbsp;|
+
+          <a href="/news_list.aspx?category_id=11&page=1">高效课堂</a>&nbsp;|
+
+          <a href="/news_list.aspx?category_id=12&page=1">学生成长</a>&nbsp;|
+
+          <a href="/news_list.aspx?category_id=48&page=1">教师发展</a>&nbsp;|
+
+          <a href="/news_list.aspx?category_id=5&page=1">校刊报刊</a>&nbsp;|
+
+          <a href="/news_list.aspx?category_id=6&page=1">招生招聘</a>&nbsp;|
+          
+          <a href="/photo_list.aspx?category_id=38&page=1">美术天地</a>&nbsp;|
+          </td>
+        </tr>
+      </table>
+      <table width="" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+          <td align="center">
+            COPYRIGHT 2011 成都树德中学博瑞实验学校版权所有 树德博瑞实验学校信息中心与8211联合设计制作 建议分辨率：1280 * 1024 
+            <a href="/admin/login.aspx" target="_blank">管理登录</a>&nbsp;
+            <a href="/www_old/zp" target="_blank">招聘管理</a>&nbsp;
+            <a href="/www_old/zs" target="_blank">招生管理</a>
+            <br />
+            地址：成都市犀浦镇泰山大道133号 邮编：611731  备案序号:蜀ICP备13003488号  电话：028--87843803 邮箱: 253042359@qq.com 
+		  </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--/Footer-->
+</body>
+</html>

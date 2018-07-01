@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name ="SiteName" content = "古蔺县人民政府" />
+<meta name ="SiteDomains" content = "http://www.gulin.gov.cn" />
+<meta name ="SiteIDCode" content = "" />
+<meta name ="ColumnName" content = "信息公开目录" />
+<meta name ="ColumnDescription" content = "" />
+<meta name ="ColumnKeywords" content = "" />
+<meta name ="ColumnType" content = "" />
+<meta name ="keywords" content = "" />
+<meta name ="description" content = "信息公开目录" />
+
+      
+    <title>信息公开目录_政府信息公开_公开_古蔺县人民政府</title>
+    
+    <link href="/Content/Main/Base/css/module.css?v=fYnzp0DzeN9ON9yPuitLecIKNcbceESzP92Sd7DJ0wA" rel="stylesheet" type="text/css" />
+    <link href="/Content/Main/Base/css/default.css?v=u-W6LqT4cFBm-irkuVDtIDhkxHTGAyAKap_zvd3-wqg" rel="stylesheet" type="text/css" />
+    
+    <link href="/Content/Main/InfoPublicity/css/infoPublicity.css?v=PJ62vamZH12TEKgA5kvVLaAk7u4YQpcaLIWPptoIom0" rel="stylesheet" />
+
+
+    <link href="/Content/_Common/Base/css/power.css?v=NnysWKRx2sJjnGPaLZ29mFou4FqoIx_Biww_3b3J9QU" rel="stylesheet" />
+    <script src="/Content/_Common/Assets/Scripts/jquery-1.11.1.js?v=i_872U7co8jMMDvxvbPSmuKgJwOtKxOPiqicO_RHpZY"></script>
+    <script src="/Content/_Common/Assets/Scripts/jquery.cookie.js?v=rmd7M4A062fFnrQ373UwMnlFLIU_D-IgWCce-lcNHiI"></script>
+    
+    <script src="/Content/_Common/Base/js/webCommon.js?v=TT01NlkXzRpAix471KDjnfqREZUjp51VaTqUb3GKJ1s"></script>
+    <script src="/Content/_Common/Base/js/jquery.SuperSlide.js?v=vCYY6oJ1RSCFp_6x1WvFXSrmn1A1bmRRMb-oBdaR3sI"></script>
+    <script src="/Content/_Common/Base/js/StoT.js?v=OXZKrhYSlMpppSi--VBWq_JCt5s-v5ob4LOTbOY9-SE"></script>
+	<script src="/Content/_Common/Assets/Scripts/qrcode.min.js?v=xUHvBjJ4hahBW8qN9gceFBibSFUzbe9PNttUvehITzY"></script>
+</head>
+<body>
+    
+<div class="wrap">
+
+
+<!-- header S -->
+<header id="header">
+    <div class="topBar">
+        <div class="siteWidth">
+            <ul class="govLinks">
+                <li class="li1"><a href="http://www.gov.cn" target="_blank" title="中央人民政府">中央人民政府</a></li>
+                <li class="li2"><a href="http://www.sc.gov.cn" target="_blank" title="四川省人民政府">四川省人民政府</a></li>
+                <li class="li3"><a href="http://www.luzhou.gov.cn" target="_blank" title="市人民政府">市人民政府</a></li>
+            </ul>
+            <ul class="topLinks">
+                <li class="li0" id="zwb"><a href="/">中文版</a></li>
+                <li class="li1" id="topLinksPhone">
+                    <div class="tit">手机版</div>
+                    <div class="con"><div data-content="http://www.gulin.gov.cn:8086/zwgk/zfxxgk/xxgkml_1?BasicCategoryId=21" data-powertype="qrcode" data-size="150"></div><i></i></div>
+                </li>
+                <li class="li2" id="ftb"><a id="ST_translate" onclick="do_simple_to_traditional();">繁體版</a></li>
+                <li class="li3" id="english"><a href="/english">english</a></li>
+                <li class="li4" id="wza"><a href="/wca.html" id="toolbarCtrl">无障碍</a></li>
+                <li class="li6" id="znjqr"><a href="/znjqr">智能机器人</a></li>
+                <li class="li5" id="bzdt"><a href="/wzdb/bzdt" title="本站地图">本站地图</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="logoBar">
+        <div class="siteSearchBar">
+            
+
+<div class="s-form">
+        <input type="hidden" id="sitelist" value="[{&quot;Name&quot;:&quot;全站群&quot;,&quot;Value&quot;:0},{&quot;Name&quot;:&quot;本站&quot;,&quot;Value&quot;:1}]" />
+        <input type="hidden" id="siteid" name="sid" value="0">
+        <div class="select-box">
+            <a id="sOptionBtn" class="s-option" href="javascript:void(0)">全站群</a>
+            <i class="arrow-dn"></i>
+        </div>
+    <div class="input-box">
+        <input type="text" class="from-control" id="inputkeyword" placeholder="请输入关键词" spellcheck="false">
+    </div>
+    <div class="btn-box">
+        <input type="submit" id="search" class="btn" onclick="gSearch();" value=" ">
+        <input type="hidden" id="route" value="s" />
+    </div>
+</div>
+<div class="hotWords">
+    热门搜索：<a target="_blank" href="/s?wd=社保">社保</a><a target="_blank" href="/s?wd=公租房">公租房</a><a target="_blank" href="/s?wd=居住证">居住证</a><a target="_blank" href="/s?wd=公积金">公积金</a><a target="_blank" href="/s?wd=结婚">结婚</a>
+</div>
+
+<script src="/Content/_Common/FullTextSearch/js/default-site-search-box.js?v=kU3NgEhQSAAbC9QQEqnSpBmUFrAITf3s8vsYfMFUAZg"></script>
+<script>
+    document.getElementById("inputkeyword").onkeydown = function (e) {
+        e = e || window.event;
+        if (e.keyCode == 13) {
+            gSearch();
+        }
+    };
+
+    function gSearch() {
+        var keyword = document.getElementById('inputkeyword').value;
+        var route = document.getElementById('route').value;
+
+        if (keyword == '' || keyword == "请输入关键字") {
+            alert("请输入关键字");
+        } else {
+            var siteid = document.getElementById('siteid').value;
+            window.location = '/' + route + '?sid=' + siteid + '&wd=' + encodeURIComponent(keyword);
+        }
+    }
+</script>
+        </div>
+        <h1 title="古蔺县人民政府" id="logo"><a href="http://www.gulin.gov.cn"><img src="/upload/main/site/logo/image/4c1cac1191b04043a719263db4045e3e.png" /></a></h1>
+    </div>
+    <nav class="topNav">
+        
+
+<ul id="mainNav" class="mainNav">
+    <li class="li1 first1" id="li-home">
+        <h3 class="h1">
+                <a class="a1" href='/'>首页</a>
+        </h3>
+    </li>
+
+        <li class="li1 hasUl1 on1" id="li-zwgk">
+            <h3 class="h1">
+                <a class="a1" href="/zwgk">公开</a></h3>
+        </li>
+        <li class="li1 hasUl1" id="li-bsfw">
+            <h3 class="h1">
+                <a class="a1" href="/bsfw">服务</a></h3>
+        </li>
+        <li class="li1 hasUl1" id="li-hdjl">
+            <h3 class="h1">
+                <a class="a1" href="/hdjl">互动</a></h3>
+        </li>
+        <li class="li1 hasUl1" id="li-mlgl">
+            <h3 class="h1">
+                <a class="a1" href="/mlgl">县情</a></h3>
+        </li>
+        <li class="li1 last1 hasUl1" id="li-zt">
+            <h3 class="h1">
+                <a class="a1" href="/zt">专题</a></h3>
+        </li>
+</ul>
+
+
+
+    </nav>
+</header>
+
+
+<script>
+    //手机版显示二维码
+    hover($("#topLinksPhone"), "on");
+</script>
+
+<!-- header E -->
+    
+
+
+
+
+<!-- content S -->
+<div id="content" class="publicityListContent">
+<div class="path">
+<em>您的位置：</em><a href="/">首页</a>
+&gt;<a href="/zwgk">公开</a>&gt;<a href="/zwgk/zfxxgk">政府信息公开</a>&gt;<a href="/zwgk/zfxxgk/xxgkml">信息公开目录</a></div>
+
+    <!-- side S -->
+    <aside class="side">
+        
+		
+ <!-- 组配分类 -->
+    <div class="zpBox">
+        <div class="hd">
+            <h3>信息公开目录导航</h3>
+        </div>
+        <div class="bd">
+            <dl class="zpCate">
+                
+                <dt>按基础分类</dt>
+                <dd>
+                    <div id="Dnav">
+                        <ul id="Basic_Catelog" class="subjectCategoryList category-list ztree" style="overflow: auto;"></ul>
+                    </div>
+                    <input type="hidden" id="basicoryUrls"
+                           data-getbasiccategoriesurl="/infopublicity/basiccategory/getbasiccategorytree?departmentid=0&nodeIdentifier=xxgkml&isAll=true"
+                           data-subjectcategoryid="0" />
+                    
+                    
+
+                    <script>
+
+                        $(function () {
+
+                            var treeid = "Basic_Catelog",
+                                urls = $('#basicoryUrls').data(),
+                                $getbasiccategoriesurl = urls.getbasiccategoriesurl;
+
+                            buildBasicCategoryTree($getbasiccategoriesurl); // 获得主题树。
+
+                            // 获得主题树。
+                            function buildBasicCategoryTree(url) {
+                                new pe.ui.tree(treeid,
+                                {
+                                    url: url,
+                                    check: {
+                                        enable: false
+                                    },
+                                    selectDefaultNode: false
+                                });
+                            }
+                        });
+                    </script>
+                </dd>
+                <dt>按主题分类</dt>
+                <dd>
+                    <div id="Dnav">
+                        <ul id="Gov_Catelog" class="subjectCategoryList category-list ztree" style="overflow: auto;"></ul>
+                    </div>
+                    <input type="hidden" id="subjectoryUrls"
+                           data-getpubliccategoriesurl="/infopublicity/subjectcategory/getsubjectcategorytreeall?departmentid=0&nodeIdentifier=xxgkml&isAll=true"
+                           data-subjectcategoryid="0" />
+
+                    <link href="/Content/_Common/Assets/Content/zTreeStyle.css?v=EgeCzvAzJ17s3pPiHGHc3u8i6bGoOFYhW7LKwuN-Zbk" type="text/css" rel="stylesheet">
+                    <script src="/Content/_Common/Assets/Scripts/jquery.ztree.all-3.5.min.js?v=v9P7EXR9k6Kj5ETHqz7TrdxeBS1BNC_zDDGy-SmOFdE"></script>
+                    <script src="/Content/_Common/Assets/Scripts/jquery.ztree.exhide-3.5.min.js?v=s71CYO6jcV2OXF4KpHX32q-YRwF-CRUFTBmhG_jiESQ"></script>
+                    <script src="/Content/_Common/Base/js/power.core.js?v=YbL7I12nojUif6y8DS4RdOi1zQc7c5x0UfIfb8CNiQ8"></script>
+                    <script src="/Content/_Common/Base/js/power.ui.js?v=vtU554f5zlC7WLABL6z-75vIKuHiH4AHS9KAd-Y-lgw"></script>
+                    <script src="/Content/_Common/Base/js/power.ui.tree.js?v=ChzTwJ3YzzbRJc32LTp979NDg6fRaNtBYcVO3Y0dPXk"></script>
+
+                    <script>
+
+                        $(function () {
+
+                            var treeid = "Gov_Catelog",
+                                urls = $('#subjectoryUrls').data(),
+                                $getpubliccategoriesurl = urls.getpubliccategoriesurl;
+
+                            buildSubjectCategoryTree($getpubliccategoriesurl); // 获得主题树。
+
+                            // 获得主题树。
+                            function buildSubjectCategoryTree(url) {
+                                new pe.ui.tree(treeid,
+                                {
+                                    url: url,
+                                    check: {
+                                        enable: false
+                                    },
+                                    selectDefaultNode: false
+                                });
+                            }
+                        });
+                    </script>
+                </dd>
+                <dt>按体裁分类</dt>
+                <dd>
+                    <div id="Dnav">
+                        <ul id="Theme_Catelog" class="subjectCategoryList category-list ztree" style="overflow: auto;"></ul>
+                    </div>
+                    <input type="hidden" id="themeUrls"
+                           data-getcustomercategoriesurl="/infopublicity/themecategory/getthemecategorytree?departmentid=0"
+                           data-subjectcategoryid="0" />
+                    
+                    
+
+                    <script>
+
+                        $(function () {
+
+                            var treeid = "Theme_Catelog",
+                                urls = $('#themeUrls').data(),
+                                $getthemecategoriesurl = urls.getcustomercategoriesurl;
+
+                            buildThemeCategoryTree($getthemecategoriesurl); // 获得主题树。
+
+                            // 获得主题树。
+                            function buildThemeCategoryTree(url) {
+                                new pe.ui.tree(treeid,
+                                {
+                                    url: url,
+                                    check: {
+                                        enable: false
+                                    },
+                                    selectDefaultNode: false
+                                });
+                            }
+                        });
+                    </script>
+                </dd>
+                <dt>按服务对象分类</dt>
+                <dd>                    
+                    <div id="Dnav">
+                        <ul id="Customer_Catelog" class="subjectCategoryList category-list ztree" style="overflow: auto;"></ul>
+                    </div>
+                    <input type="hidden" id="customerUrls"
+                           data-getcustomercategoriesurl="/infopublicity/customercategory/getcustomercategorytree?departmentid=0"
+                           data-subjectcategoryid="0" />
+                    
+                    <script>
+
+                        $(function () {
+
+                            var treeid = "Customer_Catelog",
+                                urls = $('#customerUrls').data(),
+                                $getcutomsercategoriesurl = urls.getcustomercategoriesurl;
+
+                            buildCustomerCategoryTree($getcutomsercategoriesurl); // 获得主题树。
+
+                            // 获得主题树。
+                            function buildCustomerCategoryTree(url) {
+                                new pe.ui.tree(treeid,
+                                {
+                                    url: url,
+                                    check: {
+                                        enable: false
+                                    },
+                                    selectDefaultNode: false
+                                });
+                            }
+                        });
+                    </script>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <script>
+        $(".zpCate").slide({ targetCell:"dd",titCell:"dt",effect:"slideDown",trigger:"click" })
+    </script>
+
+        
+            <!-- 公开 -->
+            <div id="sideMenu">
+                <div class="hd">
+                    <i></i>
+                    <h3><a href="/zwgk/zfxxgk">政府信息公开</a></h3>
+                </div>
+                <div class="bd">
+                    <ul class="zfxxgkList">
+                        
+
+
+        <li class="li1 first">
+            <div class="title">
+                <a class="tit" href="/zwgk/zfxxgk/xxgkzn">信息公开指南</a>
+            </div>
+        </li>
+        <li class="li2 on">
+            <div class="title">
+                <a class="tit" href="/zwgk/zfxxgk/xxgkml">信息公开目录</a>
+            </div>
+        </li>
+        <li class="li3">
+            <div class="title">
+                <a class="tit" href="/zwgk/zfxxgk/xxgknb">信息公开年报</a>
+            </div>
+        </li>
+        <li class="li4">
+            <div class="title">
+                <a class="tit" href="/infopublicity/applicationform">依申请公开</a>
+            </div>
+        </li>
+        <li class="li5 last">
+            <div class="title">
+                <a class="tit" href="/zwgk/zfxxgk/xxtj">信息统计</a>
+            </div>
+        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+<!-- 政府文件搜索 -->
+<div id="zfwjcx">
+    <div class="hd">
+        <h3><i></i><span>政府文件搜索</span></h3>
+    </div>
+    <div class="bd">
+        
+<div class="govSimpleSearch">
+    <div id="simpleSearchType">
+        &nbsp;&nbsp;<label><input type="radio" value="0" name="searchType" checked="checked" />&nbsp;文件名</label> &nbsp;&nbsp;
+        <label><input type="radio" value="1" name="searchType" />&nbsp;索引号</label>
+    </div>
+    <span class="name">信息搜索</span><input class="govKW" id="govKW" placeholder="请输入关键词" /><a class="sBtn" href="javascript:govSearch()">搜索</a><a class="asBtn" href='/infopublicity/publicinformation/advancedsearch?subjectcategoryid=0&amp;departmentid=0'>高级搜索</a>
+    <script type="text/javascript">
+
+        document.getElementById("govKW").onkeydown = function (e) {
+            e = e || window.event;
+            if (e.keyCode === 13) {
+                govSearch();
+            }
+        };
+
+        function govSearch() {
+            var keyword = $('input#govKW').val(),
+                searchTypeValue = $('div.govSimpleSearch #simpleSearchType')
+                    .find("input[name=searchType]:checked")
+                    .val();
+            if (keyword === '' || keyword === "请输入关键词") {
+                alert("请输入关键词");
+            } else {
+                var url = '/publicity?IsSearch=true';
+                if (searchTypeValue === "1") {
+                    url = url + '&identifier=' + encodeURI(keyword);
+                } else {
+                    url = url + '&title=' + encodeURI(keyword);
+                }
+                window.location = url;
+            }
+        }
+
+        $(function () {
+            var urlParameter = window.location.search,
+                $searchType = $('div.govSimpleSearch #simpleSearchType');
+            if (urlParameter.indexOf("?") !== -1) {
+                var lastParameterArray = urlParameter.substring(1).split('&').pop().split("="),
+                    keywordValue = decodeURI(lastParameterArray[1]),
+                    paramenterName = lastParameterArray[0].toLocaleLowerCase();
+
+                console.log(lastParameterArray[0].toLocaleLowerCase());
+                if ((paramenterName === "identifier" || paramenterName === "title") && keywordValue) {
+                    $('input#govKW').val(keywordValue);
+                }
+
+                if (paramenterName === "identifier") {
+                    $searchType.find("input:radio[value=1]").prop("checked", true);
+                }
+            }
+        });
+
+    </script>
+</div>
+
+    </div>
+</div>
+
+
+    </aside>
+    <!-- side E -->
+    <!-- mainContent S -->
+    <div class="mainContent">
+        <div class="mainBox">
+
+            <div class="mHd">
+                <h3>
+                        政府采购与招投标
+                </h3>
+            </div>
+            <div class="mBd">
+                <!-- 正文内容 S -->
+                <table cellspacing="0" cellpadding="0" class="publicTable">
+                    <tr class="title">
+                        <td class="index">索引号</td>
+                        <td class="type">发布机构</td>
+                        <td class="name">信息名称</td>
+                        <td class="symbol">文号</td>
+                        <td class="date">产生日期</td>
+                    </tr>
+                        
+
+        <tr class="">
+                <td class="index">
+                    2/2017-00107
+                </td>
+                            <td class="type">县公安局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept1/subject016/subject1111/74672">古蔺县公安局其他家具用具公开招标采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>2/2017-00107</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县公安局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-12-28</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>16A公安</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>采购公告</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-12-28</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    2/2017-00106
+                </td>
+                            <td class="type">县公安局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept1/subject016/subject1111/74671">古蔺县公安局宣传文化服务采购项目（第二次）竞争性磋商采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>2/2017-00106</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县公安局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-12-28</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>16A公安</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>采购公告</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-12-28</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    2/2017-00105
+                </td>
+                            <td class="type">县公安局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept1/subject016/subject1111/74670">古蔺县公安局宣传文化服务采购项目 竞争性磋商采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>2/2017-00105</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县公安局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-12-28</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>16A公安</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>采购公告</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-12-28</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    113/2017-00086
+                </td>
+                            <td class="type">县教育局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept23/subject011/subject191/71507">古蔺县丹桂镇中心小学校食堂餐厨设备采购文件</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>113/2017-00086</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县教育局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-24</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>丹桂镇学校食堂设备采购</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-24</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    113/2017-00085
+                </td>
+                            <td class="type">县教育局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept23/subject011/subject191/71376">古蔺县2017年学生营养改善计划猪肉集中采购项目拟中标企业公示</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>113/2017-00085</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县教育局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-16</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>拟中标公示</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-16</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    113/2017-00084
+                </td>
+                            <td class="type">县教育局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept23/subject011/subject191/71356">古蔺镇2017年农村学校学生营养改善计划蔬菜干货调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>113/2017-00084</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县教育局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-15</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>采购公告</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-15</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    129/2017-00023
+                </td>
+                            <td class="type">石屏镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept36/subject011/subject191/71311">石屏镇人民政府2017至2018学年度营养改善计划蔬菜采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>129/2017-00023</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>石屏镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-11</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>蔬菜采购</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-11</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    113/2017-00083
+                </td>
+                            <td class="type">县教育局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept23/subject011/subject191/71309">古蔺县实验学校2017年秋季学期营养改善计划蔬菜采购招标公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>113/2017-00083</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县教育局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-11</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>实验学校蔬菜采购</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-11</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    113/2017-00082
+                </td>
+                            <td class="type">县教育局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept23/subject011/subject191/71323">古蔺县教育局2017年学生营养改善计划猪肉集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>113/2017-00082</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县教育局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-10</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>猪肉采购</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-10</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    131/2017-00067
+                </td>
+                            <td class="type">东新镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept38/subject011/subject191/71313">东新镇人民政府2017年学生营养改善计划大宗物品集中采购方案</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>131/2017-00067</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>东新镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-09</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>营养改善</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-09</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    131/2017-00066
+                </td>
+                            <td class="type">东新镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept38/subject011/subject191/71312">古蔺县东新镇人民政府东新中学2017年学生营养改善计划蔬菜干货调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>131/2017-00066</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>东新镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-09</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>营养改善</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-09</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    135/2017-00016
+                </td>
+                            <td class="type">水口镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept42/subject01/subject11/71238">古蔺县水口镇人民政府2017年学生营养改善计划蔬菜、干货、调味品集中采购公告补遗</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>135/2017-00016</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>水口镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-08</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>01A政府</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>公告补遗</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-08</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    135/2017-00015
+                </td>
+                            <td class="type">水口镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept42/subject03/subject131/71237">古蔺县水口镇人民政府017年学生营养改善计划蔬菜、干货、调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>135/2017-00015</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>水口镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-07</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>03Z其他</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>采购投标</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-07</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    113/2017-00081
+                </td>
+                            <td class="type">县教育局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept23/subject011/subject191/71225">古蔺县古蔺镇初级中学校2017年学生营养改善计划蔬菜干货调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>113/2017-00081</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县教育局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-07</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>采购公告</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-07</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    130/2017-00021
+                </td>
+                            <td class="type">大村镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept37/subject022/71224">古蔺县大村镇人民政府 2017年学生营养改善计划蔬菜干货调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>130/2017-00021</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>大村镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-07</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>其他</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>营养午餐</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-07</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    149/2017-00068
+                </td>
+                            <td class="type">桂花乡</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept56/subject01/subject11/71174">桂花乡人民政府2017年学生营养改善计划蔬菜干货调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>149/2017-00068</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>桂花乡</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-03</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>01A政府</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>公告</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-03</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    149/2017-00067
+                </td>
+                            <td class="type">桂花乡</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept56/subject01/subject17/71173">桂花乡人民政府2017年学生营养改善计划大宗物品集中采购方案</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>149/2017-00067</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>桂花乡</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-03</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>01G政府直属事业单位</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>采购</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-03</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    127/2017-00078
+                </td>
+                            <td class="type">永乐镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept34/subject011/subject191/71170">2017年学生营养改善计划大宗物品集中招标采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>127/2017-00078</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>永乐镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-03</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>招标采购</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-03</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    113/2017-00080
+                </td>
+                            <td class="type">县教育局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept23/subject011/subject191/71157">古蔺县中城中学2017年学生营养改善计划蔬菜干货调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>113/2017-00080</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县教育局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-02</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>中城中学学生营养改善计划蔬菜干货调味品集中采购公告</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-02</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    138/2017-00011
+                </td>
+                            <td class="type">鱼化镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept45/subject011/subject191/71156">2017年学生营养改善计划蔬菜干货调味品集中采购方案</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>138/2017-00011</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>鱼化镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-02</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>营养午餐采购</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-02</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    144/2017-00027
+                </td>
+                            <td class="type">马嘶苗族乡</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept51/subject04/subject140/71152">2017年学生营养改善计划蔬菜干货调味品集中采购</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>144/2017-00027</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>马嘶苗族乡</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-01</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>04Z其他</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>采购公告</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-01</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    146/2017-00105
+                </td>
+                            <td class="type">德耀镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept53/subject02/subject113/71150">古蔺县德耀镇人民政府2017年学生营养改善计划蔬菜干货调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>146/2017-00105</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>德耀镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-08-01</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>02D电子政务</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>营养改善计划蔬菜干货采购</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-08-01</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    136/2017-00026
+                </td>
+                            <td class="type">皇华镇</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept43/subject011/subject193/71083">2017年学生营养改善计划蔬菜干货调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>136/2017-00026</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>皇华镇</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-07-28</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11Z其他</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>集中采购公告</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-07-28</td>
+
+        </tr>
+        <tr class="interval">
+                <td class="index">
+                    113/2017-00079
+                </td>
+                            <td class="type">县教育局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept23/subject011/subject191/71067">古蔺县黄荆乡人民政府2017年学生营养改善计划蔬菜干货调味品集中采购公告</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>113/2017-00079</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县教育局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-07-28</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>黄荆乡蔬菜采购</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-07-28</td>
+
+        </tr>
+        <tr class="">
+                <td class="index">
+                    113/2017-00077
+                </td>
+                            <td class="type">县教育局</td>
+            <td class="name">
+                <a target="_blank" href="/publicity_dept23/subject011/subject191/71051">古蔺县双沙镇中心小学校食堂厨具设备询价采购文件</a>
+                    <div class="miniTable">
+                        <i class="arrow"></i>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="tdL">索 引 号：</td>
+                                <td>113/2017-00077</td>
+                                <td class="tdL">发布机构：</td>
+                                <td>县教育局</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">公开日期：</td>
+                                <td>2017-07-28</td>
+                                <td class="tdL">专题分类：</td>
+                                <td>11B教育</td>
+                            </tr>
+                            <tr>
+                                <td class="tdL">文号：</td>
+                                <td></td>
+                                <td class="tdL">关键词：</td>
+                                <td>古蔺县双沙镇中心小学校食堂厨具设备询价采购文件</td>
+                            </tr>
+<!--                             <tr>
+                                <td class="tdL">内容概述：</td>
+                                <td class="intro" colspan="3"></td>
+                            </tr> -->
+                        </table>
+                    </div>
+            </td>
+                <td class="symbol"></td>
+            <td class="date">2017-07-28</td>
+
+        </tr>
+
+                </table>
+                <script>hover($(".publicTable tr"), "on")</script>
+                <div class="page">
+
+
+        <a class="first" href="/zwgk/zfxxgk/xxgkml_1?BasicCategoryId=21">首页</a>
+        <a class="prev" href="/zwgk/zfxxgk/xxgkml_1?BasicCategoryId=21">上一页</a>
+<a class='current'>1</a> <a href='/zwgk/zfxxgk/xxgkml_2?BasicCategoryId=21'>2</a> <a href='/zwgk/zfxxgk/xxgkml_3?BasicCategoryId=21'>3</a>         <a class="next" href="/zwgk/zfxxgk/xxgkml_2?BasicCategoryId=21">下一页</a>
+        <a class="last" href="/zwgk/zfxxgk/xxgkml_3?BasicCategoryId=21">尾页</a>
+        <span class="total">共74条信息/共3页</span>
+        <span class="select">转到第<select id='Jumppage' onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option value='/zwgk/zfxxgk/xxgkml_1?BasicCategoryId=21' selected>1</option><option value='/zwgk/zfxxgk/xxgkml_2?BasicCategoryId=21'>2</option><option value='/zwgk/zfxxgk/xxgkml_3?BasicCategoryId=21'>3</option></select>页</span>
+</div>
+                <!-- 正文内容 E -->
+            </div>
+        </div>
+    </div>
+    <!-- mainContent E -->
+</div>
+<!-- content E -->
+
+
+
+<!-- footer S -->
+<footer id="footer">
+    <div class="siteWidth">
+        <div class="footerNav">
+            
+
+
+        <a class="tit" href="/wzdb/sybz">使用帮助</a>
+        <a class="tit" href="/wzdb/lxwm">联系我们</a>
+        <a class="tit" href="/wzdb/bzdt">本站地图</a>
+        <a class="tit" href="/wzdb/flsm">法律声明</a>
+
+        </div>
+        <div class="copyRight"><p>古蔺县人民政府办公室 主办　联系电话：(0830)7204251　　古蔺县信息中心 承办　联系电话：(0830)7203433<br>版权所有，未经许可，不得复制、转载 &nbsp;　　电子邮箱：glzfb@sina.com<br>ICP备案编号：蜀ICP备06002254号 &nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51052502000116"><img src="http://www.beian.gov.cn/file/ghs.png" border="0">川公网安备 51052502000116号</a></p></div>
+        <div class="pic">
+<a href="http://www.12377.cn" target="_blank"><img src="/Content/Main/Base/img/footer-jubao.jpg"/></a>
+            
+<a href="http://www.sclzga.gov.cn/default.php?mod=c&s=ssc8613d9" target="_blank"><img src="/Content/Main/Base/img/footer-wangjian.jpg"/></a>
+<script id="_jiucuo_" sitecode="5105250002" src="http://pucha.kaipuyun.cn/exposure/jiucuo.js"></script>
+            
+<a href="http://www.scjb.gov.cn/" target="_blank"><img src="/Content/Main/Base/img/footer-jubao1.jpg"/></a>
+<a href="http://bszs.conac.cn/sitename?method=show&id=0A39832226E85537E053012819AC9919" target="_blank"><img src="/Content/Main/Base/img/footer-dangzheng.png"/></a>
+</div>
+    </div>
+</footer>
+<!-- footer E -->
+<!-- 侧栏固定菜单 -->
+<ul class="sideFixed">
+    <li class="wx">
+        <a href="javascript:;"></a>
+        <div class="pic">
+            <img src="/Content/main/Base/img/wx.png?v=_vfys_s2NfoBBh4aYRHEN98paW8es8hqCtXvp0NVsOM" alt="" />
+            <i></i>
+        </div>
+    </li>
+    <li class="wb"><a target="blank" href='http://weibo.com/2285750584'></a></li>
+    <li class="qr">
+        <a href="javascript:;"></a>
+        <div class="pic">
+            <div data-content="http://www.gulin.gov.cn:8086/zwgk/zfxxgk/xxgkml_1?BasicCategoryId=21" data-powertype="qrcode" data-size="150"></div>
+            <i></i>
+        </div>
+    </li>
+    <li class="goTop"><a href="javascript:;">返回顶部</a></li>
+</ul>
+<script>
+    $(".sideFixed li").hover(function () { $(this).addClass("on") }, function () { $(this).removeClass("on") });
+    var myDate = new Date();var str = myDate.getFullYear();
+    $(".englishPage .copyRight").text("Copyright © 2005-"+str+" gulin.gov.cn .All Rights Reserved");
+</script></div>
+    <script src="/Content/_Common/Assets/Scripts/audio.min.js?v=NpxxOM2mZQmYCRCBwi8VVxllfj7XvVmUZeq35WwgSn4"></script>
+    <script src="/Content/_Common/Base/js/power.js?v=nXx_udrVlFBmfT2AlL0mGtul-7t1j0Dckc2QFQND4hM"></script>
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,4585 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>阳光产权</title>
+		<meta name="Description" content="阳光产权">
+		<meta name="Keywords" content="阳光产权">
+		<link href="../css/public2.css" rel="stylesheet">
+	<script>var $pageInfo = { publishmentSystemID : 289, channelID : 296, contentID : 0, siteUrl : "", homeUrl : "/center", currentUrl : "http://www.prechina.net/channels/296.html", rootUrl : "http://www.prechina.net", apiUrl : "http://www.prechina.net" }</script>
+</head>
+
+	<body>
+<script type="text/javascript">!window.jQuery&&document.write('<script src="/sitefiles/bairong/jquery/jquery-1.9.1.min.js" language="javascript"></'+'script>');</script>
+
+		  <link type="text/css" rel="stylesheet" href="../css/benner.css" />
+    <script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+	<script src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+<!--header start-->
+<div class="header">
+    <a class="logo" href=""><img src="../images/logo2.jpg" alt=""/></a>
+    <div class="head-r">
+        <div class="search-box"> 
+<form id="ajaxElement_2_791" action="/utils/search.html" target="_blank">
+      <input type="text" name="word" class="search-input"/>
+      <input onclick="document.getElementById('ajaxElement_2_791').submit();return false;" align="absMiddle" class="search-btn"/>
+      <input type="hidden" id="channelID" name="channelID" value="289" /></form></div>
+	   <div class="top_site">
+       <a class="wechat" href="javascript:void(0);"></a>
+	   <div class="sitecode">
+			  <p><img src="../images/二维码.png" width="106" height="106"></p>
+			  
+			</div>
+     </div>
+	 <a></a>
+    </div>
+    <div class="nav" id="nav">
+        <ul>
+            <li class="m on"><a href="/" target="_blank">首页</a></li>
+            <li class="m"><a href="javascript:;">新闻动态</a>
+			  <div class="nav_lv2">
+                    <ul class="nav_menu">
+					
+                        <li><a href="/channels/291.html" target="_blank">公司新闻</a></li>
+                        <li><a href="/channels/292.html" target="_blank">行业新闻</a></li>
+                        <li><a href="/channels/293.html" target="_blank">其他新闻</a></li>
+                    </ul>
+                    <div class="cont">
+                        <dl>
+                            <dt><img src="/upload/images/2015/9/25102712938.jpg" /></dt>
+                            <dd><a href="javascript:;">新闻动态</a></dd>
+                            <dd></dd>
+                        </dl>
+                    </div>
+                </div>
+			</li>
+            <li class="m">
+                <a href="javascript:;">交易项目</a>
+                <div class="nav_lv2">
+                    <ul class="nav_menu">
+                       
+                        <li><a href="/channels/310.html" target="_blank">预披露</a></li>
+                        <li><a href="/channels/479.html" target="_blank">重点项目推荐</a></li>
+                        <li><a href="/channels/295.html" target="_blank">国有产股权</a></li>
+                        <li><a href="/channels/474.html" target="_blank">增资扩股</a></li>
+                        <li><a href="/channels/296.html" target="_blank">招标公告</a></li>
+                        <li><a href="/channels/299.html" target="_blank">公共权益</a></li>
+                        <li><a href="/channels/304.html" target="_blank">实物资产</a></li>
+                        <li><a href="/channels/307.html" target="_blank">招租</a></li>
+                        <li><a href="/channels/308.html" target="_blank">PPP项目</a></li>
+                        <li><a href="/channels/309.html" target="_blank">非国有项目</a></li>
+                        <li><a href="/contents/311/805.html" target="_blank">收费标准</a></li>
+                    </ul>
+                    <div class="cont">
+                        <dl>
+                            <dt><img src="/upload/images/2015/10/814549848.jpg" /></dt>
+                            <dd><a href="javascript:;">交易项目</a></dd>
+                            <dd></dd>
+                        </dl>
+                    </div>
+                </div>
+            </li>
+            <li class="m"><a href="javascript:;">走进阳光</a>
+			 <div class="nav_lv2" style="left:auto; right:0;">
+                    <ul class="nav_menu">
+                        
+                        <li><a href="/contents/313/806.html" target="_blank">交易所简介</a></li>
+                        <li><a href="/contents/314/807.html" target="_blank">组织架构</a></li>
+                        <li><a href="/channels/315.html" target="_blank">企业文化</a></li>
+                        <li><a href="/channels/316.html" target="_blank">人才招聘</a></li>
+                        <li><a href="/contents/317/817.html" target="_blank">联系我们</a></li>
+                        <li><a href="/channels/476.html" target="_blank">贵州产权专家库</a></li>
+                        <li><a href="/channels/318.html" target="_blank">在线咨询</a></li>
+                    </ul>
+                    <div class="cont">
+                        <dl>
+                            <dt><img src="/upload/images/2015/9/25103145339.jpg" /></dt>
+                            <dd><a href="javascript:;">走进阳光</a></dd>
+                            <dd></dd>
+                        </dl>
+                    </div>
+                </div>
+			</li>
+        </ul>
+    </div>
+</div>
+<!--header end-->
+
+		<script>
+			$(document).ready(function() {
+				$(".project_tabs li").click(function() {
+					$(this).addClass("current").siblings().removeClass("current");
+					$(".project_tables .tables_01").eq($(".project_tabs li").index(this)).show().siblings().hide();
+
+				});
+			});
+		</script>
+		<style>
+			<!-- .tables_01 tr:nth-child(even) {
+				background: #ffffff
+			}
+			
+			.tables_01 tr:nth-child(odd) {
+				background: #eefbff
+			}
+			
+			-->
+		</style>
+
+		<div class="banner">
+			<div class="banner_img">
+				<img src="../images/banner_service.jpg">
+			</div>
+			<div class="banner_nav">
+				<div class="banner_nav_bg"></div>
+				<div class="center">
+					<div class="df">
+						<a href="/">首页</a> > <a href="javascript:;">交易项目</a> > <a href="/channels/296.html">招标公告</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="mleft">
+				<h1>招标公告</h1>
+				<div class="project">
+					<ul class="project_tabs">
+						<li class="current">
+							招标公告
+						</li>
+						<li>
+							更正公告
+						</li>
+					</ul>
+					<div class="project_tables">
+						<table class="tables_01" style="display: table;">
+							<tr>
+		                        <th width="20%">项目编号</th>
+		                        <th width="44%">项目名称</th>
+		                        <th width="16%">标书售价</th>
+		                        <th width="10%">报名及购买文件截止时间</th>
+		                        <th width="10%">递交文件及开标截止时间</th>
+								<th class="tw10">点击量</th>
+							</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16520.html">
+											GYZPRE-2018-17-18P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16520.html">
+											黔通卡客户服务外包项目
+										</a>
+									</td>
+									<td>
+										600.00
+									</td>
+									<td align="center">
+										2018.01.16
+									</td>
+									<td align="center">
+										2018.01.30
+									</td>
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16511.html">
+											GYZPRE-2018-6-026P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16511.html">
+											贵州天河潭旅游有限责任公司服务外包项目
+										</a>
+									</td>
+									<td>
+										500.00
+									</td>
+									<td align="center">
+										2018.01.12
+									</td>
+									<td align="center">
+										2018.01.19
+									</td>
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16509.html">
+											GYZPRE-2017-4-588G磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16509.html">
+											贵阳市宏观经济基础数据库项目承建单位采购竞争性磋商公告
+										</a>
+									</td>
+									<td>
+										500.00
+									</td>
+									<td align="center">
+										2018.01.16
+									</td>
+									<td align="center">
+										2018.01.17
+									</td>
+									<td align="center">
+										9
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16486.html">
+											GYZPRE-2017-6-568P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16486.html">
+											政府数据共享交换平台-可视化展示平台项目
+										</a>
+									</td>
+									<td>
+										500.00
+									</td>
+									<td align="center">
+										2018.01.12
+									</td>
+									<td align="center">
+										2018.01.17
+									</td>
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16481.html">
+											GYZPRE-2017-1-573G竞磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16481.html">
+											贵阳市公安局110报警服务台“服务外包”项目
+										</a>
+									</td>
+									<td>
+										500.00
+									</td>
+									<td align="center">
+										2018.01.15
+									</td>
+									<td align="center">
+										2018.01.16
+									</td>
+									<td align="center">
+										9
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16476.html">
+											GYZPRE-2017-6-491P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16476.html">
+											天河潭风景区停车场新能源汽车充电设备建设项目（二次）
+										</a>
+									</td>
+									<td>
+										500.00
+									</td>
+									<td align="center">
+										2018.01.10
+									</td>
+									<td align="center">
+										2018.01.15
+									</td>
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16475.html">
+											GYZPRE-2017-6-590P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16475.html">
+											天河潭旅游综合体招商入围一期综合类别增补（第二轮）项目
+										</a>
+									</td>
+									<td>
+										0.00
+									</td>
+									<td align="center">
+										2018.01.12
+									</td>
+									<td align="center">
+										2018.01.15
+									</td>
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16462.html">
+											GYZPRE-2018-6-006P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16462.html">
+											贵阳工商投资控股有限公司办公室装修实施服务单位采购项目
+										</a>
+									</td>
+									<td>
+										500.00
+									</td>
+									<td align="center">
+										2018.01.09
+									</td>
+									<td align="center">
+										2018.01.12
+									</td>
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16460.html">
+											GYZPRE-2017-3-538P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16460.html">
+											鱼简河水利工程竣工环境保护验收调查单位招标
+										</a>
+									</td>
+									<td>
+										600.00
+									</td>
+									<td align="center">
+										2018.01.09
+									</td>
+									<td align="center">
+										2018.01.15
+									</td>
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/297/16459.html">
+											GYZPRE-2017-3-538P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/297/16459.html">
+											鱼简河水利工程竣工环境保护验收调查单位招标
+										</a>
+									</td>
+									<td>
+										600.00
+									</td>
+									<td align="center">
+										2018.01.09
+									</td>
+									<td align="center">
+										2018.01.15
+									</td>
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+						</table>
+						<table class="tables_01">
+							<tr>
+		                        <th width="20%">项目编号</th>
+		                        <th width="44%">项目名称</th>
+		                        <th width="16%">更正时间</th>
+		                        <!--<th width="10%">报名及购买文件截止时间</th>
+		                        <th width="10%">递交文件及开标截止时间</th>-->
+								<th class="tw10">点击量</th>
+							</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/16501.html">
+											GYZPRE-2017-6-568P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/16501.html">
+											政府数据共享交换平台-可视化展示平台项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/16488.html">
+											GYZPRE-2017-6-570P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/16488.html">
+											贵阳旅文旅游产业发展股份有限公司专项法律服务项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/16409.html">
+											GYZPRE-2017-2-534P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/16409.html">
+											原材料供应商年度入围采购
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										11
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/16356.html">
+											GYZPRE--2017-2-536-P磋（F06）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/16356.html">
+											企业债提前赎回承办服务商采购
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										9
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/16189.html">
+											GYZPRE-2017-17-480P谈（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/16189.html">
+											贵阳市2014年城市棚户区改造项目(二期)--南明区见龙洞路127          号地块改造项目弱电设计
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										7
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/16188.html">
+											GYZPRE-2017-17-478P谈（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/16188.html">
+											贵阳市2014年城市棚户区改造项目(二期)--南明区见龙洞路127 号地块改造项目供电设计
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/16157.html">
+											GYZPRE-2017-6-507P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/16157.html">
+											年度车身广告媒体使用权项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/16031.html">
+											GYZPRE-2017-12-439P公（A99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/16031.html">
+											贵阳银行“数谷e贷”营销礼品招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										13
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/16029.html">
+											GYZPRE-2017-12-397P竞磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/16029.html">
+											贵阳农商银行人力资源管理系统建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/15980.html">
+											GYZPRE-2017-12-207P公（C99）/第二次
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/15980.html">
+											贵阳农村商业银行网点装修造价咨询单位服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/12918.html">
+											GYZPRE-2017-6-219G公（C99）/品目六/自行采购
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/12918.html">
+											聘请中介机构开展贵阳市属十三家平台公司资产评估工作采购项目（品目六：综合服务F包）
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10833.html">
+											GYZPRE-2017-12-375P竞磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10833.html">
+											贵阳农商银行互联网信贷系统建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										12
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10832.html">
+											GYZPRE-2017-12-376P竞磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10832.html">
+											贵阳农商银行信贷管理及征信报送系统建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										13
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10815.html">
+											GYZPRE-2017-12-439P公（A99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10815.html">
+											贵阳银行“数谷e贷”营销礼品招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										31
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10811.html">
+											GYZPRE-2017-6-399P单（C99)
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10811.html">
+											朵芳阁桃源河酒店贵阳市中心城区电梯广告宣传项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10798.html">
+											GYZPRE-2017-6-277P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10798.html">
+											贵州省天河潭景区创国家AAAAA级旅游景区品牌建设——旅游IP服务体系服务项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10789.html">
+											GYZPRE-2107-6-391P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10789.html">
+											外景观年度供应商服务资格采购项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10774.html">
+											GYZPRE-2017-12-439P公（A99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10774.html">
+											贵阳银行“数谷e贷”营销礼品招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										20
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10769.html">
+											GYZPRE-2017-12-204P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10769.html">
+											贵阳农村商业银行网点装修设计单位服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10768.html">
+											GYZPRE-2017-12-207P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10768.html">
+											贵阳农村商业银行网点装修造价咨询单位服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10767.html">
+											GYZPRE-2017-12-205P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10767.html">
+											贵阳农村商业银行网点装修施工单位服务资格入围招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10766.html">
+											GYZPRE-2017-12-203P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10766.html">
+											贵阳农村商业银行网点装修监理单位服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10765.html">
+											GYZPRE-2017-12-209P公（A99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10765.html">
+											贵阳农村商业银行网点所需办公家具供货及安装服务资格入围招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10764.html">
+											GYZPRE-2017-12-210P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10764.html">
+											贵阳农商银行公务用车定点维修/保养服务资格入围招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10698.html">
+											GYZPRE-2017-12-410P询价（A99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10698.html">
+											贵阳银行“读书荐书评书”活动图书采购项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10653.html">
+											GYPRE-2017-7-351 P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10653.html">
+											贵阳银行核心业务系统国产密码算法应用改造项目（二次）
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										8
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10645.html">
+											GYZPRE-2017-12-376P竞磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10645.html">
+											贵阳农商银行信贷管理及征信报送系统建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										7
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10644.html">
+											GYZPRE-2017-12-375P竞磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10644.html">
+											贵阳农商银行互联网信贷系统建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10631.html">
+											GYZPRE-2017-3-179P公（A99）/竞磋/竞谈
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10631.html">
+											贵阳北控水务有限责任公司所需物资设备采购项目--配电系统和自控系统类
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										12
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10596.html">
+											GYZPRE-2017-6-333P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10596.html">
+											桃源河摆渡车租赁项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/10595.html">
+											GYZPRE-2017-1-220P公（C99)/三次
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/10595.html">
+											贵州虹祥房地产开发有限公司项目全程营销服务代理项目(三次招标）
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9585.html">
+											GYZPRE-2017-6-333P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9585.html">
+											桃源河摆渡车租赁项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9407.html">
+											GYZPRE-2017-12-207P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9407.html">
+											贵阳农村商业银行网点装修造价咨询单位服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										7
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9406.html">
+											GYZPRE-2017-12-210P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9406.html">
+											贵阳农商银行公务用车定点维修/保养服务资格入围招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9405.html">
+											GYZPRE-2017-12-209P公（A99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9405.html">
+											贵阳农村商业银行网点所需办公家具供货及安装服务资格入围招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9404.html">
+											GYZPRE-2017-12-204P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9404.html">
+											贵阳农村商业银行网点装修设计单位服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9403.html">
+											GYZPRE-2017-12-203P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9403.html">
+											贵阳农村商业银行网点装修监理单位服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9396.html">
+											GYZPRE-2017-12-207P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9396.html">
+											贵阳农村商业银行网点装修造价咨询单位服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9395.html">
+											GYZPRE-2017-12-210P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9395.html">
+											贵阳农商银行公务用车定点维修/保养服务资格入围招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9394.html">
+											GYZPRE-2017-12-209P公（A99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9394.html">
+											贵阳农村商业银行网点所需办公家具供货及安装服务资格入围招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9391.html">
+											GYZPRE-2017-12-204P公（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9391.html">
+											贵阳农村商业银行网点装修设计单位服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9260.html">
+											GYZPRE-2017-6-356P磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9260.html">
+											工作服供货商年度服务资格采购项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										10
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9255.html">
+											GYZPRE-2017-6-344P谈（A99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9255.html">
+											归宗村安装太阳能高杆路灯扶贫项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9225.html">
+											GYZPRE-2017-9-288P竞磋（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9225.html">
+											贵阳银行证照代办公司服务资格采购
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/9178.html">
+											GYZPRE-2017-6-332P谈（A99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/9178.html">
+											白云区沙文镇保障性住房二次加压自来水项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/8972.html">
+											GYZPRE-2017-9-316P谈（C99）
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/8972.html">
+											贵阳市总工会职工服务中心装修项目监理单位采购
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/7489.html">
+											GYZPRE-2017-2-144P磋&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/7489.html">
+											&#12298;贵阳市基础设施建设投资基金项目采购&#12299;竞争性磋商文件更正&#12289;修改及补充通知&#65288;二次&#65289;
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										17
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/6410.html">
+											GYZPRE-2017-3-179P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/6410.html">
+											贵阳北控水务有限责任公司所需物资设备采购项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										32
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/6395.html">
+											GYZPRE-2017-2-144P磋&#65288;C99&#65289; 
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/6395.html">
+											“2017数博会”会议定点场所补充采购竞争性磋商更正公告&#13;&#10;
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										13
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/6205.html">
+											
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/6205.html">
+											贵阳窦官服务外包及呼叫中心综合产业园职工食堂经营服务采购变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										39
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/5122.html">
+											GYZPRE-2017-1-146P竞磋&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/5122.html">
+											京筑合作成果展示宣传片制作项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										38
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/5119.html">
+											GYZPRE-2017-5-119 P 单 &#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/5119.html">
+											CFCA数字证书采购项目单一来源公示更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										7
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/5025.html">
+											GYZPRE-2016-12-549P公&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/5025.html">
+											2017-2018年度快递服务资格招标项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4968.html">
+											GYZPRE-2016-3-203P公&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4968.html">
+											石阡佛顶山温泉小镇二期设计&#40;二次招标&#41;
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										10
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4670.html">
+											GYZPRE-2017-11-32P公&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4670.html">
+											企业服务总线系统建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										10
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4648.html">
+											GYZPRE-2016-6-586P磋&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4648.html">
+											通信工程设计服务商年度入围采购项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4639.html">
+											GYZPRE-2016-6-588P磋&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4639.html">
+											通信工程和土建工程结算审计服务商年度入围采购项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										19
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4569.html">
+											GYZPRE-2016-9-609P公&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4569.html">
+											贵阳银行2017-2019年度工程建设项目招标代理机构服务资格
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										14
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4495.html">
+											GYZPRE-2017-1-007P公&#65288;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4495.html">
+											贵州财经大学花溪校区学术交流中心合作经营项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										10
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4349.html">
+											GYZPRE-2016-4-616G公&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4349.html">
+											贵阳市轨道交通2号线一期工程施工图设计文件机电部份审查项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										7
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4341.html">
+											GYZPRE-2017-11-16P公&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4341.html">
+											大总账系统建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										11
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4307.html">
+											GYZPRE-2017-9-015P磋&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4307.html">
+											贵阳农村商业银行互联网核心业务系统项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										27
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4269.html">
+											GYZPRE-2016-11-467P公&#65288;C99&#65289;/第二次
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4269.html">
+											贵阳银行数谷咖啡银行服务外包项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										11
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/4032.html">
+											GYZPRE-2016-7-554G磋&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/4032.html">
+											贵阳市财政局“数据铁笼”项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3983.html">
+											GYZPRE-2016-11-450P磋&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3983.html">
+											2017-2019年度印刷品供货服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3972.html">
+											GYZPRE-2016-5-577 P 磋&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3972.html">
+											银行卡线上使用环境调研与评估项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3828.html">
+											GYZPRE-2016-9-563P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3828.html">
+											贵阳银行数谷咖啡银行网点装修工程项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3792.html">
+											GYZPRE-2016-12-573P公&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3792.html">
+											贵阳水务集团水务大数据运营中心基础平台建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										21
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3660.html">
+											YGCQ-GGQY-201621&#40;磋&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3660.html">
+											贵大南苑幼儿园招租项目 更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										27
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3578.html">
+											GYZPRE-2016-11-100P公&#65288;C99&#65289;/转竞争性磋商
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3578.html">
+											贵阳人力资源网信息网络二期系统建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3544.html">
+											GYZPRE-2016-11-467P公&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3544.html">
+											贵阳银行数谷咖啡银行服务外包项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3284.html">
+											GYZPRE-2016-2-386G磋&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3284.html">
+											贵阳市“大数据民生”工程服务项目项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										18
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3253.html">
+											GYZPRE-2016-2-386G磋&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3253.html">
+											贵阳市“大数据民生”工程服务项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										8
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3148.html">
+											GYZPRE-2016-11-344P谈&#65288;A99&#65289;/第二次
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3148.html">
+											自助机具防护舱供货商采购项目&#65288;二次&#65289;
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										9
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3031.html">
+											GYZPRE-2016-9-411G磋&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3031.html">
+											电子政务云平台&#65288;一期&#65289;项目采购
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										7
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/3020.html">
+											GYZPRE-2016-11-156P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/3020.html">
+											助农MPOS&#12289;云平台商户MPOS终端招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										17
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2945.html">
+											GYZPRE-2016-3-306G谈&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2945.html">
+											贵阳市窦官公租房建设弱电设备采购及安装项目项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2915.html">
+											GYZPRE-2016-11-378P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2915.html">
+											贵阳银行台式纸币清分机招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										27
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2913.html">
+											GYZPRE-2016-11-377P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2913.html">
+											贵阳银行A类点钞机供货服务资格招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										11
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2902.html">
+											GYZPRE-2016-8-208P公&#65288;B99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2902.html">
+											贵大南苑住宅小区供水工程
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										13
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2890.html">
+											GYZPRE-2016-11-100P公&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2890.html">
+											贵阳人力资源网信息网络二期系统建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										7
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2811.html">
+											GYZPRE-2016-11-279P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2811.html">
+											贵阳银行数据平台&#40;一期&#41;生产环境硬件设备招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										20
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2809.html">
+											GYZPRE-2016-11-156P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2809.html">
+											助农MPOS&#12289;云平台商户MPOS终端招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										21
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2716.html">
+											GYZPRE-2016-6-370P磋&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2716.html">
+											天河潭旅游综合体招商入围项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										7
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2683.html">
+											GYZPRE-2016-7-286G公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2683.html">
+											&#65288;2016-T207&#65289;教学仪器设备采购&#65288;专业实验室三&#65289;
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										12
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2396.html">
+											GYZPRE-2016-2-304G谈&#65288;C06&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2396.html">
+											生态文明贵阳国际论坛2016年年会接待服务大中型车辆保障服务采购
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										19
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2395.html">
+											GYZPRE-2016-2-233G磋&#65288;C10&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2395.html">
+											2016年生态文明贵阳国际论坛接待服务采购
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2394.html">
+											GYZPRE-2016-1-260P公&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2394.html">
+											贵阳云联实业有限公司所需钢材&#12289;水泥&#12289;砂&#12289;石&#12289;管材等原材料供应企业入围项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										9
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2392.html">
+											GYZPRE-2016-12-280P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2392.html">
+											贵阳银行2016-2017年度分支行UPS电源及发电机设备供货入围招标项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2283.html">
+											GYZPRE-2016-7-215公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2283.html">
+											&#65288;2016&#65289;教学仪器设备采购&#65288;一&#65289;
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2190.html">
+											GYZPRE-2016-11-271P磋&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2190.html">
+											贵阳银行农村金融服务站建设所需保险柜采购项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2189.html">
+											GYZPRE-2016-11-270P磋&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2189.html">
+											&#12298;贵阳银行农村金融服务站建设所需A类点钞机采购项目&#12299;更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2175.html">
+											GYZPRE-2016-12-137P公&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2175.html">
+											&#12298;贵阳银行信用卡录入外包服务项目&#12299;更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2104.html">
+											GYZPRE-2016-12-247P竞磋&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2104.html">
+											华夏银行贵阳分行所需排队机及利率屏设备采购及安装项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2079.html">
+											GYZPRE-2016-12-137P公&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2079.html">
+											贵阳银行信用卡录入外包服务项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2068.html">
+											GYZPRE-2016-12-167P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2068.html">
+											贵阳银行手机动态令牌采购项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2067.html">
+											GYZPRE-2016-12-166P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2067.html">
+											贵阳银行网银UKEY采购项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/2026.html">
+											原采购项目编号&#65306;GYZPRE-2016-3-254P竞磋&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/2026.html">
+											办公家具采购项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1970.html">
+											GYZPRE-2016-11-078P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1970.html">
+											贵阳银行县域支行业务用车招标项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1968.html">
+											GYZPRE-2016-11-130P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1968.html">
+											&#12298;贵阳银行搭建BBD喀斯特数据平台所需物资招标项目&#12299;更正公告&#13;&#10;
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1967.html">
+											GYZPRE-2016-11-131P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1967.html">
+											贵阳银行理财平台负载均衡升级改造项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1966.html">
+											GYZPRE-2016-11-132P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1966.html">
+											贵阳银行核心系统新备份平台招标项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1965.html">
+											GYZPRE-2016-12-205P公&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1965.html">
+											&#12298;贵阳银行2016年度网点综合布线施工服务资格招标项目&#12299;更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1953.html">
+											GYZPRE-2016-11-078P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1953.html">
+											贵阳银行县域支行业务用车招标项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1951.html">
+											GYZPRE-2016-1-027G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1951.html">
+											贵阳市三江强制隔离戒毒所心理矫治中心物资采购项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1925.html">
+											GYZPRE-2016-1-097G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1925.html">
+											南明中坝保障性住房建设项目正式用水设备采购及安装项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1916.html">
+											GYZPRE-2016-11-078P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1916.html">
+											贵阳银行县域支行业务用车招标项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1914.html">
+											GYZPRE-2016-2-190G磋&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1914.html">
+											中国大数据产业峰会暨中国电子商务创新发展峰会社会宣传及氛围营造服务采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1830.html">
+											GYZPRE-2016-2-095G公&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1830.html">
+											2016数博会主现场运营及搭建项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1736.html">
+											GYZPRE-2016-11-074P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1736.html">
+											贵阳银行网点装修监理单位服务资格入围招标项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										7
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1735.html">
+											GYZPRE-2016-11-057P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1735.html">
+											贵阳银行网点装修施工单位服务资格入围招标项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										11
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1734.html">
+											GYZPRE-2016-11-058P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1734.html">
+											贵阳银行网点装修设计单位服务资格入围招标项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1718.html">
+											GYZPRE-2016-11-058P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1718.html">
+											&#12298;贵阳银行网点装修设计单位服务资格入围招标项目&#12299;更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										28
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1713.html">
+											GYZPRE-2016-1-042G竞磋&#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1713.html">
+											生态云暨信息化建设规划编制采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										9
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1662.html">
+											GYZPRE-2016-11-038P公&#40;A99&#41;/二次
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1662.html">
+											&#12298;贵阳银行市内LED大屏幕刊登爽得宝营销广告项目&#12299;更 正 公 告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										11
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1606.html">
+											GYZPRE-2016-11-019P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1606.html">
+											&#12298;贵阳银行网络投放&#65288;爽得宝&#65289;产品营销广告招标项目&#12299;更 正 公 告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										26
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1548.html">
+											GYZPRE-2016-11-046P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1548.html">
+											&#12298;贵阳银行图形终端硬件设备招标项目&#12299;更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										12
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1514.html">
+											GYZPRE-2016-11-037P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1514.html">
+											&#12298;贵阳银行省交广台投放爽得宝营销广告项目&#12299;更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1507.html">
+											GYZPRE-2016-11-009P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1507.html">
+											&#12298;贵阳银行自助设备&#65288;自助终端&#12289;发卡机&#12289;网银体验机&#65289;2016年度供货服务资格招标项目&#12299;更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										13
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1472.html">
+											GYZPRE-2016-3-12-P磋 &#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1472.html">
+											爱书山房客栈酒店客房用品采购更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1451.html">
+											GYZPRE-2016-1-13P竞磋&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1451.html">
+											贵阳市总工会职工服务中心装修设计服务采购项目竞争性磋商更正公告&#13;&#10;
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1422.html">
+											GYZPRE-2015-1-389G谈&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1422.html">
+											贵阳市新庄保障性住房有线电视新建项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1418.html">
+											GYZPRE-2016-7-007 G谈&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1418.html">
+											贵阳市杨惠保障性住房建设弱电设备采购及安装项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1417.html">
+											GYZPRE-2016-7-008G谈&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1417.html">
+											贵阳市中坝保障性住房建设弱电设备采购及安装项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1366.html">
+											GYZPRE-2015-6-397G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1366.html">
+											贵阳市南明区食品工业园保障性住房正式用电所需设备及安装采购项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1365.html">
+											GYZPRE-2015-6-399G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1365.html">
+											贵阳市白云区同心路保障性住房正式用电所需设备及安装采购项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1306.html">
+											GYZPRE&#8212;2015&#8212;2&#8212;381P公&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1306.html">
+											工程竣工结算造价审计和财务决算审计中介机构采购招标公告更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										9
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1305.html">
+											GYZPRE-2015-11-350P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1305.html">
+											&#12298;贵阳银行白云灾备机房建设配套设施采购&#12289;安装项目&#12299;更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1279.html">
+											GYZPRE-2015-11-265P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1279.html">
+											&#12298;贵阳银行排队机采购项目招标文件&#12299;更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										13
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1278.html">
+											GYZPRE-2015-12-380G谈&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1278.html">
+											贵州黔鹰5708铝箔厂国有工矿棚户区给水设备采购及安装项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1181.html">
+											GYZPRE-2015-9-306G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1181.html">
+											贵阳市公安交通管理局所需检验鉴定仪器设备采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1168.html">
+											GYZPRE&#8212;2015&#8212;3&#8212;337G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1168.html">
+											高清平台建设项目&#65288;二期&#65289;&#65293;&#65293;制作网媒资全媒体扩容项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1085.html">
+											GYZPRE-2015-13-356P谈&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1085.html">
+											花溪区碧云窝水厂取水泵房节能改造工程项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1071.html">
+											GYZPRE-2015-6-051G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1071.html">
+											贵阳市南明区中坝保障性住房排水设备及安装采购项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1056.html">
+											GYZPRE&#8212;2015&#8212;3&#8212;281G谈&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1056.html">
+											高清电视平台193平米演播室网架结构采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1018.html">
+											GYZPRE-2015-11-202P谈&#40;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1018.html">
+											贵阳银行营业网点宣传海报屏年度供货服务资格采购项目更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										5
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1009.html">
+											GYZPRE&#8212;2015&#8212;3&#8212;305G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1009.html">
+											高清平台建设项目&#65288;二期&#65289;&#65293;&#65293;400平米演播厅设备&#12289;灯光舞美项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1003.html">
+											GYZPRE&#8212;2015&#8212;2&#8212;298G公&#40;A1015&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1003.html">
+											贵阳市公安交通管理局 “公安交通管理业务排队叫号及服务管理系统”二期项目采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/1000.html">
+											GYZPRE-2015-11-245G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/1000.html">
+											贵阳市三江强制隔离戒毒所办公楼&#12289;围墙及绿化景观综合项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/999.html">
+											GYZPRE-2015-2-257G公&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/999.html">
+											2016年度贵阳市党政机关&#12289;事业单位政府采购竞价平台入库供应商采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/992.html">
+											GYZPRE-2015-11-321P谈&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/992.html">
+											&#12298;贵阳银行云岩区社会保障服务中心场地设施建设所需设备安装采购项目&#12299;更正公告&#13;&#10;
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										4
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/763.html">
+											GYZPRE-2015-3-264P公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/763.html">
+											常用物资年度供应商招标采购更正公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										12
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/762.html">
+											GYZPRE&#8212;2015&#8212;3&#8212;281G谈&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/762.html">
+											高清电视平台193平米演播室网架结构采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/761.html">
+											GYZPRE-2015-7-283-G磋 &#65288;C99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/761.html">
+											贵阳市公益性生鲜超市项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/760.html">
+											GYZPRE-2015-6-252P谈&#65288;A99&#65289;GSH
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/760.html">
+											干部人事档案信息硬件设备采购项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										3
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/759.html">
+											GYZPRE-2015-3-264P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/759.html">
+											常用物资年度供应商招标采购
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/758.html">
+											GYZPRE-2015-12-262P谈&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/758.html">
+											贵阳市科技金融投资有限公司所需&#8220;贵阳市城市发展基金&#8221;优先级份额供应商采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/757.html">
+											GYZPRE-2015-6-253G公&#40;A99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/757.html">
+											贵阳市政务服务大厅2015年10月-2016年12月办公设备耗材采购项目项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/756.html">
+											GYZPRE-2015-2-148P公&#40;C99&#41;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/756.html">
+											贵阳市生产安全云&#65288;&#8220;智慧安监&#8221;平台&#65289;采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/755.html">
+											GYZPRE&#8212;2015&#8212;3&#8212;220G公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/755.html">
+											高清平台建设项目&#65288;二期&#65289;&#65293;&#65293;广告公司制作网及设备项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										1
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/754.html">
+											GYZPRE-2015-3-264P公&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/754.html">
+											常用物资年度供应商招标采购
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/753.html">
+											GYZPRE-2015-1-249P谈&#65288;A99&#65289;
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/753.html">
+											新型公寓电器设备采购项目变更公告
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										2
+									</td>
+								</tr>
+							
+								<tr>
+									<td>
+										<a href="/contents/298/752.html">
+											GYZPRE-2015-3-167P公(A99)
+										</a>
+									</td>
+									<td class="name">
+										<a href="/contents/298/752.html">
+											贵州民族大学教师公租房建设有线电视建设项目
+										</a>
+									</td>
+									<!--<td>
+										
+									</td>-->
+									<td align="center">
+										
+									</td>
+									<!--<td align="">
+										
+									</td>-->
+									<td align="center">
+										6
+									</td>
+								</tr>
+							
+						</table>
+					</div>
+					
+						<table cellpadding="0" width="90%" cellspacing="0" height="40" align="center">
+							<tr>
+								<td align="left" class="dp">
+									首页&nbsp;|&nbsp;
+									上一页&nbsp;|&nbsp;
+									<a href="/channels/296_2.html">下一页</a>&nbsp;|&nbsp;
+									<a href="/channels/296_115.html">末页</a>
+								</td>
+								<td align="right">
+									当前页：1/
+									115&nbsp;&nbsp;
+									<a href='javascript:void(0);'>[1]</a>&nbsp;<a href="/channels/296_2.html">[2]</a>&nbsp;<a href="/channels/296_3.html">[3]</a>&nbsp;<a href="/channels/296_4.html">[4]</a>&nbsp;<a href="/channels/296_5.html">[5]</a>&nbsp;<a href="/channels/296_6.html">[6]</a>&nbsp;<a href="/channels/296_7.html">[7]</a>&nbsp;<a href="/channels/296_8.html">[8]</a>&nbsp;<a href="/channels/296_9.html">[9]</a>&nbsp;<a href="/channels/296_10.html" >...</a>&nbsp;&nbsp;
+									<script language="JavaScript">function PageSelect_1_jumpMenu(targ,selObj,restore){eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");if (restore) selObj.selectedIndex=0;}</script><select name="PageSelect_1" id="PageSelect_1" onChange="PageSelect_1_jumpMenu(&#39;self&#39;,this,0)">
+	<option selected="selected" value="">1</option>
+	<option value="/channels/296_2.html">2</option>
+	<option value="/channels/296_3.html">3</option>
+	<option value="/channels/296_4.html">4</option>
+	<option value="/channels/296_5.html">5</option>
+	<option value="/channels/296_6.html">6</option>
+	<option value="/channels/296_7.html">7</option>
+	<option value="/channels/296_8.html">8</option>
+	<option value="/channels/296_9.html">9</option>
+	<option value="/channels/296_10.html">10</option>
+	<option value="/channels/296_11.html">11</option>
+	<option value="/channels/296_12.html">12</option>
+	<option value="/channels/296_13.html">13</option>
+	<option value="/channels/296_14.html">14</option>
+	<option value="/channels/296_15.html">15</option>
+	<option value="/channels/296_16.html">16</option>
+	<option value="/channels/296_17.html">17</option>
+	<option value="/channels/296_18.html">18</option>
+	<option value="/channels/296_19.html">19</option>
+	<option value="/channels/296_20.html">20</option>
+	<option value="/channels/296_21.html">21</option>
+	<option value="/channels/296_22.html">22</option>
+	<option value="/channels/296_23.html">23</option>
+	<option value="/channels/296_24.html">24</option>
+	<option value="/channels/296_25.html">25</option>
+	<option value="/channels/296_26.html">26</option>
+	<option value="/channels/296_27.html">27</option>
+	<option value="/channels/296_28.html">28</option>
+	<option value="/channels/296_29.html">29</option>
+	<option value="/channels/296_30.html">30</option>
+	<option value="/channels/296_31.html">31</option>
+	<option value="/channels/296_32.html">32</option>
+	<option value="/channels/296_33.html">33</option>
+	<option value="/channels/296_34.html">34</option>
+	<option value="/channels/296_35.html">35</option>
+	<option value="/channels/296_36.html">36</option>
+	<option value="/channels/296_37.html">37</option>
+	<option value="/channels/296_38.html">38</option>
+	<option value="/channels/296_39.html">39</option>
+	<option value="/channels/296_40.html">40</option>
+	<option value="/channels/296_41.html">41</option>
+	<option value="/channels/296_42.html">42</option>
+	<option value="/channels/296_43.html">43</option>
+	<option value="/channels/296_44.html">44</option>
+	<option value="/channels/296_45.html">45</option>
+	<option value="/channels/296_46.html">46</option>
+	<option value="/channels/296_47.html">47</option>
+	<option value="/channels/296_48.html">48</option>
+	<option value="/channels/296_49.html">49</option>
+	<option value="/channels/296_50.html">50</option>
+	<option value="/channels/296_51.html">51</option>
+	<option value="/channels/296_52.html">52</option>
+	<option value="/channels/296_53.html">53</option>
+	<option value="/channels/296_54.html">54</option>
+	<option value="/channels/296_55.html">55</option>
+	<option value="/channels/296_56.html">56</option>
+	<option value="/channels/296_57.html">57</option>
+	<option value="/channels/296_58.html">58</option>
+	<option value="/channels/296_59.html">59</option>
+	<option value="/channels/296_60.html">60</option>
+	<option value="/channels/296_61.html">61</option>
+	<option value="/channels/296_62.html">62</option>
+	<option value="/channels/296_63.html">63</option>
+	<option value="/channels/296_64.html">64</option>
+	<option value="/channels/296_65.html">65</option>
+	<option value="/channels/296_66.html">66</option>
+	<option value="/channels/296_67.html">67</option>
+	<option value="/channels/296_68.html">68</option>
+	<option value="/channels/296_69.html">69</option>
+	<option value="/channels/296_70.html">70</option>
+	<option value="/channels/296_71.html">71</option>
+	<option value="/channels/296_72.html">72</option>
+	<option value="/channels/296_73.html">73</option>
+	<option value="/channels/296_74.html">74</option>
+	<option value="/channels/296_75.html">75</option>
+	<option value="/channels/296_76.html">76</option>
+	<option value="/channels/296_77.html">77</option>
+	<option value="/channels/296_78.html">78</option>
+	<option value="/channels/296_79.html">79</option>
+	<option value="/channels/296_80.html">80</option>
+	<option value="/channels/296_81.html">81</option>
+	<option value="/channels/296_82.html">82</option>
+	<option value="/channels/296_83.html">83</option>
+	<option value="/channels/296_84.html">84</option>
+	<option value="/channels/296_85.html">85</option>
+	<option value="/channels/296_86.html">86</option>
+	<option value="/channels/296_87.html">87</option>
+	<option value="/channels/296_88.html">88</option>
+	<option value="/channels/296_89.html">89</option>
+	<option value="/channels/296_90.html">90</option>
+	<option value="/channels/296_91.html">91</option>
+	<option value="/channels/296_92.html">92</option>
+	<option value="/channels/296_93.html">93</option>
+	<option value="/channels/296_94.html">94</option>
+	<option value="/channels/296_95.html">95</option>
+	<option value="/channels/296_96.html">96</option>
+	<option value="/channels/296_97.html">97</option>
+	<option value="/channels/296_98.html">98</option>
+	<option value="/channels/296_99.html">99</option>
+	<option value="/channels/296_100.html">100</option>
+	<option value="/channels/296_101.html">101</option>
+	<option value="/channels/296_102.html">102</option>
+	<option value="/channels/296_103.html">103</option>
+	<option value="/channels/296_104.html">104</option>
+	<option value="/channels/296_105.html">105</option>
+	<option value="/channels/296_106.html">106</option>
+	<option value="/channels/296_107.html">107</option>
+	<option value="/channels/296_108.html">108</option>
+	<option value="/channels/296_109.html">109</option>
+	<option value="/channels/296_110.html">110</option>
+	<option value="/channels/296_111.html">111</option>
+	<option value="/channels/296_112.html">112</option>
+	<option value="/channels/296_113.html">113</option>
+	<option value="/channels/296_114.html">114</option>
+	<option value="/channels/296_115.html">115</option>
+</select>
+								</td>
+							</tr>
+						</table>
+					
+				</div>
+			</div>
+
+			<div class="mright">
+				<div class="navtit">
+					<img src="../images/subnav_project.png">
+				</div>
+				<ul class="subnav">
+					
+						
+								<li>
+									<a href="/channels/310.html">
+										预披露
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/479.html">
+										重点项目推荐
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/295.html">
+										国有产股权
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/474.html">
+										增资扩股
+									</a>
+								</li>
+							
+					
+						
+								<li class="current">
+									<a href="/channels/296.html">
+										招标公告
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/299.html">
+										公共权益
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/304.html">
+										实物资产
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/307.html">
+										招租
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/308.html">
+										PPP项目
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/309.html">
+										非国有项目
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/contents/311/805.html">
+										收费标准
+									</a>
+								</li>
+							
+					
+
+				</ul>
+				<div class="mright_adv">
+				</div>
+			</div>
+		</div>
+		<!--footer start-->
+<div class="footer">
+    <div class="foot-main wrap">
+        <dl>
+            <dt>新闻动态</dt>
+			
+            <dd><a href="/channels/291.html">公司新闻</a></dd>
+            <dd><a href="/channels/292.html">行业新闻</a></dd>
+            <dd><a href="/channels/293.html">其他新闻</a></dd>
+        </dl>
+        <dl>
+            <dt>交易项目</dt>
+            
+            <dd><a href="/channels/310.html">预披露</a></dd>
+            <dd><a href="/channels/479.html">重点项目推荐</a></dd>
+            <dd><a href="/channels/295.html">国有产股权</a></dd>
+            <dd><a href="/channels/474.html">增资扩股</a></dd>
+            <dd><a href="/channels/296.html">招标公告</a></dd>
+            <dd><a href="/channels/299.html">公共权益</a></dd>
+            <dd><a href="/channels/304.html">实物资产</a></dd>
+            <dd><a href="/channels/307.html">招租</a></dd>
+            <dd><a href="/channels/308.html">PPP项目</a></dd>
+            <dd><a href="/channels/309.html">非国有项目</a></dd>
+            <dd><a href="/contents/311/805.html">收费标准</a></dd>
+        </dl>
+        <dl>
+            <dt>走进阳光</dt>
+           
+            <dd><a href="/contents/313/806.html">交易所简介</a></dd>
+            <dd><a href="/contents/314/807.html">组织架构</a></dd>
+            <dd><a href="/channels/315.html">企业文化</a></dd>
+            <dd><a href="/channels/316.html">人才招聘</a></dd>
+            <dd><a href="/contents/317/817.html">联系我们</a></dd>
+            <dd><a href="/channels/476.html">贵州产权专家库</a></dd>
+            <dd><a href="/channels/318.html">在线咨询</a></dd>
+        </dl>
+        <dl>
+            <dt>  微信二维码 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;百度信誉</dt>
+            <dd><img src="/upload/images/2017/3/2016017748.png" /></dd>
+			<dd><a href="/contents/428/937.html" target="_blank">阳光产权微信号&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;百度信誉</a></dd>
+        </dl>
+    </div>
+	</div>
+	<div class="footer_bot">
+	  <span><p><span style="font-family:宋体;font-size:12px;"><span id="_baidu_bookmark_start_1" style="line-height:0px;display:none;">﻿</span></span><span id="_baidu_bookmark_start_3" style="line-height:0px;display:none;">﻿</span>黔ICP备11000915号-1 &nbsp; &nbsp; 版权所有：贵州阳光产权交易所有限公司 &nbsp; 联系电话：0851-86792366<span id="_baidu_bookmark_end_4" style="line-height:0px;display:none;">﻿</span><span id="_baidu_bookmark_end_2" style="line-height:0px;display:none;">﻿</span><br /></p></span>
+	</div>
+<!--footer end-->
+<!--hi3w--><script>document.writeln('<style type="text/css">.arak-link{font-size:0;line-height:0;float:left;text-indent:-9999px}</style>');</script><div class="arak-link"><ul><li><a href="http://www.lvzhima.cn/" target="_blank">成都网站建设</a></li><li><a href="http://www.hi3w.net/" target="_blank">汇网</a></li><li><a href="http://www.jianzhanbao.top/" target="_blank">建站宝</a></li><li><a href="http://www.vip188.cn" target="_blank">vip188邮箱</a></li><li><a href="http://www.vip.tax/" target="_blank">VIP邮箱</a></li><li><a href="http://www.188.tax/" target="_blank">188财富邮</a></li><li><a href="http://www.666.tax/" target="_blank">吉祥邮</a></li><li><a href="http://www.123.tax/" target="_blank">网址导航</a></li><li><a href="http://www.lvzhima.cn/" target="_blank">绿芝麻</a></li></ul></div><!--/hi3w-->
+<div style="display:none"><script src="http://s4.cnzz.com/stat.php?id=1258227366&web_id=1258227366" language="JavaScript"></script></div>
+<script type="text/javascript">
+    $(function(){
+        //banner
+        $("#banner").slide({
+            titCell: ".hd ul",
+            mainCell: ".bd",
+            effect: "leftLoop",
+            autoPlay: true,
+            autoPage: true,
+            trigger: "click"
+        });
+
+        //scroll-news
+        $("#scroll-news").slide({
+            titCell: ".hd ul",
+            mainCell: ".scroll-news-main",
+            effect: "leftLoop",
+            autoPlay: true,
+            autoPage: true,
+            trigger: "click"
+        });
+
+        //stock-tab
+        $("#stock").slide({
+            titCell: ".stock-tab ul li",
+            mainCell: ".stock-list-main",
+            trigger: "click"
+        });
+
+        //item-tab
+        $("#items").slide({
+            titCell: ".item-tab ul li",
+            mainCell: ".item-list-main",
+            trigger: "click"
+        });
+    });
+</script>
+	</body>
+
+</html>
+<script src="/sitefiles/bairong/scripts/independent/tracker.js" type="text/javascript"></script>
+<script type="text/javascript">AddTrackerCount('/sitefiles/services/cms/PageService.aspx?type=AddTrackerCount&publishmentSystemID=289&channelID=296&contentID=0', 289);</script>

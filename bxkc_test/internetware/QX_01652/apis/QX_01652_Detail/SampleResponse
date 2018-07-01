@@ -1,0 +1,1194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>安龙县普坪镇2018年密集烤房项目建设工程邀请合作公告</title>
+	<link type="text/css" rel="stylesheet" href="/images/content_page.css" />
+	<script src="/images/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/images/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="/tools/js/layer.js"></script>
+<script type="text/javascript" src="/images/SetHome.js"></script>
+
+<script type="text/javascript">
+//外链跳转提示
+	$(document).ready(function () {
+		for (var i = 0; i < document.links.length; i++) {
+			var url = document.links[i].href.toLowerCase();
+			if (url.indexOf("http://localhost") == -1 && url.indexOf("www.gzal.gov.cn") == -1&& url.indexOf("http://58.16.66.204:147/")== -1 && url.indexOf("alxzf.bohoog.com") == -1 && url.indexOf("javascript:") == -1 && url != "#" && !document.links[i].onclick) {
+				document.links[i].onclick = function () {
+					return confirm("您即将访问其他站点，是否继续？")
+				};
+			}
+		}
+	});
+</script>
+<script type="text/jscript">
+	//回车键响应方法
+    function entersearch(){
+        var event = window.event || arguments.callee.caller.arguments[0];
+        if (event.keyCode == 13)
+        {
+			var str = document.getElementById("keyword").value;
+            checks(str);//搜索框点击提交的方法
+        }
+    }
+	//检索跳转
+	function searchval() {
+		var str = document.getElementById("keyword").value;
+		checks(str);
+	};
+	function checks(t) {
+		t = t.replace(/(^\s+)|(\s+$)/g, "");
+		if (t == "" || t == "输入您要搜索的内容") {
+			alert('请输入有效内容');
+			return false;
+		}
+		szMsg = "[#_%&'/",
+				";:=!^]";
+		alertStr = "";
+		for (i = 1; i < szMsg.length + 1; i++) {
+			if (t.indexOf(szMsg.substring(i - 1, i)) > -1) {
+				alertStr = "请勿包含非法字符如[#_%&'/",
+						";:=!^]";
+				alert(alertStr);
+				// break;
+				return false;
+			}
+		}
+		var key = document.getElementById("keyword").value;
+		//window.location.href = "/search.html?keyword=" + key;
+		window.open("/search.html?keyword=" + key);
+		return true;
+	}
+</script>
+<script type="text/javascript">
+      function GoTo() {
+          window.open("/syqt/wzjc/index.html?url=" + document.URL+"&title="+encodeURI(document.title));
+      }
+</script>
+	<script type="text/javascript">
+		function fontResizer(smallFont,medFont,largeFont){
+			function clearSelected(){
+				$(".smallFont").removeClass("curFont");
+				$(".medFont").removeClass("curFont");
+				$(".largeFont").removeClass("curFont");
+			}
+			function saveState(curSize){
+				var date = new Date();
+				date.setTime(date.getTime()+(7*24*60*60*1000));
+				var expires = "; expires="+date.toGMTString();
+				document.cookie = "fontSizer"+"="+curSize+expires+"; path=/";
+			}
+		
+			$(".smallFont").click(function(){
+				$('#textBox').css('font-size', smallFont);
+				$('#textBox p').css('font-size', smallFont);
+				$('#textBox span').css('font-size', smallFont);
+				$('#textBox font').css('font-size', smallFont);
+				$('#textBox a').css('font-size', smallFont);
+				clearSelected();
+				$(".smallFont").addClass("curFont");
+				saveState(smallFont);
+			});
+		
+			$(".medFont").click(function(){
+				$('#textBox').css('font-size', medFont);
+				$('#textBox p').css('font-size', medFont);
+				$('#textBox span').css('font-size', medFont);
+				$('#textBox font').css('font-size', medFont);
+				$('#textBox a').css('font-size', medFont);
+				clearSelected();
+				$(".medFont").addClass("curFont");
+				saveState(medFont);
+			});
+		
+			$(".largeFont").click(function(){
+				$('#textBox').css('font-size', largeFont);
+				$('#textBox p').css('font-size', largeFont);
+				$('#textBox span').css('font-size', largeFont);
+				$('#textBox font').css('font-size', largeFont);
+				$('#textBox a').css('font-size', largeFont);
+				$('#textBox').css('line-height','40px');
+				clearSelected();
+				$(".largeFont").addClass("curFont");
+				saveState(largeFont);
+			});
+		
+			function getCookie(c_name){
+				if(document.cookie.length>0){
+					c_start=document.cookie.indexOf(c_name + "=");
+					if (c_start!=-1){
+						c_start=c_start + c_name.length+1;
+						c_end=document.cookie.indexOf(";",c_start); 
+						if(c_end==-1)c_end=document.cookie.length;
+						return unescape(document.cookie.substring(c_start,c_end));
+					}
+				} 
+				return "";
+			}
+		
+			var savedSize = getCookie('fontSizer');
+		
+			if(savedSize!=""){
+				$('#textBox').css('font-size', savedSize);
+				switch(savedSize){
+					case smallFont: $(".smallFont").addClass("curFont");
+					break;
+					case medFont: $(".medFont").addClass("curFont");
+					break;
+					case largeFont: $(".largeFont").addClass("curFont");
+					break;
+					default: $(".medFont").addClass("curFont");
+				}
+			}else {
+				$('#textBox').css('font-size', medFont);
+				$(".medFont").addClass("curFont");
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			fontResizer('12px','16px','20px');
+		});
+	</script>
+</head>
+
+<body>
+	<div class="top">
+			<!--顶部-->
+			<div class="db">
+				<dl>
+					<dt>
+						<ul>
+							<li><i></i><a href="http://www.gov.cn/" target="_blank">中央人民政府</a></li>
+							<li><i></i><a href="http://www.gzgov.gov.cn/" target="_blank">贵州省人民政府</a></li>
+							<li><i></i><a href="http://www.qxn.gov.cn/" target="_blank">黔西南州人民政府</a></li>
+						</ul>
+					</dt>
+					<dd>
+						<a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a>|<a style="margin-right: 5px;" href="javascript:void(0)" onclick="AddFavorite(window.location,document.title)">加入收藏</a>					
+					</dd>
+				</dl>
+			</div>	
+			<!--logo、检索、焦点图-->
+			<div class="ljj">
+				<!--logo-->
+				<div class="logo">
+					<a href="">
+						<embed src="/images/2.swf" quality="high" loop="true" wmode="transparent" width="395">	
+					</a>
+				</div>
+				<!--检索、焦点图-->
+				<div class="jsjd">
+					<!--检索-->
+					<div class="js">
+						<div class="Search_box">							
+							<input class="input_box" value="请输入关键字搜索" id="keyword" onblur="if(this.value==''){this.value='请输入关键字搜索';}" onfocus="javascript:if(this.value=='请输入关键字搜索')this.value='';" />
+				<a href="javascript:;" onClick="searchval()" name="j_search_btn" id="j_search_btn"></a>							
+						</div>
+			            <ul>            	
+			            	<li><span> 搜索热词：</span></li>                
+							
+	
+		<li>								
+				<a style="background: #489046;" href="/search.html?keyword=户口迁移" title="户口迁移" target="_blank">
+					<span class="keyWord1" style="background:none;cursor:pointer;color: #ffffff;font-weight: bold;">户口迁移</span>
+				</a>
+		</li>
+		
+
+		<li>
+			<a href="/search.html?keyword=补办身份证" title="补办身份证" target="_blank">
+				<span class="keyWord2" style="background:none;cursor:pointer;">补办身份证</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="/search.html?keyword=住房公积金" title="住房公积金" target="_blank">
+				<span class="keyWord3" style="background:none;cursor:pointer;">住房公积金</span>
+			</a>
+		</li>
+	
+ 	
+			            </ul>
+					</div>
+					<!--焦点图-->
+					<div class="jdt">								
+						<div class="pic">
+							<ul>
+								
+   <li>
+	
+				<!--
+			
+			
+				
+					<a TARGET="_blank" title="焦点图3" href="http://www.gzal.gov.cn/syqt/tbjdt/201708/t20170808_2601393.html">
+				
+			-->
+<a title="焦点图3">
+		
+			
+				<img src="/material/20170808/W020170808632197876983.png" />
+			
+		
+		</a>	 
+  </li>
+
+   <li>
+	
+				<!--
+			
+			
+				
+					<a TARGET="_blank" title="焦点图2" href="http://www.gzal.gov.cn/syqt/tbjdt/201708/t20170808_2601392.html">
+				
+			-->
+<a title="焦点图2">
+		
+			
+				<img src="/material/20170808/W020170808633337630674.png" />
+			
+		
+		</a>	 
+  </li>
+
+   <li>
+	
+				<!--
+			
+			
+				
+					<a TARGET="_blank" title="焦点图1" href="http://www.gzal.gov.cn/syqt/tbjdt/201708/t20170803_2598784.html">
+				
+			-->
+<a title="焦点图1">
+		
+			
+				<img src="/material/20170803/W020170803562597511526.png" />
+			
+		
+		</a>	 
+  </li>
+ 	
+							</ul>
+						</div>								
+					</div>
+					<script type="text/javascript">
+						jQuery(".jdt").slide({mainCell:".pic ul",autoPlay:true,effect:"fold"});
+					</script>
+					
+				</div>
+			</div>
+			<!--eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-->			
+			<!--今日头条、天气-->
+			<div class="tttq">
+				<div class="jrtt">
+					<dl>
+				    <dt><a href="http://www.gzal.gov.cn/xwzx/jrtt/"><img src="/images/tt.png" width="146px" height="60px" /></a></dt>
+				    <dd>
+				      <ul>
+				       
+	<li>		
+			
+				
+			
+			
+				
+					<a TARGET="_blank" title="安龙蘑菇小镇安置房项目已完成进度75%" href="http://www.gzal.gov.cn/xwzx/jrtt/201803/t20180308_3002542.html">
+				
+					
+		安龙蘑菇小镇安置房项目已完成进度75%
+		</a>		
+	</li>
+
+	<li>		
+			
+				
+			
+			
+				
+					<a TARGET="_blank" title="安龙县举行2018年东西部协作转移就业专场招聘会" href="http://www.gzal.gov.cn/xwzx/jrtt/201803/t20180308_3002540.html">
+				
+					
+		安龙县举行2018年东西部协作转移就业专场招聘会
+		</a>		
+	</li>
+
+	<li>		
+			
+				
+			
+			
+				
+					<a TARGET="_blank" title="贵州省“万名农业专家服务‘三农’行动”安龙县服务团座谈会举行" href="http://www.gzal.gov.cn/xwzx/jrtt/201803/t20180308_3002538.html">
+				
+					
+		贵州省“万名农业专家服务‘三农’行动”安龙...
+		</a>		
+	</li>
+
+	<li>		
+			
+				
+			
+			
+				
+					<a TARGET="_blank" title="安龙县召开2018年外出务工人员返乡就业创业座谈会" href="http://www.gzal.gov.cn/xwzx/jrtt/201802/t20180223_2996451.html">
+				
+					
+		安龙县召开2018年外出务工人员返乡就业创业座谈会
+		</a>		
+	</li>
+
+	<li>		
+			
+				
+			
+			
+				
+					<a TARGET="_blank" title="新春座谈会激发外出务工人员返乡创业的内生动力" href="http://www.gzal.gov.cn/xwzx/jrtt/201802/t20180223_2996450.html">
+				
+					
+		新春座谈会激发外出务工人员返乡创业的内生动力
+		</a>		
+	</li>
+
+	<li>		
+			
+				
+			
+			
+				
+					<a TARGET="_blank" title="安龙县举办民族民间武术暨健身气功比赛庆新春" href="http://www.gzal.gov.cn/xwzx/jrtt/201802/t20180223_2996449.html">
+				
+					
+		安龙县举办民族民间武术暨健身气功比赛庆新春
+		</a>		
+	</li>
+ 				       
+				      </ul>
+				    </dd>
+				  </dl>
+				</div>
+				<script type="text/javascript">
+        		jQuery(".jrtt").slide({mainCell:"dd ul",autoPage:true,effect:"top",autoPlay:true,vis:1});
+        	</script> 
+				<div class="tq">
+					<iframe src="//www.seniverse.com/weather/weather.aspx?uid=U8B50DD739&cid=CHGZ080500&l=zh-CHS&p=SMART&a=0&u=C&s=4&m=0&x=1&d=0&fc=&bgc=&bc=&ti=0&in=0&li=" frameborder="0" scrolling="no"  allowTransparency="true" style="margin-top: 15px;margin-left: 102px;width: 300px;height: 40px;
+"></iframe>
+				</div>
+			</div>
+		</div>		
+		<div class="nr">
+			<div class="ynav">
+				<div class="hd">
+					<ul>
+						<li style="margin-left: 4px !important;"><a href="/"><i class="icon01"></i><p class="one">首页</p></a></li>
+						<li><a href="http://www.gzal.gov.cn/xwzx/"><i class="icon02"></i><p>新闻中心</p></a></li>
+						<li><a href="http://www.gzal.gov.cn/zwgk/"><i class="icon03"></i><p>政务公开</p></a></li>
+						<li><a href="http://www.gzal.gov.cn/zxfw/"><i class="icon04"></i><p>在线服务</p></a></li>
+						<li><a href="http://www.gzal.gov.cn/hdjl/"><i class="icon05"></i><p>互动交流</p></a></li>
+						<li><a href="http://www.gzal.gov.cn/zjal/"><i class="icon06"></i><p>走进安龙</p></a></li>
+						<li><a href="http://www.gzal.gov.cn/tzal/"><i class="icon07"></i><p>投资安龙</p></a></li>
+						<li><a href="http://www.gzal.gov.cn/yxal/"><i class="icon08"></i><p>印象安龙</p></a></li>
+						<li><a href="http://www.gzal.gov.cn/snxx/"><i class="icon09"></i><p>三农信息</p></a></li>
+						<li style="margin-left: 20px !important;"><a href="http://www.gzal.gov.cn/ztzl/"><i class="icon10"></i><p>专题专栏</p></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+	    	jQuery(".ynav").slide();
+		</script>
+
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery(".ynav ul li").removeClass("on");
+		var str=location.pathname.substring(1,5);
+		//alert(str);
+		if(str=="xwzx"){
+			jQuery(".ynav li:eq(1)").addClass("on");
+		}else if(str=="zwgk"){
+			 jQuery(".ynav li:eq(2)").addClass("on");
+		}else if(str=="zxfw"){
+			 jQuery(".ynav li:eq(3)").addClass("on");
+		}else if(str=="hdjl"){
+			 jQuery(".ynav li:eq(4)").addClass("on");
+		}else if(str=="zjal"){
+			jQuery(".ynav li:eq(5)").addClass("on");
+		}else if(str=="tzal"){
+			jQuery(".ynav li:eq(6)").addClass("on");
+		}else if(str=="yxal"){
+			jQuery(".ynav li:eq(7)").addClass("on");
+		}else if(str=="snxx"){
+			jQuery(".ynav li:eq(8)").addClass("on");
+		}else if(str=="ztzl"){
+			jQuery(".ynav li:eq(9)").addClass("on");
+		}else{
+			jQuery(".ynav li:eq(0)").addClass("on");
+		}
+	});
+</script> 
+	<!--主体内容-->
+	<div class="main_in_pag auto">
+	  	<div class="lby_box">
+<div class="dqwz">
+			<div class="dqwz_box f14">
+				您当前的位置是：<a href="../../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&raquo;&nbsp;<a href="../../" title="新闻中心" class="CurrChnlCls">新闻中心</a>&nbsp;&raquo;&nbsp;<a href="../" title="通知公告" class="CurrChnlCls">通知公告</a>
+			</div></div>
+			<div class="textCont" id="textCont">
+				<h3>安龙县普坪镇2018年密集烤房项目建设工程邀请合作公告</h3>
+				<div class="pages-date">
+					<span class="font">
+						安龙县人民政府
+					</span>
+					<script type="text/javascript">
+						var PubDate='2018-03-29 16:46';
+						if(PubDate!=''){
+							document.write('　'+PubDate+'　');
+						}
+					</script>
+					<script type="text/javascript">
+						var NewsSource='';
+						if(NewsSource!=''){
+							document.write('<span class="font">来源：'+NewsSource+'</span>');
+						}else{
+							document.write('<span class="font">来源：安龙县人民政府网</span>');
+						}
+					</script>
+<script type="text/javascript">
+                var zz='普坪镇人民政府';
+                if(zz!=''){
+                    document.write('<span class="font">作者：'+zz+'</span>');document.write('&emsp;');
+                }
+            </script>
+				</div>
+				<div class="pages_print">
+					<span class="font index_switchsize"> 【字体：<span class="bigger largeFont">大</span> <span class="medium medFont">中</span> <span class="smaller smallFont">小</span>】</span> 
+					<span class="font printIco" onClick="javascript:window.print();">打印本页</span>
+				</div>
+				<div class="textBox" id="textBox">
+					<!--视频开始-->
+					<p style="text-algin:center;"> 
+						<div class="video" id="sp">
+							<script type="text/javascript">
+								var html="";
+								//alert("111");
+								var shiping="";
+								var xgtp="";
+								var splj="";
+								//alert(shiping);
+								if(shiping!=""&&shiping!=null)
+								{
+									html+="<div class=\"video\">";
+									html+="<div class=\"controls\" style=\"width: 600px;height:400px;margin:0 auto;\">";
+									html+="<iframe id=\"videoFrame\" src=\""+shiping+"\" frameborder=\"0\" style=\"width:600px;height:400px\" scrolling=\"auto\"></iframe>";
+									html+="</div>";
+									html+="</div>";
+									jQuery("#sp").append(html);
+								}else if(splj!=""&&splj!=null){
+									var strs= new Array(); //定义一数组 
+									strs=splj.split("."); //字符分割 
+									//alert(strs[strs.length-1]);
+									if(strs[strs.length-1]=="flv"||strs[strs.length-1]=="mp4")
+									{
+										document.write('<script type="text/javascript" src="/player/player/js/swfobject.js"><\/script>\n\r');
+										document.write('<div class="video" id="CuPlayer"><b><img src="/player/player/images/loading.gif" /> 网页视频播放器加载中，请稍后...</b></div>\n\r');
+										document.write('<script type="text/javascript">\n\r');
+										document.write('var so = new SWFObject("/player/player/player.swf","myCuPlayer","700","420","9","#000000");\n\r');
+										document.write('so.addParam("allowfullscreen","true");\n\r');
+										document.write('so.addParam("allowscriptaccess","always");\n\r');
+										document.write('so.addParam("wmode","opaque");\n\r');
+										document.write('so.addParam("quality","high");\n\r');
+										document.write('so.addParam("salign","lt");\n\r');
+										document.write('//播放器配置文件-----------------------------\n\r');
+										document.write('so.addVariable("JcScpFile","/player/player/CuSunV3set.xml"); //配置文件地址 \n\r');
+										document.write('//视频文件及略缩图--------------------------\n\r');
+										document.write('so.addVariable("JcScpVideoPath",""); //视频地址\n\r');
+										document.write('so.addVariable("JcScpImg","'+xgtp+'"); //视频图片\n\r');
+										document.write('so.addVariable("JcScpAutoPlay","yes"); //是否自动播放\n\r');
+										document.write('so.addVariable("JcScpStarTime","0"); //起始时间点(暂未启用)\n\r');
+										document.write('so.addVariable("JcScpEndTime","0"); //结束时间点\n\r');
+										document.write('so.addVariable("JcScpCuePointInfo",""); //提示点信息\n\r');
+										document.write('so.addVariable("JcScpCuePointTime",""); //提示点秒数值\n\r');
+										document.write('//-前置Flash广告-----------------------------\n\r');
+										document.write('so.addVariable("ShowJcScpAFront","no"); //是否显示前置广告\n\r');
+										document.write('so.addVariable("JcScpCountDownsPosition","top-left"); //倒计时位置\n\r');
+										document.write('so.addVariable("JcScpCountDowns","5"); //广告倒计时位置\n\r');
+										document.write('so.addVariable("JcScpAFrontW","700"); //前置广告宽度\n\r');
+										document.write('so.addVariable("JcScpAFrontH","420"); //前置广告宽度\n\r');
+										document.write('so.addVariable("JcScpAFrontPath",""); //前置广告地址\n\r');
+										document.write('so.addVariable("JcScpAFrontLink",""); //前置广告链接\n\r');
+										document.write('//-视频广告参数-----------------------------\n\r');
+										document.write('so.addVariable("ShowJcScpAVideo","no"); //是否显示前置视频广告\n\r');
+										document.write('//so.addVariable("JcScpAVideoServer",""); //前置视频广告服务器\n\r');
+										document.write('so.addVariable("JcScpAVideoPath",""); //前置视频广告地址\n\r');
+										document.write('so.addVariable("JcScpAVideoLink",""); //前置视频广告链接\n\r');
+										document.write('//-暂停广告参数-----------------------------\n\r');
+										document.write('so.addVariable("ShowJcScpAPause","no"); //是否显示暂停广告\n\r');
+										document.write('so.addVariable("JcScpAPauseW","300"); //暂停广告地址\n\r');
+										document.write('so.addVariable("JcScpAPauseH","250"); //暂停广告高度\n\r');
+										document.write('so.addVariable("JcScpAPausePath",""); //暂停广告地址\n\r');
+										document.write('so.addVariable("JcScpAPauseLink",""); //暂停广告链接\n\r');
+										document.write('//-角标广告参数-----------------------------\n\r');
+										document.write('so.addVariable("ShowJcScpACorner","no"); //是否显示角标广告\n\r');
+										document.write('so.addVariable("JcScpACornerW","85"); //角标广告宽度\n\r');
+										document.write('so.addVariable("JcScpACornerH","50"); //角标广告高度\n\r');
+										document.write('so.addVariable("JcScpACornerPath",""); //角标广告地址\n\r');
+										document.write('so.addVariable("JcScpACornerPosition","bottom-right"); //角标广告位置\n\r');
+										document.write('so.addVariable("JcScpACornerLink",""); //角标广告链接\n\r');
+										document.write('//-后置广告参数-----------------------------\n\r');
+										document.write('so.addVariable("ShowJcScpAEnd","no"); //是否显示后置广告\n\r');
+										document.write('so.addVariable("JcScpAEndW","400"); //后置广告宽度\n\r');
+										document.write('so.addVariable("JcScpAEndH","300"); //后置广告高度\n\r');
+										document.write('so.addVariable("JcScpAEndPath",""); //后置广告地址\n\r');
+										document.write('so.addVariable("JcScpAEndLink",""); //后置广告链接\n\r');
+										document.write('//-滚动文字广告参数-----------------------------\n\r');
+										document.write('so.addVariable("ShowJcScpAMoveText","no"); //是否滚动文字广告\n\r');
+										document.write('//-----------------------------------------\n\r');
+										document.write('so.addVariable("JcScpSharetitle","安龙县普坪镇2018年密集烤房项目建设工程邀请合作公告"); //视频标题信息\n\r');
+										document.write('so.write("CuPlayer");\n\r');
+										document.write('<\/script>\n\r');
+										document.write('<script language=javascript src="/player/player/js/jquery-1.4.2.min.js" type=text/javascript><\/script>\n\r');
+										document.write('<script language=javascript src="/player/player/js/action.js" type=text/javascript><\/script>\n\r');
+									}
+								}
+							</script>
+						</div>
+					</p>
+					<!--视频结束-->
+					<p style="margin-right:43px"><span style="font-family: 仿宋_GB2312; font-size: 21px;">&nbsp; </span><span style="font-family: 仿宋_GB2312; font-size: 21px;">&nbsp; &nbsp;2018年，安龙县普坪镇拟新（扩）建密集烤房10座（具体附后），根据中烟办【2012】313号《中国烟草总公司关于印发烟草企业采购管理规定的通知》、中烟黔计【2013】15号《中国烟草总公司贵州省公司关于印发采购管理实施细则的通知》、中烟黔办【2016】11号《中国烟草总公司贵州省公司关于转发中国烟草总公司三个保障机制文件的通知》等相关规定，特向社会公开邀请有房屋建筑等相关资质的施工单位参加竞争性谈判，请符合条件的有意向参与建设得施工单位于2018年4月1日前到安龙县普坪镇人民政府报名、领取资料、递交参竞相关资料、逾期不再受理。</span></p><p style="margin-right:43px;text-indent:85px"><br/></p><p style="margin-right:43px;text-indent:85px"><span style="font-family: 仿宋_GB2312; font-size: 21px;">特此公告</span></p><p style="margin-right:64px;margin-left:172px;text-indent:21px;text-align:center"><br/></p><p style="margin-right:43px;text-align:right"><span style="font-family: 仿宋_GB2312; font-size: 21px;">安龙县普坪镇人民政府</span></p><p style="margin-right:43px;text-align:right"><span style="font-family: 仿宋_GB2312; font-size: 21px;">&nbsp;2018年3月29日 &nbsp;</span></p><p style="margin-right:43px;text-align:right"><br/></p><p style="margin-right:43px"><span style="font-family: 仿宋_GB2312; font-size: 21px;">地 &nbsp; &nbsp;点：安龙县普坪镇人民政府</span></p><p style="margin-right:43px"><span style="font-family: 仿宋_GB2312; font-size: 21px;">联系电话：胡刚手机：13885930799</span></p><p style="margin-right:43px;text-indent:107px"><span style="font-family: 仿宋_GB2312; font-size: 21px;">郭菲联系电话：08595510001</span></p><p><br/></p>
+				</div>
+				<div class="editor">
+				  	<dl>
+						<dt>
+							<a href="http://mail.qq.com/cgi-bin/qm_share?url=http://www.gzal.gov.cn/xwzx/tzgg/201803/t20180329_3012394.html&to=qqmail&desc=&summary=&title=安龙县普坪镇2018年密集烤房项目建设工程邀请合作公告&site=&pics=" target="_blank">推荐给好友</a> 
+							<a href="http://www.gzal.gov.cn/syqt/rssdy/">Rss订制</a> 
+							<a href="javascript:GoTo()">内容纠错</a>
+						</dt>
+						<dd></dd>
+		  			</dl>
+				</div>
+				<div class="wzfx">
+					<DIV class=bshare-custom><A class=bshare-qzone title=分享到QQ空间 href='javascript:void(0);'></A><A class=bshare-sinaminiblog title=分享到新浪微博 href='javascript:void(0);'></A><A class=bshare-renren title=分享到人人网 href='javascript:void(0);'></A><A class=bshare-qqmb title=分享到腾讯微博 href='javascript:void(0);'></A><A class=bshare-douban title=分享到豆瓣 href='javascript:void(0);'></A><A class='bshare-more bshare-more-icon more-style-addthis' title=更多平台></A><SPAN class='BSHARE_COUNT bshare-share-count'>0</SPAN></DIV><SCRIPT type=text/javascript charset=utf-8 src='http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=null&amp;pophcol=2&amp;lang=zh'></SCRIPT><SCRIPT type=text/javascript charset=utf-8 src='http://static.bshare.cn/b/bshareC0.js'></SCRIPT><script type='text/javascript' charset='utf-8' src='http://static.bshare.cn/b/addons/bshareDrag.js?bp=bsharesync,sinaminiblog,qzone,renren,kaixin001&text=快来分享吧'></script>
+				</div>
+				<!--上下篇-->
+				<div class="prve piece">
+					<span>上一篇：</span>
+					<a href="javascript:;" id="no1">无</a>
+					
+				</div>
+				<div class="next piece">
+					<span>下一篇：</span>
+					<a href="javascript:;" id="no2">无</a>
+					
+						<script type="text/javascript">
+							var str   = "";
+							var str_1 = "./t20180329_3012395.html";
+							var str_2 = "安龙县国土资源局关于钟细森申请办理房屋所有权继承登记的公告";
+							if(str_2!="")
+							{
+								jQuery("#no2").hide();
+								if (str=="") {
+									document.write('<a  href="'+str_1+'" alt="'+str_2+'" title="'+str_2+'">'+str_2+'</a>');
+								} else {
+									document.write('<a  href="'+str+'" alt="'+str_2+'" title="'+str_2+'">'+str_2+'</a>');
+								}
+							}
+						</script>
+					
+				</div>
+				<div class="xg-link">
+				  	<div class="pannel-title">相关链接</div>
+				  	<ul class="list01">
+						<script type="text/javascript">
+							var key="";
+							if(key!=''&&key!='null'){
+								
+							}else{
+								
+									var  str="";
+									var str_1 = "./t20180329_3012395.html";
+									var str_4 = '安龙县国土资源局关于钟细森申请办理房屋所有权继承登记的公告';
+									var str_2 = '2018-03-29';
+									if (str=="") {
+										document.write('<li><a TARGET="_blank" href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									} else {
+										document.write('<li><a TARGET="_blank" href="'+str+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									}
+								
+									var  str="";
+									var str_1 = "./t20180329_3012391.html";
+									var str_4 = '安龙县国土资源局关于张金洲申请办理房屋所有权继承登记的公告';
+									var str_2 = '2018-03-29';
+									if (str=="") {
+										document.write('<li><a TARGET="_blank" href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									} else {
+										document.write('<li><a TARGET="_blank" href="'+str+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									}
+								
+									var  str="";
+									var str_1 = "./t20180329_3012389.html";
+									var str_4 = '安龙县国土资源局关于钟细波申请办理房屋所有权继承登记的公告';
+									var str_2 = '2018-03-29';
+									if (str=="") {
+										document.write('<li><a TARGET="_blank" href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									} else {
+										document.write('<li><a TARGET="_blank" href="'+str+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									}
+								
+									var  str="";
+									var str_1 = "./t20180327_3011136.html";
+									var str_4 = '钱相国土资源分局关于韦昌魁申请不动产首次登记的公告';
+									var str_2 = '2018-03-27';
+									if (str=="") {
+										document.write('<li><a TARGET="_blank" href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									} else {
+										document.write('<li><a TARGET="_blank" href="'+str+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									}
+								
+									var  str="";
+									var str_1 = "./t20180327_3011128.html";
+									var str_4 = '安龙县国土资源局普坪国土资源所关于 胡祖金申请不动产登记的公告';
+									var str_2 = '2018-03-27';
+									if (str=="") {
+										document.write('<li><a TARGET="_blank" href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									} else {
+										document.write('<li><a TARGET="_blank" href="'+str+'" alt="'+str_4+'" title="'+str_4+'"><i></i>'+str_4+'</a><span>['+str_2+']</span></li>');
+									}
+								
+							}
+						 </script>
+				  	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--footer--> 
+	<!--底部-->
+<style>
+.diy_select{ width:265px;}
+</style>
+		<div class="footer">
+<div class="auto" style="width: 1128px;margin: 0 auto;">
+   <form>
+      <div class='diy_select'>
+        <input type='hidden' name='' class='diy_select_input' />
+        <div class='diy_select_txt'>国家各部委</div>
+        <div class='diy_select_btn'></div>
+        <ul class='diy_select_list'>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="中国政府网" href="http://www.gov.cn/">
+				
+			
+			
+				
+				
+					中国政府网
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="外交部" href="http://www.fmprc.gov.cn/web/">
+				
+			
+			
+				
+				
+					外交部
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="国防部" href="http://www.mod.gov.cn/">
+				
+			
+			
+				
+				
+					国防部
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="发展改革委" href="http://www.sdpc.gov.cn/">
+				
+			
+			
+				
+				
+					发展改革委
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="教育部" href="http://www.moe.gov.cn/">
+				
+			
+			
+				
+				
+					教育部
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="科技部" href="http://www.most.gov.cn/">
+				
+			
+			
+				
+				
+					科技部
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="工业和信息部" href="http://www.miit.gov.cn/">
+				
+			
+			
+				
+				
+					工业和信息部
+				 </a>
+			 </li>
+         
+        </ul>
+      </div>
+      <div class='diy_select'>
+        <input type='hidden' name='' class='diy_select_input' />
+        <div class='diy_select_txt'>全国各省市</div>
+        <div class='diy_select_btn'></div>
+        <ul class='diy_select_list'>
+          	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="贵州省人民政府" href="http://www.gzgov.gov.cn/">
+				
+			
+			
+				
+				
+					贵州省人民政府
+				 </a>
+			 </li>
+         
+        </ul>
+      </div>
+      <div class='diy_select'>
+        <input type='hidden' name='' class='diy_select_input' />
+        <div class='diy_select_txt'>贵州省各地州（市）</div>
+        <div class='diy_select_btn'></div>
+        <ul class='diy_select_list'>
+          	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="贵阳市人民政府" href="http://www.gygov.gov.cn/">
+				
+			
+			
+				
+				
+					贵阳市人民政府
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="遵义市人民政府" href="http://www.zunyi.gov.cn/">
+				
+			
+			
+				
+				
+					遵义市人民政府
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="六盘水市人民政府" href="http://www.gzlps.gov.cn/">
+				
+			
+			
+				
+				
+					六盘水市人民政府
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="安顺市人民政府" href="http://www.anshun.gov.cn/">
+				
+			
+			
+				
+				
+					安顺市人民政府
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="毕节市人民政府" href="http://www.bijie.gov.cn/">
+				
+			
+			
+				
+				
+					毕节市人民政府
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="铜仁市人民政府" href="http://www.trs.gov.cn/">
+				
+			
+			
+				
+				
+					铜仁市人民政府
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="黔东南州人民政府" href="http://www.qdn.gov.cn/">
+				
+			
+			
+				
+				
+					黔东南州人民政府
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="黔南州人民政府" href="http://www.qiannan.gov.cn/">
+				
+			
+			
+				
+				
+					黔南州人民政府
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="贵安新区管委会" href="http://www.gaxq.gov.cn/">
+				
+			
+			
+				
+				
+					贵安新区管委会
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="黔西南州人民政府" href="http://www.qxn.gov.cn/">
+				
+			
+			
+				
+				
+					黔西南州人民政府
+				 </a>
+			 </li>
+         
+        </ul>
+      </div>
+      <div class='diy_select'>
+        <input type='hidden' name='' class='diy_select_input' />
+        <div class='diy_select_txt'>新闻媒体</div>
+        <div class='diy_select_btn'></div>
+        <ul class='diy_select_list'>
+          	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="人民网" href="http://www.people.com.cn/">
+				
+			
+			
+				
+				
+					人民网
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="新华网" href="http://www.xinhuanet.com/">
+				
+			
+			
+				
+				
+					新华网
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="多彩贵州网" href="http://www.gog.cn/">
+				
+			
+			
+				
+				
+					多彩贵州网
+				 </a>
+			 </li>
+         	
+			 <li>
+				 
+				
+					<a TARGET="_blank" title="当代先锋网" href="http://www.ddcpc.cn/">
+				
+			
+			
+				
+				
+					当代先锋网
+				 </a>
+			 </li>
+         
+        </ul>
+     </div>      
+    </form>  
+  </div>
+
+		
+			<p class="fp" style="padding-top: 40px;overflow: hidden;width: 1128px;">
+				<a href="http://www.gzal.gov.cn/syqt/rssdy/">RSS订阅</a>|<a href="http://www.gzal.gov.cn/syqt/wzdt/">网站地图</a>|<a href="http://www.gzal.gov.cn/syqt/wzsm/">网站声明</a>|<a href="http://www.gzal.gov.cn/syqt/wzbz/">网站帮助</a>
+			</p>
+			<p class="ft">
+				<!--您是本站第<span class="count"><script src="/wcm/count/index?id=1258&siteid=1"></script></span>位访客 & -->
+<script src="http://v7.cnzz.com/stat.php?id=4482539&amp;web_id=4482539&amp;online=1&amp;show=line" language="JavaScript"></script>
+			</p>
+			<p>备案：黔ICP备17012202号-1  &nbsp;&nbsp; 公网安备: 52232802000102号  &nbsp;&nbsp;  主办：安龙县人民政府办公室 </p>
+			<p>网站标识码：5223280001&nbsp;&nbsp;技术支持：<a href="http://www.gogbh.cn/" target="_blank">贵州多彩博虹科技有限公司</a></p>
+			<p class="fb">
+				<span class="db1">
+					<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/24/359/2201/40576466/CA243592201405764660001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+				</span>
+				<span class="db2">
+					<script id="_jiucuo_" sitecode='5223280001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+				</span>				
+			</p>	
+		</div>
+
+<!--新增-->
+<style type="text/css">
+.lf-aside {position: fixed;top:327px;left:50%;margin-left: 610px; background: #fff;}
+.lf-aside>a {display: block; width:65px; height:70px; text-align:center; overflow:hidden; margin-bottom:5px; border-bottom: 1px solid #d2d2d2;}
+.lf-aside>a img {width:65px;}
+.lf-aside>a i{ display:block; width:65px; height:50px; background: url(/images/RightBar.png) no-repeat;}
+.lf-aside>a.wza i{ background-position:-5px -350px; }
+.lf-aside>a.lm_wx i{ background-position:0px -280px;}
+.lf-aside>a.lm_wb i{ background-position:0px -110px;}
+.lf-aside>a.lm_colose{ height:20px; border-bottom: none;}
+.lf-aside>a.lm_colose img{ width:40px;}
+</style>
+<div class="lf-aside">
+	<a href="javascript:;" class="xiao lm_wx"><i></i>微信<!--<img src="/images/zwwx2.png" alt="微信" />--></a>
+	<a class="xiao lm_wb" href="https://weibo.com/gzanlong?is_all=1"><i></i>微博<!--<img src="/images/zwwb2.png" alt="微博" />--></a>  
+<a href="javascript:;" class="lm_colose"><img src="http://www.gzhfpc.gov.cn/images/colose_lm.png" width="40" /></a>
+</div>
+<script type="text/javascript">
+			    $('.lm_wx').on('click', function () {
+			        layer.open({
+			            type: 1,
+			            area: ['100px', '100px'],
+			            title: false, //不显示标题
+			            shadeClose: true,
+			            content: '<img src="/images/weixin.jpg" ignore="1" style="height: 100px;width:100px" />'
+			        });
+			    });
+				$(".lm_colose").on('click',function (){
+					$(".lf-aside").hide();				
+				})
+</script>
+
+<!--调用背景的js-->
+<script type="text/javascript" src="/images/bodyBg.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+function diy_select(){this.init.apply(this,arguments)};
+diy_select.prototype={
+	 init:function(opt)
+	 {
+		this.setOpts(opt);
+		this.o=this.getByClass(this.opt.TTContainer,document,'div');//容器
+		this.b=this.getByClass(this.opt.TTDiy_select_btn);//按钮
+		this.t=this.getByClass(this.opt.TTDiy_select_txt);//显示
+		this.l=this.getByClass(this.opt.TTDiv_select_list);//列表容器
+		this.ipt=this.getByClass(this.opt.TTDiy_select_input);//列表容器
+		this.lengths=this.o.length;
+		this.showSelect();
+	 },
+	 addClass:function(o,s)//添加class
+	 {
+		o.className = o.className ? o.className+' '+s:s;
+	 },
+	 removeClass:function(o,st)//删除class
+	 {
+		var reg=new RegExp('\\b'+st+'\\b');
+		o.className=o.className ? o.className.replace(reg,''):'';
+	 },
+	 addEvent:function(o,t,fn)//注册事件
+	 {
+		return o.addEventListener ? o.addEventListener(t,fn,false):o.attachEvent('on'+t,fn);
+	 },
+	 showSelect:function()//显示下拉框列表
+	 {
+
+		var This=this;
+		var iNow=0;
+		this.addEvent(document,'click',function(){
+			 for(var i=0;i<This.lengths;i++)
+			 {
+				This.l[i].style.display='none';
+			 }
+		})
+		for(var i=0;i<this.lengths;i++)
+		{
+			this.l[i].index=this.b[i].index=this.t[i].index=i;
+			this.t[i].onclick=this.b[i].onclick=function(ev)  
+			{
+				var e=window.event || ev;
+				var index=this.index;
+				This.item=This.l[index].getElementsByTagName('li');
+
+				This.l[index].style.display= This.l[index].style.display=='block' ? 'none' :'block';
+				for(var j=0;j<This.lengths;j++)
+				{
+					if(j!=index)
+					{
+						This.l[j].style.display='none';
+					}
+				}
+				This.addClick(This.item);
+				e.stopPropagation ? e.stopPropagation() : (e.cancelBubble=true); //阻止冒泡
+			}
+		}
+	 },
+	 addClick:function(o)//点击回调函数
+	 {
+
+		if(o.length>0)
+		{
+			var This=this;
+			for(var i=0;i<o.length;i++)
+			{
+				o[i].onmouseover=function()
+				{
+					This.addClass(this,This.opt.TTFcous);
+				}
+				o[i].onmouseout=function()
+				{
+					This.removeClass(this,This.opt.TTFcous);
+				}
+				o[i].onclick=function()
+				{
+					var index=this.parentNode.index;//获得列表
+					This.t[index].innerHTML=This.ipt[index].value=this.innerHTML.replace(/^\s+/,'').replace(/\s+&/,'');
+					This.l[index].style.display='none';
+				}
+			}
+		}
+	 },
+	 getByClass:function(s,p,t)//使用class获取元素
+	 {
+		var reg=new RegExp('\\b'+s+'\\b');
+		var aResult=[];
+		var aElement=(p||document).getElementsByTagName(t || '*');
+
+		for(var i=0;i<aElement.length;i++)
+		{
+			if(reg.test(aElement[i].className))
+			{
+				aResult.push(aElement[i])
+			}
+		}
+		return aResult;
+	 },
+
+	 setOpts:function(opt) //以下参数可以不设置  //设置参数
+	 { 
+		this.opt={
+			 TTContainer:'diy_select',//控件的class
+			 TTDiy_select_input:'diy_select_input',//用于提交表单的class
+			 TTDiy_select_txt:'diy_select_txt',//diy_select用于显示当前选中内容的容器class
+			 TTDiy_select_btn:'diy_select_btn',//diy_select的打开按钮
+			 TTDiv_select_list:'diy_select_list',//要显示的下拉框内容列表class
+			 TTFcous:'focus'//得到焦点时的class
+		}
+		for(var a in opt)  //赋值 ,请保持正确,没有准确判断的
+		{
+			this.opt[a]=opt[a] ? opt[a]:this.opt[a];
+		}
+	 }
+}
+
+
+var TTDiy_select=new diy_select({  //参数可选
+	TTContainer:'diy_select',//控件的class
+	TTDiy_select_input:'diy_select_input',//用于提交表单的class
+	TTDiy_select_txt:'diy_select_txt',//diy_select用于显示当前选中内容的容器class
+	TTDiy_select_btn:'diy_select_btn',//diy_select的打开按钮
+	TTDiv_select_list:'diy_select_list',//要显示的下拉框内容列表class
+	TTFcous:'focus'//得到焦点时的class
+});//如同时使用多个时请保持各class一致.
+</script>
+</body>
+<script type="text/javascript">
+	$(function(){
+		$("#textBox").find("table").each(function(){
+			$(this).css("border-collapse","inherit").css("margin","0 auto").css("padding","0").css("width","100%").attr("align","center");
+		})
+		$("#textBox").find("img").each(function() {
+            $(this).css("max-width","100%").css("height","auto");
+        });
+	})
+</script>
+</html>

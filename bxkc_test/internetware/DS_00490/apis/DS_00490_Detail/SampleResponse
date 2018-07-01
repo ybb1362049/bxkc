@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/Front/Template/Default/css/index.css">
+    <link rel="stylesheet" href="/Front/Template/Default/css/common.css">
+      <link rel="stylesheet" href="/Front/Template/Default/css/detail.css">
+    <script src="/Front/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <script src="/Front/Template/Default/js/settitle.js"></script>
+    <title></title>
+  
+  
+</head>
+<body class="bg">
+  <div style="margin:0px auto; width:1024px;height:368px;">
+   <iframe src="/Front/Template/Default/pagehead.htm" width="100%" height="368" frameborder="0" scrolling="no"  ></iframe>
+   </div>
+    <!-- main -->
+    <div class="main">
+        <div  class="container clearfix">
+            <p class="position">
+              您现在的位置：<A href='/Front/'  class="position-link">首页</A> > <a href='/Front/jyzx' class="position-link">公告公示</a> > <a href='/Front/jyzx/002001' class="position-link">建设工程</a> > <span class="orange">招标控制价</span>
+             
+            </p>
+            <div class="border">
+                <!--正文开始-->
+                
+                <table id="tblInfo" cellspacing="1" cellpadding="1" width="100%" align="center" border="0"
+                                runat="server">
+                  <tr>
+                    <td id="tdTitle" align="center" runat="server"> 
+                      <h2 class="word-title">
+                            虎殿路海绵改造工程（监理）虎殿路海绵改造工程（监理）
+                        </h2>  
+                      
+                      <br />
+                      
+                     
+                       <h4 class="word-info">【信息时间：
+                        2018/5/17
+                        &nbsp;&nbsp;阅读次数：
+                        <script src="/Front/Upclicktimes.aspx?InfoID=6c50f377-7280-4cb5-bb71-8fdabeeacfec"></script>
+                        】<a
+                                                href="javascript:void(0)" onClick="window.print();"><font color="#000000"  class=webfont>【我要打印】</font></a><a
+                                                    href="javascript:window.close()"><font color="#000000"  class=webfont>【关闭】</font></a></font><font color="#000000">
+                          
+                       </font>
+                       </h4></td>
+                  </tr>
+                  <tr>
+                    <td height="10"></td>
+                  </tr>
+                  <tr>
+                    <td height="250" valign="top" class="infodetail" id="TDContent" align=left style="padding-left:40px; padding-right:40px;"><!--EpointContent-->
+                         <!--EpointContent-->
+                                    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Report</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+		<style type="text/css">
+		.s8784093e{Font:bold 26pt 宋体;border:0px;border-top-color:transparent;border-top-style:solid;border-top-width:1px;border-left-color:transparent;border-left-style:solid;border-left-width:1px;border-right-color:transparent;border-right-style:solid;border-right-width:1px;border-bottom-color:transparent;border-bottom-style:solid;border-bottom-width:1px;text-align:center;vertical-align:middle;line-height:1.15em;overflow:hidden;white-space:nowrap;}
+		.s20836718{Font:18pt 宋体;border:0px;border-top-color:transparent;border-top-style:solid;border-top-width:1px;border-left-color:transparent;border-left-style:solid;border-left-width:1px;border-right-color:transparent;border-right-style:solid;border-right-width:1px;border-bottom-color:transparent;border-bottom-style:solid;border-bottom-width:1px;text-align:center;vertical-align:middle;line-height:1.15em;word-wrap:break-word;}
+		.se8db50e1{Font:8pt Arial;border:0px;border-top-color:transparent;border-top-style:solid;border-top-width:1px;border-left-color:transparent;border-left-style:solid;border-left-width:1px;border-right-color:transparent;border-right-style:solid;border-right-width:1px;border-bottom-color:#0C0C0C;border-bottom-style: solid;border-bottom-width:1px;text-align:center;vertical-align:middle;line-height:1.15em;overflow:hidden;white-space:nowrap;}
+		.sa61c4e76{Font:8pt Arial;border:0px;border-top-color:transparent;border-top-style:solid;border-top-width:1px;border-left-color:transparent;border-left-style:solid;border-left-width:1px;border-right-color:#0C0C0C;border-right-style: solid;border-right-width:1px;border-bottom-color:transparent;border-bottom-style:solid;border-bottom-width:1px;text-align:center;vertical-align:middle;line-height:1.15em;overflow:hidden;white-space:nowrap;}
+		.s85c657d6{Font:18pt 宋体;border:0px;border-top-color:#0C0C0C;border-top-style: solid;border-top-width:1px;border-left-color:#0C0C0C;border-left-style: solid;border-left-width:1px;border-right-color:#0C0C0C;border-right-style: solid;border-right-width:1px;border-bottom-color:#0C0C0C;border-bottom-style: solid;border-bottom-width:1px;text-align:center;vertical-align:middle;line-height:1.15em;overflow:hidden;white-space:nowrap;}
+		.s7a1346c8{Font:8pt Arial;border:0px;border-top-color:transparent;border-top-style:solid;border-top-width:1px;border-left-color:#0C0C0C;border-left-style: solid;border-left-width:1px;border-right-color:transparent;border-right-style:solid;border-right-width:1px;border-bottom-color:transparent;border-bottom-style:solid;border-bottom-width:1px;text-align:center;vertical-align:middle;line-height:1.15em;overflow:hidden;white-space:nowrap;}
+		.s192854ec{Font:18pt 宋体;border:0px;border-top-color:#0C0C0C;border-top-style: solid;border-top-width:1px;border-left-color:#0C0C0C;border-left-style: solid;border-left-width:1px;border-right-color:#0C0C0C;border-right-style: solid;border-right-width:1px;border-bottom-color:#0C0C0C;border-bottom-style: solid;border-bottom-width:1px;text-align:left;vertical-align:middle;line-height:1.15em;word-wrap:break-word;}
+		</style>
+
+	</head>
+	<body>
+		<table cellspacing="0" cellpadding="0" border="0" style="border-width:0px;width:866px;border-collapse:collapse;">
+			<tr>
+				<td class="s8784093e" colspan="5" style="height:55px;width:866px;"><div style="width:866px;">最高投标限价</div></td>
+			</tr><tr>
+				<td class="s20836718" colspan="5" style="height:118px;width:866px;"><div style="width:866px;"><p style="margin:0px;text-align:center;line-height:0.8em;"> &nbsp;</p><p style="margin:0px;text-align:center;line-height:1.5em;"><u>E3205010304000803003001</u>(项目名称)<u>虎殿路海绵改造工程（监理）</u>标段<u>监理</u>最高投标限价</p><p style="margin:0px;text-align:center;line-height:0.8em;">&nbsp;</p></div></td>
+			</tr><tr>
+				<td style="border:0px;height:8px;width:63px;"></td><td class="se8db50e1" style="height:8px;width:220px;"></td><td class="se8db50e1" style="height:8px;width:119px;"></td><td class="se8db50e1" style="height:8px;width:401px;"></td><td style="border:0px;height:8px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:220px;"><div style="width:220px;">项目名称</div></td><td class="s85c657d6" colspan="2" style="height:71px;width:520px;"><div style="width:520px;">虎殿路海绵改造工程（监理）</div></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:220px;"><div style="width:220px;">所属地区</div></td><td class="s85c657d6" colspan="2" style="height:71px;width:520px;"><div style="width:520px;">姑苏区</div></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:220px;"><div style="width:220px;">建设单位</div></td><td class="s85c657d6" colspan="2" style="height:71px;width:520px;"><div style="width:520px;">苏州市市政建设管理处</div></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:220px;"><div style="width:220px;">代理机构</div></td><td class="s85c657d6" colspan="2" style="height:71px;width:520px;"><div style="width:520px;">苏州工业园区华建工程咨询服务有限公司</div></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:70px;width:63px;"></td><td class="s85c657d6" style="height:70px;width:220px;"><div style="width:220px;">预算编制企业</div></td><td class="s85c657d6" colspan="2" style="height:70px;width:520px;"></td><td class="s7a1346c8" style="height:70px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:220px;"><div style="width:220px;">预算价（万元）</div></td><td class="s85c657d6" colspan="2" style="height:71px;width:520px;"><div style="width:520px;">69.31</div></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:220px;"><div style="width:220px;">折扣率</div></td><td class="s85c657d6" colspan="2" style="height:71px;width:520px;"><div style="width:520px;">0%</div></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:220px;"><div style="width:220px;">最高投标限价<br>（万元）</div></td><td class="s85c657d6" colspan="2" style="height:71px;width:520px;"><div style="width:520px;">69.310000</div></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" rowspan="2" style="height:142px;width:220px;"><div style="width:220px;">暂估价（万元）</div></td><td class="s85c657d6" style="height:71px;width:119px;"><div style="width:119px;">专业工程</div></td><td class="s85c657d6" style="height:71px;width:401px;"><div style="width:401px;">0</div></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:119px;"><div style="width:119px;">材料</div></td><td class="s85c657d6" style="height:71px;width:401px;"><div style="width:401px;">0</div></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:220px;"><div style="width:220px;">建设单位地址</div></td><td class="s85c657d6" colspan="2" style="height:71px;width:520px;"></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:70px;width:63px;"></td><td class="s85c657d6" style="height:70px;width:220px;"><div style="width:220px;">联系电话</div></td><td class="s85c657d6" colspan="2" style="height:70px;width:520px;"></td><td class="s7a1346c8" style="height:70px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:71px;width:63px;"></td><td class="s85c657d6" style="height:71px;width:220px;"><div style="width:220px;">预算情况</div></td><td class="s85c657d6" colspan="2" style="height:71px;width:520px;"></td><td class="s7a1346c8" style="height:71px;width:63px;"></td>
+			</tr><tr>
+				<td class="sa61c4e76" style="height:331px;width:63px;"></td><td class="s85c657d6" style="height:331px;width:220px;"><div style="width:220px;">备注</div></td><td class="s192854ec" colspan="2" style="height:331px;width:520px;"></td><td class="s7a1346c8" style="height:331px;width:63px;"></td>
+			</tr><tr>
+				<td style="border:0px;height:1px;width:63px;"></td><td style="border:0px;height:1px;width:220px;"></td><td style="border:0px;height:1px;width:119px;"></td><td style="border:0px;height:1px;width:401px;"></td><td style="border:0px;height:1px;width:63px;"></td>
+			</tr>
+		</table></body>
+</html>
+                                    <!--EpointContent-->
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="right" id="authorTd">
+                        <br>
+                        
+                    </td>
+                  </tr>
+                  <tr id="trAttach" runat="server">
+                    <td valign="top" align="left" style="padding-left:40px; font-size:14px;">  
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="10"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td align="center">
+                        
+                      </td>
+                  </tr>
+                </table>
+              <!--正文结束-->
+            </div>
+        </div>
+    </div>
+  
+    <!-- 版权 -->
+      <div style="margin:0px auto;height:186px; min-width:1024px;">
+   <iframe src="/Front/Template/Default/pagefoot.htm" width="100%" height="186" frameborder="0" scrolling="no"  ></iframe>
+   </div>
+    <script src="/Front/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/Front/Template/Default/js/common.js"></script>
+</body>
+</html>

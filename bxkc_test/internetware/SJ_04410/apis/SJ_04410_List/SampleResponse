@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="always" name="referrer">
+<link type="text/css" rel="stylesheet" href="/css/stylen.css">
+<script src="/js/vendor/jquery-2.2.4.min.js" type="text/javascript" ></script>
+
+<title>信息发布</title>
+</head>
+<body class="bodybj">
+	<div class="header_top">
+		<div class="header_nav_bd">
+	    	<div class="header_nav_bd_l"><p>欢迎.来到陕西省采购招标网！【今天是：<span id=localtime></span>】</p></div>
+	      <div class="header_nav_bd_r"><span><a class="rgb_1" href="https://jy.365trade.com.cn/zzlh?from=sxcgzb">招标人入口</a>|<a href="https://jy.365trade.com.cn/zzlh?from=sxcgzb" class="rgb_2" >员工入口</a>|<a href="https://jy.365trade.com.cn/zzlh?from=sxcgzb" class="rgb_3">供应商入口</a>|<a href="https://jy.365trade.com.cn/zzlh?from=sxcgzb" class="rgb_4">评标专家入口</a></span></div>
+	    </div>
+	</div>
+<!--main_content  start  -->	
+<div class="main_content ">
+<!-- nav start-->
+	<div class="main_shop">
+   		<div class="main_logo"><a href="index.html"><img src="/img/logo1.png"   alt=""/></a></div>
+    </div>
+    <!-- 头部结束-->
+    <!-- 导航-->
+    <div class=" nav_co" >
+    	<ul class="nav_ulh">
+        	<li class="fn"><a class="na" href="/index.html" foucsUrl="index" target="_self">首页</a> </li>
+            <li class="fn " ><a class="na" href="/About.html" foucsUrl="About" target="_self">关于我们</a>
+             <dl class=" Navigation_to">
+                    <dd><a href="/About/Gs.html" target="_self" foucsUrl="Gs"><span>公司概况</span></a></dd>
+					<dd><a href="/About/ry.html" target="_self" foucsUrl="ry"><span>资质荣誉</span></a></dd>
+                    <dd><a href="/About/jg.html" target="_self" foucsUrl="jg"><span>组织结构</span></a></dd>
+					<dd><a href="/About/qy.html" target="_self" foucsUrl="qy"><span>企业文化</span></a></dd>
+              		<dd><a href="/About/hj.html" target="_self" foucsUrl="hj"><span>环境设施</span></a></dd>
+                </dl>
+            </li>
+            <li class="fn" ><a class="na" href="/news.html" target="_self" foucsUrl="news">新闻动态</a>
+             <dl class=" Navigation_to">
+                    <dd><a href="/news/gsxw.html" target="_self" foucsUrl="gsxw"><span>公司新闻</span></a></dd>
+                    
+                    <dd><a href="/news/hydt.html" target="_self" foucsUrl="hydt"><span>行业动态</span></a></dd>
+           
+                </dl>
+            </li>
+               <li class="fn" ><a class="na" href="/gsyw.html" target="_self" foucsUrl="gsyw">公司业务</a>
+                <dl class=" Navigation_to">
+                        <dd><a href="/gsyw/zbdl.html" target="_self" foucsUrl="zbdl"><span>招标代理</span></a></dd>
+                        <dd><a href="/gsyw/zjzx.html" target="_self" foucsUrl="zjzx"><span>造价咨询</span></a></dd>
+                        <dd><a href="/gsyw/ppp.html" target="_self" foucsUrl="ppp"><span>PPP项目咨询</span></a></dd>
+                  </dl>
+            </li>
+            <li class="fn"><a class="na" href="/info.html" target="_self" foucsUrl="info">信息发布</a>
+            <dl class=" Navigation_to">
+                        <dd><a href="/info/zbcg.html" target="_self" foucsUrl="zbcg"><span>招标/采购公告</span></a></dd>
+                        <dd><a href="/info/zbcj.html" target="_self" foucsUrl="zbcj"><span>中标/成交公告</span></a></dd>
+                        <dd><a href="/info/qt.html" target="_self" foucsUrl="qt"><span>其他公示公告</span></a></dd>
+                  </dl>
+            </li>
+            <li class="fn"><a class="na" href="/zcfg.html" target="_self" foucsUrl="zcfg">政策法规</a></li>
+            <li class="fn"><a class="na" href="/zjsq.html"  target="_self" foucsUrl="zjsq">专家申请</a> </li>
+            <li class="fn"><a class="na" href="/zhaopin.html" target="_self" foucsUrl="zhaopin">招聘信息</a></li>
+            <li class="fn"><a class="na" href="/contact.html" target="_self"  foucsUrl="contact">联系我们</a></li>
+            
+        </ul>
+        	<a href="/search.html" class="global_search"></a>
+    </div>
+    <!-- 导航结束-->  <div class="Advertisement"><img src="/img/bannerx.jpg" width="1199" height="171"  alt=""/></div>
+  <div class="sidebar">
+    <div class="sidebar_left">
+      <div class="txtle_name">
+        <dl>
+          <dt>B</dt>
+		  <dd><span>公告公示</span><br/><i>ublic announcement</i></dd>
+        </dl>
+      </div>
+      <ul class="sdNav">
+        <li ><a href="/info/zbcg.html" class="sidebar_on" data="zbcg">招标/采购公告</a></li>
+        <li><a href="/info/zbcj.html" data="zbcj">中标/成交公告</a></li>
+        <li><a href="/info/qt.html" data="qt">其它公示公告</a></li>
+      </ul>
+    </div>
+ <script type="text/javascript" src="/js/SNav.js"></script> <div class="sidebar_right">
+       	
+        <div class="sidebar_cengj"><div><b>招标公告 </b><i>Bidding announcement</i></div></div> 
+        <div class="s_sban">
+      <form id="form" action="/info/zbcg.html" method="post">
+        <table>
+          <tbody><tr>
+          
+            <td>选择栏目:
+               <select name="cid" style="height: 33px;width: 120px;">
+                <option value="3" selected >招标/采购公告</option>
+                <option value="4"  >中标/成交公告</option>
+                 <option value="5"  >其他公示公告</option>
+              </select>
+            </td>
+           
+              <td>
+          	<div>
+            <input type="hidden" name="p" id="p"  value="1">
+              <input type="text" id="keyword" name="keyword" value="" class="search_tex" style="border: 1px solid #008882;height: 30px;width: 300px;">
+              <input type="submit" value="搜索" id="su" class="sou_zbbottom" onclick="javascript:$('form').submit();">
+            </div>
+            </td>
+              </tr>
+            </tbody></table>
+      </form>
+    </div>
+        <div class="sidebar_TAB">
+        	<div class="sid_txtli">
+            	            	<ul>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/648bd619a3654dbe92f355bc78a8f943.html' title="中国西部科技创新港学镇中心项目设计方案招标公告" target="_self">中国西部科技创新港学镇中心项目设计方案招标公告 </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-20</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/bda6201a87a449de98349141a90ab061.html' title="昆明池区域110亩酒店项目机电设备设计顾问单位招标资格预审公告" target="_self">昆明池区域110亩酒店项目机电设备设计顾问单位招标...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-20</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/753e7180ee3140f5bc3747b1009cdbd9.html' title="中国西部科技创新港高端人才生活基地项目工程设计施工总承包资格预审公告" target="_self">中国西部科技创新港高端人才生活基地项目工程设计施工...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-20</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/2aed8b4b02bf41759a40cafa91f85c7b.html' title="曲江UPWAY创意盒子“3+N”特色影院装修项目资格预审公告" target="_self">曲江UPWAY创意盒子“3+N”特色影院装修项目资...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-20</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/3782bf33e384490abb51c1f0b0925a32.html' title="渭南市实验初级中学对外开放体育设施提升改造项目竞争性谈判公告" target="_self">渭南市实验初级中学对外开放体育设施提升改造项目竞争...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-20</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/d9b5903b33dd4b05916ea551951febfb.html' title="渭南市临渭区体育局体育中心健身房健身设施采购项目竞争性谈判公告" target="_self">渭南市临渭区体育局体育中心健身房健身设施采购项目竞...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-20</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/809a8167998f40528b805fd57e11031b.html' title="关于国家测绘地理信息局第一航测遥感院信息化测绘生产基地升级改造项目（二期）综合布线、玻璃隔断、作业工位采购项目第二标段招标公告" target="_self">关于国家测绘地理信息局第一航测遥感院信息化测绘生产...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-20</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/95d49804c79a4968ac39c762db760123.html' title="华州区东崖崩塌地质灾害应急治理项目施工招标公告" target="_self">华州区东崖崩塌地质灾害应急治理项目施工招标公告 </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-15</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/1b71653653b14659a5c9cc03e1c437fe.html' title="华州区地质灾害应急治理项目监理 招标公告" target="_self">华州区地质灾害应急治理项目监理 招标公告 </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-15</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/11ecbe0fdcd24f5fb4bcf47fba7b18e6.html' title="华州区大明镇东川遇仙河西岸崩塌群特大型地质灾害治理工程施工招标公告" target="_self">华州区大明镇东川遇仙河西岸崩塌群特大型地质灾害治理...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-15</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/10f664ed9be04d9890a276ef6c318c19.html' title="西安融创•桃源府项目一期基建临时供电工程资格预审公告" target="_self">西安融创•桃源府项目一期基建临时供电工程资格预审公...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-15</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/8f7fc8d0d358474281626a8352929586.html' title="中国人民银行西安分行北广场外侧绿植恢复工程竞争性磋商公告" target="_self">中国人民银行西安分行北广场外侧绿植恢复工程竞争性磋...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-15</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/58b7852de0a84c16930e6529a9396b4f.html' title="紫阳县双安镇林本河等7个村2016年度移民搬迁宅基地腾退复退项目招标公告" target="_self">紫阳县双安镇林本河等7个村2016年度移民搬迁宅基...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-15</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/a75833d6ddba4a2aa8649483a24c6262.html' title="西安市曲江第三中学方案及施工图设计（二次招标）资格预审公告" target="_self">西安市曲江第三中学方案及施工图设计（二次招标）资格...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-15</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                	<li>
+                     <div class="sid_content">
+				  	     <ul>
+						  <li class="sid_l"><h3><a href='/info/zbcg/fc28ae6ad94941c49ef336b19642b29c.html' title="宝鸡好猫实业（集团）有限公司高透成形纸、白乳胶PVAE采购项目招标公告" target="_self">宝鸡好猫实业（集团）有限公司高透成形纸、白乳胶PV...... </a></h3>
+						  </li>
+						  <li class="sid_r"><span>发布时间：</span>2017-12-15</li>
+			   		      </ul>
+			          </div>
+            		</li>
+                </ul>
+              <div class="shop_shl"><span class="shop_fenye">每页15/共260条<a href="javascript:pager(1)">上一页</a>当前2/共18页跳转到<input class="fys_l" id="gos" type="text" onkeyup='javascript:onkey(this);' max='18' value='2'><a href="javascript:pager($('#gos').val())" >GO</a></span></div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+<!-- main_content  end -->
+<div class="footer">
+  <div class="footer_con">
+		<div class="botton_l">
+        <p>地    址： 西安市高新二路2号山西证券大厦8层  邮编：710075</p>
+        <p>电    话： 029-85235014 </p>
+        <p>传    真： 029-85235014</p>
+        <p>陕西省采购招标有限责任公司 页面版权所有编号：<a href="#">陕ICP备0612005号</a> 技术支持：<a href="/gl" target="_blank">  管理入口</a>版本号：1.1</p>
+          
+        </div>
+        <!--<div class="footer_erweima"><img src="img/erweima.png" width="78" height="77"  alt=""/></div>
+      -->
+    </div>
+</div>
+<script src="/js/t.js" type="text/javascript" ></script></body>
+</html>

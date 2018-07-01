@@ -1,0 +1,357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>淮南市政府采购网</title>
+
+<!--站点图标-->
+<link rel="shortcut icon" href="res/themes/style/default/favicon.ico" type="image/x-icon" />
+<!--主题设置样式表-->
+<link rel="stylesheet" href="/cms/resbase/blue/res/css/main.css"/>
+<!--滤镜样式-->
+<!--
+
+
+	-->
+
+<!--[if lt IE 9]>
+<script src="/cms/resbase/epp_blue/res/js/html5.js" ></script>
+<![endif]-->
+
+<script type='text/javascript' src='/view/resource/plug-in/jquery/jquery_1.7.js'></script>
+<script type='text/javascript' src='/view/resource/plug-in/jquery/jquery.ui.js'></script>
+
+<script type="text/javascript" src='/view/srplatform/portal/include/common.js'></script>
+<script type="text/javascript" src="/cms/resbase/common/res/js/menu_hover.js"></script>
+<script type="text/javascript" src='/cms/resbase/blue/res/js/epsTabs/ui.core.js'></script>
+<script type="text/javascript" src='/cms/resbase/blue/res/js/epsTabs/ui.tabs.js'></script>
+<script type="text/javascript" src='/cms/resbase/epp_blue/res/js/zui.common.js'></script>
+<script type='text/javascript' src='/view/resource/scripts/util/tabSet.js'></script>
+
+
+
+</head>
+<body>
+<!--
+<script type="text/javascript" src='/view/srplatform/portal/epp_blue/index.js'></script>
+-->
+<input type="hidden" id="currentTab" value="0"/>
+<input type="hidden" id="initPath" value=""/>
+
+<div class="container">
+  <header class="header">
+    <!--Structure Header-->
+    <hgroup>
+      <h1>EPP公共资源交易网</h1>
+      <h2>招标、投标、开标、评标、监察，一网运行</h2>
+    </hgroup>
+    <!--Banner 动画-->
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1002" height="197" id="banner" align="middle">
+      <param name="movie" value="/cms/resbase/blue/data/banner.swf" />
+      <param name="quality" value="high" />
+      <param name="bgcolor" value="#ffffff" />
+      <param name="play" value="true" />
+      <param name="loop" value="true" />
+      <param name="wmode" value="transparent" />
+      <param name="scale" value="showall" />
+      <param name="menu" value="true" />
+      <param name="devicefont" value="false" />
+      <param name="salign" value="" />
+      <param name="allowScriptAccess" value="sameDomain" />
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="/cms/resbase/blue/data/banner.swf" width="1002" height="197">
+        <param name="movie" value="/cms/resbase/blue/data/banner.swf" />
+        <param name="quality" value="high" />
+        <param name="bgcolor" value="#ffffff" />
+        <param name="play" value="true" />
+        <param name="loop" value="true" />
+        <param name="wmode" value="transparent" />
+        <param name="scale" value="showall" />
+        <param name="menu" value="true" />
+        <param name="devicefont" value="false" />
+        <param name="salign" value="" />
+        <param name="allowScriptAccess" value="sameDomain" />
+        <!--<![endif]-->
+        <a href="http://www.adobe.com/go/getflash"> <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /> </a>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object>
+  </header>
+<!-- 坚向导航开始 -->
+<nav class="navMain">
+  <!--Structure Main Navigation-->
+  <ul>
+  <li><a href="/IndexViewController.do?method=index" title="首页">首页</a><span></span></li>
+			<li><a href="/CmsNewsController.do?method=newsList&channelCode=sjcg&page=1&pageNum=20&param=bulletin" title="采购信息">采购信息</a><span></span>
+					<ul name="ulName">
+								<li><a title="采购公告" href="/CmsNewsController.do?method=newsList&channelCode=shengji_cggg&page=1&pageNum=20&param=bulletin">采购公告</a></li>
+								<li><a title="中标公告" href="/CmsNewsController.do?method=newsList&channelCode=shengji_zbgg&page=1&pageNum=20&param=bulletin">中标公告</a></li>
+								<li><a title="成交公告" href="/CmsNewsController.do?method=newsList&channelCode=shengji_cjgg&page=1&pageNum=20&param=bulletin">成交公告</a></li>
+								<li><a title="更正公告" href="/CmsNewsController.do?method=newsList&channelCode=shengji_gzgg&page=1&pageNum=20&param=bulletin">更正公告</a></li>
+								<li><a title="网上采购公告" href="/CmsNewsController.do?method=newsList&channelCode=wscggg&page=1&pageNum=20&param=bulletin">网上采购公告</a></li>
+								<li><a title="网上成交公告" href="/CmsNewsController.do?method=newsList&channelCode=wscjgg&page=1&pageNum=20&param=bulletin">网上成交公告</a></li>
+								<li><a title="资格预审公告-new" href="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_100&bidType=100&parentCode=sjcg">资格预审公告-new</a></li>
+								<li><a title="采购公告-new" href="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_TQ10&bidType=TQ10&parentCode=sjcg">采购公告-new</a></li>
+								<li><a title="更正公告-new" href="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_110&bidType=110&parentCode=sjcg">更正公告-new</a></li>
+								<li><a title="成交公告-new" href="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_112&bidType=112&parentCode=sjcg">成交公告-new</a></li>
+								<li><a title="中标公告-new" href="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_108&bidType=108&parentCode=sjcg">中标公告-new</a></li>
+								<li><a title="废标流标-new" href="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_113&bidType=113&parentCode=sjcg">废标流标-new</a></li>
+								<li><a title="合同公告-new" href="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_99&bidType=99&parentCode=sjcg">合同公告-new</a></li>
+								<li><a title="其他公告-new" href="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_107&bidType=107&parentCode=sjcg">其他公告-new</a></li>
+					</ul>
+			</li>
+			<li><a href="/CmsNewsController.do?method=newsList&channelCode=gzdt&page=1&pageNum=20&param=bulletin" title="工作动态">工作动态</a><span></span>
+					<ul name="ulName">
+								<li><a title="本级动态" href="/CmsNewsController.do?method=newsList&channelCode=bjdt&page=1&pageNum=20&param=bulletin">本级动态</a></li>
+								<li><a title="重要通知" href="/CmsNewsController.do?method=newsList&channelCode=zytz&page=1&pageNum=20&param=bulletin">重要通知</a></li>
+								<li><a title="图片新闻" href="/CmsNewsController.do?method=newsList&channelCode=tpxw&page=1&pageNum=20&param=bulletin">图片新闻</a></li>
+								<li><a title="网站头条" href="/CmsNewsController.do?method=newsList&channelCode=ttxw&page=1&pageNum=20&param=bulletin">网站头条</a></li>
+					</ul>
+			</li>
+			<li><a href="/CmsNewsController.do?method=newsList&channelCode=zcfg&page=1&pageNum=20&param=bulletin" title="政策法规">政策法规</a><span></span>
+			</li>
+			<li><a href="/SupplierController.do?method=supplierList&rp=25&page=1" title="供应商库">供应商库</a><span></span>
+			</li>
+			<li><a href="/CmsNewsController.do?method=newsList&channelCode=zjk&page=1&pageNum=20&param=bulletin" title="专家库">专家库</a><span></span>
+			</li>
+			<li><a href="/CmsNewsController.do?method=newsList&channelCode=bszn&page=1&pageNum=20&param=bulletin" title="办事指南">办事指南</a><span></span>
+			</li>
+			<li><a href="/CmsNewsController.do?method=newsList&channelCode=xzzx&page=1&pageNum=20&param=bulletin" title="下载中心">下载中心</a><span></span>
+			</li>
+			<li><a href="/CmsNewsController.do?method=newsList&channelCode=xxyd&page=1&pageNum=20&param=bulletin" title="学习园地">学习园地</a><span></span>
+			</li>
+			<li><a href="/CmsNewsController.do?method=newsList&channelCode=cjwt&page=1&pageNum=20&param=bulletin" title="常见问题">常见问题</a><span></span>
+			</li>
+			<li><a href="/CmsNewsController.do?method=newsList&channelCode=jgjj&page=1&pageNum=20&param=bulletin" title="机构简介">机构简介</a><span></span>
+			</li>
+ </ul>
+</nav>
+<div class="toolbar">
+<!--Structure Toolbar-->
+
+	    <div class="search">
+	      <!--站内搜索-->
+<script language="javascript" type="text/javascript">
+function native2ascii(strNative) {
+	//alert(strNative+'======');
+    var output = "";
+	if(strNative && ""!=strNative ){
+		for (var i=0; i<strNative.length; i++) {		
+			var c = strNative.charAt(i);	
+			var cc = strNative.charCodeAt(i);
+			if (cc > 0xff){	
+				output += "\\u" + toHex(cc >> 8) + toHex(cc & 0xff);
+			}else{				
+				output += c;
+			}		
+		}
+	}
+    return output;
+}
+
+
+$(function(){
+
+	$("#searchNewsBtn").click(function(){
+	   $("#input01").val($("#input01").val());
+		var keyValue = native2ascii($("#input01").val());
+		window.open("/CmsNewsController.do?method=search&chnlCodes="+$("#chnlCodes").val()+"&searchKey="+keyValue+"&pageSize=10&searchResultForm=search_result.ftl")
+	})
+	
+	$("p[name=hotSearch] a").each(function(i,n){
+		var title=n.title+"";
+		$("p[name=hotSearch] a[title="+title+"]").live("click",function() {
+			var titleValue = native2ascii(title);
+			window.open("/CmsNewsController.do?method=search&chnlCodes="+titleValue+"&pageSize=10&searchResultForm=search_result.ftl")
+		});
+		
+	});
+})
+</script>
+<form action="/CmsNewsController.do?method=search" onkeydown="if(event.keyCode==13){return false;}">
+        <label for="input01">我要搜索：</label>
+        <input id="input01" size=13 name="searchKey"  type="text"  value=""/>
+        <div id="searchNewsBtn" class="searchBtn">搜索</div>
+</form>
+
+	    </div>
+</div>
+<!-- 坚向导航结束 -->
+<style type="text/css">
+.related h2{ font-weight:bold; border-bottom:3px solid red; padding:3px 0 3px 8px ; text-align:left; margin-bottom:8px;}
+.related ul{ overflow:hidden; zoom:1;}
+.related ul li{overflow:hidden; border-bottom:1px dotted #ccc;}
+.related ul li label{ display:block; width:132px; float:left;color:red;}
+.related ul li a{overflow:hidden; display:block; float:left;width:720px;}
+.related ul li span.date{display:block; float:right;}
+</style>
+<script type="text/javascript" src="/view/srplatform/upload/extAttachmentAjaxFile.js"></script>
+<script type="text/javascript">
+	
+
+	$(function(){
+		
+		$(".pinglnbutton").click(function(){
+			
+			window.open('/DiscussController.do?method=getCmsNEW&cmsnews=ff808081592ad6c201593a1935240078');
+			
+		});
+	});
+	
+	$(document).ready(function(){
+	    var objId="ff808081592ad6c201593a1935240078";
+	
+	    $.getJSON("/NoticeAmountController.do?method=getCountByNewsId&newsId="+objId,{},function(json){       
+		document.getElementById("count").innerHTML=json.count;
+	  	});
+	});
+	</script>
+  <!--辅助信息 结束-->
+  <div class="main"> 
+    <!--面包屑导航条 开始-->
+   <div class="navCurrent">
+      <h3>您现在的位置：</h3>
+      
+	<a href="/view/srplatform/portal/index.jsp" id="/view/srplatform/portal/index.jsp" title="首页" target="_self">首页</a>
+	|&nbsp;<a href="/CmsNewsController.do?method=newsList&channelCode=sjcg&page=1&pageNum=20&param=bulletin" id="/CmsNewsController.do?method=newsList&channelCode=sjcg&page=1&pageNum=20&param=bulletin" title="采购信息" class="toContentMain">采购信息</a>
+	|&nbsp;<a href="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_TQ10&bidType=TQ10&parentCode=sjcg" id="/CmsNewsController.do?method=newsList&page=1&pageNum=20&param=bulletin&channelCode=zfcg_TQ10&bidType=TQ10&parentCode=sjcg" title="采购公告-new" class="toContentMain">采购公告-new</a>
+	|&nbsp;<a href="/view/staticpags/zfcg_TQ10/ff808081592ad6c201593a1935240078.html" id="/view/staticpags/zfcg_TQ10/ff808081592ad6c201593a1935240078.html" title="淮南市政府信息化办公室采购钱学森智库淮南中心项目招标公告" class="toContentMain">淮南市政府信息化办公室采购钱学森智库淮南中心项目招标公告</a>
+		
+ </div>
+    <!--面包屑导航条 结束--> 
+    <!--详情 开始-->
+     <div class="wrap"> 
+      <!--startPrint-->
+     <div class="conOperation" style="width:105px; margin:0 auto" id="c">
+
+		
+	    </div>
+      <div class="frameReport" id="myPrintArea" >
+        <div class="reportTitle">
+        <h1>淮南市政府信息化办公室采购钱学森智库淮南中心项目招标公告</h1>
+		<span>访问次数：</span><span id="count"></span>
+        </div>
+        
+        <p>
+						<h1 style="PAGE-BREAK-AFTER: auto; LINE-HEIGHT: 18pt" align="center"><span><span style="FONT-FAMILY: 黑体"><font style="FONT-SIZE: 16pt">&nbsp;淮南市政府信息化办公室采购钱学森智库淮南中心项目</font></span><font style="FONT-SIZE: 16pt">单一来源采购邀请书</font></span></h1>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center; LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt; WORD-BREAK: break-all"><span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">项目编号：<span>2016CG1374</span></span></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span><b><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">中国航天系统科学与工程研究院：</span></b></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 200%; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt"><span>&nbsp;&nbsp;&nbsp; </span><u>淮南市政府信息化办公室采购钱学森智库淮南中心项目 </u>经按照政府采购非招标采购方式管理办法（财政部令第74号）等文件规定，已被政府采购管理部门批准采用单一来源方式进行采购，由于贵公司为本项目的唯一供货商，我方现邀请贵公司参与本项目的采购活动，按照本邀请书后所附的有关要求，编写好单一来源采购响应文件，于<b>2016年</b></span></span><span><b><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">12</span></b></span><span><b><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">月</span></b></span><span><b><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">28</span></b></span><span><b><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">日</span></b></span><span><b><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">15</span></b></span><span><b><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">时</span></b></span><span><b><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">00</span></b></span><span><b><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">分（北京时间）</span></b></span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">，前往</span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">淮南市招标投标交易服务中心</span><span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">二楼<b>第三开标室</b>（淮南市山南新区政务服务中心<span>F</span>座）</span></span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">就本项目的商务、技术和报价等有关问题，进行进一步的磋商。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 150%; TEXT-INDENT: 24.1pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span><b><span style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">保证金账户（选择一家银行进行缴费）</span></b></span></p>
+<div align="center">
+<table style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 6.75pt; MARGIN-RIGHT: 6.75pt" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tbody>
+    <tr style="HEIGHT: 27.25pt">
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 57.9pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="77">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt; tab-stops: right 462.05pt" align="center"><span><b><span style="FONT-FAMILY: 宋体">银行类别</span></b></span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 130.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="174">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt; tab-stops: right 462.05pt" align="center"><span><b><span style="FONT-FAMILY: 宋体">户名</span></b></span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 153pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="204">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt; tab-stops: right 462.05pt" align="center"><span><b><span style="FONT-FAMILY: 宋体">账号</span></b></span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 135.4pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="181">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt; tab-stops: right 462.05pt" align="center"><span><b><span style="FONT-FAMILY: 宋体">开户银行</span></b></span></p>
+      </td>
+    </tr>
+    <tr style="HEIGHT: 27.25pt">
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 57.9pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="77">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体">交通银行 </span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 130.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="174">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体">淮南市公共资源交易中心</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 153pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="204">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt">83440715800188800000080</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 135.4pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="181">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt; tab-stops: right 462.05pt" align="center"><span style="FONT-FAMILY: 宋体">交通银行淮南开发区支行</span></p>
+      </td>
+    </tr>
+    <tr style="HEIGHT: 27.25pt">
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 57.9pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="77">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体">工商银行</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 130.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="174">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体">淮南市公共资源交易中心</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 153pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="204">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="FONT-FAMILY: 宋体; FONT-SIZE: 12pt">1304002738000366387</span></p>
+      </td>
+      <td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 135.4pt; PADDING-RIGHT: 5.4pt; HEIGHT: 27.25pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" width="181">
+      <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="center"><span style="FONT-FAMILY: 宋体">工商银行淮南洞山支行</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 13pt; TEXT-INDENT: 15.75pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt">&nbsp;</p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt">&nbsp;</p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt">&nbsp;</p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt">&nbsp;</p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt">&nbsp;</p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt">&nbsp;</p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt"><span style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">注：以上账户的账号仅为本项目本次采购活动使用，其他项目或本项目的另次开标均会变动，请投标人注意对应账号转入。</span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 150%; TEXT-INDENT: 24.1pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="left"><span><b><span style="LINE-HEIGHT: 150%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">联系方式：</span></b></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 200%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="left"><span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">采购人：<span style="LETTER-SPACING: -1pt">淮南市人民政府信息化工作办公室</span><span style="LETTER-SPACING: -0.8pt"><span>&nbsp; </span></span><span>&nbsp;</span><span style="LETTER-SPACING: -1pt">代理机构：安徽三友建设工程项目管理有限责任公司</span><span style="LETTER-SPACING: -0.8pt"><span>&nbsp;&nbsp;&nbsp; </span></span></span></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 200%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="left"><span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">联系人：李杰<span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>联 系 人： 曹勤<span>&nbsp;&nbsp; </span></span></span></p>
+<p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: left; LINE-HEIGHT: 200%; TEXT-INDENT: 24pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 10.5pt" align="left"><span><span style="LINE-HEIGHT: 200%; FONT-FAMILY: 宋体; FONT-SIZE: 12pt">联系电话：<span>0554-5369123<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="LETTER-SPACING: -1pt">联系</span>电话：<span>15505540004</span></span></span></p>
+		</p>
+
+        
+      <div class="file">
+        
+        	 <ul>
+        </ul>
+        
+          <!--添加审核意见-->  
+         <div id="a">
+
+	         <div class="related" id="related">
+            </div>
+         </div>
+         <!--被退回的显示审核意见-->
+
+
+        </div>      
+      </div>
+      <!--endPrint-->
+     <div class="formLayout form2Pa"  id="b"> <!--添加审核意见-->
+
+
+        </div>
+    </div>
+    <!--详情 结束--> 
+  </div>
+</div>
+<!--底部内容 开始-->
+<div class="footer">
+  <p>版权所有：淮南市财政局 Copyright <span>©</span> 2013 All Rights Reserved  <a href="/CmsSysPageController.do?method=goIndex" style="color:green">后台管理</a></p>
+</div>
+<!--底部内容 结束--> 
+<!--页面容器 结束-->
+</body>
+</html>
+<script type="text/javascript">
+//打印
+$(document).ready(function(){
+	$("div#printBtn").click(function(){ 
+		$("div#myPrintArea").printArea(); 
+	}); 
+	var objId = 'ff808081592ad6c201593a1935240078';
+	var str1 = '2016CG1374';
+	var ajurl = $("#initPath").val()+"/CmsNewsController.do?method=getRelatedList&objId="+objId+"&str1="+str1;
+	$.ajax({
+		url:ajurl,
+		type:"POST",
+		dataType:"json",
+		success:function(msg){
+			$("#related").empty().html(msg.relatedHtml);
+		}
+	});
+	
+});
+</script>
+

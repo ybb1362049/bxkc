@@ -1,0 +1,565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/Front/Template/Default/ztbzx/css/common.css">
+    <link rel="stylesheet" href="/Front/Template/Default/ztbzx/css/subpage.css">
+    <script src="/Front/Template/Default/ztbzx/js/jquery-1.11.0.min.js"></script>
+    <script src="/Front/Template/Default/ztbzx/js/settitle.js"></script>
+    <title></title>
+      <script>
+	 window.onload = function() {
+	getHeight();
+	 }
+	</script>
+       <script type="text/javascript">
+     
+function getHeight() { 
+	if (document.getElementById("left").offsetHeight>=document.getElementById("right").offsetHeight){
+		document.getElementById("right").style.height=(document.getElementById("left").offsetHeight-40) + "px";
+	}
+	else{
+		document.getElementById("left").style.height=(document.getElementById("right").offsetHeight+50) + "px";
+	}	
+}
+ 
+</script>
+</head>
+
+<body class="bg">
+    <!-- header -->
+          <iframe src="/Front/Template/Default/ztbzx/pagehead.htm" scrolling="no" frameborder="0" width="100%" height="297"></iframe>
+    <div class="container white-bg">
+        <!-- nav -->
+        <div class="nav">
+                
+   
+     <div class="n-top">
+      <div class="navbg">
+                <ul class="n-items clearfix" id="nav">
+               
+                    <li class="n-item l">
+                      <span class="n-item-link n-link1">
+                        <a href="/Front/Template/Default/ztbzx/../../../" target="_blank" class="n-item-a n-item-a1">交易中心</a>
+                        </span>
+                    </li>
+                    <li class="n-item l">
+                     <span class="n-item-link n-link2">
+                        <a href="/Front/Template/Default/ztbzx/../../../ztbzx/029002" target="_blank" class="n-item-a n-item-a2">交易信息</a>
+                        </span>
+                    </li>
+                     <li class="n-item last l">
+                     <span class="n-item-link n-link3">
+                        <a href="/Front/Template/Default/ztbzx/../../../ztbzx/029039" target="_blank" class="n-item-a n-item-a9">监管信息</a>
+                        </span>
+                    </li>
+                    <li class="n-item last l">
+                     <span class="n-item-link n-link9">
+                        <a href="/Front/Template/Default/ztbzx/../../../ztbzx/029012" target="_blank" class="n-item-a n-item-a9">信用信息</a>
+                        </span>
+                    </li>
+                     <li class="n-item n-item-special l">
+                     <span class="n-item-link n-link7">
+                        <a href="/Front/Template/Default/ztbzx/../../../hyzq/hyzq_jrfw_ztbzx.aspx" target="_blank" class="n-item-a n-item-a7">网员专区</a>
+                        </span>
+                    </li>
+                    <li class="n-item l">
+                     <span class="n-item-link n-link4">
+                        <a href="/Front/Template/Default/ztbzx/../../../showinfo/jrkb.aspx" class="n-item-a n-item-a4">场所安排</a>
+                        </span>
+                    </li>
+                    <li class="n-item l">
+                     <span class="n-item-link n-link5">
+                        <a href="/Front/Template/Default/ztbzx/../../../ztbzx/029008" target="_blank" class="n-item-a n-item-a5">办事指南</a>
+                        </span>
+                    </li> 
+                    <li class="n-item n-item-special l">
+                     <span class="n-item-link n-link8">
+                        <a href="/Front/Template/Default/ztbzx/../../../ztbzx/029030" target="_blank" class="n-item-a n-item-a8">学习园地</a>
+                        </span>
+                    </li>
+                     <li class="n-item l">
+                     <span class="n-item-link n-link6">
+                        <a href="/Front/Template/Default/ztbzx/../../../ztbzx/029007" target="_blank" class="n-item-a n-item-a6">下载中心</a>
+                        </span>
+                    </li>
+                </ul>
+          </div>   
+            </div>
+ 
+        </div>
+    </div>
+    <!-- main -->
+    <div class="container">
+        <div class="main clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <div class="left-hd">
+                    <span class="left-hd-tt">
+                       安庆市
+                    </span>
+                </div>
+                <div class="left-bd"  id="left">
+                  <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td align="center" style="padding-top:10px;">
+                       <TABLE   cellSpacing="0" cellPadding="0" width="221" border="0">
+<tr><td class="leftclass" valign="middle" height=34  onclick="OpenDiv('TD029002001');"   background="/Front/Template/Default/images/left1.jpg"><font color='#e22505' >建设工程</font></a></td></tr><tr><td height="10px"></td></tr>
+<tr><td style="padding-left:0px;" id="TD029002001" align=left><table border=0 width="100%">
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002001003') " height=34 ><a href="/Front/ztbzx/029002/029002001/029002001003" target="_self">
+<font color=red>招标公告</font></a></td></tr>
+<tr><td style="padding-left:0px;" id="TD029002001003" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs1"  height=34 ><a href="/Front/ztbzx/029002/029002001/029002001003/029002001003001"  target="_self"><font color=red>【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001003/029002001003002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001003/029002001003003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002001004') " height=34 ><a href="/Front/ztbzx/029002/029002001/029002001004" target="_self">
+<font color='#000000'>中标候选人公示</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002001004" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001004/029002001004001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001004/029002001004002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001004/029002001004003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002001005') " height=34 ><a href="/Front/ztbzx/029002/029002001/029002001005" target="_self">
+<font color='#000000'>答疑澄清</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002001005" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001005/029002001005001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001005/029002001005002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001005/029002001005003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002001006') " height=34 ><a href="/Front/ztbzx/029002/029002001/029002001006" target="_self">
+<font color='#000000'>中标结果公示</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002001006" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001006/029002001006001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001006/029002001006002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002001/029002001006/029002001006003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+</table></td></tr>
+<tr><td class="leftclass2" valign="middle" height=34  onclick="OpenDiv('TD029002002');"   ><font color='#5d5d5d' >政府采购</font></a></td></tr><tr><td height="10px"></td></tr>
+<tr><td style="padding-left:0px;display:none;" id="TD029002002" align=left><table border=0 width="100%">
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002002003') " height=34 ><a href="/Front/ztbzx/029002/029002002/029002002003" target="_self">
+<font color='#000000'>招标公告</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002002003" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002003/029002002003001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002003/029002002003002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002003/029002002003003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002002004') " height=34 ><a href="/Front/ztbzx/029002/029002002/029002002004" target="_self">
+<font color='#000000'>中标公示</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002002004" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002004/029002002004001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002004/029002002004002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002004/029002002004003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002002005') " height=34 ><a href="/Front/ztbzx/029002/029002002/029002002005" target="_self">
+<font color='#000000'>答疑澄清</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002002005" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002005/029002002005001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002005/029002002005002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002005/029002002005003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002002006') " height=34 ><a href="/Front/ztbzx/029002/029002002/029002002006" target="_self">
+<font color='#000000'>合同公示</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002002006" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002006/029002002006001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002006/029002002006002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002002/029002002006/029002002006003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+</table></td></tr>
+<tr><td class="leftclass2" valign="middle" height=34  onclick="OpenDiv('TD029002003');"   ><font color='#5d5d5d' >产权交易</font></a></td></tr><tr><td height="10px"></td></tr>
+<tr><td style="padding-left:0px;display:none;" id="TD029002003" align=left><table border=0 width="100%">
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002003003') " height=34 ><a href="/Front/ztbzx/029002/029002003/029002003003" target="_self">
+<font color='#000000'>招标公告</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002003003" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002003/029002003003/029002003003001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002003/029002003003/029002003003002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002003/029002003003/029002003003003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002003004') " height=34 ><a href="/Front/ztbzx/029002/029002003/029002003004" target="_self">
+<font color='#000000'>中标公示</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002003004" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002003/029002003004/029002003004001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002003/029002003004/029002003004002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002003/029002003004/029002003004003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002003005') " height=34 ><a href="/Front/ztbzx/029002/029002003/029002003005" target="_self">
+<font color='#000000'>答疑澄清</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002003005" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002003/029002003005/029002003005001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002003/029002003005/029002003005002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002003/029002003005/029002003005003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+</table></td></tr>
+<tr><td class="leftclass2" valign="middle" height=34  onclick="OpenDiv('TD029002004');"   ><font color='#5d5d5d' >土地交易</font></a></td></tr><tr><td height="10px"></td></tr>
+<tr><td style="padding-left:0px;display:none;" id="TD029002004" align=left><table border=0 width="100%">
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002004002') " height=34 ><a href="/Front/ztbzx/029002/029002004/029002004002" target="_self">
+<font color='#000000'>招标公告</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002004002" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002004/029002004002/029002004002001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002004/029002004002/029002004002002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002004/029002004002/029002004002003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002004003') " height=34 ><a href="/Front/ztbzx/029002/029002004/029002004003" target="_self">
+<font color='#000000'>中标公示</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002004003" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002004/029002004003/029002004003001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002004/029002004003/029002004003002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002004/029002004003/029002004003003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002004004') " height=34 ><a href="/Front/ztbzx/029002/029002004/029002004004" target="_self">
+<font color='#000000'>答疑澄清</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002004004" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002004/029002004004/029002004004001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002004/029002004004/029002004004002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002004/029002004004/029002004004003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+</table></td></tr>
+<tr><td class="leftclass2" valign="middle" height=34  onclick="OpenDiv('TD029002005');"   ><font color='#5d5d5d' >定点抽签</font></a></td></tr><tr><td height="10px"></td></tr>
+<tr><td style="padding-left:0px;display:none;" id="TD029002005" align=left><table border=0 width="100%">
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002005002') " height=34 ><a href="/Front/ztbzx/029002/029002005/029002005002" target="_self">
+<font color='#000000'>招标公告</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002005002" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002005/029002005002/029002005002001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002005/029002005002/029002005002002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002005/029002005002/029002005002003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002005003') " height=34 ><a href="/Front/ztbzx/029002/029002005/029002005003" target="_self">
+<font color='#000000'>中标公示</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002005003" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002005/029002005003/029002005003001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002005/029002005003/029002005003002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002005/029002005003/029002005003003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002005004') " height=34 ><a href="/Front/ztbzx/029002/029002005/029002005004" target="_self">
+<font color='#000000'>答疑澄清</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002005004" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002005/029002005004/029002005004001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002005/029002005004/029002005004002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002005/029002005004/029002005004003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+</table></td></tr>
+<tr><td class="leftclass2" valign="middle" height=34  onclick="OpenDiv('TD029002006');"   ><font color='#5d5d5d' >网上商城</font></a></td></tr><tr><td height="10px"></td></tr>
+<tr><td style="padding-left:0px;display:none;" id="TD029002006" align=left><table border=0 width="100%">
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002006001') " height=34 ><a href="/Front/ztbzx/029002/029002006/029002006001" target="_self">
+<font color='#000000'>招标公告</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002006001" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002006/029002006001/029002006001001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002006/029002006001/029002006001002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002006/029002006001/029002006001003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002006002') " height=34 ><a href="/Front/ztbzx/029002/029002006/029002006002" target="_self">
+<font color='#000000'>中标公示</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002006002" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002006/029002006002/029002006002001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002006/029002006002/029002006002002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002006/029002006002/029002006002003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+<tr><td class="leftclasssub1" onclick="OpenDiv('TD029002006003') " height=34 ><a href="/Front/ztbzx/029002/029002006/029002006003" target="_self">
+<font color='#000000'>答疑澄清</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD029002006003" colspan="2"><table border=0 width="100%">
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002006/029002006003/029002006003001" target="_self">【安庆市】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002006/029002006003/029002006003002" target="_self">【县（市）】</font></a></td></tr>
+<tr><td class="leftclasssubs2"   height=34 ><a href="/Front/ztbzx/029002/029002006/029002006003/029002006003003" target="_self">【各区】</font></a></td></tr>
+</table></td></tr>
+</table></td></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script>
+                       </td>
+                       </tr>
+                       </table>
+                         <div style="height:300px;" id="show"></div>
+                </div>
+            </div>
+            <!-- 右侧 -->
+            <div class="right l ml10">
+                <div class="right-hd">
+                    <div class="right-hd-tt">
+                       <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#0f73b1" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/Front/'><FONT color="#0f73b1" class=currentpostionfont>首页</FONT></A><FONT color="#0f73b1"> >> <a href='/Front/ztbzx'><FONT color="#0f73b1" class=currentpostionfont>公共资源交易中心</font></a> >> <a href='/Front/ztbzx/029002'><FONT color="#0f73b1" class=currentpostionfont>交易信息</font></a> >> <a href='/Front/ztbzx/029002/029002001'><FONT color="#0f73b1" class=currentpostionfont>建设工程</font></a> >> <a href='/Front/ztbzx/029002/029002001/029002001003'><FONT color="#0f73b1" class=currentpostionfont>招标公告</font></a> >> <a href='/Front/ztbzx/029002/029002001/029002001003/029002001003001'><FONT color="#0f73b1" class=currentpostionfont>安庆市</font></a></FONT></TD></TR></table>
+                    </div>
+                </div>
+                <div class="right-bd mt10">
+                    <div class="right-bd-hd">
+                        <span class="right-bd-tt">
+                           安庆市
+                        </span>
+                    </div>
+                    <div class="right-content" style="padding:10px;"   id="right">
+                     <form name="ctl00" method="post" action="MoreInfo.aspx?CategoryNum=29002001003001" id="ctl00">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script language="Javascript" type="text/javascript"><!--
+function ANP_checkInput(bid,mv){var el=document.getElementById(bid);var r=new RegExp("^\\s*(\\d+)\\s*$");
+if(r.test(el.value)){if(RegExp.$1<1||RegExp.$1>mv){alert("页索引超出范围！");el.focus();el.select();return false;}
+return true;}alert("页索引不是有效的数值！");el.focus();el.select();return false;}
+function ANP_keydown(e,btnId){
+var kcode;
+if(window.event){kcode=e.keyCode;}
+else if(e.which){kcode=e.which;}
+var validKey=(kcode==8||kcode==46||kcode==37||kcode==39||(kcode>=48&&kcode<=57)||(kcode>=96&&kcode<=105));
+if(!validKey){
+if(kcode==13) document.getElementById(btnId).click();
+if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
+}
+}
+--></script>
+<div>
+
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div><table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr style="display: none;">
+		<td id="MoreInfoList1_tdTitle" valign="top" height="22">
+                    <img src="../images/map.gif"><span id="MoreInfoList1_lblcategory"></span>
+                </td>
+	</tr>
+	<tr style="display: none;">
+		<td height="8">
+                </td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%">
+                    <table cellspacing="0" align="Center" rules="all" border="0" id="MoreInfoList1_DataGrid1" style="border-width:0px;width:98%;border-collapse:collapse;">
+			<tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=77bd62fe-6e6e-4b3e-9671-fbe946d6af59&CategoryNum=029002001003001" target="_blank" title="世行贷款安徽公路养护创新示范项目安庆市橡胶沥青应力吸收层改进型白改黑+高模量沥青混合料技术公路大修工程（G206烟汕线桐城段）监理招标公告">世行贷款安徽公路养护创新示范项目安庆市橡胶沥青应力吸收层改进型白改黑+高模量沥青混合料技术...</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-31
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=431553f4-3d08-4524-9957-631c9e86af71&CategoryNum=029002001003001" target="_blank" title="世行贷款安徽公路养护创新示范项目安庆市橡胶沥青应力吸收层改进型白改黑+高模量沥青混合料技术公路大修工程（S209叶高路怀宁段、G206烟汕线怀宁段）监理招标公告">世行贷款安徽公路养护创新示范项目安庆市橡胶沥青应力吸收层改进型白改黑+高模量沥青混合料技术...</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-31
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=ee66963c-95f2-40dc-b0f3-9aaa4c061f00&CategoryNum=029002001003001" target="_blank" title="安庆市立医院新院区静脉用药集中调配中心净化工程施工及配套设备采购安装招标公告">安庆市立医院新院区静脉用药集中调配中心净化工程施工及配套设备采购安装招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-30
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=2b575462-d75f-44c5-a949-10ded5aa170d&CategoryNum=029002001003001" target="_blank" title="大观区幸福河广成圩段防洪工程监理招标公告">大观区幸福河广成圩段防洪工程监理招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-30
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=e76d8f67-ff4e-484e-87b2-388000d77997&CategoryNum=029002001003001" target="_blank" title="大观区幸福河广成圩段防洪工程施工（2标段）招标公告">大观区幸福河广成圩段防洪工程施工（2标段）招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-30
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=0bd7ed8a-1738-4f66-b1c2-8da42f0122e3&CategoryNum=029002001003001" target="_blank" title="大观区幸福河广成圩段防洪工程施工（1标段）招标公告">大观区幸福河广成圩段防洪工程施工（1标段）招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-30
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=d467e40b-8040-496a-a896-123d9ef2f036&CategoryNum=029002001003001" target="_blank" title="安庆市宜秀区长河东方段治理工程监理标招标公告">安庆市宜秀区长河东方段治理工程监理标招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-30
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=a11f3e25-3750-496e-bed6-14221df20da8&CategoryNum=029002001003001" target="_blank" title="安庆市宜秀区长河跃进新建段治理工程监理标招标公告">安庆市宜秀区长河跃进新建段治理工程监理标招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-30
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=76dd1954-a36b-416e-90cc-dcf99dde7e40&CategoryNum=029002001003001" target="_blank" title="杨桥镇中方寺景区灾后重建道路提升工程招标公告">杨桥镇中方寺景区灾后重建道路提升工程招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-28
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=71c909c3-39e6-4543-b02c-5864869750c0jsgc&CategoryNum=029002001003001" target="_blank" title="105国道太湖段改建工程PPP项目交工验收及过程检测(二次）招标公告">105国道太湖段改建工程PPP项目交工验收及过程检测(二次）招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-28
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=07ba799c-35c1-4de7-93a0-f8ec44438207jsgc&CategoryNum=029002001003001" target="_blank" title="安庆市大观区精细化工首位产业发展规划（二次）招标公告">安庆市大观区精细化工首位产业发展规划（二次）招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-25
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=abd1d133-7a68-4dda-98e1-0088b6c3d692&CategoryNum=029002001003001" target="_blank" title="S211岳华路望江段中修工程施工招标公告">S211岳华路望江段中修工程施工招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-24
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=c9861c6e-658a-4720-b7e5-07bdaf125b21&CategoryNum=029002001003001" target="_blank" title="X044马野路中修工程施工招标公告">X044马野路中修工程施工招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-24
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=6e4ce9fa-f1a0-47ae-a58d-51aca1aaac9c&CategoryNum=029002001003001" target="_blank" title="安庆市机场大道还建点（棚户区改造安置）项目施工重新招标（二次）招标公告">安庆市机场大道还建点（棚户区改造安置）项目施工重新招标（二次）招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-23
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=294e1a8c-8fa6-4db2-83bf-70df39c61f2c&CategoryNum=029002001003001" target="_blank" title="X005新杨路直属段中修工程施工招标公告">X005新杨路直属段中修工程施工招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-23
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=36bdbffd-c455-47ce-b118-41d2cd366bfd&CategoryNum=029002001003001" target="_blank" title="G105京珠线潜山段大中修工程施工招标公告">G105京珠线潜山段大中修工程施工招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-22
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=f4b6a9ea-0ff1-4faf-a8b4-ab8c80b07972jsgc&CategoryNum=029002001003001" target="_blank" title="S465罗湖大桥及接线工程交工验收及过程检测（二次）招标公告">S465罗湖大桥及接线工程交工验收及过程检测（二次）招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-18
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=46bf910a-9999-4b88-bf65-8d0002bf018b&CategoryNum=029002001003001" target="_blank" title="安庆菜子湖流域水污染防治项目湿地水生植物园子项目施工招标公告">安庆菜子湖流域水污染防治项目湿地水生植物园子项目施工招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-17
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=21a3ff3c-4b51-4384-806c-d973823786fb&CategoryNum=029002001003001" target="_blank" title="安徽省安庆市眉山采石厂矿山恢复治理工程施工招标公告">安徽省安庆市眉山采石厂矿山恢复治理工程施工招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-17
+                                </td>
+			</tr><tr valign="top" style="height:22px;">
+				<td align="center" valign="middle" style="border-style:None;width:15px;">
+                                    <img src="/Front/images/dots/dot26.jpg">
+                                </td><td align="left" valign="middle" style="border-style:None;">
+                                    <a href="/Front/InfoDetail/Default.aspx?InfoID=26b9999c-3998-476c-b832-35ccfafd8580jsgc&CategoryNum=029002001003001" target="_blank" title="安庆市大观区精细化工首位产业发展规划招标公告">安庆市大观区精细化工首位产业发展规划招标公告</a>
+                                </td><td align="center" valign="middle" style="border-style:None;width:80px;">
+                                    2017-08-17
+                                </td>
+			</tr>
+		</table>
+                </td>
+	</tr>
+	<tr>
+		<td height="8">
+                </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+                </td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+                    
+		<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+		<div id="MoreInfoList1_Pager" ShowInputBox="Never">
+<div align="left" style="width:40%;float:left;">
+	记录总数：<font color="blue"><b>1320</b></font> 总页数：<font color="blue"><b>66</b></font> 当前页：<font color="red"><b>2</b></font>
+</div><div align="left" style="width:60%;float:left;">
+	<a href="javascript:__doPostBack('MoreInfoList1$Pager','1')" style="margin-right:5px;"><img src="/Front/images/page/firstn.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','1')" style="margin-right:5px;"><img src="/Front/images/page/prevn.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','1')" style="margin-right:5px;"><img src="/Front/images/page/1n.gif" border="0" /></a><span style="margin-right:5px;"><img src="/Front/images/page/2r.gif" border="0" /></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" style="margin-right:5px;"><img src="/Front/images/page/3n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','4')" style="margin-right:5px;"><img src="/Front/images/page/4n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','5')" style="margin-right:5px;"><img src="/Front/images/page/5n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','6')" style="margin-right:5px;"><img src="/Front/images/page/6n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','7')" style="margin-right:5px;"><img src="/Front/images/page/7n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','8')" style="margin-right:5px;"><img src="/Front/images/page/8n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','9')" style="margin-right:5px;"><img src="/Front/images/page/9n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','10')" style="margin-right:5px;"><img src="/Front/images/page/1n.gif" border="0" /><img src="/Front/images/page/0n.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','11')" style="margin-right:5px;"><img src="/Front/images/page/moren.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" style="margin-right:5px;"><img src="/Front/images/page/nextn.gif" border="0" /></a><a href="javascript:__doPostBack('MoreInfoList1$Pager','66')" style="margin-right:5px;"><img src="/Front/images/page/lastn.gif" border="0" /></a>&nbsp;&nbsp;<input type="text" value="2" name="MoreInfoList1$Pager_input" id="MoreInfoList1$Pager_input" onkeydown="ANP_keydown(event,&#39;MoreInfoList1$Pager_btn&#39;);" style="width:30px;" /><input type="submit" value="go" name="MoreInfoList1$Pager" id="MoreInfoList1$Pager_btn" onclick="if(ANP_checkInput(&#39;MoreInfoList1$Pager_input&#39;,66)){__doPostBack(&#39;MoreInfoList1$Pager&#39;,&#39;&#39;)} else{return false}" />
+</div>
+</div>
+<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+
+
+                </td>
+</tr>
+<tr>
+	<td class="Xline2" height="3">
+                </td>
+</tr>
+</table>
+
+
+<script>
+var Tdname='MoreInfoList1'+"_tdcontent";
+document.getElementById(Tdname).className='MiddleBg'
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl00'];
+if (!theForm) {
+    theForm = document.ctl00;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+</form>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+               <!-- footer -->
+              <div class="footer">
+  <iframe src="/Front/Template/Default/ztbzx/pagefoot.htm" scrolling="no" frameborder="0" width="100%" height="132"></iframe>
+  </div>
+        </div>
+    </div>
+    <script src="/Front/Template/Default/ztbzx/js/jquery.placeholder.min.js"></script>
+    <script src="/Front/Template/Default/ztbzx/js/tree.js"></script>
+    <script src="/Front/Template/Default/ztbzx/js/tabview.js"></script>
+    <script src="/Front/Template/Default/ztbzx/js/xslider.js"></script>
+    <script src="/Front/Template/Default/ztbzx/js/step-scroll.js"></script>
+    <script src="/Front/Template/Default/ztbzx/js/viwepager.js"></script>
+    <script src="/Front/Template/Default/ztbzx/js/nav-alert.js"></script>
+    <script src="/Front/Template/Default/ztbzx/js/index.js"></script>
+</body>
+
+</html>

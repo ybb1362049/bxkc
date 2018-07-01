@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>甘肃政府采购网</title>
+<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache" />
+<link href="/newweb/css/K_page.css" rel="stylesheet" type="text/css" />
+<link href="/newweb/css/K_slide_0925.css" rel="stylesheet" type="text/css">
+<link href="/templet/xzfcgw/Skin_K/CSS/K_page.css" rel="stylesheet" type="text/css" />
+<script src="/newweb/js/jquery-1.8.2.min.js"></script><script src="/newweb/js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="/templet/xzfcgw/Skin_K/JS/print.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/pdfobject.js?ver=111"></script>
+<style type="text/css">
+<!--
+#pdf {
+	width: 100%;
+	height: 400px;
+	margin: 2em auto;
+	border: 1px solid #65452;
+}
+
+#pdf p {
+	padding: 1em;
+}
+
+#pdf object {
+	display: block;
+	border: solid 1px #123;
+}
+-->
+</style>
+<script type="text/javascript" language="javascript">
+		$(document).ready(function() {
+		   
+		    var url = "/upload/contract/20170830091804902.pdf";
+		    
+		    if(url!="")
+		    {
+		    		url = "/upload/contract/20170830091804902.pdf";
+		    }
+		   
+		     var success = new PDFObject({ url: url ,pdfOpenParams: { scrollbars: '0', toolbar: '0', statusbar: '0'}}).embed("pdf");
+	
+		
+			//文章详细被访问时，更新文章点击数
+			var id = $("#id").val();
+			$.ajax({
+				url : "/web/doClicks.action",
+				type : 'post',
+				cache : false,
+				dataType : 'json',
+				async : false, // 异步
+				data : "id=" + id,
+				timeout : 30000,
+				success : function(data) {
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+<!-- TOP S-->
+<div id="divPrint">
+<!-- Top S -->
+<div class="IndexTop">
+  <div class="TopInfo">
+    <div class="TopInfo_width">
+      <p> 甘肃省唯一指定甘肃省内政府采购信息网络发布媒体，所有省内政府采购公告以本网站发布为准</p>
+      <span>服务热线：18709427032</span></div>
+  </div>
+  <div class="Top_height_cls"> </div>
+  <!-- Top E --> 
+  <!-- Menu S -->
+  <div class="navBar">
+    <ul class="nav clearfix">
+      <li id="m1" class="m on">
+        <h3><a href="/index.html" target="_self">网站首页</a></h3>
+      </li>
+      <li id="m2" class="m">
+        <h3><a href="/web/article/128/0/index.html" target="_blank">采购公告</a></h3>
+       </li>
+      <li id="m3" class="m">
+        <h3><a href="/web/article/121/0/index.html" target="_blank">综合信息</a></h3>
+      </li>
+      <li id="m4" class="m">
+        <h3><a href="/web/article/124/0/index.html" target="_blank">政策法规</a></h3>
+      </li>
+      <li id="m5" class="m">
+        <h3><a href="/web/article/130/0/index.html" target="_blank">协议供货</a></h3>
+      </li>
+      <li id="m10" class="m">
+        <h3><a href="/web/article/142/0/index.html" target="_blank">定点采购</a></h3>
+      </li>
+      <li id="m6" class="m">
+        <h3><a href="/web/article/143/0/index.html" target="_blank">采购指南</a></h3>
+      </li>
+      <li id="m8" class="m">
+        <h3> <a href="/web/indexsp.html" target="_blank">购买服务</a></h3>
+      </li>
+      <li id="m9" class="m">
+        <h3> <a href="/web/indexppp.html" target="_blank">PPP频道</a></h3>
+      </li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript"> jQuery(".nav").slide({ type:"menu",  titCell:".m", targetCell:".sub", effect:"slideDown", delayTime:300, triggerTime:100,returnDefault:true  });</script> 
+<!-- Menu E --> 
+<!-- Menu E --> 
+
+<!--网站主体内容 S--> 
+<div class="Module">
+<!-- 栏目导向 star -->
+<div class="noSideContent" id="mainContent">
+        <div class="mainBox marTop">
+            <div class="pathWrap">
+                <div class="path">当前位置：<a href="http://www.ccgp-gansu.gov.cn/">甘肃政府采购网</a>
+                  &gt;&gt; <a href="/web/contract/0/index.html">合同公告</a>
+                   &gt;&gt; 正文内容</div>
+            </div>
+            <div class="mBd">
+                <div class="articleCon"> 
+                    <!-- 标题 -->
+                    <h2 class="title">天水市审计局审计数据服务项目<input type="hidden" id="id" value="id" /></h2>
+                    <h3 class="subTitle" align="center" >合同编号：DS20170821</h3> 
+                    
+                    <!-- 正文 -->
+                    
+                    <table  border="1" width="100%" >
+					      <tr style="background-color:#960000" align="center" height="40px;">
+		                     <td colspan="4"> <font size="3" color="#FFFFFF">合同基本情况</font>
+		                     </td>
+	                     </tr> 
+	                     
+	                     <tr  height="35px;">
+		                     <td width="12%">项目编号：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;TGJT2017-007
+		                     </td>
+		                    <td width="12%">项目名称：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;天水市审计局审计数据服务项目
+		                     </td>
+	                     </tr> 
+	                     
+	                     <tr  height="35px;">
+		                     <td width="12%">采购人：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;天水市审计局
+		                     </td>
+		                    <td width="12%">代理机构：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;天水市公共资源交易中心
+		                     </td>
+	                     </tr> 
+	                     
+	                     <tr  height="35px;">
+		                     <td width="12%">公告时间：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;2017-08-09
+		                     </td>
+		                    <td width="12%">供应商：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;陕西大山软件科技有限责任公司
+		                     </td>
+	                     </tr>
+	                     
+	                      <tr  height="35px;">
+		                     <td width="12%">行业：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;国家权力机构
+		                     </td>
+		                    <td width="12%">关联中标/成交公告标题：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;<a href="天水市审计局审计数据服务项目" target="_blank">天水市审计局审计数据服务项目</a>
+		                     </td>
+	                     </tr>
+	                     
+	                     
+						  
+	                     <tr  height="35px;">
+		                     <td width="12%">签订日期：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;2017-08-09
+		                     </td>
+		                      <td width="12%">合同总金额：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;33.5（万元）
+		                     </td>
+	                     </tr> 
+						  
+	                     
+                     </table> 
+                     
+                     <!--合同扩展信息-->
+                     
+                     <table  border="1" width="100%" style="margin-top:3%">
+                     		<tr style="background-color:#960000" align="center" height="40px;">
+		                     <td colspan="4"> <font size="3" color="#FFFFFF">合同扩展信息</font>
+		                     </td>
+	                     </tr> 
+                     		
+                     	<tr  height="35px;">
+		                     <td width="12%">是否为ppp：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;
+		                     </td>
+		                    <td width="12%">是否联合体：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;
+		                     </td>
+	                     </tr>
+	                     
+	                     <tr  height="35px;">
+		                     <td width="12%">牵头单位：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;
+		                     </td>
+		                    <td width="12%">组成单位：
+		                     </td>
+							 <td width="38%">&nbsp;&nbsp;
+		                     </td>
+	                     </tr>
+                     </table>
+                     
+                     <div id="pdf" >
+						<a href=""></a>
+					</div>
+					<div class="property2" style=" text-align:left"> 
+                   <a style="margin-left:10px; cursor:pointer;" href="/upload/contract/20170830091804902.pdf" target="_blank">点击下载合同附件</a>
+                   </div>
+                    <div class="property2"><span>[<a href="javascript:printme()">打印文章</a>]</span> <span>[<a class="a" title="添加收藏" href="javascript:void(0)" onclick="shouCang(window.location,document.title)">添加收藏</a>]</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 栏目导向 end --> 
+<div class="cl marBot"></div>
+</div>
+
+<!-- 页脚 S-->
+<!-- 页脚 S-->
+<div id="footer">
+  <div class="footLink">
+    <div class="siteWidth"> <a href="javascript:void(0)" onclick="javascript:SetHomeFoot(this,&#39;http://www.gszfcg.gansu.gov.cn/&#39;)" title="把甘肃政府采购网设为主页"> 设为首页 </a> <span class="spe"> | </span> <a href="javascript:void(0)" onclick="javascript:shouCangFoot(&#39;http://www.gszfcg.gansu.gov.cn/&#39;,&#39;甘肃政府采购网&#39;)" title="把甘肃政府采购网加入收藏夹"> 收藏本站 </a> <span class="spe"> | </span> <a href="/web/contactus.html" target="_blank"> 联系我们 </a> </div>
+  </div>
+  <div class="copyright">
+    <div class="siteWidth" style="font-size:14px;font-weight:bolder;"> 统计：今日访问 <span id="todayT">
+                0
+            </span> 次，总计 <span id="totalT">
+                0
+            </span> 人次 
+      <script type="text/javascript">
+                $(document).ready(function() {
+                    //网站访问总次数与当天访问次数统计
+                    $.ajax({
+                        url: "/web/doSiteCounter.action",
+                        type: 'post',
+                        cache: false,
+                        dataType: 'json',
+                        async: false,
+                        // 异步
+                        timeout: 30000,
+                        success: function(data) {
+                            if (data.msg != "") {
+                                var s = data.msg.split("-");
+                                document.getElementById('todayT').innerHTML = s[0];
+                                document.getElementById('totalT').innerHTML = s[1];
+                            }
+                        }
+                    });
+                });
+            </script> 
+    </div>
+    <div class="siteWidth"> 版权所有：甘肃政府采购网 Copyright © 2015 - 2018 All Rights Reserved 陇ICP备15002215号 <br>
+      联系电话：0931-8899904 联系地址：甘肃省兰州市东岗西路696号 <br>
+    </div>
+    <div>
+    <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/28/000/0000/40810585/CA280000000408105850002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+  </div>
+  <div class="footerLinks"> </div>
+</div>
+
+<script type="text/javascript">
+    // 设置为主页 
+    function SetHomeFoot(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)';
+            obj.setHomePage(vrl);
+        } catch(e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                } catch(e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            } else {
+                alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：" + vrl + "点击确定。");
+            }
+        }
+    }
+    // 加入收藏 兼容360和IE6 
+    function shouCangFoot(sURL, sTitle) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        } catch(e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            } catch(e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+</script>
+<!-- 页脚 E--><!-- 页脚 E-->
+<script type="text/javascript">  jQuery(function($) { heightFix(".side",".mainContent .conTxt","-",310); }); </script> 
+<script language="javascript" type="text/javascript">
+
+jQuery("#fontzoom img").each(function(){
+	var img=jQuery(this); img.hide();
+	var imgInt=setInterval( function(){
+		if(img.width()>0){
+			clearInterval(imgInt);
+			if(img.width()>650){ img.width(650).css({cursor:"pointer",height:"auto"}).click(function(){window.open(img.attr('src'), "_blank")});}
+			img.show();
+		}
+	},50 );
+ });
+
+//更改字体大小
+var status0='';
+var curfontsize=10;
+var curlineheight=18;
+function fontZoomA(){
+  if(curfontsize>8){
+    document.getElementById('fontzoom').style.fontSize=(--curfontsize)+'pt';
+	document.getElementById('fontzoom').style.lineHeight=(--curlineheight)+'pt';
+  }
+}
+function fontZoomB(){
+  if(curfontsize<64){
+    document.getElementById('fontzoom').style.fontSize=(++curfontsize)+'pt';
+	document.getElementById('fontzoom').style.lineHeight=(++curlineheight)+'pt';
+  }
+}
+</script>
+</div>
+</body>
+</html>

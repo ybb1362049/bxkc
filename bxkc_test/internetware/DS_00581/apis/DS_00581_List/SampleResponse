@@ -1,0 +1,494 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie6" lang="zh-cn"><![endif]-->
+<!--[if IE 7 ]><html class="ie7" lang="zh-cn"><![endif]-->
+<!--[if IE 8 ]><html class="ie8" lang="zh-cn"><![endif]-->
+<!--[if IE 9 ]><html class="ie9" lang="zh-cn"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="" lang="zh-cn"><!--<![endif]-->
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	资阳市公共资源交易网
+</title><meta name="keywords" /><meta name="description" /><meta name="renderer" content="webkit" /><link type="text/css" rel="stylesheet" href="/Style/Default/Css/default.css" /><link type="text/css" rel="stylesheet" href="/Style/Ziyang_OldStyle/Css/default.width.css" ><link type="text/css" rel="stylesheet" href="/Style/Ziyang_OldStyle/Css/default.css" ><link href="/Css/Js.css" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 8]>
+	<script src="/Js/json2.js" type="text/javascript"></script>
+	<![endif]-->
+    <script type="text/javascript" src="/Js/string.js"></script>
+    <script src="/Js/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Js/Js.js"></script>
+    <script type="text/javascript">
+        function search() {
+            var $input = $("#txtSearchContent");
+            if ($input.val() == $input.attr("keyword")) {
+                alert("请先输入要搜索的关键字");
+                return;
+            }
+            window.location.href = '/Content/603_1/Search/' + $input.val();
+        }
+    </script>
+    
+    <style type="text/css">
+		.box-header{background-image:none;height:28px;}
+		.tabs{top:auto;bottom:0;}
+		.btl-title:hover,
+<--.btl-title.hover{min-width:89%;}-->
+.pc-center{margin:0 auto 0 242px;}
+
+    </style>
+
+    
+    <style id="projectstatusstyle"></style>
+    <script type="text/javascript">
+        var noticeArray = [];
+    </script>
+</head>
+<body>
+    <form method="post" action="603_2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59CCAB63" />
+</div>
+        
+<div class="toolbar Ziyang_OldStyle-toolbar">
+	<div class="layout">
+		<span class="tool-title">资阳市公共资源交易中心欢迎您！</span>
+        
+		<div class="fr">
+            
+		</div>
+	</div>
+</div>
+
+        <div class="swfbar">
+			<div class="layout swf-layout">
+				<div class="swf-file">
+					<div style="position:absolute;top:71px;right:150px;z-index:9;">
+						<object id="Object5" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="379" height="93">
+							<param name="movie" value="">
+							<param name="quality" value="high">
+							<param name="wmode" value="transparent">
+							<param name="swfversion" value="6.0.65.0">
+							<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+							<param name="expressinstall" value="../../Scripts/expressInstall.swf">
+							<!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+							<!--[if !IE]>-->
+							<object type="application/x-shockwave-flash" data="./Style/Ziyang/Images/nkwz.swf" width="379" height="93">
+								<!--<![endif]-->
+								<param name="quality" value="high">
+								<param name="wmode" value="transparent">
+								<param name="swfversion" value="6.0.65.0">
+								<param name="expressinstall" value="../../Scripts/expressInstall.swf">
+								<!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+								<div>
+									<h4>
+										此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+									<p>
+										<a href="http://www.adobe.com/go/getflashplayer">
+											<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33">
+										</a>
+									</p>
+								</div>
+								<!--[if !IE]>-->
+							</object>
+							<!--<![endif]-->
+						</object>
+					</div>
+				</div>
+			</div>
+		</div>
+    
+
+
+<!-- Navbar -->
+   
+        <div class="navbar">
+            <div class="nav">
+                <ul class="nav-group songti">
+                    <li class="nav-active first"><a href="/">首页</a></li>
+                    <li class="    "><a href="/Content/800_1">机构概况</a></li>
+                    <li class="    "><a href="/Content/56_1">工作动态</a></li>
+                    <li class="    "><a href="/Content/36_1">政策法规</a></li>
+                    <li class="    "><a href="/Content/35_1">办事指南</a></li>
+                    <li class="    "><a href="/Content/37_1">下载中心</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+        
+    <div style="background-color:#fff;padding-top:12px;">
+    
+<div class="searchbar mt1 z-index2">
+	<div class="layout">
+        <span class="fl pl10">
+        
+		<span style="padding-right:15px;">欢迎您访问资阳市公共资源交易网</span>
+        
+        今天是：2017年08月21日 星期一</span>
+        
+
+		<div class="search-in-tools fr">
+			<label class="search-in-title">站内搜索</label>
+			<input id="txtSearchContent" type="text" autocomplete="off" id="txtBossName" class="text search-in-text" 
+					style="color: rgb(146, 146, 146); background-color: rgb(255, 255, 255);" 
+					maxlength="50" keyword="关键字" 
+					onfocus="if(this.value==this.getAttribute('keyword')){this.value='';this.style.color='#333333'}" 
+					onblur="if(this.value==''){this.value=this.getAttribute('keyword');this.style.color='#929292'}" 
+					value="">
+            <script type="text/javascript">
+                $(function () {
+                    $("#txtSearchContent").keydown(function () {
+                        if (event.keyCode == 13) {
+                            search();
+                            return false;
+                        }
+                    });
+                });
+            </script>
+            <input class="search-in-button" type="button" onclick="search()">
+		</div>
+	</div>
+</div>
+    <div class="layout mt12">
+		<div class="fl pc-left" style="width:225px;">
+			
+<style type="text/css"></style>
+<div class="ui-side-menu" style=height:636px;background-color:#f4f4f4;">
+    <div class="usm-menus">
+        <ul class="ui-side">
+            <li class="extend">
+                <div class="usi-children">
+                    <ul class="ui-side">
+                        
+                                <li class="li_nav_list nticon603">
+                                    <a href="/Content/603_1" name=""  class="hover">
+                                        <span>采购公告</span>
+                                        <i style="display:none;" id="nticon_icon603" class="li-item-ext-ico"></i>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li class="li_nav_list nticon604">
+                                    <a href="/Content/604_1" name=""  class="">
+                                        <span>结果预公告</span>
+                                        <i style="display:none;" id="nticon_icon604" class="li-item-ext-ico"></i>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li class="li_nav_list nticon605">
+                                    <a href="/Content/605_1" name=""  class="">
+                                        <span>结果公告</span>
+                                        <i style="display:none;" id="nticon_icon605" class="li-item-ext-ico"></i>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li class="li_nav_list nticon606">
+                                    <a href="/Content/606_1" name=""  class="">
+                                        <span>更正公告</span>
+                                        <i style="display:none;" id="nticon_icon606" class="li-item-ext-ico"></i>
+                                    </a>
+                                    
+                                </li>
+                            
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+		</div>
+		<div class="pc-center">
+			<div id="web_pohf_box songti" class="web-pof">
+                <span id="ctl00_web_pohf"> 当前位置：<a href="/">首页</a>&nbsp;&gt;&nbsp;<a class="" href="/Content/600_1">采购公告</a>&nbsp;&gt;&nbsp;<a class="active" href="/Content/603_1">采购公告</a>
+            </div>
+			<div class="box-frame mt12" style="border-top:0;">
+                <div class="box-header" style="text-align:left;border-left:0;border-right:0;">
+					<ul class="tabs tabs-border-none tabs-background-none">
+						<li class="active"><a href="#">采购公告</a></li>
+					</ul>
+				</div>
+				<div class="box-container" style="border-left:0;border-right:0;">
+					<div class="box-text-list" style="height:513px;">
+						<ul>
+                        
+                                <li><span class="btl-time fr">2017-07-17</span>
+                                <span class="zt-title" id="24071_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="24071_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/24071">[公开招标]资阳市人民防空办公室采购家庭应急包</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('24071' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-07-17</span>
+                                <span class="zt-title" id="24070_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="24070_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/24070">[公开招标]资阳市公安局经济开发区分局采购警用装备</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('24070' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-07-17</span>
+                                <span class="zt-title" id="24069_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="24069_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/24069">[公开招标]资阳市公安局经济开发区分局采购辅警服装</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('24069' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-07-13</span>
+                                <span class="zt-title" id="24060_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="24060_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/24060">[询价采购]资阳市第一人民医院采购办公设备</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('24060' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-07-10</span>
+                                <span class="zt-title" id="24053_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="24053_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/24053">[竞争性谈判]资阳市科学技术协会采购科普e站集成设备</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('24053' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-07-04</span>
+                                <span class="zt-title" id="24033_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="24033_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/24033">[公开招标]资阳市人民政府办公室采购资阳市2017年度政府网站监测服务</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('24033' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-07-03</span>
+                                <span class="zt-title" id="24028_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="24028_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/24028">[询价采购]资阳市第一人民医院采购办公设备</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('24028' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-27</span>
+                                <span class="zt-title" id="24005_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="24005_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/24005">[询价采购]资阳市疾病预防控制中心采购防火墙</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('24005' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-22</span>
+                                <span class="zt-title" id="23995_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23995_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23995">[竞争性谈判]资阳市公安局雁江区分局采购高清多点控制及电视电话会议终端设备</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23995' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-21</span>
+                                <span class="zt-title" id="23991_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23991_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23991">[竞争性谈判]资阳市安全生产监督管理局采购办公设备</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23991' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-20</span>
+                                <span class="zt-title" id="23987_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23987_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23987">[询价采购]资阳市第一人民医院采购办公设备</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23987' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-19</span>
+                                <span class="zt-title" id="23984_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23984_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23984">[竞争性谈判]资阳市建设监察支队采购汽车</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23984' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-12</span>
+                                <span class="zt-title" id="23964_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23964_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23964">[竞争性谈判]资阳市地方税务局采购高清视频监控</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23964' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-09</span>
+                                <span class="zt-title" id="23949_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23949_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23949">[竞争性磋商]资阳市图书馆采购青少年儿童阅读中心设备</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23949' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-09</span>
+                                <span class="zt-title" id="23948_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23948_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23948">[竞争性谈判]资阳市建设监察支队采购汽车</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23948' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-05</span>
+                                <span class="zt-title" id="23893_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23893_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23893">[公开招标]资阳市疾病预防控制中心常用检验试剂价格招标</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23893' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-05</span>
+                                <span class="zt-title" id="23892_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23892_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23892">[公开招标]资阳市园林绿化管理处采购九曲河时代资阳段景观桥桥面修缮材料</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23892' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-05</span>
+                                <span class="zt-title" id="23891_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23891_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23891">[竞争性谈判]资阳市建设监察支队采购汽车</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23891' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-06-02</span>
+                                <span class="zt-title" id="23889_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23889_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23889">[公开招标]资阳市机关事务管理局采购市级机关办公区保洁和保安服务</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23889' || 0);
+                                </script>
+                            
+                                <li><span class="btl-time fr">2017-05-27</span>
+                                <span class="zt-title" id="23886_INFO"    style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <span class="gz-title" id="23886_INFO_GZ" style="height:25px;float:right;font-size:12px;color:#333;padding:0 5px;color:#F60;"></span>
+                                <a class="btl-title text-ellipsis" href="/Content/603_1/23886">[公开招标]资阳市疾病预防控制中心采购快速药敏检测设备</a></li>                                
+                                <script type="text/javascript">
+                                    noticeArray.push('23886' || 0);
+                                </script>
+                            
+						</ul>
+					</div>
+				</div>
+            </div>
+            <div class="pager" style="padding-top:20px;text-align:center;">
+                共计518条&nbsp;<a href='/Content/603_1'>上一页</a>&nbsp;<a href='/Content/603_1'>1</a> <strong><font color='red'>2</font></strong> <a href='/Content/603_3'>3</a> <a href='/Content/603_4'>4</a> <a href='/Content/603_5'>5</a> <a href='/Content/603_6'>6</a> &nbsp;<a href='/Content/603_3'>下一页</a>&nbsp;<a href='/Content/603_26'>最后一页</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        //            $(function () {
+        //                $("#slides").slidesjs({
+        //                    width: 334,
+        //                    height: 237
+        //                });
+        //            });
+
+        $(function () {
+            $.ajax({
+                type: "GET",
+                contentType: "application/json",
+                url: ("/Handler/Project.ashx?Flag=GetBidNoticeProjectState&noticeids=" + noticeArray.join(",")),
+                success: function (data) {
+                    var a = data.split(",");
+                    var info_width = 0;
+                    var info_id = 0;
+                    for (var i = 0; i < a.length; i++) {
+                        var b = a[i].split("-");
+
+                        if (b.length > 1) {
+                            info_id = b[0];
+                            var info_width_b = b[1].toString().length;
+                            if (info_width < info_width_b) {
+                                info_width = info_width_b;
+                                //info_width = info_width * 12;
+                            }
+
+                            $("#" + b[0] + "_INFO").html(b[1]);
+                            $("#" + b[0] + "_INFO").attr("title", b[1]).addClass("text-ellipsis");
+                        }
+                    }
+                    if (info_width > 15)
+                        info_width = 15;
+
+                    $("#" + info_id + "_INFO").parents("ul:eq(0)").addClass("zt" + info_id);
+                    $('#projectstatusstyle').append(".zt" + info_id + " .zt-title{width:" + (info_width * 12) + "px;}");
+
+                },
+                error: function (e) {
+                    js.screen(false);
+                }
+            });
+
+            $.ajax({
+                type: "GET",
+                contentType: "application/json",
+                url: ("/Handler/Project.ashx?Flag=GetBidNoticeCorrectionNotice&noticeids=" + noticeArray.join(",")),
+                success: function (data) {
+                    var a = data.split(",");
+                    var info_width = 0;
+                    var info_id = 0;
+                    for (var i = 0; i < a.length; i++) {
+                        var b = a[i].split("-");
+
+                        if (b.length > 1) {
+                            info_id = b[0];
+                            info_width = ('更正公告'.length) * 12;
+                            $("#" + b[0] + "_INFO_GZ").html('<a target="_blank" style="color:#2A61CB;" href="/Content/' + b[1] + '_1/' + b[2] + '">更正公告</a>');
+                        }
+                    }
+
+                    $("#" + info_id + "_INFO_GZ").parents("ul:eq(0)").addClass("gz" + info_id);
+                    $('#projectstatusstyle').append(".gz" + info_id + " .gz-title{width:" + info_width + "px;}");
+
+                },
+                error: function (e) {
+                    js.screen(false);
+                }
+            });
+        }) 
+        </script>
+
+        
+<div class="copyright-info copyrightbar mt12">
+	<div class="layout" style="text-align:center;padding:0;">
+        <div style="width:1140px;margin:0 auto;">
+            <div class="center-pic">
+                <img class="fl" src="/Style/Ziyang_OldStyle/Images/foot_logo.jpg" title="四川省资阳市公共资源交易中心" />
+                <img class="fr" style="width:1px;height:120px;" src="/Style/Ziyang_OldStyle/Images/foot_jg.jpg"/>
+            </div>
+            <div class="fl ta-left" style="line-height:20px;">
+                <div style="padding-top:20px;padding-left:10px;color:#000;">资阳市公共资源交易中心主办 邮政编码：641300，电话：028-26630937；传真：028-26630937</br>
+                Copyright 2010-2011 资阳市公共资源交易中心主办 All Rights Reserved</br>
+                建议分辨率 1024*768
+                </div>
+            </div>
+            <div class="fr" style="padding-top:25px;">
+                <div>
+                    <img src="/Style/Ziyang_OldStyle/Images/ga.gif" />
+                    <img src="/Style/Ziyang_OldStyle/Images/ico3.gif" />
+                </div>
+                <div class="fs14 yahei" style="color:#0055aa;">
+                    蜀ICP备05030988号
+                </div>
+            </div>
+                 <div  style="display:inline;margin-top: 16px; float: right;"><script type="text/javascript">
+                 document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/350/0000/60496064/CA233500000604960640002.js ' type='text/javascript'%3E%3C/script%3E"));</script>
+                 </div>
+	</div>
+</div>
+
+
+    </form>
+</body>
+</html>

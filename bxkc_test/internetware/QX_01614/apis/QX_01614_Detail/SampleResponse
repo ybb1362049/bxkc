@@ -1,0 +1,624 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height:100%">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>公开选择温氏一体化养猪-钢结构建设项目招标代理机构公告</title>
+<link href="/images/nry.css" rel="stylesheet" ignore="1" />
+<script type="text/javascript" src="/images/jquery-1.9.1.min.js" ignore="1"></script>
+<script type="text/javascript" src="/images/jquery.SuperSlide.2.1.1.js" ignore="1"></script>
+<script type="text/javascript" src="/images/tools.js"></script>
+<script src="/tools/js/layer/layer.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+        //取图片进行地址转换，主要为了兼容历史数据
+        function formatImgUrl(_imgUrl) {
+            formatImgUrl(_imgUrl, "347", "249");
+        }
+        function formatImgUrl(_imgUrl, _width, _height, _imgTitle) {
+            if (_width == null || _width == "") {
+                _width = 347
+            }
+            ;
+            if (_height == null || _height == "") {
+                _height = 249
+            }
+            ;
+            var str = _imgUrl;
+            var arr = new Array();
+            arr = str.toString().split(";");
+            var image = arr[0];
+            var s3 = image.substr(0, 2);
+            if (s3 == "P0") {
+                var httphead = "/protect/";
+                var s1 = image.substr(0, 8);
+                var s2 = image.substr(0, 10);
+                httphead += s1 + "/" + s2 + "/" + image;
+                document.write('<img src="' + httphead + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            } else if (s3 == "W0") {
+                var httphead = "/webpic/";
+                var s1 = image.substr(0, 8);
+                var s2 = image.substr(0, 10);
+                httphead += s1 + "/" + s2 + "/" + image;
+                document.write('<img src="' + httphead + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            } else {
+                document.write('<img src="' + _imgUrl + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            }
+        }
+    </script>
+
+<script type="text/javascript"> 
+// 设置为主页 
+function SetHome(obj,vrl){ 
+try{ 
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl); 
+} 
+catch(e){ 
+if(window.netscape) { 
+try { 
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+} 
+catch (e) { 
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。"); 
+} 
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
+prefs.setCharPref('browser.startup.homepage',vrl); 
+}else{ 
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。"); 
+} 
+} 
+} 
+// 加入收藏 兼容360和IE6 
+function shoucang(sTitle,sURL) 
+{ 
+try 
+{ 
+window.external.addFavorite(sURL, sTitle); 
+} 
+catch (e) 
+{ 
+try 
+{ 
+window.sidebar.addPanel(sTitle, sURL, ""); 
+} 
+catch (e) 
+{ 
+alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+} 
+} 
+} 
+</script>
+<style>
+.contener {
+    width: 1160px;
+
+    background: #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.body_contenter {
+    margin: 10px auto;
+   
+}
+</style>
+<script type="text/javascript">
+function fontResizer(smallFont,medFont,largeFont){
+	
+	function clearSelected(){
+		$(".smallFont").removeClass("curFont");
+		$(".medFont").removeClass("curFont");
+		$(".largeFont").removeClass("curFont");
+	}
+	
+	function saveState(curSize){
+		var date = new Date();
+		date.setTime(date.getTime()+(7*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+		document.cookie = "fontSizer"+"="+curSize+expires+"; path=/";
+	}
+
+	$(".smallFont").click(function(){
+		$('#Zoom').css('font-size', smallFont);
+		clearSelected();
+		$(".smallFont").addClass("curFont");
+		saveState(smallFont);
+	});
+
+	$(".medFont").click(function(){
+		$('#Zoom').css('font-size', medFont);
+		clearSelected();
+		$(".medFont").addClass("curFont");
+		saveState(medFont);
+	});
+
+	$(".largeFont").click(function(){
+		$('#Zoom').css('font-size', largeFont);
+		clearSelected();
+		$(".largeFont").addClass("curFont");
+		saveState(largeFont);
+	});
+
+	function getCookie(c_name){
+		if(document.cookie.length>0){
+			c_start=document.cookie.indexOf(c_name + "=");
+			if (c_start!=-1){
+				c_start=c_start + c_name.length+1;
+				c_end=document.cookie.indexOf(";",c_start); 
+				if(c_end==-1)c_end=document.cookie.length;
+				return unescape(document.cookie.substring(c_start,c_end));
+			}
+		} 
+		return "";
+	}
+
+	var savedSize = getCookie('fontSizer');
+
+	if(savedSize!=""){
+		$('#Zoom').css('font-size', savedSize);
+		switch(savedSize){
+			case smallFont: $(".smallFont").addClass("curFont");
+			break;
+			case medFont: $(".medFont").addClass("curFont");
+			break;
+			case largeFont: $(".largeFont").addClass("curFont");
+			break;
+			default: $(".medFont").addClass("curFont");
+		}
+	}else {
+		$('#Zoom').css('font-size', medFont);
+		$(".medFont").addClass("curFont");
+	}
+	
+}
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+	fontResizer('10px','14px','16px');
+});
+</script>
+<script type="text/javascript">
+      function GoTo() {
+          window.open("/syqt/wzjc/?StrUrl=" + document.URL);
+      }
+</script>
+</head>
+
+<body>
+<script src="/tools/js/layer/layer.js" type="text/javascript"></script>
+<style>
+.header .nav1 ul li a {
+    color: #888888;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.header .nav2 {
+    min-height: 111px; 
+    width: 100%;
+    margin: 0 auto;
+    background-size: contain;
+}
+.header .nav2 .list_2 .search {
+    height: 34px;
+    width: 385px;
+    position: absolute;
+    left: 400px;
+    top: 40px;
+}
+.header .nav2 .list_2 .wbwx {
+    width: 185px;
+    height: 24px;
+    position: absolute;
+    right: -25px;
+    top: 33px;
+}
+.header .nav2 .list_2 {
+    width: 1005px;
+    margin-left: -515px;
+    min-height: 111px;
+    position: relative;
+    left: 50%;
+}
+.header .nav2 {
+    background-size: cover;
+}
+
+.header .nav3 {
+    width: 100%;
+    height: 40px;
+    background: #3188d2;
+}
+
+.NewsList ul li {
+    text-align: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 30px;
+}
+
+.header .nav3 .list_3 li img {
+    vertical-align: middle;
+    height: 36px;
+    margin-bottom: 5px;
+    ransition: transform 0.7s ease-out 0s;
+    -moz-transition: transform 0.7s ease-out 0s;
+    -webkit-transition: transform 0.7s ease-out 0s;
+}
+
+
+.header .nav4 {
+    width: 945px;
+    margin: 0 auto;
+    height: 30px;
+    overflow: hidden;      
+}
+.header .nav4 ul{ margin:0;}
+.header .nav1 {
+    background: #fcfcfc;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.header .nav2 .list_2 .search input {
+    border: 0;
+    height: 27px;
+    width: 340px;
+    float: left;
+    margin: 3px 0 0 5px;
+    font-size: 14px;
+    text-indent: 0.5em;
+    *margin-top:6px;
+}
+.wbwx .li02{ margin-top:0px;margin-left:5px;}
+.wbwx .li03{ margin-top:-3px;}
+
+</style>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=779" async="async" defer="defer"></script>
+
+
+<script type="text/javascript"> 
+// 设置为主页 
+function SetHome(obj,vrl){ 
+try{ 
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl); 
+} 
+catch(e){ 
+if(window.netscape) { 
+try { 
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+} 
+catch (e) { 
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。"); 
+} 
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
+prefs.setCharPref('browser.startup.homepage',vrl); 
+}else{ 
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。"); 
+} 
+} 
+} 
+// 加入收藏 兼容360和IE6 
+function shoucang(sTitle,sURL) 
+{ 
+try 
+{ 
+window.external.addFavorite(sURL, sTitle); 
+} 
+catch (e) 
+{ 
+try 
+{ 
+window.sidebar.addPanel(sTitle, sURL, ""); 
+} 
+catch (e) 
+{ 
+alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+} 
+} 
+} 
+</script>
+<script type="text/javascript">
+
+        //取图片进行地址转换，主要为了兼容历史数据
+        function formatImgUrl(_imgUrl) {
+            formatImgUrl(_imgUrl, "347", "249");
+        }
+        function formatImgUrl(_imgUrl, _width, _height, _imgTitle) {
+            if (_width == null || _width == "") {
+                _width = 347
+            }
+            ;
+            if (_height == null || _height == "") {
+                _height = 249
+            }
+            ;
+            var str = _imgUrl;
+            var arr = new Array();
+            arr = str.toString().split(";");
+            var image = arr[0];
+            var s3 = image.substr(0, 2);
+            if (s3 == "P0") {
+                var httphead = "/protect/";
+                var s1 = image.substr(0, 8);
+                var s2 = image.substr(0, 10);
+                httphead += s1 + "/" + s2 + "/" + image;
+                document.write('<img src="' + httphead + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            } else if (s3 == "W0") {
+                var httphead = "/webpic/";
+                var s1 = image.substr(0, 8);
+                var s2 = image.substr(0, 10);
+                httphead += s1 + "/" + s2 + "/" + image;
+                document.write('<img src="' + httphead + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            } else {
+                document.write('<img src="' + _imgUrl + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            }
+        }
+    </script>
+
+
+<!-- 检索跳转 -->
+<script>
+$(function() {
+    $('#j_search_btn').click(function() {
+        var str = $(this).prev().val();
+        checks(str);
+    });
+});
+function checks(t) {
+    t = t.replace(/(^\s+)|(\s+$)/g, "");
+    if (t == "" || t == "请输入关键检索字") {
+        alert('请输入有效内容');
+        return false;
+    }
+    szMsg = "[#_%&'/",
+    ";:=!^]";
+    alertStr = "";
+    for (i = 1; i < szMsg.length + 1; i++) {
+        if (t.indexOf(szMsg.substring(i - 1, i)) > -1) {
+            alertStr = "请勿包含非法字符如[#_%&'/",
+            ";:=!^]";
+            alert(alertStr);
+            // break;
+            return false;
+        }
+    }
+    var key = document.getElementById("keyword").value;
+    window.location.href = "/search.html?keyword=" + key;
+    return true;
+}
+</script>
+
+
+<div class="header" style="position: relative">
+    <div class="nav1">
+        <div class="list_1">
+            <ul class="f_l" style="margin-left: 80px">
+                <li><a href="http://www.gov.cn/" target="_blank" >国务院</a></li>
+                <li class="m8">|</li>
+                <li><a href="http://www.gzgov.gov.cn/" target="_blank">省政府</a></li>
+                <li class="m8">|</li>
+                <li><a href="http://www.gzlps.gov.cn/" target="_blank">市政府</a></li>
+     <!--           <li class="m8">|</li>
+                <li><a href="http://rd.shuicheng.gov.cn/" target="_blank">县人大</a></li>
+                <li class="m8">|</li>
+                <li><a href="http://zx.shuicheng.gov.cn/" target="_blank">县政协</a></li> -->
+            </ul>
+            <ul class="f_r">
+                <li><a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a></li>
+                <li class="m8">|</li>
+                <li><a href="javascript:void(0)" onclick="shoucang(document.title,window.location)">加入收藏</a></li>
+                <li class="m8">|</li>
+                <li><a href="http://www.shuicheng.gov.cn/syqt/rssdy/">RSS订阅</a></li>
+         <!--       <li class="m8">|</li>
+                <li><a href="#">移动手机</a></li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="nav2">
+        <div class="list_2">
+            <img src="/images/logo.png" alt="" ignore="1" style="margin-top: 10px;" />
+
+            <div class="search">
+                <input type="text" class="input" value="请输入关键检索字" id="keyword" onblur="if(this.value==''){this.value='请输入关键检索字';}" onfocus="javascript:if(this.value=='请输入关键检索字')this.value='';" style="outline:medium;" />
+
+                <a href="javascript:;" id="j_search_btn" class="f_l"><img src="/images/index_12.png" alt="" class="img_3" ignore="1" /></a>
+            </div>
+            <ul class="wbwx">
+  <!--<li class="li02"><a href="http://t.qq.com/shuichengxian" target="_blank"><img style="width: 28px;margin-top: -4px;"src="/images/wb_170112.png" alt="" ignore="1" /></a></li>-->           
+  <li class="li03"><a href="javascript:;" class="wx" ><img style="margin-top:2px;"src="/images/wx_170112.png" alt="" ignore="1" /></a></li>
+  <li class="li03"><a href="javascript:;" class="app" ><img src="/images/app_170112.png" alt="" ignore="1" /></a></li>
+
+ <li class="li01" style="margin-top: 16px;"><a href="/wzgn/xmt/"><img src="/images/mt_170112.png" alt="" ignore="1" /></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav3">
+        <ul class="list_3">
+            <li class="nav_01"><a href="/"><i></i>首页</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_02"><a href="/xxgk/"><i></i>政务</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_03"><a href="/zxfw/"><i></i>服务</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_04"><a href="/hdjl/"><i></i>互动</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_05"><a href=" http://www.shuicheng.gov.cn/ztzl/"><i></i>专栏</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_06"><a href=" http://www.shuicheng.gov.cn/zjsc/"><i></i>县情</a></li>
+        </ul>
+    </div>
+    <div class="nav4">
+        <ul>
+            <li class="f_l" style="height:30px;line-height:27px;*line-height:27px;font-size:14px;/*font-weight: bold;*/">欢迎访问水城县政府门户网站</li>
+            <li class="f_r" style="height:30px;"> <iframe style="*margin-top:5px;" src="http://www.thinkpage.cn/weather/weather.aspx?uid=UD1F3466FC&cid=CHGZ070000&l=zh-CHS&p=SMART&a=0&u=C&s=7&m=0&x=1&d=0&fc=&bgc=&bc=&ti=1&in=0&li=" frameborder="0" scrolling="no" width="300" height="20" allowTransparency="true"></iframe> </li>
+
+        </ul>
+    </div>
+
+
+</div>
+
+<script type="text/javascript">
+    jQuery('.wx').on('click', function () {
+        layer.open({
+            type: 1,
+            area: ['445px', '445px'],
+            title: false, //不显示标题
+            shadeClose: true,
+            content: '<img src="/images/ewm.png" alt="" ignore="1" />'
+        });
+    });
+</script>
+<script type="text/javascript">
+    jQuery('.app').on('click', function () {
+        layer.open({
+            type: 1,
+            area: ['170px', '170px'],
+            title: false, //不显示标题
+            shadeClose: true,
+            content: '<img src="/images/appBj2.png" alt="" ignore="1" />'
+        });
+    });
+</script>
+  <div class="container w1080"><div class="wzdh">
+            <img src="../../../images/zw_03.png" alt="" class="f_l" />
+            您当前的位置：<a href="../../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&raquo;&nbsp;<a href="../../" title="政务新闻" class="CurrChnlCls">政务新闻</a>&nbsp;&raquo;&nbsp;<a href="../" title="通知公告" class="CurrChnlCls">通知公告</a>
+        </div></div>
+  <div class="body_contenter w1080">
+  	 <div class="title"><h1>公开选择温氏一体化养猪-钢结构建设项目招标代理机构公告</h1></div>
+     <div class="toolbar">字体：<span class="smallFont">小</span><span class="medFont">中</span><span class="largeFont curFont">大</span> &emsp;&emsp;<a href="javascript:window.print();">打印本页</a> <a href="javascript:window.opener=null;window.close()">关闭本页</a> &emsp;&emsp;
+	 <script type="text/javascript">
+		var  pubdata='2018-05-07';
+		if(pubdata!=''){
+		document.write('发布时间：'+pubdata);
+		}
+	 </script>&emsp;&emsp;
+     <script type="text/javascript">
+		var wzly='';
+		if(wzly!=''){
+		document.write('文章来源：'+wzly);
+		}
+	  </script>&emsp;&emsp;
+       浏览次数：<script src="/count/index?id=3136612&siteid=141"></script>次&emsp;&emsp;
+      <script type="text/javascript">
+		var zz='';
+		if(zz!=''){
+		document.write('作者：'+zz);
+		}
+	  </script>
+      
+     </div>
+     <div class="content">
+     <!--播放附件视频-->
+     <div class="auto" style="margin-left:280px">
+      
+      
+    
+</div>
+     <!--end播放附件视频-->
+      <font id="Zoom"><p style="margin-top: 15px; text-indent: 2em; text-align: left;">温氏一体化养猪-钢结构建设项目已由水城县发展和改革局以“水发改字【2017】791号”文件批准建设，现对该项目施工招标的招标代理机构进行公开选择。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">一、项目建设地点：水城县25个乡镇。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">二、项目总投资约：4197.6万元。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">三、代理机构服务范围</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">1、严格遵循《贵州省招标投标条例》等与招投标工作有关法律、法规及规范性文件规定；遵守相关批复文件的原则，结合该工程的实际特点，完成本工程办理招标有关手续的备案、编制招标文件、发布招标公告、受理投标报名、审查投标单位资格、组织开标、评标会议、编制招投标情况书面报告、协助委托人发放中标通知书、草拟合同及编制汇总文件等工作。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">2、具体服务内容：承担该工程的施工招标代理工作，服务质量及其他要求以委托合同约定为准。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">四、招标代理机构的资质要求</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">1、承担本工程施工招标的代理机构应当具备工程建设项目招标代理资质。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">2、信誉良好，遵守行业规范，近3年内未因不良行为被相关行政部门通报、处罚的招投标代理单位。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">五、代理服务费用</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">招标代理服务费以《贵州省招标代理服务收费标准》（黔价房〔2011〕69号）、《贵州省招标代理服务收费标准》（发改价格〔2015〕299号）文件为依据计算。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">六、报名时需提供的相关资料</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">1、招标代理机构营业执照副本原件及复印件、组织机构代码证原件及复印件、税务登记证原件及复印件（含三证合一或五证合一）、招标代理资质证书原件及复印件、授权委托书（加盖本单位鲜章及法定代表人印章）、法人代表身份证复印件、授权委托人身份证原件及复印件，开户许可证原件。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">注：所有的复印件都要加盖招标代理机构鲜章及法人印章（授权委托书及所有复印件由业主方收存）。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">七、选择公告的发布媒体</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">水城县政府网</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">八、招标代理机构资质及相关证明文件的有效性由项目业主确定专人进行资格审查。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">九、招标代理机构的确定</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">招标人采取综合评定法确定招标代理机构。代理机构报名时现场领取比选文件。符合条件的代理机构将投标文件密封后于2018年5月14日14:30前递交到水城县农林投资开发有限公司会议室（逾期递交的文件不予接受）</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">十、报名时间及地点</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">1、报名时间：2018年5月7日至5月11日，每日14：30～16:00（双休日及节假日除外）.</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">2、报名地点：水城县农林投资开发有限公司。</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">联系人：李工</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">联系电话：15685867272</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">项目业主：水城县农林投资开发有限公司</p><p></p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">水城县农林投资开发有限公司</p><p style="margin-top: 15px; text-indent: 2em; text-align: left;">2018年5月7日</p><p></p></font>
+     </div>
+     <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more">分享到：</a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a><a title="分享到QQ好友" href="#" class="bds_sqq" data-cmd="sqq"></a><a title="分享到邮件分享" href="#" class="bds_mail" data-cmd="mail"></a><a title="分享到复制网址" href="#" class="bds_copy" data-cmd="copy"></a><a title="分享到打印" href="#" class="bds_print" data-cmd="print"></a><a title="分享到一键分享" href="#" class="bds_mshare" data-cmd="mshare"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin","sqq","mail","copy","print","mshare"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin","sqq","mail","copy","print","mshare"]}};with(document){0[(getElementsByTagName("head")[0]||body).appendChild(createElement("script")).src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion="+~(-new Date()/3600000)]};
+</script>
+     <div class="KeysList">
+        <!--div class="left">
+        关键字：
+        <a onclick='javascript:window.open("/index/search.html?keyword=%e8%b0%83%e7%a0%94")' href="javascript:;">调研</a>
+        </div-->
+        <div class="right">
+        <a href='http://s.jiathis.com/?webid=cqq&url=/xwzx/zwyw/28970.shtml&title=公开选择温氏一体化养猪-钢结构建设项目招标代理机构公告&uid=1397546891883300&su=1'  target="_blank" class="box_02">我要推荐</a>&emsp;<a href="/syqt/wzjc/" class="box_03">我要纠错</a>&emsp;<a class="box_02" href="/syqt/rssdy/" target="_blank">定制</a>
+        </div>
+     </div>
+     <div class="page">
+         <div class="prevpage">
+         <span>上一篇：</span>
+         
+			 <script type="text/javascript">
+                var  str="";
+                var str_1 = "./t20180507_3136938.html";
+                var str_4 = '水城县2017年易地扶贫搬迁项目水城经济开发区安置点勘察竞争性谈判公告';
+                if (str=="") {
+                  document.write('<a TARGET="_blank"   href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a>');
+                } else {
+                  document.write('<a TARGET="_blank"   href="'+str+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a>');
+                }
+            </script>
+         
+         </div>
+         <div class="nextpage">
+         <span>下一篇：</span>
+         
+			 <script type="text/javascript">
+                var  str="";
+                var str_1 = "./t20180504_3135974.html";
+                var str_4 = '水城县2018年玉舍片区城市棚户区改造项目选取招标代理比选公告';
+                if (str=="") {
+                  document.write('<a TARGET="_blank"   href="'+str_1+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a>');
+                } else {
+                  document.write('<a TARGET="_blank"   href="'+str+'" alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a>');
+                }
+            </script>
+         
+         </div>
+     </div>
+     <div class="information">
+      <h1><span>相关信息</span></h1>
+      <ul>
+        
+      </ul>
+     </div>
+  </div>
+<!--footer-->
+<script type="text/javascript">
+			$(function(){
+				$("#Zoom").find("table").each(function(){
+					$(this).css("border-collapse","inherit").css("margin","0 auto").css("padding","0").attr("align","center");
+				})
+			})
+		</script>
+<div class="footer_bottom f12 auto f_c">
+    <div style="width: 735px;" class="auto">
+        <ul class="" style="width: 316px;height: 35px;margin: 0 auto; ">
+            <li><a href="http://www.shuicheng.gov.cn/syqt/lxfs/" target="_blank">联系方式</a></li>
+            <li>|</li>
+            <li><a href="http://www.shuicheng.gov.cn/syqt/wzsm/" target="_blank">网站声明</a></li>
+            <li>|</li>
+            <li><a href="http://www.shuicheng.gov.cn/syqt/yssm/" target="_blank">隐私声明</a></li>
+            <li>|</li>
+            <li><a href="http://www.shuicheng.gov.cn/syqt/bzxx/" target="_blank">帮助信息</a></li>
+            <li>|</li>
+            <li><a href="http://www.shuicheng.gov.cn/syqt/wzdt/" target="_blank">网站地图</a></li>
+            <!--<li>|</li>-->
+            <!--<li><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260311341'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1260311341%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></li>-->
+         </ul>
+        <p>主办：水城县人民政府&nbsp;&nbsp;&nbsp;&nbsp;版权所有：水城县人民政府办公室&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank" style="color:#888888;">黔ICP备16008577号</a>&nbsp;&nbsp;政府网站标识码：5202210041</p>
+        <p>公安机关备案号：52022102000003 &nbsp;&nbsp;&nbsp;&nbsp;  技术支持：<a  href="http://www.gogbh.cn/" target="_blank" style="color:#888888;">贵州多彩博虹科技有限公司</a></p>
+        <p>（建议使用1280*720以上分辨率 IE9版本以上浏览器)</p>
+    </div>
+    <div class="auto" style="width:300px;"><a class="auto" href="http://bszs.conac.cn/sitename?method=show&id=08561CBA991228EEE053012819ACC44E" target="_blank" style="display:block;width:55px;float:left;" ><img src="/images/hd_03.jpg" alt="" ignore="1" /></a>
+<div style="width:120px;float:left;"><script id="_jiucuo_" sitecode='5202210041' src=' http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+<script language="JavaScript">var _trackDataType = "web";var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10000843" src="//fxsjcj.kaipuyun.cn/count/10000843/10000843.js"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=779" async="async" defer="defer"></script>
+</div> </div>
+</div>
+
+<style type="text/css">
+			.lm_add_dl{ width: 120px; overflow: hidden; position: fixed; top: 218px; right: 50%; margin-right: -700px; z-index: 111;}
+                        .lm_add_ewm{ width: 120px; overflow: hidden; position: fixed; top: 218px; left: 50%; margin-left: -700px; z-index: 111;}
+			.lm_add_ewm a{ display: block; width: 100%; height: 30px; line-height: 30px; text-align: center; background: #3188d2; font-size: 16px; color: #fff;}
+			.lm_add_ewm a.msjdpt{display: block; width: 100%; height: 350px; line-height: 30px; text-align: center; background: #3188d2; font-size: 16px; color: #fff;}
+		</style>
+		<div class="lm_add_ewm">
+<div style="text-align:right;cursor:pointer; font-size:12px; line-height:20px;" onclick="$(this).parent().hide();">关闭</div>
+			<a  class="msjdpt" href="http://www.ysgzgy.com:9003/ccmimpweb/ts" target="_blank"><img src="/images/msjdysjpt.jpg" width="120" height="350" /></a><a href="http://58.16.65.139:8088/gzwsxf/gzlogin.jsp?orgid=5862">网上信访</a>
+			<img src="/images/sjxxewm.jpg" width="120" height="120" />
+		</div>
+<div class="lm_add_dl">
+<div style="text-align:right;cursor:pointer; font-size:12px; line-height:20px;" onclick="$(this).parent().hide();">关闭</div>
+			<a href="http://www.gzlps.gov.cn/dcview.html?method=viewQuestionnaireDetailPrv&questionnaireId=1034" target="_blank"><img src="/images/gfjywjdc.jpg" width="120" height="470" /></a>
+		</div>
+</body>
+</html>

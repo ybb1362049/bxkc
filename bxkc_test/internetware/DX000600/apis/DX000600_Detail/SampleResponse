@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=EDGE" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特变电工电子招标平台 - 首页</title>
+    <link rel="stylesheet" href="/content/site/default/default.css">
+    <link rel="stylesheet" href="/scripts/bootstrap/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/scripts/bootstrap/css/custom-theme/jquery-ui-1.10.3.custom.css">
+    <link rel="stylesheet" href="/scripts/bootstrap/assets/css/docs.css">
+    <link rel="stylesheet" href="/scripts/bootstrap/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/scripts/prompt/skin/simple_gray/ymPrompt.css" type="text/css" />
+    <link rel="stylesheet" href="/scripts/scrollbar/jquery.mCustomScrollbar.css">
+    <!--[if IE 8]>
+    <script src="/scripts/bootstrap/assets/js/vendor/html5shiv.js" type="text/javascript"></script>
+	<script src="/scripts/bootstrap/assets/js/vendor/respond.min.js" type="text/javascript"></script>
+	<script src="/scripts/bootstrap/assets/js/vendor/css3-mediaqueries.js" type="text/javascript"></script>
+	<![endif]-->
+    <script type="text/javascript" src="/Scripts/easyui/jquery-1.7.1.min.js"></script>
+    
+    
+    <script type="text/javascript" src="/Scripts/prompt/ymPrompt.js"></script>
+    <script type="text/javascript" src="/Scripts/Wonder/Wonder.js"></script>
+    <script type="text/javascript" src="/Scripts/Wonder/WonderPrompt.js"></script>
+    <link rel="stylesheet" href="/scripts/bootstrap/assets/css/style.css">
+        <script type="text/javascript" src="/Scripts/easyui/locale/easyui-lang-zh_CN.js"></script>   
+</head>
+<script language="javascript" type="text/javascript">
+    function OpenPage(url, newsGroupId) {
+        location = url;
+    }
+    function SearchNewsByMcId(mcId) {
+        var url = "/HomeSite/Site/NewsSearch?mcId=" + mcId;
+        location = WonderMathUrl(url);
+    }
+    function SearchNewsByOrgId(orgId) {
+        var url = "/HomeSite/Site/NewsSearch?orgId=" + orgId;
+        location = WonderMathUrl(url);
+    }
+    function SearchNewsByKeyWord() {
+        var keyWord = $("#keyWord").val();
+        keyWord = encodeURIComponent(keyWord);
+        var url = "/HomeSite/Site/NewsSearch?keyWord=" + keyWord;
+        location = WonderMathUrl(url);
+    }
+    function ChangeMaterial(obj) {
+        var id = $(obj).attr("href");
+        if ($(obj).hasClass("active")) {
+            $(obj).removeClass("active");
+        } else {
+            $(obj).addClass("active");
+            $(obj).parent(".clearfix").siblings().find("a").removeClass("active");
+            $(id).siblings("p").removeClass("in").addClass("collapse");
+        }
+    }
+    function ConnectUs() {
+        var url = "/HomeSite/Site/orgnization?newsGroupId=408";
+        location = WonderMathUrl(url);
+    }
+    var domainName = "jqgt";
+    $(function () {
+        //TanChuang();
+        var aList = $("a.nl");
+        var kfStr = "";
+        for (var i = 0; i < aList.length; i++) {
+            var aItem = aList[i];
+            kfStr += aItem.id.split("_")[1]+",";
+        }
+        kfStr = kfStr.substr(0,kfStr.length-1);
+        WonderPostAjax("/Organization/Employee/GetImOnlineInfo", function (e) {
+            var arr = e.split(",");
+            for (var i = 0; i < arr.length; i++) {
+                var code = arr[i].split(":")[0];
+                var exist = arr[i].split(":")[1];
+                if (exist == "1") {
+                    $("#kf_" + code).attr("href", "javascript:ContactKF('" + code + "')");
+                    $("#kf_" + code).attr("style", "color:blue;");
+                }
+                else {
+                    $("#kf_" + code).attr("disabled", "true");
+                    $("#kf_" + code).attr("style", "color:gray;");
+                    $("#kf_" + code).html($("#kf_" + code).html()+"(离线)");
+                }
+                
+            }
+        }, { employeeCode: kfStr, domainName: domainName });
+    });
+    function ContactKF(id) {
+        var windowId = Math.random().toString(36);
+        var url = 'http://eps.jiugangbid.com:9090/anonymous/customerService/connect.action?user=' + id + '@' + domainName;
+
+        window.open(url, "kf",
+        			'width=580, height=510, scrollbars=no, location=no, toolbar= no, menubar=no, resizable=no, directories=no, status=yes');
+    }
+    function TanChuang() {
+        var oDiv = document.getElementById('miaov_float_layer');
+        var oBtnMin = document.getElementById('btn_min');
+        var oBtnClose = document.getElementById('btn_close');
+        var oDivContent = oDiv.getElementsByTagName('div')[0];
+        var iMaxHeight = 0;
+        var isIE6 = window.navigator.userAgent.match(/MSIE 6/ig) && !window.navigator.userAgent.match(/MSIE 7|8/ig);
+        oDiv.style.display = 'block';
+        iMaxHeight = oDivContent.offsetHeight;
+        if (isIE6) {
+            oDiv.style.position = 'absolute';
+            repositionAbsolute();
+            miaovAddEvent(window, 'scroll', repositionAbsolute);
+            miaovAddEvent(window, 'resize', repositionAbsolute);
+        }
+        else {
+            oDiv.style.position = 'fixed';
+            repositionFixed();
+            miaovAddEvent(window, 'resize', repositionFixed);
+        }
+   
+    };
+</script>
+<body>
+    <form id="form1" name="form1" method="post">
+        <script src="../../../Scripts/kindeditor-4.1.7/kindeditor.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+    var editor;
+    KindEditor.ready(function (K) {
+        editor = K.create('textarea[name="textContent"]', {
+            height: "800px",
+            readonlyMode: true,
+            items: [''],
+            autoHeightMode: true
+        });
+    });
+
+    $(function () {
+        if ("false" == "true" || "0" == "0") {
+            $("#divContent").show();
+            $("#divNoKegen").hide();
+        } else {
+            $("#divContent").hide();
+            $("#divNoKegen").show();
+        }
+        if ("1" == "0") {
+            $("li[name='li_Invite']").hide();
+            $("li[name='li_SignUp']").hide();
+        } else {
+            $("li[name='li_Invite']").show();
+            if ("True" == "True") {
+                $("li[name='li_SignUp']").show();
+            } else {
+                $("li[name='li_SignUp']").hide();
+            }
+        }
+    });
+    function SignUp() {
+        if ("false" == "true") {
+            SubmitSignUp();
+        } else {
+            WonderConfirm("您还未登录，请先登录系统！", function (tp) {
+                if (tp == "ok") {
+                    var backUrl = "/HomeSite/Site/NewsContentView?newsId=83615";
+                    location = "/Supplier/ForeSupplier/Login?backUrl=" + backUrl;
+                }
+            });
+        }
+    }
+    function SubmitSuccess(result) {
+        if (result == "success") {
+            WonderAlert("报名成功！", function () {
+                var redirectUrl = "/PurchaseOnline/OnlinePriProForeSupplier/OnlineProMissionsDesktop?projectId=84632";
+                var url = "/Supplier/ForeSupplier/Index?redirectUrl=" + redirectUrl;
+                location = url;
+            });
+        }
+        else if(result=="-1"){
+            WonderAlert("您已报名成功_请勿重复提交！");
+            return;
+        }
+        else if(result=="-2"){
+            WonderAlert("当前阶段不允许报名！");
+            return;
+        }
+        else {
+            WonderAlert("您已重新报名成功_请等待采购方回应！", function () {
+                var redirectUrl = "/PurchaseOnline/OnlinePriProForeSupplier/OnlineProMissionsDesktop?projectId=84632";
+                var url = "/Supplier/ForeSupplier/Index?redirectUrl=" + redirectUrl;
+                location = url;
+            });
+        }
+    }
+    function SubmitSignUp() {
+//        if ("False" == "True") {
+//            var backUrl = "/HomeSite/Site/NewsContentView?newsId=83615";
+//            var redirectUrl = "/PurchaseOnline/OnlinePriProForeSupplierSignUp/OnlinePricingProjectSignUp?projectId=84632&backUrl=" + backUrl;
+//            var url = "/Supplier/ForeSupplier/Index?redirectUrl=" + redirectUrl;
+//            location = url;
+//        } else {
+//            var url = "/PurchaseOnline/OnlinePriProForeSupplierSignUp/SubmitSignUp";
+//            var data = { projectId: "84632" };
+//            WonderPostAjax(url, SubmitSuccess, data);
+//        }
+
+        var backUrl = "/HomeSite/Site/NewsContentView?newsId=83615";
+        var redirectUrl = "/PurchaseOnline/OnlinePriProForeSupplierSignUp/OnlinePricingProjectSignUp?projectId=84632&backUrl=" + backUrl;
+        var url = "/Supplier/ForeSupplier/Index?redirectUrl=" + redirectUrl;
+        location = url;
+    }
+    function BackOption() {
+        var url = "/HomeSite/Site/NewsList?newsGroupId=202";
+        location = WonderMathUrl(url);
+    }
+    function DownloadTemplate() {
+        var url = "/PurchaseOnline/OnlinePriProForeSupplierQuote/ExportSupQuoteBidExcelTemplateHomePage?projectId=84632";
+        if ("3" == "11") {
+            url = "/Auction/WasteMateProForeSupplierQuote/ExportSupQuoteBidExcelTemplateHomePage?projectId=84632";
+        }
+        document.getElementById("downFrm").src = url;
+        return false;
+    }
+</script>
+<div class="container">
+    <div class="row">
+        <a class="col-lg-9 col-sm-9" href="/">
+            <img src="../../content/site/default/images/logo-site.png">
+        </a>
+         <div class="topbar-right col-lg-3 col-sm-3 visible-md visible-lg" style="color: #fff;">
+                        <a href="http://www.tbea.com.cn" target="_blank">访问集团网站</a> | 
+			<a onclick="javascript:window.external.AddFavorite('#','特变电工电子采购平台')">
+
+                收藏本站 </a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <header class="navbar navbar-green">
+			<nav class="navbar-collapse">
+				<ul class="nav navbar-nav">					
+					 <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/Index',406)">首页</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/Profile?newsGroupId=401',401)">公司简介</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=601',601)">招标公告</a> </li> <li class="active"><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=1',1)">项目公告</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=701',701)">变更公告</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=2',2)">中标公告</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsGroupList?newsGroupId=4',4)">使用帮助</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/GuestBook?newsGroupId=301',301)">投诉与建议</a> </li> <li><a href="javascript:;" onclick="OpenPage('/HomeSite/Site/NewsContentView?newsId=1602','')"> 联系我们 </a> </li>
+				</ul>           
+			</nav>
+		</header>
+    </div>
+</div>
+<div class="container" style="background-color: #fff; padding-bottom: 20px;">
+    <div class="row">
+        <div class="col-lg-12 col-sm-12 ">
+            <ul class="breadcrumb">
+                <li><a href='Index'>首页</a> <span class='divider'>/</span> </li><li><a href='/HomeSite/Site/NewsList?newsGroupId=1'>项目公告</a> <span class='divider'>/</span> </li><li><a href='/HomeSite/Site/NewsList?newsGroupId=202'>竞价项目公告</a> <span class='divider'>/</span> </li><li class='active'>新特能源股份有限公司防爆双梁式起重机招标项目招标公告 </li>
+            </ul>
+            <section id="divContent">
+				<div class="article-name">
+					<div class="pull-right">
+						<div>    					
+							<a href="javascript:" class="btn btn-danger btn-sm disabled" role="button" >报名参加</a>
+							<a href="javascript:BackOption();" class="btn btn-default btn-sm ">返回</a>
+						</div>
+					</div>
+					<h3>新特能源股份有限公司防爆双梁式起重机招标项目招标公告</h3>
+					<ul class="unlist">
+						<li>发布日期：2018-01-02</li>
+						<li name="li_Invite">采购类别：(1.1.12.1.1)梁式起重机</li>
+                        <li name="li_Invite">采购组织：新特能源股份有限公司</li>
+					</ul>
+				</div>
+						<div class="alert alert-warning text-left">很遗憾，报名截止日期已到，无法参加该项目!</div>   
+				
+                    <p align="center">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p style="text-align:center;" class="MsoNormal" align="center">
+	<b><u>&nbsp; &nbsp;</u></b><b><u>（货物类）<span>&nbsp; </span></u></b><b>项目招标公告<span></span></b> 
+</p>
+<p class="MsoNormal">
+	<b>招标编号：</b> 
+</p>
+<p class="MsoNormal">
+	1、<b>招标条件</b><span></span> 
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	该项目招标人为：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>，建设资金来自企业自筹，该项目已具备招标条件，现对该项目进行招标，请有意愿合作的合格投标单位积极参与。<span></span> 
+</p>
+<p class="MsoNormal">
+	2、<b>招标范围</b><span></span> 
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	具体货物清单单独成册。<span></span> 
+</p>
+<p class="MsoNormal">
+	3、<b>投标人资格要求</b><span></span> 
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	本次招标要求投标人须为中华人民共和国境内依法注册的法人或其他组织，须具备相应货物的制造能力，并在人员、设备、资金等方面具有保障如期交货等承担招标项目的能力。<span></span> 
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	接受外协代购产品投标时，其投标外协代购产品原厂商须在境内具备相应货物的制造能力，并在人员、设备、资金等方面具有保障相应协作承制货物如期交货的能力。除特别注明外，这些资格、资质、业绩均系投标人本人或外协产品原厂商本人所拥有的权利权益。<span></span> 
+</p>
+<p class="MsoNormal">
+	<b>3.1 </b><b>投标人及其投标产品须满足如下通用资格要求：</b> 
+</p>
+<p class="MsoNormal">
+	（<span>1</span>）必须具有生产投标产品所需的生产场地、生产设备、生产人员、产品及工器件检测能力。本招标活动不接受贴牌代工、注册地外异地加工行为的投标以及任何分包、转包行为的投标。<span></span> 
+</p>
+<p class="MsoNormal">
+	（<span>2</span>）设计制造过满足专用资质业绩要求的相同结构、相同型式、同等或同类型或以上技术规格的产品。在与规范相同或较规范更严格的条件下，该产品的投运数量或供货数量及其成功运行时间满足招标文件的要求。如同一包内存在不同类别的产品，除外购外协的产品外，则投标人须分别满足包内各类别产品的资格要求；对于外购外协的产品，产品原厂商应满足本公告资质相关业绩要求。<span></span> 
+</p>
+<p class="MsoNormal">
+	（<span>3</span>）取得国际权威机构或者国家级专业检验检测机构出具的产品有效试验报告，且报告结论数据满足本次招标技术规范要求。各类试验报告均系针对具体型式规格产品的试验报告。<span></span> 
+</p>
+<p class="MsoNormal">
+	（<span>4</span>）外购外协原材料、配套件和外部委托加工及进口散装的部件应符合本招标技术规范要求。国家、行业已经发布相应产品标准的，投标人须取得国家级权威检验检测机构出具的型式试验报告；国家、行业尚未发布相应产品标准的，投标人须取得国家级权威企业标准出具的检验检测报告，新技术产品或者根据现场运行需要，委托国家级检验检测机构公开邀请进行的专门检测活动。<span></span> 
+</p>
+<p class="MsoNormal">
+	（<span>5</span>）取得国家法律、法规、部门规章及规范标准规定的有效许可证。取得招标文件要求的有效认证证书。<span></span> 
+</p>
+<p class="MsoNormal">
+	（<span>6</span>）应有良好的财务状况和商业信用。<span></span> 
+</p>
+<p class="MsoNormal">
+	（<span>7</span>）法定代表人或单位负责人为同一人或者存在控股、管理关系的不同单位，不得参加同一标包投标或者未划分标包的同一招标项目投标。<span></span> 
+</p>
+<p class="MsoNormal">
+	（<span>8</span>）投标人存在导致其被暂停中标资格或取消中标资格的不良行为，且在处理有效期内的，不得参加相应项目的投标。<span></span> 
+</p>
+<p class="MsoNormal">
+	3.2 投标人及其投标产品须满足相应招标货物的专用资质业绩要求如下：<span></span> 
+</p>
+<p class="MsoNormal">
+	（规格型号、供货数量、运行时间、试验报告、认证证书、许可证件等）<span></span> 
+</p>
+<p class="MsoNormal">
+	3.3 本次招标不接受联合体投标。<span></span> 
+</p>
+<p class="MsoNormal">
+	3.4 本次招标不接受代理投标。<span></span> 
+</p>
+<p class="MsoNormal">
+	3.5 本次招标不接受代理商投标。如接受代理商投标的，代理产品不得属于《机电产品国际招标投标实施办法（试行）》（商务部令<span>2014</span>年第<span>1</span>号）规定必须进行国际招标的产品。<span></span> 
+</p>
+<p class="MsoNormal">
+	3.6 各投标人均可就本次招标的部分或全部标包投标。<span></span> 
+</p>
+<p class="MsoNormal">
+	<b>4</b><b>、招标文件的获取</b> 
+</p>
+<p class="MsoNormal">
+	4.1 <b>2016</b><b>年<span>X</span>月<span>X</span>日至<span>X</span>年<span>X</span>月<span>X</span>日</b>登录招标人特变电工电子招标平台<span>(zb.tbea.com:8020)</span>按照要求注册、购买并下载招标文件。投标人应妥善保管电子招标平台账号和密码，因上述账号或密码保管不当造成的损失，由投标人自行承担。<span></span> 
+</p>
+<p class="MsoNormal">
+	4.2 本项目招标标书费：<b><span>****</span>元<span>/</span>份</b>，招标文件售后不退，对开标前一天本公司财务查账未缴纳标书费到账户的不允许投标（开标会现场不接收任何现金）；投标保证金额：<b><span>****</span>元整</b>。<b><span></span></b> 
+</p>
+<p class="MsoNormal">
+	4.3 请投标人按照我公司以下开户银行和银行账号缴纳标书费和投标保证金：<span></span> 
+</p>
+<p style="text-indent:28pt;" class="MsoNormal">
+	<p style="text-indent:28pt;" class="MsoNormal">
+		帐户名：新疆特变电工工程项目管理有限公司
+	</p>
+	<p style="text-indent:28pt;" class="MsoNormal">
+		开户银行：中国工商银行股份有限公司昌吉特变支行
+	</p>
+	<p style="text-indent:28pt;" class="MsoNormal">
+		开户账号：3004 8003 0920 0010 390&nbsp;
+	</p>
+	<p>
+		<br />
+	</p>
+	<p style="text-indent:28pt;" class="MsoNormal">
+		<span></span>
+	</p>
+	<p class="MsoNormal">
+		<b>5</b><b>、投标文件的递交（提交）</b> 
+	</p>
+	<p class="MsoNormal">
+		5.1 投标截止时间：<b><span>2016</span>年<span>X</span>月<span>X</span>日上午<span>XX</span></b>。投标文件递交（提交）的截止时间同投标截止时间。<span></span> 
+	</p>
+	<p class="MsoNormal">
+		<b>投标文件递交（提交）时间：</b>所有投标文件应当在投标截止时间前递交（提交）招标人。纸质投标文件（开标文件<span>/</span>商务投标文件<span>/</span>技术投标文件<span>/</span>投标保证金）集中递交时间为投标截止日<b><u><span>X-XX</span></u></b>（北京时间）。<span></span> 
+	</p>
+	<p class="MsoNormal">
+		<b>投标文件递交地点：</b>电子投标文件提交招标人电子招标平台；纸质投标文件递交至开标会议室：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>。<span></span> 
+	</p>
+	<p class="MsoNormal">
+		5.2 投标截止时间之前未成功提交至招标人电子招标平台的电子投标文件，投标截止时间之后送达或者未送达指定地点的纸质投标文件，招标人不予受理。<span></span> 
+	</p>
+	<p class="MsoNormal">
+		<b>6</b><b>、发布公告的媒介</b> 
+	</p>
+	<p style="text-indent:28pt;" class="MsoNormal" align="left">
+		本次招标在中国采购与招标网（<span>www.chinabidding.com.cn</span>）和招标人电子招标平台上发布招标公告，招标公告将明确对投标人的资格要求、发售招标文件的日期和地点、投标、开标等事宜。<span></span> 
+	</p>
+	<p class="MsoNormal">
+		<b>7</b><b>、联系方式</b> 
+	</p>
+	<p class="MsoNormal">
+		联系单位：特变电工股份有限公司<span></span> 
+	</p>
+	<p class="MsoNormal">
+		地<span>&nbsp;</span>址：新疆昌吉市北京南路<span>189</span>号特变电工总部科技研发基地科技研发大楼三楼<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+	</p>
+	<p class="MsoNormal">
+		邮<span>&nbsp;</span>编：<span>831100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+	</p>
+	<p class="MsoNormal">
+		联系人：赵文磊
+	</p>
+	<p class="MsoNormal">
+		联系电话：手机号：18599330151 邮箱：wenlei2008@qq.com
+	</p>
+                <br/>
+附件清单：                <a href="javascript:;" onclick="return DownloadTemplate()" class="icon-toolbar icon-toolbar-download">明细表.xls</a>
+				<div>
+					附件：
+                   
+                    
+                     
+                    
+<iframe id="documentDownFrm" style="display: none"></iframe>
+<script>
+function Downdocument(groupid, guidid) {
+        var downURL = "/Utility/Document/DownloadDocument?gid=" + groupid + "&uid=" + guidid;       
+        window.frames["documentDownFrm"].location = WonderMathUrl(downURL);
+    }
+</script>
+
+				</div>				
+				 
+			</section>
+            <div id="divNoKegen" style="display: none" class="alert alert-warning">
+                该新闻必须是注册用户才能阅读！ <a href="javascript:BackOption();" style="float: right" class="btn btn-default btn-sm">
+                    返回</a>
+            </div>
+        </div>
+    </div>
+</div>
+<iframe id="downFrm" style="display: none"></iframe>
+
+        <div class="container">
+            <div class="row">
+                <footer class="bs-footer" style="text-align: center; font-size: 12px;">
+                    <div class="col-lg-12 col-sm-12">
+                    <span style="font-family: arial;">© 2015</span> 特变电工  版权所有&nbsp;   |   
+					<a href="#">法律声明</a>   |   
+					<a href="#">隐私保护</a>   |   
+					<a href="javascript:ConnectUs();">联系我们</a>
+                    </div>
+                    <a href="http://www.1caitong.com" target="_blank" style="display: block; height: 30px; line-height: 30px;">技术支持 一采通科技</a>
+                </footer>
+            </div>
+        </div>
+        <div class="float_layer" id="miaov_float_layer" style="display:none">
+           
+	    <h2><b>供方入围审核咨询</b></h2>  
+            <div class="content2">
+                <div class="wrap2">
+                    <ul>
+                        <li><a class="nl" id="kf_jg0017803" >客服1</a></li>
+                        <li><a class="nl" id="kf_jg0002056" >客服2</a></li>
+                        <li><a class="nl" id="kf_jg0002288" >客服3</a></li>
+
+                    </ul>
+                </div>
+            </div>
+    
+            <h2><b>标书费保证金咨询</b></h2>
+	    
+            <div class="content2">
+                <div class="wrap2">
+                    <ul>
+                        <li><a class="nl" id="kf_jg0006267">客服4</a></li>
+                    </ul>
+                </div>
+            </div>
+
+	  
+
+            <h2><b>系统维护咨询</b></h2> 
+	    
+            <div class="content2">
+                <div class="wrap2">
+                    <ul>
+                        <li><a class="nl" id="kf_jg0002596">客服5</a></li>
+                        <li><a class="nl" id="kf_jg0014842">客服6</a></li>
+                        <li><a class="nl" id="kf_jg0010063">客服7</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="/scripts/bootstrap/assets/js/vendor/bootstrap.js" type="text/javascript"></script>
+        <script src="/scripts/TextScroll.js" type="text/javascript"></script>
+        <script src="/scripts/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script src="/scripts/bootstrap/assets/js/vendor/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/vendor/holder.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/vendor/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/docs.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/demo.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap/assets/js/move.js" type="text/javascript"></script>
+
+    </form>
+</body>
+</html>

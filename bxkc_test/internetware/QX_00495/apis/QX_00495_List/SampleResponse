@@ -1,0 +1,987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>招标采购</title>
+<meta  name="version" content="7.9.11"/>
+<meta  name="createDate" content="2018-01-14 19:07:12" />
+<meta  name="cacheclearDate" content="2018-01-14 19:04:00"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="ColumnName" content="招标采购" >
+<meta name="ColumnType"   content="1" >
+<meta name="SiteName" content="越西县"><!--网站名称-->
+<meta name="SiteDomain" content=""><!--网站域名-->
+<meta name="SiteIDCode" content="yuexi"><!--网站标识-->
+<meta name="ColumnDescription" content="初始化频道：招标采购"><!--栏目描述-->
+<meta name="ColumnKeywords" content=""><!--栏目关键词--><link rel="stylesheet" type="text/css"  href="/eportal/uiFramework/huilan-jquery-ui/css/huilan-jquery-ui.css" />
+<script type="text/javascript" src="/eportal/uiFramework/huilan-jquery-ui/js/huilan-jquery-ui.js?self=true&skin=default"></script>
+ <meta name="baidu-site-verification" content="JC2yVYUVWP" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="Keywords" content="越西县,越西县人民政府" />
+   <link rel="stylesheet" type="text/css" href="/eportal/fileDir/yuexi/template/yuexi.css" />
+  <script type="text/javascript" src="/eportal/fileDir/yuexi/template/yuexi.js"></script>
+ </head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="/eportal/fileDir/yuexi/template/page/xiangxi04/skin.css" /><div style="display:none" easysite="easysiteHiddenDiv">
+	<input id="contextPath" value="/eportal" type="hidden"/>
+	<input id="isOnlyUseCkeditorSourceMode" value="$isOnlyUseCkeditorSourceMode" type="hidden"/>
+	<input id="eprotalCurrentPageId" value="4423143" type="hidden"/>
+	<input id="eprotalCurrentSiteId" value="4414940" type="hidden"/>
+	<input id="eprotalCurrentSiteName" value="越西县" type="hidden"/>
+	<input id="eprotalCurrentSiteEnname" value="yuexi" type="hidden"/>
+	<input id="eprotalCurrentSiteType" value="WEB" type="hidden"/>
+	<input id="eprotalCurrentSiteHideMaskLayer" value="no" type="hidden"/>
+	<input id="eprotalCurrentArticleKey"  value=""  type="hidden"/>
+	<input id="eprotalCurrentColumnId"  value=""  type="hidden"/>
+	<input id="isStaticRequest" value="yes" type="hidden"/>
+	<input id="isOpenStaticPageList" value="yes" type="hidden"/>
+	<input id="defaultPublishPage" value="1" type="hidden"/>
+	<input type='hidden' id='eportalappPortletId' value="3">
+	<input type='hidden' id='epsPortletId' value="1">
+	<input type='hidden' id='portaltoolsPortletId' value="2">
+	<script type="text/javascript" src="/eportal/uiFramework/js/counting/chanelCounting.js"></script>
+	<input type="hidden" id="currentLoginMemberId"  value="" />
+	<input type="hidden" id="currentLoginMemberName"  value="" />
+	<input type="hidden" id="behaviourAnalysisSiteId"  value="1259204835" /> 
+			<input type="hidden" id="portalLastRequestUrl"  value="" />
+</div>  <div class="yx_main_body"> 
+   <div>
+     <script type="text/javascript">
+function bssxQueryF(url){
+           var key = document.getElementById("q").value;
+		if(key == ""){
+		     ;
+		     return false;
+		}
+
+    $("#bssxQueryForm")[0].submit();
+}
+</script>
+
+
+<div class="head_con">
+    <div class="topWarp">
+       <div class="top">
+      <p><script type="text/javascript">document.write(date);</script></p>
+     <!-- <iframe allowtransparency="" frameborder="0" height="25" scrolling="no" src="http://i.tianqi.com/index.php?c=code&id=34&icon=1&num=3&py=liangshan1&py=yuexi1&color=45569d" width="120" style="font-size:14px;overflow:hidden;"></iframe>-->
+      <ul>
+	
+	<li><a id="StranLink" title="點擊以繁體中文方式瀏覽"  href="javascript:StranBody()" name="StranLink">繁體中文 丨 </a></li>
+	<li><a href="/eportal/Assistants/index.html" target="_blank">无障碍版 丨 </a> </li> 
+        <li><a href="/yxphone/index/index.html" target="_blank"> 手机版  </a> </li> 
+	
+    </div>
+    </div>
+
+    <div class="logo"><img src="/eportal/fileDir/yuexi/resource/cms/2017/09/logo1.png" ></div> 
+</div>
+
+
+<script type="text/javascript" src="/eportal/fileDir/yuexi/template/common/top/fant.js"></script>   </div> 
+   <div class="yx_main_con"> 
+    <div>
+      <script type="text/javascript">
+function bssxQueryF(url){
+           var key = document.getElementById("q").value;
+		if(key == ""){
+		     ;
+		     return false;
+		}
+
+    $("#bssxQueryForm")[0].submit();
+}
+
+
+</script>
+                                               
+                                               
+                                               
+                                               <p id="nav-select" style="display:none">信息公开</p>                    
+                                                                                                                <p id="nav-select2" style="display:none">重点信息公开</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <p id="nav-select3" style="display:none">招标采购</p>                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                               
+                                               
+                                               
+             <div class="nav clearfloat">
+       <ul class="nav-demo">
+          <li><a href="/yuexi/index/index.html" style="border-left: none;">越西首页</a></li>
+          <li><a href="/yuexi/yxyx/index.html" >印象越西</a></li>
+          <li><a href="/yuexi/zfld5939/index.html" >政府领导</a></li>
+          <li><a href="/yuexi/xxgk76/index.html" >信息公开</a></li>
+          <li><a href="/yuexi/zxfw57/index.html" >在线服务</a></li>
+          <li><a href="/yuexi/gzcy39/index.html" >互动交流</a></li>
+          <li><a href="/yuexi/cyyx26/index.html" style="border-right: none;">畅游越西</a></li>
+       </ul>
+       <div class="search">
+         <script language="javascript">
+            function globSearch(){
+               var sUrl = "http://dig.lsz.gov.cn/dig/search.action?ty=&w=false&f=&dr=true&p=1&sr=score+desc&fq=&advtime=&advrange=&q=";
+                        var key = document.getElementById("search1016").value;
+     
+                        if(key == "" || key == "请输入关键字"){
+                            alert("关键字不能为空!");
+                            return false;
+                        }
+                        key = encodeURI(key);
+                        sUrl = sUrl + key + '&ext=siteid:4414940'
+                        window.open(sUrl);
+            }
+        </script>
+         <!-- <form id="bssxQueryForm" name="" action="http://dig.lsz.gov.cn/dig/search.action?ty=&w=false&f=&dr=true&p=1&sr=score+desc&fq=&advtime=&advrange=&q=" class="search-form" method="post" target="_blank">-->
+          <p class="searchl"><input  id="search1016" class="search1016" type='text'class="q" name="q" id="q" value="" autocomplete="off" placeholder="请输入关键字" / ></p>
+          <a href="javascript:void(0);"  id="aSearch" onclick="return globSearch();">搜索</a>  </form>        
+       </div>
+   </div>
+<script type="text/javascript" >
+ var navSrc = ["首页","印象越西","政府领导","信息公开","在线服务","公众参与","畅游越西"]
+$('.nav-demo').find('a').each(function(i,o){
+    if(navSrc[i] == $('#nav-select3').text()){
+          $(this).addClass('current');          
+          return false;
+     }else if(navSrc[i] == $('#nav-select2').text()){
+         $(this).addClass('current');
+          return false;
+    }else if(navSrc[i] == $('#nav-select').text()){
+         $(this).addClass('current');
+         return false;
+    }
+})
+
+             
+         </script>    </div> 
+    <div style="padding-bottom:10px;background:#fff;"> 
+     <div class="position"> 
+      <span style="color:#232323;line-height:30px;margin-left:10px;">当前位置:</span><span><a class='SkinObject' href='/yuexi/index/index.html' target='_parent'>首页</a> > <a class='SkinObject' href='/yuexi/xxgk76/index.html' target='_parent'>信息公开</a> > <a class='SkinObject' href='/yuexi/qzqd/index.html' target='_parent'>重点信息公开</a> > <a class='SkinObject' href='/yuexi/zbcg46/index.html' target='_parent'>招标采购</a></span> 
+     </div> 
+     <div class="main_left fl column" id="main_left" runat="server" name="左侧导航">
+        <link rel="stylesheet" type="text/css" href="/eportal/fileDir/yuexi/template/module/list_mod_zcdh/container.css" />﻿ 
+<div class="list_mod04 portlet" id="8a12858a966c47b49891972f087965ee" style="$portletStyle" pagemoduleid="02cd3eefe48f4e668e8ca470b26907b2"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu"></span> 
+  <div id="submenu8a12858a966c47b49891972f087965ee" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div class="mod04_tit"> 
+  <div class="mod04_tl"> 
+   <span>重点信息公开</span> 
+  </div> 
+ </div> 
+ <div class="smod104_cont">
+   <style type="text/css">
+  .leftnav_zsyz{ width:263px; margin:0 auto; overflow:hidden;}
+  .left_zhong{overflow: hidden;}
+  .leftnav_zsyz ul{ width:100%; overflow:hidden;}
+  .leftnav_zsyz ul li{ height:28px; line-height:28px; overflow:hidden; float:left; width:100%;font-size:14px; margin-top:10px;}
+  .leftnav_zsyz ul li a{ display:block;}
+  .leftnav_zsyz ul li.class_A{ background: #eee;border-radius: 3px; text-indent:58px; font-weight:bold;}
+  .leftnav_zsyz ul li.class_A a{ color:#7a450d;background:url(/eportal/fileDir/yuexi/resource/cms/2017/06/dian.png) 34px center no-repeat;}
+  .leftnav_zsyz ul li.class_B{ background:url(/eportal/fileDir/yuexi/resource/cms/2017/06/sj_r.png) no-repeat 36px center; text-indent:46px; font-weight:bold; border-bottom:1px solid #cccccc; margin-top:0px;}
+  .leftnav_zsyz ul li.class_B a{ color:red;}
+  .leftnav_zsyz ul li.class_B1{ background:url(/eportal/fileDir/yuexi/resource/cms/2017/06/sj_h.png) no-repeat 36px center;margin-top:0px; text-indent:46px; border-bottom:1px dashed #cccccc;}
+  .leftnav_zsyz ul li.class_B1 a:hover{ font-weight:bold; color:red;}
+  .leftnav_zsyz ul li.class_A1{ background: #eee;border-radius: 3px; text-indent:58px;}
+  .leftnav_zsyz ul li.class_A1 a{ color:#836160;background:url(/eportal/fileDir/yuexi/resource/cms/2017/06/dian.png) 34px center no-repeat;}
+  .leftnav_zsyz ul li.class_A1 a:hover{ font-weight:bold;}
+  .leftnav_zsyz ul li.class_C{margin:0px;text-indent:53px;line-height:25px;height:25px}
+  .leftnav_zsyz ul li.class_C a{font-weight:bold;}
+  .leftnav_zsyz ul li.class_C1 a:hover{color:#113979;font-weight:bold;}
+  .leftnav_zsyz ul li.class_C1{text-indent:53px;margin:0px;line-height:25px;height:25px}
+</style>
+<div class="leftnav_zsyz">
+<div class="left_zhong"><ul>
+	             	<li class="class_A1" >
+      	<a href="/yuexi/qzqd/index.html" target="_parent">权责清单</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/scjg74/index.html" target="_parent">市场监管</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/scxx75/index.html" target="_parent">“双创”信息</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/dzjg/index.html" target="_parent">调整结构</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/czzj8894/index.html" target="_parent">财政资金</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/bzxzf14/index.html" target="_parent">保障性住房</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/zdxm11/index.html" target="_parent">重大项目</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/shjz9/index.html" target="_parent">社会救助</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/ylws5/index.html" target="_parent">医疗卫生</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/gyqy41/index.html" target="_parent">国有企业</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/hjbh44/index.html" target="_parent">环境保护</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/aqsc6032/index.html" target="_parent">安全生产</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/spypaq10/index.html" target="_parent">食品药品安全</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/jghsf88/index.html" target="_parent">价格和收费</a></li>
+                       <li class="class_A"><a href="/yuexi/zbcg46/index.html" target="_parent">招标采购</a></li>
+            	                 	<li class="class_A1" >
+      	<a href="/yuexi/tjwgk/index.html" target="_parent">推进五公开</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/fgfgg/index.html" target="_parent">放管服改革</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/nygjcgg/index.html" target="_parent">农业供给侧改革</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/csgg/index.html" target="_parent">财税改革</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/pppxmxx/index.html" target="_parent">PPP项目信息</a></li>
+                     	<li class="class_A1" >
+      	<a href="/yuexi/tpgj71/index.html" target="_parent">脱贫攻坚</a></li>
+        </ul>
+</div>
+</div>
+<div class="height10"></div>
+ 
+ </div> 
+</div>      </div> 
+     <div class="main_right fr" id="mainright"> 
+      <table> 
+       <tbody> 
+        <tr> 
+         <td id="erjileft" name="左一" runat="server" valign="top" width="345" class=" column"></td> 
+         <td width="10"></td> 
+         <td id="erjiright" name="右一" runat="server" valign="top" width="345" class=" column"></td> 
+        </tr> 
+        <tr> 
+         <td colspan="3" id="main_right" runat="server" name="右通栏一" class=" column"> <link rel="stylesheet" type="text/css" href="/eportal/fileDir/yuexi/template/module/list_mod08/container.css" /> 
+<div class="list_mod08 portlet" id="5cdd1a09caea41ecb2a4c1622be2b500" style="$portletStyle" pagemoduleid="78558536f4ff48a4b3adacb404c465c7"> 
+ <div align="left" class="portlet-header"> 
+  <span id="menu"></span> 
+  <div id="submenu5cdd1a09caea41ecb2a4c1622be2b500" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div class="mod08_tl"> 
+  <span>招标采购</span> 
+  <!-- <div class="mod08_tr"><a href="" target="_blank">MORE</a></div> --> 
+ </div> 
+ <div class="smod108_cont">
+   
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" opentype="page"> 
+ <tbody> 
+  <tr> 
+   <td style="margin: 10px auto;">
+    <table cellspacing="0" cellpadding="0" border="0" class="" style="width:100%;border-collapse:collapse;">
+     <tbody>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/5537579/index.html" onclick="void(0)" target="_blank" title="越西县城乡规划建设和住房保障局采购越西县县城环卫保洁、滨河公园日常秩序维护、园林绿化管护及路灯、景观灯等市政设施维护维修服务项目（三年期）" istitle="true">越西县城乡规划建设和住房保障局采购越西县县城环卫保洁、滨河公园日...</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-12-27</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/5537569/index.html" onclick="void(0)" target="_blank" title="越西县司法局采购电脑等设备项目" istitle="true">越西县司法局采购电脑等设备项目</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-12-27</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/5537560/index.html" onclick="void(0)" target="_blank" title="越西县职业技术学校采购学生衣物柜项目" istitle="true">越西县职业技术学校采购学生衣物柜项目</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-12-27</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/5537532/index.html" onclick="void(0)" target="_blank" title="越西县精神文明办采购乡村学校少年宫相关设备项目" istitle="true">越西县精神文明办采购乡村学校少年宫相关设备项目</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-12-27</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/5537486/index.html" onclick="void(0)" target="_blank" title="越西县民政局机电设备采购公开招标" istitle="true">越西县民政局机电设备采购公开招标</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-12-27</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699417/index.html" onclick="void(0)" target="_blank" title="越西县政府采购中心深化行政权力公开透明运行" istitle="true">越西县政府采购中心深化行政权力公开透明运行</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-05-23</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699420/index.html" onclick="void(0)" target="_blank" title="越西县人力资源和社会保障局政府采购公示" istitle="true">越西县人力资源和社会保障局政府采购公示</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-05-22</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699429/index.html" onclick="void(0)" target="_blank" title="越西县德吉乡政府采购情况表" istitle="true">越西县德吉乡政府采购情况表</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-20</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699432/index.html" onclick="void(0)" target="_blank" title="2016大花乡政府采购" istitle="true">2016大花乡政府采购</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-14</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699435/index.html" onclick="void(0)" target="_blank" title="越西县工业集中区管委会2015年政府采购情况" istitle="true">越西县工业集中区管委会2015年政府采购情况</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-09</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699438/index.html" onclick="void(0)" target="_blank" title="2015古二乡政府采购情况" istitle="true">2015古二乡政府采购情况</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-09</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699441/index.html" onclick="void(0)" target="_blank" title="五里箐乡政府采购情况表" istitle="true">五里箐乡政府采购情况表</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-08</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699444/index.html" onclick="void(0)" target="_blank" title="越西县疾控中心政府采购情况表" istitle="true">越西县疾控中心政府采购情况表</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-08</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699447/index.html" onclick="void(0)" target="_blank" title="越西县公安局普雄分局政府2015年采购情况表" istitle="true">越西县公安局普雄分局政府2015年采购情况表</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-08</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699450/index.html" onclick="void(0)" target="_blank" title="越西县委组织部2015年政府采购情况表" istitle="true">越西县委组织部2015年政府采购情况表</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-08</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699456/index.html" onclick="void(0)" target="_blank" title="河东乡2015年度政府采购情况表" istitle="true">河东乡2015年度政府采购情况表</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699459/index.html" onclick="void(0)" target="_blank" title="大瑞镇政府采购情况" istitle="true">大瑞镇政府采购情况</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699462/index.html" onclick="void(0)" target="_blank" title="丁山乡政府采购情况" istitle="true">丁山乡政府采购情况</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699465/index.html" onclick="void(0)" target="_blank" title="乃托镇政府采购情况" istitle="true">乃托镇政府采购情况</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699468/index.html" onclick="void(0)" target="_blank" title="越西县教育和科学技术知识产权局2015年政府采购情况表（申果教办）" istitle="true">越西县教育和科学技术知识产权局2015年政府采购情况表（申果教办）</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699471/index.html" onclick="void(0)" target="_blank" title="四甘普乡2015年政府采购情况" istitle="true">四甘普乡2015年政府采购情况</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699474/index.html" onclick="void(0)" target="_blank" title="拉吉乡2015年政府采购情况" istitle="true">拉吉乡2015年政府采购情况</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699357/index.html" onclick="void(0)" target="_blank" title="越西县普雄镇人民政府采购情况" istitle="true">越西县普雄镇人民政府采购情况</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699477/index.html" onclick="void(0)" target="_blank" title="越西县幼儿园2015年政府采购公示说明" istitle="true">越西县幼儿园2015年政府采购公示说明</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699480/index.html" onclick="void(0)" target="_blank" title="越西县法院政府采购情况表2015年度" istitle="true">越西县法院政府采购情况表2015年度</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699483/index.html" onclick="void(0)" target="_blank" title="越西县档案局关于2015年政府采购情况的说明" istitle="true">越西县档案局关于2015年政府采购情况的说明</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699486/index.html" onclick="void(0)" target="_blank" title="越西县国土资源局关于2015年政府采购情况的说明" istitle="true">越西县国土资源局关于2015年政府采购情况的说明</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699489/index.html" onclick="void(0)" target="_blank" title="越西县妇幼保健计划生育服务中心政府采购计划表" istitle="true">越西县妇幼保健计划生育服务中心政府采购计划表</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699492/index.html" onclick="void(0)" target="_blank" title="越西县人大常委会办公室关于2015年政府采购情况的说明" istitle="true">越西县人大常委会办公室关于2015年政府采购情况的说明</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+      <tr class="">
+       <td>
+        <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+         <tbody> 
+          <tr> 
+           <td style="text-align: center; list-style-type: none; width: 21px; height: 25px;"><img src="/eportal/uiFramework/commonResource/image/2017062416260640566.png" border="0" /></td> 
+           <td class="art_tit" style="list-style-type: none;"><a href="/yuexi/zbcg46/4699495/index.html" onclick="void(0)" target="_blank" title="越西县人民政府办公室关于2015年政府采购情况的说明" istitle="true">越西县人民政府办公室关于2015年政府采购情况的说明</a></td> 
+           <td class="date" style="list-style-type: none; width: 73px;">2017-02-07</td> 
+          </tr> 
+         </tbody> 
+        </table></td>
+      </tr>
+     </tbody>
+    </table></td> 
+  </tr> 
+  <tr> 
+   <td style="line-height: 25px; margin: 0px auto; width: 400px;"> 
+    <div style="width:100%; font-family: Tahoma,Arial,Helvetica;font-size: 12px;font-weight: normal;"> 
+     <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+      <tbody> 
+       <tr> 
+        <td style="width:60%;" nowrap="true" valign="bottom" align="notset"> <a tagname="[HOMEPAGE]" class="">首页</a> <span style="width:5px;display:inline-block;"></span> <a tagname="[PREVIOUSPAGE]" class="">上一页</a> <span style="width:5px;display:inline-block;"></span> <span style="width:5px;"></span> <a style="cursor:pointer" onclick="queryArticleByCondition(this,'/eportal/ui?pageId=4423143&currentPage=2&moduleId=5cdd1a09caea41ecb2a4c1622be2b500&staticRequest=yes')" tagname="/eportal/ui?pageId=4423143&currentPage=2&moduleId=5cdd1a09caea41ecb2a4c1622be2b500&staticRequest=yes" class="pagingNormal">下一页</a> <span style="width:5px;display:inline-block;"></span> <a style="cursor:pointer" onclick="queryArticleByCondition(this,'/eportal/ui?pageId=4423143&currentPage=4&moduleId=5cdd1a09caea41ecb2a4c1622be2b500&staticRequest=yes')" tagname="/eportal/ui?pageId=4423143&currentPage=4&moduleId=5cdd1a09caea41ecb2a4c1622be2b500&staticRequest=yes" class="pagingNormal">尾页</a> <span style="width:5px;display:inline-block;"></span> </td> 
+        <td style="width:40%;line-height:23px;" class="Normal" nowrap="true" valign="bottom" align="left"> 总记录数:97,每页显示30条记录,当前页: <font style="font-family:雅黑,宋体" color="red">1</font> /4 <span style="width:5px;display:inline-block;"></span> 跳转至第<input size="2" onkeydown="jumpToPage(event,this,'4','1','/eportal/ui?pageId=4423143&currentPage=%1&moduleId=5cdd1a09caea41ecb2a4c1622be2b500||/yuexi/zbcg46/5cdd1a09-%1.html')" value="1" type="text" />页 <input onclick="jumpTo(this,'4','1','/eportal/ui?pageId=4423143&currentPage=%1&moduleId=5cdd1a09caea41ecb2a4c1622be2b500||/yuexi/zbcg46/5cdd1a09-%1.html')" value="跳转" style="background: none repeat scroll 0 0 #006699;border: 1px solid #D2F3FD;color: white;cursor: pointer;font-size: 1em;height: 23px;padding: 2px 5px;vertical-align: middle;" type="button" /> </td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div><input type="hidden" name="article_paging_list_hidden" moduleid="5cdd1a09caea41ecb2a4c1622be2b500" modulekey="5cdd1a09caea41ecb2a4c1622be2b500" totalpage="4" /></td> 
+  </tr> 
+ </tbody> 
+</table> 
+ </div> 
+</div> </td> 
+        </tr> 
+        <tr> 
+         <td id="erji_left" name="左二" runat="server" valign="top" width="395" class=" column"></td> 
+         <td width="10"></td> 
+         <td id="erji_right" name="右二" runat="server" valign="top" width="395" class=" column"></td> 
+        </tr> 
+        <tr> 
+         <td colspan="3" id="main-right" runat="server" name="右通栏二" class=" column"></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+     <div style="clear:both;"></div> 
+     <div id="tonglan" runat="server" name="通栏" class=" column">
+            </div> 
+     <div id="tonglan1" runat="server" name="通栏1" class=" column">
+            </div> 
+     <div id="tonglan2" runat="server" name="通栏2" class=" column">
+            </div> 
+     <div id="tonglan3" runat="server" name="通栏3" class=" column">
+            </div> 
+    </div> 
+    <div>
+      <script>
+  function s_click(nums){    
+     var num = 0;
+	 var sele=document.getElementById("select"+nums);
+	 for(var i=0;i<sele.options.length;i++){
+		 if(sele.options[i].selected==true){                
+		 num++;         
+         }   
+		 }  
+                 var url = sele.options[sele.selectedIndex].value;    
+		 if(url!="#"){          
+		 window.open(url);//这里修改打开连接方式  
+		 }
+		 } 
+</script>
+<!--<p ><img src="/eportal/fileDir/yuexi/resource/cms/2017/05/zttp.png" /></p> -->
+<div class="yq_cont">
+<select id="select0" onchange="s_click(0)" class="select">
+     <option selected="selected" value="#">国家部委网站</option>
+     <option value="http://www.mfa.gov.cn">外交部</option>
+              <option value="http://www.ndrc.gov.cn/">发展改革委</option>
+              <option value="http://www.moe.gov.cn/">教育部</option>
+              <option value="http://www.most.gov.cn/">科技部</option>
+          
+              <option value="http://www.seac.gov.cn/">国家民委</option>
+              <option value="http://www.mps.gov.cn/">公安部</option>
+              <option value="http://www.mos.gov.cn/">监察部</option>
+              <option value="http://www.mca.gov.cn/">民政部</option>
+              <option value="http://www.moj.gov.cn/">司法部</option>
+              <option value="http://www.mof.gov.cn/">财政部</option>
+              <option value="http://www.mohrss.gov.cn/">人力资源和社会保障部</option>
+              <option value="http://www.mlr.gov.cn/">国土资源部</option>
+         
+              <option value="http://www.mwr.gov.cn/">水利部</option>
+              <option value="http://www.agri.gov.cn/">农业部</option>
+              <option value="http://www.mofcom.gov.cn/">商务部</option>
+              <option value="http://www.mcprc.gov.cn/" >文化部</option>
+              <option value="http://www.moh.gov.cn/">卫生部</option>
+         
+              <option value="http://www.pbc.gov.cn/">人民银行</option>
+              <option value="http://www.audit.gov.cn/">审计署</option>
+              <option value="http://www.sasac.gov.cn/">国资委</option>
+              <option value="http://www.customs.gov.cn/">海关总署</option>
+              <option value="http://www.chinatax.gov.cn/">税务总局</option>
+              <option value="http://www.saic.gov.cn/">工商总局</option>
+              <option value="http://www.aqsiq.gov.cn/">质检总局</option>
+              <option value="http://www.zhb.gov.cn/">环保总局</option>
+              <option value="http://www.caac.gov.cn/">民航总局</option>
+              <option value="http://www.chinasarft.gov.cn/">广电总局</option>
+              <option value="http://www.gapp.gov.cn/">新闻出版总署(版权局)</option>
+              <option value="http://www.sport.gov.cn/">体育总局</option>
+              <option value="http://www.chinasafety.gov.cn/">安全监管总局</option>
+              <option value="http://www.stats.gov.cn/">统计局</option>
+              <option value="http://www.forestry.gov.cn/">林业局</option>
+              <option value="http://www.sda.gov.cn/">食品药品监管局</option>
+              <option value="http://www.sipo.gov.cn/">知识产权局</option>
+              <option value="http://www.cnta.gov.cn/">旅游局</option>
+              <option value="http://www.sara.gov.cn">国家宗教事务局</option>
+              <option value="http://www.counsellor.gov.cn/">参事室</option>
+              <option value="http://www.ggj.gov.cn/">国管局</option>
+              <option value="http://www.gqb.gov.cn/">侨办</option>
+              <option value="http://www.hmo.gov.cn/">港澳办</option>
+              <option value="http://www.chinalaw.gov.cn/">法制办</option>
+              <option value="http://www.gwytb.gov.cn/">台办</option>
+              <option value="http://www.scio.gov.cn/">新闻办</option>
+              <option value="http://www.xinhuanet.com/">新华社</option>
+              <option value="http://www.cas.cn/">中科院</option>
+            
+              <option value="http://www.cae.cn/">工程院</option>
+              <option value="http://www.drc.gov.cn/">发展研究中心</option>
+              <option value="http://www.nsa.gov.cn/">行政学院</option>
+              <option value="http://www.cea.gov.cn/">地震局</option>
+              <option value="http://www.cma.gov.cn/">气象局</option>
+              <option value="http://www.cbrc.gov.cn/">银监会</option>
+              <option value="http://www.csrc.gov.cn/">证监会</option>
+              <option value="http://www.circ.gov.cn/">保监会</option>
+         
+              <option value="http://www.ssf.gov.cn/">社保基金会</option>
+              <option value="http://www.nsfc.gov.cn/">自然科学基金会</option>
+              <option value="http://www.gjxfj.gov.cn/">信访局</option>
+              <option value="http://www.chinagrain.gov.cn/">粮食局</option>
+              <option value="http://www.tobacco.gov.cn/">烟草局</option>
+             
+              <option value="http://www.soa.gov.cn/">海洋局</option>
+              <option value="http://www.sbsm.gov.cn/">测绘局</option>
+            
+              <option value="http://www.sach.gov.cn/">文物局</option>
+              <option value="http://www.satcm.gov.cn/">中医药局</option>
+              <option value="http://www.safe.gov.cn/">外汇局</option>
+              <option value="http://www.chinasafety.gov.cn/zhuantipindao/meikuanganquan.htm">煤矿安监局</option>
+              <option value="http://www.saac.gov.cn/index.htm">档案局</option>
+              <option value="http://www.3g.gov.cn/">国务院三峡办</option>
+              <option value="http://www.cpad.gov.cn/">国务院扶贫办</option>
+</select>
+<select id="select1" onchange="s_click(1)" class="select">
+     <option selected="selected" value="#">省级政府网站</option>
+     <option value="http://www.beijing.gov.cn">北京</option>
+              <option value="http://www.shanghai.gov.cn">上海</option>
+              <option value="http://www.tj.gov.cn">天津</option>
+              <option value="http://www.cq.gov.cn">重庆</option>
+              <option value="http://www.henan.gov.cn">河南</option>
+              <option value="http://www.hebei.gov.cn">河北 </option>
+              <option value="http://www.shanxigov.cn">山西</option>
+              <option value="http://www.ln.gov.cn">辽宁</option>
+              <option value="http://www.jl.gov.cn">吉林</option>
+              <option value="http://www.hlj.gov.cn">黑龙江</option>
+              <option value="http://www.shandong.gov.cn">山东</option>
+              <option value="http://www.jiangsu.gov.cn">江苏</option>
+              <option value="http://www.zhejiang.gov.cn">浙江</option>
+              <option value="http://www.ah.gov.cn">安徽</option>
+              <option value="http://www.fujian.gov.cn">福建</option>
+              <option value="http://www.jiangxi.gov.cn">江西</option>
+              <option value="http://www.henan.gov.cn">河南</option>
+              <option value="http://www.cnhubei.gov.cn">湖北</option>
+              <option value="http://www.hunan.gov.cn">湖南</option>
+              <option value="http://www.gd.gov.cn"> 广东 </option>
+              <option value="http://www.hainan.gov.cn"> 海南</option>
+              <option value="http://www.sc.gov.cn">四川</option>
+              <option value="http://www.gzgov.gov.cn">贵州</option>
+              <option value="http://www.yn.gov.cn">云南</option>
+              <option value="http://www.shaanxi.gov.cn">陕西</option>
+              <option value="http://www.gansu.gov.cn">甘肃</option>
+              <option value="http://www.qh.gov.cn">青海</option>
+              <option value="http://www.chinataiwan.org">台湾</option>
+              <option value="http://www.nmg.gov.cn">内蒙古</option>
+              <option value="http://www.gxzf.gov.cn">广西</option>
+              <option value="http://www.chinatibetnews.com">西藏</option>
+              <option value="http://www.xinjiang.gov.cn">新疆</option>
+              <option value="http://www.info.gov.hk">香港</option>
+             
+</select>
+<select id="select2" onchange="s_click(2)" class="select">
+     <option selected="selected" value="#">四川省部门网站</option>
+     <option value="http://www.sc.gov.cn">省人民政府办公厅</option>
+              <option value="http://www.scdrc.gov.cn" >省发展和改革委员会</option>
+       
+              <option value="http://www.scmw.gov.cn" >省民族事务委员会</option>
+            
+              <option value="http://www.scedu.net" >省教育厅</option>
+              <option value="http://www.scst.gov.cn" >省科技厅</option>
+              <option>省公安厅</option>
+              <option value="http://www.scjc.gov.cn" >省监察厅</option>
+              <option value="http://www.scmz.gov.cn" >省民政厅</option>
+              <option value="http://www.scsf.gov.cn" >省司法厅</option>
+              <option>省财政厅</option>
+         
+            
+              <option value="http://www.scdlr.gov.cn/" >省国土资源厅</option>
+              <option value="http://www.scjst.gov.cn" >省建设厅</option>
+              <option value="http://www.scjt.gov.cn">省交通厅</option>
+             
+              <option value="http://www.scwater.gov.cn" >省水利厅</option>
+              <option value="http://www.scagri.gov.cn" >省农业厅</option>
+              <option value="http://www.scly.gov.cn" >省林业厅</option>
+              <option value="http://www.sccom.gov.cn" >省商务厅</option>
+              <option value="http://www.sccnt.gov.cn" >省文化厅</option>
+              <option value="http://www.scwst.gov.cn" >省卫生厅</option>
+              <option value="http://www.scaudit.gov.cn" >省审计厅</option>
+              <option value="http://www.scgz.gov.cn" >省国有资产监督管理委员会</option>
+              <option value="http://www.sc-l-tax.gov.cn" >省地税局</option>
+              <option value="http://www.schj.gov.cn">省环境保护局</option>
+           
+              <option value="http://www.scsport.gov.cn">省体育局</option>
+              <option value="http://www.sc.stats.gov.cn">省统计局</option>
+              <option value="http://www.scaic.gov.cn" >省工商局</option>
+              <option value="http://www.scppa.gov.cn" >省新闻出版局</option>
+              <option value="http://www.sczj.gov.cn" >省质量技术监督局</option>
+              <option value="http://www.scfda.gov.cn" >省食品药品监督管理局</option>
+              <option value="http://www.scta.gov.cn" >省旅游局</option>
+              <option>省宗教局</option>
+              <option value="http://www.schouqin.gov.cn" >省机关事务管理局</option>
+            
+              <option value="http://www.sc-overseasinfo.net" >省侨务办公室</option>
+              <option value="http://www.scfz.gov.cn">省法制办公室</option>
+              <option>省国防科学技术工业办公室</option>
+              <option>省扶贫开发办公室</option>
+              <option>省人民防空办公室</option>
+              <option value="http://www.scgrain.com">省粮食局</option>
+              <option value="http://www.scsafety.gov.cn" >省安全生产监督管理局</option>
+              <option value="http://www.sctcm.gov.cn" >省中医管理局</option>
+              <option>省监狱管理局</option>
+              <option value="http://www.scsdaj.gov.cn">省档案局（馆）</option>
+              <option>省乡镇企业局</option>
+              <option value="http://www.scipo.gov.cn" >省知识产权局</option>
+              <option value="http://www.scinvest.cn" >省招商引资局</option>
+              <option value= "http://www.sczfcg.com">省政府采购网</option>
+              <option value="http://www.sctv.com">四川广播电视集团</option>
+              <option value="http://www.sccw.gov.cn">四川省政府参事室</option>
+         
+</select>
+<select id="select3" onchange="s_click(3)" class="select">
+     <option selected="selected" value="#">市州政府网站</option>
+     <option value="http://www.chengdu.gov.cn">成都市 </option>
+     <option value="http://www.zg.gov.cn">自贡市 </option>
+    
+     <option value="http://www.luzhou.gov.cn">泸州市 </option>
+              <option value="http://www.deyang.gov.cn">德阳市 </option>
+           
+              <option value="http://www.cngy.gov.cn">广元市 </option>
+              <option value="http://www.suining.gov.cn">遂宁市 </option>
+              <option value="http://www.neijiang.gov.cn">内江市 </option>
+              <option value="http://www.leshan.gov.cn">乐山市 </option>
+              <option value="http://www.nanchong.gov.cn">南充市 </option>
+              <option value="http://www.yb.gov.cn">宜宾市 </option>
+              <option value="http://www.guang-an.gov.cn/">广安市 </option>
+              <option value="http://www.dazhou.gov.cn"/>达州市</option>          
+              <option value="http://www.cnbz.gov.cn/">巴中市 </option>
+              <option value="http://www.yaan.gov.cn/">雅安市 </option>
+              <option value="http://www.ms.gov.cn/">眉山市 </option>
+              <option value="http://www.ziyang.gov.cn/">资阳市 </option>
+              <option value="http://www.abazhou.gov.cn/">阿坝州 </option>
+              <option value="http://www.gzz.gov.cn/">甘孜州 </option>
+              <option value="http://www.lsz.gov.cn/">凉山州 </option>
+
+</select>
+<select class="select" id="select4" onchange="s_click(4)">
+<option selected="selected" value="#">州级部门网站</option>
+<option value="http://www.lsz.gov.cn">州政府办</option>
+<option value="http://jxw.lsz.gov.cn/">州经信委</option>
+
+<option value="http://www.lszst.gov.cn/">州科知局</option>
+<option value="http://mzw.lsz.gov.cn/">州民宗委</option>
+<option value="http://lsga.lsz.gov.cn:9000/">州公安局</option>
+<option value="http://www.lszjw.gov.cn/">州监察局</option>
+<option value="http://lsmz.lsz.gov.cn/">州民政局</option>
+<option value="http://xxgk2011.lsz.gov.cn/GPI/index.aspx?dept=92337809">州财政局</option>
+<option value="http://www.lszrsj.gov.cn">州人社局</option>
+<option value="http://ghjsj.lsz.gov.cn">州规建局</option>
+<option value="http://lsswj.lsz.gov.cn/">州水务局</option>
+<option value="http://lyj.lsz.gov.cn">州林业局</option
+<option value="http://hfpc.lsz.gov.cn">州卫计委</option>
+<option value="http://sjj.lsz.gov.cn/">州审计局</option>
+<option value="http://www.lshj.gov.cn/">州环保局</option>
+<option value="http://tyj.lsz.gov.cn/">州体育局</option>
+<option value="http://tjj.lsz.gov.cn">州统计局</option>
+<option value="http://www.lszaj.gov.cn">州安监局</option>
+<option value="http://wqb.lsz.gov.cn/">州外侨办</option>
+<!--<option value="http://ymj.lsz.gov.cn/">州扶贫移民局</option>-->
+<option value="http://gtj.lsz.gov.cn">州国土局</option>
+<option value="http://fda.lsz.gov.cn/">州食药监局</option>
+<option value="http://www.lshd.gov.cn/">州工商局</option>
+<option value="http://zjj.lsz.gov.cn/">州质监局</option>
+<option value="http://swtcj.lsz.gov.cn">州政务服务中心</option>
+<option value="http://swtcj.lsz.gov.cn/">州商务投促和促进局</option>
+<option value="http://fzb.lsz.gov.cn">州法制办</option>
+<!--<option value="http://www.lszrf.gov.cn">州人防办</option>-->
+<option value="http://daj.lsz.gov.cn/">州档案局</option>
+<option value="http://fzjzj.lsz.gov.cn">州防震减灾局</option>
+
+<option value="http://lszyw.lsz.gov.cn">州语委</option>
+<option value="http://lsygdz.lsz.gov.cn">州以工代赈办</option>
+
+<option value="http://www.luojishan.com/">州螺髻山旅游景区管理局</option>
+<option value="http://www.sc-n-tax.gov.cn/TaxWeb/template.go?_template=15151">州国税局</option>
+
+<option value="http://www.lszqxj.com/">州气象局</option>
+
+
+</select>
+
+    <select id="select5" onchange="s_click(5)" class="select">
+     <option selected="selected" value="#">县市政府网站</option>
+             
+              <option value="http://dc.lsz.gov.cn">德昌县</option>
+              <option value="http://hl.lsz.gov.cn">会理县</option>
+              <option value="http://hd.lsz.gov.cn">会东县</option>
+              <option value="http://nn.lsz.gov.cn/">宁南县</option>
+              <option value="http://pg.lsz.gov.cn/">普格县</option>
+              <option value="http://zj.lsz.gov.cn/">昭觉县</option>
+              <option value="http://jy.lsz.gov.cn">金阳县</option>
+              <option value="http://lb.lsz.gov.cn/">雷波县</option>
+              <option value="http://mg.lsz.gov.cn">美姑县</option>
+              <option value="http://xd.lsz.gov.cn">喜德县</option>
+              <option value="http://mn.lsz.gov.cn">冕宁县</option>
+              <option value="http://yy.lsz.gov.cn">盐源县</option>
+              <option value="http://ml.lsz.gov.cn/">木里县</option>
+
+</select>
+
+</div>
+
+<div class="footer">
+   <div class="footbox">
+   <div class="footnavi">
+        <div class="footnav">
+            <a href="/yuexi/zzsm9772/index.html" target="_blank">郑重申明 | </a>
+            <a href="/yuexi/lxwm85/index.html" target="_blank">联系我们 | </a>
+            <a href="/yuexi/wzdt9432/index.html" target="_blank">网站地图 | </a>
+            <a href="/yuexi/wzjc93/index.html" target="_blank">网站纠错 | </a>
+            <a href="/yuexi/sybz90/index.html" target="_blank">使用帮助</a>
+        </div>
+
+        <div class="dbcont clearfloat">
+            <div class="footmid fl"><script id="_jiucuo_" sitecode="5134340001" src="http://pucha.kaipuyun.cn/exposure/jiucuo.js"></script></div>
+            <div class="fl" style="margin:5px 15px 0 0px;"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='http://dcs.conac.cn/js/23/353/1988/40563898/CA233531988405638980003.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+            <div class="foottxt fl"> 
+                <p>主办：越西县人民政府  </p>
+                <p>承办：越西县人民政府办公室</p>
+                <p>建设维护：越西县政务信息中心  网站标识码：5134340001</p>
+                <p>蜀ICP备09000582号   公安机关备案号：51343402000111 </p>
+            </div>
+     </div>
+</div>
+</div>    </div> 
+   </div> 
+  </div><div style="display:none" easysite="easysiteHiddenDiv">
+<input type="hidden"  id="currentLoginUserLoginName"/>
+<input type="hidden"  id="currentLoginUserLoginId"/>
+<input type="hidden"  id="currentLoginUserIsSuperAdmin"/>
+</div>
+ </body>
+</html>

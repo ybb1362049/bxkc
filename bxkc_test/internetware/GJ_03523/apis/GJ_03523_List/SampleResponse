@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--start component HTML组件(title)-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<style>
+.column dd a label{ float:right; line-height:32px; padding-right:15px; font-size:12px; color:#c0c0c0;}
+.column dd a:hover label{ color:#db493a;}
+</style>
+<link href="http://www.chinatax.gov.cn/download/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<title>国家税务总局</title>
+<!--end component HTML组件(title)-->
+
+<link href="../../../template/830037/830038.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	
+<!--start component HTML组件(top)-->
+<div style='display:none;'>
+<img src="../../../template/835581/1843829.png"  />
+</div>
+<div class="ctop1" style="border-bottom:none; width:100%; height:31px; background:url(../../../dbsource/1278742/1296567.jpg)">
+<div class="ctop1a">
+<ul>
+<li><a href="http://hd.chinatax.gov.cn/" target="_blank">简体</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://big5.chinatax.gov.cn/SuniT/www.chinatax.gov.cn/index.html" target="_blank">繁体</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.chinatax.gov.cn/eng/" target="_blank">English</a></li>
+</ul>
+<dl style="padding-right:20px;">
+<dd style="background:url(../../../dbsource/1448198/1448202.jpg) no-repeat left center;margin-left:20px;"><a href="http://www.chinatax.gov.cn/n1269690/appindex.html" target="_blank">客户端</a></dd>
+<dd style="background:url(../../../dbsource/2658304/2671468.jpg) no-repeat left center;margin-left:20px;"><a href="http://www.chinatax.gov.cn/n810356/n810951/index.html" target="_blank">微博</a></dd>
+<dd style="background:url(../../../dbsource/2658304/2671471.jpg) no-repeat left center;margin-left:20px;"><a href="http://www.chinatax.gov.cn/n810356/n810951/index.html" target="_blank">微信</a></dd>
+<dd style="margin-left:20px;"class="ctop1add4"><a href="http://mail.chinatax.gov.cn/" target="_blank">邮箱</a></dd>
+</dl><br class="clear" />
+</div>
+</div>
+<!--end component HTML组件(top)-->
+
+    
+    
+<!--start component HTML组件(banner)-->
+
+<div class="ctop2">
+     <div class="ctop2a">
+         <div class="ctop2a1" style="width:321px; height:100px; "> 
+<table width="100%" height="100%">
+                <tr>
+                    <td align="center" valign="middle">
+<a href="../../../index.html" target="_blank"><img src="../../../template/1055094/2531624.png" width="321" height="100"  /></a>
+     </td></tr></table>
+     </div>
+            <div class="ctop2a2">
+              <div class="search">
+                 <form method="post" action="http://ss.chinatax.gov.cn/isearch/sc/webdata"  target="_blank">
+                     <div class="input" style="width:272px;">
+                         <input class="text" onFocus="cls()" onBlur="res()"  type="text" onClick="javascript:if(this.value=='请输入关键字') this.value=''"  value="请输入关键字" name="fullText">
+     <input name="sortType" type="hidden" id="sortType" value="1" />
+            <input name="sortKey"  type="hidden" id="sortKey"  value="showTime" />
+            <input name="sortFlag" type="hidden" id="sortFlag" value="-1" />
+                        </div>
+                     <div class="submit"><input type="image" src="../../../template/823341/823393.jpg" width="32" height="30" border="0" /></div>
+                               </div>
+                <div class="top_key">本站热词： <a href="#" onClick="click_encodeLink('营改增')" >营改增</a>
+<a href="#" onClick="click_encodeLink('放管服')">放管服</a>
+<a href="#" onClick="click_encodeLink('小微企业')">小微企业</a> 
+<a href="#" onClick="click_encodeLink('出口退税')">出口退税</a>
+<a href="#" onClick="click_encodeLink('便民服务')">便民服务</a> 
+</div>
+     </form>
+            </div>
+            </div><br class="clear"  />
+      </div>
+<script>
+function cls(){
+//捕获触发事件的对象，并设置为以下语句的默认对象
+with(event.srcElement)
+//如果当前值为默认值，则清空
+if(value==defaultValue) value=""
+}
+function res(){
+//捕获触发事件的对象，并设置为以下语句的默认对象
+with(event.srcElement)
+//如果当前值为空，则重置为默认值
+if(value=="") value=defaultValue
+}
+function click_encodeLink(param){
+    window.open("http://ss.chinatax.gov.cn/isearch/sc/webdata?fullText=" + encodeURI(param),"_blank") ;
+}
+</script>
+<!--end component HTML组件(banner)-->
+
+      
+    <div class="ctop3">
+    	
+<!--start component 当前路径(主导航)-->
+ <div class="ctop3">
+     <div class="ctop3a">
+         <ul>
+              <li class="ctop3a1"><a href="../../../n810209/index.html"  id="mynav1" onmouseover="mynav1.className='mynav1';mynav1.style.color='#1369c0';" onmouseout="mynav1.className='';mynav1.style.color='';" rel="qh_con1">总局概况</a></li>
+              <li class="ctop3a2" style=" background:url(../../../dbsource/827378/834570.jpg) no-repeat"><a href="../../../n810214/index.html"  id="mynav2" onmouseover="mynav2.className='mynav2';mynav2.style.color='#1369c0';" onmouseout="mynav2.className='';mynav2.style.color='';" rel="qh_con2">信息公开</a></li>
+              <li class="ctop3a3" ><a href="../../../n810219/index.html"  id="mynav3" onmouseover="mynav3.className='mynav3';mynav3.style.color='#1369c0';" onmouseout="mynav3.className='';mynav3.style.color='';" rel="qh_con3">新闻发布</a></li>
+              <li class="ctop3a4" ><a href="../../../n810341/index.html"  id="mynav4" onmouseover="mynav4.className='mynav4';mynav4.style.color='#1369c0';" onmouseout="mynav4.className='';mynav4.style.color='';" rel="qh_con4">税收政策</a></li>
+              <li class="ctop3a5"><a href="../../../n810346/index.html"  id="mynav5" onmouseover="mynav5.className='mynav5';mynav5.style.color='#1369c0';" onmouseout="mynav5.className='';mynav5.style.color='';" rel="qh_con5">纳税服务</a></li>
+              <li class="ctop3a6"><a href="../../../n810351/index.html"  id="mynav6" onmouseover="mynav6.className='mynav6';mynav6.style.color='#1369c0';" onmouseout="mynav6.className='';mynav6.style.color='';" rel="qh_con6">税务视频</a></li>
+              <li class="ctop3a7"><a href="../../../n810356/index.html"  id="mynav7" onmouseover="mynav7.className='mynav7';mynav7.style.color='#1369c0';" onmouseout="mynav7.className='';mynav7.style.color='';" rel="qh_con7">互动交流</a></li>
+            </ul> 
+      </div><br class="clear"  />
+    </div>
+
+
+
+<!--end component 当前路径(主导航)-->
+  <br class="clear"  />
+    </div>
+        
+	
+<!--start component 当前路径(当前路径)-->
+<div class="location">
+    您所在的位置： 
+ <a href=../../../index.html target=_blank style=" color:#1369c0;">首页</a>
+        &nbsp;<span style=" color:#1369c0;">&gt;</span>&nbsp;
+      <a href=../../../n810214/index.html style=" color:#1369c0;" target=_blank>信息公开</a>
+        &nbsp;<span style=" color:#1369c0;">&gt;</span>&nbsp;
+      <a href=../../../n810214/n810621/index.html style=" color:#1369c0;" target=_blank>政府采购</a>
+        &nbsp;<span style=" color:#1369c0;">&gt;</span>&nbsp;
+      <a href=../../../n810214/n810621/n810668/index.html style=" color:#1369c0;" target=_blank>招标公告</a>
+  
+
+
+
+</div>
+<!--end component 当前路径(当前路径)-->
+
+        
+    <div class="cmain">
+    	
+<!--start component 导航条(内容全集当前栏目)-->
+<style>
+.sv_lcon{height:1018px;}
+
+</style> 
+
+
+<div class="sv_l">
+            <div class="sv_lcon">
+                  <div>
+               <ul class="sv_lbton">招标公告</ul>
+               <ul class="sv_lbtbg">&nbsp;</ul>
+                </div>
+                    <div class="column">
+<!--end component 导航条(内容全集当前栏目)-->
+
+<!--start component 内容全集(列表页内容全集)-->
+<script type="text/javascript" src="../../../dbsource/827368/827370.js"></script> 
+<span id="comp_831221"> 
+                       <dl>
+                                                   <dd><a href="../../../n810214/n810621/n810668/c3541409/content.html" target=_blank><span>[06-22]</span>国家税务总局2018年第三季度税务系统打印机复印机批量集中采购（税务系...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3539154/content.html" target=_blank><span>[06-21]</span>国家税务总局2018年第三季度税务系统PC机批量集中采购（税务系统政府...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3499539/content.html" target=_blank><span>[06-12]</span>国家税务总局P5系列小型机续购维保项目公开招标公告</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3497647/content.html" target=_blank><span>[06-08]</span>国家税务总局云平台扩容项目第二次招标采购招标公告</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3427589/content.html" target=_blank><span>[05-02]</span>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目(第8包 投...</a></dd>
+                                  <dd class="sv_linel"></dd>
+                                  <dd><a href="../../../n810214/n810621/n810668/c3399397/content.html" target=_blank><span>[04-18]</span>国家税务总局2018年第二季度国税系统PC机（一体机配置）批量集中采购...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3395457/content.html" target=_blank><span>[04-13]</span>国家税务总局云平台扩容项目公开招标公告</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3368000/content.html" target=_blank><span>[03-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目(第8包)公...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3367963/content.html" target=_blank><span>[03-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目(第7包)公...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3367930/content.html" target=_blank><span>[03-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目(第6包)公...</a></dd>
+                                  <dd class="sv_linel"></dd>
+                                  <dd><a href="../../../n810214/n810621/n810668/c3367870/content.html" target=_blank><span>[03-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目(第5包)公...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3367788/content.html" target=_blank><span>[03-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目(第4包)公...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3367721/content.html" target=_blank><span>[03-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目(第3包 计...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3367638/content.html" target=_blank><span>[03-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围补充采购项目(第2包...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3367570/content.html" target=_blank><span>[03-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围补充采购项目(第1包...</a></dd>
+                                  <dd class="sv_linel"></dd>
+                                  <dd><a href="../../../n810214/n810621/n810668/c3357121/content.html" target=_blank><span>[03-19]</span>国家税务总局2018年第二季度国税系统打印机复印机批量集中采购（国税系...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3356980/content.html" target=_blank><span>[03-16]</span>国家税务总局2018年第二季度国税系统PC机批量集中采购（国税系统政府...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3280994/content.html" target=_blank><span>[02-08]</span>国家税务总局金税三期工程第二阶段总局数据资源建设项目数据应用子项目招标...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3272564/content.html" target=_blank><span>[02-01]</span>国家税务总局2018年第一季度国税系统打印机复印机批量集中采购（国税系...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c3272523/content.html" target=_blank><span>[02-01]</span>国家税务总局2018年第一季度国税系统PC机批量集中采购（国税系统政府...</a></dd>
+                                  <dd class="sv_linel"></dd>
+                                  <dd><a href="../../../n810214/n810621/n810668/c3258691/content.html" target=_blank><span>[01-29]</span>国家税务总局机关干部职工体检项目公开招标公告</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c2988467/content.html" target=_blank><span>[12-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目(第2包)公...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c2988112/content.html" target=_blank><span>[12-28]</span>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目(第1包)公...</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c2956563/content.html" target=_blank><span>[12-12]</span>国家税务总局2017年综合办公系统升级完善项目中标公告</a></dd>
+                                   <dd><a href="../../../n810214/n810621/n810668/c2931603/content.html" target=_blank><span>[12-04]</span>国家税务总局纳税服务“三线”互联互通项目公开招标公告</a></dd>
+                                  <dd class="sv_linel"></dd>
+                                                      </dl>
+
+ </span> 
+<style type="text/css" >
+.pageN{
+margin:0 auto; 
+font-size:14px;
+}
+.pageN a {
+  font-size:14px;
+}
+</style>
+<table align="center" class="pageN">
+            <tr>
+            <td id="pag_831221">
+<script type="text/javascript">
+  var purl="../../../n810214/n810621/n810668/index_831221" 
+ var org= jQuery("#comp_831221").html(); 
+ function goPub(uu){ 
+if(pageName==maxPageNum) {
+ pageName=0;}
+ if(pageName==0){ 
+  jQuery("#comp_831221").html(org);
+ writePaging();} 
+ else{ 
+    jQuery("#comp_831221").load(uu,writePaging);
+         }
+ }
+ function createUrl(pName){ 
+   var u=window.location.href; 
+  var index=u.indexOf("/manageweb") 
+  if(index!=-1){ 
+   var uu=purl+"&pageName="+pName 
+      return "javascript:pageName="+pName+";goPub('"+uu+"')" 
+    }
+   index=u.indexOf("/serviceweb");
+     if(index!=-1){ 
+      var uu=purl+"_"+pName+".html";
+      return   "javascript:pageName="+pName+";goPub('"+uu+"')" 
+ }else{
+  var uu= purl+"_"+pName+".html";
+     return "javascript:pageName="+pName+";goPub('"+uu+"')"; 
+ } 
+} 
+   function writePaging(){ 
+    var sss=""; 
+   var displayNum=10; 
+     if (pageName==0) pageName=maxPageNum; 
+   if (pageName<maxPageNum){ 
+    var url=createUrl(0); sss +="<a href="+url+"  target='_self'>首页</a>&nbsp;"; 
+url=createUrl(pageName+1); 
+  sss +="<a href="+ url+ "  target='_self'>上页</a>&nbsp;"; 
+} 
+ var ccc = pageName+displayNum-1;
+if (ccc>maxPageNum) ccc=maxPageNum; 
+  while (ccc>pageName){ 
+   url=createUrl(ccc); 
+ if(ccc<=displayNum) {
+ sss += "<a href="+ url+ " target='_self'>"+(maxPageNum-ccc+1)+"</a>&nbsp;"; 
+ }else if(pageName>=ccc) {
+  sss += "<a href="+ url+ " target='_self'>"+(maxPageNum-ccc+1)+"</a>&nbsp;"; }
+ ccc--; 
+ } 
+ sss += "<font color=red>"+(maxPageNum-ccc+1)+"</font>&nbsp;"; 
+ ccc--; 
+  while (ccc>=1 && ccc>=(pageName-displayNum+1)){ 
+    url=createUrl(ccc); 
+  sss += "<a href=" +url+ "  target='_self'>"+(maxPageNum-ccc+1)+"</a>&nbsp;"; 
+ ccc--;
+ } 
+ if (pageName>1){ 
+ url=createUrl(pageName-1); 
+  sss += "<a href="+ url+"  target='_self'>下页</a>&nbsp;"; 
+ url=createUrl(1); 
+  sss += "<a href="+ url+" target='_self'>尾页</a>"; 
+ } 
+  sss += "&nbsp;总页数:"+maxPageNum; 
+var pagPlace=document.getElementById("pag_831221"); 
+ pagPlace.innerHTML=sss;
+}
+  var maxPageNum=0;
+      document.cookie="maxPageNum831221=9";
+    maxPageNum = 9;
+    if (maxPageNum>1){
+    var sss="";
+          pageName = 0;
+        writePaging();
+  }
+</script>
+</td>
+</tr>
+          </table>
+          <div style='display:none'><a href='../../../n810214/n810621/n810668/index_831221_1.html'></a><a href='../../../n810214/n810621/n810668/index_831221_2.html'></a><a href='../../../n810214/n810621/n810668/index_831221_3.html'></a><a href='../../../n810214/n810621/n810668/index_831221_4.html'></a><a href='../../../n810214/n810621/n810668/index_831221_5.html'></a><a href='../../../n810214/n810621/n810668/index_831221_6.html'></a><a href='../../../n810214/n810621/n810668/index_831221_7.html'></a><a href='../../../n810214/n810621/n810668/index_831221_8.html'></a></div>
+<!--end component 内容全集(列表页内容全集)-->
+
+<!--start component HTML组件(内容全集底)-->
+        </div>   
+        </div>
+            <div class="sv_lshaow"></div>           
+        </div>
+<!--end component HTML组件(内容全集底)-->
+
+            
+        
+<!--start component 新闻列表(new)-->
+<div class="sv_r">
+         <ul class="sv_rcon">
+
+          <div class="sv_rbtbg">
+                <ul ><a href="../../../n810214/n810621/n810673/index.html" target=_blank class="sv_rbton"> 中标公告</a></ul>        
+         </div>
+                 <div class="sv_rlist">
+                   <ul>
+                     <li><a href="../../../n810214/n810621/n810673/c3500857/content.html" target=_blank>国家税务总局机关通用技术服务项目中标公告  [06-12]</a></li>
+                                     <li><a href="../../../n810214/n810621/n810673/c3485743/content.html" target=_blank>国家税务总局2018年第二季度国税系统PC机（一体机配置）批...  [05-30]</a></li>
+                                     <li><a href="../../../n810214/n810621/n810673/c3475993/content.html" target=_blank>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目第...  [05-23]</a></li>
+                                     <li><a href="../../../n810214/n810621/n810673/c3472696/content.html" target=_blank>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目第...  [05-21]</a></li>
+                                     <li><a href="../../../n810214/n810621/n810673/c3454166/content.html" target=_blank>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目第...  [05-16]</a></li>
+                                     <li><a href="../../../n810214/n810621/n810673/c3446994/content.html" target=_blank>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目（...  [05-14]</a></li>
+                                     <li><a href="../../../n810214/n810621/n810673/c3420195/content.html" target=_blank>国家税务总局2018年第二季度国税系统打印机复印机批量集中采...  [04-27]</a></li>
+                                     <li><a href="../../../n810214/n810621/n810673/c3420150/content.html" target=_blank>国家税务总局2018年第二季度国税系统打印机复印机批量集中采...  [04-27]</a></li>
+                                     </ul>
+                 </div>
+             </ul>
+             <ul class="sv_lshaow"></ul>
+        </div>
+<!--end component 新闻列表(new)-->
+
+        
+<!--start component 新闻列表(new)-->
+<div class="sv_r">
+         <ul class="sv_rcon" style="margin-top:20px">
+
+          <div class="sv_rbtbg">
+                <ul ><a href="../../../n810214/n810621/n2217729/index.html" target=_blank class="sv_rbton"> 其他公告</a></ul>        
+         </div>
+                 <div class="sv_rlist">
+                   <ul>
+                     <li><a href="../../../n810214/n810621/n2217729/c3541434/content.html" target=_blank>国家税务总局2018年第三季度税务系统打印机复印机批量集中采... </a></li>
+                                     <li><a href="../../../n810214/n810621/n2217729/c3541375/content.html" target=_blank>国家税务总局税务系统政府采购信息系统信息化产品入围采购项目（... </a></li>
+                                     <li><a href="../../../n810214/n810621/n2217729/c3541349/content.html" target=_blank>国家税务总局税务系统政府采购信息系统信息化产品入围采购项目(... </a></li>
+                                     <li><a href="../../../n810214/n810621/n2217729/c3541321/content.html" target=_blank>《国税系统政府采购信息系统信息化产品入围采购项目》（第8包补... </a></li>
+                                     <li><a href="../../../n810214/n810621/n2217729/c3541296/content.html" target=_blank>《国税系统政府采购信息系统信息化产品入围采购项目》（第6包补... </a></li>
+                                     <li><a href="../../../n810214/n810621/n2217729/c3541274/content.html" target=_blank>中央单位批量集中采购简易合同 </a></li>
+                                     <li><a href="../../../n810214/n810621/n2217729/c3539191/content.html" target=_blank>国家税务总局2018年第三季度税务系统PC机批量集中采购（税... </a></li>
+                                     <li><a href="../../../n810214/n810621/n2217729/c3539116/content.html" target=_blank>国家税务总局国税系统政府采购信息系统信息化产品入围采购项目（... </a></li>
+                                     </ul>
+                 </div>
+             </ul>
+             <ul class="sv_lshaow"></ul>
+        </div>
+<!--end component 新闻列表(new)-->
+
+        
+</div>
+    
+    
+<!--start component HTML组件(bottom)-->
+<style>
+.cmain{background:none;}
+</style>
+<div class="cbottom2" style="height:130px">
+     <p class="link">&nbsp;&nbsp;
+<a href="../../../n1670141/index.html" target="_blank">访问统计</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="../../../n1262558/index.html" target="_blank">网站管理</a>&nbsp;|&nbsp;
+<a href="../../../n1270314/c1262731/content.html" target="_blank">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<!--<a href="../../../n1270314/c1262815/content.html" target="_blank">网站概述</a>&nbsp;&nbsp;|&nbsp;&nbsp;-->
+<a href="../../../n1636341/index.html" target="_blank">网站地图</a>&nbsp;&nbsp;</p>
+     <p class="copyright"><table width="400" align="center" cellpadding="0" cellspacing="0" border="0" style="margin:0px auto;"><tr>
+  <td valign="top"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/33/000/0000/60411711/CA330000000604117110003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+  </td>
+  <td class="copyright" style="font-size:12px;">
+  国家税务总局办公厅主办 电子税务管理中心技术支持
+        <br />版权所有：国家税务总局 京ICP备13021685号-2
+        <br />地址：北京市海淀区羊坊店西路5号 邮编：100038
+  </td></tr></table>
+  </p> 
+    </div>
+<!--end component HTML组件(bottom)-->
+
+    
+    
+<!--start component HTML组件(分享)-->
+<style type="text/css">
+#p1{ color:#0367FD;font-family:"微软雅黑,''"; font-size:12px;position:relative; bottom:37px;}
+#p2{ color:#0367FD;font-family:"微软雅黑,''"; font-size:12px;position:relative; bottom:25px;}
+#p2 a{color:#0367FD;}
+ #p2 a:hover{color:#db493a;}
+ .suspend{width:82px;position:fixed;top:149px;right:10px;overflow:hidden; z-index:99999}
+* html .suspend{position:absolute;left:expression(eval(document.documentElement.scrollRight));top:expression(eval(document.documentElement.scrollTop+200))
+ .suspend img{vertical-align:top;}
+</style>
+<script type="text/javascript" src="../../../dbsource/1362149/1958548.js"></script>
+<!-- GWD SHARE BEGIN 页面右侧浮动分享-->
+<div class="suspend" style="overflow: hidden; width: 82px; ">
+<!--<div id="L0"  style=" overflow:visible;margin:0px;padding:0;width:41px;height:98px;position:absolute; top:0px;z-
+index:9999; left:0px;"></div>-->
+ <div id="L2"  style="margin:0px; padding:0;width:82px;height:497px;float:right;">
+<img src="../../../dbsource/1442663/1905705.jpg"  width="48px" height="18px"  style="cursor:pointer;margin:0px 0px 0px 32px ; padding:0;" class="closeBtn" /><br/>
+<!--
+<a  href="http://www.chinatax.gov.cn/n810219/n810744/n2048831/index.html" target="_blank" />
+<img src="../../../dbsource/2063524/2096676.jpg" style="cursor:pointer;margin:0px; padding:0;" ></a><br/>
+-->
+<a href=http://www.chinatax.gov.cn/n1269690/appindex.html target="_blank" onclick="_trackData.push(['addaction','国家税务局网', '税务总局客户端'])">
+<img src="../../../dbsource/2488685/2656370.jpg" id="rmfw"  width="82" height="97"></a><br/>
+<a  href="http://www.chinatax.gov.cn/n810356/n810951/index.html" target="_blank" onclick="_trackData.push(['addaction','国家税务局网', '税务总局微博微信'])">
+<img src="../../../dbsource/2063524/2115100.jpg"  width="82" height="104"></a><br/>
+<a  href="http://hd.chinatax.gov.cn/hudong/lyindex.jsp?category=47" target="_blank" onclick="_trackData.push(['addaction','国家税务局网', '网站纠错'])">
+<img src="../../../dbsource/2786496/2789879.jpg"  width="82" height="104"></a>
+
+<br/>
+</div>
+</div>
+<script> 
+$(function(){ 
+var winWidth=$(window).width(); 
+if(winWidth<1024){ 
+$(".suspend").css({"right":"10px"}); 
+}else{ 
+var winRig=(winWidth-1000)/2-90; 
+$(".suspend").css({"right":winRig}); 
+} 
+$(".closeBtn").click(function(){ 
+_trackData.push(['addaction','国家税务局网', '关闭按钮']);
+$(".suspend").hide();
+}) 
+}); 
+</script>
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-801529-9379D4/gs.js'></script>
+<script type='text/javascript' src='//static.gridsumdissector.com/zheng_fen_xiang/scripts/gwdshareasync.min.js'></script>
+<script language="JavaScript">var _trackDataType = "web";var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10003701" src="//fxsjcj.kaipuyun.cn/count/10003701/10003701.js"></script>
+<!--end component HTML组件(分享)-->
+
+</body>
+</html>

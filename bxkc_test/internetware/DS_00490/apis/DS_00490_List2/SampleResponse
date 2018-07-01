@@ -1,0 +1,357 @@
+
+<!doctype html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../Template/default/css/detail.css">
+    <link rel="stylesheet" href="../Template/default/css/common_nobg.css">
+    <script src="../Template/default/js/jquery-1.11.0.min.js"></script>
+      <script src="../Template/default/js/setTitle.js"></script>
+    <title></title>
+</head>
+<body>
+    <form name="form1" method="post" action="./gcjs_more.aspx?title=&amp;StartDate=&amp;EndDate=&amp;CategoryNum=002003001&amp;Paging=2" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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cGFnZW92ZXJ7IGJhY2tncm91bmQtY29sb3I6Izk5OTk5OTsgYm9yZGVyOnNvbGlkIDFweCAjOTk5OTk5OyBmb250LXNpemU6MTJweDsgY29sb3I6I0ZGRkZGRjtjdXJzb3I6cG9pbnRlcn0ucGFnZW91dHtib3JkZXI6c29saWQgMXB4ICNkZWRlZGU7Zm9udC1zaXplOjEycHg7Y29sb3I6IzY2NjY2NjtjdXJzb3I6cG9pbnRlcn0ubnVtYmVyb3ZlcntiYWNrZ3JvdW5kLWNvbG9yOiM5OTk5OTk7IGJvcmRlcjpzb2xpZCAxcHggIzk5OTk5OTtmb250LWZhbWlseToiTWljcm9zb2Z0IFlhSGVpIizlvq7ova/pm4Xpu5E7IGZvbnQtc2l6ZToxNHB4O2NvbG9yOiNGRkZGRkY7Y3Vyc29yOnBvaW50ZXI7d2lkdGg6MzZweH0ubnVtYmVyb3V0e2JvcmRlcjpzb2xpZCAxcHggI2RlZGVkZTtmb250LWZhbWlseToiTWljcm9zb2Z0IFlhSGVpIizlvq7ova/pm4Xpu5E7IGZvbnQtc2l6ZToxNHB4OyBmb250LXdlaWdodDpib2xkO2NvbG9yOiM2NjY2NjY7Y3Vyc29yOnBvaW50ZXI7d2lkdGg6MzZweH0uZ29vdmVye2JvcmRlcjpzb2xpZCAxcHggI2RmZGZkZjtiYWNrZ3JvdW5kLWNvbG9yOiM5OTk5OTk7Zm9udC1mYW1pbHk6Ik1pY3Jvc29mdCBZYUhlaSIs5b6u6L2v6ZuF6buROyBmb250LXNpemU6MTJweDtjb2xvcjojRkZGRkZGO2N1cnNvcjpwb2ludGVyfS5nb291dHtib3JkZXI6c29saWQgMXB4ICNkZmRmZGY7Zm9udC1mYW1pbHk6Ik1pY3Jvc29mdCBZYUhlaSIs5b6u6L2v6ZuF6buROyBmb250LXNpemU6MTJweDtjb2xvcjo2NjY2NjY7Y3Vyc29yOnBvaW50ZXJ9PC9zdHlsZT48c2NyaXB0PnZhciB0b3RhbFBhZ2VOdW1zID0gMjU7ZnVuY3Rpb24gR29Ub1BhZ2luZygpIHt2YXIgR3RubyA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdHb1RvUGFnaW5nTm8nKTt2YXIgbm8gPSBHdG5vLnZhbHVlO2lmICghaXNOYU4obm8pKSB7bm8gPSBwYXJzZUludChubyk7bm8gPSBNYXRoLmFicyhubyk7aWYgKG5vIDw9IHRvdGFsUGFnZU51bXMgJiYgbm8+MCkge3dpbmRvdy5sb2NhdGlvbi5ocmVmPScuL2djanNfbW9yZS5hc3B4P3RpdGxlPSZTdGFydERhdGU9JkVuZERhdGU9JkNhdGVnb3J5TnVtPTAwMjAwMzAwMSZQYWdpbmc9Jytubzt9IGVsc2Uge2FsZXJ0KCLmnIDlpKfliIbpobXkuLoiICsgdG90YWxQYWdlTnVtcyArICIs5pyA5bCP5YiG6aG15pivMSzor7fph43mlrDovpPlhaXpobXnoIHvvIEiKTtHdG5vLnZhbHVlPScnO0d0bm8uZm9jdXMoKTt9fSBlbHNlIHthbGVydCgi6K+36YeN5paw6L6T5YWl5pWw5a2X6aG156CB77yBIik7R3Ruby52YWx1ZT0nJztHdG5vLmZvY3VzKCk7fX08L3NjcmlwdD48ZGl2IGNsYXNzPSJwYWdlbWFyZ2luIj48ZGl2IHN0eWxlPSJoZWlnaHQ6MjZweCI+PHRhYmxlIGJvcmRlcj0nMCcgY2VsbHBhZGRpbmc9JzAnIGNlbGxzcGFjaW5nPScwJyBzdHlsZT0ibWFyZ2luOmF1dG8iPjx0cj48dGQgb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWY9Jy9Gcm9udC9zaG93aW5mby9nY2pzX21vcmUuYXNweD90aXRsZT0mU3RhcnREYXRlPSZFbmREYXRlPSZDYXRlZ29yeU51bT0wMDIwMDMwMDEmUGFnaW5nPTEnIiB0aXRsZT0n6L2s5Yiw56ysMemhtScgd2lkdGg9IjYwIiBhbGlnbj0iY2VudGVyIiBjbGFzcz0icGFnZW91dCIgb25tb3VzZW92ZXI9InRoaXMuY2xhc3NOYW1lPSdwYWdlb3Zlcic7IiBvbm1vdXNlb3V0PSJ0aGlzLmNsYXNzTmFtZT0ncGFnZW91dCc7Ij7pppbpobU8L3RkPjx0ZCB3aWR0aD0iNCI+PC90ZD48dGQgb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWY9Jy9Gcm9udC9zaG93aW5mby9nY2pzX21vcmUuYXNweD90aXRsZT0mU3RhcnREYXRlPSZFbmREYXRlPSZDYXRlZ29yeU51bT0wMDIwMDMwMDEmUGFnaW5nPTEnIiB0aXRsZT0n6L2s5Yiw56ysMemhtScgd2lkdGg9IjYwIiBhbGlnbj0iY2VudGVyIiBjbGFzcz0icGFnZW91dCIgb25tb3VzZW92ZXI9InRoaXMuY2xhc3NOYW1lPSdwYWdlb3Zlcic7IiBvbm1vdXNlb3V0PSJ0aGlzLmNsYXNzTmFtZT0ncGFnZW91dCc7Ij4mbHQ7IOS4iumhtTwvdGQ+PHRkIHdpZHRoPSI0Ij48L3RkPjx0ZCBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0nL0Zyb250L3Nob3dpbmZvL2djanNfbW9yZS5hc3B4P3RpdGxlPSZTdGFydERhdGU9JkVuZERhdGU9JkNhdGVnb3J5TnVtPTAwMjAwMzAwMSZQYWdpbmc9MSciIHRpdGxlPSfovazliLDnrKwx6aG1JyB3aWR0aD0iMzYiIGFsaWduPSJjZW50ZXIiIGNsYXNzPSJudW1iZXJvdXQiIG9ubW91c2VvdmVyPSJ0aGlzLmNsYXNzTmFtZT0nbnVtYmVyb3Zlcic7IiBvbm1vdXNlb3V0PSJ0aGlzLmNsYXNzTmFtZT0nbnVtYmVyb3V0JzsiPjE8L3RkPjx0ZCB3aWR0aD0iNCI+PC90ZD48dGQgIHdpZHRoPSIzNiIgYWxpZ249ImNlbnRlciIgY2xhc3M9InlhaGVpIHJlZGZvbnQiID4yPC90ZD48dGQgd2lkdGg9IjQiPjwvdGQ+PHRkIG9uY2xpY2s9IndpbmRvdy5sb2NhdGlvbi5ocmVmPScvRnJvbnQvc2hvd2luZm8vZ2Nqc19tb3JlLmFzcHg/dGl0bGU9JlN0YXJ0RGF0ZT0mRW5kRGF0ZT0mQ2F0ZWdvcnlOdW09MDAyMDAzMDAxJlBhZ2luZz0zJyIgdGl0bGU9J+i9rOWIsOesrDPpobUnIHdpZHRoPSIzNiIgYWxpZ249ImNlbnRlciIgY2xhc3M9Im51bWJlcm91dCIgb25tb3VzZW92ZXI9InRoaXMuY2xhc3NOYW1lPSdudW1iZXJvdmVyJzsiIG9ubW91c2VvdXQ9InRoaXMuY2xhc3NOYW1lPSdudW1iZXJvdXQnOyI+MzwvdGQ+PHRkIHdpZHRoPSI0Ij48L3RkPjx0ZCBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0nL0Zyb250L3Nob3dpbmZvL2djanNfbW9yZS5hc3B4P3RpdGxlPSZTdGFydERhdGU9JkVuZERhdGU9JkNhdGVnb3J5TnVtPTAwMjAwMzAwMSZQYWdpbmc9NCciIHRpdGxlPSfovazliLDnrKw06aG1JyB3aWR0aD0iMzYiIGFsaWduPSJjZW50ZXIiIGNsYXNzPSJudW1iZXJvdXQiIG9ubW91c2VvdmVyPSJ0aGlzLmNsYXNzTmFtZT0nbnVtYmVyb3Zlcic7IiBvbm1vdXNlb3V0PSJ0aGlzLmNsYXNzTmFtZT0nbnVtYmVyb3V0JzsiPjQ8L3RkPjx0ZCB3aWR0aD0iNCI+PC90ZD48dGQgb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWY9Jy9Gcm9udC9zaG93aW5mby9nY2pzX21vcmUuYXNweD90aXRsZT0mU3RhcnREYXRlPSZFbmREYXRlPSZDYXRlZ29yeU51bT0wMDIwMDMwMDEmUGFnaW5nPTUnIiB0aXRsZT0n6L2s5Yiw56ysNemhtScgd2lkdGg9IjM2IiBhbGlnbj0iY2VudGVyIiBjbGFzcz0ibnVtYmVyb3V0IiBvbm1vdXNlb3Zlcj0idGhpcy5jbGFzc05hbWU9J251bWJlcm92ZXInOyIgb25tb3VzZW91dD0idGhpcy5jbGFzc05hbWU9J251bWJlcm91dCc7Ij41PC90ZD48dGQgd2lkdGg9IjQiPjwvdGQ+PHRkIG9uY2xpY2s9IndpbmRvdy5sb2NhdGlvbi5ocmVmPScvRnJvbnQvc2hvd2luZm8vZ2Nqc19tb3JlLmFzcHg/dGl0bGU9JlN0YXJ0RGF0ZT0mRW5kRGF0ZT0mQ2F0ZWdvcnlOdW09MDAyMDAzMDAxJlBhZ2luZz0zJyIgdGl0bGU9J+i9rOWIsOesrDPpobUnIHdpZHRoPSI2MCIgYWxpZ249ImNlbnRlciIgY2xhc3M9InBhZ2VvdXQiIG9ubW91c2VvdmVyPSJ0aGlzLmNsYXNzTmFtZT0ncGFnZW92ZXInOyIgb25tb3VzZW91dD0idGhpcy5jbGFzc05hbWU9J3BhZ2VvdXQnOyI+5LiL6aG1ICZndDs8L3RkPjx0ZCB3aWR0aD0iNCI+PC90ZD48dGQgb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWY9Jy9Gcm9udC9zaG93aW5mby9nY2pzX21vcmUuYXNweD90aXRsZT0mU3RhcnREYXRlPSZFbmREYXRlPSZDYXRlZ29yeU51bT0wMDIwMDMwMDEmUGFnaW5nPTI1JyIgdGl0bGU9J+i9rOWIsOesrDI16aG1JyB3aWR0aD0iNjAiIGFsaWduPSJjZW50ZXIiIGNsYXNzPSJwYWdlb3V0IiBvbm1vdXNlb3Zlcj0idGhpcy5jbGFzc05hbWU9J3BhZ2VvdmVyJzsiIG9ubW91c2VvdXQ9InRoaXMuY2xhc3NOYW1lPSdwYWdlb3V0JzsiPuacq+mhtTwvdGQ+PHRkIHdpZHRoPSIyMCI+PC90ZD48dGQgY2xhc3M9Imh1aWZvbnQiPjIvMjU8L3RkPjx0ZCB3aWR0aD0iMTAiPjwvdGQ+PHRkIGNsYXNzPSJzb25ndGkgaHVpZm9udCI+6L2s5YiwPC90ZD48dGQgd2lkdGg9IjYiPjwvdGQ+PHRkPjxpbnB1dCB0eXBlPSJ0ZXh0IiBpZD0iR29Ub1BhZ2luZ05vIiBjbGFzcz0iYm9yZGVyY29sb3IiICBzdHlsZT0ibGluZS1oZWlnaHQ6MjZweDt3aWR0aDo0MHB4OyBoZWlnaHQ6MjZweCIgb25rZXl1cD0iaWYodGhpcy52YWx1ZS5sZW5ndGg9PTEpe3RoaXMudmFsdWU9dGhpcy52YWx1ZS5yZXBsYWNlKC9bXjEtOV0vZywnJyl9ZWxzZXt0aGlzLnZhbHVlPXRoaXMudmFsdWUucmVwbGFjZSgvXEQvZywnJyl9IiAgb25hZnRlcnBhc3RlPSJpZih0aGlzLnZhbHVlLmxlbmd0aD09MSl7dGhpcy52YWx1ZT10aGlzLnZhbHVlLnJlcGxhY2UoL1teMS05XS9nLCcwJyl9ZWxzZXt0aGlzLnZhbHVlPXRoaXMudmFsdWUucmVwbGFjZSgvXEQvZywnJyl9IiAvPjwvdGQ+PHRkIHdpZHRoPSI2Ij48L3RkPjx0ZCB3aWR0aD0iMzAiIGFsaWduPSJjZW50ZXIiIGNsYXNzPSJnb291dCIgb25jbGljaz0iR29Ub1BhZ2luZygpOyIgb25tb3VzZW92ZXI9InRoaXMuY2xhc3NOYW1lPSdnb292ZXInOyIgb25tb3VzZW91dD0idGhpcy5jbGFzc05hbWU9J2dvb3V0JzsiPkdPPC90ZD48L3RyPjwvdGFibGU+PC9kaXY+PC9kaXY+DQo8L2Rpdj4NCmRk/wMqqvwcPiaWl2OTi0p6/1Eu7TQ=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="409AEF0D" />
+</div>
+     
+ 
+    <div style="height:650px;">
+<table height="100%" cellSpacing="0" cellPadding="0" width="100%" align="center"
+	border="0">
+	<tr>
+		<td height="8" colspan="5"></td>
+	</tr>
+    
+	<tr>
+		<td id="tdcontent" vAlign="top" height="100%" colspan="5"><table cellspacing="0" align="Center" rules="all" border="0" id="moreinfo_jsgc1_DataGrid1" style="border-width:0px;width:100%;border-collapse:collapse;">
+	<tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=fdc27798-03f1-485d-8ede-7daa81dca3aa&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">太平街道潘家浜、北莲头河道疏浚工程（重发）</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-05-02
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=beeac20f-339d-46fc-9670-84471ab731c0&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">京杭大运河相城段堤防加固工程第三方检测服务（重发）</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-05-02
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=ae8ac593-0623-438f-85c2-5c6b475b99ec&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">吴中区2017年度市级维修项目（铜坑闸管理设施完善及西太湖大堤挡墙压顶维修...</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-24
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=07045de7-a68b-46fd-a540-8d09002b70be&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">京杭大运河相城段堤防加固工程第三方检测服务</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-23
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=f901f03d-45c6-47eb-aea6-08bc233ad4d2&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">吴中区临湖镇前塘村丰华建材码头整治工程</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-20
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=dd5ada6e-b53a-4bd8-9eec-597946c986e8&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">太仓市科教新城环天镜湖水质改善一期工程勘察设计</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-20
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=64ff4ef5-6d38-4442-be9f-427305904d6a&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">金庭镇西山泵站改造工程</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-20
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=df94cdae-d9cd-4ce5-85ff-452c2031d39b&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">吴中区甪直镇2018年度镇级河道疏浚工程</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-18
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=728069bf-e88f-407b-9812-7e878d16fff6&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">相城区黄埭镇金家浜河道疏浚工程</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-18
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=a484f361-0fa5-4dd9-bd43-a4a4a912ead9&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">黄埭镇2018年度东桥片区河道疏浚工程</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-18
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=559d9b13-b25d-4efc-add5-a08b3400e351&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">光福镇迂里村土地整治项目</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-15
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=2f640667-9c07-4a2d-9965-50a8b216ef3b&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">太湖大堤仁巷港闸南段挡墙维修工程</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-12
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=1dbb32d2-8dd6-4ffe-b20d-a6efd408dc3c&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">苏州市2018年市级土地出让金收益用于农田水利工程建设项目-吴中区横泾街道...</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-11
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=6a7b0f83-61b5-49d3-ac2d-31d34c677c44&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">苏州市2018年市级土地出让金收益用于农田水利工程建设项目-吴中区横泾街道...</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-11
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=d1610952-847e-48c5-95ca-5f8cf30e59a5&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">苏州市永昌泾拓浚整治工程技术咨询服务（重发）</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-11
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=850a9967-f4ca-4063-9340-d840f08f733d&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">京杭大运河苏州段堤防加固工程环境保护监理、监测及评估（重新招标）</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-11
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=843f7803-05ff-4803-b724-fc1657d26d3f&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">太仓市中小河流治理重点县综合整治和水系连通试点2018年项目监理</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-09
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=529ca37f-ee21-4385-aefc-02e805551552&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">太仓市中小河流治理重点县综合整治和水系连通试点2018年项目</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-09
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=aecec676-4b69-4411-bb9e-dbb650bb8cf2&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">2018年度浒墅关经开区河道圩区闸站工程</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-04
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr><tr valign="middle" style="background-color:White;height:30px;">
+		<td valign="top" style="border-width:0px;width:15px;">
+							
+						</td><td valign="middle" style="border-width:0px;width:15px;">
+							<img src="/Front//images/dots/dot25.gif">
+						</td><td align="left" valign="middle" style="border-width:0px;">
+						 <a href='/Front/InfoDetail/?InfoID=c25cf1d3-08b3-431d-8f08-e9f175d07e81&CategoryNum=002003001'
+                                            target='_blank'>
+                                            <font color="#000000">2018年度浒墅关经开区河道圩区闸站工程监理</font>
+                                        </a>
+						</td><td align="right" valign="middle" style="border-width:0px;width:100px;">
+							2018-04-04
+						</td><td valign="top" style="border-width:0px;width:15px;">
+							
+						</td>
+	</tr>
+</table></td>
+	</tr>
+	<tr>
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td valign="top">
+            
+		</td>
+	</tr>
+
+</table>
+	
+</div>	
+<div id="moreinfo_jsgc1_pagefoot"><div id="Paging" ><style>.pagemargin{margin:20px}.margintop{margin-top:15px}.yahei{font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold}.yaheigo{font-family:"Microsoft YaHei",微软雅黑; font-size:12px}.redfont{color:red}.bordercolor{border:solid 1px #dfdfdf}.huifont{color:#666666}.songti{font-size:12px}.weight{font-weight:bold}.pageover{ background-color:#999999; border:solid 1px #999999; font-size:12px; color:#FFFFFF;cursor:pointer}.pageout{border:solid 1px #dedede;font-size:12px;color:#666666;cursor:pointer}.numberover{background-color:#999999; border:solid 1px #999999;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#FFFFFF;cursor:pointer;width:36px}.numberout{border:solid 1px #dedede;font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold;color:#666666;cursor:pointer;width:36px}.goover{border:solid 1px #dfdfdf;background-color:#999999;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:#FFFFFF;cursor:pointer}.goout{border:solid 1px #dfdfdf;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:666666;cursor:pointer}</style><script>var totalPageNums = 25;function GoToPaging() {var Gtno = document.getElementById('GoToPagingNo');var no = Gtno.value;if (!isNaN(no)) {no = parseInt(no);no = Math.abs(no);if (no <= totalPageNums && no>0) {window.location.href='./gcjs_more.aspx?title=&StartDate=&EndDate=&CategoryNum=002003001&Paging='+no;} else {alert("最大分页为" + totalPageNums + ",最小分页是1,请重新输入页码！");Gtno.value='';Gtno.focus();}} else {alert("请重新输入数字页码！");Gtno.value='';Gtno.focus();}}</script><div class="pagemargin"><div style="height:26px"><table border='0' cellpadding='0' cellspacing='0' style="margin:auto"><tr><td onclick="window.location.href='/Front/showinfo/gcjs_more.aspx?title=&StartDate=&EndDate=&CategoryNum=002003001&Paging=1'" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">首页</td><td width="4"></td><td onclick="window.location.href='/Front/showinfo/gcjs_more.aspx?title=&StartDate=&EndDate=&CategoryNum=002003001&Paging=1'" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">&lt; 上页</td><td width="4"></td><td onclick="window.location.href='/Front/showinfo/gcjs_more.aspx?title=&StartDate=&EndDate=&CategoryNum=002003001&Paging=1'" title='转到第1页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">1</td><td width="4"></td><td  width="36" align="center" class="yahei redfont" >2</td><td width="4"></td><td onclick="window.location.href='/Front/showinfo/gcjs_more.aspx?title=&StartDate=&EndDate=&CategoryNum=002003001&Paging=3'" title='转到第3页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">3</td><td width="4"></td><td onclick="window.location.href='/Front/showinfo/gcjs_more.aspx?title=&StartDate=&EndDate=&CategoryNum=002003001&Paging=4'" title='转到第4页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">4</td><td width="4"></td><td onclick="window.location.href='/Front/showinfo/gcjs_more.aspx?title=&StartDate=&EndDate=&CategoryNum=002003001&Paging=5'" title='转到第5页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">5</td><td width="4"></td><td onclick="window.location.href='/Front/showinfo/gcjs_more.aspx?title=&StartDate=&EndDate=&CategoryNum=002003001&Paging=3'" title='转到第3页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">下页 &gt;</td><td width="4"></td><td onclick="window.location.href='/Front/showinfo/gcjs_more.aspx?title=&StartDate=&EndDate=&CategoryNum=002003001&Paging=25'" title='转到第25页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">末页</td><td width="20"></td><td class="huifont">2/25</td><td width="10"></td><td class="songti huifont">转到</td><td width="6"></td><td><input type="text" id="GoToPagingNo" class="bordercolor"  style="line-height:26px;width:40px; height:26px" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"  onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'0')}else{this.value=this.value.replace(/\D/g,'')}" /></td><td width="6"></td><td width="30" align="center" class="goout" onclick="GoToPaging();" onmouseover="this.className='goover';" onmouseout="this.className='goout';">GO</td></tr></table></div></div>
+</div>
+</div>
+ 
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,275 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>阿克苏市水土保持设计 招标公告</title><meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"></head><body>
+<link rel="stylesheet" type="text/css" href="/resource/cms/www.xjslt.org.cn/default/main.css">
+<script src="/resource/cms/www.xjslt.org.cn/default/js/sTag.js" language="javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script>
+ function SetFont(size)
+  {
+      var divBody = document.getElementById("news_content");
+      if(!divBody)
+      {
+      return;
+      }
+      divBody.style.fontSize = size + "px";
+      var divChildBody = divBody.childNodes;
+      for(var i = 0; i < divChildBody.length; i++)
+      {
+      if (divChildBody[i].nodeType==1)
+      {
+          divChildBody[i].style.fontSize = size + "px";
+      }
+      }
+  }
+</script>
+<div class="container" align="right"><!-- TemplateBeginEditable name="doctitle" --><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<script type="text/javascript">
+function shoucang(sTitle,sURL) 
+{ 
+try 
+{ 
+window.external.addFavorite(sURL, sTitle); 
+} catch (e) { 
+try 
+{ 
+window.sidebar.addPanel(sTitle, sURL, ""); 
+} 
+catch (e) { 
+alert("请点击Ctrl+D对本站进行收藏"); 
+} 
+} 
+}
+</script>
+<div class="top" align="right">
+<div class="shouye"><img style="VERTICAL-ALIGN: middle" width="20" height="25" src="/resource/cms/www.xjslt.org.cn/default/images/top_img1.png"> <span><a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.xjslt.gov.cn');">设置首页</a> </span><img style="VERTICAL-ALIGN: middle" width="20" height="25" src="/resource/cms/www.xjslt.org.cn/default/images/top_img2.png"> <span><a target="_blank" href="/wzdt">网站地图</a></span> <img style="VERTICAL-ALIGN: middle" width="20" height="25" src="/resource/cms/www.xjslt.org.cn/default/images/top_img3.png"> <span><a target="_self" href="javascript:void(0)" onclick="shoucang(document.title,window.location)">收藏本站</a></span> <span><a href="http://222.82.208.99/"><img style="VERTICAL-ALIGN: middle" width="80" height="25" src="/resource/cms/www.xjslt.org.cn/default/images/top_3.png"></a></span> </div>
+<div style="MARGIN-TOP: 20px">
+<table border="0" cellspacing="0" cellpadding="0" width="252" height="33">
+  <tbody>
+    <tr>
+      <td>
+      <div class="seach">
+      <form method="post" action="/lucene/queryResultTest.shtml">
+        <div><input class="i1" name="queryString" value="请输入搜索关键字" onClick="queryString.value=''"><input name="queryPage" value="app/template/qwjs/queryResult" type="hidden"><input class="i2" value="搜索" type="submit"></div>
+        <p></p>
+      </form>
+      </div>
+      </td>
+      <td width="41"><button style="BORDER-RIGHT-WIDTH: 0px; WIDTH: 41px; BACKGROUND: url(/resource/cms/www.xjslt.org.cn/images/top_5.png); BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 33px; VERTICAL-ALIGN: middle; BORDER-LEFT-WIDTH: 0px"></button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div style="MARGIN-TOP: 20px; COLOR: rgb(41,102,215)"><iframe height="15" src="http://i.tianqi.com/index.php?c=code&amp;id=11&amp;icon=1&amp;py=saybaghqu" frameborder="0" width="380" allowtransparency="" scrolling="no"></iframe></div>
+</div>
+<!-- end .content -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        if ($.browser.msie && $.browser.version <= 6.0) {
+            $(".menu span").hover(
+                 function() {
+                     $(this).children("div").attr("style", "display: block");
+                 },
+                  function() {
+                      $(this).children("div").attr("style", "");
+                  })
+        }
+    });    
+</script>
+<script type="text/javascript" language="JavaScript" src="/resource/cms/www.xjslt.org.cn/default/js/index140519.js"></script>
+<!-- 导航开始-->
+<div class="menu"><span><a style="MARGIN: 0px 10px; WIDTH: 180px; DISPLAY: block; HEIGHT: 52px; TEXT-DECORATION: none" class="m02" href="/zzjg/index.html">&nbsp;</a>
+<div class="spm02"></div>
+</span><span><a style="MARGIN: 0px 10px; WIDTH: 180px; DISPLAY: block; HEIGHT: 52px; TEXT-DECORATION: none" class="m03" href="/zwgk/index.html">&nbsp;</a>
+<div class="spm03"></div>
+</span><span><a style="MARGIN: 0px 10px; WIDTH: 180px; DISPLAY: block; HEIGHT: 52px; TEXT-DECORATION: none" class="m04" href="/sl/index.html">&nbsp;</a>
+<div class="spm04"></div>
+</span><span><a style="MARGIN: 0px 10px; WIDTH: 180px; DISPLAY: block; HEIGHT: 52px; TEXT-DECORATION: none" class="m05" href="/zxfw/index.html">&nbsp;</a>
+<div class="spm05"></div>
+</span><span><a style="MARGIN: 0px 10px; WIDTH: 180px; DISPLAY: block; HEIGHT: 52px; TEXT-DECORATION: none" class="m06" href="/zmhd/index.html">&nbsp;</a>
+<div class="spm06"></div>
+</span></div>
+<div class="fg"><img width="1000" height="5" src="/resource/cms/www.xjslt.org.cn/default/images/dh_line.png"> </div> <!--导航结束 --><!-- 正文开始 -->
+<div class="zhengwen">
+<div class="erji1">
+<div class="erji2">
+<div style="TEXT-ALIGN: center; WIDTH: 215px; FONT-SIZE: 14px; BORDER-RIGHT: #ccc 1px solid"><img src="/resource/cms/www.xjslt.org.cn/default/images/erji/erji_2.png" width="24" height="23"> <a style="COLOR: #3b6b85" href="/index.html"><strong>&nbsp;&nbsp;主站首页</strong></a> </div>
+<div class="erji3">当前位置：<a href='/index.html'>首页</a> > <a href='/sl/index.html'>水利建设</a> > <a href='/sl/zbgg/index.html'>招标公告</a></div>
+&nbsp; </div>
+<div style="MARGIN-TOP: 5px"><div class="erji4"><!--组织机构-->
+<div class="bor">
+<div class="erji-top">组织机构 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zzjg/ldzc/index.html">领导之窗</a> </div>
+<div class="erji-list"><a target="_blank" href="/zzjg/sltgk/index.html">水利厅概况</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/2017/03/13/jgzn/22960.html">机构职能</a> </div>
+<div class="erji-list"><a target="_blank" href="/zzjg/zcbm/index.html">组成部门</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zzjg/lsyg/index.html">历史沿革</a> </div>
+</div>
+<!--政务公开-->
+<div class="bor">
+<div class="erji-top">政务公开 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/mlgk_Shtml/list.shtml?currentPage=1&pageSize=10">公开目录 </a></div>
+<div class="erji-list"><a target="_blank" href="/2017/04/10/gkzn/49392.html">公开指南</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/ysqgk/index.html">依申请公开 </a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/cwgk/index.html">财务公开</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/zcfg/index.html">政策法规 </a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/ghjh/index.html">规划计划 </a></div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/gknb/index.html">公开年报</a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/sfqd/index.html">收费目录清单</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/slgb/index.html">水利公报 </a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/hzz/index.html">河长制动态</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/jdxx/index.html">解读信息 </a></div>
+<div class="erji-list"><a target="_blank" href="/zwgk/gkbz/index.html">公开保障</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/rsxx/index.html">人事信息 </a></div>
+<div class="erji-list"><a target="_blank" href="http://222.82.208.98:8880/xjxxfw/xxfw/portal/index.jsp">事业单位考录</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zwgk/ssj/index.html">双随机一公开</a> </div>
+</div>
+<!--水利建设-->
+<div class="bor">
+<div class="erji-top">水利建设 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/sl/zbgg/index.html">招标公告</a> </div>
+<div class="erji-list"><a target="_blank" href="/sl/sysljstzgg/index.html">通知公告</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/sl/pbjggg/index.html">评标结果公告</a></div>
+<div style="WIDTH: 90px" class="erji-list"><a target="_blank" href="/sl/sysljsctj/index.html">诚信体系建设 </a></div>
+<div style="WIDTH: 140px; MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/sl/sljshmd/index.html">水利建设黑名单</a> </div>
+</div>
+<!--在线服务-->
+<div class="bor">
+<div class="erji-top">在线服务 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zxfw/bszn/index.html">办事指南 </a></div>
+<div class="erji-list"><a target="_blank" href="/zxfw/xzsp/index.html">行政审批</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zzjg/zcbm/jsyglc/wjxzjg/index.html">文件下载 </a></div>
+<div class="erji-list"><a target="_blank" href="/zxfw/wszx/index.html">网上咨询</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zxfw/ywxt/index.html">服务系统 </a></div>
+<div class="erji-list"><a target="_blank" href="/zxfw/ygzw/index.html">阳光政务</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zxfw/ggfw/index.html">公共服务 </a></div>
+<div style="WIDTH: 140px; MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="http://www.xjslt.gov.cn/2017/04/14/sltapp/50293.html">水利厅手机APP下载</a> </div>
+</div>
+<!--政民互动-->
+<div style="BORDER-BOTTOM: #dedede 1px solid" class="bor">
+<div class="erji-top">政民互动 </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/zmhd/zxft/index.html">在线访谈 </a></div>
+<div class="erji-list"><a target="_blank" href="/MessageOnline_Shtml/form.shtml">网上留言</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/CmsWebPollInfo/viewlist.shtml">网上调查 </a></div>
+<div class="erji-list"><a target="_blank" href="/zmhd/rdwd/index.html">热点问答</a> </div>
+<div style="MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="/LeadMail_Shtml/form.shtml?mailToGroup=2">书记信箱 </a></div>
+<div class="erji-list"><a target="_blank" href="/LeadMail_Shtml/form.shtml?mailToGroup=1">厅长信箱</a> </div>
+<div style="WIDTH: 140px; MARGIN-LEFT: 10px" class="erji-list"><a target="_blank" href="http://weibo.com/3804673970/profile?s=6cm7D0">水利微博</a> </div>
+</div>
+</div>
+<div class="wzy">
+<div class="wzy1">阿克苏市水土保持设计 招标公告 </div>
+<div style="BORDER-BOTTOM: #dedede 1px solid" align="center">发布时间：<span style="TEXT-ALIGN: left; FONT-SIZE: 14px">2017-08-04</span></div>
+<div align="center">【字体： <a href="javascript:SetFont(20)">大</a>&nbsp;&nbsp; <a href="javascript:SetFont(16)">中</a>&nbsp;&nbsp; <a href="javascript:SetFont(12)">小</a>】&nbsp;&nbsp;&nbsp; <img style="VERTICAL-ALIGN: middle" src="/resource/cms/www.xjslt.org.cn/default/images/erji/wzy1.png" width="26" height="30"> <a class="btn" onclick="javascript:window.print()" input="">打印</a>&nbsp;&nbsp;&nbsp; <a href="http://weibo.com/3804673970/profile?s=6cm7D0"><img style="VERTICAL-ALIGN: middle" src="/resource/cms/www.xjslt.org.cn/default/images/erji/wzy2.png" width="30" height="30"></a> </div>
+<div id="picstr">
+</div>
+<div style="PADDING-BOTTOM: 20px; TEXT-INDENT: 2em; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 20px">
+<div style="OVERFLOW-X: scroll; OVERFLOW-Y: scroll; WIDTH: 730px; FLOAT: left; HEIGHT: 700px; MARGIN-LEFT: 10px">
+<div style="LINE-HEIGHT: 180%; FONT-FAMILY: '宋体'; FONT-SIZE: 16px" id="news_content"><p style='margin: 0mm 0mm 0pt; text-align: center; line-height: 18pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;' align="center"><b><span style="letter-spacing: -1pt; font-family: 宋体; font-size: 16pt;">阿克苏河大型灌区阿克苏市大型灌区骨干工程节水改造项目、阿克苏市内陆河治理、阿克苏市中小河流治理项目水土保持设计</span></b><b><span style="font-family: 宋体; font-size: 16pt;">招标公告</span></b></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>1.</span></b><b><span style="font-family: 宋体;">招标条件</span></b></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 21pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span style="font-family: 宋体;">本招标项目招标人为阿克苏市多浪河水管站和老大河水管站。第一、二、四、五标段项目法人为阿克苏市多浪河水管站，第三标段项目法人为阿克苏市多浪河水管站和老大河水管站，招标代理机构为<b>新疆全统工程造价编审有限公司</b>。项目已具备水保设计招标条件，现对本项目进行公开招标。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>2.</span></b><b><span style="font-family: 宋体;">项目概况与招标范围：</span></b><span>&nbsp; </span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>2.1 </span><span style="font-family: 宋体;">建设地点：本次招标项目位于阿克苏市境内。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>2.2</span><span style="font-family: 宋体;">项目概况及招标范围：项目区主要为水土保持设计。本次招标为五个标段</span><span>:</span><span style="font-family: 宋体;">第一标段：艾里西枢纽至西大桥防洪工程、良种场库库瓦什防洪工程、拜什吐格曼下段防洪工程。第二标段：柯克亚河实验林场八队桥至乔格达电站疏浚工程、东城区已建防洪堤基础加固疏浚工程。第三标段：哈拉塔勒镇</span><span>54+350-57+900</span><span style="font-family: 宋体;">段防洪工程、哈拉塔勒镇</span><span>57+950-63+400</span><span style="font-family: 宋体;">段防洪工程、哈拉塔拉镇</span><span>66+500-69+800</span><span style="font-family: 宋体;">段防洪工程、哈拉塔勒镇</span><span>69+800-75+376</span><span style="font-family: 宋体;">段防洪工程、托普鲁克乡一二大队河段防洪、库木巴什乡防洪堤（右岸）、伊尔玛防洪工程、蚕种场～托普鲁克乡河段防洪、乔格达电站退水渠至联众砂石料场防洪工程。第四标段：新疆内陆河治理项目阿克苏河阿克苏市良种场防洪工程（下段）（阿克苏河</span><span>14+000</span><span style="font-family: 宋体;">～</span><span>20+306</span><span style="font-family: 宋体;">）。第五标段：阿克苏河大型灌区阿克苏市大型灌区骨干工程节水改造项目。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>2.3 </span><span style="font-family: 宋体;">设计周期：</span><b><u><span>2017</span></u></b><span style="font-family: 宋体;">年</span><b><u><span> 9</span></u></b><span style="font-family: 宋体;">月</span><b><u> <span>20</span></u></b><span style="font-family: 宋体;">日前完成。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>2.4 </span><span style="font-family: 宋体;">设计原则：要以新疆内陆河治理项目阿克苏河各段（第一至第四标段）防洪工程可研、初步设计报告及阿克苏河大型灌区阿克苏市骨干工程节水改造项目规划报告的内容为基础开展。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>2.5 </span><span style="font-family: 宋体;">设计深度及要求：按照国家有关技术标准及规范要求，达到相应设计阶段的技术要求，并通过相关部门审查批复。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>2.6 </span><span style="font-family: 宋体;">承包方式：设计费用采用固定总价方式支付。</span><span>2.7 </span><span style="font-family: 宋体;">评标办法：综合评估法。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>3.</span></b><b><span style="font-family: 宋体;">投标人资格要求</span></b></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>3.1 </span><span style="font-family: 宋体;">本次招标要求<b>投标人</b>应具有在疆内承担过类似工程设计业绩的工程设计水利行业乙级及以上资质；具有从事生产建设项目水土保持方案编制工作相应能力和水平且具有独立法人资格的企事业单位，投标人财务状况和商业信誉良好；在经营活动中没有违法记录。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>3.2</span><span style="font-family: 宋体;">本次招标不接受联合体投标。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>4.</span></b><b><span style="font-family: 宋体;">招标文件的获取</span></b></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span style="font-family: 宋体;">凡有意参加投标者，请于</span><b><u><span>2017</span></u></b><span style="font-family: 宋体;">年</span><b><u><span>8</span></u></b><span style="font-family: 宋体;">月</span><b><u><span>11</span></u></b><span style="font-family: 宋体;">日至</span><b><u><span>2017</span></u></b><span style="font-family: 宋体;">年</span><b><u><span>8</span></u></b><span style="font-family: 宋体;">月</span><b><u><span>15</span></u></b><span style="font-family: 宋体;">日在<b><u>新疆维吾尔自治区水利厅网站（</u></b></span><b><u><span>www.xjslt.gov.cn</span></u></b><b><u><span style="font-family: 宋体;">）</span></u></b><span style="font-family: 宋体;">对应</span><span>“</span><span style="font-family: 宋体;">招标公告</span><span>”</span><span style="font-family: 宋体;">栏免费下载获取招标文件电子版。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>5.</span></b><b><span style="font-family: 宋体;">投标文件的递交</span></b></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.55pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>5.1</span></b><span style="font-family: 宋体;">投标文件递交的截止时间为</span><b><u><span>2017</span></u></b><span style="font-family: 宋体;">年</span><b><u><span>8</span></u></b><span style="font-family: 宋体;">月</span><b><u><span>31</span></u></b><span style="font-family: 宋体;">日</span><b><u><span>10</span></u></b><b><u><span style="font-family: 宋体;">：</span></u></b><b><u><span>30</span></u></b><span style="font-family: 宋体;">，地点为<b><u>阿克苏市迎宾路为民服务中心</u></b></span><b><u><span>B</span></u></b><b><u><span style="font-family: 宋体;">座三楼（体育馆对面）</span></u></b><span style="font-family: 宋体;">。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.55pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>5.2</span></b><span style="font-family: 宋体;">逾期送达的或者未送达指定地点的投标文件，招标人不予受理。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>6.</span></b><b><span style="font-family: 宋体;">踏勘现场和投标预备会</span></b></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span style="font-family: 宋体;">招标人不组织踏勘现场，不组织召开投标预备会。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>7.</span></b><b><span style="font-family: 宋体;">发布公告的媒介</span></b></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 10.5pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span style="font-family: 宋体;">本招标公告同时在</span><b><u><span style="font-family: 宋体;">新疆经济报、新疆信息网、新疆水利网及阿克苏地区招投标中心网</span></u></b><span style="font-family: 宋体;">发布。</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><b><span>8.</span></b><b><span style="font-family: 宋体;">联系方式</span></b></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 21pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span style="font-family: 宋体;">招标人：阿克苏市多浪河水管站</span> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family: 宋体;">招标代理机构：新疆全统工程造价编审有限公司</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 63pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span style="font-family: 宋体;">阿克苏市老大河水管站</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="font-family: 宋体;">地</span><span>&nbsp; </span><span style="font-family: 宋体;">址：阿克苏市南大街</span><span>7</span><span style="font-family: 宋体;">号</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 21pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span style="font-family: 宋体;">地</span><span>&nbsp; </span><span style="font-family: 宋体;">址：阿克苏市英巴格路</span><span>6</span><span style="font-family: 宋体;">号</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="font-family: 宋体;">电</span><span>&nbsp; </span><span style="font-family: 宋体;">话：</span><span>0997-2201281&nbsp; 2200212&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 21pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span style="font-family: 宋体;">电</span><span>&nbsp; </span><span style="font-family: 宋体;">话：</span><span>0997-2190497&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family: 宋体;">传</span><span>&nbsp; </span><span style="font-family: 宋体;">真：</span><span>0997-2200212&nbsp; 2200221 </span></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 21pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span style="font-family: 宋体;">联系人：刘宝君</span><span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family: 宋体;">联系人：王燕</span><span>&nbsp; </span><span style="font-family: 宋体;">敬秀琴</span> </p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; line-height: 16pt; text-indent: 21pt; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;2017</b></span><b><span style="font-family: 宋体;">年</span></b><b><span>8</span></b><b><span style="font-family: 宋体;">月</span></b><b><span>4</span></b><b><span style="font-family: 宋体;">日</span></b></p>
+<p style='margin: 0mm 0mm 0pt; text-align: justify; font-family: "Calibri","sans-serif"; font-size: 10.5pt; text-justify: inter-ideograph;'><span>&nbsp;</span></p></div>
+<div>   </div>
+<div style="COLOR: #b5b5b5; FONT-SIZE: 9px" align="center">扫一扫在手机打开当前页</div>
+<div style="MARGIN-LEFT: 30px" id="output" align="center"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="WIDTH: 100%; HEIGHT: 70px" class="bj1">
+<div class="dibu">主办：新疆维吾尔自治区水利厅 地址：新疆乌鲁木齐市黑龙江路146号 邮政编码：830000 <br>
+网站问题联系信箱 wxzx@xjslt.gov.cn 新ICP备14001359号-1 </div>
+<div><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=6500000002&url=http%3A%2F%2Fwww.xjslt.gov.cn%2F"><img style="FLOAT: left; PADDING-TOP: 8px" src="/resource/cms/www.xjslt.org.cn/default/images/di3.png" height="55" width="110"></a> &nbsp; <a href="http://bszs.conac.cn/sitename?method=show&id=332D3F8FE49B7954E053012819AC6FCB"><img src="/resource/cms/www.xjslt.org.cn/default/images/di1.png" height="64" width="60"> </a></div>
+</div> </div>
+<!-- end .container --></div>
+<script src="/resource/cms/www.xjslt.org.cn/default/js/jquery1.8.min.js"></script>
+<script src="/resource/cms/www.xjslt.org.cn/default/js/jquery.qrcode.min.js" language="javascript"></script>
+<script>
+       $(function(){
+getOs();
+	})
+function getOs(){
+   var Sys = {};
+        var ua = navigator.userAgent.toLowerCase();
+        var s;
+        (s = ua.match(/msie ([\d.]+)/)) ? Sys.ie = s[1] :
+ 
+        (s = ua.match(/firefox\/([\d.]+)/)) ? Sys.firefox = s[1] :
+ 
+        (s = ua.match(/chrome\/([\d.]+)/)) ? Sys.chrome = s[1] :
+ 
+        (s = ua.match(/opera.([\d.]+)/)) ? Sys.opera = s[1] :
+ 
+        (s = ua.match(/version\/([\d.]+).*safari/)) ? Sys.safari = s[1] : 0;
+         
+        if (Sys.ie){
+                        $("#output").qrcode({
+				render:"Canvas",
+				width: 170, //宽度
+				height:170, //高度
+				text:location.href //任意内容
+			});
+       }else {
+			$("#output").qrcode({
+				render:"table",
+				width: 170, //宽度
+				height:170, //高度
+				text:location.href //任意内容
+			});
+
+	}
+		}
+</script></body></html>

@@ -1,0 +1,622 @@
+
+
+
+
+
+
+
+ 
+<script>var _ctx="http://218.2.208.144:8094/EBTS";</script>
+
+
+
+
+<!-- <script>var _ctx="http://192.168.3.182:8080/EBTS";</script>  -->
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+ 	
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+    
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/util/sessionOut.js"></script>
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/signature/signature.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://218.2.208.144:8094/EBTS/styles/common.css"/> 
+	<link rel="stylesheet" type="text/css" href="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/themes/icon.css">
+
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/locale/easyui-lang-zh_CN.js"></script> 
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery.validate.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery.metadata.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/message_cn.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/datePicker/WdatePicker.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/zDialog/zDialog.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/zDialog/zDrag.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/util/validate.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/util/validateNumber.js"></script>
+
+	<script type="text/javascript">
+	function fileDownLoad(file_id,file_type_id) {
+		if (file_type_id =='招标文件' || file_type_id =='资格预审文件'){
+			window.location = "http://218.2.208.144:8094/EBTS/placard/announcebaseinfo/doFileDownload1?file_id=" + file_id;
+		}else{
+			//下载
+	 		window.location = "http://218.2.208.144:8094/EBTS/placard/announcebaseinfo/doFileDownload?file_id=" + file_id;
+		}
+		
+	}
+	
+	
+	function setInitialise(){
+		if('0'!=null &&'0'!='' )
+		{
+			var obj=document.getElementsByName('documentOnlineCheck');
+			for(var i=0; i<obj.length; i++){ 
+				//等于0的时候 支持线上支付与线下支付
+				if('0'==0)
+					{
+					obj[i].checked=true;
+					}
+				else
+					{
+					//1和2的情况下要值相同才能打勾
+					if(obj[i].value=='0') 
+					{
+						obj[i].checked=true;
+					}
+					}
+				
+			}
+		}
+		
+	}
+	
+	$(document).ready(function(){
+		//初始化checkbox按钮
+		setInitialise();
+	});
+	</script>
+</head>
+<body>
+	<div>
+        <div class="position">
+			<label class="preview">招标投标系统&gt;</label>
+				
+				    <label class="current">招标公告信息</label>
+				
+				
+		</div>
+		<div class="easyui-panel" style="padding:5px 0 5px 1px;margin:5px 0 5px 0;border:none">
+			
+			<input type="button" class="button-css" style="width:100px;height:25px" value='返回' onclick="javascript:history.back(-1);" >
+			
+			   
+		</div>
+		<div>
+		    <table>
+				<tr>
+				    <td><font color="blue" style="font-size:15px"></font></td>
+				</tr>
+		    </table>
+		</div>
+		<form method="post" id="detailform">
+		    <input type="hidden" name="placard_type" id ="placard_type" value="1">
+		    <input type="hidden" name="placard_flag" id ="placard_flag" value="9">
+		    <input type="hidden" name="placard_id" id ="placard_id" value="da98e21f70544c8c8e34a4773fc7dcd6">
+		    <input type="hidden" name="project_id" id ="project_id" value="df7f09d361f34344abff81a772639b2b">
+		    <input type="hidden" name="message" id="message" value=""/>
+		    <input type="hidden" name="submitForm" id="submitForm">
+			<div class="easyui-panel" style="overflow: hidden;">
+				<div align="center">
+				    <table>
+				    	<tr>
+				    		<td colspan="3"><font color="blue" style="font-weight:bold;font-size:25px">2017年度沪宁高速公路监控系统维护和技术服务项目</font></td>
+				    	</tr>
+				    </table>
+				</div>
+				<div align="center">
+				    <table>
+				    	<tr>
+				    	    <!-- 20141126    张士辉  BUG：EBTS-238   Chg  Start -->
+				    	    <td class="title">发布部门：</td>
+				    	  
+				    	        <td>江苏宁沪高速公路股份有限公司</td>
+				    	   
+				    	  
+				    	    <!--  20141126    张士辉  BUG：EBTS-238   Chg   End -->
+				    		<td class="title">发布时间：</td>
+				    		<td>2017-07-14</td>
+				    		<td class="title">公告性质：</td>
+				    		<td>正常</td>
+				    		
+				    	</tr>
+				    </table>
+				</div>
+				<div align="center">
+				    <img src="http://218.2.208.144:8094/EBTS//images/u44_line.png" style="cursor:pointer;"/>
+				</div>
+				<div class="tips noline"><font color="blue" style="font-weight:bold;font-size:20px">一、招标项目情况</font>
+					<div>
+						<table>
+							<thead><tr>
+								<td style="width:15%"></td>
+	                        	<td style="width:35%"></td>
+	                        	<td style="width:15%"></td>
+	                        	<td style="width:35%"></td>
+							</tr></thead>
+							<td colspan="4">
+									<table class="table1" id="prjectTable">
+							<tr>
+								<td class="title">1、项目名称：</td>
+								<td colspan="3">2017年度沪宁高速公路监控系统维护和技术服务项目</td>
+							</tr>
+							
+							<tr>
+								<td class="title">2、招标编号：</td>
+								<td>JSJT20170716380</td>
+								<td class="title">备案号：</td>
+								<td>苏交建备JSJT[2017]0352号</td> 
+							</tr>
+							
+							
+							<tr>
+								<td colspan="4" class="title">3、项目信息：</td>
+							</tr>
+							<tr>
+								<td colspan="4">
+									<table class="table1" id="prjectTable">
+										<thead>
+											<tr>
+												<td style="width:25%">项目编号</td>
+												<td style="width:25%">项目性质</td>
+												<td style="width:25%">批准文号</td>
+												<td style="width:25%">批准单位</td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="text-center">JSJT20170716380</td>
+												<td class="text-center">备案</td>	
+												<td class="text-center">2017公司年度招标计划</td>	
+												<td class="text-center">江苏宁沪高速公路股份有限公司</td>
+											</tr>
+										</tbody>
+										<tfoot>
+										</tfoot>
+									</table></td>
+							</tr>
+							<tr>
+								<td colspan="4" class="title">4、标段信息：</td>
+							</tr>
+							<tr>
+								<td colspan="4">
+									<table class="table1" id="biduan">
+										<thead>
+											<tr>
+												<td style="width:25%">标段编码</td>
+												<td style="width:30%">标段名称</td>
+												<!-- 20141029      秦朝胜      BUG:EBTS-118  Chg  Start -->
+												
+												
+												<td style="width:20%">投标文件截止时间</td>
+												
+												<!-- 20141029      秦朝胜      BUG:EBTS-118  Chg  End -->
+												<td style="width:15%">限价/元</td>
+											</tr>
+										</thead>
+										<tbody>
+											
+											    <tr id="0">
+											        <td class="text-center">JSJT20170716380001
+											        <input type="hidden" id="tender_id" name="tender_id" value="1273cb1f00fe4307aaf1b944c26658e9"/></td>
+											        <td class="text-center">监控系统维护</td>
+											        <td class="text-center">2017-08-03 14:30</td>
+											        <td class="text-center">760000</td>
+											    </tr>
+									        
+										</tbody>
+										<tfoot>
+										</tfoot>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">5、建设地点：</td>
+								<td colspan="3">沪宁高速江苏段</td>
+							</tr>
+							<tr>
+								<td class="title">6、专业：</td>
+								<td>三大系统</td>
+								<td class="title">招标种类：</td>
+								<td>施工</td>
+							</tr>
+							<tr>
+								<td class="title">招标内容：</td>
+								<td colspan="3">本项目内容为沪宁高速公路江苏段1个指挥调度中心、4个指挥调度分中心、23个收费站、6个服务区监控系统硬件及软件系统（缺陷责任期外）相关的设施维护和技术咨询服务。维护期为2017年 9 月1 日——2018年 3月31 日，共 7个月。</td>
+							</tr>
+							
+							<tr>
+								<td class="title">计划开工时间：</td>
+								<td>2017-09-01</td>
+								<td class="title">计划竣工时间：</td>
+								<td>2018-03-31</td>
+							</tr>
+							
+							</table></td>
+						</table>
+					</div>
+				</div>
+				<div class="tips noline"><font color="blue" style="font-weight:bold;font-size:20px">二、联系方式</font>
+					<div>
+						<table>
+							<thead><tr>
+								<td style="width: 15%"></td>
+	                        	<td style="width: 35%"></td>
+	                        	<td style="width: 15%"></td>
+	                        	<td style="width: 35%"></td>
+							</tr></thead>
+							<tr>
+								<td colspan="4">
+									<table class="table1" id="ryxz">
+										<thead>
+											<tr>
+												<td style="width:37%">联系人</td>
+												<td style="width:30%">联系电话</td>
+												<td style="width:30%">传真</td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="text-center">徐乙丹、陆松</td>
+												<td class="text-center">025-84462888-306、311</td>
+												<td class="text-center">025-84207572</td>
+											</tr>
+										</tbody>
+										<tfoot>
+										</tfoot>
+									</table>
+								</td>
+							</tr>
+							<td colspan="4">
+									<table class="table1" id="prjectTable">
+							<tr>
+								<td class="title">上午工作时间：</td>
+								<td>9:00:00-11:30:00</td>
+								<td class="title">下午工作时间：</td>
+								<td>14:00:00-17:00:00</td>
+							</tr>
+							</table></td>
+						</table>
+					</div>
+				</div>
+				<div class="tips noline"><font color="blue" style="font-weight:bold;font-size:20px">三、报名</font>
+					<div>
+						<table style="width:100%">
+							<colgroup>
+								<col style="width:15%" />
+								<col style="width:20%" />
+								<col style="width:15%" />
+								<col style="width:15%" />
+								<col style="width:35%" />
+							</colgroup>	
+							<td colspan="4">
+									<table class="table1" id="prjectTable">			
+							<tr>
+								<td class="title">1、报名开始时间：</td>
+								<td colspan="2">2017-07-15 09:00 </td>
+							</tr>
+							<tr>	
+								<td class="title">报名截止时间：</td>
+								<td colspan="2">2017-07-21 16:00  </td>
+							</tr>
+							<tr>
+								<td class="title">节假日：</td>
+								<td colspan="4">不休息</td>
+							</tr>
+							<tr>
+								<td class="title" rowspan="2">2、报名地点：</td>
+                                
+									<td>网上报名 </td>
+									<td colspan="3">网址：&nbsp;http://218.2.208.144:8094/EBTS/index</td>
+								
+							</tr>
+							<tr>
+								
+							</tr>
+							<tr>
+								<td colspan="5" class="title">3、报名条件</td>
+							</tr>
+							<tr>
+								<td class="title" rowspan="3">(1)企业条件：</td>
+								<td class="title">资质条件：</td>
+								<td colspan="3">中国大陆境内独立企业法人，具备公路交通工程专业承包公路机电工程分项一级资质（单位须在交通运输部最新公布的《公路工程施工资质企业名录》中），且持有省级及以上建设行政主管部门核发的企业《安全生产许可证》</td>
+							</tr>
+							<tr>
+								<td class="title">业绩条件：</td>
+								<td colspan="3">企业近五年（2012年1月1日至今）承担过高速公路监控系统施工或维护项目</td>
+							</tr>
+							<tr>
+								<td class="title">其它条件：</td>
+								<td colspan="3">企业在最近一次江苏省公路水运建设市场信用等级（指投标截止日当天）评价为A级及以上（含A暂定级）级别（未建立信用档案的申请人应当先建立信用档案并获得暂定A级信用等级）</td>
+							</tr>
+							<tr>
+								<td class="title" rowspan="3">(2)项目负责人条件：</td>
+								<td class="title">资质条件：</td>
+								<td colspan="3">拟投入本项目的项目经理具有机电工程二级及以上或公路工程专业一级注册建造师资格，持有交通运输主管部门核发的《公路水运工程施工企业主要负责人和安全生产管理人员安全生产考核合格证书》B类</td>
+							</tr>
+							<tr>
+								<td class="title">业绩条件：</td>
+								<td colspan="3">具有三大系统施工或维护业绩</td>
+							</tr>
+							<tr>
+								<td class="title">其它条件：</td>
+								<td colspan="3"></td>
+							</tr>
+							<tr>
+								<td class="title">(3)其它要求：</td>
+								<td colspan="4">本项目至少设置1名独立的专职安全员，投入本项目的专职安全员应持有交通运输主管部门核发的《公路水运工程施工企业主要负责人和安全生产管理人员安全生产考核合格证书》C类。</td>
+							</tr>
+							<tr>
+								<td class="title">(4)项目概况：</td>
+								<td colspan="4">本项目内容为沪宁高速公路江苏段1个指挥调度中心、4个指挥调度分中心、23个收费站、6个服务区监控系统硬件及软件系统（缺陷责任期外）相关的设施维护和技术咨询服务。维护期为2017年 9 月1 日——2018年 3月31 日，共 7个月。</td>
+							</tr>
+							</table></td>
+						</table>
+					</div>
+				</div>
+				
+					<div class="tips noline"><font color="blue" style="font-weight:bold;font-size:20px">四、招标投标文件</font>
+						<div>
+							<table id="zbfile">
+								<thead><tr>
+									<td style="width: 15%"></td>
+		                        	<td style="width: 35%"></td>
+		                        	<td style="width: 15%"></td>
+		                        	<td style="width: 35%"></td>
+								</tr></thead>
+								<td colspan="4">
+									<table class="table1" id="prjectTable">
+								<tr>
+									<td class="title" colspan="4">招标文件的获取：</td>
+								</tr>
+								<tr>
+									<td class="title">时间：</td>
+									<td colspan="3">2017-07-15&nbsp;至&nbsp;2017-07-21</td>
+								</tr>
+								<tr>
+									<td class="title">地点：</td>
+									<td colspan="3">江苏茂森工程咨询监理有限公司（南京市秦淮区丰富路163号民族大厦6楼A座）</td>
+								</tr>
+								<tr>
+									<td class="title" colspan="4">投标文件的递交：</td>
+								</tr>
+								<tr>
+								    <td class="title">时间：</td>
+								    <td colspan="3">2017-08-03</td>
+								</tr>
+								<tr>
+									<td class="title">地点：</td>
+									<td colspan="3">江苏省公共资源交易中心开标室（地址：南京市汉中门大街145号二楼）</td>
+								</tr>
+								<tr>
+									<td class="title">招标文件售价：</td>
+									<td colspan="3">
+									    <table class="table1" id="fileTable">
+											<thead>
+												<tr>
+													<td style="width:50%">标段</td>
+													<!-- 20141030     秦朝胜     BUG:EBTS-130  Chg  Start -->
+													<td style="width:30%">售价/元</td>
+													<!-- 20141030     秦朝胜     BUG:EBTS-130  Chg  End -->
+												</tr>
+											</thead>
+											<tbody>
+											    
+											       <tr id="0">
+											           <td class="text-center">监控系统维护</td>
+											           <td class="text-center">1000</td>
+											       </tr>
+											    
+											</tbody>
+											<tfoot>
+											</tfoot>
+										</table>
+									</td>
+								</tr>
+								</table></td>
+							</table>
+						</div>
+					</div>
+				
+			    
+				<div class="tips noline"><font color="blue" style="font-weight:bold;font-size:20px">五、招标单位</font>
+					<div>
+						<table>
+							<thead><tr>
+								 <td style="width:160px;"></td>
+                                 <td style="width:380px;"></td>
+                                 <td style="width:90px;"></td>
+                                 <td></td>
+						    </tr></thead>
+						    <td colspan="4">
+									<table class="table1" id="prjectTable">
+							<tr>
+								<td class="title">招标单位名称：</td>
+								<td colspan="3">
+								    江苏宁沪高速公路股份有限公司
+								</td>
+			  				</tr>
+							<tr>
+								<td class="title">招标单位地址：</td>
+								<td colspan="3">南京市仙林大道6号</td>
+							</tr>
+							
+							<tr >
+								<td class="title" >招标文件支付方式:
+								</td>
+								<td >
+								      <input type="checkbox" name="documentOnlineCheck" value="2" disabled="disabled" >在线支付
+								<input type="checkbox" name="documentOnlineCheck" value="1" disabled="disabled">线下支付
+								</td>
+							</tr>
+							
+							<tr>
+								<td class="title" >保证金支付方式:</td>
+								<td >
+								    <input type="checkbox" name="baoZhengJin" value="0" checked="true" disabled="disabled">投标保函
+									<input type="checkbox" name="baoZhengJin" value="1" disabled="disabled" >保证金（线上）
+									<input type="checkbox" name="baoZhengJin" value="2" disabled="disabled"  checked="true">保证金（线下）
+								</td>
+							</tr>
+							
+							
+							 <tr > 
+				  				<td class='title'>联系人姓名:</td> 
+				  				<td> 	
+								
+				  				</td> 
+				  				<td class='title'>联系人手机号:</td> 
+				  				<td> 
+								
+				  				</td> 
+							</tr> 
+							<tr >  
+				  				<td class='title'>账户名称:</td> 
+				  				<td> 	
+								江苏茂森工程咨询监理有限公司 
+				  				</td> 
+				  				<td class='title'>银行账号:</td> 
+				  				<td> 
+								4132210001839300008918 
+				  				</td> 
+							</tr>
+							<tr > 
+				  				<td class="title">银行编码:</td>
+				  				<td>		
+								
+									
+					  				
+					  				 
+					  				
+					  				
+					  				 
+					  				 
+					  				 
+					  				 华夏银行
+					  				 
+					  				 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+									 
+				  				</td>
+				  				<td class="title">分支行名称:</td>
+				  				<td>		
+								白下支行
+				  				</td>
+							</tr>
+							
+							<tr name='newTr' > 
+				  				<td class="title">分支行省份:</td>
+				  				<td>		
+								江苏省
+				  				</td>
+				  				<td class="title">分支行城市:</td>
+				  				<td>		
+								南京
+				  				</td>
+							</tr>
+							
+							<tr>
+								<td class="title">招标代理单位名称：</td>
+								<td colspan="3">江苏茂森工程咨询监理有限公司</td>
+							</tr>
+							<tr>
+								<td class="title">招标代理单位地址：</td>
+								<td colspan="3"></td>
+							</tr>
+							
+							
+							</table></td>
+						</table>
+				    </div>
+				</div>
+				<div class="tips noline"><font color="blue" style="font-weight:bold;font-size:20px">六、监管单位</font>
+				    <div>
+					    <table>
+						    <thead><tr>
+								 <td style="width:160px;"></td>
+                                 <td style="width:380px;"></td>
+                                 <td style="width:90px;"></td>
+                                 <td></td>
+						    </tr></thead>
+						    <td colspan="4">
+									<table class="table1" id="prjectTable">
+						    <tr>
+							    <td class="title">单位名称：</td>
+							    <td colspan="3">省交通运输厅</td>
+						    </tr>
+						    </table></td>
+					    </table>
+				    </div>
+				</div>
+				<div class="tips noline"><font color="blue" style="font-weight:bold;font-size:20px">七、其它说明</font>
+				    <div>
+					    <table>
+					    <td colspan="4">
+									<table class="table1" id="prjectTable">
+						    <tr>
+							    <td>1、本次招标采取国内公开招标、资格后审，通过资格审查是投标人参与评审和中标的前提条件。<br/>2、本次报名采用网上报名，具体报名程序为：<br/>（1）拟报名单位仔细阅读网上公布的本次招标项目的招标公告及报名条件，有意向且符合条件的申请人可通过江苏省交通运输厅网站www.jscd.gov.cn，在网站首页“常用服务系统”中点击 “江苏省公路水路建设市场信用信息服务系统”进入登录界面，经登录后进行网上报名操作，全天均可；报名申请参与公路水运项目资格审查或投标时，应当使用数字证书报名。详见苏交建〔2015〕25号文，可在江苏交通网站首页查询。<br/>（2）未在江苏交通招投标信息管理系统中建立信用档案的投标申请人应及时注册建立信用档案，方法见登录区的说明或向所在地交通运输部门招标监督机构（本省单位）或者江苏省交通运输厅建设管理办公室（外省单位）咨询；<br/>（3）如果不清楚江苏交通招投标信息管理系统如何使用，在江苏交通招投标信息管理系统首页左上方，点击“系统帮助”进行操作；<br/>（4）网上报名时在联系人信息中请务必留下手机号码，以便联系；<br/>（5）网上报名截止时间为：2017年7月21日16：00（北京时间，下同），逾期不予受理。<br/>（6）报名结果以网上报名为准，无需进行电话确认。报名申请人如需核实是否已在网上成功报名，请进入江苏交通招投标信息管理系统，已报名申请人报名的账户登录，点击“项目信息管理”栏目，在其“资审报名查询”子栏目中进行查询。<br/>3、报名成功的投标人按如下方式获取招标文件：<br/>（1）如已在江苏交通运输招投标信息管理系统中完成线上支付流程，投标人可以进入“投标人文件管理”页面下载招标文件；<br/>（2）如选用线下支付，经办人需携带身份证及单位介绍信，于2017年7月15日至2017年7月21日，上午9时至11时，下午14时至16时（节假日除外）至江苏茂森工程咨询监理有限公司（南京市秦淮区丰富路163号民族大厦6楼A座）购买招标文件。<br/>（3）招标文件售价人民币1000元/合同段，售后不退。上述费用支付必须于2017年7月21日16时之前完成【在线支付（以江苏交通运输招投标信息管理系统支付时间为准）或线下支付】。未按时交纳费用的，视为自动放弃报名。<br/>4、本项目不接受联合体投标，不允许分包。<br/>5、招标人不组织召开标前会议和现场考察，投标人可根据需要自行前往现场进行考察。<br/>6、单位负责人为同一人或者存在控股、管理关系的不同单位，不得参加同一标段投标或者未划分标段的同一招标项目投标，否则均按废标处理。<br/></td>
+						    </tr>
+						    </table></td>
+					    </table>
+				    </div>
+			    </div>
+			    <div class="tips noline"><font color="blue" style="font-weight:bold;font-size:20px">八、文件下载</font>
+				    <div>
+					    <table class="table1">
+							<thead>
+								<tr>
+									<td style="width:10%">序号</td>
+									<td style="width:20%">文件类型</td>
+									<td style="width:40%">标题</td>
+									<td style="width:30%">操作</td>
+								</tr>
+							</thead>
+							<tbody>
+							    
+									<tr id="0">
+										<td class="text-center">1</td>
+										<td class="text-center">资格审查办法或评标办法
+										<input type="hidden" id="file_id" name="file_id" value="b4e5dd554ee04705bb8a8a6cf627efa4"></td>
+										<td class="text-center"></td>
+										<td class="text-center"><a href="#" onclick="fileDownLoad('b4e5dd554ee04705bb8a8a6cf627efa4','资格审查办法或评标办法')">下载</a></td>
+							        </tr>
+								
+							</tbody>
+							<tfoot>
+							</tfoot>
+						</table>
+				    </div>
+			    </div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

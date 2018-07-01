@@ -1,0 +1,848 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height:100%">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>水城县人民政府网-通知公告</title>
+<link href="/images/list.css" rel="stylesheet" ignore="1" />
+<link href="/images/page.css" rel="stylesheet" ignore="1" />
+<script type="text/javascript" src="/images/jquery-1.9.1.min.js" ignore="1"></script>
+<script type="text/javascript" src="/images/jquery.SuperSlide.2.1.1.js" ignore="1"></script>
+<script type="text/javascript" src="/images/tools.js"></script>
+<script src="/tools/js/layer/layer.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+        //取图片进行地址转换，主要为了兼容历史数据
+        function formatImgUrl(_imgUrl) {
+            formatImgUrl(_imgUrl, "347", "249");
+        }
+        function formatImgUrl(_imgUrl, _width, _height, _imgTitle) {
+            if (_width == null || _width == "") {
+                _width = 347
+            }
+            ;
+            if (_height == null || _height == "") {
+                _height = 249
+            }
+            ;
+            var str = _imgUrl;
+            var arr = new Array();
+            arr = str.toString().split(";");
+            var image = arr[0];
+            var s3 = image.substr(0, 2);
+            if (s3 == "P0") {
+                var httphead = "/protect/";
+                var s1 = image.substr(0, 8);
+                var s2 = image.substr(0, 10);
+                httphead += s1 + "/" + s2 + "/" + image;
+                document.write('<img src="' + httphead + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            } else if (s3 == "W0") {
+                var httphead = "/webpic/";
+                var s1 = image.substr(0, 8);
+                var s2 = image.substr(0, 10);
+                httphead += s1 + "/" + s2 + "/" + image;
+                document.write('<img src="' + httphead + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            } else {
+                document.write('<img src="' + _imgUrl + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            }
+        }
+    </script>
+
+<script type="text/javascript"> 
+// 设置为主页 
+function SetHome(obj,vrl){ 
+try{ 
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl); 
+} 
+catch(e){ 
+if(window.netscape) { 
+try { 
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+} 
+catch (e) { 
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。"); 
+} 
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
+prefs.setCharPref('browser.startup.homepage',vrl); 
+}else{ 
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。"); 
+} 
+} 
+} 
+// 加入收藏 兼容360和IE6 
+function shoucang(sTitle,sURL) 
+{ 
+try 
+{ 
+window.external.addFavorite(sURL, sTitle); 
+} 
+catch (e) 
+{ 
+try 
+{ 
+window.sidebar.addPanel(sTitle, sURL, ""); 
+} 
+catch (e) 
+{ 
+alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+} 
+} 
+} 
+</script>
+<style>
+.LeftNav ul .on01 { background: #b3e7fa;}
+.LeftNav ul .on01 a{ background: #b3e7fa;line-height: 23px;}
+.LeftNav ul .on02 a{line-height: 23px;}
+.contener {
+    background: #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 200px;
+}
+.NewsList ul {
+    padding: 20px;
+}
+
+</style>
+</head>
+<body>
+  <script src="/tools/js/layer/layer.js" type="text/javascript"></script>
+<style>
+.header .nav1 ul li a {
+    color: #888888;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.header .nav2 {
+    min-height: 111px; 
+    width: 100%;
+    margin: 0 auto;
+    background-size: contain;
+}
+.header .nav2 .list_2 .search {
+    height: 34px;
+    width: 385px;
+    position: absolute;
+    left: 400px;
+    top: 40px;
+}
+.header .nav2 .list_2 .wbwx {
+    width: 185px;
+    height: 24px;
+    position: absolute;
+    right: -25px;
+    top: 33px;
+}
+.header .nav2 .list_2 {
+    width: 1005px;
+    margin-left: -515px;
+    min-height: 111px;
+    position: relative;
+    left: 50%;
+}
+.header .nav2 {
+    background-size: cover;
+}
+
+.header .nav3 {
+    width: 100%;
+    height: 40px;
+    background: #3188d2;
+}
+
+.NewsList ul li {
+    text-align: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 30px;
+}
+
+.header .nav3 .list_3 li img {
+    vertical-align: middle;
+    height: 36px;
+    margin-bottom: 5px;
+    ransition: transform 0.7s ease-out 0s;
+    -moz-transition: transform 0.7s ease-out 0s;
+    -webkit-transition: transform 0.7s ease-out 0s;
+}
+
+
+.header .nav4 {
+    width: 945px;
+    margin: 0 auto;
+    height: 30px;
+    overflow: hidden;      
+}
+.header .nav4 ul{ margin:0;}
+.header .nav1 {
+    background: #fcfcfc;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.header .nav2 .list_2 .search input {
+    border: 0;
+    height: 27px;
+    width: 340px;
+    float: left;
+    margin: 3px 0 0 5px;
+    font-size: 14px;
+    text-indent: 0.5em;
+    *margin-top:6px;
+}
+.wbwx .li02{ margin-top:0px;margin-left:5px;}
+.wbwx .li03{ margin-top:-3px;}
+
+</style>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=779" async="async" defer="defer"></script>
+
+
+<script type="text/javascript"> 
+// 设置为主页 
+function SetHome(obj,vrl){ 
+try{ 
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl); 
+} 
+catch(e){ 
+if(window.netscape) { 
+try { 
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+} 
+catch (e) { 
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。"); 
+} 
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
+prefs.setCharPref('browser.startup.homepage',vrl); 
+}else{ 
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。"); 
+} 
+} 
+} 
+// 加入收藏 兼容360和IE6 
+function shoucang(sTitle,sURL) 
+{ 
+try 
+{ 
+window.external.addFavorite(sURL, sTitle); 
+} 
+catch (e) 
+{ 
+try 
+{ 
+window.sidebar.addPanel(sTitle, sURL, ""); 
+} 
+catch (e) 
+{ 
+alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+} 
+} 
+} 
+</script>
+<script type="text/javascript">
+
+        //取图片进行地址转换，主要为了兼容历史数据
+        function formatImgUrl(_imgUrl) {
+            formatImgUrl(_imgUrl, "347", "249");
+        }
+        function formatImgUrl(_imgUrl, _width, _height, _imgTitle) {
+            if (_width == null || _width == "") {
+                _width = 347
+            }
+            ;
+            if (_height == null || _height == "") {
+                _height = 249
+            }
+            ;
+            var str = _imgUrl;
+            var arr = new Array();
+            arr = str.toString().split(";");
+            var image = arr[0];
+            var s3 = image.substr(0, 2);
+            if (s3 == "P0") {
+                var httphead = "/protect/";
+                var s1 = image.substr(0, 8);
+                var s2 = image.substr(0, 10);
+                httphead += s1 + "/" + s2 + "/" + image;
+                document.write('<img src="' + httphead + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            } else if (s3 == "W0") {
+                var httphead = "/webpic/";
+                var s1 = image.substr(0, 8);
+                var s2 = image.substr(0, 10);
+                httphead += s1 + "/" + s2 + "/" + image;
+                document.write('<img src="' + httphead + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            } else {
+                document.write('<img src="' + _imgUrl + '" height="' + _height + '" width="' + _width + '" alt="' + _imgTitle + '" />');
+            }
+        }
+    </script>
+
+
+<!-- 检索跳转 -->
+<script>
+$(function() {
+    $('#j_search_btn').click(function() {
+        var str = $(this).prev().val();
+        checks(str);
+    });
+});
+function checks(t) {
+    t = t.replace(/(^\s+)|(\s+$)/g, "");
+    if (t == "" || t == "请输入关键检索字") {
+        alert('请输入有效内容');
+        return false;
+    }
+    szMsg = "[#_%&'/",
+    ";:=!^]";
+    alertStr = "";
+    for (i = 1; i < szMsg.length + 1; i++) {
+        if (t.indexOf(szMsg.substring(i - 1, i)) > -1) {
+            alertStr = "请勿包含非法字符如[#_%&'/",
+            ";:=!^]";
+            alert(alertStr);
+            // break;
+            return false;
+        }
+    }
+    var key = document.getElementById("keyword").value;
+    window.location.href = "/search.html?keyword=" + key;
+    return true;
+}
+</script>
+
+
+<div class="header" style="position: relative">
+    <div class="nav1">
+        <div class="list_1">
+            <ul class="f_l" style="margin-left: 80px">
+                <li><a href="http://www.gov.cn/" target="_blank" >国务院</a></li>
+                <li class="m8">|</li>
+                <li><a href="http://www.gzgov.gov.cn/" target="_blank">省政府</a></li>
+                <li class="m8">|</li>
+                <li><a href="http://www.gzlps.gov.cn/" target="_blank">市政府</a></li>
+     <!--           <li class="m8">|</li>
+                <li><a href="http://rd.shuicheng.gov.cn/" target="_blank">县人大</a></li>
+                <li class="m8">|</li>
+                <li><a href="http://zx.shuicheng.gov.cn/" target="_blank">县政协</a></li> -->
+            </ul>
+            <ul class="f_r">
+                <li><a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a></li>
+                <li class="m8">|</li>
+                <li><a href="javascript:void(0)" onclick="shoucang(document.title,window.location)">加入收藏</a></li>
+                <li class="m8">|</li>
+                <li><a href="http://www.shuicheng.gov.cn/syqt/rssdy/">RSS订阅</a></li>
+         <!--       <li class="m8">|</li>
+                <li><a href="#">移动手机</a></li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="nav2">
+        <div class="list_2">
+            <img src="/images/logo.png" alt="" ignore="1" style="margin-top: 10px;" />
+
+            <div class="search">
+                <input type="text" class="input" value="请输入关键检索字" id="keyword" onblur="if(this.value==''){this.value='请输入关键检索字';}" onfocus="javascript:if(this.value=='请输入关键检索字')this.value='';" style="outline:medium;" />
+
+                <a href="javascript:;" id="j_search_btn" class="f_l"><img src="/images/index_12.png" alt="" class="img_3" ignore="1" /></a>
+            </div>
+            <ul class="wbwx">
+  <!--<li class="li02"><a href="http://t.qq.com/shuichengxian" target="_blank"><img style="width: 28px;margin-top: -4px;"src="/images/wb_170112.png" alt="" ignore="1" /></a></li>-->           
+  <li class="li03"><a href="javascript:;" class="wx" ><img style="margin-top:2px;"src="/images/wx_170112.png" alt="" ignore="1" /></a></li>
+  <li class="li03"><a href="javascript:;" class="app" ><img src="/images/app_170112.png" alt="" ignore="1" /></a></li>
+
+ <li class="li01" style="margin-top: 16px;"><a href="/wzgn/xmt/"><img src="/images/mt_170112.png" alt="" ignore="1" /></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav3">
+        <ul class="list_3">
+            <li class="nav_01"><a href="/"><i></i>首页</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_02"><a href="/xxgk/"><i></i>政务</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_03"><a href="/zxfw/"><i></i>服务</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_04"><a href="/hdjl/"><i></i>互动</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_05"><a href=" http://www.shuicheng.gov.cn/ztzl/"><i></i>专栏</a></li>
+            <li class="mt40"><a href=""><img src="/images/index_26.png" alt="" ignore="1" /></a></li>
+            <li class="nav_06"><a href=" http://www.shuicheng.gov.cn/zjsc/"><i></i>县情</a></li>
+        </ul>
+    </div>
+    <div class="nav4">
+        <ul>
+            <li class="f_l" style="height:30px;line-height:27px;*line-height:27px;font-size:14px;/*font-weight: bold;*/">欢迎访问水城县政府门户网站</li>
+            <li class="f_r" style="height:30px;"> <iframe style="*margin-top:5px;" src="http://www.thinkpage.cn/weather/weather.aspx?uid=UD1F3466FC&cid=CHGZ070000&l=zh-CHS&p=SMART&a=0&u=C&s=7&m=0&x=1&d=0&fc=&bgc=&bc=&ti=1&in=0&li=" frameborder="0" scrolling="no" width="300" height="20" allowTransparency="true"></iframe> </li>
+
+        </ul>
+    </div>
+
+
+</div>
+
+<script type="text/javascript">
+    jQuery('.wx').on('click', function () {
+        layer.open({
+            type: 1,
+            area: ['445px', '445px'],
+            title: false, //不显示标题
+            shadeClose: true,
+            content: '<img src="/images/ewm.png" alt="" ignore="1" />'
+        });
+    });
+</script>
+<script type="text/javascript">
+    jQuery('.app').on('click', function () {
+        layer.open({
+            type: 1,
+            area: ['170px', '170px'],
+            title: false, //不显示标题
+            shadeClose: true,
+            content: '<img src="/images/appBj2.png" alt="" ignore="1" />'
+        });
+    });
+</script>
+  <input id="Chid" value='34598' type="hidden" />
+  <div class="contener w1080"> 
+        <div class="wzdh">
+            <img src="../../images/zw_03.png" alt="" class="f_l" />
+            您当前的位置：<a href="../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&raquo;&nbsp;<a href="../" title="政务新闻" class="CurrChnlCls">政务新闻</a>&nbsp;&raquo;&nbsp;<a href="./" title="通知公告" class="CurrChnlCls">通知公告</a>
+        </div>
+     <div class="LeftNav">
+          <h1>政务新闻</h1>
+          <ul>
+          
+             
+				<script type="text/javascript">
+                var  str='政务要闻';
+                var  str1='<a href="../zwyw/">政务要闻</a>';
+				var  str2=document.getElementById("Chid").value;
+                if (str!="今日关注"&&str!="政府信息公开专栏"&&str!="重点领域公开"&&str!="重点领域公开"&&str!="基础信息公开"&&str!="最新公开") {
+					if(str2==34592){
+						if(str.length>18){
+                       document.write('<li class="on01">'+str1+'</li>');}else{document.write('<li class="on">'+str1+'</li>');}
+					} 
+					else
+					{
+					 if(str.length>18){
+                       document.write('<li class="on02">'+str1+'</li>');}else{document.write('<li>'+str1+'</li>');}
+					}
+                }
+                </script>
+             
+				<script type="text/javascript">
+                var  str='今日关注';
+                var  str1='<a href="../jrgz/">今日关注</a>';
+				var  str2=document.getElementById("Chid").value;
+                if (str!="今日关注"&&str!="政府信息公开专栏"&&str!="重点领域公开"&&str!="重点领域公开"&&str!="基础信息公开"&&str!="最新公开") {
+					if(str2==34593){
+						if(str.length>18){
+                       document.write('<li class="on01">'+str1+'</li>');}else{document.write('<li class="on">'+str1+'</li>');}
+					} 
+					else
+					{
+					 if(str.length>18){
+                       document.write('<li class="on02">'+str1+'</li>');}else{document.write('<li>'+str1+'</li>');}
+					}
+                }
+                </script>
+             
+				<script type="text/javascript">
+                var  str='图片新闻';
+                var  str1='<a href="../tpxw/">图片新闻</a>';
+				var  str2=document.getElementById("Chid").value;
+                if (str!="今日关注"&&str!="政府信息公开专栏"&&str!="重点领域公开"&&str!="重点领域公开"&&str!="基础信息公开"&&str!="最新公开") {
+					if(str2==34594){
+						if(str.length>18){
+                       document.write('<li class="on01">'+str1+'</li>');}else{document.write('<li class="on">'+str1+'</li>');}
+					} 
+					else
+					{
+					 if(str.length>18){
+                       document.write('<li class="on02">'+str1+'</li>');}else{document.write('<li>'+str1+'</li>');}
+					}
+                }
+                </script>
+             
+				<script type="text/javascript">
+                var  str='视频新闻';
+                var  str1='<a href="../spxw/">视频新闻</a>';
+				var  str2=document.getElementById("Chid").value;
+                if (str!="今日关注"&&str!="政府信息公开专栏"&&str!="重点领域公开"&&str!="重点领域公开"&&str!="基础信息公开"&&str!="最新公开") {
+					if(str2==34595){
+						if(str.length>18){
+                       document.write('<li class="on01">'+str1+'</li>');}else{document.write('<li class="on">'+str1+'</li>');}
+					} 
+					else
+					{
+					 if(str.length>18){
+                       document.write('<li class="on02">'+str1+'</li>');}else{document.write('<li>'+str1+'</li>');}
+					}
+                }
+                </script>
+             
+				<script type="text/javascript">
+                var  str='部门动态';
+                var  str1='<a href="../bmdt/">部门动态</a>';
+				var  str2=document.getElementById("Chid").value;
+                if (str!="今日关注"&&str!="政府信息公开专栏"&&str!="重点领域公开"&&str!="重点领域公开"&&str!="基础信息公开"&&str!="最新公开") {
+					if(str2==34596){
+						if(str.length>18){
+                       document.write('<li class="on01">'+str1+'</li>');}else{document.write('<li class="on">'+str1+'</li>');}
+					} 
+					else
+					{
+					 if(str.length>18){
+                       document.write('<li class="on02">'+str1+'</li>');}else{document.write('<li>'+str1+'</li>');}
+					}
+                }
+                </script>
+             
+				<script type="text/javascript">
+                var  str='乡镇动态';
+                var  str1='<a href="../xzdt/">乡镇动态</a>';
+				var  str2=document.getElementById("Chid").value;
+                if (str!="今日关注"&&str!="政府信息公开专栏"&&str!="重点领域公开"&&str!="重点领域公开"&&str!="基础信息公开"&&str!="最新公开") {
+					if(str2==34597){
+						if(str.length>18){
+                       document.write('<li class="on01">'+str1+'</li>');}else{document.write('<li class="on">'+str1+'</li>');}
+					} 
+					else
+					{
+					 if(str.length>18){
+                       document.write('<li class="on02">'+str1+'</li>');}else{document.write('<li>'+str1+'</li>');}
+					}
+                }
+                </script>
+             
+				<script type="text/javascript">
+                var  str='通知公告';
+                var  str1='<a href="./">通知公告</a>';
+				var  str2=document.getElementById("Chid").value;
+                if (str!="今日关注"&&str!="政府信息公开专栏"&&str!="重点领域公开"&&str!="重点领域公开"&&str!="基础信息公开"&&str!="最新公开") {
+					if(str2==34598){
+						if(str.length>18){
+                       document.write('<li class="on01">'+str1+'</li>');}else{document.write('<li class="on">'+str1+'</li>');}
+					} 
+					else
+					{
+					 if(str.length>18){
+                       document.write('<li class="on02">'+str1+'</li>');}else{document.write('<li>'+str1+'</li>');}
+					}
+                }
+                </script>
+             
+          </ul>
+     </div>
+     <div class="NewsList">
+          <h1><span>通知公告</span></h1>
+          <ul>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180507_3136612.html";
+            var str_3 = "2018-05-07";
+            var str_4 = "公开选择温氏一体化养猪-钢结构建设项目招标代理机构公告 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180504_3135974.html";
+            var str_3 = "2018-05-04";
+            var str_4 = "水城县2018年玉舍片区城市棚户区改造项目选取招标代理比选公告 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180503_3135453.html";
+            var str_3 = "2018-05-03";
+            var str_4 = "水城县电子商务营销体系建设服务项目招标代理机构比选公示 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180503_3135450.html";
+            var str_3 = "2018-05-03";
+            var str_4 = "水城县农村安全饮水建设工程（一）期（顺场乡张家沟山塘）施工招标流标公示 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180503_3135448.html";
+            var str_3 = "2018-05-03";
+            var str_4 = "水城县农村安全饮水建设工程（一）期（顺场乡小滥坝山塘）施工招标流标公示 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180503_3135445.html";
+            var str_3 = "2018-05-03";
+            var str_4 = "水城县农村饮水安全工程（一）期都格乡落水洞山塘、贵州省乡乡有稳定供水水源工程水城县野钟... ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180503_3135443.html";
+            var str_3 = "2018-05-03";
+            var str_4 = "水城县2018年第1季度创业扶持补贴公示材料 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180503_3135428.html";
+            var str_3 = "2018-05-03";
+            var str_4 = "国务院办公厅关于对2017年落实有关重大政策措施真抓实干成效明显地方予以督查激励的通报 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180503_3134925.html";
+            var str_3 = "2018-05-03";
+            var str_4 = "贵州省水城县方家沟水库工程监理招标选取中标公示 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180503_3134920.html";
+            var str_3 = "2018-05-03";
+            var str_4 = "贵州省水城县方家沟水库工程中标公示 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180502_3134792.html";
+            var str_3 = "2018-05-02";
+            var str_4 = "2017年水城县新街乡出列示范村打造项目设计招标（二次）竞争性谈判招标公告 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180502_3134721.html";
+            var str_3 = "2018-05-02";
+            var str_4 = "水城县化乐镇化乐村铅锌废渣污染综合整治工程施工监理竞争性谈判（二次）公告 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180502_3134718.html";
+            var str_3 = "2018-05-02";
+            var str_4 = "水城县化乐镇化乐村铅锌废渣污染综合整治工程施工环境监理竞争性谈判（二次）公告 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180502_3134715.html";
+            var str_3 = "2018-05-02";
+            var str_4 = "水城县比德镇中心村铅锌废渣污染综合整治工程施工监理竞争性谈判（二次）公告 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+            <script type="text/javascript">
+            var  str="";
+            var str_1 = "./201805/t20180502_3134709.html";
+            var str_3 = "2018-05-02";
+            var str_4 = "水城县比德镇中心村铅锌废渣污染综合整治工程施工环境监理竞争性谈判（二次）公告 ";
+            var str_5 = "";
+            var  str2=str_3;
+            if(str_5 !="") {
+            str_4=str_5;  
+            }
+            if (str=="") {
+             document.write('<li><a href="'+str_1+'" target="_blank" alt="'+str_4+'" title="'+str_4+'" >'+str_4+'</a><span>'+str2+'</span></li>');
+            }else{
+             document.write('<li><a href="'+str+'" target="_blank"  alt="'+str_4+'" title="'+str_4+'">'+str_4+'</a><span>'+str2+'</span></li>');
+            }
+            </script>
+            
+          </ul>
+          <!-- 通用分页 -->
+    <script type="text/javascript" src="../../images/createpage.js"></script>
+ <div class="page">
+    <script>createPageHTML(273, 1, "index", "html")</script>
+</div>
+<!-- 通用分页 结束 -->
+     </div>
+  </div>
+<!--footer-->
+<div class="footer_bottom f12 auto f_c">
+    <div style="width: 735px;" class="auto">
+        <ul class="" style="width: 316px;height: 35px;margin: 0 auto; ">
+            <li><a href="http://www.shuicheng.gov.cn/syqt/lxfs/" target="_blank">联系方式</a></li>
+            <li>|</li>
+            <li><a href="http://www.shuicheng.gov.cn/syqt/wzsm/" target="_blank">网站声明</a></li>
+            <li>|</li>
+            <li><a href="http://www.shuicheng.gov.cn/syqt/yssm/" target="_blank">隐私声明</a></li>
+            <li>|</li>
+            <li><a href="http://www.shuicheng.gov.cn/syqt/bzxx/" target="_blank">帮助信息</a></li>
+            <li>|</li>
+            <li><a href="http://www.shuicheng.gov.cn/syqt/wzdt/" target="_blank">网站地图</a></li>
+            <!--<li>|</li>-->
+            <!--<li><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260311341'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1260311341%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></li>-->
+         </ul>
+        <p>主办：水城县人民政府&nbsp;&nbsp;&nbsp;&nbsp;版权所有：水城县人民政府办公室&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank" style="color:#888888;">黔ICP备16008577号</a>&nbsp;&nbsp;政府网站标识码：5202210041</p>
+        <p>公安机关备案号：52022102000003 &nbsp;&nbsp;&nbsp;&nbsp;  技术支持：<a  href="http://www.gogbh.cn/" target="_blank" style="color:#888888;">贵州多彩博虹科技有限公司</a></p>
+        <p>（建议使用1280*720以上分辨率 IE9版本以上浏览器)</p>
+    </div>
+    <div class="auto" style="width:300px;"><a class="auto" href="http://bszs.conac.cn/sitename?method=show&id=08561CBA991228EEE053012819ACC44E" target="_blank" style="display:block;width:55px;float:left;" ><img src="/images/hd_03.jpg" alt="" ignore="1" /></a>
+<div style="width:120px;float:left;"><script id="_jiucuo_" sitecode='5202210041' src=' http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+<script language="JavaScript">var _trackDataType = "web";var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10000843" src="//fxsjcj.kaipuyun.cn/count/10000843/10000843.js"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=779" async="async" defer="defer"></script>
+</div> </div>
+</div>
+
+<style type="text/css">
+			.lm_add_dl{ width: 120px; overflow: hidden; position: fixed; top: 218px; right: 50%; margin-right: -700px; z-index: 111;}
+                        .lm_add_ewm{ width: 120px; overflow: hidden; position: fixed; top: 218px; left: 50%; margin-left: -700px; z-index: 111;}
+			.lm_add_ewm a{ display: block; width: 100%; height: 30px; line-height: 30px; text-align: center; background: #3188d2; font-size: 16px; color: #fff;}
+			.lm_add_ewm a.msjdpt{display: block; width: 100%; height: 350px; line-height: 30px; text-align: center; background: #3188d2; font-size: 16px; color: #fff;}
+		</style>
+		<div class="lm_add_ewm">
+<div style="text-align:right;cursor:pointer; font-size:12px; line-height:20px;" onclick="$(this).parent().hide();">关闭</div>
+			<a  class="msjdpt" href="http://www.ysgzgy.com:9003/ccmimpweb/ts" target="_blank"><img src="/images/msjdysjpt.jpg" width="120" height="350" /></a><a href="http://58.16.65.139:8088/gzwsxf/gzlogin.jsp?orgid=5862">网上信访</a>
+			<img src="/images/sjxxewm.jpg" width="120" height="120" />
+		</div>
+<div class="lm_add_dl">
+<div style="text-align:right;cursor:pointer; font-size:12px; line-height:20px;" onclick="$(this).parent().hide();">关闭</div>
+			<a href="http://www.gzlps.gov.cn/dcview.html?method=viewQuestionnaireDetailPrv&questionnaireId=1034" target="_blank"><img src="/images/gfjywjdc.jpg" width="120" height="470" /></a>
+		</div>
+</body>
+</html>

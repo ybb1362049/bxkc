@@ -1,0 +1,500 @@
+<iframe src="myesoft/Counter.asp"  width="0" height="0" border="0" frameborder="0" framespacing="0" marginheight="0" marginwidth="0" scrolling="No"></iframe>
+<!-,-#include file="char.inc"-->
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="广元市林业和园林局">
+<title>广元市林业和园林局【www.gylyyl.gov.cn】官方网站欢迎您!_公示公告_信息公开 - 广元市林业和园林局【www.gylyyl.gov.cn】官方网站欢迎您!</title>
+<LINK href=Z_News.css rel=stylesheet>
+ 
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
+<style type="text/css">
+	.newstitle  {
+	COLOR: #000033;
+	FONT-FAMILY:Verdana, Arial, "宋体";
+	FONT-SIZE: 12px;
+	line-height:28px
+}
+
+</style>
+
+<script type="text/javascript" src="myesoft/inc/Dig.js"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+
+	function validateMode()
+	{
+	  if (!bTextMode) return true;
+	  alert("请先取消查看HTML源代码，进入“编辑”状态，然后再使用系统编辑功能!");
+	  message.focus();
+	  return false;
+	}
+	function validateModea()
+	{
+	  if (!bTextMode) return true;
+	  alert("请先取消查看HTML源代码!");
+	  message.focus();
+	  return false;
+	}
+
+	function sign()
+	{if (!validateMode()) return;
+	message.focus();
+
+	var range =message.document.selection.createRange();
+	str1="<font color='red'><b>|签收|</b>文件已经阅读</font>"
+	   range.pasteHTML(str1);
+	}
+
+	function img_zoom(e, o)		//图片鼠标滚轮缩放
+	{
+		var zoom = parseInt(o.style.zoom, 10) || 100;
+		zoom += event.wheelDelta / 12;
+		if (zoom > 0) o.style.zoom = zoom + '%';
+			return false;
+	}
+</script>
+
+<script language=javascript>
+	function user_login()
+	{
+		document.UserLogin.UserName.focus();
+		return false;
+	}
+	</script>
+
+	<script language="JavaScript" type="text/JavaScript">
+	<!--
+	function MM_preloadImages() { //v3.0
+		var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	}
+	//-->
+	</script>
+
+	<script language="JavaScript" type="text/JavaScript">
+
+	var size=14;			//字体大小
+
+	function fontZoom(fontsize){	//设置字体
+		size=fontsize;
+		document.getElementById('fontZoom').style.fontSize=size+'px';
+	}
+
+	function fontMax(){	//字体放大
+		size=size+2;
+		document.getElementById('fontZoom').style.fontSize=size+'px';
+	}
+
+	function fontMin(){	//字体缩小
+		size=size-2;
+		if (size < 2 ){
+			size = 2
+		}
+		document.getElementById('fontZoom').style.fontSize=size+'px';
+	}
+</script>
+
+<script language="javascript">
+	<!--
+	function changedata() {
+		if ( document.AddReview.none.checked ) {
+			document.AddReview.Author.value = "游客";
+		}
+	}
+	function changedata1() {
+		if ( document.AddReview.none1.checked ) {
+			document.AddReview.email.value = "guest#myesoft.com";
+		}
+	}
+
+	//-->
+</script>
+
+<script language=javascript>
+	function CheckFormAddReview()	//检测评论发表栏填写项目是否为空
+	{
+		if(document.AddReview.Author.value=="")
+		{
+			alert("请输入用户名！");
+			document.AddReview.Author.focus();
+			return false;
+		}
+		if(document.AddReview.email.value == "")
+		{
+			alert("请输入您的EMAIL！");
+			document.AddReview.email.focus();
+			return false;
+		}
+		if(document.AddReview.content.value == "")
+		{
+			alert("请输入评论内容！");
+			return false;
+		}
+			if (document.AddReview.verifycode.value=="")
+		{
+		  alert("对不起，请输入验证码！")
+		  document.AddReview.verifycode.focus()
+		  return false
+		}
+	}
+</script>
+</head>
+
+		<SCRIPT language=JavaScript>
+			//双击滚屏代码
+			var currentpos,timer;
+
+			function initialize()
+			{
+			timer=setInterval("scrollwindow()",50);
+			}
+
+			function sc(){
+			clearInterval(timer);
+			}
+
+			function scrollwindow()
+			{
+			currentpos=document.body.scrollTop;
+			window.scroll(0,++currentpos);
+			if (currentpos != document.body.scrollTop)
+				sc();
+			}
+			document.onmousedown=sc
+			document.ondblclick=initialize
+		</script>
+	
+    <SCRIPT language=javascript>
+	<!--
+	  function do_color(vobject,vvar)
+	  { document.getElementById(vobject).style.color=vvar; }
+	  function do_zooms(vobject,vvar)
+	  { document.getElementById(vobject).style.fontsize=vvar+'px'; }
+	-->
+</SCRIPT>
+<body  >
+ 
+<div  align="center">
+
+<table border="0" cellspacing="0" cellpadding="0" width="1000" bgcolor="#1bb114" align="center">
+<tbody>
+<tr>
+<td height="30">
+<table border="0" cellspacing="0" cellpadding="0" width="1000" align="center">
+<tbody>
+<tr>
+<td height="30" width="240" align="right"><span style="color: #ffffff;font-size: 12px">您好！欢迎您光临广元市林业和园林局</span></td>
+<td width="584">&nbsp;</td>
+<td width="246" align="right" style="padding-right: 25px"><!--#begineditable "页面右上角链接" name="页面右上角链接" viewid="7984" tagname="页面右上角链接" contype="" stylesysid="" clone="0"-->     
+     
+<script language="javascript" src="js/dynclicks.js"></script>
+<table border="0" width="0">     
+    <tr>   
+            <td align="absmiddle">
+<span class="leaderstyle7984"></span></td>     
+            <td width="0" align="left">   
+                <A HREF="http://www.gylyyl.gov.cn/list.asp?NewsID=3885" onclick="_addDynClicks('wburl',1190883225,2947)"><span class="linkstyle7984">网站地图</span></A>
+                 
+            </td>     
+            <td align="absmiddle">
+                <span class="jumpstyle7984">|</span>
+            <span class="leaderstyle7984"></span></td>     
+            <td width="0" align="left">   
+                <A HREF="http://www.gylyyl.gov.cn/list.asp?NewsID=3886" onclick="_addDynClicks('wburl',1190883225,2948)"><span class="linkstyle7984">微信公众号</span></A>  
+            </td>        
+</tr></table><span style="color: #ffffff;font-size: 12px"></span></td></tr></tbody></table></td></tr></tbody></table>
+
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="1000" align="center">
+ 
+ <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="1000" height="180">
+    <param value='false' name='menu'/>
+     <param value='opaque' name='wmode'/>
+      <param name="movie" value="flash/head.swf" />
+      <param name="quality" value="high" />
+      <embed src="flash/head.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="1000" height="180"></embed>
+  </object>
+ 
+</table>
+
+    
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="1000" align="center">
+<tbody>
+<tr>
+<td height="37"><!--#begineditable "图片导航" name="图片导航" viewid="8073" tagname="图片导航" contype="" stylesysid="" clone="0"-->
+
+<script language="javascript" src="js/menu/image.js"></script>
+<SCRIPT language="javascript"><!--
+var showfix_1_ = 1;
+var isvertical_1_ = false;
+//--></SCRIPT>
+<TABLE id="t1_1_" cellSpacing="0" cellPadding="0" border="0" height="0" width="0"><tr><TD valign="middle" height="0" width="0" nowrap align="center" id="a_1_1001" onmouseover="showLayers('1001', '_1_')" onmouseout="hideLayers('1001','_1_')">
+<a href="index.asp"><img name="i_1_1001" vsbhrefname="bsrc" onmouseover="NOVR('_1_1001')" onmouseout="NOUT('_1_1001')" src="images/bg_03.jpg" bsrc="images/bg_03.jpg" cur="1" border="0" alt="首页"></a>
+
+</TD><TD valign="middle" height="0" width="0" nowrap align="center" id="a_1_1003" onmouseover="showLayers('1003', '_1_')" onmouseout="hideLayers('1003','_1_')">
+
+<a href="subject.asp?typeid=17"><img name="i_1_1003" vsbhrefname="bsrc" onmouseover="NOVR('_1_1003')" onmouseout="NOUT('_1_1003')" src="images/bg_04.jpg" bsrc="images/bg_04.jpg" cur="0" border="0" alt="政务公开"></a>
+
+</TD><TD valign="middle" height="0" width="0" nowrap align="center" id="a_1_1007" onmouseover="showLayers('1007', '_1_')" onmouseout="hideLayers('1007','_1_')">
+
+<a href="subject.asp?typeid=18"><img name="i_1_1007" vsbhrefname="bsrc" onmouseover="NOVR('_1_1007')" onmouseout="NOUT('_1_1007')" src="images/bg_05.jpg" bsrc="images/bg_05.jpg" cur="0" border="0" alt="信息公开"></a>
+
+</TD><TD valign="middle" height="0" width="0" nowrap align="center" id="a_1_1025" onmouseover="showLayers('1025', '_1_')" onmouseout="hideLayers('1025','_1_')">
+
+<a href="subject.asp?typeid=19"><img name="i_1_1025" vsbhrefname="bsrc" onmouseover="NOVR('_1_1025')" onmouseout="NOUT('_1_1025')" src="images/bg_06.jpg" bsrc="images/bg_06.jpg" cur="0" border="0" alt="林业工作"></a>
+
+</TD><TD valign="middle" height="0" width="0" nowrap align="center" id="a_1_1032" onmouseover="showLayers('1032', '_1_')" onmouseout="hideLayers('1032','_1_')">
+
+<a href="subject.asp?typeid=27"><img name="i_1_1032" vsbhrefname="bsrc" onmouseover="NOVR('_1_1032')" onmouseout="NOUT('_1_1032')" src="images/bg_07.jpg" bsrc="images/bg_07.jpg" cur="0" border="0" alt="党建工作"></a>
+
+</TD><TD valign="middle" height="0" width="0" nowrap align="center" id="a_1_1037" onmouseover="showLayers('1037', '_1_')" onmouseout="hideLayers('1037','_1_')">
+
+<a href="subject.asp?typeid=28"><img name="i_1_1037" vsbhrefname="bsrc" onmouseover="NOVR('_1_1037')" onmouseout="NOUT('_1_1037')" src="images/bg_08.jpg" bsrc="images/bg_08.jpg" cur="0" border="0" alt="办事大厅"></a>
+
+</TD><TD valign="middle" height="0" width="0" nowrap align="center" id="a_1_1047" onmouseover="showLayers('1047', '_1_')" onmouseout="hideLayers('1047','_1_')">
+
+<a href="subject.asp?typeid=26"><img name="i_1_1047" vsbhrefname="bsrc" onmouseover="NOVR('_1_1047')" onmouseout="NOUT('_1_1047')" src="images/bg_09.jpg" bsrc="images/bg_09.jpg" cur="0" border="0" alt="互动交流"></a>
+
+</TD></tr></table></td></tr></tbody></table>
+<table border="0" cellspacing="0" cellpadding="0" width="1000" bgcolor="#ffffff" align="center" style="border-bottom: #cccdcc 1px dashed">
+<tbody>
+<tr>
+<td height="34" width="65" align="right"><span class="date">今天是：</span></td>
+<td width="156" align="left">
+<div id="rili001">
+<!--#begineditable "文本日历" name="文本日历" viewid="7986" tagname="文本日历" contype="" stylesysid="" clone="0"-->
+<script language="javascript" src="js/calendar/cld.js"></script>               
+<script language="JavaScript">
+function RunGLNL7986(){          
+var today=new Date();          
+var d=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+var nian = getYear(today)+"年"+(today.getMonth()+1)+"月" +today.getDate()+"日";         
+var objtime = document.getElementById("rili001");
+
+objtime.innerHTML="<div id='lunar7986'>";
+objtime.innerHTML=nian+"&nbsp;&nbsp;"+d[today.getDay()];
+//document.write('<div id="lunar7986"  class="fontstyle7986" >');          
+//document.write(nian+"&nbsp;&nbsp;"+d[today.getDay()]);          
+document.write("</div>");         
+} RunGLNL7986();          
+</script>
+     
+</div>
+</td>
+<td width="530">&nbsp;</td>
+<td width="264" style="padding-right: 10px"><!--#begineditable "全文检索" name="全文检索" viewid="7987" tagname="全文检索" contype="" stylesysid="" clone="0"-->
+
+
+<script language="javascript" src="js/base64.js"></script> 
+<script language="javascript" src="js/formfunc.js"></script> 
+<script type="text/javascript">
+function checksearch7987(type){
+        var keyword = document.getElementById('showkeycode7987').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkeyword7987").value = Simplized(keyword );
+        }else
+        {
+        	document.getElementById("lucenenewssearchkeyword7987").value = keyword;            
+        }
+        document.getElementById('_lucenesearchtype7987').value=1;
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkeyword7987").value = base64.encode(document.getElementById("lucenenewssearchkeyword7987").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode7987"));
+        return true;
+    } 
+
+</script>
+<form method="post" name="myform" action="search.asp" target="newwindow">
+  <input type="hidden" id="lucenenewssearchkeyword7987" name="lucenenewssearchkeyword" value="">
+  <input type="hidden" id="_lucenesearchtype7987" name="_lucenesearchtype" value="">
+ <table width="100%" align="center" border="0" cellspacing="0" cellpadding="3">
+  <tr>
+   <td><span></span></td><td align="right" width="1%" nowrap><input name="keyword"   value="关键字"onfocus="if (value =='关键字'){value =''}"onblur="if (value ==''){value='关键字'}" maxlength="80" class="querystyle7987"></td>
+                 <td align="left">
+                
+    <input type="image" src="images/cion2_12.jpg" align="absmiddle" style="cursor: hand">
+    
+   </td>
+  </tr>
+ </table>
+</form></td></tr></tbody></table>
+
+ </div>
+<table width="1002" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td align="center">
+     <table width="994" border="0" cellspacing="0" cellpadding="0" align="center">
+ 
+   <tr>
+    <td height="25">&nbsp;&nbsp;当前位置：<a href="./">网站首页</a>&nbsp;&nbsp;&gt;&gt;&nbsp;&nbsp;</td>
+  </tr>
+</table>
+     <table width="1002" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td align="center">
+    
+
+     <table width="994" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+   
+
+      
+    <td   valign="top">
+    <!--右侧开始 -->
+	<table width="1002" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td align="center" > 
+	 <!--正文开始 -->
+<table width="1002" border="0" cellspacing="0" cellpadding="0">
+      
+     
+	    <tr>
+        <td     valign="top">
+ 
+            <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<table border="0" cellpadding="0" cellspacing="0" width="1002" align="center">
+							<tr>
+							  <td colspan="2" align=center><font color="" size="+1" ><strong>市城区园林绿地“增花添彩”及文化景观提升工程可行性研究报告编制单位比选公告</strong></font></td>
+							  </tr>
+							<tr>
+							   
+							  <td width="1002" align=center>
+							    <p>
+							                                    
+							      </p>
+							    <p>&nbsp;</p></td>
+							</tr>
+							<tr>
+								<td colspan="2" align=center>&nbsp;&nbsp;发表日期：2018年1月10日&nbsp;&nbsp;
+									
+										&nbsp;&nbsp;
+									
+									&nbsp;&nbsp;&nbsp;&nbsp;【编辑录入：科技推广站】&nbsp;&nbsp;点击量：90</td>
+							</tr>
+							
+							<tr>
+								<td colspan="2"  align="center">
+								
+                               
+<table border="0" cellspacing="0" cellpadding="0" align="center" style="TABLE-LAYOUT: fixed">
+										<tr>
+											<td width="980" align=center></td>
+										</tr>
+										<tr>
+											<td class=newstitle id=fontzoom vAlign=top><br>
+                                            <!--1111 -->	
+                                            
+                                            <div style="width:980px; height:auto;overflow-x:auto;overflow-y:hidden;">
+												<P>&nbsp;&nbsp; &nbsp;按照市委市政府要求，市城区园林绿地“增花添彩” 及文化景观提升工程将启动实施，现通过比选方式确定该工程可行性研究报告编制单位，诚邀符合资格条件的潜在申请人参与本项目的比选。<BR>&nbsp;一、项目概况<BR>&nbsp;&nbsp;&nbsp; 1.项目名称：市城区园林绿地“增花添彩” 及文化景观提升工程<BR>&nbsp;&nbsp;&nbsp; 2.建设地点：市城区<BR>&nbsp;&nbsp;&nbsp; 3.工程建设内容：城区重要区域及节点进行增花添彩等植物配置景观提升，体现绿化、美化、香化、彩化、亮化特色，同时适当增加必要的文化符号或景观小品，局部增加景石，形成景观亮点。<BR>&nbsp;&nbsp;&nbsp; 4.编制质量要求：符合国家现行标准合格。<BR>&nbsp;&nbsp;&nbsp; 5.成果提交内容及时间：成果应包括项目建议书、可行性研究报告（包括能耗统计表）。可行性研究报告应在15日历天内提交并通过评审。<BR>&nbsp;&nbsp; 二、资格要求<BR>&nbsp;&nbsp;&nbsp; 1.一般要求：具有独立法人资格。<BR>&nbsp;&nbsp;&nbsp; 2.资质要求: 具有国家发改委核发的市政公用工程（风景园林）咨询丙级及以上资质。<BR>&nbsp;&nbsp;&nbsp; 3.其他要求：参加比选时，投标单位应按要求提交相关材料原件供查验，还须提供一份加盖单位鲜章的复印件交比选人存档。<BR>&nbsp;&nbsp; 三、咨询费发包价及确定方式<BR>&nbsp;&nbsp;&nbsp; 1.本项目采用最低价评审法，根据符合资格要求且报价最低的原则确定中选单位。<BR>&nbsp;&nbsp;&nbsp; 2.本项目最高限价：按国家编制项目可行性研究报告取费标准计取可研咨询费并下浮20%作为本项目最高限价（含评审费）。项目投资金额以发改委立项批复金额为准。<BR>&nbsp;&nbsp;&nbsp; 3.申请人报价：在本项目最高限价的基础上下浮比例报价。</P>
+<P>&nbsp;&nbsp; 四、报名截止时间及地点<BR>&nbsp;&nbsp;&nbsp;&nbsp; 1.报名截止时间:2018年1月12日下午15:00时（北京时间）<BR>&nbsp;&nbsp;&nbsp;&nbsp; 2.报名地点：广元市春和园林开发有限公司（可电话报名），地址：广元市万源新区米仓路8号（广元市林业和园林局办公楼内）<BR>&nbsp;&nbsp; 五、开标时间及地点<BR>&nbsp;&nbsp;&nbsp;&nbsp; 1.开标时间：2018年1月12日下午15:00分（北京时间）<BR>&nbsp;&nbsp;&nbsp;&nbsp; 2.开标地点：广元市林业和园林局11楼会议室<BR>&nbsp;&nbsp; 七、委托代理人应在开标时持以下资料到现场<BR>&nbsp;&nbsp;&nbsp;&nbsp; 1.授权委托书原件，<BR>&nbsp;&nbsp;&nbsp;&nbsp; 2.本人身份证原件；<BR>&nbsp;&nbsp;&nbsp;&nbsp; 3.企业法人营业执照副本原件；<BR>&nbsp;&nbsp;&nbsp;&nbsp; 4.企业资质证书副本原件；<BR>&nbsp;&nbsp;&nbsp;&nbsp; 5.比选报价函原件。<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;比 选 人： 广元市春和园林开发有限公司<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 联 系 人：严先生<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 电&nbsp;&nbsp;&nbsp; 话：0839-3237862<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 日&nbsp;&nbsp;&nbsp; 期：2018年1月10日</P>
+<P>&nbsp;</P>
+<P><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 比选报价函</P>
+<P>&nbsp;致：广元市春和园林开发有限公司<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我方已仔细研究了市城区园林绿地“增花添彩” 及文化景观提升工程可行性研究报告编制比选公告及其他文件，在完全理解并严格遵守比选公告的各项规定和要求的前提下，我方愿意在项目最高限价的基础上下浮<U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </U>%的比选报价参加本项目比选，并在此声明：参加比选时所提供的申请材料全部符合比选公告所列要求，真实可信，不存在虚假、隐瞒。如我方中选，我方承诺：<BR>&nbsp;&nbsp; 1.我方愿意完全按照比选人通过比选文件及合同样本提出的要约及我方报价签订正式合同，并按合同约定完成工程咨询任务。<BR>&nbsp;&nbsp; 2.我方中选后，严格按照建设方约定时间提交可研报告，如未能按时提交，由我方承担违约责任。<BR>&nbsp;&nbsp; 3.本报价函属于合同文件的组成部分。<BR>&nbsp;&nbsp; 以上为我方参加该项目的比选报价函，如违反，则自行承担相应法律责任，自愿按照相关规定接受处罚。<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比选申请人：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （盖单位章）<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 委&nbsp; 托&nbsp; 人：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （签字）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 联 系 方 式：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </P>
+												<br>
+                                                </div><!--11111 -->
+												<div align="right">
+													
+											</div>											</td>
+										</tr>
+									</table>                                    								</td>
+							</tr>
+						</table>					</td>
+				</tr>
+			</table></td>
+      </tr>
+	   
+    </table>
+    <!--正文结束 -->
+
+    
+    </td>
+  </tr>
+  
+</table>
+
+    <!--右侧结束 -->
+    </td>
+    
+    
+  </tr>
+</table>
+  
+
+</td>
+  </tr>
+</table>
+<table width="10" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+    
+    
+    
+
+
+ 
+
+ 
+      <!--主要内容 -->
+    </td>
+  </tr>
+</table>
+  
+  
+
+
+ 
+<tbody>
+<tr>
+<td height="6" width="961"></td></tr></tbody></table>
+<table border="0" cellspacing="0" cellpadding="0" width="1000" bgcolor="#ffffff" align="center">
+<tbody>
+<tr>
+<td height="115" valign="top" width="961" style="border-top: #32a200 2px solid">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td height="20">&nbsp;</td></tr>
+<tr>
+<td height="36" align="center">
+<SPAN style="text-transform: none;background-color: rgb(255,255,255);text-indent: 0px;display: inline !important;font: 12px/22px Arial;white-space: normal;float: none;letter-spacing: normal;color: rgb(59,59,59);word-spacing: 0px;-webkit-text-stroke-width: 0px">版权所有：2016-2017 广元市林业和园林局　|　地址：广元市利州区万源　|　电话：(0839)3222528   　|　传真：(0839)3239732　|　<A href="http://www.miitbeian.gov.cn/" target="_blank" style="text-transform: none;background-color: rgb(255,255,255);text-indent: 0px;font: 12px/22px Arial;white-space: normal;letter-spacing: normal;color: rgb(59,59,59);word-spacing: 0px;text-decoration: none;-webkit-text-stroke-width: 0px">蜀ICP备16031043号</A></SPAN></td></tr>
+<tr>
+<td height="32" valign="center" align="center">
+<span style="text-transform: none;background-color: rgb(255,255,255);text-indent: 0px;display: inline !important;font: 12px/22px Arial;white-space: normal;float: none;letter-spacing: normal;color: rgb(59,59,59);word-spacing: 0px;-webkit-text-stroke-width: 0px"><img src="image/beian.png" /><a class="footfont" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51080002000231" target="_blank">川公网安备 51080002000231号</a></span>&nbsp;&nbsp;<A href="http://www.myesoft.com/" target="_blank" >技术支持：易迈科技</A></td></tr>
+</tbody></table></td></tr></tbody>
+
+</table>
+<div  align="center">
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript   src='http://dcs.conac.cn/js/23/339/0000/60274861/CA233390000602748610001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+<script type="text/javascript" src="http://wza.cngy.gov.cn/yixuan/yixuan_nav/
+domready.js?sid=9147?curl=http://www.gylyyl.gov.cn"></script>
+
+<script id="_jiucuo_" sitecode='5108000029' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,285 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>甘肃华夏有爱健康医疗管理有限公司一期医疗设备采购项目招标公告_招标公告_甘肃经济信息网欢迎您！</title>
+<meta name="keywords" content="政府方案" />
+<meta name="description" content="甘肃华夏有爱健康医疗管理有限公司一期医疗设备采购项目招标公告兰州正泽招投标代理有限公司受甘肃华夏有爱健康医疗管理有限公司的委托，对甘肃华夏有爱健康医疗管理有限公司一期医疗设备采购项目以公开招标的形式进行采购，欢迎符合资格条件的投标商前来参加。一、招标" />
+<link rel="stylesheet" type="text/css" href="http://www.gsei.com.cn/skin/gansu01/cms/../core/common.css" />
+<link rel="stylesheet" type="text/css" href="http://www.gsei.com.cn/skin/gansu01/cms/../core/head_foot/style.css" />
+<link rel="stylesheet" type="text/css" href="http://www.gsei.com.cn/skin/label/label.css" />
+<link rel="Shortcut Icon" href="favicon.ico">
+<script type="text/javascript" src="http://www.gsei.com.cn/js/config.js"></script>
+<script type="text/javascript" src="http://www.gsei.com.cn/js/util.js"></script>
+<script type="text/javascript" src="http://www.gsei.com.cn/js/lang/core/zh-cn.js"></script>
+<script type="text/javascript" src="http://www.gsei.com.cn/js/lang/cms/zh-cn.js"></script>
+<script type="text/javascript">
+P8CONFIG.RESOURCE = 'http://www.gsei.com.cn';
+var SYSTEM = 'cms',
+MODULE = 'item',
+ACTION = 'view',
+LABEL_URL = 'http://www.gsei.com.cn/index.php/cms/item-view-id-152807-page-1?',
+$this_router = P8CONFIG.URI[SYSTEM][MODULE].controller,
+$this_url = $this_router +'-'+ ACTION,
+SKIN = 'http://www.gsei.com.cn/skin/gansu01/cms/',
+TEMPLATE = 'gansu01';
+mobile_status= '1',
+mobile_auto_jump='1',
+mobile_url = 'http://www.gsei.com.cn/m';
+if(mobile_status=='1'){
+if(browser.versions.android || browser.versions.iPhone || browser.versions.iPad){
+if(mobile_auto_jump=='1' && mobile_url!=P8CONFIG.RESOURCE){
+var this_url = location.href;
+if(this_url.indexOf(mobile_url)==-1 && this_url.indexOf('s.php')==-1 && this_url.indexOf('u.php')==-1 && this_url.indexOf('admin.php')==-1){
+this_url = this_url.replace(P8CONFIG.RESOURCE, mobile_url);
+location.href = this_url;
+}
+}
+}
+}document.domain = 'gsei.com.cn';document.base_domain = 'gsei.com.cn';
+</script>
+</head>
+<body class="index">
+<div class="head_bg"><style style="text/css">
+#play_8666 { width:100%px;position: relative;z-index: -2;margin:0 auto;}
+#play_8666 .clearfix li {display: none;position: absolute;overflow: hidden;width:100%px;	height:612px;}
+#play_8666 .clearfix li img {margin: auto; width:100%px;	height:612px;overflow: hidden;}
+#play_8666 .jsNav { position:absolute;right:700px;bottom:240px;z-index:999;display:none;}
+#play_8666 .jsNav li { background-color:#b8eff4;cursor:pointer;display: inline-block;float: left;    height: 10px;    line-height: 0;    margin-left: 5px;    text-indent: -9999px;    width: 40px;   z-index: 999; }
+#play_8666 .jsNav li.over { background-color:#FFF; z-index: 999;}
+</style>
+<div id="play_8666">
+<ul class="clearfix">
+<li><a href=""><img src="http://www.gsei.com.cn/attachment/core/label/2016_04/05_10/d3d0fc55e453b2ea.jpg" width="100%" height="612"></a></li>
+<li><a href=""><img src="http://www.gsei.com.cn/attachment/core/label/2016_04/05_10/9c99031e57daa7ed.jpg" width="100%" height="612"></a></li>
+<li><a href=""><img src="http://www.gsei.com.cn/attachment/core/label/2016_04/05_10/ce0ed8a7df8344f5.jpg" width="100%" height="612"></a></li>
+</ul>
+<ul class="jsNav" id="jsNav_8666">
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ul>
+</div>
+<script type="text/javascript">
+(function () {
+var num = $("#jsNav_8666 li").length;
+$("#play_8666 ul li:first").css("display", "block");
+$("#jsNav_8666 li:first").addClass("over");
+var curr = 0;
+$("#jsNav_8666 li").each(function (i) {
+$(this).click(function () {
+curr = i;
+$("#play_8666 ul li").eq(i).css("z-index", "10").siblings("li").css("z-index", "1");
+$("#play_8666 ul li").eq(i).fadeIn(1500).siblings("li").fadeOut(1500);
+$(this).siblings("li").removeClass("over").end().addClass("over");
+return false;
+});
+});
+//自动翻
+var timer = setInterval(function () {
+todo = (curr + 1) % num;
+$("#jsNav_8666 li").eq(todo).click();
+}, 9000);
+
+//鼠标悬停在触发器上时停止自动翻
+$("#jsNav_8666 li").hover(
+function () {
+clearInterval(timer);
+},
+function () {
+timer = setInterval(function () {
+todo = (curr + 1) % num;
+$("#jsNav_8666 li").eq(todo).click();
+}, 5000);
+}
+);
+})();
+</script></div>
+<div id="header">
+<div class="topBar">
+<div class="topLink">
+<a href="http://www.gsdrc.gov.cn/">甘肃省发展和改革委员</a>|<a href=" http://www.gsei.com.cn/informationcenter/aboutcenter.htm">甘肃省信息中心</a>|<a href="http://www.cei.gov.cn/">中经网</a>|<a href=" http://www.gsei.com.cn/cei/index.htm">中经网全国站点</a>
+</div>
+<span id="header_login" style="float:left;display: inline;margin-left:5px;"><script type="text/javascript" src="http://www.gsei.com.cn/u.php/core/member-login?style=com&id=header_login"></script></span>
+<div class="topClik" id="header_t">
+<script type="text/javascript" src="KS_Inc/language.js"></script> |<a href="http://jn.gsei.com.cn/">旧版</a>|<a href="#">手机版</a>
+</div>
+</div>
+<div class="banner">
+<div class="logo"><a href="http://www.gsei.com.cn/index.php/cms"><img src = "http://www.gsei.com.cn/skin/gansu01/core/logo.png" /></a></div>
+<div class="search_form">
+<form action="http://www.gsei.com.cn/index.php/cms/item-search" target="_blank" method="get" name="form1" id="form1">
+<input type="text" class="keyword" id="keyword" name="keyword" onfocus="this.value='';this.style.color='#333';" value="请输入搜索关键字">
+<input type="submit" class="submitbtn" value="" id="button" name="button">
+</form>
+</div>
+</div>
+<div class="linkNav">
+<ul>
+
+
+
+
+<li class="home"><h3><a href="http://www.gsei.com.cn/index.php">首页</a></h3></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1262.shtml" >甘肃省情</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1372.shtml" >信用甘肃</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1263.shtml">新闻中心</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1268.shtml">绿色发展</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1270.shtml">精准扶贫</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1273.shtml">甘肃招标</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1264.shtml">监测预测</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1274.shtml">甘肃人才</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1265.shtml">经济数据</a><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1275.shtml">文件汇编</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1267.shtml">发展规划</a><a href="http://www.gsinvest.gov.cn/index.php?m=item&c=index&a=index&siteid=2" target="_blank">招商引资</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1266.shtml">农产品市场</a><a href="http://www.gsjr.gov.cn/" target="_blank">甘肃金融</a></li>
+<li><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1271.shtml">大数据</a><a href="http://www.gsqlw.org/ " target="_blank">甘肃侨务</a></li>
+<li class="last"><a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1269.shtml">法律法规</a><a href="http://www.gsgs.gov.cn/" target="_blank">服务大厅</a></li>
+
+
+
+
+
+
+</ul>
+</div>
+<div class="addInfo">
+<div id="datehtml">今天是：
+<script language=JavaScript>        
+today=new Date();
+function initArray(){
+this.length=initArray.arguments.length
+for(var i=0;i<this.length;i++)
+this[i+1]=initArray.arguments[i] }
+document.write(
+today.getFullYear(),"年",
+today.getMonth()+1,"月",
+today.getDate(),"日   ");
+</script>
+</div>
+<div id="weather">
+<iframe width="385" scrolling="no" height="20" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&amp;id=40&amp;icon=1&amp;num=1" style="385"></iframe>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+//**show_edit**//					   
+init_labelshows('header_t');
+})
+</script>
+<div class="clear"></div>
+<div class="container"> <link rel="stylesheet" type="text/css" href="http://www.gsei.com.cn/skin/gansu01/cms/style.css" />
+<script type="text/javascript" src="http://www.gsei.com.cn/js/cms/item/item.js"></script>
+<script type="text/javascript">
+var item_id = 152807,
+model = 'article',
+item_cid = 1336,
+verified = $_GET['verified'] !== undefined || $_GET['verified'] == 1 ? 1 : 0;
+
+$(function(){
+if(get_cookie('IS_ADMIN') == 1){
+item_operation($('#operation').show());
+}
+});
+</script>
+<div class="nav mtop">你现在所在的位置是：
+<a href="http://www.gsei.com.cn/index.php">首页</a>
+&gt;&gt; <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1273.shtml">甘肃招标</a>
+&gt;&gt; <a href="http://www.gsei.com.cn/index.php/cms/item-list-category-1336.shtml">招标公告</a> 
+&gt;&gt; 详细内容
+</div>
+<div style="width:1200px; overflow:hidden; float:left;border:1px solid #cccccc;border-top:2px solid #287ebf;height:100%;zoom:1;">
+<div class="main1" style="padding:20px 30px;">
+<div class="intr_title">甘肃华夏有爱健康医疗管理有限公司一期医疗设备采购项目招标公告</div>
+<div class="ht_date" style="text-align:center;font-size:14px;">日期：2016-12-30 &nbsp;来源：<a href="" target="_blank"></a>&nbsp;作者：
+<span id="operation" style="display: none; cursor: pointer;">操作</span></div>
+<div id="p8_content_show" style="color:#595959;"><p class="MsoNormal"><span style='font-family: "Times New Roman"; font-size: 10.5pt; mso-spacerun: "yes"; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;'></span></p>
+<p align="center" class="MsoNormal" style="text-align: center; line-height: 30pt; text-indent: 0pt; margin-right: 0pt; margin-bottom: 7.85pt; margin-left: 0pt; -ms-text-autospace: ideograph-numeric; mso-para-margin-right: 0.0000gd; mso-para-margin-bottom: 0.5000gd; mso-para-margin-left: 0.0000gd; mso-char-indent-count: 0.0000; mso-pagination: none; mso-line-height-rule: exactly;"><b><span style='font-family: 方正大标宋_GBK; font-size: 18pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 宋体; mso-bidi-font-family: "Times New Roman";'><font face="方正大标宋_GBK">甘肃华夏有爱健康医疗管理有限公司</font></span></b><b><span style='font-family: 方正大标宋_GBK; font-size: 18pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 宋体; mso-bidi-font-family: "Times New Roman";'></span></b></p>
+<p align="center" class="MsoNormal" style="text-align: center; line-height: 30pt; text-indent: 0pt; margin-right: 0pt; margin-bottom: 7.85pt; margin-left: 0pt; -ms-text-autospace: ideograph-numeric; mso-para-margin-right: 0.0000gd; mso-para-margin-bottom: 0.5000gd; mso-para-margin-left: 0.0000gd; mso-char-indent-count: 0.0000; mso-pagination: none; mso-line-height-rule: exactly;"><b><span style='font-family: 方正大标宋_GBK; font-size: 18pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 宋体; mso-bidi-font-family: "Times New Roman";'><font face="方正大标宋_GBK">一期医疗设备采购</font></span></b><b><span style='font-family: 方正大标宋_GBK; font-size: 18pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-hansi-font-family: 宋体; mso-bidi-font-family: "Times New Roman";'><font face="方正大标宋_GBK">项目招标公告</font></span></b><b><span style='font-family: 方正大标宋_GBK; font-size: 18pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-hansi-font-family: "Times New Roman"; mso-bidi-font-family: "Times New Roman";'></span></b></p>
+<p class="MsoNormal" style="text-align: left; line-height: 28pt; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman"; mso-shading: rgb(255, 255, 255);'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman"; mso-shading: rgb(255, 255, 255);'><font face="宋体">兰州正泽招投标代理有限公司受</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman"; mso-shading: rgb(255, 255, 255);'><font face="宋体">甘肃华夏有爱健康医疗管理有限公司</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman"; mso-shading: rgb(255, 255, 255);'><font face="宋体">的委托，对</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman"; mso-shading: rgb(255, 255, 255);'><font face="宋体">甘肃华夏有爱健康医疗管理有限公司一期医疗设备采购</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman"; mso-shading: rgb(255, 255, 255);'><font face="宋体">项目以公开招标的形式进行采购，欢迎符合资格条件的投标</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman"; mso-shading: rgb(255, 255, 255);'><font face="宋体">商</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman"; mso-shading: rgb(255, 255, 255);'><font face="宋体">前来参加。</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-hansi-font-family: "Times New Roman"; mso-bidi-font-family: "Times New Roman"; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="line-height: 28pt; text-indent: 24pt; mso-char-indent-count: 2.0000; mso-line-height-rule: exactly;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'><font face="宋体">一、招标文件编号：</font>LZ2016-GK077（Z）</span></b><b><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-shading: rgb(255, 255, 255);'></span></b></p>
+<p class="MsoNormal" style="line-height: 28pt; text-indent: 24pt; mso-char-indent-count: 2.0000; mso-line-height-rule: exactly;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'><font face="宋体">二</font></span></b><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'><font face="宋体">、</font></span></b><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'><font face="宋体">评标办法及内容</font></span></b><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'></span></b></p>
+<p class="MsoNormal" style="text-align: left; line-height: 28pt; text-indent: 48pt; mso-char-indent-count: 4.0000; mso-line-height-rule: exactly;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman";'><font face="宋体">评标办法：</font></span></b><span style='font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman";'><font face="宋体">综合评分法</font></span><span style='font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-hansi-font-family: "Times New Roman"; mso-bidi-font-family: "Times New Roman";'></span></p>
+<p class="MsoNormal" style="text-align: left; line-height: 28pt; text-indent: 48pt; mso-char-indent-count: 4.0000; mso-line-height-rule: exactly;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-bidi-font-family: "Times New Roman";'><font face="宋体">招标内容：</font></span></b><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>CT、核磁共振、DR 、彩超、心电图设备、24小时动态心电图、全自动生化仪、全自动血球分析仪、尿液分析仪、电解质、血压计、听诊器、护理治疗车、急救推车、输液车、换药车、手术床、麻醉呼吸机、心电监护仪、除颤仪、手术使用电刀、双摇病床、 ABS床头柜、检查床、单摇病床、医生值班床、50位病历推车、6门更衣柜、大小轮担架推车、办公桌、椅子、输液椅、病房储物柜、住院病历一览表、观片灯（双）、观片灯（单）、候诊椅、文件柜、器械柜、轮椅等。</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="text-align: left; line-height: 28pt; text-indent: 48pt; mso-char-indent-count: 4.0000; mso-line-height-rule: exactly;"><b><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">（具体参数详见《招标文件》）</font></span></b><b><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></b></p>
+<p class="MsoNormal" style="line-height: 28pt; text-indent: 24pt; mso-char-indent-count: 2.0000; mso-line-height-rule: exactly;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'><font face="宋体">三、供应商资格要求：</font></span></b><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'></span></b></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>1、</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">符合《中华人民共和国政府采购法》第二十二条相关规定；</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>2、提供三证合一营业执照副本或营业执照、组织机构代码证、税务登记证副本；（复印件）</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>3、</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">法定代表人身份证（复印件）。</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>4、</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">法定代表人授权函（原件）及被授权人身份证（复印件）。</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>5、</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">若投标人为供应商，须出具制造商针对本项目的授权证明文件原件。</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>6、</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">具有</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">所投项目的</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">生产或经营许可证。</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>7、</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">提供财务审计报告，依法缴纳税收和社会保障资金的相关材料；</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>8</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">、</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">提供</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">检察机关出具的近三年内有无行贿犯罪档案记录的告知函（原件装入正本）。</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>9、本项目</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">不接受联合体招标；</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>10、报名时需携带以上证件的复印件并加盖公章；</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal" style="background: rgb(255, 255, 255); line-height: 28pt; text-indent: 24pt; -ms-layout-grid-mode: char; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; mso-line-height-rule: exactly;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt; mso-hansi-font-family: "Times New Roman"; mso-bidi-font-family: "Times New Roman"; mso-ascii-font-family: "Times New Roman";'><font face="宋体">注：开标时原件带至开标现场备查。</font></span></b><b><span style='font-family: "Times New Roman"; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;'></span></b></p>
+<p align="justify" class="p" style="margin: 0pt; text-align: justify; line-height: 25pt; text-indent: 18pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'><font face="宋体">四、获取招标文件：</font></span></b><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'></span></b></p>
+<p align="justify" class="p" style="margin: 0pt 0pt 0pt 18pt; text-align: justify; line-height: 25pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">招标文件发售时间：</font>2016年12月30日-2017年1月6日（节假日除外）</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt 0pt 0pt 18pt; text-align: justify; line-height: 25pt; text-indent: 18pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">上午</font>9：00-12：00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下午14：30-16：30</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt 0pt 0pt 15.8pt; text-align: justify; line-height: 25pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">招标文件发售地点：兰州市城关区甘南路</font>39号商务宾馆写字楼四楼（兰州正泽招投标代理有限公司）</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt 0pt 0pt 18pt; text-align: justify; line-height: 25pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">招标文件售价：人民币</font>1000元/包。</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt; text-align: justify; line-height: 25pt; text-indent: 18pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'><font face="宋体">五、递交投标文件：</font></span></b><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'></span></b></p>
+<p align="justify" class="p" style="margin: 0pt; text-align: justify; line-height: 25pt; text-indent: 18pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">递交时间：</font>2017年1月19日上午9:30之前，逾期不予受理。</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt 0pt 0pt 78pt; text-align: justify; line-height: 25pt; text-indent: -60pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">递交地点：兰州市城关区甘南路</font>39号商务宾馆写字楼四楼</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt 0pt 0pt 78pt; text-align: justify; line-height: 25pt; text-indent: -60pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'><font face="宋体">六、开标时间：</font></span></b><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>2017年1月19日上午9:30</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt 0pt 0pt 20.3pt; text-align: justify; line-height: 25pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">开标地点：兰州市城关区甘南路</font>39号商务宾馆写字楼四楼</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt; text-align: justify; line-height: 25pt; text-indent: 18pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><b><span style='font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: "yes"; mso-font-kerning: 1.0000pt;'><font face="宋体">七、联系人：</font></span></b><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">张军宏</font> <font face="宋体">杨景霞</font></span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt; text-align: justify; line-height: 25pt; text-indent: 24pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">联系电话：</font>18919013387</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt; text-align: justify; line-height: 25pt; text-indent: 24pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'><font face="宋体">邮箱：</font>596794935@qq.com</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt; text-align: justify; line-height: 25pt; text-indent: 18pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>&nbsp;</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="justify" class="p" style="margin: 0pt; text-align: justify; line-height: 25pt; text-indent: 18pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>&nbsp;</span></p>
+<p align="right" class="p" style="margin: 0pt; text-align: right; line-height: 25pt; text-indent: 18pt; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>&nbsp;&nbsp;&nbsp; 兰州正泽招投标代理有限公司</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p align="right" class="p" style="margin: 0pt; text-align: right; mso-pagination: widow-orphan;"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 二○一六年十二月三十日</span><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'></span></p>
+<p class="MsoNormal"><span style='background: rgb(255, 255, 255); font-family: 宋体; font-size: 12pt; mso-spacerun: "yes"; mso-font-kerning: 0.0000pt; mso-shading: rgb(255, 255, 255);'>&nbsp;</span></p></div>
+<div class="clear"></div>
+<div class="xxnr">
+
+</div>
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+<a class="jiathis_button_qzone"></a>
+<a class="jiathis_button_tsina"></a>
+<a class="jiathis_button_tqq"></a>
+<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_renren"></a>
+<a class="jiathis_button_xiaoyou"></a>
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+<a class="jiathis_counter_style"></a>
+</div>
+<!-- JiaThis Button END -->
+</div>
+<div class="xxnr" style="height:26px;">
+<span  class="fl">上一篇：
+<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152808.html" title="酒泉市公安消防支队锅炉及附属设备采购及安装项目询价采购公告">酒泉市公安消防支队锅炉及附属设备...</a>
+</span> <span class="fr">下一篇：
+<a href="http://www.gsei.com.cn/html/1336/2016-12-30/content-152806.html" title="兰州电机股份有限公司入园新区搬迁项目“数控卧式车床采购及安装”招标公告（第二次）">兰州电机股份有限公司入园新区搬迁...</a>
+</span>
+</div>
+</div>
+<script type="text/javascript" src="http://www.gsei.com.cn/index.php/cms/item-count?id=152807"></script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://www.gsei.com.cn/ueditor/ueditor.parse.min.js"></script>
+<script type="text/javascript">uParse('#p8_content_show', {rootPath: '/ueditor/'});</script>
+<div class="clear"></div></div>
+<div id="footer">
+
+<div class="foot">
+<div class="foot_nav"></div>   
+<ul class="f2" style="text-align:center;float:left;margin-left:250px;">
+<li>主办单位：甘肃省经济研究院（甘肃省信息中心） 维护单位：国家信息系统兰州培训中心</li>
+<li>地址：甘肃省兰州市庆阳路60号信息大厦4层 电话：0931-8800212</li>
+<li>备案编号：陇ICP备05000182 互联网新闻信息服务许可证：（甘新办）6201014</li>
+<li> <a href="http://www.12377.cn/" target="_blank" title="" style="text-decoration:none;"><img width="400" height="40" border="none" alt="" src="http://www.gsei.com.cn/attachment/core/label/2016_11/29_16/604dda9c7faa2d98.jpg" /></a> <a href="#" target="_blank" title="" style="text-decoration:none;"><img width="200" height="40" border="none" alt="" src="http://www.gsei.com.cn/attachment/core/label/2016_11/29_15/db342435d2a9b811.jpg" /></a> </li>     
+<div id="footer_login" style="text-align:center;margin-top:10px;"><script type="text/javascript" src="http://www.gsei.com.cn/u.php/member-login?style=admin_main&id=footer_login"></script></div>
+</ul>
+<div class="foot_img">
+<div class="tp"><a href="#" target="_blank" title="" style="text-decoration:none;"><img width="100" height="100" border="none" alt="" src="http://www.gsei.com.cn/attachment/core/label/2016_05/31_11/c26509e2eb474cf0.png" /></a></div>
+<p>手机版</p>
+</div>
+<div class="foot_img">
+<div class="tp"><a href="#" target="_blank" title="" style="text-decoration:none;"><img width="100" height="100" border="none" alt="" src="http://www.gsei.com.cn/attachment/core/label/2016_05/31_11/d4820ab27eec6de7.png" /></a></div>
+<p>微信公众号</p>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

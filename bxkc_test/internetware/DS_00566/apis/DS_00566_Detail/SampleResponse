@@ -1,0 +1,231 @@
+
+
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="Keywords" content="通辽，通辽市，公共资源交易中心，通辽市公共资源交易中心，交易网，公共资源交易网，通辽市公共资源交易网，通辽市招标公告，通辽市招标中心，通辽市中标公示，通辽市结果公示，通辽市政府采购，通辽市建设工程，通辽市国土资源，通辽市国土资源交易，通辽市矿业权交易，通辽市产权交易,通辽市招投标中心，通辽市交易信息，通辽市旗县交易信息，奈曼旗，霍林郭勒，科尔沁区">
+<meta name="description" content="通辽市公共资源交易中心" />
+<meta name='Generator' content='通辽市公共资源交易中心'>
+<meta name='Author' content='通辽市公共资源交易中心'>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta http-equiv="X-UA-Compatible" content="IE=8,IE=9,IE=10,IE=11"/>
+<title>通辽市公共资源交易中心</title>
+<link href="http://ggzy.tlzw.gov.cn:80/web/style/global.css" rel="stylesheet" type="text/css" />
+<link href="http://ggzy.tlzw.gov.cn:80/web/style/style.css" type="text/css" rel="stylesheet"/>
+<link href="http://ggzy.tlzw.gov.cn:80/web/style/custom.css" type="text/css" rel="stylesheet"/>
+</head>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/web/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/js/layer-v1.9.3/layer/layer.js"></script>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/web/js/scroll.js"></script>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/js/common.js"></script>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/js/zDialog/zDialog.js"></script>
+<script type="text/javascript">
+	$(function(){	
+		$('.openin').myScroll({
+			speed: 40, //数值越大，速度越慢
+			rowHeight: 24 //li的高度
+		});
+
+	});
+	
+	function doSubmit(){
+		$("#q").val($.trim($("#q").val()));
+		if( $("#q").val() ){
+			common.loading();
+			$("#p").val("1");
+			$("#search-form").submit();
+		} else {
+			layer.config({extend:'skin/moon/style.css'});
+			layer.alert('请输入要检索的关键字!', {
+			    icon: 1,
+			    skin: 'layer-ext-moon' ,
+			    shade: false,
+			    offset: ['100px']
+			}, function(index){
+			    jQuery('#q').focus();
+			    layer.close(index);
+			})
+		}
+	}
+</script>
+<body>
+<!--header_banner  Start-->
+<div class="header_banner">
+  <div class="top-navbox">
+    <div class="content">
+      <div class="whtime">您好，欢迎来到通辽市公共资源交易中心！今天是：<span id="nowTime"><!-- 2018年03月29日   星期四--> <!-- liulx 2015年9月28日09:53:48 -->
+	  	<script language=JavaScript>
+			var today = new Date();
+			function initArray(){
+			this.length=initArray.arguments.length
+			for(var i=0;i<this.length;i++)
+			this[i+1]=initArray.arguments[i] }
+			var d=new initArray(
+				"星期日",
+				"星期一",
+				"星期二",
+				"星期三",
+				"星期四",
+				"星期五",
+				"星期六");
+			document.write(
+				today.getFullYear(),"年",
+				today.getMonth()+1,"月",
+				today.getDate(),"日&nbsp;",
+				d[today.getDay()+1]
+			); 
+		</script>
+	  </span></div>
+        <div class="whsearch">
+        	<form action="stationSearch.action" method="get" id="search-form">
+	      		<input type="text" name="q" id="q" placeholder="请输入关键字" class="topsebox" value=""> 
+				<input type="button" class="Search_but" name="" value="搜 索" onclick="doSubmit()">
+				<input id="p" name="p" type="hidden" value="" />
+				<input type="hidden" name="columnId" value="402881ee4debedd8014debf8d0570004">
+			</form>
+		</div>
+    </div>
+    
+    <div class="content banner-back">
+        <div class="logo"><a href=""><img src="http://ggzy.tlzw.gov.cn:80/web/images/logo.png"></a></div>
+    </div>
+    
+  </div>
+</div>
+<!--header_banner  End-->
+
+<!--nav_box  Start-->
+<div class="nav_box">
+	<div id="nav-menu">
+		<ul class="menu"><li class="stmenu" id="402881ee4debedd8014debf8d0570004"><h3><a href="indexPage.action?columnId=402881ee4debedd8014debf8d0570004" class="xialaguang" target="_self" onclick="common.loading()"><span>首页</span></a></h3></li><li class="stmenu" id="402881ee4debedd8014debf8d0570005"><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570005" class="xialaguang" target="_self" onclick="common.loading()"><span>机构设置</span></a></h3></li><li class="stmenu" id="402881ee4debedd8014debf8d0570006"><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=402881ee4debedd8014debf8d0580001" class="xialaguang" target="_self" onclick="common.loading()"><span>政策法规</span></a></h3><ul class="children"><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=402881ee4debedd8014debf8d0580001" target="_blank"><span>法律法规</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=402881ee4debedd8014debf8d0580002" target="_blank"><span>内蒙古自治区文件</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=8a955d604e23cd61014e247869980003" target="_self"><span>通辽市文件</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=8a955d604e23cd61014e2478abe50004" target="_self"><span>中心制度</span></a></h3></li></ul></li><li class="stmenu" id="402881ee4debedd8014debf8d0570007"><h3><a href="initWebBussTimerList.action?serviceType=1&noticeType=1&columnId=402881ee4debedd8014debf8d0570007&childColumn=8a955d604e519b03014e754accc00020" class="xialaguang" target="_self" onclick="common.loading()"><span>交易信息</span></a></h3><ul class="children"><li><h3><a href="initWebBussTimerList.action?serviceType=1&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>房建基础设施工程</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=2&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>农牧林水工程</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=3&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>政府采购</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=4&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>土地出让</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=5&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>矿业权出让</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=6&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>交通工程</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=7&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>产权交易</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=8&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>特许经营权交易</span></a></h3></li></ul></li><li class="stmenu" id="402881ee4debedd8014debf8d0570008"><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d45aa50031" class="xialaguang" target="_self" onclick="common.loading()"><span>办事指南</span></a></h3><ul class="children"><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d45aa50031" target="_blank"><span>综合指南</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d4a0b90033" target="_blank"><span>工程建设</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d4d7c00035" target="_blank"><span>政府采购</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d531b10037" target="_blank"><span>土地矿业权出让</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d5834a0039" target="_blank"><span>产权交易</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d5d198003b" target="_blank"><span>评标专家</span></a></h3></li></ul></li><li class="stmenu" id="402881ee4debedd8014debf8d0570011"><h3><a href="initCreditPlatform.action?identity=402881c23ec4abc3013ec4c77819000c&columnId=402881ee4debedd8014debf8d0570011" class="xialaguang" target="_self" onclick="common.loading()"><span>企业信息</span></a></h3></li><li class="stmenu" id="402881ee4debedd8014debf8d0570009"><h3><a href="fileDownLoadList.action?columnId=402881ee4debedd8014debf8d0570009&childColumn=8a955d60527777f101535509cf1a0094" class="xialaguang" target="_self" onclick="common.loading()"><span>下载中心</span></a></h3><ul class="children"><li><h3><a href="fileDownLoadList.action?columnId=402881ee4debedd8014debf8d0570009&childColumn=8a955d60527777f101535509cf1a0094" target="_self"><span>综合类</span></a></h3></li><li><h3><a href="fileDownLoadList.action?columnId=402881ee4debedd8014debf8d0570009&childColumn=8a955d60527777f101535509a8770092" target="_self"><span>建设工程类</span></a></h3></li><li><h3><a href="fileDownLoadList.action?columnId=402881ee4debedd8014debf8d0570009&childColumn=8a955d60527777f1015355097d810090" target="_self"><span>政府采购类</span></a></h3></li></ul></li><li class="stmenu" id="402881ee4debedd8014debf8d0570010"><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570010" class="xialaguang" target="_self" onclick="common.loading()"><span>曝光台</span></a></h3></li></ul>
+	</div>
+    <script type="text/javascript">
+
+		var columnId = '';
+		$(".menu li ").each(function(){
+			$(this).removeClass("active");
+		});
+		if(columnId !=null&&columnId !=""){
+		 $("#" + columnId).addClass("active");
+		}
+
+</script>
+</div>
+
+
+<!--nav_box  End-->
+<link href="http://ggzy.tlzw.gov.cn:80/web/style/global.css" rel="stylesheet" type="text/css" />
+<link href="http://ggzy.tlzw.gov.cn:80/web/style/style.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/js/ueditor/ueditor.look.js"></script>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/js/ueditor/ueditor.all.js"></script>
+
+<!--页面主体模块  Start-->
+<div class="content warp_top10">
+	<div class="infositbox">
+		您的当前位置：<a href="indexPage.action">首页</a><span>></span>
+					<a style="text-decoration: none;">
+						房建基础设施工程
+					</a><span>></span>
+					<a style="text-decoration: none;color: #F69D02;">
+						
+							招标公告
+						
+						
+					</a>
+	</div>
+	<!--右边列表模块  Start-->
+	<div class="news-warp">
+		<div class="bhd">
+			<h2>内蒙古民族大学附属医院病理中心楼扩建工程监理招标公告(TG2018A090007)</h2>
+			<dl>
+				<span>发布时间：2018-03-27</span>
+
+				<span onclick="printContent();" style="cursor: pointer;">【打印】</span>
+				<span onclick="common.closePage();" style="cursor: pointer;">【关闭】</span>
+			</dl>
+		</div>
+		<div class="Nscrollbar" id="myUEditor">
+			<textarea id="tempContent" style="margin: 0 auto;width: 85%;"><p> </p><table width="800" align="center" id="_Sheet2" cellspacing="0" cellpadding="0" uetable="null" offsetval="0"><tbody><tr height="39" class="firstRow" style="margin: 0px; padding: 0px; outline: 0px;"><td width="50" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;">一、</td><td width="631" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;" colspan="2">招标条件</td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td width="43" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="631" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2"><p style="margin: 0px; padding: 0px; outline: 0px; text-align: left;"><span style="margin: 0px; padding: 0px; outline: 0px;"></span><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;"></span></p><p style="outline: 0px;"><span style="margin: 0px; padding: 0px; outline: 0px;">本招标项目</span><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;">内蒙古民族大学附属医院病理中心楼扩建工程监理</span><span style="margin: 0px; padding: 0px; outline: 0px;">已由</span><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;"><span style="margin: 0px; padding: 0px; outline: 0px;">通辽市发展和改革委员会</span></span><span style="margin: 0px; padding: 0px; outline: 0px;">以<span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;"><span style="margin: 0px; padding: 0px; outline: 0px;"><span style="margin: 0px; padding: 0px; outline: 0px;">通发改审批字【2017】176号</span></span></span>批准建设，招标人为<span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;"><span style="margin: 0px; padding: 0px; outline: 0px;">内蒙古民族大学附属医院</span><span style="margin: 0px; padding: 0px; outline: 0px;"></span></span><span style="margin: 0px; padding: 0px; outline: 0px;">，建设资金来自<strong><span style="text-decoration: underline;">自筹</span></strong></span></span><span style="margin: 0px; padding: 0px; outline: 0px;">，项目出资比例为</span><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;">自筹367100元，政府投资0元</span><span style="margin: 0px; padding: 0px; outline: 0px;">。项目已具备招标条件，现对该项目</span><span style="margin: 0px; padding: 0px; outline: 0px;">进行公开招标。</span></p><p style="margin: 0px; padding: 0px; outline: 0px; text-align: left;"><span style="margin: 0px; padding: 0px; outline: 0px;"></span></p></td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td width="43" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;">二、</td><td width="631" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;" colspan="2">项目概况与招标范围</td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td width="43" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="631" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2">（一）项目名称： 内蒙古民族大学附属医院病理中心楼扩建工程监理</td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td width="43" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="631" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2">（二）建设地点： 内蒙古民族大学附属医院院内病房楼北侧</td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td width="43" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="631" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2">（三）招标内容： </td></tr></tbody></table><p></p><table width="800" align="center" uetable="null"><tbody><tr class="firstRow"><td width="157" align="center" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">标段编号</span></td><td width="161" align="center" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">标段名称</span></td><td width="124" align="center" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">企业资质要求</span></td><td width="143" align="center" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">人员资质要求</span></td><td width="58" align="center" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">工期</span></td><td width="156" align="center" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">合同估算价</span></td></tr><tr><td width="157" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">TG2018A090007001</span></td><td width="161" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">内蒙古民族大学附属医院病理中心楼扩建工程监理</span></td><td width="124" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">[房屋建筑工程丙级（含）以上]</span></td><td width="143" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">[房屋建筑工程]</span></td><td width="58" valign="top" style="border-color: rgb(0, 0, 0);"><br/></td><td width="156" valign="top" style="border-color: rgb(0, 0, 0);"><span style="font-size: 12px;">318022元</span></td></tr><tr><td valign="top" style="border-color: rgb(0, 0, 0);" colspan="6"><span style="font-size: 12px;">内蒙古民族大学附属医院病理中心楼扩建工程施工准备阶段、施工阶段、竣工决算（决算）阶段以及缺陷责任期（保修期）全过程监理服务</span></td></tr></tbody></table><p></p><table width="800" align="center" id="_Sheet2" cellspacing="0" cellpadding="0" uetable="null" offsetval="0" data-sort="sortDisabled"><tbody style="margin: 0px; padding: 0px; outline: 0px;"><tr height="25" class="firstRow" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;">三、</td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;" colspan="2">投标人资格要求</td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2"><p></p><p>1. 本次招标不接受联合体投标。</p><p></p></td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" dir="ltr" rowspan="1" colspan="2">2.其他要求：<p style="margin: 0px; padding: 0px; outline: 0px; text-align: left;"><span style="margin: 0px; padding: 0px; outline: 0px;"></span><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;">（1）本次招标要求投标人须具有独立法人资格，具备住房与城乡建设主管部门颁发的房屋建筑工程丙级（含）以上监理资质，并在人员、设备、资金等方面具有相应的能力；
+（2）拟派总监理工程师要求具有房屋建筑工程专业国家级注册监理工程师资格，并且拟派监理工程师注册证书的注册单位名称必须与投标报名单位名称一致；
+（3）投标人须具有已完类似项目的监理工程业绩。
+（4）在最近三年内未发生重大监理质量问题；
+（5）未被工商行政管理机关在全国企业信用信息公示系统中列入严重违法失信企业名单；
+（6）未被最高人民法院在“信用中国”网站（www.creditchina.gov.cn）或各级信用信息共享平台中列入失信被执行人名单；
+（7）在近三年内投标人或其法定代表人、拟委任的总监理工程师无行贿犯罪行为（以项目所在地或企业注册地检察机关职务犯罪预防部门出具的查询结果为准）；
+（8）根据《通辽市建筑市场诚信行为信息管理办法》（通住建发〔2017〕275号）文件规定，对被记录不良行为并经公示的建筑市场信用主体，在公示期限内，招标人可以拒绝其参加投标（公示以通辽住房和城乡建设委员会网站发布为准）。</span></p></td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;">四、</td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;" colspan="2">公告发布媒体</td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2"><p></p><p><span style="font: 15px/28px "Pingfang SC", STHeiti, "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif; text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; float: none; display: inline !important; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(244, 244, 244); -webkit-text-stroke-width: 0px;">（一）中国采购与招标网 网址：http://www.chinabidding.com.cn/zbw/index.jsp</span></p><p></p><p><span style="font: 15px/28px "Pingfang SC", STHeiti, "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif; text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; float: none; display: inline !important; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(244, 244, 244); -webkit-text-stroke-width: 0px;">（二）通辽市公共资源交易网 网址：http://ggzy.tlzw.net</span></p><p></p></td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;">五、</td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;" colspan="2">投标报名</td></tr><tr height="28" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2">（一）报名网址：通辽市公共资源交易网 网址：<a style="font: 20px/26px 宋体, SimSun; margin: 0px; padding: 0px; text-align: left; color: rgb(51, 51, 51); text-transform: none; text-indent: 26px; letter-spacing: normal; text-decoration: none; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;" href="http://www.tlzw.net/"></a><a href="http://ggzy.tlzw.gov.cn">http://ggzy.tlzw.gov.cn</a></td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2"><p style="margin: 0px; padding: 0px; outline: 0px; text-align: left;">（二）报名时间：<span style="text-decoration: underline;"><strong><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;">2018年03月27日 08:00:00</span></strong></span>至<span style="text-decoration: underline;"><strong><span style="text-decoration: underline;"><strong><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;">2018年03月31日 17:30:00</span></strong></span></strong></span>（北京时间），逾期不予受理。</p></td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2">（三）报名方式：采用网上报名。</td></tr><tr height="62" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2"><p style="text-align: left;">注：已进入通辽市公共资源诚信信息库的企业可在业务系统内进行网上投标报名，没有入库的企业须办理入库手续方可报名。投标报名以业务系统网上报名成功为准。</p></td></tr><tr height="85" style="margin: 0px; padding: 0px; outline: 0px;"><td height="67" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" height="67" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2">（四）通辽市公共资源交易诚信信息库办理地址：通辽市政务服务中心和公共资源交易中心二楼，办公时间为周一至周五上午 8:30— 11:30时，下午 2:30— 5:30时。</td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;">六、</td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;" colspan="2">资格审查</td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2"><p></p><p>（一）审查方式：资格后审，即在开标后评标委员会按照招标文件规定的标准和方法对投标人的资格进行审查。<br style="margin: 0px; padding: 0px; text-align: left;"/>（二）审查时间：开标后由评标委员会进行审核。<br style="margin: 0px; padding: 0px; text-align: left;"/>（三）审查地点：通辽市公共资源交易中心。<br style="margin: 0px; padding: 0px; text-align: left;"/></p></td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;">七、</td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;" colspan="2">招标文件的获取</td></tr><tr height="30" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2"><p style="margin: 0px; padding: 0px; outline: 0px; text-align: left;"><span style="margin: 0px; outline: 0px; padding-top: 0px; padding-right: 0px; padding-left: 0px; text-decoration: none;"></span>（一）时间<span style="text-decoration: underline;"><strong><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;"><span style="text-decoration: underline;"><strong><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;"><span style="text-decoration: underline;"><strong><span style="text-decoration: underline;"><strong><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;">2018年03月27日 08:00:00</span></strong></span></strong></span></span></strong></span></span></strong></span>至<span style="text-decoration: underline;"><strong><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;"><span style="text-decoration: underline;"><strong><span style="text-decoration: underline;"><strong><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;">2018年03月31日 17:30:00</span></strong></span></strong></span></span></strong></span>（北京时间）。</p></td></tr><tr height="62" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2">（二）招标文件购买方式：在通辽市公共资源网上交易系统通过在线支付招标文件费用后，方可下载电子招标文件,图纸文件的领取方式详见招标文件下载页面。</td></tr><tr height="30" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2"><p style="margin: 0px; padding: 0px; outline: 0px; text-align: left;"><span style="margin: 0px; padding: 0px; outline: 0px;">（三）售价：</span><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;">500元。</span></p></td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;">八、</td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;" colspan="2">其他说明</td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;" colspan="2"><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;"></span></td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;">九、</td><td width="740" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; font-weight: bold;" colspan="2">联系方式</td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="416" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">招 标 人：内蒙古民族大学附属医院<span style="margin: 0px; padding: 0px; outline: 0px; font-weight: bold; text-decoration: underline;"><span style="margin: 0px; padding: 0px; outline: 0px;"></span></span></td><td width="317" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">招标代理机构： 河南创达建设工程管理有限公司</td></tr><tr style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="416" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">地 址： 通辽市</td><td width="318" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">地 址： 郑州市中原区冉屯北路9号中机工程大厦B座7层和9层</td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="416" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">邮 编： </td><td width="319" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">邮 编： 450000</td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="416" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">联 系 人： 张大伟</td><td width="319" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">联 系 人： 吴晗</td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="416" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">电 话： 13904752518</td><td width="319" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">电 话： 15548088222</td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="416" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">传 真： </td><td width="319" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">传 真： </td></tr><tr height="25" style="margin: 0px; padding: 0px; outline: 0px;"><td style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;"><br/></td><td width="416" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">电 子 邮 件： </td><td width="319" style="margin: 0px; padding: 2px; outline: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left;">电 子 邮 件： </td></tr></tbody></table><p style="text-align: left;"> </p><p> </p><p> </p><p> </p><p> </p><p> </p></textarea>
+			<script type="text/javascript">
+				var editor_a1;
+				jQuery(function(){
+					editor_a1 = UE.getEditor('tempContent', {
+						initialFrameWidth : '100%',
+						initialFrameHeight : 350,
+						readonly : true
+					});
+					editor_a1.ready(function(){//修复表格边框不显示问题 by zhujj 20160125
+						var html = editor_a1.getContent();
+						html = html.replace(/0.5pt/g,'1px');
+						editor_a1.setContent(html);
+					});
+				});
+			</script>
+			<div>
+				
+				
+				
+				
+				
+			</div>
+			
+				<div style="width: 100%;text-align:center;">
+					<a href="http://www.tlzw.gov.cn:8084/" target="_blank"><img alt="" src="./web/images/bm.png"/></a>
+				</div>
+			
+		</div>
+		
+
+	</div>
+	<!--右边列表模块  End-->
+</div>
+<!--页面主体模块  End-->
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+
+<!--footer  Start-->
+<div class="footer"> 
+ 
+  <div class="footer-box">
+       <div class="content">
+       		<div class="dlma">通辽市政务服务中心版权所有 蒙ICP备16004556号</div>
+       		<div class="dlma">地址：通辽市科尔沁区胜利路北段科尔沁体育中心北侧 邮编：028000</div>
+            <div class="dlma">技术支持服务：上海卓繁信息技术股份有限公司</div>
+            <div class="dlma">本网站所刊登的新闻﹑信息和各种专题专栏资料， 未经协议授权，禁止下载使用。</div>
+       </div>
+    
+    
+  </div>
+</div>
+<!--footer  End-->
+<!--下拉菜单  Start-->
+<script type="text/javascript">
+	$('#nav-menu .menu > li').hover(function(){
+		$(this).find('.children').animate({ opacity:'show', height:'show' },200);
+		$(this).find('.xialaguang').addClass('navhover');
+	}, function() {
+		$('.children').stop(true,true).hide();
+		$('.xialaguang').removeClass('navhover');
+	});
+</script>
+<!--下拉菜单  End-->
+</body>
+</html>

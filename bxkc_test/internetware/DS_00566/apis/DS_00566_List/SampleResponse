@@ -1,0 +1,595 @@
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="Keywords" content="通辽，通辽市，公共资源交易中心，通辽市公共资源交易中心，交易网，公共资源交易网，通辽市公共资源交易网，通辽市招标公告，通辽市招标中心，通辽市中标公示，通辽市结果公示，通辽市政府采购，通辽市建设工程，通辽市国土资源，通辽市国土资源交易，通辽市矿业权交易，通辽市产权交易,通辽市招投标中心，通辽市交易信息，通辽市旗县交易信息，奈曼旗，霍林郭勒，科尔沁区">
+<meta name="description" content="通辽市公共资源交易中心" />
+<meta name='Generator' content='通辽市公共资源交易中心'>
+<meta name='Author' content='通辽市公共资源交易中心'>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta http-equiv="X-UA-Compatible" content="IE=8,IE=9,IE=10,IE=11"/>
+<title>通辽市公共资源交易中心</title>
+<link href="http://ggzy.tlzw.gov.cn:80/web/style/global.css" rel="stylesheet" type="text/css" />
+<link href="http://ggzy.tlzw.gov.cn:80/web/style/style.css" type="text/css" rel="stylesheet"/>
+<link href="http://ggzy.tlzw.gov.cn:80/web/style/custom.css" type="text/css" rel="stylesheet"/>
+</head>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/web/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/js/layer-v1.9.3/layer/layer.js"></script>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/web/js/scroll.js"></script>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/js/common.js"></script>
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/js/zDialog/zDialog.js"></script>
+<script type="text/javascript">
+	$(function(){	
+		$('.openin').myScroll({
+			speed: 40, //数值越大，速度越慢
+			rowHeight: 24 //li的高度
+		});
+
+	});
+	
+	function doSubmit(){
+		$("#q").val($.trim($("#q").val()));
+		if( $("#q").val() ){
+			common.loading();
+			$("#p").val("1");
+			$("#search-form").submit();
+		} else {
+			layer.config({extend:'skin/moon/style.css'});
+			layer.alert('请输入要检索的关键字!', {
+			    icon: 1,
+			    skin: 'layer-ext-moon' ,
+			    shade: false,
+			    offset: ['100px']
+			}, function(index){
+			    jQuery('#q').focus();
+			    layer.close(index);
+			})
+		}
+	}
+</script>
+<body>
+<!--header_banner  Start-->
+<div class="header_banner">
+  <div class="top-navbox">
+    <div class="content">
+      <div class="whtime">您好，欢迎来到通辽市公共资源交易中心！今天是：<span id="nowTime"><!-- 2018年03月29日   星期四--> <!-- liulx 2015年9月28日09:53:48 -->
+	  	<script language=JavaScript>
+			var today = new Date();
+			function initArray(){
+			this.length=initArray.arguments.length
+			for(var i=0;i<this.length;i++)
+			this[i+1]=initArray.arguments[i] }
+			var d=new initArray(
+				"星期日",
+				"星期一",
+				"星期二",
+				"星期三",
+				"星期四",
+				"星期五",
+				"星期六");
+			document.write(
+				today.getFullYear(),"年",
+				today.getMonth()+1,"月",
+				today.getDate(),"日&nbsp;",
+				d[today.getDay()+1]
+			); 
+		</script>
+	  </span></div>
+        <div class="whsearch">
+        	<form action="stationSearch.action" method="get" id="search-form">
+	      		<input type="text" name="q" id="q" placeholder="请输入关键字" class="topsebox" value=""> 
+				<input type="button" class="Search_but" name="" value="搜 索" onclick="doSubmit()">
+				<input id="p" name="p" type="hidden" value="" />
+				<input type="hidden" name="columnId" value="402881ee4debedd8014debf8d0570004">
+			</form>
+		</div>
+    </div>
+    
+    <div class="content banner-back">
+        <div class="logo"><a href=""><img src="http://ggzy.tlzw.gov.cn:80/web/images/logo.png"></a></div>
+    </div>
+    
+  </div>
+</div>
+<!--header_banner  End-->
+
+<!--nav_box  Start-->
+<div class="nav_box">
+	<div id="nav-menu">
+		<ul class="menu"><li class="stmenu" id="402881ee4debedd8014debf8d0570004"><h3><a href="indexPage.action?columnId=402881ee4debedd8014debf8d0570004" class="xialaguang" target="_self" onclick="common.loading()"><span>首页</span></a></h3></li><li class="stmenu" id="402881ee4debedd8014debf8d0570005"><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570005" class="xialaguang" target="_self" onclick="common.loading()"><span>机构设置</span></a></h3></li><li class="stmenu" id="402881ee4debedd8014debf8d0570006"><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=402881ee4debedd8014debf8d0580001" class="xialaguang" target="_self" onclick="common.loading()"><span>政策法规</span></a></h3><ul class="children"><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=402881ee4debedd8014debf8d0580001" target="_blank"><span>法律法规</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=402881ee4debedd8014debf8d0580002" target="_blank"><span>内蒙古自治区文件</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=8a955d604e23cd61014e247869980003" target="_self"><span>通辽市文件</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570006&childColumn=8a955d604e23cd61014e2478abe50004" target="_self"><span>中心制度</span></a></h3></li></ul></li><li class="stmenu" id="402881ee4debedd8014debf8d0570007"><h3><a href="initWebBussTimerList.action?serviceType=1&noticeType=1&columnId=402881ee4debedd8014debf8d0570007&childColumn=8a955d604e519b03014e754accc00020" class="xialaguang" target="_self" onclick="common.loading()"><span>交易信息</span></a></h3><ul class="children"><li><h3><a href="initWebBussTimerList.action?serviceType=1&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>房建基础设施工程</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=2&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>农牧林水工程</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=3&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>政府采购</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=4&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>土地出让</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=5&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>矿业权出让</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=6&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>交通工程</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=7&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>产权交易</span></a></h3></li><li><h3><a href="initWebBussTimerList.action?serviceType=8&noticeType=1&columnId=402881ee4debedd8014debf8d0570007" target="_blank"><span>特许经营权交易</span></a></h3></li></ul></li><li class="stmenu" id="402881ee4debedd8014debf8d0570008"><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d45aa50031" class="xialaguang" target="_self" onclick="common.loading()"><span>办事指南</span></a></h3><ul class="children"><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d45aa50031" target="_blank"><span>综合指南</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d4a0b90033" target="_blank"><span>工程建设</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d4d7c00035" target="_blank"><span>政府采购</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d531b10037" target="_blank"><span>土地矿业权出让</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d5834a0039" target="_blank"><span>产权交易</span></a></h3></li><li><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570008&childColumn=8a955d604e519b03014e75d5d198003b" target="_blank"><span>评标专家</span></a></h3></li></ul></li><li class="stmenu" id="402881ee4debedd8014debf8d0570011"><h3><a href="initCreditPlatform.action?identity=402881c23ec4abc3013ec4c77819000c&columnId=402881ee4debedd8014debf8d0570011" class="xialaguang" target="_self" onclick="common.loading()"><span>企业信息</span></a></h3></li><li class="stmenu" id="402881ee4debedd8014debf8d0570009"><h3><a href="fileDownLoadList.action?columnId=402881ee4debedd8014debf8d0570009&childColumn=8a955d60527777f101535509cf1a0094" class="xialaguang" target="_self" onclick="common.loading()"><span>下载中心</span></a></h3><ul class="children"><li><h3><a href="fileDownLoadList.action?columnId=402881ee4debedd8014debf8d0570009&childColumn=8a955d60527777f101535509cf1a0094" target="_self"><span>综合类</span></a></h3></li><li><h3><a href="fileDownLoadList.action?columnId=402881ee4debedd8014debf8d0570009&childColumn=8a955d60527777f101535509a8770092" target="_self"><span>建设工程类</span></a></h3></li><li><h3><a href="fileDownLoadList.action?columnId=402881ee4debedd8014debf8d0570009&childColumn=8a955d60527777f1015355097d810090" target="_self"><span>政府采购类</span></a></h3></li></ul></li><li class="stmenu" id="402881ee4debedd8014debf8d0570010"><h3><a href="publicIndexList.action?columnId=402881ee4debedd8014debf8d0570010" class="xialaguang" target="_self" onclick="common.loading()"><span>曝光台</span></a></h3></li></ul>
+	</div>
+    <script type="text/javascript">
+
+		var columnId = '402881ee4debedd8014debf8d0570007';
+		$(".menu li ").each(function(){
+			$(this).removeClass("active");
+		});
+		if(columnId !=null&&columnId !=""){
+		 $("#" + columnId).addClass("active");
+		}
+
+</script>
+</div>
+
+
+<!--nav_box  End-->
+
+<!--页面主体模块  Start-->
+<div class="content warp_top10">
+
+    <!--左边菜单模块  Start-->
+    <div class="news-lf">
+        <div class="newhd">交易信息</div>
+            
+	<div class="leftsidebar_box">
+		<div class="line"></div>
+		
+			<dl class="system_log">
+				<div class="me-lest me-1 le" id="parent-1">房建基础设施工程</div>
+				
+	            
+		       		<div class="point" style="display:none">
+		       			
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_1_1" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=1&noticeType=1&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">招标公告</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_1_2" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=1&noticeType=2&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">更正公告</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_1_3" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=1&noticeType=3&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标(成交)公示</a></dd>
+			            	
+		            	
+			       			
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_1_5" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=1&noticeType=5&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标结果公示</a></dd>
+			            	
+		            	
+			       			
+		            	
+		            </div>
+	            
+	            
+	            
+	            
+	        </dl>
+        
+			<dl class="system_log">
+				<div class="me-lest me-1 le" id="parent-2">农牧林水工程</div>
+				
+	            
+		       		<div class="point" style="display:none">
+		       			
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_2_1" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=2&noticeType=1&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">招标公告</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_2_2" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=2&noticeType=2&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">更正公告</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_2_3" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=2&noticeType=3&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标(成交)公示</a></dd>
+			            	
+		            	
+			       			
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_2_5" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=2&noticeType=5&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标结果公示</a></dd>
+			            	
+		            	
+			       			
+		            	
+		            </div>
+	            
+	            
+	            
+	            
+	        </dl>
+        
+			<dl class="system_log">
+				<div class="me-lest me-1 le" id="parent-3">政府采购</div>
+				
+	            
+	            
+		       		<div class="point" style="display:none">
+		       			
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_3_1" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=3&noticeType=1&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">招标公告</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_3_2" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=3&noticeType=2&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">更正公告</a></dd>
+			            	
+		            	
+			       			
+		            	
+			       			
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_3_5" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=3&noticeType=5&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标结果公示</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_3_8" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=3&noticeType=8&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">合同公示</a></dd>
+			            	
+		            	
+		            </div>
+	            
+	            
+	            
+	        </dl>
+        
+			<dl class="system_log">
+				<div class="me-lest me-1 le" id="parent-4">土地出让</div>
+				
+		       		<div class="point" style="display:none">
+		       			
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_4_1" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=4&noticeType=1&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">招标公告</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_4_2" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=4&noticeType=2&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">更正公告</a></dd>
+			            	
+		            	
+			       			
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_4_4" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=4&noticeType=4&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">最新报价</a></dd>
+			            	
+		            	
+			       			
+		            	
+			       			
+		            	
+		            	<dd class="dme-1" style="cursor: pointer;" id="child_4_3" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=4&noticeType=3&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标(成交)公示</a></dd>
+		            </div>
+	            
+	            
+	            
+	            
+	            
+	        </dl>
+        
+			<dl class="system_log">
+				<div class="me-lest me-1 le" id="parent-5">矿业权出让</div>
+				
+		       		<div class="point" style="display:none">
+		       			
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_5_1" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=5&noticeType=1&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">招标公告</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_5_2" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=5&noticeType=2&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">更正公告</a></dd>
+			            	
+		            	
+			       			
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_5_4" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=5&noticeType=4&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">最新报价</a></dd>
+			            	
+		            	
+			       			
+		            	
+			       			
+		            	
+		            	<dd class="dme-1" style="cursor: pointer;" id="child_5_3" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=5&noticeType=3&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标(成交)公示</a></dd>
+		            </div>
+	            
+	            
+	            
+	            
+	            
+	        </dl>
+        
+			<dl class="system_log">
+				<div class="me-lest me-1 le" id="parent-6">交通工程</div>
+				
+	            
+		       		<div class="point" style="display:none">
+		       			
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_6_1" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=6&noticeType=1&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">招标公告</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_6_2" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=6&noticeType=2&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">更正公告</a></dd>
+			            	
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_6_3" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=6&noticeType=3&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标(成交)公示</a></dd>
+			            	
+		            	
+			       			
+		            	
+			       			
+			              		<dd class="dme-1" style="cursor: pointer;" id="child_6_5" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=6&noticeType=5&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标结果公示</a></dd>
+			            	
+		            	
+			       			
+		            	
+		            </div>
+	            
+	            
+	            
+	            
+	        </dl>
+        
+			<dl class="system_log">
+				<div class="me-lest me-1 le" id="parent-7">产权交易</div>
+				
+	            
+	            
+	            
+	            
+	            	<div class="point" style="display:none">
+		            	
+		            		
+		            			<dd class="dme-1" style="cursor: pointer;" id="child_7_1" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=7&noticeType=1&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">招标公告</a></dd>
+		            		
+		            	
+		            		
+		            			<dd class="dme-1" style="cursor: pointer;" id="child_7_2" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=7&noticeType=2&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">更正公告</a></dd>
+		            		
+		            	
+		            		
+		            			<dd class="dme-1" style="cursor: pointer;" id="child_7_3" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=7&noticeType=3&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标(成交)公示</a></dd>
+		            		
+		            	
+		            		
+		            	
+		            		
+		            	
+		            		
+		            	
+	           		</div>
+	            
+	        </dl>
+        
+			<dl class="system_log">
+				<div class="me-lest me-1 le" id="parent-8">特许经营权交易</div>
+				
+	            
+	            
+	            
+	            
+	            	<div class="point" style="display:none">
+		            	
+		            		
+		            			<dd class="dme-1" style="cursor: pointer;" id="child_8_1" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=8&noticeType=1&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">招标公告</a></dd>
+		            		
+		            	
+		            		
+		            			<dd class="dme-1" style="cursor: pointer;" id="child_8_2" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=8&noticeType=2&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">更正公告</a></dd>
+		            		
+		            	
+		            		
+		            			<dd class="dme-1" style="cursor: pointer;" id="child_8_3" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=8&noticeType=3&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标(成交)公示</a></dd>
+		            		
+		            	
+		            		
+		            	
+		            		
+		            	
+		            		
+		            	
+	           		</div>
+	            
+	        </dl>
+        
+			<dl class="system_log">
+				<div class="me-lest me-1 le" id="parent-9">政府采购PPP项目</div>
+				
+	            
+	            
+	            
+		       		<div class="point" style="display:none">
+		       			
+			              	<dd class="dme-1" style="cursor: pointer;" id="child_9_1" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=9&noticeType=1&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">招标公告</a></dd>
+		            	
+			              	<dd class="dme-1" style="cursor: pointer;" id="child_9_2" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=9&noticeType=2&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">更正公告</a></dd>
+		            	
+			              	<dd class="dme-1" style="cursor: pointer;" id="child_9_3" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=9&noticeType=3&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标候选人公示</a></dd>
+		            	
+			              	<dd class="dme-1" style="cursor: pointer;" id="child_9_5" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=9&noticeType=5&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">中标公告</a></dd>
+		            	
+			              	<dd class="dme-1" style="cursor: pointer;" id="child_9_6" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=9&noticeType=6&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">预审公告</a></dd>
+		            	
+			              	<dd class="dme-1" style="cursor: pointer;" id="child_9_7" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=9&noticeType=7&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">预中标公告</a></dd>
+		            	
+			              	<dd class="dme-1" style="cursor: pointer;" id="child_9_9" onclick="common.loading();location.href='initWebBussTimerList.action?serviceType=9&noticeType=9&columnId=402881ee4debedd8014debf8d0570007'"><a href="javascript:void(0);">合同文本公示</a></dd>
+		            	
+		            </div>
+	            
+	            
+	        </dl>
+        
+	</div> 
+         
+    </div>
+    <script type="text/javascript">
+	
+    	$(function(){
+    		var serviceType = '1';
+    		var noticeType = '1';
+    		$("#parent-" + serviceType).removeClass("le").addClass("onle");
+			$("#parent-" + serviceType).siblings().show();
+			var childId = "child_"+serviceType+"_"+noticeType+"";
+			$("#" + childId).children("a").css("color","red");
+    		
+			$(".news-lf .system_log .me-lest").each(function(index) {
+                $(this).click(function(){
+					$(".point").hide();
+					$(".news-lf .system_log .me-lest").removeClass("onle").addClass("le");
+				 	$(this).addClass("onle").removeClass("le");
+				    $(this).siblings().show();
+				});
+            });
+			$(".news-lf .system_log .point .dme-1").each(function(index1) {
+                $(this).click(function(){
+					$(".dme-1 a").css("color","#333");
+					$(this).children("a").css("color","red");
+					});
+            	});
+			});
+    </script>
+    <!--左边菜单模块  End--> 
+    
+    <!--右边列表模块  Start-->
+    <div class="news-rg">
+        <div class="Positionbox">
+        	<a href="indexPage.action">首页</a><span>></span>
+        	<a style="text-decoration: none;">房建基础设施工程</a>
+        	
+        		<span>></span>
+        		
+        			<a style="text-decoration: none;color:#F69D02;">招标公告</a>
+        		
+        		
+        	
+        </div>
+            
+        <div class="news-ldx">
+               <div class="ws-llist">
+                   <ul>
+                   
+                   
+                   		
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d60625f8a93016264f72a0e05ba" target="_blank"  title="内蒙古民族大学附属医院病理中心楼扩建工程监理招标公告(TG2018A090007)">内蒙古民族大学附属医院病理中心楼扩建工程监理招标公告(TG2018A090007)</a><span>[2018-03-27]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d60620ad66001620ea50b0b0281" target="_blank"  title="通辽市新城区建筑垃圾资源化综合处理项目监理招标公告(TG2018A090008)">通辽市新城区建筑垃圾资源化综合处理项目监理招标公告(TG2018A090008)</a><span>[2018-03-19]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d6062175440016219475a450837" target="_blank"  title="通辽市高铁站综合交通枢纽工程-南广场及配套市政工程（一期-广场部分）监理招标公告(TG2018A090009)">通辽市高铁站综合交通枢纽工程-南广场及配套市政工程（一期-广场部分）监理招标公告(TG2018A090009)</a><span>[2018-03-13]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d6061f85d550161f965592c03fe" target="_blank"  title="内蒙古民族大学附属医院病理中心楼扩建工程施工招标资格预审公示">内蒙古民族大学附属医院病理中心楼扩建工程施工招标资格预审公示</a><span>[2018-03-06]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d60617302db0161789d0bdc074a" target="_blank"  title="内蒙古民族大学附属医院病理中心楼扩建工程施工资审公告（项目编号：TG2018A010006）">内蒙古民族大学附属医院病理中心楼扩建工程施工资审公告（项目编号：TG2018A010006）</a><span>[2018-02-09]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d60611b2b050161228180a30875" target="_blank"  title="新世纪大桥连接线及互通立交工程监理第三次招标公告(TG2017A010113)">新世纪大桥连接线及互通立交工程监理第三次招标公告(TG2017A010113)</a><span>[2018-01-24]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d60611b2b0501611cbe15a00288" target="_blank"  title="内蒙古东部区青少年足球训练基地项目设计招标公告(TG2018A090004)">内蒙古东部区青少年足球训练基地项目设计招标公告(TG2018A090004)</a><span>[2018-01-22]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d606107e8220161115e1de7083d" target="_blank"  title="内蒙古东部区青少年足球训练基地项目勘察招标公告(TG2018A090005)">内蒙古东部区青少年足球训练基地项目勘察招标公告(TG2018A090005)</a><span>[2018-01-22]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d6060f705a30160f77137d000b9" target="_blank"  title="科尔沁艺术职业学院主教学楼、舞蹈楼、学生餐厅维修改造工程招标公告(TG2018A010002)">科尔沁艺术职业学院主教学楼、舞蹈楼、学生餐厅维修改造工程招标公告(TG2018A010002)</a><span>[2018-01-15]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d6060e78ec50160e9e4407703d7" target="_blank"  title="通辽市中心血站业务楼和通辽市中心血站（业务综合楼）建设项目设计招标公告(TG2018A090003)">通辽市中心血站业务楼和通辽市中心血站（业务综合楼）建设项目设计招标公告(TG2018A090003)</a><span>[2018-01-12]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d6060c547300160d515d5b304a4" target="_blank"  title="通辽市新城区建筑垃圾资源化综合处理项目资格预审合格公示">通辽市新城区建筑垃圾资源化综合处理项目资格预审合格公示</a><span>[2018-01-09]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d606096954c016097372fd201db" target="_blank"  title="新世纪大桥连接线及互通立交工程监理招标公告(TG2017A010113)">新世纪大桥连接线及互通立交工程监理招标公告(TG2017A010113)</a><span>[2017-12-28]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d6060921f7101609233bec20044" target="_blank"  title="通辽市新城区建筑垃圾资源化综合处理项目资审公告（项目编号：TG2017A020156）">通辽市新城区建筑垃圾资源化综合处理项目资审公告（项目编号：TG2017A020156）</a><span>[2017-12-27]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d606029a4380160446e2ad31242" target="_blank"  title="通辽市主城区餐厨垃圾（含粪便）资源化综合利用项目-设备采购及建筑安装工程招标公告(TG2017A020151)">通辽市主城区餐厨垃圾（含粪便）资源化综合利用项目-设备采购及建筑安装工程招标公告(TG2017A020151)</a><span>[2017-12-11]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d606029a43801604467ac341224" target="_blank"  title="通辽市主城区餐厨垃圾（含粪便）资源化综合利用项目-办公楼施工招标公告(TG2017A010150)">通辽市主城区餐厨垃圾（含粪便）资源化综合利用项目-办公楼施工招标公告(TG2017A010150)</a><span>[2017-12-11]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d6060151b8e01601f244b8c02ac" target="_blank"  title="通辽市主城区红光大桥建设工程监理招标公告(TG2017A020147)">通辽市主城区红光大桥建设工程监理招标公告(TG2017A020147)</a><span>[2017-12-04]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d605fe842e5015ffb5cfe0607cd" target="_blank"  title="通辽职业学院护理实训综合楼建设工程项目（勘察）招标公告(TG2017A090152)">通辽职业学院护理实训综合楼建设工程项目（勘察）招标公告(TG2017A090152)</a><span>[2017-11-27]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d605fdc3024015fde6ce79a0410" target="_blank"  title="通辽西国家粮食储备库粮食成品库建设项目配套设备（第二批）招标公告(TG2017A010146)">通辽西国家粮食储备库粮食成品库建设项目配套设备（第二批）招标公告(TG2017A010146)</a><span>[2017-11-22]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d605f7fbd57015f953479050a46" target="_blank"  title="通辽市主城区新工二路建设工程施工监理招标招标公告(TG2017A020143)">通辽市主城区新工二路建设工程施工监理招标招标公告(TG2017A020143)</a><span>[2017-11-07]</span></li>
+	                    
+	                       <li><a class="HN-1 f_box" style="width:540px;" href="getWebBussTimerDetail.action?newsId=8a955d605f4709c0015f470c7c370003" target="_blank"  title="资格预审合格公示">资格预审合格公示</a><span>[2017-10-23]</span></li>
+	                    
+                   
+                   </ul>
+               </div>
+            <div id="pageInfo">
+<script type="text/javascript" src="http://ggzy.tlzw.gov.cn:80/js/layer-v1.9.3/laypage/laypage.js"></script>
+<!-- 分页开始 -->
+<div class="pagebar550" id="pageDiv" style="width:99%;text-align:center;">
+    
+</div>
+<!-- 分页结束 -->
+
+<script type="text/javascript">
+	//by zhujj 20150719
+	laypage({
+	    cont: 'pageDiv',
+	    pages: 18, //可以叫服务端把总页数放在某一个隐藏域，再获取。假设我们获取到的是18
+	    skip: true, //是否开启跳页
+	    skin: '#AF0000',
+	    groups: 3, //连续显示分页数
+	    curr: function(){ //通过url获取当前页，也可以同上（pages）方式获取
+		var page = location.search.match(/page=(\d+)/);
+		return page ? page[1] : 1;
+	    }(), 
+	    jump: function(e, first){ //触发分页后的回调
+		if(!first){ //一定要加此判断，否则初始时会无限刷新
+		    var m = location.href.indexOf('page=');
+		    if(m < 0){
+			location.href = location.href + '&page=' + e.curr ;
+		    }else{
+			location.href = location.href.substring(0, m) + '&page=' + e.curr ;
+		    }  
+		}
+	    }
+	});
+</script></div>
+        </div>
+    
+         
+    </div>
+    <!--右边列表模块  End-->   
+     
+</div>
+<!--页面主体模块  End-->
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+
+<!--footer  Start-->
+<div class="footer"> 
+ 
+  <div class="footer-box">
+       <div class="content">
+       		<div class="dlma">通辽市政务服务中心版权所有 蒙ICP备16004556号</div>
+       		<div class="dlma">地址：通辽市科尔沁区胜利路北段科尔沁体育中心北侧 邮编：028000</div>
+            <div class="dlma">技术支持服务：上海卓繁信息技术股份有限公司</div>
+            <div class="dlma">本网站所刊登的新闻﹑信息和各种专题专栏资料， 未经协议授权，禁止下载使用。</div>
+       </div>
+    
+    
+  </div>
+</div>
+<!--footer  End-->
+<!--下拉菜单  Start-->
+<script type="text/javascript">
+	$('#nav-menu .menu > li').hover(function(){
+		$(this).find('.children').animate({ opacity:'show', height:'show' },200);
+		$(this).find('.xialaguang').addClass('navhover');
+	}, function() {
+		$('.children').stop(true,true).hide();
+		$('.xialaguang').removeClass('navhover');
+	});
+</script>
+<!--下拉菜单  End-->
+<script type="text/javascript">
+	var size = '20';
+	if( eval(size) == 0 || !size ){
+		$("#pageInfo").css("display","none");
+	}
+</script>
+</body>
+</html>

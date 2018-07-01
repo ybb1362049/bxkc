@@ -1,0 +1,643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>政府采购公告</title>
+<meta  name="version" content="7.9.11"/>
+<meta  name="createDate" content="2017-12-21 10:17:29" />
+<meta  name="cacheclearDate" content="2017-12-18 18:09:52"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="ColumnName" content="政府采购公告" >
+<meta name="ColumnType"   content="1" >
+<meta name="SiteName" content="美姑县"><!--网站名称-->
+<meta name="SiteDomain" content=""><!--网站域名-->
+<meta name="SiteIDCode" content="meigu"><!--网站标识-->
+<meta name="ColumnDescription" content="初始化频道：政府采购公告"><!--栏目描述-->
+<meta name="ColumnKeywords" content=""><!--栏目关键词--><link rel="stylesheet" type="text/css"  href="/meigu/uiFramework/huilan-jquery-ui/css/huilan-jquery-ui.css" />
+<script type="text/javascript" src="/meigu/uiFramework/huilan-jquery-ui/js/huilan-jquery-ui.js?self=true&skin=default"></script>
+ <!--360浏览器-->
+<meta name="renderer" content="webkit">
+
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<!--ie浏览器-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<link rel="shortcut icon" href="/meigu/resource/cms/img_pc_site/2017/01/2017011010415338661.ico"/>
+<link rel="bookmark" href="/meigu/resource/cms/img_pc_site/2017/01/2017011010415338661.ico"/>
+   <link rel="stylesheet" type="text/css" href="/meigu/template/meigu.css" />
+  <script type="text/javascript" src="/meigu/template/meigu.js"></script>
+ </head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="/meigu/template/page/sanjpage/skin.css" /><div style="display:none" easysite="easysiteHiddenDiv">
+	<input id="contextPath" value="/eportal" type="hidden"/>
+	<input id="isOnlyUseCkeditorSourceMode" value="$isOnlyUseCkeditorSourceMode" type="hidden"/>
+	<input id="eprotalCurrentPageId" value="3502211" type="hidden"/>
+	<input id="eprotalCurrentSiteId" value="3488589" type="hidden"/>
+	<input id="eprotalCurrentSiteName" value="美姑县" type="hidden"/>
+	<input id="eprotalCurrentSiteEnname" value="meigu" type="hidden"/>
+	<input id="eprotalCurrentSiteType" value="WEB" type="hidden"/>
+	<input id="eprotalCurrentSiteHideMaskLayer" value="no" type="hidden"/>
+	<input id="eprotalCurrentArticleKey"  value=""  type="hidden"/>
+	<input id="eprotalCurrentColumnId"  value=""  type="hidden"/>
+	<input id="isStaticRequest" value="yes" type="hidden"/>
+	<input id="isOpenStaticPageList" value="yes" type="hidden"/>
+	<input id="defaultPublishPage" value="1" type="hidden"/>
+	<input type='hidden' id='eportalappPortletId' value="3">
+	<input type='hidden' id='epsPortletId' value="1">
+	<input type='hidden' id='portaltoolsPortletId' value="2">
+	<script type="text/javascript" src="/meigu/uiFramework/js/counting/chanelCounting.js"></script>
+	<input type="hidden" id="currentLoginMemberId"  value="" />
+	<input type="hidden" id="currentLoginMemberName"  value="" />
+	<input type="hidden" id="behaviourAnalysisSiteId"  value="1259204835" /> 
+			<input type="hidden" id="portalLastRequestUrl"  value="" />
+</div>  <div id="sanJ_body"> 
+   <div>
+     <link rel="stylesheet" type="text/css"  href="/meigu/template/common/top/skin.css"/><style>
+    *{
+        font-family: "微软雅黑";
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-image: url("/meigu/uiFramework/commonResource/image/2016091915403018563.png");
+        max-width:1400px;
+        min-width:1349px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #head{
+        width: 100%;
+        min-height: 251px;
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        overflow:hidden;
+    }
+    #head>div{
+        width: 100%;
+        height: 12%;
+        min-height: 30px;
+        line-height: 30px;
+    }
+    #head>div:first-child{
+        background-color: white;
+        opacity: 0.7;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+    }
+    .head_span{
+        font-family: "微软雅黑",sans-serif;
+        color: white;
+        font-size: 0.8em;
+        position: relative;
+        top: -2.3em;
+    }
+    .head_span>div{
+        float: left;
+    }
+    .weather{
+        width: 43%;
+        min-height: 30px;
+        line-height: 30px;
+        margin-left: 10%;
+       position:relative;
+       z-index:10;
+        /*background-color: red;*/
+    }
+    .head_span>div:nth-of-type(2){
+        width: 7%;
+        margin-left: 24%;
+        font-size:12px
+    }
+    .head_span>div:nth-of-type(2):hover{
+        cursor: pointer;
+    }
+    /*-------------------------------------------------------------以下是导航条-------------------------------------*/
+    #nav{
+        width: 100%;
+        height: 55px;
+        position: relative;
+        top: -13px;
+    }
+    #nav_C{
+        background-color: #BD0801;
+        height: 42px;
+        margin-top: 13px;
+    }
+    #nav_C ul{
+        margin-left: 150px;
+    }
+    #nav_C li{
+        float: left;
+        
+        border-left: 1px solid black;
+        min-height: 42px;
+        line-height: 42px;
+        width: 100px;
+        text-align: center;
+    }
+    .bgwo{
+        width: 37%;
+        height: auto;
+        position: relative;
+        z-index: 9;
+        left: -45%;
+        top: 3em;
+    }
+    .bgwo>img{
+        width: 100%;
+    }
+    .headbgpic{
+        width: 100%;
+        height: 257px;
+        max-height:258px;
+        position: absolute;
+        top: -7px;
+        left:0px;
+        display: none;
+        background-size: 100% 100%;
+        z-index: 8;
+    } 
+    .headbgpic1{
+        background: url("/meigu/uiFramework/commonResource/image/BG_mn_01(2).jpg") no-repeat;/******/meigu/resource/cms/2016/10/BG_mn_01(2).png*******/
+    }
+    .headbgpic2{
+        background: url("/meigu/uiFramework/commonResource/image/BG_sj(3).jpg") no-repeat;
+    }
+    .headbgpic3{
+        background: url("/meigu/uiFramework/commonResource/image/BG_panda(2).jpg") no-repeat;/*******/meigu/resource/cms/2016/10/BG_panda(2).png********/
+    }
+    .headbgpic4{
+        background: url("/meigu/resource/cms/2017/01/BG_ml01.jpg") no-repeat;/*****/meigu/resource/cms/2016/10/BG_ml(2).png******/
+    }
+    .headbgpic5{ 
+        background: url("/meigu/uiFramework/commonResource/image/BG_panda(2).jpg") no-repeat;/***/meigu/resource/cms/2017/01/BG_panda(2).jpg***/
+    }
+    #nav_C a{
+        color: white;
+        text-decoration: none;
+        height: 38px;
+        /*background-color: yellow;*/
+        width: 100%;
+        display: block;
+        position: relative;
+        top: 0.3em;
+        font-size:1.2em;
+    }
+    /*--------------------------------------------------搜索----------------------------------------------*/
+    #search{
+        width: 20%;
+        /*border: 1px solid red;*/
+
+        min-height: 55px;
+        height: 100%;
+        /*background-color: white;*/
+        background-image: url("/meigu/resource/cms/2016/10/sousuokuang.png");
+        background-repeat: no-repeat;
+        background-size: 100% 55px;
+        position: relative;
+        top: -55px;
+        left: 73%;
+        z-index: 9;
+    }
+    #search span{
+        color: red;
+        position: relative;
+        top: 1.1em;
+        left: 4em;
+        font-weight: bold;
+    }
+    #search span:hover{
+        cursor: pointer;
+    }
+    #search input{
+        border: 1px solid red;
+        height: 2em;
+        position: relative;
+        left: 5em;
+        top: 1em;
+        border-radius: 5%;
+        width:47%;
+    }
+    .wzalook{
+       margin-left:28%;
+    }
+.search{width:20%;min-height: 55px;height: 100%;background:url("/meigu/resource/cms/2016/10/sousuokuang.png") no-repeat;background-size: 100% 55px;position: relative;top: -55px;left: 73%;z-index: 9;}
+.search span{color: red;position: relative;top: 1.7em;left: 3em;font-weight: bold;}
+.search span:hover{cursor: pointer;}
+.search input{ border: 1px solid red;height: 2em;position: relative;left: 6em;top:0em;border-radius: 5%;width:47%;}
+.search a{position: relative;top:.2em;left:4em;}
+</style>
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!页头！！！！！！！！！！！！！！！！！-->
+<script type="text/javascript">
+function bssxQueryF(url){
+                        var sUrl = "http://dig.lsz.gov.cn/dig/search.action?ty=&w=false&f=&dr=true&p=1&sr=score+desc&fq=&advtime=&advrange=&q=";
+                        var key = document.getElementById("q").value;
+                        if(key == "" || key == "请输入关键字"){
+                            alert("关键字不能为空!");
+                            return false;
+                        }
+                        key = encodeURI(key);
+                        sUrl = sUrl + key + '&ext=siteid:3488589'
+                        window.open(sUrl);
+}
+</script>
+<div id="head">
+    <div style="position: relative;z-index: 9;"></div>
+    <div class="head_span">
+        <div class="weather">
+            <script type="text/javascript">;</script>
+            <iframe allowtransparency="" frameborder="0" height="35" scrolling="no" src="http://i.tianqi.com/index.php?c=code&id=1&color=%23&icon=1&py=liangshan1&wind=1&num=1" width="400">
+
+            </iframe>
+        </div>
+        <div style="position: relative;z-index: 9;" target="_blank" class="wzalook" onclick="wZall()">>无障碍浏览</div> |
+        <a href="http://mg.lsz.gov.cn/mgphone/index/index.html" target="_blank"  style="color:#fff;font-size:14px;position: relative;z-index: 10;">手机版</a>
+        <div class="bgwo"><img src="/meigu/resource/cms/2016/11/mgGOV.png" alt=""/></div>
+        <div class="headbgpic headbgpic1" style="display: block;"></div>
+        <div class="headbgpic headbgpic2"></div>
+        <div class="headbgpic headbgpic3"></div>
+        <div class="headbgpic headbgpic4"></div>
+        <div class="headbgpic headbgpic5"></div>
+    </div>
+</div>
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!nav!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<div id="nav">
+    <div id="nav_C">
+        <ul>
+            <li><a href="/meigu/index/index.html">网站首页</a></li>
+            <li><a href="/meigu/zjmg1/index.html">走进美姑</a></li>
+            <li><a href="/meigu/xz_cgy/index.html">政府领导</a></li>
+            <li><a href="/meigu/xxgk14/index.html">信息公开</a></li>
+            <li><a href="/meigu/zxfw9613/index.html">在线服务</a></li>
+            <li><a href="/eportal/ui?pageId=3494145">公众参与</a></li>
+            <li><a href="/meigu/yszy64/index.html" target="_blank">投资美姑</a></li>
+            <li><a href="/meigu/mlmg/index.html">魅力美姑</a></li>
+        </ul>
+    </div>
+    <!--<div id="search">
+        <span>搜索</span>
+        <input type="search" name="search" placeholder="请输入关键字"/>
+    </div>-->
+    <div class="search">
+        <span>搜索</span>
+        <form id="bssxQueryForm" name="" action="http://dig.lsz.gov.cn/dig/search.action?ty=&w=false&f=&dr=true&p=1&sr=score+desc&fq=&advtime=&advrange=&q=" class="search-form" method="post" target="_blank">
+              <input  type='text'class="q" name="q" id="q" value="" autocomplete="off" placeholder="" / >
+              <a href="javascript:void(0);" onclick="bssxQueryF('')"><img src="/meigu/resource/cms/2017/08/2017082721435086707.png"></a>  
+        </form>        
+    </div>
+
+</div>
+
+<script>
+    var myObj=$("#nav_C li");
+    myObj.mouseover(function(){
+        var oW=$(this).index();
+        var CH=$(this).children("a");
+        myObj.eq(oW).css("border","none");
+        myObj.eq(oW+1).css("border","none");
+        CH.css({"color":"red","borderRadius":"5% 5% 0em 0em","backgroundColor":"white"})
+    });
+    myObj.mouseout(function(){
+        var oW=$(this).index();
+        var CH=$(this).children("a");
+        myObj.eq(oW).css("borderLeft","1px solid black");
+        myObj.eq(oW+1).css("borderLeft","1px solid black");
+        CH.css({"color":"white","borderRadius":"0em 0em 0em 0em","backgroundColor":"#BD0801"})
+    });
+    var h=0;
+    function headBG(){
+        if(h<=4){
+            h++;
+            $(".headbgpic").eq(h).fadeIn("snow");
+            $(".headbgpic").eq(h).siblings(".headbgpic").fadeOut("snow");
+        }else if(h==5){
+            h=0;
+            $(".headbgpic").eq(0).fadeIn("snow");
+            $(".headbgpic").eq(0).siblings(".headbgpic").fadeOut("snow");
+        }
+    }
+    var headchange=setInterval("headBG()",6000);
+//    -------------------------------------------导航栏的选择--------------------------------------------------
+    $("#search span").click(function(){
+//        提交数据搜索
+    })
+    function wZall(){
+          window.location.href="/eportal/Assistants/index.html"
+    }
+</script>   </div> 
+   <div id="sanJ_content"> 
+    <div id="sanJ_contL"> 
+     <div id="san_L_tit"></div> 
+     <div id="san_L_cont" runat="server" name="左1" class=" column">
+        <div class="portlet" id="e3ec0882b8cb40aab5dc04b2f73b4792" pagemoduleid="656721735dad4fc3abcd8c09b188a703">
+ <div align="left" class="portlet-header"> 
+  <span id="menu">
+        </span> 
+  <div id="submenue3ec0882b8cb40aab5dc04b2f73b4792" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="width:98%;height:30px;color:white;line-height:30px;position:relative;top:-30px;left:2%;">重点信息公开</div>
+<ul style="margin-top:-30px;padding-bottom:30px;">
+<li class="hidULsfa"><span onclick="window.location='/meigu/qlqd16/index.html'">权力清单</span></li>
+<li class="hidULsfa" onclick="window.location='/meigu/zrqd68/index.html'"><span>责任清单</span></li>
+<!-------------------<li class="hidULsfa" onclick="window.location='[PAGEVISITPATH:3496690]'"><span>负面清单</span></li>-------------><li class="hidULsfa"><span>财政资金</span><ul class="hiddenUL">
+<li><a href="/meigu/czyjsgk93/index.html">财政预、决算公开部门</a></li>
+<li><a href="/meigu/sgjfgk14/index.html">"三公"经费公开</a></li>
+<li><a href="/meigu/czsjxx41/index.html">本级财政信息公开</a></li>
+<li><a href="/meigu/zfcgml27/index.html">政府采购目录</a></li>
+</ul>
+</li>
+<li class="hidULsfa"><span>保障性住房</span><ul class="hiddenUL">
+<li><a href="/meigu/xmqk84/index.html">项目情况</a></li>
+<li><a href="/meigu/fyxx68/index.html">房源信息</a></li>
+<!----------<li><a href="[PAGEVISITPATH:3501057]">分配、退出情况</a></li>--------------></ul>
+</li>
+<li class="hidULsfa"><span>重大项目</span><ul class="hiddenUL">
+<li><a href="/meigu/xmqk32/index.html">项目情况</a></li>
+<li><a href="/meigu/tzdt23/index.html">投资动态</a></li>
+<li><a href="/meigu/tzwcqk24/index.html">投资完成情况</a></li>
+</ul>
+</li>
+<li class="hidULsfa" onclick="window.location='/meigu/shjz96/index.html'"><span>社会救助</span></li>
+<li class="hidULsfa" onclick="window.location='/meigu/ylws13/index.html'"><span>医疗卫生</span></li>
+<li class="hidULsfa"><span>国有企业</span><ul class="hiddenUL">
+<li><a href="/meigu/yxqk67/index.html">运行情况</a></li>
+<li><a href="/meigu/yjkh4/index.html">业绩考核</a></li>
+<li><a href="/meigu/zycwzb95/index.html">主要财务指标</a></li>
+</ul>
+</li>
+<li class="hidULsfa"><span>环境保护</span><ul class="hiddenUL">
+<li><a href="/meigu/hjzfdt40/index.html">环境保护动态</a></li>
+<li><a href="/meigu/kqzl87/index.html">空气质量</a></li>
+<li><a href="/meigu/szqk51/index.html">水质情况</a></li>
+<li><a href="/meigu/tfhjsj21/index.html">突发环境事件</a></li>
+<li><a href="/meigu/hpgg39/index.html">环评公告</a></li>
+</ul>
+</li>
+<li class="hidULsfa"><span>安全生产</span><ul class="hiddenUL">
+<li><a href="/meigu/aqscjgdt56/index.html">安全生产监管动态</a></li>
+<li><a href="/meigu/zxjczz28/index.html">专项检查整治</a></li>
+<li><a href="/meigu/aqxkgs83/index.html">安全许可公示</a></li>
+<li><a href="/meigu/swsgqk97/index.html">伤亡事故情况</a></li>
+<li><a href="/meigu/sgcc93/index.html">事故查处</a></li>
+</ul>
+</li>
+<li class="hidULsfa"><span>食品药品</span><ul class="hiddenUL">
+<li><a href="/meigu/spypjgdt11/index.html">食品药品监管动态</a></li>
+<li><a href="/meigu/zxjcgz15/index.html">专项检查工作</a></li>
+<li><a href="/meigu/ajcc21/index.html">案件查处</a></li>
+<li><a href="/meigu/spyprzxk94/index.html">食品药品认证许可</a></li>
+</ul>
+</li>
+<li class="hidULsfa"><span>价格收费</span><ul class="hiddenUL">
+<li><a href="/meigu/jgjdjc16/index.html">价格监督检查</a></li>
+<li><a href="/meigu/jgjcfx90/index.html">价格监测分析</a></li>
+<li><a href="/meigu/xzsyxsfml72/index.html">行政事业性收费目录</a></li>
+<li><a href="/meigu/mslyjghsfxm85/index.html">民生领域价格和收费项目</a></li>
+</ul>
+</li>
+<li class="hidULsfa"><span>招标采购</span><ul class="showUL">
+<li><a href="/meigu/zfcggg63/index.html" id="wPage">政府采购公告</a></li>
+<li><a href="/meigu/cgzbjggg0/index.html">采购中标结果公示</a></li>
+<li><a href="/meigu/ztbgg69/index.html">招投标公告</a></li>
+<li><a href="/meigu/ztbjggg94/index.html">招投标结果公告</a></li>
+</ul>
+</li>
+<li class="hidULsfa"><span onclick="window.location='/meigu/kjxm/index.html'">科技项目</span></li>
+</ul>
+<script>
+    $(".hidULsfa>span").click(function(){
+        $(this).siblings(".hiddenUL,.showUL").css("display","block");
+        $(this).parent(".hidULsfa").siblings(".hidULsfa").children(".hiddenUL,.showUL").css("display","none");
+    })
+</script>
+<style type="text/css">
+.hiddenUL{
+    display: none;
+}
+.showUL{
+    display: block;
+}
+.hiddenUL>li{
+    background-image: url("/meigu/resource/cms/2016/10/sonBG.png");
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/meigu/resource/cms/2016/10/sonBG.png',sizingMethod='scale');
+    background-size: 100% 100%;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+.showUL>li{
+    background-image: url("/meigu/resource/cms/2016/10/sonBG.png");
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/meigu/resource/cms/2016/10/sonBG.png',sizingMethod='scale');
+    background-size: 100% 100%;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+.hiddenUL>li>a{
+    color: white;
+    text-decoration: none;
+}
+.showUL>li>a{
+    color: white;
+    text-decoration: none;
+}
+.hiddenUL>li>a:hover{
+    color: #BD0801;
+    font-weight: bold;
+}
+.showUL>li>a:hover{
+    color: #BD0801;
+    font-weight: bold;
+}
+
+.hidULsfa{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    min-height: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.hidULsfa>span{
+    cursor: pointer;
+    background-image: url("/meigu/resource/cms/2016/10/fatherBG.png");
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/meigu/resource/cms/2016/10/fatherBG.png',sizingMethod='scale');
+    background-size: 100% 100%;
+    display: block;
+}
+#wPage>a{
+    color: #BD0801;
+    font-weight: bold;
+}
+#wPage{
+    color: #BD0801;
+    font-weight: bold;
+}</style>
+
+ 
+ </div> 
+</div>      </div> 
+    </div> 
+    <div id="sanJ_contR"> 
+     <div class="sanJ_tit" style="font-size:14px;">
+       政府采购公告 
+     </div> 
+     <div class="sanJ_cont column" id="titLiebiao" runat="server" name="标题列表">
+        <div class="portlet" id="1964cc3405fe47359f84a301e067ea37" pagemoduleid="b6a8cac46899429bb412b16537f7b399">
+ <div align="left" class="portlet-header"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu1964cc3405fe47359f84a301e067ea37" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   
+
+
+<ul style="margin:0px;padding-top:15px;padding-bottom:15px;" opentype="page"> 
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/5525054/index.html" onclick="void(0)" target="_blank" title="美姑县鹫都养殖专业合作社世行六期扶贫项目2017年美姑黑山羊询价采购公告" istitle="true">美姑县鹫都养殖专业合作社世行六期扶贫项目2017年美姑黑山羊询价采购公告</a> <span class="article-time" style="float:right;margin-right:2%;">2017-12-21</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/4217990/index.html" onclick="void(0)" target="_blank" title="美姑县教育和科学技术知识产权局关于补充购置高海拔学校学生取暖空调设备的采购项目竞争性谈判采购公告" istitle="true">美姑县教育和科学技术知识产权局关于补充购置高海拔学校学生取暖空调设备...</a> <span class="article-time" style="float:right;margin-right:2%;">2017-03-21</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/3852555/index.html" onclick="void(0)" target="_blank" title="美姑县扶贫和移民工作局采购信息公告" istitle="true">美姑县扶贫和移民工作局采购信息公告</a> <span class="article-time" style="float:right;margin-right:2%;">2015-03-17</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/3852556/index.html" onclick="void(0)" target="_blank" title="美姑县公共资源交易服务中心招标人现场守则" istitle="true">美姑县公共资源交易服务中心招标人现场守则</a> <span class="article-time" style="float:right;margin-right:2%;">2014-09-18</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/3852557/index.html" onclick="void(0)" target="_blank" title="招标采购流程图" istitle="true">招标采购流程图</a> <span class="article-time" style="float:right;margin-right:2%;">2014-09-18</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/3852558/index.html" onclick="void(0)" target="_blank" title="美姑县公共资源交易服务中心招标代理机构现场守则" istitle="true">美姑县公共资源交易服务中心招标代理机构现场守则</a> <span class="article-time" style="float:right;margin-right:2%;">2014-09-18</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/3852559/index.html" onclick="void(0)" target="_blank" title="美姑县公共资源交易服务中心比选、资格预审、开标及评标现场监督要点" istitle="true">美姑县公共资源交易服务中心比选、资格预审、开标及评标现场监督要点</a> <span class="article-time" style="float:right;margin-right:2%;">2013-09-11</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/3852560/index.html" onclick="void(0)" target="_blank" title="美姑县公共资源交易服务中心监督人员现场守则" istitle="true">美姑县公共资源交易服务中心监督人员现场守则</a> <span class="article-time" style="float:right;margin-right:2%;">2013-09-11</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/3852561/index.html" onclick="void(0)" target="_blank" title="美姑县教育“两基”攻坚基本教学及生活设施设备采购项目竞争性谈判邀请函" istitle="true">美姑县教育“两基”攻坚基本教学及生活设施设备采购项目竞争性谈判邀请函</a> <span class="article-time" style="float:right;margin-right:2%;">2009-04-28</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/3852562/index.html" onclick="void(0)" target="_blank" title="美姑县“两基”攻坚基本教学及生活设施设备采购声明" istitle="true">美姑县“两基”攻坚基本教学及生活设施设备采购声明</a> <span class="article-time" style="float:right;margin-right:2%;">2009-04-27</span> </p> </li>
+ <li class="easysite-article-li" style="margin-left:2%;margin-top:5px;"> <p class="article-title"> <i class="easysite-black-circle"><img src="/meigu/uiFramework/images/heidian.gif" border="0" /></i> <a href="/meigu/zfcggg63/3852563/index.html" onclick="void(0)" target="_blank" title="美姑县拉马中心校老师住宅楼、学生住宿楼、学生食堂工程项目施工招标公告" istitle="true">美姑县拉马中心校老师住宅楼、学生住宿楼、学生食堂工程项目施工招标公告</a> <span class="article-time" style="float:right;margin-right:2%;">2007-07-20</span> </p> </li> 
+</ul> 
+<div class="easysite-page-wrap" style="display:inline;margin-left:7%;"> 
+ <a tagname="[HOMEPAGE]" title="首页" class="">首页</a> 
+ <a tagname="[PREVIOUSPAGE]" title="上一页" class="">上一页</a> 
+ <a title="下一页" tagname="[NEXTPAGE]" class="">下一页</a> 
+ <a title="尾页" tagname="[LASTPAGE]" class="">尾页</a> 
+</div> 
+<div class="easysite-total-page" style="display:inline;margin-left:10%;"> 
+ <span>总记录数:<b>11</b>,每页显示<b>26</b>条记录,当前页: <font color="red"><b>1</b></font> /<b>1</b></span> 
+</div> 
+<div class="easysite-jump-page" style="display:inline;margin-left:10%;"> 
+ <span>跳转至</span> 
+ <input type="text" value="" size="5" class="easysite-page-text" onkeydown="jumpToPage(event,this,'1','1','/eportal/ui?pageId=3502211&currentPage=%1&moduleId=1964cc3405fe47359f84a301e067ea37||/meigu/zfcggg63/1964cc34-%1.html')" />页 
+ <input class="easysite-jump-btn" type="button" value="跳转" onclick="jumpTo(this,'1','1','/eportal/ui?pageId=3502211&currentPage=%1&moduleId=1964cc3405fe47359f84a301e067ea37||/meigu/zfcggg63/1964cc34-%1.html')" /> 
+</div> 
+<input type="hidden" name="article_paging_list_hidden" moduleid="1964cc3405fe47359f84a301e067ea37" modulekey="1964cc3405fe47359f84a301e067ea37" totalpage="1" /> 
+ </div> 
+</div>      </div> 
+    </div> 
+   </div> 
+   <div style="height:50px;"> 
+   </div> 
+   <div>
+     <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "微软雅黑";
+    }
+    #footer{
+        min-height: 215px;
+        width: 100%;
+        float:left
+    }
+    #f_color{
+        width: 100%;
+        height: 5%;
+        min-height: 12px;
+        background-color: red;
+    }
+    #f_com{
+        width: 100%;
+        height: 34%;
+        min-height: 73px;
+        line-height: 73px;
+    }
+    #f_com span{
+        float: left;
+        font-size: 12px;
+       
+    }
+    #f_com span:first-child{
+        margin-left: 18%;
+        margin-right: 3%;
+    }
+    #f_com span:nth-of-type(2){
+        margin-left: 2%;
+    }
+    #f_com li{
+        float:left;
+        width: 6%;
+        margin-right: 5px;
+    }
+    #f_com li:first-of-type{
+        list-style: none;
+    }
+    #f_com a{
+        color: black;
+        text-decoration: none;
+    }
+    #f_com a:hover{
+        color:red;
+    }
+    /*---------------------------------------------站点信息----------------------------------*/
+    #f_ms{
+        min-height: 132px;
+        width: 100%;
+    }
+    #f_ms>div{
+        float: left;
+    }
+    #biaozhi{
+       /*--- background-image: url("/meigu/uiFramework/commonResource/image/2016091816212548254.png");---*/
+    width: 5%;
+    min-width: 52px;
+    min-height: 64px;
+    margin-left: 31%;
+    background-repeat: no-repeat;
+    margin-right: 3%;
+    margin-top: -10px;
+    }
+    #f_ms>div:nth-of-type(3){
+        margin-left: 10px;
+    }
+</style>
+<div id="footer">
+    <div id="f_color"></div>
+    <div id="f_com">
+        <span>/////////////////////////////////</span>
+        <ul>
+            <li><a href="/meigu/wzdt59/index.html" target="_blank">网站地图</a></li>
+            <li><a href="/meigu/zzsm50/index.html" target="_blank">郑重声明</a></li>
+            <li><a href="/meigu/nrjc40/index.html" target="_blank">内容纠错</a></li>
+            <li><a href="/meigu/sybz99/index.html" target="_blank">使用帮助</a></li>
+            <li><a href="/meigu/lxwm96/index.html" target="_blank">联系我们</a></li>
+        </ul>
+        <span>/////////////////////////////////</span>
+    </div>
+    <div id="f_ms">
+        <div id="biaozhi">
+                   <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='http://dcs.conac.cn/js/23/353/1990/60025991/CA233531990600259910003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+        </div>
+        <div><script id="_jiucuo_" sitecode='5134360001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js?v=0.8118401237297803'></script></div>
+        <div>
+            <span>版权所有:美姑县人民政府</span><br/>
+            <span>网站维护:美姑县人民政府办公室</span><br/>
+            <span>网站维护:美姑县人民政府办公室</span><br/>
+            <span>电话：0834-8241383</span><br/>
+            <span>蜀ICP备09001938号</span>
+        </div>
+
+    </div><div style="float:right;margin-right:15px;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261211113'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1261211113%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></div>
+</div>   </div> 
+  </div> 
+  <br /><div style="display:none" easysite="easysiteHiddenDiv">
+<input type="hidden"  id="currentLoginUserLoginName"/>
+<input type="hidden"  id="currentLoginUserLoginId"/>
+<input type="hidden"  id="currentLoginUserIsSuperAdmin"/>
+</div>
+ </body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>通知公告 - 西南石油大学（南充）官方网站</title>
+<meta name="keywords" content="西南石油大学（南充）官方网站">
+<meta name="description" content="西南石油大学（南充）官方网站">
+<link href="http://ncxq.swpu.edu.cn/statics/css/reset1.css" rel="stylesheet" type="text/css" />
+<link href="http://ncxq.swpu.edu.cn/statics/css/default_blue.css" rel="stylesheet" type="text/css" />
+<link href="http://ncxq.swpu.edu.cn/statics/css/foucs_img.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="http://ncxq.swpu.edu.cn/statics/js/jquery-1.5.1.js"></script>
+<script type="text/javascript" src="http://ncxq.swpu.edu.cn/statics/js/jquery.sudoSlider.min.js"></script>
+<script type="text/javascript" src="http://ncxq.swpu.edu.cn/statics/js/app.js"></script>
+<script type="text/javascript" src="http://ncxq.swpu.edu.cn/statics/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://ncxq.swpu.edu.cn/statics/js/foucs_img.js"></script>
+<script type="text/javascript" src="http://ncxq.swpu.edu.cn/statics/js/jquery.sgallery.js"></script>
+<script type="text/javascript" src="http://ncxq.swpu.edu.cn/statics/js/search_common.js"></script>
+<script type="text/javascript" src="http://ncxq.swpu.edu.cn/statics/js/swpu_common.js"></script>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <a href="http://ncxq.swpu.edu.cn/"><img src="http://ncxq.swpu.edu.cn/statics/images/swpu/logo.png" /></a>
+        <div class="logo-sub"><img src="http://ncxq.swpu.edu.cn/statics/images/swpu/logo-sub.png" /></div>
+        <div class="content">
+                                                  <script type="text/javascript">
+        $(function(){
+            startmarquee('announ',22,1,500,3000);
+        })
+        </script>
+            <div class="minilogin">
+				<div style="float:right; margin:0 auto; margin-top:10px; margin-right:10px; font-size:12px;">
+					<span><a href="http://www.swpu.edu.cn" target="_blank" style="padding-right:10px;">学校主页</a></span>
+					<span><a href="javascript:;" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.swpuspark.com')" style="padding-right:10px;">设为首页</a></span>
+					<span><a href="javascript:;" onclick="javascript:window.external.AddFavorite('http://www.swpuspark.com','西南石油大学南充校区、应用技术学院')">加入收藏</a></span>
+				</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-bar">
+        <map>
+        		<ul class="nav-site">
+			<li onmouseover="mouseshow('nav_0')"><a href="http://ncxq.swpu.edu.cn" class="nav_item"><span>网站首页</span></a></li>
+						<li class="line">|</li>
+			<li onmouseover="mouseshow('nav_9')" onmouseout="nouseclose('nav_9')"><a href="http://ncxq.swpu.edu.cn" class="nav_item"><span>校区概况</span></a>
+				<div id="nav_9" name="nav_info" class="nav-sub" onmouseout="nouseclose('nav_9')">
+									 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=19" class="nav_sub_item"><span>校区介绍</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=21" class="nav_sub_item"><span>人才师资</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=22" class="nav_sub_item"><span>校园导览</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=23" class="nav_sub_item"><span>校园风光</span></a>
+					 </p>
+					 					 								</div>
+			</li>
+						<li class="line">|</li>
+			<li onmouseover="mouseshow('nav_10')" onmouseout="nouseclose('nav_10')"><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=10" class="nav_item"><span>机构设置</span></a>
+				<div id="nav_10" name="nav_info" class="nav-sub" onmouseout="nouseclose('nav_10')">
+									 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=74" class="nav_sub_item"><span>校区领导</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=75" class="nav_sub_item"><span>组织结构</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=25" class="nav_sub_item"><span>南充校区机构设置</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=26" class="nav_sub_item"><span>学院及专业</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://hqnc.swpu.edu.cn/" target="_blank" class="nav_sub_item"><span>后勤服务公司</span></a>
+					 					 								</div>
+			</li>
+						<li class="line">|</li>
+			<li onmouseover="mouseshow('nav_11')" onmouseout="nouseclose('nav_11')"><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=11" class="nav_item"><span>党政工作</span></a>
+				<div id="nav_11" name="nav_info" class="nav-sub" onmouseout="nouseclose('nav_11')">
+									 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=28" class="nav_sub_item"><span>理论学习</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=29" class="nav_sub_item"><span>组工文件</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=77" class="nav_sub_item"><span>工作动态</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=30" class="nav_sub_item"><span>组织建设</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=31" class="nav_sub_item"><span>时代先锋</span></a>
+					 </p>
+					 					 								</div>
+			</li>
+						<li class="line">|</li>
+			<li onmouseover="mouseshow('nav_12')" onmouseout="nouseclose('nav_12')"><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=12" class="nav_item"><span>群团工作</span></a>
+				<div id="nav_12" name="nav_info" class="nav-sub" onmouseout="nouseclose('nav_12')">
+									 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=32" class="nav_sub_item"><span>师生权益</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=33" class="nav_sub_item"><span>工会活动</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=34" class="nav_sub_item"><span>教代会</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=35" class="nav_sub_item"><span>团委</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=36" class="nav_sub_item"><span>学生会</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=37" class="nav_sub_item"><span>学生社团</span></a>
+					 </p>
+					 					 								</div>
+			</li>
+						<li class="line">|</li>
+			<li onmouseover="mouseshow('nav_13')" onmouseout="nouseclose('nav_13')"><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=13" class="nav_item"><span>教育教学</span></a>
+				<div id="nav_13" name="nav_info" class="nav-sub" onmouseout="nouseclose('nav_13')">
+									 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=38" class="nav_sub_item"><span>教务通知</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=39" class="nav_sub_item"><span>教学管理</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=76" class="nav_sub_item"><span>人才培养</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=40" class="nav_sub_item"><span>职业技能培训</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=41" class="nav_sub_item"><span>自学考试</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=42" class="nav_sub_item"><span>质量工程</span></a>
+					 </p>
+					 					 								</div>
+			</li>
+						<li class="line">|</li>
+			<li onmouseover="mouseshow('nav_14')" onmouseout="nouseclose('nav_14')"><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=14" class="nav_item"><span>学生工作</span></a>
+				<div id="nav_14" name="nav_info" class="nav-sub" onmouseout="nouseclose('nav_14')">
+									 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=43" class="nav_sub_item"><span>思政教育</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=44" class="nav_sub_item"><span>学工队伍</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=45" class="nav_sub_item"><span>招生就业</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=46" class="nav_sub_item"><span>学风建设</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=47" class="nav_sub_item"><span>日常管理</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=48" class="nav_sub_item"><span>心理健康</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=49" class="nav_sub_item"><span>先进典型</span></a>
+					 </p>
+					 					 								</div>
+			</li>
+						<li class="line">|</li>
+			<li onmouseover="mouseshow('nav_15')" onmouseout="nouseclose('nav_15')"><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=15" class="nav_item"><span>实习实训</span></a>
+				<div id="nav_15" name="nav_info" class="nav-sub" onmouseout="nouseclose('nav_15')">
+									 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=50" class="nav_sub_item"><span>总体概况</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=51" class="nav_sub_item"><span>校内实习实训</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=52" class="nav_sub_item"><span>校外实习实训</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=53" class="nav_sub_item"><span>规章制度</span></a>
+					 </p>
+					 					 								</div>
+			</li>
+						<li class="line">|</li>
+			<li onmouseover="mouseshow('nav_16')" onmouseout="nouseclose('nav_16')"><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=16" class="nav_item"><span>平安校园</span></a>
+				<div id="nav_16" name="nav_info" class="nav-sub" onmouseout="nouseclose('nav_16')">
+									 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=55" class="nav_sub_item"><span>指导思想</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=56" class="nav_sub_item"><span>法制法规</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=57" class="nav_sub_item"><span>政保综治</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=58" class="nav_sub_item"><span>治安户籍</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=59" class="nav_sub_item"><span>安全消防</span></a>
+					 </p>
+					 					 								</div>
+			</li>
+						<li class="line">|</li>
+			<li onmouseover="mouseshow('nav_17')" onmouseout="nouseclose('nav_17')"><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=17" class="nav_item"><span>服务指南</span></a>
+				<div id="nav_17" name="nav_info" class="nav-sub" onmouseout="nouseclose('nav_17')">
+									 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=60" class="nav_sub_item"><span>后勤服务</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=61" class="nav_sub_item"><span>校区医院</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=62" class="nav_sub_item"><span>图书馆</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=63" class="nav_sub_item"><span>现教中心</span></a>
+					 </p>
+					 					 					 <p>
+					 					 <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=64" class="nav_sub_item"><span>办公电话</span></a>
+					 </p>
+					 					 								</div>
+			</li>
+					</ul>
+                        </map>
+    </div> 
+    
+</div>
+<div class="sub_head_bg">
+	<img src="http://ncxq.swpu.edu.cn/statics/images/swpu/swpu_01.jpg">
+</div>
+
+<!--main-->
+<div class="main">
+	<div class="col-left-nav">
+		<div class="left-nav-head"><h5 class="title">其他栏目</h5></div>
+							<div class="left-nav-br"></div>
+									<div><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=24" class="left-nav-select">通知公告</a></div>
+						<div class="left-nav-hr"></div>
+									<div><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=66" class="left-nav-normal">领导信箱</a></div>
+						<div class="left-nav-hr"></div>
+									<div><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=67" class="left-nav-normal">信息公开</a></div>
+						<div class="left-nav-hr"></div>
+									<div><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=69" class="left-nav-normal">合作交流</a></div>
+						<div class="left-nav-hr"></div>
+									<div><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=71" class="left-nav-normal">权益维护</a></div>
+						<div class="left-nav-hr"></div>
+									<div><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=72" class="left-nav-normal">校友工作</a></div>
+						<div class="left-nav-hr"></div>
+									<div><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=73" class="left-nav-normal">校区荣誉</a></div>
+						<div class="left-nav-hr"></div>
+									<div><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=78" class="left-nav-normal">文档下载</a></div>
+						<div class="left-nav-hr"></div>
+							<!--<div class="left-nav-foot"></div>-->
+	</div>
+	
+	<div class="col-right">
+    	<div class="crumbs"><a href="http://ncxq.swpu.edu.cn">首页</a><span> > </span><a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=65">其他栏目</a> > <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=lists&catid=24">通知公告</a> >  文章列表</div>
+		<div style="height:10px;"></div>
+    	        <ul class="list lh24 f14">
+						<li><span class="rt">2018-01-08</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4818" target="_blank" style="" >关于征求南充校区领导班子和处级领导干部民主生活会意见的通知</a></li>
+									<li><span class="rt">2017-12-30</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://www.swpu.edu.cn/bgw/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1082&wbnewsid=36494" target="_blank" style="color:#FF0000;" >西南石油大学南充校区2018年实验技术岗位需求计划</a></li>
+									<li><span class="rt">2017-12-30</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://www.swpu.edu.cn/bgw/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1082&wbnewsid=36496" target="_blank" style="color:#FF0000;" >西南石油大学南充校区2018年师资需求计划</a></li>
+									<li><span class="rt">2017-12-26</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4795" target="_blank" style="" >关于推荐采购图书的通知</a></li>
+									<li><span class="rt">2017-12-22</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4771" target="_blank" style="" >后勤服务公司台式电脑、一体机、复印机比选结果公示</a></li>
+			<li class="bk20 hr"></li>						<li><span class="rt">2017-12-20</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4762" target="_blank" style="" >南充校区后勤服务公司关于推迟开标时间的公告</a></li>
+									<li><span class="rt">2017-12-20</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://www.swpu.edu.cn/bgw/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1082&wbnewsid=36281" target="_blank" style="" >西南石油大学（南充）学生食堂电缆敷设工程比选公告</a></li>
+									<li><span class="rt">2017-12-18</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4757" target="_blank" style="" >关于2017年冬季对南充校区教职工宿舍进行水、电、气安全检查的通知</a></li>
+									<li><span class="rt">2017-12-15</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4744" target="_blank" style="color:#FF0000;font-weight:bold;" >西南石油大学（南充）诚聘英才</a></li>
+									<li><span class="rt">2017-12-14</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4742" target="_blank" style="" >【学术讲座】水下智能机器人的研究及发展</a></li>
+			<li class="bk20 hr"></li>						<li><span class="rt">2017-12-13</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4741" target="_blank" style="" >南充校区后勤服务公司台式电脑、一体机、复印机采购项目招标公告</a></li>
+									<li><span class="rt">2017-12-12</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4737" target="_blank" style="" >【学术讲座】中英两国教育</a></li>
+									<li><span class="rt">2017-12-12</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4736" target="_blank" style="" >【学术讲座】人工智能漫谈</a></li>
+									<li><span class="rt">2017-12-12</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4735" target="_blank" style="" >关于组织召开南充校区党员大会的通知</a></li>
+									<li><span class="rt">2017-12-12</span><span style="padding:0px; font-family: 宋体;">·</span> <a href="http://ncxq.swpu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=4734" target="_blank" style="" >关于组织开展西南石油大学2018年“创青春”全国大学生创业大赛南充校区选拔赛的通知</a></li>
+			<li class="bk20 hr"></li>			        </ul>
+        <div id="pages" class="text-c" style="padding-top:5px;"><a class="a1">345条</a> <a href="index.php?m=content&c=index&a=lists&catid=24" class="a1">上一页</a> <span>1</span> <a href="index.php?m=content&c=index&a=lists&catid=24&page=2">2</a> <a href="index.php?m=content&c=index&a=lists&catid=24&page=3">3</a> <a href="index.php?m=content&c=index&a=lists&catid=24&page=4">4</a> <a href="index.php?m=content&c=index&a=lists&catid=24&page=5">5</a> <a href="index.php?m=content&c=index&a=lists&catid=24&page=6">6</a> <a href="index.php?m=content&c=index&a=lists&catid=24&page=7">7</a> <a href="index.php?m=content&c=index&a=lists&catid=24&page=8">8</a> <a href="index.php?m=content&c=index&a=lists&catid=24&page=9">9</a> <a href="index.php?m=content&c=index&a=lists&catid=24&page=10">10</a> ..<a href="index.php?m=content&c=index&a=lists&catid=24&page=23">23</a> <a href="index.php?m=content&c=index&a=lists&catid=24&page=2" class="a1">下一页</a></div>
+			</div>
+
+</div>
+<div class="footer">
+<p class="info">地址：四川省南充市顺庆区油院路30号&nbsp;西南石油大学&nbsp;&nbsp;邮编：637001&nbsp;&nbsp;校区电话：0817-2642308&nbsp;&nbsp;办公室电话：0817-2642308<br/>
+版权：西南石油大学南充校区&nbsp;All Rights Reserved&nbsp;&nbsp;技术支持：<a href="http://www.cdniutu.com/" target="_blank">成都牛途科技</a>&nbsp;&nbsp;<a href="/ncadmin.php" target="_blank">管理入口</a></p>
+</div>
+<script type="text/javascript">
+$(function(){
+	$(".picbig").each(function(i){
+		var cur = $(this).find('.img-wrap').eq(0);
+		var w = cur.width();
+		var h = cur.height();
+	   $(this).find('.img-wrap img').LoadImage(true, w, h,'http://ncxq.swpu.edu.cn/statics/images/msg_img/loading.gif');
+	});
+})
+</script>
+</body>
+</html>

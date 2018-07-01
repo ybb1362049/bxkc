@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>西安交通大学口腔医院医疗设备采购项目（二次）招标公告-红城国际工程项目管理有限公司</title>
+<meta name="keywords" content="西安施工监理" />
+<meta name="description" content="红城国际工程项目管理有限公司受西安交通大学口腔医院委托，对西安交通大学口腔医院医疗设备采购项目进行公开招标，欢迎具有相应资质和能力的投标单位参加投标。一、采购项目名称：西安交通大学口腔医院医疗设备采购项目二、采购项目编号：HCZB-ZFCG..." />
+<link rel="stylesheet" type="text/css" href="http://www.ehongcheng.com/template/default/style/base.css?9.2" />
+<link rel="stylesheet" type="text/css" href="http://www.ehongcheng.com/template/default/style/model.css?9.2" />
+<link rel="stylesheet" type="text/css" href="http://www.ehongcheng.com/template/default/style/main.css?9.2" />
+<link rel="stylesheet" type="text/css" href="http://www.ehongcheng.com/template/default/style/lightbox.css?9.2" />
+
+<script src="http://www.ehongcheng.com/template/default/js/jquery-1.8.3.min.js?9.2"></script>
+<script src="http://www.ehongcheng.com/template/default/js/mobile.js?9.2"></script>
+<script>
+var url = 'http://www.ehongcheng.com/';
+var cid = '';
+var pathname = location.pathname;
+var urlArray = pathname.split("/");
+var name = '';
+if((url.match(urlArray[1]))){
+	for(i=2;i<urlArray.length;i++){
+		name= name+"/"+urlArray[i];
+	}
+	name = url+"m"+name;
+}else{
+	name = url+"m"+pathname;
+}
+if(cid == 1)
+{
+	name = name.replace("/about/","/about_about/");
+}
+uaredirect(name);
+</script>
+
+</head>
+<body>
+<!-- 公共头部包含 -->
+<div id="header">
+  <div class="top clearfix">
+  <div class="welcome">
+        <div class="fl"><p>您好！欢迎访问红城国际工程项目管理有限公司官网！</p></div>
+        <div class="k1 fr">
+        <a href="http://www.ehongcheng.com/region/" >企业分站</a> |
+        <a href="http://www.ehongcheng.com/sitemap/">网站地图</a> |
+        <a href="http://www.ehongcheng.com/rss.xml">RSS</a> |
+        <a href="http://www.ehongcheng.com/sitemap.xml">XML</a>
+        </div>
+  </div>
+    <div class="logo">
+      <a href="http://www.ehongcheng.com/" class="logo"><img alt="陕西施工监理" src="http://www.ehongcheng.com/data/images/other/20170826163323_320.png" /></a>
+    </div>
+    <div class="topLink">
+ <!-- 导航栏包含 -->
+  <div id="menu" >
+  <ul class="nav clearfix">
+      <li><a href="http://www.ehongcheng.com/">红城首页</a></li>
+      <li><a href="http://www.ehongcheng.com/about/">公司概况</a>
+        <div class="sec">
+                                 <a href="http://www.ehongcheng.com/about/company.html">公司简介</a>
+                                  <a href="http://www.ehongcheng.com/about/zjlzcaa7.html">总经理致辞</a>
+                                  <a href="http://www.ehongcheng.com/about/zzjg283.html">组织机构</a>
+                                  <a href="http://www.ehongcheng.com/about/tdfcb8a.html">团队风采</a>
+                                  <a href="http://www.ehongcheng.com/about/ryzzce0.html">荣誉资质</a>
+                                  <a href="http://www.ehongcheng.com/about/fzlc176.html">发展历程</a>
+                                  <a href="http://www.ehongcheng.com/about/qysp881.html">企业视频</a>
+                                  <a href="http://www.ehongcheng.com/about/fgsdt1af.html">分公司地图</a>
+                                  <a href="http://www.ehongcheng.com/about/contact.html">联系我们</a>
+                        </div>
+      </li>
+      <li><a href="http://www.ehongcheng.com/product/">经营项目</a>
+        <div class="sec">
+                       <a href="http://www.ehongcheng.com/product/cpfl100/">造价咨询</a>
+                       <a href="http://www.ehongcheng.com/product/cpfly0c5/">招标代理</a>
+                       <a href="http://www.ehongcheng.com/product/cpfle872/">工程项目</a>
+                       <a href="http://www.ehongcheng.com/product/cpflsdab/">施工监理</a>
+                   </div>
+      </li>
+
+      <li><a href="http://www.ehongcheng.com/news/">行业公告</a>
+        <div class="sec">
+                                 <a href="http://www.ehongcheng.com/news/company/">通知公告</a>
+                                  <a href="http://www.ehongcheng.com/news/xydt/">企业动态</a>
+                                  <a href="http://www.ehongcheng.com/news/jszx30f/">行业信息</a>
+                                  <a href="http://www.ehongcheng.com/news/zbggf85/">招标公告</a>
+                                  <a href="http://www.ehongcheng.com/news/zbgs301/">中标公示</a>
+                        </div>
+      </li>
+      <li><a href="http://www.ehongcheng.com/case/">工程案例</a>
+  <div class="sec">
+                       <a href="http://www.ehongcheng.com/case/yjal/"target=''>经典案例</a>
+             </div>
+  </li>
+
+      <li class="lxff"><a href="http://www.ehongcheng.com/about_dian/">店铺</a></li>
+  </ul>
+</div>
+
+<script type="text/javascript">
+
+$(function(){
+	$('.nav > li').hover(function(){
+		var sec_count  = $(this).find('.sec a').length;
+		var a_height   = $(this).find('.sec a').eq(0).height();
+		var sec_height =  sec_count * a_height;
+		$(this).find('.sec').stop().animate({height:sec_height},300);
+	},function(){
+		$(this).find('.sec').stop().animate({height:0},300);
+	});
+});
+
+
+</script>
+
+
+
+        </div>
+  </div>
+
+</div>
+<script type="text/javascript">
+$(function(){
+  $('.translate-en a').last().css('border','none');
+  $('.translate li').hover(function(){
+    $(this).find('.translate-en').stop().slideDown();
+  },function(){
+    $(this).find('.translate-en').stop().slideUp();
+  }
+  );
+});
+</script>
+
+<!-- 内页banner -->
+
+
+            <div class="n_banner"><img src="http://www.ehongcheng.com/data/images/banner/20170120110031_198.jpg" alt="西安施工监理" title="西安施工监理" /></div>
+    
+
+<!-- 主体部分 -->
+<div id="container" class="clearfix">
+	<div class="left">
+		<div class="box sort_menu">
+		  <h3>行业公告</h3>
+		  
+	<ul class="sort">
+    	<li class="layer1">
+      <a href="http://www.ehongcheng.com/news/company/" class="list_item">通知公告</a>
+      <div class="layer2" style="display:none;">
+      	<ul>
+        	        </ul>
+      </div>
+    </li>
+    	<li class="layer1">
+      <a href="http://www.ehongcheng.com/news/xydt/" class="list_item">企业动态</a>
+      <div class="layer2" style="display:none;">
+      	<ul>
+        	        </ul>
+      </div>
+    </li>
+    	<li class="layer1">
+      <a href="http://www.ehongcheng.com/news/jszx30f/" class="list_item">行业信息</a>
+      <div class="layer2" style="display:none;">
+      	<ul>
+        	        </ul>
+      </div>
+    </li>
+    	<li class="layer1">
+      <a href="http://www.ehongcheng.com/news/zbggf85/" class="list_item">招标公告</a>
+      <div class="layer2" style="display:none;">
+      	<ul>
+        	        </ul>
+      </div>
+    </li>
+    	<li class="layer1">
+      <a href="http://www.ehongcheng.com/news/zbgs301/" class="list_item">中标公示</a>
+      <div class="layer2" style="display:none;">
+      	<ul>
+        	        </ul>
+      </div>
+    </li>
+     
+</ul>
+
+<script type="text/javascript">
+$(".layer1").hover
+(
+	function()
+	{
+		if($(this).find(".layer2 li").length > 0)
+		{
+			$(this).find(".layer2").show();
+		}
+	},
+	function()
+	{
+		$(this).find(".layer2").hide();
+	}
+);
+
+$(".layer2 li").hover
+(
+	function()
+	{
+		if($(this).find(".layer3 li").length > 0)
+		{
+			$(this).find(".layer3").show();
+		}
+	},
+	function()
+	{
+		$(this).find(".layer3").hide();
+	}
+);
+</script>
+
+		</div>
+		
+		<div class="box sort_product">
+		  <h3>产品分类</h3>
+		  <ul class="sort">
+    	<li class="layer1">
+      <a href="http://www.ehongcheng.com/product/cpfl100/" class="list_item">造价咨询</a>
+      <div class="layer2" style="display:none;">
+      	<ul>
+        	        </ul>
+      </div>
+    </li>
+    	<li class="layer1">
+      <a href="http://www.ehongcheng.com/product/cpfly0c5/" class="list_item">招标代理</a>
+      <div class="layer2" style="display:none;">
+      	<ul>
+        	        </ul>
+      </div>
+    </li>
+    	<li class="layer1">
+      <a href="http://www.ehongcheng.com/product/cpfle872/" class="list_item">工程项目</a>
+      <div class="layer2" style="display:none;">
+      	<ul>
+        	        </ul>
+      </div>
+    </li>
+    	<li class="layer1">
+      <a href="http://www.ehongcheng.com/product/cpflsdab/" class="list_item">施工监理</a>
+      <div class="layer2" style="display:none;">
+      	<ul>
+        	        </ul>
+      </div>
+    </li>
+     
+</ul>
+
+<script type="text/javascript">
+$(".layer1").hover
+(
+	function()
+	{   
+		if($(this).find(".layer2 li").length > 0)
+		{
+			$(this).find(".layer2").stop().show();
+
+		}
+		$(this).addClass("change");
+	},
+	function()
+	{
+		$(this).find(".layer2").stop().hide();
+		$(this).removeClass("change");
+	}
+);
+</script>
+		</div>
+		
+		<div class="box n_news">
+			<h3>最新新闻</h3>
+			<div class="content">
+			   <ul class="news_list new1">
+			   	   			       <li><a href="http://www.ehongcheng.com/news/743.html" title="泾渭新城2017年度市政工程—渭环东路（纬三路—高永路）道路管网工程">泾渭新城2017年度市政工...</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/news/741.html" title="宁强县巨亭至高潭子公路建设工程“建养一体化”服务招标中标公示">宁强县巨亭至高潭子公路建设...</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/news/744.html" title="住房城乡建设部办公厅关于取消工程建设项目招标代理机构资格认定加强事中事后监管的通知">住房城乡建设部办公厅关于取...</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/news/740.html" title="宁强县巨亭至高潭子公路建设工程“建养一体化”服务监理招标中标公示">宁强县巨亭至高潭子公路建设...</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/news/742.html" title="泾渭新城2017年度监理工程Ⅲ标段">泾渭新城2017年度监理工...</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/news/733.html" title="陕西紫阳农村商业银行股份有限公司2018年春季服装采购项目  中标公示">陕西紫阳农村商业银行股份有...</a></li>
+			     			   </ul>
+			</div>
+		</div>
+		<div class="box n_news">
+			<h3>热门关键词</h3>
+			<div class="content">
+			   <ul class="news_list words">
+			   	 			       <li><a href="http://www.ehongcheng.com/search.php?wd=西安施工监理" title="西安施工监理">西安施工监理</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/search.php?wd=陕西施工监理" title="陕西施工监理">陕西施工监理</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/search.php?wd=陕西招标代理公司" title="陕西招标代理公司">陕西招标代理公司</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/search.php?wd=陕西造价咨询" title="陕西造价咨询">陕西造价咨询</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/search.php?wd=施工监理公司" title="施工监理公司">施工监理公司</a></li>
+			     			       <li><a href="http://www.ehongcheng.com/search.php?wd=陕西施工监理公司" title="陕西施工监理公司">陕西施工监理公司</a></li>
+			     			   </ul>
+			</div>
+			<script type="text/javascript">
+			  $(function(){
+			  	$(".words li:odd").addClass("right_word");
+			  });
+			</script>
+		</div>
+		<div class="box n_contact">
+		  <h3>联系我们</h3>
+		  <div class="content"><p>公司名称：红城国际工程项目管理有限公司</p><p>地址：西安市碑林区环城东路南段1号生产力大厦7楼709室</p><p>联系人：曹苗苗（女士）</p><p>手机：15349269388</p><p>电话：029-82481368</p><p>传真：029-82164960</p><p>邮编：710048</p><p>邮箱：akzx08@188.com</p><p>公司网址：www.ehongcheng.com</p></div>
+		</div>
+	</div>
+	<div class="right">
+	  <div class="sitemp clearfix">
+	    <h2>
+	西安交通大学口腔医院医疗设备采购项目（二次）招标公告
+</h2>
+	    <div class="site">您的当前位置：
+	    
+	 <a href="http://www.ehongcheng.com/">首 页</a> >> <a href="http://www.ehongcheng.com/news/">行业公告</a> >> <a href="http://www.ehongcheng.com/news/zbggf85/">招标公告</a>
+
+	    </div>
+	  </div>
+	  <div class="content">
+	   
+	<!-- 新闻详细 -->
+<div class="news_detail">
+	<h1 class="title">西安交通大学口腔医院医疗设备采购项目（二次）招标公告</h1>
+<div class="info_title clearfix">	
+	<h3 class="title_bar">
+	 发布日期：<span>2017-12-27</span>
+	 作者：<span>红城国际工程项目管理有限公司</span>
+	 点击：<span><script src="http://www.ehongcheng.com/data/include/newshits.php?id=738"></script></span> 
+	</h3>
+	<div class="share">
+<!-- Baidu Button BEGIN -->
+<div class="bdsharebuttonbox">
+<a href="#" class="bds_more" data-cmd="more"></a>
+<a href="#" class="bds_qzone" data-cmd="qzone"></a>
+<a href="#" class="bds_tsina" data-cmd="tsina"></a>
+<a href="#" class="bds_tqq" data-cmd="tqq"></a>
+<a href="#" class="bds_renren" data-cmd="renren"></a>
+<a href="#" class="bds_weixin" data-cmd="weixin"></a>
+</div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!-- Baidu Button END -->	
+	</div>
+</div>	
+	<div class="content"><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px"><span style="text-decoration:underline;">红城国际工程项目管理有限公司</span>受<span style="text-decoration:underline;">西安交通大学口腔医院</span>委托，对<span style="text-decoration:underline;">西安交通大学口腔医院医疗设备采购项目</span>进行公开招标，欢迎具有相应资质和能力的投标单位参加投标。</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">一、采购项目名称：西安交通大学口腔医院医疗设备采购项目&nbsp;</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">二、采购项目编号：HCZB-ZFCG-2017079</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">三、采购人名称：西安交通大学口腔医院 &nbsp;&nbsp;</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">&nbsp; &nbsp; &nbsp; 地址：西安市新城区西五路98号&nbsp;&nbsp;&nbsp;电话：029-87216286 &nbsp;</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">四、招标代理机构：红城国际工程项目管理有限公司 &nbsp;&nbsp;</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">&nbsp; &nbsp; &nbsp; 地址：西安市碑林区乐居场南路47号412室&nbsp;&nbsp;&nbsp;电话：029-83652656</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">五、招标内容：</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">&nbsp; &nbsp; &nbsp; 第9包：口内扫描仪，1台，30万（进口，已论证）；&nbsp;</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">&nbsp; &nbsp; &nbsp; 第14包：CBCT三合一，1台，60万。</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">六、投标单位资格要求：</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">1、供应商应具备《政府采购法》第二十二条规定的条件；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">2、具有独立承担民事责任的能力；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">3、提供法定代表人证明书及法定代表人身份证复印件或法定代表人授权委托书及授权代表身份证复印件；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">4、投标单位需具有《医疗器械生产许可证》或《医疗器械经营许可证》，投标产品具有《中华人民共和国医疗器械注册证》。</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal">&nbsp; &nbsp; &nbsp; &nbsp; 5、具有良好的商业信誉和健全的财务会计制度；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal">&nbsp; &nbsp; &nbsp; &nbsp; 6、具有履行合同所必需的设备和专业技术能力；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal">&nbsp; &nbsp; &nbsp; &nbsp; 7、依法缴纳税收和社会保障资金的良好记录；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal">&nbsp; &nbsp; &nbsp; &nbsp; 8、参加政府采购活动前三年内，在经营活动中没有重大违法记录；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;9、本采购项目不接受联合体投标。</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal">&nbsp; &nbsp; &nbsp; &nbsp; 10、投标产品如有需长期配送配套耗材的，投标单位应符合国医改办发〔2016〕4号文件要求，具备两票制配送耗材的能力。</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">11、项目完成需要提供的其他资质证明资料，详见招标内容要求。</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">七、采购项目需要落实的政府采购政策：1、《政府采购促进中小企业发展暂行办法》的通知--财库[2011]181号。2、财政部司法部关于政府采购支持监狱企业发展有关问题的通知-财库〔2014〕68号。3、《国务院办公厅关于建立政府强制采购节能产品制度的通知》-国办发【２００７】５１号。4、《环境标志产品政府采购实施的意见》--财库[2006]90号。</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">八、文件发售：</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">1、发售时间：2017年12月28日至2018年1月5日，每日9：00～17：00（节假日除外）；招标文件每套售价500元，售后不退。</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">2、发售地点：西安市碑林区乐居场南路47号412室；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">3、购买招标文件时须携带单位介绍信、经办人身份证复印件加盖公章。</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">九、投标文件递交截止时间及地点：</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">1、投标文件递交截止时间2018年1月23日14时00分前；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">2、开标时间：2018年1月23日14时00分；</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">3、开标地点：西安市碑林区乐居场南路47号412室</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">十、招标代理机构：红城国际工程项目管理有限公司&nbsp;</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">联系人：刘工&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 电话：029-83652656</p><p style="word-wrap: break-word;margin-left: 0;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">特此公告！</p><p style="word-wrap: break-word;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">代理机构：红城国际工程项目管理有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p style="word-wrap: break-word;font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica;font-size: 12px;line-height: 18px;white-space: normal;text-indent: 32px">日期：2017年12月28日</p><p><br/></p></div>
+    <h3 class="tag">相关标签：<a href="http://www.ehongcheng.com/tag/%E8%A5%BF%E5%AE%89%E6%96%BD%E5%B7%A5%E7%9B%91%E7%90%86">西安施工监理</a> </h3>
+   <div class="page">上一篇：<a href="http://www.ehongcheng.com/news/730.html">武警一支队副食品集中采购配送项目资格预审公告</a><br />下一篇：<span><a href="http://www.ehongcheng.com/news/739.html">陕西省富平至耀州红色旅游公路上跨咸铜铁路立交桥工程设计招标公告</a></span></div>
+</div>
+	 <div class="relateproduct relate"><h4>最近浏览：</h4>
+	    <div class="content">
+	     <ul id="relate_n" class="news_list clearfix">
+		  	     </ul>
+	    </div>
+	  </div>
+    <!-- 相关产品和相关新闻 --> 
+<div class="relate_list">
+ <div class="relateproduct relate"><h4>相关产品：</h4>
+    <div class="content">
+     <ul id="relate_p" class="product_list clearfix">
+	       </ul>
+    </div>
+  </div>        
+  <div class="relatenew relate"><h4>相关新闻：</h4>
+    <div class="content">
+    <ul id="relate_n" class="news_list clearfix">
+  	  		<li><a href="http://www.ehongcheng.com/news/728.html" title="2017年西安市河渠治污截污工程—西站街污水管道工程设计">2017年西安市河渠治污截污工程—西站街污水管道工程设计</a></li>
+ 	  		<li><a href="http://www.ehongcheng.com/news/725.html" title="户县沣京工业园绿色混凝土生产及研发中心项目监理招标">户县沣京工业园绿色混凝土生产及研发中心项目监理招标</a></li>
+ 	  		<li><a href="http://www.ehongcheng.com/news/737.html" title="西安交通大学口腔医院医疗设备采购项目中标公告">西安交通大学口腔医院医疗设备采购项目中标公告</a></li>
+ 	  		<li><a href="http://www.ehongcheng.com/news/727.html" title="2017年西安市河渠治污截污工程—劳动路污水管道工程设计">2017年西安市河渠治污截污工程—劳动路污水管道工程设计</a></li>
+ 	  		<li><a href="http://www.ehongcheng.com/news/702.html" title="西安交通大学口腔医院医疗设备采购项目报名时间延期公告">西安交通大学口腔医院医疗设备采购项目报名时间延期公告</a></li>
+ 	  		<li><a href="http://www.ehongcheng.com/news/726.html" title="2017年西安市河渠治污截污工程—大兴西路、桃园路污水管道工程设计">2017年西安市河渠治污截污工程—大兴西路、桃园路污水管道工程设计</a></li>
+ 	  		<li><a href="http://www.ehongcheng.com/news/729.html" title="西咸新区泾河新城世界商贸文化之都·国际名品区项目国际名品区自营店装饰设计">西咸新区泾河新城世界商贸文化之都·国际名品区项目国际名品区自营店装饰设计</a></li>
+ 	  		<li><a href="http://www.ehongcheng.com/news/700.html" title="蓝田县华胥镇东邓村128KW光伏项目">蓝田县华胥镇东邓村128KW光伏项目</a></li>
+ 	  		<li><a href="http://www.ehongcheng.com/news/721.html" title="住房城乡建设部关于印发建筑市场信用管理暂行办法的通知">住房城乡建设部关于印发建筑市场信用管理暂行办法的通知</a></li>
+ 	  		<li><a href="http://www.ehongcheng.com/news/703.html" title="泾阳国家气象一般站业务技术用房及基础设施建设项">泾阳国家气象一般站业务技术用房及基础设施建设项</a></li>
+ 	   </ul>
+    </div>
+  </div>	
+</div>
+
+	  </div>
+	  	</div>
+</div>
+<div id="foot">
+<div id="footer">
+	<div class="f_link">友情链接：
+    		   <a href='http://zcinter.com' target='_blank' rel="nofollow" >正创网络</a>
+		   <a href='http://www.ntffyy.cn' target='_blank' rel="nofollow" >美国紫薇</a>
+		   <a href='http://www.lywssys.com' target='_blank' rel="nofollow" >鹅卵石厂家</a>
+		   <a href='http://www.zyhbjc.com' target='_blank' rel="nofollow" >蒸压灰砂砖</a>
+		   <a href='http://www.wxhengfa.com' target='_blank' rel="nofollow" >矩型管</a>
+		   <a href='http://www.dgtenxiang.com' target='_blank' rel="nofollow" >3G天线</a>
+		   <a href='http://www.qdxpkjx.com' target='_blank' rel="nofollow" >聚氨酯保温管生产线</a>
+		   <a href='http://www.whnlfs.com.cn' target='_blank' rel="nofollow" >武汉工作服</a>
+		   <a href='http://www.dkjyq.cn' target='_blank' rel="nofollow" >乳胶漆厂家</a>
+		   <a href='http://www.shunjiamenye.com' target='_blank' rel="nofollow" >济南电动门厂家</a>
+		   <a href='http://www.hc-machine.com' target='_blank' rel="nofollow" >平板硫化机厂家</a>
+		   <a href='http://www.wxuns.com' target='_blank' rel="nofollow" >洗地机厂家</a>
+		   <a href='http://www.hcjhsb.com' target='_blank' rel="nofollow" >苏州净化设备</a>
+		   <a href='http://www.lksanyi.net' target='_blank' rel="nofollow" > X - ray protective clothing</a>
+		   <a href='http://www.nbxiaoneng.com' target='_blank' rel="nofollow" >热板焊接机</a>
+		</div>
+	<div class="nav_foot"><p><a href="/" target="_self">网站首页</a> &nbsp;| &nbsp;<a href="/about/" target="_self">公司概况</a> &nbsp;| &nbsp;<a href="/news/" target="_self">行业公告</a> &nbsp;| &nbsp;<a href="/product/" target="_self">经营项目</a> &nbsp;| &nbsp;<a href="/case/" target="_self">工程案例</a> &nbsp;| &nbsp;<a href="/about_dian/" target="_self">店铺</a> &nbsp;| &nbsp;<a href="/about/contact.html" target="_self">联系我们</a></p></div>
+	<div class="copyright">
+		Copyright © http://www.ehongcheng.com/ 红城国际工程项目管理有限公司 专业从事于<a href="http://www.ehongcheng.com/search.php?wd=陕西施工监理">陕西施工监理</a>,<a href="http://www.ehongcheng.com/search.php?wd=陕西施工监理公司">陕西施工监理公司</a>,<a href="http://www.ehongcheng.com/search.php?wd=西安施工监理">西安施工监理</a>, 欢迎来电咨询!<br><a href="http://www.miibeian.gov.cn/">陕ICP备11006812号-1</a>&nbsp;&nbsp;Powered by <a rel="nofollow" href="http://www.cn86.cn/">祥云平台</a>&nbsp;&nbsp;技术支持：<a rel='nofollow' href='http://zcinter.com' target='_blank'>正创网络</a>
+	</div>
+	<div><a href="http://www.ehongcheng.com/getkey/" title="热推产品">热推产品</a>&nbsp;&nbsp;|&nbsp;&nbsp;主营区域：
+			<span><a href="http://www.ehongcheng.com/shanxi.html">陕西</a></span>
+			<span><a href="http://www.ehongcheng.com/ningxia.html">宁夏</a></span>
+			<span><a href="http://www.ehongcheng.com/neimenggu.html">内蒙古</a></span>
+			<span><a href="http://www.ehongcheng.com/gansu.html">甘肃</a></span>
+			<span><a href="http://www.ehongcheng.com/qinghai.html">青海</a></span>
+			<span><a href="http://www.ehongcheng.com/shanxi.html">山西</a></span>
+			<span><a href="http://www.ehongcheng.com/henan.html">河南</a></span>
+			<span><a href="http://www.ehongcheng.com/anhui.html">安徽</a></span>
+			<span><a href="http://www.ehongcheng.com/hainan.html">海南</a></span>
+			<span><a href="http://www.ehongcheng.com/suzhou.html">苏州</a></span>
+			</div>
+</div>
+</div>
+<!-- 此处为统计代码 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?013d88328fff091df410fb22327d4388";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<link rel="stylesheet" type="text/css" href="http://www.ehongcheng.com/template/default/style/kf.css" />
+<div class="kf clearfix">
+  <div class="kf_btn">
+    <span>在线客服</span>
+    <div class='open'></div>
+  </div>
+
+  <div class="kf_main">
+    <div class='top_bg'>
+    </div>
+    <div class='top_center'>
+         <ul class="kf_list">
+                          <li>
+           <a rel="nofollow" href="http://wpa.qq.com/msgrd?v=3&uin=1176156503&site=qq&menu=yes" target="_blank" >
+           <img src="http://www.ehongcheng.com/template/default/images/kf/qq.png"><span>客户服务</span>
+        </a></li>
+                            <li>
+          <a rel="nofollow" target="_blank" href="http://amos.im.alisoft.com/msg.aw?v=2&uid=llhly1314&site=cntaobao&s=1&charset=utf-8" >
+            <img src="http://www.ehongcheng.com/template/default/images/im/wangwang.gif" alt="淘宝旺旺" />淘宝旺旺
+          </a>
+        </li>
+              </ul>
+    <div class="hyperlink_a othercolor"><a href="http://www.ehongcheng.com/message/">在线留言</a></div>
+    <div id='hidden_share' class="hyperlink_b othercolor"><a href="javascript:void(0)">分享到...</a></div>
+      <div class='e_code'>
+         <img class="code" src="http://www.ehongcheng.com/data/images/other/20170306135251_616.jpg" alt="二维码" width="100" />
+         <h3>扫描二维码</h3>
+      </div>
+     
+    </div>
+        <div class='bottom_bg'> </div>
+      </div>
+</div>
+
+
+<div class="alignCenter">
+  <div class="title">
+      分享 <img src="http://www.ehongcheng.com/template/default/images/kf/chahao.jpg">
+  </div>
+  <div class='content'>
+     <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_mshare" data-cmd="mshare" title="分享到一键分享"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_kaixin001" data-cmd="kaixin001" title="分享到开心网"></a><a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_sohu" data-cmd="sohu" title="分享到搜狐白社会"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  </div>
+</div>
+
+
+<script type="text/javascript"> 
+    var href="data/images/other/20170306135251_616.jpg";
+    if(href=="")
+    {
+       $(".code").css("display","none");
+    }
+    var currentid='7';
+    if(currentid!='7')
+    {
+      switch(currentid)
+      {
+          case '1':
+          $('.kf_btn').css('background','url("http://www.ehongcheng.com/template/default/images/kf/qing.png") left 33px no-repeat');
+          $('.top_bg').css('background','url("http://www.ehongcheng.com/template/default/images/kf/qing1.png") left bottom no-repeat');
+          $('.othercolor').css('background','#40c0ac');
+          break;
+
+          case '2':
+          $('.kf_btn').css('background','url("http://www.ehongcheng.com/template/default/images/kf/puper.png") left 33px no-repeat');
+          $('.top_bg').css('background','url("http://www.ehongcheng.com/template/default/images/kf/puple1.png") left bottom no-repeat');
+          $('.othercolor').css('background','#8838cc');
+          break;
+
+          case '3':
+          $('.kf_btn').css('background','url("http://www.ehongcheng.com/template/default/images/kf/kefu_yellow.png") left 33px no-repeat');
+          $('.top_bg').css('background','url("http://www.ehongcheng.com/template/default/images/kf/yellow1.png") left bottom no-repeat');
+          $('.othercolor').css('background','#ffc713');
+          break;
+
+          case '4':
+          $('.kf_btn').css('background','url("http://www.ehongcheng.com/template/default/images/kf/kefu_left.png") left 33px no-repeat');
+          $('.top_bg').css('background','url("http://www.ehongcheng.com/template/default/images/kf/red1.png") left bottom no-repeat');
+          $('.othercolor').css('background','#e5212d');
+          break;
+
+          case '5':
+          $('.kf_btn').css('background','url("http://www.ehongcheng.com/template/default/images/kf/kefu_cheng.png") left 33px no-repeat');
+          $('.top_bg').css('background','url("http://www.ehongcheng.com/template/default/images/kf/cheng1.png") left bottom no-repeat');
+          $('.othercolor').css('background','#e65a22');
+          break;
+
+          case '6':
+          $('.kf_btn').css('background','url("http://www.ehongcheng.com/template/default/images/kf/green.png") left 33px no-repeat');
+          $('.top_bg').css('background','url("http://www.ehongcheng.com/template/default/images/kf/green1.png") left bottom no-repeat');
+          $('.othercolor').css('background','#78cf1b');
+          break;
+ 
+      }
+    }
+    var _windowScrollTop=0;    //滚动条距离顶端距离  
+    var _windowWidth=$(window).width(); //窗口宽度  
+    $(window).scroll(actionEvent).resize(actionEvent);  //监听滚动条事件和窗口缩放事件  
+        //响应事件  
+    function actionEvent(){  
+        _windowScrollTop = $(window).scrollTop();  //获取当前滚动条高度  
+     //   _windowWidth=$(window).width();//获取当前窗口宽度  
+        moveQQonline();//移动面板  
+    }  
+        //移动面板  
+    function moveQQonline(){  
+                //.stop()首先将上一次的未完事件停止，否则IE下会出现慢速僵死状态，然后重新设置面板的位置。  
+        $(".kf").stop().animate({  
+              top: _windowScrollTop+100
+             }, "fast"); 
+        $('.alignCenter').stop().animate({  
+              top: _windowScrollTop+133
+             }, "fast"); 
+    }  
+$(".kf_btn").toggle(
+  function()
+  {
+    $('.open').addClass('close');
+    $('.alignCenter').hide();
+    $(".kf_main").animate({width:'hide',opacity:'hide'},'normal',function(){
+      $(".kf_main").hide();
+      var href="data/images/other/20170306135251_616.jpg";
+      if(href==""){
+        $(".code").css("display","none");
+      }else{
+        $('.e_code img').animate({width:'hide',opacity:'hide'});
+      }
+      
+    });
+  },
+  function(){ 
+    $('.open').removeClass('close');
+    $(".kf_main").animate({opacity:'show'},'normal',function(){
+      $(".kf_main").show();
+      var href="data/images/other/20170306135251_616.jpg";
+      if(href==""){
+        $(".code").css("display","none");
+      }else{
+        $('.e_code img').animate({opacity:'show'});
+      }
+      
+    });
+  }
+);
+
+$('#hidden_share').click(function(){
+    $('.alignCenter').show();
+})
+$('.alignCenter .title img').click(function(){
+    $('.alignCenter').hide();
+})
+</script>
+
+	<!--[if IE 6]>  
+<style type="text/css">
+#m_div{position:absolute;}
+</style>  
+<![endif]-->
+<div id="m_div">
+<div class="w_title">
+	<div id="m_top"></div>
+	<div id="m_mid"></div>
+	<div id="m_bot">欢迎给我们留言</div>
+	<a href="javascript:void(0);" class="m_close" title="最小化"></a>
+</div>
+<form class="message w_message" action="http://www.ehongcheng.com/message/" method="post">
+	<input name="action" type="hidden" value="saveadd" />
+ 	<div class='index_message'>
+    	<span class="m_label d_label">请在此输入留言内容，我们会尽快与您联系。</span>
+		<textarea id="content" rows="2" cols="80" name="content" class="m_input"></textarea>
+ 	</div>
+	<div class='name_input clearfix'>
+    	<div class='input_left'>姓名</div>
+     	<div class='input_right'>
+        	<span class="m_label">联系人</span>   
+        	<input id="name" name="name" type="text" class="m_input" />
+    	</div>
+	</div>
+
+	<div class='name_input clearfix'>
+    	<div class='input_left'>电话</div>
+    	<div class='input_right'>
+        	<span class="m_label">座机/手机号码</span>
+	    	<input id="contact" name="contact" type="text" class="m_input" />
+        </div>
+    </div>
+
+    <div class='name_input clearfix'>
+    	<div class='input_left'>邮箱</div>
+    	<div class='input_right'>
+        	<span class="m_label">邮箱</span>
+	    	<input id="email" name="email" type="text" class="m_input" />
+        </div>
+    </div>
+
+    <div class='name_input clearfix'>
+    	<div class='input_left'>地址</div>
+    	<div class='input_right'>
+        	<span class="m_label">地址</span>
+	    	<input id="address" name="address" type="text" class="m_input" />
+        </div>
+    </div>
+ 
+	<div id="code">
+		<input id="checkcode" name="checkcode" type="text" /> 
+	    <img id="checkCodeImg" src="http://www.ehongcheng.com/data/include/imagecode.php?act=verifycode" onclick="changCode('http://www.ehongcheng.com/')"  />
+	</div>
+ 
+	<div class="m_under">
+		<input type="submit" class="msgbtn" name="btn" value="发送" />
+    </div>
+</form>
+</div>
+<script type="text/javascript">
+$(".w_title").toggle(function(){
+	$(".w_message").hide();
+	$(".m_close").attr("title","最大化");	
+	$(".m_close").addClass("m_open");
+},
+function(){
+	$(".w_message").show();
+	$(".m_close").attr("title","最小化");
+	$(".m_close").removeClass("m_open");	
+}
+);
+var currentid='7';
+if(currentid!='7')
+{
+	switch(currentid)
+	{
+		case '1':
+		 $('#m_top').css('background','#3cb6a2');
+		 $('#m_mid').css('background','#3cb6a2');
+		 $('#m_bot').css('background','#3cb6a2');
+		 $('.w_message').css('border-color','#3cb6a2');
+		 $('.w_message .msgbtn').css('background','url("http://www.ehongcheng.com/template/default/images/newadd/style1.png") left bottom no-repeat');
+		break;
+
+		case '2':
+		  $('#m_top').css('background','#8039c5');
+		  $('#m_mid').css('background','#8039c5');
+		  $('#m_bot').css('background','#8039c5');
+		  $('.w_message').css('border-color','#8039c5');
+		  $('.w_message .msgbtn').css('background','url("http://www.ehongcheng.com/template/default/images/newadd/style2.png") left bottom no-repeat');
+		break;
+
+		case '3':
+		  $('#m_top').css('background','#ffc50c');
+		  $('#m_mid').css('background','#ffc50c');
+		  $('#m_bot').css('background','#ffc50c');
+		  $('.w_message').css('border-color','#ffc50c');
+		  $('.w_message .msgbtn').css('background','url("http://www.ehongcheng.com/template/default/images/newadd/style3.png") left bottom no-repeat');
+		break;
+
+		case '4':
+		  $('#m_top').css('background','#ed2b36');
+		  $('#m_mid').css('background','#ed2b36');
+		  $('#m_bot').css('background','#ed2b36');
+		  $('.w_message').css('border-color','#ed2b36');
+		  $('.w_message .msgbtn').css('background','url("http://www.ehongcheng.com/template/default/images/newadd/style4.png") left bottom no-repeat');
+		break;
+
+		case '5':
+		  $('#m_top').css('background','#e4531a');
+		  $('#m_mid').css('background','#e4531a');
+		  $('#m_bot').css('background','#e4531a');
+		  $('.w_message').css('border-color','#e4531a');
+		  $('.w_message .msgbtn').css('background','url("http://www.ehongcheng.com/template/default/images/newadd/style5.png") left bottom no-repeat');
+		break;
+
+		case '6':
+		  $('#m_top').css('background','#74cb17');
+		  $('#m_mid').css('background','#74cb17');
+		  $('#m_bot').css('background','#74cb17');
+		  $('.w_message').css('border-color','#74cb17');
+		  $('.w_message .msgbtn').css('background','url("http://www.ehongcheng.com/template/default/images/newadd/style6.png") left bottom no-repeat');
+		break;
+ 
+	}
+}
+</script>
+<style>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</style>  
+
+<!--底部JS加载区域-->
+<script type="text/javascript" src="http://www.ehongcheng.com/template/default/js/common.js?9.2"></script>
+<script type="text/javascript" src="http://www.ehongcheng.com/template/default/js/message.js?9.2"></script>
+<script type="text/javascript" src="http://www.ehongcheng.com/template/default/js/lightbox.js"></script>
+
+</body>
+</html>
+<style type="text/css">
+	.f_link{display: none}
+</style>

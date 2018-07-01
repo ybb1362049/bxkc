@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><title>
+	广西城建咨询有限公司
+</title><link href="css/css.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="js/setadd.js" type="text/javascript" charset="gb2312"></script>
+<script language="javascript" src="js/flashobject.js" type="text/javascript"></script>
+    
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="document.aspx?type=7" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script language="Javascript"><!--
+function ANP_checkInput(bid,mv){var el=document.getElementById(bid);var r=new RegExp("^\\s*(\\d+)\\s*$");
+if(r.test(el.value)){if(RegExp.$1<1||RegExp.$1>mv){alert("页索引超出范围！");el.focus();el.select();return false;}
+return true;}alert("页索引不是有效的数值！");el.focus();el.select();return false;}
+function ANP_keydown(e,btnId){
+var kcode;
+if(window.event){kcode=e.keyCode;}
+else if(e.which){kcode=e.which;}
+var validKey=(kcode==8||kcode==46||kcode==37||kcode==39||(kcode>=48&&kcode<=57)||(kcode>=96&&kcode<=105));
+if(!validKey){
+if(kcode==13) document.getElementById(btnId).click();
+if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
+}
+}
+
+--></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="860BD6B4" />
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+</div>
+    <div class="container">
+<div class="head">
+<div class="head_logo"><img src="images/weblogo.png" /></div>
+<div class="head_r">
+<div class="head_right"><img src="images/index-bs.jpg"/><a href="javascript:void(0);" onclick="SetHome(this,window.location);"> 设为首页 </a><img src="images/index-bs.jpg"/> <a href="javascript:void(0);" onclick="addFavorite();">加入收藏</a> <img src="images/index-bs.jpg"/> <a href="contact.aspx?id=6">联系我们</a></div>
+<div class="head_right1">
+<!--<marquee direction="left" scrollamount="3">
+<a href="http://www.gxchengjian.com" target="_blank">公司网址：www.gxchengjina.com</a>
+</marquee>-->
+</div></div>
+</div>
+<div id="index_banner">
+<SCRIPT type="text/javascript" language="javascript">
+
+var interval_time=3 ;
+var focus_width=990
+var focus_height=250;
+var text_height=0
+var text_mtop = 0;
+var text_lm = 10;
+var textmargin = text_mtop+"|"+text_lm;
+var textcolor = "#2E5DB5|0xFF0000";
+var text_align= 'left'; 
+var swf_height = focus_height+text_height+text_mtop; 
+var text_size = 0;
+var borderStyle="1|0x000000|0";
+var pics='upload/BannerPic/201507230949551006642619.jpg|upload/BannerPic/20150723094948424395123.jpg|upload/BannerPic/20150723094941441484485.jpg';
+ 
+ // var pics='||||||||||||||'; 
+var links='javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|javascript:void(0);|'; 
+var texts='1|2|3|4|5|6|7|8|9|10|11|12|13|14|15';
+ document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+ document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="flash/banner_hot_new.swf"> <param name="quality" value="high"><param name="Wmode" value="transparent"><param name="bgcolor" value="#DFE0E0">');
+ document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+ document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'&textmargin='+textmargin+'&textcolor='+textcolor+'&borderstyle='+borderStyle+'&text_align='+text_align+'&interval_time='+interval_time+'&textsize='+text_size+'">');
+ document.write('<embed src="flash/banner_hot_new.swf" wmode="transparent" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'&textmargin='+textmargin+'&textcolor='+textcolor+'&borderstyle='+borderStyle+'&text_align='+text_align+'&interval_time='+interval_time+'&textsize='+text_size+'" menu="false" bgcolor="#DFE0E0" quality="high" width="'+ focus_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');  document.write('</object>');
+
+</SCRIPT>
+</div>
+<div class="menu">
+         <span style="width: 123px;"><a href="index.aspx" style="width: 121px;">首页</a></span>
+            <span style="width: 123px;"><a href="about.aspx?id=1" style="width: 121px;">公司概况</a></span>
+            <span style="width: 123px;"><a href="project.aspx" style="width: 121px;">业绩展示</a></span>
+            <span style="width: 123px;"><a href="news.aspx" style="width: 121px;">新闻中心</a></span>
+            <span style="width: 123px;"><a href="document.aspx" style="width: 121px;">招标信息</a></span>
+            <span style="width:123px;"><a href="PoliciesAndRegulations.aspx?type=15" style="width: 121px;">政策法规</a></span>
+            <span style="width: 123px;"><a href="Recruitment.aspx?Recr=1" style="width: 121px;">
+                人才招聘</a></span>  <span style="width: 129px;"><a href="contact.aspx?id=6"
+                        style="width: 127px;">联系我们</a></span>
+</div>    
+        
+        
+        
+<div class="about_content">
+<div class="about_left">
+<div class="about_content_dh">招标信息</div>
+<div class="about_list">
+<ul>
+<li><a href="document.aspx?type=7">招标公告</a></li>
+<li><a href="document.aspx?type=8">中标公示</a></li>
+<li><a href="document.aspx?type=14">更改公告</a></li>
+</ul>
+</div>
+<div class="about_content_r_4">
+<img src="images/index-bmdh.jpg" alt=''/>
+<p>
+<p><b><span style="font-size: 9pt; font-family: 宋体;">综合管理部</span></b><span style="font-size: 9pt; font-family: 宋体;">：</span><b><span lang="EN-US" style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:宋体;color:#E36C0A;mso-font-kerning:0pt">0771-2614474</span></b></p>
+<p class="MsoNormal" align="left"><b><span style="font-size: 9pt; font-family: 宋体;">招标管理部</span></b><span style="font-size: 9pt; font-family: 宋体;">：</span><b><span lang="EN-US" style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:宋体;color:#E36C0A;mso-font-kerning:0pt">0771-5848986</span></b><span lang="EN-US" style="font-size: 9pt; font-family: Arial, sans-serif;"><o:p></o:p></span></p>
+<p class="MsoNormal" align="left"><b><span style="font-size: 9pt; font-family: 宋体;">监理管理部</span></b><span style="font-size: 9pt; font-family: 宋体;">：</span><b><span lang="EN-US" style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:宋体;color:#E36C0A;mso-font-kerning:0pt">0771-5848990</span></b><span lang="EN-US" style="font-size: 9pt; font-family: Arial, sans-serif;"><o:p></o:p></span></p>
+<p class="MsoNormal" align="left"><b><span style="font-size: 9pt; font-family: 宋体;">造价管理部</span></b><span style="font-size: 9pt; font-family: 宋体;">：</span><b><span lang="EN-US" style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:宋体;color:#E36C0A;mso-font-kerning:0pt">0771-5587840</span></b><span lang="EN-US" style="font-size: 9pt; font-family: Arial, sans-serif;"><o:p></o:p></span></p>
+<p class="MsoNormal" align="left"><b><span style="font-size: 9pt; font-family: 宋体;">工程咨询部</span></b><span style="font-size: 9pt; font-family: 宋体;">：</span><b><span lang="EN-US" style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:宋体;color:#E36C0A;mso-font-kerning:0pt">15007719131</span></b></p>
+<p class="MsoNormal" align="left"><b><span style="font-size: 9pt; font-family: 宋体;">业务直管部</span></b><span style="font-size: 9pt; font-family: 宋体;">：</span><b><span lang="EN-US" style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+宋体;color:#E36C0A;mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:
+ZH-CN;mso-bidi-language:AR-SA">0771-5587475</span></b></p>
+</p></div>
+</div>
+<div class="about_right">
+<div class="about_content_dh2"><h1>招标公告</h1><span>当前位置：首页 > 招标信息 > 招标公告</span></div>
+<div class="Newscontent">
+<ul>
+    
+<li><span>2017/12/05</span><a href='documentInfo.aspx?id=1053'>广西城建咨询有限公司关于贺州市旭腾建筑新型材料生产及花岗岩石材加工项目土石方工程项目...</a></li> 
+    
+<li><span>2017/12/04</span><a href='documentInfo.aspx?id=1052'>广西城建咨询有限公司关于机动中队装备采购公开招标公告</a></li> 
+    
+<li><span>2017/11/30</span><a href='documentInfo.aspx?id=1050'>广西城建咨询有限公司关于钦州市油麻角和菠萝桥安置回建房项目110kV高压电塔迁移工程...</a></li> 
+    
+<li><span>2017/11/28</span><a href='documentInfo.aspx?id=1046'>广西城乡合浦“天和住宅小区”二期项目配电安装工程招标公告</a></li> 
+    
+<li><span>2017/11/23</span><a href='documentInfo.aspx?id=1043'>太平金融大厦高低压配电工程施工招标公告</a></li> 
+    
+<li><span>2017/11/17</span><a href='documentInfo.aspx?id=1035'>广西城建咨询有限公司民歌湖保安、保洁及绿化服务采购公开招标公告</a></li> 
+    
+<li><span>2017/11/14</span><a href='documentInfo.aspx?id=1033'>广西城建咨询有限公司关于共同类训练器材采购公开招标公告</a></li> 
+    
+<li><span>2017/11/14</span><a href='documentInfo.aspx?id=1032'>广西城建咨询有限公司关于应急班装备采购公开招标公告</a></li> 
+    
+<li><span>2017/11/09</span><a href='documentInfo.aspx?id=1031'>广西城建咨询有限公司关于贺州姑婆山旅游区总体规划和待开发区修建性详细规划公开招标公告</a></li> 
+    
+<li><span>2017/11/08</span><a href='documentInfo.aspx?id=1030'>广西城建咨询有限公司关于爬杆训练架采购公开招标公告</a></li> 
+    
+<li><span>2017/11/06</span><a href='documentInfo.aspx?id=1028'>中国人民银行南宁中心支行桃源路办公楼消防系统提升改造维修工程招标公告</a></li> 
+    
+<li><span>2017/11/06</span><a href='documentInfo.aspx?id=1027'>中国人民银行南宁中心支行桃源路办公楼吊顶维修工程施工招标公告</a></li> 
+    
+<li><span>2017/11/01</span><a href='documentInfo.aspx?id=1022'>广西城建咨询有限公司关于武警南宁市支队专业技术类训练器材采购公开招标公告</a></li> 
+    
+<li><span>2017/11/01</span><a href='documentInfo.aspx?id=1021'>广西城建咨询有限公司关于特勤排反恐装备采购公开招标公告</a></li> 
+    
+<li><span>2017/10/26</span><a href='documentInfo.aspx?id=1018'>太平金融大厦高低压配电工程施工招标公告</a></li> 
+    
+
+
+</ul>
+<div style="width: 98%; float: left; padding-top:5px;">
+            
+<!-- AspNetPager V6.0.0 for VS2005  Copyright:2003-2006 Webdiyer (www.webdiyer.com) -->
+<div id="ctl00_ContentPlaceHolder1_AspNetPager1" style="width:95%;text-align:right;font-size: 12px">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 12px">
+		<tr>
+			<td valign="bottom" align="left" nowrap="true" style="width:40%;font-size: 12px">共有  <b><font color='red'>141</font></b>  条记录 当前页<b><font color='red'>2</font>/10</b></td><td valign="bottom" align="right" nowrap="true" class="" style="width:60%;"><a href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','1')" style="margin-right:5px;">首页</a><a href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','1')" style="margin-right:5px;">上一页</a><a href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','1')" style="margin-right:5px;">1</a><span style="margin-right:5px;font-weight:Bold;color:red;">2</span><a href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','3')" style="margin-right:5px;">3</a><a href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','4')" style="margin-right:5px;">4</a><a href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','5')" style="margin-right:5px;">5</a><span style="margin-right:5px;"><a href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','6')">...</a></span><a href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','3')" style="margin-right:5px;">下一页</a><a href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','10')" style="margin-right:5px;">尾页</a>&nbsp;&nbsp;<input type="text" value="2" name="ctl00$ContentPlaceHolder1$AspNetPager1_input" id="ctl00$ContentPlaceHolder1$AspNetPager1_input" onkeydown="ANP_keydown(event,'ctl00$ContentPlaceHolder1$AspNetPager1_btn');" style="width:30px;width:19px" /><input type="Submit" name="ctl00$ContentPlaceHolder1$AspNetPager1" id="ctl00$ContentPlaceHolder1$AspNetPager1_btn" value="转到" onclick="return ANP_checkInput('ctl00$ContentPlaceHolder1$AspNetPager1_input',10)" /></td>
+		</tr>
+	</table>
+</div>
+<!-- AspNetPager V6.0.0 for VS2005 End -->
+
+
+        </div>
+</div>
+</div>
+</div>
+
+ <div class="foot">
+            <p>
+                地址：广西壮族自治区南宁市青秀区金湖南路31号三楼 联系电话：0771-2614474<br />
+                版权所有：&nbsp;&nbsp;&nbsp;<a target="_blank" style="color: #A3A3A3">广西城建咨询有限公司</a><a href="http://www.miitbeian.gov.cn/" target="_blank">桂ICP备15009085号</a>
+        </div>
+</div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+</form>
+</body>
+</html>

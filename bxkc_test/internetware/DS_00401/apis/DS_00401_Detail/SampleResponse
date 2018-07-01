@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/ggzy/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/ggzy/Template/Default/css/second.css">
+    <script src="/ggzy/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <title>新余公共资源交易中心</title>
+</head>
+
+<body>
+    <!-- header -->
+   <div >
+	<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="gb2312">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="/ggzy/Template/Default/css/common.css">
+    <link rel="stylesheet" href="/ggzy/Template/Default/css/index.css">
+      <script src="/ggzy/Template/Default/js/jquery-1.11.0.min.js"></script>
+    <script>
+        function tab() { if (event.keyCode == 13) { document.getElementById("submit").click(); } }
+        function search() {
+            var tim = 10
+            if (tim == 10) {
+                tim = 0;
+                if (document.getElementById("txt").value == "" || document.getElementById("txt").value == "关键字") {
+                    //alert("请输入关键字！");
+                }
+                else {
+                    var t = document.getElementById("txt").value;
+                    if (t.indexOf("<") > -1 || t.indexOf(">") > -1) {
+                        alert("请勿在关键字中输入非法字符!");
+                        return;
+                    }
+                    var openUrl = '/ggzy/ShowInfo/SearchResult.aspx?keyword=';
+
+                    openUrl += escape(t) + "&searchtype=title";
+                    window.open(openUrl);
+                }
+            }
+            else {
+                alert("两次搜索的时间间隔不能少于十秒")
+            }
+        }
+
+</script>
+
+    <title>新余公共资源交易中心</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header"></div>
+    <!-- nav -->
+    <div class="nav-bg">
+        <div class="container">
+            <div class="nav clearfix">
+                <a href="/ggzy/Template/Default/../../" class="nav-a" target="_top">首页</a>
+                <a href="/ggzy/Template/Default/../../zxgk" target="_top">中心概况</a>
+                <a href="/ggzy/Template/Default/../../gzap" target="_top">工作安排</a>
+                <a href="/ggzy/Template/Default/../../jylc" target="_top">交易流程</a>
+                <a href="/ggzy/Template/Default/../../zcfg" target="_top">政策法规</a>
+                <a href="/ggzy/Template/Default/../../zxdt" target="_top">中心动态</a>
+                <a href="/ggzy/Template/Default/../../bgt" target="_top">曝光台</a>
+                <a href="/ggzy/Template/Default/../../xgxz" target="_top">相关下载</a>
+                <a href="http://xyggzy.jiangxi.gov.cn/xyoa/" target="_blank">办公平台</a>
+            </div>
+        </div>
+    </div>
+    <!-- main -->
+    <div class="main-bg">
+        <div class="main">
+            <!-- main-nav -->
+            <div class="container">
+                <div class="main-nav clearfix">
+                    <a href="/ggzy/Template/Default/../../zfcg" class="main-nav-a" target="_top">政府采购</a>
+                    <i></i>
+                    <a href="/ggzy/Template/Default/../../jsgc" target="_top">建设工程</a>
+                    <i></i>
+                    <a href="/ggzy/Template/Default/../../cqjy" target="_top">产权交易</a>
+                    <i></i>
+                    <a href="/ggzy/Template/Default/../../tdjy" target="_top">土地交易</a>
+                </div>
+            </div>
+            <!-- 重要通知和搜索 -->
+            <div class="container mt10 clearfix" style="overflow:hidden;">
+                <div class="notice clearfix">
+                    <span class="notice-title l">重要通知</span>
+                    
+                    <div class="wb-tab-infor l" id="hottitle">
+                        本栏目暂时没有内容！
+
+                    </div>
+                </div>
+                <div style="height: 31px;line-height: 31px;float:right">
+                <input type="text" id="txt" placeholder="请输入关键词搜索" class="search-txt l" onKeyDown="tab();">
+                <button class="search-btn l" id="submit"  onClick="search();" >搜 索</button></div>
+            </div>
+        </div>   
+    </div>
+    <script src="/ggzy/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/ggzy/Template/Default/js/msclass.js"></script>
+  <!-- <script src="/ggzy/Template/Default/js/horizontal.js"></script>  -->
+    <script src="/ggzy/Template/Default/js/tabview.js"></script>
+<script src="/ggzy/Template/Default/js/index2.js"></script>
+</body>
+
+</html>
+
+       
+    </div>
+    <!-- main -->
+    <div class="main-bg">
+        <div class="main">
+            <!-- main-nav -->
+          
+            <div class="position" >
+               <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#FF7E00" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/ggzy/'><FONT color="#FF7E00" class=currentpostionfont>首页</FONT></A><FONT color="#000000"> >> <a href='/ggzy/jsgc'><FONT color="#000000" class=currentpostionfont>建设工程</font></a> >> <a href='/ggzy/jsgc/010001'><FONT color="#000000" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table>
+            </div>
+            <div class="border" style="width:998px;margin-left:9px;">
+			<table width="887" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                   <td height="76" align="center" style="padding-top:35px;padding-bottom:25px;"><font style="font: 24px/24px Microsoft Yahei;color: #333333;">
+                    新余市残疾人康复中心大楼新建工程
+                   </font></td>
+                  </tr>
+                 <tr>
+                  <td height="30" bgcolor="#eeeeee" align="center" style="font: 12px/30px Simsun;color: #999;">【信息来源：】【信息时间：2016/12/21  阅读次数：】【字号：<span onClick="document.getElementById('TDContent').className='infodetailbig'" style="cursor: pointer">大</span> <span onClick="document.getElementById('TDContent').className='infodetailmiddle'"
+                                                                                                                                                                                            style="cursor: pointer">中</span> <span onClick="document.getElementById('TDContent').className='infodetailsmall'"
+                                                                                                                                                                                                                                style="cursor: pointer">小</span>】【<a href="javascript:void(0)" onClick="window.print();"><font color="#333333" class="webfont">我要打印</font></a>】<a
+                                    href="javascript:window.close()"><font color="#333333" class="webfont">【关闭】</font></a></td>
+                 </tr>
+                 <tr>
+                  <td style="padding:26px 40px 10px;"><table height="100%" width="100%" cellpadding="0" cellspacing="0" border="0">
+                 <tr>
+                  <td valign="top" class="infodetail" id="TDContent" align="left" height="350">
+				  <div style="font: 14px/28px Simsun;color: #333;">
+                    <p class="ParagraphIndent">&nbsp;</p>
+<div class="MsoNormal" style="text-align: center; line-height: 35pt; mso-line-height-rule: exactly" align="center"><b><span style="font-family: 宋体; font-size: 22pt">江西省房屋建筑和市政基础设施工程施工<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></b></div>
+<div class="MsoNormal" style="text-align: center; line-height: 35pt; mso-line-height-rule: exactly" align="center"><b style="mso-bidi-font-weight: normal"><span style="font-family: 宋体; font-size: 26pt">招标公告</span></b><span lang="EN-US" style="font-family: 宋体; font-size: 26pt"><o:p class="ParagraphIndent"></o:p></span></div>
+<div class="MsoNormal" style="text-align: center; line-height: 22pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">赣建<u> 新余 </u>招字［<u><span lang="EN-US">2016</span></u>］第<u> <span lang="EN-US">68 </span></u>号<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+<p class="ParagraphIndent">
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="664" style="border-bottom: medium none; border-left: medium none; border-collapse: collapse; margin-left: -19.15pt; border-top: medium none; border-right: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-table-layout-alt: fixed; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext">
+    <tbody>
+        <tr style="height: 24pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+            <td width="664" colspan="22" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 498.1pt; padding-right: 5.4pt; height: 24pt; border-top: windowtext 1pt solid; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">招标条件<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 31.2pt; mso-yfti-irow: 1">
+            <td width="144" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 107.8pt; padding-right: 5.4pt; height: 31.2pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 22pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">招标单位名称<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="520" colspan="18" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 390.3pt; padding-right: 5.4pt; height: 31.2pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">新余市残疾人联合会<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 26.75pt; mso-yfti-irow: 2">
+            <td width="144" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 107.8pt; padding-right: 5.4pt; height: 26.75pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">招标工程项目<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="520" colspan="18" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 390.3pt; padding-right: 5.4pt; height: 26.75pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">新余市残疾人康复中心大楼新建工程<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 33.4pt; mso-yfti-irow: 3">
+            <td width="241" colspan="10" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 180.45pt; padding-right: 5.4pt; height: 33.4pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">项目审批、核准或备案机关<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="424" colspan="12" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 317.65pt; padding-right: 5.4pt; height: 33.4pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">新余市发展和改革委员会<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 35.3pt; mso-yfti-irow: 4">
+            <td width="156" colspan="5" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 117.3pt; padding-right: 5.4pt; height: 35.3pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">批文名称及编号<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="508" colspan="17" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 380.8pt; padding-right: 5.4pt; height: 35.3pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">余发改社会字<span lang="EN-US">[2014]297</span>号<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 10.65pt; mso-yfti-irow: 5">
+            <td width="118" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 88.35pt; padding-right: 5.4pt; height: 10.65pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">项目总投资<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="132" colspan="10" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 99.25pt; padding-right: 5.4pt; height: 10.65pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">约<span lang="EN-US">1600</span>万元<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="123" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 92.1pt; padding-right: 5.4pt; height: 10.65pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">本项目投资<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="291" colspan="7" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 218.4pt; padding-right: 5.4pt; height: 10.65pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: left; line-height: 25pt; mso-line-height-rule: exactly" align="left"><span style="font-family: 宋体; font-size: 14pt">约<span lang="EN-US">800</span>万元<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 33.4pt; mso-yfti-irow: 6">
+            <td valign="top" width="156" colspan="5" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 117.3pt; padding-right: 5.4pt; height: 33.4pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">资格审查方式<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="182" colspan="8" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 136.55pt; padding-right: 5.4pt; height: 33.4pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">预审□<span lang="EN-US"><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span></span>后审■<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td valign="top" width="181" colspan="7" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 135.8pt; padding-right: 5.4pt; height: 33.4pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">资金已落实<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="145" colspan="2" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 108.45pt; padding-right: 5.4pt; height: 33.4pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt">100%<o:p class="ParagraphIndent"></o:p></span></div>
+            </td>
+        </tr>
+        <tr style="height: 27.5pt; mso-yfti-irow: 7">
+            <td width="664" colspan="22" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 498.1pt; padding-right: 5.4pt; height: 27.5pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-family: 宋体; font-size: 14pt">招标工程概况<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 28.6pt; mso-yfti-irow: 8">
+            <td valign="top" width="181" colspan="7" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 135.7pt; padding-right: 5.4pt; height: 28.6pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">工程项目建设地址<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td valign="top" width="483" colspan="15" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 362.4pt; padding-right: 5.4pt; height: 28.6pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">新余市仙来东大道<span lang="EN-US">365</span>号（市残联院内）<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 23.3pt; mso-yfti-irow: 9">
+            <td rowspan="2" width="118" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 88.35pt; padding-right: 5.4pt; height: 23.3pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; margin-left: -7.05pt; mso-line-height-rule: exactly; mso-para-margin-left: -.67gd" align="center"><span style="font-family: 宋体; font-size: 14pt">工程基本情况及招标范围<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="95" colspan="7" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 70.9pt; padding-right: 5.4pt; height: 23.3pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">建筑面积<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="123" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 92.1pt; padding-right: 5.4pt; height: 23.3pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: right; line-height: 20pt; margin-left: -10.9pt; word-break: break-all; mso-line-height-rule: exactly; mso-para-margin-left: -1.04gd" align="right"><span lang="EN-US" style="font-family: 宋体; font-size: 12pt">5347.33</span><span style="font-family: 宋体; font-size: 12pt">平方米</span><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent"></o:p></span></div>
+            </td>
+            <td valign="top" width="53" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 39.9pt; padding-right: 5.4pt; height: 23.3pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">层次<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td valign="top" width="99" colspan="3" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 74.55pt; padding-right: 5.4pt; height: 23.3pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt">6</span><span style="font-family: 宋体; font-size: 14pt">层<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td valign="top" width="77" colspan="2" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 57.75pt; padding-right: 5.4pt; height: 23.3pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">结构<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td valign="top" width="99" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 74.55pt; padding-right: 5.4pt; height: 23.3pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">框架结构<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 24.4pt; mso-yfti-irow: 10">
+            <td width="546" colspan="21" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 409.75pt; padding-right: 5.4pt; height: 24.4pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">招标范围：<a name="EB730d50b923b94983a9f302d433dfdee0">本项目新建康复中心大楼</a>一栋，详见工程量清单。<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 9.9pt; mso-yfti-irow: 11">
+            <td valign="top" width="664" colspan="22" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 498.1pt; padding-right: 5.4pt; height: 9.9pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">投标（报名）人应具备的资格条件<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 9.55pt; mso-yfti-irow: 12">
+            <td width="167" colspan="6" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 124.95pt; padding-right: 5.4pt; height: 9.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">企业资质类别<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="187" colspan="8" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 140.6pt; padding-right: 5.4pt; height: 9.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">建筑工程施工总承包<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="132" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 99.2pt; padding-right: 5.4pt; height: 9.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">资质等级<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="178" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 133.35pt; padding-right: 5.4pt; height: 9.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 12pt; mso-bidi-font-weight: bold">[</span><span style="font-family: 宋体; font-size: 12pt; mso-bidi-font-weight: bold">建筑工程<span lang="EN-US">(2015</span>新标准<span lang="EN-US">)</span>二级<span lang="EN-US">](</span>含<span lang="EN-US">)</span>以上</span><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent"></o:p></span></div>
+            </td>
+        </tr>
+        <tr style="height: 9.55pt; mso-yfti-irow: 13">
+            <td valign="top" width="167" colspan="6" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 124.95pt; padding-right: 5.4pt; height: 9.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">注册建造师类别<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="187" colspan="8" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 140.6pt; padding-right: 5.4pt; height: 9.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">建筑工程<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="132" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 99.2pt; padding-right: 5.4pt; height: 9.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">资格等级<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="178" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 133.35pt; padding-right: 5.4pt; height: 9.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">建筑工程贰级及以上<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 9.9pt; mso-yfti-irow: 14">
+            <td valign="top" width="167" colspan="6" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 124.95pt; padding-right: 5.4pt; height: 9.9pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">安全生产许可证<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td valign="top" width="187" colspan="8" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 140.6pt; padding-right: 5.4pt; height: 9.9pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">在有效期内<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td valign="top" width="132" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 99.2pt; padding-right: 5.4pt; height: 9.9pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">标段选择要求<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td valign="top" width="178" colspan="4" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 133.35pt; padding-right: 5.4pt; height: 9.9pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">壹个<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 20.65pt; mso-yfti-irow: 15">
+            <td width="167" colspan="6" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 124.95pt; padding-right: 5.4pt; height: 20.65pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">资格审查时投标人应提供的业绩材料<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="498" colspan="16" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 373.15pt; padding-right: 5.4pt; height: 20.65pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">无<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 29.65pt; mso-yfti-irow: 16">
+            <td width="664" colspan="22" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 498.1pt; padding-right: 5.4pt; height: 29.65pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">资格审查时应提供的证件或证书（采用招投标用户信息库比对、扫描件备查）<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 30.75pt; mso-yfti-irow: 17">
+            <td width="127" colspan="3" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 95.45pt; padding-right: 5.4pt; height: 30.75pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">资格证件<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="537" colspan="19" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 402.65pt; padding-right: 5.4pt; height: 30.75pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span style="font-family: 宋体; font-size: 14pt">企业资质证书（新资质可携带加盖公章复印件）、营业执照、安全生产许可证<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 39.25pt; mso-yfti-irow: 18">
+            <td width="127" colspan="3" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 95.45pt; padding-right: 5.4pt; height: 39.25pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">法定代表人或委托代理人<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="537" colspan="19" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 402.65pt; padding-right: 5.4pt; height: 39.25pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span style="font-family: 宋体; font-size: 14pt">法定代表人证书和委托代理人委托书、本人身份证<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 29.8pt; mso-yfti-irow: 19">
+            <td width="127" colspan="3" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 95.45pt; padding-right: 5.4pt; height: 29.8pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">注册建造师<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="537" colspan="19" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 402.65pt; padding-right: 5.4pt; height: 29.8pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span style="font-family: 宋体; font-size: 14pt">拟派建造师注册证书、本人身份证<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 27.95pt; mso-yfti-irow: 20">
+            <td width="127" colspan="3" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 95.45pt; padding-right: 5.4pt; height: 27.95pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">五大员<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="537" colspan="19" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 402.65pt; padding-right: 5.4pt; height: 27.95pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span style="font-family: 宋体; font-size: 14pt">拟派五大员上岗证证书（新证）<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 78.15pt; mso-yfti-irow: 21">
+            <td width="127" colspan="3" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 95.45pt; padding-right: 5.4pt; height: 78.15pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">其他要求<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td valign="top" width="537" colspan="19" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 402.65pt; padding-right: 5.4pt; height: 78.15pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: left; line-height: 18pt; mso-pagination: widow-orphan" align="left"><span lang="EN-US" style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">1</span><span style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">、根据余住建字<span lang="EN-US">[2016]53</span>号文第一条规定，外省来我市参与投标的单位必须持有江西省建设行政主管部门办理的进赣投标备案通知手续材料原件。投标人必须提交企业所在地建设行政主管部门出具的投标企业及其从业人员的《建筑业企业诚信证明》（见余住建字〔<span lang="EN-US">2016</span>〕<span lang="EN-US">53</span>号文附件<span lang="EN-US">1</span>），<b>否则投标资格无效</b>。（新余市余住建字<span lang="EN-US">[2016]73</span>号文件中所列企业名单可不提供）</span><span lang="EN-US" style="font-family: 宋体; color: #333333; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体"><o:p class="ParagraphIndent"></o:p></span></div>
+            <div class="MsoNormal" style="text-align: left; line-height: 18pt; mso-pagination: widow-orphan" align="left"><span lang="EN-US" style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">2</span><span style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">、根据余住建字<span lang="EN-US">[2016]53</span>号文第六条规定，实行法定代表人和注册建造师（项目经理）到场制度。凡政府投资的公开招标项目，投标单位法定代表人和拟派本项目的注册建造师（项目经理）应持本人身份证到场参加开标会（《关于全省<span lang="EN-US">45</span>家<span lang="EN-US">&ldquo;</span>走出去<span lang="EN-US">&rdquo;</span>建筑企业参与省内建设工程招标投标有关事项的通知》（赣建建<span lang="EN-US">[2013]21</span>号）文件中的在省外<span lang="EN-US">(</span>境外<span lang="EN-US">)</span>产值排名靠前的<span lang="EN-US">45</span>家建筑企业法人可不到场。如文件有调整，按新文件执行），开标前所有投标单位的法定代表人和注册建造师（项目经理）在开标现场由招标代理机构拍照留存，<b>否则视为放弃投标，其投标文件作废标处理；</b>招标人在办理中标备案时，应将中标人拟派本项目的注册建造师（项目经理）和施工员、质量员、安全员的人员影像资料及身份证明报招标监督机构留存，作为施工现场管理人员信息备查。中标人的法定代表人、注册建造师（项目经理）应到建设行政主管部门，当场签订《履职承诺书》（见余住建字〔<span lang="EN-US">2016</span>〕<span lang="EN-US">53</span>号文附件<span lang="EN-US">2</span>、<span lang="EN-US">3</span>）。</span><span lang="EN-US" style="font-family: 宋体; color: #333333; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体"><o:p class="ParagraphIndent"></o:p></span></div>
+            <div class="MsoNormal" style="text-align: left; line-height: 18pt; mso-pagination: widow-orphan" align="left"><span lang="EN-US" style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">3</span><span style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">、根据余住建字<span lang="EN-US">[2016]53</span>号文第三条规定，投标人拟派本项目的注册建造师（项目经理）不得同时在两个或者两个以上单位受聘或执业，投标人拟派本项目的注册建造师（项目经理）不得同时在两个及两个以上的建设工程项目上担任施工单位项目负责人。一经发现，<b>作投标资格无效处理</b>。</span><span lang="EN-US" style="font-family: 宋体; color: #333333; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体"><o:p class="ParagraphIndent"></o:p></span></div>
+            <div class="MsoNormal" style="text-align: left; line-height: 18pt; mso-pagination: widow-orphan" align="left"><span lang="EN-US" style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">4</span><span style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">、根据余住建字<span lang="EN-US">[2016]53</span>号文第四条规定，参与投标的单位为中标候选人时，其参与投标的施工员、质量员、安全员，如在其它工程投标中已中标的，或在其它工程已上岗的，应当在中标公示期间，主动书面告知招标人和招标监管部门，并在中标公示后<span lang="EN-US">5</span>个工作日内及时办理变更手续，<b>否则中标资格无效</b>。</span><span lang="EN-US" style="font-family: 宋体; color: #333333; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体"><o:p class="ParagraphIndent"></o:p></span></div>
+            <div class="MsoNormal" style="text-align: left; line-height: 18pt; mso-pagination: widow-orphan" align="left"><span lang="EN-US" style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">5</span><span style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">、根据余住建字<span lang="EN-US">[2016]53</span>号文第七条规定，投标人如受到各级建设行政主管部门被限制招投标资格的行政处罚且在处罚有效期内<span lang="EN-US">,</span>其投标无效。中标公示期内，由招标人或招标代理机构向检察机关核实中标单位、法定代表人、项目负责人行贿犯罪档案查询。经查询发现单位或个人有行贿犯罪记录，<b>则取消其中标资格。</b></span><span lang="EN-US" style="font-family: 宋体; color: #333333; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体"><o:p class="ParagraphIndent"></o:p></span></div>
+            <div class="MsoNormal" style="text-align: left; line-height: 18pt; mso-pagination: widow-orphan" align="left"><span lang="EN-US" style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">6</span><span style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">、根据余住建字<span lang="EN-US">[2016]53</span>号文第二条规定，投标人拟派本项目的注册建造师（项目经理）、施工员、安全员、质量员投标前连续六个月及以上的（不含投标当月）公司为其办理的社保缴费凭证<span lang="EN-US"> (</span>必须提供能证明是投标人为该职工缴费的发票凭证，机打凭证须提供可查询的凭证号<span lang="EN-US">) </span>。因工作单位变更不足<span lang="EN-US">6</span>个月的，以证书中的变更时间为准。退休或已办理离岗退职或停薪留职手续的（按县级以上人事部门办理的时间为准），应与该单位签订劳动聘用合同，该单位为其连续缴纳<span lang="EN-US">6</span>个月及以上的社保（按规定到龄不需缴纳社保的除外）。<b>否则作投标资格无效处理。</b></span><span lang="EN-US" style="font-family: 宋体; color: #333333; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体"><o:p class="ParagraphIndent"></o:p></span></div>
+            <div class="MsoNormal" style="text-align: left; line-height: 18pt; mso-pagination: widow-orphan" align="left"><span lang="EN-US" style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">7</span><span style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">、投标人拟派本项目的施工员、质量员、安全员证书必须专业对口（建筑专业），<b>否则作投标资格无效处理。</b></span><span lang="EN-US" style="font-family: 宋体; color: #333333; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体"><o:p class="ParagraphIndent"></o:p></span></div>
+            <div class="MsoNormal" style="text-align: left; line-height: 18pt; mso-pagination: widow-orphan" align="left"><span lang="EN-US" style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">8</span><span style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">、执行<b>赣建招<span lang="EN-US">[2016]7</span>号文</b>规定凡参加我省建设工程施工的投标人或潜在投标人可不提供企业资质证书原件，应自带取得新版资质证书复印件并加盖公章。</span><span lang="EN-US" style="font-family: 宋体; color: #333333; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体"><o:p class="ParagraphIndent"></o:p></span></div>
+            <div class="MsoNormal"><span lang="EN-US" style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">9</span><span style="font-family: 宋体; color: black; font-size: 14pt; mso-font-kerning: 0pt; mso-bidi-font-family: 宋体">、投标保证金必须从基本账户一次性足额缴纳至系统生成的虚拟子账户。缴纳成功的投标单位必须回子账号生成页面点击&ldquo;确认缴纳&rdquo;按钮，<b style="mso-bidi-font-weight: normal">否则投标保证金视为无效</b>。在进行大额（汇款金额<span lang="EN-US">&gt;5</span>万元人民币）跨行转账时，请在工作日每天早上<span lang="EN-US">9</span>点至下午<span lang="EN-US">4</span>点之前完成。技术支持电话：江苏国泰新点软件有限公司，<span lang="EN-US">400-850-3300</span>。</span><span lang="EN-US" style="font-family: 宋体; font-size: 14pt; mso-font-kerning: 0pt"><o:p class="ParagraphIndent"></o:p></span></div>
+            <div class="MsoNormal"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt; mso-font-kerning: 0pt">10</span><span style="font-family: 宋体; font-size: 14pt; mso-font-kerning: 0pt">、报名资料费<span lang="EN-US">600</span>元由招标代理机构开标现场收取 <span lang="EN-US">(</span>收后不退<span lang="EN-US">)</span>。<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 19.5pt; mso-yfti-irow: 22">
+            <td valign="top" width="664" colspan="22" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 498.1pt; padding-right: 5.4pt; height: 19.5pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">报名时间和地点（联系人及电话）<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 20.55pt; mso-yfti-irow: 23">
+            <td width="124" colspan="2" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 92.75pt; padding-right: 5.4pt; height: 20.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">联系人<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="540" colspan="20" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 405.35pt; padding-right: 5.4pt; height: 20.55pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">刘先生<span lang="EN-US">13707907868<span style="mso-spacerun: yes">&nbsp; </span></span>宗先生<span lang="EN-US">13767283262<o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 20.8pt; mso-yfti-irow: 24">
+            <td width="124" colspan="2" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 92.75pt; padding-right: 5.4pt; height: 20.8pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">报名地点<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="540" colspan="20" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 405.35pt; padding-right: 5.4pt; height: 20.8pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">网上报名：江西省公共资源交易中心网<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr style="height: 95.95pt; mso-yfti-irow: 25; mso-yfti-lastrow: yes">
+            <td width="222" colspan="9" style="border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 166.45pt; padding-right: 5.4pt; height: 95.95pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: left; line-height: 20pt; mso-line-height-rule: exactly" align="left"><span style="font-family: 宋体; font-size: 14pt">招标代理机构：<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">（章）<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span style="font-family: 宋体; font-size: 14pt">法定代表人：<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; text-indent: 70pt; mso-line-height-rule: exactly; mso-char-indent-count: 5.0" align="center"><span style="font-family: 宋体; font-size: 14pt">年<span lang="EN-US"><span style="mso-spacerun: yes">&nbsp;&nbsp; </span></span>月<span lang="EN-US"><span style="mso-spacerun: yes">&nbsp;&nbsp; </span></span>日<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="222" colspan="8" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 166.75pt; padding-right: 5.4pt; height: 95.95pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: left; line-height: 20pt; mso-line-height-rule: exactly" align="left"><span style="font-family: 宋体; font-size: 14pt">招标人：<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">（章）<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span style="font-family: 宋体; font-size: 14pt">法定代表人：<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; text-indent: 70pt; mso-line-height-rule: exactly; mso-char-indent-count: 5.0" align="center"><span style="font-family: 宋体; font-size: 14pt">年<span lang="EN-US"><span style="mso-spacerun: yes">&nbsp;&nbsp; </span></span>月<span lang="EN-US"><span style="mso-spacerun: yes">&nbsp;&nbsp; </span></span>日<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+            <td width="220" colspan="5" style="border-bottom: windowtext 1pt solid; border-left: medium none; padding-bottom: 0cm; padding-left: 5.4pt; width: 164.9pt; padding-right: 5.4pt; height: 95.95pt; border-top: medium none; border-right: windowtext 1pt solid; padding-top: 0cm; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt">
+            <div class="MsoNormal" style="text-align: left; line-height: 20pt; mso-line-height-rule: exactly" align="left"><span style="font-family: 宋体; font-size: 14pt">招投标监管机构签收：<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span style="font-family: 宋体; font-size: 14pt">（章）<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="line-height: 20pt; mso-line-height-rule: exactly"><span style="font-family: 宋体; font-size: 14pt">经办人：<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; mso-line-height-rule: exactly" align="center"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></div>
+            <div class="MsoNormal" style="text-align: left; line-height: 20pt; mso-line-height-rule: exactly" align="left"><span style="font-family: 宋体; font-size: 14pt">负责人：<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            <div class="MsoNormal" style="text-align: center; line-height: 20pt; text-indent: 70pt; mso-line-height-rule: exactly; mso-char-indent-count: 5.0" align="center"><span style="font-family: 宋体; font-size: 14pt">年<span lang="EN-US"><span style="mso-spacerun: yes">&nbsp;&nbsp; </span></span>月<span lang="EN-US"><span style="mso-spacerun: yes">&nbsp;&nbsp; </span></span>日<span lang="EN-US"><o:p class="ParagraphIndent"></o:p></span></span></div>
+            </td>
+        </tr>
+        <tr>
+            <td width="118" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="6" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="4" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="16" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="13" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="10" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="14" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="31" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="10" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="19" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="10" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="85" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="3" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="16" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="19" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="15" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="56" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="42" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="1" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="32" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="45" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+            <td width="99" style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</p>
+<div class="MsoNormal" style="text-align: right; line-height: 16pt; mso-line-height-rule: exactly" align="right"><b style="mso-bidi-font-weight: normal"><span lang="EN-US" style="font-family: 宋体; font-size: 14pt"><o:p class="ParagraphIndent">&nbsp;</o:p></span></b></div>
+                  </div>
+                  </td>
+                 </tr>
+                 <tr>
+                  <td height="30"></td>
+                 </tr>
+                </table></td>
+                 </tr>
+                </table>
+            </div>
+            <!-- footer -->
+          
+        </div>
+    </div>
+	<div align="center">
+	 <iframe src="/ggzy/Template/Default/pagefoot.htm" scrolling="no" width="100%" height="116" frameborder="0"></iframe>
+	 </div>
+    <script src="/ggzy/Template/Default/js/jquery.placeholder.min.js"></script>
+    <script src="/ggzy/Template/Default/js/msclass.js"></script>
+    <script src="/ggzy/Template/Default/js/tabview.js"></script>
+    <script src="/ggzy/Template/Default/js/index2.js"></script>
+</body>
+
+</html>

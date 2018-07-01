@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>鄂尔多斯公共资源交易网</title>
+    <link rel="stylesheet" type="text/css" href="/TPFront/Template/Default/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/TPFront/Template/Default/css/index.css">
+    <link rel="shortcut icon" href="/TPFront/Template/Default/images/ordos_favicon.ico" />
+    <!--[if IE 6]><script type="text/javascript" src="/TPFront/Template/Default/js/dd_belatedpng.js"></script><![endif]-->
+</head>
+
+<body>
+    <!--header-->
+    
+<iframe width="100%" height="60px" frameborder="0" scrolling="no" src="http://dwlm.12371.cn/daohang/index.shtml"></iframe>
+<table border=0 cellspacing=0 cellpadding=0 width="100%" height="43" style="background:url(/TPFront/Template/Default/images/w020150820559611246704.jpg) repeat-x; overflow:hidden">
+    <tr>
+        <td align="center">
+            <table border="0" cellpadding="0" cellspacing="0" height="43" width="957" background="/TPFront/Template/Default/images/w020150820559611252616.jpg">
+                <tr>
+                    <td align="right" valign="bottom"><span style=" display: block; width: 960px; margin-bottom: 5px;"><a href="http://dwlm.12371.cn/" target="_blank">返回联盟首页</a>  |  <a href="http://www.12371.cn/" target="_blank">共产党员网</a></span></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<div class="top">
+    <div class="top-inner">
+        <div class="time">
+            当前时间： <span id="time">
+                <script>
+                    function times() {
+                        var mydate = new Date();
+                        var year = mydate.getFullYear();
+                        var mon = mydate.getMonth() + 1;
+                        var day = mydate.getDate();
+                        var week = mydate.getDay();
+                        var arr = new Array(" 星期日", " 星期一", " 星期二", " 星期三", " 星期四", " 星期五", " 星期六");
+                        var str = year + "年" + mon + "月" + day + "日";
+                        document.getElementById("time").innerHTML = str + arr[week];
+                        setTimeout("times()", 1000);
+                    }
+                    times();
+                </script>
+            </span>
+        </div>
+        <div class="weather2">今日天气：</div>
+        <div class="weather" style="width:170px">
+            <iframe style="padding-top:0px" allowtransparency="true" frameborder="0" width="180" height="36" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&z=3&t=1&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=0&c=71109&w=180&h=36&align=left"></iframe>
+        </div>
+        <div class="weather2"><a href="/TPFront/Template/Default/../../showinfo/phoneapp.aspx" style="color:red">手机APP下载</a></div>
+        <div class="search">
+            <div class="s-option"><span>全站</span></div>
+            <div class="s-input">
+                <input class="s-input" type="text" onkeydown="tab()" size="12" name="txt" id="txt" value="请输入关键词" onfocus="value=''" onblur="if(!value)value=defaultValue" />
+            </div>
+            <div class="s-button"> <img src="/TPFront/Template/Default/images/search-btn.jpg" class="btn" id="submit" onclick="search()" /> </div>
+        </div>
+        <div class="login4">
+            <div><a href="http://www.ordosggzyjy.org.cn:8080/EpointEedsdzjc/" class="l-button3" target="_blank"></a></div>
+        </div>
+        <div class="login3">
+            <div><a href="http://www.ordosggzyjy.org.cn/TPBidder/login.aspx?Type=3" class="l-button4" target="_blank"></a></div>
+        </div>
+        <div class="login2">
+            <div><a href="http://www.ordosggzyjy.org.cn/TPBidder" class="l-button2" target="_blank"></a></div>
+        </div>
+        <div class="login">
+            <div><a href="http://www.ordosggzyjy.org.cn/TPframe" class="l-button" target="_blank"></a></div>
+        </div>
+        
+    </div>
+</div>
+<div class="logo">
+    <embed src="/TPFront/Template/Default/images/eeds2.swf"
+           width="100%" height="158" wmode="transparent" align="center"></embed>
+</div>
+<div style="position: absolute; right:150px; top:180px"><a style="font-weight:bold; font-size:16pt; color:yellow" target="_blank" href="http://110.19.109.35/eedszbtb/">老版网站入口</a></div>
+<script type="text/javascript">
+    function selclick() {
+        var obj = document.getElementById("choose");
+        window.open(obj.options[obj.selectedIndex].value, "_blank");
+    }
+</script>
+
+
+
+    <!--main-->
+    <div id="main" class="clearFix">
+        <div class="left-nav">
+    <ul>
+        <li><a href="/TPFront/Template/Default/../../" class="nav-icon01 png">网站首页</a></li>
+        <li><a href="/TPFront/Template/Default/../../zwgk/001001/001001001/" class="nav-icon02 png">政务公开</a></li>
+        <li><a href="/TPFront/Template/Default/../../djdf/002001/" class="nav-icon03 png">党建党风</a></li>
+        <li><a href="/TPFront/Template/Default/../../zcfg/003001/" class="nav-icon04 png">政策法规</a></li>
+        <li><a href="/TPFront/Template/Default/../../xxyd/004001/004001001/" class="nav-icon05 png">学习园地</a></li>
+        <li><a href="/TPFront/Template/Default/../../bszn/005001/005001001/" class="nav-icon06 png">办事指南</a></li>
+        <li><a href="/TPFront/Template/Default/../../showinfo/ldxx.aspx" class="nav-icon07 png">领导信箱</a></li>
+        <li><a href="/TPFront/Template/Default/../../showinfo/tszx.aspx" class="nav-icon08 png">投诉咨询</a></li>
+        <!--<li><a href="/TPFront/Template/Default/../../hyzq" class="nav-icon09 png">主体专区</a></li>-->
+        <li><a href="/TPFront/Template/Default/../../showdanwei/daili_list.aspx" class="nav-icon09 png">主体专区</a></li>
+    </ul>
+</div>
+        <div class="mid-block">
+            <table width="100%" height="610" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+                <tr>
+                    <td width="220" valign="top" height="430" bgcolor="#f7e3e2">
+                        <table width="100%" height="430" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td valign="top" style="min-height:50px; height:auto;" width="220" align="center"><TABLE align="center" cellSpacing="0" cellPadding="0" width="100%" border="0">
+<tr><td background="/TPFront/Template/Default/images/erj_active.jpg" ><a class=LeftMenu href="/TPFront/zfcg/010001?categorynum=010001" target="_self">采购公告</a></td></tr>
+<tr><td background="/TPFront/Template/Default/images/erj_active.jpg" ><a class=LeftMenu  href="/TPFront/zfcg/010002?categorynum=010002" target="_self">变更公告</a></a></td></tr>
+<tr><td background="/TPFront/Template/Default/images/erj_active.jpg" ><a class=LeftMenu  href="/TPFront/zfcg/010003?categorynum=010003" target="_self">中标[成交]公告</a></a></td></tr>
+<tr><td background="/TPFront/Template/Default/images/erj_active.jpg" ><a class=LeftMenu  href="/TPFront/zfcg/010004?categorynum=010004" target="_self">中标[成交]变更公告</a></a></td></tr>
+<tr><td background="/TPFront/Template/Default/images/erj_active.jpg" ><a class=LeftMenu  href="/TPFront/zfcg/010005?categorynum=010005" target="_self">废标公告</a></a></td></tr>
+<tr><td background="/TPFront/Template/Default/images/erj_active.jpg" ><a class=LeftMenu  href="/TPFront/zfcg/010006?categorynum=010006" target="_self">单一来源公示</a></a></td></tr>
+<tr><td background="/TPFront/Template/Default/images/erj_active.jpg" ><a class=LeftMenu  href="http://www.ordosggzyjy.org.cn/TPFrame/ZFCGZtbMis_EEDS/Pages/FenBaoChaXun/BiaoDuan_WZ_List.aspx?ModuleGuid=019f584c-a7c2-4a96-9993-e9e0b7948350" target="_blank">分包进度</a></a></td></tr>
+<tr><td onclick="OpenDiv('TD010008');" background="/TPFront/Template/Default/images/erj_active.jpg"><a class=LeftMenu  href="/TPFront/zfcg/010008?categorynum=010008" target="_self">
+协议供货</a></a></td></tr>
+<tr><td style="padding-left:0px;display:none;" id="TD010008"><table border=0 width="100%">
+<tr><td><a class="LeftMenuSub" href="/TPFront/zfcg/010008/010008001?categorynum=010008001" target="_self">
+询价采购公告</a></td></tr>
+<tr><td><a class="LeftMenuSub" href="/TPFront/zfcg/010008/010008002?categorynum=010008002" target="_self">
+询价中标公告</a></td></tr>
+<tr><td><a class="LeftMenuSub" href="/TPFront/zfcg/010008/010008004?categorynum=010008004" target="_self">
+补充变更公告</a></td></tr>
+<tr><td><a class="LeftMenuSub" href="/TPFront/zfcg/010008/010008005?categorynum=010008005" target="_self">
+协议供货统计</a></td></tr>
+</table></td></tr>
+<tr><td background="/TPFront/Template/Default/images/img_27.png" ><a class=LeftMenu  href="/TPFront/zfcg/010009?categorynum=010009" target="_self">采购需求公示</a></a></td></tr>
+<tr><td background="/TPFront/Template/Default/images/img_27.png" ><a class=LeftMenu  href="/TPFront/zfcg/010010?categorynum=010010" target="_self">合同公告</a></a></td></tr>
+<tr><td background="/TPFront/Template/Default/images/img_27.png" ><a class=LeftMenu  href="/TPFront/zfcg/010011?categorynum=010011" target="_self">验收结果公告</a></a></td></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="10"></td>
+                    <td valign="top">
+                        <table width="100%" height="568" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="9"></td>
+                            </tr>
+                            <tr>
+                                <td height="37">
+                                    <table width="98%" height="37" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="100%" class="blue" style="border-bottom:1px dashed #d9d9d9; padding-left:10px"><font color="#F93"><b>您现在的位置：</b></font><a href="/TPFront/Template/Default/../../"><font color="#F93">首页</font></a><font color="red"> >></font>采购公告</td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" height="100%">
+                                    <div style="height:550px; overflow:auto; width:750px; margin:0 auto;">
+                                        <table width="720" height="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="932" valign="top"> <table width='740' border='0' align='center' cellpadding='0' cellspacing='0'>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=45514730-c5e8-46ca-a8a5-b30fccd2cc93&CategoryNum=010001" target="_blank" title="东胜区交通运输局采购东胜东火车站前广场建设公开招标公告（第三次）"><font color=#ff0000>[正在报名]</font><span style="color:blue">[东胜区]</span>东胜区交通运输局采购东胜东火车站前广场建设公开招标...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=07cf94c5-4b26-4efd-a845-85265c985f71&CategoryNum=010001" target="_blank" title="伊金霍洛旗兽医局采购数码照相机、台式电脑、传真机、冰箱、行政执法仪、机动消毒柜等设备竞争性谈判公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[伊金霍洛旗]</span>伊金霍洛旗兽医局采购数码照相机、台式电脑、传真机、...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=01ae063d-337e-4c92-98db-86f7ede514c7&CategoryNum=010001" target="_blank" title="伊金霍洛旗园林局采购中心城区园林绿化中水管网系统劳务招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[伊金霍洛旗]</span>伊金霍洛旗园林局采购中心城区园林绿化中水管网系统劳...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=42e26f2c-b4b1-4480-8df1-6f8d4d387969&CategoryNum=010001" target="_blank" title="东胜区园林绿化事业局采购园林设施公开招标公告（二次）"><font color=#ff0000>[正在报名]</font><span style="color:blue">[东胜区]</span>东胜区园林绿化事业局采购园林设施公开招标公告（二次...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=72c469cd-1c96-4859-957b-7fbb045ad4e9&CategoryNum=010001" target="_blank" title="中共鄂尔多斯市东胜区委宣传部采购东胜城市形象宣传推广服务单一来源招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[]</span>中共鄂尔多斯市东胜区委宣传部采购东胜城市形象宣传推...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=700f7198-02a3-4ebd-97bb-79ad625d09f9&CategoryNum=010001" target="_blank" title="鄂尔多斯市住房公积金管理中心工作服竞争性谈判招标公告（三次）"><font color=#ff0000>[正在报名]</font><span style="color:blue">[市辖区]</span>鄂尔多斯市住房公积金管理中心工作服竞争性谈判招标公...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=623d573a-9a1e-4ac6-b45e-19d60d98a65f&CategoryNum=010001" target="_blank" title="杭锦旗人民法院采购诉讼服务中心无线全覆盖项目公开招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[杭锦旗]</span>杭锦旗人民法院采购诉讼服务中心无线全覆盖项目公开招...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=d68546bd-215a-4a51-9986-8c12956c9ea7&CategoryNum=010001" target="_blank" title="杭锦旗人民法院采购文书保密输出设备项目公开招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[杭锦旗]</span>杭锦旗人民法院采购文书保密输出设备项目公开招标公告</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=064066ef-56c6-47bd-a50a-1974a9654878&CategoryNum=010001" target="_blank" title="鄂尔多斯市电化教育馆采购鄂尔多斯市教育可视化管理平台公开招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[市辖区]</span>鄂尔多斯市电化教育馆采购鄂尔多斯市教育可视化管理平...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=f0f9c20b-1cce-45c0-9732-edc78bf37616&CategoryNum=010001" target="_blank" title="鄂尔多斯市图书馆采购《金冠文库》之当代作家作品出版编撰服务公开招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[市辖区]</span>鄂尔多斯市图书馆采购《金冠文库》之当代作家作品出版...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=e566b040-35c2-4952-b59d-f44f7bc85937&CategoryNum=010001" target="_blank" title="乌审旗机关事务管理局改造党政新区各办公大楼采暖设施项目"><font color=#ff0000>[正在报名]</font><span style="color:blue">[乌审旗]</span>乌审旗机关事务管理局改造党政新区各办公大楼采暖设施...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=cb0bfe31-c822-4d84-9570-e94d69b9ce79&CategoryNum=010001" target="_blank" title="乌审旗城乡规划审验中心嘎查村规划编制项目招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[乌审旗]</span>乌审旗城乡规划审验中心嘎查村规划编制项目招标公告</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=1f1f6e16-973b-4629-a76b-2f44b98bdaa1&CategoryNum=010001" target="_blank" title="东胜区第一小学分校万利小学采购学生电子书包询价采购公告（第二次）"><font color=#ff0000>[正在报名]</font><span style="color:blue">[东胜区]</span>东胜区第一小学分校万利小学采购学生电子书包询价采购...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=dc7e5cf7-c5f8-449f-9488-f4029f71e91e&CategoryNum=010001" target="_blank" title="鄂尔多斯市人民政府驻上海联络处采购鄂尔多斯体验中心及办公用房设计施工一体化项目竞争性磋商招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[市辖区]</span>鄂尔多斯市人民政府驻上海联络处采购鄂尔多斯体验中心...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=a94d79eb-25c4-403d-8423-5653f45948dc&CategoryNum=010001" target="_blank" title="鄂尔多斯市图书馆第二届鄂尔多斯诗歌那达慕后期品牌宣传服务竞争性谈判招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[市辖区]</span>鄂尔多斯市图书馆第二届鄂尔多斯诗歌那达慕后期品牌宣...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr height='30'>
+<td width='20' valign=top><img src='/TPFront/images/dots/dot1.gif' border=0></td>
+<td align="left"><a href="/TPFront/InfoDetail/?InfoID=2a4682a7-0350-4bc3-a7e0-ff98bc624d65&CategoryNum=010001" target="_blank" title="鄂尔多斯市广播电视台互联网及其他信息传输服务竞争性谈判招标公告"><font color=#ff0000>[正在报名]</font><span style="color:blue">[市辖区]</span>鄂尔多斯市广播电视台互联网及其他信息传输服务竞争性...</a></td></td>
+<td width='100' align=right>[2017-11-14]</td>
+</tr>
+<tr><td colspan='4' height="20px"></td></tr></table><style>.pagemargin{margin:20px}.margintop{margin-top:15px}.yahei{font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold}.yaheigo{font-family:"Microsoft YaHei",微软雅黑; font-size:12px}.redfont{color:red}.bordercolor{border:solid 1px #dfdfdf}.huifont{color:#666666}.songti{font-size:12px}.weight{font-weight:bold}.pageover{ background-color:#999999; border:solid 1px #999999; font-size:12px; color:#FFFFFF;cursor:pointer}.pageout{border:solid 1px #dedede;font-size:12px;color:#666666;cursor:pointer}.numberover{background-color:#999999; border:solid 1px #999999;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#FFFFFF;cursor:pointer;width:36px}.numberout{border:solid 1px #dedede;font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold;color:#666666;cursor:pointer;width:36px}.goover{border:solid 1px #dfdfdf;background-color:#999999;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:#FFFFFF;cursor:pointer}.goout{border:solid 1px #dfdfdf;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:666666;cursor:pointer}</style><script>var totalPageNums = 419;function GoToPaging() {var Gtno = document.getElementById('GoToPagingNo');var no = Gtno.value;if (!isNaN(no)) {no = parseInt(no);no = Math.abs(no);if (no <= totalPageNums) {window.location.href='./?Paging='+no;} else {alert("最大分页为" + totalPageNums + ",请重新输入页码！");Gtno.value='';Gtno.focus();}} else {alert("请重新输入数字页码！");Gtno.value='';Gtno.focus();}}</script><script>function optionchange(aim){document.location=aim;}</script>
+<div class="pagemargin"><div style="height:26px; margin:0 auto;"><table border='0' cellpadding='0' cellspacing='0' algin='center'><tr><td onclick="window.location.href='./?Paging=1'" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">首页</td><td width="4"></td><td onclick="window.location.href='./?Paging=1'" title='转到第1页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">&lt; 上页</td><td width="4"></td><td onclick="window.location.href='./?Paging=1'" title='转到第1页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">1</td><td width="4"></td><td  width="36" align="center" class="yahei redfont" >2</td><td width="4"></td><td onclick="window.location.href='./?Paging=3'" title='转到第3页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">3</td><td width="4"></td><td onclick="window.location.href='./?Paging=4'" title='转到第4页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">4</td><td width="4"></td><td onclick="window.location.href='./?Paging=5'" title='转到第5页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">5</td><td width="4"></td><td onclick="window.location.href='./?Paging=6'" title='转到第6页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">6</td><td width="4"></td><td onclick="window.location.href='./?Paging=7'" title='转到第7页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">7</td><td width="4"></td><td onclick="window.location.href='./?Paging=8'" title='转到第8页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">8</td><td width="4"></td><td onclick="window.location.href='./?Paging=3'" title='转到第3页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">下页 &gt;</td><td width="4"></td><td onclick="window.location.href='./?Paging=419'" title='转到第419页' width="60" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">末页</td><td width="20"></td><td class="huifont">2/419</td><td width="10"></td><td class="songti huifont">转到</td><td width="8"></td><td><select type="text" id="sel_pagenum" class="page_num" onchange="optionchange(this.options[this.selectedIndex].value)"><option value="./?Paging=1">第1页</option><option value="./?Paging=2" selected=true>第2页</option><option value="./?Paging=3">第3页</option><option value="./?Paging=4">第4页</option><option value="./?Paging=5">第5页</option><option value="./?Paging=6">第6页</option><option value="./?Paging=7">第7页</option><option value="./?Paging=8">第8页</option><option value="./?Paging=9">第9页</option><option value="./?Paging=10">第10页</option><option value="./?Paging=11">第11页</option><option value="./?Paging=12">第12页</option><option value="./?Paging=13">第13页</option><option value="./?Paging=14">第14页</option><option value="./?Paging=15">第15页</option><option value="./?Paging=16">第16页</option><option value="./?Paging=17">第17页</option><option value="./?Paging=18">第18页</option><option value="./?Paging=19">第19页</option><option value="./?Paging=20">第20页</option><option value="./?Paging=21">第21页</option><option value="./?Paging=22">第22页</option><option value="./?Paging=23">第23页</option><option value="./?Paging=24">第24页</option><option value="./?Paging=25">第25页</option><option value="./?Paging=26">第26页</option><option value="./?Paging=27">第27页</option><option value="./?Paging=28">第28页</option><option value="./?Paging=29">第29页</option><option value="./?Paging=30">第30页</option><option value="./?Paging=31">第31页</option><option value="./?Paging=32">第32页</option><option value="./?Paging=33">第33页</option><option value="./?Paging=34">第34页</option><option value="./?Paging=35">第35页</option><option value="./?Paging=36">第36页</option><option value="./?Paging=37">第37页</option><option value="./?Paging=38">第38页</option><option value="./?Paging=39">第39页</option><option value="./?Paging=40">第40页</option><option value="./?Paging=41">第41页</option><option value="./?Paging=42">第42页</option><option value="./?Paging=43">第43页</option><option value="./?Paging=44">第44页</option><option value="./?Paging=45">第45页</option><option value="./?Paging=46">第46页</option><option value="./?Paging=47">第47页</option><option value="./?Paging=48">第48页</option><option value="./?Paging=49">第49页</option><option value="./?Paging=50">第50页</option><option value="./?Paging=51">第51页</option><option value="./?Paging=52">第52页</option><option value="./?Paging=53">第53页</option><option value="./?Paging=54">第54页</option><option value="./?Paging=55">第55页</option><option value="./?Paging=56">第56页</option><option value="./?Paging=57">第57页</option><option value="./?Paging=58">第58页</option><option value="./?Paging=59">第59页</option><option value="./?Paging=60">第60页</option><option value="./?Paging=61">第61页</option><option value="./?Paging=62">第62页</option><option value="./?Paging=63">第63页</option><option value="./?Paging=64">第64页</option><option value="./?Paging=65">第65页</option><option value="./?Paging=66">第66页</option><option value="./?Paging=67">第67页</option><option value="./?Paging=68">第68页</option><option value="./?Paging=69">第69页</option><option value="./?Paging=70">第70页</option><option value="./?Paging=71">第71页</option><option value="./?Paging=72">第72页</option><option value="./?Paging=73">第73页</option><option value="./?Paging=74">第74页</option><option value="./?Paging=75">第75页</option><option value="./?Paging=76">第76页</option><option value="./?Paging=77">第77页</option><option value="./?Paging=78">第78页</option><option value="./?Paging=79">第79页</option><option value="./?Paging=80">第80页</option><option value="./?Paging=81">第81页</option><option value="./?Paging=82">第82页</option><option value="./?Paging=83">第83页</option><option value="./?Paging=84">第84页</option><option value="./?Paging=85">第85页</option><option value="./?Paging=86">第86页</option><option value="./?Paging=87">第87页</option><option value="./?Paging=88">第88页</option><option value="./?Paging=89">第89页</option><option value="./?Paging=90">第90页</option><option value="./?Paging=91">第91页</option><option value="./?Paging=92">第92页</option><option value="./?Paging=93">第93页</option><option value="./?Paging=94">第94页</option><option value="./?Paging=95">第95页</option><option value="./?Paging=96">第96页</option><option value="./?Paging=97">第97页</option><option value="./?Paging=98">第98页</option><option value="./?Paging=99">第99页</option><option value="./?Paging=100">第100页</option><option value="./?Paging=101">第101页</option><option value="./?Paging=102">第102页</option><option value="./?Paging=103">第103页</option><option value="./?Paging=104">第104页</option><option value="./?Paging=105">第105页</option><option value="./?Paging=106">第106页</option><option value="./?Paging=107">第107页</option><option value="./?Paging=108">第108页</option><option value="./?Paging=109">第109页</option><option value="./?Paging=110">第110页</option><option value="./?Paging=111">第111页</option><option value="./?Paging=112">第112页</option><option value="./?Paging=113">第113页</option><option value="./?Paging=114">第114页</option><option value="./?Paging=115">第115页</option><option value="./?Paging=116">第116页</option><option value="./?Paging=117">第117页</option><option value="./?Paging=118">第118页</option><option value="./?Paging=119">第119页</option><option value="./?Paging=120">第120页</option><option value="./?Paging=121">第121页</option><option value="./?Paging=122">第122页</option><option value="./?Paging=123">第123页</option><option value="./?Paging=124">第124页</option><option value="./?Paging=125">第125页</option><option value="./?Paging=126">第126页</option><option value="./?Paging=127">第127页</option><option value="./?Paging=128">第128页</option><option value="./?Paging=129">第129页</option><option value="./?Paging=130">第130页</option><option value="./?Paging=131">第131页</option><option value="./?Paging=132">第132页</option><option value="./?Paging=133">第133页</option><option value="./?Paging=134">第134页</option><option value="./?Paging=135">第135页</option><option value="./?Paging=136">第136页</option><option value="./?Paging=137">第137页</option><option value="./?Paging=138">第138页</option><option value="./?Paging=139">第139页</option><option value="./?Paging=140">第140页</option><option value="./?Paging=141">第141页</option><option value="./?Paging=142">第142页</option><option value="./?Paging=143">第143页</option><option value="./?Paging=144">第144页</option><option value="./?Paging=145">第145页</option><option value="./?Paging=146">第146页</option><option value="./?Paging=147">第147页</option><option value="./?Paging=148">第148页</option><option value="./?Paging=149">第149页</option><option value="./?Paging=150">第150页</option><option value="./?Paging=151">第151页</option><option value="./?Paging=152">第152页</option><option value="./?Paging=153">第153页</option><option value="./?Paging=154">第154页</option><option value="./?Paging=155">第155页</option><option value="./?Paging=156">第156页</option><option value="./?Paging=157">第157页</option><option value="./?Paging=158">第158页</option><option value="./?Paging=159">第159页</option><option value="./?Paging=160">第160页</option><option value="./?Paging=161">第161页</option><option value="./?Paging=162">第162页</option><option value="./?Paging=163">第163页</option><option value="./?Paging=164">第164页</option><option value="./?Paging=165">第165页</option><option value="./?Paging=166">第166页</option><option value="./?Paging=167">第167页</option><option value="./?Paging=168">第168页</option><option value="./?Paging=169">第169页</option><option value="./?Paging=170">第170页</option><option value="./?Paging=171">第171页</option><option value="./?Paging=172">第172页</option><option value="./?Paging=173">第173页</option><option value="./?Paging=174">第174页</option><option value="./?Paging=175">第175页</option><option value="./?Paging=176">第176页</option><option value="./?Paging=177">第177页</option><option value="./?Paging=178">第178页</option><option value="./?Paging=179">第179页</option><option value="./?Paging=180">第180页</option><option value="./?Paging=181">第181页</option><option value="./?Paging=182">第182页</option><option value="./?Paging=183">第183页</option><option value="./?Paging=184">第184页</option><option value="./?Paging=185">第185页</option><option value="./?Paging=186">第186页</option><option value="./?Paging=187">第187页</option><option value="./?Paging=188">第188页</option><option value="./?Paging=189">第189页</option><option value="./?Paging=190">第190页</option><option value="./?Paging=191">第191页</option><option value="./?Paging=192">第192页</option><option value="./?Paging=193">第193页</option><option value="./?Paging=194">第194页</option><option value="./?Paging=195">第195页</option><option value="./?Paging=196">第196页</option><option value="./?Paging=197">第197页</option><option value="./?Paging=198">第198页</option><option value="./?Paging=199">第199页</option><option value="./?Paging=200">第200页</option><option value="./?Paging=201">第201页</option><option value="./?Paging=202">第202页</option><option value="./?Paging=203">第203页</option><option value="./?Paging=204">第204页</option><option value="./?Paging=205">第205页</option><option value="./?Paging=206">第206页</option><option value="./?Paging=207">第207页</option><option value="./?Paging=208">第208页</option><option value="./?Paging=209">第209页</option><option value="./?Paging=210">第210页</option><option value="./?Paging=211">第211页</option><option value="./?Paging=212">第212页</option><option value="./?Paging=213">第213页</option><option value="./?Paging=214">第214页</option><option value="./?Paging=215">第215页</option><option value="./?Paging=216">第216页</option><option value="./?Paging=217">第217页</option><option value="./?Paging=218">第218页</option><option value="./?Paging=219">第219页</option><option value="./?Paging=220">第220页</option><option value="./?Paging=221">第221页</option><option value="./?Paging=222">第222页</option><option value="./?Paging=223">第223页</option><option value="./?Paging=224">第224页</option><option value="./?Paging=225">第225页</option><option value="./?Paging=226">第226页</option><option value="./?Paging=227">第227页</option><option value="./?Paging=228">第228页</option><option value="./?Paging=229">第229页</option><option value="./?Paging=230">第230页</option><option value="./?Paging=231">第231页</option><option value="./?Paging=232">第232页</option><option value="./?Paging=233">第233页</option><option value="./?Paging=234">第234页</option><option value="./?Paging=235">第235页</option><option value="./?Paging=236">第236页</option><option value="./?Paging=237">第237页</option><option value="./?Paging=238">第238页</option><option value="./?Paging=239">第239页</option><option value="./?Paging=240">第240页</option><option value="./?Paging=241">第241页</option><option value="./?Paging=242">第242页</option><option value="./?Paging=243">第243页</option><option value="./?Paging=244">第244页</option><option value="./?Paging=245">第245页</option><option value="./?Paging=246">第246页</option><option value="./?Paging=247">第247页</option><option value="./?Paging=248">第248页</option><option value="./?Paging=249">第249页</option><option value="./?Paging=250">第250页</option><option value="./?Paging=251">第251页</option><option value="./?Paging=252">第252页</option><option value="./?Paging=253">第253页</option><option value="./?Paging=254">第254页</option><option value="./?Paging=255">第255页</option><option value="./?Paging=256">第256页</option><option value="./?Paging=257">第257页</option><option value="./?Paging=258">第258页</option><option value="./?Paging=259">第259页</option><option value="./?Paging=260">第260页</option><option value="./?Paging=261">第261页</option><option value="./?Paging=262">第262页</option><option value="./?Paging=263">第263页</option><option value="./?Paging=264">第264页</option><option value="./?Paging=265">第265页</option><option value="./?Paging=266">第266页</option><option value="./?Paging=267">第267页</option><option value="./?Paging=268">第268页</option><option value="./?Paging=269">第269页</option><option value="./?Paging=270">第270页</option><option value="./?Paging=271">第271页</option><option value="./?Paging=272">第272页</option><option value="./?Paging=273">第273页</option><option value="./?Paging=274">第274页</option><option value="./?Paging=275">第275页</option><option value="./?Paging=276">第276页</option><option value="./?Paging=277">第277页</option><option value="./?Paging=278">第278页</option><option value="./?Paging=279">第279页</option><option value="./?Paging=280">第280页</option><option value="./?Paging=281">第281页</option><option value="./?Paging=282">第282页</option><option value="./?Paging=283">第283页</option><option value="./?Paging=284">第284页</option><option value="./?Paging=285">第285页</option><option value="./?Paging=286">第286页</option><option value="./?Paging=287">第287页</option><option value="./?Paging=288">第288页</option><option value="./?Paging=289">第289页</option><option value="./?Paging=290">第290页</option><option value="./?Paging=291">第291页</option><option value="./?Paging=292">第292页</option><option value="./?Paging=293">第293页</option><option value="./?Paging=294">第294页</option><option value="./?Paging=295">第295页</option><option value="./?Paging=296">第296页</option><option value="./?Paging=297">第297页</option><option value="./?Paging=298">第298页</option><option value="./?Paging=299">第299页</option><option value="./?Paging=300">第300页</option><option value="./?Paging=301">第301页</option><option value="./?Paging=302">第302页</option><option value="./?Paging=303">第303页</option><option value="./?Paging=304">第304页</option><option value="./?Paging=305">第305页</option><option value="./?Paging=306">第306页</option><option value="./?Paging=307">第307页</option><option value="./?Paging=308">第308页</option><option value="./?Paging=309">第309页</option><option value="./?Paging=310">第310页</option><option value="./?Paging=311">第311页</option><option value="./?Paging=312">第312页</option><option value="./?Paging=313">第313页</option><option value="./?Paging=314">第314页</option><option value="./?Paging=315">第315页</option><option value="./?Paging=316">第316页</option><option value="./?Paging=317">第317页</option><option value="./?Paging=318">第318页</option><option value="./?Paging=319">第319页</option><option value="./?Paging=320">第320页</option><option value="./?Paging=321">第321页</option><option value="./?Paging=322">第322页</option><option value="./?Paging=323">第323页</option><option value="./?Paging=324">第324页</option><option value="./?Paging=325">第325页</option><option value="./?Paging=326">第326页</option><option value="./?Paging=327">第327页</option><option value="./?Paging=328">第328页</option><option value="./?Paging=329">第329页</option><option value="./?Paging=330">第330页</option><option value="./?Paging=331">第331页</option><option value="./?Paging=332">第332页</option><option value="./?Paging=333">第333页</option><option value="./?Paging=334">第334页</option><option value="./?Paging=335">第335页</option><option value="./?Paging=336">第336页</option><option value="./?Paging=337">第337页</option><option value="./?Paging=338">第338页</option><option value="./?Paging=339">第339页</option><option value="./?Paging=340">第340页</option><option value="./?Paging=341">第341页</option><option value="./?Paging=342">第342页</option><option value="./?Paging=343">第343页</option><option value="./?Paging=344">第344页</option><option value="./?Paging=345">第345页</option><option value="./?Paging=346">第346页</option><option value="./?Paging=347">第347页</option><option value="./?Paging=348">第348页</option><option value="./?Paging=349">第349页</option><option value="./?Paging=350">第350页</option><option value="./?Paging=351">第351页</option><option value="./?Paging=352">第352页</option><option value="./?Paging=353">第353页</option><option value="./?Paging=354">第354页</option><option value="./?Paging=355">第355页</option><option value="./?Paging=356">第356页</option><option value="./?Paging=357">第357页</option><option value="./?Paging=358">第358页</option><option value="./?Paging=359">第359页</option><option value="./?Paging=360">第360页</option><option value="./?Paging=361">第361页</option><option value="./?Paging=362">第362页</option><option value="./?Paging=363">第363页</option><option value="./?Paging=364">第364页</option><option value="./?Paging=365">第365页</option><option value="./?Paging=366">第366页</option><option value="./?Paging=367">第367页</option><option value="./?Paging=368">第368页</option><option value="./?Paging=369">第369页</option><option value="./?Paging=370">第370页</option><option value="./?Paging=371">第371页</option><option value="./?Paging=372">第372页</option><option value="./?Paging=373">第373页</option><option value="./?Paging=374">第374页</option><option value="./?Paging=375">第375页</option><option value="./?Paging=376">第376页</option><option value="./?Paging=377">第377页</option><option value="./?Paging=378">第378页</option><option value="./?Paging=379">第379页</option><option value="./?Paging=380">第380页</option><option value="./?Paging=381">第381页</option><option value="./?Paging=382">第382页</option><option value="./?Paging=383">第383页</option><option value="./?Paging=384">第384页</option><option value="./?Paging=385">第385页</option><option value="./?Paging=386">第386页</option><option value="./?Paging=387">第387页</option><option value="./?Paging=388">第388页</option><option value="./?Paging=389">第389页</option><option value="./?Paging=390">第390页</option><option value="./?Paging=391">第391页</option><option value="./?Paging=392">第392页</option><option value="./?Paging=393">第393页</option><option value="./?Paging=394">第394页</option><option value="./?Paging=395">第395页</option><option value="./?Paging=396">第396页</option><option value="./?Paging=397">第397页</option><option value="./?Paging=398">第398页</option><option value="./?Paging=399">第399页</option><option value="./?Paging=400">第400页</option><option value="./?Paging=401">第401页</option><option value="./?Paging=402">第402页</option><option value="./?Paging=403">第403页</option><option value="./?Paging=404">第404页</option><option value="./?Paging=405">第405页</option><option value="./?Paging=406">第406页</option><option value="./?Paging=407">第407页</option><option value="./?Paging=408">第408页</option><option value="./?Paging=409">第409页</option><option value="./?Paging=410">第410页</option><option value="./?Paging=411">第411页</option><option value="./?Paging=412">第412页</option><option value="./?Paging=413">第413页</option><option value="./?Paging=414">第414页</option><option value="./?Paging=415">第415页</option><option value="./?Paging=416">第416页</option><option value="./?Paging=417">第417页</option><option value="./?Paging=418">第418页</option><option value="./?Paging=419">第419页</option></select></td><td width="8"></td></td></tr></table></div></div></div> </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--footer-->
+    <!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>鄂尔多斯公共资源交易网</title>
+    <link rel="stylesheet" type="text/css" href="/TPFront/Template/Default/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/TPFront/Template/Default/css/index.css">
+    <link rel="shortcut icon" href="/TPFront/Template/Default/images/ordos_favicon.ico" />
+    <!--[if IE 6]><script type="text/javascript" src="/TPFront/Template/Default/js/dd_belatedpng.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="footer">
+    <div class="footlogo">
+        <script type="text/javascript">    document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/07/136/0000/60188868/CA071360000601888680001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+    <div class="footerp">
+        主办单位：鄂尔多斯市公共资源交易综合管理办公室&nbsp;&nbsp;技术支持：江苏国泰新点软件有限公司 <br />
+        您是第
+        <script src="/TPFront/Template/Default/../../count.aspx"></script>位访问者&nbsp;&nbsp;蒙ICP备11003131号-1 <br /><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15060302000176" style="color:#fff;" target="_blank"><img src="/TPFront/Template/Default/images/ba.png">蒙公网安备 15060302000176号</a>
+    </div>
+    <div class="footerwx"><img src="/TPFront/Template/Default/images/erw.jpg" width="65" height="65" /></div>
+    <div class="footerfg"><a href="http://www.gov.cn/pushinfo/v150203/" target="_blank"><img src="/TPFront/Template/Default/images/guowuyuan.jpg"/></a></div>
+    <div class="footerzc">
+        <script id="_jiucuo_" sitecode='1506000018' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+    </div>
+</div>
+
+</body>
+</html>
+
+    <script type="text/javascript" src="/TPFront/Template/Default/js/common.js"></script>
+    <script>
+        function OpenDiv(cate) {
+            if (document.getElementById(cate).style.display == '') {
+                document.getElementById(cate).style.display = 'none'
+            }
+            else {
+                document.getElementById(cate).style.display = ''
+            }
+        }
+    </script>
+</body>
+</html>

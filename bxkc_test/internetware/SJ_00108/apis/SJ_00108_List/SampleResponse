@@ -1,0 +1,779 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>采购公告</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-store" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" />
+<meta name="author" content="贵州世纪惠邦科技有限公司"/>
+<!--[if lte IE 6]><link href="/static/bootstrap/bsie/css/bootstrap-ie6.min.css" type="text/css" rel="stylesheet" />
+<script src="/static/bootstrap/bsie/js/bootstrap-ie.min.js" type="text/javascript"></script><![endif]-->
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]> <script src="/static/common/html5.js"></script><![endif]-->
+
+<link rel="shortcut icon" href="/static/favicon.ico">
+<script src="/static/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+<link href="/static/common/home.css" type="text/css" rel="stylesheet" />
+<script src="/static/scripts/swfobject_modified.js" type="text/javascript"></script>
+<script src="/static/easytabs/easytabs.js" type="text/javascript" ></script>
+<link href="/static/jquery-validation/1.11.0/jquery.validate.min.css" type="text/css" rel="stylesheet" />
+<script src="/static/jquery-validation/1.11.0/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/static/jquery-validation/1.11.0/jquery.validate.method.js" type="text/javascript"></script>
+<script src="/static/jquery-form/jquery-form.js" type="text/javascript"></script>	
+
+
+
+
+
+
+<link href="/static/jquery-jbox/2.3/Skins/Bootstrap/jbox.min.css" rel="stylesheet" />
+<script src="/static/jquery-jbox/2.3/jquery.jBox-2.3.min.js" type="text/javascript"></script>
+	
+
+	
+	<meta name="decorator" content="cms_default_basic"/>
+	<meta name="description" content="显示贵州省省级项目招标，中标，变更、废标等新闻项目信息。" />
+	<meta name="keywords" content="" />
+	<script type="text/javascript">
+		$(document).ready(
+				function() {
+					$("#projectSearchInfoForm").validate(
+							{
+								submitHandler : function(form) {
+									form.submit();
+								},
+								errorContainer : "#messageBox",
+								errorPlacement : function(error, element) {
+									$("#messageBox").text("输入有误，请先更正。");
+									if (element.is(":checkbox")
+											|| element.is(":radio")
+											|| element.parent().is(
+													".input-append")) {
+										error.appendTo(element.parent()
+												.parent());
+									} else {
+										error.insertAfter(element);
+									}
+								}
+							});
+					
+					$("#articleSearchForm").validate(
+							{
+								submitHandler : function(form) {
+									form.submit();
+								},
+								errorContainer : "#messageBox",
+								errorPlacement : function(error, element) {
+									$("#messageBox").text("输入有误，请先更正。");
+									if (element.is(":checkbox")
+											|| element.is(":radio")
+											|| element.parent().is(
+													".input-append")) {
+										error.appendTo(element.parent()
+												.parent());
+									} else {
+										error.insertAfter(element);
+									}
+								}
+							});
+				});
+
+		function project_search() {
+			$("#projectSearchInfoForm").submit();
+		}
+		
+		function article_search() {
+			$("#articleSearchForm").submit();
+		}
+		
+		function dis(){
+			 document.getElementById('operate').style.display = (document.getElementById('operate').style.display=="block") ? "none" : "block";
+		}
+		
+		
+	</script>
+
+<script type="text/javascript">
+	 var digitArray = new Array('0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f');
+
+	 function toHex( n ) {
+
+	         var result = ''
+	         var start = true;
+
+	         for ( var i=32; i>0; ) {
+	                 i -= 4;
+	                 var digit = ( n >> i ) & 0xf;
+
+	                 if (!start || digit != 0) {
+	                         start = false;
+	                         result += digitArray[digit];
+	                 }
+	         }
+
+	         return ( result == '' ? '0' : result );
+	 }
+
+	 function check() 
+	 {
+	 	var DevicePath,ret,n,mylen;
+	 	try
+	 	{
+	 	
+	 		
+	         var s_simnew61;
+	 	    
+	 	    if((!!navigator.userAgent.match(/Trident\/7\./)||navigator.userAgent.indexOf("MSIE")>0) && !navigator.userAgent.indexOf("opera") > -1)
+	 	    {
+	 		    s_simnew61=new ActiveXObject("Syunew6A.s_simnew6");
+	 	    }
+	 	    else
+	 	    {
+	 			s_simnew61= document.getElementById('s_simnew61');
+	 	    }
+	         
+	         
+	 		DevicePath = s_simnew61.FindPort(0);
+	 		
+	 		if( s_simnew61.LastError!= 0 )
+	 		{
+	 			
+//	 			window.alert ( "Not Find Key ,Pls insert Key.");			
+	 			
+	 		}
+	 		window.location.href="/govenment/login/";	
+
+	 	}
+	 	catch (e) 
+	 	{
+	 		alert("可能是没有安装相应的控件或插件");
+	 	}
+	 }
+
+
+</script>
+</head>
+
+<body>
+<object id="Spindial1" width=3 height=3 visibility="hidden"
+  classid="CLSID:469F3884-962C-4F42-8BCC-C6564386A4FA"
+  codebase="/static/usbKey/ypcab.cab#Version=1.0.0.1">
+</object>
+<embed id="s_simnew61"  type="application/npsyunew6-plugin" hidden="true"> </embed>
+	<div class="head">
+
+	
+		<object id="FlashID"
+			classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="980"
+			height="215">
+	
+			<param name="movie" value="/static/common/home/images/top.swf" />
+			<param name="quality" value="high" />
+			<param name="wmode" value="transparent" />
+			<param name="swfversion" value="8.0.35.0" />
+			<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+			<param name="expressinstall" value="Scripts/expressInstall.swf" />
+			<!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+			<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash"
+				data="/static/common/home/images/top.swf" width="980" height="215">
+				<!--<![endif]-->
+				<param name="quality" value="high" />
+				<param name="wmode" value="transparent" />
+				<param name="swfversion" value="8.0.35.0" />
+				<param name="expressinstall" value="Scripts/expressInstall.swf" />
+				<!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+				<div>
+					<h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+					<p>
+						<a href="http://www.adobe.com/go/getflashplayer"><img
+							src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+							alt="获取 Adobe Flash Player" width="112" height="33" /></a>
+					</p>
+				</div>
+			</object>
+		</object>
+	</div>
+
+	<div class="nav">
+		<ul>
+			
+			<li class=""><a
+				href="/index-1.html"><span>站点首页</span></a></li>
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-20.html" target="">新闻资讯</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-18.html" target="">政策法规</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-6.html" target="">代理机构</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-462c3fdb2de14a49943a4ed8adfa85f7.html" target="">办事指南</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-5d6c833797874c9f9745d94a3b8e03ed.html" target="">电子采购平台</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-1156199190442836.html" target="">投诉处理</a></li>
+				
+			
+				
+					
+					
+					<li
+						class=""><a
+						href="/list-1156199190442838.html" target="">处理处罚</a></li>
+				
+			
+		</ul>
+	</div>
+	
+	<!-- /container -->
+
+    <div  >
+		
+<style type="text/css">
+   div.page ul
+{
+    list-style:none;
+    margin: 0px;
+    padding: 0px; 
+    width: auto; 
+}
+div.page ul li
+{
+    float:left; 
+}
+div.page ul li a, div.menu ul li a:visited
+{
+    border: 0px #4e667d solid; 
+    color: #000;
+    display: block; 
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none; 
+    white-space: nowrap; 
+}
+div.page ul li a:hover
+{
+    background-color: #bfcbd6; 
+    color: #fff; 
+    text-decoration: none; 
+}
+
+div.page ul li a:active
+{
+    background-color: #465c71; 
+    color: #cfdbe6; 
+    text-decoration: none;
+}
+</style>
+
+<div class="dq">
+<div class="dqz"><ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<strong>当前位置：</strong><a href="/index-1.html">首页</a>&nbsp;
+	
+
+	<span class="divider"> > </span> <a href="/list-1153235350539767.html">省级标讯</a>
+&nbsp;<span class="divider"> > </span> <a href="o/list-1153418052184995.html">采购公告</a></li><ul></div>
+<div class="dqzl">  <a href="#" onclick="dis();"><img
+				src="/static/common/home/images/search.jpg" width="60"
+				height="20" /></a> 
+</div>
+</div>
+
+<div class="body">
+  <div class="zuo">
+  <div class="nzdh">
+  <div class="icon">栏目列表</div>
+    <ul>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153418052184995.html"  class="ndq" target="" >采购公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153454200156791.html"  class="" target="" >更正公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153488085289816.html"  class="" target="" >废标公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153531755759540.html"  class="" target="" >中标(成交)公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153567415242344.html"  class="" target="" >单一来源公示</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1153595823404526.html"  class="" target="" >单一来源(成交)公告</a>
+			</li>
+	
+
+  	
+   		
+   			
+   			
+   		
+		<li >
+			
+				 <a href="/list-1156071132711523.html"  class="" target="" >资格预审</a>
+			</li>
+	
+
+   </ul>
+  </div>
+  
+  <div >
+  <div ><h4>推荐阅读</h4></div>
+    <ul>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+   </ul>
+  </div>
+  
+  </div>
+  <div class="you">
+    <script type="text/javascript">
+function setTab(m,n){
+var menu=document.getElementById("tab"
++m).getElementsByTagName("li");  
+var div=document.getElementById("tablist"
++m).getElementsByTagName("div");
+var showdiv=[];
+for (i=0; j=div[i]; i++){
+if ((" "+div[i].className+" ").indexOf(" tablist ")!=-1){
+showdiv.push(div[i]);}}
+for(i=0;i<menu.length;i++){
+menu[i].className=i==n?"now":"";
+showdiv[i].style.display=i==n?"block":"none";}}
+</script>
+<div class="index-box07" id="operate" style="display: none">
+				<div id="tab2">
+					<ul>
+						<li onclick="setTab(2,0)" class="now">文章查找</li>
+						<li onclick="setTab(2,1)" >项目查找</li>
+					</ul>
+				</div>
+				<div id="tablist2">
+					<div class="tablist block">
+						<div class="index-list02">
+							<div class="sst">
+								<img src="/static/common/home/images/ctb2.gif" width="65"
+									height="141" />
+							</div>
+							
+							<div class="ssn">
+								<form id="articleSearchForm" class="form-horizontal" action="/article-search.html" method="post">
+
+									<table width="100%" border="0" cellpadding="0" cellspacing="0">
+										<tr>
+											<td height="70" colspan="2" valign="top"
+												style="border-bottom: #ededed 1px solid;"><span
+												style="text-indent: 1em">栏目选择：</span> 
+											<select
+												id="category.id" name="category.id" class="sr2">
+													<optgroup label="省级标讯">
+														
+
+															<option value="1153418052184995"
+																selected="selected">采购公告</option>
+														
+
+															<option value="1153454200156791"
+																>更正公告</option>
+														
+
+															<option value="1153488085289816"
+																>废标公告</option>
+														
+
+															<option value="1153531755759540"
+																>中标(成交)公告</option>
+														
+
+															<option value="1153567415242344"
+																>单一来源公示</option>
+														
+
+															<option value="1153595823404526"
+																>单一来源(成交)公告</option>
+														
+
+															<option value="1156071132711523"
+																>资格预审</option>
+														
+													</optgroup>
+													<optgroup label="市县标讯">
+														
+															<option value="1153797950913584"
+																>采购公告</option>
+														
+															<option value="1153817836808214"
+																>更正公告</option>
+														
+															<option value="1153845808113747"
+																>废标公告</option>
+														
+															<option value="1153905922931045"
+																>中标(成交)公告</option>
+														
+															<option value="1153924595764135"
+																>单一来源公示</option>
+														
+															<option value="1153937977184763"
+																>单一来源(成交)公告</option>
+														
+															<option value="1156071132710859"
+																>资格预审</option>
+														
+													</optgroup>
+													<optgroup label="其他标讯">
+														
+														<option value="1156151908329840"
+															>采购合同公告</option>
+														
+														<option value="1156121541491168"
+															>进口产品公示</option>
+														
+														<option value="91182367483273"
+															>PPP项目预中标公示</option>
+													</optgroup>
+													<optgroup label="其他栏目">
+														
+														<option value="20" >新闻资讯</option>
+														
+														<option value="18" >政策法规</option>
+														
+														<option value="1156199190442836" >投诉处理</option>
+														
+														<option value="1156199190442838" >处理处罚</option>
+														
+														<option value="1156199190442839" >理论研讨</option>
+													    
+														<option value="927351293035768" >工作动态</option>
+													
+													</optgroup>
+											   </select> 
+											<span style="text-indent: 1em">区域：</span>
+											<input id="areaName" name="areaName" class="sr2" value=""/><span>采购品目：</span>
+											<input id="tenderRocurementPm" name="tenderRocurementPm" class="sr2" type="text" value=""/></td>
+										</tr>
+										<tr>
+											<td width="66%" height="69" valign="top"><span>文章关键字：</span>
+											<input id="keywords" name="keywords" class="sr6" type="text" value=""/></td>
+											<td width="13%" align="center" valign="middle"><div
+													style="float: left">
+													<a href="javascript:void(0);return false;"
+														onclick="article_search()"><img
+														src="/static/common/home/images/ssa.gif" width="100"
+														height="36"/></a></td>
+										</tr>
+									</table>
+									
+									<input type="hidden" id="articlePageNo" name="articlePageNo" />
+									<input type="hidden" id="articlePageSize" name="articlePageSize" />
+								</form>
+							</div>
+							<div class="clr"></div>
+						</div>
+					</div>
+					<div class="tablist">
+					<div class="index-list02">
+							<div class="sst">
+								<img src="/static/common/home/images/ctb.gif" width="65"
+									height="151" />
+							</div>
+							<div class="ssn">
+								<form id="projectSearchInfoForm" class="form-horizontal" action="/project-search.html" method="post">
+
+									<table width="100%" border="0" cellpadding="0" cellspacing="0">
+										<tr>
+											<td width="66%" height="69" valign="top"><span>采购品目:</span>
+												<input id="pmname" name="pmname" class="sr2" type="text" value=""/> <span
+												style="text-indent: 1em">关键字:</span> <input id="keyWords" name="keyWords" class="sr5" title="项目、品目、采购人、第三方代理名称" type="text" value=""/></td>
+											<td width="13%" align="center" valign="middle"><a
+												href="javascript:void(0);return false;"
+												onclick="project_search()"><img
+													src="/static/common/home/images/ssa.gif" width="100"
+													height="36" /></a></td>
+										</tr>
+										<tr>
+											<td height="70" colspan="2" valign="top"
+												style="border-bottom: #ededed 1px solid;"><span>项目名称:</span>
+												<input id="projectname" name="projectname" class="sr2" type="text" value=""/> <span
+												style="text-indent: 1em">代理方:</span> <input id="agentname" name="agentname" class="sr2" type="text" value=""/> <span>采购方名称:</span>
+												<input id="buyer" name="buyer" class="sr2a" type="text" value=""/></td>
+										</tr>
+										<input type="hidden" id="projectPageNo" name="projectPageNo" />
+										<input type="hidden" id="projectPageSize"
+											name="projectPageSize" />
+									</table>
+								</form>
+							</div>
+							<div class="clr"></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+<div class="xmxx">
+<div class="xmbt">采购公告</div>
+<div class="xnrx">
+
+			<ul>
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2928402808982038.html" style="color:black">《图说我们的价值观--美好黔图》画册采购项目采购公告</a><span >2017.01.17</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2914500561750947.html" style="color:black">贵州省电子商务学校新校区项目电梯采购采购公告</a><span >2017.01.17</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2925988203439652.html" style="color:black">职务犯罪侦查信息系统互联网开源信息库及移动端管理平台建设采购项目B包（二次招标）采购公告</a><span >2017.01.17</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2912876391926991.html" style="color:black">贵州省种畜禽种质测定中心设施改造建设项目采购公告</a><span >2017.01.17</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2838298365782625.html" style="color:black">贵州省公安厅2016年DNA检案试剂和耗材采购项目A包（二次招标）采购公告</a><span >2017.01.16</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2844133247262440.html" style="color:black">计划生育生殖健康促进工程项目采购公告</a><span >2017.01.16</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2843898998321842.html" style="color:black">贵州省高级人民法院案件大数据分析平台采购项目（二次）采购公告</a><span >2017.01.16</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2822740169594156.html" style="color:black">酒水实训室、导游讲解微格实训室装修（三次）采购公告</a><span >2017.01.16</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2586095355042884.html" style="color:black">贵州大学南校区公租房第一期维修工程采购公告</a><span >2017.01.16</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2822241765755464.html" style="color:black">贵州省高速公路管理局应急保障及设备购置更新项目采购公告</a><span >2017.01.16</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2586020755845537.html" style="color:black">贵州省水利电力学校思源居A9学生宿舍床及家具采购（第三期）采购公告</a><span >2017.01.13</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2495859504030835.html" style="color:black">《贵州省信用大数据分析展示系统》项目采购公告</a><span >2017.01.12</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2495867041088962.html" style="color:black">《贵州省城乡居民社会养老保险信息系统运行维护》采购公告</a><span >2017.01.12</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2500478029955203.html" style="color:black">采购警卫执勤用车采购公告采购公告</a><span >2017.01.12</span></li>
+			
+				<li><div class="gan" >》</div><a href="/view-1153418052184995-2497960696373611.html" style="color:black">贵州师范大学生命科学学院购置NeuroScan脑电波采集设备及分析系统项目采购公告</a><span >2017.01.12</span></li>
+			</ul>
+
+
+</div>
+</div>
+<div class="page"><ul>
+<li><a href="javascript:" onclick="page(1,15,'');">&#171; 上一页</a></li>
+<li><a href="javascript:" onclick="page(1,15,'');">1</a></li>
+<li class="active"><a href="javascript:">2</a></li>
+<li><a href="javascript:" onclick="page(3,15,'');">3</a></li>
+<li><a href="javascript:" onclick="page(4,15,'');">4</a></li>
+<li><a href="javascript:" onclick="page(5,15,'');">5</a></li>
+<li><a href="javascript:" onclick="page(6,15,'');">6</a></li>
+<li><a href="javascript:" onclick="page(7,15,'');">7</a></li>
+<li><a href="javascript:" onclick="page(8,15,'');">8</a></li>
+<li class="disabled"><a href="javascript:">...</a></li>
+<li><a href="javascript:" onclick="page(136,15,'');">136</a></li>
+<li><a href="javascript:" onclick="page(3,15,'');">下一页 &#187;</a></li>
+<li class="disabled controls"><a href="javascript:">当前 <input type="text" style="width:30px" value="2" onkeypress="var e=window.event||this;var c=e.keyCode||e.which;if(c==13)page(this.value,15,'');" onclick="this.select();"/> / <input type="text" style="width:30px" value="15" onkeypress="var e=window.event||this;var c=e.keyCode||e.which;if(c==13)page(2,this.value,'');" onclick="this.select();"/> 条，共 2033 条</a></li>
+</ul>
+<div style="clear:both;"></div></div>
+			<script type="text/javascript">
+				function page(n,s){
+					$("#articlePageNo").val(n);
+					$("#articlePageSize").val(s);
+					$("#articleSearchForm").submit();
+			    	return false;
+					//location="/list-1153418052184995.html?pageNo="+n+"&pageSize="+s;
+				}
+			</script>
+</div>
+
+<div class="clr"></div>
+</div>
+
+
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+
+	</div>
+	
+	<div class="end">
+		<div class="foot">
+			<div class="foots">
+			  
+				<a href="http://www.cfen.com.cn/"><img src="/static/common/home/images/yqlj2.gif" width="153" height="43" /></a>
+				<a href="http://www.gzsggzyjyzx.cn/"><img src="/static/common/home/images/yqlj1.gif" width="153" height="43" /></a>
+				<a href="http://www.ccgp.gov.cn/"><img src="/static/common/home/images/yqlj3.gif" width="153" height="43" /></a>
+				<a href="http://www.gzcz.gov.cn/"><img src="/static/common/home/images/yqlj4.gif" width="153" height="43" /></a> 
+				<a href="http://www.mof.gov.cn/index.htm"><img src="/static/common/home/images/yqlj5.gif" width="153" height="43" /></a>
+			
+			</div>
+			
+			<div class="footx">
+				<p>
+					地址:贵州省政府大院七号楼3楼 邮编：550001 监督电话：0851-86892180 <a href="javascript:void(0);" onclick="check();" >【管理登陆】</a>
+				   &nbsp;&nbsp; <a href="/static/usbKey/SetUpAll.exe">【驱动下载】</a>
+				</p>
+				<p>主办：贵州省财政厅政府采购管理处 服务热线：4006168235</p>
+				<p>版权所有: 贵州省财政厅政府采购管理处 © (2008 - 2015) 技术支持：贵州世纪惠邦科技有限公司</p>
+				
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		swfobject.registerObject("FlashID");
+	</script>
+    <script>
+	var c, _ = Function;
+	with (o = document.getElementById("div1")) {
+		innerHTML += innerHTML;
+		onmouseover = _("c=1");
+		onmouseout = _("c=0"); 
+	}
+	(F = _("if(#%45||!c)#++,#%=o.scrollHeight>>1;setTimeout(F,#%45?10:1500);"
+			.replace(/#/g, "o.scrollTop")))();
+   </script>
+</body>
+</html>

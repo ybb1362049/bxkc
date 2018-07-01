@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>资产管理处</title>
+<meta name="keywords" content="|重庆工业职业技术学院|工业职院|">
+<meta name="description" content="重庆工业职业技术学院是经重庆市人民政府批准，教育部备案，独立设置的具有高等学历教育招生资格的全日制公办普通高等院校,主要为现代制造业培养高技能人才。学院是全国首批国家示范性高职院校。学院前身是重庆机器制造学校，1956年由原国家机械工业部创建。1995年试办五年制高职，1999年重庆机器制造学校和重庆机械职工大学合并，2000年6月升格为高等职业院校--重庆工业职业技术学院。2002年11月经教育部和财政部审定为中央财政重点支持的国家示范性职业院校建设单位，2003年被评为“重庆市文明单位”，2003年1">
+<link href="http://www.cqipc.net/statics/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="http://www.cqipc.net/statics/css/default_bluegzc.css" rel="stylesheet" type="text/css" />
+<link href="http://www.cqipc.net/statics/css/cqhgmemugzc.css" rel="stylesheet" type="text/css" />
+<link href="http://www.cqipc.net/statics/css/slideshows304.css" rel="stylesheet" type="text/css" />
+<link href="http://www.cqipc.net/statics/css/button.css" rel="stylesheet" type="text/css" />
+<link href="http://www.cqipc.net/statics/css/zzsc.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.cqipc.net/statics/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.cqipc.net/statics/js/jquery.sgallery.js"></script>
+<script type="text/javascript" src="http://www.cqipc.net/statics/js/search_common.js"></script>
+
+
+<body>
+
+<div class="header">
+	<div class="logo"><a href="http://www.cqipc.net/"><img src="http://www.cqipc.net/statics/images/v9/logo.png" /></a></div> <div class="logo"><img src="http://www.cqipc.net/statics/images/v9/LOGOgzc.png" /></div>
+    
+      <!--菜单开始 -->
+    <div class="uMenubg">
+    <div class="uMenu">
+<table border="0" align="left" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+        <div class="menu">
+              <ul>
+                  <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net/">学院首页</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                           <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net//gzc/">部门首页</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                           <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1227">部门简介</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                           <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1228">岗位职责</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                           <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1241">规章制度</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                           <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1238">采购管理</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                           <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1240">资产管理</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                           <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1242">服务指南</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                           <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1237">工作动态</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                           <!--非首页 -->
+                 <!--二级栏目-->
+                      <li class="bigli">
+                        <a class="bigmenu" href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1244">下载专区</a>
+                        <!--如果有子栏目 -->
+                                              </li>                                   
+                                 
+                          </ul>
+              </div>
+            </td>
+  </tr>
+</table>
+</div>        
+    </div>
+    <div class="ClearBoth"></div>
+    <!--菜单结束 -->
+
+    
+    
+    
+
+<!--了网站菜单-->
+<!--    </div>
+ <div class="bk3"></div>
+	
+	    <div class="subnav">
+								<a href="http://www.cqipc.net/">学院首页</a><span> | </span>
+						<a href="http://www.cqipc.net//gzc/">部门首页</a><span> | </span>
+						<a href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1227">部门简介</a><span> | </span>
+						<a href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1228">岗位职责</a><span> | </span>
+						<a href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1241">规章制度</a><span> | </span>
+						<a href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1238">采购管理</a><span> | </span>
+						<a href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1240">资产管理</a><span> | </span>
+						<a href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1242">服务指南</a><span> | </span>
+						<a href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1237">工作动态</a><span> | </span>
+						<a href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1244">下载专区</a><span> | </span>
+			        		</div>
+	</div>-->
+<!--子网站菜单-->
+
+
+
+    <!-- 代码 结束 -->
+
+  
+	
+	
+</div>
+</div><!--main-->
+<div class="main">
+	<div class="col-left">
+ <!--栏目列表-->
+    	<div class="crumbs"><a href="http://www.cqipc.net">首页</a><span> > </span><a href="http://www.cqipc.net//gzc/">资产管理处</a> > <a href="http://www.cqipc.net/index.php?m=content&c=index&a=lists&catid=1378">政府采购</a> >  </div> 
+    	        <ul class="list lh24 f14">
+	<li><span class="rt">2017-09-08 15:34:47</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=27081" target="_blank" title="重庆工业职业技术学院化学与材料研究中心建设采购公告">重庆工业职业技术学院化学与材料研究中心建设采购公告</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-09-06 11:18:26</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=27038" target="_blank" title="重庆工业职业技术学院数字艺术手绘实训室采购公告">重庆工业职业技术学院数字艺术手绘实训室采购公告</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-08-18 16:31:20</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26944" target="_blank" title="重庆工业职业技术学院建艺学院专业实训基地物资采购（第二次）采购结果公示">重庆工业职业技术学院建艺学院专业实训基地物资采购（第二次）采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-08-11 16:00:23</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26920" target="_blank" title="重庆工业职业技术学院建筑工程与艺术学院专业实训基地物资设备采购（第二次）采购公告">重庆工业职业技术学院建筑工程与艺术学院专业实训基地物资设备采购（第二次）...</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-08-11 15:52:16</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26919" target="_blank" title="重庆工业职业技术学院数字资源服务（第二次）采购结果公示">重庆工业职业技术学院数字资源服务（第二次）采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-08-08 16:04:31</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26915" target="_blank" title="重庆工业职业技术学院体育馆电梯（第二次）采购结果公示">重庆工业职业技术学院体育馆电梯（第二次）采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-08-07 16:43:04</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26913" target="_blank" title="重庆工业职业技术学院数字资源服务（第二次）采购公告">重庆工业职业技术学院数字资源服务（第二次）采购公告</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-08-07 16:28:38</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26912" target="_blank" title="重庆工业职业技术学院建艺学院专业实训基地物资采购采购结果公示">重庆工业职业技术学院建艺学院专业实训基地物资采购采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-08-03 14:42:03</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26909" target="_blank" title="重庆工业职业技术学院数字资源服务">重庆工业职业技术学院数字资源服务</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-08-02 18:06:12</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26908" target="_blank" title="重庆工业职业技术学院2017年暑期零星维修工程采购结果公示">重庆工业职业技术学院2017年暑期零星维修工程采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-28 16:29:46</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26907" target="_blank" title="重庆工业职业技术学院建筑工程与艺术设计学院环境艺术专业实训基地内涵建设工程采购结果公示">重庆工业职业技术学院建筑工程与艺术设计学院环境艺术专业实训基地内涵建设工...</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-27 19:08:05</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26906" target="_blank" title="重庆工业职业技术学院2017年暑期零星维修工程采购公告">重庆工业职业技术学院2017年暑期零星维修工程采购公告</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-27 19:07:49</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26905" target="_blank" title="重庆工业职业技术学院数字资源服务工程采购公告">重庆工业职业技术学院数字资源服务工程采购公告</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-27 16:10:38</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26903" target="_blank" title="重庆工业职业技术学院体育馆电梯采购结果公示">重庆工业职业技术学院体育馆电梯采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-26 16:44:48</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26901" target="_blank" title="重庆工业职业技术学院综合档案室装修工程（第二次）采购结果公示">重庆工业职业技术学院综合档案室装修工程（第二次）采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-23 14:56:00</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26896" target="_blank" title="重庆工业职业技术学院综合档案室装修工程（第二次）采购公告">重庆工业职业技术学院综合档案室装修工程（第二次）采购公告</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-23 14:51:00</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26895" target="_blank" title="重庆工业职业技术学院建筑工程与艺术设计学院环境艺术专业实训基地内涵建设工程采购公告">重庆工业职业技术学院建筑工程与艺术设计学院环境艺术专业实训基地内涵建设工...</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-22 16:38:11</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26885" target="_blank" title="重庆工业职业技术学院国际合作与交流处办公场所装修工程采购结果公示">重庆工业职业技术学院国际合作与交流处办公场所装修工程采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-22 12:30:12</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26884" target="_blank" title="重庆工业职业技术学院上海大众校企合作办公设备建设项目及其它办公家具（第二次）采购结果公示">重庆工业职业技术学院上海大众校企合作办公设备建设项目及其它办公家具（第二...</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-20 16:10:09</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26876" target="_blank" title="重庆工业职业技术学院综合档案室装修工程采购结果公示">重庆工业职业技术学院综合档案室装修工程采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-19 18:20:56</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26862" target="_blank" title="重庆工业职业技术学院接入教育网项目采购结果公示">重庆工业职业技术学院接入教育网项目采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-17 21:54:31</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26858" target="_blank" title="重庆工业职业技术学院国际合作与交流处办公场所装修工程采购公告">重庆工业职业技术学院国际合作与交流处办公场所装修工程采购公告</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-17 21:54:28</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26859" target="_blank" title="重庆工业职业技术学院综合档案室装修工程采购公告">重庆工业职业技术学院综合档案室装修工程采购公告</a></li>
+	<li class="bk6 hr"></li>
+	<li><span class="rt">2017-07-15 16:29:15</span>·<a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26852" target="_blank" title="重庆工业职业技术学院模具制造应用技术推广中心布展工程采购结果公示">重庆工业职业技术学院模具制造应用技术推广中心布展工程采购结果公示</a></li>
+	<li class="bk6 hr"></li>
+        </ul>
+        <div id="pages" class="text-c"><a class="a1">490条</a> <a href="index.php?m=content&c=index&a=lists&catid=1378" class="a1">上一页</a> <a href="index.php?m=content&c=index&a=lists&catid=1378">1</a> <span>2</span> <a href="index.php?m=content&c=index&a=lists&catid=1378&page=3">3</a> <a href="index.php?m=content&c=index&a=lists&catid=1378&page=4">4</a> <a href="index.php?m=content&c=index&a=lists&catid=1378&page=5">5</a> <a href="index.php?m=content&c=index&a=lists&catid=1378&page=6">6</a> <a href="index.php?m=content&c=index&a=lists&catid=1378&page=7">7</a> <a href="index.php?m=content&c=index&a=lists&catid=1378&page=8">8</a> <a href="index.php?m=content&c=index&a=lists&catid=1378&page=9">9</a> <a href="index.php?m=content&c=index&a=lists&catid=1378&page=10">10</a> ..<a href="index.php?m=content&c=index&a=lists&catid=1378&page=21">21</a> <a href="index.php?m=content&c=index&a=lists&catid=1378&page=3" class="a1">下一页</a></div>
+  </div>
+  
+  <!--频道总排行--> 
+    <div class="col-auto">
+        <div class="box">
+            <h5 class="title-2">频道总排行</h5>
+                         <ul class="content digg">
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=24384" target="_blank">重庆工业职业技术学院机械学院工作室电脑配件项目分散采购公告</a></li>
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=25035" target="_blank">重庆工业职业技术学院大厅服务台（第二次）采购结果公示</a></li>
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=24171" target="_blank">重庆工业职业技术学院西大门辅助用房门面经营使用权招标公告</a></li>
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26450" target="_blank">重庆工业职业技术学院邮件系统、等保测评项目采购公告</a></li>
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=18110" target="_blank">重庆工业职业技术学院自动化学院机器人实训室设备采购结果公示</a></li>
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=21147" target="_blank">重庆工业职业技术学院学校会议室改造项目采购结果公示</a></li>
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=26944" target="_blank">重庆工业职业技术学院建艺学院专业实训基地物资采购（第二次）采购结果公示</a></li>
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=21297" target="_blank">校史馆、校展室及相关区域布展制作项目采购结果公示</a></li>
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=21087" target="_blank">重庆工业职业技术学院学校会议室改造项目采购公告</a></li>
+									<li><a href="http://www.cqipc.net/index.php?m=content&c=index&a=show&catid=1378&id=24410" target="_blank">办公设施采购结果公示</a></li>
+				            </ul>
+                    </div>
+  
+</div>
+</div>
+﻿<div class="fttd">
+<table width="1020" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="5%" rowspan="2" align="center"><div ><span ><a href="#" target="_blank"><img src="http://www.cqipc.net/statics/images//v9/sentrybox.gif" width="50" height="71" border="0" /></a></span></div></td>
+    <td width="0%" height="40" valign="bottom">&nbsp;</td>
+    <td width="24%" valign="bottom">地址：重庆市渝北区（空港）桃源大道1000号</td>
+    <td valign="bottom">党政办：023-61879228</td>
+    <td colspan="2" valign="bottom">招生咨询：023-61879050 61879051</td>
+    <td width="17%" rowspan="2"><div align="center"><a href="http://www.cqwa.gov.cn" target="_blank"></a><a href="#" target="_blank"><img src="http://www.cqipc.net/statics/images//v9/weix.png" width="83" height="68" border="0" /></a><img src="http://www.cqipc.net/statics/images//v9/wxewm.jpg" width="89" height="75" /></div></td>
+    <td width="0%" rowspan="2">&nbsp;</td>
+    
+  </tr>
+  <tr>
+    <td height="40" valign="middle">&nbsp;</td>
+    <td height="40" valign="middle">版权：<a href="http://www.cqipc.net">重庆工业职业技术学院</a></td>
+    <td width="17%" valign="middle">维 &nbsp;护：<a href="http://www.cqipc.net/net">教育技术与信息中心</a></td>
+  <td><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011202500166"><img src="http://www.cqipc.net/statics/images//v9/batb.png" />渝公网安备 50011202500166号</a>
+<!--<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254939891'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1254939891%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>-->邮编：401120</td>
+    <td width="3%" valign="middle"><a href="http://webscan.360.cn/index/checkwebsite/url/www.cqipc.net" name="411693d2d373a37faa4cedb4a93b2668" ></a></td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>

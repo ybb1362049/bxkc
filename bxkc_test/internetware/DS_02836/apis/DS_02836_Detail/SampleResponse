@@ -1,0 +1,429 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><title>
+	成都市公共卫生临床医疗中心2018年零星维修工程比选公告-成都市公共卫生临床医疗中心
+</title><meta name="keywords" content="成都市公共卫生临床医疗中心" /><meta name="description" content="成都市公共卫生临床医疗中心" /><meta name="author" content="Chengdu Juhewei Technology Co.,Ltd.(Web:Tixynal),Time:2013-03-18" /><link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function(){
+            
+        })
+        function gototop()
+            {
+                $("html,body").animate({scrollTop:"0px"},100);
+            }
+    </script>
+</head>
+<body style="background:url(/images/webbg_yellow.jpg) no-repeat center 0px;">
+    <form name="form1" method="post" action="shownews.aspx?uin=1205" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQ3NDA5NjgzMmRkXqpA0hp0+QQ8qvyBiWIv7hmalus=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C02E5F0B" />
+</div>
+    
+
+<link href="css/global.css" rel="stylesheet" type="text/css" />    
+<script type="text/javascript" src="js/slides.min.jquery.js"></script> 
+<!--  百度访问统计代码 Start -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ab11afe0fdcf48b371794ef357cc80ed";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--  百度访问统计代码 End -->
+<script type="text/javascript">
+    $(function(){
+        $('#slides').slides({
+			preload: false,
+		    generateNextPrev: true,
+			preloadImage: 'images/loading.gif',
+			play: 5000,
+			pause: 2500,
+			hoverPause: true,
+			pagination: true,
+			generatePagination: true,
+			effect: 'slide,fade',
+			fadeSpeed: 1000
+		});
+		
+		$(".nav .fly").each(function(){
+		    $(this).css("left",$(this).parent().offset().left);
+		});
+    })
+</script>
+
+
+<div class="wrap1000 logo"><span class="lan"><a href="/">中文</a> | <a href="/en">English</a></span><a href="/" target="_blank"><img  src="/upload/adsence/201341117750296364.jpg" style="width:1000px;height:84px;" /></a></div>
+    
+<div class="wrap1000">        
+    <ul class="nav">
+        <li><a href="index.aspx" class="p">网站首页</a></li>
+        <li>
+            <a href="about.aspx?type=1" class="p" target="_blank">医院概况</a>
+            <span class="fly">
+                
+                <a target='_blank' href="about.aspx?uin=1">医院介绍</a>
+<a target='_blank' href="about.aspx?uin=2">医院架构</a>
+<a target='_blank' href="about.aspx?uin=3">领导团队</a>
+<a target='_blank' href="about.aspx?uin=4">医院风采</a>
+<a target='_blank' href="about.aspx?uin=5">医院文化</a>
+<a target='_blank' href="about.aspx?uin=6">联系我们</a>
+
+            </span>
+        </li>
+        <li>
+            <a href="news.aspx?uin=2" class="p" target="_blank">新闻中心</a>
+            <span class="fly">
+                
+                <a target='_blank' href="newslist.aspx?uin=4">医院新闻</a>
+<a target='_blank' href="newslist.aspx?uin=5">图片新闻</a>
+<a target='_blank' href="newslist.aspx?uin=6">专题报道</a>
+
+            </span>
+        </li>
+        <li>
+            <a href="news.aspx?uin=4" class="p" target="_blank">重点学科</a>
+            <span class="fly">
+                
+                <a target='_blank' href="newslist.aspx?uin=12">结核专科</a>
+<a target='_blank' href="newslist.aspx?uin=13">肝病专科</a>
+<a target='_blank' href="newslist.aspx?uin=14">HIV 专科</a>
+<a target='_blank' href="newslist.aspx?uin=35">中研室</a>
+
+            </span>
+        </li>
+        <li><a href="expertslist.aspx?uin=32" class="p" target="_blank">专家风采</a></li>
+        <li><a href="nurse.aspx" class="p" target="_blank">护士风采</a></li>
+        <li>
+            <a href="about.aspx?type=3" class="p" target="_blank">就医指南</a>
+            <span class="fly">
+                                <a target='_blank' href="about.aspx?uin=12">医院布局</a>
+<a target='_blank' href="about.aspx?uin=13">就医导航</a>
+<a target='_blank' href="about.aspx?uin=14">收费标准</a>
+<a target='_blank' href="about.aspx?uin=15">就诊须知</a>
+<a target='_blank' href="about.aspx?uin=16">挂号流程</a>
+<a target='_blank' href="about.aspx?uin=17">门诊流程</a>
+<a target='_blank' href="about.aspx?uin=18">医保流程</a>
+<a target='_blank' href="about.aspx?uin=19">住院流程</a>
+<a target='_blank' href="about.aspx?uin=20">便民措施</a>
+<a target='_blank' href="about.aspx?uin=21">专家门诊排班表</a>
+<a target='_blank' href="about.aspx?uin=22">检验报告查询</a>
+            </span>
+        </li>
+        <li>
+            <a href="news.aspx?uin=7" class="p" target="_blank">疾病防治</a>
+            <span class="fly">
+                
+                <a target='_blank' href="newslist.aspx?uin=23">健康园地</a>
+<a target='_blank' href="newslist.aspx?uin=24">HIV</a>
+<a target='_blank' href="newslist.aspx?uin=25">结核</a>
+<a target='_blank' href="newslist.aspx?uin=26">肝病</a>
+
+            </span>
+        </li>
+        <li>
+            <a href="news.aspx?uin=8" class="p" target="_blank">科研教学</a>
+            <span class="fly">
+                
+                <a target='_blank' href="newslist.aspx?uin=27">成果展示</a>
+<a target='_blank' href="newslist.aspx?uin=28">培训中心</a>
+
+            </span>
+        </li>
+        <li><a href="http://gh.phcc120.com/" class="p" target="_blank">预约挂号</a></li>
+        <li><a href="about.aspx?type=contact" class="p" target="_blank">联系我们</a></li>
+    </ul>
+</div>
+
+<div class="wrap1000"><div class="clear"></div></div>
+
+<div class="wrap1000">
+    <div class="banner">
+        <div id="slides">
+            <div class="slides_container">
+                
+                <div><a href="#"><img alt="" src="/upload/adsence/20131118153156656437.PNG" /></a></div>
+<div><a href="http://www.phcc120.com/shownews.aspx?uin=131"><img alt="#" src="/upload/adsence/20131118151910359276.PNG" /></a></div>
+<div><a href="http://www.phcc120.com/shownews.aspx?uin=117"><img alt="" src="/upload/adsence/20131118152045843130.PNG" /></a></div>
+<div><a href="http://www.phcc120.com/shownews.aspx?uin=116"><img alt="成都市公共卫生临床医疗中心顺利搬迁运转有序" src="/upload/adsence/20131118152148718827.PNG" /></a></div>
+<div><a href="http://www.phcc120.com/shownews.aspx?uin=131"><img alt="#" src="/upload/adsence/20131118153457156224.PNG" /></a></div>
+<div><a href="http://www.phcc120.com/shownews.aspx?uin=117"><img alt="" src="/upload/adsence/20131118153337937238.PNG" /></a></div>
+<div><a href="http://www.phcc120.com/shownews.aspx?uin=116"><img alt="成都市公共卫生临床医疗中心顺利搬迁运转有序" src="/upload/adsence/20131118153253593524.PNG" /></a></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <div class="clear"></div>
+    
+    <div class="wrap position">您当前所在的位置：<a href="/">首页</a> &gt; <a href="news.aspx?uin=3">院务公开</a> > <a href="newslist.aspx?uin=10">招标公告</a> > 正文</div>
+    
+    <div class="clear"></div>
+    
+    <div class="wrap">
+        <div class="lftpnl">
+            <div class="newszoom">
+                <div class="ntlepnl">
+                    
+                    <h2>招标公告</h2><a href="newslist.aspx?uin=10" class="more">返回</a>
+                </div>
+                
+                <h1>成都市公共卫生临床医疗中心2018年零星维修工程比选公告</h1>
+                <div class="attr">
+                   
+                    来源：成都市公共卫生临床医疗中心   时间：2018年03月26日 09:09  阅读：270
+                    字体：<a href="javascript:void()" onclick="$('.contentzoom').css('font-size','12px');" style="font-size:12px;">小</a> 
+                    <a href="javascript:void()" onclick="$('.contentzoom').css('font-size','14px');" style="font-size:14px;">中</a> 
+                    <a href="javascript:void()" onclick="$('.contentzoom').css('font-size','16px');" style="font-size:16px;">大</a>
+                </div>
+                <div class="contentzoom">
+                    
+                    <p align="center">
+	<span style="font-size:22px;"><strong>成都市公共卫生临床医疗中心</strong></span></p>
+<p align="center">
+	<span style="font-size:22px;"><strong>2018</strong><strong>年零星维修工程比选公告</strong></span></p>
+<p align="center">
+	&nbsp;</p>
+<p>
+	<span style="font-size:16px;">一、比选项目：成都市公共卫生临床医疗中心零星维修工程</span></p>
+<p style="margin-left:6pt;">
+	<span style="font-size:16px;">二、比选项目范围、要求<br />
+	1、项目地址：静明路、净居寺两院区内<br />
+	&nbsp;2、服务范围：2018年6月1日至2021年5月31日内医院零星维修工程项目（服务3年，合同一年一签）</span></p>
+<p style="margin-left:6.05pt;">
+	<span style="font-size:16px;">3、零星维修工程部分清单（采购科免费领取）</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;4、要求：不接受联合体</span></p>
+<p>
+	<span style="font-size:16px;">三、供应商应具备的资格条件：</span></p>
+<p>
+	<span style="font-size:16px;">1、资质等级要求：</span></p>
+<p>
+	<span style="font-size:16px;">（1）在中国境内注册并具有独立法人资格的合法企业，具有有效的安全生产许可证，具有相应的工商、税务登记证明（提供营业执照、组织机构代码证、经年检的安全生产许可证、税务登记证）。注：已实行三证合一的只需提供营业执照复印件。</span></p>
+<p>
+	<span style="font-size:16px;">（2）同时具有国家行政主管部门颁发的房屋建筑施工总承包三级及以上资质并具有独立法人资格。</span></p>
+<p>
+	<span style="font-size:16px;">2、业绩要求：2015年以来已完成过3个及以上类似项目业绩, 在人员、设备、资金等方面具有相应的施工能力。</span></p>
+<p>
+	<span style="font-size:16px;">四、报名所需资料：</span></p>
+<p>
+	<span style="font-size:16px;">1、企业介绍信（原件，盖鲜章）</span></p>
+<p>
+	<span style="font-size:16px;">2、经办人身份证（出示原件，留复印件，复印件盖鲜章）</span></p>
+<p>
+	<span style="font-size:16px;">3、企业营业执照复印件（盖鲜章）</span></p>
+<p>
+	<span style="font-size:16px;">4、企业组织机构代码证复印件（盖鲜章）</span></p>
+<p>
+	<span style="font-size:16px;">5、企业资质证书复印件（盖鲜章）</span></p>
+<p>
+	<span style="font-size:16px;">五、报名时间</span></p>
+<p>
+	<span style="font-size:16px;">2018年3月26日至2018年3月30日止（节假日除外）。上午8:30&mdash;12:00；下午14:00&mdash;17:00。</span></p>
+<p>
+	<span style="font-size:16px;">六、 报名地点</span></p>
+<p>
+	<span style="font-size:16px;">成都市公共卫生临床医疗中心航天院区后勤楼2楼采购科办公室（静明路377号，三环路内侧，航天立交桥西北侧）。</span></p>
+<p>
+	<span style="font-size:16px;">七、开标时间</span></p>
+<p>
+	<span style="font-size:16px;">报名截止后，以电话形式通知投标人开标时间（请保持通讯工具畅通）。</span></p>
+<p>
+	<span style="font-size:16px;">八、联系方式</span></p>
+<p>
+	<span style="font-size:16px;">联系人：何老师&nbsp; 联系电话：028&mdash;64369107</span></p>
+<p>
+	<span style="font-size:16px;">本比选邀请在成都市公共卫生临床医疗中心网站（http://www. phcc120.com/）和成都市公共企事业单位办事公开网站（http://gk.chengdu.gov.cn/enterprise/）上以公告形式发布。</span></p>
+<p align="right">
+	<span style="font-size:16px;">&nbsp;成都市公共卫生临床医疗中心采购科</span></p>
+<p align="right">
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018年3月26日</span></p>
+
+                    <p style="text-align:center;">
+                        <a href="javascript:void()" onclick="gototop()">返回顶部</a> | <a href="newslist.aspx?uin=10">返回列表</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+<div class="rgtpnl">
+    <div class="zxnews box">
+        <div class="bxtle"><h1>最新新闻</h1><a href="news.aspx?uin=2" class="more">更多</a></div>
+        
+        <p><a href="shownews.aspx?uin=1177"><img alt="全国肝病专科联盟成员单位" src="/upload/newsimg/20183110323321792.jpg" /></a></p>
+<ul>
+<li><a href="shownews.aspx?uin=1218">市公卫中心推动广元市艾滋病质控分中心建设</a></li>
+<li><a href="shownews.aspx?uin=1217">市公卫中心举办  医患沟通技巧及网络舆情应对专题讲座</a></li>
+<li><a href="shownews.aspx?uin=1216">全面提升科研水平 促进医院内涵建设</a></li>
+<li><a href="shownews.aspx?uin=1212">抗击结核，为爱同行 ——耐多药肺结核患者关爱项目在市公卫中心圆满启动</a></li>
+<li><a href="shownews.aspx?uin=1211">市公卫中心传达学习全国两会精神  抓好“全面落实年”各项工作</a></li>
+<li><a href="shownews.aspx?uin=1210">市公卫中心接受三医监管检查</a></li>
+<li><a href="shownews.aspx?uin=1209">加强交流学习  促进诊疗发展  云南省组团到市公卫中心交流学习艾滋病治疗管理工作</a></li>
+<li><a href="shownews.aspx?uin=1203">市公卫中心助力凉山州第一人民医院长安分院艾滋病抗病毒治疗建设</a></li>
+</ul>
+
+    </div>
+    <div class="clear"></div>
+
+    <div class="lktd">
+   	<a style="display:none;" href="http://www.cdcrbyy.com/index.html" target="_blank"><img class="l" 				src="images/lk2gb.jpg" /></a>
+            <a style="display:none;" href="about.aspx?uin=22"><img class="l" src="images/lk3.jpg" /></a>
+            <a href="http://oa.phcc120.com/" target="_blank"><img class="l" src="images/oaxt.png" /></a>
+            <a href="#" target="_blank"><img class="l" src="images/yglt.png" /></a>
+            <a href="http://gh.phcc120.com/register/pages/investigate/socialEvaluation.html" target="_blank"><img class="l" src="images/dcpy.png" /></a>
+   </div>
+    <div class="clear"></div>
+    
+    <div class="hdjl box">
+            <div class="bxtle"><h1>就诊辅助</h1></div>
+            <div>
+                <a href="javascript:void(0)" class="a" title="在线咨询" style="display:none;"></a>
+                <a href="onlinemsg.aspx" class="b" title="在线留言" style="display:none;"></a>
+                <a href="questions.aspx" class="c" title="疑难解答" style="display:none;"></a>
+                <ul>
+                	<!-- <li><a href="http://www.cdcrbyy.com/index.html" target="_blank" title="生物治疗"><img src="../images/swzl.png" /></a></li> -->
+            			<li><a href="about.aspx?uin=22" target="_blank"  title="检验查询"><img src="../images/jycx.png" /></a></li>
+                	<li><a href="http://gh.phcc120.com" target="_blank" title="预约挂号"><img src="../images/yygh.png" /></a></li>
+                </ul>
+            </div>
+            <p style="display:none;">
+            	<a href="http://bbs.phcc120.com/" class="btnlk" target="_blank">病员论坛</a>
+            	<a href="#" target="_blank" class="btnlk">病员档案</a>
+           </p>
+        </div>    
+      
+
+    <div class="clear"></div>
+    <div class="box">
+        <div class="bxtle"><h1>医院地址</h1></div>
+        <div class="hosadd">
+            
+            <p>
+	电话号码：028-64369122（传染门诊）、64369121(感染科门诊)、84521550（结核门诊）、84519246（急）、84537477、64369120（医务科）</p>
+<p>
+	医院地址：净居寺院区（成都市净居寺路18号 邮政编码：610061） &nbsp;航天院区（成都市静明路377号 &nbsp; 邮政编码：610066）</p>
+
+        </div>
+    </div>
+</div>
+        
+    </div>
+    
+    <div class="clear"></div>
+    
+    
+<script language="JavaScript" type="text/javascript">
+
+  function addBookmark(title) {
+                 var url=parent.location.href;
+                 if (window.sidebar) { 
+                        window.sidebar.addPanel(title, url,""); 
+                 } else if( document.all ) {
+                 window.external.AddFavorite( url, title);
+                 } else if( window.opera && window.print ) {
+                 return true;
+                 }
+   }
+function SetHome(obj,vrl){
+        try{
+                obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+        }
+        catch(e){
+                if(window.netscape) {
+                        try {
+                                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");  
+                        }  
+                        catch (e) 
+ { 
+                                alert("抱歉！您的浏览器不支持直接设为首页。请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为“true”，点击“加入收藏”后忽略安全提示，即可设置成功。");  
+                        }
+                        var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                        prefs.setCharPref('browser.startup.homepage',vrl);
+                 }
+        }
+}
+</script>
+<div class="btm">
+    <div class="nav bnav">
+        <a href="about.aspx?uin=1">医院概况</a> - 
+        <a href="about.aspx?uin=6">联系我们</a> - 
+        <a href="newslist.aspx?uin=11">诚聘英才</a> - 
+        <a href="newslist.aspx?uin=10">招标项目</a> -         
+        <a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a> - 
+        <a href="javascript:void(0)" onClick="addBookmark(document.title)">加入收藏</a> - 
+        <a href="/webmaster/">管理登录</a>
+    </div>
+    <div class="clear"></div>
+     <p>
+	电话号码：<span style="color: rgb(84, 84, 84); font-family: Arial, 宋体; line-height: 24px;">医院总值班（监督）&mdash;&mdash;64369000 医务科电话&mdash;&mdash;64369120</span></p>
+<p>
+	净居寺院区： &nbsp;<span style="color: rgb(84, 84, 84); font-family: Arial, 宋体; line-height: 24px;">急诊科电话&mdash;&mdash;84519246 &nbsp; &nbsp;预约挂号、结核门诊电话&mdash;&mdash;84521550 &nbsp; &nbsp;综合门诊电话&mdash;&mdash;84533265</span></p>
+<p>
+	航 天 院区： &nbsp;<span style="color: rgb(84, 84, 84); font-family: Arial, 宋体; line-height: 24px;">传染急诊电话&mdash;&mdash;64369092 &nbsp;预约挂号电话-64369122 &nbsp; 传染门诊电话：64369122&nbsp;</span></p>
+<p>
+	医院地址：净居寺院区（成都市净居寺路18号 邮政编码：610061） &nbsp;航天院区（成都市静明路377号 &nbsp; 邮政编码：610066） 备案号：蜀ICP备06008081号</p>
+<p style="vertical-align: middle;">
+	<img alt="" src="/upload/ckfinder/images/qrcode_for_gh_aaa9adc756a9_1280.jpg" style="width: 70px; height:70px;vertical-align: top;padding-top:5px" /> <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/333/0000/41008528/CA233330000410085280001.js' type='text/javascript'%3E%3C/script%3E"));</script></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+  
+   <p style="height:30px;">
+		&copy; 成都市公共卫生临床医疗中心 版权所有<br/> 
+        技术支持：<a href="http://www.cdrundle.com" target="_blank">成都市润东实业有限公司</a>	
+	
+	<div style="margin-left: 310px;margin-top: -42px;">
+	   <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript                 src='http://dcs.conac.cn/js/23/333/0000/41008528/CA233330000410085280001.js' type='text/javascript'%3E%3C/script%3E"));
+           </script>
+       </div>
+   </p>
+    
+    <div class="clear"></div>
+</div>
+
+
+<LINK rel=stylesheet type=text/css href="floatQQ/css/common.css">
+<SCRIPT type=text/javascript src="floatQQ/js/kefu.js"></SCRIPT>
+
+<DIV id=floatTools class=float0831>
+  <DIV class=floatL>
+    <A style="DISPLAY: none" id=aFloatTools_Show class="openbtn"  title=查看在线客服 
+    onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.istudy.com.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+    href="javascript:void(0);">展开</A> 
+    <A id=aFloatTools_Hide class="closebtn"  title=关闭在线客服 
+    onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.istudy.com.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+    href="javascript:void(0);">收缩</A> 
+</DIV>
+  <DIV id=divFloatToolsView class=floatR>
+    <DIV class=tp></DIV>
+    <DIV class=cn>
+      <UL>
+        <LI class=top>
+          <H3 class=titZx>QQ咨询</H3>
+        </LI>
+        <LI><SPAN class=icoZx>在线咨询</SPAN> </LI>
+        
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&uin=1694962947&site=qq&menu=yes" target="_blank">成都公卫</A> </LI>
+<img alt='' src='/upload/ckfinder/images/qrcode_for_gh_aaa9adc756a9_1280.jpg' style='width: 100px; height:100px;vertical-align: top;padding-top:5px'>
+      </UL>
+      
+    </DIV>
+  </DIV>
+</DIV>
+    </form>
+</body>
+</html>

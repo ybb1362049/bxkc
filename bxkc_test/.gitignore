@@ -1,0 +1,10 @@
+.settings/*
+.svn
+bin/*
+target/*
+thirdPartyLibs/*
+.classpath
+.gitignore.swp
+.project
+
+

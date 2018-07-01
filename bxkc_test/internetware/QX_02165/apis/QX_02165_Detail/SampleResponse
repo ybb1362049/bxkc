@@ -1,0 +1,482 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>湖北省家居建材市场明码标价实施细则-宣恩新闻网</title>
+    <link href="../../Content/css/basic.css" rel="stylesheet" />
+    <link href="../../Content/css/index.css" rel="stylesheet" />
+    <link href="../../Content/css/content.css" rel="stylesheet" />
+    <link href="../../Content/css/animate.min.css" rel="stylesheet" />
+    <script src="../../Content/js/jquery-1.8.0.min.js"></script>
+    <script src="../../Content/js/jquery.SuperSlide.2.1.1.js"></script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747f47575350554303060003 -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<META Name="keywords" Content="宣恩 新闻,通知公告" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1020,'/content.jsp',163672,1318819973)</script>
+</head>
+<body>
+<!--头部start-->
+<div class="header">
+    <div class="top">
+        <div class="w-1018">
+            <div class="top-left">
+                <p class="time">今天是：
+                    <script>
+                        var weekdays = new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+                        Stamp = new Date();
+                        document.write( Stamp.getFullYear() + "年"+(Stamp.getMonth() + 1) +"月"+Stamp.getDate()+ "日"+ "&emsp; " + weekdays[Stamp.getDay()] );
+                    </script>
+                </p>
+               <p class="weather">
+                        <iframe width="145" scrolling="no" height="32" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=1&icon=1&py=xuanen&wind=1&num=2&site=12"></iframe>
+                 </p>
+                <p class="topname"><a href="#" target="_blank">中国民间文化艺术之乡</a></p>
+            </div>
+            <div class="top-right">
+                <span><a href="#" onclick="SetHome(this,'');">设为首页</a></span>|
+                <span><a href="#" onclick="shoucang('我的网站',location.href)">收藏本站</a></span>
+            </div>
+            <script type="text/javascript">
+                // 设置为主页
+                function SetHome(obj,vrl){
+                    try{
+                        obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+                    }
+                    catch(e){
+                        if(window.netscape) {
+                            try {
+                                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                            }
+                            catch (e) {
+                                alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                            }
+                            var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                            prefs.setCharPref('browser.startup.homepage',vrl);
+                        }else{
+                            alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+                        }
+                    }
+                }
+                // 加入收藏 兼容360和IE6
+                function shoucang(sTitle,sURL)
+                {
+                    try
+                    {
+                        window.external.addFavorite(sURL, sTitle);
+                    }
+                    catch (e)
+                    {
+                        try
+                        {
+                            window.sidebar.addPanel(sTitle, sURL, "");
+                        }
+                        catch (e)
+                        {
+                            alert("加入收藏失败，请使用Ctrl+D进行添加");
+                        }
+                    }
+                }
+            </script>
+
+
+
+        </div>
+    </div>
+    <div class="lsitem">
+        <div class="w-1018">
+            <div class="logo"><!--#begineditable name="LOGO" action="" layout="" tpltype="" contype="" clone="" viewid="1159" contentviewid="" tagname="LOGO"-->
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../../" title="宣恩新闻网"><img src="../../index/images/logo1.png" width="313" height="90" border="0" alt="宣恩新闻网" title="宣恩新闻网"></a><!--#endeditable--></div>
+            <div class="search">
+                <div class="ss"><!--#begineditable name="检索入口" action="webber.vsb.lucene.com.action.ComprehensiveSearch" layout="/system/lucene/comprehensive/tplsearchentrance.jsp" tpltype="1" contype="" clone="" viewid="2621" contentviewid="" tagname="检索入口"--><div>
+<form action="../../1127sear.jsp?wbtreeid=1020" method="post" name="_l_s_c_form" id="_l_s_c_form" onsubmit="return _submit_search_comprehensive();" style="display: inline;">
+<input type="text" name="kw_temp" id="kw_temp" value="">
+<input type="hidden" name="kw" id="kw" value="">
+<input type="hidden" name="ot" id="ot" value="1">
+<input type="hidden" name="rg" id="rg" value="4">
+<input type="hidden" name="tg" id="tg" value="5">
+<input type="hidden" name="clid" id="clid" value="0">
+<input type="hidden" name="_lucenen_search_comprehensive" id="_lucenen_search_comprehensive" value="">
+<input type="button" value="检索" onclick="return _submit_search_comprehensive();">
+</form>
+</div>
+<script type="text/javascript">
+function _submit_search_comprehensive()
+{
+    if(document.getElementById("_lucenen_search_comprehensive"))
+    {
+        if(document.getElementById("kw_temp"))
+        {
+            var kw = document.getElementById("kw_temp").value;
+            if(kw==null||kw=="")
+            {
+                alert("请输入检索内容");
+                return false;
+            }
+            if(window.toFF==1)
+            {
+                document.getElementById("kw_temp").value = Simplized(kw);
+            }else
+            {
+                document.getElementById("kw_temp").value = kw;            
+            }
+            var  base64 = new Base64();
+            document.getElementById("kw").value = base64.encode(document.getElementById("kw_temp").value);
+            new VsbFormFunc().disableAutoEnable(document.getElementById("kw_temp"));
+            document.getElementById("_l_s_c_form").submit();
+        }
+    }
+}
+</script><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script><!--#endeditable--></div>
+                <p>网站不良信息举报电话:&nbsp;&nbsp;<a href="#" target="_blank">0718-5822333</a>&nbsp;&nbsp;<a href="#" target="_blank">0718-5821815</a> </p>
+            </div>
+            <div class="hdicon">
+                <div class="icon"><!--#begineditable name="网上读报链接图片" action="" layout="" tpltype="" contype="" clone="" viewid="1160" contentviewid="" tagname="网上读报链接图片"-->    <script language="javascript" src="/system/resource/js/dynclicks.js"></script>
+<a href="http://paper.people.com.cn/rmrb/html/2016-12/20/nbs.D110000renmrb_01.htm"><img src="../../index/images/wsdb.png" width="69" height="68"></a>
+
+<!--#endeditable--></div>
+                <div class="icon iconmar"><!--#begineditable name="官方微博链接图片" action="" layout="" tpltype="" contype="" clone="" viewid="1096" contentviewid="" tagname="官方微博链接图片"-->    
+<a href="http://e.weibo.com/3681803103" target="_blank"><img src="../../index/images/wb.png" width="69" height="68"></a>
+
+<!--#endeditable--></div>
+                <div class="icon"><a href="#"><img src="../../Content/images/wx.png"></a>
+                    <div class="wx"><!--#begineditable name="官方微信二维码" action="" layout="" tpltype="" contype="" clone="" viewid="1097" contentviewid="" tagname="官方微信二维码"-->    
+<a href="#"><img src="../../index/images/xuanengov.jpg" width="98" height="98" alt=""></a>
+
+<!--#endeditable--></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="w-1018">
+            <ul><!--#begineditable name="网站导航" action="" layout="" tpltype="" contype="" clone="" viewid="1008" contentviewid="" tagname="网站导航"--><li class="pl"><a href="../../index.htm" target="_blank">网站首页</a></li>
+
+
+                    
+        <li><a href="../../tzgg.htm" target="_blank">通知公告</a></li>
+                    
+        <li><a href="../../xexw.htm" target="_blank">宣恩新闻</a></li>
+                    
+        <li><a href="../../xzxw.htm" target="_blank">乡镇新闻</a></li>
+                    
+        <li><a href="../../bmxw.htm" target="_blank">部门新闻</a></li>
+                    
+        <li><a href="../../mtgz.htm" target="_blank">媒体关注</a></li>
+                    
+        <li><a href="../../wxfb.htm" target="_blank">微信发布</a></li>
+                    
+        <li><a href="../../gssp.htm" target="_blank">贡水时评</a></li>
+                    
+        <li><a href="http://pic.xuanen.gov.cn/" target="_blank">图片库</a></li>
+                    
+        <li><a href="../../spk.htm" target="_blank">视频库</a></li>
+                    
+        <li><a href="../../wzwh.htm" target="_blank">宣恩论坛</a></li>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+<!--#endeditable--></ul>
+        </div>
+    </div>
+</div>
+<!--头部end-->
+
+<!--内容页主要内容start-->
+
+<div class="scrubber">
+    <div class="w-1018"><div class="bdc-right"><!--#begineditable name="当前位置" action="webber.wbst.com.util.SitelinkAction" layout="/system/_component/sitenav/tplcurposition.jsp" tpltype="1" contype="" clone="" viewid="1562" contentviewid="" tagname="当前位置"--><span>当前位置：</span>
+    <span><a href="../../index.htm" target="_blank">网站首页</a> &gt; </span>
+    <span><a href="../../tzgg.htm" target="_blank">通知公告</a> &gt; </span>
+            正文
+<!--#endeditable--></div></div>
+</div>
+
+
+    <div class="pic-title"><!--#begineditable name="文章内容" action="webber.wbst.com.news.DetailNews" layout="/system/_component/news/content/tpltitle.jsp" tpltype="1" contype="" clone="" viewid="1164" contentviewid="" tagname="文章内容"--><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script type="text/javascript">NewsvoteDWR.getNewsLinkUrl(163672,'1318819973','vsb',newsSkip);function newsSkip(data){if(data != ""){window.location.href = data;}}</script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname"><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script>
+
+
+        <div class="cont-title">
+            <div class="w-1018">
+                        <p></p>
+                <h1><a href="#" target="_blank">湖北省家居建材市场明码标价实施细则</a></h1>
+                        <p></p>
+                <div class="note">
+                    <span>发布时间：<em>2017-12-29</em>&nbsp; </span>|
+                    <span>&nbsp; 来源：<em>宣恩县发展和改革局
+    </em>&nbsp; </span>|
+    
+                    
+                    <span>阅读：<em><script>_showDynClicks("wbnews", 1318819973, 163672)</script></em></span>
+                </div>
+                <div class="explain-way">
+                    <ul class="comment">
+                        <li>
+                            <div class="scrollWay">
+                                <div class="way1"></div>
+                                <div class="way2">
+                                    <div class="bdsharebuttonbox">
+                                        <a href="#" class="bds_more" data-cmd="more" target="_blank"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="scrollWay">
+                                <div class="way3"></div>
+                                <div class="way2"><a href="javascript:window.print();" class="dy">打印</a> </div>
+                            </div>
+                        </li>
+                        <li class="fd">
+                            <div class="scrollWay">
+                                <div class="way4"></div>
+                                <div class="way2"><a href="javascript:" class="fd">字大</a> </div>
+                            </div>
+                        </li>
+                        <li class="sx">
+                            <div class="scrollWay">
+                                <div class="way5"></div>
+                                <div class="way2"><a href="javascript:" class="sx">字小</a> </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <script>
+                        //按钮效果
+                        $(".scrollWay").hover(
+                                function(){
+                                    $(this).animate({
+                                        top:-30
+                                    },300)
+                                },
+                                function(){
+                                    $(this).animate({
+                                        top:0
+                                    },300)
+                                });
+                        //放大缩小
+                        var fontSize = 1;
+                        $(".fd").click(function(){
+                            if(fontSize==0)
+                            {
+                                $(".article p").css({"font-size":"18px"});
+                                fontSize  ;
+                            }
+                            else if(fontSize==1)
+                            {
+                                $(".article p").css({"font-size":"20px"});
+                                fontSize  ;
+                            }
+                        });
+                        $(".sx").click(function(){
+                            if(fontSize==2)
+                            {
+                                $(".article p").css({"font-size":"18px"});
+                                fontSize--;
+                            }
+                            else if(fontSize==1)
+                            {
+                                $(".article p").css({"font-size":"16px"});
+                                fontSize--;
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="w-1018">
+            
+            <div class="article">
+                <div id="vsb_content"><div><p class="vsbcontent_start">  湖北省家居建材市场明码标价实施细则</p>
+</div><p>  第一条 为规范家居建材市场价格和收费行为，维护经营者和消费者合法权益，根据《中华人民共和国价格法》、《湖北省价格条例》、《关于商品和服务实行明码标价的规定》、《禁止价格欺诈行为的规定》等法律法规规章，结合本省实际，制定本细则。</p>
+<p>  第二条 本省行政区域内的家居建材市场销售商品、提供服务涉及的价格（收费）行为，均应按照本细则实行明码标价或收费公示。</p>
+<p>  本细则所称家居建材市场是指销售家居用品、装修用建筑材料等的场所。</p>
+<p>  第三条 县级以上人民政府价格主管部门是明码标价的管理监督机关，负责家居建材市场明码标价的管理和监督检查。</p>
+<p>  第四条 家居建材市场明码标价应当遵循公开、诚实信用、质价相符原则，做到标价合理、内容明确、标示醒目、便于识别和监督。</p>
+<p>  第五条 经营者销售家居用品、装修用建筑材料等商品，应当使用商品标价签在商品显著位置进行标价。不能独立使用标价签的，应当在销售场所显著位置通过标价牌或电子屏标明商品名称、产地、型号、规格、等级、材质、价格、计价单位、环保资质证明、12358价格投诉举报电话等信息。</p>
+<p>  销售外国商标产品、进口产品时，应公示或根据消费者需要提供合资、合作、代理、准予使用、进口国、原产地等证明材料。</p>
+<p>  第六条 销售家居用品、装修用建筑材料等商品，应提供相关售后服务的，其标示价格包括加工、送货、提供安装或协助顾客安装服务等内容，不得另行收费。需在所售商品标价外另收费用的，应在商品销售场所或该商品标价签上同时公示收费项目、服务内容、收费标准等相关信息。</p>
+<p>  对所售商品进行加工，应标明加工损耗率。</p>
+<p>  第七条 消费者定制家居用品、卫浴设备、陶瓷用具、配套家用电热暖设施、地板等，确需要在定制商品价格外另行收费的，经营者除在经营场所显著位置公示定制商品的价格外，还应公示需要收费的收费项目、服务内容、收费标准等信息。</p>
+<p>  第八条 采用“组合套餐”形式销售家居用品、装修用建筑材料的，应分别标明“组合套餐”内各种商品的单独零售价格，“组合套餐”总价应不高于各种商品单独零售价格之和。同时，应允许消费者根据自身需要，自主选择购买“组合套餐”或单独购买。</p>
+<p>  第九条 采取价外馈赠等方式销售商品或提供服务的，应当如实标明馈赠品的品名、产地、规格、等级、数量、材质、价格等，或者服务的项目、内容、数量、方式和时限等信息。馈赠有限制条件的，应同时标明。</p>
+<p>  第十条 商品标价签和服务收费公示牌所标明的商品名称、技术术语、工艺描述等方面的用语应规范统一，不得含有歧义的表述。</p>
+<p>  第十一条 降价销售的商品和提供的服务，应当使用彩色等明显区别于正常标价的标识，并标明降价原因、原价、现价和期限等内容。处理商品还应当特别标明处理原因。</p>
+<p>  第十二条 价格主管部门应加强家居建材市场价格监管，加大家居建材市场价格巡查力度，依法查处价格违法行为。</p>
+<p>  第十三条 本细则由湖北省物价局负责解释。</p>
+<p class="vsbcontent_end">  第十四条 本细则自2017年2月1日起施行。</p>
+</div></div></div>
+            </div>
+            
+            
+               
+            
+            
+            
+            
+            <div class="note1">
+                <p class="edt">  责任编辑：陈方&nbsp;&nbsp;&nbsp; 
+           
+                 
+                
+                <div class="othershare">
+                    <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+                    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+
+</form>
+
+<!--#endeditable--></div>
+<!--内容页主要内容end-->
+
+<div class="read">
+    <div class="w-1018">
+    <div class="read-left">
+        <h1><a href="#" target="_blank">阅读推荐</a></h1>
+        <div><ul><!--#begineditable name="阅读推荐" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1192" contentviewid="" tagname="阅读推荐"--><li><a href="../1015/163681.htm">省委第九巡视组向宣恩县反馈扶贫领域专项巡视情况</a><span>2017-12-29</span></li>
+            
+<li><a href="../1015/163694.htm">县“四大家”领导（扩大）会议召开</a><span>2017-12-29</span></li>
+            
+<li><a href="../1015/163607.htm">庆元旦迎新年 颂歌十九大</a><span>2017-12-29</span></li>
+            
+<li><a href="../1015/163603.htm">“文艺进百村”宣传十九大 助力脱贫攻坚</a><span>2017-12-29</span></li>
+            
+<li><a href="../1015/163627.htm">武汉科技大学“616”工程对口支援宣恩第一中学</a><span>2017-12-29</span></li>
+            
+<li><a href="../1015/163624.htm">“薯”产业成精准脱贫新路径</a><span>2017-12-29</span></li>
+            
+<script>_showDynClickBatch(['dynclicks_u8_163681','dynclicks_u8_163694','dynclicks_u8_163607','dynclicks_u8_163603','dynclicks_u8_163627','dynclicks_u8_163624'],[163681,163694,163607,163603,163627,163624],"wbnews", 1318819973)</script>
+<!--#endeditable--></ul></div>
+    </div>
+    <div class="read-right">
+        <div class="ewm mtop">
+            <a href="#" target="_blank"><!--#begineditable name="宣恩微信二维码" action="webber.wbst.com.image.ColumnImage" layout="/system/_component/columnimage/tplimagelist.jsp" tpltype="1" contype="image" clone="" viewid="1161" contentviewid="" tagname="宣恩微信二维码"-->    
+<img src="../../index/images/xuanengov.jpg" width="98" height="98" alt="">
+
+<!--#endeditable--></a>
+            <p>看宣恩新闻，关注宣恩微信二维码</p>
+        </div>
+        <div class="ewm">
+            <a href="#" target="_blank"><!--#begineditable name="宣恩新浪微博二维码" action="webber.wbst.com.image.ColumnImage" layout="/system/_component/columnimage/tplimagelist.jsp" tpltype="1" contype="image" clone="" viewid="1162" contentviewid="" tagname="宣恩新浪微博二维码"-->    
+<img src="../../images/xuanenfabu.jpg" width="98" height="98" alt="">
+
+<!--#endeditable--></a>
+            <p>关注宣恩新浪微博二维码</p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+<!--相关链接start-->
+<div class="flink">
+    <div class="w-1018">
+        <h6 class="flink-left"><a href="#">相关链接</a></h6>
+        <div class="flink-right"><ul><!--#begineditable name="相关链接01" action="" layout="" tpltype="" contype="" clone="" viewid="2021" contentviewid="" tagname="相关链接01"--><li><a href="http://www.enshi.cn/" target="_blank">恩施新闻网</a></li>
+<li><a href="http://www.estv.com.cn/" target="_blank">云上恩施</a></li>
+<li><a href="http://www.jsw118.com/" target="_blank">建始新闻网</a></li>
+<li><a href="http://www.lc-news.com" target="_blank">中国利川网</a></li>
+<li><a href="http://www.cjbd.com.cn/" target="_blank">长江巴东网</a></li>
+<li><a href="http://www.laifeng.net/" target="_blank">来凤新闻网</a></li>
+<li><a href="http://www.hf.gov.cn" target="_blank">中国鹤峰网</a></li>
+<li><a href="http://www.hbenshi.gov.cn/" target="_blank">中国硒都网</a></li>
+<li><a href="http://www.xfxww.com/" target="_blank">中国咸丰网</a></li>
+<li><a href="http://news.hbtv.com.cn/" target="_blank">湖北网台</a></li>
+<li><a href="http://www.hb.xinhuanet.com/" target="_blank">新华湖北频道</a></li>
+<li><a href="http://www.cjn.cn/" target="_blank">长江网</a></li>
+<li><a href="http://www.hb.chinanews.com/" target="_blank">湖北新闻网</a></li>
+<script>_showDynClickBatch(['dynclicks_u11_36391','dynclicks_u11_36392','dynclicks_u11_36393','dynclicks_u11_36394','dynclicks_u11_36396','dynclicks_u11_36397','dynclicks_u11_36398','dynclicks_u11_36399','dynclicks_u11_36395','dynclicks_u11_57319','dynclicks_u11_57392','dynclicks_u11_57410','dynclicks_u11_58935','dynclicks_u11_57301','dynclicks_u11_57342','dynclicks_u11_58864','dynclicks_u11_59201','dynclicks_u11_57429','dynclicks_u11_59202','dynclicks_u11_59203','dynclicks_u11_59217','dynclicks_u11_59229','dynclicks_u11_59242','dynclicks_u11_59304','dynclicks_u11_59333','dynclicks_u11_59361','dynclicks_u11_59383','dynclicks_u11_59449','dynclicks_u11_65613','dynclicks_u11_59401','dynclicks_u11_65614','dynclicks_u11_65615','dynclicks_u11_65616','dynclicks_u11_65617','dynclicks_u11_65618'],[36391,36392,36393,36394,36396,36397,36398,36399,36395,57319,57392,57410,58935,57301,57342,58864,59201,57429,59202,59203,59217,59229,59242,59304,59333,59361,59383,59449,65613,59401,65614,65615,65616,65617,65618],"wbnews", 1318819973)</script>
+<!--#endeditable--></ul>
+                <ul><!--#begineditable name="相关链接02" action="" layout="" tpltype="" contype="" clone="" viewid="2022" contentviewid="" tagname="相关链接02"--><li><a href="http://www.people.com.cn/" target="_blank">人民网</a></li>
+<li><a href="http://www.wenming.cn/" target="_blank">中国文明网</a></li>
+<li><a href="http://cpc.people.com.cn/" target="_blank">共产党新闻网</a></li>
+<li><a href="http://www.chinanews.com/" target="_blank">中国新闻网</a></li>
+<li><a href="http://www.zzdjw.org.cn/" target="_blank">中直党建网</a></li>
+<li><a href="http://www.zgdsw.org.cn/" target="_blank">共产党历史网</a></li>
+<li><a href="http://www.china.com.cn/" target="_blank">中国网</a></li>
+<li><a href="http://www.scio.gov.cn" target="_blank">国新办</a></li>
+<li><a href="http://www.cac.gov.cn/" target="_blank">中国网信网</a></li>
+<li><a href="http://www.zgjx.cn/" target="_blank">中国记协网</a></li>
+<li><a href="http://www.qsjournal.com.cn" target="_blank">求是日报</a></li>
+<li><a href="http://www.banyuetan.org/" target="_blank">半月谈</a></li>
+<li><a href="http://www.cankaoxiaoxi.com/" target="_blank">参考消息</a></li>
+<li><a href="http://www.chinawriter.com.cn/" target="_blank">中国作家网</a></li>
+<script>_showDynClickBatch(['dynclicks_u12_36391','dynclicks_u12_36392','dynclicks_u12_36393','dynclicks_u12_36394','dynclicks_u12_36396','dynclicks_u12_36397','dynclicks_u12_36398','dynclicks_u12_36399','dynclicks_u12_36395','dynclicks_u12_57319','dynclicks_u12_57392','dynclicks_u12_57410','dynclicks_u12_58935','dynclicks_u12_57301','dynclicks_u12_57342','dynclicks_u12_58864','dynclicks_u12_59201','dynclicks_u12_57429','dynclicks_u12_59202','dynclicks_u12_59203','dynclicks_u12_59217','dynclicks_u12_59229','dynclicks_u12_59242','dynclicks_u12_59304','dynclicks_u12_59333','dynclicks_u12_59361','dynclicks_u12_59383','dynclicks_u12_59449','dynclicks_u12_65613','dynclicks_u12_59401','dynclicks_u12_65614','dynclicks_u12_65615','dynclicks_u12_65616','dynclicks_u12_65617','dynclicks_u12_65618'],[36391,36392,36393,36394,36396,36397,36398,36399,36395,57319,57392,57410,58935,57301,57342,58864,59201,57429,59202,59203,59217,59229,59242,59304,59333,59361,59383,59449,65613,59401,65614,65615,65616,65617,65618],"wbnews", 1318819973)</script>
+<!--#endeditable--></ul>
+                  <ul><!--#begineditable name="相关链接03" action="" layout="" tpltype="" contype="" clone="" viewid="2023" contentviewid="" tagname="相关链接03"--><li><a href="http://www.soubao.net/" target="_blank">搜报网</a></li>
+<li><a href="http://www.chinaso.com/" target="_blank">中国搜索</a></li>
+<li><a href="https://mp.weixin.qq.com/" target="_blank">微信公众平台</a></li>
+<li><a href="http://pic.enshi.cn/" target="_blank">恩施图片库</a></li>
+<li><a href="http://pic.cnhubei.com/" target="_blank">湖北图片库</a></li>
+<li><a href="http://www.cfp.cn" target="_blank">CFP</a></li>
+<li><a href="http://info.xinhua.org/newphmall/newindex.jsp" target="_blank">全球图片总汇</a></li>
+<script>_showDynClickBatch(['dynclicks_u13_36391','dynclicks_u13_36392','dynclicks_u13_36393','dynclicks_u13_36394','dynclicks_u13_36396','dynclicks_u13_36397','dynclicks_u13_36398','dynclicks_u13_36399','dynclicks_u13_36395','dynclicks_u13_57319','dynclicks_u13_57392','dynclicks_u13_57410','dynclicks_u13_58935','dynclicks_u13_57301','dynclicks_u13_57342','dynclicks_u13_58864','dynclicks_u13_59201','dynclicks_u13_57429','dynclicks_u13_59202','dynclicks_u13_59203','dynclicks_u13_59217','dynclicks_u13_59229','dynclicks_u13_59242','dynclicks_u13_59304','dynclicks_u13_59333','dynclicks_u13_59361','dynclicks_u13_59383','dynclicks_u13_59449','dynclicks_u13_65613','dynclicks_u13_59401','dynclicks_u13_65614','dynclicks_u13_65615','dynclicks_u13_65616','dynclicks_u13_65617','dynclicks_u13_65618'],[36391,36392,36393,36394,36396,36397,36398,36399,36395,57319,57392,57410,58935,57301,57342,58864,59201,57429,59202,59203,59217,59229,59242,59304,59333,59361,59383,59449,65613,59401,65614,65615,65616,65617,65618],"wbnews", 1318819973)</script>
+<!--#endeditable--></ul></div>
+    </div>
+</div>
+<!--相关链接end-->
+<!--网站底部start-->
+<div class="footer">
+    <div class="w-1018">
+        <div class="fl"><!--#begineditable name="网警" action="" layout="" tpltype="" contype="" clone="" viewid="1014" contentviewid="" tagname="网警"-->    
+<a href="javascript:;"><img src="../../images/blue.png" width="80" height="80" alt="" style="margin-top:35px;margin-left:70px;"></a>
+
+<!--#endeditable--></div>
+        <div class="fr"><!--#begineditable name="版权" action="" layout="" tpltype="" contype="" clone="" viewid="1013" contentviewid="" tagname="版权"--><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p class="fr-nav">
+    <a href="../1207/65453.htm" target="_blank" textvalue="投稿信箱">投稿信箱</a><a href="../1208/65454.htm" target="_blank">稿件服务</a><a href="../1209/65455.htm" target="_blank">关于我们</a><a href="../1210/65456.htm" target="_blank">联系方式</a><a href="../1211/65457.htm" target="_blank">留言反馈</a><a href="../1212/65458.htm" target="_blank" textvalue="我要举报">我要举报</a><a href="../1213/65459.htm" target="_blank">法律顾问</a>
+</p>
+<p>
+    主办单位：中共宣恩县委宣传部 &nbsp;承办：宣恩县新闻中心 &nbsp; &nbsp;Copyright © 2007 - 2020 www.xinxe.com All Rights Reserved. &nbsp;
+</p>
+<p>
+    地址：湖北省宣恩县人民路123号（青少年活动中心三楼）邮编：445500 &nbsp;&nbsp;
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261741965'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1261741965%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></p>
+<p>
+    鄂ICP备12016195号-1 &nbsp;鄂网备案证421308号 &nbsp;<img src="../../index/images/guohui.png" alt="" />&nbsp;鄂公网安备 42282502000003号<br />
+</p>
+<p>
+    <a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" target="_blank"><img src="../../index/images/bk.jpg" alt="" />&nbsp;网上有害信息举报专区</a><a href="http://www.hbjubao.com:1888/page/index.do" target="_blank"><img src="../../index/images/jbzx2014logo.jpg" alt="" />&nbsp;湖北省互联网不良与违法信息举报中心</a><a href="http://www.12377.cn/" target="_blank"><img src="../../index/images/bk.jpg" alt="" />&nbsp;暴恐音视频举报</a>
+</p><!--#endeditable--></div>
+    </div>
+</div>
+<!--网站底部end-->
+</body>
+</html>

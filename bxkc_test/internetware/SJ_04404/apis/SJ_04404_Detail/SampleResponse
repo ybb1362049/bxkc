@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>高科招标—西安高科天宏招标代理咨询有限责任公司</title>
+<link href="zy.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.STYLE1 {font-size: 14px}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" /></head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><script type="text/javascript">
+function sfHover() {
+    var sfEls = document.getElementById("Nav").getElementsByTagName("li");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+</script><BODY leftMargin=0 topMargin=0>
+<script type="text/javascript" src="../banner/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript"  src="../banner/js/slider.js"></script>
+<!--头部开始-->
+<link href="../zy.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+<!--
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+-->
+</style>
+<link href="../banner/css/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.STYLE2 {color: #FFFFFF}
+-->
+</style>
+<div class="head"></div>
+<div class="top">
+  <div class="zjkj">
+      <div class="logo"></div>
+	  <div class="lm"> 
+	     <div class="lmkk"><span class="bwzdd">&nbsp;&nbsp;</span><span class="lmwz">&nbsp;&nbsp;<a href="index.asp" class="lmwz" >首&nbsp;&nbsp;&nbsp;&nbsp;页</a></span><span class="lmwz STYLE2">&nbsp;</span><span class="STYLE2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.asp" class="lmwz">了解天宏</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="zzb.asp" class="lmwz">&nbsp;招标与中标公告</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ywfw.asp" class="lmwz">业务范围</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="gsyj.asp" class="lmwz">公司业绩</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="zzzs.asp" class="lmwz">资质证书</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="news.asp" class="lmwz">新闻资讯&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="lxwm.asp" class="lmwz">&nbsp;联系我们</a></span></div>
+    </div>
+  </div>
+</div>
+<!--banner-->
+<div class="hkk">
+     <div class="zjkj">
+<!--轮播图 开始 -->
+  <div id="demo01" class="flexslider">
+	<ul class="slides">
+		<li><div class="img"><img  src="../banner/images/index_banner1.jpg" height="292" width"1011" alt="" /></div></li>
+		<li><div class="img"><img src="../banner/images/index_banner2.jpg" height="292" width"1011" alt="" /></div></li>
+		<li><div class="img"><img src="../banner/images/index_banner3.jpg" height="292" width"1011" alt="" /></div></li>
+	</ul>
+</div>
+<script type="text/javascript" src="js/slider.js"></script> 
+<script type="text/javascript">
+$(function(){
+
+	$('#demo01').flexslider({
+		animation: "slide",
+		direction:"horizontal",
+		easing:"swing"
+	});
+	
+	$('#demo02').flexslider({
+		animation: "slide",
+		direction:"vertical",
+		easing:"swing"
+	});
+	
+});
+</script></div>
+</div>
+</td>
+  </tr>
+  <tr>
+    <td>
+	<!--主体内容开始 -->
+<div class="ztk">
+  <div  class="zjkj">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+    <tr>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="189" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table width="100%" height="39" border="0" cellpadding="0" cellspacing="0" class="zck">
+                    <tr>
+                      <td class="btwz"><div align="center" class="dbt">招标与中标公告</div></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><table width="168" border="0" align="center" cellpadding="0" cellspacing="0" class="ztkh">
+                  <tr>
+                    <td width="168" bgcolor="#E0DEDF"><ul class="leftlb">
+                        <li class="xlm"><a href="News.asp?BigClassid=2" class="xlm">招投标信息</a></li>
+                      <li class="xlm"><a href="News.asp?BigClassid=3" class="xlm">中标公告</a></li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><img src="image/zcbj2.png" width="168" height="16" /></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+          </table></td>
+          <td valign="top"><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td colspan="3"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="nrk">
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td width="2%" background="image/nrk0.png">&nbsp;</td>
+                <td width="92%" rowspan="2" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                      <tr>
+                        <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                            
+                            <tr>
+                              <td height="40" align="center" class="btwz">曲江香都D区供水设备采购项目招标结果公示</td>
+                            </tr>
+                            <tr>
+                              <td height="20" background="images/new_b.gif"></td>
+                            </tr>
+                            <tr>
+                              <td height="30" align="right" class="zwz">发布时间：2018.1.10</td>
+                            </tr>
+                            <tr>
+                              <td class="zwz"> <DIV><FONT size=4 face=仿宋_GB2312>&nbsp;&nbsp;&nbsp; 曲江香都D区供水设备采购项目，招标编号：高科天宏THZ2017-110招标评标工作于 2018 年1月9日完成，现将评标结果予以公示如下：</FONT></DIV>
+<DIV><FONT size=4 face=仿宋_GB2312>&nbsp;&nbsp;&nbsp; 一、公示时间：自 2018年1月10日开始，公示三天。</FONT></DIV>
+<DIV><FONT size=4 face=仿宋_GB2312>&nbsp;&nbsp;&nbsp; 二、中标候选人：陕西协同机电设备工程有限公司为第一中标候选 人,陕西凡特科技发展有限公司为第二中标候选人,西安北电电子科技工程有限公司为第三中标候选人.</FONT></DIV>
+<DIV><FONT size=4 face=仿宋_GB2312>&nbsp;&nbsp;&nbsp; 有关单位对此结果若有异议，请于叁日之内（2018年1月12日17：00前）将书面反映材料递交招标监督部门、招标人。</FONT></DIV>
+<DIV><FONT size=4 face=仿宋_GB2312>&nbsp;&nbsp;&nbsp; 联 系 人：陈女士&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 联系电话： 029-88338396 </FONT></DIV>
+<DIV><FONT size=4 face=仿宋_GB2312>&nbsp;&nbsp;&nbsp; 地&nbsp;&nbsp;&nbsp; 址：西安市高新路52号高科大厦4层</FONT></DIV></td>
+                            </tr>
+                            
+                        </table></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+                <td width="6%" rowspan="2" valign="bottom"><div align="right"><img src="image/nrk20.png" width="49" height="39" /></div></td>
+              </tr>
+              <tr>
+                <td valign="top"><img src="image/nrk0.png" width="52" height="59" /></td>
+              </tr>
+              <tr>
+                <td colspan="3"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="nrkx">
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td height="3" bgcolor="#A80F12"></td>
+    </tr>
+    <tr>
+      <td><table width="95%" height="35" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img src="image/xb1.jpg" width="4" height="16" /><span class="btwz"> 友情链接</span></td>
+        </tr>
+      </table>
+        <table width="95%" height="75" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><img src="images/lj.jpg" width="998" height="50" /></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</div>
+</div>
+<!--主体内容结束 -->
+	</td>
+  </tr>
+  <tr>
+    <td><div class="down">
+<div class="zjkj">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="3%" height="23">&nbsp;</td>
+      <td width="12%">&nbsp;</td>
+      <td width="1%">&nbsp;</td>
+      <td width="84%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><img src="../images/2w.jpg" width="125" height="126" /></td>
+      <td>&nbsp;</td>
+      <td valign="top" class="bz">2014 版权所有 西安高科天宏招标代理咨询有限责任公司<br />
+        西安浩瀚科技提供技术支持<br />
+        陕ICP备05004087号<br />
+        后台管理  网站地图<br />
+        欢迎关注高科天宏招标代理咨询有限责任公网站二维码</td>
+    </tr>
+  </table>
+</div>
+
+</div>
+
+</body>
+</html>
+</td>
+  </tr>
+</table>
+</body>
+</html>

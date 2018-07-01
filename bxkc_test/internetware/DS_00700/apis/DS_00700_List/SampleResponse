@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>抚州公共资源交易网</title>
+<link href="../../../images/UI.css" rel="stylesheet" type="text/css">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function createPageHTML(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){ 
+//tita 翻页函数
+
+ PageFirst="首页&nbsp;";
+ pagePrevious="上一页&nbsp;";
+ pageNext="下一页&nbsp;";
+ pageLast="尾页&nbsp;&nbsp;";
+ pageclass="cy05";
+
+
+if(_nPageCount == null || _nPageCount<=0){
+return; 
+} 
+
+//tita
+document.write("　　");
+
+if(_nPageCount==1)
+document.write("<a href=\""+_sPageName+"."+_sPageExt+"\"  class="+pageclass+">"+PageFirst+"</a> <a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+pagePrevious+"</a> <a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+pageNext+"</a> <a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+pageLast+"</a>")
+else {
+
+ if(_nPageCount==2) {
+    if (_nCurrIndex==0)
+  document.write("<a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+PageFirst+"</a> <a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+pagePrevious+"</a> <a href=\""+_sPageName+"_" + (_nCurrIndex+1) + "."+_sPageExt+"\" class="+pageclass+">"+pageNext+"</a> <a href=\""+_sPageName+"_" + (_nPageCount-1) + "."+_sPageExt+"\" class="+pageclass+">"+pageLast+"</a>")
+  else {
+    if (_nCurrIndex==1)
+    document.write("<a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+PageFirst+"</a> <a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+pagePrevious+"</a> <a href=\""+_sPageName+"_" + _nCurrIndex + "."+_sPageExt+"\" class="+pageclass+">"+pageNext+"</a> <a href=\""+_sPageName+"_" + (_nPageCount-1) + "."+_sPageExt+"\" class="+pageclass+">"+pageLast+"</a>")
+	}
+   }
+   	
+ else {
+  if (_nCurrIndex==0)
+  document.write("<a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+PageFirst+"</a> <a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+pagePrevious+"</a> <a href=\""+_sPageName+"_" + (_nCurrIndex+1) + "."+_sPageExt+"\" class="+pageclass+">"+pageNext+"</a> <a href=\""+_sPageName+"_" + (_nPageCount-1) + "."+_sPageExt+"\" class="+pageclass+">"+pageLast+"</a>")
+  else {
+    if (_nCurrIndex==1)
+    document.write("<a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+PageFirst+"</a> <a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+pagePrevious+"</a> <a href=\""+_sPageName+"_" + (_nCurrIndex+1) + "."+_sPageExt+"\" class="+pageclass+">"+pageNext+"</a> <a href=\""+_sPageName+"_" + (_nPageCount-1) + "."+_sPageExt+"\" class="+pageclass+">"+pageLast+"</a>")
+	else {
+      if (_nCurrIndex<_nPageCount-1)
+      document.write("<a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+PageFirst+"</a> <a href=\""+_sPageName+"_" + (_nCurrIndex-1) + "."+_sPageExt+"\" class="+pageclass+">"+pagePrevious+"</a> <a href=\""+_sPageName+"_" + (_nCurrIndex+1) + "."+_sPageExt+"\" class="+pageclass+">"+pageNext+"</a> <a href=\""+_sPageName+"_" + (_nPageCount-1) + "."+_sPageExt+"\" class="+pageclass+">"+pageLast+"</a>")
+	  else {
+        if (_nCurrIndex==_nPageCount-1)
+        document.write("<a href=\""+_sPageName+"."+_sPageExt+"\" class="+pageclass+">"+PageFirst+"</a> <a href=\""+_sPageName+"_" + (_nCurrIndex-1) + "."+_sPageExt+"\" class="+pageclass+">"+pagePrevious+"</a> <a href=\""+_sPageName+"_" + _nCurrIndex + "."+_sPageExt+"\" class="+pageclass+">"+pageNext+"</a> <a href=\""+_sPageName+"_" + (_nPageCount-1) + "."+_sPageExt+"\" class="+pageclass+">"+pageLast+"</a>")
+        }
+      }
+    }
+  }
+}
+document.write("<span class='cy02'>");           
+document.write("页次" + (_nCurrIndex+1) + "/");           //当前第几页
+document.write("" + _nPageCount + "     ");             //总共多少页
+document.write("转 到<INPUT id='CP' src='' size='3' value='1' name='CP' /><input name='button' type='button' value='GO' onClick='goto()' />") 
+//tita 
+document.write("</span>");           
+
+} //WCM置标
+
+//tita
+function goto(){
+ toPage(CP.value);
+}
+
+function toPage(_pageNo){
+  if(!(IsAllNumeric(_pageNo))){
+			alert("请填写数字。");
+			return(false);
+  } 
+  else{
+    if(_pageNo>17||_pageNo==0){
+            alert("请填写在总页数范围内的数字。");
+			return(false);
+	}		
+	else{
+	       if (_pageNo==1){
+		   window.location="index.htm";
+		   }
+		   else{
+		   window.location="index_" + (_pageNo-1) + ".htm";
+		   }
+	}
+  }  
+}
+
+function IsAllNumeric(str) {
+  var l=str.length;
+  var i,s;
+  for(i=0;i<l;i++)
+  { s=str.charAt(i);
+    if(!(s>='0'&&s<='9')) return(false);
+  }
+  return(true);
+}
+-->
+</SCRIPT>
+</head>
+<body> 
+<SCRIPT language=javascript>
+<!--
+
+function searchform_onsubmit() {
+	var SQLTitle,SQLContent,SQL,Relation;
+
+	doctitle=SQLContent=SQLTitle=SQLKeyword=SQL=Relation="";
+	
+		Relation=" OR ";
+		  
+    if(document.searchform.title.value!="") 
+		SQLTitle="DOCTITLE='%"+ document.searchform.title.value +"%'"+ Relation;;
+  
+      if(document.searchform.randcode.value!="")
+		SQLContent= "INFONUMBER='"+ document.searchform.randcode.value +"'"+ Relation;;
+
+    
+  	SQL=SQLTitle+ SQLContent; 
+	
+	var	Length=SQL.length;
+
+	SQL=SQL.substring(0,Length-4);
+   	if(SQL=="")
+	{
+		alert("检索词不能为空!");
+		return false;
+	}
+	//alert(SQL);
+	document.searchform.searchword.value= SQL;
+	//document.searchform.submit();
+		
+}
+//-->
+</SCRIPT>
+<script src="../../../images/AC_RunActiveContent.js" type="text/javascript"></script>
+
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#FFFFFF">
+  <tr>
+    <td height="145" align="right" background="../../../images/top.jpg"> </td>
+  </tr>
+  <tr>
+    <td background="../../../images/top_04.jpg">
+      <table width="100%" height="34" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="toplinkfont"><a href="/">　首　页</a></td>
+        <td width="3"><img src="../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/xwzx/">新闻中心</a></td>
+        <td width="3"><img src="../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/index_628.htm">招标公告</a></td>
+        <td width="3"><img src="../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/index_629.htm">中标公示</a></td>
+        <td width="3"><img src="../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/zcfg/">政策法规</a></td>
+        <td width="3"><img src="../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/bszn/">办事指南</a></td>
+        <td width="3"><img src="../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/rcap/">日程安排</a></td>
+        <td width="3"><img src="../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/wszx/">网上咨询</a></td>
+        <td width="3"><img src="../../../images/top_05.jpg" width="3" height="34" /></td>
+        <td align="center" class="toplinkfont"><a href="/wstb/">网上通报</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="1" bgcolor="#CCCCCC"></td>
+  </tr>
+  <tr>
+    <td><table width="1002" border="0" align="center" cellpadding="0" cellspacing="5">
+      <tr>
+        <td width="200" align="center" class="tableblue"><!--****************时间日历开始****************-->
+<SCRIPT language=JavaScript src="../../../images/times.js"> </SCRIPT>
+<!--****************时间日历结束****************--></td>
+        <td width="345" class="tableblue"><table width="100%" border="0" cellpadding="0" cellspacing="3">
+            <form name="searchform" method="post" action="http://app.jxfz.gov.cn/was40/search">
+<input type='hidden' id='channelid' name='channelid' value='9377' />
+            <tr>
+              <td width="65" align="center" class="bluefont">站内搜索</td>
+              <td><input name="searchword" type="text" size="20" /></td>
+              <td><select name="sss" 
+            size="1" class="input2">
+                  <option>本站</option>
+              </select></td>
+              <td align="center"><input name="Submit4" type="image" value='开始检索' src="../../../images/search.jpg" /></td>
+            </tr>
+            </form>
+          </table></td>
+        <td class="tableblue"><iframe src="http://m.weather.com.cn/m/p2/weather1.htm?id=101240401T " marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" width="98%" height="19" scrolling="no"></iframe></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="1" bgcolor="#CCCCCC"></td>
+  </tr>
+</table>
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="300" valign="top" background="../../../images/left_bg.jpg"><table width="100%" border="0" cellspacing="8" cellpadding="0">
+      
+      <tr>
+        <td bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+          <tr>
+            <td height="32" background="../../../images/tit_bg.jpg" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td class="blafont">　　中心简介</td>
+                  <td width="80" align="center">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFFF">
+            
+            <table width="100%" border="0" cellspacing="5" cellpadding="0">
+              <tr>
+                <td><table border="0" align="center" cellpadding="4" cellspacing="1" bgcolor="#45A4F4">
+                  <tr>
+                    <td bgcolor="#FFFFFF"><a href="../../../zxjj/200811/t20081113_133077.htm" target="_blank"><img src="../../../zxjj/200811/W020160918372239897806.jpg" alt="1.jpg" width='133' height='100' border='0'/></a></td>
+                  </tr>
+                </table></td>
+                <td rowspan="2"></td>
+              </tr>
+              <tr>
+                <td align="center"><a href="../../../zxjj/200811/t20081113_133077.htm" target="_blank" title="公共资源交易中心">公共资源交易中心</a></td>
+                </tr>
+            </table>
+            
+            </td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+          <tr>
+            <td height="32" background="../../../images/tit_bg.jpg" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td class="blafont">　　网站链接</td>
+                  <td width="80" align="center"><a href="#" target="_blank"></a></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr><form name="form3" method="post" action="">
+            <td height="60" align="center" bgcolor="#FFFFFF"><select name="select" onChange='if(this.value!="" && this.value.indexOf("#")!=0)window.open(this.value)' value="GO">
+              <option value="#" selected="selected">招投标相关网站链接</option>
+              
+              <option value='http://www.projectbidding.cn/'><a href="http://www.projectbidding.cn/">中国建设工程招标网</a></option>
+              
+              <option value='http://www.jxlz.gov.cn/'><a href="http://www.jxlz.gov.cn/">江西省监察厅</a></option>
+              
+              <option value='http://www.jxgc.gov.cn/gcztb'><a href="http://www.jxgc.gov.cn/gcztb">广昌县公共资源交易中心</a></option>
+              
+              <option value='http://www.jxfzzd.com'><a href="http://www.jxfzzd.com">抚州致达采购代理有限责任公司</a></option>
+              
+              <option value='http://www.jxfz.gov.cn/'><a href="http://www.jxfz.gov.cn/">抚州政府网</a></option>
+              
+              <option value='http://www.skyark.net/'><a href="http://www.skyark.net/">中国招投标中心</a></option>
+              
+              <option value='http://www.mlr.gov.cn/'><a href="http://www.mlr.gov.cn/">中华人民共和国国土资源部</a></option>
+              
+              <option value='http://www.jxjszbtb.com/'><a href="http://www.jxjszbtb.com/">江西建设招投标网</a></option>
+              
+              <option value='http://www.chinabidding.com.cn/'><a href="http://www.chinabidding.com.cn/">中国采购与招标网</a></option>
+              
+              <option value='http://ncztb.nc.gov.cn'><a href="http://ncztb.nc.gov.cn">南昌招标投标中心</a></option>
+              
+              <option value='http://www.fzrc.net'><a href="http://www.fzrc.net">抚州人才网</a></option>
+              
+              <option value='http://www.ncjs.com/'><a href="http://www.ncjs.com/">南昌建设网</a></option>
+              
+              <option value='http://www.sxztb.gov.cn/'><a href="http://www.sxztb.gov.cn/">绍兴市招投标中心</a></option>
+              
+              <option value='http://www.pxzbtb.gov.cn/'><a href="http://www.pxzbtb.gov.cn/">萍乡市招投标中心</a></option>
+              
+            </select></td></form>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="8" cellpadding="0">
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="32" align="left" bgcolor="#EdEdEd">　当前位置： <a href="../../../" class=cy05 class="CurrChnlCls">首页</a><span class='cy02'>&nbsp;&gt;&gt;&nbsp;</span><a href="../../" class=cy05 class="CurrChnlCls">政府采购交易</a><span class='cy02'>&nbsp;&gt;&gt;&nbsp;</span><a href="../" class=cy05 class="CurrChnlCls">招标公告</a><span class='cy02'>&nbsp;&gt;&gt;&nbsp;</span><a href="./" class=cy05 class="CurrChnlCls">公开招标</a></td>
+          </tr>
+          <tr>
+            <td height="2" bgcolor="#D4D4D4"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="30"><img src="../../../images/sf_pic.jpg" width="30" height="28" /></td>
+            <td background="../../../images/sf_bg.jpg" class="bluefont"><strong class="blafont">公开招标 </strong></td>
+          </tr>
+        </table>
+          <table width="94%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td height="5"></td>
+            </tr>
+            <tr>
+              <td align="left">
+             
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201706/t20170607_3219656.htm" target="_blank" title="关于抚州市食品药品监督所食品检验机构遴选项目采购（采购编号：JXHF2017-FZ-012）招标公告">关于抚州市食品药品监督所食品检验机构遴选项目采购（采购编号：JXHF2017-FZ-012）招标公告</a></td>
+                    <td height="21" align="center" width="20%">2017-06-07</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201705/t20170510_3180785.htm" target="_blank" title="抚州市住房公积金管理中心资溪县办事处业务场地采购投标报名公告">抚州市住房公积金管理中心资溪县办事处业务场地采购投标报名公告</a></td>
+                    <td height="21" align="center" width="20%">2017-05-10</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201612/t20161213_2970986.htm" target="_blank" title="选取抚州市农村综合产权交易市场建设合作保险公司招标公告(第二次)">选取抚州市农村综合产权交易市场建设合作保险公司招标公告(第二次)</a></td>
+                    <td height="21" align="center" width="20%">2016-12-13</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201611/t20161122_2953065.htm" target="_blank" title="选取抚州市农村综合产权交易市场建设合作保险公司招标公告">选取抚州市农村综合产权交易市场建设合作保险公司招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-11-22</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201609/t20160929_2924425.htm" target="_blank" title="关于江西省抚州市抚河流域生态保护及综合治理（一期工程）PPP项目（项目编号：DTY16143）资格预审延期公告">关于江西省抚州市抚河流域生态保护及综合治理（一期工程）PPP项目（项目编号：DTY16143）资格预审延期公告</a></td>
+                    <td height="21" align="center" width="20%">2016-09-29</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201609/t20160927_2922801.htm" target="_blank" title="关于抚州市市本级财政投资评审项目工程造价咨询机构选定招标公告">关于抚州市市本级财政投资评审项目工程造价咨询机构选定招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-09-27</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201609/t20160926_2922075.htm" target="_blank" title="关于江西省抚州市G316福兰线资溪花山界至南城黄狮渡段公路改建工程PPP项目（采购编号JXGZ2016-08-0006）竞争性磋商公告">关于江西省抚州市G316福兰线资溪花山界至南城黄狮渡段公路改建工程PPP项目（采购编号JXGZ2016-08-0006）竞争性磋商公告</a></td>
+                    <td height="21" align="center" width="20%">2016-09-26</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201609/t20160926_2921774.htm" target="_blank" title="抚州市住房公积金管理中心宜黄县办事处业务场地采购投标报名邀请函">抚州市住房公积金管理中心宜黄县办事处业务场地采购投标报名邀请函</a></td>
+                    <td height="21" align="center" width="20%">2016-09-26</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201609/t20160912_2916256.htm" target="_blank" title="关于江西省抚州市抚河流域生态保护及综合治理（一期工程）PPP项目资格预审公告">关于江西省抚州市抚河流域生态保护及综合治理（一期工程）PPP项目资格预审公告</a></td>
+                    <td height="21" align="center" width="20%">2016-09-12</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201609/t20160902_2912928.htm" target="_blank" title="关于代理抚州市住房公积金管理中心南丰县办事处业务场地项目采购（招标编号: FZDD-CH-2016-21）招标公告">关于代理抚州市住房公积金管理中心南丰县办事处业务场地项目采购（招标编号: FZDD-CH-2016-21）招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-09-02</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201608/t20160819_2907060.htm" target="_blank" title="关于江西省抚州市G316福兰线资溪花山界至南城黄狮渡段公路改建工程PPP项目（采购编号JXGZ2016-08-0006）资格预审公告">关于江西省抚州市G316福兰线资溪花山界至南城黄狮渡段公路改建工程PPP项目（采购编号JXGZ2016-08-0006）资格预审公告</a></td>
+                    <td height="21" align="center" width="20%">2016-08-19</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201608/t20160817_2905507.htm" target="_blank" title="抚州市住房公积金管理中心南丰县办事处业务场地采购投标报名邀请函">抚州市住房公积金管理中心南丰县办事处业务场地采购投标报名邀请函</a></td>
+                    <td height="21" align="center" width="20%">2016-08-17</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201608/t20160802_2893179.htm" target="_blank" title="关于抚州市实验学校数字化教室（地理、科学教室）设备（采购编号：FZZD2016-C019）采购项目的暂停公告">关于抚州市实验学校数字化教室（地理、科学教室）设备（采购编号：FZZD2016-C019）采购项目的暂停公告</a></td>
+                    <td height="21" align="center" width="20%">2016-08-02</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201607/t20160725_2889487.htm" target="_blank" title="关于江西省临川第二中学校园超市场地租赁招标项目(招标编号：HHZBJX-FZ-16008)第二次更正公告">关于江西省临川第二中学校园超市场地租赁招标项目(招标编号：HHZBJX-FZ-16008)第二次更正公告</a></td>
+                    <td height="21" align="center" width="20%">2016-07-25</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201607/t20160722_2888482.htm" target="_blank" title="关于江西省崇仁师范学校校园超市场地租赁B包采购项目（采购编号：JXGZ2016-FZ-003-B）电子化政府采购公开招标公告">关于江西省崇仁师范学校校园超市场地租赁B包采购项目（采购编号：JXGZ2016-FZ-003-B）电子化政府采购公开招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-07-22</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201607/t20160722_2888480.htm" target="_blank" title="关于江西省崇仁师范学校校园超市场地租赁A包采购项目（采购编号：JXGZ2016-FZ-003-A）电子化政府采购公开招标公告">关于江西省崇仁师范学校校园超市场地租赁A包采购项目（采购编号：JXGZ2016-FZ-003-A）电子化政府采购公开招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-07-22</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201607/t20160713_2884288.htm" target="_blank" title="关于江西省崇仁师范学校校园食堂承包采购项目B包（采购编号：JXGZ2016-FZ-004-B）电子化政府采购公开招标公告">关于江西省崇仁师范学校校园食堂承包采购项目B包（采购编号：JXGZ2016-FZ-004-B）电子化政府采购公开招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-07-13</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201607/t20160713_2884287.htm" target="_blank" title="关于江西省崇仁师范学校校园食堂承包采购项目A包（采购编号：JXGZ2016-FZ-004-A）电子化政府采购公开招标公告">关于江西省崇仁师范学校校园食堂承包采购项目A包（采购编号：JXGZ2016-FZ-004-A）电子化政府采购公开招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-07-13</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201606/t20160630_2880075.htm" target="_blank" title="关于江西省临川第二中学校园超市场地租赁招标项目(招标编号：HHZBJX-FZ-16008)招标信息更正公告">关于江西省临川第二中学校园超市场地租赁招标项目(招标编号：HHZBJX-FZ-16008)招标信息更正公告</a></td>
+                    <td height="21" align="center" width="20%">2016-06-30</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201606/t20160624_2877640.htm" target="_blank" title="关于江西省临川第二中学校园超市场地租赁招标项目(招标编号：HHZBJX-FZ-16008)公开招标招标公告">关于江西省临川第二中学校园超市场地租赁招标项目(招标编号：HHZBJX-FZ-16008)公开招标招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-06-24</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201606/t20160607_2872456.htm" target="_blank" title="关抚州市文昌里路网改造与市政设施工程（PPP模式）项目（项目编号：JXTCFZ2016150030）的资格预审公告">关抚州市文昌里路网改造与市政设施工程（PPP模式）项目（项目编号：JXTCFZ2016150030）的资格预审公告</a></td>
+                    <td height="21" align="center" width="20%">2016-06-07</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201605/t20160520_2865708.htm" target="_blank" title="关于抚州职业技术学院商业街改造招商服务采购项目（招标编号：DTY16044）招标公告">关于抚州职业技术学院商业街改造招商服务采购项目（招标编号：DTY16044）招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-05-20</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201605/t20160513_2863835.htm" target="_blank" title="关于江西抚州高新技术产业开发区财政局工程预算评审中介机构变更公告">关于江西抚州高新技术产业开发区财政局工程预算评审中介机构变更公告</a></td>
+                    <td height="21" align="center" width="20%">2016-05-13</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201605/t20160513_2863720.htm" target="_blank" title="关于江西抚州高新技术产业开发区财政局工程预算评审中介机构变更公告">关于江西抚州高新技术产业开发区财政局工程预算评审中介机构变更公告</a></td>
+                    <td height="21" align="center" width="20%">2016-05-13</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201605/t20160504_2860290.htm" target="_blank" title="江西抚州高新技术产业开发区财政局工程预算评审中介机构招标公告">江西抚州高新技术产业开发区财政局工程预算评审中介机构招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-05-04</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201604/t20160405_2849683.htm" target="_blank" title="招 标 公 告(第三次)">招 标 公 告(第三次)</a></td>
+                    <td height="21" align="center" width="20%">2016-04-05</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201603/t20160325_2845915.htm" target="_blank" title="关于抚州市公安局采购警务地理信息系统软件建设项目（招标编号：JXTCFZ2016150010）的第三次招标公告">关于抚州市公安局采购警务地理信息系统软件建设项目（招标编号：JXTCFZ2016150010）的第三次招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-03-25</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201602/t20160224_2833704.htm" target="_blank" title="关于抚州市公安局交通警察支队直属三大队面向社会服务司法鉴定收费及标准项目运营的司法鉴定服务机构（第二次）招标（招标编号：LCXZH-FZ2015-G013-01）变更公告">关于抚州市公安局交通警察支队直属三大队面向社会服务司法鉴定收费及标准项目运营的司法鉴定服务机构（第二次）招标（招标编号：LCXZH-FZ2015-G013-01）变更公告</a></td>
+                    <td height="21" align="center" width="20%">2016-02-24</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201602/t20160224_2833537.htm" target="_blank" title="招 标 公 告(第二次)">招 标 公 告(第二次)</a></td>
+                    <td height="21" align="center" width="20%">2016-02-24</td>
+                  </tr>
+                </table>
+          
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bg">
+                  <tr>
+                    <td height="21" align="left" width="80%"><a href="./201602/t20160218_2831487.htm" target="_blank" title="关于抚州市公安局交通警察支队直属二大队面向社会服务司法鉴定收费及标准项目运营的司法鉴定服务机构（第二次）招标公开招标公告">关于抚州市公安局交通警察支队直属二大队面向社会服务司法鉴定收费及标准项目运营的司法鉴定服务机构（第二次）招标公开招标公告</a></td>
+                    <td height="21" align="center" width="20%">2016-02-18</td>
+                  </tr>
+                </table>
+          
+                </td>
+            </tr>
+            <tr>
+              <td height="3"></td>
+            </tr>
+          </table>
+          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td height="32" align="center">			
+				  <!------//插入翻页代码~~~~~~~开始------>
+                <div align="center">
+                <script>
+                    createPageHTML(17, 1, "index", "htm");
+                </script>
+                </div>
+                <!------//插入翻页代码~~~~~~~结束------>				  </td>
+            </tr>
+          </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td background="../../../images/top_01.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="23" align="center" class="blafont">县区公共资源网：<a href="http://www.crzbtb.cn" target="_blank">崇仁</a>、<a href="http://www.dxztb.cn" target="_blank">东乡</a>、<a href="http://www.jxgc.gov.cn/gcztb" target="_blank">广昌</a>、<a href="http://www.yhztb.com.cn" target="_blank">宜黄</a>、<a href="http://www.jxlean.gov.cn/ztb" target="_blank">乐安</a>、<a href="http://www.lcztb.cn/index.asp" target="_blank">黎川</a>、<a href="http://www.ncztb.com/" target="_blank">南城</a>、<a href="http://nfztb.jxnf.gov.cn/" target="_blank">南丰</a>、<a href="http://ggzy.jinxi.gov.cn/jxggzy/default.aspx" target="_blank">金溪</a>、<a href="http://www.zxztbw.com/" target="_blank">资溪</a>。</td>
+        </tr>
+      </table></td>
+        <td width="32"><img src="../../../images/top_02.jpg" width="32" height="31" /></td>
+        <td width="80" bgcolor="#0055D4" class="toplinkfont"><a href="#">设为首页</a></td>
+        <td width="80" bgcolor="#0055D4" class="toplinkfont"><a href="#">加入收藏</a></td>
+        <td width="80" bgcolor="#0055D4" class="toplinkfont"><a href="#">联系站长</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="120" align="center" background="../../../images/end_bg.jpg">版权所有：抚州公共资源交易网 <a href="http://www.miibeian.gov.cn" target="_blank">赣ICP备05001171号</a> <br />
+      技术支持：<a href="http://www.acomjx.cn" target="_blank"></a>抚州市信息中心<a href="http://sighttp.qq.com/cgi-bin/check?sigkey=72d35736d0c176d2533b9c98a2bb2257f801f9daff0549a04a02ab6478dbc42f581487b32485f1ad042248a5c740ceca7ab8c4db7405493bcf5af957b815b7d60c7a8fb71a930369"; target=_blank; onclick="var tempSrc='http://sighttp.qq.com/wpa.js?rantime='+Math.random()+'&sigkey=72d35736d0c176d2533b9c98a2bb2257f801f9daff0549a04a02ab6478dbc42f581487b32485f1ad042248a5c740ceca7ab8c4db7405493bcf5af957b815b7d60c7a8fb71a930369';var oldscript=document.getElementById('testJs');var newscript=document.createElement('script');newscript.setAttribute('type','text/javascript'); newscript.setAttribute('id', 'testJs');newscript.setAttribute('src',tempSrc);if(oldscript == null){document.body.appendChild(newscript);}else{oldscript.parentNode.replaceChild(newscript, oldscript);}return false;"><img border="0" SRC='http://wpa.qq.com/pa?p=1:1071059269:1' alt="有事请留言" /></a> <!--信箱：<a href="mailto:fzztb@sohu.com">fzztb@sohu.com</a>--><br />
+    建议使用1024*768显示及IE4.0或以上版本浏览器 </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,271 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>贵州明诚招标有限公司</title>
+<link href="/templates/default/skin/css/master.css" rel="stylesheet" type="text/css" />
+<script src="/templates/default/skin/js/shift.js" type="text/javascript"></script>
+<script src="/templates/default/skin/js/site.js" type="text/javascript"></script>
+<script LANGUAGE="JavaScript">
+        self.onError=null;
+        currentX = currentY = 0;
+        whichIt = null;
+        lastScrollX = 0; lastScrollY = 0;
+        NS = (document.layers) ? 1 : 0;
+        IE = (document.all) ? 1: 0;
+        
+        function heartBeat() {
+                if(IE) { diffY = document.body.scrollTop; diffX = document.body.scrollLeft; }
+            if(NS) { diffY = self.pageYOffset; diffX = self.pageXOffset; }
+                if(diffY != lastScrollY) {
+                        percent = .1 * (diffY - lastScrollY);
+                        if(percent > 0) percent = Math.ceil(percent);
+                        else percent = Math.floor(percent);
+                                        if(IE) document.all.floater.style.pixelTop += percent;
+                                        if(NS) document.floater.top += percent;
+                        lastScrollY = lastScrollY + percent;
+            }
+                if(diffX != lastScrollX) {
+                        percent = .1 * (diffX - lastScrollX);
+                        if(percent > 0) percent = Math.ceil(percent);
+                        else percent = Math.floor(percent);
+                        if(IE) document.all.floater.style.pixelLeft += percent;
+                        if(NS) document.floater.left += percent;
+                        lastScrollX = lastScrollX + percent;
+                }
+        }
+        
+        
+        function checkFocus(x,y) {
+                stalkerx = document.floater.pageX;
+                stalkery = document.floater.pageY;
+                stalkerwidth = document.floater.clip.width;
+                stalkerheight = document.floater.clip.height;
+                if( (x > stalkerx && x < (stalkerx+stalkerwidth)) && (y > stalkery && y < (stalkery+stalkerheight))) return true;
+                else return false;
+        }
+        function grabIt(e) {
+                if(IE) {
+                        whichIt = event.srcElement;
+                        while (whichIt.id.indexOf("floater") == -1) {
+                                whichIt = whichIt.parentElement;
+                                if (whichIt == null) { return true; }
+                    }
+                        whichIt.style.pixelLeft = whichIt.offsetLeft;
+                    whichIt.style.pixelTop = whichIt.offsetTop;
+                        currentX = (event.clientX + document.body.scrollLeft);
+                           currentY = (event.clientY + document.body.scrollTop);
+                } else {
+                window.captureEvents(Event.MOUSEMOVE);
+                if(checkFocus (e.pageX,e.pageY)) {
+                        whichIt = document.floater;
+                        StalkerTouchedX = e.pageX-document.floater.pageX;
+                        StalkerTouchedY = e.pageY-document.floater.pageY;
+                }
+                }
+            return true;
+        }
+        function moveIt(e) {
+                if (whichIt == null) { return false; }
+                if(IE) {
+                    newX = (event.clientX + document.body.scrollLeft);
+                    newY = (event.clientY + document.body.scrollTop);
+                    distanceX = (newX - currentX);    distanceY = (newY - currentY);
+                    currentX = newX;    currentY = newY;
+                    whichIt.style.pixelLeft += distanceX;
+                    whichIt.style.pixelTop += distanceY;
+                        if(whichIt.style.pixelTop < document.body.scrollTop) whichIt.style.pixelTop = document.body.scrollTop;
+                        if(whichIt.style.pixelLeft < document.body.scrollLeft) whichIt.style.pixelLeft = document.body.scrollLeft;
+                        if(whichIt.style.pixelLeft > document.body.offsetWidth - document.body.scrollLeft - whichIt.style.pixelWidth - 20) whichIt.style.pixelLeft = document.body.offsetWidth - whichIt.style.pixelWidth - 20;
+                        if(whichIt.style.pixelTop > document.body.offsetHeight + document.body.scrollTop - whichIt.style.pixelHeight - 5) whichIt.style.pixelTop = document.body.offsetHeight + document.body.scrollTop - whichIt.style.pixelHeight - 5;
+                        event.returnValue = false;
+                } else {
+                        whichIt.moveTo(e.pageX-StalkerTouchedX,e.pageY-StalkerTouchedY);
+                if(whichIt.left < 0+self.pageXOffset) whichIt.left = 0+self.pageXOffset;
+                if(whichIt.top < 0+self.pageYOffset) whichIt.top = 0+self.pageYOffset;
+                if( (whichIt.left + whichIt.clip.width) >= (window.innerWidth+self.pageXOffset-17)) whichIt.left = ((window.innerWidth+self.pageXOffset)-whichIt.clip.width)-17;
+                if( (whichIt.top + whichIt.clip.height) >= (window.innerHeight+self.pageYOffset-17)) whichIt.top = ((window.innerHeight+self.pageYOffset)-whichIt.clip.height)-17;
+                return false;
+                }
+            return false;
+        }
+        function dropIt() {
+                whichIt = null;
+            if(NS) window.releaseEvents (Event.MOUSEMOVE);
+            return true;
+        }
+        
+        if(NS) {
+                window.captureEvents(Event.MOUSEUP|Event.MOUSEDOWN);
+                window.onmousedown = grabIt;
+                 window.onmousemove = moveIt;
+                window.onmouseup = dropIt;
+        }
+        if(IE) {
+                document.onmousedown = grabIt;
+                 document.onmousemove = moveIt;
+                document.onmouseup = dropIt;
+        }
+        if(NS || IE) action = window.setInterval("heartBeat()",1);
+        </script>
+
+</head>
+<body>
+<div id="wrapper">
+<div id="banner">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="950" height="280" title="head">
+    <param name="movie" value="/templates/default/skin/images/banner.swf" />
+    <param name="quality" value="high" />
+    <embed src="/templates/default/skin/images/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="950" height="280"></embed>
+  </object>
+</div>
+<div id="nav">
+<ul>
+<li><a href="index.php">网站首页</a></li>
+<li><a href="list.php?catid=1">公司概况</a></li>
+<li><a href="news.php">招标信息</a></li>
+<li><a href="list.php?catid=16">招标流程</a></li>
+<li><a href="list.php?catid=17">下载中心</a></li>
+<li><a href="list.php?catid=18">联系我们</a></li>
+</ul>
+<em>今天是：<SCRIPT>SiteDate()</SCRIPT></em>
+</div><div id="main1">
+<div id="left">
+<div class="title"><img src="/templates/default/skin/images/aboutcompany.gif" /></div>
+<div class="navs">
+<h3><a href="/list.php?catid=7">招标公告</a></h3>
+<ul class="navlist">
+<li><a href="/list.php?catid=8">政府采购</a></li>
+<li><a href="/list.php?catid=9">工程招标</a></li>
+<li><a href="/list.php?catid=10">设备招标</a></li>
+</ul>
+<h3><a href="/list.php?catid=11">中标公告</a></h3>
+<ul class="navlist">
+<li><a href="/list.php?catid=12">政府采购</a></li>
+<li><a href="/list.php?catid=13">工程招标</a></li>
+<li><a href="/list.php?catid=14">设备招标</a></li>
+</ul>
+<h3><a href="/list.php?catid=15">更正公告</a></h3>
+</div>
+<div class="title1"><img src="/templates/default/skin/images/hotbt.gif" /></div>
+<div class="hot">
+<ul>
+<li> <a href="show.php?contentid=4382">金沙县金盾保安服务有限公司业务用房建设</a></li><li> <a href="show.php?contentid=4498">金沙县金盾保安服务有限公司业务用房建设</a></li><li> <a href="show.php?contentid=4467">贵州轻工职业技术学院绿化维护工程项目中</a></li><li> <a href="show.php?contentid=58">教学仪器设备一批</a></li><li> <a href="show.php?contentid=4533">贵州师范大学后勤服务集团关于花溪校区生</a></li><li> <a href="show.php?contentid=308">设备采购及安装公开招标公告</a></li><li> <a href="show.php?contentid=383">招 标 公 告</a></li></ul>
+</div>
+<div class="title"><img src="/templates/default/skin/images/ustitle.jpg" /></div>
+<div class="us">
+<form action="" method="get">
+<ul>
+<li class="userlogin"><label>前&nbsp;&nbsp;&nbsp;&nbsp;台：</label><span><a href=tencent://message/?uin=971935038&Site=www.136z.com&Menu=yes><img border="0" SRC=http://wp.qq.com/img/status/41_online.gif alt="客服咨询"></a></span><em>0851-86892118</em></li>
+<li class="userlogin"><label>项目部：</label><span><a href=tencent://message/?uin=971935038&Site=www.136z.com&Menu=yes><img border="0" SRC=http://wp.qq.com/img/status/41_online.gif alt="客服咨询"></a></span><em>0851-86892732 0851-86892151</em></li>
+<li class="userlogin"><label>财务部：</label><span><a href=tencent://message/?uin=971935038&Site=www.136z.com&Menu=yes><img border="0" SRC=http://wp.qq.com/img/status/41_online.gif alt="客服咨询"></a></span><em>0851-86893833</em></li>
+
+<li>传真号码：0851-86758585</li></ul>
+</form>
+</div></div>
+<div id="right1">
+<div class="wz">当前位置：<a href="http://www.gzmczb.com/">网站首页</a>
+ > <a href="news.php">招标信息</a>
+ > <a href="/list.php?catid=7">招标公告</a> > <a href="/list.php?catid=8">政府采购</a></div>
+<div class="news">
+<h3>
+政府采购
+</h3>
+<ul>
+<li>
+ <em>2018-01-09</em> 
+<a href="/show.php?contentid=6176" target="_blank" title="运动场草坪、塑胶、硅PU等采购项目（二次）公开招标公告">运动场草坪、塑胶、硅PU等采购项目（二次）公开招标公告</a>
+</li>
+
+<li>
+ <em>2018-01-09</em> 
+<a href="/show.php?contentid=6173" target="_blank" title="教学实验动物平台建设项目（二次）采购公告">教学实验动物平台建设项目（二次）采购公告</a>
+</li>
+
+<li>
+ <em>2018-01-09</em> 
+<a href="/show.php?contentid=6170" target="_blank" title="农业部贵州耕地保育与农业环境农业科学实验站建设项目采购公告">农业部贵州耕地保育与农业环境农业科学实验站建设项目采购公告</a>
+</li>
+
+<li>
+ <em>2018-01-09</em> 
+<a href="/show.php?contentid=6169" target="_blank" title="贵阳市轨道交通三号线（花溪段）房屋拆除项目公开招标公告">贵阳市轨道交通三号线（花溪段）房屋拆除项目公开招标公告</a>
+</li>
+
+<li>
+ <em>2018-01-08</em> 
+<a href="/show.php?contentid=6165" target="_blank" title="干部人事档案信息化采购项目（二次）采购公告">干部人事档案信息化采购项目（二次）采购公告</a>
+</li>
+
+<li>
+ <em>2018-01-08</em> 
+<a href="/show.php?contentid=6164" target="_blank" title="网上预约报账系统采购项目采购公告">网上预约报账系统采购项目采购公告</a>
+</li>
+
+<li>
+ <em>2018-01-08</em> 
+<a href="/show.php?contentid=6162" target="_blank" title="织金县“天网工程”三期建设项目（二次）采购公告">织金县“天网工程”三期建设项目（二次）采购公告</a>
+</li>
+
+<li>
+ <em>2018-01-08</em> 
+<a href="/show.php?contentid=6161" target="_blank" title="贵阳市轨道交通三号线（经开段）房屋征收服务项目公开招标公告">贵阳市轨道交通三号线（经开段）房屋征收服务项目公开招标公告</a>
+</li>
+
+<li>
+ <em>2018-01-08</em> 
+<a href="/show.php?contentid=6160" target="_blank" title="贵阳市轨道交通三号线（经开段）房屋拆除项目公开招标公告">贵阳市轨道交通三号线（经开段）房屋拆除项目公开招标公告</a>
+</li>
+
+<li>
+ <em>2018-01-08</em> 
+<a href="/show.php?contentid=6159" target="_blank" title="贵阳市轨道交通三号线（花溪段）房屋征收服务项目公开招标公告">贵阳市轨道交通三号线（花溪段）房屋征收服务项目公开招标公告</a>
+</li>
+
+<li>
+ <em>2018-01-04</em> 
+<a href="/show.php?contentid=6156" target="_blank" title="贵州大学公租房物管招标项目采购公告">贵州大学公租房物管招标项目采购公告</a>
+</li>
+
+<li>
+ <em>2018-01-04</em> 
+<a href="/show.php?contentid=6154" target="_blank" title="久安园区展示中心建设、茶旅示范点建设项目公开招标公告">久安园区展示中心建设、茶旅示范点建设项目公开招标公告</a>
+</li>
+
+<li>
+ <em>2018-01-03</em> 
+<a href="/show.php?contentid=6148" target="_blank" title="国控污染源自动监控系统硬件更新采购项目（二次）采购公告">国控污染源自动监控系统硬件更新采购项目（二次）采购公告</a>
+</li>
+
+<li>
+ <em>2018-01-03</em> 
+<a href="/show.php?contentid=6144" target="_blank" title="毕节市公安消防支队采购灭火救援装备器材项目（P包警戒堵漏洗消及灭火药剂类器材）采购公告">毕节市公安消防支队采购灭火救援装备器材项目（P包警戒堵漏洗消及灭火药剂类器材）采购公告</a>
+</li>
+
+<li>
+ <em>2018-01-03</em> 
+<a href="/show.php?contentid=6143" target="_blank" title="毕节市公安消防支队采购灭火救援装备器材项目（O包常规易损灭火类器材）采购公告">毕节市公安消防支队采购灭火救援装备器材项目（O包常规易损灭火类器材）采购公告</a>
+</li>
+
+
+</ul>	
+</div>
+<div class="page">
+ <a><font color=red><b>1</b></font></a> <a href=http://www.gzmczb.com/list.php?catid=8&pageno=2>2</a> <a href=http://www.gzmczb.com/list.php?catid=8&pageno=3>3</a> <a href=http://www.gzmczb.com/list.php?catid=8&pageno=4>4</a> <a href=http://www.gzmczb.com/list.php?catid=8&pageno=5>5</a> <a href=http://www.gzmczb.com/list.php?catid=8&pageno=6>6</a> <a href=http://www.gzmczb.com/list.php?catid=8&pageno=7>7</a> <a href=http://www.gzmczb.com/list.php?catid=8&pageno=8>8</a> <a href=http://www.gzmczb.com/list.php?catid=8&pageno=9>9</a>&nbsp<a href=http://www.gzmczb.com/list.php?catid=8&pageno=2>下页</a>&nbsp<a href=http://www.gzmczb.com/list.php?catid=8&pageno=172>尾页</a> <input type=text name=mypage id=mypage class=pageinput size=2 /> <a onclick="location.href='http://www.gzmczb.com/list.php?catid=8&pageno='+mypage.value">GO</a></div>
+
+
+
+</div>
+</div>
+<div id="foot">
+
+<p>版权所有：贵州明诚招标有限公司  黔ICP备09005282号</p>
+<p>前台：   0851-86892118 
+                     项目部：0851-86892151
+                     财务部：0851-86893833   
+      传真号码：0851-86758585</p>
+<p>联系地址：贵阳市云岩区北京路银海.元隆广场第3栋（3）1单元5层3号；8层6号、7号</p></div>
+</div>
+</body>
+</html>

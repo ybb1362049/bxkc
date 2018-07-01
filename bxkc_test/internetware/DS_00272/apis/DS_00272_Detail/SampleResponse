@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>巴中市政务服务和公共资源交易服务中心 &gt;&gt; 资源交易</title>
+    <script language="JavaScript" type="text/JavaScript">
+        <!--
+    function MM_jumpMenu(selObj, restore) { //v3.0
+        window.open(selObj.options[selObj.selectedIndex].value)
+        if (restore) selObj.selectedIndex = 0;
+    }
+    //-->
+    </script>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <link href="/Content/BZ/css/iconfont.css" rel="stylesheet" />
+    <!-- build:mincss css/style.min.css -->
+    <link href="/Content/BZ/css/style.css" rel="stylesheet" />
+    <link href="/Content/BZ/css/bzstyle.css" rel="stylesheet" />
+    <!-- endbuild -->
+    <script type="text/javascript" src="/Content/BZ/js/favorite.js"></script>
+    <script type="text/javascript" src="/Content/BZ/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/Content/BZ/js/yc.js"></script>
+    <script type="text/javascript" src="/Content/BZ/js/zh_en.js"></script>
+    <script  type="text/javascript" src="/Content/BZ/js/jquery-2.1.4.min.js"></script>
+    <script src="/Content/BZ/js/sc.js" type="text/javascript"></script>
+    <link href="/Css/BZcommon2.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        
+    <div class="topbar">
+        <div class="fr">
+            <a href="http://zwhjy.cnbz.gov.cn/index.asp" style="color: #fff">返回首页 </a>
+            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <a href="javascript:SetHome('');" style="color: #fff">设为首页 </a>
+            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <a href="javascript:AddFavorite(document.location.href,document.title)" style="color: #fff">加入收藏 </a>
+        </div>
+    </div>
+    <!-- End topbar -->
+    <div id="hBanner">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="1000" height="213">
+            <param name="movie" value="/Content/BZ/images/201608050911392414.swf">
+            <param name="wmode" value="transparent">
+            <param name="quality" value="high">
+            <embed src="/Content/BZ/images/201608050911392414.swf" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="1000" height="213"></object>
+    </div>
+    <div id="hNav">
+        <ul>
+            <li class="navLi"><a href="http://zwhjy.cnbz.gov.cn/index.asp" target="target">网站首页</a></li>
+            <li class="navLi"><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=20" target="target">机构设置</a></li>
+            <li class="navLi"><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=21" target="target">政策法规</a></li>
+            <li class="navLi"><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=22" target="target">政务服务</a></li>
+            <li class="navLi"><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=23" target="target">资源交易</a></li>
+            <li class="navLi"><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=24" target="target">信息公开</a></li>
+            <li class="navLi"><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=25" target="target">监督投诉</a></li>
+            <li class="navLi"><a href="/Category/More?id=619">资料下载</a></li>
+        </ul>
+        <div id="navCons">
+            <div class="navCon">
+            </div>
+            <div class="navCon">
+                <ul>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=29" target="target"><strong>·</strong>中心简介</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=76" target="target"><strong>·</strong>部门设置</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=77" target="target"><strong>·</strong>中心领导</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=78" target="target"><strong>·</strong>人事信息</a></li>
+
+                </ul>
+            </div>
+            <div class="navCon" style="margin-left: 319.453px;">
+                <ul>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=26" target="target"><strong>·</strong>国家法律法规</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=27" target="target"><strong>·</strong>部门法规</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=28" target="target"><strong>·</strong>上级和本级规范性文件</a></li>
+
+                </ul>
+            </div>
+            <div class="navCon">
+            </div>
+            <div class="navCon" style="margin-left: 562.547px;">
+                <ul>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=48" target="target"><strong>·</strong>建设工程</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=49" target="target"><strong>·</strong>政府采购</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=50" target="target"><strong>·</strong>土地矿权</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=51" target="target"><strong>·</strong>国有产权</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=53" target="target"><strong>·</strong>电子竞价平台</a></li>
+
+                </ul>
+            </div>
+            <div class="navCon">
+                <ul>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=30" target="target"><strong>·</strong>时政要闻</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=79" target="target"><strong>·</strong>中心快讯</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=101" target="target"><strong>·</strong>县区传真</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=80" target="target"><strong>·</strong>窗口工作</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=32" target="target"><strong>·</strong>视频新闻</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=82" target="target"><strong>·</strong>行业动态</a></li>
+                    <li><a href="http://zwhjy.cnbz.gov.cn/News/Category.asp?ID=102" target="target"><strong>·</strong>办事指南</a></li>
+
+                </ul>
+            </div>
+            <div class="navCon">
+            </div>
+            <div class="navCon">
+            </div>
+        </div>
+
+
+        <div id="hBtm">
+            <div id="dates">欢迎访问巴中市政务服务和公共资源交易服务中心网站 今天是<script src="/Content/BZ/js/Date.js"></script><!-- <script type="text/javascript">showCal();</script>--></div>
+            <div id="weath">
+                <!-- <iframe allowtransparency="true" frameborder="0" width="180" height="45" scrolling="no" src="weather.html"></iframe>-->
+                <iframe allowtransparency="true" frameborder="0" width="180" height="45" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&amp;z=3&amp;t=1&amp;v=0&amp;d=3&amp;bd=0&amp;k=&amp;f=&amp;q=1&amp;e=1&amp;a=0&amp;c=57313&amp;w=180&amp;h=46&amp;align=center"></iframe>
+            </div>
+            <div id="hBR" style="width: 293px;">
+                    <input type="text" name="text" value="" id="input" placeholder="请输入您要搜索的内容" />
+                    <button type="submit" name="Submit" value="" id="button"><i class="icon-fangdajing"></i></button>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    $("#button").bind("click", function () {
+        GlobalSearch("");
+    });
+    function GlobalSearch(text) {
+        var text = $("#input").val();
+        if (text == "" || text == null) {
+            alert("请输入搜索内容");
+        }
+        else {
+            window.location.href = "/Article/GlobalSearch?text=" + text;
+        }
+    }
+
+
+</script>
+
+
+
+
+
+
+        
+
+
+
+
+
+<input data-val="true" data-val-number="The field CategoryId must be a number." id="CategoryId" name="CategoryId" type="hidden" value="643" />    <div id="main">
+        <div id="current">
+            您现在的位置：&nbsp;&gt;&nbsp;
+            <a href="#">详细内容</a>
+        </div>
+    </div>
+    <div class="wrap-w982 clear">
+        <div class="wrap clearfix" id="box_bg">
+            <div class="page_detail bor_col_gray2">
+                <div class="new_detail">
+
+                    <div class="news_tit">平昌县笔山小学教学用房及运动场建设项目、平昌县笔山小学附属幼儿园建设项目施工招标</div>
+                    <div class="news_time"><span>文章来自：巴中市公共资源交易中心</span><span>更新时间：2017/12/29 15:41:06</span><span>文章浏览次数：151</span></div>
+                    <div class="newsBox" style="width: 960px; overflow-x: auto;">
+                           <div id="textContent">
+                            <div class="newsBox clearfix">
+                                <div id="content">
+                                    <div>
+                                        
+                                        <p>&nbsp;</p>
+                                        <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<style type="text/css">
+.table_detail{ border-collapse:collapse;}
+.table_detail th,.table_detail td{ border:1px solid #CCC; padding:3px 4px; line-height:22px;}
+.table_detail th{ font-weight:bold}
+.content_box{ padding:15px 10px;}
+</style>
+</head>
+<body>
+<table width="100%" class="table_detail">
+  <tbody>
+    <tr>
+      <th width="80"> 公告名称 </th>
+      <td width="39%"><span id="ctl00_ContentPlaceHolder1_lbbianduanmingcheng">平昌县笔山小学教学用房及运动场建设项目、平昌县笔山小学附属幼儿园建设项目施工招标</span></td>
+      <th  width="80"> 所属行业 </th>
+      <td><span id="ctl00_ContentPlaceHolder1_lbhangye">房屋建筑工程</span></td>
+    </tr>
+    <tr>
+	  <th width="80"> 所属地区 </th>
+      <td><span id="ctl00_ContentPlaceHolder1_lbAreaName">巴中市 - 平昌县</span></td>
+	  <th width="80"> 工程类别 </th>
+      <td><span id="ctl00_ContentPlaceHolder1_lbSt">建筑业</span></td>
+    </tr>
+	<tr>
+	  <th> 招标类别 </th>
+      <td><span id="ctl00_ContentPlaceHolder1_lbzhaobiaoleixing">施工</span></td>
+      <th> 下载时间 </th>
+      <td><span id="ctl00_ContentPlaceHolder1_lbEn">2017/12/30 0:00:00到2018/1/3 23:59:59</span></td>
+    </tr>
+	 	<tr id="ctl00_ContentPlaceHolder1_trkbsj">
+      <th> 开标时间 </th>
+      <td colspan="3"><span id="ctl00_ContentPlaceHolder1_labkbsj">2018/1/25 9:00:00</span></td>
+    </tr>
+		      
+  </tbody>
+</table>
+<div style=" padding:5px 0; line-height:26px;color:red">备注：如果公告正文及招标文件中不包含时间，以上表中的时间为准</div>
+<div class="blank10"></div>
+<div class="content_box">
+	<HTML><meta http-equiv="Content-Type" content="text/html" charset="UTF-8" /><style>table{ border-collapse:collapse;} table td,table th{ border:1px solid #000000; padding:3px; line-height:28px;}</style><BODY><DIV><P /><P /><P STYLE="text-align:Center;font-family:黑体;font-weight:bold;font-size:29.3333333333333;"><SPAN STYLE="font-family:黑体;font-weight:bold;font-size:29.3333333333333;">第一</SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;font-size:29.3333333333333;">卷</SPAN></P><P /><P /><P STYLE="text-align:Center;font-family:黑体;font-size:24;"><SPAN STYLE="font-family:黑体;font-size:24;">第一章 招标公告（未进行资格预审）</SPAN></P><P STYLE="text-align:Center;font-family:黑体;font-size:21.3333333333333;"><SPAN STYLE="font-family:黑体;font-size:21.3333333333333;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">平昌县笔山小学教学用房及运动场建设项目、平昌县笔山小学附属幼儿园建设项目施工招标</SPAN><SPAN STYLE="font-family:黑体;font-size:21.3333333333333;" /><SPAN STYLE="font-family:黑体;font-size:21.3333333333333;">(项目名称)</SPAN><SPAN STYLE="font-family:黑体;font-size:21.3333333333333;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">施工</SPAN><SPAN STYLE="font-family:黑体;font-size:21.3333333333333;" /><SPAN STYLE="font-family:黑体;font-size:21.3333333333333;">标段施工招标公告</SPAN></P><P /><P STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;"><SPAN STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;">1. 招标条件</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">1.1</SPAN><SPAN STYLE="font-size:18.6666666666667;">  </SPAN><SPAN STYLE="font-size:18.6666666666667;">本招标项目</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">平昌县笔山小学教学用房及运动场建设项目、平昌县笔山小学附属幼儿园建设项目施工招标</SPAN><SPAN STYLE="font-size:18.6666666666667;">(项目名称)已由</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">平昌县发展和改革局</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">(项目审批、核准或备案机关名称)以</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">平发改审【2017】330号、平发改审【2017】331号</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">（批文名称及编号）批准建设，</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">建设资金来自</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">其他来源：平昌县2017年义教均衡省检整改项目县级财政资金、2017年省级新增债券学前教育基础设施建设资金</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">（资金来源），项目出资比例为</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">100%</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">，招标人为</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">平昌县笔山小学</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">。项目已具备招标条件，现对该项目的施工进行公开招标。</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">1.2</SPAN><SPAN STYLE="font-size:18.6666666666667;">  </SPAN><SPAN STYLE="font-size:18.6666666666667;">本招标项目为四川省行政区域内的国家投资工程建设项目，</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">平昌县发展和改革局</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">（核准机关名称）核准（招标事项核准文号为</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">平发改审【2017】330号、平发改审【2017】331号</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">）的招标组织形式为</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">委托招标</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN /><SPAN STYLE="font-size:18.6666666666667;">。</SPAN><SPAN STYLE="font-size:18.6666666666667;">招标人选择（本招标项目在省发展改革委指定比选网站上的项目编号为</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">PF20171110021</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">）的招标代理机构是</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">中科标禾工程项目管理有限公司</SPAN><SPAN STYLE="font-size:18.6666666666667;" /><SPAN STYLE="font-size:18.6666666666667;">。</SPAN></P><P STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;"><SPAN STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;">2. 项目概况与招标范围</SPAN></P><DIV STYLE="background-color:#F0F8FF;"><P /><P STYLE="text-align:Left;font-family:微软雅黑;font-size:12;">2.1项目名称:平昌县笔山小学教学用房及运动场建设项目、平昌县笔山小学附属幼儿园建设项目</P><P STYLE="text-align:Left;font-family:微软雅黑;font-size:12;">2.2建设地点：平昌县笔山小学校园内</P><P STYLE="text-align:Left;font-family:微软雅黑;font-size:12;">2.3建设规模：新选址建教学用房900平方米，运动场1500平方米；新建幼儿园园舍2630平方米，活动场地1500平方米，配套建设挡土墙、生化池等附属设施，并购置幼儿教玩具及图书。</P><P STYLE="text-align:Left;font-family:微软雅黑;font-size:12;">2.4计划工期：<SPAN>一标段：</SPAN>360日历天<SPAN>、二标段：360日历天。</SPAN></P><P STYLE="text-align:Left;font-family:微软雅黑;font-size:12;">2.5招标范围：<SPAN STYLE="font-size:14;">工程量清单及施工图纸中所示的全部内容；</SPAN></P><P STYLE="text-align:Left;font-family:微软雅黑;font-size:12;"><SPAN STYLE="font-size:14;" />2.6标段划分：本次招标为施工2个标段。</P><P STYLE="margin:0 0 0 0;font-family:宋体;font-size:12;"><SPAN>一标段：平昌县笔山小学教学用房及运动场建设项目施工招标</SPAN></P><P STYLE="margin:0 0 0 0;font-family:宋体;font-size:12;">二标段：平昌县笔山小学附属幼儿园建设项目施工招标</P><P STYLE="text-align:Left;font-family:微软雅黑;font-size:12;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">（说明本次招标项目的建设地点、规模、计划工期、招标范围、标段划分等）。</SPAN>                                                     </P></DIV><P STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;"><SPAN STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;">3. 投标人资格要求</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">3.1 </SPAN><SPAN STYLE="font-size:18.6666666666667;"> </SPAN><SPAN STYLE="font-size:18.6666666666667;">本次招标要求投标人须具备</SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">独立企业法人资格，建设行政主管部门颁发的建筑工程施工总承包叁级及以上</SPAN><SPAN STYLE="font-size:18.6666666666667;">资质， </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">（企业注册地不在四川省行政区域内的省外企业须提供在有效期内的《四川省省外建筑企业入川承揽业务验证登记证》或带二维码的《四川省省外施工、监理企业入川承揽业务省厅基本信息录入证》）投标人近3年已完成2个及以上已竣工</SPAN><SPAN STYLE="font-size:18.6666666666667;">类似项目业绩，并在人员、设备、资金等方面具有相应的施工能力。</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">3.2 </SPAN><SPAN STYLE="font-size:18.6666666666667;"> </SPAN><SPAN STYLE="font-size:18.6666666666667;">本次招标</SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">不接受</SPAN><SPAN /><SPAN STYLE="font-size:18.6666666666667;">联合体投标。联合体投标的，应满足下列要求： </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">        </SPAN><SPAN STYLE="font-size:18.6666666666667;"> 。</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">3.3</SPAN><SPAN STYLE="font-size:18.6666666666667;">  </SPAN><SPAN STYLE="font-size:18.6666666666667;">各投标人均可就上述</SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">2</SPAN><SPAN STYLE="font-size:18.6666666666667;">(具体数量)标段投标。</SPAN></P><P STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;"><SPAN STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;">4. 招标文件的获取</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">4.1 凡有意参加投标者，请于</SPAN><SPAN STYLE="text-decoration:underline;">2017年12月30日</SPAN><SPAN STYLE="font-size:18.6666666666667;">开始登陆巴中市政务服务和公共资源交易服务中心网站</SPAN><SPAN STYLE="font-size:18.6666666666667;">（http://www.bzggzy.gov.cn/）</SPAN><SPAN STYLE="font-size:18.6666666666667;">“公共资源交易平台”中“建设工程招标投标”通过数字证书</SPAN><SPAN STYLE="font-size:18.6666666666667;">下载招标资料（招标文件、工程量清单、施工图纸等）。</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">4.2 招标人不提供其他任何报名和招标文件获取的方式。</SPAN></P><P STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;"><SPAN STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;">5. 投标文件的递交</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">5.1 </SPAN><SPAN STYLE="font-size:18.6666666666667;"> </SPAN><SPAN STYLE="font-size:18.6666666666667;">投标文件递交的截止时间（投标截止时间，下同）为</SPAN><SPAN STYLE="text-decoration:underline;">2018年01月25日 09时00分</SPAN><SPAN STYLE="font-size:18.6666666666667;">，地点为 </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">巴中市巴州区望王路东段447号</SPAN><SPAN STYLE="font-size:18.6666666666667;"> 。</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">5.2 </SPAN><SPAN STYLE="font-size:18.6666666666667;"> </SPAN><SPAN STYLE="font-size:18.6666666666667;">逾期送达的或者未送达指定地点的投标文件，招标人不予受理。</SPAN></P><P STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;"><SPAN STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;">6. 发布公告的媒介</SPAN></P><P STYLE="font-size:18.6666666666667;"><SPAN STYLE="font-size:18.6666666666667;">本次招标公告在</SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">巴中市公共资源交易信息网、四川省公共资源交易信息网、四川建设网</SPAN><SPAN STYLE="font-size:18.6666666666667;">四川省政府政务服务和公共资源交易服务中心网站、巴中市政务服务和公共资源交易服务网站、四川建设网(</SPAN><SPAN STYLE="font-size:18.6666666666667;">发布公告的所有媒介名称）上发布。</SPAN></P><P STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;"><SPAN STYLE="font-family:宋体;font-weight:bold;font-size:21.3333333333333;">7. 联系方式</SPAN></P><P /><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">招标人：  </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">平昌县笔山小学</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">地址：    </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">平昌县笔山镇关帝街48号</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">邮编：    </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">/</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">联系人：  </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">冯先生</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">电话：    </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">0827-6611082</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">传真：    </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">/</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">电子邮件：</SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">/</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">网址：    </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">/</SPAN></P><P /><DIV><P /><DIV><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">招标代理机构：</SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">中科标禾工程项目管理有限公司</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">地址：        </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">四川省成都市锦江区锦东路668号国嘉新视界1幢1单元501室</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">邮编：        </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">/</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">联系人：      </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">曾先生</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">电话：        </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">028-86094188</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">传真：        </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">/</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">电子邮件：    </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">/</SPAN></P><P STYLE="font-family:宋体;font-size:18.6666666666667;"><SPAN STYLE="font-family:宋体;font-size:18.6666666666667;">网址：        </SPAN><SPAN STYLE="font-family:黑体;font-weight:bold;background-color:#F0F8FF;text-decoration:underline;">/</SPAN></P></DIV></DIV><P /><P STYLE="text-align:Right;"><SPAN>                           </SPAN><SPAN>                 </SPAN></P><P STYLE="text-align:Right;font-size:18.6666666666667;"><SPAN>    年  月  日</SPAN><SPAN STYLE="font-size:18.6666666666667;"> </SPAN></P><P /></DIV></BODY></HTML>
+</div>
+</body>
+</html>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    $(function () {
+        var categoryId = parseInt($("#CategoryId").val());
+        if (categoryId == 648) {  //是土地栏目
+            var content = $("#textContent").html();
+            var newContent = content.replace(/\?\?\?\?/g, "&nbsp;&nbsp;&nbsp;&nbsp;");
+            $("#textContent").html(newContent);
+            var imgLength = $(".new_detail img").length;
+            if (imgLength >= 2) {
+                $(".new_detail img:eq(" + (imgLength - 2) + ")").attr("style", "position:absolute; bottom: 40px; right: 250px;");
+                $(".new_detail img:eq(" + (imgLength - 1) + ")").attr("style", "position:absolute; bottom: 40px; right: 40px;");
+
+            }
+        }
+    });
+</script>
+
+        
+<div id="footer">
+    <div id="link">
+        <strong>友情链接</strong>
+        <select name="menu1" onchange="MM_jumpMenu(this,0)">
+            <option value="#">==各省市政府网站==</option>
+            <option value="http://www.spprec.com/sczw/">四川省政府政务服务和公共资源交易服务中心</option>
+            <option value="http://www.cnbz.gov.cn/">巴中市人民政府</option>
+            <option value="http://www.bzgt.gov.cn/">巴中市国土资源局</option>
+            <option value="http://www.cdaee.com/index.php">成都农村产权交易所</option>
+        </select>
+        <select name="menu2" onchange="MM_jumpMenu(this,0)">
+            <option value="#">==国内重要城市网站==</option>
+            <option value="http://www.gtzyxx.cn/">国土信息资源网</option>
+            <option value="http://www.zzgsc.gov.cn/info/index/511900000">四川省工程建设领域项目信息公开</option>
+        </select>
+        <select name="menu3" onchange="MM_jumpMenu(this,0)">
+            <option value="#">==区县网站==</option>
+            尚无数据
+        </select>
+        <select name="menu4" onchange="MM_jumpMenu(this,0)">
+            <option value="#">==其它网站==</option>
+            尚无数据
+        </select>
+    </div>
+    <div id="foot">
+        <p><a href="javascript:void(0);" onclick="SetHome(this,'');">设为首页</a><span>丨</span><a href="javascript:AddFavorite(document.location.href,document.title)">加入收藏</a></p>
+        <p>版权所有：巴中市政务服务和公共资源交易服务中心</p>
+        <p>交易平台制作维护：四川建设网有限责任公司</p>
+        <p>政务服务咨询电话：0827-5280840   交易服务咨询电话：0827-3339070</p>
+        <p>政务服务地址：巴中市巴州区广场街67号</p>
+        <p>交易服务地址：巴中市巴州区江北望王路东段447号</p>
+        <p>备案号：蜀ICP备16017760号</p>
+        <p>
+            <label id="NumberPerson"></label>
+        </p>
+        <div style="position: relative;">
+            <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/23/347/0000/60354322/CA233470000603543220000.js' type='text/javascript'%3E%3C/script%3E"));</script><a href="http://jiucuo.kaipuyun.cn/errorInfo/search" target="_blank" style="top: -15px; width: 110px; height: 55px; position: relative;">
+                <img alt="" src="/Content/BZ/images/20160823141476497649.png" border="0" width="110" height="55"></a></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            url: "/Home/GetNumber",
+            type: "post",
+            success: function (Msg) {
+                if (Msg != null && Msg != "") {
+                    $("#NumberPerson").html("您是第<span style='color:gold; font-size:18px; font-weight:bold; padding:0 10px'>" + Msg + "</span>位访问者");
+                }
+            }
+        });
+    });
+</script>
+
+
+    </div>
+</body>
+</html>

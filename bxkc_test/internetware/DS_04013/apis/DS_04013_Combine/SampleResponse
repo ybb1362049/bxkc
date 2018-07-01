@@ -1,0 +1,799 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	宁波中基国际招标有限公司--国内招标公告
+</title><meta name="keywords" /><meta name="description" />
+
+    <script type="text/javascript" src="DatePicker/WdatePicker.js"></script>
+
+    <script language="javascript" src="WebJs/flash.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        function changeVerifyImg() {
+            document.getElementById("VerifyImg").src = "verifyImg.ashx?num=" + Math.random();
+        }       
+    </script>
+
+    <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="Js/jquery-1.3.2.js"></script>
+
+    <script type="text/javascript" src="Js/JSHelper.js"></script>
+
+    <link href="WebImages/css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="ZhaoTouBiao.aspx?Type=1&amp;GNW=1" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTIwNDQ2OTQxMDMPFgIeDXBhZ2VyQ29uZHRpb24y/gYAAQAAAP////8BAAAAAAAAAAwCAAAASE5CQ0VJLlpKWlRCLk1vZGVsLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAIE5CQ0VJLlpKWlRCLk1vZGVsLlBhZ2VyQ29uZGl0aW9uBgAAABFfSXNHZXRSZWNvcmRDb3VudAxfUmVjb3JkQ291bnQLX1NvcnRGaWVsZHMOX1NvcnREaXJlY3Rpb24RX0N1cnJlbnRQYWdlSW5kZXgJX1BhZ2VTaXplAAADBAAAAQiLAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbTkJDRUkuWkpaVEIuTW9kZWwuU29ydEZpZWxkcywgTkJDRUkuWkpaVEIuTW9kZWwsIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0aTkJDRUkuWkpaVEIuTW9kZWwuU29ydFR5cGUCAAAACAgCAAAAAJIUAAAJAwAAAAX8////Gk5CQ0VJLlpKWlRCLk1vZGVsLlNvcnRUeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAIAAAAPAAAABAMAAACLAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbTkJDRUkuWkpaVEIuTW9kZWwuU29ydEZpZWxkcywgTkJDRUkuWkpaVEIuTW9kZWwsIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQAAB5OQkNFSS5aSlpUQi5Nb2RlbC5Tb3J0RmllbGRzW10CAAAACAgJBQAAAAEAAAABAAAABwUAAAAAAQAAAAQAAAAEHE5CQ0VJLlpKWlRCLk1vZGVsLlNvcnRGaWVsZHMCAAAACQYAAAANAwUGAAAAHE5CQ0VJLlpKWlRCLk1vZGVsLlNvcnRGaWVsZHMCAAAAD19Tb3J0RXhwcmVzc2lvbg5fU29ydERpcmVjdGlvbgEEGk5CQ0VJLlpKWlRCLk1vZGVsLlNvcnRUeXBlAgAA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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=sGr2Oh7ckq2lkY0Yz-CUCEp-m4pPJ8G6SynM0Fzs13GpB95xRMcUB3-Ubo6uudtHnN13CxLL6QxHJAG5DVmqjdI2DWs1&amp;t=635672306875977500" type="text/javascript"></script>
+
+<script language="Javascript" type="text/javascript"><!--
+
+--></script>
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWDQLX7a/hDAKKrfyiBAKMir+BDgKRir+BDgLf8u6hBwLY8u6hBwLf8u6hBwLD5YyLDQKLir+BDgKTivOCDgKTiv+CDgKTip+BDgL1vZ/cAyYxzB6rW3iskPBdcbHKrBiev1AC" />
+</div>
+    <div id="Conter">
+        
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="692" height="102" valign="top">
+            <img src="WebImages/logo.gif" width="501" height="92">
+        </td>
+        <td width="310">
+            <table width="250" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="30" align="center">
+                        <span onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zj.org/');"
+                            style="cursor: hand">设为首页</span>
+                    </td>
+                    <td width="1">
+                        <img src="WebImages/top_dx.gif" width="1" height="7">
+                    </td>
+                    <td align="center">
+                        <span style="cursor: hand" onclick="window.external.addFavorite('http://www.zj.org/','收藏本站')"
+                            title="收藏本站">收藏本站</span>
+                    </td>
+                    <td width="1">
+                        <img src="WebImages/top_dx.gif" width="1" height="7">
+                    </td>
+                    <td align="center">
+                        <a href="about.aspx?CateId=7">联系我们</a>
+                    </td>
+                    <td width="1">
+                        <img src="WebImages/top_dx.gif" width="1" height="7">
+                    </td>
+                    <td align="center">
+                      
+                    </td>
+                </tr>
+            </table>
+           <table width="300" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="WebImages/kf.gif" width="252" height="63"></td>
+          <td><img src="WebImages/tl.gif" width="47" height="63"></td>
+        </tr>
+    </table>
+        </td>
+    </tr>
+</table>
+
+<script type="text/javascript">
+     $(document).ready(function() {
+         $("#bg td a").mouseover(function() {
+             $(this).parents("td").css("background", "url(WebImages/dh_bg_on.gif)");
+         });
+         $("#bg td a").mouseout(function() {
+             $(this).parents("td").css("background", "none");
+         });
+     });
+</script>
+
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0" background="WebImages/dh_bg.gif">
+    <tr id="bg">
+        <td width="11" height="31">
+            <img src="WebImages/dh_l.gif" width="11" height="41" style =" display:block  ">
+        </td>
+        <td width="40">
+        </td>
+        <td width="90" align="center" valign="bottom">
+            <a href="index.aspx" class="dh">首 页</a>
+        </td>
+        <td width="90" align="center" valign="bottom">
+            <a href="/NewsView.aspx?Id=81&CateId=2" class="dh">公司简介</a>
+        </td>
+        <td width="90" align="center" valign="bottom">
+            <a href="NewsList.aspx?CateId=8" class="dh">招标流程</a>
+        </td>
+        <td width="90" align="center" valign="bottom">
+            <a href="NewsList.aspx?CateId=9" class="dh">招标业绩</a>
+        </td>
+        <td width="90" align="center" valign="bottom">
+            <a href="NewsList.aspx?CateId=10" class="dh">招标变更</a>
+        </td>
+        <td width="90" align="center" valign="bottom">
+            <a href="ZhaoTouBiao.aspx?Type=1&GNW=1" class="dh">招标公告</a>
+        </td>
+        <td width="90" align="center" valign="bottom">
+            <a href="ZhaoTouBiao.aspx?GNW=1&Type=1" class="dh">中标公告</a>
+        </td>
+        <td width="90" align="center" valign="bottom">
+            <a href="NewsList.aspx?CateId=17" class="dh">购买标书</a>
+        </td>
+        <td width="90" align="center" valign="bottom">
+           <a href="NewsList.aspx?CateId=18" class="dh">政策法规</a>
+        </td>
+        <td width="90" align="center" valign="bottom">
+            <a href="about.aspx?CateId=7" class="dh">客服中心</a>
+        </td>
+        <td width="40">
+        </td>
+        <td width="11">
+            <img src="WebImages/dh_r.gif" width="11" height="41" style =" display:block  ">
+        </td>
+    </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        <td height="10">
+        </td>
+    </tr>
+</table>
+<table width="994" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#d8d8d8">
+    <tr>
+        <td height="270" align="center" bgcolor="#FFFFFF">
+            <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="984"
+                height="270">
+                <param name="movie" value="WebImages/ba01.swf">
+                <param name="quality" value="high">
+                <param name="wmode" value="opaque">
+                <param name="swfversion" value="9.0.45.0">
+                <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+                <param name="expressinstall" value="Scripts/expressInstall.swf">
+                <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="WebImages/ba01.swf" width="984"
+                    height="270">
+                    <!--<![endif]-->
+                    <param name="quality" value="high">
+                    <param name="wmode" value="opaque">
+                    <param name="swfversion" value="9.0.45.0">
+                    <param name="expressinstall" value="WebImages/expressInstall.swf">
+                    <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+                    <div>
+                        <h4>
+                            此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+                        <p>
+                            <a href="http://www.adobe.com/go/getflashplayer">
+                                <img src="http://www.adobe.com/WebImages/shared/download_buttons/get_flash_player.gif"
+                                    alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+                    </div>
+                    <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </td>
+    </tr>
+</table>
+
+
+        <table width="994" border="0" align="center" cellpadding="0" cellspacing="0" background="WebImages/tq_bg.jpg">
+            <tr>
+                <td width="15" height="50">
+                </td>
+                <td width="26">
+                    <img src="WebImages/top_home.gif" width="18" height="17">
+                </td>
+                <td width="60">
+                    您的位置：
+                </td>
+                <td>
+                    
+    <a href='index.aspx'>首页</a> >>  <a href='ZhaoTouBiao.aspx?Type=1&GNW=1'>国内招标公告</a>
+
+                </td>
+            </tr>
+        </table>
+        <table width="994" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="249" height="597" valign="top">
+                    
+    <table width="240" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td height="39" background="WebImages/lm1_top.gif">
+                <table width="220" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="110" height="25" valign="bottom">
+                            <div align="center" class="bt01">
+                                招投标信息
+                            </div>
+                        </td>
+                        <td width="110">
+                            <div align="right">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td background="WebImages/lm1_bg.gif">
+                <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="15">
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" background="WebImages/tit_bg.gif" border="0" cellpadding="0"
+                    cellspacing="0" width="156">
+                    <tr>
+                        <td height="26" width="30">
+                        </td>
+                        <td>
+                            <a href="ZhaoTouBiao.aspx?GNW=1&Type=1">国内招标公告</a>
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100">
+                    <tr>
+                        <td height="6">
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" background="WebImages/tit_bg.gif" border="0" cellpadding="0"
+                    cellspacing="0" width="156">
+                    <tr>
+                        <td height="26" width="30">
+                        </td>
+                        <td>
+                            <a href="ZhaoTouBiao.aspx?GNW=1&Type=2">国内中标公告</a>
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100">
+                    <tr>
+                        <td height="6">
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" background="WebImages/tit_bg.gif" border="0" cellpadding="0"
+                    cellspacing="0" width="156">
+                    <tr>
+                        <td height="26" width="30">
+                        </td>
+                        <td>
+                            <a href="ZhaoTouBiao.aspx?GNW=2&Type=1">国际招标公告</a>
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100">
+                    <tr>
+                        <td height="6">
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" background="WebImages/tit_bg.gif" border="0" cellpadding="0"
+                    cellspacing="0" width="156">
+                    <tr>
+                        <td height="26" width="30">
+                        </td>
+                        <td>
+                            <a href="ZhaoTouBiao.aspx?GNW=2&Type=2">国际中标公告</a>
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100">
+                    <tr>
+                        <td height="6">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="5" background="WebImages/lm1_bottom.gif">
+            </td>
+        </tr>
+    </table>
+
+                    <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td height="10">
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="240" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td height="39" background="WebImages/lm1_top.gif">
+                                <table width="220" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td width="94" height="25" valign="bottom">
+                                            <div align="center" class="bt01">
+                                                全站搜索</div>
+                                        </td>
+                                        <td width="126">
+                                            <div align="right">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td background="WebImages/lm1_bg.gif">
+                                <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td height="10">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="145" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td height="30" colspan="2">
+                                            <input name="ctl00$txtSearchName" type="text" id="ctl00_txtSearchName" style="width:120px;" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="30">
+                                             <select name="ctl00$ddlsearch" id="ctl00_ddlsearch">
+	<option selected="selected" value="0">请选择栏目</option>
+	<option value="3">中基新闻</option>
+	<option value="2,1">国际招标</option>
+	<option value="1,1">国内招标</option>
+	<option value="2,1">国际中标</option>
+	<option value="1,2">国内中标</option>
+	<option value="9">招标业绩</option>
+	<option value="11">招标公告</option>
+	<option value="10">招标变更</option>
+	<option value="18">政策法规</option>
+
+</select>
+                                        </td>
+                                        <td>
+                                            <input type="image" name="ctl00$imgbtnsearch" id="ctl00_imgbtnsearch" src="WebImages/ss.gif" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$imgbtnsearch&quot;, &quot;&quot;, true, &quot;search&quot;, &quot;&quot;, false, false))" style="border-width:0px;" />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td height="5">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="5" background="WebImages/lm1_bottom.gif">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="745"  valign="top">
+                    
+    <table width="745" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td height="39" background="WebImages/lm3_top.gif">
+                <table width="725" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td  height="25" valign="bottom">
+                            <div align="center" class="bt01">
+                                国内招标公告</div>
+                        </td>
+                        <td width="600">
+                            <div align="right">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td background="WebImages/lm3_bg.gif" height="400px" valign="top">
+                <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="10">
+                        </td>
+                    </tr>
+                </table>
+                
+                        <table width="99%" border="0" cellspacing="0" cellpadding="0">
+                            <tr style="font-weight: bold; color: #1767a5;">
+                                <td height="33" width="140" align="center" background="WebImages/gy_down.gif" >
+                                    项目编号
+                                </td>
+                                <td align="center" background="WebImages/gy_down.gif">
+                                    项目名称
+                                </td>
+                                <td width="60" align="center" background="WebImages/gy_down.gif">
+                                    国际国内
+                                </td>
+                                <td width="60" align="center" background="WebImages/gy_down.gif">
+                                    招标中标
+                                </td>
+                                <td width="70" align="center" background="WebImages/gy_down.gif">
+                                    公布日期
+                                </td>
+                            </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20171158
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11665' title='宁波市公安局机场分局空防安全管理平台（三期）采购项目'>
+                                    宁波市公安局机场分局空防安全管理平台（三期）采购项目</a>  <img src='WebImages/u09.gif'> </img>
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-08
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CXFSCG2017183（CBNB-20172237G）
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11663' title='慈溪市环境保护局空气质量自动监测系统运维项目'>
+                                    慈溪市环境保护局空气质量自动监测系统运维项目</a>  <img src='WebImages/u09.gif'> </img>
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-08
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20171223G
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11660' title='宁波出入境检验检疫局网站群建设项目'>
+                                    宁波出入境检验检疫局网站群建设项目</a>  <img src='WebImages/u09.gif'> </img>
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-08
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20171176
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11658' title='宁波市海曙区人民政府西门街道办事处自营房屋（第一批）委托租赁项目'>
+                                    宁波市海曙区人民政府西门街道办事处自营房屋（第一批）委托租赁项目</a>  
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-04
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20173158
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11656' title='宁波市鄞州华数广电网络有限公司集团客户运维和机顶盒配对、调配等代维服务项目'>
+                                    宁波市鄞州华数广电网络有限公司集团客户运维和机顶盒配对、调配等代维服务项目</a>  <img src='WebImages/u09.gif'> </img>
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-07
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20176110G
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11650' title='宁海县桥梁专业养护及专业修复服务项目'>
+                                    宁海县桥梁专业养护及专业修复服务项目</a>  <img src='WebImages/u09.gif'> </img>
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-07
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20176227G
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11649' title='宁波市鄞州区横溪镇人民政府横溪智慧旅游系统采购项目'>
+                                    宁波市鄞州区横溪镇人民政府横溪智慧旅游系统采购项目</a>  <img src='WebImages/u09.gif'> </img>
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-07
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20176200
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11647' title='(重发)宁波广联数字电视信息有限公司银行账户竞争性选择项目'>
+                                    (重发)宁波广联数字电视信息有限公司银行账户竞争性选择项目</a>  
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-03
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20172235
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11644' title='鄞州区云龙镇户外LED显示屏配备及安装采购项目'>
+                                    鄞州区云龙镇户外LED显示屏配备及安装采购项目</a>  
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-04
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20172203G
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11643' title='慈溪市交通设施定点采购入围项目'>
+                                    慈溪市交通设施定点采购入围项目</a>  
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-04
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20173121
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11642' title='宁波市鄞州华数广电网络有限公司采购宾馆交换机路由器和家庭网关等扩容设备项目'>
+                                    宁波市鄞州华数广电网络有限公司采购宾馆交换机路由器和家庭网关等扩容设备项目</a>  
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-04
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20173173
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11641' title='宁波市鄞州华数广电网络有限公司采购酒店前端设备项目'>
+                                    宁波市鄞州华数广电网络有限公司采购酒店前端设备项目</a>  
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-04
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20176215谈
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11640' title='宁海县环保工业发展有限公司宁海县电镀园区废水处理提标工程EPC项目'>
+                                    宁海县环保工业发展有限公司宁海县电镀园区废水处理提标工程EPC项目</a>  
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-04
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20172234 
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11639' title='江北消防大队空调采购及安装项目'>
+                                    江北消防大队空调采购及安装项目</a>  
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-04
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" class="Td_B" style="padding:3px">
+                                &nbsp;CBNB-20176224G磋
+                            </td>
+                            <td class="Td_B" style="padding-left: 10px;">
+                                &nbsp;<a href='ZhaoTouBiaoView.aspx?Id=11637' title='宁海县残疾人联合会采购中频治疗仪等设备项目'>
+                                    宁海县残疾人联合会采购中频治疗仪等设备项目</a>  
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;国内
+                            </td>
+                            <td align="center" class="Td_B">
+                                &nbsp;招标
+                            </td>
+                            <td align="center" class="Td_R">
+                                &nbsp;2017-08-04
+                            </td>
+                        </tr>
+                    
+                        </table>
+                    
+                <div id="ctl00_ContentPlaceContent_Page11">
+                    <table style="border: 0px; width: 100%;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="height: 27px; border-left: solid 1px #bad6ec; border-right: 1px solid #bad6ec;
+                                border-top: 1px solid #bad6ec;"  valign="middle">
+                                <table style="border: 0px; width: 100%; height: 100%" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            
+<div id="ctl00_ContentPlaceContent_Pager" style="text-align:right;white-space:nowrap;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="left" nowrap="true" style="width:40%;"><span style='font-weight:bold'>  第2页/共352页  共5266条</span></td><td align="right" nowrap="true" style="width:60%;"><a title="转到第1页" href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','1')" style="margin-right:5px;">首页</a><a title="转到第1页" href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','1')" style="margin-right:5px;">上页</a><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','1')" title="转到第1页" style="margin-right:5px;">1</a><span style="margin-right:5px;font-weight:Bold;color:red;">2</span><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','3')" title="转到第3页" style="margin-right:5px;">3</a><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','4')" title="转到第4页" style="margin-right:5px;">4</a><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','5')" title="转到第5页" style="margin-right:5px;">5</a><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','6')" title="转到第6页" style="margin-right:5px;">6</a><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','7')" title="转到第7页" style="margin-right:5px;">7</a><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','8')" title="转到第8页" style="margin-right:5px;">8</a><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','9')" title="转到第9页" style="margin-right:5px;">9</a><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','10')" title="转到第10页" style="margin-right:5px;">10</a><a href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','11')" title="转到第11页" style="margin-right:5px;">...</a><a title="转到第3页" href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','3')" style="margin-right:5px;">下页</a><a title="转到第352页" href="javascript:__doPostBack('ctl00$ContentPlaceContent$Pager','352')" style="margin-right:5px;">尾页</a>&nbsp;&nbsp;转至<select name="ctl00$ContentPlaceContent$Pager_input" id="ctl00$ContentPlaceContent$Pager_input" onchange="__doPostBack('ctl00$ContentPlaceContent$Pager','')">
+			<option value="1">1</option><option value="2" selected="true">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">......</option><option value="348">348</option><option value="349">349</option><option value="350">350</option><option value="351">351</option><option value="352">352</option>
+		</select>页</td>
+	</tr>
+</table>
+</div>
+
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="20">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="5" background="WebImages/lm3_bottom.gif">
+            </td>
+        </tr>
+    </table>
+
+                </td>
+            </tr>
+        </table>
+        
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="20"></td>
+  </tr>
+</table>
+<table width="994" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="3" bgcolor="#0069c6"></td>
+  </tr>
+  <tr>
+    <td height="176" align="center" valign="top" background="WebImages/copyright_bg.jpg" class="copyright"><table width="600" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="70" align="center" class="copyright">宁波中基国际招标有限公司 版权所有 宁波市信息中心 技术支持 浙ICP备11017901号-1 <br>
+Copyright &copy; 2008-2009 China-Base Inc All Rights Reserved</td>
+      </tr>
+    </table>
+    </script>
+
+    </td>
+  </tr>
+</table>
+
+    </div>
+    </form>
+</body>
+</html>

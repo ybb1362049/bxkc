@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="NUMtSW9fYzMYBkIaLBINaXA3ej89EVtHQyRUPTo.OlkAOmEFLm01XQ==">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>招标预告</title>
+<meta name="description" content="【祥源控股】四期二供电工程 新祥源-祥源城四期二 供电工程" />
+<meta name="Keywords" content="【祥源控股】四期二供电工程 新祥源-祥源城四期二 供电工程" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" href="https://jcs-caigou.mingyuanyun.com/favicon.ico?c_version=2018-01-12" type="image/x-icon" />
+<link rel="icon" href="https://jcs-caigou.mingyuanyun.com/favicon.ico?c_version=2018-01-12" type="image/x-icon" />
+
+<link href="https://jcs-caigou.mingyuanyun.com/res1.5/plugins/backTools/backTools.css?c_version=2018-01-12" rel="stylesheet"/>
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/css/common/common.css?c_version=2018-01-12">
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/css/common/layout.css?c_version=2018-01-12">
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/plugins/flexslider/flexslider.css?c_version=2018-01-12">
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/css/developer_zone/flag_layout_spec.css?c_version=2018-01-12">
+<link rel="stylesheet" href="https://jcs-caigou.mingyuanyun.com/res1.5/css/developer_zone/flagshipSpec.css?c_version=2018-01-12">
+<link href="https://jcs-caigou.mingyuanyun.com/res1.5/css/module/detail.css?c_version=2018-01-12" rel="stylesheet"/>
+
+<script type="text/javascript" src="https://jcs-caigou.mingyuanyun.com/res1.5/js/common/jquery-1.10.2.min.js?c_version=2018-01-12"></script>
+        <script type='text/javascript'>
+        var _vds = _vds || [];
+        window._vds = _vds;
+        (function(){
+            _vds.push(['setAccountId', '8cd05adac2e345d5']);
+            (function() {
+                var vds = document.createElement('script');
+                vds.type='text/javascript';
+                vds.async = true;
+                vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(vds, s);
+            })();
+        })();
+    </script>
+</head>
+<body>
+
+
+<div id="site_nav">
+    <div class="wrap clear">
+        <div class="login_bar">
+            <p class="login_info" id="show_login_user" style="display:none;">
+                <a class="login_name" id="showTopCompanyName"></a>
+                <a class="btn_logout" id="btn_logout" rel="nofollow"
+                   href="/xykg/web_login/login/logout?redirectURL=/xykg">退出</a>
+            </p>
+
+            <p class="login_info" id="show_login_info">
+                您可以&nbsp;&nbsp;<a class="link_sigin" href="/xykg"
+                                  rel="nofollow">登录</a>
+                <span class="line_split">|</span>
+                <a class="link_reg" href="/xykg/web_login/reg/index" rel="nofollow">免费注册</a>
+            </p>
+        </div>
+        <div class="nav_link">
+            <p class="site_favorite">
+                <a href="http://http://www.sunriver.cn/" title="当前站点" rel="sidebar" rel="nofollow">祥源控股集团有限责任公司官网</a>
+            </p>
+            <span style="padding: 0 5px;">|</span>
+            <p class="site_favorite">
+                <a href="javascript:void(0)" onclick="bookmark('/xykg',
+                    '当前站点')"
+                   title="当前站点" rel="sidebar" rel="nofollow">收藏站点</a>
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function bookmark(url, title) {
+        try {
+            if (window.sidebar) {
+                window.sidebar.addPanel(title, url, "");
+            } else if (document.all || !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv:11/))) {
+                window.external.AddFavorite(url, title);
+            } else {
+                alert('对不起，您的浏览器不支持加入收藏夹功能，您可以尝试通过快捷键ctrl + d加入到收藏夹。');
+            }
+        } catch (e) {
+            alert("对不起，您的浏览器不支持加入收藏夹功能，您可以尝试通过快捷键'ctrl + d'加入到收藏夹。");
+        }
+    }
+
+    function showLoginUserInfo(type, name) {
+        if (!type || type == "" || (type != 1 && type != 2) || !name || name == "") {
+            return;
+        }
+        $("#show_login_user").show();
+        $("#show_login_info").hide();
+
+        if (type == 1) {
+            $("#showTopCompanyName").attr("target", '_blank');
+            $("#showTopCompanyName").attr("href", '/xykg/web_gysbackstage');
+        } else {
+            $("#showTopCompanyName").attr("target", '_top');
+            $("#showTopCompanyName").attr("href", '/xykg/web_kfsbackstage');
+        }
+        $("#showTopCompanyName").text(name);
+        $("#showTopCompanyName").attr("title", $("#showTopCompanyName").text());
+    }
+
+    (function ($) {
+        //load current user info
+        showLoginUserInfo("", "");
+    })($);
+</script>
+<div id="s_header">
+        <div class="wrap clear">
+                    <div class="logo_info">
+                <h3 class="logo">
+                    <a href="/xykg">
+                        <img src="http://oss-pro.oss-cn-hangzhou.aliyuncs.com/ycg/cz58fef98ad7056/developer-logo/7f183544_395f_11e7_9a6b_008cfae40c1c.png"  style="width: auto;height: 50px"></a>
+                </h3>
+            </div>
+                    <div id="s_nav">
+            <ul>
+                <li class=""><a href="/xykg">首页</a></li>
+                                                                                <li class="active"><a href="/xykg/web_developerzone/home/notice">招标公告</a></li>
+                                                                <li class=""><a href="/xykg/web_developerzone/home/finish">中标公示</a></li>
+                                                                        <li><a target="_blank" href="http://www.sunriver.cn/index.php/fangdichankaifa.html">项目信息</a></li>
+                                <li class=""><a href="/xykg/web_developerzone/home/bidding-help">帮助信息</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function initSiteNav() {
+        $(".site_home").show();
+    }
+    (function ($) {
+        initSiteNav();
+    })($);
+</script>
+
+<link href="https://jcs-caigou.mingyuanyun.com/res1.5/css/module/forms.css?c_version=2018-01-12" rel="stylesheet"/>
+<link href="https://jcs-caigou.mingyuanyun.com/res1.5/css/web/page/tender_details.css?c_version=2018-01-12" rel="stylesheet">
+
+<div style="height: 20px;"></div>
+<div id="content" class="wrap clear tender_guest " >
+    <div class="con_main" style="width:980px">
+
+        <!-- 招标状态 报名中active 无效end -->
+        <div class="status_bar active">
+            <h1 class="name">【祥源控股】四期二供电工程</h1>
+        </div>
+        <!-- 招标状态 end -->
+
+        <div class="recutit_meta">
+            <ul class="clear">
+                <li> 公司：组织架构</li>
+                                    <li>项目：新祥源-祥源城四期二</li>
+                                <li>发布日期：2018-01-11</li>
+                <li>报名截止日期：2018-01-21 23:59:00</li>
+            </ul>
+        </div>
+
+        <!-- 产品与服务分类 -->
+                    <div class="area_intro desc_box">
+                <div class="hd"><h3 class="tit">产品与服务分类</h3></div>
+                <div class="bd">
+                    供电工程                </div>
+            </div>
+        
+        <!-- 招标详情 -->
+                    <div class="desc_intro desc_box">
+                <div class="hd"><h3 class="tit">招标详情</h3></div>
+                <div class="bd">
+                    <p><span style="font-family: 宋体,SimSun;">内容：高压柜、低压配电柜、电缆、变压器、高压配电房必备的模拟屏、挡鼠板、接地线、绝缘鞋及手套、橡胶绝缘垫、防火封堵等</span></p><p style="line-height: 27px;"><span style="font-family: 宋体; font-size: 16px;">资质条件：投标人应具有送变电工程专业承包三级及以上资质或者具有五级（或以上）有效的电力工程的承装类承装（修、试）电力设施许可证（由电监会发出的证书为准）；</span></p><p style="line-height: 27px;"><span style="font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">财务要求：注册资金</span><span style="font-family: 宋体; font-size: 14px; text-decoration: underline; text-underline: single;">&nbsp;&nbsp;<span style="font-family: 宋体; font-size: 16px; text-decoration: underline; text-underline: single;">1000 </span>&nbsp;</span><span style="font-family: 宋体; font-size: 16px;">万元以上</span></span></p><p style="line-height: 27px;"><span style="font-family: 宋体; font-size: 16px;">业绩要求：投标人近三年“类似工程”经验的情况（不少于三个，开标时需提供合同原件、工程竣工验收和移交证书）</span></p><p style="margin: 0pt;"><span style="font-family: 宋体; font-size: 10.5pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;"><span style="font-family: 宋体;"></span></span></p><p style="margin: 0pt;"><span style="font-family: 宋体; font-size: 16px; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;">其他要求<span style="font-family: 宋体; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;">：不允许在其他单位注册的建造师以任何形式在本工程担任项目经理，不允许投标人将本工程转包、分包给其他单位。</span></span></p><p style="margin: 0pt;"><span style="font-family: 宋体; font-size: 16px; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;"><span style="font-family: 宋体; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;"><span style="font-family: 宋体; font-size: 16px; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;">项目经理资质要求：<span style="font-family: 宋体; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;">机电专业二级及以上注册建造师</span></span></span></span></p><p style="margin: 0pt;"><br/></p>                </div>
+            </div>
+        
+        <!--  相关文档 -->
+        
+        <div class="contact_intro desc_box">
+            <div class="hd"><h3 class="tit">联系方式</h3></div>
+            <div class="bd">
+                <ul>
+                    <li>招标负责人：赵梅 </li><li>办公电话：0551-65379937</li><li>手机：15665615601</li><li>联系地址：安徽省合肥市高新区望江西路888号</li>                </ul>
+            </div>
+        </div>
+
+        <div class="weixin_tips clear">
+            <div class="ctrlbar">
+                <a id="btn_enroll" data-enroll="no"
+                   class="btn_common "
+                   href="javascript:derict2Login();">
+                    登录                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="https://jcs-caigou.mingyuanyun.com/res1.5/plugins/zeroclipboard-1.3.5/ZeroClipboard.min.js?c_version=2018-01-12"></script>
+<script type="text/javascript" src="https://jcs-caigou.mingyuanyun.com/res1.5/plugins/validform/Validform_v5.3.2_min.js?c_version=2018-01-12"></script>
+<script type="text/javascript" src="https://jcs-caigou.mingyuanyun.com/res1.5/plugins/validform/Validform_Datatype.js?c_version=2018-01-12"></script>
+
+<script>
+    //跳转到登录页面
+    function derict2Login() {
+        location.href = "/xykg/web_login/login/view"+'?redirectURL='+encodeURIComponent(window.location.href) ;
+    }
+</script>
+<script src="https://jcs-caigou.mingyuanyun.com/res1.5/js/common/template.js?c_version=2018-01-12"></script>
+
+<div class="clear" id="footer">
+    <div class="wrap">
+
+        <p class="copyright">
+            祥源控股集团有限责任公司 ©2018 &nbsp;&nbsp;&nbsp;祥源控股集团有限责任公司            &nbsp;&nbsp;&nbsp;
+        </p>
+    </div>
+</div>
+</body>
+</html>

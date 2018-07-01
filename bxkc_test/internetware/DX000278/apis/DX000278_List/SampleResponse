@@ -1,0 +1,361 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+       
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+  
+
+
+ 
+
+
+<script type="text/javascript" >
+   var internetExplorerVersion = "0.0";
+	var webContext = "/8thManage";
+	var updateUitableColStateError = "保存过程出现异常情况。请稍后再重试一遍，如果还出现此错误，请联系8thManage维护小组进行解决。"; 
+</script>
+
+   
+<script type="text/javascript" >
+   var _lang = "zh_CN/";
+   var webContext = "/8thManage";
+   var skinType = "demo";
+   var localeFlag = "zh";
+   function formatImgSrc(orginalSrc,i18n){
+     var index = orginalSrc.indexOf('images');
+     if(index>0){
+           orginalSrc=orginalSrc.substring(index+6);
+     }
+     var newImgSrc = webContext+"/images/"+skinType;
+     if(false != i18n && (orginalSrc.indexOf("/")<0||orginalSrc.indexOf("\\")<0)){
+        newImgSrc=newImgSrc+ '/'+localeFlag;      
+     }
+     if(orginalSrc.indexOf("/")!= 0||orginalSrc.indexOf("\\")!=0){
+        newImgSrc+="/";
+     }
+     return newImgSrc+orginalSrc;
+  }
+</script>
+<base href="http://www.etagen.cn/8thManage/open/moreOpenRequest.jsp">
+
+ 
+
+
+
+<script language="Javascript"  type="text/javascript" src="/8thManage/js/gtQuery.js?version=919008" charset="UTF-8"></script>
+
+
+
+
+<script language="Javascript"  type="text/javascript" src="/8thManage/js/all-in-one.js?version=919008" charset="UTF-8"></script>
+
+<script type="text/javascript" src="/8thManage/js/dialog/dialog_size_zh.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/8thManage/css/ajaxtags.css" />
+
+<script>
+  var _browserType = "Chrome";
+  var _gearActionName = "open";
+  var _gearMethodName = "doShowMoreOpenRequest";
+  pageAssist.setMessage('是否确定保存？','是否确定删除选定的记录？');
+  setPrintableCheckerMessage('不要频繁点击打印按钮，请稍候重试！');
+  var _ifErrorTableScrollIntoView = true;
+  errorPopupWindowMessage = "IE浏览器的安全设置阻止了弹出窗口。请与8thManage客服人员联系，可获知如何更改该设置。";
+  var _needConfirm = true;
+  var _leavingNeedConfirm = true;
+  
+  
+  var dateFormatStr = "yyyy-MM-dd"; //, "yyyyMMdd", "yyMMdd", "MMdd");
+  var dateTimeFormatStr = "yyyy-MM-dd HH:mm:ss";
+  var isFullMenu = true;
+  var isShowIcon = false;
+  var dateSplitStr = dateTimeFormatStr.replace(/[yMd ]/g, "");
+  var gtDateCalendar =  new DateCalendar(null,null,new Array('日', 
+			      '一', '二', 
+			      '三', '四', 
+			      '五', '六'));
+  cldMonthArray = new Array("01月","02月",
+              "03月","04月",
+              "05月","06月",
+              "07月","08月",
+              "09月","10月",
+              "11月","12月");
+	cldWeekLables =  new Array('日','一',  '二', '三',  '四', '五',
+			      '六');
+	if (typeof(topWin) != 'undefined' &&  topWin == window) {   
+		var gtc= new GTCalendar();
+		if (isMSIE == true) {
+			window.document.gtCalendarContainer = gtc;
+		} else {
+	  		window.document.gtCalendarContainer  = gtc;
+		}
+	}
+	var _durationUnitDay = "天";
+	var _durationUnitHour = "小时";
+	var _durationUnitMinute = "分";
+	var _durationUnitDayMark = "天";
+	var _durationUnitHourMark = "时";
+	var _durationUnitMinuteMark = "分";
+	var _gtCommentTitle = "进度注释";
+	var _gtAllCommentTitle = "注释";
+	//error messages
+	var _connectFailErrMsg = "连接失败，请确认网络是否畅通。";	
+    var _noSaveMsg = "本页面所作的修改还没有保存。";
+	var SYSTEM_MAX_TEXT_LENGTH = 1300;
+	var _skinType = "demo";
+	var _gtRootWindow;
+    if (window.attachEvent && window.document && window.parent && parent.frames[2] && (parent.frames[2].name == 'mainFrame' || (parent.parent && parent.parent.frames[2] && parent.parent.frames[2].name == 'mainFrame'))) {
+       window.document.attachEvent("onclick", gtHidePopuAlert);
+       _gtRootWindow = parent.frames[2].name == 'mainFrame' ? parent : parent.parent;
+    }
+	function gtHidePopuAlert() {
+		var GTPopuAlert = _gtRootWindow.parent.frames[0].window._popupAlert;
+		if (GTPopuAlert) {GTPopuAlert.hide();}
+	}
+   
+</script>
+
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>天健集团招标采购平台</title>
+      
+ 
+ 
+   
+<link rel="stylesheet" type="text/css" media="screen" href="css/zh/indexStyle.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/indexStyle.css" />
+
+      
+      
+      <script type="text/javascript">
+         function doShowMoreOpenRequest(pageNo) {
+            gtQuery("#pageNo").val(pageNo);
+            document.forms[0].submit();
+         }
+         
+         function pageNoChange() {
+            var pageNo = parseInt(gtQuery("#pageNoSelect").val());
+            doShowMoreOpenRequest(pageNo);
+         }
+         
+         function initSelectPageNo(pageNo) {
+            gtQuery("#pageNoSelect").val(parseInt(pageNo));
+         }
+         
+         function myload() {
+            initSelectPageNo(gtQuery("#pageNo").val());
+         }
+         
+         function doChangeLang(lang) {
+            var url = webContext + "/open/open.do?method=doChangeLang&language=" + lang;
+            document.openForm.action = url;
+            document.openForm.submit();
+         }
+      </script>
+   </head>
+   <body class="bgf7" onload="myload()">
+      <form name="openForm" method="post" action="/8thManage/open/open.do;jsessionid=44481BBF6357D36F5293D89169C91B6F.Tagen-8M-APP1_node1_JR?method=doShowMoreOpenRequest">
+         <input type="hidden" name="gradeId" id="gradeId" value="57" />
+         <input type="hidden" name="pageNo" id="pageNo" value="0" />
+         
+         <div class="lanNav">
+            <div>
+               <a href="http://www.tagen.cn/" target="_blank" style="margin-left: -25px;float: left;"><img src="/8thManage/open/images/logo.jpg" alt="logo"></a>
+               <a href="http://www.tagen.cn/" target="_blank">天健集团首页</a>|<a href="javascript:void(0);" onclick="doChangeLang('zh');" class="lanSelect">中文</a>|<a href="javascript:void(0);" onclick="doChangeLang('en');" class="">English</a>
+            </div>
+         </div>
+         
+         <div class="topWrapper">
+            <div class="topHeader">
+               <a href="/8thManage/open/index.jsp" class="topLogo"></a>
+               <table cellpadding="0" cellspacing="0" class="topNav " id="topNavTbl">
+                  <tr>
+                     <td>
+                        <a href="/8thManage/open/index.jsp" alt="首页" class="topHome"></a>
+                     </td>
+                     
+                     <td class="navMore">
+                        <span>
+                           <a href="/8thManage/open/open.do?method=doShowTypeContent&openRequestTypeId=53" title="公司简介">公司简介</a>
+                           
+                        </span>
+                     </td>
+                     
+                     <td class="navMore">
+                        <span>
+                           <a href="/8thManage/open/open.do?method=doShowTypeContent&openRequestTypeId=54" title="注册须知">注册须知</a>
+                           
+                        </span>
+                     </td>
+                     
+                     <td class="navMore">
+                        <span>
+                           <a href="/8thManage/open/open.do?method=doShowTypeContent&openRequestTypeId=55" title="操作说明">操作说明</a>
+                           
+                        </span>
+                     </td>
+                     
+                     <td class="navMore">
+                        <span>
+                           <a href="/8thManage/open/open.do?method=doShowTypeContent&openRequestTypeId=56" title="联系我们">联系我们</a>
+                           
+                        </span>
+                     </td>
+                     
+                  </tr>
+               </table>
+            </div>
+         </div>
+         
+         <div class="bannerPost">
+            <div class="mainWrapper">
+               <div class="global_Wrap">
+                  <h2 title="招标公告" align="center">招标公告</h2>
+                  <div class="global_leftcon">
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15452" >天健工业园片区更新单元一期01、02地块临时生活区活动板房采购及安装工程招标信息公告(2017-08-10)</a>
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15451" >天健工业园片区更新单元一期01、02地块临时生活区设施土建及安装工程(2017-08-10)</a>
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15302" >建筑公司旋挖钻机钻具采购(2017-08-09)</a>
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15202" >天健公馆样板房精装修设计(2017-08-10)</a>
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15154" >天健科技大厦环境绿化与景观工程不锈钢采购招标(2017-08-09)</a>
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15153" >天健科技大厦环境绿化与景观工程建材采购招标(2017-08-09)</a>
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15152" >天健集团总部办公装修设计招标公告(2017-08-08)</a>
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15301" >天健科技大厦空调风柜机房消音环保工程(2017-08-08)</a>
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15251" >坑梓项目综合楼改造施工(2017-08-08)</a>
+                     
+                     <a target="_blank" href="/8thManage/open/open.do?method=doShowContent&openRequestId=15102" >天健智慧园项目智能化设计招标(2017-08-04)</a>
+                     
+                  </div>
+                  <div style="font-size:14px;text-align:center;clear:both;">
+                     共30页，当前第1页
+                     
+                     [<span>上一页</span>]
+                     
+                     
+                     [<a href="javascript:doShowMoreOpenRequest(1)">下一页</a>],
+                     
+                     跳转到
+                     <select id="pageNoSelect" onchange="pageNoChange();">
+                        
+                        <option value="0">1</option>
+                        
+                        <option value="1">2</option>
+                        
+                        <option value="2">3</option>
+                        
+                        <option value="3">4</option>
+                        
+                        <option value="4">5</option>
+                        
+                        <option value="5">6</option>
+                        
+                        <option value="6">7</option>
+                        
+                        <option value="7">8</option>
+                        
+                        <option value="8">9</option>
+                        
+                        <option value="9">10</option>
+                        
+                        <option value="10">11</option>
+                        
+                        <option value="11">12</option>
+                        
+                        <option value="12">13</option>
+                        
+                        <option value="13">14</option>
+                        
+                        <option value="14">15</option>
+                        
+                        <option value="15">16</option>
+                        
+                        <option value="16">17</option>
+                        
+                        <option value="17">18</option>
+                        
+                        <option value="18">19</option>
+                        
+                        <option value="19">20</option>
+                        
+                        <option value="20">21</option>
+                        
+                        <option value="21">22</option>
+                        
+                        <option value="22">23</option>
+                        
+                        <option value="23">24</option>
+                        
+                        <option value="24">25</option>
+                        
+                        <option value="25">26</option>
+                        
+                        <option value="26">27</option>
+                        
+                        <option value="27">28</option>
+                        
+                        <option value="28">29</option>
+                        
+                        <option value="29">30</option>
+                        
+                     </select>
+                     页
+                  </div>
+               </div>
+            </div>
+            <div class="footer">
+               版权所有 &copy; 2004-2017 Wisage Technology, Inc. 保留所有权利。
+               <a href="http://www.miitbeian.gov.cn/" target="_blank" style="text-decoration:underline; color:blue">粤ICP备11073792号</a>
+            </div>
+         </div>
+      </form>
+   </body>
+</html>
+<script language='javascript'>/*if (typeof(setLayout) != 'undefined') {setLayout();}*/addMultiSubmissionChecker('请不要重复提交页面！')</script>

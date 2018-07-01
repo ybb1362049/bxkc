@@ -1,0 +1,180 @@
+
+
+
+
+
+ 
+<script>var _ctx="http://218.2.208.144:8094/EBTS";</script>
+
+
+
+
+<!-- <script>var _ctx="http://192.168.3.182:8080/EBTS";</script>  -->
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+    
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/util/sessionOut.js"></script>
+<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/signature/signature.js"></script>
+<link rel="stylesheet" type="text/css"	href="http://218.2.208.144:8094/EBTS/styles/common.css" />
+<link rel="stylesheet" type="text/css"	href="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css"	href="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/themes/icon.css">
+
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery-easyui/locale/easyui-lang-zh_CN.js"></script> 
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery.validate.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/jquery.metadata.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/jquery/message_cn.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/datePicker/WdatePicker.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/zDialog/zDialog.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/zDialog/zDrag.js"></script>
+	<script type="text/javascript" src="http://218.2.208.144:8094/EBTS/scripts/util/validate.js"></script>
+
+
+<script type="text/javascript">
+function doShowReport(tender_id,re_bid_number,tb_unit_id){
+	var menuType = "1";		//Read only
+	var open_link = window.open('','_newtab');
+	open_link.location =  "http://218.2.208.144:8094/EBTS/publish/list?searchFlgMenu=" + "0" +
+		"&menuType=" + menuType +
+		"&tender_id=" + tender_id +
+		"&re_bid_number=" + re_bid_number +
+		"&tb_unit_id=" + tb_unit_id +
+		"&fromFlg=9";
+}
+function question(){
+	
+	alert("请在招标投标信息管理系统中登录以后进行异议");
+	return;
+	
+}
+</script>
+</head>
+<body>
+	<div  id="body" style="width: 90%; padding-left: 0px;">
+	<input type="hidden" name="menuType" id ="menuType" value="">
+	<input type="hidden" name="tender_id" id="tender_id" value="f0abb7c09c73414396d65b0f72410877">
+	<input type="hidden" name="re_bid_number" id="re_bid_number" value="0">
+		<table width="81%" cellpadding="0" cellspacing="5">
+			<tr>
+				<td valign=top>
+						<input type="button" class="button-css"style="width: 100px; height: 25px" value='返回' onclick="javascript:history.back(-1);">
+						<input type="button" class="button-css"style="width: 100px; height: 25px" value='投诉' onclick="question();">
+				</td>
+			<tr>
+			<tr>
+				<td colspan="2"><div>
+						<p align="center" class="title">312国道苏州西段改扩建工程高架道路（两年）管养项目项目G312-YH1标段资格预审结果公示</p>
+						<p align="center">
+						<!--//20141106  谷冠威    BUG：EBTS-174   Chg  Start-->
+							<span class="title">发布单位：</span>苏州市公路管理处&nbsp;&nbsp;
+							<span class="title">发布时间：</span>2016-05-26&nbsp; 
+							<span class="title">公告性质：</span>正常
+						</p>
+					</div></td>
+			</tr>
+			<tr>
+				<td align="left">
+					<div >
+			 		<img src="../images/u44_line.png"  width="800px" style="color: #0066FF;height: 4px"/>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div style="padding-left: 40px;">
+						<span  class="title">项目基本信息：</span> <br /> <br /> 
+						<span  class="title">项目名称：&nbsp;</span>312国道苏州西段改扩建工程高架道路（两年）管养项目
+						<br /> <br /> <span class="title">项目编号：&nbsp;</span>2015320501JY0001
+						<br /> <br /> <span class="title">标段名称：&nbsp;</span>G312-YH1
+						<br /> <br /> <span class="title">标段编号：&nbsp;</span>2015320501JY0001001 <br />
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					<div style="padding-left: 70px">
+						<p><font color="blue">详细说明：</font></p>
+						
+						
+						 <span style="padding-left: 40px" class="tdLabel">312国道苏州西段改扩建工程高架道路（两年）管养项目项目,G312-YH1标段：共有<font color="red">9</font>家单位未通过资格预审，原因分别如下：</span>
+						<table style="padding-left: 55px">
+							 
+							 <tr>
+								<td class="tdLabel">1.常州市通达公路养护工程有限公司:综合得分排名未进入前8</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">2.江苏欧亚美工程建设有限公司:综合得分排名未进入前8</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">3.无锡市交通工程有限公司:综合得分排名未进入前8</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">4.南京市路桥工程总公司:不通过初步审查</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">5.徐州市金环公路工程有限公司:不通过初步审查</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">6.江苏华晨路桥有限公司:未投标</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">7.江苏顺达公路工程有限公司:综合得分排名未进入前8</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">8.镇江市润达公路养护工程公司:综合得分排名未进入前8</td>
+							</tr>
+							 
+							 <tr>
+								<td class="tdLabel">9.江苏现代路桥有限责任公司:综合得分排名未进入前8</td>
+							</tr>
+							 
+						</table>
+						<span  style="padding-left:40px;color: red">&nbsp;&nbsp;若对资格预审结果有异议，请在2016-05-26日到2016-05-29日内向招标人(苏州市公路管理处)书面提出。</span>
+					
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div style="padding-left: 70px;">
+						<p><span class="title">异议联系人：&nbsp;</span>韩乐、张立新、全迅、郁伟强&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="title">联系电话：</span>0512-67629433转803分机、0512-68223016</p>
+							
+						<p><span class="title">发布时间：&nbsp;</span>2016-05-26</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<div>
+					<img src="http://218.2.208.144:8094/EBTS//images/u44_line.png"  width="800px" style="color: #0066FF;height: 4px"/>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

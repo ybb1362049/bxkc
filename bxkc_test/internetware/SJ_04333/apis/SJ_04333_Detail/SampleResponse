@@ -1,0 +1,339 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><link href="images/style.css" rel="stylesheet" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="images/style.css" rel="stylesheet" type="text/css" /><title>
+	广西同泽工程项目管理有限责任公司
+</title>
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    
+
+<script language="javascript">
+
+function Setdisplay(name)
+{
+    if(document.getElementById(name).style.display == "none")
+    {
+        document.getElementById(name).style.display = "block";
+        //document.getElementById("dl5").className = "current_2";
+    }
+    else
+    {
+        //document.getElementById("dl5").className = "current";
+        document.getElementById(name).style.display = "none";
+    }
+}   
+
+
+</script>
+
+
+    
+    <script language="JavaScript">
+    <!--
+    //图片按比例缩放
+    var flag=false;
+    function DrawImage(ImgD,iwidth,iheight){
+        //参数(图片,允许的宽度,允许的高度)
+         var image=new Image();
+         image.src=ImgD.src;
+        if(image.width>0 && image.height>0){
+         flag=true;
+        if(image.width/image.height>= iwidth/iheight){
+            if(image.width>iwidth){  
+             ImgD.width=iwidth;
+             ImgD.height=(image.height*iwidth)/image.width;
+             }else{
+             ImgD.width=image.width;  
+             ImgD.height=image.height;
+             }
+             ImgD.alt=image.width+"×"+image.height;
+             }
+        else{
+            if(image.height>iheight){  
+             ImgD.height=iheight;
+             ImgD.width=(image.width*iheight)/image.height;        
+             }else{
+             ImgD.width=image.width;  
+             ImgD.height=image.height;
+             }
+             ImgD.alt=image.width+"×"+image.height;
+             }
+         }
+    } 
+    //-->
+    
+    /*常规弹出窗口*/
+    function opdlg(_title,_page,_width,_height)
+    {
+        var dlg = new J.ui.dialog({title:_title, page:_page, width:_width, height:_height,cover:true,btns:false});
+        dlg.ShowDialog();
+    }
+    </script>
+
+<script language="javascript">
+function SetHome(obj,vrl){
+        try{
+                obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+                NavClickStat(1);
+        }
+        catch(e){
+                if(window.netscape) {
+                        try {
+                                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");  
+                        }  
+                        catch (e) 
+ { 
+                                alert("抱歉！您的浏览器不支持直接设为首页。请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为“true”，点击“加入收藏”后忽略安全提示，即可设置成功。");  
+                        }
+                        var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                        prefs.setCharPref('browser.startup.homepage',vrl);
+                 }
+        }
+}
+function IMG1_onclick() {
+    
+    var txt = document.getElementById("textfield").value;
+   
+    window.open("search.aspx?SearchTxt=" + txt);
+}
+
+</script>
+
+</head>
+<body>
+<form name="aspnetForm" method="post" action="ServiceAShow.aspx?ArticleID=4065&amp;TypeID=36" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTI0MDc3ODEyD2QWAmYPZBYCAgMPZBYCAgEPZBYCAgEPFgIeC18hSXRlbUNvdW50ZmRkFcQ66xYejMzeWUpk1RASB9xtrLA=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="28770970" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALczKKTBQKbluGwAgLzqr/bDQKpnbbHCSA7lt+lLwy9sC3clMisF+epveqO" />
+</div>
+
+<div id="index">
+  <div id="index-left"><img src="images/index_left.gif" width="4" height="1169" /></div>
+  <!--end index-left-->
+  <div id="index-right"><img src="images/index_right.gif" width="4" height="1169" /></div>
+  <!--end index-right-->
+  <div id="contaiter">
+    <div id="header">
+      <div id="logo"><img src="images/logo.jpg" /></div>
+      <div id="home">
+        <div id="info"> <a href="javascript:void(0)" onClick="SetHome(this,window.location)" target="_top">设为首页</a>
+         | <a href="javascript:void(0)" onClick="window.external.addFavorite(window.location,'广西同泽工程造价咨询有限责任公司')" >添加收藏</a> | 
+         <a href="Contact.aspx">联系我们</a> </div>
+        <div id="search">
+            <input type="text" name="textfield" id="textfield" value="" onkeydown= "if(event.keyCode   ==   13)   return   false; "  class="txt-input"/> 
+        </div>
+        <div id="btn"><a href="javascript:void(0)" onclick="return IMG1_onclick()"><img src="images/sear_btn.gif" width="28" height="25" id="IMG1"  /></a></div>
+      </div>
+      <!--end home-->
+    </div>
+    <!--end header-->
+    <div id="menu">
+      <ul>
+        <li><a href="/Default.aspx">首页</a></li>
+        <li><a href="About.aspx">公司概况</a></li>
+        <li><a href="Notice.aspx">通知公告</a></li>
+        <li><a href="News.aspx">公司动态</a></li>
+        <li><a href="Service.aspx">服务领域</a></li>
+        <li><a href="ProjectSuccess.aspx">工程业绩</a></li>
+        <li><a href="Job.aspx">人力资源</a></li>
+        
+        
+        <li><a href="DownCleCled.aspx">资料下载</a></li>
+        
+       
+        
+      </ul>
+    </div>
+    <!--end menu-->
+
+
+
+    <div id="banner"> <img src="images/about_banner.jpg" width="980" height="180" /></div>
+    <!--end banner-->
+    
+    <div class="clear"></div>
+    <div id="main">
+      <div class="maincont">
+        <div id="sidebar">
+          <div id="sidebar_tit">
+            <h2>服务领域</h2>
+          </div>
+          <div id="sidebar_cont">
+            <div id="column"> 
+                        <a href="Service.aspx?TypeID=31" class="current" id="dl31" title="造价咨询">造价咨询</a> 
+                    
+            	        <a href="javascript:void(0)" class="current" id="dl32" title="招标代理" onclick="Setdisplay('dlMenu')">招标代理</a>             	       
+            	        <div id="dlMenu" style="display:none">
+            	        <a href="Service.aspx?TypeID=36" class="current" id="dl36" title="招标公告">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;招标公告</a> 
+                    
+            	        <a href="Service.aspx?TypeID=37" class="current" id="dl37" title="中标公告">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中标公告</a> 
+                    
+            	        <a href="Service.aspx?TypeID=38" class="current" id="dl38" title="修改通知">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修改通知</a> 
+                        </div>
+                        
+                        
+                        <a href="Service.aspx?TypeID=33" class="current" id="dl33" title="工程监理">工程监理</a>
+                        
+                        <a href="Service.aspx?TypeID=34" class="current" id="dl34" title="工程咨询">工程咨询</a>
+                        
+                        <a href="Service.aspx?TypeID=35" class="current" id="dl35" title="政府采购">政府采购</a>
+                        
+<input type="hidden" name="ctl00$cphBannerAndMain$hdfTypeID" id="ctl00_cphBannerAndMain_hdfTypeID" value="36" />
+<script language="javascript">
+
+function loadmenu()
+{
+    var typeID= parseInt(document.getElementById("ctl00_cphBannerAndMain_hdfTypeID").value);
+    var dl = "dl" + typeID;
+    if( typeID != 31 &&typeID<39)
+    {
+        document.getElementById(dl).className = "current_2";
+        if( typeID == 36 || typeID == 37 || typeID == 38 )
+            document.getElementById("dlMenu").style.display = "block";
+        
+    }
+    else if( typeID == 31)
+    {
+        document.getElementById("dl31").className = "current_2"; 
+    }
+}
+
+loadmenu();
+
+</script>
+            	        
+            
+                
+              
+            </div>
+            <!--end column-->
+            
+              
+<div id="contact_cont">
+
+
+    <div id="login_ed" style="display:none">
+    
+    <div id="login_tit"><img src="images/login.jpg" width="204" height="40" /></div>
+    
+        <table width="100%" border="0" cellspacing="2" >
+        <tr>
+          <td height="30" align="right">用户名：</td>
+            <td> <span id="ctl00_cphBannerAndMain_Wuc_Down_Job_Cont1_lblAccout" style="color:#FF8A00;font-size:14px;font-weight:bold;"></span></td>
+        </tr>
+        <tr>
+          <td height="30" align="right">姓&nbsp;&nbsp;&nbsp;&nbsp;名：</td>
+            <td> <span id="ctl00_cphBannerAndMain_Wuc_Down_Job_Cont1_lblName" style="color:#FF8A00;font-size:14px;font-weight:bold;"></span></td>
+        </tr>
+        <tr>
+          <td height="30" ><a onclick="return confirm('确认退出登陆吗？');" id="ctl00_cphBannerAndMain_Wuc_Down_Job_Cont1_LinkButton1" href="javascript:__doPostBack('ctl00$cphBannerAndMain$Wuc_Down_Job_Cont1$LinkButton1','')" style="color:#004E8A;">安全退出</a>
+            </td>
+            <td> 
+                <a id="ctl00_cphBannerAndMain_Wuc_Down_Job_Cont1_lbtnAdmin" href="javascript:__doPostBack('ctl00$cphBannerAndMain$Wuc_Down_Job_Cont1$lbtnAdmin','')" style="color:#004E8A;">登录后台</a>
+            </td>
+        </tr>
+        
+        </table>
+       
+    
+    <p style="margin-left:-13px"><a href="downCleCled.aspx"><img src="images/download.jpg" width="200" height="58" alt="资料下载" /></a></p>
+    
+    </div>
+    
+
+    <div id = "vistor" style="display:block; margin-left:-13px">
+      <p><a href="job.aspx"><img src="images/job.jpg" width="200" height="56" /></a></p>
+      <p><a href="Contact.aspx"><img src="images/contact.jpg" width="200" height="58" /></a></p>
+      <p style="margin-left:0px"><a href="service.aspx"><img src="images/server.jpg" width="200" height="100" /></a></p>
+    </div>         
+
+<script language="javascript">
+    var aID = '0';
+    //alert(aID);
+    if(aID != "0")
+    {
+        document.getElementById("login_ed").style.display = "block";
+    }
+    else
+    {
+        //document.getElementById("vistor").style.display = "block";
+    }
+</script>
+
+
+ </div>
+              
+          </div>
+          <!--end sidebar_cont-->
+        </div>
+        <!--end sidebar-->
+        <div id="content">
+          <div id="about">
+            <div id="about_nav">当前位置：<a href="Default.aspx">首页</a> > <a href="Service.aspx">服务领域</a> &gt;<strong></strong></div>
+            <div id="about_cont">
+       		 
+   	            <div class="cont_tit" style=" color:;">广西同泽工程项目管理股份有限公司     学生课桌椅采购【GXZC2017-X1-184-TZ（重）】 询价公告</div>
+                <div class="cont_info">来源：同泽工程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作者： &nbsp;&nbsp;&nbsp;&nbsp;发布时间：2017-8-15 18:03:17</div>
+                <div class="cont_content">
+                
+                    <p style="text-indent:28px;line-height:24px">广西同泽工程项目管理股份有限公司受采购单位委托，根据《中华人民共和国政府采购法》等有关规定，现对学生课桌椅采购进行询价采购，欢迎符合条件的供应商前来参加。</p><p class="MsoBodyTextIndent" style="text-indent:33px;line-height:24px"><span style="font-size:14px;letter-spacing:0px">一、采购项目名称：学生课桌椅采购</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px"></span></p><p class="MsoBodyTextIndent" style="text-indent:33px;line-height:24px"><span style="font-size:14px;letter-spacing:0px">二、采购项目编号：</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px">GXZC2017-X1-184-TZ</span><span style="font-size:14px;letter-spacing:0px">（重）</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px"></span></p><p class="MsoBodyTextIndent" style="text-indent:33px;line-height:24px"><span style="font-size:14px;letter-spacing:0px">三、项目内容：学生课桌椅</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px">790</span><span style="font-size:14px;letter-spacing:0px">套等，如需进一步了解详细内容，详见询价采购文件。</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px"></span></p><p class="MsoBodyTextIndent" style="text-indent:33px;line-height:24px"><span style="font-size:14px;letter-spacing:0px">四、采购预算金额约为</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px">15.8</span><span style="font-size:14px;letter-spacing:0px">万元。</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px"></span></p><p class="MsoBodyTextIndent" style="text-indent:33px;line-height:24px"><span style="font-size:14px;letter-spacing:0px">五、本项目需要落实的政府采购政策：政府采购优先采购环境标志产品、政府采购支持中小企业发展。</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px"></span></p><p class="MsoBodyTextIndent" style="text-indent:33px;line-height:24px"><span style="font-size:14px;letter-spacing:0px">六、报价人资格：</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px">1</span><span style="font-size:14px;letter-spacing:0px">、符合《中华人民共和国政府采购法》第二十二条的规定；</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px">2</span><span style="font-size:14px;letter-spacing:0px">、具有生产或销售本次采购货物资格的供应商。</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px">3</span><span style="font-size:14px;letter-spacing:0px">、本项目不接受联合体投标。</span><span style="font-size:14px;font-family:&#39;times new roman&#39;;letter-spacing:0px"></span></p><p class="MsoPlainText" style="text-indent:27px;line-height:24px"><span style="font-family:&#39;times new roman&#39;">七、询价采购文件的获取：</span></p><p class="MsoPlainText" style="text-indent:27px;line-height:24px"><span style="font-family:&#39;times new roman&#39;">1、发售时间：2017年8月16日公告发布之时起至2017年8月18日止（正常工作时间）。</span></p><p class="MsoPlainText" style="text-indent:27px;line-height:24px"><span style="font-family:&#39;times new roman&#39;">2、发售地点：</span><span style="font-family:&#39;times new roman&#39;">藤县公共资源交易中心（藤县陶瓷园区管委会办公大楼）</span>二楼<span style="font-family:&#39;times new roman&#39;"></span></p><p class="MsoPlainText" style="text-indent:27px;line-height:24px"><span style="font-family:&#39;times new roman&#39;">3、售价：询价采购文件工本费每本250元，售后不退。</span></p><p class="MsoPlainText" style="text-indent:27px;line-height:24px"><span style="font-family:&#39;times new roman&#39;">4、获取采购询价文件的方式：</span></p><p class="MsoPlainText" style="text-indent:27px;line-height:24px"><span style="font-family:&#39;times new roman&#39;">⑴报名前报价人须登录全国企业信用信息公示系统（网址：http://gsxt.saic.gov.cn）查询并打印企业电脑咨询单。</span></p><p style="text-indent:28px;line-height:24px">⑵报名时须携带：营业执照副本及电脑咨询单（网上自行打印）、组织机构代码证复印件（三证合一除外）、税务登记证复印件（三证合一除外）、法人（负责人）身份证复印件、最近三个月（或最近一个季度）依法缴纳的社会保障资金（养老保险等）证明复印件、最近三个月（或最近一个季度）纳税证明复印件、最新年度财务状况报告复印件和人民检察院出具的受贿、行贿犯罪档案查询结果告知函原件【查询人员包括法定代表人（负责人）和授权委托人】；如是委托代理人前往办理时，除上述资料外还需法人授权委托书原件、委托代理人身份证原件和复印件（以上证件资料复印件须加盖企业公章，原件核查）。</p><p style="text-indent:28px;line-height:24px">八、询价保证金（人民币）：1580元</p><p style="text-indent:28px;line-height:24px">报价人应于投标截止时间：2017年8月21日16时30分前将保证金从基本账户转至以下账户。</p><p style="text-indent:28px;line-height:24px;text-align:left;">开户名称：藤县公共资源交易中心</p><p style="text-indent:28px;line-height:24px;text-align:left;">银行账号：6666 0008 5802 9000 10 </p><p style="text-indent:28px;line-height:24px">开户银行：广西藤县桂银村镇银行营业部</p><p style="text-indent:28px;line-height:24px">九、报价文件递交截止时间和地点：</p><p style="text-indent:28px;line-height:24px">报价人应于2017年8月22日15时30分止，将报价文件密封提交到藤县公共资源交易中心（藤县陶瓷园区管委会办公大楼）<span style="text-decoration:underline;">3 &nbsp;</span>号开标厅（报价人递交报价文件时要求携带并出示本项目所需的资质证件），逾期送达的将予以拒收。参加报价供应商的法定代表人（负责人）或委托代理人必须持有效证件[法定代表人（负责人）凭身份证或委托代理凭法人授权书原件和身份证]依法到达指定地点。</p><p style="text-indent:28px;line-height:24px">十、联系事项：</p><p style="text-indent:28px;line-height:24px;text-align:left;">1、采购人名称：藤县埌南镇中心校 &nbsp;地址：藤县埌南镇 &nbsp; 联系人及电话：石老师13877472277</p><p style="text-indent:28px;line-height:24px;background:white"><span style="font-size:14px">2</span><span style="font-size:14px">、采购代理机构名称：广西同泽工程项目管理股份有限公司</span><span style="font-size:14px"></span></p><p style="text-indent:28px;line-height:24px"> &nbsp;地址：藤县金桃七街，朝阳幼儿园后面 &nbsp; 项目联系人：小覃 &nbsp; 联系电话：0774-7290599</p><p style="text-indent:28px;line-height:24px;text-align:left;">3、监督部门：藤县政府采购监督管理办公室 &nbsp; 电话：0774-7288236</p><p style="text-indent:21px;line-height:24px;text-align:left;">十一、网上查询：中国政府采购网、广西壮族自治区政府采购网、藤县人民政府门户网、梧州市人民政府采购网、广西同泽工程项目管理股份有限公司网上发布。 &nbsp;</p><p style="text-indent:21px;line-height:24px;text-align:left;"> </p><p style="text-indent:21px;line-height:24px;text-align:left;"> </p><p style="text-indent:21px;line-height:24px;text-align:left;"><span style="font-family:verdana"> </span></p><p style="text-indent:63px;line-height:24px">藤县埌南镇中心校 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;广西同泽工程项目管理股份有限公司<span style="font-size:16px;letter-spacing:-1px"></span></p><p class="MsoDate" style="text-indent:49px;line-height:24px;margin-left:7px;"><span style="font-size:14px">2017</span><span style="font-size:14px">年</span><span style="font-size:14px">8</span><span style="font-size:14px">月</span><span style="font-size:14px">16</span><span style="font-size:14px">日</span><span style="font-size:14px"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2017年8月16日</span><span style="font-size:14px"></span></p><p style="text-indent:382px;line-height:24px"><span style="font-size:16px"> </span></p><p style="text-indent:49px;line-height:24px"> </p><p><br /></p>
+                
+                </div>
+               		 
+         
+            </div>
+            <!--end about_cont-->
+          </div>
+          <!--end about-->
+        </div>
+        <!--end content-->
+      </div>
+      <!--end maincont-->
+    </div>
+    <!--end main-->
+
+
+    
+    <div class="clear"></div>
+    <div id="footer">
+      <p>Copyright @ 2011 Corporation, All Rights Reserved 版权所有 广西同泽工程项目管理有限责任公司</p>
+    </div>
+    <!--end footer-->
+  </div>
+  <!--end contaiter-->
+  <div class="clear"></div>
+  <div id="index-bottom"><img src="images/index_bot.gif" width="988" height="22" /></div>
+  <!--end index-bottom-->
+</div>
+<!--end index-->
+
+</form>
+</body>
+</html>

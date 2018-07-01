@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>云南招标公司系统门户</title>
+<link rel="stylesheet" type="text/css" href="/ynweb/Template/Default/css/common.css"/>
+<link href="/ynweb/Template/Default/css/style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/ynweb/Template/Default/css/about.css">
+
+<script type="text/javascript" src="/ynweb/Template/Default/js/settitle.js"></script>
+<script type="text/javascript" src="/ynweb/Template/Default/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body  class="bg">
+<div id="header">
+      <iframe src="/ynweb/Template/Default/pagehead_ty.htm" width="100%" height="170" frameborder="0" scrolling="no"></iframe>
+</div>
+<div class="clearFix" id="main">
+ <div class="aside" id="left">
+   <div class="aside_border">
+  	<h2 >招标公告</h2>
+    <div class="left_top"><TABLE align="center" cellSpacing="4" cellPadding="0" width="100%" border="0">
+<TR><td class="LeftMenuOver"  onMouseOver="this.className='LeftMenuOver2'"  onMouseOut="this.className='LeftMenuOver'" ><a href="/ynweb/zbgg/005001" target="_self"><font color=#ffffff>建设工程</font></a></td></tr>
+<TR><td class="LeftMenu"  onMouseOver="this.className='LeftMenu2'"  onMouseOut="this.className='LeftMenu'" ><a href="/ynweb/zbgg/005002" target="_self"><font color=#ffffff>政府采购</font></a></td></tr>
+<TR><td class="LeftMenu"  onMouseOver="this.className='LeftMenu2'"  onMouseOut="this.className='LeftMenu'" ><a href="/ynweb/zbgg/005003" target="_self"><font color=#ffffff>国际招标</font></a></td></tr>
+<TR><td class="LeftMenu"  onMouseOver="this.className='LeftMenu2'"  onMouseOut="this.className='LeftMenu'" ><a href="/ynweb/zbgg/005004" target="_self"><font color=#ffffff>其他</font></a></td></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script></div>
+    </div>
+  </div>
+  <div class="article" id="right">
+  	<div class="now">
+    	
+    </div>
+     
+    <div class="col-style2">
+     <div class = "head">建设工程</div>
+      <div class="contenttop right_top">
+           <TABLE  cellSpacing=0 cellPadding=0 width=100% align=center border=0 valign=top>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=9f35899b-9a99-4699-b685-3f486febb2e1&categoryNum=005001" target="_blank" title="N5300000000417001238云南鲁甸6.5级地震灾后恢复重建水磨镇、龙树镇污水处理及配套设施建设铁厂集镇补充排水管网施工工程">N5300000000417001238云南鲁甸6.5级地震灾后恢复重建水磨镇、龙树镇污水处...</a>
+</TD><TD width=100 align="right">
+2017-08-03
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=48cfe34f-9eea-4ceb-9307-a2d9874ce36d&categoryNum=005001" target="_blank" title="E5300000000517001302昆明市第一人民医院甘美国际医院垃圾房改造建设项目招标公告">E5300000000517001302昆明市第一人民医院甘美国际医院垃圾房改造建设项目招标...</a>
+</TD><TD width=100 align="right">
+2017-08-03
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=509b1f0f-440e-4de4-8813-75f980e64177&categoryNum=005001" target="_blank" title="E5300000000617001296云南出入境检验检疫局技术业务用房项目智能化系统建设施工招标">E5300000000617001296云南出入境检验检疫局技术业务用房项目智能化系统建设施...</a>
+</TD><TD width=100 align="right">
+2017-08-03
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=fb84047d-e501-4515-825a-91303d9eef16&categoryNum=005001" target="_blank" title="E5300000000517001206C1云南省第一人民医院一号门诊楼室内天井加固工程（二次招标）招标公告">E5300000000517001206C1云南省第一人民医院一号门诊楼室内天井加固工程（二...</a>
+</TD><TD width=100 align="right">
+2017-08-02
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=f848e3a7-56ab-4697-af1b-7560b64373d3&categoryNum=005001" target="_blank" title="E5300000000417001225C1昆明经济技术开发区普照水质净化厂（昆明十二污水处理厂）配套再生水供水管网工程（二期、三期）监理服务">E5300000000417001225C1昆明经济技术开发区普照水质净化厂（昆明十二污水处...</a>
+</TD><TD width=100 align="right">
+2017-08-01
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=77f14c9b-b966-4447-9ba5-b28c577e2f2d&categoryNum=005001" target="_blank" title="E5300000000517001292C1云南省第一人民医院四号住院楼内部装修改造工程（二次）竞争性磋商公告">E5300000000517001292C1云南省第一人民医院四号住院楼内部装修改造工程（二...</a>
+</TD><TD width=100 align="right">
+2017-07-31
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=e42e678f-7969-4421-a838-e41ac04b566c&categoryNum=005001" target="_blank" title="G5300000000417001220平文高速公路平远至老回龙段环境保护专项工程施工招标[变更公告]">G5300000000417001220平文高速公路平远至老回龙段环境保护专项工程施工招标[...</a>
+</TD><TD width=100 align="right">
+2017-07-31
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=0a9b80c8-134d-41c5-87ea-a9fcb577d773&categoryNum=005001" target="_blank" title="D5300000000617001239昆明经开区呈黄路北段（东辅线）道路给水管工程">D5300000000617001239昆明经开区呈黄路北段（东辅线）道路给水管工程</a>
+</TD><TD width=100 align="right">
+2017-07-31
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=469cd4ce-ac1d-476b-babb-a226981aa916&categoryNum=005001" target="_blank" title="E5300000000117001114中国银行股份有限公司云南省分行贵昆路支行装修项目">E5300000000117001114中国银行股份有限公司云南省分行贵昆路支行装修项目</a>
+</TD><TD width=100 align="right">
+2017-07-27
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=73f31685-3865-48b4-97b2-10bfce0da08a&categoryNum=005001" target="_blank" title="E5300000000417001198C1鲁甸县公安局交通警察大队警示教育中心建设施工工程">E5300000000417001198C1鲁甸县公安局交通警察大队警示教育中心建设施工工程</a>
+</TD><TD width=100 align="right">
+2017-07-26
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=47f0282f-7e73-4bae-9060-6e6695f8c757&categoryNum=005001" target="_blank" title="E5300000000417001199C1鲁甸县公安局交通警察大队警务保障中心建设施工工程">E5300000000417001199C1鲁甸县公安局交通警察大队警务保障中心建设施工工程</a>
+</TD><TD width=100 align="right">
+2017-07-26
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=cb81cae2-fb23-4bd1-823b-4ce7b67e8f2e&categoryNum=005001" target="_blank" title="E5300000000417001251云南省广南地母历史文化旅游基础设施及配套建设项目（一期）施工监理">E5300000000417001251云南省广南地母历史文化旅游基础设施及配套建设项目（一...</a>
+</TD><TD width=100 align="right">
+2017-07-26
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=5d62c7bf-cf8f-439b-ae0b-89f500335cb5&categoryNum=005001" target="_blank" title="E5300000000a17001025原料库房消防改造项目建筑工程">E5300000000a17001025原料库房消防改造项目建筑工程</a>&nbsp;<font style='color: red;'>【推荐】</font>
+</TD><TD width=100 align="right">
+2017-07-24
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=654fc5aa-9d50-43f7-b6e7-59213193f6f7&categoryNum=005001" target="_blank" title="E5300000000a17001019C1綦江工业园区蝴蝶谷平场工程地质勘察（第二次）">E5300000000a17001019C1綦江工业园区蝴蝶谷平场工程地质勘察（第二次）</a>&nbsp;<font style='color: red;'>【推荐】</font>
+</TD><TD width=100 align="right">
+2017-07-10
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=7e6531ec-97d7-483e-945b-52c3066ba290&categoryNum=005001" target="_blank" title="E5300000000417001226昆明经济技术开发区东绕城、南连接线高速公路（经开区段）综合整治工程">E5300000000417001226昆明经济技术开发区东绕城、南连接线高速公路（经开区段...</a>
+</TD><TD width=100 align="right">
+2017-07-21
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=4267adee-aea5-49fb-bed6-d278a34b4356&categoryNum=005001" target="_blank" title="E53000000004170012272019年中国北京世界园艺博览会云南展区景观绿化设计施工总承包（EPC）工程">E53000000004170012272019年中国北京世界园艺博览会云南展区景观绿化设计...</a>
+</TD><TD width=100 align="right">
+2017-07-20
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=eacd9b86-abf2-4aac-b345-ea2920057bda&categoryNum=005001" target="_blank" title="I5300000000517001285云南有线数字化整转及NGB项目之2017年干线线路工程统一设计服务招标">I5300000000517001285云南有线数字化整转及NGB项目之2017年干线线路工...</a>
+</TD><TD width=100 align="right">
+2017-07-20
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=f6483148-21f4-46a5-b2b4-978fd8000601&categoryNum=005001" target="_blank" title="D5300000000417001237新建35kV勐养变电站10kV线路出线搭接工程监理服务">D5300000000417001237新建35kV勐养变电站10kV线路出线搭接工程监理服...</a>
+</TD><TD width=100 align="right">
+2017-07-17
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=c131d582-64d7-451c-9337-a956f9e1a278&categoryNum=005001" target="_blank" title="E5300000000517001282云南爱上网络有限责任公司云南IPTV集成播控平台机房搬迁项目之结构加固工程招标采购项目招标公告">E5300000000517001282云南爱上网络有限责任公司云南IPTV集成播控平台机房...</a>
+</TD><TD width=100 align="right">
+2017-07-17
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=25>
+<td width='25' align="center"  ><img src='/ynweb/images/dots/qcyd.jpg' border=0></td>
+<TD align="left" width='580'><a href="/ynweb/infodetail/?infoid=129fd682-d235-4741-a863-300237924810&categoryNum=005001" target="_blank" title="E5300000000517001255C1云南师范大学呈贡校区教学实训楼双板教室装修设计施工项目（二次招标）招标公告">E5300000000517001255C1云南师范大学呈贡校区教学实训楼双板教室装修设计施...</a>
+</TD><TD width=100 align="right">
+2017-07-16
+</TD></TR>
+<TR><TD height=1 background="/ynweb/images/webinfolist_line.gif" colSpan=3 ></tr>
+<TR height=10><td colspan="3"></td></tr>
+<TR><td colspan="3" id="Paging"><style>.pagemargin{margin:0px}.margintop{margin-top:15px}.yahei{font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold}.yaheigo{font-family:"Microsoft YaHei",微软雅黑; font-size:12px}.redfont{color:red}.bordercolor{border:solid 1px #dfdfdf}.huifont{color:#666666}.songti{font-size:12px}.weight{font-weight:bold}.pageover{ background-color:#999999; border:solid 1px #999999; font-size:12px; color:#FFFFFF;cursor:pointer}.pageout{border:solid 1px #dedede;font-size:12px;color:#666666;cursor:pointer}.numberover{background-color:#999999; border:solid 1px #999999;font-family:"Microsoft YaHei",微软雅黑; font-size:14px;color:#FFFFFF;cursor:pointer;width:36px}.numberout{border:solid 1px #dedede;font-family:"Microsoft YaHei",微软雅黑; font-size:14px; font-weight:bold;color:#666666;cursor:pointer;width:36px}.goover{border:solid 1px #dfdfdf;background-color:#999999;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:#FFFFFF;cursor:pointer}.goout{border:solid 1px #dfdfdf;font-family:"Microsoft YaHei",微软雅黑; font-size:12px;color:666666;cursor:pointer}</style><script type='text/javascript' src='/ynweb/template/default/js/jquery-1.9.1.min.js'></script><script>var totalPageNums = 45;function GoToPaging() {var no = ($("#GoToPagingNo").val());if ($.isNumeric(no)) {no = parseInt(no);if (no <= totalPageNums) {ShowNewPage('./?Paging='+no);} else {alert("最大分页为" + totalPageNums + ",请重新输入页码！");$("#GoToPagingNo").val("");$("#GoToPagingNo").focus();}} else {alert("请重新输入数字页码！");$("#GoToPagingNo").val("");$("#GoToPagingNo").focus();}}function tab() {if (event.keyCode == 13){ document.getElementById("submit").click()}}function ShowNewPage(pageurl){window.open(pageurl,'_self')}</script><div class="pagemargin"><div style="height:26px;width=508px"><table border='0' cellpadding='0' cellspacing='0' align='center'><tr><td  width="40" align="center" class="pageout" >首页</td><td width="4"></td><td  width="70" align="center" class="pageout" >&lt; 上页 </td><td width="4"></td><td  width="36" align="center" class="yahei redfont" >1</td><td width="4"></td><td onclick="ShowNewPage('./?Paging=2');" title='转到第2页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">2</td><td width="4"></td><td onclick="ShowNewPage('./?Paging=3');" title='转到第3页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">3</td><td width="4"></td><td onclick="ShowNewPage('./?Paging=4');" title='转到第4页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">4</td><td width="4"></td><td onclick="ShowNewPage('./?Paging=5');" title='转到第5页' width="36" align="center" class="numberout" onmouseover="this.className='numberover';" onmouseout="this.className='numberout';">5</td><td width="4"></td><td onclick="ShowNewPage('./?Paging=2');" title='转到第2页' width="70" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">下页 &gt;</td><td width="4"></td><td onclick="ShowNewPage('./?Paging=45');" title='转到第45页' width="40" align="center" class="pageout" onmouseover="this.className='pageover';" onmouseout="this.className='pageout';">末页</td><td width="20"></td><td class="huifont">1/45</td><td width="10"></td><td class="songti huifont">转</td><td width="6"></td><td><input type="text" id="GoToPagingNo" onkeydown="tab()"  class="bordercolor"  style="line-height:26px;width:40px; height:26px" /></td><td width="6"></td><td width="30" align="center" class="goout" id="submit" onclick="GoToPaging();" onmouseover="this.className='goover';" onmouseout="this.className='goout';">GO</td></td></tr></table></div></div></div>
+</td></tr>
+</table>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+<div id="footer" class="mt52">
+  <iframe src="/ynweb/Template/Default/pagefoot.htm" height="200" width="100%" frameborder="0" scrolling="no"></iframe>
+</div>
+<script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+function $(id){
+
+return document.getElementById(id)
+
+}
+
+function getHeight() {
+
+if ($("left").offsetHeight>=$("right").offsetHeight){
+
+$("right").style.height=$("left").offsetHeight + "px";
+
+}
+
+else{
+
+$("left").style.height=$("right").offsetHeight + "px";
+
+}
+
+}
+
+window.onload = function() {
+
+getHeight();
+
+}
+
+</script>
+</body>
+</html>

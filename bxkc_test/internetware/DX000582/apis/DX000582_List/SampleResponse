@@ -1,0 +1,436 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	招投标信息 - 四川川东高速公路有限责任公司
+</title>
+    <meta name="keywords" content="这里写关键词，用","分隔" />
+    <meta name="description" content="这里写描述" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /><link rel="stylesheet" href="css/style.css" /><link rel="stylesheet" href="css/bianhua.css" />
+
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="layer/layer.js"></script>
+    <script src="/Inc/Search.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div class="top3 text">
+        信息公开
+        <a href="javascript:history.go(-1);">
+            <img src="images/evaluate3_03.png" alt="" /></a>
+        <span>
+            <img src="images/evaluate3_06.png" alt="" />
+        </span>
+    </div>
+
+    
+
+
+<!-- head -->
+<div class="head">
+    <div class="wrap4">
+        <div class="logo fl">
+            <a href="/">
+                <img src="images/logo.png" alt="" /></a>
+        </div>
+        <div class="headR fr">
+            <div class="headR-other fl">
+                <dl>
+                    <a href="javascript:" onclick="SetHome(this,window.location.href);">
+                        <img src="images/home2_06.png">设为首页</a>
+                </dl>
+                <dl>
+                    <a href="javascript:" onclick="AddFavorite(window.location,document.title);">
+                        <img src="images/home2_08.png" alt="" />收藏网站</a>
+                </dl>
+                <dl>
+                    <a href="">
+                        <img src="images/home2_11.png" alt="" />今天是2018年01月11日</a>
+                </dl>
+                <div class="clear"></div>
+            </div>
+            <div class="search fr">
+                <input type="text" placeholder="|输入关键词..." id="searchKey" name="searchKey" />
+                <a href="javascript:" id="searchBtn">搜索</a>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<!-- head -->
+
+
+<!-- nav -->
+<div class="navBox ">
+    <div class="wrap">
+        <div class="nav clearfix ">
+            <ul class="clearfix">
+                <li><a href="/">首页</a></li>
+<li><a href="about.aspx?mid=17">关于我们</a>
+<div class="navson">
+<ol>
+<li><a href="about.aspx?mid=17">公司介绍</a></li><li><a href="about.aspx?mid=22">组织架构</a></li><li><a href="about.aspx?mid=23">管理团队</a></li></ol>
+</div>
+
+</li>
+<li><a href="news.aspx?mid=18">公司动态</a>
+<div class="navson">
+<ol>
+<li><a href="news.aspx?mid=18">公司要闻</a></li><li><a href="news.aspx?mid=164">图片新闻</a></li><li><a href="video.aspx?mid=163">视频中心</a></li></ol>
+</div>
+
+</li>
+<li><a href="news.aspx?mid=20">营运管理</a>
+<div class="navson">
+<ol>
+<li><a href="news.aspx?mid=20">收费管理</a></li><li><a href="news.aspx?mid=148">安全管理</a></li><li><a href="news.aspx?mid=149">养护管理</a></li><li><a href="fwq.aspx?mid=181&sid=3">服务区管理</a></li><li><a href="news.aspx?mid=151">稽查监控</a></li></ol>
+</div>
+
+</li>
+<li><a href="news.aspx?mid=141">党纪工团</a>
+<div class="navson">
+<ol>
+<li><a href="news.aspx?mid=141">党建工作</a></li><li><a href="news.aspx?mid=165">纪检监察</a></li><li><a href="news.aspx?mid=166">工会工作</a></li><li><a href="news.aspx?mid=167">团建工作</a></li></ol>
+</div>
+
+</li>
+<li><a href="about.aspx?mid=136">企业文化</a>
+<div class="navson">
+<ol>
+<li><a href="about.aspx?mid=136">企业理念</a></li><li><a href="product.aspx?mid=19">高速风采</a></li><li><a href="news.aspx?mid=152">文化活动</a></li><li><a href="product.aspx?mid=153">员工天地</a></li><li><a href="about.aspx?mid=168">奖项荣誉</a></li></ol>
+</div>
+
+</li>
+<li><a href="news.aspx?mid=147">行业服务</a>
+<div class="navson">
+<ol>
+<li><a href="news.aspx?mid=147">路况信息</a></li><li><a href="news.aspx?mid=175">行车指南</a></li><li><a href="news.aspx?mid=176">收费政策</a></li><li><a href="news.aspx?mid=169">清排障服务</a></li></ol>
+</div>
+
+</li>
+<li><a href="news.aspx?mid=143">信息公开</a>
+<div class="navson">
+<ol>
+<li><a href="news.aspx?mid=143">招投标信息</a></li><li><a href="about.aspx?mid=170">人员招聘</a></li><li><a href="news.aspx?mid=171">路产赔偿</a></li></ol>
+</div>
+
+</li>
+<li><a href="special.aspx">专题聚焦</a>
+<div class="navson">
+<ol>
+<li><a href="news.aspx?mid=142">两学一做</a></li><li><a href="news.aspx?mid=185">十九大专栏</a></li><li><a href="news.aspx?mid=172">三项制度改革</a></li></ol>
+</div>
+
+</li>
+
+                <div class="clear"></div>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        $(".nav ul li").hover(function () {
+            $(this).addClass("on2");
+            $(this).find(".sign").show();
+            $(this).find(".navson").stop(true, true).slideDown(300);
+        },
+         function () {
+             $(this).removeClass("on2");
+             $(this).find(".sign").hide('slow');
+             $(this).find(".navson").stop(true, true).slideUp(300);
+         });
+    });
+</script>
+<!-- nav -->
+
+
+
+<a href="#" class="btn-slide-bar"></a>
+<!-- 侧导航 -->
+<div class="slide-bar" id="slide-bar">
+    <ul class="menu">
+        <li class="sonav"><a href="/">首页</a></li>
+<li class="sonav"><a href="javascript:">关于我们</a></li>
+<ul class="navContent"><li><a href="about.aspx?mid=17">公司介绍</a></li><li><a href="about.aspx?mid=22">组织架构</a></li><li><a href="about.aspx?mid=23">管理团队</a></li></ul>
+<li class="sonav"><a href="javascript:">公司动态</a></li>
+<ul class="navContent"><li><a href="news.aspx?mid=18">公司要闻</a></li><li><a href="news.aspx?mid=164">图片新闻</a></li><li><a href="video.aspx?mid=163">视频中心</a></li></ul>
+<li class="sonav"><a href="javascript:">营运管理</a></li>
+<ul class="navContent"><li><a href="news.aspx?mid=20">收费管理</a></li><li><a href="news.aspx?mid=148">安全管理</a></li><li><a href="news.aspx?mid=149">养护管理</a></li><li><a href="fwq.aspx?mid=181&sid=3">服务区管理</a></li><li><a href="news.aspx?mid=151">稽查监控</a></li></ul>
+<li class="sonav"><a href="javascript:">党纪工团</a></li>
+<ul class="navContent"><li><a href="news.aspx?mid=141">党建工作</a></li><li><a href="news.aspx?mid=165">纪检监察</a></li><li><a href="news.aspx?mid=166">工会工作</a></li><li><a href="news.aspx?mid=167">团建工作</a></li></ul>
+<li class="sonav"><a href="javascript:">企业文化</a></li>
+<ul class="navContent"><li><a href="about.aspx?mid=136">企业理念</a></li><li><a href="product.aspx?mid=19">高速风采</a></li><li><a href="news.aspx?mid=152">文化活动</a></li><li><a href="product.aspx?mid=153">员工天地</a></li><li><a href="about.aspx?mid=168">奖项荣誉</a></li></ul>
+<li class="sonav"><a href="javascript:">行业服务</a></li>
+<ul class="navContent"><li><a href="news.aspx?mid=147">路况信息</a></li><li><a href="news.aspx?mid=175">行车指南</a></li><li><a href="news.aspx?mid=176">收费政策</a></li><li><a href="news.aspx?mid=169">清排障服务</a></li></ul>
+<li class="sonav"><a href="javascript:">信息公开</a></li>
+<ul class="navContent"><li><a href="news.aspx?mid=143">招投标信息</a></li><li><a href="about.aspx?mid=170">人员招聘</a></li><li><a href="news.aspx?mid=171">路产赔偿</a></li></ul>
+<li class="sonav"><a href="javascript:">专题聚焦</a></li>
+<ul class="navContent"><li><a href="news.aspx?mid=142">两学一做</a></li><li><a href="news.aspx?mid=185">十九大专栏</a></li><li><a href="news.aspx?mid=172">三项制度改革</a></li></ul>
+
+    </ul>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        (function () {
+            var _btn = document.querySelector(".btn-slide-bar"),
+                _navigation = document.querySelector(".slide-bar");
+            _btn.onclick = function () {
+                _navigation.classList.toggle("active");
+                _btn.classList.toggle("on");
+                var aa = $(".slide-bar").width();
+                if (aa > 0) {
+                    $('body').css('overflow', 'auto');
+                } else {
+                    $('body').css('overflow', 'hidden');
+                }
+
+
+            }
+        })(window)
+    }, false);
+    $(function () {
+        $(".sonav").click(function () {
+            $(this).toggleClass("currentDd").siblings(".sonav").removeClass("currentDd");
+            $(this).toggleClass("currentDt").siblings(".sonav").removeClass("currentDt");
+            $(this).next(".navContent").slideToggle(500).siblings(".navContent").slideUp(500);
+        })
+        //侧导航高度
+        var bgHeight = $(window).height();
+        var top = $('.top').height();
+        document.getElementById('slide-bar').style.height = bgHeight - top + "px";
+    })
+</script>
+<!-- 侧导航 end -->
+
+
+
+    <!--baneer-->
+    
+    <div class="nybanner2">
+        <img src="images/nybanner2.jpg" alt="" />
+        <div class="wrap">
+            <div class="zthead">
+                <h1>信息公开</h1>
+                <h4>Information</h4>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!--main-->
+    
+
+
+
+
+    <!-- news -->
+    <div class="about">
+        <div class="wrap">
+
+            
+
+<div class="about-nav fl" id="leftbox">
+    <div class="subnav">
+        <ul>
+            <li><a id="1430"  href="news.aspx?mid=143&sid=">招投标信息</a></li><li><a id="1700"  href="about.aspx?mid=170&sid=">人员招聘</a></li><li><a id="1710"  href="news.aspx?mid=171&sid=">路产赔偿</a></li>
+        </ul>
+    </div>
+    <div class="other-nav">
+        <ul>
+            <li><a href="news.aspx?mid=143">
+                <img src="images/abouy2_03.png" alt="" />信息公开</a></li>
+            <li><a href="news.aspx?mid=147">
+                <img src="images/abouy2_07.png" alt="" />路况信息</a></li>
+            <li><a href="video.aspx?mid=163">
+                <img src="images/abouy2_11.png" alt="" />视频中心</a></li>
+        </ul>
+    </div>
+    <script>
+        window.onload = function () {
+            var div2 = $('.about-con').height();
+            document.getElementById('leftbox').style.height = div2 + 58 + "px";
+        };
+        $("#1430").parent().addClass("onsub");
+     </script>
+</div>
+
+
+
+            <div class="about-con fr">
+                <div class="gyhead">
+                    <div class="gyheadL fl">
+                        <img src="images/about_05.png" alt="" />招投标信息
+                    </div>
+                    <div class="gyheadR fr">您当前位置： <a href="/">网站首页</a> &gt; <a href="news.aspx?mid=143">信息公开</a> &gt; 招投标信息</div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="newmain">
+
+
+                    
+                            <ul class="ullist">
+                        
+                            <li><a href="newshow.aspx?mid=143&id=407&sid="><i>.</i>四川达渝高速公路建设开发有限公司 生产用车采购询价公告<span>2017-10-24</span></a></li>
+                        
+                            <li><a href="newshow.aspx?mid=143&id=406&sid="><i>.</i>四川达渝高速公路建设开发有限公司 生产用车采购询价公告<span>2017-10-24</span></a></li>
+                        
+                            <li><a href="newshow.aspx?mid=143&id=405&sid="><i>.</i>四川川东高速公路有限责任公司生产用车采购询价公告<span>2017-10-24</span></a></li>
+                        
+                            <li><a href="newshow.aspx?mid=143&id=404&sid="><i>.</i>四川川东高速公路有限责任公司 生产用车采购询价公告<span>2017-10-24</span></a></li>
+                        
+                            <li><a href="newshow.aspx?mid=143&id=403&sid="><i>.</i>四川达渝高速公路建设开发有限公司生产用车采购询价公告<span>2017-10-24</span></a></li>
+                        
+                            <li><a href="newshow.aspx?mid=143&id=372&sid="><i>.</i>川东公司办公楼及综合楼网络改造工程招标公告<span>2017-09-14</span></a></li>
+                        
+                            <li><a href="newshow.aspx?mid=143&id=344&sid="><i>.</i>G42沪蓉高速（南广邻段）、G42沪蓉高速（垫邻段）、G65包茂高速（达渝段）2017-2019年...<span>2017-08-17</span></a></li>
+                        
+                            <li><a href="newshow.aspx?mid=143&id=244&sid="><i>.</i>南广邻、垫邻、达渝高速公路2017-2019年度维修保养工程施工招标公告<span>2017-07-03</span></a></li>
+                        </ul>
+                    
+
+
+
+                    <!--分页-->
+                    <div class="ny-page">
+                        
+                    </div>
+                    <!--分页 End-->
+                </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- news -->
+
+
+
+
+
+    
+
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer-top text">
+        <div class="wrap">
+            <a href="about.aspx?mid=17">关于我们</a>
+<a href="news.aspx?mid=18">公司动态</a>
+<a href="news.aspx?mid=20">营运管理</a>
+<a href="news.aspx?mid=141">党纪工团</a>
+<a href="about.aspx?mid=136">企业文化</a>
+<a href="news.aspx?mid=147">行业服务</a>
+<a href="news.aspx?mid=143">信息公开</a>
+<a href="special.aspx">专题聚焦</a>
+
+        </div>
+    </div>
+    <div class="footer-bottom text">
+        <p>电话：0826-5108000   0826-2331080（传真）   地址：四川省广安市城南金安大道南出口 成都市二环路西一段90号10楼（成都办事处）  邮编：100063</p>
+        <p>四川川东高速公路有限责任公司 版权所有        All rights reserved   <a href="http://www.miitbeian.gov.cn" target="_blank" style="color:#d9d9d9">蜀ICP备16026090号-1</a>  技术支持 <a href="http://mingtengnet.com/" target="_blank" style="color:#d9d9d9">明腾-西部商务网</a>  
+            <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan  id='cnzz_stat_icon_1263967452'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/stat.php%3Fid%3D1263967452%26show%3Dpic ' type='text/javascript'%3E%3C/script%3E"));</script>
+        </p>
+    </div>
+</div>
+<!-- footer -->
+
+<!-- 二维码 -->
+
+
+
+
+
+<!-- 二维码 -->
+
+
+
+<script>
+
+    //加入收藏
+    //AddFavorite(window.location,document.title)
+    function AddFavorite(sURL, sTitle) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, '');
+            }
+            catch (e) {
+                alert('加入收藏失败，请使用Ctrl+D进行添加');
+            }
+        }
+    }
+    //设为首页
+    //SetHome(this,window.location.href)
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl.substring(0, vrl.indexOf('?')));
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege('UniversalXPConnect');
+                }
+                catch (e) {
+                    alert('此操作被浏览器拒绝！\n请在浏览器地址栏输入about:config并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为true,双击即可。');
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl.substring(0, vrl.indexOf('?')));
+            } else {
+                var str = vrl.substring(0, vrl.indexOf('?'));
+                alert('您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：' + str + '点击确定。');
+            }
+        }
+    }
+
+
+    $("#searchBtn").click(function () {
+        var searchKey = $("#searchKey").val();
+        if (searchKey == "") {
+            var c = layer.alert("关键字不能为空", { icon: 2, title: "错误提示" }, function () {
+                layer.close(c);
+            });
+            return false;
+        }
+        else {
+            location.href = "search.aspx?k=" + searchKey;
+        }
+    });
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+<script>
+    window.onload = function () {
+        var radio2 = 1200 / 230;
+        $(".nybanner").height($(window).width() / radio2);
+        $(".nybanner2").height($(window).width() / radio2);
+        $(window).resize(function () {
+            var radio2 = 1200 / 230;
+            $(".nybanner").height($(window).width() / radio2);
+            $(".nybanner2").height($(window).width() / radio2);
+        });
+
+        var div2 = $('.about-con').height();
+        document.getElementById('leftbox').style.height = div2 + 58 + "px";
+    }
+</script>
+
+</html>

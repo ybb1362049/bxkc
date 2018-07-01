@@ -1,0 +1,165 @@
+<script src="/Areas/JyWeb/Content/Scripts/main.js"></script>
+
+<link href="/Areas/JyWeb/Content/App_Themes/Default/Styles/main.css" rel="stylesheet"/>
+
+<link href="/Areas/JyWeb/Content/App_Themes/Default/Styles/LocalStyle.css" rel="stylesheet"/>
+
+<script src="/Areas/NewCommon/Content/easyui/js/jquery.easyui.min.js"></script>
+
+<script src="/bundles/main/js?v=cXSQBHKkR9joqGOztkCqotLH0E0UpBnnCbHzvcM85T41"></script>
+
+<h3>通知公告</h3>
+
+
+    <div class="shoushou">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td width="8%" height="45" align="right">信息标题： </td>
+                    <td width="92%">
+                        <input name="textfield" type="input" class="input_1" id="txtSearch" onchange="addHref()" size="80" />
+						<span id="btnSearch" class="shousuo"> 
+							<a href="javascript:void(0)" style="width:57px;height:28px" id="aBtnSearch" data-ajax-update="#divContent" data-ajax-mode="replace" data-ajax="true">查询</a>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="infotexta_1" style="height: 500px;">
+        <ul>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=47bd12ac-2b76-493e-b39b-721c206e8f24"><span title="对汉源县滨湖基础设施建设项目（工程造价咨询）中介机构选取项目终止公告的更正意见"><span style="">对汉源县滨湖基础设施建设项目（工程造价咨询）中介机构选取项目终止公告的更正意见</span></span></a>
+                        <span class="time">2017-09-19</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=ea241434-07d9-4cef-9455-40a38b019107"><span title="汉源县滨湖基础设施建设项目（工程造价咨询）中介机构选取项目终止公告"><span style="color:red">汉源县滨湖基础设施建设项目（工程造价咨询）中介机构选取项目终止公告</span></span></a>
+                        <span class="time">2017-09-19</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=b8bb813a-9f07-4080-96c6-78606677cd43"><span title="雅安城市建设投资开发有限公司关于雅安市多营水厂给水管道工程（环境影响评价报告编制）中介机构选取项目不再进行挂网抽取的情况说明"><span style="">雅安城市建设投资开发有限公司关于雅安市多营水厂给水管道工程（环境影响评价报告编制）中介机构选取项目不...</span></span></a>
+                        <span class="time">2017-08-31</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=1f027fa4-3e70-4a33-9686-b553f2c2926d"><span title="四川雅安经济开发区A-16-19号地块土地价格评估（土地评估）中介机构选取结果变更公告"><span style="">四川雅安经济开发区A-16-19号地块土地价格评估（土地评估）中介机构选取结果变更公告</span></span></a>
+                        <span class="time">2017-08-30</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=31ff8e4b-20bc-4fd0-8738-bdd4963bca37"><span title="天全县现代农业示范园区建设项目（工程项目咨询--农业）中介机构选取结果废止公告"><span style="">天全县现代农业示范园区建设项目（工程项目咨询--农业）中介机构选取结果废止公告</span></span></a>
+                        <span class="time">2017-08-18</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=b85e74ea-139d-49d3-abce-9e23ea581d0f"><span title="关于工程咨询单位资格证书有效期延续的通知"><span style="">关于工程咨询单位资格证书有效期延续的通知</span></span></a>
+                        <span class="time">2017-08-15</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=3c0c4886-a9ad-405b-83fd-e314860c1a04"><span title="汉源县乌斯河镇中心幼儿园建设项目（工程项目咨询--建筑）中介机构选取项目终止公告"><span style="">汉源县乌斯河镇中心幼儿园建设项目（工程项目咨询--建筑）中介机构选取项目终止公告</span></span></a>
+                        <span class="time">2017-07-26</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=3c2de4a2-74e8-4986-96bf-1525197775d4"><span title="汉源县公安局交警大队九襄中队业务用房重建项目（工程设计--建筑--建筑工程）中介机构选取项目终止公告"><span style="">汉源县公安局交警大队九襄中队业务用房重建项目（工程设计--建筑--建筑工程）中介机构选取项目终止公告</span></span></a>
+                        <span class="time">2017-07-10</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=eee13be9-9ab6-4c3b-9af2-a4355287bac0"><span title="关于贯彻落实四川省住房和城乡建设厅关于进一步加强房屋建筑和市政基础设施施工图审查管理工作的通知"><span style="">关于贯彻落实四川省住房和城乡建设厅关于进一步加强房屋建筑和市政基础设施施工图审查管理工作的通知</span></span></a>
+                        <span class="time">2017-06-02</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=fcebd5e0-77e1-464e-a655-fa67be9fce60"><span title="雅安市雨城区姚桥村片区棚户区（城中村）改造项目（工程项目咨询--建筑）中介机构选取终止公告"><span style="">雅安市雨城区姚桥村片区棚户区（城中村）改造项目（工程项目咨询--建筑）中介机构选取终止公告</span></span></a>
+                        <span class="time">2017-05-16</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=bf510e26-f115-49ca-bdb9-f9e85882f805"><span title="城投&#183;文曲新座工程—抽取工程项目造价咨询复评中介机构 （工程造价咨询）中介机构选取结果废止公告"><span style="">城投&#183;文曲新座工程—抽取工程项目造价咨询复评中介机构 （工程造价咨询）中介机构选取结果废止公告</span></span></a>
+                        <span class="time">2017-05-08</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=41af82b8-3255-4e8a-9327-485f30aa66c0"><span title="四川省石棉县独立工矿区县人民医院改扩建项目（环境影响评价）中介机构选取项目终止公告"><span style="">四川省石棉县独立工矿区县人民医院改扩建项目（环境影响评价）中介机构选取项目终止公告</span></span></a>
+                        <span class="time">2017-04-28</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=c9a52c69-602f-4900-931d-f821f237774c"><span title="荥经县荥泸路（三合小学至三汇电站）段旧路改造工程（地质灾害危险性评估）、（水土保持编制）、（环境影响评价）中介机构选取终止公告"><span style="">荥经县荥泸路（三合小学至三汇电站）段旧路改造工程（地质灾害危险性评估）、（水土保持编制）、（环境影响...</span></span></a>
+                        <span class="time">2017-04-20</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=e6ae082a-fbbd-426a-a0ec-71d4ed0c2087"><span title="信用联社储蓄所超建筑面积补缴土地价款评估（土地评估）中介机构选取公告的更正公告"><span style="color:red">信用联社储蓄所超建筑面积补缴土地价款评估（土地评估）中介机构选取公告的更正公告</span></span></a>
+                        <span class="time">2017-04-12</span>
+                </li>
+                <li>
+                        <a target="_blank" href="/JyWeb/XXGK/XXGKView?XinXi_Type=30&XinXi_Zi_Type=&XinXi_Publish_Guid=c4b7456f-9027-4d97-97c2-fa4ec35c0b91"><span title="紧急通知"><span style="">紧急通知</span></span></a>
+                        <span class="time">2017-03-20</span>
+                </li>
+        </ul>
+    </div>
+    <div class="gcxxfy">    <div class="mmggxlh">
+<a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/XXGK/GetXXGKList?PageIndex=1&amp;PageSize=15&amp;SubType=30&amp;SubType2=0&amp;Type=%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80">首页</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/XXGK/GetXXGKList?PageIndex=1&amp;PageSize=15&amp;SubType=30&amp;SubType2=0&amp;Type=%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80">上一页</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/XXGK/GetXXGKList?PageIndex=1&amp;PageSize=15&amp;SubType=30&amp;SubType2=0&amp;Type=%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80">1</a><a class="one" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" disabled="disabled" href="/JyWeb/XXGK/GetXXGKList?PageIndex=2&amp;PageSize=15&amp;SubType=30&amp;SubType2=0&amp;Type=%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80">2</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/XXGK/GetXXGKList?PageIndex=3&amp;PageSize=15&amp;SubType=30&amp;SubType2=0&amp;Type=%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80">3</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/XXGK/GetXXGKList?PageIndex=3&amp;PageSize=15&amp;SubType=30&amp;SubType2=0&amp;Type=%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80">下一页</a><a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#divContent" href="/JyWeb/XXGK/GetXXGKList?PageIndex=3&amp;PageSize=15&amp;SubType=30&amp;SubType2=0&amp;Type=%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80">末页</a>            <span class="dian">共3页35条记录</span>
+            <span class="dian">转到</span>
+            <input type="text" onkeypress="javascript:if(event.keyCode == '13'){Ajax_GoPage();}" id="txtAjax_PageIndex" class="mmggkuan"><span class="dian">页</span><span id="mmgganue"><a href="javascript:Ajax_GoPage()">确定</a></span>
+
+    </div>
+<script>
+    function Ajax_GoPage() {
+
+        var obj = $("#txtAjax_PageIndex");
+
+        var reg = new RegExp("^\\d+$");
+        if (!reg.test(obj.val()) || (obj.val() <= 0 || obj.val() > parseInt("3"))) {
+            alert("请输入正确的页码！");
+            obj.focus();
+            obj.select();
+            return;
+        }
+        var strUrl = "/JyWeb/XXGK/GetXXGKList?PageSize=15&SubType=30&SubType2=0&Type=%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80" + "&pageIndex=" + obj.val();
+        $.ajax({
+            url: strUrl,
+            type: "post",
+            success: function (rData) {
+                if ($("#divContent")) {
+                    $("#divContent").html(rData);
+                }
+            }
+        });
+    }
+</script>
+</div>
+
+
+
+<script type="text/javascript">
+    function addFJ() {
+        var xxguid = "";
+        xxguid = $("#XinXi_Publish_Guid").length>0?$("#XinXi_Publish_Guid").val():"";
+        $.ajax({
+            url: "/JyWeb/XXGK/GetFJList?guid=" + xxguid,
+            type: "post",
+            dataType: "json",
+            success: function (data) {
+                for (var i = 0; i < data.length; i++) {
+                    getUploadInfo(data[i].Attach_Guid, data[i].Attach_Client_FileName, data[i].Attach_Server_FileName, "", data[i].Create_Time);
+                }
+            }
+        });
+    }
+
+    function getUploadInfo(guid, oldName, newName, clientId, upload_endtime) {
+        if (upload_endtime == undefined) {
+            upload_endtime = "";
+        }
+        $("#divFJ").show();
+        var strTrHtml = "<tr><td style='width:10%;text-align:right;'><img alt='' src='/Areas/JyWeb/Content/App_Themes/Default/Images/下载按钮2.png' style='padding-top:7px;padding-right:2px;'>附件：</td><td style='line-height:100%;padding-left:0;'><a  style=\"color: blue\" id='downfile" + guid + "' href=\"javascript:downFile('" + guid + "')\">" + oldName + "</a></td></tr>"
+        $("#test").append(strTrHtml);
+    }
+    $("#aBtnSearch").mousemove(function ()
+    {
+    	$("#aBtnSearch").attr("href", "/JyWeb/XXGK/GetXXGKList" + "?SubType=30&SubType2=0&XinXi_Title=" + escape($("#txtSearch").val()));
+
+    });
+	function addHref()
+	{
+		$("#aBtnSearch").attr("href", "/JyWeb/XXGK/GetXXGKList" + "?SubType=30&SubType2=0&XinXi_Title=" + escape($("#txtSearch").val()));
+	}
+    $(function () {
+        addFJ();
+    	
+    	$("#aBtnSearch").attr("href", "/JyWeb/XXGK/GetXXGKList" + "?SubType=30&SubType2=0&XinXi_Title=" + escape($("#txtSearch").val()));
+    })
+</script>

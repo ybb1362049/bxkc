@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>阳光产权</title>
+		<meta name="Description" content="阳光产权">
+		<meta name="Keywords" content="阳光产权">
+		<link href="../../css/public.css" rel="stylesheet">
+		<script src="../../js/jquery-1.9.1.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$(".assets_item h3").click(function() {
+					$(this).toggleClass("current");
+					$(this).next(".tables_02").slideToggle(400);
+				});
+			});
+		</script>
+	<script>var $pageInfo = { publishmentSystemID : 289, channelID : 297, contentID : 16520, siteUrl : "", homeUrl : "/center", currentUrl : "http://www.prechina.net/contents/297/16520.html", rootUrl : "http://www.prechina.net", apiUrl : "http://www.prechina.net" }</script>
+</head>
+
+	<body>
+		  <link type="text/css" rel="stylesheet" href="../../css/benner.css" />
+    <script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
+    <script src="../../js/index.js"></script>
+    <script type="text/javascript" src="../../js/jquery.SuperSlide.2.1.1.js"></script>
+<!--header start-->
+<div class="header">
+    <a class="logo" href=""><img src="../../images/logo2.jpg" alt=""/></a>
+    <div class="head-r">
+        <div class="search-box"><form id="ajaxElement_1_256" action="/utils/search.html" target="_blank">
+<input type="text" name="word" class="search-input"/><input class="search-btn" align="absMiddle" onclick="document.getElementById('ajaxElement_1_256').submit();return false;"/>
+<input type="hidden" id="channelID" name="channelID" value="289" /></form>
+</div>
+       <div class="top_site">
+       <a class="wechat" href="javascript:void(0);"></a>
+	   <div class="sitecode">
+			  <p><img src="../../images/二维码.png" width="106" height="106"></p>
+			  
+			</div>
+     </div>
+	 <a></a>
+       
+    </div>
+    <div class="nav" id="nav">
+        <ul>
+            <li class="m on"><a href="/" target="_blank">首页</a></li>
+            <li class="m"><a href="javascript:;">新闻动态</a>
+			  <div class="nav_lv2">
+                    <ul class="nav_menu">
+					
+                        <li><a href="/channels/291.html" target="_blank">公司新闻</a></li>
+                        <li><a href="/channels/292.html" target="_blank">行业新闻</a></li>
+                        <li><a href="/channels/293.html" target="_blank">其他新闻</a></li>
+                    </ul>
+                    <div class="cont">
+                        <dl>
+                            <dt><img src="/upload/images/2015/9/25102712938.jpg" /></dt>
+                            <dd><a href="javascript:;">新闻动态</a></dd>
+                            <dd></dd>
+                        </dl>
+                    </div>
+                </div>
+			</li>
+            <li class="m">
+                <a href="javascript:;">交易项目</a>
+                <div class="nav_lv2">
+                    <ul class="nav_menu">
+                       
+                        <li><a href="/channels/310.html" target="_blank">预披露</a></li>
+                        <li><a href="/channels/479.html" target="_blank">重点项目推荐</a></li>
+                        <li><a href="/channels/295.html" target="_blank">国有产股权</a></li>
+                        <li><a href="/channels/474.html" target="_blank">增资扩股</a></li>
+                        <li><a href="/channels/296.html" target="_blank">招标公告</a></li>
+                        <li><a href="/channels/299.html" target="_blank">公共权益</a></li>
+                        <li><a href="/channels/304.html" target="_blank">实物资产</a></li>
+                        <li><a href="/channels/307.html" target="_blank">招租</a></li>
+                        <li><a href="/channels/308.html" target="_blank">PPP项目</a></li>
+                        <li><a href="/channels/309.html" target="_blank">非国有项目</a></li>
+                        <li><a href="/contents/311/805.html" target="_blank">收费标准</a></li>
+                    </ul>
+                    <div class="cont">
+                        <dl>
+                            <dt><img src="/upload/images/2015/10/814549848.jpg" /></dt>
+                            <dd><a href="javascript:;">交易项目</a></dd>
+                            <dd></dd>
+                        </dl>
+                    </div>
+                </div>
+            </li>
+            <li class="m"><a href="javascript:;">走进阳光</a>
+			 <div class="nav_lv2" style="left:auto; right:0;">
+                    <ul class="nav_menu">
+                        
+                        <li><a href="/contents/313/806.html" target="_blank">交易所简介</a></li>
+                        <li><a href="/contents/314/807.html" target="_blank">组织架构</a></li>
+                        <li><a href="/channels/315.html" target="_blank">企业文化</a></li>
+                        <li><a href="/channels/316.html" target="_blank">人才招聘</a></li>
+                        <li><a href="/contents/317/817.html" target="_blank">联系我们</a></li>
+                        <li><a href="/channels/476.html" target="_blank">贵州产权专家库</a></li>
+                        <li><a href="/channels/318.html" target="_blank">在线咨询</a></li>
+                    </ul>
+                    <div class="cont">
+                        <dl>
+                            <dt><img src="/upload/images/2015/9/25103145339.jpg" /></dt>
+                            <dd><a href="javascript:;">走进阳光</a></dd>
+                            <dd></dd>
+                        </dl>
+                    </div>
+                </div>
+			</li>
+        </ul>
+    </div>
+</div>
+<!--header end-->
+
+		<div class="banner">
+			<div class="banner_img">
+				<img src="../../images/banner_project.jpg" alt="交易项目banner">
+			</div>
+			<div class="banner_nav">
+				<div class="banner_nav_bg"></div>
+				<div class="center">
+					<div class="df">
+						<a href="/">首页</a> > <a href="javascript:;">交易项目</a> > <a href="/channels/296.html">招标公告</a> > <a href="/channels/297.html">招标公告</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="mleft">
+				<h1>招标公告</h1>
+				<div>
+					<table class="tables_02" style="display: table;">
+						<!--新的字段格式-->
+						
+							<tr>
+								<th>项目名称</th>
+								<td colspan="5">
+									黔通卡客户服务外包项目
+								</td>
+							</tr>
+							<tr>
+								<th>项目名称全称</th>
+								<td colspan="5">
+									黔通卡客户服务外包项目
+								</td>
+							</tr>
+							<tr>
+								<th>项目编号</th>
+								<td colspan="5">
+									GYZPRE-2018-17-18P公（C99）
+								</td>
+							</tr>
+							<tr>
+								<th>标书售价</th>
+								<td colspan="5">
+									600.00
+								</td>
+							</tr>
+							<tr>
+								<th>报名及购买文件开始时间</th>
+								<td colspan="5">
+									2018-01-10 00:00
+								</td>
+							</tr>
+							<tr>
+								<th>报名及购买文件截止时间</th>
+								<td colspan="5">
+									2018-01-16 00:00
+								</td>
+							</tr>
+							<tr>
+								<th>递交文件及开标截止时间</th>
+								<td colspan="5">
+									2018-01-30 00:00
+								</td>
+							</tr>
+							<tr>
+								<th>开标及递交文件地点</th>
+								<td colspan="5">
+									贵阳市高新区阳关大道112号贵州煤田地质科技中心3号楼
+								</td>
+							</tr>
+							<tr>
+								<th class="th" colspan="10">采购内容</th>
+							</tr>
+							<tr>
+								<td colspan="10">
+									<p>&#160;<br />黔通卡客户服务外包项目<br />招 标 公 告<br />根据《中华人民共和国政府采购法》、《中华人民共和国招标投标法》等规定，我公司将在贵州省招标投标网、<a href="http://www.prechina.net">www.prechina.net</a>等媒体上刊发本项目的公开招标活动，现将有关事项公告如下：<br />一、项目名称：黔通卡客户服务外包项目<br />&#160;（招标编号：GYZPRE-2018-17-18P公（C99））&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <br />二.采购项目的内容、数量、用途、简要技术要求或者招标项目的性质：<br />（详见招标文件）<br />资金来源：自有资金<br />三．供应商资格要求：<br />1.投标供应商须符合《中华人民共和国政府采购法》第二十二条之规定：<br />（1）具有独立承担民事责任的能力：提供法人或其他组织的营业执照等证明文件；<br />（2）具有良好的商业信誉和健全的财务会计制度：提供近期财务状况报告材料；<br />（3）具有履行合同所必需的专业技术能力：提供类似项目业绩作为证明材料；<br />（4）有依法缴纳税收和社会保障资金的良好记录：提供近期依法缴纳税收和社会保障资金的相关材料；<br />（5）参加采购活动前三年内，在经营活动中没有重大违法记录：提供参加采购活动前3年内在经营活动中没有重大违法记录的书面声明；<br />（6）法律、行政法规规定的其他条件。<br />2.其他资格要求<br />无；<br />注：以上其他资格要求须提供相关资质的复印件作为证明材料<br />四、报名、购买招标文件的时间及价格：<br />1. 2018年1月10日起至2018年1月16日，每天（节假日除外）北京时间9：00—12：00、13：30—16：30。<br />2.售价：人民币600元整（售后不退）。<br />五、报名及购买招标文件地点：<br />贵阳市观山湖区市级行政中心二期A区市政务服务大厅31、32号窗口。<br />六、报名时须提交的资料(提供一套复印件并加盖公章)：<br />1. 营业执照副本、组织机构代码证副本、税务登记证；<br />2. 法定代表人授权委托书原件及被授权代表身份证；<br />注：投标人具有实行了“三证合一”登记制度改革的新证，视同为持有工商营业执照、组织机构代码证和税务登记证；<br />七、投标截止时间：2018年1月30日上午10:30<br />八、开标时间、地点：<br />1.开标时间：2018年1月30日上午10:30<br />2.递交投标文件及开标地点：贵阳市高新区阳关大道112号贵州煤田地质科技中心3号楼二楼会议室<br />九、采购人、采购代理机构的名称、地址、联系方式：<br />1. 采购人名称：贵州黔通智联科技产业发展有限公司<br />&#160;&#160; 联系地址：贵阳市观山湖区<br />&#160;&#160; 联系人：周游&#160;&#160; 电话/传真：0851-83937796</p><p>2.采购代理机构名称：贵州阳光产权交易所有限公司<br />联系地址：贵阳市政务服务大厅31、32号窗口（市级行政中心二期A区）<br />联系人：王春<br />电话/传真：0851-87987510/87987509<br />十、本项目未尽事宜详见招标文件<br />贵州阳光产权交易所有限公司<br />2018年1月9日</p><p>&#160;</p>
+								</td>
+							</tr>
+						
+						<!--旧的字段格式-->
+						
+					</table>
+				</div>
+			</div>
+			<div class="mright">
+				<div class="navtit">
+					<img src="../../images/subnav_project.png" alt="交易项目">
+				</div>
+				<ul class="subnav">
+					
+						
+								<li>
+									<a href="/channels/310.html">
+										预披露
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/479.html">
+										重点项目推荐
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/295.html">
+										国有产股权
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/474.html">
+										增资扩股
+									</a>
+								</li>
+							
+					
+						
+								<li class="current">
+									<a href="/channels/296.html">
+										招标公告
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/299.html">
+										公共权益
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/304.html">
+										实物资产
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/307.html">
+										招租
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/308.html">
+										PPP项目
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/channels/309.html">
+										非国有项目
+									</a>
+								</li>
+							
+					
+						
+								<li>
+									<a href="/contents/311/805.html">
+										收费标准
+									</a>
+								</li>
+							
+					
+				</ul>
+				<div class="mright_adv">
+				</div>
+			</div>
+		</div>
+		<!--footer start-->
+<div class="footer">
+    <div class="foot-main wrap">
+        <dl>
+            <dt>新闻动态</dt>
+			
+            <dd><a href="/channels/291.html">公司新闻</a></dd>
+            <dd><a href="/channels/292.html">行业新闻</a></dd>
+            <dd><a href="/channels/293.html">其他新闻</a></dd>
+        </dl>
+        <dl>
+            <dt>交易项目</dt>
+            
+            <dd><a href="/channels/310.html">预披露</a></dd>
+            <dd><a href="/channels/479.html">重点项目推荐</a></dd>
+            <dd><a href="/channels/295.html">国有产股权</a></dd>
+            <dd><a href="/channels/474.html">增资扩股</a></dd>
+            <dd><a href="/channels/296.html">招标公告</a></dd>
+            <dd><a href="/channels/299.html">公共权益</a></dd>
+            <dd><a href="/channels/304.html">实物资产</a></dd>
+            <dd><a href="/channels/307.html">招租</a></dd>
+            <dd><a href="/channels/308.html">PPP项目</a></dd>
+            <dd><a href="/channels/309.html">非国有项目</a></dd>
+            <dd><a href="/contents/311/805.html">收费标准</a></dd>
+        </dl>
+        <dl>
+            <dt>走进阳光</dt>
+           
+            <dd><a href="/contents/313/806.html">交易所简介</a></dd>
+            <dd><a href="/contents/314/807.html">组织架构</a></dd>
+            <dd><a href="/channels/315.html">企业文化</a></dd>
+            <dd><a href="/channels/316.html">人才招聘</a></dd>
+            <dd><a href="/contents/317/817.html">联系我们</a></dd>
+            <dd><a href="/channels/476.html">贵州产权专家库</a></dd>
+            <dd><a href="/channels/318.html">在线咨询</a></dd>
+        </dl>
+        <dl>
+            <dt>  微信二维码 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;百度信誉</dt>
+            <dd><img src="/upload/images/2017/3/2016017748.png" /></dd>
+			<dd><a href="/contents/428/937.html" target="_blank">阳光产权微信号&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;百度信誉</a></dd>
+        </dl>
+    </div>
+	</div>
+	<div class="footer_bot">
+	  <span><p><span style="font-family:宋体;font-size:12px;"><span id="_baidu_bookmark_start_1" style="line-height:0px;display:none;">﻿</span></span><span id="_baidu_bookmark_start_3" style="line-height:0px;display:none;">﻿</span>黔ICP备11000915号-1 &nbsp; &nbsp; 版权所有：贵州阳光产权交易所有限公司 &nbsp; 联系电话：0851-86792366<span id="_baidu_bookmark_end_4" style="line-height:0px;display:none;">﻿</span><span id="_baidu_bookmark_end_2" style="line-height:0px;display:none;">﻿</span><br /></p></span>
+	</div>
+<!--footer end-->
+<!--hi3w--><script>document.writeln('<style type="text/css">.arak-link{font-size:0;line-height:0;float:left;text-indent:-9999px}</style>');</script><div class="arak-link"><ul><li><a href="http://www.lvzhima.cn/" target="_blank">成都网站建设</a></li><li><a href="http://www.hi3w.net/" target="_blank">汇网</a></li><li><a href="http://www.jianzhanbao.top/" target="_blank">建站宝</a></li><li><a href="http://www.vip188.cn" target="_blank">vip188邮箱</a></li><li><a href="http://www.vip.tax/" target="_blank">VIP邮箱</a></li><li><a href="http://www.188.tax/" target="_blank">188财富邮</a></li><li><a href="http://www.666.tax/" target="_blank">吉祥邮</a></li><li><a href="http://www.123.tax/" target="_blank">网址导航</a></li><li><a href="http://www.lvzhima.cn/" target="_blank">绿芝麻</a></li></ul></div><!--/hi3w-->
+<div style="display:none"><script src="http://s4.cnzz.com/stat.php?id=1258227366&web_id=1258227366" language="JavaScript"></script></div>
+<script type="text/javascript">
+    $(function(){
+        //banner
+        $("#banner").slide({
+            titCell: ".hd ul",
+            mainCell: ".bd",
+            effect: "leftLoop",
+            autoPlay: true,
+            autoPage: true,
+            trigger: "click"
+        });
+
+        //scroll-news
+        $("#scroll-news").slide({
+            titCell: ".hd ul",
+            mainCell: ".scroll-news-main",
+            effect: "leftLoop",
+            autoPlay: true,
+            autoPage: true,
+            trigger: "click"
+        });
+
+        //stock-tab
+        $("#stock").slide({
+            titCell: ".stock-tab ul li",
+            mainCell: ".stock-list-main",
+            trigger: "click"
+        });
+
+        //item-tab
+        $("#items").slide({
+            titCell: ".item-tab ul li",
+            mainCell: ".item-list-main",
+            trigger: "click"
+        });
+    });
+</script>
+	</body>
+
+</html>
+<script src="/sitefiles/bairong/scripts/independent/tracker.js" type="text/javascript"></script>
+<script type="text/javascript">AddTrackerCount('/sitefiles/services/cms/PageService.aspx?type=AddTrackerCount&publishmentSystemID=289&channelID=297&contentID=16520', 289);</script>
+<script src="/sitefiles/services/cms/PageService.aspx?type=AddCountHits&publishmentSystemID=289&channelID=297&contentID=16520" type="text/javascript"></script>

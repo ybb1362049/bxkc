@@ -1,0 +1,646 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>黄石新兴招标采购网</title>
+<link rel="stylesheet" type="text/css" href="yui/build/container/assets/skins/sam/container.css">
+<link rel="stylesheet" type="text/css" href="yui/build/resize/assets/skins/sam/resize.css">
+<link rel="stylesheet" type="text/css" href="phpcss/hspub9.css">
+<script type="text/javascript" src="yui/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="yui/build/utilities/utilities.js"></script>
+<script type="text/javascript" src="yui/build/json/json-min.js"></script>
+<script type="text/javascript" src="yui/build/container/container-min.js"></script>
+<script type="text/javascript" src="yui/build/datasource/datasource-min.js"></script>
+<script type="text/javascript" src="yui/build/resize/resize-min.js"></script>
+<script type="text/javascript">
+var EW_LANGUAGE_ID = "cn";
+var EW_DATE_SEPARATOR = "-" || "/"; // Default date separator
+var EW_DECIMAL_POINT = ".";
+var EW_THOUSANDS_SEP = "";
+var EW_UPLOAD_ALLOWED_FILE_EXT = "gif,jpg,jpeg,bmp,png,doc,xls,pdf,zip"; // Allowed upload file extension
+
+// Ajax settings
+var EW_RECORD_DELIMITER = "\r";
+var EW_FIELD_DELIMITER = "|";
+var EW_LOOKUP_FILE_NAME = "ewlookup9.php"; // Lookup file name
+var EW_AUTO_SUGGEST_MAX_ENTRIES = 10; // Auto-Suggest max entries
+
+// Common JavaScript messages
+var EW_ADDOPT_BUTTON_SUBMIT_TEXT = "  确认  ";
+var EW_EMAIL_EXPORT_BUTTON_SUBMIT_TEXT = "  发送  ";
+var EW_BUTTON_CANCEL_TEXT = "  取消  ";
+var EW_DISABLE_BUTTON_ON_SUBMIT = true;
+var EW_IMAGE_FOLDER = "phpimages/"; // Image folder
+</script>
+<script type="text/javascript" src="phpjs/jsrender.js"></script>
+<script type="text/javascript" src="phpjs/ewp9.js"></script>
+<script type="text/javascript" src="phpjs/userfn9.js"></script>
+<script type="text/javascript">
+var ewLanguage = new ew_Language({"deleteconfirmmsg":"确认删除词条记录吗?","deletemulticonfirmmsg":"确定删除选定记录?","enternewpassword":"请输入新口令","enteroldpassword":"请输入原口令","enterpassword":"请输入口令","enterpwd":"请输入口令","enterrequiredfield":"请输入必需的字段","enterusername":"请输入用户名","entervalidatecode":"请输入验证码","entersenderemail":"请输入发送人邮箱","enterpropersenderemail":"Exceed maximum sender email count or email address incorrect","enterrecipientemail":"Please enter recipient email","enterproperrecipientemail":"Exceed maximum recipient email count or email address incorrect","enterproperccemail":"Exceed maximum cc email count or email address incorrect","enterproperbccemail":"Exceed maximum bcc email count or email address incorrect","entersubject":"Please enter subject","enteruid":"请输入用户帐号","entervalidemail":"请输入有效的邮件地址!","exporttoemail":"Email","hidehighlight":"隐藏高光","incorrectemail":"错误的邮件地址","incorrectfield":"错误的字段","incorrectfloat":"错误的浮点数值","incorrectguid":"错误的 GUID","incorrectinteger":"错误的 integer","incorrectphone":"错误的电话号码","incorrectregexp":"正则表达式不匹配","incorrectrange":"数字范围必须在 %1 and %2","incorrectssn":"错误的社会保险号码","incorrecttime":"错误码的时间 (hh:mm:ss)","incorrectzip":"错误的邮政编码","insertfailed":"添加失败","invalidrecord":"无效记录！主键是空值","loading":"加载...","messageok":"成功","mismatchpassword":"密码不匹配","noaddrecord":"没有添加新记录","nofieldselected":"未选择更新字段","norecordselected":"没有选定记录","pleasewait":"请等待...","sendemailsuccess":"邮件发送成功","showhighlight":"高亮显示","uploading":"上传...","userleveladministratorname":"用户级别为 -1 的名称必须是 'Administrator'","userlevelidinteger":"用户级别编号必须是整型数","userleveldefaultname":"用户级别为 0 的名称必须是 'Default'","userlevelidincorrect":"用户定义的级别ID必须大于 0","userlevelnameincorrect":"用户定义的级别名称不能为 'Administrator' 或者 'Default'","wrongfiletype":"文件类型不允许。"});</script>
+<script type="text/javascript">
+
+// Write your client script here, no need to add script tags.
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head>
+<body class="yui-skin-sam">
+<div class="ewLayout">
+	
+<style type="text/css">
+    div{margin: 0;border: 0;padding: 0;}
+body {
+	margin:0;
+	padding:0;
+	color:#000;
+        font-size:12px ;
+	font-family:  Arial, Helvetica, Verdana, Sans-serif;
+}
+#top {
+	height:8px;
+	border-bottom:1px dotted #000;
+	background:#65a9e6;
+	overflow:hidden;
+}
+#header {
+	width:976px;
+	height:250px;
+	margin:0 auto 0px auto;
+}
+#header #logoarea {
+	float:left;
+	width:974px;
+        margin: auto;
+	background:#fff;
+}
+#header #logoarea #logo {
+	float:left;
+	width:330px;
+	height:62px;
+	margin-top:9px;
+	background:url(../images/logo.jpg) no-repeat 0 0;
+}
+#header #logoarea #logo a {
+	display:none;
+}
+
+#Logo-left {
+float: left;
+width: 460px;
+margin-top:4px;
+margin-left:2px;
+height:45px;
+/*background: green;*/
+}
+#Menu-right {
+float: right;
+width: 310px;
+height:45px;
+margin-top:4px;
+/*background: green;*/
+}
+#Content-CnEnLink {
+width:310px;
+height:15px;
+font-size : 9pt;
+/*background:blue;*/
+}
+#Content-MenuLink {
+width:305px;
+margin-top:0px;
+margin-right:0px;
+font-size:10pt;
+}
+
+#Content-MenuLink td{
+	vertical-align:	bottom;
+	text-align: center;
+}
+#Interval-DivMenu {
+width: 310px;
+}
+
+.b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b{display:block;overflow:hidden;}
+.b1,.b2,.b3,.b1b,.b2b,.b3b{height:1px;}
+.b2,.b3,.b4,.b2b,.b3b,.b4b,.b{border-left:1px solid #959494;border-right:1px solid #959494;}
+.b1,.b1b{margin:0 5px;background:#959494;}
+.b2,.b2b{margin:0 3px;border-width:2px;}
+.b3,.b3b{margin:0 2px;}
+.b4,.b4b{height:2px;margin:0 1px;}
+.d1{background:#FfFfFf;}
+.d2{background:#EFEFCE;}
+div.RoundedCorner{
+	background: #D4EEFF;
+ 	width:100%;
+ 	margin: 0px auto auto auto;
+}
+b.rtop, b.rbottom{display:block;background: #FFF}
+b.rtop b, b.rbottom b{display:block;height: 1px;overflow: hidden; background: #D4EEFF}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+
+.c1,.c2,.c3,.c4,.c1b,.c2b,.c3b,.c4b,.c{display:block;overflow:hidden;}
+.c1,.c2,.c3,.c1b,.c2b,.c3b{height:1px;}
+.c2,.c3,.c4,.c2b,.c3b,.c4b,.c{border-left:1px solid #ffffff;border-right:1px solid #ffffff;}
+.c1,.c1b{margin:0 5px;background:#ffffff;}
+.c2,.c2b{margin:0 3px;border-width:2px;}
+.c3,.c3b{margin:0 2px;}
+.c4,.c4b{height:2px;margin:0 1px;}
+.e1{background:#e6e6e6;}
+
+
+#header #banner {
+	float:left;
+	width:974px;
+	height:245px;
+	background:#fff;
+}
+#main {
+	width:976px;
+	margin:4px auto 0 auto;
+}
+#main #container {
+	float:left;
+	width:974px;
+	margin-bottom:18px;
+	background:url(../images/container_bg_a.gif) no-repeat left bottom;
+}
+#main #container h1 {
+	width:720px;
+	height:36px;
+	margin:0;
+	padding:0 20px;
+	background:url(../images/container_bg_a.gif) no-repeat left top;
+	overflow:hidden;
+}
+#main #container h1 a {
+	line-height:42px;
+	font-size:15px;
+	color:#f60;
+	text-decoration:none;
+}
+#main #container h1 a:hover {
+	color:#03c;
+	text-decoration:underline;
+}
+#main #container p {
+	width:720px;
+	margin:0 auto 8px auto;
+	text-indent:2em;
+	line-height:20px;
+	font-size:12px;
+	color:#333;
+}
+#main #container p a {
+	color:#03c;
+	text-decoration:none;
+}
+#main #container p a:hover {
+	text-decoration:underline;
+}
+#main #linkarea {
+	float:left;
+	width:974px;
+        height:350px;
+}
+.left-cont3{width:360px;height:350px;background:white;float:left;margin-bottom:0px;margin-left: 7px;margin-top: 4px;}
+.left-cont4{width:240px;height:350px;background:white;float:left;margin-bottom:0px;margin-top: 4px;}
+.title{height:30px;background:url(../images/ak18.jpg) repeat-x;margin:0px 0px 0px 0px;}
+.title span{height:30px;line-height:30px;}
+.title a{float:right;margin-right:5px;}
+.title img{float:right;}
+.title a:hover{color:red;}
+.title2{float:left;height:30px;background:url(../images/ak15.jpg) no-repeat;}
+.title5{float:left;height:30px;background:url(../images/ak17a.jpg) no-repeat;}
+.title2 strong{font-size:14px;font-weight:bold;color:#0C729C;margin-left:28px;}
+
+.cont3-a{height:90px;width:338px;padding:10px;border:1px solid #D4D6D4;border-top:0px;margin-top: 0px;margin-left: 0px;}
+.cont3-a li{list-style:none;height:23px;background:url(../images/ak13.jpg) 0 4px no-repeat;text-align: left;}
+.cont3-a a{margin-left:8px;color:#343434;line-height:16px;}
+.cont3-a a:hover{color:red;}
+
+.cont6-a{height:131px;width:338px;padding:10px;border:1px solid #D4D6D4;border-top:0px;margin-top: 0px;margin-left: 0px;}
+.cont6-a li{list-style:none;height:23px;background:url(../images/ak13.jpg) 0 4px no-repeat;text-align: left;}
+.cont6-a a{margin-left:8px;color:#343434;line-height:16px;}
+.cont6-a a:hover{color:red;}
+
+.cont7-a{height:290px;width:338px;padding:10px;border:1px solid #D4D6D4;border-top:0px;margin-top: 0px;margin-left: 0px;}
+.cont7-a li{list-style:none;height:23px;background:url(../images/ak13.jpg) 0 4px no-repeat;text-align: left;}
+.cont7-a a{margin-left:8px;color:#343434;line-height:16px;}
+.cont7-a a:hover{color:red;}
+
+.cont8-a{height:105px;width:298px;padding:10px;border:1px solid #D4D6D4;border-top:0px;margin-top: 0px;margin-left: 0px;}
+.cont8-a li{list-style:none;height:23px;text-align: left;}
+.cont8-a-a a{margin-left:8px;color:#343434;line-height:16px;}
+.cont8-a a:hover{color:red;}
+
+.right-cont9{background:white;width: 232px;height: 160px;margin-bottom:8px;border:1px solid #C4E2FC;overflow:hidden;}
+.right-cont2{background:white;width: 232px;height: 120px;margin-bottom:8px;border:1px solid #C4E2FC;overflow:hidden;padding-top: 2px;padding-bottom: 2px;}
+.right-title1{height:33px;width:232px; text-align: left;background:url(../images/ak19.jpg) repeat-x;margin-top: 0px;}
+.right-title1 span{float:left;height:30px;line-height:30px;margin-left:5px;font-size:14px;font-weight:bold;color:#DC0204;}
+.title1{float:left;height:30px;line-height:30px;margin-left:5px;font-size:14px;font-weight:bold;color:#0C729C;}
+.right-title2{height:33px;background:url(../images/ak19.jpg) repeat-x;}
+.right-title2 span{float:left;height:30px;line-height:30px;margin-left:5px;font-size:14px;font-weight:bold;color:#0C729C;}
+
+.content1-a{width:710px;margin:0px auto;background:#f9f9f9;border-top:1px solid #f3f3f3;}
+.content1-a1 p{font-size: 12px;}
+.content1-a1{width:710px;margin:0 auto;font-size: 12px;}
+.content1-a1 h3{font-size:18px;text-align:center;color:#C00;margin:10px 0;}
+.content1-a2{height:29px;background:#f0f0f0;border-top:1px solid #d8d8d8;}
+.content1-a2 ul{width:440px;margin:0 auto;padding-top:6px;}
+.content1-a2 li{list-style:none;float:left;text-align:center;padding-left:20px;}
+.content1-a2 a{color:black;}
+.content1-a2 a:hover{color:red;}
+.content1-a3{font-size:22px;font-weight:bold;text-align:center;margin-top:5px;}
+
+#main #linkarea dl {
+	float:left;
+	width:240px;
+	margin:0 20px 0 0;
+	background:url(../images/link_con_bg.gif) no-repeat left bottom;
+}
+#main #linkarea dl#template {
+	margin:0;
+}
+#main #linkarea dl dt {
+	width:210px;
+	padding:15px 15px 0 15px;
+	background:url(../images/link_con_bg.gif) no-repeat left top;
+}
+#main #linkarea dl dt a img {
+	border:0;
+}
+#main #linkarea dl dd {
+	width:204px;
+	margin:8px auto 12px auto;
+	line-height:17px;
+	text-indent:2em;
+	font-size:12px;
+	color:#666;
+}
+#main #linkarea dl dd a {
+	color:#333;
+	text-decoration:none;
+}
+#main #linkarea dl dd a:hover {
+	color:#03c;
+	text-decoration:underline;
+}
+#footer {
+	width:976px;
+	height:80px;
+	margin:0px auto 0 auto;
+}
+#footer p {
+	line-height:40px;
+	text-align:center;
+	font-size:13px;
+	color:#03c;
+}
+#footer p a {
+	color:#03c;
+	text-decoration:none;
+}
+#footer p a:hover {
+	text-decoration:underline;
+}
+
+.clear{ clear: both; font-size:1px; width:1px; visibility: hidden; }
+
+a:link {
+	text-decoration: none;
+    FONT-SIZE: 9pt;
+color: #000;
+    }
+    a:visited {
+    	text-decoration: none;
+    FONT-SIZE: 9pt;
+	color: #000;
+    }
+    a:hover {
+    	text-decoration: none;
+    FONT-SIZE: 9pt;
+	color: #000;
+    }
+    a:active {
+    	text-decoration: none;
+    FONT-SIZE: 9pt;
+color: #DDD;
+    }
+    
+     .right-cont1{width:229px;height:80px;}
+    .right-cont1-b{width:229px;height:80px;}
+.right-cont1-b li{list-style:none;height:28px;width:229px;text-align: left;margin-left: 0px;}
+.right-cont1-b img{border:0px;}
+</style>
+<SCRIPT language=javascript  src="../phpjs/flash.js" type=text/javascript></SCRIPT>
+
+<script type="text/javascript">
+var flogin = new ew_Form("flogin");
+
+// Validate function
+flogin.Validate = function()
+{
+	var fobj = this.Form;
+	if (!this.ValidateRequired)
+		return true; // Ignore validation
+	if (!ew_HasValue(fobj.username))
+		return this.OnError(fobj.username, ewLanguage.Phrase("EnterUid"));
+	if (!ew_HasValue(fobj.password))
+		return this.OnError(fobj.password, ewLanguage.Phrase("EnterPwd"));
+
+	// Call Form Custom Validate event
+	if (!this.Form_CustomValidate(fobj)) return false;
+	return true;
+}
+
+// Form_CustomValidate function
+flogin.Form_CustomValidate = 
+ function(fobj) { // DO NOT CHANGE THIS LINE!
+
+ 	// Your custom validation code here, return false if invalid. 
+ 	return true;
+ }
+
+// Requires js validation
+flogin.ValidateRequired = true;
+</script>
+</head>
+<body id="home">
+<div id="top"></div>
+<div id="header">
+	<div id="logoarea">
+		<div id="Logo-left">
+                    <img border="0" src="../images/Logo.jpg" align="left">
+		</div> 
+                
+		<!--中文 英文 及菜单栏 -->
+		<div id="Menu-right">
+
+				<!--中文 英文 -->
+				<div id="Content-CnEnLink">  
+						<table border="0" cellpadding="0"  width="279"  height="15" cellspacing="0"   >
+							<tr  >
+							  <td width="140"  ></td>
+							  <td width="65" valign="middle" align="center"></td>
+							  <td width="9"  valign="middle"></td>
+							  <td width="65"  valign="middle" align="center"></td>
+							</tr>
+					  </table>
+				</div>
+
+				<!--菜单栏 -->
+				<div   id="Interval-DivMenu">
+				<b class="c1"></b><b class="c2 e1"></b><b class="c3 e1"></b><b class="c4 e1"></b>
+				<div class="c e1">
+						<div id="Content-MenuLink">
+							<table border="0" cellpadding="0"  width="305"  height="20" cellspacing="0" >
+										<tr  >
+										  <td width="28"  ></td>
+										  <td width="70"><a href="vgonggao1list.php"><font  color="#000000" >通知公告</font></a></td>
+										  <td width="2"><font color="#000000" size=3>|</font></td>
+										  <td width="70"><a href="vgonggao2list.php"><font  color="#000000">招标公告</font></a></td>
+										  <td width="2"><font color="#000000" size=3>|</font></td>
+										  <td width="70"><a href="vtenderpublist.php"><font  color="#000000">电子招标</font></a></td>
+										  
+										  <td width="2" ><font color="#000000" size=3>|</font></td>
+										  <td width="70" ><a href="gaoshi/zb2_gonggaoview.php?id=3"><font  color="#000000">联系我们</font></a></td>
+										</tr>
+							</table>
+
+						</div>
+				</div>
+				<b class="c4b e1"></b><b class="c3b e1"></b><b class="c2b e1"></b><b class="c1b"></b>
+				</div>
+	</div>
+	<div id="banner">
+            <SCRIPT language=javascript type=text/javascript>
+			writeflashhtml("_swf=../images/6766.swf", "_width=974", "_height=245" ,"_wmode=transparent");
+		</SCRIPT>
+        </div>
+</div>
+    </div>
+
+	<!-- content (begin) -->
+	<table cellspacing="0" style="margin:0 auto 0px auto;width:974px;">
+		<tr>	
+			
+                    <td class="ewContentColumn" style="margin-left: 0px;padding-left: 0px;margin-top: 0px;padding-top: 0px;">
+			<!-- right column (begin) -->
+				
+<script type="text/javascript">
+
+// Page object
+var vsubitempub_list = new ew_Page("vsubitempub_list");
+vsubitempub_list.PageID = "list"; // Page ID
+var EW_PAGE_ID = vsubitempub_list.PageID; // For backward compatibility
+
+// Form object
+var fvsubitempublist = new ew_Form("fvsubitempublist");
+
+// Form_CustomValidate event
+fvsubitempublist.Form_CustomValidate = 
+ function(fobj) { // DO NOT CHANGE THIS LINE!
+
+ 	// Your custom validation code here, return false if invalid. 
+ 	return true;
+ }
+
+// Use JavaScript validation or not
+fvsubitempublist.ValidateRequired = true;
+
+// Dynamic selection lists
+// Form object for search
+
+</script>
+<script type="text/javascript">
+
+// Write your client script here, no need to add script tags.
+</script>
+
+<table class="ke-zeroborder" cellspacing="0" cols="2" width="710px" style="margin-top: 10px;">
+	
+	<tbody>
+		<tr>
+			<td style="border-right:#000000 1px solid;border-top:#000000 1px solid;border-left:#000000 1px solid;border-bottom:medium none;text-align:center;font-size:14px;font-weight:bold;" height="18" colspan="2" >
+				镇江港伊朗粉船运招标			</td>
+			
+		</tr>
+		<tr>
+			
+			<td style="border-right:#000000 0px solid;border-top:#000000 1px solid;border-left:#000000 1px solid;width:50%;border-bottom:medium none;text-align:left;">
+				发布时间：2017-12-21 13:44:49			</td>
+			<td style="border-right:#000000 1px solid;border-top:#000000 1px solid;border-left:#000000 1px solid;width:50%;border-bottom:medium none;text-align:left;">
+				开标时间：2017-12-23 12:00:00			</td>
+		</tr>
+		
+		
+		<tr>
+			<td style="border-right:#000000 1px solid;border-top:#000000 1px solid;border-left:#000000 1px solid;border-bottom:#000000 1px solid;" valign="center" align="left" colspan="3" height="18">
+				内容：<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">品名：伊朗粉。</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">吨位：16000吨（±5%）。清场</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">所在：镇江港。</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">要求：2017.12.27日之前报港。自装船离港五天内到黄石新港（天气原因除外）。</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">外轮名：RU YI I（如意） 计划12月26.27日至镇江港靠泊</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">一</span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">、</span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">起运港交接方式：过磅交接。</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">二、</span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">单价为起</span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">运港二程船舱底至目的港码头，含起运港水分检测费、不含港建费和过磅回皮费等相关杂费。</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">三、运输期限：单批货物装运时间以收到托运人通知开始，到卸货港（黄石新港）时间为止不超过十五天。</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">四、盈亏考核：无</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">五、结算及付款：</span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">结算</span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">以托运单位检斤数量</span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">X<span style="box-sizing: border-box;">合同单价</span></span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">，</span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">一票（</span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">11%<span style="box-sizing: border-box;">税率</span></span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">）结算；挂账后托运单位于次月以承兑方式分批支付托运单位费用。</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">其他约定事项：</span></strong><br/></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">1<span style="box-sizing: border-box;">，若船舶不能在规定的受载日期内抵港</span><span style="box-sizing: border-box; font-family: 'Times New Roman';">,</span><span style="box-sizing: border-box;">除不可抗拒力因素和滞港因素外</span><span style="box-sizing: border-box; font-family: 'Times New Roman';">,</span><span style="box-sizing: border-box;">托运单位有权解除本合同。托运单位若同意继续履行本合同，则合同的受载日期为船舶实际到港时间，承运单位发船时，托运单位若没有提出书面异议，则视作同意。</span></span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">2<span style="box-sizing: border-box;">，承运单位运输前应按不含税货物价值投货物运输基本险，在装船前承运单位需将货物运输保险的预报单传真给托运单位，船舶离港后将正式的保险单传真给托运单位，若</span></span></strong><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">发现不进行货物保险的，托运单位有权取消装运计划，并终止合同，因承运单位不买保险或不发保险单给托运单位，发生货物损失等情况，承运单位负责全额赔偿。</span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">3<span style="box-sizing: border-box;">，托运单位须办妥装卸货有关手续</span><span style="box-sizing: border-box; font-family: 'Times New Roman';">,&nbsp;</span><span style="box-sizing: border-box;">若因装卸手续未及时办理</span><span style="box-sizing: border-box; font-family: 'Times New Roman';">,</span><span style="box-sizing: border-box;">货物贸易纠纷引起的船舶等泊时间按滞期论处</span><span style="box-sizing: border-box; font-family: 'Times New Roman';">,&nbsp;</span><span style="box-sizing: border-box;">时间以航行日志为准。</span></span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;">4<span style="box-sizing: border-box;">，运价中包含如产生的港口建设费、港口水分检测费及过磅回皮费，需特别注明。</span></span></strong></p><p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 14px; line-height: 20px; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-family: 宋体;"><span style="box-sizing: border-box;">5，中标单位自行安排船型，与报港之前发船信息予采购人员。</span></span></strong></p><p><br/></p>			</td>
+		</tr>
+		
+	</tbody>
+</table>
+
+<br>
+
+
+<table cellspacing="0" class="ewGrid" style="width:710px;margin-top: 0px;"><tr><td class="ewGridContent">
+<form name="fvsubitempublist" id="fvsubitempublist" class="ewForm" action="" method="post">
+<input type="hidden" name="t" value="vsubitempub">
+<div id="gmp_vsubitempub" class="ewGridMiddlePanel">
+<table id="tbl_vsubitempublist" class="ewTable ewTableSeparate">
+<thead><!-- Table header -->
+	<tr class="ewTableHeader">
+			<td><div onmousedown="ew_Sort(event,'vsubitempublist.php?order=id&ordertype=ASC',1);"><span id="elh_vsubitempub_id" class="vsubitempub_id">
+			<table class="ewTableHeaderBtn"><thead><tr><td class="ewTableHeaderCaption">id</td><td class="ewTableHeaderSort"></td></tr></thead></table>
+		</span></div></td>		
+			
+			<td><div onmousedown="ew_Sort(event,'vsubitempublist.php?order=wzmc&ordertype=ASC',1);"><span id="elh_vsubitempub_wzmc" class="vsubitempub_wzmc">
+			<table class="ewTableHeaderBtn"><thead><tr><td class="ewTableHeaderCaption">物资名称</td><td class="ewTableHeaderSort"></td></tr></thead></table>
+		</span></div></td>		
+			
+			<td><div onmousedown="ew_Sort(event,'vsubitempublist.php?order=wzgg&ordertype=ASC',1);"><span id="elh_vsubitempub_wzgg" class="vsubitempub_wzgg">
+			<table class="ewTableHeaderBtn"><thead><tr><td class="ewTableHeaderCaption">规格</td><td class="ewTableHeaderSort"></td></tr></thead></table>
+		</span></div></td>		
+			
+			<td><div onmousedown="ew_Sort(event,'vsubitempublist.php?order=quantity&ordertype=ASC',1);"><span id="elh_vsubitempub_quantity" class="vsubitempub_quantity">
+			<table class="ewTableHeaderBtn"><thead><tr><td class="ewTableHeaderCaption">数量</td><td class="ewTableHeaderSort"></td></tr></thead></table>
+		</span></div></td>		
+			
+			<td><div onmousedown="ew_Sort(event,'vsubitempublist.php?order=remark&ordertype=ASC',1);"><span id="elh_vsubitempub_remark" class="vsubitempub_remark">
+			<table class="ewTableHeaderBtn"><thead><tr><td class="ewTableHeaderCaption">备注</td><td class="ewTableHeaderSort"></td></tr></thead></table>
+		</span></div></td>		
+			
+			<td><div onmousedown="ew_Sort(event,'vsubitempublist.php?order=unit&ordertype=ASC',1);"><span id="elh_vsubitempub_unit" class="vsubitempub_unit">
+			<table class="ewTableHeaderBtn"><thead><tr><td class="ewTableHeaderCaption">单位</td><td class="ewTableHeaderSort"></td></tr></thead></table>
+		</span></div></td>		
+			
+			<td><div onmousedown="ew_Sort(event,'vsubitempublist.php?order=rqdate&ordertype=ASC',1);"><span id="elh_vsubitempub_rqdate" class="vsubitempub_rqdate">
+			<table class="ewTableHeaderBtn"><thead><tr><td class="ewTableHeaderCaption">需求日期</td><td class="ewTableHeaderSort"></td></tr></thead></table>
+		</span></div></td>		
+			
+	</tr>
+</thead>
+<tbody>
+	<tr data-rowindex="1" id="r1_vsubitempub" data-rowtype="1">
+			<td><span id="el1_vsubitempub_id" class="vsubitempub_id">
+<span>
+1</span>
+</span><a id="vsubitempub_list_row_1"></a></td>
+				<td><span id="el1_vsubitempub_wzmc" class="vsubitempub_wzmc">
+<span>
+物流费用</span>
+</span><a id="vsubitempub_list_row_1"></a></td>
+				<td><span id="el1_vsubitempub_wzgg" class="vsubitempub_wzgg">
+<span>
+ </span>
+</span><a id="vsubitempub_list_row_1"></a></td>
+				<td><span id="el1_vsubitempub_quantity" class="vsubitempub_quantity">
+<span>
+16000.00</span>
+</span><a id="vsubitempub_list_row_1"></a></td>
+				<td><span id="el1_vsubitempub_remark" class="vsubitempub_remark">
+<span>
+&nbsp;</span>
+</span><a id="vsubitempub_list_row_1"></a></td>
+				<td><span id="el1_vsubitempub_unit" class="vsubitempub_unit">
+<span>
+元/吨</span>
+</span><a id="vsubitempub_list_row_1"></a></td>
+				<td><span id="el1_vsubitempub_rqdate" class="vsubitempub_rqdate">
+<span>
+0000-00-00</span>
+</span><a id="vsubitempub_list_row_1"></a></td>
+		</tr>
+</tbody>
+</table>
+<input type="hidden" name="a_list" id="a_list" value="">
+</div>
+</form>
+<div class="ewGridLowerPanel">
+<form name="ewpagerform" id="ewpagerform" class="ewForm" action="vsubitempublist.php">
+<table class="ewPager"><tr><td>
+	<table cellspacing="0" class="ewStdTable"><tbody><tr><td><span class="phpmaker">页&nbsp;</span></td>
+<!--first page button-->
+		<td><img src="phpimages/firstdisab.gif" alt="第一页" width="16" height="16" style="border: 0;"></td>
+	<!--previous page button-->
+		<td><img src="phpimages/prevdisab.gif" alt="上一页" width="16" height="16" style="border: 0;"></td>
+	<!--current page number-->
+	<td><input type="text" name="pageno" id="pageno" value="1" size="4"></td>
+<!--next page button-->
+		<td><img src="phpimages/nextdisab.gif" alt="下一页" width="16" height="16" style="border: 0;"></td>
+	<!--last page button-->
+		<td><img src="phpimages/lastdisab.gif" alt="最后一页" width="16" height="16" style="border: 0;"></td>
+		<td><span class="phpmaker">&nbsp;共&nbsp;1</span></td>
+	</tr></tbody></table>
+	</td>	
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>
+	<span class="phpmaker">记录&nbsp;1&nbsp;至&nbsp;1&nbsp;共&nbsp;1</span>
+	</td>
+</tr></table>
+</form>
+<span class="phpmaker">
+</span>
+</div>
+</td></tr></table>
+<script type="text/javascript">
+fvsubitempublist.Init();
+</script>
+<script type="text/javascript">
+
+// Write your table-specific startup script here
+// document.write("page loaded");
+
+</script>
+				<p>&nbsp;</p>			
+			<!-- right column (end) -->
+				    </td>
+            <td style="vertical-align:top;">
+                <div class="right-cont1" style="margin-top: 10px;height: 120px;border: solid 1px;border-color:#D4EEFF ">
+				<div class="right-title1">
+					<span><img src="../images/ak25.jpg"></span>
+					<span>栏目导航</span>
+				</div>
+				<ul class="right-cont2-a">
+					<li><a href="vgonggao1list.php">通知公告</a></li>
+                                        <li><a href="vgonggao2list.php">招标公告</a></li>
+                                        <li><a href="vtenderpublist.php">电子招标</a></li>
+                                        <li><a href="../gonggao1.php">返回首页</a></li>
+				</ul>
+			</div>
+            </td>
+		</tr>
+	</table>
+	<!-- content (end) -->
+	<!-- footer (begin) --><!-- *** Note: Only licensed users are allowed to remove or change the following copyright statement. *** -->
+	<div id="footer">
+	<table width="974" border="0"  bgcolor="#D4EEFF" >
+		<tr>
+			<td width="974"    height="30" align="center" ><font size="2" color="#000066">公司地址：湖北省黄石市新下陆169号(435005)</font></td>
+		</tr>
+		<tr>
+			<td width="974"    height="30" align="center"><font size="2" color="#000066">Copyright(c)2015 
+						Xinxing Ductile&nbsp; Iron Pipes Co.ltd All rights reserved&nbsp;&nbsp;&nbsp;冀ICP备05010695号</font></td>
+			</tr>    
+	</table>
+</div>
+	<!-- footer (end) -->	
+</div>
+<div class="yui-tt" id="ewTooltipDiv" style="visibility: hidden; border: 0px;"></div>
+<script type="text/javascript">
+ew_Select("table." + EW_TABLE_CLASSNAME, document, ew_SetupTable); // Init tables
+ew_Select("table." + EW_GRID_CLASSNAME, document, ew_SetupGrid); // Init grids
+ew_InitTooltipDiv(); // init tooltip div
+</script>
+<script type="text/javascript">
+
+// Write your global startup script here
+// document.write("page loaded");
+
+</script>
+</body>
+</html>

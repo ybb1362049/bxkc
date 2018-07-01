@@ -1,0 +1,1407 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>竞价采购系统</title>
+	<link href="view/srplatform/portal/logo.ico" type="image/ico" rel="shortcut icon"/> 
+	
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/common/plug_in.css"/>
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/sysicon/sysicon.css"/>
+<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/default/listDetail.css"/>
+
+<script type="text/javascript" src="/gpms/view/resource/scripts/json/json.js"></script>
+
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.ui.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/jquery.wresize.js" ></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.autoHeight.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.form.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.jPrintArea.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/FusionChart/JSClass/FusionCharts.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/FusionChart/JSClass/FusionChartsExportComponent.js"></script>
+
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/flexigrid/flexigrid.js"></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/dataTables/media/js/jquery.dataTables.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/dhtmlxTree/dhtmlxcommon.js"></script>  
+<script type="text/javascript" src="/gpms/view/resource/plug-in/dhtmlxTree/dhtmlxtree.js"></script>
+<SCRIPT type="text/javascript" src="/gpms/view/resource/plug-in/jquery/autocomplete/jquery.autocomplete.js"></SCRIPT>
+<script type="text/javascript" src="/gpms/view/resource/scripts/jquery/epsValidate/jquery.validate.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/select/jQuery.CascadingSelect.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/select/jQuery.FillOptions.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/select/jquery.dxCombobox.js"></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/progressbar/jquery.progressbar.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/jquery.bxGallery.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/plug-in/jquery/ajaxpager/jquery.ajaxpager.js"></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/imgPlay/imgPlay.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.scrollto.js'></script>
+<script type="text/javascript" src='/gpms/view/resource/plug-in/jquery/jquery.qtip-1.0.0-rc3.js'></script>
+
+<script type="text/javascript" src='/gpms/view/resource/scripts/jquery/epsDatepicker/epsDatepicker.js'></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/jquery/epsDialog/epsDialog.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/jquery/epsContentMenu/epsContentMenu.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/json/json-eps.js"></script>
+<!--  <script type="text/javascript" src="/gpms/view/resource/scripts/json/json.js"></script>-->
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/obj2str.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/dateUtil.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/select.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/listTree.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/treeUtil.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/tabSet.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/otherUtils.js"></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/paramBind.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/loadPage.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/sysTools.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/date.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/changeSkin.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/sysInfo.js" ></script>
+<script type="text/javascript" src="/gpms/view/resource/scripts/util/evaluate.js"></script>
+<script type="text/javascript" charset="utf-8" src='/gpms/view/resource/plug-in/kindeditor-4.1.7/kindeditor.js'></script>
+<script type="text/javascript" charset="utf-8" src='/gpms/view/resource/plug-in/kindeditor-4.1.7/lang/zh_CN.js'></script>
+
+	
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/default/listDetail.css" />
+	<style type="text/css">
+	.selectCategory { background: none repeat scroll 0 0 #F2F2F2; border: 1px solid #CCCCCC; height: 25px; margin-bottom: 4px; overflow: hidden; position: relative; }
+	.selectCategory .choosed { float: left; line-height: 21px; margin-top: 2px; width: 610px; }
+	.selectCategory .choosed h3 { display: inline; float: left; font-size: 12px; }
+	.selectCategory .choosed a { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #E6E6E6; color: #404040; display: inline; float: left; line-height: 19px; margin-left: 5px; padding: 0 20px 0 5px; position: relative; white-space: nowrap; }
+	.selectCategory .choosed b { background: url("view/resource/skin/skin07/img/delete.gif") no-repeat scroll 0 0 transparent; }
+	.selectCategory .choosed b { background-position: 0 0px; height: 18px; position: absolute; right: 2px; top: 1px; width: 21px; }
+	</style>
+	<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/default/main.css" />
+	<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/skin07/css/three.css"/>
+	<link rel="stylesheet" type="text/css" href="/gpms/view/resource/skin/themes/home/index.css" />
+	<!--JS-->
+	<script type="text/javascript" src='/gpms/view/srplatform/portal/include/common.js'></script>
+	<script type="text/javascript" src='/gpms/view/agreement/showbulletin/show_bulletin_list.js'></script>
+</head>
+<body>
+<div id="container">
+	
+
+	<!-- 头部开始 -->
+	<div class="header">
+     	<!-- 页面参数 -->
+		<input type="hidden" id="initPath" value="/gpms" />
+		<input type="hidden" id="isNeedNavigation" value="null" />
+		<input type="hidden" id="returnUrl" value="" />
+		<input type="hidden" id="hrefUrl" value=""/>
+		<input type="hidden" id="roleType" value="null" />
+		<input type="hidden" id="globleOrg" value="null" />
+		<input type="hidden" id="currentTab" value="0"/>
+   
+     	<!--网站导航 开始-->
+	    <div class="top-nav">
+	      <div class="top-info">
+	      <p class="userInfo">
+	      
+			  您好，欢迎来竞价采购系统！<a href="javascript:void(0);" onclick="common.goToLogin();return false;">登录</a>
+			 <a title="免费注册成为会员享受更多服务" href="javascript:void(0);" id="regBtn">免费注册</a>
+	       
+	  	  </p>
+	      <ul class="quickMenu">
+		  	<li><span><i class="icon-cog"></i><a class="ebidHome" href="/gpms/IndexViewController.do?method=index">首页</a></span></li>
+	        
+	  	    
+	  	  </ul>
+	  	  </div>
+	    </div>
+    
+	    <!--网站导航 结束--> 
+	    <!--网站基础信息 开始-->
+	    <div class="banner" style="width:1000px;">
+		   <div class="logo"><img src="/gpms/view/resource/images/banner.jpg" /></div>
+		   <!--主导航菜单 开始-->
+	       <div class="nav">
+	           
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="menu">
+	<li id="goToIndex1"><a id="goToIndex" href="javascript:void(0);" title="首页">首页</a></li>
+	<li id="notice1"><a id="notice" href="/gpms/view/staticpags/notice/notice.jsp" title="通知公告">通知公告</a></li>
+	<li id="purBulletin1"><a id="purBulletin" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=12&tenderMethod=06&rp=21&page=1" title="竞价公告">竞价公告</a></li>
+	<li id="purBulletin2"><a id="purBulletin2" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=12&tenderMethod=21&rp=21&page=1" title="直购公告">直购公告</a></li>
+	<li id="dealBulletin1"><a id="dealBulletin" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=13&tenderMethod=00&rp=21&page=1" title="成交公告">成交公告</a></li>
+	<li id="correctBulletin1"><a id="correctBulletin" href="/gpms/BulletinShowController.do?method=toBulletinList&bulletinType=15&tenderMethod=03&rp=21&page=1" title="已取消成交公告">已取消成交公告</a></li>
+	<li id="goodsLib1"><a id="goodsLib" href="/gpms/GoodsShowController.do?method=toShowGoodsIndexView" title="商品库">商品库</a></li>
+	<li id="supplierLib"><a id="supplierLib" href="/gpms/SupplierShowController.do?method=toSupplierList&rp=20&page=1&districtLevel=1" title="供应商库">供应商库</a></li>
+	<li id="supplierBlackInfo"><a id="supplierBlackInfo" href="/gpms/SupplierShowController.do?method=toSupplierBlackInfoList&rp=10&page=1&districtLevel=1" title="供应商曝光台">供应商曝光台</a></li>
+
+	
+</ul>
+		   </div>
+	       <!--主导航菜单 结束-->
+	    </div>
+    	<!--网站基础信息 结束--> 
+    
+    	<div class="searchBox">
+		    <!--网站搜索 开始-->
+		    <div class="search">
+		       <input type="hidden" id="searchType" value="1"  />
+		       <span class="fdj"><img src="/gpms/view/resource/skin/themes/default/img/changeBig.png" width="14" height="14" /></span>
+		       <label >
+		          <select id="seachKey">
+		             <option value="1" selected="selected">找商品</option>
+		             <option value="2">找公告</option>
+		             <option value="3">找供应商</option>
+		          </select>
+		       </label>
+		       <span><input id="keyWords" type="text" /></span>
+		       <span><a href="#" title="搜索" onclick="keyWordSearch();return false;"><img src="/gpms/view/resource/skin/themes/default/img/seach.png" width="44" height="21" border="0" style="margin-top:3px"/></a></span>
+		    </div>
+		    <!--网站搜索 结束-->
+    	</div>
+  	</div>
+  	
+
+<!--[if IE 6]>
+<div class="userTips">
+	<p>尊敬的用户，您好！您使用的浏览器版本过低，请升级到较高版本，以获得更好的安全性及操作、视觉体验。<a href="http://www.microsoft.com/china/windows/internet-explorer/worldwide-sites.aspx" title="点击下载IE8浏览器安装文件">下载IE8浏览器</a></p>
+</div>
+<![endif]-->
+<noscript>
+<div class="userTips">
+  <p>尊敬的用户，您好！您使用的浏览器不支持或禁用JavaScript脚本。请使用支持JavaScript脚本的浏览器或启用浏览器JavaScript脚本功能。</p>
+  <p>如有任何疑问或需要帮助，请<a href="http://www.gpcsoft.com" target="_blank" title="珠海政采软件技术有限公司 技术支持">与我们联系</a>。</p>
+</div>
+</noscript>
+	<!-- 头部结束-->
+	
+	<!--主要内容 开始-->
+	<div id="sysContent" class="page_notice">
+		<input type="hidden" id="districtId" value=""/>
+		<input type="hidden" id="purCategoryId" value=""/>
+		<input type="hidden" id="tenderMethod" value="06"/>
+		<input type="hidden" id="bulletinType" value="12"/>
+		<input type="hidden" id="currentTime" value="Mon Jan 15 14:41:44 CST 2018"/>
+		
+		<div id="contentSub" class="hidden"></div>
+		<div id="contentMain" class="index2paL" style="width:100%">
+		 	<div id="conTitle">
+		      	<div class="navCurrent">采购项目展示</div>
+		    </div>
+		    <!--功能页内容-->
+		    <div id="conBody">
+		    	<!--已选择采购品目 开始 -->
+		    	
+				<!--已选择采购品目 结束-->
+			    
+		    	<!-- 搜索条件 开始 -->
+				<div id="ListSubCategory">
+					<div class="SubCategoryBox">
+						<div class="FindByHint"><img src="view/resource/skin/sysicon/16/bullet_go.png">按预算采购金额选择：</div>
+						<ul class="CategoryListTableLevel1 expand" id="moreProp2">
+							<div id="propDisp1">
+								<li>
+									<a href="javascript:void(0);" name="" >金额不限</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="0,1000" >&lt;1000元</a><i>(3)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="1000,5000">1000-5000元</a><i>(16)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="5000,10000">5000-1万元</a><i>(27)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="10000,50000">1万-5万元</a><i>(101)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="50000,100000">5万-10万元</a><i>(50)</i>
+								</li>
+								<li>
+									<a href="javascript:void(0);" name="100000,500000">10万-50万元</a><i>(0)</i>
+								</li>
+							</div>
+						</ul>
+					</div>
+					<div class="SubCategoryBox">
+						<div class="FindByHint"><img src="view/resource/skin/sysicon/16/bullet_go.png">按所在地选择：</div>
+						<ul class="CategoryListTableLevel1 expand" id="moreProp2">
+							<div id="propDisp2">
+								
+								
+									<li><a name="-1" href="javascript:void(0);" onclick="show_list.changeDistrict('-1');return false;">全部地区</a></li>
+									
+										<li><a  name="510000" href="javascript:void(0);" onclick="show_list.changeDistrict('510000');return false;"
+												
+											>四川省</a><i>(1)</i></li>
+									
+										<li><a  name="511300" href="javascript:void(0);" onclick="show_list.changeDistrict('511300');return false;"
+												
+											>南充市</a><i>(1)</i></li>
+									
+										<li><a  name="511381" href="javascript:void(0);" onclick="show_list.changeDistrict('511381');return false;"
+												
+											>阆中市</a><i>(1)</i></li>
+									
+								
+							</div>
+						</ul>
+						
+					</div>
+					<div class="SubCategoryBox">
+						<div class="FindByHint"><img src="view/resource/skin/sysicon/16/bullet_go.png">按采购品目选择：</div>
+						<ul class="CategoryListTableLevel1 expand" id="moreProp1">
+							<div id="propDisp3">
+								
+								
+									<li><a name="-1" href="javascript:void(0);" onclick="show_list.changePurCategory('-1');return false;">全部分类</a></li>
+									 
+									<li>
+										<a name="A0201010301" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201010301');return false;" 
+										>PC服务器</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201010303" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201010303');return false;" 
+										>并行运算服务器</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201010399" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201010399');return false;" 
+										>其他服务器</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A02010104" href="javascript:void(0);" onclick="show_list.changePurCategory('A02010104');return false;" 
+										>台式计算机</a>
+										<i>(36)</i>
+									</li>
+									 
+									<li>
+										<a name="A02010105" href="javascript:void(0);" onclick="show_list.changePurCategory('A02010105');return false;" 
+										>便携式计算机</a>
+										<i>(12)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201020299" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201020299');return false;" 
+										>其他交换设备</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060102" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060102');return false;" 
+										>激光打印机</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060104" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060104');return false;" 
+										>针式打印机</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A0201060199" href="javascript:void(0);" onclick="show_list.changePurCategory('A0201060199');return false;" 
+										>其他打印设备</a>
+										<i>(4)</i>
+									</li>
+									 
+									<li>
+										<a name="A020201" href="javascript:void(0);" onclick="show_list.changePurCategory('A020201');return false;" 
+										>复印机</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A020202" href="javascript:void(0);" onclick="show_list.changePurCategory('A020202');return false;" 
+										>投影仪</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A020203" href="javascript:void(0);" onclick="show_list.changePurCategory('A020203');return false;" 
+										>多功能一体机</a>
+										<i>(1)</i>
+									</li>
+									 
+									<li>
+										<a name="A0202040101" href="javascript:void(0);" onclick="show_list.changePurCategory('A0202040101');return false;" 
+										>数字照相机</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A02020402" href="javascript:void(0);" onclick="show_list.changePurCategory('A02020402');return false;" 
+										>镜头及器材</a>
+										<i>(3)</i>
+									</li>
+									 
+									<li>
+										<a name="A0206180203" href="javascript:void(0);" onclick="show_list.changePurCategory('A0206180203');return false;" 
+										>空调机</a>
+										<i>(56)</i>
+									</li>
+									 
+									<li>
+										<a name="A02091102" href="javascript:void(0);" onclick="show_list.changePurCategory('A02091102');return false;" 
+										>通用摄像机</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A06" href="javascript:void(0);" onclick="show_list.changePurCategory('A06');return false;" 
+										>家具用具</a>
+										<i>(59)</i>
+									</li>
+									 
+									<li>
+										<a name="A0601" href="javascript:void(0);" onclick="show_list.changePurCategory('A0601');return false;" 
+										>床类</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A060101" href="javascript:void(0);" onclick="show_list.changePurCategory('A060101');return false;" 
+										>钢木床类</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A060302" href="javascript:void(0);" onclick="show_list.changePurCategory('A060302');return false;" 
+										>木骨架为主的椅凳类</a>
+										<i>(2)</i>
+									</li>
+									 
+									<li>
+										<a name="A0699" href="javascript:void(0);" onclick="show_list.changePurCategory('A0699');return false;" 
+										>其他家具用具</a>
+										<i>(2)</i>
+									</li>
+									
+								
+							</div>
+						</ul>
+						
+							<div class="expandOpen">
+								<a href="javascript:void(0);" onclick="common.showOrHiddenMore('expandProp1','moreProp1','分类');return false;">
+									<span class="sysicon siDownGray" id="expandProp1">显示全部分类</span>
+								</a>
+							</div>
+						
+					</div>
+				</div>
+				<!-- 搜索条件 结束 -->
+				
+				<!--详细搜索条件 开始 -->
+				<div class="SubCategoryBox">
+					<div class="FindByHint"><img src="view/resource/skin/sysicon/16/bullet_go.png">更多筛选条件：</div>
+					<form id="bulletinFilter">
+		   			<table>
+						<tbody>
+							<tr>
+							
+								<td id="xmjd" style="display:none; width:200px;">项目进度：
+									<select name="projectProcess" style="width: 80px;">
+										<option value="all">全部</option>
+										<option value="bargaining" >进行中</option>
+										<option value="bargained" >已结束</option>
+									</select>
+								</td>
+								<td style="width:220px;">关键字：<input type="text" name="keyWord" value="" id="keyWord"></td>
+								<td class="operationBtnDiv l"></td>
+								<td style="width:400px;">
+									公告发布时间：
+									<input id="startDate" value="" style="width:80px"/>~<input id="endDate" value="" style="width:80px"/>
+									<button type="button" onclick="show_list.makeSearchData('restart')"><span>确定</span></button>
+									<script>
+										$("#startDate").epsDatepicker({timeShow:false});
+										$("#endDate").epsDatepicker({timeShow:false});
+									</script>
+								</td>
+								
+								
+								
+								
+							</tr>
+						</tbody>
+					</table>
+					</form>
+				</div>
+				<!--详细搜索条件 结束 -->
+				
+		    	<!--排序方式 开始-->
+			    <div class="conrank">
+					<ul>
+						<li class="displayBy"><em>排序方式：</em>
+							<span class="supplierSort sysicon" id="budgetMoneySort" ><a href="javascript:void(0);">采购金额</a></span>
+							<span class="supplierSort sysicon" id="createTimeSort" ><a href="javascript:void(0);">创建时间</a></span>
+						</li>
+						<li class="" style="float:right; margin-right:30px;">共&nbsp;<strong style="color:#ff6501;font-weight: bold;"><span id="totalAmount">247</span></strong>&nbsp;个采购项目</li>
+					</ul>
+			    </div>
+				<!--排序方式 结束-->
+				<!--产品信息 开始--> 
+				<div id="showSuppListAndPic">
+					
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//比较两个时间的大小
+function cha(timeStr1, timeStr2){
+	var time1 = new Date(Date.parse(timeStr1));
+	var time2 = new Date(Date.parse(timeStr2));
+	return time1.getTime() - time2.getTime();
+}
+$(document).ready(function(){
+	var currentTime = $("#currentTime1").val();
+	currentTime = new Date(Date.parse(currentTime.replace(/-/g,"/")));
+	
+	$("#bulletinListDetail").find(".photo").each(function(i, domEle){
+		var tenderMethod = '06';
+		var bulletinType = $(domEle).find("input[name=bulletinType]").val(); //公告类型
+		var projImplStatus = $(domEle).find("input[name=projImplStatus]").val();
+		var projProcessStatus = $(domEle).find("input[name=projProcessStatus]").val();
+		var startTime = ''; //开始时间
+		var endTime = ''; //结束时间
+		
+		//招标公告
+		if(bulletinType == '12'){
+			startTime = $(domEle).find("input[name=evalStartTime]").val();
+			endTime = $(domEle).find("input[name=evalEndTime]").val();
+			
+			startTime = new Date(Date.parse(startTime.replace(/-/g,"/")));
+			endTime = new Date(Date.parse(endTime.replace(/-/g,"/")));
+		}
+		var imgName = 'notes.png';
+		if(bulletinType == '13'){
+			var ebuyMethod = $('#ebuyMethod').val();
+			if(ebuyMethod == '06'){
+				imgName = 'notes_jj.png'
+			}
+			if(ebuyMethod == '21'){
+				imgName = 'notes_zg.png'
+			}
+		}
+
+		//竞价
+		if(bulletinType == '12' && tenderMethod == '06') {
+			
+			//未开始  开始时间 > 当前时间  并且不等于终止
+			//进行中  开始时间 < 当前时间 < 结束时间  并且不等于终止 
+			//已完成  当前时间 > 结束时间   或者已终止
+
+			if(startTime > currentTime && projImplStatus != '02') {
+				imgName='nostart.png';
+			} else if(startTime < currentTime && currentTime < endTime && projImplStatus != '02' && projProcessStatus != '200') {
+				imgName='being.png';
+			} else if(currentTime > endTime || projImplStatus == '02' || projProcessStatus == '200') {
+				imgName='over.png';
+			}
+			
+		}
+
+		//直购
+		if(bulletinType == '12' && tenderMethod == '21') {
+			if(projImplStatus == '03') {
+				imgName='being.png';
+			} else if(projImplStatus == '04' || projImplStatus == '02') {
+				imgName='over.png';
+			}
+		}
+		
+		$(domEle).find("span").html('<img src="view/resource/skin/pubservice/img/'+imgName+'">');
+	});
+});
+</script>
+<input id="currentTime1" type="hidden" name="currentTime" value="2018-1-15 14:41:44">
+<div class="list-content" id="bulletinListDetail">
+	<ul class="list-view hlisting sell">
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e37a85b353e1f','12','06');return false;">阆中市洪山镇人民政府2017287台式计算机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-31 17:31:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-9-3 17:31:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e37a85b353e1f','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市洪山镇人民政府
+					<br/>
+					报价时间：<font color="red">2017-08-31 17:31 ~ 2017-09-03 17:31</font>
+					
+		        	<br/>发布时间：2017-08-31 17:38:53
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e37a161fa3e0a','12','06');return false;">阆中市洪山镇人民政府2017286空调机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="160">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-31 17:11:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-9-3 17:11:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e37a161fa3e0a','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市洪山镇人民政府
+					<br/>
+					报价时间：<font color="red">2017-08-31 17:11 ~ 2017-09-03 17:11</font>
+					
+		        	<br/>发布时间：2017-08-31 17:31:16
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e27e549043b9d','12','06');return false;">阆中市农牧业局机关2017165台式计算机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-28 16:12:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-29 17:18:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e27e549043b9d','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市农牧业局机关
+					<br/>
+					报价时间：<font color="red">2017-08-28 16:12 ~ 2017-08-29 17:18</font>
+					
+		        	<br/>发布时间：2017-08-28 16:11:31
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e0959f5740b7b','12','06');return false;">阆中市西山乡人民政府2017267家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-22 17:48:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-25 17:48:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e0959f5740b7b','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市西山乡人民政府
+					<br/>
+					报价时间：<font color="red">2017-08-22 17:48 ~ 2017-08-25 17:48</font>
+					
+		        	<br/>发布时间：2017-08-22 17:50:44
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e085250ca0a20','12','06');return false;">阆中市江南镇小学校2017265家具用具网上竞价项目(第3次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-22 13:00:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-25 13:00:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e085250ca0a20','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市江南镇小学校
+					<br/>
+					报价时间：<font color="red">2017-08-22 13:00 ~ 2017-08-25 13:00</font>
+					
+		        	<br/>发布时间：2017-08-22 13:02:45
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e0849b2aa09f7','12','06');return false;">阆中市实验小学校2017264家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-22 12:47:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-24 12:47:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015e0849b2aa09f7','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市实验小学校
+					<br/>
+					报价时间：<font color="red">2017-08-22 12:47 ~ 2017-08-24 12:47</font>
+					
+		        	<br/>发布时间：2017-08-22 12:53:21
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015df7f5d868035e','12','06');return false;">阆中市江南镇小学校2017265家具用具网上竞价项目(第2次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-19 8:44:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-22 8:44:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015df7f5d868035e','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市江南镇小学校
+					<br/>
+					报价时间：<font color="red">2017-08-19 08:44 ~ 2017-08-22 08:44</font>
+					
+		        	<br/>发布时间：2017-08-19 08:47:50
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015defc68e9f0069','12','06');return false;">阆中市实验小学校2017264家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-17 18:36:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-20 18:31:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015defc68e9f0069','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市实验小学校
+					<br/>
+					报价时间：<font color="red">2017-08-17 18:36 ~ 2017-08-20 18:31</font>
+					
+		        	<br/>发布时间：2017-08-17 18:39:13
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015defb39124004a','12','06');return false;">阆中市西山乡人民政府2017267家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-17 18:16:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-20 18:16:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015defb39124004a','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市西山乡人民政府
+					<br/>
+					报价时间：<font color="red">2017-08-17 18:16 ~ 2017-08-20 18:16</font>
+					
+		        	<br/>发布时间：2017-08-17 18:18:29
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de90b8b527daa','12','06');return false;">阆中市博树回族乡卫生院HH2017222空调机网上竞价项目(第12次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-16 11:14:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-19 11:14:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de90b8b527daa','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市博树回族乡卫生院
+					<br/>
+					报价时间：<font color="red">2017-08-16 11:14 ~ 2017-08-19 11:14</font>
+					
+		        	<br/>发布时间：2017-08-16 11:17:14
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de908fde37d95','12','06');return false;">阆中市博树回族乡卫生院HH2017222空调机网上竞价项目(第11次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-16 11:12:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-19 11:12:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de908fde37d95','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市博树回族乡卫生院
+					<br/>
+					报价时间：<font color="red">2017-08-16 11:12 ~ 2017-08-19 11:12</font>
+					
+		        	<br/>发布时间：2017-08-16 11:14:26
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de90281187d7b','12','06');return false;">阆中市博树回族乡卫生院HH2017222空调机网上竞价项目(第10次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-16 11:03:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-19 11:03:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de90281187d7b','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市博树回族乡卫生院
+					<br/>
+					报价时间：<font color="red">2017-08-16 11:03 ~ 2017-08-19 11:03</font>
+					
+		        	<br/>发布时间：2017-08-16 11:07:21
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de528a9277ccd','12','06');return false;">阆中市江南镇小学校2017265家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-15 17:06:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-18 17:06:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de528a9277ccd','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市江南镇小学校
+					<br/>
+					报价时间：<font color="red">2017-08-15 17:06 ~ 2017-08-18 17:06</font>
+					
+		        	<br/>发布时间：2017-08-15 17:10:33
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de4115d2b7c29','12','06');return false;">阆中市农牧业局机关2017165台式计算机网上竞价项目(第3次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-15 14:38:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-23 11:38:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de4115d2b7c29','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市农牧业局机关
+					<br/>
+					报价时间：<font color="red">2017-08-15 14:38 ~ 2017-08-23 11:38</font>
+					
+		        	<br/>发布时间：2017-08-15 12:05:29
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de050776d7ad2','12','06');return false;">阆中市实验小学校2017264家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-14 18:07:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-17 18:07:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015de050776d7ad2','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市实验小学校
+					<br/>
+					报价时间：<font color="red">2017-08-14 18:07 ~ 2017-08-17 18:07</font>
+					
+		        	<br/>发布时间：2017-08-14 18:35:56
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dde38bfb17978','12','06');return false;">阆中市农牧业局机关2017165台式计算机网上竞价项目(第2次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-14 17:12:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-21 17:30:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dde38bfb17978','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市农牧业局机关
+					<br/>
+					报价时间：<font color="red">2017-08-14 17:12 ~ 2017-08-21 17:30</font>
+					
+		        	<br/>发布时间：2017-08-14 08:50:47
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dcce630d1671d','12','06');return false;">阆中市白溪中心学校2017242家具用具网上竞价项目(第3次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-10 23:56:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-13 23:56:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dcce630d1671d','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市白溪中心学校
+					<br/>
+					报价时间：<font color="red">2017-08-10 23:56 ~ 2017-08-13 23:56</font>
+					
+		        	<br/>发布时间：2017-08-11 00:07:04
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dc4bc3307575d','12','06');return false;">阆中市三庙乡人民政府2017255通用摄像机网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-9 8:48:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-12 8:48:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dc4bc3307575d','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市三庙乡人民政府
+					<br/>
+					报价时间：<font color="red">2017-08-09 08:48 ~ 2017-08-12 08:48</font>
+					
+		        	<br/>发布时间：2017-08-09 10:04:14
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dc117851d56b7','12','06');return false;">阆中市国土资源局2017248家具用具网上竞价项目(第2次)采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-8 17:03:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-11 17:03:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dc117851d56b7','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市国土资源局
+					<br/>
+					报价时间：<font color="red">2017-08-08 17:03 ~ 2017-08-11 17:03</font>
+					
+		        	<br/>发布时间：2017-08-08 17:05:30
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dbbe052e05473','12','06');return false;">阆中市国土资源局2017248家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="02">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-7 16:43:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-10 15:43:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dbbe052e05473','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市国土资源局
+					<br/>
+					报价时间：<font color="red">2017-08-07 16:43 ~ 2017-08-10 15:43</font>
+					
+		        	<br/>发布时间：2017-08-07 16:47:06
+		        </p>
+		    </li>
+		
+			<li class="list-item" style="height:105px">
+				<h3 class="summary" style="width:80%;"><a class="EventCanSelect" href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dbae6cbdf52f9','12','06');return false;">阆中市思依镇小学校2017243家具用具网上竞价项目采购公告</a></h3>
+		 		<div class="photo">
+		 			<input type="hidden" name="projProcessStatus" value="200">
+		 			<input type="hidden" name="projImplStatus" value="00">
+		 			<input type="hidden" name="bulletinType" value="12">
+		 			<input type="hidden" id="ebuyMethod" id="ebuyMethod" value="06">
+		 			<input type="hidden" name="evalStartTime" value="2017-8-7 11:56:00">
+		 			<input type="hidden" name="evalEndTime" value="2017-8-10 11:56:00"><!-- pattern="yyyy/MM/dd HH:mm:ss" -->
+		 			<input type="hidden" name="signUpSTime" value="">
+		 			<input type="hidden" name="signUpETime" value="">
+					<a href="javascript:void(0);" onclick="common.goToBulletinDetail('2c90808a5d722051015dbae6cbdf52f9','12','06');return false;"><span></span></a>
+				</div>
+		 		<ul class="attribute nomargin" style="top:30px;"><!-- style="float:right;" by yucy -->
+		            
+		        </ul>
+		        <div class="extend">采购方式：竞价</div>
+				<p class="seller lister hCard">
+					采购单位：阆中市思依镇小学校
+					<br/>
+					报价时间：<font color="red">2017-08-07 11:56 ~ 2017-08-10 11:56</font>
+					
+		        	<br/>发布时间：2017-08-07 12:14:33
+		        </p>
+		    </li>
+		
+	</ul>
+</div>
+<div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="page" name="page" value="3"/>
+<input type="hidden" id="rp" name="rp" value="21"/>
+<input type="hidden" id="totalPageNum" name="totalPageNum" value="12"/>
+<input type="hidden" id="totalRowNum" name="totalRowNum" value="247"/>
+
+<div class="dataTables_paginate paging_full_numbers" id="QuotaList_paginate">
+
+	
+		
+			<span class="first paginate_button" id="QuotaList_first">第一页</span>
+			<span class="previous paginate_button" id="QuotaList_previous">上一页</span>
+		
+		
+			
+				
+				
+					<span class="paginate_button" onclick="pageDirection.jump('1')">1</span>
+				
+			
+		
+			
+				
+				
+					<span class="paginate_button" onclick="pageDirection.jump('2')">2</span>
+				
+			
+		
+			
+				
+					<span class="paginate_active" onclick="pageDirection.jump('3')">3</span>
+				
+				
+			
+		
+			
+				
+				
+					<span class="paginate_button" onclick="pageDirection.jump('4')">4</span>
+				
+			
+		
+			
+				
+				
+					<span class="paginate_button" onclick="pageDirection.jump('5')">5</span>
+				
+			
+		
+			
+				
+				
+					<span class="paginate_button" onclick="pageDirection.jump('6')">6</span>
+				
+			
+		
+		
+			<span class="next paginate_button" id="QuotaList_next">下一页</span>
+			<span class="last paginate_button" id="QuotaList_last">最后页</span>
+		
+		<span class="totalNum">共12页/247条记录</span>
+	
+	
+
+</div>
+
+<script>
+var pageDirection = {};
+//跳转
+pageDirection.jump = function(page){
+	$("#page").val(page);
+	show_list.makeSearchData();
+}
+
+$(document).ready(function(){
+	//第一页点击
+	$("#QuotaList_first").click(function(){
+		pageDirection.jump('1');
+	});
+	
+	//上一页点击
+	$("#QuotaList_previous").click(function(){
+		pageDirection.jump(parseInt($("#page").val())-1);
+	});
+	
+	//下一页点击
+	$("#QuotaList_next").click(function(){
+		pageDirection.jump(parseInt($("#page").val())+1);
+	});
+	
+	//最后页点击
+	$("#QuotaList_last").click(function(){
+		pageDirection.jump($("#totalPageNum").val());
+	});
+	$("[name=myShow]").each(function(){
+       if(""!=$(this).attr("scores")){
+    	   var imgsrc = getShows($(this).attr("scores"));
+    	   $(this).append(imgsrc);
+       }
+	});
+});
+//级别开始
+function getShows(score){
+	
+    var alls = "";
+	var imgsrczhuan= '<img src="view/resource/images/zhuan.gif"/>';
+	var imgsrchuanguan= '<img src="view/resource/images/jinguan.gif"/>';
+	var scorestring = score+"";
+	if(null==scorestring||''==scorestring||'undefined'==scorestring){
+		scorestring='0';
+	}
+	var scores = scorestring.split(".");
+	if(Number(scores[0])>=5500){//10级
+		for(var k=1;k<=10;k++){
+			alls+=imgsrchuanguan;
+		}
+	}else if(Number(scores[0])>=4500){//9级
+		for(var k=1;k<=9;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-4500)/100)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=3600){//8级
+		for(var k=1;k<=8;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-3600)/90)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=2800){//7级
+		for(var k=1;k<=7;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-2800)/80)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=2100){//6级
+		for(var k=1;k<=6;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-2100)/70)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=1500){//5级
+		for(var k=1;k<=5;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-1500)/60)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=1000){//4级
+		for(var k=1;k<=4;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-1000)/50)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=600){//3级
+		for(var k=1;k<=3;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-600)/40)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=300){//2级
+		for(var k=1;k<=2;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-300)/30)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])>=100){//1级
+		for(var k=1;k<=1;k++){
+			alls+=imgsrchuanguan;
+		}
+		var num = Math.floor((Number(scores[0])-100)/20)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}else if(Number(scores[0])<100){//0级
+		var num = Math.floor((Number(scores[0]))/10)
+		for(var k=1;k<=num;k++){
+			alls+=imgsrczhuan;
+		}
+	}
+    return alls;
+}
+</script>
+</div>
+					
+					
+					
+				</div>
+				<!--产品信息 结束-->
+			</div>
+		</div>
+	</div>
+	<!--主要内容 结束-->
+	<!-- 脚开始 -->
+	<div class="footer">
+	    
+
+<script>
+/*加载系统信息*/
+$.sysInfo_load();
+</script>
+
+<p style="display:none" class="footerNav">
+				<a href="javascript:void(0)" title="合作伙伴" class="cmsHref_blank" id="/view/staticpags/foot/ff8080812ea2d882012ec2becd4e0fad.jsp">合作伙伴</a> 
+				<a href="javascript:void(0)" title="网站地图" class="cmsHref_blank" id="/view/staticpags/foot/ff8080812ea2d882012ec2bf09fd0faf.jsp">网站地图</a> 
+				<a href="javascript:void(0)" title="版权说明" class="cmsHref_blank" id="/view/staticpags/foot/ff8080812ea2d882012ec2bf5afd0fb3.jsp">版权说明</a> 
+				<a href="javascript:void(0)" title="友情链接" class="cmsHref_blank" id="/view/staticpags/foot/ff8080813249c676013260ce5a151eb7.jsp">友情链接</a> 
+				<a href="javascript:void(0)" title="帮助中心" class="cmsHref_blank" id="/view/staticpags/foot/ff8080813249c6760132612b3a2e274e.jsp">帮助中心</a> 
+</p>
+<p class="copyright">©&nbsp;2005-2015&nbsp;Copyright&nbsp;版权所有：四川省财政厅&nbsp;技术支持：四川安益软件技术有限责任公司</p>
+<div align="center"> 
+
+</div>
+	</div>
+	<!-- 脚结束 -->
+	<!--在线客服开始-->
+	
+<!-- 
+<div id="sidebar-sugg">
+	<div class="s-main">
+		<a href="http://www9.kf99.com/kf99/kf99.jsp?siteid=guoxinshangtong&style=1&language=&lytype=0&charset=GBK&kflist=off&kf=&zdkf_type=1&referer=http://www.ebid360.com/&keyword=&tpl=crystal_blue" target="_blank">
+        	我需要帮助，请访问<font style="color: red;">在线客服</font>
+		</a>
+	</div>
+</div> -->
+	<!--在线客服结束-->
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	var pageType=12;
+	var tenderMethod1=06;
+	if(pageType=='13'){
+		$("#menu li").removeClass();
+		$("#dealBulletin1").addClass("selected");
+	}
+	if(pageType=='12'){
+		if(tenderMethod1=='6'){
+			$("#menu li").removeClass();
+			$("#purBulletin1").addClass("selected");
+		}
+		if(tenderMethod1=='21'){
+			$("#menu li").removeClass();
+			$("#purBulletin2").addClass("selected");
+		}
+		if(tenderMethod1=='3'){
+			$("#menu li").removeClass();
+			$("#correctBulletin1").addClass("selected");
+		}
+	}
+	if(pageType=='15'){
+		$("#menu li").removeClass();
+		$("#correctBulletin1").addClass("selected");
+	}
+})
+</script>
+
+</body>
+</html>
+	

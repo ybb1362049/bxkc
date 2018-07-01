@@ -1,0 +1,3140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>焊接产业园指挥中心植物墙—四川大西洋焊接材料股份有限公司</title>
+
+<meta name="keywords" content="四川大西洋焊接材料股份有限公司" />
+
+<meta name="description" content="四川大西洋焊接材料股份有限公司创建于1949年，其前身系上海斌诚焊接材料制造厂，是中国第一家焊接材料制造企业，1969年更名为中国电焊条厂，1996年企业整体改制为四川大西洋集团有限责任公司，1999年四川大西洋集团有限责任公司为主发起人联合其他5家企业发起设立四川大西洋焊接材料股份有限公司，2001年公司在上海证券交易所上市(股票代码600558)，成为国内焊接材料行业唯一的国有控股上市公司。" />
+
+
+<!--select 开始-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/divselect.js"></script>
+<script type="text/javascript">
+$(function(){
+	$.divselect("#divselect","#inputselect");
+});
+</script>
+<!--select 结束-->
+
+
+<link rel="stylesheet" href="css/total.css" type="text/css"  />
+
+
+<script type="text/javascript">
+
+	
+
+function menu(strid)
+{
+
+	var j=1;
+	for(var i=1;i<=8;i++)
+	{
+		//j=i+1;//将导航ID加1，如果不用加，则删除这句。
+		var menus=document.getElementById("menu_"+i);
+		//alert(menus.className);
+		var shot_menus=document.getElementById("shot_menu_"+i);
+		if(strid!=0)
+		{
+			if(i==strid)
+			{
+				menus.className="menu_sel";
+				//menus.src="images/menu_"+j+"_sel.jpg";
+				shot_menus.style.display="";
+			}
+			else
+			{
+				menus.className="menu_sel_none";
+				//menus.src="images/menu_"+j+".jpg";
+				shot_menus.style.display="none";
+			}
+		}
+		else
+		{
+			//menus.src="images/menu_"+j+".jpg";
+			shot_menus.style.display="none";
+		}
+	}
+}
+//隐藏所有二级栏目
+function clear_a(strid)
+{
+
+	//var menus=document.getElementById("menu_"+i);
+	var shot_menus=document.getElementById("shot_menu_"+strid);
+	shot_menus.style.display="none";
+	//alert("xxx");
+}
+function show_news(strid)
+{
+	var index_list_1=document.getElementById("index_list_1");
+	var index_list_2=document.getElementById("index_list_2");
+	
+	var index_list_s_1=document.getElementById("index_list_s_1");
+	var index_list_s_2=document.getElementById("index_list_s_2");
+	
+	if(strid==1)
+	{
+		index_list_1.style.display="";
+		index_list_2.style.display="none";
+		index_list_s_1.className="index_news_1_a_sel";
+		index_list_s_2.className="index_news_1_a_none";
+	}
+	else
+	{
+		index_list_1.style.display="none";
+		index_list_2.style.display="";
+		index_list_s_1.className="index_news_1_a_none";
+		index_list_s_2.className="index_news_1_a_sel";
+	}
+}
+</script>
+
+<link rel="stylesheet" href="css/about.css" type="text/css"  />
+
+
+	<script type="text/javascript" src="jsx/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="jsx/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="jsx/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<!--<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+			$("a#example1").fancybox();
+
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a#example3").fancybox({
+				'transitionIn'	: 'none',
+				'transitionOut'	: 'none'	
+			});
+
+			$("a#example4").fancybox({
+				'opacity'		: true,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'none'
+			});
+
+			$("a#example5").fancybox();
+
+			$("a#example6").fancybox({
+				'titlePosition'		: 'outside',
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.9
+			});
+
+			$("a#example7").fancybox({
+				'titlePosition'	: 'inside'
+			});
+
+			$("a#example8").fancybox({
+				'titlePosition'	: 'over'
+			});
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			/*
+			*   Examples - various
+			*/
+
+			$("#various1").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+
+			$("#various2").fancybox();
+
+			$("#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+
+			$("#various4").fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+		});
+	</script>-->
+    
+    
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style_2.css" type="text/css" media="screen" />
+    
+    
+
+
+</head>
+
+<body>
+
+
+<div class="index_top">
+	<div class="index_top_1">
+    	<div class="index_top_1_c">
+       	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="82%" align="right" valign="top">
+                
+				  <div id="divselect">
+                   	<cite>English</cite>
+                   	<ul>
+                    	<li><a href="/en/index.asp" selectid="3">English</a></li>
+                   	  	<li><a href="/index.asp" selectid="1">中文</a></li>
+              		</ul>
+                   </div>
+                	<div class="clear"></div>
+                </td>
+                <td width="18%" align="left" valign="top">
+    			<div class="index_sel">
+                	<input onclick="selsss()" class="index_sel_bt"  type="button" name="button" id="button" value="" />
+                	<input class="index_sel_input" type="text" name="index_sel" id="index_sel" />
+<script type="text/javascript">
+document.onkeydown=function(event){
+	var e = event || window.event || arguments.callee.caller.arguments[0];
+	if(e && e.keyCode==13){ 
+		var index_sel= document.getElementById("index_sel");
+		if(index_sel.value=="")
+		{
+			//alert("搜索内容不能为空！");
+			//return;
+		}
+		//window.location.href="search_news.asp?keywords="+index_sel.value;
+	}
+}
+
+function selsss()
+{
+	var index_sel= document.getElementById("index_sel");
+		if(index_sel.value=="")
+		{
+			alert("搜索内容不能为空！");
+			return;
+		}
+		window.location.href="search_product_s_2.asp?keywords="+index_sel.value;
+}
+
+</script>   
+                </div>
+                </td>
+            </tr>
+            </table>
+        </div>
+    </div>
+    <div class="index_top_2">
+    	<div class="index_menu">
+        	<div class="index_menu_1">
+           	  <table  border="0" cellspacing="0" cellpadding="0">
+                  <tr>                                                                    
+                    <td align="left" valign="top"><div onmouseover="menu(1)" class="menu_a"><a id="menu_1" style="" href="index.asp">首&nbsp;&nbsp;页</a></div></td>
+                    <td align="center" valign="top"><div class="menu_line"><img src="images/menu_line.jpg" alt="" /></div></td>
+                    <td align="left" valign="top"><div onmouseover="menu(2)" class="menu_b"><a id="menu_2" href="about.asp?bid=197&cid=198"><span >股份</span>公司</a></div></td>
+                    <td align="center" valign="top"><div class="menu_line"><img src="images/menu_line.jpg" alt="" /></div></td>
+                    <td align="left" valign="top"><div onmouseover="menu(3)" class="menu_b"><a id="menu_3" href="news.asp?bid=164&cid=166"><span>新闻</span>中心</a></div></td>
+                    <td align="center" valign="top"><div class="menu_line"><img src="images/menu_line.jpg" alt="" /></div></td>
+                    <td align="left" valign="top"><div onmouseover="menu(4)" class="menu_b"><a id="menu_4" href="product.asp?bid=412&cid=413"><span>质保</span>体系</a></div></td>
+                    <td align="center" valign="top"><div class="menu_line"><img src="images/menu_line.jpg" alt="" /></div></td>
+                    <td align="left" valign="top"><div onmouseover="menu(5)" class="menu_b"><a id="menu_5" href="about.asp?bid=361&cid=362"><span>营销</span>服务</a></div></td>
+                    <td align="center" valign="top"><div class="menu_line"><img src="images/menu_line.jpg" alt="" /></div></td>
+                    <td align="left" valign="top"><div onmouseover="menu(6)" class="menu_b"><a id="menu_6" href="product_s_2.asp?bid=414&cid=432"><span>产品</span>中心</a></div></td>
+                    <td align="center" valign="top"><div class="menu_line"><img src="images/menu_line.jpg" alt="" /></div></td>
+                    <td align="left" valign="top"><div onmouseover="menu(7)" class="menu_b"><a id="menu_7" href="news.asp?bid=196&cid=197"><span>投资者</span>关系</a></div></td>
+                    <td align="center" valign="top"><div class="menu_line"><img src="images/menu_line.jpg" alt="" /></div></td>
+                    <td align="left" valign="top"><div onmouseover="menu(8)" class="menu_b"><a id="menu_8" href="job.asp"><span>人才</span>招聘</a></div></td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="index_top_3">
+    
+    
+    	<div id="shot_menu_1" style=" display:none;">
+    	
+        </div>
+        
+        <div id="shot_menu_2" style="padding:0px 0px 0px 100px;">
+    	<a href="about.asp?bid=197&cid=198">公司简介</a><a href="about.asp?bid=365&cid=366">子公司介绍</a><a href="news.asp?bid=200&cid=202">企业文化</a><a href="about.asp?bid=310&cid=311">组织机构</a><a href="about.asp?bid=357&cid=374">技术研发</a><a href="product.asp?bid=410&cid=411">公司荣誉</a><a href="about.asp?bid=359&cid=360">联系我们</a><a href="feedback2.asp?bid=197&feed_2=1">员工信箱</a><a href="about.asp?bid=376&cid=377">大西洋网站免责声明</a>
+        </div>
+        
+        <div id="shot_menu_3" style="padding:0px 0px 0px 210px; display:none;">
+    	<a href="news.asp?bid=164&cid=166">行业动态</a><a href="news.asp?bid=192&cid=193">公司新闻</a><a style="" href="news.asp?bid=194&cid=195">公司公告</a>
+        </div>
+        
+        <div id="shot_menu_4" style="padding:0px 0px 0px 330px; display:none;">
+
+    	<a href="product.asp?bid=412&cid=413">国际认证</a>
+
+    	<a href="product.asp?bid=412&cid=427">ISO质量认证</a>
+ 
+
+        </div>
+        
+        <div id="shot_menu_5" style="padding:0px 0px 0px 420px; display:none;">
+    	<a href="about.asp?bid=361&cid=362">国内销售网络</a><a href="about.asp?bid=363&cid=364">国外销售网络</a><a href="feedback.asp?feed=1">客户反馈</a>
+        </div>
+        
+        <div id="shot_menu_6" style="padding:0px 0px 0px 550px; display:none;">
+    	<a href="product_s_2.asp?bid=414&cid=432">焊接材料</a><a href="product_s_2.asp?bid=448&cid=449">其他产品</a><a href="product_s_2.asp?bid=492&cid=493">产品应用</a>
+        </div>
+        
+        <div id="shot_menu_7" style="padding:0px 0px 0px 715px; display:none;">
+    	<a href="news.asp?bid=196&cid=197">投资者关系</a>
+        </div>
+        
+        <div id="shot_menu_8" style="padding:0px 40px 0px 0px; display:none; text-align:right;">
+    	<a href="job.asp">社会招聘</a><a href="job_submit_self.asp">自我推荐</a>
+        </div>
+        
+        
+        
+    </div>
+
+</div><div class="banner">
+<div id="wrapper">
+        <div id="slider-wrapper">
+            <div id="slider" class="nivoSlider">
+
+                <img src="/upfile/2014063031515439.jpg" alt="" title="" />
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="height"></div>
+
+
+
+<div class="ny_c_top">
+	<div class="ny_c_top_1">
+		<a href="index.asp">首 页</a> > 
+
+<a href="news.asp?bid=164&cid=166">新闻中心</a> 
+
+		> 公司公告
+
+
+	</div>
+</div>
+
+<div class="nys_top">
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="td_ny_left" align="left" valign="top">
+                <div class="ny_left_top_1">
+
+新闻中心
+
+
+             
+            </div>
+                </td>
+                <td align="left" valign="top">
+                <div class="ny_right_top_1">
+
+公司公告
+
+             
+</div>
+                </td>
+              </tr>
+            </table>
+</div>
+
+
+
+<div class="ny_cc">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="td_ny_left" align="left" valign="top">
+        <div class="ny_left">
+            
+            <div class="ny_list">
+
+
+                <a  href="news.asp?bid=164&cid=166"><div><img src="images/ny_p1.png" alt="" />行业动态</div></a>
+                <a  href="news.asp?bid=192&cid=193"><div><img src="images/ny_p1.png" alt="" />公司新闻</div></a>
+                <a style="" class="list_sel" href="news.asp?bid=194&cid=195"><div><img src="images/ny_p1.png" alt="" />公司公告</div></a>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+        </td>
+        <td align="left" valign="top">
+        <div class="ny_right">
+        
+
+
+
+
+
+<div>
+                  <div style="text-align:center; font-weight:bold; font-size:16px;">焊接产业园指挥中心植物墙</div>
+      <div style="text-align:center;">时间：2018-1-12 15:42:10</div>
+      <br />
+  <div style=" text-align:left;line-height:25px;  ">
+    <p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	招 标 文 件<span></span>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:84.0pt;">
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;招标文件编号：<u> <span>DGS-ZH-HT-ZB2018001&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal">
+	<u>&nbsp;</u>
+</p>
+<p class="MsoNormal" style="text-indent:84.0pt;">
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;项目编号<span>/</span>名称：<u>指挥中心植物墙<span></span></u>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoDate" style="margin-left:262.5pt;">
+	&nbsp;
+</p>
+<p class="MsoDate" align="center" style="margin-left:4.95pt;text-align:center;">
+	招标时间：<u><span> 2018</span>年<span>1</span>月 <span></span></u>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<b><br />
+</b> 
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>目<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>录<span></span></b>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	第一部分<span>&nbsp;&nbsp; </span>投标邀请<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	第二部分<span>&nbsp;&nbsp; </span>投标资料表<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	第三部分<span>&nbsp;&nbsp; </span>投标人须知<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:70.55pt;">
+	一、 说明<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:70.55pt;">
+	二、投标文件<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:70.55pt;">
+	三、投标文件的递交<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:70.55pt;">
+	四、开标与评标<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:70.0pt;">
+	五、授予合同<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	第四部分<span>&nbsp; </span>招标设备技术要求<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	第五部分<span>&nbsp; </span>附件<span></span>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>第一部分</b><b>&nbsp;&nbsp; </b><b>投标邀请<span></span></b>
+</p>
+<p class="MsoNormal" align="left">
+	&nbsp;&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	<u>四川大西洋焊接材料股份有限公司 </u>就<u>焊接产业园指挥中心植物墙</u>进行邀请招标，请贵单位按本招标文件的规定提交投标文件。<u><span></span></u>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1、项目名称：<u>焊接产业园</u><u>指挥中心植物墙</u>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2、项目内容：<u>指挥中心植物墙<span></span></u>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3、项目周期：<u>28</u><u>日</u>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	4、发标、现场考察、答疑及开标时间：详见《投标资料表》。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	5、递交投标文件截止时间、地点：详见《投标资料表》。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:161.0pt;">
+	招标人：<u>四川大西洋焊接材料股份有限公司</u>&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:161.0pt;">
+	技术答疑联系人：<u>马建（电话：<span>1389009178</span>）<span></span></u>
+</p>
+<p class="MsoNormal" style="text-indent:161.0pt;">
+	商务组联系人：<u>张珍玥<span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u>
+</p>
+<p class="MsoNormal" style="text-indent:161.0pt;">
+	联系电话：<u><span>0813-5102109/18095064879</span></u>
+</p>
+<p class="MsoNormal" style="text-indent:161.0pt;">
+	传真：<span>&nbsp;&nbsp; <u>0813-5101216</u></span>
+</p>
+<p class="MsoNormal" style="text-indent:161.0pt;">
+	E-Mail：<u>dxyzbb@163.com</u>
+</p>
+<p class="MsoNormal" style="text-indent:161.0pt;">
+	日<span>&nbsp;&nbsp;&nbsp; </span>期：<u><span>2018</span>年<span>1</span>月<span>12</span>日<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	第二部分<span>&nbsp;&nbsp; </span>投标资<a name="_GoBack"></a>料表<span></span>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border:none;">
+	<tbody>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">序号<span></span></span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">内<span>&nbsp;&nbsp;&nbsp; </span>容<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">说明与要求<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">1</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">工程<span>/</span>设备名称<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">指挥中心植物墙<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">2</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">建设<span>/</span>安装地点<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">大西洋焊接产业园<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">3</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">建设规模<span>/</span>设备台套<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">/</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">4</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">承包<span>/</span>安装方式<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-family:宋体;">制作、安装<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">5</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">质量<span>/</span>型号标准<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">植物墙高<span>4.5</span>米，宽<span>12</span>米，双面绿化相同，其他要求见附件报价清单及方案图<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">6</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">招标范围<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">国内<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">7</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">招标方式<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="left">
+					<span style="font-family:宋体;">邀请式招标<span>+</span>网上竞价。</span><span style="font-family:宋体;">招标方将在公司网站、中国采招网等网站发送招标公告，符合资质要求的投标方悦采网（必联网）进行竞争性报价。</span><span style="font-family:宋体;">投标方应按照附件报价清单进行报价，</span><span style="font-family:宋体;">网上竞价以报价总价为基准。</span><span style="font-family:宋体;"></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">8</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">建设<span>/</span>供货周期<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">28</span><span style="font-family:宋体;">个日历天<span style="background:yellow;"></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">9</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">资金来源<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">企业自筹<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">10</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">资格审查方式<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">资格预审，</span><span style="font-family:宋体;">投标人应具备相关资质，应提供相应资质文件复印件加盖公章，其余资质要求详见第三部分《投标人须知》</span><span style="font-family:宋体;"></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">11</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">投标有效期<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">2018</span><span style="font-family:宋体;">年<span>1</span>月<span>30</span>日截止<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">12</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">投标保证金额<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">无<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">13</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">踏勘现场<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">无<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">14</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">投标人的替代方案<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">无<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">15</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">投标文件份数<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">一份正本，一份副本，光盘一套（如有）。<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">16</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">投标文件提交地点及截止时间<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">请各投标人将纸质版投标文件邮寄到招标方并在悦采网（必联网）上进行网上竞价，投标文件应包含附件报价清单价格内容。<span></span></span>
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">网址：<span><a href="http://www.yuecai.com/">www.yuecai.com</a>,</span>客服电话：<span>400-0118-000</span></span>
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">时间<span>:&nbsp; 2018</span>年<span>1</span>月 <span>16&nbsp; </span>日<span>&nbsp; 14&nbsp; </span>时<span>30</span>分<span></span></span>
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">纸制版投标文件邮寄地址：四川省自贡市大安区马冲口街<span>2</span>号 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">联系人：张大华<span>&nbsp;&nbsp;&nbsp; </span>联系电话：<span>0813-513714&nbsp; </span></span>
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">邮编：<span>643010</span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">17</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">开标<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">由招标方确定<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">18</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">评标方法及标准<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">详见第三部分《投标人须知》<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">19</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">付款方式<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoPlainText" style="text-indent:21.0pt;">
+					<span style="line-height:150%;">买卖双方签字盖章后合同即生效，验收合格收到全额增值税专用发票后<u>10</u>日内，支付总价的<u>90%</u>；免费维护期三个月满<u>10</u>日内，支付合同总价的<u>5%</u>；其余<u>5%</u>款项为履约保证金，在合同履行完毕（包含但不限于卖方为买方开具发票、进行技术培训、处理质保期内的质量问题等需协助买方办理与合同相关的事务）后10日内付清。质保期一年。</span>
+				</p>
+				<p class="MsoPlainText" style="text-indent:21.0pt;">
+					<span style="line-height:150%;">付款形式：现金占30%，承兑汇票占70%。<b><span style="color:red;"></span></b></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="49" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">20</span>
+				</p>
+			</td>
+			<td width="154" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">特别提示<span></span></span>
+				</p>
+			</td>
+			<td width="357" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">报价含<span>17%</span>增值税；本招标项目招标方已进行委托设计，因此中标单位需向设计单位支付<span>4000</span>元设计费后，方可与招标方签订合同。<span></span></span>
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p class="MsoNormal">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	第三部分<span>&nbsp;&nbsp; </span>投标人须知<a name="_Toc42923333"></a><a name="_Toc71877701"></a><a name="_Toc123786822"></a><span></span>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;text-indent:27.55pt;">
+	<b>一、说明</b><b></b>
+</p>
+<h3 style="margin-left:40.95pt;text-align:justify;text-indent:-12.9pt;">
+	<a name="_Toc71877702"></a><a name="_Toc123786823"></a>1.资金来源
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1.1 本项目所需资金已经到位，招标人计划将资金的一部分用于支付本次招标后所签订的合同项下的款项。<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:42.05pt;text-indent:-14.0pt;">
+	1.2 本招标文件有关条款由招标人负责解释。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc123786824"></a><a name="_Toc42923335"></a><a name="_Toc71877703"></a>2.招标人<span></span>
+</h3>
+<p class="MsoNormal" style="margin-left:47.95pt;text-indent:-19.9pt;">
+	2.1 招标人及联系方式见投标邀请。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc71877705"></a><a name="_Toc42923337"></a><a name="_Toc123786826"></a>3.合格的投标人
+</h3>
+<p class="MsoBodyText" style="text-indent:28.0pt;">
+	3.1 投标人必须遵守《中华人民共和国招标投标法》的有关规定和其他相关的法律、法规、规章、条例及招标文件中的规定。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc42923338"></a><a name="_Toc71877706"></a><a name="_Toc123786827"></a>4.合格的货物和服务
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	4.1 投标人提供的所有货物必须是全新的货物，所涉及的技术、设计、货物、技术培训和技术服务应来自于中华人民共和国或与中华人民共和国有正常贸易往来的国家或地区。<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:.1pt;text-indent:28.0pt;">
+	4.2 国产的货物及其有关服务必须符合中华人民共和国的设计和制造生产的相关标准或行业标准。<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:.1pt;text-indent:28.0pt;">
+	4.3 投标人应保证招标单位在本项目招标过程中以及招标结束后在使用该货物或货物的任何一部分时，免受投标人或第三方提出的侵犯其专利权、商标权、著作权或其它知识产权的起诉。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc42923339"></a><a name="_Toc71877707"></a><a name="_Toc123786828"></a>5.投标费用
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	5.1 投标人在投标过程中的一切费用，不论中标与否，均由投标人自负。<span></span>
+</p>
+<h3 style="text-align:justify;text-indent:28.0pt;">
+	6<a name="_Toc42923351"></a><a name="_Toc123786841"></a><a name="_Toc71877719"></a>.投标保证金
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	6.1 投标人应按“投标资料表”规定的数额提交投标保证金，并作为其投标文件的一部分。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	6.2 投标保证金采用“投标资料表”要求的形式。投标保证金帐户见“投标资料表”。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	6.3 投标保证金是为了保护招标单位免遭因投标人的行为而蒙受损失。招标单位在因投标人的行为受到损害时可根据本须知第<span>6.6</span>条的规定没收投标人的投标保证金。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:21.0pt;">
+	6.4 凡没有根据本须知第<span>6.1</span>和<span>6.3</span>条的规定支付有效投标保证金的投标文件，招标人有权视为非响应性投标予以拒绝。
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	6.5 未中标的投标人的投标保证金，于中标结果公布后<u> 十四 </u>日内无息退还投标人。中标单位的投标保证金将在项目合同签订后无息退还。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	6.6下列任何情况之一发生时，投标保证金将被没收：<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:43.4pt;text-indent:-16.4pt;">
+	1)投标人在招标文件中规定的投标有效期内撤回其投标文件；<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:43.4pt;text-indent:-16.4pt;">
+	2)中标人在规定期限内未能根据本须知第<span>25</span>条规定签订合同；<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:43.4pt;text-indent:-16.4pt;">
+	3)投标人提供虚假投标文件或虚假补充文件的；<a name="_Toc123786834"></a><a name="_Toc42923344"></a><a name="_Toc71877712"></a><span></span>
+</p>
+<h2>
+	二、<span> </span>投标文件
+</h2>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc71877713"></a><a name="_Toc123786835"></a><a name="_Toc42923345"></a>7.投标的语言
+</h3>
+<p class="MsoNormal" style="margin-left:.1pt;text-indent:28.0pt;">
+	7.1 投标人提交的投标文件以及投标人与招标人就有关投标的所有来往函电均应使用中文书写。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc71877714"></a><a name="_Toc123786836"></a><a name="_Toc42923346"></a>8.投标文件构成
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	8.1 投标人编写的投标文件应包括下列内容：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1）投标文件包括：<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:54.0pt;">
+	投标函<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:54.0pt;">
+	投标人资质资料（包括但不限于：<span>1</span>、通过年检的营业执照副本，组织机构代码、税务登记证副本复印件；<span> 2</span>、企业质量认证复印件或产品质量保证体系；<span>3</span>、相关产品的企业生产标准等）<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:54.0pt;">
+	授权委托书<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:54.0pt;">
+	投标报价书<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2）招标文件要求的其他资料；<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc71877716"></a><a name="_Toc42923348"></a><a name="_Toc123786837"></a>9.投标书
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	9.1投标人应以招标文件指定的格式完整地填写招标文件中提供的《投标函》、《投标一览表》和《详细投标报价表》。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	9.2投标人递交的所有文件、资料不予退还。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc123786838"></a>10.投标报价和货币
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	10.1投标报价应包含招标文件所有明示、暗示的一切风险。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	10.2投标人的报价应当包含：自制件在单项综合报价中详细列出设计费、材料费、税收、合理利润；外购件要在单项综合报价中列出成本价、管理费、技术服务费等。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	10.3详细投标报价表的货物价格应按下列方式分开填写：<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:42.05pt;text-indent:-14.0pt;">
+	10.3.1从中华人民共和国境内提供的货物的报价应包括：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1）出厂的成本价、合理利润。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2）要向中华人民共和国政府缴纳的增值税和其他税。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3）货物运至最终目的地的运输、保险、伴随货物安装调试和交付以及技术服务的有关费用。<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:42.05pt;text-indent:-14.0pt;">
+	10.3.2从中华人民共和国境外提供的进口货物的报价应包括：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1）所供货物的全部进口成本的价格。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2）要向中华人民共和国政府缴纳的全部关税、增值税和其他税。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3）货物运至最终目的地的运输、保险、伴随货物安装调试和交付以及技术服务的有关费用。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	10.4投标人所报的投标价在合同执行过程中是固定不变的，不得以任何理由予以变更。任何包含价格调整要求的投标，将被认为是非响应性投标而予以拒绝。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc123786839"></a><a name="_Toc71877717"></a><a name="_Toc42923349"></a>11.证明投标人合格的文件
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	11.1投标人应提交证明其有资格参加投标和中标后有能力履行合同的文件，并作为其投标文件的一部分。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	11.2投标人提交的证明文件应是合法有效的。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	11.3投标人提交的资格证明文件应满足招标人的要求：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1）具有独立承担民事责任的能力； <span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2）具有良好的商业信誉和健全的财务会计制度； <span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3）具有履行合同所必需的设备和专业技术能力；<span> </span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	4）有依法缴纳税收和社会保障资金的良好记录；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	5）参加其他采购活动前三年内，在经营活动中没有重大违法违纪记录； <span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc42923350"></a><a name="_Toc71877718"></a><a name="_Toc123786840"></a>12.证明货物的合格性和符合招标文件规定的文件
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	12.1 投标人应提交证明文件证明其拟提供的合同项下的货物和服务的合格性符合招标文件规定。该证明文件作为投标文件的一部分。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	12.2 证明货物和服务与招标文件的要求相一致的文件，可以是文字资料、图纸和数据，它包括：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1)货物主要技术指标和性能的详细说明。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2)货物从招标单位开始使用至设备设计使用年限内正常、连续地使用所必须的备件和专用工具清单，包括备件、易损件和专用工具的货源及现行价格。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3）对照招标文件技术规格，逐条说明所提供货物和服务已对招标单位的技术规格做出了实质性的响应，或申明与技术规格条文的偏差和例外。特别对于有具体参数要求的指标，投标人必须提供所投货物的具体参数值。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc123786842"></a><a name="_Toc71877720"></a><a name="_Toc42923352"></a>13.投标有效期
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	13.1 投标应在“投标资料表”中规定的投标有效期内保持有效。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	13.2
+特殊情况下，在原投标有效期截止之前，招标人可要求投标人同意延长投标有效期。这种要求与答复均应以书面形式提交。投标人可拒绝招标人的这种要求，接受延长投标有效期的投标人将不会被要求和允许修正其投标文件。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc71877721"></a><a name="_Toc42923353"></a><a name="_Toc123786843"></a>14.投标文件的式样和签署
+</h3>
+<p class="MsoNormal" style="margin-left:42.05pt;text-indent:-14.0pt;">
+	14.1投标人应准备一份投标文件正本和一份投标文件副本。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	14.2投标文件需打印，并由法定代表人或授权代表在投标文件上签字，并加盖投标单位公章。授权代表须将法人授权委托书放在投标文件中。投标文件的副本可采用正本的复印件。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	14.3 投标文件中任何行间插字、涂改和增删之处应由投标单位加盖公章。<span></span>
+</p>
+<h2>
+	<a name="_Toc123786844"></a><a name="_Toc71877722"></a><a name="_Toc42923354"></a>三、投标文件的递交
+</h2>
+<h3 style="margin-left:40.95pt;text-align:justify;text-indent:-12.9pt;">
+	<a name="_Toc123786845"></a><a name="_Toc71877723"></a><a name="_Toc42923355"></a>15.投标文件的密封和标记
+</h3>
+<p class="MsoNormal" style="margin-left:.1pt;text-indent:28.0pt;">
+	15.1投标文件应密封在不透明的封装中。<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:.1pt;text-indent:28.0pt;">
+	15.2密封封装表面应注明《投标资料表》中指明的项目名称、招标编号。所有密封封装必须注明投标人名称并加盖公章。<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:.1pt;text-indent:28.0pt;">
+	15.3如果外层信封未按本须知第<span>15.1</span>、<span>2</span>条要求加写标记和密封，招标人对误投或过早启封概不负责。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	15.4投标文件未密封的，招标人将拒绝接收。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc71877724"></a><a name="_Toc123786846"></a><a name="_Toc42923356"></a>16.投标截止期
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	16.1招标人收到投标文件的时间应不迟于“投标资料表”中规定的投标截止时间。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	16.2招标人可以按本须知第<span>13</span>条规定，由于修改招标文件而决定延长投标截止期。在此情况下，招标人和投标人受投标截止期制约的所有权利和义务均应延长至新的投标截止期。<span></span>
+</p>
+<h3 style="margin-left:43.85pt;text-align:justify;text-indent:-12.9pt;">
+	<a name="_Toc71877725"></a><a name="_Toc42923357"></a><a name="_Toc123786847"></a>17.迟交的投标文件
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	17.1招标人将拒绝并退回在“投标资料表”规定的投标截止期后收到的任何投标文件。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc42923358"></a><a name="_Toc123786848"></a><a name="_Toc71877726"></a>18.投标文件的修改与撤回
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	18.1投标人在递交投标文件后，可以修改或撤回其投标文件，但投标人必须在规定的投标截止期之前将修改或撤回的书面通知递交到招标人。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	18.2在投标截止期之后，投标人不得对其投标文件做任何修改。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	18.3从投标截止期至投标有效期之间的这段时间内，投标人不得撤回其投标文件。<span></span>
+</p>
+<h2>
+	四、开标与竞标
+</h2>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	由招标人适时组织评标人员开标。投标资格审查无误后由招标人职能部门通知投标人进入竞标，经过竞标最终中标人，但不排除重新组织招标的可能。具体细则如下：<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc123786851"></a><a name="_Toc71877729"></a><a name="_Toc42923361"></a>19.符合性确认
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	19.1评标委员会应于开标之前首先将按照招标文件，对投标人的投标资格及实质上响应招标文件要求的投标进行符合性确认。出现各类带有争议性或不明确性问题均由评标委员会共同研究确定。若各评委意见不一致时，须经评标委员会全体人员独立表决并按少数服从多数的原则，形成书面意见<span>, </span>书面意见须经评标委员会全体人员签名确认并对所有评委具有约束力。评标委员会书面意见报送招标人招标领导小组决定，形成最终书面决议。经评标委员会确认具有有效投标资格的投标人不足<span>3</span>家时，招标人将有权决定是否重新组织招标。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	19.2开启标书前，经评标机构确认存在下列情况之一的投标人将被取消投标资格：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	1）投标文件未能于投标截止之前递交至指定地点；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	2）投标保证金未能按时足额按《投标资料表》规定提交；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	3）投标文件未密封。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	19.3开启标书后，经评标委员会确认有下列情况之一的为无效投标文件：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1）投标文件附件中未按要求经法人代表（或法人代表授权委托人）签署、加盖投标单位公章的；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2）投标文件不符合招标文件规定的报价、工期、质量标准、技术规格、技术标准或其它实质性要求； <span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3）投标文件未按招标文件规定格式编制，重要内容或关键字迹模糊不清；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	4）不符合设备外购件和自制件报价规定的；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	5）对材料清单中的单项投标报价超过市场公允价格<span>20%</span>的；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	6）投标文件中存在招标人不能接受的其它条件或提供虚假文件；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	19.4无效投标文件将被作为废标处理。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc71877730"></a><a name="_Toc42923362"></a><a name="_Toc123786852"></a>20.投标文件的澄清
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	20.1开标以后，招标人可要求投标人对其投标文件进行澄清，但不得寻求、提供或允许对投标价格等实质性内容做任何更改。有关澄清的要求和答复均应以书面形式提交。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	20.2 开标时，投标文件出现下列情形之一的，应当作为无效投标文件，不得进入评标：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1) 投标文件未按照本须知第<span>15</span>条的要求装订、密封和标记的；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2) 投标文件的关键内容字迹模糊、无法辨认的；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3) 投标人未按照招标文件的要求提供投标保证金的；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	4) 投标文件提交的资格资料名称、名字与资格预审申请书所提供的资格资料不符或在投标中弄虚作假或与其他投标单位串通投标的；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	5) 两个以上的投标报价的；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	6) 未经法定代表人或授权委托人签署和未加盖投标人公章的；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	7) 投标截止时间以后送达的投标文件。<span></span>
+</p>
+<h3 style="text-align:justify;text-indent:28.0pt;">
+	<a name="_Toc123786855"></a>21.竞标办法及原则<span></span>
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	21.1经评标委员会确认具有有效投标资格的投标人，由招标人通知投标人在悦采网（必联网）上进行竞争性报价，招标人根据竞价结果综合评定确定中标人。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	21.2除技术原因外，投标人没有在招标人规定时间内参与网上竞价的，招标人有权取消投标人投标资格，<em>投标人承担因此可能给招标人造成的其它损失。</em>参与网上竞价的投标人不足3家时招标人将有权决定是否重新组织招标。<span></span>
+</p>
+<h2>
+	五、授予合同<span></span>
+</h2>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc454701400"></a><a name="_Toc458262633"></a><a name="_Toc123786858"></a><a name="_Toc71877737"></a><a name="_Toc42923369"></a><a name="_Toc32977089"></a><a name="_Toc500861016"></a><a name="_Toc491658670"></a><a name="_Toc467987842"></a><a name="_Toc467236759"></a><a name="_Toc480021072"></a><a name="_Toc480020276"></a><a name="_Toc480010727"></a><a name="_Toc479991601"></a><a name="_Toc468606048"></a><a name="_Toc468157555"></a>22.授标及废除授标
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	22.1招标人将把项目合同授予确定的中标人。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	22.2中标通知书发出之前及发出之后，招标人若查实中标人存在下列行为之一，均可废除授标：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	1）经查实弄虚作假或与其他投标人串通骗取中标；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	2）因中标人过错而未能按照规定与招标人签订买卖合同；<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	3）法律法规规定的其它明显损害招标人利益和社会公共利益的情形。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	22.3中标人因上述原因被废除授标，招标人可以在剩余的中标候选人中确定中标人，或重新招标。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	<em>22.4</em><em>中标人</em>因上述原因<em>被废除授标，至少将要承担下列违约责任：<span></span></em>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<em>1</em><em>）将被没收全部投标保证金。<span></span></em>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<em>2</em><em>）重新确定中标人的中标价若高出弃标人的中标价，其差价部分视为弃标人违约给招标人造成的损失，弃标人应予赔偿。<span></span></em>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<em>3</em><em>）承担因此可能给招标人造成的其它损失。<span></span></em>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc479991605"></a><a name="_Toc468606052"></a><a name="_Toc468157559"></a><a name="_Toc467987846"></a><a name="_Toc467236763"></a><a name="_Toc458262635"></a><a name="_Toc454701402"></a><a name="_Toc32977091"></a><a name="_Toc500861020"></a><a name="_Toc491658674"></a><a name="_Toc480021076"></a><a name="_Toc480020280"></a><a name="_Toc480010731"></a><a name="_Toc71877740"></a><a name="_Toc42923372"></a><a name="_Toc123786859"></a>23.中标通知书
+</h3>
+<p class="MsoNormal" style="margin-left:42.05pt;text-indent:-14.0pt;">
+	23.1中标人确定后，招标人向中标人发出中标通知书。<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:42.05pt;text-indent:-14.0pt;">
+	23.2中标通知书是合同的组成部分。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc71877741"></a><a name="_Toc42923373"></a><a name="_Toc123786860"></a>24.设备设计、制造和安装方案的优化
+</h3>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	24.1中标结果确定后，中标人应当与招标人充分进行沟通协商，按招标文件要求进行项目设计。如为充分满足招标文件的要求而对中标方案提出的合理变更或优化设计，中标人须在不提高报价的基础上完全接受。<span></span>
+</p>
+<h3 style="margin-left:47.95pt;text-align:justify;text-indent:-19.9pt;">
+	<a name="_Toc123786861"></a>25.签订合同
+</h3>
+<p class="MsoNormal" style="margin-left:37.45pt;text-indent:-9.4pt;">
+	25.1中标人应按中标通知书指定的时间、地点与招标单位签订合同。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	25.2中标通知书、招标文件、中标人的投标文件及其澄清文件等，均为签订合同的依据。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	25.3招标人和中标人若无法按中标通知书规定签订买卖合同时，应协商解决。协商无效时应按相关法律法规解决。<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:36.75pt;text-indent:-8.7pt;">
+	&nbsp;
+</p>
+<h1>
+	<b>&nbsp;</b>
+</h1>
+<h1>
+	<b>&nbsp;</b>
+</h1>
+<h1>
+	<b>&nbsp;</b>
+</h1>
+<h1>
+	<b>&nbsp;</b>
+</h1>
+<h1>
+	<b>&nbsp;</b>
+</h1>
+<h1>
+	<b>&nbsp;</b>
+</h1>
+<h1>
+	<b>&nbsp;</b>
+</h1>
+<h1>
+	<b>&nbsp;</b>
+</h1>
+<h1>
+	<b>&nbsp;</b>
+</h1>
+<h1>
+	<a name="_Toc71877783"></a><a name="_Toc42923377"></a><a name="_Toc123786879"></a>&nbsp;
+</h1>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<h1>
+	<b>第四部分<span>&nbsp; </span>招标技术要求<span></span></b>
+</h1>
+<p class="MsoNormal">
+	见附件
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<h1>
+	<b>第五部分<span>&nbsp; </span>附件<span></span></b>
+</h1>
+<p class="MsoNormal">
+	附件一：投标函
+</p>
+<p class="MsoNormal">
+	附件二：法定代表人资格证明书
+</p>
+<p class="MsoNormal">
+	附件三：法定代表人授权书
+</p>
+<p class="MsoNormal">
+	附件四：货物说明一览表
+</p>
+<p class="MsoNormal">
+	附件五：技术规格偏离表
+</p>
+<p class="MsoNormal">
+	附件六：售后服务计划
+</p>
+<p class="MsoNormal">
+	附件七：投标一览表
+</p>
+<p class="MsoNormal">
+	附件八：设备详细投标报价表
+</p>
+<p class="MsoNormal">
+	附件九：买卖合同范本
+</p>
+<h2 style="text-align:justify;">
+	<a name="_Toc123786880"></a><a name="_Toc65998015"></a><a name="_Toc90779595"></a><a name="_Toc480020285"></a><a name="_Toc480010736"></a><a name="_Toc468606057"></a><a name="_Toc468157564"></a><a name="_Toc6727971"></a><a name="_Toc479991610"></a><a name="_Toc454701405"></a><a name="_Toc467987851"></a><a name="_Toc467236768"></a><a name="_Toc480021081"></a><a name="_Toc458262638"></a><a name="_Toc6397150"></a><a name="_Toc500861026"></a><a name="_Toc491658679"></a>&nbsp;
+</h2>
+<h2 style="text-align:justify;">
+	&nbsp;
+</h2>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<h2 style="text-align:justify;">
+	<a name="OLE_LINK4"></a><a name="OLE_LINK3"></a>附件一：投 标 函
+</h2>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	致：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>（招标单位）</u>：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	根据贵方为<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>项目的投标邀请（招标编号：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>），签字代表<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u>（全名、职务）经正式授权并代表投标人<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</span>（投标人名称、地址）<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>提交下述文件正本一份副本<u><span>&nbsp;&nbsp;&nbsp; </span></u>份：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	第一部分：商务技术标书<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	投标函<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:21.0pt;text-indent:7.0pt;">
+	法定代表人资格证明书（现场查验原件）<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:21.0pt;text-indent:7.0pt;">
+	法定代表人授权书和身份证（现场查验原件）<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:21.0pt;text-indent:7.0pt;">
+	货物说明一览表<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:21.0pt;text-indent:7.0pt;">
+	技术规格偏离表<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:21.0pt;text-indent:7.0pt;">
+	售后服务计划<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:21.0pt;text-indent:7.0pt;">
+	近三年类似业绩<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:21.0pt;">
+	&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </u>
+</p>
+<p class="MsoNormal" style="margin-left:21.0pt;">
+	&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </u>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	第二部分：经济价格标书<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	投标一览表<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:25.6pt;">
+	详细投标报价表<span></span>
+</p>
+<p class="MsoNormal" style="margin-left:37.5pt;text-indent:-12.35pt;">
+	据此函，签字代表宣布同意如下：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1.本次投标所报内容完全按照招标文件要求填报，所有内容都是真实、准确的。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2.投标人将按招标文件的规定履行全部合同责任和义务。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3.投标人已详细审查全部招标文件，包括修改文件（如有的话）以及全部参考资料和有关附件。我们完全理解并同意放弃对这方面有不明及误解的权利。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	4.本次投标自开标日起有效期为<span>20</span>个日历天。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	5.如果在规定的开标时间后，投标人在投标有效期内撤回投标，投标保证金将被贵方没收。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	6.投标人同意提供按照贵方可能要求与其投标有关的一切数据或资料，完全理解贵方不一定接受最低价的投标或收到的任何投标。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	7.与本投标有关的一切正式往来通讯请寄：<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	地址：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span>&nbsp;&nbsp;</span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	电话：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span>&nbsp;</span>传真：<u><span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span>&nbsp;&nbsp;</span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	投标人授权代表姓名、职务：<u><span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	投标人授权代表签字：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;&nbsp;</span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	投标人名称：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>（盖公章）</u><span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	开 户 行： <u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span>&nbsp;</span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	户<span>&nbsp;&nbsp;&nbsp; </span>名： <u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span>&nbsp;&nbsp;</span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	账 <span>&nbsp;&nbsp;&nbsp;</span>号： <u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span>&nbsp;&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	日期：<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;</span>年<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>月 <u><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></u>日<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<h2 style="text-align:justify;">
+	<a name="_Toc65998016"></a><a name="_Toc6727972"></a><a name="_Toc90779596"></a><a name="_Toc491658680"></a><a name="_Toc26066260"></a><a name="_Toc6397151"></a><a name="_Toc500861027"></a><a name="_Toc123786881"></a>附件二：法定代表人资格证明书
+</h2>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	单位名称：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	地址：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span></u>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	<u>&nbsp;</u>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	姓名：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;</span>性别：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;</span>年龄：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;</span>职务：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	身份证号码：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>，系 <u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>（<span>&nbsp; </span>投标单位名称）<span>&nbsp; </span></u>的法定代表人，参加<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </u><u>（项目名称）</u>采购招标（招标编号：<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>）的投标活动，签署投标文件、进行合同谈判、签署合同和处理与之有关的一切事务。<span></span>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	特此证明。<span></span>
+</p>
+<p class="MsoNormal" align="left">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	投标单位：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>（盖公章）<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	日期：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>年<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>月<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>日<span></span>
+</p>
+<br />
+<h2 style="text-align:justify;">
+	<a name="_Toc123786882"></a>附件三：法定代表人授权书
+</h2>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	本授权书声明：我<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>（姓名）系<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>（投标单位名称）的法定代表人，现授权<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>（单位名称）的<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>（姓名）为我公司代理人，以本公司的名义参加<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>（招标单位）</u>组织的<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </u>项目招标（招标编号：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>）的投标活动。代理人在开标、评标、合同谈判过程中所签署的一切文件和处理与之有关的一切事务，我均予以承认。本授权书自签署之日起生效，特此声明。<span></span>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	代理人无转移委托权。<span></span>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	特此委托。<span></span>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	代理人：<u><span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u>性别：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>年龄：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	单位：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>部门：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>职务：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	投标单位：（盖章）：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal" align="left" style="text-indent:30pt;">
+	法定代表人：（签字）：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	日期：<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>年<u><span>&nbsp;&nbsp;&nbsp; </span></u>月<u><span>&nbsp;&nbsp;&nbsp; </span></u>日<span></span>
+</p>
+<p class="MsoNormal">
+	注：投标人法定代表人参加投标的无须提供该委托书。<span></span>
+</p>
+<p class="MsoNormal">
+	<img width="542" height="220" src="file://C:/Users/ADMINI~1/AppData/Local/Temp/msohtml1/01/clip_image003.gif" />附：被授权人的身份证复印件：<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<h2 style="text-align:justify;">
+	<a name="_Toc123786884"></a>&nbsp;
+</h2>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<h2 style="text-align:justify;">
+	附件四：货物说明一览表<span></span>
+</h2>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	投标人名称：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;&nbsp;</span>招标编号：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span></u>
+</p>
+<p class="MsoNormal" style="text-indent:27.0pt;">
+	&nbsp;
+</p>
+<div align="center">
+	<table class="MsoNormalTable ke-zeroborder" border="0" cellspacing="0" cellpadding="0">
+		<tbody>
+			<tr>
+				<td width="47" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">序号<span></span></span>
+					</p>
+				</td>
+				<td width="121" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="93" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">1</span>
+					</p>
+				</td>
+				<td width="118" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">2</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">3</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">4</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">…<span></span></span>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="47" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">1</span>
+					</p>
+				</td>
+				<td width="121" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">货物名称<span></span></span>
+					</p>
+				</td>
+				<td width="93" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="118" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="47" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">2</span>
+					</p>
+				</td>
+				<td width="121" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">品牌<span></span></span>
+					</p>
+				</td>
+				<td width="93" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="118" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="47" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">3</span>
+					</p>
+				</td>
+				<td width="121" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">规格、型号<span></span></span>
+					</p>
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">及技术参数<span></span></span>
+					</p>
+				</td>
+				<td width="93" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="118" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="47" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">4</span>
+					</p>
+				</td>
+				<td width="121" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">单位<span></span></span>
+					</p>
+				</td>
+				<td width="93" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="118" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="47" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">5</span>
+					</p>
+				</td>
+				<td width="121" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">数量<span></span></span>
+					</p>
+				</td>
+				<td width="93" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="118" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="47" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">6</span>
+					</p>
+				</td>
+				<td width="121" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">产地<span></span></span>
+					</p>
+				</td>
+				<td width="93" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="118" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="47" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">7</span>
+					</p>
+				</td>
+				<td width="121" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">备注<span></span></span>
+					</p>
+				</td>
+				<td width="93" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="118" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+				<td width="97" style="border:solid windowtext 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-family:宋体;">&nbsp;</span>
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	注：必须附以下材料：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1.设备技术性能条件说明和有关资料，包括设备的样本（中文）、图片、产品技术性能说明书、系统软件操作简介等。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2.货物清单，包括备品备件、专用工具和软件。<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3.如本表格式内容不能满足需要，投标人可根据本表格格式自行划表填写，但必须体现以上内容。<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 投标人代表签字：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （盖公章）<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 日期：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>年<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>月<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>日<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<h2 style="text-align:justify;">
+	附件五：技术规格偏离表
+</h2>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	投标人名称：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>招标编号：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<table class="MsoNormalTable ke-zeroborder" border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td width="60" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">序号<span></span></span>
+				</p>
+			</td>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">货物名称<span></span></span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">招标规格<span></span></span>
+				</p>
+			</td>
+			<td width="120" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">投标规格<span></span></span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">偏离<span></span></span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">说明<span></span></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="60" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="120" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="60" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="120" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="60" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="120" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="60" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="120" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="60" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="120" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-size:12.0pt;line-height:150%;font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	注：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	对“偏离”一栏，填写“无偏离、正偏离、负偏离”。其中正偏离是指所投货物技术性能优于招标文件所规定的技术性能；负偏离是指所投货物技术性能低于招标文件所规定的技术性能。<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	投标人代表签字：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span></u>
+</p>
+<p class="MsoNormal">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+（盖公章）<span></span>
+</p>
+<p class="MsoNormal">
+	日期：<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>年<span>&nbsp;&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp;&nbsp; </span>日<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<h2 style="text-align:justify;">
+	<a name="_Toc123786886"></a>&nbsp;
+</h2>
+<h2 style="text-align:justify;">
+	附件六：售后服务计划
+</h2>
+<p class="MsoNormal">
+	<span>&nbsp;</span>
+</p>
+<h2 style="text-align:justify;">
+	投标人名称：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>招标编号：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;</span>
+</h2>
+<p class="MsoNormal" style="margin-left:26.9pt;">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="margin-left:26.9pt;">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	1.保修服务计划：质量保证期，维修机构名称、地址、联系方式，应急维修响应时间、生产商的技术支持等<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	2.违约责任：<span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:28.0pt;">
+	3.其他计划：<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	&nbsp;
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	投标人代表签字：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;（盖公章）<span></span>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	日期：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>年<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>月<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>日<b></b>
+</p>
+<p class="MsoNormal" style="text-indent:31.6pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.6pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<p class="MsoNormal" style="text-indent:31.5pt;">
+	<b>&nbsp;</b>
+</p>
+<h2 style="text-align:justify;">
+	<a name="_Toc123786888"></a>附件七：投标一览表
+</h2>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	投标人名称：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;&nbsp;</span>招标编号：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border:none;">
+	<tbody>
+		<tr>
+			<td width="163" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">设备名称<span></span></span>
+				</p>
+			</td>
+			<td width="456" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="163" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">投标总价<u><span></span></u></span>
+				</p>
+			</td>
+			<td width="456" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">大写）人民币<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span>
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">&nbsp;</span>
+				</p>
+				<p class="MsoNormal">
+					<span style="font-family:宋体;">（小写）￥：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="163" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">供货周期<span></span></span>
+				</p>
+			</td>
+			<td width="456" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<u><span style="font-family:宋体;">&nbsp;</span></u>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="163" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">备<span>&nbsp;&nbsp;&nbsp; </span>注<u><span></span></u></span>
+				</p>
+			</td>
+			<td width="456" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<u><span style="font-family:宋体;">&nbsp;</span></u>
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p class="MsoNormal">
+	<u>&nbsp;</u>
+</p>
+<p class="MsoNormal">
+	<u>&nbsp;</u>
+</p>
+<p class="MsoNormal">
+	<u>&nbsp;</u>
+</p>
+<p class="MsoNormal">
+	<u>&nbsp;</u>
+</p>
+<p class="MsoNormal">
+	投标人代表签字：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</span></u>
+</p>
+<p class="MsoNormal">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （盖公章）<span></span>
+</p>
+<p class="MsoNormal">
+	日期：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>年<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>月<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>日<u></u>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<h2 style="text-align:justify;">
+	<a name="_Toc123786889"></a><a name="_Toc90779597"></a><a name="_Toc65998017"></a><a name="_Toc26066261"></a><a name="_Toc6397152"></a><a name="_Toc6727973"></a>附件八：详细投标报价表
+</h2>
+<p class="MsoNormal" style="text-indent:10.5pt;">
+	投标人名称：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>招标编号：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span></span>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(单位：元<span>)</span>
+</p>
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border:none;">
+	<tbody>
+		<tr>
+			<td width="122" rowspan="5" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12.0pt;line-height:150%;font-family:仿宋_GB2312;">自 <span></span></span></b>
+				</p>
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12.0pt;line-height:150%;font-family:仿宋_GB2312;">制<span></span></span></b>
+				</p>
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12.0pt;line-height:150%;font-family:仿宋_GB2312;">件<span></span></span></b>
+				</p>
+			</td>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">生产厂家<span></span></span></b>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">规格型号<span></span></span></b>
+				</p>
+			</td>
+			<td width="74" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">质保周期<span></span></span></b>
+				</p>
+			</td>
+			<td width="141" colspan="2" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">单项综合报价<span></span></span></b>
+				</p>
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">（万元）<span></span></span></b>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">合价（万元）<span></span></span></b>
+				</p>
+			</td>
+			<td width="66" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12.0pt;line-height:150%;font-family:仿宋_GB2312;">交货时间<span></span></span></b>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="74" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="66" rowspan="10" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12.0pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="74" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="74" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="74" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="122" rowspan="5" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12.0pt;line-height:150%;font-family:仿宋_GB2312;">外 <span></span></span></b>
+				</p>
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12.0pt;line-height:150%;font-family:仿宋_GB2312;">购<span></span></span></b>
+				</p>
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12.0pt;line-height:150%;font-family:仿宋_GB2312;">件</span></b><span style="font-size:12.0pt;line-height:150%;font-family:仿宋_GB2312;"></span>
+				</p>
+			</td>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">厂家品牌<span></span></span></b>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">规格型号<span></span></span></b>
+				</p>
+			</td>
+			<td width="74" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">质保周期<span></span></span></b>
+				</p>
+			</td>
+			<td width="141" colspan="2" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">单项综合报价（元）</span></b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;"></span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">合价（元）</span></b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;"></span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="74" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="74" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="74" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="108" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="84" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="74" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="70" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+			<td width="96" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="230" colspan="2" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">投标总价（万元）<span></span></span></b>
+				</p>
+			</td>
+			<td width="394" colspan="5" valign="top" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-size:12pt;line-height:150%;font-family:仿宋_GB2312;">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p class="MsoNormal">
+	注：<span></span>
+</p>
+<p class="MsoNormal">
+	1. 自制件在单项综合报价中详细列出设计费、材料费、税收、合理利润；外购件要在单项综合报价中列出成本价、管理费、技术服务费等。
+</p>
+<p class="MsoNormal">
+	2．如果不提供详细投标报价，则在评审时将视为没有实质性响应招标文件。 <span></span>
+</p>
+<p class="MsoNormal">
+	3.如本表格式内容不能满足需要，投标人可根据本表格格式自行划表填写，但必须体现以上内容。<span></span>
+</p>
+<p class="MsoNormal">
+	投标人代表签字：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>（盖公章）<span></span>
+</p>
+<p class="MsoNormal">
+	日期：<u><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>年<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>月<u><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>日<a name="_Toc35342046"></a><a name="_Toc91392962"></a><a name="_Toc50864444"></a><span></span>
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p></div>
+    
+    
+    <div class="page" style="text-align:center;"><br />
+        <img src="images/rightico1.gif" />&nbsp;<a target="_parent" href="news_detail.asp?types=news_detail&id=1038&bid=194">下一条</a>
+        
+        </div>
+    
+      </div>
+
+
+
+
+
+
+
+        
+        </div>
+        </td>
+      </tr>
+    </table>
+</div>
+
+
+
+<div class="bottom">
+	<div class="bottom_1">
+		<div class="bottom_1_c">
+       	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="61%" align="left" valign="top">
+                <div class="bottom_1_c_a">
+                	<a href="about.asp?bid=363&cid=362">&nbsp;</a>
+                </div>
+                </td>
+                <td width="19%" align="left" valign="top">
+                	<div class="bottom_1_c_b">
+                	<a class="bottom_1_c_b" href="about.asp?bid=363&cid=364">&nbsp;</a>
+                    </div>
+                </td>
+                <td width="20%" align="left" valign="top">
+                	<div class="bottom_1_c_c">
+                	<a href="about.asp?bid=363&cid=364">&nbsp;</a>
+                    </div>
+                </td>
+              </tr>
+            </table>
+        </div>
+  </div>
+    <div class="bottom_2">
+    	<div class="bottom_2_1">
+       	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="left" valign="top">
+                <div class="bottom_2_1_a">
+                	<a href="about.asp?bid=197&cid=198">股份公司</a>|<a href="news.asp?bid=200&cid=202">企业文化</a>|<a href="product_s_2.asp?bid=414&cid=415">产品中心</a>|<a href="news.asp?bid=164&cid=166">新闻中心</a>|<a href="job.asp">人才招聘</a>|<a href="news.asp?bid=196&cid=197">投资者关系</a>|<a href="###">内部期刊</a>                </div>
+                <div class="bottom_2_1_s">
+                	<div>四川大西洋焊接材料股份有限公司 版权所有  TEL：0813-5102109    FAX：0813-5101216
+
+<a target="_blank" style="position:absolute;" href='http://www.scgswljg.gov.cn/iciaicweb/dzbscheck.do?
+
+method=change&id=51030020150930072072'><img style="height:30px;" alt='网络经济主体信息' border='0' 
+
+DRAGOVER='true' src='logosss.png' /></a>
+
+   
+                    
+                    </div>
+                    <div>COPYRIGHT 2008-2014 ASAWEB ALL RIGHT RESERVED. 蜀ICP备11014854号-1</div>
+                </div>                </td>
+                <td align="left" valign="top"><div style="padding:5px 0px 0px 0px;"><script src="https://kxlogo.knet.cn/seallogo.dll?sn=e11111751030003163307708&size=0"></script>
+</div></td>
+                <td align="left" valign="top">
+                <div class="bottom_2_1_b">
+                	<div class="bottom_2_1_b_a">股票代码600558 | 法律 | 认证</div>
+                    <div class="bottom_2_1_b_c">网络技术支持：大浪科技</div>
+                </div>                </td>
+            </tr>
+            </table>
+      </div>
+  </div>
+</div>
+ <div style="height:1px; overflow:hidden; font-size:1px; line-height:1px;">
+<div style="">
+友情链接：<a href="http://www.sxqcbl.com" target="_blank">乐山汽车玻璃</a>|<a href="http://www.lsjinshan.com/" target="_blank">异型钢</a>|<a href="http://www.lsmzhb.com/" target="_blank">脱硝设备</a>|<a href="http://www.henghuisy.com/" target="_blank">四川砂岩</a>|<a href="http://www.lshfjx.com/" target="_blank">岩石切割机</a>|<a href="http://www.sccryp.com" target="_blank">四川成人用品</a>|<a href="http://www.dal.cn" target="_blank">大浪科技</a>|<a href="http://www.lsxxzz.com" target="_blank">自动码坯机</a>|<a href="http://www.thbg.com.cn/" target="_blank">玻璃钢预制泵站</a>|<a href="http://www.hgjxgs.com" target="_blank">截煤机</a>|<a href="http://www.emslhm.com" target="_blank">重楼种植</a>
+</div>
+ </div>
+
+
+
+
+
+</body>
+</html>

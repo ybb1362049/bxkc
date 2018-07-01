@@ -1,0 +1,242 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>通知公告-政务公开-南充市农牧业信息网 </title>
+
+        <meta name="keywords" content="通知公告,政务公开," />
+
+        <meta name="description" content="" />
+
+        <link rel="stylesheet" type="text/css" href="/views/default/ui/v1.css" />
+
+        <script type="text/javascript">var sitepath = '/index.php';</script>
+
+        <script type="text/javascript" src="/views/admin/js/jquery.min.js"></script>
+
+        <script type="text/javascript" src="/views/default/js/header.js"></script>
+
+        <script type="text/javascript" src="/views/default/js/jquery.autocomplete.js"></script>
+		<script type="text/javascript" src="/views/default/js/home.js"></script>
+
+        <!--[if IE 6]>
+
+        <script src="/views/default/js/iepng.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+
+           EvPNG.fix('div, ul, img, li, input'); 
+
+        </script>
+
+        <![endif]-->
+
+    </head>
+
+    <body >
+
+        <!--header begin-->
+
+        <div id="banner">
+
+            <div class="zone" style="text-align: right;padding: 10px ;background: none">
+			 <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.ncagri.gov.cn');" href="javascript:void(0)">设为首页</a> 
+            <a onclick="window.external.AddFavorite(window.location.href,window.document.title);" href="javascript:void(0)">加入收藏</a>			
+			<script type="text/javascript" src="/index.php?c=api&a=user"></script></div>
+
+        </div>
+
+        <div class="zone" id="nav">
+
+            <div id="nav-top" class="">
+
+                <div id="nav-top-right" >
+
+                    <!-- <a href="http://www.ncxdny.com/" target="_blank">国家级现代农业示范区</a> -->
+
+                </div>
+
+                <a href="/">首页</a>|
+
+                <a href="/index.php?c=content&a=list&catid=1">政务公开</a>|                                
+
+                <a href="/index.php?c=content&a=list&catid=18">新闻动态</a>|                                
+
+                <a href="/index.php?c=content&a=list&catid=24">市场频道</a>|                                
+
+                <a href="/index.php?c=content&a=list&catid=36">专题报道</a>|                                
+
+                <a href="/index.php?c=content&a=list&catid=30">技术服务</a>| 
+                                               
+                
+                <!-- <a href="/index.php?c=content&a=list&catid=42">三新技术</a>|   -->          
+
+                <!-- <a href="/index.php?c=content&a=list&catid=46">供求信息</a>| -->
+				<a href="/index.php?c=content&a=list&catid=61">法治政府</a>| 
+				 <a href="/index.php?c=content&a=list&catid=70">农机购置补贴</a>| 
+				 <a href="/index.php?c=content&a=list&catid=71">两学一做</a>| 
+				<a href="http://www.ncxdny.com/" target="_blank" style="font-weight:normal">国家级现代农业示范区</a>
+
+            </div>
+
+            <div id="nav-bottom" >
+
+                <div id="search">
+
+                    <iframe width="280" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=34&icon=1&num=3&py=nanchong"></iframe>
+
+                </div>
+
+                <div id="links" >
+
+                    区县站点：<a href="http://www.sqqnmyj.com/" target="_blank">顺庆</a> <a href="http://www.gpnm.cn/" target="_blank">高坪</a> <a href="http://www.jlnyj.gov.cn/" target="_blank">嘉陵</a> <a href="http://www.lznyw.com/" target="_blank">阆中</a> <a href="http://www.xcagri.com/" target="_blank">西充</a> <a href="http://www.nbnongye.gov.cn/" target="_blank">南部</a> 蓬安 营山 <a href="http://www.scyl.agri.gov.cn/" target="_blank">仪陇</a>
+
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+<div class="zone">    
+    <div style="width: 200px ;float: left ;">
+
+
+        <div class="inner" style="border-bottom: 0">
+            
+            <div class="txt-btn"><a href="/index.php?c=content&a=list&catid=2">通知公告</a></div>                   
+            
+            <div class="txt-btn"><a href="/index.php?c=content&a=list&catid=3">机构设置</a></div>                   
+            
+            <div class="txt-btn"><a href="/index.php?c=content&a=list&catid=4">政策法规</a></div>                   
+            
+            <div class="txt-btn"><a href="/index.php?c=content&a=list&catid=5">行政审批</a></div>                   
+            
+            <div class="txt-btn"><a href="/index.php?c=content&a=list&catid=17">党建廉政</a></div>                   
+            
+            <div class="txt-btn"><a href="/index.php?c=content&a=list&catid=49">办事指南</a></div>                   
+            
+        </div>
+
+
+    </div>
+    <div style="width: 735px ;float: left ; margin-left: 15px ; ">
+
+
+    <div class="navigation">
+    您当前位置：<a  href="/">首页</a> >> <a href="/index.php?c=content&a=list&catid=1" title="政务公开">政务公开</a> &gt;&gt;&nbsp;&nbsp;<a href="/index.php?c=content&a=list&catid=2" title="通知公告">通知公告</a><!--栏目面包屑导航，参考函数教程-->
+    </div>
+
+
+        <ul class="list">
+            
+            <li><em>2017-12-15</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3384">南充市农牧业局关于2017年度政府信息公开工作的自查报告</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-12-13</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3381">南充市水产站鱼种采购招标公告</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-12-13</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3380">关于推荐永久基本农田划定工作先进单位及先进个人的公示</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-12-01</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3387">关于《关于推进农场改革发展的实施意见》(代拟稿)的公示</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-11-08</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3331">2017年侵权假冒行政处罚案件信息公开情况表</a></li>
+            <li class="page-list" style="background:none"></li>
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-22</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3299">关于2017年省级畜禽养殖标准化示范场 考核验收结果的公示</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-21</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3295">关于公开征求《关于完善农村土地所有权承包权经营权分置办法的实施意见（征求意见稿）》社会公众意见的通告</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-21</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3294">关于公开征求《关于稳步推进农村集体产权制度改革的实施意见（征求意见稿）》社会公众意见的通告</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-19</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3284">关于四川省2017年部分品目农业机械购置补贴额一览表的通告</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-14</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3265">南充市农牧业局关于中央环保第五督察组交办举报案件办理的情况公开</a></li>
+            <li class="page-list" style="background:none"></li>
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-13</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3264">四川省南充市群众信访举报转办和边督边改公开情况一览表</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-13</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3263">南充市农牧业局关于中央环保第五督察组交办举报案件办理的情况公开</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-12</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3251">南充市农牧业局关于中央环保第五督察组交办举报案件办理的情况公开</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-11</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3239">四川省南充市群众信访举报转办和边督边改公开情况一览表</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-08</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3231">南充市农牧业局关于中央环保第五督察组交办举报案件办理的情况公开</a></li>
+            <li class="page-list" style="background:none"></li>
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-07</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3221">南充市农牧业局关于中央环保第五督察组交办举报案件办理的情况公开</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-06</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3198">四川省南充市群众信访举报转办和边督边改公开情况一览表</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-06</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3197">南充市农牧业局关于中央环保第五督察组交办举报案件办理的情况公开</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-05</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3190">南充市农牧业局关于中央环保第五督察组交办举报案件办理的情况公开</a></li>
+            
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+            <li><em>2017-09-04</em> <a  target="_blank" href="/index.php?c=content&a=show&id=3189">四川省南充市群众信访举报转办和边督边改公开情况一览表</a></li>
+            <li class="page-list" style="background:none"></li>
+            <!--这里的$key是list循环控制变量，($key+1)%5==0表示每5行加一段分行代码-->
+            
+        </ul>
+        <div class="listpage" style="padding-left:10px;"><div id="pages"><a>共245条</a><span>1</span> <a href="/index.php?c=content&a=list&catid=2&page=2">2</a><a href="/index.php?c=content&a=list&catid=2&page=3">3</a><a href="/index.php?c=content&a=list&catid=2&page=4">4</a><a href="/index.php?c=content&a=list&catid=2&page=5">5</a><a href="/index.php?c=content&a=list&catid=2&page=6">6</a><a href="/index.php?c=content&a=list&catid=2&page=7">7</a><a href="/index.php?c=content&a=list&catid=2&page=2">下一页</a><a href="/index.php?c=content&a=list&catid=2&page=13">最末页</a></div></div>
+    </div>
+
+
+    <div style="clear: left"></div>
+</div>
+
+
+<div class="zone">
+    <div id="footer" >
+		<div style="float:right">
+			<script id="_jiucuo_" sitecode='5113000041' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+		</div>
+        <p>主办单位：四川省南充市农牧业局    服务热线：0817-2289110    E-mail：ncsnmyj@126.com</p>      
+        <p>COPYRIGHT 2011 ALL RIGHT RESERVED    蜀ICP备 05008225 号</p>
+
+    </div>
+</div>
+</body>
+</html>
